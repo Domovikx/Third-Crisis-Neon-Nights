@@ -1,0 +1,23 @@
+# Game files
+*.exe
+*.dll
+
+# Unity/BepInEx
+Third\ Crisis\ Neon\ Nights_Data/
+MonoBleedingEdge/
+BepInEx/core/
+BepInEx/plugins/
+BepInEx/cache/
+BepInEx/patchers/
+
+# Config
+doorstop_config.ini
+.doorstop_version
+changelog.txt
+BepInEx/config/BepInEx.cfg
+
+# Logs
+BepInEx/LogOutput.log
+
+# Install script temp
+.install_temp/
