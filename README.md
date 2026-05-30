@@ -3,40 +3,35 @@
 [![GitHub release](https://img.shields.io/github/v/release/Domovikx/Third-Crisis-Neon-Nights)](https://github.com/Domovikx/Third-Crisis-Neon-Nights/releases)
 [![License](https://img.shields.io/github/license/Domovikx/Third-Crisis-Neon-Nights)](LICENSE)
 
-Русский перевод и технический анализ игры **Third Crisis Neon Nights** (Anduo Games).
+Кастомный инструментарий локализации для игры **Third Crisis Neon Nights** (Anduo Games).
 
-## Быстрый старт
+В репозитории только наши файлы. Всё стороннее (BepInEx, XUnity, Doorstop, Mono)
+удалено и будет переустановлено с нуля.
+
+## Инструменты
 
 ```bash
-node install-translation.mjs   # Автоустановка BepInEx + XUnity Auto Translator
+npm run analyze         # Анализ файлов перевода
+npm run translate       # Пакетный перевод непереведённых строк
+npm run translate:dry   # Тестовый прогон (без сохранения)
+npm run find-strings    # Поиск английских строк в бинарниках
 ```
 
 ## Технический анализ
 
 ### Движок и стек
 
-| Компонент             | Версия                           | Примечание                    |
-| --------------------- | -------------------------------- | ----------------------------- |
-| **Unity**             | 2022.3.62f3                      | LTS релиз                     |
-| **Рендеринг**         | URP                              | Universal Render Pipeline     |
-| **C# Runtime**        | .NET 4.x (Mono)                  | IL2CPP не используется        |
-| **Мод-менеджер**      | BepInEx 5.4.23.5                 | Через Doorstop 4.5.0          |
-| **Перевод**           | XUnity Auto Translator 5.6.1     | Перехват UI-текста в рантайме |
-| **Редирект ресурсов** | XUnity Resource Redirector 2.1.0 | Подмена ассетов               |
+| Компонент | Версия | Примечание |
+|-----------|--------|-----------|
+| **Unity** | 2022.3.62f3 | LTS релиз |
+| **Рендеринг** | URP | Universal Render Pipeline |
+| **C# Runtime** | .NET 4.x (Mono) | IL2CPP не используется |
 
-### Инструменты перевода
-
-Проект использует **XUnity Auto Translator** — плагин для BepInEx, который перехватывает текстовые элементы Unity на лету:
-
-- **UGUI**, **NGUI**, **TextMeshPro**, **FairyGUI**, **UI Elements** — полная поддержка
-- **Батчинг** запросов к переводчику
-- **Кэширование** переводов в файлы
-- **Субституции / Препроцессоры / Постпроцессоры** — гибкая обработка текста
-- **Редирект текстур и других ресурсов**
-- **Горячие клавиши**: ALT+0 (интерфейс), ALT+T (вкл/выкл), ALT+R (перезагрузить), ALT+U (ручной перевод)
-
-Поддерживаемые переводчики (плагины в `BepInEx/plugins/XUnity.AutoTranslator/Translators/`):
-Google, GoogleTranslateV2, DeepL, Bing, Yandex, Baidu, Watson, Papago, Custom, ezTrans, LingoCloud, LecPowerTranslator
+**Сторонние инструменты (не в репозитории, были удалены):**
+- ~~BepInEx 5.4.23.5~~ — мод-менеджер (удалён)
+- ~~XUnity Auto Translator 5.6.1~~ — плагин перевода (удалён)
+- ~~XUnity Resource Redirector 2.1.0~~ — редирект ресурсов (удалён)
+- ~~Doorstop 4.5.0~~ — загрузчик сборок (удалён)
 
 ### Архитектура игры
 
@@ -101,7 +96,7 @@ Google, GoogleTranslateV2, DeepL, Bing, Yandex, Baidu, Watson, Papago, Custom, e
 - **PlayMaker FSM** — переменные и строки в визуальных скриптах
 - **MonoBehaviour** — кастомные скрипты NToolkit
 
-XUnity Auto Translator перехватывает их в рантайме и заменяет переведённым текстом.
+XUnity Auto Translator перехватывал их в рантайме — сейчас он удалён, будет написана своя система.
 
 ### Файлы перевода
 
@@ -118,48 +113,48 @@ BepInEx/Translation/ru/Text/
 ## Структура репозитория
 
 ```
+├── .opencode/                        # Инструменты opencode (наши)
+│   ├── agents/
+│   │   └── translate-expert.md        # Агент-переводчик
+│   ├── deprecated/                    # Устаревшие файлы
+│   │   └── README.md
+│   └── skills/                        # Скилы opencode
+│       ├── translate-analysis/{SKILL.md, analyze.mjs}
+│       ├── translate-batch/{SKILL.md, batch.mjs}
+│       └── find-strings/{SKILL.md, find.mjs}
 ├── .vscode/                          # Настройки VSCode
-│   ├── extensions.json               # Рекомендуемые расширения
-│   └── settings.json                 # Настройки редактора
-├── .opencode/                        # Инструменты opencode
-│   ├── config/
-│   │   └── project-context.md        # Полный контекст проекта
-│   ├── scripts/                      # MJS скрипты для работы с переводом
-│   │   ├── analyze-translation.mjs   # Анализ файлов перевода
-│   │   └── ...
-│   └── templates/                    # Шаблоны
-├── BepInEx/                          # Мод-менеджер и плагины
-│   ├── Translation/ru/Text/          # Переводы на русский
-│   ├── Translation/en/Text/          # Кэш оригиналов
-│   └── config/
-│       └── AutoTranslatorConfig.ini  # Конфиг переводчика
-├── install-translation.mjs           # Скрипт установки перевода
+│   ├── extensions.json
+│   └── settings.json
+├── BepInEx/Translation/ru/Text/      # Файлы перевода (будет создано)
+├── opencode.json                     # Конфиг opencode
+├── AGENTS.md                         # Правила проекта
+├── package.json                      # Скрипты
 └── README.md
 ```
 
 ## Разработка
 
-### Принцип работы перевода
+### Принцип работы перевода (в планах)
 
 1. BepInEx загружается через Doorstop при старте игры
-2. XUnity Auto Translator хукает TextMeshPro/UGUI/NGUI компоненты
+2. Кастомный плагин перехватывает TextMeshPro/UGUI компоненты
 3. Оригинальный английский текст перехватывается
-4. Текст отправляется в Google/DeepL API
-5. Перевод сохраняется в кэш (`_AutoGeneratedTranslations.txt`)
-6. При повторном появлении текста используется кэш
+4. Текст ищется в本地 кэше переводов
+5. Если перевода нет — отправляется в Google Translate API
+6. Перевод сохраняется в файл (`BepInEx/Translation/ru/Text/_AutoGeneratedTranslations.txt`)
+
+> Ранее использовался XUnity Auto Translator — удалён, будет заменён кастомным решением.
 
 ### Как улучшить перевод
 
 1. **Прямое редактирование**: `BepInEx/Translation/ru/Text/_AutoGeneratedTranslations.txt`
 2. **Субституции**: `_Substitutions.txt` для точной замены фраз
 3. **Pre/Post-processors**: для автоматической обработки текста
-4. **Редирект ресурсов**: для замены текстур с английским текстом
-5. **Свои плагины BepInEx**: для глубокой интеграции
 
 ## Требования
 
 - Windows 10/11 64-bit
-- [Node.js](https://nodejs.org/) 16+ (для install-translation.mjs)
+- [Node.js](https://nodejs.org/) 16+
 
 ## Лицензия
 

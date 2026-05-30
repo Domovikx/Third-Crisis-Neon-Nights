@@ -11,9 +11,7 @@
     "analyze": "node .opencode/skills/translate-analysis/analyze.mjs",
     "translate": "node .opencode/skills/translate-batch/batch.mjs",
     "translate:dry": "node .opencode/skills/translate-batch/batch.mjs --dry-run",
-    "find-strings": "node .opencode/skills/find-strings/find.mjs",
-    "install": "node install-translation.mjs",
-    "setup": "node install-translation.mjs"
+    "find-strings": "node .opencode/skills/find-strings/find.mjs"
   },
   "keywords": [
     "translation",

@@ -2,22 +2,22 @@
 *.exe
 *.dll
 
-# Unity/BepInEx
+# Unity game data (restored by Steam)
 Third\ Crisis\ Neon\ Nights_Data/
 MonoBleedingEdge/
-BepInEx/core/
-BepInEx/plugins/
-BepInEx/cache/
-BepInEx/patchers/
 
-# Config
+# BepInEx (mod loader, not part of the game)
+BepInEx/
+
+# Doorstop (injector)
 doorstop_config.ini
 .doorstop_version
+winhttp.dll
 changelog.txt
-BepInEx/config/BepInEx.cfg
-
-# Logs
-BepInEx/LogOutput.log
 
 # Install script temp
 .install_temp/
+
+# OS junk
+Thumbs.db
+.DS_Store
