@@ -1,29 +1,33 @@
 {
   "name": "third-crisis-neon-nights-translation",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "Русский перевод и инструменты локализации для Third Crisis Neon Nights",
+  "description": "Русский перевод Third Crisis: Neon Nights — кастомный инструментарий локализации (Unity serialized parser, NDJSON, extractor) на чистом Node.js",
   "engines": {
-    "node": ">=16"
+    "node": ">=22"
   },
   "type": "module",
   "scripts": {
-    "analyze": "node .opencode/skills/translate-analysis/analyze.mjs",
-    "translate": "node .opencode/skills/translate-batch/batch.mjs",
-    "translate:dry": "node .opencode/skills/translate-batch/batch.mjs --dry-run",
-    "find-strings": "node .opencode/skills/find-strings/find.mjs",
-    "parse-unity": "node .opencode/skills/parse-unity/parse.mjs",
-    "parse-unity:detailed": "node .opencode/skills/parse-unity/parse.mjs --detailed",
-    "parse-unity:level": "node .opencode/skills/parse-unity/parse.mjs --level",
+    "parse": "node .opencode/skills/parse-unity/parser.mjs",
+    "extract": "node .opencode/skills/extractor/extractor.mjs --detailed",
     "test:parse": "node .opencode/skills/parse-unity/test.mjs"
   },
   "keywords": [
-    "translation",
     "third-crisis",
     "neon-nights",
+    "anduo-games",
+    "russian-translation",
+    "русская-локализация",
+    "русификатор",
     "unity",
-    "russian",
-    "l10n"
+    "unity-serialized",
+    "playmaker",
+    "visual-novel",
+    "cyberpunk",
+    "ndjson",
+    "nodejs",
+    "l10n",
+    "i18n"
   ],
   "license": "MIT"
 }
