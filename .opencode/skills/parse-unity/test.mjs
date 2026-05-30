@@ -4,10 +4,12 @@ import { readFile, access } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { parseHeader, extractUnityStrings, extractRawStrings, parseUnityFile, parseRawFile } from './parser.mjs';
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..', '..', '..');
 const DATA_DIR = join(ROOT, 'Third Crisis Neon Nights_Data');
-const OUT_DIR = join(ROOT, 'output', 'raw');
+const OUT_DIR = join(ROOT, 'output', 'parser');
 
 let passed = 0;
 let failed = 0;
@@ -18,87 +20,101 @@ function assert(condition, msg) {
 }
 
 async function main() {
-  console.log('=== parse-unity tests ===\n');
+  console.log('=== parse-unity (parser only) tests ===\n');
 
   // Test 1: Header parsing
   console.log('1. Header parsing');
   const buf3 = await readFile(join(DATA_DIR, 'level3'));
+  const h3 = parseHeader(buf3);
 
-  assert(buf3[0] === 0 && buf3[7] === 0, 'new format marker (8 zeros)');
-  assert(buf3.readInt32BE(8) === 22, 'version = 22');
+  assert(h3.version === 22, 'version = 22');
+  assert(h3.newFormat === true, 'new format detected');
+  assert(h3.metadataSize > 500000 && h3.metadataSize < 2000000, `metadataSize plausible: ${h3.metadataSize}`);
+  assert(h3.dataOffset > h3.metadataSize, `dataOffset > metadataSize: ${h3.dataOffset} > ${h3.metadataSize}`);
+  assert(h3.dataOffset < h3.fileSize, `dataOffset < fileSize: ${h3.dataOffset} < ${h3.fileSize}`);
+  assert(h3.fileSize > 5000000, `fileSize > 5MB: ${h3.fileSize}`);
+  assert(h3.unityVersion === '2022.3.62f3', `unity version: ${h3.unityVersion}`);
 
-  const metaSize3 = buf3.readInt32BE(20);
-  const dataOff3 = buf3.readInt32BE(36);
-  const fileSize3 = buf3.readInt32BE(28);
-
-  assert(metaSize3 > 500000 && metaSize3 < 2000000, `metadataSize plausible: ${metaSize3}`);
-  assert(dataOff3 > metaSize3, `dataOffset > metadataSize: ${dataOff3} > ${metaSize3}`);
-  assert(dataOff3 < fileSize3, `dataOffset < fileSize: ${dataOff3} < ${fileSize3}`);
-  assert(fileSize3 > 5000000, `fileSize > 5MB: ${fileSize3}`);
-
-  const verStr = buf3.toString('utf-8', 48, 60).replace(/\0/g, '');
-  assert(verStr === '2022.3.62f3', `unity version: ${verStr}`);
-
-  // Test 2: Multiple level files have valid headers
+  // Test 2: Multiple level files
   console.log('\n2. Level file consistency');
-  let checkedFiles = 0;
   for (const f of ['level0', 'level3', 'level7', 'level11', 'level15']) {
     const buf = await readFile(join(DATA_DIR, f));
-    const dOff = buf.readInt32BE(36);
-    const mSize = buf.readInt32BE(20);
-    assert(dOff > 0 && dOff < buf.length, `${f}: valid dataOffset ${dOff}`);
-    assert(mSize > 0 && mSize < buf.length, `${f}: valid metadataSize ${mSize}`);
-    assert(buf.readInt32BE(8) === 22, `${f}: version 22`);
-    checkedFiles++;
-  }
-  assert(checkedFiles === 5, `checked ${checkedFiles} files`);
-
-  // Test 3: String extraction finds dialogue
-  console.log('\n3. String extraction quality');
-  const dataBuf3 = buf3.slice(dataOff3);
-
-  // Scan null-terminated strings
-  const strings = [];
-  let cur = '';
-  for (let i = 0; i < dataBuf3.length; i++) {
-    const b = dataBuf3[i];
-    if (b >= 32 && b <= 126) cur += String.fromCharCode(b);
-    else {
-      if (cur.length >= 12 && cur.length <= 500) {
-        const letters = (cur.match(/[a-zA-Z]/g) || []).length;
-        if (letters >= cur.length * 0.35) strings.push(cur.trim());
-      }
-      cur = '';
-    }
+    const h = parseHeader(buf);
+    assert(h.version === 22, `${f}: version 22`);
+    assert(h.dataOffset > 0 && h.dataOffset < buf.length, `${f}: valid dataOffset ${h.dataOffset}`);
+    assert(h.metadataSize > 0 && h.metadataSize < buf.length, `${f}: valid metadataSize ${h.metadataSize}`);
+    assert(h.newFormat, `${f}: newFormat`);
   }
 
+  // Test 3: String extraction from data section
+  console.log('\n3. String extraction');
+  const strings = extractUnityStrings(buf3, h3.dataOffset);
   assert(strings.length > 1000, `level3: ${strings.length} strings found (> 1000)`);
 
-  // Check for real dialogue patterns
-  const hasDialogueMarkers = strings.some(s =>
-    /[Ii]\'m|you\'re|don\'t|can\'t|he\'s|she\'s/i.test(s)
+  const hasDialogue = strings.some(s =>
+    /[Ii]\'m|you\'re|don\'t|can\'t|he\'s|she\'s/i.test(s.raw)
   );
-  assert(hasDialogueMarkers, 'found strings with contractions');
+  assert(hasDialogue, 'found strings with contractions');
 
-  // Test 4: Parsed output files exist
-  console.log('\n4. Output files');
-  const outFiles = ['parsed-all.txt', 'parsed-dialogue.txt', 'parsed-ui.txt'];
-  for (const f of outFiles) {
-    try {
-      await access(join(OUT_DIR, f));
-      assert(true, `${f} exists`);
-    } catch {
-      assert(false, `${f} missing`);
-    }
+  // Each string has offset, raw, length
+  assert(strings[0].offset !== undefined, 'string has offset');
+  assert(strings[0].raw !== undefined, 'string has raw value');
+  assert(strings[0].length !== undefined, 'string has length');
+  assert(strings[0].contextHex !== undefined, 'string has contextHex');
+
+  // Test 4: DLL raw string extraction
+  console.log('\n4. DLL extraction');
+  try {
+    const dllBuf = await readFile(join(DATA_DIR, 'Managed', 'Assembly-CSharp.dll'));
+    const dllStrings = extractRawStrings(dllBuf);
+    assert(dllStrings.length > 100, `DLL: ${dllStrings.length} strings found (> 100)`);
+    assert(dllStrings[0].offset !== undefined, 'DLL string has offset');
+    assert(dllStrings[0].raw.length > 0, 'DLL string has non-empty raw');
+  } catch (e) {
+    assert(false, `DLL accessible: ${e.message}`);
   }
 
-  // Test 5: sharedassets0
-  console.log('\n5. sharedassets0 parsing');
+  // Test 5: parseUnityFile returns structured result
+  console.log('\n5. parseUnityFile()');
+  const result = await parseUnityFile(join(DATA_DIR, 'level0'), 'level0');
+  assert(result.name === 'level0', 'result name');
+  assert(result.type === 'unity', 'result type unity');
+  assert(result.header.version === 22, 'result header version');
+  assert(result.strings.length > 0, 'result has strings');
+  assert(result.stats.totalStrings === result.strings.length, 'stats match');
+
+  // Test 6: Parser generates correct NDJSON output
+  console.log('\n6. NDJSON output');
+  try {
+    // Check manifest
+    const manifestStr = await readFile(join(OUT_DIR, 'manifest.json'), 'utf-8');
+    const manifest = JSON.parse(manifestStr);
+    assert(manifest.parser === 'parse-unity v3', 'parser version in manifest');
+    assert(manifest.totalStrings > 0, 'totalStrings > 0');
+    assert(manifest.files.length > 0, 'files array non-empty');
+    assert(manifest.files.some(f => f.type === 'unity'), 'has unity files');
+
+    // Check at least one NDJSON file exists and has valid format
+    const ndjsonStr = await readFile(join(OUT_DIR, 'level3.ndjson'), 'utf-8');
+    const lines = ndjsonStr.trim().split('\n');
+    assert(lines.length > 1000, `level3.ndjson: ${lines.length} lines`);
+    const [offset, raw] = JSON.parse(lines[0]);
+    assert(typeof offset === 'number', 'NDJSON line: offset is number');
+    assert(typeof raw === 'string', 'NDJSON line: raw is string');
+  } catch (e) {
+    assert(false, `output: ${e.message}`);
+  }
+
+  // Test 7: sharedassets0
+  console.log('\n7. sharedassets0 parsing');
   const saBuf = await readFile(join(DATA_DIR, 'sharedassets0.assets'));
-  const saMetaSize = saBuf.readInt32BE(20);
-  const saDataOff = saBuf.readInt32BE(36);
-  assert(saMetaSize > 0, `sharedassets0: metadataSize ${saMetaSize}`);
-  assert(saDataOff > 0, `sharedassets0: dataOffset ${saDataOff}`);
+  const saH = parseHeader(saBuf);
+  assert(saH.version === 22, `sharedassets0: version ${saH.version}`);
+  assert(saH.metadataSize > 0, `sharedassets0: metadataSize ${saH.metadataSize}`);
+  assert(saH.dataOffset > 0, `sharedassets0: dataOffset ${saH.dataOffset}`);
+
+  const saStrings = extractUnityStrings(saBuf, saH.dataOffset);
+  assert(saStrings.length > 500, `sharedassets0: ${saStrings.length} strings`);
 
   // ====== Summary ======
   console.log(`\n\n=== Result: ${passed} passed, ${failed} failed ===`);

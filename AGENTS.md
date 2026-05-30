@@ -16,14 +16,16 @@
 - `translate-analysis` — анализ файлов перевода, статистика, поиск непереведённого
 - `translate-batch` — пакетный перевод через Google Translate API
 - `find-strings` — извлечение английских строк из бинарных файлов Unity
-- `parse-unity` — структурный парсер Unity serialized (header + data section + фильтрация диалогов)
+- `parse-unity` — чистый парсер Unity serialized (binary → NDJSON, без фильтрации)
+- `extractor` — классификация и фильтрация строк из NDJSON (dialogue / UI / noise)
 
 ## Команды
 
 - `node .opencode/skills/translate-analysis/analyze.mjs` — запустить анализ
 - `node .opencode/skills/translate-batch/batch.mjs` — запустить пакетный перевод
 - `node .opencode/skills/find-strings/find.mjs` — извлечь строки
-- `node .opencode/skills/parse-unity/parse.mjs` — структурный парсер
+- `node .opencode/skills/parse-unity/parser.mjs` — парсер (binary → NDJSON)
+- `node .opencode/skills/extractor/extractor.mjs` — экстрактор (NDJSON → диалоги/UI)
 - `node .opencode/skills/parse-unity/test.mjs` — тесты парсера
 
 ## Правила
@@ -32,6 +34,37 @@
 - Rich text теги вроде `<color=#...>` сохраняются как есть
 - `\n` — литеральный перенос строки внутри значения
 - Предпочтительный endpoint: GoogleTranslateV2 (бесплатно, без API ключа)
+
+## Output structure
+
+```
+output/
+  parser/              — parser.mjs
+    manifest.json        метаданные (headers, stats)
+    *.ndjson             [offset,"raw"] по source-файлам
+  extractor/           — extractor.mjs
+    dialogs/*.ndjson     диалоги по source-файлам (NDJSON)
+    ui/*.ndjson          UI-строки по source-файлам (NDJSON)
+  translate-analysis/  — анализ перевода
+  translate-batch/     — пакетный перевод
+  find-strings/        — строки из find-strings
+```
+
+### NDJSON format
+
+Parser:
+```
+[offset,"raw"]
+[1131336,"In final Room Location Nova"]
+```
+
+Extractor (dialogs / ui):
+```
+["{source}_{seq}","{original}","{translated}","{offset}"]
+["level3_001","And now hold still I'm not done yet.","","641239"]
+```
+
+Каждая строка независима. `translated` пустой → LLM заполняет. `offset` — для восстановления в бинарник.
 
 ## Важные пути
 

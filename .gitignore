@@ -18,6 +18,9 @@ changelog.txt
 # Install script temp
 .install_temp/
 
+# Generated output (parser, extractor, analysis)
+output/
+
 # OS junk
 Thumbs.db
 .DS_Store
