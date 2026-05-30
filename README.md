@@ -1,179 +1,167 @@
-# Third Crisis Neon Nights — Русский перевод
+# Third Crisis Neon Nights — Технический анализ
 
 [![GitHub release](https://img.shields.io/github/v/release/Domovikx/Third-Crisis-Neon-Nights)](https://github.com/Domovikx/Third-Crisis-Neon-Nights/releases)
 [![License](https://img.shields.io/github/license/Domovikx/Third-Crisis-Neon-Nights)](LICENSE)
 
-Автоматический перевод популярной игры **Third Crisis Neon Nights** на русский язык с использованием [XUnity Auto Translator](https://github.com/bbepis/XUnity.AutoTranslator).
+Русский перевод и технический анализ игры **Third Crisis Neon Nights** (Anduo Games).
 
-[Купить игру на Steam](https://store.steampowered.com/app/3400350) | [Оригинальная игра (Steam)](https://store.steampowered.com/app/3400350)
-
-## Описание
-
-**Third Crisis Neon Nights** — это визуальная новелла с элементами RPG и романтическими сюжетами. Игра получила широкую популярность благодаря захватывающему геймплею и интересным персонажам.
-
-Данный репозиторий содержит настройки и файлы перевода для автоматического перевода игры на русский язык с помощью BepInEx и XUnity Auto Translator.
-
-## Возможности
-
-- ✅ Автоматический перевод на русский язык
-- ✅ Бесплатный переводчик Google Translate V2
-- ✅ Простая установка через скрипт
-- ✅ Ручная настройка при необходимости
-- ✅ Перевод сохраняется и не требует интернета при повторном запуске
-
-## Быстрая установка
-
-Требования: [Node.js](https://nodejs.org/) (версия 16 или выше)
+## Быстрый старт
 
 ```bash
-node install-translation.mjs
+node install-translation.mjs   # Автоустановка BepInEx + XUnity Auto Translator
 ```
 
-Скрипт автоматически:
-1. Скачает последнюю версию BepInEx 5.4
-2. Скачает XUnity Auto Translator 5.6.1
-3. Установит всё в папку игры
-4. Настроит переводчик на GoogleTranslateV2 и русский язык
+## Технический анализ
 
-## Установка вручную
+### Движок и стек
 
-### 1. Скачивание
+| Компонент             | Версия                           | Примечание                    |
+| --------------------- | -------------------------------- | ----------------------------- |
+| **Unity**             | 2022.3.62f3                      | LTS релиз                     |
+| **Рендеринг**         | URP                              | Universal Render Pipeline     |
+| **C# Runtime**        | .NET 4.x (Mono)                  | IL2CPP не используется        |
+| **Мод-менеджер**      | BepInEx 5.4.23.5                 | Через Doorstop 4.5.0          |
+| **Перевод**           | XUnity Auto Translator 5.6.1     | Перехват UI-текста в рантайме |
+| **Редирект ресурсов** | XUnity Resource Redirector 2.1.0 | Подмена ассетов               |
 
-- **BepInEx 5.4**: [GitHub Releases](https://github.com/BepInEx/BepInEx/releases/latest)
-  - Файл: `BepInEx_win_x64_5.4.XX.X.zip`
+### Инструменты перевода
 
-- **XUnity Auto Translator**: [GitHub Releases](https://github.com/bbepis/XUnity.AutoTranslator/releases)
-  - Файл: `XUnity.AutoTranslator-BepInEx-{VERSION}.zip`
+Проект использует **XUnity Auto Translator** — плагин для BepInEx, который перехватывает текстовые элементы Unity на лету:
 
-### 2. Установка
+- **UGUI**, **NGUI**, **TextMeshPro**, **FairyGUI**, **UI Elements** — полная поддержка
+- **Батчинг** запросов к переводчику
+- **Кэширование** переводов в файлы
+- **Субституции / Препроцессоры / Постпроцессоры** — гибкая обработка текста
+- **Редирект текстур и других ресурсов**
+- **Горячие клавиши**: ALT+0 (интерфейс), ALT+T (вкл/выкл), ALT+R (перезагрузить), ALT+U (ручной перевод)
 
-1. Распаковать BepInEx в папку игры
-2. Распаковать XUnity Auto Translator поверх (в папку игры)
+Поддерживаемые переводчики (плагины в `BepInEx/plugins/XUnity.AutoTranslator/Translators/`):
+Google, GoogleTranslateV2, DeepL, Bing, Yandex, Baidu, Watson, Papago, Custom, ezTrans, LingoCloud, LecPowerTranslator
 
-### 3. Настройка
+### Архитектура игры
 
-Конфиг: `BepInEx/config/AutoTranslatorConfig.ini`
-
-```ini
-[Service]
-Endpoint=GoogleTranslateV2
-
-[General]
-Language=ru
-FromLanguage=en
-
-[Http]
-DisableCertificateValidation=True
+```
+Ядро Unity 2022.3 (URP)
+├── Assembly-CSharp.dll — основной код на C# (NToolkit framework)
+├── PlayMaker.dll — визуальный скриптинг (FSM)
+├── 16 сцен (level0-level15) — весь геймплей и диалоги
+└── Addressables (~97 бандлов) — арт, аудио, анимации
 ```
 
-### 4. Запуск
+**NToolkit** — внутренний фреймворк игры, покрывающий:
 
-Запустить игру. Консоль откроется вместе с игрой.
+- Контроллеры, Level, Rooms
+- UI (темы, компоненты)
+- Сохранения (Save)
+- Локализация (Localization)
+- Decisions, Behaviours, Effects
+- InputManagement, Audio, Animation
+- Steamworks, Achievements, Analytics
+- ResourceManagement, AssetBundles
+- Toys (Lovense интеграция)
+- Pooling, Extensions, Debugging
 
-## Горячие клавиши
+### Структура ассетов
 
-| Клавиша | Действие |
-|--------|----------|
-| `ALT+0` | UI переводчика |
-| `ALT+T` | Вкл/выкл перевод |
-| `ALT+R` | Перезагрузить перевод |
-| `ALT+U` | Ручной перевод |
+Игра использует **Unity Addressables** для потоковой загрузки контента:
 
-## FAQ — Частые вопросы
+| Тип           | Кол-во | Описание                      |
+| ------------- | ------ | ----------------------------- |
+| Sprite        | 129    | Пинапы, UI элементы           |
+| Texture2D     | 51     | Фоны, спрайты                 |
+| SpriteAtlas   | 37     | Атласы спрайтов               |
+| GameObject    | 17     | Префабы CG-анимаций           |
+| Mesh          | 13     | 3D модели                     |
+| AudioClip     | 8      | Музыка, SFX, озвучка          |
+| MonoBehaviour | 3      | Конфиги (пинапы, мастурбация) |
+| VideoClip     | 1      | Видео                         |
 
-### Какой переводчик используется?
+### Ключевые сторонние библиотеки (Managed/)
 
-По умолчанию используется **GoogleTranslateV2** — бесплатный переводчик без необходимости регистрации и получения API ключей. Качество перевода — среднее.
+- **PlayMaker** — визуальный скриптинг, диалоги и логика на FSM
+- **spine-csharp / spine-unity** — 2D скелетная анимация
+- **MagicaCloth V2** — симуляция ткани/физики одежды
+- **Newtonsoft.Json** — сериализация данных
+- **CsvHelper** — парсинг CSV (возможно, таблицы диалогов/квестов)
+- **Coffee.UIParticle** — частицы в UI
+- **Coffee.SoftMaskForUGUI** — маски для UI
+- **LeTai.TrueShadow** — тени для UI
+- **Lovense\*** — интеграция с Lovense-игрушками
+- **Tayx.Graphy** — FPS/производительность
+- **AstarPathfindingProject** — поиск путей
+- **Clipper2** — булевы операции с полигонами
+- **Unity.Animation.Rigging** — риггинг анимаций
 
-### Нужен ли интернет для работы?
+### Где находится текст игры
 
-Интернет нужен только при первом запуске для перевода текста. После этого переводы сохраняются в файлы и работают офлайн.
+Текст игры хранится **внутри сцен** (level0-level15) в компонентах:
 
-### Перевод сохраняется после обновления игры?
+- **TextMeshPro** — основной диалоговый текст
+- **UGUI Text** — UI-элементы
+- **PlayMaker FSM** — переменные и строки в визуальных скриптах
+- **MonoBehaviour** — кастомные скрипты NToolkit
 
-Да, файлы перевода находятся в папке `BepInEx/Translation/ru/`. При переустановке игры сохраните эту папку, чтобы не потерять перевод.
+XUnity Auto Translator перехватывает их в рантайме и заменяет переведённым текстом.
 
-### Игра вылетает после установки перевода
+### Файлы перевода
 
-1. Проверьте консоль на ошибки (открывается вместе с игрой)
-2. Убедитесь что в конфиге установлено `DisableCertificateValidation=True`
-3. Попробуйте запустить игру от имени администратора
+```
+BepInEx/Translation/ru/Text/
+├── _AutoGeneratedTranslations.txt   # Основной файл: оригинал=перевод
+├── _Substitutions.txt               # Субституции (пусто)
+├── _Preprocessors.txt               # Предобработка (пусто)
+└── _Postprocessors.txt              # Постобработка (пусто)
+```
 
-### Как изменить переводчика?
-
-В файле `BepInEx/config/AutoTranslatorConfig.ini` измените строку `Endpoint`:
-- `GoogleTranslateV2` — бесплатно, может сломаться
-- `DeepLTranslate` — бесплатно, может сломаться, качество лучше
-
-### Как добавить свои переводы?
-
-Отредактируйте файл `BepInEx/Translation/ru/Text/_AutoGeneratedTranslations.txt`. Формат: `оригинал=перевод`. После редактирования нажмите `ALT+R` для перезагрузки.
-
-### Можно ли перевести на другие языки?
-
-Да, измените параметр `Language` в конфиге:
-- `ru` — русский
-- `uk` — украинский
-- `zh` — китайский
-- И другие языки, поддерживаемые Google Translate
-
-## Скриншоты
-
-TODO: Добавить скриншоты
-
-- [ ] Скриншот игры с переводом в главном меню
-- [ ] Скриншот диалога с переводом
-- [ ] Скриншот интерфейса переводчика (ALT+0)
+Формат: `оригинальный текст=переведённый текст`
 
 ## Структура репозитория
 
 ```
-├── README.md                    # Этот файл
-├── LICENSE                      # Лицензия MIT
-├── install-translation.mjs      # Скрипт автоматической установки
-├── .gitignore                   # Файлы игры в git не попадают
-└── BepInEx/
-    ├── Translation/ru/          # Файлы перевода на русский
-    │   └── Text/
-    │       └── _AutoGeneratedTranslations.txt
-    └── config/
-        └── AutoTranslatorConfig.ini  # Конфигурация переводчика
+├── .vscode/                          # Настройки VSCode
+│   ├── extensions.json               # Рекомендуемые расширения
+│   └── settings.json                 # Настройки редактора
+├── .opencode/                        # Инструменты opencode
+│   ├── config/
+│   │   └── project-context.md        # Полный контекст проекта
+│   ├── scripts/                      # MJS скрипты для работы с переводом
+│   │   ├── analyze-translation.mjs   # Анализ файлов перевода
+│   │   └── ...
+│   └── templates/                    # Шаблоны
+├── BepInEx/                          # Мод-менеджер и плагины
+│   ├── Translation/ru/Text/          # Переводы на русский
+│   ├── Translation/en/Text/          # Кэш оригиналов
+│   └── config/
+│       └── AutoTranslatorConfig.ini  # Конфиг переводчика
+├── install-translation.mjs           # Скрипт установки перевода
+└── README.md
 ```
 
-## Требования к системе
+## Разработка
 
-- Операционная система: Windows 10/11 (64-bit)
-- Игра: Third Crisis Neon Nights
-- Дополнительно: Node.js для автоматической установки (опционально)
+### Принцип работы перевода
 
-## Техническая информация
+1. BepInEx загружается через Doorstop при старте игры
+2. XUnity Auto Translator хукает TextMeshPro/UGUI/NGUI компоненты
+3. Оригинальный английский текст перехватывается
+4. Текст отправляется в Google/DeepL API
+5. Перевод сохраняется в кэш (`_AutoGeneratedTranslations.txt`)
+6. При повторном появлении текста используется кэш
 
-### Используемые инструменты
+### Как улучшить перевод
 
-- **BepInEx 5.4** — мод-менеджер для Unity игр ([GitHub](https://github.com/BepInEx/BepInEx))
-- **XUnity Auto Translator 5.6.1** — плагин автоматического перевода ([GitHub](https://github.com/bbepis/XUnity.AutoTranslator))
-- **Google Translate V2** — переводчик
+1. **Прямое редактирование**: `BepInEx/Translation/ru/Text/_AutoGeneratedTranslations.txt`
+2. **Субституции**: `_Substitutions.txt` для точной замены фраз
+3. **Pre/Post-processors**: для автоматической обработки текста
+4. **Редирект ресурсов**: для замены текстур с английским текстом
+5. **Свои плагины BepInEx**: для глубокой интеграции
 
-### Как это работает
+## Требования
 
-1. BepInEx загружает плагин XUnity Auto Translator при запуске игры
-2. Плагин перехватывает текстовые элементы Unity (UGUI, NGUI, TextMeshPro)
-3. Текст отправляется в Google Translate API
-4. Переведённый текст сохраняется в кэш и подменяется в игре
+- Windows 10/11 64-bit
+- [Node.js](https://nodejs.org/) 16+ (для install-translation.mjs)
 
 ## Лицензия
 
-Перевод распространяется как есть. Используются открытые инструменты с лицензией MIT:
-- [BepInEx](https://github.com/BepInEx/BepInEx) — MIT
-- [XUnity Auto Translator](https://github.com/bbepis/XUnity.AutoTranslator) — MIT
-
-## Поддержка
-
-Если возникли проблемы:
-1. Проверьте раздел FAQ выше
-2. Откройте [Issue](https://github.com/Domovikx/Third-Crisis-Neon-Nights/issues)
-3. Проверьте консоль игры на наличие ошибок
-
----
-
-*Перевод создан энтузиастами для русскоязычного сообщества игроков Third Crisis Neon Nights.*
+MIT — перевод и инструменты распространяются свободно.
+Игра Third Crisis Neon Nights © Anduo Games.

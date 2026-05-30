@@ -1,0 +1,27 @@
+{
+  "name": "third-crisis-neon-nights-translation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Русский перевод и инструменты локализации для Third Crisis Neon Nights",
+  "engines": {
+    "node": ">=16"
+  },
+  "type": "module",
+  "scripts": {
+    "analyze": "node .opencode/skills/translate-analysis/analyze.mjs",
+    "translate": "node .opencode/skills/translate-batch/batch.mjs",
+    "translate:dry": "node .opencode/skills/translate-batch/batch.mjs --dry-run",
+    "find-strings": "node .opencode/skills/find-strings/find.mjs",
+    "install": "node install-translation.mjs",
+    "setup": "node install-translation.mjs"
+  },
+  "keywords": [
+    "translation",
+    "third-crisis",
+    "neon-nights",
+    "unity",
+    "russian",
+    "l10n"
+  ],
+  "license": "MIT"
+}

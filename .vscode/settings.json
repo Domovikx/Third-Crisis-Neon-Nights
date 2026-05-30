@@ -1,0 +1,54 @@
+{
+  "window.title": "${dirty}${rootNameShort}",
+  "files.associations": {
+    "*.mjs": "javascript",
+    "*.md": "markdown"
+  },
+  "files.exclude": {
+    "**/*.bundle": true,
+    "**/*.assets": true,
+    "**/*.assets.resS": true,
+    "**/*.resource": true,
+    "**/*.resources": true,
+    "**/*.resS": true,
+    "**/*.unity3d": true,
+    "**/*.cab-*": true,
+    "**/cache/": true,
+    "**/core/": true,
+    "**/patchers/": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "cSpell.language": "en, ru",
+  "cSpell.enabledFileTypes": {
+    "*": true,
+    "markdown": true,
+    "javascript": true,
+    "json": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.suggest.preview": true,
+  "editor.wordWrap": "on",
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.tree.indent": 20,
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#1a3a5c80"
+  }
+}
