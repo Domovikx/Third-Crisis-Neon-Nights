@@ -1,6 +1,6 @@
 ---
 name: translate-batch
-description: Пакетный перевод непереведённых строк с английского на русский через Google Translate API, сохранение прямо в файл перевода XUnity
+description: Пакетный перевод непереведённых строк с английского на русский через Google Translate API, сохранение прямо в файл перевода
 license: MIT
 compatibility: opencode
 ---

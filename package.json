@@ -11,7 +11,11 @@
     "analyze": "node .opencode/skills/translate-analysis/analyze.mjs",
     "translate": "node .opencode/skills/translate-batch/batch.mjs",
     "translate:dry": "node .opencode/skills/translate-batch/batch.mjs --dry-run",
-    "find-strings": "node .opencode/skills/find-strings/find.mjs"
+    "find-strings": "node .opencode/skills/find-strings/find.mjs",
+    "parse-unity": "node .opencode/skills/parse-unity/parse.mjs",
+    "parse-unity:detailed": "node .opencode/skills/parse-unity/parse.mjs --detailed",
+    "parse-unity:level": "node .opencode/skills/parse-unity/parse.mjs --level",
+    "test:parse": "node .opencode/skills/parse-unity/test.mjs"
   },
   "keywords": [
     "translation",
