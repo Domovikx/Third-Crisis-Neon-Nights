@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    "ms-dotnettools.csharp",
+    "ms-dotnettools.csdevkit",
+    "ms-dotnettools.vscode-dotnet-runtime",
+    "tobiah.unity-tools",
+    "visualstudiotoolsforunity.vstuc",
+    "kaizhu.assetstudio-gui",
+    "ms-vscode.powershell",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bierner.markdown-mermaid",
+    "yzhang.markdown-all-in-one",
+    "aaron-bond.better-comments",
+    "mikestead.dotenv",
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-russian",
+    "editorconfig.editorconfig",
+    "eamodio.gitlens",
+    "github.vscode-github-actions"
+  ]
+}
