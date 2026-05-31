@@ -10,7 +10,7 @@
   "scripts": {
     "parse": "node .opencode/skills/parse-unity/parser.mjs",
     "extract": "node .opencode/skills/extractor/extractor.mjs --detailed",
-    "test:parse": "node .opencode/skills/parse-unity/test.mjs"
+    "test:parse": "node .opencode/skills/parse-unity/parser.test.mjs"
   },
   "keywords": [
     "third-crisis",

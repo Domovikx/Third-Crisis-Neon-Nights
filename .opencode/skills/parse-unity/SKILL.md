@@ -8,7 +8,11 @@ description: Чистый парсер Unity serialized файлов (level, sha
 ## Описание
 
 Чистый парсер Unity serialized format (версия 22, Unity 2022+).
-Читает заголовок файла и извлекает null-terminated ASCII строки из data-секции.
+Читает заголовок файла и извлекает:
+
+- **Null-terminated ASCII** из data-секции (.assets, level)
+- **Aligned strings** (length-prefixed, TypeTree)
+- **UTF-16 LE** из .NET сборок (DLL)
 
 Выдаёт **только сырые данные** — без классификации, без фильтрации, без NOISE_SET/COMMON_WORDS.
 Вся фильтрация: `.opencode/skills/extractor/extractor.mjs`
@@ -45,8 +49,8 @@ output/parser/
 
 ```json
 {
-  "parser": "parse-unity v3",
-  "totalStrings": 649663,
+  "parser": "parse-unity v4",
+  "totalStrings": 2187546,
   "files": [
     { "name": "level0", "type": "unity", "header": {...}, "stats": {"totalStrings": 533} },
     ...

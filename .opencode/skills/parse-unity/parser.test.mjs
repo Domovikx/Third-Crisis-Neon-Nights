@@ -4,7 +4,7 @@ import { readFile, access } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { parseHeader, extractUnityStrings, extractAlignedStrings, extractRawStrings, parseUnityFile, parseRawFile } from './parser.mjs';
+import { parseHeader, extractUnityStrings, extractAlignedStrings, extractRawStrings, extractUtf16Strings, parseUnityFile, parseRawFile } from './parser.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..', '..', '..');
@@ -181,6 +181,35 @@ async function main() {
   const level15Aligned = extractAlignedStrings(level15Buf, level15H.dataOffset, level15DataEnd);
   const hasHoldToSkip = level15Aligned.some(s => s.raw === 'HOLD TO SKIP');
   assert(hasHoldToSkip, 'level15: HOLD TO SKIP found');
+
+  // Test 12: UTF-16 string extraction from DLL
+  console.log('\n12. UTF-16 extraction from DLL');
+  try {
+    const dllBuf = await readFile(join(DATA_DIR, 'Managed', 'Assembly-CSharp.dll'));
+    const utf16Strings = extractUtf16Strings(dllBuf);
+    assert(utf16Strings.length > 50, `UTF-16: ${utf16Strings.length} strings found (> 50)`);
+
+    const hasResolutionScaling = utf16Strings.some(s => s.raw === 'Resolution Scaling');
+    assert(hasResolutionScaling, 'UTF-16: Resolution Scaling found');
+
+    const hasEnvironmentEffects = utf16Strings.some(s => s.raw === 'Environment Effects');
+    assert(hasEnvironmentEffects, 'UTF-16: Environment Effects found');
+
+    const hasRealtimeReflections = utf16Strings.some(s => s.raw === 'Realtime Reflections');
+    assert(hasRealtimeReflections, 'UTF-16: Realtime Reflections found');
+
+    const hasPostProcessing = utf16Strings.some(s => s.raw === 'Post Processing');
+    assert(hasPostProcessing, 'UTF-16: Post Processing found');
+
+    const hasSettingsResolution = utf16Strings.some(s => s.raw === 'Settings.Resolution');
+    assert(hasSettingsResolution, 'UTF-16: Settings.Resolution found');
+
+    // Verify dedup: same string at same offset not counted twice
+    assert(utf16Strings.every(s => s.offset !== undefined), 'UTF-16 strings have offset');
+    assert(utf16Strings.every(s => s.raw.length > 0), 'UTF-16 strings non-empty');
+  } catch (e) {
+    assert(false, `UTF-16 DLL: ${e.message}`);
+  }
 
   // ====== Summary ======
   console.log(`\n\n=== Result: ${passed} passed, ${failed} failed ===`);

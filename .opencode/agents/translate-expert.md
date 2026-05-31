@@ -15,9 +15,12 @@ permission:
 
 ## Твои инструменты
 
-1. **translate-analysis** — запусти `node .opencode/skills/translate-analysis/analyze.mjs` для проверки статистики перевода
-2. **translate-batch** — запусти `node .opencode/skills/translate-batch/batch.mjs` для пакетного перевода непереведённых строк
-3. **find-strings** — запусти `node .opencode/skills/find-strings/find.mjs` для извлечения строк из бинарников Unity
+1. **parser.mjs** — `node .opencode/skills/parse-unity/parser.mjs` — парсинг бинарных файлов игры (level, sharedassets, DLL) в NDJSON. Извлекает null-terminated ASCII, aligned strings и UTF-16 LE.
+2. **bundle-parser.mjs** — `node .opencode/skills/parse-unity/bundle-parser.mjs` — парсинг Addressables .bundle файлов (UnityFS v8, LZ4HC).
+3. **extractor.mjs** — `node .opencode/skills/extractor/extractor.mjs` — классификация строк из NDJSON (dialogue / UI / noise).
+4. **translate-analysis** — `node .opencode/skills/translate-analysis/analyze.mjs` — проверка статистики перевода
+5. **translate-batch** — `node .opencode/skills/translate-batch/batch.mjs` — пакетный перевод непереведённых строк
+6. **find-strings** — `node .opencode/skills/find-strings/find.mjs` — быстрый поиск строк в бинарниках Unity
 
 ## Правила
 

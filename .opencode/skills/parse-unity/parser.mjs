@@ -384,6 +384,59 @@ export function extractRawStrings(buf) {
   return result;
 }
 
+/**
+ * Extract UTF-16 LE strings from binary (e.g. .NET DLL #US heap).
+ *
+ * Scans for runs of (printable_byte, 0x00) pairs — the standard .NET
+ * string literal encoding.  Uses two passes (even and odd start) to
+ * handle alignment differences.
+ *
+ * Returns array of { offset, raw, length } objects.
+ */
+export function extractUtf16Strings(buf, minLen = 4) {
+  const seen = new Map();
+
+  for (const startOff of [0, 1]) {
+    let cur = '';
+    let startOffset = 0;
+
+    for (let i = startOff; i < buf.length - 1; i += 2) {
+      const lo = buf[i];
+      const hi = buf[i + 1];
+      if (lo >= 32 && lo <= 126 && hi === 0) {
+        if (cur.length === 0) startOffset = i;
+        cur += String.fromCharCode(lo);
+      } else {
+        if (cur.length >= minLen && !seen.has(startOffset)) {
+          const letters = (cur.match(/[a-zA-Z]/g) || []).length;
+          if (letters >= cur.length * 0.4) {
+            seen.set(startOffset, {
+              offset: startOffset,
+              raw: cur.trim(),
+              length: cur.length,
+            });
+          }
+        }
+        cur = '';
+      }
+    }
+
+    // final check
+    if (cur.length >= minLen && !seen.has(startOffset)) {
+      const letters = (cur.match(/[a-zA-Z]/g) || []).length;
+      if (letters >= cur.length * 0.4) {
+        seen.set(startOffset, {
+          offset: startOffset,
+          raw: cur.trim(),
+          length: cur.length,
+        });
+      }
+    }
+  }
+
+  return [...seen.values()].sort((a, b) => a.offset - b.offset);
+}
+
 // ====== File-level parsing ======
 
 export async function parseUnityFile(filepath, name) {
@@ -423,7 +476,10 @@ export async function parseUnityFile(filepath, name) {
 
 export async function parseRawFile(filepath, name) {
   const buf = await readFile(filepath);
-  const strings = extractRawStrings(buf);
+  const asciiStrings = extractRawStrings(buf);
+  const utf16Strings = extractUtf16Strings(buf);
+  const strings = [...asciiStrings, ...utf16Strings]
+    .sort((a, b) => a.offset - b.offset);
 
   return {
     name,

@@ -232,7 +232,7 @@ GameObject
 
 Извлечение строк разделено на два независимых этапа:
 
-1. **Parser** (`parser.mjs`) — читает бинарные файлы, извлекает все null-terminated ASCII строки из data-секции, выводит NDJSON: `[offset,"raw"]`
+1. **Parser** (`parser.mjs`) — читает бинарные файлы, извлекает **null-terminated ASCII** (data-секция), **aligned strings** (length-prefixed) и **UTF-16 LE** (.NET сборки), выводит NDJSON: `[offset,"raw"]`
 2. **Extractor** (`extractor.mjs`) — читает NDJSON от парсера, классифицирует строки (dialogue / UI / noise), выводит NDJSON для перевода: `["{source}_{seq}","{original}","{translated}","{offset}"]`
 
 ### 5.2. Parser: Data section null-terminated search
@@ -254,6 +254,29 @@ GameObject
 - Без шума StringPool (внутренние строки путей)
 - Без шума шейдеров и бинарных данных ресурсов
 - В 2-10× быстрее (сканируется только data секция)
+
+### 5.2b. Raw-файлы (DLL) — UTF-16 LE извлечение
+
+Для .NET сборок (Assembly-CSharp.dll) строки могут храниться в двух форматах:
+
+1. **Null-terminated ASCII** — классические C-строки в PE секциях (методы, комментарии)
+2. **UTF-16 LE** — строковые литералы .NET (#US heap метаданных)
+
+UTF-16 LE детекция использует двухпроходное сканирование:
+
+```
+ПРОХОД 1 (чётное выравнивание):
+  for i in 0, 2, 4, ...:
+    если buf[i] in 32-126 AND buf[i+1] == 0:
+      накопить символ
+    иначе:
+      если длина >= 4 и >=40% букв — сохранить
+
+ПРОХОД 2 (нечётное выравнивание):
+  то же, но с i = 1, 3, 5, ...
+```
+
+Два прохода необходимы из-за возможного смещения alignment'а внутри .NET метаданных. Дедупликация по offset через Map.
 
 Также поддерживает raw-файлы (DLL) — сканирование всего файла целиком.
 
@@ -292,30 +315,50 @@ Extractor применяет эвристики для разделения ст
 
 ## 6. Результаты бинарного анализа
 
-### 6.1. Статистика по файлам (v1 — only .assets + level + DLL)
+### 6.1. Статистика по файлам (v3 — все .assets + level + DLL)
 
-| Файл                          | Размер   | version | dataOffset | Строк (raw) | Диалогов | UI      |
-| ----------------------------- | -------- | ------- | ---------- | ----------- | -------- | ------- |
-| level0                        | 0.11 MB  | 22      | 980        | 533         | 37       | 0       |
-| level1                        | 0.06 MB  | 22      | 648        | 130         | 8        | 0       |
-| level2                        | 0.13 MB  | 22      | 1 108      | 478         | 13       | 1       |
-| level3                        | 7.03 MB  | 22      | 1 097 200  | 46 040      | 1 532    | 3       |
-| level4                        | 1.77 MB  | 22      | 270 400    | 13 828      | 633      | 2       |
-| level5                        | 1.84 MB  | 22      | 281 176    | 11 483      | 500      | 1       |
-| level6                        | 1.51 MB  | 22      | 314 372    | 4 607       | 88       | 1       |
-| level7                        | 12.84 MB | 22      | 1 933 020  | 67 188      | 2 434    | 3       |
-| level8                        | 0.93 MB  | 22      | 144 848    | 5 130       | 132      | 1       |
-| level9                        | 2.05 MB  | 22      | 309 400    | 12 150      | 525      | 0       |
-| level10                       | 2.59 MB  | 22      | 390 376    | 15 647      | 754      | 0       |
-| level11                       | 3.32 MB  | 22      | 499 340    | 13 152      | 532      | 0       |
-| level12                       | 1.41 MB  | 22      | 221 396    | 9 078       | 494      | 1       |
-| level13                       | 1.22 MB  | 22      | 194 548    | 6 364       | 147      | 6       |
-| level14                       | 1.20 MB  | 22      | 190 876    | 5 679       | 102      | 3       |
-| level15                       | 4.06 MB  | 22      | 608 704    | 14 429      | 370      | 5       |
-| sharedassets0                 | 34.45 MB | 22      | 66 144     | 396 069     | 153      | 136     |
-| resources                     | 78.90 MB | 22      | 2 451 248  | 984 103     | 12 245   | 320 366 |
-| Assembly-CSharp.dll           | 3.75 MB  | —       | —          | 27 678      | 2 374    | 3 655   |
-| Assembly-CSharp-firstpass.dll | 0.53 MB  | —       | —          | 7 244       | 20       | 267     |
+Новая версия парсера обрабатывает **38 исходных файлов**: все 16 level, все 16 sharedassets, resources.assets, globalgamemanagers.assets, 2 DLL. Добавлено UTF-16 LE извлечение для .NET сборок.
+
+| Файл                          | Размер   | version | Строк (raw) | UI      |
+| ----------------------------- | -------- | ------- | ----------- | ------- |
+| level0                        | 0.11 MB  | 22      | 1 084       | 0       |
+| level1                        | 0.06 MB  | 22      | 258         | 0       |
+| level2                        | 0.13 MB  | 22      | 938         | 0       |
+| level3                        | 7.03 MB  | 22      | 90 761      | 307     |
+| level4                        | 1.77 MB  | 22      | 27 362      | 56      |
+| level5                        | 1.84 MB  | 22      | 22 868      | 29      |
+| level6                        | 1.51 MB  | 22      | 8 805       | 10      |
+| level7                        | 12.84 MB | 22      | 131 889     | 388     |
+| level8                        | 0.93 MB  | 22      | 9 003       | 64      |
+| level9                        | 2.05 MB  | 22      | 23 895      | 44      |
+| level10                       | 2.59 MB  | 22      | 31 204      | 71      |
+| level11                       | 3.32 MB  | 22      | 25 710      | 60      |
+| level12                       | 1.41 MB  | 22      | 17 936      | 21      |
+| level13                       | 1.22 MB  | 22      | 12 634      | 72      |
+| level14                       | 1.20 MB  | 22      | 11 110      | 57      |
+| level15                       | 4.06 MB  | 22      | 27 361      | 108     |
+| sharedassets0                 | 34.39 MB | 22      | 405 457     | 2 483   |
+| sharedassets1                 | 0.61 MB  | 22      | 2 352       | 0       |
+| sharedassets2                 | 0.40 MB  | 22      | 3 651       | 0       |
+| sharedassets3                 | 7.18 MB  | 22      | 73 589      | 12 455  |
+| sharedassets4                 | 2.66 MB  | 22      | 30 605      | 7 044   |
+| sharedassets5                 | 4.30 MB  | 22      | 39 817      | 4 444   |
+| sharedassets6                 | 0.75 MB  | 22      | 2 650       | 0       |
+| sharedassets7                 | 3.45 MB  | 22      | 36 672      | 2 428   |
+| sharedassets8                 | 0.77 MB  | 22      | 9 658       | 113     |
+| sharedassets9                 | 0.19 MB  | 22      | 1 063       | 0       |
+| sharedassets10                | 0.65 MB  | 22      | 1 147       | 0       |
+| sharedassets11                | 0.54 MB  | 22      | 4 732       | 0       |
+| sharedassets12                | 0.79 MB  | 22      | 9 457       | 0       |
+| sharedassets13                | 0.09 MB  | 22      | 74          | 0       |
+| sharedassets14                | 0.09 MB  | 22      | 41          | 0       |
+| sharedassets15                | 2.94 MB  | 22      | 20 709      | 2 538   |
+| resources                     | 78.90 MB | 22      | 984 103     | 714 876 |
+| globalgamemanagers            | 1.97 MB  | 22      | 80 970      | 7 486   |
+| Assembly-CSharp.dll           | 3.75 MB  | —       | 30 284      | 3 744   |
+| Assembly-CSharp-firstpass.dll | 0.53 MB  | —       | 7 697       | 269     |
+
+**Всего:** 2 187 546 сырых строк → **24 086 диалогов + 757 971 UI**
 
 ### 6.1b. Статистика по бандлам (v2 — Addressables .bundle files)
 
@@ -326,7 +369,7 @@ Extractor применяет эвристики для разделения ст
 | 3dsuitcasescene     | ~2 MB  | 17 546      | 5 199   |
 | releasenotesui      | ~1 MB  | 12 655      | 4 603   |
 
-**Итого (v1 + v2):** 3 848 483 сырых строк → **18 761 диалог + 1 286 563 UI**
+**Итого (v1 + v2):** 3 848 483 сырых строк → **~19K диалогов + 1.29M UI**
 
 ### 6.2. Примеры найденных строк
 
@@ -371,9 +414,9 @@ And now hold still I'm not done yet.
 
 | Метод                 | Всего строк | Чистых диалогов | Доля |
 | --------------------- | ----------- | --------------- | ---- |
-| Parser (data section) | 649 663     | —               | —    |
-| Extractor (dialogue)  | 10 958      | ~1 500-2 000    | ~15% |
-| Extractor (UI)        | 174         | 174             | 100% |
+| Parser (data section) | 2 187 546   | —               | —    |
+| Extractor (dialogue)  | 24 086      | ~8 000-12 000   | ~40% |
+| Extractor (UI)        | 757 971     | 757 971         | 100% |
 
 Слабое место: фильтр `isDialogue()` слишком широкий — пропускает
 документационные строки из DLL и имена FSM-состояний.
@@ -402,7 +445,19 @@ Settings.FPSLimit       → "FPS Limit"
 ```
 
 Это стандартный формат **NToolkit localization**: ключ `Settings.XXX` и отображаемый текст.
-Всего найдено **57 уникальных Settings.\* ключей** с соответствующими display text.
+Всего найдено **58 уникальных Settings.\* ключей** с соответствующими display text.
+
+**Важное дополнение:** 4 UI-строки Video-таба (Resolution Scaling, Environment Effects,
+Realtime Reflections, Post Processing) не имеют собственных `Settings.*` ключей.
+Они хранятся как **UTF-16 LE строки** внутри Assembly-CSharp.dll, следуя после
+`Settings.Resolution` с префиксными type-тегами сериализации (0x25, 0x27, 0x29, 0x1f).
+
+```
+Settings.Resolution → %Resolution Scaling | 'Environment Effects | )Realtime Reflections | \x1fPost Processing
+```
+
+Это sub-опции `Settings.Resolution`, которые отображаются на UI через `ToUpper()`:
+`RESOLUTION SCALING`, `ENVIRONMENT EFFECTS`, `REALTIME REFLECTIONS`, `POST PROCESSING`.
 
 Список ключей включает:
 
@@ -593,9 +648,15 @@ SerializedFileMetadata {
 
 ## 10. Заключение
 
-Бинарный поиск ASCII-строк даёт ~30-40% текста с высоким уровнем шума. Для полного извлечения необходим **структурный парсинг Unity serialized формата**: чтение ObjectTable и сканирование data-блоков MonoBehaviour на length-prefixed строки. Это реализуемо на чистом Node.js без сторонних библиотек, так как структура метаданных известна и стабильна для Unity 22.
+Бинарный поиск ASCII-строк даёт ~40-60% текста с умеренным уровнем шума. Для полного извлечения необходим **структурный парсинг Unity serialized формата**: чтение ObjectTable и сканирование data-блоков MonoBehaviour на length-prefixed строки. Это реализуемо на чистом Node.js без сторонних библиотек, так как структура метаданных известна и стабильна для Unity 22.
+
+Ключевые улучшения новой версии:
+
+- Добавлены sharedassets1–15 и globalgamemanagers (+20 файлов к парсингу)
+- UTF-16 LE извлечение из .NET сборок (нашло 4 ранее пропущенных строки)
+- Type-tag сериализация NToolkit расшифрована
 
 ---
 
 _Документ создан в рамках анализа локализации Third Crisis Neon Nights (Anduo Games, Unity 2022.3.62f3)._
-_Последнее обновление: 2026-05-31 (добавлены Addressables bundles + NToolkit localization)_
+_Последнее обновление: 2026-05-31 (актуализация статистики, добавлены UTF-16 + type-tag сериализация NToolkit)_
