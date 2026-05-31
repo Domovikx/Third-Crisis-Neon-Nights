@@ -24,3 +24,5 @@ output/
 # OS junk
 Thumbs.db
 .DS_Store
+
+nul

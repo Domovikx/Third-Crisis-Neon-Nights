@@ -58,6 +58,7 @@ export function isDialogue(str) {
   if (str.length < 12 || str.length > 500) return false;
   if (str.includes('_')) return false;
   if (str.includes('/')) return false;
+  if (str.includes(':')) return false;
   if (/\.\w{2,4}$/.test(str)) return false;
 
   const words = str.toLowerCase().split(/\s+/);
@@ -79,15 +80,179 @@ export function isDialogue(str) {
   const uppercaseRatio = alpha > 0 ? (str.match(/[A-Z]/g) || []).length / alpha : 0;
   if (uppercaseRatio > 0.8 && lower < alpha * 0.5) return false;
 
+  // Title-case with > 50% capitalized words = UI label, not dialogue
+  const origWords = str.split(/\s+/);
+  const upperStartWords = origWords.filter(w => /^[A-Z]/.test(w.replace(/[^a-zA-Z']/g, ''))).length;
+  if (upperStartWords >= 2 && upperStartWords / origWords.length > 0.5) return false;
+
   return true;
 }
 
 export function isUI(str) {
   const s = str.trim();
-  if (s.length < 2 || s.length > 60) return false;
-  if (!/^[A-Z0-9\s\-\.\,\!\?\'\"\:]{2,60}$/.test(s)) return false;
-  const letters = (s.match(/[A-Z]/g) || []).length;
-  return letters >= 2;
+  if (s.length < 2 || s.length > 80) return false;
+  if (/[\x00-\x1f]/.test(s)) return false;
+
+  // Reject strings with URLs or Windows file paths
+  if (/\.\w{2,4}\/\w/.test(s) || /\\/.test(s)) return false;
+
+  const upper = (s.match(/[A-Z]/g) || []).length;
+  const lower = (s.match(/[a-z]/g) || []).length;
+  const letters = upper + lower;
+
+  if (letters < 2) return false;
+  if (s.startsWith('_')) return false;
+
+  // Contains path separator: "Save/Load" — UI before camelCase check
+  if (s.includes('/')) return true;
+
+  // Common camelCase UI words that should survive the camelCase reject
+  const UI_CAMELCASE = new Set([
+    'MainMenu', 'PauseMenu', 'StartMenu', 'OptionsMenu',
+    'SubMenu', 'PopupMenu', 'DropDown', 'Dropdown', 'Tooltip',
+    'Checkbox', 'CheckBox', 'RadioButton', 'ScrollBar', 'Scrollbar',
+    'TextInput', 'TextArea', 'PasswordField',
+    'OnClick', 'OnHover', 'OnFocus', 'OnSelect',
+    'LoadGame', 'SaveGame', 'NewGame', 'QuickSave', 'QuickLoad',
+    'AutoSave', 'ScreenShot', 'Screenshot',
+  ]);
+  if (UI_CAMELCASE.has(s)) return true;
+
+  // Reject compound camelCase identifiers (Unity property names)
+  // "OnPlay", "ImpactColor", "RainTintColor", "ListHolder"
+  // Exception: "VSync" keeps uppercase V+S, "McFly" etc.
+  if (!s.includes(' ') && !s.includes(':') && !s.includes('.') &&
+      /[a-z][A-Z]/.test(s) && !/^[A-Z]{2,}[a-z]/.test(s)) {
+    return false;
+  }
+
+  // All-caps: "MAIN MENU", "EXIT TO DESKTOP", "SAVE GAME", "FPS - Module"
+  if (s === s.toUpperCase() && s !== s.toLowerCase()) {
+    return letters >= 3;
+  }
+
+  // Sentence with period at end — likely dialogue, not UI
+  if (/^[A-Z][a-z]+ .*\.$/.test(s) && (s.match(/\./g) || []).length === 1) return false;
+
+  // Reject Unity ParticleSystem/Shuriken property patterns (multi-word tech names)
+  const TECH_PROPERTY_PREFIXES = [
+    'Start ', 'Rate ', 'Burst ', 'Gravity ', 'Max ', 'Min ', 'Impact ',
+    'Speed ', 'Size ', 'Rotation ', 'Color ', 'Alpha ', 'Lifetime ',
+    'Velocity ', 'Force ', 'Torque ', 'Noise ', 'UV ',
+  ];
+  if (TECH_PROPERTY_PREFIXES.some(p => s.startsWith(p))) return false;
+
+  // Reject single PascalCase words that are technical
+  const TECH_SINGLE_WORDS = new Set([
+    'Awake', 'FixedUpdate', 'LateUpdate', 'OnEnable', 'OnDisable',
+    'OnDestroy', 'OnTriggerEnter', 'OnTriggerStay', 'OnTriggerExit',
+    'OnCollisionEnter', 'OnCollisionStay', 'OnCollisionExit',
+    'OnMouseEnter', 'OnMouseOver', 'OnMouseExit', 'OnMouseDown',
+    'OnMouseUp', 'OnGUI', 'OnDrawGizmos', 'Reset',
+    'Lifetime', 'Start', 'Stop', 'Update',
+  ]);
+  if (TECH_SINGLE_WORDS.has(s)) return false;
+
+  // Contains spaces: multi-word UI strings like "Enable VSync", "Dynamic Lighting"
+  if (s.includes(' ')) {
+    const words = s.split(/\s+/).filter(Boolean);
+    const lowerStart = words.filter(w => /^[a-z]/.test(w)).length;
+    // Allow max 1 lowercase-starting word (articles, prepositions)
+    return lowerStart <= 1;
+  }
+
+  // Contains dot or colon: "Settings.FPSLimit", "Lovense: Enabled"
+  // But not sentence-ending period (single period at end with 3+ words)
+  if (s.includes(':')) return true;
+  if (s.includes('.')) {
+    // "Hello there." — sentence with period at end → not UI
+    if (s.endsWith('.') && (s.match(/\./g) || []).length === 1 && (s.match(/\s+/g) || []).length >= 1) return false;
+    return true;
+  }
+
+    // Single PascalCase word without internal camelCase: "Fullscreen", "Resolution"
+    if (/^[A-Z][a-z]+$/.test(s) || /^[A-Z]+[a-z]+$/.test(s)) {
+      // Common UI single words
+      const UI_SINGLE_WORDS = new Set([
+        'Off', 'Low', 'Med', 'Mid', 'Medium', 'High', 'Ultra', 'Slow', 'Normal', 'Fast',
+        'On', 'Save', 'Load', 'Menu', 'Open', 'Close', 'Full', 'Max', 'Min',
+        'Yes', 'No', 'Ok', 'OK', 'None', 'Auto', 'All', 'Any', 'Set',
+        'Controls', 'Game', 'Video', 'Sound', 'Toys', 'Text',
+        'Volume', 'Music', 'Effects', 'Voice', 'Sensitivity',
+        'Resolution', 'Fullscreen', 'Display', 'Graphics', 'Quality',
+        'Language', 'Dialogue', 'Autoplay', 'Sprint', 'Hints', 'Player',
+        'Sprite', 'Profile', 'Privacy', 'Device', 'Search', 'Setup',
+        'Port', 'Limited', 'Enabled', 'Disabled', 'Deactivated',
+        'Category', 'Section', 'General', 'Advanced', 'Options',
+        'Searching', 'MainMenu', 'Continue', 'Vibration', 'Apply',
+        'Accept', 'Cancel', 'Confirm', 'Exit', 'Quit', 'Pause', 'Resume',
+        'Retry', 'Back', 'Next', 'Prev', 'Previous', 'Submit', 'Reset',
+        'Clear', 'Delete', 'Remove', 'Add', 'Edit', 'Rename', 'Copy',
+        'Cut', 'Paste', 'Select', 'Deselect', 'Invert', 'Filter',
+        'Sort', 'Refresh', 'Update', 'Install', 'Uninstall', 'Download',
+        'Upload', 'Sync', 'Connect', 'Disconnect', 'Reconnect',
+        'Bind', 'Unbind', 'Rebind', 'Assign', 'Unassign',
+        'Key', 'Keys', 'Binding', 'Bindings', 'Keyboard', 'Mouse',
+        'Touch', 'Tap', 'Click', 'Double', 'Hold', 'Press', 'Release',
+        'Up', 'Down', 'Left', 'Right', 'Forward', 'Backward', 'Jump',
+        'Crouch', 'Sneak', 'Run', 'Walk', 'Swim', 'Fly', 'Dive',
+        'Attack', 'Defend', 'Guard', 'Block', 'Parry', 'Dodge',
+        'Interact', 'Use', 'Equip', 'Unequip', 'Inventory', 'Backpack',
+        'Map', 'Journal', 'Quest', 'Quests', 'Log', 'Codex', 'Bestiary',
+        'Craft', 'Crafting', 'Cook', 'Brew', 'Enchant', 'Upgrade',
+        'Repair', 'Buy', 'Sell', 'Trade', 'Shop', 'Store', 'Market',
+        'Price', 'Cost', 'Value', 'Gold', 'Coin', 'Coins', 'Money',
+        'Exp', 'XP', 'Level', 'Rank', 'Tier', 'Stage', 'Wave',
+        'Score', 'Points', 'Time', 'Timer', 'Count', 'Total',
+        'Attack', 'Damage', 'Defense', 'Armor', 'Health', 'Mana',
+        'Stamina', 'Energy', 'Power', 'Speed', 'Agility', 'Strength',
+        'Intelligence', 'Wisdom', 'Charisma', 'Luck', 'Faith',
+        'Fire', 'Ice', 'Water', 'Earth', 'Wind', 'Lightning', 'Light',
+        'Dark', 'Shadow', 'Holy', 'Unholy', 'Arcane', 'Nature',
+        'Slash', 'Pierce', 'Blunt', 'Physical', 'Magical', 'Elemental',
+        'Poison', 'Bleed', 'Burn', 'Freeze', 'Shock', 'Stun',
+        'Sleep', 'Silence', 'Blind', 'Fear', 'Charm', 'Confuse',
+        'Single', 'Multi', 'AoE', 'Self', 'Target', 'Random',
+        'Ally', 'Ally', 'Enemy', 'Foe', 'Friend', 'Foe',
+        'Party', 'Group', 'Solo', 'Team', 'Raid', 'Guild',
+        'Chat', 'Message', 'Mail', 'Trade', 'Duel', 'Challenge',
+        'Ranked', 'Casual', 'Competitive', 'Practice', 'Training',
+        'Tutorial', 'Help', 'Guide', 'Info', 'Information',
+        'About', 'Credits', 'License', 'Terms', 'Privacy',
+        'Accessibility', 'Beta', 'Alpha', 'Demo', 'Trial', 'Full',
+        'Connecting', 'Connected', 'Disconnected', 'Timeout',
+        'Server', 'Client', 'Host', 'Join', 'Leave', 'Kick', 'Ban',
+        'Mute', 'Unmute', 'Spectate', 'Observe',
+        'Ready', 'Unready', 'Waiting', 'Countdown',
+        'Victory', 'Defeat', 'Win', 'Lose', 'Draw',
+        'Perfect', 'Excellent', 'Great', 'Good', 'Bad', 'Fail',
+        'Complete', 'Incomplete', 'New', 'Old',
+        'Online', 'Offline', 'Away', 'Busy', 'Idle', 'AFK',
+        'Mod', 'Mods', 'DLC', 'Addon', 'Addons', 'Patch',
+        'Notify', 'Notification', 'Alert', 'Warning', 'Error',
+        'Success', 'Failure', 'Progress', 'Status',
+        'Name', 'Title', 'Label', 'Tag', 'Icon', 'Badge',
+        'List', 'Grid', 'Table', 'Tree', 'Tile', 'Card',
+        'Top', 'Bottom', 'Middle', 'Center', 'Side', 'Edge',
+        'Inside', 'Outside', 'Above', 'Below', 'Over', 'Under',
+        'Show', 'Hide', 'Visible', 'Hidden', 'Reveal', 'Conceal',
+        'Lock', 'Unlock', 'Locked', 'Unlocked',
+        'Public', 'Private', 'Shared', 'Personal',
+        'Free', 'Paid', 'Premium', 'Vip', 'VIP',
+        'Guest', 'User', 'Admin', 'Owner', 'Member',
+        'Male', 'Female', 'Other', 'Custom', 'Default',
+        'Initial', 'Final', 'First', 'Last', 'Next', 'Previous',
+        'Begin', 'End', 'Start', 'Stop', 'Finish',
+        'Day', 'Night', 'Morning', 'Afternoon', 'Evening',
+        'Today', 'Tomorrow', 'Yesterday',
+      ]);
+      if (UI_SINGLE_WORDS.has(s)) return true;
+
+      // Other single PascalCase words → UI (buttons, tabs, etc.)
+      return true;
+    }
+
+    return false;
 }
 
 /**
@@ -226,7 +391,7 @@ Output:
     ? args[args.indexOf('--out') + 1]
     : join(GAME_DIR, 'output', 'extractor');
 
-  const minLength = parseInt(args.includes('--min-len') ? args[args.indexOf('--min-len') + 1] : '10', 10);
+  const minLength = parseInt(args.includes('--min-len') ? args[args.indexOf('--min-len') + 1] : '3', 10);
   const detailed = args.includes('--detailed');
   const showNoise = args.includes('--show-noise');
 

@@ -4,7 +4,7 @@ import { readFile, access } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { parseHeader, extractUnityStrings, extractRawStrings, parseUnityFile, parseRawFile } from './parser.mjs';
+import { parseHeader, extractUnityStrings, extractAlignedStrings, extractRawStrings, parseUnityFile, parseRawFile } from './parser.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..', '..', '..');
@@ -89,7 +89,7 @@ async function main() {
     // Check manifest
     const manifestStr = await readFile(join(OUT_DIR, 'manifest.json'), 'utf-8');
     const manifest = JSON.parse(manifestStr);
-    assert(manifest.parser === 'parse-unity v3', 'parser version in manifest');
+    assert(manifest.parser.startsWith('parse-unity v4'), 'parser version in manifest');
     assert(manifest.totalStrings > 0, 'totalStrings > 0');
     assert(manifest.files.length > 0, 'files array non-empty');
     assert(manifest.files.some(f => f.type === 'unity'), 'has unity files');
@@ -115,6 +115,72 @@ async function main() {
 
   const saStrings = extractUnityStrings(saBuf, saH.dataOffset);
   assert(saStrings.length > 500, `sharedassets0: ${saStrings.length} strings`);
+
+  // Test 8: Aligned string extraction
+  console.log('\n8. Aligned string extraction');
+  const saDataEnd = saH.dataOffset + (saH.fileSize - saH.dataOffset);
+  const saAligned = extractAlignedStrings(saBuf, saH.dataOffset, saDataEnd);
+  assert(saAligned.length > 0, `sharedassets0 aligned: ${saAligned.length} strings found`);
+  assert(saAligned[0].type === 'aligned', 'aligned string has type=aligned');
+  assert(saAligned[0].offset !== undefined, 'aligned string has offset');
+  assert(saAligned[0].raw !== undefined, 'aligned string has raw');
+  assert(saAligned[0].raw.length >= 3, `aligned string raw length >= 3: "${saAligned[0].raw}"`);
+
+  // Check for known UI strings in sharedassets0
+  const hasLoadGame = saAligned.some(s => s.raw === 'LOAD GAME');
+  assert(hasLoadGame, 'sharedassets0 aligned: LOAD GAME found');
+
+  const hasOptionName = saAligned.some(s => s.raw.includes('OPTION NAME'));
+  assert(hasOptionName, 'sharedassets0 aligned: OPTION NAME found');
+
+  // Test 9: resources.assets aligned strings
+  console.log('\n9. resources.assets aligned strings');
+  try {
+    const resBuf = await readFile(join(DATA_DIR, 'resources.assets'));
+    const resH = parseHeader(resBuf);
+    assert(resH.version === 22, 'resources.assets: version 22');
+    const resDataEnd = resH.dataOffset + (resH.fileSize - resH.dataOffset);
+    const resAligned = extractAlignedStrings(resBuf, resH.dataOffset, resDataEnd);
+    assert(resAligned.length > 0, `resources.assets aligned: ${resAligned.length} strings`);
+
+    const hasMainMenu = resAligned.some(s => s.raw === 'MAIN MENU');
+    assert(hasMainMenu, 'resources.assets: MAIN MENU found');
+
+    const hasFullscreen = resAligned.some(s => s.raw === 'Fullscreen' || s.raw === 'FULLSCREEN');
+    assert(hasFullscreen, 'resources.assets: Fullscreen found');
+
+    const hasSettings = resAligned.some(s => s.raw.startsWith('Settings.'));
+    assert(hasSettings, 'resources.assets: Settings.* keys found');
+
+    const hasExitDesktop = resAligned.some(s => s.raw === 'EXIT TO DESKTOP');
+    assert(hasExitDesktop, 'resources.assets: EXIT TO DESKTOP found');
+
+    const hasSaveGame = resAligned.some(s => s.raw === 'SAVE GAME');
+    assert(hasSaveGame, 'resources.assets: SAVE GAME found');
+
+    const hasFPSLimit = resAligned.some(s => s.raw === 'FPS Limit');
+    assert(hasFPSLimit, 'resources.assets: FPS Limit found');
+  } catch (e) {
+    assert(false, `resources.assets: ${e.message}`);
+  }
+
+  // Test 10: parseUnityFile merge
+  console.log('\n10. parseUnityFile merge');
+  const merged = await parseUnityFile(join(DATA_DIR, 'sharedassets0.assets'), 'sharedassets0');
+  assert(merged.stats.totalStrings > 0, 'merged totalStrings > 0');
+  assert(merged.stats.nullTerminated > 0, `nullTerminated: ${merged.stats.nullTerminated}`);
+  assert(merged.stats.aligned > 0, `aligned: ${merged.stats.aligned}`);
+  assert(merged.stats.totalStrings === merged.stats.nullTerminated + merged.stats.aligned,
+    'total === nullTerminated + aligned');
+
+  // Test 11: Aligned strings from level15 (HOLD TO SKIP)
+  console.log('\n11. Level15 aligned strings');
+  const level15Buf = await readFile(join(DATA_DIR, 'level15'));
+  const level15H = parseHeader(level15Buf);
+  const level15DataEnd = level15H.dataOffset + (level15H.fileSize - level15H.dataOffset);
+  const level15Aligned = extractAlignedStrings(level15Buf, level15H.dataOffset, level15DataEnd);
+  const hasHoldToSkip = level15Aligned.some(s => s.raw === 'HOLD TO SKIP');
+  assert(hasHoldToSkip, 'level15: HOLD TO SKIP found');
 
   // ====== Summary ======
   console.log(`\n\n=== Result: ${passed} passed, ${failed} failed ===`);

@@ -266,6 +266,7 @@ Extractor применяет эвристики для разделения ст
 - **noise** — всё остальное (FSM-состояния, имена объектов, пути)
 
 После классификации группирует по source-файлам и выводит NDJSON с sequential ID:
+
 ```
 ["level3_001","And now hold still I'm not done yet.","","641239"]
 ["level3_002","(I hope she's okay.)","","642001"]
@@ -291,30 +292,41 @@ Extractor применяет эвристики для разделения ст
 
 ## 6. Результаты бинарного анализа
 
-### 6.1. Статистика по файлам
+### 6.1. Статистика по файлам (v1 — only .assets + level + DLL)
 
-| Файл          | Размер   | version | dataOffset | Строк (raw) | Диалогов | UI  |
-| ------------- | -------- | ------- | ---------- | ----------- | -------- | --- |
-| level0        | 0.11 MB  | 22      | 980        | 533         | 37       | 0   |
-| level1        | 0.06 MB  | 22      | 648        | 130         | 8        | 0   |
-| level2        | 0.13 MB  | 22      | 1 108      | 478         | 13       | 1   |
-| level3        | 7.03 MB  | 22      | 1 097 200  | 46 040      | 1 532    | 3   |
-| level4        | 1.77 MB  | 22      | 270 400    | 13 828      | 633      | 2   |
-| level5        | 1.84 MB  | 22      | 281 176    | 11 483      | 500      | 1   |
-| level6        | 1.51 MB  | 22      | 314 372    | 4 607       | 88       | 1   |
-| level7        | 12.84 MB | 22      | 1 933 020  | 67 188      | 2 434    | 3   |
-| level8        | 0.93 MB  | 22      | 144 848    | 5 130       | 132      | 1   |
-| level9        | 2.05 MB  | 22      | 309 400    | 12 150      | 525      | 0   |
-| level10       | 2.59 MB  | 22      | 390 376    | 15 647      | 754      | 0   |
-| level11       | 3.32 MB  | 22      | 499 340    | 13 152      | 532      | 0   |
-| level12       | 1.41 MB  | 22      | 221 396    | 9 078       | 494      | 1   |
-| level13       | 1.22 MB  | 22      | 194 548    | 6 364       | 147      | 6   |
-| level14       | 1.20 MB  | 22      | 190 876    | 5 679       | 102      | 3   |
-| level15       | 4.06 MB  | 22      | 608 704    | 14 429      | 370      | 5   |
-| sharedassets0 | 34.45 MB | 22      | 66 144     | 396 069     | 153      | 136 |
-| Assembly-CSharp.dll | 3.75 MB | —  | —          | 27 678      | 2 504    | 11  |
+| Файл                          | Размер   | version | dataOffset | Строк (raw) | Диалогов | UI      |
+| ----------------------------- | -------- | ------- | ---------- | ----------- | -------- | ------- |
+| level0                        | 0.11 MB  | 22      | 980        | 533         | 37       | 0       |
+| level1                        | 0.06 MB  | 22      | 648        | 130         | 8        | 0       |
+| level2                        | 0.13 MB  | 22      | 1 108      | 478         | 13       | 1       |
+| level3                        | 7.03 MB  | 22      | 1 097 200  | 46 040      | 1 532    | 3       |
+| level4                        | 1.77 MB  | 22      | 270 400    | 13 828      | 633      | 2       |
+| level5                        | 1.84 MB  | 22      | 281 176    | 11 483      | 500      | 1       |
+| level6                        | 1.51 MB  | 22      | 314 372    | 4 607       | 88       | 1       |
+| level7                        | 12.84 MB | 22      | 1 933 020  | 67 188      | 2 434    | 3       |
+| level8                        | 0.93 MB  | 22      | 144 848    | 5 130       | 132      | 1       |
+| level9                        | 2.05 MB  | 22      | 309 400    | 12 150      | 525      | 0       |
+| level10                       | 2.59 MB  | 22      | 390 376    | 15 647      | 754      | 0       |
+| level11                       | 3.32 MB  | 22      | 499 340    | 13 152      | 532      | 0       |
+| level12                       | 1.41 MB  | 22      | 221 396    | 9 078       | 494      | 1       |
+| level13                       | 1.22 MB  | 22      | 194 548    | 6 364       | 147      | 6       |
+| level14                       | 1.20 MB  | 22      | 190 876    | 5 679       | 102      | 3       |
+| level15                       | 4.06 MB  | 22      | 608 704    | 14 429      | 370      | 5       |
+| sharedassets0                 | 34.45 MB | 22      | 66 144     | 396 069     | 153      | 136     |
+| resources                     | 78.90 MB | 22      | 2 451 248  | 984 103     | 12 245   | 320 366 |
+| Assembly-CSharp.dll           | 3.75 MB  | —       | —          | 27 678      | 2 374    | 3 655   |
+| Assembly-CSharp-firstpass.dll | 0.53 MB  | —       | —          | 7 244       | 20       | 267     |
 
-**Всего:** 649 663 сырых строк → **10 958 диалогов + 174 UI** (после фильтрации extractor-ом)
+### 6.1b. Статистика по бандлам (v2 — Addressables .bundle files)
+
+| Бандл               | Размер | Строк (raw) | UI      |
+| ------------------- | ------ | ----------- | ------- |
+| level-cartelhideout | ~35 MB | 640 453     | 212 799 |
+| level-glowinghole   | ~68 MB | 1 310 529   | 399 935 |
+| 3dsuitcasescene     | ~2 MB  | 17 546      | 5 199   |
+| releasenotesui      | ~1 MB  | 12 655      | 4 603   |
+
+**Итого (v1 + v2):** 3 848 483 сырых строк → **18 761 диалог + 1 286 563 UI**
 
 ### 6.2. Примеры найденных строк
 
@@ -357,18 +369,157 @@ And now hold still I'm not done yet.
 
 ### 6.5. Оценка покрытия
 
-| Метод                      | Всего строк | Чистых диалогов | Доля |
-| -------------------------- | ----------- | --------------- | ---- |
-| Parser (data section)      | 649 663     | —               | —    |
-| Extractor (dialogue)       | 10 958      | ~1 500-2 000    | ~15% |
-| Extractor (UI)             | 174         | 174             | 100% |
+| Метод                 | Всего строк | Чистых диалогов | Доля |
+| --------------------- | ----------- | --------------- | ---- |
+| Parser (data section) | 649 663     | —               | —    |
+| Extractor (dialogue)  | 10 958      | ~1 500-2 000    | ~15% |
+| Extractor (UI)        | 174         | 174             | 100% |
 
 Слабое место: фильтр `isDialogue()` слишком широкий — пропускает
 документационные строки из DLL и имена FSM-состояний.
-UI-фильтр точный, но основная часть UI-строк (CONTINUE, NEW GAME, OPTIONS)
-не найдена — они хранятся не как plain text в файлах игры.
+UI-фильтр точный, но требует постоянного расширения allowlist.
+
+### 6.6. NToolkit Localization: Settings.\* key system
+
+Основная часть UI-текста настроек (Video, Game, Sound, Controls, Toys tabs +
+~50 настроек) хранится в `resources.assets` в виде **aligned strings** с паттерном:
+
+```
+Settings.VideoTab       → "Video"
+Settings.GameTab        → "Game"
+Settings.Fullscreen     → "Fullscreen"
+Settings.EnableVSync    → "Enable VSync"
+Settings.FPSLimit       → "FPS Limit"
+```
+
+Каждая запись дублируется дважды (key + display text, каждый по 2 копии):
+
+```
+[offset A] Settings.Fullscreen
+[offset A+4] Settings.Fullscreen
+[offset A+24] Fullscreen
+[offset A+28] Fullscreen
+```
+
+Это стандартный формат **NToolkit localization**: ключ `Settings.XXX` и отображаемый текст.
+Всего найдено **57 уникальных Settings.\* ключей** с соответствующими display text.
+
+Список ключей включает:
+
+- **Tabs:** ControlsTab, GameTab, VideoTab, SoundTab, ToysTab, LewderShooterTab
+- **Video:** Fullscreen, Resolution, FPSLimit, EnableVSync, DynamicLighting, TextureQuality
+- **Game:** DialogueAutoplay (with sub: Off, Slow, Normal, Fast), GrassDetail (Deactivated, Low, High, Ultra), Language (Machine Translation), ShowFPS, ShowAdvancedPerformanceStats, etc.
+- **Sound:** MusicVolume, EffectsVolume
+- **Controls:** MouseSensitivity, MovementSpeed, UseVirtualJoystick, etc.
+- **Toys:** Lovense (Enabled, IP, Port, UseHTTP, Setup, Buy, DialogueLine, UserInterface, NativeSetup, Search), SeasonalEvents, EnableMultiplayer
+- **Values:** Off, On, High, Medium, Low, Ultra, Deactivated, Slow, Normal, Fast
+
+Меню навигация (Options, Back, Reset to Default) находится в `sharedassets0.assets`.
 
 ---
+
+## 6.7. Addressables Bundle формат (UnityFS)
+
+### 6.7.1. Общая структура
+
+Бандлы находятся в `StreamingAssets/aa/StandaloneWindows64/*.bundle` (~97 файлов).
+Формат: **UnityFS v8**, LZ4HC сжатие.
+
+```
+┌──────────────────────────────┐
+│  UnityFS Header (64 байт)    │
+├──────────────────────────────┤
+│  LZ4-сжатый Header (перемен.)│  ← только заголовок сжат!
+├──────────────────────────────┤
+│  Data Area (не сжата)        │  ← raw бинарные данные
+└──────────────────────────────┘
+```
+
+### 6.7.2. UnityFS Header
+
+| Смещение | Размер | Поле               | Формат    |
+| -------- | ------ | ------------------ | --------- |
+| 0x00     | 7      | Сигнатура          | "UnityFS" |
+| 0x07     | 1      | Версия             | uint8 = 8 |
+| 0x08     | 5      | Игровая версия     | "2022.3"  |
+| 0x0D     | 1      | Engine version len | uint8     |
+| 0x0E     | N      | Engine version     | ASCII     |
+| ...      | ...    | ...                | ...       |
+| 0x26     | 4      | Compressed size    | uint32 BE |
+| 0x2A     | 4      | Decompressed size  | uint32 BE |
+| 0x2E     | 4      | Flags              | uint32 BE |
+| 0x32     | 30     | Padding            |           |
+
+- Flags & 0x3F = compression type (3 = LZ4, 4 = LZMA)
+- Header начинается с offset 64
+- Data Area начинается: offset = 64 + compressedHeaderSize
+
+### 6.7.3. CAB (Content Archive) узлы
+
+После декомпрессии заголовка, CAB ноды следуют формату:
+
+```
+[path\0][offset 4BE][size 4BE][flags 4BE]
+```
+
+Где:
+
+- **path** — null-terminated ASCII путь (имя ассета)
+- **offset** — 4-байтовое смещение в data area (Big-Endian)
+- **size** — 4-байтовый размер (Big-Endian)
+- **flags** — 4-байтовые флаги (Big-Endian)
+
+### 6.7.4. Data Area: не сжата
+
+**Ключевое открытие:** Data area бандлов НЕ СЖАТА. Только заголовок (UnityFS header metadata) сжат LZ4. Data area — это raw бинарная память, которую можно сканировать напрямую.
+
+Это означает, что все текстовые строки в бандлах читаемы как ASCII без декомпрессии.
+
+### 6.7.5. Метод извлечения: raw ASCII scanning
+
+```
+1. Прочитать файл
+2. Проверить сигнатуру "UnityFS"
+3. Распарсить UnityFS header
+4. Декомпрессировать LZ4-заголовок (pure JS lz4 block decoder)
+5. Взять data area как Buffer.subarray(hdr.dataStart)
+6. Сканировать на ASCII строки (byte >= 32 && < 127)
+7. Фильтр: >= 4 символа, содержит 3+ буквы
+8. Записать NDJSON: [offset, "raw"]
+```
+
+### 6.7.6. Pure JS LZ4 block decoder
+
+Стандартный LZ4 block format:
+
+```
+Token (1 byte):
+  high nibble = literal length
+  low nibble  = match length - 4
+
+After token:
+  Literals (literal length bytes)
+  Match offset (2 bytes LE)
+  Match (match length bytes from matchPos)
+
+Extended lengths:
+  If literal length == 15 → add bytes until < 255
+  If match length == 19 → add bytes until < 255
+```
+
+### 6.7.7. Какие бандлы содержат UI текст
+
+Из 97 бандлов только 4 содержат значимые строки для перевода:
+
+| Бандл               | Назначение         |
+| ------------------- | ------------------ |
+| level-cartelhideout | Сцена картеля      |
+| level-glowinghole   | Сцена Glowing Hole |
+| 3dsuitcasescene     | Сцена чемодана     |
+| releasenotesui      | Release notes UI   |
+
+Остальные бандлы (pinup, sexscene, music, sfx, background, etc.) содержат
+только текстуры, шейдеры, анимации — без переводимого текста UI.
 
 ## 7. Проблемы и решения
 
@@ -447,3 +598,4 @@ SerializedFileMetadata {
 ---
 
 _Документ создан в рамках анализа локализации Third Crisis Neon Nights (Anduo Games, Unity 2022.3.62f3)._
+_Последнее обновление: 2026-05-31 (добавлены Addressables bundles + NToolkit localization)_

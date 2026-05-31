@@ -58,6 +58,263 @@ export function parseHeader(buf) {
 // ====== String extraction ======
 
 /**
+ * Extract aligned strings (int32 LE length + UTF-8 data) from buffer.
+ *
+ * Unity serializes string fields as:
+ *   4 bytes: int32 LE length
+ *   N bytes: UTF-8 string data
+ *   padding to 4-byte boundary (null bytes)
+ *
+ * Uses text-run approach: scans for printable ASCII runs, then checks
+ * if a valid length prefix exists 1-4 bytes before the text.
+ *
+ * Returns array of { offset, raw, length, type: 'aligned' } objects.
+ */
+export function extractAlignedStrings(buf, dataOffset, dataEnd) {
+  const result = [];
+  const seen = new Set();
+
+  let i = dataOffset;
+  while (i < dataEnd) {
+    // Fast-forward to next printable ASCII character
+    while (i < dataEnd && (buf[i] < 32 || buf[i] > 126)) i++;
+    if (i >= dataEnd) break;
+
+    const textStart = i;
+
+    // Measure text run length
+    let textLen = 0;
+    while (i + textLen < dataEnd && buf[i + textLen] >= 32 && buf[i + textLen] <= 126) textLen++;
+    i += textLen;
+
+    // A valid aligned string text run is 3-200 chars
+    if (textLen < 3 || textLen > 200) continue;
+
+    // Try to find a length prefix in the 4 bytes before textStart
+    for (let offset = -4; offset < 0; offset++) {
+      const prefixPos = textStart + offset;
+      if (prefixPos < dataOffset) continue;
+
+      const storedLen = buf.readUInt32LE(prefixPos);
+      if (storedLen < 3 || storedLen > 200) continue;
+      if (prefixPos + 4 + storedLen > dataEnd) continue;
+
+      // Read the string at the claimed position
+      const candidate = buf.toString('utf-8', prefixPos + 4, prefixPos + 4 + storedLen);
+      if (!candidate) continue;
+
+      // Verify: our text run should start with this candidate
+      const text = buf.toString('utf-8', textStart, textStart + Math.min(textLen, 60));
+      if (!text.startsWith(candidate.substring(0, Math.min(candidate.length, text.length)))) continue;
+
+      // Validate content: must be mostly clean ASCII text
+      let letters = 0;
+      let spaces = 0;
+      for (let ci = 0; ci < candidate.length; ci++) {
+        const cc = candidate.charCodeAt(ci);
+        if ((cc >= 65 && cc <= 90) || (cc >= 97 && cc <= 122)) letters++;
+        if (cc === 32) spaces++;
+      }
+      if (letters === 0 && spaces === 0) continue;
+      if (letters + spaces < candidate.length * 0.4) continue;
+
+      const clean = candidate.trim();
+      if (clean.length < 3) continue;
+
+      const key = `${prefixPos}:${clean}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+
+      result.push({
+        offset: prefixPos,
+        raw: clean,
+        length: storedLen,
+        type: 'aligned',
+      });
+
+      break; // One match per text run
+    }
+  }
+
+  return result;
+}
+
+// ====== Metadata parsing ======
+
+/**
+ * Parse the metadata section of a Unity serialized file (v22 format).
+ *
+ * Scans the metadata for the SerializedType array and ObjectInfo table.
+ *
+ * @param {Buffer} buf - File buffer
+ * @param {number} [metadataOffset=60] - Byte offset where metadata begins
+ * @param {number} [fileSize] - Total file size (for validation)
+ * @returns {{ platform: number, typeCount: number, types: Array, objectCount: number, objects: Array }}
+ */
+export function parseUnityMetadata(buf, header = null, fileSize) {
+  if (fileSize === undefined) fileSize = buf.length;
+
+  const metadataOffset = 60;
+
+  // Platform (int32 LE) — 19 = StandaloneWindows64
+  const platform = buf.readInt32LE(metadataOffset);
+
+  // --- Scan for SerializedType array ---
+  let offset = metadataOffset + 4;
+  let typeCount = 0;
+  let types = [];
+
+  while (offset <= buf.length - 12) {
+    const candidate = buf.readInt32LE(offset);
+    if (candidate > 0 && candidate <= 200) {
+      const result = readTypeArray(buf, offset + 4, candidate);
+      if (result) {
+        typeCount = candidate;
+        types = result.types;
+        offset = result.nextOffset;
+        break;
+      }
+    }
+    offset += 4;
+  }
+
+  // --- Scan for ObjectInfo table ---
+  let objectCount = 0;
+  let objects = [];
+
+  const scanStart = typeCount > 0 ? offset : metadataOffset + 4;
+  offset = scanStart;
+
+  while (offset <= buf.length - 28) {
+    const candidate = buf.readInt32LE(offset);
+    if (candidate >= 100 && candidate <= 10000) {
+      const records = readObjectInfoTable(buf, offset + 4, candidate, fileSize);
+      if (records) {
+        objectCount = candidate;
+        objects = records;
+        break;
+      }
+    }
+    offset += 4;
+  }
+
+  return { platform, typeCount, types, objectCount, objects };
+}
+
+/**
+ * Attempt to read a SerializedType array at the given offset.
+ * Each entry is 8 bytes when stripped; variable when typeTreeExists == 1.
+ * Returns null if the data doesn't look like a valid type array.
+ */
+function readTypeArray(buf, startOffset, count) {
+  const types = [];
+  let offset = startOffset;
+
+  for (let i = 0; i < count; i++) {
+    if (offset + 8 > buf.length) return null;
+    const classID = buf.readInt32LE(offset);
+    if (classID < -1 || classID > 10000) return null;
+
+    const isStripped = buf[offset + 4];
+    const scriptTypeIndex = buf.readInt16LE(offset + 5);
+    const typeTreeExists = buf[offset + 7];
+    let entrySize = 8;
+
+    if (typeTreeExists) {
+      const skip = skipUnityTypeTree(buf, offset + 8);
+      if (skip === null) return null;
+      entrySize += skip;
+    }
+
+    types.push({
+      classID,
+      isStripped: isStripped !== 0,
+      scriptTypeIndex,
+      typeTreeExists: typeTreeExists !== 0,
+    });
+
+    offset += entrySize;
+  }
+
+  if (types.length !== count) return null;
+  return { types, nextOffset: offset };
+}
+
+/**
+ * Try to skip past a TypeTree blob (when typeTreeExists == 1).
+ * Uses Unity 2022 TypeTree layout (28 bytes per node).
+ * Returns number of bytes skipped, or null on failure.
+ */
+function skipUnityTypeTree(buf, offset) {
+  let pos = offset;
+
+  // 16-byte hash / script ID
+  if (pos + 20 > buf.length) return null;
+  pos += 16;
+
+  // Node count (int32 LE)
+  const nodeCount = buf.readInt32LE(pos);
+  pos += 4;
+  if (nodeCount < 0 || nodeCount > 10000) return null;
+
+  // Each TypeTreeNode is 28 bytes in Unity 2022
+  const NODE_SIZE = 28;
+  const nodesByteLen = nodeCount * NODE_SIZE;
+  if (pos + nodesByteLen + 4 > buf.length) return null;
+  pos += nodesByteLen;
+
+  // String buffer length (int32 LE)
+  const strBufLen = buf.readInt32LE(pos);
+  pos += 4;
+  if (strBufLen < 0 || strBufLen > 5_000_000) return null;
+  if (pos + strBufLen > buf.length) return null;
+  pos += strBufLen;
+
+  return pos - offset;
+}
+
+/**
+ * Try to read an ObjectInfo table at the given offset.
+ * Each record is 24 bytes (6 × int32 LE).
+ * Returns array of { pathID, byteStart, byteEnd, typeID } or null if invalid.
+ */
+function readObjectInfoTable(buf, startOffset, count, fileSize) {
+  if (count <= 0) return null;
+  if (startOffset + count * 24 > buf.length) return null;
+
+  // Validate first few records
+  const maxCheck = Math.min(count, 5);
+  for (let i = 0; i < maxCheck; i++) {
+    const roff = startOffset + i * 24;
+    const typeID = buf.readInt32LE(roff);
+    const byteStart = buf.readInt32LE(roff + 4);
+    if (typeID < 1 || typeID >= 500) return null;
+    if (byteStart < 0 || byteStart >= fileSize) return null;
+  }
+
+  const objects = [];
+  for (let i = 0; i < count; i++) {
+    const roff = startOffset + i * 24;
+    const typeID = buf.readInt32LE(roff);
+    const byteStart = buf.readInt32LE(roff + 4);
+    const byteEnd = buf.readInt32LE(roff + 8);
+    const pathID_low = buf.readInt32LE(roff + 16);
+    const pathID_high = buf.readInt32LE(roff + 20);
+
+    let pathID;
+    if (pathID_high === 0) {
+      pathID = pathID_low >>> 0;
+    } else {
+      pathID = `${(pathID_high >>> 0).toString(16)}${(pathID_low >>> 0).toString(16).padStart(8, '0')}`;
+    }
+
+    objects.push({ pathID, byteStart, byteEnd, typeID });
+  }
+
+  return objects;
+}
+
+/**
  * Extract null-terminated strings from Unity data section.
  * Returns array of { offset, raw, contextHex } objects.
  */
@@ -132,7 +389,13 @@ export function extractRawStrings(buf) {
 export async function parseUnityFile(filepath, name) {
   const buf = await readFile(filepath);
   const header = parseHeader(buf);
-  const strings = extractUnityStrings(buf, header.dataOffset);
+
+  const dataEnd = header.dataOffset + (header.fileSize - header.dataOffset);
+  const nullTermStrings = extractUnityStrings(buf, header.dataOffset);
+  const alignedStrings = extractAlignedStrings(buf, header.dataOffset, dataEnd);
+
+  // Merge and sort by offset
+  const allStrings = [...nullTermStrings, ...alignedStrings].sort((a, b) => a.offset - b.offset);
 
   return {
     name,
@@ -148,10 +411,12 @@ export async function parseUnityFile(filepath, name) {
       endianess: header.endianess,
       newFormat: header.newFormat,
     },
-    strings,
+    strings: allStrings,
     stats: {
-      totalStrings: strings.length,
+      totalStrings: allStrings.length,
       dataSize: header.fileSize - header.dataOffset,
+      nullTerminated: nullTermStrings.length,
+      aligned: alignedStrings.length,
     },
   };
 }
@@ -179,8 +444,12 @@ function getDefaultFiles() {
   const files = [];
   for (let i = 0; i <= 15; i++)
     files.push({ name: `level${i}`, path: join(DATA_DIR, `level${i}`), type: 'unity' });
-  files.push({ name: 'sharedassets0', path: join(DATA_DIR, 'sharedassets0.assets'), type: 'unity' });
+  for (let i = 0; i <= 15; i++)
+    files.push({ name: `sharedassets${i}`, path: join(DATA_DIR, `sharedassets${i}.assets`), type: 'unity' });
+  files.push({ name: 'resources', path: join(DATA_DIR, 'resources.assets'), type: 'unity' });
+  files.push({ name: 'globalgamemanagers', path: join(DATA_DIR, 'globalgamemanagers.assets'), type: 'unity' });
   files.push({ name: 'Assembly-CSharp', path: join(DATA_DIR, 'Managed', 'Assembly-CSharp.dll'), type: 'raw' });
+  files.push({ name: 'Assembly-CSharp-firstpass', path: join(DATA_DIR, 'Managed', 'Assembly-CSharp-firstpass.dll'), type: 'raw' });
   return files;
 }
 
@@ -274,7 +543,7 @@ Output:
   await mkdir(outDir, { recursive: true });
 
   const manifest = {
-    parser: 'parse-unity v3',
+    parser: 'parse-unity v4',
     timestamp: new Date().toISOString(),
     minLength: minLen,
     totalFiles: results.length,
