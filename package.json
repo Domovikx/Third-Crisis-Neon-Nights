@@ -10,7 +10,9 @@
   "scripts": {
     "parse": "node .opencode/skills/parse-unity/parser.mjs",
     "extract": "node .opencode/skills/extractor/extractor.mjs --detailed",
-    "test:parse": "node .opencode/skills/parse-unity/parser.test.mjs"
+    "test:parse": "node .opencode/skills/parse-unity/parser.test.mjs",
+    "build:runtime": "node .opencode/skills/neon-translator-runtime/build.mjs",
+    "test:runtime": "node .opencode/skills/neon-translator-runtime/build.test.mjs"
   },
   "keywords": [
     "third-crisis",

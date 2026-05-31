@@ -20,9 +20,10 @@
 - `translate-batch` — пакетный перевод через Google Translate API
 - `find-strings` — извлечение английских строк из бинарных файлов Unity
 - `parse-unity` — чистый парсер Unity serialized + bundle парсер (binary → NDJSON, без фильтрации)
-  - `parser.mjs` — .assets/level файлы (aligned + null-terminated строки)
+  - `parser.mjs` — .assets/level файлы (aligned + null-terminated + UTF-16 строки)
   - `bundle-parser.mjs` — .bundle файлы (LZ4HC, raw ASCII scanning)
 - `extractor` — классификация и фильтрация строк из NDJSON (dialogue / UI / noise)
+- `neon-translator-runtime` — самописный рантайм-переводчик (C# DLL, VirtualProtect + JMP hook)
 
 ## Команды
 
@@ -32,7 +33,9 @@
 - `node .opencode/skills/parse-unity/parser.mjs` — парсер (binary → NDJSON)
 - `node .opencode/skills/parse-unity/bundle-parser.mjs` — парсер бандлов (LZ4HC → NDJSON)
 - `node .opencode/skills/extractor/extractor.mjs` — экстрактор (NDJSON → диалоги/UI)
-- `node .opencode/skills/parse-unity/parser.test.mjs` — тесты парсера (72 теста)
+- `node .opencode/skills/parse-unity/parser.test.mjs` — тесты парсера (80 тестов)
+- `node .opencode/skills/neon-translator-runtime/build.mjs` — сборка рантайм-переводчика
+- `node .opencode/skills/neon-translator-runtime/build.test.mjs` — тесты сборки
 - `python C:\Users\Domo\AppData\Local\Temp\opencode\search_bundles.py` — поиск строк в сырых бандлах
 
 ## Пайплайн
