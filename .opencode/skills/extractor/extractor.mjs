@@ -324,15 +324,55 @@ async function writeNDJSON(groups, outDir, category) {
   const dir = join(outDir, category);
   await mkdir(dir, { recursive: true });
 
+  /**
+   * Load existing translations from file, return Map<original, {id, translated}>
+   */
+  async function loadExisting(fp) {
+    const map = new Map();
+    try {
+      const content = await readFile(fp, 'utf-8');
+      for (const line of content.trim().split('\n').filter(Boolean)) {
+        try {
+          const [id, orig, trans] = JSON.parse(line);
+          if (orig) map.set(orig, { id, translated: trans || '' });
+        } catch { /* skip bad lines */ }
+      }
+    } catch { /* file not found */ }
+    return map;
+  }
+
   let total = 0;
   for (const [source, entries] of Object.entries(groups)) {
     if (entries.length === 0) continue;
-    const lines = entries.map((e, i) => {
-      const seq = String(i + 1).padStart(3, '0');
-      const id = `${source}_${seq}`;
-      return JSON.stringify([id, e.raw, '', String(e.offset)]);
-    });
+
     const fp = join(dir, `${source}.ndjson`);
+    const existing = await loadExisting(fp);
+
+    // Find max seq from existing entries for new ID generation
+    let maxSeq = 0;
+    for (const [, ex] of existing) {
+      const m = ex.id.match(/_(\d+)$/);
+      if (m) maxSeq = Math.max(maxSeq, parseInt(m[1], 10));
+    }
+
+    const seen = new Set();
+    const lines = [];
+    for (const e of entries) {
+      if (seen.has(e.raw)) continue; // dedup within batch
+      seen.add(e.raw);
+
+      if (existing.has(e.raw)) {
+        // Keep existing translation, preserve original ID
+        const ex = existing.get(e.raw);
+        lines.push(JSON.stringify([ex.id, e.raw, ex.translated, String(e.offset)]));
+      } else {
+        // New string — assign next ID, leave translation empty
+        maxSeq++;
+        const id = `${source}_${String(maxSeq).padStart(3, '0')}`;
+        lines.push(JSON.stringify([id, e.raw, '', String(e.offset)]));
+      }
+    }
+
     await writeFile(fp, lines.join('\n') + '\n', 'utf-8');
     total += entries.length;
   }
@@ -371,14 +411,16 @@ async function main() {
 Options:
   --input-dir <dir> Input NDJSON dir from parser (default: output/parser/)
   --out <dir>       Output directory (default: output/extractor/)
+  --merge <dir>     Merge into translation dir (e.g. translations/ru/) — adds only new strings
   --min-len <N>     Minimum string length (default: 10)
   --detailed        Show per-file breakdown + samples
   --show-noise      Include noise strings in output
   --help, -h        Show this help
 
 Output:
-  dialogs/*.ndjson   — NDJSON: ["id","original","","offset"]
+  dialogs/*.ndjson   — NDJSON: ["id","original","translated","offset"]
   ui/*.ndjson        — same format
+  --merge: idempotent — existing translations preserved, only new strings added.
 `);
     return;
   }
@@ -390,6 +432,10 @@ Output:
   const outDir = args.includes('--out')
     ? args[args.indexOf('--out') + 1]
     : join(GAME_DIR, 'output', 'extractor');
+
+  const mergeDir = args.includes('--merge')
+    ? args[args.indexOf('--merge') + 1]
+    : null;
 
   const minLength = parseInt(args.includes('--min-len') ? args[args.indexOf('--min-len') + 1] : '3', 10);
   const detailed = args.includes('--detailed');
@@ -430,18 +476,19 @@ Output:
   console.error(`Total:    ${extracted.stats.total}`);
   console.error(`Filtered out: ${input.totalStrings - extracted.stats.total}`);
 
-  // Write NDJSON per source file
-  await mkdir(outDir, { recursive: true });
+  const writeDir = mergeDir || outDir;
+  await mkdir(writeDir, { recursive: true });
 
-  const dialogCount = await writeNDJSON(extracted.dialogs, outDir, 'dialogs');
-  const uiCount = await writeNDJSON(extracted.ui, outDir, 'ui');
+  const dialogCount = await writeNDJSON(extracted.dialogs, writeDir, 'dialogs');
+  const uiCount = await writeNDJSON(extracted.ui, writeDir, 'ui');
 
   if (showNoise) {
-    const noiseCount = await writeNDJSON(extracted.noise, outDir, 'noise');
-    console.error(`\nNoise files in ${outDir}/noise/`);
+    const noiseCount = await writeNDJSON(extracted.noise, writeDir, 'noise');
+    console.error(`\nNoise files in ${writeDir}/noise/`);
   }
 
-  console.error(`\nSaved to ${outDir}/`);
+  const label = mergeDir ? 'Merged into' : 'Saved to';
+  console.error(`\n${label} ${writeDir}/`);
   console.error(`  dialogs/: ${dialogCount} strings in ${Object.keys(extracted.dialogs).length} files`);
   console.error(`  ui/:      ${uiCount} strings in ${Object.keys(extracted.ui).length} files`);
 

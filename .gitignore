@@ -5,9 +5,8 @@ Third\ Crisis\ Neon\ Nights_Data/
 !Third\ Crisis\ Neon\ Nights_Data/Managed/NeonTranslatorRuntime_Data.ndjson
 MonoBleedingEdge/
 
-# BepInEx (mod loader, not part of the game)
-BepInEx/*
-!BepInEx/Translation/
+# BepInEx (not used anymore, safety ignore)
+BepInEx/
 
 # Doorstop (injector)
 doorstop_config.ini
