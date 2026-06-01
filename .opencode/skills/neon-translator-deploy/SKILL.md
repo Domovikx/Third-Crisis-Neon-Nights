@@ -48,15 +48,14 @@ cat "Third Crisis Neon Nights_Data/Managed/NeonTranslator.log"
 
 ## Файлы
 
-| Файл                                                                      | Назначение                               |
-| ------------------------------------------------------------------------- | ---------------------------------------- |
-| `runtime/NeonTranslatorRuntime.dll`                                       | Скомпилированная DLL (build.mjs)         |
-| `runtime/NeonTranslatorRuntime_Data.ndjson`                               | Копия словаря (редактируется в Managed/) |
-| `Third Crisis Neon Nights_Data/Managed/NeonTranslatorRuntime.dll`         | Установленная DLL                        |
-| `Third Crisis Neon Nights_Data/Managed/NeonTranslatorRuntime_Data.ndjson` | Словарь (141+ записей)                   |
-| `Third Crisis Neon Nights_Data/Managed/NeonTranslator.log`                | Лог рантайма                             |
-| `dwmapi.dll`                                                              | Native proxy (корень игры)               |
-| `dwmapi_real.dll`                                                         | Форвардер (копия системной dwmapi.dll)   |
+| Файл                                                                      | Назначение                             |
+| ------------------------------------------------------------------------- | -------------------------------------- |
+| `runtime/NeonTranslatorRuntime.dll`                                       | Скомпилированная DLL (build.mjs)       |
+| `Third Crisis Neon Nights_Data/Managed/NeonTranslatorRuntime.dll`         | Установленная DLL                      |
+| `Third Crisis Neon Nights_Data/Managed/NeonTranslatorRuntime_Data.ndjson` | Словарь (141 запись, в git)            |
+| `Third Crisis Neon Nights_Data/Managed/NeonTranslator.log`                | Лог рантайма                           |
+| `dwmapi.dll`                                                              | Native proxy (корень игры)             |
+| `dwmapi_real.dll`                                                         | Форвардер (копия системной dwmapi.dll) |
 
 ## После деплоя
 

@@ -1,9 +1,8 @@
-# Game files
+# Game files (restored by Steam)
 *.exe
 *.dll
-
-# Unity game data (restored by Steam)
 Third\ Crisis\ Neon\ Nights_Data/
+!Third\ Crisis\ Neon\ Nights_Data/Managed/NeonTranslatorRuntime_Data.ndjson
 MonoBleedingEdge/
 
 # BepInEx (mod loader, not part of the game)
@@ -20,10 +19,17 @@ changelog.txt
 .install_temp/
 
 # Generated output (parser, extractor, analysis)
-output/parser
+output/
+
+# Build artifacts (proxy compilation)
+*.exp
+*.lib
+*.obj
+
+# Temp / misc
+nul
+runtime/
 
 # OS junk
 Thumbs.db
 .DS_Store
-
-nul
