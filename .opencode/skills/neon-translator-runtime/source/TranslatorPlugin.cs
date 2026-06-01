@@ -15,9 +15,9 @@ namespace NeonTranslator
         private static Dictionary<string, string> _translations;
         private static bool _initialized;
         private static string _logPath;
-        private static List<Component> _cachedTextComponents;
-        private static bool _cacheValid = false;
 
+        private static List<Component> _cachedComponents;
+        private static bool _cacheValid = false;
         private static Type _lmType;
         private static Type _lineType;
         private static Type _uiLocType;
@@ -39,7 +39,6 @@ namespace NeonTranslator
         private static MethodInfo _setTextMethod;
         private static IDictionary _guidDict;
         private static bool _reflectionReady = false;
-        private static PostRebuildFixer _postFixer;
 
         private static string GetLogPath()
         {
@@ -83,10 +82,7 @@ namespace NeonTranslator
 
                 InitReflection();
                 SceneManager.sceneLoaded += OnSceneLoaded;
-                Canvas.willRenderCanvases += FastScan;
-
-                _postFixer = new PostRebuildFixer();
-                CanvasUpdateRegistry.RegisterCanvasElementForGraphicRebuild(_postFixer);
+                Canvas.willRenderCanvases += OnPreRender;
 
                 var go = new GameObject("NeonTranslator_Scanner");
                 go.hideFlags = HideFlags.HideAndDontSave;
@@ -97,8 +93,8 @@ namespace NeonTranslator
                 DumpAllTextComponents();
 
                 ScanAllUiLocs();
+                InvalidateCache();
                 PopulateAllText();
-                FastScan();
             }
             catch (Exception ex)
             {
@@ -108,10 +104,9 @@ namespace NeonTranslator
 
         private static void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
-            _cacheValid = false;
+            InvalidateCache();
             ScanAllUiLocs();
             PopulateAllText();
-            FastScan();
         }
 
         private static void InitReflection()
@@ -213,7 +208,7 @@ namespace NeonTranslator
                 var enLine = Activator.CreateInstance(_lineType);
                 SetJsonField(_lineIdField, enLine, guid);
                 SetJsonField(_origTextJsonField, enLine, english);
-                SetJsonField(_textJsonField, enLine, english);
+                SetJsonField(_textJsonField, enLine, russian);
                 enDict[guid] = enLine;
             }
         }
@@ -290,14 +285,6 @@ namespace NeonTranslator
             return prop.GetValue(c) as string;
         }
 
-        private static void SetText(Component c, string value)
-        {
-            if (c == null) return;
-            var prop = c.GetType().GetProperty("text");
-            if (prop == null) return;
-            prop.SetValue(c, value);
-        }
-
         private static void SetTextFieldDirect(Component c, string value)
         {
             if (c == null) return;
@@ -312,7 +299,7 @@ namespace NeonTranslator
                 if (_tmpHavePropChangedField != null)
                     _tmpHavePropChangedField.SetValue(c, true);
                 var tmp = c as TMPro.TMP_Text;
-                if (tmp != null) tmp.SetAllDirty();
+                if (tmp != null) tmp.SetVerticesDirty();
             }
             else
             {
@@ -343,9 +330,14 @@ namespace NeonTranslator
         {
             if (_translations == null) return;
 
-            var allComponents = FindAllTextComponents();
+            if (!_cacheValid)
+            {
+                _cachedComponents = FindAllTextComponents();
+                _cacheValid = true;
+            }
+
             int replaced = 0;
-            foreach (var c in allComponents)
+            foreach (var c in _cachedComponents)
             {
                 if (c == null) continue;
                 string current = GetText(c);
@@ -364,137 +356,23 @@ namespace NeonTranslator
                 }
             }
             if (replaced > 0 && (_logDetailCount < 30 || _logDetailCount % 10 == 0))
-                Log("PopulateAll: replaced " + replaced + " texts");
+                Log("Populate: replaced " + replaced + " texts");
         }
 
-        private static void EnsureCache()
+        private static void InvalidateCache()
         {
-            if (_cacheValid) return;
-            _cachedTextComponents = FindAllTextComponents();
-            _cacheValid = true;
-        }
-
-        private static int _fastScanCount = 0;
-
-        // Runs BEFORE rebuild (willRenderCanvases) — catches text set by other mechanisms
-        private static void FastScan()
-        {
-            if (_translations == null) return;
-            try
-            {
-                _fastScanCount++;
-                _cacheValid = false;
-                EnsureCache();
-
-                foreach (var c in _cachedTextComponents)
-                {
-                    if (c == null) continue;
-                    string current = GetText(c);
-                    if (string.IsNullOrEmpty(current)) continue;
-
-                    // On-the-fly GUID mapping for newly discovered UILocalization
-                    if (_uiLocType != null)
-                    {
-                        var go = c.gameObject;
-                        var uiLoc = go.GetComponent(_uiLocType);
-                        if (uiLoc == null) uiLoc = go.GetComponentInParent(_uiLocType);
-                        if (uiLoc != null)
-                        {
-                            string g = _guidField.GetValue(uiLoc) as string;
-                            if (!string.IsNullOrEmpty(g) && _translations.ContainsKey(current))
-                            {
-                                var outer = GetOrCreateGuidDict();
-                                bool already = false;
-                                if (outer.Contains("Russian"))
-                                {
-                                    var rd = outer["Russian"] as IDictionary;
-                                    if (rd != null && rd.Contains(g)) already = true;
-                                }
-                                if (!already)
-                                {
-                                    AddTranslation(g, current, _translations[current]);
-                                    Log("FastScan: NEW GUID=" + g + " text='" + current + "' on " + go.name);
-                                }
-                            }
-                        }
-                    }
-
-                    string translated;
-                    if (_translations.TryGetValue(current, out translated) && translated != current)
-                    {
-                        string path = GetTransformPath(c.transform);
-                        Log("FastScan: '" + current + "' -> '" + translated + "' on " + path);
-                        SetTextFieldDirect(c, translated);
-                        // Diagnostic: read m_text field + property after our fix
-                        string afterProp = GetText(c);
-                        string afterField = null;
-                        Type t2 = c.GetType();
-                        if (_tmpMTextField != null && _tmpType != null && _tmpType.IsAssignableFrom(t2))
-                            afterField = _tmpMTextField.GetValue(c) as string;
-                        else if (_textMTextField != null && _legacyType != null && _legacyType.IsAssignableFrom(t2))
-                            afterField = _textMTextField.GetValue(c) as string;
-                        if (afterProp != translated || afterField != translated)
-                            Log("FastScan: MISMATCH after fix! prop='" + afterProp + "' field='" + afterField + "'");
-                    }
-                }
-            }
-            catch { }
-        }
-
-        // Runs AFTER rebuild (LatePreRender) — catches text set by UILocalization during rebuild
-        private static void PostRebuildFix()
-        {
-            if (_translations == null) return;
-            try
-            {
-                var allComponents = FindAllTextComponents();
-                int replaced = 0;
-                foreach (var c in allComponents)
-                {
-                    if (c == null) continue;
-                    string current = GetText(c);
-                    if (string.IsNullOrEmpty(current)) continue;
-                    string translated;
-                    if (_translations.TryGetValue(current, out translated) && translated != current)
-                    {
-                        string path = GetTransformPath(c.transform);
-                        Log("PostReb: '" + current + "' -> '" + translated + "' on " + path);
-                        SetTextFieldDirect(c, translated);
-                        replaced++;
-                    }
-                }
-                if (replaced > 0)
-                    Log("PostRebuild: replaced " + replaced + " texts");
-            }
-            catch { }
-        }
-
-        private class PostRebuildFixer : ICanvasElement
-        {
-            public Transform transform { get { return null; } }
-
-            public void Rebuild(CanvasUpdate executing)
-            {
-                if (executing == CanvasUpdate.LatePreRender)
-                {
-                    PostRebuildFix();
-                }
-            }
-
-            public void LayoutComplete() { }
-            public void GraphicUpdateComplete() { }
-
-            public bool IsDestroyed()
-            {
-                return false;
-            }
+            _cacheValid = false;
         }
 
         public static void PopulateAllTextPublic()
         {
-            // Re-register FastScan to ensure it runs LAST in willRenderCanvases
-            Canvas.willRenderCanvases -= FastScan;
-            Canvas.willRenderCanvases += FastScan;
+            PopulateAllText();
+        }
+
+        private static void OnPreRender()
+        {
+            InvalidateCache();
+            ScanAllUiLocs();
             PopulateAllText();
         }
 
