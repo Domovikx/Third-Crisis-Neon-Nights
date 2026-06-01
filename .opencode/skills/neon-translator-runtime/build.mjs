@@ -11,7 +11,7 @@ const SOURCE_DIR = join(__dirname, 'source');
 const DATA_DIR = join(GAME_DIR, 'Third Crisis Neon Nights_Data', 'Managed');
 
 const SOURCE_FILES = ['NativeMethods.cs', 'TranslationLoader.cs', 'MethodPatcher.cs', 'TranslatorPlugin.cs'];
-const REF_DLLS = ['UnityEngine.dll', 'UnityEngine.CoreModule.dll', 'UnityEngine.UI.dll', 'Unity.TextMeshPro.dll', 'netstandard.dll'];
+const REF_DLLS = ['UnityEngine.dll', 'UnityEngine.CoreModule.dll', 'UnityEngine.UI.dll', 'UnityEngine.UIModule.dll', 'Unity.TextMeshPro.dll', 'netstandard.dll'];
 
 async function main() {
   console.log('NeonTranslatorRuntime — Build\n');
