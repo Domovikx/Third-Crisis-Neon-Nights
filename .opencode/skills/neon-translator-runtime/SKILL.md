@@ -66,8 +66,8 @@ cp runtime/NeonTranslatorRuntime.dll \
    "Third Crisis Neon Nights_Data/Managed/"
 ```
 
-Словарь (`NeonTranslatorRuntime_Data.ndjson`) редактируется напрямую в `Managed/`,
-пересборка DLL не требуется.
+Словарь (`NeonTranslatorRuntime_Data.json`) редактируется напрямую в `translations/ru/`,
+через `merge.mjs` копируется в `Managed/`. Пересборка DLL не требуется.
 
 ## Прокси (dwmapi.dll) — только один раз
 

@@ -73,9 +73,8 @@ namespace NeonTranslator
                 if (!_initialized)
                 {
                     _initialized = true;
-                    string dllPath = Assembly.GetExecutingAssembly().Location;
-                    string dllDir = Path.GetDirectoryName(dllPath);
-                    string dataPath = Path.Combine(dllDir, "NeonTranslatorRuntime_Data.ndjson");
+                    string dllDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+                    string dataPath = Path.Combine(dllDir, "NeonTranslatorRuntime_Data.json");
                     _translations = TranslationLoader.Load(dataPath);
                     Log("Translations: " + (_translations != null ? _translations.Count.ToString() : "null"));
                 }

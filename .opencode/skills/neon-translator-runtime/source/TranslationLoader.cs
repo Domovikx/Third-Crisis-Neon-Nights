@@ -23,87 +23,68 @@ namespace NeonTranslator
                     return _translations;
                 }
 
-                using (var reader = new StreamReader(filePath))
-                {
-                    string line;
-                    while ((line = reader.ReadLine()) != null)
-                    {
-                        line = line.Trim();
-                        if (line.Length < 2 || line[0] != '[')
-                            continue;
-
-                        string original = null;
-                        string translated = null;
-                        if (ParseNDJSONLine(line, out original, out translated))
-                        {
-                            if (!string.IsNullOrEmpty(original) && !string.IsNullOrEmpty(translated))
-                            {
-                                _translations[original] = translated;
-                            }
-                        }
-                    }
-                }
+                string content = File.ReadAllText(filePath);
+                ParseJsonObject(content, _translations);
 
                 return _translations;
             }
         }
 
-        private static bool ParseNDJSONLine(string line, out string original, out string translated)
+        private static void ParseJsonObject(string content, Dictionary<string, string> dict)
         {
-            original = null;
-            translated = null;
+            int i = 0;
 
-            try
+            // skip whitespace + opening brace
+            while (i < content.Length && (content[i] == '{' || content[i] == ' ' || content[i] == '\t' || content[i] == '\n' || content[i] == '\r'))
+                i++;
+
+            while (i < content.Length)
             {
-                int idx = 0;
-                if (line[idx] == '[') idx++;
+                // skip whitespace + comma
+                while (i < content.Length && (content[i] == ',' || content[i] == ' ' || content[i] == '\t' || content[i] == '\n' || content[i] == '\r'))
+                    i++;
 
-                // skip source_seq (first quoted field)
-                idx = SkipQuotedField(line, idx);
-                if (idx < 0) return false;
-                idx = SkipWhitespaceComma(line, idx);
+                // closing brace — done
+                if (i >= content.Length || content[i] == '}')
+                    break;
 
-                // read original (second quoted field)
-                int origStart = idx;
-                idx = SkipQuotedField(line, idx);
-                if (idx < 0) return false;
-                original = UnescapeJSON(line.Substring(origStart + 1, idx - origStart - 2));
-                idx = SkipWhitespaceComma(line, idx);
+                // read quoted key
+                if (content[i] != '"') break;
+                int keyStart = i + 1;
+                int keyEnd = FindQuoteEnd(content, keyStart);
+                if (keyEnd < 0) break;
+                string key = UnescapeJSON(content.Substring(keyStart, keyEnd - keyStart));
+                i = keyEnd + 1;
 
-                // read translated (third quoted field)
-                int transStart = idx;
-                idx = SkipQuotedField(line, idx);
-                if (idx < 0) return false;
-                translated = UnescapeJSON(line.Substring(transStart + 1, idx - transStart - 2));
+                // skip colon + whitespace
+                while (i < content.Length && (content[i] == ':' || content[i] == ' ' || content[i] == '\t' || content[i] == '\n' || content[i] == '\r'))
+                    i++;
 
-                return true;
-            }
-            catch
-            {
-                return false;
+                // read quoted value
+                if (i >= content.Length || content[i] != '"') break;
+                int valStart = i + 1;
+                int valEnd = FindQuoteEnd(content, valStart);
+                if (valEnd < 0) break;
+                string val = UnescapeJSON(content.Substring(valStart, valEnd - valStart));
+                i = valEnd + 1;
+
+                if (!string.IsNullOrEmpty(key) && !string.IsNullOrEmpty(val))
+                {
+                    dict[key] = val;
+                }
             }
         }
 
-        private static int SkipQuotedField(string s, int start)
+        private static int FindQuoteEnd(string s, int start)
         {
-            if (start >= s.Length || s[start] != '"')
-                return -1;
-            int i = start + 1;
+            int i = start;
             while (i < s.Length)
             {
                 if (s[i] == '\\') i += 2;
-                else if (s[i] == '"') return i + 1;
+                else if (s[i] == '"') return i;
                 else i++;
             }
             return -1;
-        }
-
-        private static int SkipWhitespaceComma(string s, int start)
-        {
-            int i = start;
-            while (i < s.Length && (s[i] == ',' || s[i] == ' '))
-                i++;
-            return i;
         }
 
         private static string UnescapeJSON(string s)

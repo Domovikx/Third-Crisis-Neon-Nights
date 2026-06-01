@@ -802,12 +802,12 @@ Third Crisis Neon Nights_Data/Managed/
 ["resources_042", "Sprint", "Спринт", "74971064"]
 ```
 
-| Поле | Описание |
-|------|----------|
-| `resources_042` | ID: `{source}_{seq}` — уникальный, стабильный |
-| `Sprint` | Оригинал (английский) |
-| `Спринт` | Перевод (русский), пустая строка = не переведено |
-| `74971064` | Оффсет в бинарном файле (для справки) |
+| Поле            | Описание                                         |
+| --------------- | ------------------------------------------------ |
+| `resources_042` | ID: `{source}_{seq}` — уникальный, стабильный    |
+| `Sprint`        | Оригинал (английский)                            |
+| `Спринт`        | Перевод (русский), пустая строка = не переведено |
+| `74971064`      | Оффсет в бинарном файле (для справки)            |
 
 ### 8.3. Пайплайн
 
@@ -835,6 +835,7 @@ Third Crisis Neon Nights_Data/Managed/
 ### 8.4. Idempotentность
 
 При повторном запуске `--merge`:
+
 1. Читает существующий `translations/ru/{cat}/{source}.ndjson`
 2. Строит Map: `original → { id, translated }`
 3. Для каждой новой строки:
@@ -926,13 +927,13 @@ parser.mjs → extractor.mjs → translations/ru/ (диалоги + UI)
                               │  willRenderCanvases → OnPreRender │
                               │    ├── InvalidateCache()          │
                               │    ├── ScanAllUiLocs() (ANToolkit)│
-                              │    └── PopulateAllText()         │
-                              │        └── FindObjectsOfType     │
+                              │    └── PopulateAllText()          │
+                              │        └── FindObjectsOfType      │
                               │            → замена по словарю    │
                               │                                   │
                               │  NeonLateUpdate (exec 10000)      │
-                              │    └── PopulateAllTextPublic()   │
-                              │        └── итерация по кэшу      │
+                              │    └── PopulateAllTextPublic()    │
+                              │        └── итерация по кэшу       │
                               └───────────────────────────────────┘
                                           ↓
                               Любой текст на экране
