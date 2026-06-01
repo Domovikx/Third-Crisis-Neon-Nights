@@ -75,11 +75,12 @@ node .opencode/skills/extract/extract.mjs --dir "Third Crisis Neon Nights_Data"
 ## Результат
 
 Файлы в `.opencode/skills/extract/`:
-| Файл | Описание |
-|------|----------|
-| `extracted-all.txt` | Все найденные строки |
+
+| Файл                     | Описание                                 |
+| ------------------------ | ---------------------------------------- |
+| `extracted-all.txt`      | Все найденные строки                     |
 | `extracted-dialogue.txt` | Диалоговые строки (длинные, с пробелами) |
-| `extracted-ui.txt` | UI-элементы (кнопки, заголовки) |
+| `extracted-ui.txt`       | UI-элементы (кнопки, заголовки)          |
 
 ## Ограничения текущего подхода
 

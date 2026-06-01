@@ -20,13 +20,13 @@ node .opencode/skills/extractor/extractor.mjs --show-noise
 
 ## Опции
 
-| Флаг | По умолчанию | Описание |
-|------|-------------|----------|
-| `--input-dir <dir>` | `output/parser/` | Директория с NDJSON от парсера |
-| `--out <dir>` | `output/extractor/` | Выходная директория |
-| `--min-len <N>` | `10` | Минимальная длина строки |
-| `--detailed` | — | Показать per-file breakdown + samples |
-| `--show-noise` | — | Включить noise (FSM-состояния, имена) в вывод |
+| Флаг                | По умолчанию        | Описание                                      |
+| ------------------- | ------------------- | --------------------------------------------- |
+| `--input-dir <dir>` | `output/parser/`    | Директория с NDJSON от парсера                |
+| `--out <dir>`       | `output/extractor/` | Выходная директория                           |
+| `--min-len <N>`     | `10`                | Минимальная длина строки                      |
+| `--detailed`        | —                   | Показать per-file breakdown + samples         |
+| `--show-noise`      | —                   | Включить noise (FSM-состояния, имена) в вывод |
 
 ## Выходные файлы
 
@@ -45,11 +45,13 @@ output/extractor/
 ### Формат NDJSON
 
 Каждая строка — JSON-массив:
+
 ```json
-["{source}_{seq}","{original}","{translated}","{offset}"]
+["{source}_{seq}", "{original}", "{translated}", "{offset}"]
 ```
 
 Где:
+
 - `source_seq` — уникальный ID (level3_001, sharedassets0_042)
 - `original` — оригинальная строка
 - `translated` — пустая строка (заполняет LLM)
@@ -65,7 +67,12 @@ output/extractor/
 После перевода LLM заполняет третий элемент:
 
 ```json
-["level3_001","And now hold still I'm not done yet.","А теперь замри, я ещё не закончила.","641239"]
+[
+  "level3_001",
+  "And now hold still I'm not done yet.",
+  "А теперь замри, я ещё не закончила.",
+  "641239"
+]
 ```
 
 ## Методология

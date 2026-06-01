@@ -21,7 +21,7 @@ description: NeonTranslatorRuntime — самописный рантайм-пе�
 │    │   └── итерация по кэшу → замена                  │
 │    │                                                  │
 │    └── willRenderCanvases → OnPreRender               │
-│        ├── InvalidateCache()                           │
+│        ├── InvalidateCache()                          │
 │        ├── ScanAllUiLocs() → ANToolkit словарь        │
 │        └── PopulateAllText() → FindObjects + замена   │
 │                          │                            │
