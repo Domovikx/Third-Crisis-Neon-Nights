@@ -7,7 +7,8 @@ Third\ Crisis\ Neon\ Nights_Data/
 MonoBleedingEdge/
 
 # BepInEx (mod loader, not part of the game)
-BepInEx/
+BepInEx/*
+!BepInEx/Translation/
 
 # Doorstop (injector)
 doorstop_config.ini
@@ -19,7 +20,7 @@ changelog.txt
 .install_temp/
 
 # Generated output (parser, extractor, analysis)
-output/
+output/parser
 
 # OS junk
 Thumbs.db

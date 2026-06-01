@@ -56,9 +56,14 @@ bundle-parser.mjs → NDJSON (.bundle)    ┼ → extractor.mjs → dialogs/ + u
 - **"Enable VSync"** — не "VSYNC": `Settings.EnableVSync → Enable VSync`
 - **4 missing settings найдены** в Assembly-CSharp.dll как UTF-16 LE строки (парсер не видел их, т.к. ищет null-terminated ASCII): `Resolution Scaling`, `Environment Effects`, `Realtime Reflections`, `Post Processing` — sub-опции `Settings.Resolution` без собственных `Settings.*` ключей, лежат после него с префиксными type-тегами (0x25, 0x27, 0x29, 0x1f)
 - **MonoBehaviour.Update не работает** при создании GameObject через `mono_runtime_invoke` (native → C#) — Awake/OnEnable срабатывают, Update никогда не вызывается
-- **Решение: System.Threading.Timer + SynchronizationContext.Post** — единственный способ гарантировать периодический вызов на главном потоке Unity
-- **scan-and-replace работает** — 83 перевода UI (меню, настройки) применяются, но с задержкой 0-500ms (мерцание при переключении табов)
+- **MonoBehaviour.Update РАБОТАЕТ** через `[RuntimeInitializeOnLoadMethod]` + `new GameObject().AddComponent<>()` — нативный Unity-контекст
+- **12 текстов сбрасываются на английский каждый кадр** — даже с отключённым UILocalization. Гейм-скрипт ставит английский во время canvas rebuild (после LateUpdate). Неуловимый источник — скорее всего UI Settings Manager.
+- **Canvas.ForceUpdateCanvases()** в LateUpdate перестраивает canvas с русским, но гейм-скрипт снова ставит английский при перестроении
+- **RenderPipelineManager.beginCameraRendering не срабатывает** для overlay Canvas (вне камерного пайплайна)
+- **UILocalization полностью отключён** — `DisableAllUiLocalization()` находит 5+3 компонента и выставляет enabled=false
+- **scan-and-replace работает** — 83 перевода UI применяются, но 12 текстов мерцают (сбрасываются → заменяются каждый кадр)
 - **dwmapi.dll proxy** — 32 forward + 2 интерсепта (DwmSetWindowAttribute, DwmGetWindowAttribute), 13.5 KB, загружается Unity
+- **Следующий шаг — raw managed detour** на `Text.set_text` (5-байтовый `E9 rel32` JMP): английский никогда не дойдёт до компонента. Аналог Harmony-подхода XUnity.AutoTranslator, но без зависимостей. Решение подсмотрено в PlayHooky / DetourUtility / tryfinally.dev.
 
 ## Правила
 

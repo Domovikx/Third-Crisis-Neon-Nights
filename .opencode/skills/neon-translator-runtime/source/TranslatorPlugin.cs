@@ -32,6 +32,10 @@ namespace NeonTranslator
         private static FieldInfo _origTextJsonField;
         private static FieldInfo _textJsonField;
 
+        private static FieldInfo _textMTextField;
+        private static FieldInfo _tmpMTextField;
+        private static FieldInfo _tmpHavePropChangedField;
+
         private static MethodInfo _setTextMethod;
         private static IDictionary _guidDict;
         private static bool _reflectionReady = false;
@@ -84,7 +88,13 @@ namespace NeonTranslator
                 _postFixer = new PostRebuildFixer();
                 CanvasUpdateRegistry.RegisterCanvasElementForGraphicRebuild(_postFixer);
 
+                var go = new GameObject("NeonTranslator_Scanner");
+                go.hideFlags = HideFlags.HideAndDontSave;
+                GameObject.DontDestroyOnLoad(go);
+                go.AddComponent<NeonLateUpdate>();
+
                 Log("Init done");
+                DumpAllTextComponents();
 
                 ScanAllUiLocs();
                 PopulateAllText();
@@ -135,6 +145,18 @@ namespace NeonTranslator
 
             if (_dictField == null || _guidField == null)
             { Log("Refl: fields not found"); return; }
+
+            if (_legacyType != null)
+                _textMTextField = _legacyType.GetField("m_Text",
+                    BindingFlags.Instance | BindingFlags.NonPublic);
+            if (_tmpType != null)
+                _tmpMTextField = _tmpType.GetField("m_text",
+                    BindingFlags.Instance | BindingFlags.NonPublic) ??
+                    _tmpType.GetField("m_Text",
+                    BindingFlags.Instance | BindingFlags.NonPublic);
+            if (_tmpType != null)
+                _tmpHavePropChangedField = _tmpType.GetField("m_havePropertiesChanged",
+                    BindingFlags.Instance | BindingFlags.NonPublic);
 
             _reflectionReady = true;
             Log("Refl: ready");
@@ -276,6 +298,29 @@ namespace NeonTranslator
             prop.SetValue(c, value);
         }
 
+        private static void SetTextFieldDirect(Component c, string value)
+        {
+            if (c == null) return;
+            FieldInfo field = null;
+            Type t = c.GetType();
+            if (_legacyType != null && _legacyType.IsAssignableFrom(t)) field = _textMTextField;
+            else if (_tmpType != null && _tmpType.IsAssignableFrom(t)) field = _tmpMTextField;
+            if (field == null) return;
+            field.SetValue(c, value);
+            if (_tmpType != null && _tmpType.IsAssignableFrom(t))
+            {
+                if (_tmpHavePropChangedField != null)
+                    _tmpHavePropChangedField.SetValue(c, true);
+                var tmp = c as TMPro.TMP_Text;
+                if (tmp != null) tmp.SetAllDirty();
+            }
+            else
+            {
+                var graphic = c as Graphic;
+                if (graphic != null) graphic.SetVerticesDirty();
+            }
+        }
+
         private static List<Component> FindAllTextComponents()
         {
             var result = new List<Component>();
@@ -292,6 +337,8 @@ namespace NeonTranslator
             return result;
         }
 
+        private static int _logDetailCount = 0;
+
         private static void PopulateAllText()
         {
             if (_translations == null) return;
@@ -306,12 +353,18 @@ namespace NeonTranslator
                 string translated;
                 if (_translations.TryGetValue(current, out translated) && translated != current)
                 {
-                    SetText(c, translated);
+                    if (_logDetailCount < 30)
+                    {
+                        _logDetailCount++;
+                        string path = GetTransformPath(c.transform);
+                        Log("Populate: '" + current + "' -> '" + translated + "' on " + path);
+                    }
+                    SetTextFieldDirect(c, translated);
                     replaced++;
                 }
             }
-            if (replaced > 0)
-                Log("PopulateAll: replaced " + replaced);
+            if (replaced > 0 && (_logDetailCount < 30 || _logDetailCount % 10 == 0))
+                Log("PopulateAll: replaced " + replaced + " texts");
         }
 
         private static void EnsureCache()
@@ -369,7 +422,19 @@ namespace NeonTranslator
                     string translated;
                     if (_translations.TryGetValue(current, out translated) && translated != current)
                     {
-                        SetText(c, translated);
+                        string path = GetTransformPath(c.transform);
+                        Log("FastScan: '" + current + "' -> '" + translated + "' on " + path);
+                        SetTextFieldDirect(c, translated);
+                        // Diagnostic: read m_text field + property after our fix
+                        string afterProp = GetText(c);
+                        string afterField = null;
+                        Type t2 = c.GetType();
+                        if (_tmpMTextField != null && _tmpType != null && _tmpType.IsAssignableFrom(t2))
+                            afterField = _tmpMTextField.GetValue(c) as string;
+                        else if (_textMTextField != null && _legacyType != null && _legacyType.IsAssignableFrom(t2))
+                            afterField = _textMTextField.GetValue(c) as string;
+                        if (afterProp != translated || afterField != translated)
+                            Log("FastScan: MISMATCH after fix! prop='" + afterProp + "' field='" + afterField + "'");
                     }
                 }
             }
@@ -392,7 +457,9 @@ namespace NeonTranslator
                     string translated;
                     if (_translations.TryGetValue(current, out translated) && translated != current)
                     {
-                        SetText(c, translated);
+                        string path = GetTransformPath(c.transform);
+                        Log("PostReb: '" + current + "' -> '" + translated + "' on " + path);
+                        SetTextFieldDirect(c, translated);
                         replaced++;
                     }
                 }
@@ -421,6 +488,48 @@ namespace NeonTranslator
             {
                 return false;
             }
+        }
+
+        public static void PopulateAllTextPublic()
+        {
+            // Re-register FastScan to ensure it runs LAST in willRenderCanvases
+            Canvas.willRenderCanvases -= FastScan;
+            Canvas.willRenderCanvases += FastScan;
+            PopulateAllText();
+        }
+
+        private static void DumpAllTextComponents()
+        {
+            try
+            {
+                var all = FindAllTextComponents();
+                Log("Dump: found " + all.Count + " text components");
+                int dumped = 0;
+                foreach (var c in all)
+                {
+                    if (dumped >= 20) { Log("Dump: ... (" + (all.Count - dumped) + " more)"); break; }
+                    string txt = GetText(c);
+                    if (!string.IsNullOrEmpty(txt))
+                    {
+                        Log("Dump: [" + GetTransformPath(c.transform) + "] = '" + txt + "'");
+                        dumped++;
+                    }
+                }
+            }
+            catch (Exception ex) { Log("Dump error: " + ex.Message); }
+        }
+
+        private static string GetTransformPath(Transform t)
+        {
+            if (t == null) return "null";
+            string path = t.name;
+            Transform p = t.parent;
+            while (p != null)
+            {
+                path = p.name + "/" + path;
+                p = p.parent;
+            }
+            return path;
         }
 
         private static Type GetType(string typeName)
