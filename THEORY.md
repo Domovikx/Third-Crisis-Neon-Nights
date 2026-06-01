@@ -722,14 +722,15 @@ dwmapi_real.dll (оригинальная, 187 KB)
 
 4. `NeonLateUpdate` (MonoBehaviour, `[DefaultExecutionOrder(10000)]`):
    - `LateUpdate()` → `PopulateAllTextPublic()`:
-     - `FindObjectsOfType<TMPro.TMP_Text>()` + `FindObjectsOfType<UnityEngine.UI.Text>()`
+     - Использует кэш: `_cachedComponents` (заполнен в OnPreRender)
      - Для каждого: сверяет текст со словарём, заменяет при совпадении
-     - Перерегистрирует `FastScan` на `Canvas.willRenderCanvases`
-   - `FastScan` (willRenderCanvases handler) — повторная замена после
-     перестроения Canvas
-   - `PostRebuildHandler` (OnPreRenderObject) — `SetAllDirty()` для
-     свежезаменённых через отражение строк
-   - Логирует найденные расхождения (MISMATCH) в `NeonTranslator.log`
+   - `willRenderCanvases` → `OnPreRender()`:
+     - `InvalidateCache()` — сбрасывает флаг кэша
+     - `ScanAllUiLocs()` — инжектит русские переводы в ANToolkit "Russian" + "English" словари
+     - `PopulateAllText()` — перестраивает кэш через `FindObjectsOfType` + заменяет
+   - ANToolkit injection: игра сама ставит русский текст через
+     UILocalization компоненты, кэширование предотвращает пер-фрейм оверхед
+   - Логирует замены в `NeonTranslator.log` (до 30 строк, затем summary)
 
 ### 7.4.3. Проблема Monobehaviour.Update (решена)
 
@@ -753,8 +754,9 @@ Execution order 10000 гарантирует, что `NeonLateUpdate` сраба
 
 ### 7.4.4. Переводной словарь
 
-Читается из файла `NeonTranslatorRuntime_Data.ndjson` (тот же формат, что
-у экстрактора). Формат: `"original"="translated"`.
+Читается из файла `NeonTranslatorRuntime_Data.ndjson`. Формат: `["_ag_XXXX","original","translated",""]`.
+Словарь регистронезависимый (`StringComparer.OrdinalIgnoreCase`), т.к.
+игра передаёт `set_text` с разным регистром.
 
 Словарь регистронезависимый (`StringComparer.OrdinalIgnoreCase`), т.к.
 игра передаёт `set_text` с разным регистром.
@@ -762,14 +764,14 @@ Execution order 10000 гарантирует, что `NeonLateUpdate` сраба
 Наша DLL (финальная сборка):
 
 ```
-NeonTranslatorRuntime.dll (22 KB)
+NeonTranslatorRuntime.dll (19.5 KB)
 ├── TranslatorPlugin.cs         ← точка входа + [RuntimeInitOnLoadMethod]
 ├── NeonLateUpdate.cs           ← MonoBehaviour с exec order 10000
 ├── TranslationLoader.cs        ← Reader NDJSON → Dictionary<string,string>
 └── NativeMethods.cs            ← P/Invoke kernel32 (лог) + MethodPatcher (отключён)
 
 NeonTranslatorRuntime_Data.ndjson
-└── 85 переводов (UI + меню навигация)
+└── 141 перевод (UI + Controls + Dialogue + Lovense)
 
 dwmapi.dll (13.5 KB, нативный прокси)
 └── 32 forward + 2 интерсепта + BootstrapTranslator
@@ -922,7 +924,7 @@ var field = type.GetField("m_text", flags);
 `m_Text` — для свойства `text`. Чтение через GetField("m_Text")
 возвращало null → `SetTextFieldDirect` ничего не делала.
 
-**Следствие:** Все три фиксера находили English→Russian в словаре, но
+**Следствие:** Оба фиксера находили English→Russian в словаре, но
 физически не записывали русский текст в поле. `text` property setter
 не вызывался, т.к. проверка типа отбрасывала TMP-компоненты.
 Поле m_text не заполнялось, т.к. имя поля было неверным.
@@ -930,10 +932,9 @@ var field = type.GetField("m_text", flags);
 **Дополнение:** Для корректной работы SetTextFieldDirect также:
 
 - Устанавливает `m_havePropertiesChanged = true` (флаг перестроения mesh)
-- Вызывает `SetAllDirty()` — SetLayoutDirty + SetVerticesDirty +
-  SetMaterialDirty (через PostRebuildHandler)
+- Вызывает `SetVerticesDirty()` для принудительного перестроения TMP-меша
 
 ---
 
 _Документ создан в рамках анализа локализации Third Crisis Neon Nights (Anduo Games, Unity 2022.3.62f3)._
-_Последнее обновление: 2026-06-01 (NeonLateUpdate + [DefaultExecutionOrder(10000)] + три фиксера + исправление двух багов)_
+_Последнее обновление: 2026-06-01 (кэш + ANToolkit injection + 141 перевод + деплой-скил)_

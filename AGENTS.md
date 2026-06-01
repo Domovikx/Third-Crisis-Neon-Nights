@@ -24,6 +24,7 @@
   - `bundle-parser.mjs` — .bundle файлы (LZ4HC, raw ASCII scanning)
 - `extractor` — классификация и фильтрация строк из NDJSON (dialogue / UI / noise)
 - `neon-translator-runtime` — рантайм-переводчик (C# DLL, scan-and-replace + native proxy dwmapi.dll)
+- `neon-translator-deploy` — деплой: сборка DLL, копирование в Managed, обновление словаря
 
 ## Команды
 
@@ -34,8 +35,10 @@
 - `node .opencode/skills/parse-unity/bundle-parser.mjs` — парсер бандлов (LZ4HC → NDJSON)
 - `node .opencode/skills/extractor/extractor.mjs` — экстрактор (NDJSON → диалоги/UI)
 - `node .opencode/skills/parse-unity/parser.test.mjs` — тесты парсера (80 тестов)
-- `node .opencode/skills/neon-translator-runtime/build.mjs` — сборка рантайм-переводчика
+- `node .opencode/skills/neon-translator-runtime/build.mjs` — сборка рантайм-переводчика (→ runtime/NeonTranslatorRuntime.dll)
 - `node .opencode/skills/neon-translator-runtime/build.test.mjs` — тесты сборки
+- `node .opencode/skills/neon-translator-runtime/build_proxy.mjs` — сборка нативного прокси (→ dwmapi.dll)
+- `node .opencode/skills/neon-translator-deploy/SKILL.md` — инструкция по деплою
 - `python C:\Users\Domo\AppData\Local\Temp\opencode\search_bundles.py` — поиск строк в сырых бандлах
 
 ## Пайплайн
@@ -57,11 +60,11 @@ bundle-parser.mjs → NDJSON (.bundle)    ┼ → extractor.mjs → dialogs/ + u
 - **4 missing settings найдены** в Assembly-CSharp.dll как UTF-16 LE строки (парсер не видел их, т.к. ищет null-terminated ASCII): `Resolution Scaling`, `Environment Effects`, `Realtime Reflections`, `Post Processing` — sub-опции `Settings.Resolution` без собственных `Settings.*` ключей, лежат после него с префиксными type-тегами (0x25, 0x27, 0x29, 0x1f)
 - **MonoBehaviour.Update работает** через `[RuntimeInitializeOnLoadMethod]` + `new GameObject().AddComponent<>()` — нативный Unity-контекст
 - **NeonLateUpdate** с `[DefaultExecutionOrder(10000)]` — срабатывает ПОСЛЕ всех игровых LateUpdate
-- **Три фиксера:** PopulateAllTextPublic (LateUpdate), FastScan (willRenderCanvases, перерегистрируется каждый кадр), PostRebuildHandler (OnPreRenderObject)
+- **Два фиксера:** PopulateAllTextPublic (LateUpdate — использует кэш), willRenderCanvases (OnPreRender — инвалидирует кэш + заменяет)
 - **Два бага найдены и исправлены:** (1) `c.GetType() == _tmpType` → `_tmpType.IsAssignableFrom(c.GetType())` — exact type check пропускал `TextMeshProUGUI` (derived type). (2) `"m_Text"` (capital T) → `"m_text"` (lowercase t) — TMP_Text использует camelCase внутреннее поле
-- **SetTextFieldDirect** теперь также ставит `m_havePropertiesChanged = true` + `SetAllDirty()` для TMP
-- **85 переводов** UI (было 83, добавлен "Continue")
-- **~10 строк Lovense мерцают** на Toys tab — гейм-скрипт сбрасывает на английский каждый кадр (UI Settings Manager)
+- **SetTextFieldDirect** теперь также ставит `m_havePropertiesChanged = true` + `SetVerticesDirty()` для TMP
+- **141 перевод** UI (было 117, добавлено 24: Controls + Dialogue + Enter text + CONNECTED)
+- **Текст стабилен** — мерцание устранено через инжекцию в ANToolkit "English" словарь + кэш
 - **dwmapi.dll proxy** — 32 forward + 2 интерсепта (DwmSetWindowAttribute, DwmGetWindowAttribute), 13.5 KB, загружается Unity
 - **MethodPatcher (JMP detour) DEACTIVATED** — VirtualProtect + E9 JMP повреждал LayoutGroup/ContentSizeFitter. Возврат к нему требует стабильного trampoline для .NET 4.x Mono.
 
@@ -76,10 +79,10 @@ bundle-parser.mjs → NDJSON (.bundle)    ┼ → extractor.mjs → dialogs/ + u
 
 - **dwmapi.dll proxy** в корне игры — загружается Unity при старте (DwmSetWindowAttribute)
 - Бутстрапит NeonTranslatorRuntime.dll в Managed/ через mono_domain_assembly_open
-- **NeonTranslatorRuntime.dll** — сканирует текст каждые 500ms через Timer+SynchronizationContext
-- **NeonTranslatorRuntime_Data.ndjson** — словарь перевода (83 записи)
+- **NeonTranslatorRuntime.dll** — сканирует текст каждый кадр через LateUpdate + willRenderCanvases (с кэшированием)
+- **NeonTranslatorRuntime_Data.ndjson** — словарь перевода (141 запись)
 - Текст применяется с задержкой 0-500ms (мерцание при переключении табов)
-- Формат NDJSON: `original=translated` (без кавычек, одна запись на строку)
+- Формат NDJSON: `["_ag_XXXX","original","translated",""]`
 
 ## Output structure
 

@@ -280,7 +280,7 @@ export function extractStrings(parsedJson, options = {}) {
     const fname = file.name;
 
     for (const s of file.strings || []) {
-      if (s.raw.length < minLength) continue;
+      if (!s.raw || s.raw.length < minLength) continue;
       const cls = classify(s.raw);
 
       if (cls === 'dialogue') {
