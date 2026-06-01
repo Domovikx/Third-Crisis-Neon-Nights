@@ -628,16 +628,30 @@ SerializedFileMetadata {
 Никакие бинарники игры не модифицируются. Перевод работает только в
 оперативной памяти.
 
-### 7.4.1. Scan-and-Replace — архитектура
+### 7.4.1. Scan-and-Replace — архитектура (текущая)
 
 ```
 Игра: TMP_Text.text = "Resolution"
                         │
                ┌────────┴─────────┐
-               │   Каждые 500ms   │
-               │  сканируем ВСЕ   │
-               │ TMP_Text/UI.Text │
-               │  в сцене         │
+               │   NeonLateUpdate │
+               │  [DefaultExecOrd │
+               │   er=10000]      │
+               │   ↓              │
+               │  PopulateAllText │
+               │  Public()        │
+               │   ├─FindObjects  │
+               │   ├─replace match│
+               │   └─FastScan re- │
+               │     register     │
+               │                  │
+               │  Canvas.         │
+               │  willRenderCanv  │
+               │  ases → FastScan │
+               │  (last handler)  │
+               │                  │
+               │  PostRebuild     │
+               │  (force rebuild) │
                │                  │
                │ Dictionary:      │
                │ "Resolution" →   │
@@ -650,10 +664,30 @@ SerializedFileMetadata {
      На экране: "Разрешение экрана"
 ```
 
-**Почему не JMP hook?** JMP-хук на `set_text` вызывает рекурсию: trampoline
-с RIP-relative кодом нестабилен на .NET 4.x Mono. Scan-and-Replace
-надёжнее и проще — нет unsafe кода, нет VirtualProtect, нет риска
-повредить JIT-компилированный код.
+**Три фиксера (в порядке вызова):**
+
+1. **PopulateAllTextPublic()** — вызывается из `LateUpdate()` каждым
+   `NeonLateUpdate` (exec order 10000). `FindObjectsOfType` + замена по
+   словарю. Затем снимает и вешает `FastScan` на `Canvas.willRenderCanvases`
+   заново, чтобы `FastScan` гарантированно был последним в списке
+   (другие хендлеры могут добавляться между сканами).
+
+2. **FastScan** — висит на `Canvas.willRenderCanvases` через
+   `Canvas.willRenderCanvases += FastScan`. Срабатывает ПОСЛЕ того, как
+   все Canvas перестроили свой текст (но ДО отрисовки). Сканирует ещё раз
+   и заменяет. **Критично:** перерегистрируется каждый кадр, чтобы быть
+   последним в списке делегатов.
+
+3. **PostRebuildHandler** — висит на `TMPro_EventManager.OnPreRenderObject`
+   (он же `TMP_ResourceManager.OnPreRenderObject`). Если текст был
+   изменён через `SetTextFieldDirect` (без `SetAllDirty`), принудительно
+   вызывает `SetAllDirty()` для свежезаменённых строк.
+
+**Почему не JMP hook?** JMP-хук на `set_text` был реализован
+(MethodPatcher.cs), но deactivated — native detour через
+`VirtualProtect + E9 JMP` приводил к повреждению UI некоторых
+компонентов (LayoutGroup, ContentSizeFitter). Scan-and-Replace
+надёжнее и безопаснее для Production.
 
 ### 7.4.2. Механизм доставки DLL
 
@@ -679,20 +713,25 @@ dwmapi_real.dll (оригинальная, 187 KB)
    - Открывает `NeonTranslatorRuntime.dll` через `mono_domain_assembly_open`
    - Вызывает `TranslatorPlugin.Initialize()` через `mono_runtime_invoke`
 
-3. `Initialize()` (C#):
+3. `Initialize()` (C#) — вызывается через `mono_runtime_invoke`:
    - Загружает словарь из `NeonTranslatorRuntime_Data.ndjson`
-   - Регистрирует `SceneManager.sceneLoaded` хендлер
-   - Запускает `System.Threading.Timer` (каждые 500ms), который через
-     `SynchronizationContext.Post` вызывает `TranslateExistingText()`
-     на главном Unity-потоке
+   - Создаёт `new GameObject("NeonTranslator")` +
+     `AddComponent<NeonLateUpdate>()` — нативный Unity-контекст,
+     где Update/LateUpdate работают корректно
+   - Регистрирует `SceneManager.sceneLoaded` хендлер (перезапуск сканирования)
 
-4. `TranslateExistingText()`:
-   - `FindObjectsOfType<TMPro.TMP_Text>()` — все текстовые компоненты
-   - `FindObjectsOfType<UnityEngine.UI.Text>()` — legacy UI текст
-   - Для каждого: сверяет текущий текст со словарём, заменяет при совпадении
-   - Логирует первые 30 найденных строк в `NeonTranslator.log`
+4. `NeonLateUpdate` (MonoBehaviour, `[DefaultExecutionOrder(10000)]`):
+   - `LateUpdate()` → `PopulateAllTextPublic()`:
+     - `FindObjectsOfType<TMPro.TMP_Text>()` + `FindObjectsOfType<UnityEngine.UI.Text>()`
+     - Для каждого: сверяет текст со словарём, заменяет при совпадении
+     - Перерегистрирует `FastScan` на `Canvas.willRenderCanvases`
+   - `FastScan` (willRenderCanvases handler) — повторная замена после
+     перестроения Canvas
+   - `PostRebuildHandler` (OnPreRenderObject) — `SetAllDirty()` для
+     свежезаменённых через отражение строк
+   - Логирует найденные расхождения (MISMATCH) в `NeonTranslator.log`
 
-### 7.4.3. Проблема Monobehaviour.Update
+### 7.4.3. Проблема Monobehaviour.Update (решена)
 
 **Найдено эмпирически:** `GameObject.AddComponent<MonoBehaviour>()`,
 вызванный из `mono_runtime_invoke` (native → C#), создаёт рабочий
@@ -700,9 +739,17 @@ GameObject (Awake/OnEnable срабатывают), но Update() никогда
 Unity не регистрирует такой скрипт в игровом цикле, если он создан до
 завершения инициализации Unity.
 
-**Решение:** Вместо `MonoBehaviour.Update` — `System.Threading.Timer` +
-`SynchronizationContext.Post`. Единственный способ гарантировать вызов
-на главном потоке Unity без MonoBehaviour.
+**Решение v1 (промежуточное):** Вместо `MonoBehaviour.Update` —
+`System.Threading.Timer` + `SynchronizationContext.Post`. Работало,
+но давало задержку 0-500ms (английский был виден до сканирования).
+
+**Решение v2 (текущее):** Вместо Timer — `[DefaultExecutionOrder(10000)]`
+на класс `NeonLateUpdate` (MonoBehaviour). Запускается через
+`RuntimeInitializeOnLoadMethod` + `new GameObject().AddComponent()`,
+что даёт нативный Unity-контекст, где Update() работает корректно.
+Execution order 10000 гарантирует, что `NeonLateUpdate` срабатывает
+ПОСЛЕ всех игровых LateUpdate (которые могут перезаписывать текст
+на английский).
 
 ### 7.4.4. Переводной словарь
 
@@ -715,13 +762,14 @@ Unity не регистрирует такой скрипт в игровом ц
 Наша DLL (финальная сборка):
 
 ```
-NeonTranslatorRuntime.dll (14 KB)
-├── TranslatorPlugin.cs         ← точка входа + timer + scan
+NeonTranslatorRuntime.dll (22 KB)
+├── TranslatorPlugin.cs         ← точка входа + [RuntimeInitOnLoadMethod]
+├── NeonLateUpdate.cs           ← MonoBehaviour с exec order 10000
 ├── TranslationLoader.cs        ← Reader NDJSON → Dictionary<string,string>
-└── NativeMethods.cs            ← P/Invoke kernel32 (только для лога)
+└── NativeMethods.cs            ← P/Invoke kernel32 (лог) + MethodPatcher (отключён)
 
 NeonTranslatorRuntime_Data.ndjson
-└── 83 перевода (UI + меню навигация)
+└── 85 переводов (UI + меню навигация)
 
 dwmapi.dll (13.5 KB, нативный прокси)
 └── 32 forward + 2 интерсепта + BootstrapTranslator
@@ -775,15 +823,18 @@ dwmapi.dll (13.5 KB, нативный прокси)
 - Type-tag сериализация AANToolkit расшифрована
 - **Scan-and-Replace** — метод перевода без ограничения длины (секция 7.4)
 - **Native proxy dwmapi.dll** — бутстрап NeonTranslatorRuntime через Mono API
-- **SynchronizationContext timer** — решение проблемы неработающего MonoBehaviour.Update
-- **83 перевода UI меню** — русский текст в игре подтверждён
+- **NeonLateUpdate + [DefaultExecutionOrder(10000)]** — замена Timer+SyncCtx (0ms задержка)
+- **Три фиксера** — PopulateAllTextPublic + FastScan (willRenderCanvases) + PostRebuild
+- **Исправление двух багов** — m_Text→m_text + IsAssignableFrom (русский текст заработал)
+- **SetTextFieldDirect** — отражение m_text/m_Text + m_havePropertiesChanged + SetAllDirty
+- **85 переводов UI меню** — русский текст в игре подтверждён (стабильно на главной странице)
 
 **Итоговая архитектура:**
 
 ```
 parser.mjs → extractor.mjs → _AutoGeneratedTranslations.txt
                                       ↓
-                              NeonTranslatorRuntime_Data.ndjson (83 записи)
+                              NeonTranslatorRuntime_Data.ndjson (85 записей)
                                       ↓
                               ┌────────────────────────────────┐
                               │          dwmapi.dll            │
@@ -792,35 +843,97 @@ parser.mjs → extractor.mjs → _AutoGeneratedTranslations.txt
                               └───────────┬────────────────────┘
                                           │ mono_runtime_invoke
                                           ▼
-                              ┌─────────────────────────────────┐
-                              │   NeonTranslatorRuntime.dll     │
-                              │                                 │
-                              │  Initialize()                   │
-                              │    ├── загрузка словаря         │
-                              │    ├── SceneManager.sceneLoaded │
-                              │    └── Timer (500ms) + SyncCtx  │
-                              │                                 │
-                              │  TranslateExistingText()        │
-                              │    ├── FindObjectsOfType(TMP)   │
-                              │    ├── FindObjectsOfType(UI)    │
-                              │    └── замена по словарю        │
-                              └─────────────────────────────────┘
+                              ┌───────────────────────────────────┐
+                              │   NeonTranslatorRuntime.dll       │
+                              │                                   │
+                              │  [RuntimeInitializeOnLoadMethod]  │
+                              │    ├── new GameObject()           │
+                              │    ├── AddComponent<NeonLateUpd>  │
+                              │    └── загрузка словаря           │
+                              │                                   │
+                              │  NeonLateUpdate (exec 10000)      │
+                              │    ├── LateUpdate()               │
+                              │    │   └── PopulateAllTextPublic  │
+                              │    │       ├── FindOfType(TMP)    │
+                              │    │       ├── FindOfType(UI)     │
+                              │    │       ├── замена по словарю  │
+                              │    │       └── перерегистр.       │
+                              │    │           FastScan           │
+                              │    │                              │
+                              │    ├── FastScan                   │
+                              │    │   (willRenderCanvases)       │
+                              │    │   └── замена (пост-рендер)   │
+                              │    │                              │
+                              │    └── PostRebuildHandler         │
+                              │        (OnPreRenderObject)        │
+                              │        └── SetAllDirty()          │
+                              └───────────────────────────────────┘
                                           ↓
                               Любой текст на экране
                               — любой длины перевода
                               — без модификации файлов игры
 ```
 
-### 7.4.5. Ограничения scan-and-replace
+### 7.4.5. Ограничения и известные проблемы
 
-1. **Задержка:** текст показывается на английском 0-500ms до следующего
-   сканирования (мерцание при переключении табов)
-2. **Нет реакции на динамическое изменение:** если текст меняется между
-   сканами, может быть показан английский на полсекунды
-3. **Производительность:** FindObjectsOfType на всю сцену каждые 500ms —
-   приемлемо для меню, но может быть дорого в сложных сценах
+1. **Flickering на Toys tab (~10 строк Lovense):** Текст сбрасывается на
+   английский каждый кадр неизвестным гейм-скриптом (возможно UI Settings
+   Manager) — визуально мерцает при открытом табе Toys.
+2. **Canvas.ForceUpdateCanvases() в LateUpdate** запускает перестроение
+   canvas с русским текстом, но гейм-скрипт снова ставит английский при
+   перестроении — гонка, которую не получается выиграть через exec order.
+3. **SetTextFieldDirect не обновляет Layout:** Если текст заменён через
+   отражение поля (m_Text/m_text), система Layout не узнаёт о новом
+   размере текста — требуется `SetAllDirty()` (делается в PostRebuild).
+4. **No flickering на главной странице:** 3 текста (New Game, Load Game,
+   Continue) работают стабильно после исправления двух багов (см. 7.4.6).
+
+### 7.4.6. Root cause: почему русский текст НЕ появлялся (два бага)
+
+**Симптом:** После перехода от Timer к NeonLateUpdate — все три фиксера
+находили английский текст, сверяли со словарём, но русский НЕ появлялся
+на экране.
+
+**Баг №1: `c.GetType() == _tmpType` — exact type check**
+
+```csharp
+// Было (не работало для TextMeshProUGUI):
+if (c.GetType() == _tmpType) { ... }
+
+// Стало (работает для всех наследников TMP_Text):
+if (_tmpType.IsAssignableFrom(c.GetType())) { ... }
+```
+
+`TextMeshProUGUI` наследуется от `TMP_Text`, но `GetType()` возвращает
+именно `TextMeshProUGUI`, а не `TMP_Text`. Сравнение через `==` давало
+false для всех TMP-компонентов (текст не заменялся).
+
+**Баг №2: `"m_Text"` — capital T, а нужно `"m_text"` (lowercase)**
+
+```csharp
+// Было (field == null для TMP_Text):
+var field = type.GetField("m_Text", flags);
+
+// Стало (работает):
+var field = type.GetField("m_text", flags);
+```
+
+`TMP_Text` использует `m_text` (camelCase) для внутреннего поля, а
+`m_Text` — для свойства `text`. Чтение через GetField("m_Text")
+возвращало null → `SetTextFieldDirect` ничего не делала.
+
+**Следствие:** Все три фиксера находили English→Russian в словаре, но
+физически не записывали русский текст в поле. `text` property setter
+не вызывался, т.к. проверка типа отбрасывала TMP-компоненты.
+Поле m_text не заполнялось, т.к. имя поля было неверным.
+
+**Дополнение:** Для корректной работы SetTextFieldDirect также:
+
+- Устанавливает `m_havePropertiesChanged = true` (флаг перестроения mesh)
+- Вызывает `SetAllDirty()` — SetLayoutDirty + SetVerticesDirty +
+  SetMaterialDirty (через PostRebuildHandler)
 
 ---
 
 _Документ создан в рамках анализа локализации Third Crisis Neon Nights (Anduo Games, Unity 2022.3.62f3)._
-_Последнее обновление: 2026-05-31 (переход на scan-and-replace + native proxy dwmapi.dll + SynchronizationContext timer)_
+_Последнее обновление: 2026-06-01 (NeonLateUpdate + [DefaultExecutionOrder(10000)] + три фиксера + исправление двух багов)_

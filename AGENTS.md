@@ -55,15 +55,15 @@ bundle-parser.mjs → NDJSON (.bundle)    ┼ → extractor.mjs → dialogs/ + u
 - **Из 97 бандлов только 4 с UI текстом:** level-cartelhideout, level-glowinghole, 3dsuitcasescene, releasenotesui
 - **"Enable VSync"** — не "VSYNC": `Settings.EnableVSync → Enable VSync`
 - **4 missing settings найдены** в Assembly-CSharp.dll как UTF-16 LE строки (парсер не видел их, т.к. ищет null-terminated ASCII): `Resolution Scaling`, `Environment Effects`, `Realtime Reflections`, `Post Processing` — sub-опции `Settings.Resolution` без собственных `Settings.*` ключей, лежат после него с префиксными type-тегами (0x25, 0x27, 0x29, 0x1f)
-- **MonoBehaviour.Update не работает** при создании GameObject через `mono_runtime_invoke` (native → C#) — Awake/OnEnable срабатывают, Update никогда не вызывается
-- **MonoBehaviour.Update РАБОТАЕТ** через `[RuntimeInitializeOnLoadMethod]` + `new GameObject().AddComponent<>()` — нативный Unity-контекст
-- **12 текстов сбрасываются на английский каждый кадр** — даже с отключённым UILocalization. Гейм-скрипт ставит английский во время canvas rebuild (после LateUpdate). Неуловимый источник — скорее всего UI Settings Manager.
-- **Canvas.ForceUpdateCanvases()** в LateUpdate перестраивает canvas с русским, но гейм-скрипт снова ставит английский при перестроении
-- **RenderPipelineManager.beginCameraRendering не срабатывает** для overlay Canvas (вне камерного пайплайна)
-- **UILocalization полностью отключён** — `DisableAllUiLocalization()` находит 5+3 компонента и выставляет enabled=false
-- **scan-and-replace работает** — 83 перевода UI применяются, но 12 текстов мерцают (сбрасываются → заменяются каждый кадр)
+- **MonoBehaviour.Update работает** через `[RuntimeInitializeOnLoadMethod]` + `new GameObject().AddComponent<>()` — нативный Unity-контекст
+- **NeonLateUpdate** с `[DefaultExecutionOrder(10000)]` — срабатывает ПОСЛЕ всех игровых LateUpdate
+- **Три фиксера:** PopulateAllTextPublic (LateUpdate), FastScan (willRenderCanvases, перерегистрируется каждый кадр), PostRebuildHandler (OnPreRenderObject)
+- **Два бага найдены и исправлены:** (1) `c.GetType() == _tmpType` → `_tmpType.IsAssignableFrom(c.GetType())` — exact type check пропускал `TextMeshProUGUI` (derived type). (2) `"m_Text"` (capital T) → `"m_text"` (lowercase t) — TMP_Text использует camelCase внутреннее поле
+- **SetTextFieldDirect** теперь также ставит `m_havePropertiesChanged = true` + `SetAllDirty()` для TMP
+- **85 переводов** UI (было 83, добавлен "Continue")
+- **~10 строк Lovense мерцают** на Toys tab — гейм-скрипт сбрасывает на английский каждый кадр (UI Settings Manager)
 - **dwmapi.dll proxy** — 32 forward + 2 интерсепта (DwmSetWindowAttribute, DwmGetWindowAttribute), 13.5 KB, загружается Unity
-- **Следующий шаг — raw managed detour** на `Text.set_text` (5-байтовый `E9 rel32` JMP): английский никогда не дойдёт до компонента. Аналог Harmony-подхода XUnity.AutoTranslator, но без зависимостей. Решение подсмотрено в PlayHooky / DetourUtility / tryfinally.dev.
+- **MethodPatcher (JMP detour) DEACTIVATED** — VirtualProtect + E9 JMP повреждал LayoutGroup/ContentSizeFitter. Возврат к нему требует стабильного trampoline для .NET 4.x Mono.
 
 ## Правила
 
