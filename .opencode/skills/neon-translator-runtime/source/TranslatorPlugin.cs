@@ -6,6 +6,7 @@ using System.Reflection;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace NeonTranslator
 {
@@ -16,22 +17,47 @@ namespace NeonTranslator
         private static string _logPath;
         private static List<Component> _cachedTextComponents;
         private static bool _cacheValid = false;
-        private static bool _translationSystemPatched = false;
+
+        private static Type _lmType;
+        private static Type _lineType;
+        private static Type _uiLocType;
+        private static Type _tmpType;
+        private static Type _legacyType;
+
+        private static FieldInfo _dictField;
+        private static FieldInfo _onLangChangedField;
+        private static FieldInfo _guidField;
+        private static FieldInfo _origTextField;
+        private static FieldInfo _lineIdField;
+        private static FieldInfo _origTextJsonField;
+        private static FieldInfo _textJsonField;
+
+        private static MethodInfo _setTextMethod;
+        private static IDictionary _guidDict;
+        private static bool _reflectionReady = false;
+        private static PostRebuildFixer _postFixer;
 
         private static string GetLogPath()
         {
-            if (_logPath == null)
-            {
-                string dllPath = Assembly.GetExecutingAssembly().Location;
-                string dllDir = Path.GetDirectoryName(dllPath);
-                _logPath = Path.Combine(dllDir, "NeonTranslator.log");
-            }
-            return _logPath;
+            string dllPath = Assembly.GetExecutingAssembly().Location;
+            string dllDir = Path.GetDirectoryName(dllPath);
+            return Path.Combine(dllDir, "NeonTranslator.log");
         }
 
         internal static void Log(string message)
         {
             try { File.AppendAllText(GetLogPath(), message + "\n"); } catch { }
+        }
+
+        public static string Translate(string original)
+        {
+            if (_translations != null && original != null)
+            {
+                string translated;
+                if (_translations.TryGetValue(original, out translated))
+                    return translated;
+            }
+            return null;
         }
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
@@ -51,11 +77,16 @@ namespace NeonTranslator
                     Log("Translations: " + (_translations != null ? _translations.Count.ToString() : "null"));
                 }
 
+                InitReflection();
                 SceneManager.sceneLoaded += OnSceneLoaded;
                 Canvas.willRenderCanvases += FastScan;
+
+                _postFixer = new PostRebuildFixer();
+                CanvasUpdateRegistry.RegisterCanvasElementForGraphicRebuild(_postFixer);
+
                 Log("Init done");
 
-                TryPatchTranslationSystem();
+                ScanAllUiLocs();
                 PopulateAllText();
                 FastScan();
             }
@@ -68,9 +99,165 @@ namespace NeonTranslator
         private static void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
             _cacheValid = false;
-            TryPatchTranslationSystem();
+            ScanAllUiLocs();
             PopulateAllText();
             FastScan();
+        }
+
+        private static void InitReflection()
+        {
+            if (_reflectionReady) return;
+            _lmType = GetType("ANToolkit.Localization.LanguageManager");
+            _lineType = GetType("ANToolkit.Localization.TranslationJsonLine");
+            _uiLocType = GetType("ANToolkit.Localization.UILocalization");
+            _tmpType = GetType("TMPro.TMP_Text");
+            _legacyType = GetType("UnityEngine.UI.Text");
+
+            if (_lmType == null || _lineType == null || _uiLocType == null)
+            { Log("Refl: types not found"); return; }
+
+            _dictField = _lmType.GetField("_guidToTranslationDictionary",
+                BindingFlags.Static | BindingFlags.NonPublic);
+            _onLangChangedField = _lmType.GetField("OnLanguageChanged",
+                BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic);
+            _guidField = _uiLocType.GetField("guid",
+                BindingFlags.Public | BindingFlags.Instance) ??
+                _uiLocType.GetField("guid", BindingFlags.NonPublic | BindingFlags.Instance);
+            _origTextField = _uiLocType.GetField("_originalText",
+                BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+
+            _lineIdField = _lineType.GetField("lineId");
+            _origTextJsonField = _lineType.GetField("originalText");
+            _textJsonField = _lineType.GetField("text");
+
+            _setTextMethod = _uiLocType.GetMethod("SetTextToTranslation",
+                BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+
+            if (_dictField == null || _guidField == null)
+            { Log("Refl: fields not found"); return; }
+
+            _reflectionReady = true;
+            Log("Refl: ready");
+        }
+
+        private static IDictionary GetOrCreateGuidDict()
+        {
+            if (_guidDict != null) return _guidDict;
+            var val = _dictField.GetValue(null) as IDictionary;
+            if (val == null)
+            {
+                val = (IDictionary)Activator.CreateInstance(typeof(Dictionary<string, IDictionary>));
+                _dictField.SetValue(null, val);
+            }
+            _guidDict = val;
+            return val;
+        }
+
+        private static IDictionary GetLangDict(string lang)
+        {
+            var outer = GetOrCreateGuidDict();
+            if (outer.Contains(lang))
+            {
+                var inner = outer[lang] as IDictionary;
+                if (inner != null) return inner;
+            }
+            var innerDictType = typeof(Dictionary<,>).MakeGenericType(typeof(string), _lineType);
+            var innerDict = (IDictionary)Activator.CreateInstance(innerDictType);
+            outer[lang] = innerDict;
+            return innerDict;
+        }
+
+        private static void SetJsonField(FieldInfo field, object obj, object val)
+        {
+            if (field != null) field.SetValue(obj, val);
+        }
+
+        private static void AddTranslation(string guid, string english, string russian)
+        {
+            var ruDict = GetLangDict("Russian");
+            var enDict = GetLangDict("English");
+
+            if (!ruDict.Contains(guid))
+            {
+                var ruLine = Activator.CreateInstance(_lineType);
+                SetJsonField(_lineIdField, ruLine, guid);
+                SetJsonField(_origTextJsonField, ruLine, english);
+                SetJsonField(_textJsonField, ruLine, russian);
+                ruDict[guid] = ruLine;
+            }
+
+            if (!enDict.Contains(guid))
+            {
+                var enLine = Activator.CreateInstance(_lineType);
+                SetJsonField(_lineIdField, enLine, guid);
+                SetJsonField(_origTextJsonField, enLine, english);
+                SetJsonField(_textJsonField, enLine, english);
+                enDict[guid] = enLine;
+            }
+        }
+
+        private static void TriggerLanguageChanged()
+        {
+            if (_onLangChangedField == null) return;
+            var unityEvent = _onLangChangedField.GetValue(null);
+            if (unityEvent == null) return;
+            var invokeMethod = unityEvent.GetType().GetMethod("Invoke", Type.EmptyTypes);
+            if (invokeMethod != null) invokeMethod.Invoke(unityEvent, null);
+        }
+
+        private static void ScanAllUiLocs()
+        {
+            if (!_reflectionReady) return;
+
+            try
+            {
+                var uiLocs = UnityEngine.Object.FindObjectsOfType(_uiLocType, true);
+                int added = 0;
+
+                foreach (var uiLoc in uiLocs)
+                {
+                    string g = _guidField.GetValue(uiLoc) as string;
+                    if (string.IsNullOrEmpty(g)) continue;
+
+                    var go = ((Component)uiLoc).gameObject;
+                    Component textComp = null;
+                    if (_tmpType != null) textComp = go.GetComponent(_tmpType);
+                    if (textComp == null && _legacyType != null) textComp = go.GetComponent(_legacyType);
+                    if (textComp == null && _tmpType != null) textComp = go.GetComponentInChildren(_tmpType, true);
+                    if (textComp == null && _legacyType != null) textComp = go.GetComponentInChildren(_legacyType, true);
+                    if (textComp == null) continue;
+
+                    string txt = GetText(textComp);
+                    if (string.IsNullOrEmpty(txt)) continue;
+
+                    if (_translations.ContainsKey(txt))
+                    {
+                        var outer = GetOrCreateGuidDict();
+                        bool alreadyInRussian = false;
+                        if (outer.Contains("Russian"))
+                        {
+                            var ruDict = outer["Russian"] as IDictionary;
+                            if (ruDict != null && ruDict.Contains(g)) alreadyInRussian = true;
+                        }
+
+                        if (!alreadyInRussian)
+                        {
+                            AddTranslation(g, txt, _translations[txt]);
+                            added++;
+                        }
+                    }
+                }
+
+                if (added > 0)
+                {
+                    Log("ScanAll: added " + added + " new GUID translations");
+                    TriggerLanguageChanged();
+                }
+            }
+            catch (Exception ex)
+            {
+                Log("ScanAll error: " + ex.Message);
+            }
         }
 
         private static string GetText(Component c)
@@ -92,182 +279,17 @@ namespace NeonTranslator
         private static List<Component> FindAllTextComponents()
         {
             var result = new List<Component>();
-            var tmpType = GetType("TMPro.TMP_Text");
-            if (tmpType != null)
+            if (_tmpType != null)
             {
-                var found = UnityEngine.Object.FindObjectsOfType(tmpType);
+                var found = UnityEngine.Object.FindObjectsOfType(_tmpType);
                 foreach (var obj in found) result.Add((Component)obj);
             }
-            var legacyType = GetType("UnityEngine.UI.Text");
-            if (legacyType != null)
+            if (_legacyType != null)
             {
-                var found = UnityEngine.Object.FindObjectsOfType(legacyType);
+                var found = UnityEngine.Object.FindObjectsOfType(_legacyType);
                 foreach (var obj in found) result.Add((Component)obj);
             }
             return result;
-        }
-
-        private static void TryPatchTranslationSystem()
-        {
-            if (_translationSystemPatched) return;
-
-            var lmType = GetType("ANToolkit.Localization.LanguageManager");
-            var lineType = GetType("ANToolkit.Localization.TranslationJsonLine");
-            var uiLocType = GetType("ANToolkit.Localization.UILocalization");
-            if (lmType == null || lineType == null || uiLocType == null) { Log("Patch: types not found"); return; }
-
-            try
-            {
-                var dictField = lmType.GetField("_guidToTranslationDictionary",
-                    BindingFlags.Static | BindingFlags.NonPublic);
-                if (dictField == null) { Log("Patch: no dict field"); return; }
-
-                var onLangChangedField = lmType.GetField("OnLanguageChanged",
-                    BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic);
-                if (onLangChangedField == null) { Log("Patch: no event field"); return; }
-
-                var guidField = uiLocType.GetField("guid",
-                    BindingFlags.Public | BindingFlags.Instance) ??
-                    uiLocType.GetField("guid", BindingFlags.NonPublic | BindingFlags.Instance);
-                if (guidField == null) { Log("Patch: no guid field"); return; }
-
-                var tmpType = GetType("TMPro.TMP_Text");
-                var legacyType = GetType("UnityEngine.UI.Text");
-
-                var uiLocs = UnityEngine.Object.FindObjectsOfType(uiLocType);
-                Log("Patch: " + uiLocs.Length + " UILoc components");
-
-                var guidToEnglish = new Dictionary<string, string>();
-                var guidToUiLoc = new Dictionary<string, object>();
-
-                foreach (var uiLoc in uiLocs)
-                {
-                    string g = guidField.GetValue(uiLoc) as string;
-                    if (string.IsNullOrEmpty(g)) continue;
-
-                    var go = ((Component)uiLoc).gameObject;
-                    Component textComp = null;
-                    if (tmpType != null) textComp = go.GetComponent(tmpType);
-                    if (textComp == null && legacyType != null) textComp = go.GetComponent(legacyType);
-                    if (textComp == null && tmpType != null) textComp = go.GetComponentInChildren(tmpType);
-                    if (textComp == null && legacyType != null) textComp = go.GetComponentInChildren(legacyType);
-                    if (textComp == null) continue;
-
-                    string txt = GetText(textComp);
-                    if (string.IsNullOrEmpty(txt)) continue;
-
-                    guidToEnglish[g] = txt;
-                    guidToUiLoc[g] = uiLoc;
-                }
-
-                Log("Patch: " + guidToEnglish.Count + " GUID→English pairs");
-
-                if (guidToEnglish.Count == 0) { Log("Patch: empty, will retry"); return; }
-
-                var currentDict = dictField.GetValue(null) as IDictionary;
-                if (currentDict == null)
-                {
-                    var outerDictType = typeof(Dictionary<string, IDictionary>);
-                    currentDict = (IDictionary)Activator.CreateInstance(outerDictType);
-                    dictField.SetValue(null, currentDict);
-                }
-
-                var innerDictType = typeof(Dictionary<,>).MakeGenericType(typeof(string), lineType);
-
-                IDictionary englishDict = null;
-                if (currentDict.Contains("English"))
-                {
-                    var existing = currentDict["English"];
-                    if (existing != null) englishDict = existing as IDictionary;
-                }
-                if (englishDict == null)
-                    englishDict = (IDictionary)Activator.CreateInstance(innerDictType);
-
-                IDictionary russianDict = null;
-                if (currentDict.Contains("Russian"))
-                {
-                    var existing = currentDict["Russian"];
-                    if (existing != null) russianDict = existing as IDictionary;
-                }
-                if (russianDict == null)
-                    russianDict = (IDictionary)Activator.CreateInstance(innerDictType);
-
-                var lineIdField = lineType.GetField("lineId");
-                var origTextField = lineType.GetField("originalText");
-                var textField = lineType.GetField("text");
-                int populated = 0;
-
-                foreach (var kvp in guidToEnglish)
-                {
-                    string guid = kvp.Key;
-                    string englishText = kvp.Value;
-
-                    if (!_translations.ContainsKey(englishText))
-                    {
-                        Log("Patch: no translation for '" + englishText + "' GUID=" + guid);
-                        continue;
-                    }
-
-                    string russianText = _translations[englishText];
-
-                    var enLine = Activator.CreateInstance(lineType);
-                    var ruLine = Activator.CreateInstance(lineType);
-
-                    if (lineIdField != null)
-                    {
-                        lineIdField.SetValue(enLine, guid);
-                        lineIdField.SetValue(ruLine, guid);
-                    }
-                    if (origTextField != null)
-                    {
-                        origTextField.SetValue(enLine, englishText);
-                        origTextField.SetValue(ruLine, englishText);
-                    }
-                    if (textField != null)
-                    {
-                        textField.SetValue(enLine, englishText);
-                        textField.SetValue(ruLine, russianText);
-                    }
-
-                    if (!englishDict.Contains(guid)) englishDict[guid] = enLine;
-                    russianDict[guid] = ruLine;
-                    populated++;
-                }
-
-                Log("Patch: populated " + populated + " Russian + " + englishDict.Count + " English entries");
-
-                currentDict["English"] = englishDict;
-                currentDict["Russian"] = russianDict;
-
-                var unityEvent = onLangChangedField.GetValue(null);
-                if (unityEvent != null)
-                {
-                    var invokeMethod = unityEvent.GetType().GetMethod("Invoke", Type.EmptyTypes);
-                    if (invokeMethod != null)
-                    {
-                        invokeMethod.Invoke(unityEvent, null);
-                        Log("Patch: OnLanguageChanged invoked");
-                    }
-                }
-
-                _translationSystemPatched = true;
-                Log("Patch: SUCCESS — translation system patched");
-            }
-            catch (Exception ex)
-            {
-                Log("Patch error: " + ex.ToString());
-            }
-        }
-
-        public static string Translate(string original)
-        {
-            if (_translations != null && original != null)
-            {
-                string translated;
-                if (_translations.TryGetValue(original, out translated))
-                    return translated;
-            }
-            return null;
         }
 
         private static void PopulateAllText()
@@ -301,16 +323,68 @@ namespace NeonTranslator
 
         private static int _fastScanCount = 0;
 
+        // Runs BEFORE rebuild (willRenderCanvases) — catches text set by other mechanisms
         private static void FastScan()
         {
             if (_translations == null) return;
             try
             {
                 _fastScanCount++;
-                if (_fastScanCount % 5 == 0) _cacheValid = false;
+                _cacheValid = false;
                 EnsureCache();
-                int replaced = 0;
+
                 foreach (var c in _cachedTextComponents)
+                {
+                    if (c == null) continue;
+                    string current = GetText(c);
+                    if (string.IsNullOrEmpty(current)) continue;
+
+                    // On-the-fly GUID mapping for newly discovered UILocalization
+                    if (_uiLocType != null)
+                    {
+                        var go = c.gameObject;
+                        var uiLoc = go.GetComponent(_uiLocType);
+                        if (uiLoc == null) uiLoc = go.GetComponentInParent(_uiLocType);
+                        if (uiLoc != null)
+                        {
+                            string g = _guidField.GetValue(uiLoc) as string;
+                            if (!string.IsNullOrEmpty(g) && _translations.ContainsKey(current))
+                            {
+                                var outer = GetOrCreateGuidDict();
+                                bool already = false;
+                                if (outer.Contains("Russian"))
+                                {
+                                    var rd = outer["Russian"] as IDictionary;
+                                    if (rd != null && rd.Contains(g)) already = true;
+                                }
+                                if (!already)
+                                {
+                                    AddTranslation(g, current, _translations[current]);
+                                    Log("FastScan: NEW GUID=" + g + " text='" + current + "' on " + go.name);
+                                }
+                            }
+                        }
+                    }
+
+                    string translated;
+                    if (_translations.TryGetValue(current, out translated) && translated != current)
+                    {
+                        SetText(c, translated);
+                    }
+                }
+            }
+            catch { }
+        }
+
+        // Runs AFTER rebuild (LatePreRender) — catches text set by UILocalization during rebuild
+        private static void PostRebuildFix()
+        {
+            if (_translations == null) return;
+            try
+            {
+                var allComponents = FindAllTextComponents();
+                int replaced = 0;
+                foreach (var c in allComponents)
                 {
                     if (c == null) continue;
                     string current = GetText(c);
@@ -322,10 +396,31 @@ namespace NeonTranslator
                         replaced++;
                     }
                 }
-                if (replaced > 0 && replaced < 5)
-                    Log("FastScan: replaced " + replaced);
+                if (replaced > 0)
+                    Log("PostRebuild: replaced " + replaced + " texts");
             }
             catch { }
+        }
+
+        private class PostRebuildFixer : ICanvasElement
+        {
+            public Transform transform { get { return null; } }
+
+            public void Rebuild(CanvasUpdate executing)
+            {
+                if (executing == CanvasUpdate.LatePreRender)
+                {
+                    PostRebuildFix();
+                }
+            }
+
+            public void LayoutComplete() { }
+            public void GraphicUpdateComplete() { }
+
+            public bool IsDestroyed()
+            {
+                return false;
+            }
         }
 
         private static Type GetType(string typeName)
