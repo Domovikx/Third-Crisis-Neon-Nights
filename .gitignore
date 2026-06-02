@@ -1,6 +1,8 @@
 # Game files (restored by Steam)
 *.exe
 *.dll
+!runtime/NeonTranslatorRuntime.dll
+!dwmapi.dll
 Third\ Crisis\ Neon\ Nights_Data/
 !Third\ Crisis\ Neon\ Nights_Data/Managed/NeonTranslatorRuntime_Data.ndjson
 MonoBleedingEdge/
@@ -27,7 +29,6 @@ output/
 
 # Temp / misc
 nul
-runtime/
 
 # OS junk
 Thumbs.db
