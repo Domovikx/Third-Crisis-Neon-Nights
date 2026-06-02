@@ -82,9 +82,9 @@ namespace NeonTranslator
                 string val = UnescapeJSON(content.Substring(valStart, valEnd - valStart));
                 i = valEnd + 1;
 
-                if (!string.IsNullOrEmpty(key))
+                if (!string.IsNullOrEmpty(key) && !string.IsNullOrEmpty(val))
                 {
-                    _translations[key] = val ?? "";
+                    _translations[key] = val;
                 }
             }
         }
