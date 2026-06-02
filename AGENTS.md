@@ -5,8 +5,7 @@
 - Unity 2022.3.62f3 + BepInEx 5.4
 - Основной код: Assembly-CSharp.dll (фреймворк ANToolkit) + PlayMaker FSM
 - Текст диалогов и UI: scan-and-replace через NeonTranslatorRuntime
-- Единый файл перевода: `translations/ru/NeonTranslatorRuntime_Data.json` (источник истины, версионируется)
-- Словарь рантайма: `Third Crisis Neon Nights_Data/Managed/NeonTranslatorRuntime_Data.json` (копия для игры)
+- Все `*.json` из `translations/` рекурсивно — DLL мержит их сама
 
 ## Формат перевода
 
@@ -50,15 +49,33 @@
 - `node .opencode/skills/neon-translator-runtime/build_proxy.mjs` — сборка нативного прокси (→ dwmapi.dll)
 - `python C:\Users\Domo\AppData\Local\Temp\opencode\search_bundles.py` — поиск строк в сырых бандлах
 
+## Структура файлов перевода
+
+```
+translations/
+  ui.json                            — UI переводы (137 строк, Fullscreen, Load Game…)
+  resources.json                     — диалоги по исходным файлам
+  level3.json
+  level7.json
+  sharedassets.json
+  ...                              (~4900 диалоговых строк)
+```
+
 ## Пайплайн
 
 ```
-редактировать translations/ru/NeonTranslatorRuntime_Data.json
+извлечение:
+  parser.mjs → extractor.mjs → split_sources.mjs  (извлекает диалоги в translations/)
+
+перевод:
+  редактировать translations/*.json (flat, никакой вложенности)
          │
-         ├── merge.mjs (дедупликация + копия → Managed/)
-         │
-         └── batch.mjs (если есть пустые переводы → Google Translate)
+         └── DLL сама читает все *.json из translations/ рекурсивно
 ```
+
+## Команды (дополнительные)
+
+- `node C:\Users\Domo\AppData\Local\Temp\opencode\split_sources.mjs` — разделить экстракт по исходным файлам в `translations/`
 
 ## Формат NDJSON
 
@@ -91,14 +108,25 @@
 - **dwmapi.dll proxy** в корне игры — загружается Unity при старте
 - Бутстрапит NeonTranslatorRuntime.dll в Managed/ через mono_domain_assembly_open
 - **NeonTranslatorRuntime.dll** — сканирует текст каждый кадр через LateUpdate + willRenderCanvases
-- **NeonTranslatorRuntime_Data.json** — словарь перевода (141 запись)
+- **Словарь перевода** — все `*.json` из `translations/` рекурсивно (141 запись UI + ~4900 диалогов)
 - Формат NDJSON: `{"original":"translated"}`
+
+## Ключевые находки (диалоги)
+
+- **Диалоги извлекаются** через пайплайн parser → extractor → split_sources.mjs
+- **4200+ диалоговых строк** найдено во всех level-файлах, resources.assets, sharedassets и бандлах
+- **Реальные диалоги** — длинные фразы с пунктуацией, эмоциональной окраской, диалоговыми маркерами (`>`, `<`, `<>`)
+- **FSM шум** (20K строк) — отфильтрован: `Wait for trigger`, `Top left of Zoey`, `Check to enable` и т.д.
+- **Unity API docs** — отфильтрованы: строки с префиксом `a `, `b `, `eUpdate`, `Returns a rotation` и т.д.
+- **UI (137 строк)** — хранятся отдельно в `translations/ui.json`, не смешиваются с диалогами
+- Формат per-source — каждый файл в `translations/` соответствует исходному файлу игры
+- **~130K UI кандидатов** в экстракторе — большинство тех.шум (имена объектов, шейдеров)
+- **Google Translate 429** — бесплатное API блокирует пакетный перевод 3700+ строк
 
 ## Важные пути
 
 - Корень игры: `C:\Program Files (x86)\Steam\steamapps\common\Third Crisis Neon Nights`
-- Переводы: `translations/ru/NeonTranslatorRuntime_Data.json`
-- Словарь (копия): `Third Crisis Neon Nights_Data/Managed/NeonTranslatorRuntime_Data.json`
+- Переводы: `translations/`
 - Лог: `Third Crisis Neon Nights_Data/Managed/NeonTranslator.log`
 - Прокси: `dwmapi.dll` (корень игры)
 - Исходники: `.opencode/skills/neon-translator-runtime/source/`

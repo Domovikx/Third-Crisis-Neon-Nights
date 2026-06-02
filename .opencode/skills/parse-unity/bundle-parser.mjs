@@ -10,6 +10,7 @@
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 import { join, dirname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { isTranslationCandidate } from './parser.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const GAME_DIR = join(__dirname, '..', '..', '..');
@@ -127,8 +128,9 @@ async function main() {
 
     const dataArea = buf.subarray(hdr.dataStart);
 
-    // Extract ALL readable strings from data area
-    const strings = extractRawStrings(dataArea);
+    // Extract strings and filter noise
+    const allStrings = extractRawStrings(dataArea);
+    const strings = allStrings.filter(s => isTranslationCandidate(s.text));
     // Parser output format: [offset, "raw"]
     const outData = strings.map(s => JSON.stringify([String(s.offset), s.text]));
 

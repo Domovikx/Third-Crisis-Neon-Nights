@@ -74,8 +74,9 @@ namespace NeonTranslator
                 {
                     _initialized = true;
                     string dllDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-                    string dataPath = Path.Combine(dllDir, "NeonTranslatorRuntime_Data.json");
-                    _translations = TranslationLoader.Load(dataPath);
+                    string gameDir = Path.GetDirectoryName(Path.GetDirectoryName(dllDir));
+                    string translationsDir = Path.Combine(gameDir, "translations");
+                    _translations = TranslationLoader.Load(translationsDir);
                     Log("Translations: " + (_translations != null ? _translations.Count.ToString() : "null"));
                 }
 
@@ -94,6 +95,8 @@ namespace NeonTranslator
                 ScanAllUiLocs();
                 InvalidateCache();
                 PopulateAllText();
+
+                DumpTranslationsToFile();
             }
             catch (Exception ex)
             {
@@ -103,9 +106,11 @@ namespace NeonTranslator
 
         private static void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
+            Log("Scene loaded: " + scene.name);
             InvalidateCache();
             ScanAllUiLocs();
             PopulateAllText();
+            DumpTranslationsToFile();
         }
 
         private static void InitReflection()
@@ -394,6 +399,75 @@ namespace NeonTranslator
                 }
             }
             catch (Exception ex) { Log("Dump error: " + ex.Message); }
+        }
+
+        internal static void DumpTranslationsToFile()
+        {
+            try
+            {
+                if (!_reflectionReady)
+                {
+                    Log("DumpTranslations: reflection not ready");
+                    return;
+                }
+
+                string dllDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+                string dumpPath = Path.Combine(dllDir, "dump_GUIDictionary.json");
+
+                using (var sw = new StreamWriter(dumpPath, false))
+                {
+                    sw.WriteLine("{\"LanguageManager\": {");
+
+                    var fields = _lmType.GetFields(BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic);
+                    bool first = true;
+                    foreach (var f in fields)
+                    {
+                        if (!first) sw.WriteLine(",");
+                        first = false;
+                        object val = null;
+                        try { val = f.GetValue(null); } catch { val = "<cannot read>"; }
+                        string valStr = val != null ? val.ToString() : "null";
+                        if (valStr.Length > 500) valStr = valStr.Substring(0, 500) + "...";
+                        sw.Write("  \"" + EscapeJson(f.Name) + "\": \"" + EscapeJson(valStr) + "\"");
+                    }
+
+                    sw.WriteLine("},\"UILocalizations\": [");
+
+                    try {
+                        var uiLocs = UnityEngine.Object.FindObjectsOfType(_uiLocType, true);
+                        bool firstLoc = true;
+                        int dumped = 0;
+                        foreach (var uiLoc in uiLocs)
+                        {
+                            if (dumped >= 100) { sw.WriteLine(",..."); break; }
+                            dumped++;
+                            if (!firstLoc) sw.WriteLine(",");
+                            firstLoc = false;
+                            string g = _guidField.GetValue(uiLoc) as string ?? "";
+                            string orig = _origTextField != null ? _origTextField.GetValue(uiLoc) as string ?? "" : "";
+                            Component c = (Component)uiLoc;
+                            string path = GetTransformPath(c.transform);
+                            sw.Write("    {\"guid\":\"" + EscapeJson(g) + "\",\"originalText\":\"" + EscapeJson(orig)
+                                + "\",\"path\":\"" + EscapeJson(path) + "\"}");
+                        }
+                    } catch (Exception ex) { sw.Write("    \"" + EscapeJson(ex.Message) + "\""); }
+
+                    sw.WriteLine("\n  ]\n}");
+                }
+
+                Log("DumpTranslations: wrote " + dumpPath);
+            }
+            catch (Exception ex)
+            {
+                Log("DumpTranslations error: " + ex.ToString());
+            }
+        }
+
+        private static string EscapeJson(string s)
+        {
+            if (s == null) return "";
+            return s.Replace("\\", "\\\\").Replace("\"", "\\\"")
+                    .Replace("\n", "\\n").Replace("\r", "\\r").Replace("\t", "\\t");
         }
 
         private static string GetTransformPath(Transform t)

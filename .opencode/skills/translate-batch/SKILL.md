@@ -6,7 +6,7 @@ compatibility: opencode
 ---
 
 ## Описание
-Пакетный перевод непереведённых строк из `translations/ru/NeonTranslatorRuntime_Data.json`.
+Пакетный перевод непереведённых строк из `translations/NeonTranslatorRuntime_Data.json`.
 Ищет записи с пустым переводом, переводит через Google Translate API, сохраняет прямо в JSON.
 
 ## Когда использовать
@@ -20,7 +20,7 @@ node .opencode/skills/translate-batch/batch.mjs --dry-run     # тестовый
 ```
 
 ## Что делает
-1. Читает `translations/ru/NeonTranslatorRuntime_Data.json`
+1. Читает `translations/NeonTranslatorRuntime_Data.json`
 2. Собирает все записи с пустым переводом (значение)
 3. Переводит пачками по 25 строк с паузой 1с
 4. Сохраняет перевод обратно (idempotent)

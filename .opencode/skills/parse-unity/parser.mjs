@@ -437,9 +437,199 @@ export function extractUtf16Strings(buf, minLen = 4) {
   return [...seen.values()].sort((a, b) => a.offset - b.offset);
 }
 
+// ====== Noise filtering ======
+
+/**
+ * Determine if a string is a translation candidate or noise.
+ *
+ * Returns false for obvious code identifiers, paths, URLs, binary garbage.
+ * Multi-word strings (containing space) always pass — they're likely UI or dialogue.
+ * Single-word strings are checked against known patterns.
+ *
+ * This runs AFTER extraction (in parseUnityFile/parseRawFile), so individual
+ * extraction functions (extractUnityStrings, extractAlignedStrings, etc.)
+ * remain unfiltered for direct use in tests.
+ *
+ * @param {string} str - The raw string to check
+ * @returns {boolean} true if candidate, false if noise
+ */
+// Whitelist of known UI single PascalCase words
+const UI_SINGLE_WORDS = new Set([
+  'Off', 'Low', 'Med', 'Mid', 'Medium', 'High', 'Ultra', 'Slow', 'Normal', 'Fast',
+  'On', 'Save', 'Load', 'Menu', 'Open', 'Close', 'Full', 'Max', 'Min',
+  'Yes', 'No', 'Ok', 'OK', 'None', 'Auto', 'All', 'Any', 'Set',
+  'Controls', 'Game', 'Video', 'Sound', 'Toys', 'Text',
+  'Volume', 'Music', 'Effects', 'Voice', 'Sensitivity',
+  'Resolution', 'Fullscreen', 'Display', 'Graphics', 'Quality',
+  'Language', 'Dialogue', 'Autoplay', 'Sprint', 'Hints', 'Player',
+  'Sprite', 'Profile', 'Privacy', 'Device', 'Search', 'Setup',
+  'Port', 'Limited', 'Enabled', 'Disabled', 'Deactivated',
+  'Category', 'Section', 'General', 'Advanced', 'Options',
+  'Searching', 'MainMenu', 'Continue', 'Vibration', 'Apply',
+  'Accept', 'Cancel', 'Confirm', 'Exit', 'Quit', 'Pause', 'Resume',
+  'Retry', 'Back', 'Next', 'Prev', 'Previous', 'Submit', 'Reset',
+  'Clear', 'Delete', 'Remove', 'Add', 'Edit', 'Rename', 'Copy',
+  'Cut', 'Paste', 'Select', 'Deselect', 'Invert', 'Filter',
+  'Sort', 'Refresh', 'Update', 'Install', 'Uninstall', 'Download',
+  'Upload', 'Sync', 'Connect', 'Disconnect', 'Reconnect',
+  'Bind', 'Unbind', 'Rebind', 'Assign', 'Unassign',
+  'Key', 'Keys', 'Binding', 'Bindings', 'Keyboard', 'Mouse',
+  'Touch', 'Tap', 'Click', 'Double', 'Hold', 'Press', 'Release',
+  'Up', 'Down', 'Left', 'Right', 'Forward', 'Backward', 'Jump',
+  'Crouch', 'Sneak', 'Run', 'Walk', 'Swim', 'Fly', 'Dive',
+  'Attack', 'Defend', 'Guard', 'Block', 'Parry', 'Dodge',
+  'Interact', 'Use', 'Equip', 'Unequip', 'Inventory', 'Backpack',
+  'Map', 'Journal', 'Quest', 'Quests', 'Log', 'Codex', 'Bestiary',
+  'Craft', 'Crafting', 'Cook', 'Brew', 'Enchant', 'Upgrade',
+  'Repair', 'Buy', 'Sell', 'Trade', 'Shop', 'Store', 'Market',
+  'Price', 'Cost', 'Value', 'Gold', 'Coin', 'Coins', 'Money',
+  'Exp', 'XP', 'Level', 'Rank', 'Tier', 'Stage', 'Wave',
+  'Score', 'Points', 'Time', 'Timer', 'Count', 'Total',
+  'Damage', 'Defense', 'Armor', 'Health', 'Mana',
+  'Stamina', 'Energy', 'Power', 'Speed', 'Agility', 'Strength',
+  'Intelligence', 'Wisdom', 'Charisma', 'Luck', 'Faith',
+  'Fire', 'Ice', 'Water', 'Earth', 'Wind', 'Lightning', 'Light',
+  'Dark', 'Shadow', 'Holy', 'Unholy', 'Arcane', 'Nature',
+  'Slash', 'Pierce', 'Blunt', 'Physical', 'Magical', 'Elemental',
+  'Poison', 'Bleed', 'Burn', 'Freeze', 'Shock', 'Stun',
+  'Sleep', 'Silence', 'Blind', 'Fear', 'Charm', 'Confuse',
+  'Single', 'Multi', 'Self', 'Target', 'Random',
+  'Ally', 'Enemy', 'Foe', 'Friend',
+  'Party', 'Group', 'Solo', 'Team', 'Raid', 'Guild',
+  'Chat', 'Message', 'Mail', 'Trade', 'Duel', 'Challenge',
+  'Ranked', 'Casual', 'Competitive', 'Practice', 'Training',
+  'Tutorial', 'Help', 'Guide', 'Info', 'Information',
+  'About', 'Credits', 'License', 'Terms', 'Privacy',
+  'Accessibility', 'Beta', 'Alpha', 'Demo', 'Trial',
+  'Connecting', 'Connected', 'Disconnected', 'Timeout',
+  'Server', 'Client', 'Host', 'Join', 'Leave', 'Kick', 'Ban',
+  'Mute', 'Unmute', 'Spectate', 'Observe',
+  'Ready', 'Unready', 'Waiting', 'Countdown',
+  'Victory', 'Defeat', 'Win', 'Lose', 'Draw',
+  'Perfect', 'Excellent', 'Great', 'Good', 'Bad', 'Fail',
+  'Complete', 'Incomplete', 'New', 'Old',
+  'Online', 'Offline', 'Away', 'Busy', 'Idle', 'AFK',
+  'Mod', 'Mods', 'DLC', 'Addon', 'Addons', 'Patch',
+  'Notify', 'Notification', 'Alert', 'Warning', 'Error',
+  'Success', 'Failure', 'Progress', 'Status',
+  'Name', 'Title', 'Label', 'Tag', 'Icon', 'Badge',
+  'List', 'Grid', 'Table', 'Tree', 'Tile', 'Card',
+  'Top', 'Bottom', 'Middle', 'Center', 'Side', 'Edge',
+  'Inside', 'Outside', 'Above', 'Below', 'Over', 'Under',
+  'Show', 'Hide', 'Visible', 'Hidden', 'Reveal', 'Conceal',
+  'Lock', 'Unlock', 'Locked', 'Unlocked',
+  'Public', 'Private', 'Shared', 'Personal',
+  'Free', 'Paid', 'Premium', 'Vip', 'VIP',
+  'Guest', 'User', 'Admin', 'Owner', 'Member',
+  'Male', 'Female', 'Other', 'Custom', 'Default',
+  'Initial', 'Final', 'First', 'Last', 'Next', 'Previous',
+  'Begin', 'End', 'Start', 'Stop', 'Finish',
+  'Day', 'Night', 'Morning', 'Afternoon', 'Evening',
+  'Today', 'Tomorrow', 'Yesterday',
+  'Video', 'Sound', 'Game', 'Controls', 'Toys',
+  'Components', 'Console', 'FPS', 'VSync',
+  'Seasonal', 'Events', 'Realtime', 'Reflections',
+  'Processing', 'Environment', 'Scaling',
+  'Resolution', 'Fullscreen', 'Autoplay',
+  'Controllers', 'Vibration', 'Both',
+  'Haptics', 'Intensity', 'Pattern', 'Duration',
+  'Brightness', 'Gamma', 'Contrast', 'Saturation',
+  'Ambient', 'Occlusion', 'Blur', 'Depth', 'Field',
+  'AntiAliasing', 'Anisotropic', 'Filtering',
+  'Textures', 'Shadows', 'Lighting', 'Postprocessing',
+  'Effects', 'Particles', 'Quality', 'Performance',
+  'Balanced', 'Custom', 'Windowed', 'Borderless',
+  'Exclusive', 'Fullscreen', 'Desktop',
+  'Native', 'Override', 'Automatic',
+]);
+
+export function isTranslationCandidate(str) {
+  if (!str || str.length < 2 || str.length > 500) return false;
+
+  // Control characters → garbage
+  if (/[\x00-\x08\x0B\x0C\x0E-\x1F]/.test(str)) return false;
+
+  // Reject file paths and URLs
+  if (/^[/\\]/.test(str)) return false;
+  if (str.includes('\\\\')) return false;
+  if (str.includes('://')) return false;
+  if (/^[A-Za-z]:[/\\]/.test(str)) return false;
+  if (/\.(dll|exe|png|jpg|jpeg|gif|bmp|svg|psd|tga|fbx|obj|cs|unity|prefab|mat|shader|asset|wav|mp3|ogg)$/i.test(str)) return false;
+
+  // First char must be alpha or < (for rich text <b>)
+  if (!/^[a-zA-Z<]/.test(str)) return false;
+
+  // Code patterns
+  if (str.includes('[') || str.includes(']')) return false;  // array access
+  if (str.includes('{') || str.includes('}')) return false;  // code blocks
+  if (str.includes('$')) return false;                        // compiler artifacts
+  if (str.includes('|')) return false;                        // bitwise/pipe
+  if (str.includes('`')) return false;                        // backtick
+  if (str.includes('~')) return false;                        // bitwise
+
+  // Multi-word with space → almost always UI or dialogue
+  if (str.includes(' ')) return true;
+
+  // Single-word below:
+
+  // Settings keys
+  if (str.startsWith('Settings.')) return true;
+
+  // Contains underscore → identifier
+  if (str.includes('_')) return false;
+
+  // Contains dot → reject (settings handled above)
+  if (str.includes('.')) return false;
+
+  // Contains parentheses → method calls
+  if (str.includes('(') || str.includes(')')) return false;
+
+  // camelCase starting with lowercase → code variable
+  if (/^[a-z][a-zA-Z]*[A-Z]/.test(str)) return false;
+
+  // All-caps: only pure letters, 3+ chars
+  if (/^[A-Z]{3,}$/.test(str)) return true;
+
+  // Single PascalCase word: whitelist only
+  if (/^[A-Z][a-zA-Z]*$/.test(str)) {
+    if (UI_SINGLE_WORDS.has(str)) return true;
+    return false; // not in whitelist → likely code
+  }
+
+  // Trailing colon/punctuation → strip and re-check (UI labels like "STATUS:")
+  if (/[:;!?]$/.test(str) && str.length > 3) {
+    return isTranslationCandidate(str.slice(0, -1));
+  }
+
+  // Mostly digits or symbols → garbage
+  const alpha = (str.match(/[a-zA-Z]/g) || []).length;
+  if (alpha / str.length < 0.4) return false;
+
+  // Single repeated character → garbage
+  const letters = str.replace(/[^a-zA-Z]/g, '');
+  if (letters.length > 0 && /^(.)\1+$/.test(letters)) return false;
+
+  // 2-char strings: only whitelisted PascalCase or all-caps
+  if (str.length === 2) {
+    if (/^[A-Z]{2}$/.test(str)) return true;
+    if (UI_SINGLE_WORDS.has(str)) return true;
+    return false;
+  }
+
+  // Rich text markup: <b>...</b>, <i>...</i>
+  if (/^<[bi]>.*<\/[bi]>$/i.test(str)) {
+    const inner = str.replace(/<\/?[bi]>/gi, '');
+    if (inner.length >= 2) return isTranslationCandidate(inner);
+    return false;
+  }
+
+  // Default: reject (be conservative)
+  return false;
+}
+
 // ====== File-level parsing ======
 
-export async function parseUnityFile(filepath, name) {
+export async function parseUnityFile(filepath, name, options = {}) {
   const buf = await readFile(filepath);
   const header = parseHeader(buf);
 
@@ -449,6 +639,10 @@ export async function parseUnityFile(filepath, name) {
 
   // Merge and sort by offset
   const allStrings = [...nullTermStrings, ...alignedStrings].sort((a, b) => a.offset - b.offset);
+
+  // Apply noise filter unless --full
+  const { fullScan = false } = options;
+  const filtered = fullScan ? allStrings : allStrings.filter(s => isTranslationCandidate(s.raw));
 
   return {
     name,
@@ -464,31 +658,38 @@ export async function parseUnityFile(filepath, name) {
       endianess: header.endianess,
       newFormat: header.newFormat,
     },
-    strings: allStrings,
+    strings: filtered,
     stats: {
-      totalStrings: allStrings.length,
+      totalStrings: filtered.length,
+      totalRaw: allStrings.length,
       dataSize: header.fileSize - header.dataOffset,
       nullTerminated: nullTermStrings.length,
       aligned: alignedStrings.length,
+      filteredOut: allStrings.length - filtered.length,
     },
   };
 }
 
-export async function parseRawFile(filepath, name) {
+export async function parseRawFile(filepath, name, options = {}) {
+  const { fullScan = false } = options;
   const buf = await readFile(filepath);
   const asciiStrings = extractRawStrings(buf);
   const utf16Strings = extractUtf16Strings(buf);
   const strings = [...asciiStrings, ...utf16Strings]
     .sort((a, b) => a.offset - b.offset);
 
+  const filtered = fullScan ? strings : strings.filter(s => isTranslationCandidate(s.raw));
+
   return {
     name,
     path: filepath,
     type: 'raw',
     fileSize: buf.length,
-    strings,
+    strings: filtered,
     stats: {
-      totalStrings: strings.length,
+      totalStrings: filtered.length,
+      totalRaw: strings.length,
+      filteredOut: strings.length - filtered.length,
     },
   };
 }
@@ -525,6 +726,7 @@ Options:
   --out <dir>       Output directory (default: output/parser/)
   --min-len <N>     Minimum string length (default: 4)
   --no-defaults     Do not include default files when --level not set
+  --full            Full scan: skip noise filtering, extract all strings
   --help, -h        Show this help
 
 Output:
@@ -544,6 +746,7 @@ Output:
     : join(GAME_DIR, 'output', 'parser');
 
   const noDefaults = args.includes('--no-defaults');
+  const fullScan = args.includes('--full');
 
   // Determine file list
   const files = [];
@@ -576,9 +779,9 @@ Output:
     try {
       let result;
       if (f.type === 'unity') {
-        result = await parseUnityFile(f.path, f.name);
+        result = await parseUnityFile(f.path, f.name, { fullScan });
       } else {
-        result = await parseRawFile(f.path, f.name);
+        result = await parseRawFile(f.path, f.name, { fullScan });
       }
 
       if (minLen > 4) {
@@ -588,8 +791,10 @@ Output:
 
       results.push(result);
 
-      console.error(`${f.name}: ${result.stats.totalStrings} strings found` +
-        (f.type === 'unity' ? ` (data: ${((result.stats.dataSize) / 1024 / 1024).toFixed(2)} MB)` : ''));
+      const filtered = result.stats.filteredOut || 0;
+      console.error(`${f.name}: ${result.stats.totalStrings} strings` +
+        (filtered > 0 ? ` (filtered ${filtered})` : '') +
+        (f.type === 'unity' ? ` data: ${((result.stats.dataSize) / 1024 / 1024).toFixed(2)} MB` : ''));
     } catch (err) {
       console.error(`${f.name}: ERROR - ${err.message}`);
     }
@@ -599,11 +804,13 @@ Output:
   await mkdir(outDir, { recursive: true });
 
   const manifest = {
-    parser: 'parse-unity v4',
+    parser: 'parse-unity v5',
     timestamp: new Date().toISOString(),
+    fullScan,
     minLength: minLen,
     totalFiles: results.length,
     totalStrings: results.reduce((s, r) => s + r.stats.totalStrings, 0),
+    totalFilteredOut: results.reduce((s, r) => s + (r.stats.filteredOut || 0), 0),
     files: results.map(r => ({
       name: r.name,
       type: r.type,

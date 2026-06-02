@@ -11,7 +11,9 @@ const SRC_FILE = join(GAME_DIR, 'translations', 'ru', 'NeonTranslatorRuntime_Dat
 const args = process.argv.slice(2);
 const DRY_RUN = args.includes('--dry-run');
 
-async function translateBatch(texts) {
+async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+async function translateBatch(texts, attempt = 1) {
   if (!texts.length) return [];
   const payload = JSON.stringify([[texts.map(t => [t, 'en', 'ru', 1]), 'wt_lib']]);
   try {
@@ -20,7 +22,15 @@ async function translateBatch(texts) {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: new URLSearchParams({ 'f.req': payload })
     });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    if (!res.ok) {
+      if (res.status === 429 && attempt < 5) {
+        const delay = attempt * 5000;
+        console.error(`  429: retry in ${delay/1000}s (attempt ${attempt})`);
+        await sleep(delay);
+        return translateBatch(texts, attempt + 1);
+      }
+      throw new Error(`HTTP ${res.status}`);
+    }
     const data = await res.json();
     return data[0][0].map(r => r[0][0][5]?.[0]?.[0] || '');
   } catch (err) {
@@ -54,7 +64,7 @@ async function main() {
         else failed++;
       }
     }
-    if (i + BATCH < pending.length) await new Promise(r => setTimeout(r, 1000));
+    if (i + BATCH < pending.length) await new Promise(r => setTimeout(r, 4000));
   }
 
   if (DRY_RUN) {

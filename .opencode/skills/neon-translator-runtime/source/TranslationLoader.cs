@@ -9,7 +9,7 @@ namespace NeonTranslator
         private static Dictionary<string, string> _translations;
         private static object _lock = new object();
 
-        public static Dictionary<string, string> Load(string filePath)
+        public static Dictionary<string, string> Load(string dirPath)
         {
             lock (_lock)
             {
@@ -18,13 +18,27 @@ namespace NeonTranslator
 
                 _translations = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
 
-                if (!File.Exists(filePath))
+                if (!Directory.Exists(dirPath))
                 {
                     return _translations;
                 }
 
-                string content = File.ReadAllText(filePath);
-                ParseJsonObject(content, _translations);
+                // Recursively find all *.json files
+                string[] files = Directory.GetFiles(dirPath, "*.json", SearchOption.AllDirectories);
+                Array.Sort(files); // alphabetical — later files override earlier ones
+
+                foreach (string filePath in files)
+                {
+                    try
+                    {
+                        string content = File.ReadAllText(filePath);
+                        ParseJsonObject(content, _translations);
+                    }
+                    catch (Exception ex)
+                    {
+                        // skip corrupt files
+                    }
+                }
 
                 return _translations;
             }
@@ -68,9 +82,9 @@ namespace NeonTranslator
                 string val = UnescapeJSON(content.Substring(valStart, valEnd - valStart));
                 i = valEnd + 1;
 
-                if (!string.IsNullOrEmpty(key) && !string.IsNullOrEmpty(val))
+                if (!string.IsNullOrEmpty(key))
                 {
-                    dict[key] = val;
+                    _translations[key] = val ?? "";
                 }
             }
         }
