@@ -3,7 +3,7 @@ from pathlib import Path
 
 GAME_DIR = Path(__file__).parent.parent.parent.parent
 CSC = r'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe'
-SOURCE_DIR = GAME_DIR / '.opencode' / 'skills' / 'neon-translator-runtime' / 'source'
+SOURCE_DIR = GAME_DIR / '.opencode' / 'skills' / 'build-translator' / 'source'
 DATA_DIR = GAME_DIR / 'Third Crisis Neon Nights_Data' / 'Managed'
 SOURCE_FILES = ['NativeMethods.cs', 'TranslationLoader.cs', 'MethodPatcher.cs', 'TranslatorPlugin.cs', 'NeonLateUpdate.cs']
 REF_DLLS = ['UnityEngine.dll', 'UnityEngine.CoreModule.dll', 'UnityEngine.UI.dll', 'UnityEngine.UIModule.dll', 'Unity.TextMeshPro.dll', 'netstandard.dll']

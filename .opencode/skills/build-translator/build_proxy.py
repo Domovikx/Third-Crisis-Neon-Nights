@@ -19,7 +19,7 @@ LIBS = [
     Path(SDK) / 'Lib' / SDK_VER / 'um' / 'x64',
 ]
 
-SOURCE = GAME_DIR / '.opencode' / 'skills' / 'neon-translator-runtime' / 'source' / 'dwmapi_proxy.c'
+SOURCE = GAME_DIR / '.opencode' / 'skills' / 'build-translator' / 'source' / 'dwmapi_proxy.c'
 OUT_PATH = GAME_DIR / 'dwmapi.dll'
 REAL_COPY = GAME_DIR / 'dwmapi_real.dll'
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-parser_v2.py — Unity binary parser v2
+parser.py — Unity binary parser
 
 Полная замена parser.mjs. Извлекает строки из Unity serialized файлов
 (.assets, level*, .bundle, .dll) с dialogue-ориентированной фильтрацией
@@ -33,7 +33,7 @@ from typing import List, Tuple, Optional, Dict, Any
 # Constants
 # ============================================================
 
-VERSION = "parse-unity v2 (python)"
+VERSION = "extract-text v2 (python)"
 MIN_LEN = 4
 MAX_LEN = 500
 MAX_FILE_SIZE = 500 * 1024 * 1024  # 500 MB
@@ -1259,14 +1259,13 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python parser_v2.py
-  python parser_v2.py --level 3
-  python parser_v2.py --file "path/to/file.assets" --type unity
-  python parser_v2.py --file "path/to/file.dll" --type raw
-  python parser_v2.py --full
-  python parser_v2.py --min-len 8
-  python parser_v2.py --threshold 0.5
-  python parser_v2.py --out output/parser-v2/
+  python parser.py
+  python parser.py --level 3
+  python parser.py --file "path/to/file.assets" --type unity
+  python parser.py --file "path/to/file.dll" --type raw
+  python parser.py --dialogue
+  python parser.py --texts
+  python parser.py --characters
         """)
 
     parser.add_argument('--level', type=int, help='Parse single level (0-15)')

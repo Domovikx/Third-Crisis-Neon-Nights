@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-parser_v2.test.py — Comprehensive tests for parser_v2
+parser.test.py — Comprehensive tests for parser
 
-Run:  python parser_v2.test.py
-Or:   python -m pytest parser_v2.test.py  (if pytest available)
+Run:  python parser.test.py
+Or:   python -m pytest parser.test.py  (if pytest available)
 """
 
 import sys
@@ -15,7 +15,7 @@ from pathlib import Path
 
 # Add parent to path for imports
 sys.path.insert(0, str(Path(__file__).parent))
-from parser_v2 import (
+from parser import (
     score_text, is_candidate, DIALOGUE_SCORE_THRESHOLD,
     scan_null_terminated, scan_aligned_strings, scan_utf16_strings,
     scan_all_runs, reconstruct_phrases,
