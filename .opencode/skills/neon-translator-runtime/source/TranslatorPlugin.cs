@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -338,6 +339,21 @@ namespace NeonTranslator
             return result;
         }
 
+        private static Regex _richTagRx = new Regex("<[^>]+>", RegexOptions.Compiled);
+
+        private static string StripRichTags(string s)
+        {
+            if (string.IsNullOrEmpty(s)) return s;
+            return _richTagRx.Replace(s, "");
+        }
+
+        private static string ReplaceInRichText(string original, string cleanKey, string translation)
+        {
+            // Preserve rich-text tags: replace clean content inside tags, keep tags intact
+            if (original == cleanKey) return translation;
+            return original.Replace(cleanKey, translation);
+        }
+
         private static int _logDetailCount = 0;
 
         private static void PopulateAllText()
@@ -369,16 +385,18 @@ namespace NeonTranslator
                         continue;
                     }
                 }
+                string lookup = StripRichTags(current);
                 string translated;
-                if (_translations.TryGetValue(current, out translated) && translated != current)
+                if (_translations.TryGetValue(lookup, out translated) && translated != lookup)
                 {
+                    string result = current == lookup ? translated : ReplaceInRichText(current, lookup, translated);
                     if (_logDetailCount < 30)
                     {
                         _logDetailCount++;
                         string path = GetTransformPath(c.transform);
-                        Log("Populate: '" + current + "' -> '" + translated + "' on " + path);
+                        Log("Populate: '" + lookup + "' -> '" + translated + "' on " + path);
                     }
-                    SetTextFieldDirect(c, translated);
+                    SetTextFieldDirect(c, result);
                     replaced++;
                 }
             }
