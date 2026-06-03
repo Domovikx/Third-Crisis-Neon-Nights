@@ -18,6 +18,7 @@ namespace NeonTranslator
 
         private static List<Component> _cachedComponents;
         private static bool _cacheValid = false;
+        private static Dictionary<Component, string> _componentOriginalText;
         private static Type _lmType;
         private static Type _lineType;
         private static Type _uiLocType;
@@ -92,8 +93,8 @@ namespace NeonTranslator
                 Log("Init done");
                 DumpAllTextComponents();
 
-                ScanAllUiLocs();
                 InvalidateCache();
+                ScanAllUiLocs();
                 PopulateAllText();
 
                 DumpTranslationsToFile();
@@ -235,6 +236,9 @@ namespace NeonTranslator
                 var uiLocs = UnityEngine.Object.FindObjectsOfType(_uiLocType, true);
                 int added = 0;
 
+                if (_componentOriginalText == null)
+                    _componentOriginalText = new Dictionary<Component, string>();
+
                 foreach (var uiLoc in uiLocs)
                 {
                     string g = _guidField.GetValue(uiLoc) as string;
@@ -248,10 +252,16 @@ namespace NeonTranslator
                     if (textComp == null && _legacyType != null) textComp = go.GetComponentInChildren(_legacyType, true);
                     if (textComp == null) continue;
 
-                    string txt = GetText(textComp);
-                    if (string.IsNullOrEmpty(txt)) continue;
+                    // Use _originalText from UILocalization (always stores the English original)
+                    string orig = _origTextField != null
+                        ? (_origTextField.GetValue(uiLoc) as string ?? "")
+                        : GetText(textComp);
+                    if (string.IsNullOrEmpty(orig)) continue;
 
-                    if (_translations.ContainsKey(txt))
+                    // Cache original text for PopulateAllText fallback
+                    _componentOriginalText[textComp] = orig;
+
+                    if (_translations.ContainsKey(orig))
                     {
                         var outer = GetOrCreateGuidDict();
                         bool alreadyInRussian = false;
@@ -263,7 +273,7 @@ namespace NeonTranslator
 
                         if (!alreadyInRussian)
                         {
-                            AddTranslation(g, txt, _translations[txt]);
+                            AddTranslation(g, orig, _translations[orig]);
                             added++;
                         }
                     }
@@ -345,7 +355,20 @@ namespace NeonTranslator
             {
                 if (c == null) continue;
                 string current = GetText(c);
-                if (string.IsNullOrEmpty(current)) continue;
+                if (string.IsNullOrEmpty(current))
+                {
+                    // Fallback: ANToolkit may have blanked the text — restore from cached original
+                    string cachedOrig;
+                    if (_componentOriginalText != null && _componentOriginalText.TryGetValue(c, out cachedOrig))
+                    {
+                        current = cachedOrig;
+                        SetTextFieldDirect(c, current);
+                    }
+                    else
+                    {
+                        continue;
+                    }
+                }
                 string translated;
                 if (_translations.TryGetValue(current, out translated) && translated != current)
                 {
@@ -366,6 +389,7 @@ namespace NeonTranslator
         private static void InvalidateCache()
         {
             _cacheValid = false;
+            _componentOriginalText = null;
         }
 
         public static void PopulateAllTextPublic()

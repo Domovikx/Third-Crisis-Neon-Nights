@@ -7,6 +7,7 @@ namespace NeonTranslator
     internal static class TranslationLoader
     {
         private static Dictionary<string, string> _translations;
+        private static HashSet<string> _allKeys;
         private static object _lock = new object();
 
         public static Dictionary<string, string> Load(string dirPath)
@@ -17,24 +18,46 @@ namespace NeonTranslator
                     return _translations;
 
                 _translations = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+                _allKeys = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 
                 if (!Directory.Exists(dirPath))
                 {
                     return _translations;
                 }
 
-                // Recursively find all *.json files
-                string[] files = Directory.GetFiles(dirPath, "*.json", SearchOption.AllDirectories);
+                // Recursively find all *.ndjson files
+                string[] files = Directory.GetFiles(dirPath, "*.ndjson", SearchOption.AllDirectories);
                 Array.Sort(files); // alphabetical — later files override earlier ones
 
                 foreach (string filePath in files)
                 {
                     try
                     {
-                        string content = File.ReadAllText(filePath);
-                        ParseJsonObject(content, _translations);
+                        string[] lines = File.ReadAllLines(filePath);
+                        foreach (string rawLine in lines)
+                        {
+                            string line = rawLine.Trim();
+                            if (string.IsNullOrEmpty(line)) continue;
+                            if (!line.StartsWith("[") || !line.EndsWith("]")) continue;
+
+                            // Parse: ["key","val"] — find first "," delimiter inside quotes
+                            int commaIdx = line.IndexOf("\",\"");
+                            if (commaIdx < 0) continue;
+
+                            string key = line.Substring(2, commaIdx - 2); // skip [" 
+                            string val = line.Substring(commaIdx + 3, line.Length - commaIdx - 5); // skip "," and trailing "]
+
+                            if (!string.IsNullOrEmpty(key))
+                            {
+                                _allKeys.Add(key);
+                                if (!string.IsNullOrEmpty(val))
+                                {
+                                    _translations[key] = val;
+                                }
+                            }
+                        }
                     }
-                    catch (Exception ex)
+                    catch
                     {
                         // skip corrupt files
                     }
@@ -44,66 +67,9 @@ namespace NeonTranslator
             }
         }
 
-        private static void ParseJsonObject(string content, Dictionary<string, string> dict)
+        public static bool IsKnownKey(string key)
         {
-            int i = 0;
-
-            // skip whitespace + opening brace
-            while (i < content.Length && (content[i] == '{' || content[i] == ' ' || content[i] == '\t' || content[i] == '\n' || content[i] == '\r'))
-                i++;
-
-            while (i < content.Length)
-            {
-                // skip whitespace + comma
-                while (i < content.Length && (content[i] == ',' || content[i] == ' ' || content[i] == '\t' || content[i] == '\n' || content[i] == '\r'))
-                    i++;
-
-                // closing brace — done
-                if (i >= content.Length || content[i] == '}')
-                    break;
-
-                // read quoted key
-                if (content[i] != '"') break;
-                int keyStart = i + 1;
-                int keyEnd = FindQuoteEnd(content, keyStart);
-                if (keyEnd < 0) break;
-                string key = UnescapeJSON(content.Substring(keyStart, keyEnd - keyStart));
-                i = keyEnd + 1;
-
-                // skip colon + whitespace
-                while (i < content.Length && (content[i] == ':' || content[i] == ' ' || content[i] == '\t' || content[i] == '\n' || content[i] == '\r'))
-                    i++;
-
-                // read quoted value
-                if (i >= content.Length || content[i] != '"') break;
-                int valStart = i + 1;
-                int valEnd = FindQuoteEnd(content, valStart);
-                if (valEnd < 0) break;
-                string val = UnescapeJSON(content.Substring(valStart, valEnd - valStart));
-                i = valEnd + 1;
-
-                if (!string.IsNullOrEmpty(key) && !string.IsNullOrEmpty(val))
-                {
-                    _translations[key] = val;
-                }
-            }
-        }
-
-        private static int FindQuoteEnd(string s, int start)
-        {
-            int i = start;
-            while (i < s.Length)
-            {
-                if (s[i] == '\\') i += 2;
-                else if (s[i] == '"') return i;
-                else i++;
-            }
-            return -1;
-        }
-
-        private static string UnescapeJSON(string s)
-        {
-            return s.Replace("\\\"", "\"").Replace("\\\\", "\\");
+            return _allKeys != null && _allKeys.Contains(key);
         }
     }
 }
