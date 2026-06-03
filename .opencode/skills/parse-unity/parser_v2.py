@@ -18,6 +18,10 @@ Flags:
 
 import struct
 import json
+
+# Runtime NDJSON format: no spaces after commas (TranslationLoader expects ["key","val"])
+def _j(obj):
+    return json.dumps(obj, ensure_ascii=False, separators=(',', ':'))
 import sys
 import os
 import re
@@ -978,34 +982,19 @@ def format_dialogue_ndjson(pairs: List[Dict], full: bool = False,
     """
     Format dialogue pairs as NDJSON.
 
-    Basic:    [seq_index, "Speaker", "clean_text"]
-    Full:     [seq_index, "Speaker", "clean_text", "rich_text", offset, "color"]
-    Target:   ["Speaker", "clean_text", ""]  (for batch translator: speaker, eng, rus)
+    Basic:    [seq_index,"Speaker","clean_text"]
+    Full:     [seq_index,"Speaker","clean_text","rich_text",offset,"color"]
+    Target:   ["clean_text","","Speaker"]  (for runtime: eng, rus, speaker)
     """
-    import json as _json
     lines = []
     for idx, p in enumerate(pairs):
         if target_format:
-            entry = _json.dumps([
-                p['speaker'],
-                p['clean'],
-                '',
-            ], ensure_ascii=False)
+            entry = _j([p['clean'], '', p['speaker']])
         elif full:
-            entry = _json.dumps([
-                idx,
-                p['speaker'],
-                p['clean'],
-                p['text'],
-                p['offset'],
-                p.get('speaker_color', ''),
-            ], ensure_ascii=False)
+            entry = _j([idx, p['speaker'], p['clean'], p['text'],
+                        p['offset'], p.get('speaker_color', '')])
         else:
-            entry = _json.dumps([
-                idx,
-                p['speaker'],
-                p['clean'],
-            ], ensure_ascii=False)
+            entry = _j([idx, p['speaker'], p['clean']])
         lines.append(entry)
     return '\n'.join(lines) + '\n'
 
@@ -1297,6 +1286,8 @@ Examples:
                         help='Extract Speaker/Text dialogue pairs (structured)')
     parser.add_argument('--texts', action='store_true',
                         help='Extract UI/system texts (deduplicated)')
+    parser.add_argument('--characters', action='store_true',
+                        help='Extract unique speaker names to characters.ndjson')
     parser.add_argument('--verbose', action='store_true', help='Verbose output')
 
     args = parser.parse_args()
@@ -1410,12 +1401,67 @@ Examples:
 
         # ---- 5. Write ui.ndjson ----
         sorted_ui = sorted(ui_display, key=lambda x: (-len(x), x))
-        ui_lines = [_json.dumps([s, ''], ensure_ascii=False) for s in sorted_ui]
+        ui_lines = [_j([s, '']) for s in sorted_ui]
         ui_path = texts_dir / 'ui.ndjson'
         ui_path.write_text('\n'.join(ui_lines) + '\n', encoding='utf-8')
         print(f"UI texts: {len(ui_lines)} unique strings -> {ui_path}", file=sys.stderr)
         for line in ui_lines[:20]:
             print(f'  {line}', file=sys.stderr)
+        return
+
+    # Characters mode: extract unique speaker names
+    if args.characters:
+        fp = DATA_DIR / 'resources.assets'
+        if not fp.exists():
+            print(f"ERROR: resources.assets not found", file=sys.stderr)
+            sys.exit(1)
+        result = parse_dialogue_file(fp, options)
+        pairs = result['pairs']
+
+        from collections import Counter
+        sp_counts = Counter(p['speaker'] for p in pairs)
+
+        # Gender hints for known characters
+        GENDER_HINTS = {
+            'Zoey': 'ж',
+            'Sarah': 'ж',
+            'Woman': 'ж',
+            'Klaudia': 'ж',
+            'Leona': 'ж',
+            'Rosie': 'ж',
+            'Skank': 'ж',
+            'Nova': 'ж',
+            'Salon Clerk': 'ж',
+            '???': '',
+            'Man': 'м',
+            'Max': 'м',
+            'Lio': 'м',
+            'Klark': 'м',
+            'Customer': '',
+            'Jay': 'м',
+            'Cartel Guy': 'м',
+            'Jaime': 'м',
+            'The Boss': '',
+            'Enforcer 1483': 'м',
+            'Enforcer 1520': 'м',
+            'Hooligan': 'м',
+            'Intercom': '—',
+            '(narration)': '—',
+        }
+
+        entries = []
+        for sp, cnt in sp_counts.most_common():
+            gender = GENDER_HINTS.get(sp, '')
+            entries.append(_j([sp, '', gender]))
+
+        chars_dir = GAME_DIR / 'translations'
+        chars_dir.mkdir(parents=True, exist_ok=True)
+        chars_path = chars_dir / 'characters.ndjson'
+        chars_path.write_text('\n'.join(entries) + '\n', encoding='utf-8')
+
+        print(f"Characters: {len(entries)} unique speakers -> {chars_path}", file=sys.stderr)
+        for e in entries:
+            print(f'  {e}', file=sys.stderr)
         return
 
     # Determine file list

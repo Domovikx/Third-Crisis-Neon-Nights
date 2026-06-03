@@ -2,7 +2,7 @@ import os, sys, subprocess
 from pathlib import Path
 
 SKILL_DIR = Path(__file__).parent
-GAME_DIR = SKILL_DIR.parent.parent
+GAME_DIR = SKILL_DIR.parent.parent.parent
 CSC = r'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe'
 
 passed = 0

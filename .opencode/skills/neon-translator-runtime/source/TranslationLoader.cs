@@ -40,12 +40,26 @@ namespace NeonTranslator
                             if (string.IsNullOrEmpty(line)) continue;
                             if (!line.StartsWith("[") || !line.EndsWith("]")) continue;
 
-                            // Parse: ["key","val"] — find first "," delimiter inside quotes
-                            int commaIdx = line.IndexOf("\",\"");
-                            if (commaIdx < 0) continue;
+                            // Parse: ["key","val"] or ["key","val","..."]
+                            // Find first "," => key, find second "," => val
+                            int firstComma = line.IndexOf("\",\"");
+                            if (firstComma < 0) continue;
 
-                            string key = line.Substring(2, commaIdx - 2); // skip [" 
-                            string val = line.Substring(commaIdx + 3, line.Length - commaIdx - 5); // skip "," and trailing "]
+                            string key = line.Substring(2, firstComma - 2); // skip ["
+
+                            // Check if there's a third element: look for next ","
+                            int secondComma = line.IndexOf("\",\"", firstComma + 1);
+                            string val;
+                            if (secondComma < 0)
+                            {
+                                // 2-element: ["key","val"]
+                                val = line.Substring(firstComma + 3, line.Length - firstComma - 5);
+                            }
+                            else
+                            {
+                                // 3+ element: ["key","val","..."] — val is between first and second comma
+                                val = line.Substring(firstComma + 3, secondComma - firstComma - 3);
+                            }
 
                             if (!string.IsNullOrEmpty(key))
                             {

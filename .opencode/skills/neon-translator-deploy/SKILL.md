@@ -44,7 +44,7 @@ cat "Third Crisis Neon Nights_Data/Managed/NeonTranslator.log"
 ```
 translations/
   dialogs/
-    dialogue.ndjson  — ["speaker", "eng", "rus"]
+    dialogue.ndjson  — ["eng", "rus", "speaker"]
   texts/
     ui.ndjson        — ["eng", "rus"]
 ```

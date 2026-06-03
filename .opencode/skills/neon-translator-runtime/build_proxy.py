@@ -1,7 +1,7 @@
 import os, sys, subprocess, shutil
 from pathlib import Path
 
-GAME_DIR = Path(__file__).parent.parent.parent
+GAME_DIR = Path(__file__).parent.parent.parent.parent
 MSVC_TOOLS = r'C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717'
 CL = Path(MSVC_TOOLS) / 'bin/Hostx64/x64/cl.exe'
 SDK = r'C:/Program Files (x86)/Windows Kits/10'
