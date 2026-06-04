@@ -1,3 +1,7 @@
+# DEPRECATED — используйте extractor.py вместо этого файла.
+# extractor.py читает dump_assets/ и пишет translations/*.yaml
+# (чище, быстрее, без мусора).
+
 #!/usr/bin/env python3
 """
 parser.py — Unity binary parser

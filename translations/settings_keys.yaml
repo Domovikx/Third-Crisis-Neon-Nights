@@ -1,0 +1,57 @@
+# Settings keys: [key, translation]
+
+- { key: "Controls", translation: "" }
+- { key: "Game", translation: "" }
+- { key: "Video", translation: "" }
+- { key: "Texture Quality", translation: "" }
+- { key: "High", translation: "" }
+- { key: "Medium", translation: "" }
+- { key: "Low", translation: "" }
+- { key: "Language (Machine Translation)", translation: "" }
+- { key: "Dialogue Autoplay", translation: "" }
+- { key: "Off", translation: "" }
+- { key: "Slow", translation: "" }
+- { key: "Normal", translation: "" }
+- { key: "Fast", translation: "" }
+- { key: "Grass Detail", translation: "" }
+- { key: "Deactivated", translation: "" }
+- { key: "Ultra", translation: "" }
+- { key: "FPS Limit", translation: "" }
+- { key: "Resolution", translation: "" }
+- { key: "Dynamic Lighting", translation: "" }
+- { key: "Enable VSync", translation: "" }
+- { key: "Show FPS", translation: "" }
+- { key: "Show Advanced Performance Stats", translation: "" }
+- { key: "Show Object Outlines", translation: "" }
+- { key: "Enable console (~)", translation: "" }
+- { key: "Always Sprint", translation: "" }
+- { key: "Use Virtual Joystick", translation: "" }
+- { key: "Virtual Joystick Size", translation: "" }
+- { key: "Use Joystick Axis Input", translation: "" }
+- { key: "Show Hints", translation: "" }
+- { key: "Enable Multiple Autosaves", translation: "" }
+- { key: "Fullscreen", translation: "" }
+- { key: "Toggle Player Sprite", translation: "" }
+- { key: "Enable Cockblock Cat", translation: "" }
+- { key: "Enable Skip Mode", translation: "" }
+- { key: "Sound", translation: "" }
+- { key: "Music Volume", translation: "" }
+- { key: "Effects Volume", translation: "" }
+- { key: "Mouse Sensitivity", translation: "" }
+- { key: "Lewder Shooter", translation: "" }
+- { key: "Movement Speed", translation: "" }
+- { key: "Open Data Privacy Page", translation: "" }
+- { key: "Toys", translation: "" }
+- { key: "Lovense: Enabled", translation: "" }
+- { key: "Lovense: Local IP", translation: "" }
+- { key: "Lovense: Port", translation: "" }
+- { key: "Lovense: Use HTTP", translation: "" }
+- { key: "Lovense: How to Setup", translation: "" }
+- { key: "Buy a Lovense Toy Here", translation: "" }
+- { key: "Vibrate in Dialogue", translation: "" }
+- { key: "Vibrate in Interface", translation: "" }
+- { key: "Lovense Native: How to Setup", translation: "" }
+- { key: "Search for Devices", translation: "" }
+- { key: "Seasonal Events", translation: "" }
+- { key: "Enable Multiplayer", translation: "" }
+- { key: "Controllers", translation: "" }

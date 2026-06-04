@@ -7,69 +7,61 @@ description: Извлечение диалогов, UI-текста и имён 
 
 ## Описание
 
-`parser.py` — Python-парсер Unity serialized format (версия 22, Unity 2022+).
-Читает напрямую сериализованные Unity-объекты. Три режима:
-
-### `--dialogue` — извлечение диалогов
-
-Читает массив `DialogueHistory` из `resources.assets`:
-Speaker + Text + color. 1544 записи, 24 спикера.
+**`extractor.py`** — читает JSON-дампы из `dump_assets/` и собирает 3 YAML-файла.
+Никакого парсинга бинарников — работает через данные, уже извлечённые `dump_assets.py`.
 
 ```bash
-python .opencode/skills/extract-text/parser.py --dialogue
-```
-→ `translations/dialogs/dialogue.ndjson` — `["eng", "", "speaker"]`
+# 1. Свежий дамп ассетов
+python .opencode/skills/dump-assets/dump_assets.py
 
-### `--texts` — извлечение UI
-
-Читает TMP_Text компоненты, Settings-ключи, названия сцен
-из всех level и .bundle файлов. 102 UI строки.
-
-```bash
-python .opencode/skills/extract-text/parser.py --texts
-```
-→ `translations/texts/ui.ndjson` — `["eng", ""]`
-
-### `--characters` — извлечение персонажей
-
-Извлекает уникальные имена спикеров из DialogueHistory.
-
-```bash
-python .opencode/skills/extract-text/parser.py --characters
-```
-→ `translations/characters.ndjson` — `["eng", "", "gender"]`
-
-### Полный скан (без флагов)
-
-Сканирует все файлы игры для исследовательских целей (raw ASCII-поиск):
-
-```bash
-python .opencode/skills/extract-text/parser.py ./output/
+# 2. Извлечение переводов
+python .opencode/skills/extract-text/extractor.py
 ```
 
-## Формат NDJSON
+## Выходные файлы
 
-**Диалоги:**
-```ndjson
-["I don't know... I murmur, fidgeting.","","Zoey"]
+### `translations/dialogues.yaml`
+```yaml
+# Dialogues: [text, speaker]
+
+- {text: "Hello there!", speaker: "Zoey"}
+- {text: "Hi Zoey!", speaker: "Sarah"}
 ```
 
-**UI:**
-```ndjson
-["Resolution Scaling",""]
+### `translations/speakers.yaml`
+```yaml
+# Speakers: [name, gender]
+
+- {name: "Zoey", gender: ""}
+- {name: "Sarah", gender: ""}
 ```
 
-**Персонажи:**
-```ndjson
-["Zoey","","ж"]
+### `translations/global_strings.yaml`
+```yaml
+# Global strings (UI): [key]
+
+- {key: "Fullscreen"}
+- {key: "Music Volume"}
 ```
 
-Пустой `""` → не переведено.
+## Источники данных
+
+- **dialogues** — из `"dialogues"` поля MonoBehaviour объектов в чанках (автопоиск, 1544 записи)
+- **speakers** — уникальные спикеры из dialogues (23, без пустых/Narration)
+- **global_strings** — только `settings_keys.display` из summary JSON (55 UI-строк, реальный display-текст из бинарника)
+
+Формат YAML позволяет писать комментарии `#` прямо в файлах переводов.
+
+## DEPRECATED: parser.py
+
+Старый `parser.py` — не использовать. Он сканировал бинарники напрямую с шумными эвристиками,
+генерировал мусорные all-caps строки и непредсказуемые display-имена.
+Вместо него — `extractor.py` + `dump_assets.py`.
 
 ## Тесты
 
 ```bash
-python .opencode/skills/extract-text/parser.test.py
+python .opencode/skills/extract-text/extractor.test.py
 ```
 
-43 теста: заголовок, metadata, stringPool, aligned strings, диалоги, UI, персонажи.
+9 тестов: диалоги, спикеры, UI, YAML, пустой дамп, спецсимволы, дедупликация.
