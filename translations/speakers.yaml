@@ -1,25 +1,25 @@
 # Speakers: [name, translation, gender]
 
-- { name: "Zoey", translation: "", gender: "" }
-- { name: "Man", translation: "", gender: "" }
-- { name: "Klaudia", translation: "", gender: "" }
-- { name: "???", translation: "", gender: "" }
-- { name: "Jay", translation: "", gender: "" }
-- { name: "Cartel Guy", translation: "", gender: "" }
-- { name: "Sarah", translation: "", gender: "" }
-- { name: "Nova", translation: "", gender: "" }
-- { name: "Woman", translation: "", gender: "" }
-- { name: "Enforcer 1483", translation: "", gender: "" }
-- { name: "Salon Clerk", translation: "", gender: "" }
-- { name: "Enforcer 1520", translation: "", gender: "" }
-- { name: "Max", translation: "", gender: "" }
-- { name: "Lio", translation: "", gender: "" }
-- { name: "Jaime", translation: "", gender: "" }
-- { name: "Klark", translation: "", gender: "" }
-- { name: "Hooligan", translation: "", gender: "" }
-- { name: "The Boss", translation: "", gender: "" }
-- { name: "Skank", translation: "", gender: "" }
-- { name: "Intercom", translation: "", gender: "" }
-- { name: "Leona", translation: "", gender: "" }
-- { name: "Rosie", translation: "", gender: "" }
-- { name: "Customer", translation: "", gender: "" }
+- ["Zoey", "", ""]
+- ["Man", "", ""]
+- ["Klaudia", "", ""]
+- ["???", "", ""]
+- ["Jay", "", ""]
+- ["Cartel Guy", "", ""]
+- ["Sarah", "", ""]
+- ["Nova", "", ""]
+- ["Woman", "", ""]
+- ["Enforcer 1483", "", ""]
+- ["Salon Clerk", "", ""]
+- ["Enforcer 1520", "", ""]
+- ["Max", "", ""]
+- ["Lio", "", ""]
+- ["Jaime", "", ""]
+- ["Klark", "", ""]
+- ["Hooligan", "", ""]
+- ["The Boss", "", ""]
+- ["Skank", "", ""]
+- ["Intercom", "", ""]
+- ["Leona", "", ""]
+- ["Rosie", "", ""]
+- ["Customer", "", ""]
