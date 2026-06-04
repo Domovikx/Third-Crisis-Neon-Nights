@@ -22,7 +22,7 @@ from parser import (
     lz4_block_decode, decompress_lz4_blocks,
     parse_unity_header, parse_unityfs_header,
     parse_unity_file, parse_raw_file, parse_bundle_file,
-    format_ndjson,
+    format_ndjson, extract_json_string, _j,
 )
 
 # ============================================================
@@ -583,6 +583,86 @@ def test_score_url():
 
 
 # ============================================================
+# Tests: extract_json_string (UTF-8)
+# ============================================================
+
+def test_extract_json_ascii():
+    """Simple ASCII string."""
+    data = b'"Hello World"'
+    text, end = extract_json_string(data, 1)
+    assert text == "Hello World"
+    assert end == len(data)
+
+
+def test_extract_json_utf8_multibyte():
+    """UTF-8 multi-byte (e.g., smart quotes)."""
+    # U+2019 encoded as UTF-8: 0xE2 0x80 0x99
+    data = b'"You\xe2\x80\x99re here"'
+    text, end = extract_json_string(data, 1)
+    assert text == "You\u2019re here", f"Got {repr(text)}"
+
+
+def test_extract_json_unicode_escape():
+    """\\uXXXX escape sequences."""
+    data = b'"Hello \\u2019 World"'
+    text, end = extract_json_string(data, 1)
+    assert text == "Hello \u2019 World"
+
+
+def test_extract_json_unclosed():
+    """Unclosed string returns None."""
+    data = b'"Hello'
+    text, end = extract_json_string(data, 1)
+    assert text is None
+
+
+def test_extract_json_empty():
+    """Empty string."""
+    data = b'""'
+    text, end = extract_json_string(data, 1)
+    assert text == ""
+    assert end == len(data)
+
+
+# ============================================================
+# Tests: merge logic (preserve existing translations)
+# ============================================================
+
+def test_merge_dialogue_preserves_translations():
+    """Merge dialogue: existing keys keep their translations."""
+    existing = {"Hello": ("Привет", "Zoey"), "World": ("Мир", "Man")}
+    pairs = [
+        {'clean': 'Hello', 'speaker': 'Zoey'},
+        {'clean': 'World', 'speaker': 'Man'},
+        {'clean': 'New', 'speaker': 'Max'},
+    ]
+    merged = []
+    for p in pairs:
+        eng = p['clean']
+        sp = p['speaker']
+        if eng in existing:
+            translation, _ = existing[eng]
+            merged.append([eng, translation, sp])
+        else:
+            merged.append([eng, '', sp])
+
+    assert merged[0] == ["Hello", "Привет", "Zoey"]
+    assert merged[1] == ["World", "Мир", "Man"]
+    assert merged[2] == ["New", "", "Max"]
+
+
+def test_merge_ui_preserves_translations():
+    """Merge UI: existing keys keep their translations."""
+    existing = {"Fullscreen": "Полноэкранный", "Volume": "Громкость"}
+    ui_set = {"Fullscreen", "Volume", "Resolution"}
+    merged = [(s, existing.get(s, '')) for s in sorted(ui_set, key=lambda x: (-len(x), x))]
+    merged_dict = dict(merged)
+    assert merged_dict["Fullscreen"] == "Полноэкранный"
+    assert merged_dict["Volume"] == "Громкость"
+    assert merged_dict["Resolution"] == ""
+
+
+# ============================================================
 # Run all tests
 # ============================================================
 
@@ -632,6 +712,13 @@ if __name__ == '__main__':
         ("edge: long string", test_score_long_string),
         ("edge: control chars", test_score_control_chars),
         ("edge: URL", test_score_url),
+        ("json: ASCII", test_extract_json_ascii),
+        ("json: UTF-8 multibyte", test_extract_json_utf8_multibyte),
+        ("json: unicode escape", test_extract_json_unicode_escape),
+        ("json: unclosed", test_extract_json_unclosed),
+        ("json: empty", test_extract_json_empty),
+        ("merge: dialogue", test_merge_dialogue_preserves_translations),
+        ("merge: UI", test_merge_ui_preserves_translations),
     ]
 
     passed = 0

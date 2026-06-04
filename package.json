@@ -1,7 +1,7 @@
 {
   "name": "third-crisis-neon-nights-translation",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "private": true,
-  "description": "Русский перевод Third Crisis: Neon Nights — кастомный инструментарий локализации (Python parser, NDJSON, C# scan-and-replace runtime)",
+  "description": "Русский перевод Third Crisis: Neon Nights — Python парсер Unity binary, C# scan-and-replace runtime (BepInEx/Harmony), ndjson словари, build/deploy скрипты",
   "license": "MIT"
 }

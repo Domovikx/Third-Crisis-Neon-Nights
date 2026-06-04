@@ -9,28 +9,28 @@
 
 ## Извлечение текста
 
-parser.py — Python-парсер Unity serialized-файлов. Три режима:
+parser.py — Python-парсер Unity serialized-файлов. Три режима, все с **merge-логикой**: существующие переводы сохраняются, добавляются только новые ключи.
 
 ### `--dialogue`
-Извлекает структурированные диалоги (Speaker/Text) из ресурса DialogueHistory в `resources.assets`.
+Извлекает структурированные диалоги (Speaker/Text) из ресурса DialogueHistory в `resources.assets`. Читает существующий `dialogue.ndjson`, сохраняет переводы.
 ```
 python .opencode/skills/extract-text/parser.py --dialogue
 ```
-→ `translations/dialogs/dialogue.ndjson` — `["eng", "", "speaker"]` (1544 записи)
+→ `translations/dialogs/dialogue.ndjson` — `["eng", "rus", "speaker"]` (1544 записи)
 
 ### `--texts`
-Извлекает UI-строки (настройки, меню) и Settings-ключи.
+Извлекает UI-строки (настройки, меню) из Settings-ключей и all-caps строк. Читает существующий `ui.ndjson`, сохраняет переводы.
 ```
 python .opencode/skills/extract-text/parser.py --texts
 ```
-→ `translations/texts/ui.ndjson` — `["eng", ""]` (102 UI строки)
+→ `translations/texts/ui.ndjson` — `["eng", "rus"]`
 
 ### `--characters`
-Извлекает уникальные имена персонажей для перевода.
+Извлекает уникальные имена персонажей из `dialogue.ndjson` (3-й айтем). Читает существующий `characters.ndjson`, сохраняет переводы и гендер.
 ```
 python .opencode/skills/extract-text/parser.py --characters
 ```
-→ `translations/characters.ndjson` — `["eng", "", "gender"]` (24 персонажа)
+→ `translations/characters.ndjson` — `["eng", "rus", "gender"]`
 
 ### По умолчанию (без `--dialogue`/`--texts`)
 Полный скан всех файлов игры для исследовательских целей:
@@ -43,13 +43,13 @@ python .opencode/skills/extract-text/parser.py ./output/
 ```
 translations/
   dialogs/
-    dialogue.ndjson    — ["eng", "", "speaker"]     → диалоги
+    dialogue.ndjson    — ["eng", "rus", "speaker"]     → диалоги
   texts/
-    ui.ndjson          — ["eng", ""]                 → UI/меню
-  characters.ndjson    — ["eng", "", "gender"]       → персонажи
+    ui.ndjson          — ["eng", "rus"]                 → UI/меню
+  characters.ndjson    — ["eng", "rus", "gender"]       → персонажи
 ```
 
-Пустой `""` → не переведено.
+Пустой `""` → не переведено. При перезапуске парсера существующие переводы НЕ затираются.
 
 ## Сборка рантайма
 
@@ -76,7 +76,7 @@ python .opencode/skills/build-translator/build_proxy.py
 - `python .opencode/skills/extract-text/parser.py --texts` — UI + настройки
 - `python .opencode/skills/extract-text/parser.py --characters` — персонажи
 - `python .opencode/skills/extract-text/parser.py output/` — полный скан
-- `python .opencode/skills/extract-text/parser.test.py` — тесты парсера (43)
+- `python .opencode/skills/extract-text/parser.test.py` — тесты парсера (50)
 - `python .opencode/skills/build-translator/build.py` — сборка DLL
 - `python .opencode/skills/build-translator/build_proxy.py` — сборка прокси
 - `python .opencode/skills/build-translator/build.test.py` — тесты сборки

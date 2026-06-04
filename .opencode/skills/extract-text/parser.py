@@ -877,34 +877,36 @@ def parse_unityfs_header(data: bytes) -> Optional[Dict]:
 def extract_json_string(data: bytes, start: int) -> Tuple[Optional[str], int]:
     """Extract a JSON string from binary data starting after the opening quote."""
     i = start
-    chars = []
+    raw = bytearray()
     while i < len(data):
         b = data[i]
         if b == 0x22:  # double quote
-            return ''.join(chars), i + 1
+            text = raw.decode('utf-8', errors='replace')
+            return text, i + 1
         elif b == 0x5C:  # backslash
             if i + 1 < len(data):
                 nxt = data[i + 1]
                 if nxt in (0x22, 0x5C, 0x6E, 0x72, 0x74):  # ", \, n, r, t
-                    chars.append(chr(nxt))
+                    raw.append(nxt)
                     i += 2
                 elif nxt == 0x75:  # u (unicode escape)
                     if i + 5 < len(data):
                         try:
                             hex_str = data[i+2:i+6].decode('ascii')
-                            chars.append(chr(int(hex_str, 16)))
+                            codepoint = int(hex_str, 16)
+                            raw.extend(chr(codepoint).encode('utf-8'))
                             i += 6
-                        except:
+                        except Exception:
                             i += 2
                     else:
                         i += 2
                 else:
-                    chars.append(chr(nxt))
+                    raw.append(nxt)
                     i += 2
             else:
                 break
         else:
-            chars.append(chr(b))
+            raw.append(b)
             i += 1
     return None, i
 
@@ -1302,6 +1304,21 @@ Examples:
 
     # Dialogue mode: extract Speaker/Text pairs
     if args.dialogue:
+        # Read existing translations to preserve them
+        dialogs_dir = GAME_DIR / 'translations' / 'dialogs'
+        dialogs_dir.mkdir(parents=True, exist_ok=True)
+        out_path = dialogs_dir / 'dialogue.ndjson'
+        existing = {}
+        if out_path.exists():
+            for line in out_path.read_text(encoding='utf-8').strip().split('\n'):
+                try:
+                    entry = json.loads(line)
+                    if len(entry) >= 2 and entry[0]:
+                        existing[entry[0]] = (entry[1] if len(entry) > 1 else '', entry[2] if len(entry) > 2 else '')
+                except Exception:
+                    pass
+            print(f"Existing: {len(existing)} translated keys", file=sys.stderr)
+
         # Scan resources.assets for dialogue history
         fp = DATA_DIR / 'resources.assets'
         if not fp.exists():
@@ -1311,12 +1328,24 @@ Examples:
         pairs = result['pairs']
         print(f"Dialogue: {len(pairs)} Speaker/Text pairs", file=sys.stderr)
 
-        # Write dialogue NDJSON to translations/dialogs/
-        dialogs_dir = GAME_DIR / 'translations' / 'dialogs'
-        dialogs_dir.mkdir(parents=True, exist_ok=True)
-        out_path = dialogs_dir / 'dialogue.ndjson'
-        out_path.write_text(result['ndjson'], encoding='utf-8')
-        print(f"  -> {out_path}", file=sys.stderr)
+        # Merge: keep existing translations, add new with empty
+        merged = []
+        new_count = 0
+        kept_count = 0
+        for p in pairs:
+            eng = p['clean']
+            speaker = p['speaker']
+            if eng in existing:
+                translation, _ = existing[eng]
+                merged.append([eng, translation, speaker])
+                kept_count += 1
+            else:
+                merged.append([eng, '', speaker])
+                new_count += 1
+
+        lines = [_j(e) for e in merged]
+        out_path.write_text('\n'.join(lines) + '\n', encoding='utf-8')
+        print(f"  -> {out_path} ({kept_count} kept, {new_count} new)", file=sys.stderr)
 
         # Also write summary
         from collections import Counter
@@ -1372,90 +1401,103 @@ Examples:
                       and not s.endswith(('.', '!', '?'))
                       and not s.startswith(('-', '.', ','))}
 
-        # ---- 4. Add ANToolkit-specific UI patterns from resources ----
-        # Known Settings.X display texts (fallback for non-extractable)
-        known_display = {
-            'Fullscreen', 'Windowed', 'Resolution', 'VSync', 'Enable VSync',
-            'Quality', 'Low', 'Medium', 'High', 'Ultra', 'Extreme',
-            'Master Volume', 'Music Volume', 'Effects Volume',
-            'Language', 'Always Sprint',
-            'Dialogue Autoplay', 'Off', 'Normal', 'Fast', 'Slow',
-            'Controls Tab', 'Dynamic Lighting',
-            'Shadow Quality', 'Texture Quality', 'Bloom',
-            'Ambient Occlusion', 'Depth of Field', 'Motion Blur',
-            'Show Advanced Performance Stats',
-            'Save Slot', 'Auto Save', 'Quick Save',
-            'Save Game', 'Load Game', 'New Game', 'Continue',
-            'Options', 'Settings', 'Controls', 'Audio', 'Video', 'Graphics',
-            'Display', 'Gameplay', 'Exit', 'Quit', 'Volume',
-            'Back', 'Cancel', 'Confirm', 'Apply',
-            'Default', 'Reset', 'Restore Defaults',
-            'Delete', 'Save', 'Load',
-            'Anti-aliasing', 'Anisotropic Filtering',
-            'Xbox', 'PlayStation', 'Controller', 'Keyboard', 'Mouse',
-            'Key Bindings',
-            'Master/VA/VA Internal Monologue',
-        }
-        ui_display |= known_display
+        # ---- 4. Scan for all-caps menu/pause strings in resources.assets ----
+        # These are TMP_Text UI strings stored as null-terminated ASCII
+        try:
+            fp = DATA_DIR / 'resources.assets'
+            data = fp.read_bytes()
+            vowels = set('AEIOUY')
+            # Sequential alphabet patterns to reject (binary data noise)
+            import re as _re
+            seq_pattern = _re.compile(r'ABCD|BCDE|CDEF|DEFG|EFGH|FGHI|GHIJ|HIJK|IJKL|JKLM|KLMN|LMNO|MNOP|NOPQ|OPQR|PQRS|QRST|RSTU|STUV|TUVW|UVWX|VWXY|WXYZ|ZYXW|YXWV|XWVU|WVUT|VUTS|UTSR|TSRQ|SRQP|RQPO|QPON|PONM|ONML|NMLK|MLKJ|LKJI|KJIH|JIHG|IHGF|HGFE|GFED|FEDC|EDCB|DCBA')
+            for s in scan_null_terminated(data, 0, 2):
+                raw = s['raw']
+                if (len(raw) >= 5 and len(raw) <= 60
+                        and raw.isupper()
+                        and raw[0].isupper()
+                        and not any(c in raw for c in '<>/\\"\'_[]%&@$()*{}|~^')
+                        and raw.count(' ') >= 1
+                        and not seq_pattern.search(raw)
+                        and len(set(raw.replace(' ', ''))) >= 3
+                        and any(c in vowels for c in raw)
+                        and not any(w.isdigit() for w in raw.split())
+                        and not _re.search(r'(?<=\w)[!?](?!\s|$)', raw)
+                        and not _re.search(r'[A-Z]\d+[A-Z]', raw)
+                        and (sum(1 for c in raw if c.isalpha()) / max(len(raw.replace(' ', '')), 1)) >= 0.55):
+                    ui_display.add(raw)
+        except Exception:
+            pass
 
-        # ---- 5. Write ui.ndjson ----
-        sorted_ui = sorted(ui_display, key=lambda x: (-len(x), x))
-        ui_lines = [_j([s, '']) for s in sorted_ui]
+        # ---- 5. Merge with existing translations, then write ----
         ui_path = texts_dir / 'ui.ndjson'
+        existing_ui = {}
+        if ui_path.exists():
+            for line in ui_path.read_text(encoding='utf-8').strip().split('\n'):
+                try:
+                    entry = _json.loads(line)
+                    if len(entry) >= 2 and entry[0]:
+                        existing_ui[entry[0]] = entry[1] if len(entry) > 1 else ''
+                except Exception:
+                    pass
+
+        sorted_ui = sorted(ui_display, key=lambda x: (-len(x), x))
+        ui_lines = [_j([s, existing_ui.get(s, '')]) for s in sorted_ui]
         ui_path.write_text('\n'.join(ui_lines) + '\n', encoding='utf-8')
-        print(f"UI texts: {len(ui_lines)} unique strings -> {ui_path}", file=sys.stderr)
+        kept = sum(1 for s in sorted_ui if s in existing_ui and existing_ui[s])
+        new_k = len(sorted_ui) - len(existing_ui)
+        print(f"UI texts: {len(ui_lines)} unique strings -> {ui_path} ({kept} kept, {new_k} new)", file=sys.stderr)
         for line in ui_lines[:20]:
             print(f'  {line}', file=sys.stderr)
         return
 
     # Characters mode: extract unique speaker names
     if args.characters:
-        fp = DATA_DIR / 'resources.assets'
-        if not fp.exists():
-            print(f"ERROR: resources.assets not found", file=sys.stderr)
-            sys.exit(1)
-        result = parse_dialogue_file(fp, options)
-        pairs = result['pairs']
+        # Read speakers from dialogue.ndjson (3rd item), fallback to resources.assets
+        dialogs_path = GAME_DIR / 'translations' / 'dialogs' / 'dialogue.ndjson'
+        speakers = []
+        if dialogs_path.exists():
+            for line in dialogs_path.read_text(encoding='utf-8').strip().split('\n'):
+                try:
+                    entry = json.loads(line)
+                    if len(entry) >= 3 and entry[2]:
+                        speakers.append(entry[2])
+                except Exception:
+                    pass
+            if not speakers:
+                print("ERROR: dialogue.ndjson is empty", file=sys.stderr)
+                sys.exit(1)
+        else:
+            fp = DATA_DIR / 'resources.assets'
+            if not fp.exists():
+                print("ERROR: resources.assets not found", file=sys.stderr)
+                sys.exit(1)
+            from collections import Counter
+            result = parse_dialogue_file(fp, options)
+            pairs = result['pairs']
+            speakers = [p['speaker'] for p in pairs if p['speaker']]
 
         from collections import Counter
-        sp_counts = Counter(p['speaker'] for p in pairs)
+        sp_counts = Counter(s for s in speakers if s)
 
-        # Gender hints for known characters
-        GENDER_HINTS = {
-            'Zoey': 'ж',
-            'Sarah': 'ж',
-            'Woman': 'ж',
-            'Klaudia': 'ж',
-            'Leona': 'ж',
-            'Rosie': 'ж',
-            'Skank': 'ж',
-            'Nova': 'ж',
-            'Salon Clerk': 'ж',
-            '???': '',
-            'Man': 'м',
-            'Max': 'м',
-            'Lio': 'м',
-            'Klark': 'м',
-            'Customer': '',
-            'Jay': 'м',
-            'Cartel Guy': 'м',
-            'Jaime': 'м',
-            'The Boss': '',
-            'Enforcer 1483': 'м',
-            'Enforcer 1520': 'м',
-            'Hooligan': 'м',
-            'Intercom': '—',
-            '(narration)': '—',
-        }
+        # Load existing characters.ndjson to preserve translations and genders
+        chars_path = GAME_DIR / 'translations' / 'characters.ndjson'
+        existing = {}
+        if chars_path.exists():
+            for line in chars_path.read_text(encoding='utf-8').strip().split('\n'):
+                try:
+                    entry = json.loads(line)
+                    if len(entry) >= 3 and entry[0]:
+                        existing[entry[0]] = (entry[1] if len(entry) > 1 else '', entry[2] if len(entry) > 2 else '')
+                except Exception:
+                    pass
 
         entries = []
         for sp, cnt in sp_counts.most_common():
-            gender = GENDER_HINTS.get(sp, '')
-            entries.append(_j([sp, '', gender]))
+            translation, gender = existing.get(sp, ('', ''))
+            entries.append(_j([sp, translation, gender]))
 
         chars_dir = GAME_DIR / 'translations'
         chars_dir.mkdir(parents=True, exist_ok=True)
-        chars_path = chars_dir / 'characters.ndjson'
         chars_path.write_text('\n'.join(entries) + '\n', encoding='utf-8')
 
         print(f"Characters: {len(entries)} unique speakers -> {chars_path}", file=sys.stderr)
