@@ -258,6 +258,7 @@ namespace NeonTranslator
                         ? (_origTextField.GetValue(uiLoc) as string ?? "")
                         : GetText(textComp);
                     if (string.IsNullOrEmpty(orig)) continue;
+                    orig = orig.Trim();
 
                     // Cache original text for PopulateAllText fallback
                     _componentOriginalText[textComp] = orig;
@@ -385,11 +386,21 @@ namespace NeonTranslator
                         continue;
                     }
                 }
-                string lookup = StripRichTags(current);
+                string lookup = StripRichTags(current).Trim();
                 string translated;
                 if (_translations.TryGetValue(lookup, out translated) && translated != lookup)
                 {
-                    string result = current == lookup ? translated : ReplaceInRichText(current, lookup, translated);
+                    string result;
+                    if (current == lookup)
+                    {
+                        result = translated;
+                    }
+                    else
+                    {
+                        result = ReplaceInRichText(current, lookup, translated);
+                        if (result == current)
+                            result = translated;
+                    }
                     if (_logDetailCount < 30)
                     {
                         _logDetailCount++;

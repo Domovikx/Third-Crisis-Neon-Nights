@@ -56,6 +56,20 @@ def discover_asset_files() -> list:
     return files
 
 
+def discover_bundle_files() -> list:
+    """Find .bundle files in StreamingAssets/ recursively (AssetBundles)."""
+    sa_dir = DATA_DIR / 'StreamingAssets'
+    if not sa_dir.exists():
+        return []
+    files = []
+    for p in sorted(sa_dir.rglob('*.bundle')):
+        display = p.stem.replace('.bundle', '')
+        if len(display) > 60:
+            display = display[:60]
+        files.append((f'bundle_{display}', p))
+    return files
+
+
 # ============================================================
 # Raw string scanner (finds embedded text in object blobs)
 # ============================================================
@@ -481,6 +495,10 @@ def dump_assets(output_dir: str = None) -> str:
     out.mkdir(parents=True, exist_ok=True)
 
     files = discover_asset_files()
+    bundle_files = discover_bundle_files()
+    if bundle_files:
+        print(f"  Bundles: {len(bundle_files)} file(s) found", file=sys.stderr)
+    files.extend(bundle_files)
     print(f"Dump-Assets (UnityPy): {len(files)} file(s) found", file=sys.stderr)
 
     results = []

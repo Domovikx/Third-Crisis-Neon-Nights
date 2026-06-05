@@ -9,34 +9,38 @@
 
 ## Извлечение текста
 
-**`extractor.py`** — читает JSON-дампы из `dump_assets/` и собирает 3 YAML-файла в `translations/`.
+**`extractor.py`** — читает JSON-дампы из `dump_assets/` и собирает YAML-файлы в `translations/`.
 Никакого парсинга бинарников — работает через данные, уже извлечённые `dump_assets.py`.
 
 ```
 python .opencode/skills/extract-text/extractor.py
 ```
 
-→ `translations/dialogues.{path_id}.yaml` — `[text, translation, speaker]` (1793 записи, 4 источника)
-→ `translations/speakers.yaml` — `[name, translation, gender]` (23 спикера)
+→ `translations/dialogues.{path_id}.yaml` — `[text, translation, speaker]` (1503+93+97+100, ANToolkit JSON)
+→ `translations/dialogues.bundle.yaml` — `[text, translation, speaker]` (~992, PlayMaker FSM из .bundle)
+→ `translations/speakers.yaml` — `[name, translation, gender, notes]` (52 спикера)
 → `translations/settings_keys.yaml` — `[key, translation]` (55 UI-строк)
 
 ### Источники данных
 
-- **dialogues** — из `"dialogues"` поля MonoBehaviour в чанках (автопоиск по всем файлам)
-- **speakers** — уникальные спикеры из dialogues (пустые/Narration исключены)
+- **dialogues (path_id)** — из `"dialogues"` поля MonoBehaviour в чанках `.assets` (ANToolkit `Speaker/Text` JSON)
+- **dialogues.bundle** — из `raw_strings` MonoBehaviour с `line_X` маркерами в чанках `.bundle` (PlayMaker FSM)
+- **speakers** — уникальные спикеры из обоих источников (пустые/Narration исключены)
 - **global_strings** — только `settings_keys.display` из summary JSON (реальный display-текст из бинарника)
 
-Формат YAML позволяет писать комментарии `#` в файлах переводов.
+Формат YAML: `[key, translation, ...extra]`. Экстра колонки (speaker, gender, notes) игнорируются C#-рантаймом,
+но сохраняются через merge при перезапуске экстрактора.
 
 ### dump_assets
 
-Перед запуском экстрактора нужен актуальный дамп:
+Перед запуском экстрактора нужен актуальный дамп. Обрабатывает как `.assets`, так и `.bundle` файлы:
 
 ```
 python .opencode/skills/dump-assets/dump_assets.py
 ```
 
-→ `dump_assets/` — 34 summary + 105 chunk файлов (UnityPy-объекты + raw-скан)
+→ `dump_assets/` — summary + chunk файлы (UnityPy-объекты + raw-скан).
+Сканирует `Third Crisis Neon Nights_Data/` на `.assets` и рекурсивно `StreamingAssets/` на `.bundle`.
 
 ### REMOVED: parser.py
 
@@ -50,6 +54,7 @@ python .opencode/skills/dump-assets/dump_assets.py
 python .opencode/skills/build-translator/build.py
 python .opencode/skills/build-translator/build_proxy.py
 ```
+
 → `runtime/NeonTranslatorRuntime.dll`
 → `dwmapi.dll` (нативный прокси, корень игры)
 
@@ -57,7 +62,7 @@ python .opencode/skills/build-translator/build_proxy.py
 
 - `python .opencode/skills/extract-text/extractor.py` — извлечение переводов
 - `python .opencode/skills/extract-text/extractor.test.py` — тесты (14)
-- `python .opencode/skills/dump-assets/dump_assets.py` — дамп ассетов
+- `python .opencode/skills/dump-assets/dump_assets.py` — дамп ассетов (+ .bundle)
 - `python .opencode/skills/dump-assets/dump_assets.test.py` — тесты дампера (23)
 - `python .opencode/skills/build-translator/build.py` — сборка DLL
 - `python .opencode/skills/build-translator/build_proxy.py` — сборка прокси

@@ -53,9 +53,10 @@ def test_extract_speakers():
     with tempfile.TemporaryDirectory() as tmp:
         setup_test_dump(Path(tmp))
         ext.DUMP_DIR = Path(tmp) / "dump_assets"
-        s = ext.extract_speakers(ext.extract_dialogues(ext.find_chunks()))
+        by_pid = ext.extract_dialogues(ext.find_chunks())
+        s = ext.extract_speakers(by_pid)
         assert len(s) == 3
-        assert all(isinstance(x, list) and len(x) == 3 for x in s)
+        assert all(isinstance(x, list) and len(x) == 4 for x in s)
         names = {x[0] for x in s}
         assert names == {"Zoey", "Sarah", "Max"}
         print(f"  PASS: {len(s)} speakers")
@@ -177,13 +178,13 @@ def test_merge():
 
 
 def test_merge_speakers():
-    old = [["Zoey", "Зои", ""], ["Man", "Мужчина", "male"]]
-    fresh = [["Zoey", "", ""], ["Man", "", ""], ["Nova", "", ""]]
+    old = [["Zoey", "Зои", "", "Главная героиня"], ["Man", "Мужчина", "male", ""]]
+    fresh = [["Zoey", "", "", ""], ["Man", "", "", ""], ["Nova", "", "", ""]]
     merged = ext.merge(old, fresh, 0)
     assert len(merged) == 3
-    assert merged[0] == ["Zoey", "Зои", ""]
-    assert merged[1] == ["Man", "Мужчина", "male"]
-    assert merged[2] == ["Nova", "", ""]
+    assert merged[0] == ["Zoey", "Зои", "", "Главная героиня"]
+    assert merged[1] == ["Man", "Мужчина", "male", ""]
+    assert merged[2] == ["Nova", "", "", ""]
     print("  PASS: merge speakers")
 
 
@@ -248,20 +249,22 @@ def test_real_dump():
     assert (ext.OUT_DIR / "dialogues.73262.yaml").exists()
     assert (ext.OUT_DIR / "dialogues.73263.yaml").exists()
     assert (ext.OUT_DIR / "dialogues.73264.yaml").exists()
+    assert (ext.OUT_DIR / "dialogues.bundle.yaml").exists()
     assert (ext.OUT_DIR / "speakers.yaml").exists()
     assert (ext.OUT_DIR / "settings_keys.yaml").exists()
     # counts (no cross-dedup: each source counts separately)
     by_pid = ext.extract_dialogues(ext.find_chunks())
-    total = sum(len(v) for v in by_pid.values())
+    by_bundle = ext.extract_bundle_dialogues(ext.find_chunks())
+    total = sum(len(v) for v in by_pid.values()) + sum(len(v) for v in by_bundle.values())
     assert len(by_pid) == 4
-    assert total == 1793
+    assert len(by_bundle) == 97
     s = ext.extract_speakers(by_pid)
     assert len(s) == 23
     g = ext.extract_global_strings(ext.find_summaries())
     assert len(g) == 55
     # no combined file
     assert not (ext.OUT_DIR / "dialogues.yaml").exists()
-    print(f"  PASS: {total} dialogues across {len(by_pid)} sources, "
+    print(f"  PASS: {total} dialogues across {len(by_pid)} .assets + {len(by_bundle)} bundles, "
           f"{len(s)} speakers, {len(g)} keys")
     shutil.rmtree(tmp)
 

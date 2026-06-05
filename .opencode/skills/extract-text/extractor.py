@@ -6,13 +6,15 @@ extractor.py — Извлекает диалоги, UI-строки и имен�
 Работает через dump_assets/ — не сканирует бинарники напрямую.
 
 Файлы на выходе (в translations/):
-  - dialogues.{path_id}.yaml:  диалоги по источнику  [text, translation, speaker]
-  - speakers.yaml:             персонажи             [name, translation, gender]
-  - settings_keys.yaml:        UI-строки             [key, translation]
+  - dialogues.{path_id}.yaml:  диалоги из .assets (ANToolkit JSON)  [text, translation, speaker]
+  - dialogues.bundle.yaml:     диалоги из .bundle (PlayMaker FSM)   [text, translation, speaker]
+  - speakers.yaml:             персонажи                           [name, translation, gender]
+  - settings_keys.yaml:        UI-строки                           [key, translation]
 """
 
 import sys
 import json
+import re
 import yaml
 from pathlib import Path
 from collections import OrderedDict
@@ -62,6 +64,108 @@ def extract_dialogues(chunk_files: list) -> dict:
     return by_pid
 
 
+SKIP_RAW_PREFIXES = (
+    'line_', 'expressions/', 'separatedexpressions/', 'Poses/',
+    'expressionadditive/', 'p>xo', 'Other Dialogue Presets',
+    'Zoey Dialogue Presets', '_Preset', 'Dialogue Presets',
+    'Char_', 'Apl_',
+)
+
+KNOWN_NON_SPEAKERS = {
+    'GlowingHole', 'GlowingHoleKeys/', 'Narrator', 'Confirm',
+    'Other Dialogue Presets', 'Zoey Dialogue Presets', 'Simon',
+}
+
+_RICH_TAG_RX = re.compile(r'<[^>]+>')
+
+
+def _is_skip_prefix(s: str) -> bool:
+    return any(s.startswith(p) for p in SKIP_RAW_PREFIXES)
+
+
+def _strip_rich(s: str) -> str:
+    return _RICH_TAG_RX.sub('', s).strip()
+
+
+def extract_bundle_dialogues(chunk_files: list) -> dict:
+    """Extract dialogue texts from bundle PlayMaker FSM raw_strings.
+    Returns dict: bundle_name -> [[text, translation, speaker], ...]
+    """
+    by_bundle = {}
+    seen_entries = set()
+
+    for fp in chunk_files:
+        try:
+            data = json.loads(fp.read_text("utf-8"))
+        except Exception:
+            continue
+
+        asset_name = data.get("asset", "")
+        if not asset_name.startswith("bundle_"):
+            continue
+
+        if asset_name not in by_bundle:
+            by_bundle[asset_name] = []
+
+        for obj in data.get("objects", []):
+            rs = obj.get("raw_strings", [])
+            if not rs:
+                continue
+
+            # FSM dialogue objects have line_X markers
+            has_line = any(s.startswith("line_") for s in rs)
+            if not has_line:
+                continue
+
+            obj_name = obj.get("strings", {}).get("m_Name", "")
+
+            i = 0
+            while i < len(rs):
+                s = rs[i].strip()
+
+                # Skip metadata
+                if _is_skip_prefix(s) or s == obj_name:
+                    i += 1
+                    continue
+
+                # Skip non-dialogue strings (short, no spaces, all-caps identifiers)
+                if len(s) <= 3 or ' ' not in s:
+                    i += 1
+                    continue
+
+                # Skip JSON blobs
+                if s.startswith('{') or s.startswith('['):
+                    i += 1
+                    continue
+
+                # Looks like dialogue text
+                clean = _strip_rich(s)
+                if not clean or len(clean) < 4:
+                    i += 1
+                    continue
+
+                speaker = ""
+                # Next string may be the speaker
+                if i + 1 < len(rs):
+                    ns = rs[i + 1].strip()
+                    # Speaker: short, alphabetic, capitalized, not an expression
+                    if (ns and not _is_skip_prefix(ns) and not ns.startswith('line_')
+                            and ns != obj_name and ' ' not in ns
+                            and ns[0].isupper() and ns.isalpha()
+                            and ns not in KNOWN_NON_SPEAKERS):
+                        speaker = ns
+                        i += 1  # consume speaker
+
+                entry_key = (clean, speaker)
+                if entry_key not in seen_entries:
+                    seen_entries.add(entry_key)
+                    by_bundle[asset_name].append([clean, "", speaker])
+
+                i += 1
+
+    return by_bundle
+
+
 def extract_speakers(by_pid: dict) -> list:
     seen = OrderedDict()
     for entries in by_pid.values():
@@ -69,7 +173,7 @@ def extract_speakers(by_pid: dict) -> list:
             sp = d[2] if len(d) > 2 else ""
             if sp and sp not in seen:
                 seen[sp] = True
-    return [[sp, "", ""] for sp in seen]
+    return [[sp, "", "", ""] for sp in seen]
 
 
 def extract_global_strings(summary_files: list) -> list:
@@ -157,6 +261,8 @@ def extract():
     print(f"  chunks: {len(chunks)}, summaries: {len(summaries)}", file=sys.stderr)
 
     by_pid = extract_dialogues(chunks)
+    by_bundle = extract_bundle_dialogues(chunks)
+
     total = 0
     for pid in sorted(by_pid):
         fpath = OUT_DIR / f"dialogues.{pid}.yaml"
@@ -169,18 +275,49 @@ def extract():
             header=f"Dialogues (path_id={pid}): [text, translation, speaker]",
         )
 
+    bundle_entries = []
+    seen_bundle = set()
+    for entries in by_bundle.values():
+        for e in entries:
+            k = (e[0], e[2])
+            if k not in seen_bundle:
+                seen_bundle.add(k)
+                bundle_entries.append(e)
+    if bundle_entries:
+        fpath = OUT_DIR / "dialogues.bundle.yaml"
+        bundle_entries = merge(read_yaml(fpath), bundle_entries, 0, 2)
+        total += len(bundle_entries)
+        write_yaml(
+            fpath,
+            bundle_entries,
+            header="Dialogues (bundle/FSM): [text, translation, speaker]",
+        )
+
+    all_speakers = OrderedDict()
+    for entries in by_pid.values():
+        for d in entries:
+            sp = d[2] if len(d) > 2 else ""
+            if sp and sp not in all_speakers:
+                all_speakers[sp] = True
+    for entries in by_bundle.values():
+        for d in entries:
+            sp = d[2] if len(d) > 2 else ""
+            if sp and sp not in all_speakers:
+                all_speakers[sp] = True
+
     fpath = OUT_DIR / "speakers.yaml"
-    speakers = extract_speakers(by_pid)
-    speakers = merge(read_yaml(fpath), speakers, 0)
-    write_yaml(fpath, speakers, header="Speakers: [name, translation, gender]")
+    speakers_list = [[sp, "", "", ""] for sp in all_speakers]  # [name, translation, gender, notes]
+    speakers_list = merge(read_yaml(fpath), speakers_list, 0)
+    write_yaml(fpath, speakers_list, header="Speakers: [name, translation, gender, notes]")
 
     fpath = OUT_DIR / "settings_keys.yaml"
     settings_keys = extract_global_strings(summaries)
     settings_keys = merge(read_yaml(fpath), settings_keys, 0)
     write_yaml(fpath, settings_keys, header="Settings keys: [key, translation]")
 
-    print(f"\nDone: {total} dialogues across {len(by_pid)} sources, "
-          f"{len(speakers)} speakers, {len(settings_keys)} settings keys",
+    print(f"\nDone: {total} dialogues across "
+          f"{len(by_pid)} .assets sources + {len(by_bundle)} bundles, "
+          f"{len(speakers_list)} speakers, {len(settings_keys)} settings keys",
           file=sys.stderr)
 
 
