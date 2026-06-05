@@ -55,8 +55,8 @@ def main():
 
     print()
     print('5. TranslationLoader unit test')
-    test_file = SKILL_DIR / 'test_data' / 'test.ndjson'
-    assert_eq(test_file.exists(), 'test.ndjson exists')
+    test_file = SKILL_DIR / 'test_data' / 'test.yaml'
+    assert_eq(test_file.exists(), 'test.yaml exists')
     if test_file.exists():
         test_content = test_file.read_text(encoding='utf-8')
         assert_eq('Resolution Scaling' in test_content, 'test data present')

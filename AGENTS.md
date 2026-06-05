@@ -16,7 +16,7 @@
 python .opencode/skills/extract-text/extractor.py
 ```
 
-→ `translations/dialogues.yaml` — `[text, translation, speaker]` (1544 записи)
+→ `translations/dialogues.{path_id}.yaml` — `[text, translation, speaker]` (1793 записи, 4 источника)
 → `translations/speakers.yaml` — `[name, translation, gender]` (23 спикера)
 → `translations/settings_keys.yaml` — `[key, translation]` (55 UI-строк)
 
@@ -38,11 +38,11 @@ python .opencode/skills/dump-assets/dump_assets.py
 
 → `dump_assets/` — 34 summary + 105 chunk файлов (UnityPy-объекты + raw-скан)
 
-### DEPRECATED: parser.py
+### REMOVED: parser.py
 
-Старый `parser.py` — не использовать. Он сканировал бинарники напрямую с шумными эвристиками,
+Удалён. Вместо него — `extractor.py` + `dump_assets.py`.
+Старый `parser.py` сканировал бинарники напрямую с шумными эвристиками,
 генерировал мусорные all-caps строки и непредсказуемые display-имена.
-Вместо него — `extractor.py` + `dump_assets.py`.
 
 ## Сборка рантайма
 
@@ -56,11 +56,12 @@ python .opencode/skills/build-translator/build_proxy.py
 ## Команды
 
 - `python .opencode/skills/extract-text/extractor.py` — извлечение переводов
-- `python .opencode/skills/extract-text/extractor.test.py` — тесты (9)
+- `python .opencode/skills/extract-text/extractor.test.py` — тесты (14)
 - `python .opencode/skills/dump-assets/dump_assets.py` — дамп ассетов
+- `python .opencode/skills/dump-assets/dump_assets.test.py` — тесты дампера (23)
 - `python .opencode/skills/build-translator/build.py` — сборка DLL
 - `python .opencode/skills/build-translator/build_proxy.py` — сборка прокси
-- `python .opencode/skills/build-translator/build.test.py` — тесты сборки
+- `python .opencode/skills/build-translator/build.test.py` — тесты сборки (19)
 
 ## Важные пути
 

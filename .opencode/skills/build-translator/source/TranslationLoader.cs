@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 
 namespace NeonTranslator
 {
@@ -21,55 +22,17 @@ namespace NeonTranslator
                 _allKeys = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 
                 if (!Directory.Exists(dirPath))
-                {
                     return _translations;
-                }
 
-                // Recursively find all *.ndjson files
-                string[] files = Directory.GetFiles(dirPath, "*.ndjson", SearchOption.AllDirectories);
-                Array.Sort(files); // alphabetical — later files override earlier ones
+                // Recursively find all *.yaml files
+                string[] files = Directory.GetFiles(dirPath, "*.yaml", SearchOption.AllDirectories);
+                Array.Sort(files);
 
                 foreach (string filePath in files)
                 {
                     try
                     {
-                        string[] lines = File.ReadAllLines(filePath);
-                        foreach (string rawLine in lines)
-                        {
-                            string line = rawLine.Trim();
-                            if (string.IsNullOrEmpty(line)) continue;
-                            if (!line.StartsWith("[") || !line.EndsWith("]")) continue;
-
-                            // Parse: ["key","val"] or ["key","val","..."]
-                            // Find first "," => key, find second "," => val
-                            int firstComma = line.IndexOf("\",\"");
-                            if (firstComma < 0) continue;
-
-                            string key = line.Substring(2, firstComma - 2); // skip ["
-
-                            // Check if there's a third element: look for next ","
-                            int secondComma = line.IndexOf("\",\"", firstComma + 1);
-                            string val;
-                            if (secondComma < 0)
-                            {
-                                // 2-element: ["key","val"]
-                                val = line.Substring(firstComma + 3, line.Length - firstComma - 5);
-                            }
-                            else
-                            {
-                                // 3+ element: ["key","val","..."] — val is between first and second comma
-                                val = line.Substring(firstComma + 3, secondComma - firstComma - 3);
-                            }
-
-                            if (!string.IsNullOrEmpty(key))
-                            {
-                                _allKeys.Add(key);
-                                if (!string.IsNullOrEmpty(val))
-                                {
-                                    _translations[key] = val;
-                                }
-                            }
-                        }
+                        ParseYamlFile(filePath);
                     }
                     catch
                     {
@@ -78,6 +41,121 @@ namespace NeonTranslator
                 }
 
                 return _translations;
+            }
+        }
+
+        private static void ParseYamlFile(string filePath)
+        {
+            string[] lines = File.ReadAllLines(filePath);
+            var entryLines = new List<string>();
+            bool inEntry = false;
+
+            foreach (string rawLine in lines)
+            {
+                string line = rawLine.Trim();
+
+                // Skip comments and blank lines
+                if (line.Length == 0 || line[0] == '#')
+                {
+                    if (inEntry)
+                    {
+                        // This shouldn't happen in valid YAML, but handle gracefully
+                        ProcessEntry(entryLines);
+                        entryLines.Clear();
+                        inEntry = false;
+                    }
+                    continue;
+                }
+
+                // Detect start of a list entry: "- ["
+                if (!inEntry && line.StartsWith("- ["))
+                {
+                    inEntry = true;
+                    entryLines.Clear();
+                    entryLines.Add(line);
+                    if (line.EndsWith("]"))
+                    {
+                        ProcessEntry(entryLines);
+                        entryLines.Clear();
+                        inEntry = false;
+                    }
+                    continue;
+                }
+
+                // Accumulate multi-line entries
+                if (inEntry)
+                {
+                    entryLines.Add(line);
+                    if (line.Contains("]"))
+                    {
+                        ProcessEntry(entryLines);
+                        entryLines.Clear();
+                        inEntry = false;
+                    }
+                }
+            }
+        }
+
+        private static void ProcessEntry(List<string> entryLines)
+        {
+            // Join accumulated lines into one string
+            StringBuilder sb = new StringBuilder();
+            foreach (string l in entryLines)
+            {
+                sb.Append(l.Trim());
+            }
+            string combined = sb.ToString();
+
+            // Remove "- [" prefix and "]" suffix
+            int start = combined.IndexOf('[');
+            int end = combined.LastIndexOf(']');
+            if (start < 0 || end < 0 || end <= start)
+                return;
+
+            string inner = combined.Substring(start + 1, end - start - 1);
+
+            // Parse quoted values: split on "," but respect escaping
+            var values = new List<string>();
+            int i = 0;
+            while (i < inner.Length)
+            {
+                // Find opening quote
+                int qi = inner.IndexOf('"', i);
+                if (qi < 0) break;
+
+                // Find closing quote (skip escaped \")
+                int qj = qi + 1;
+                while (qj < inner.Length)
+                {
+                    if (inner[qj] == '\\')
+                    {
+                        qj += 2; // skip escaped char
+                        continue;
+                    }
+                    if (inner[qj] == '"')
+                        break;
+                    qj++;
+                }
+                if (qj >= inner.Length) break;
+
+                // Extract value between quotes
+                string val = inner.Substring(qi + 1, qj - qi - 1);
+                val = val.Replace("\\\"", "\"").Replace("\\\\", "\\");
+                values.Add(val);
+
+                i = qj + 1;
+            }
+
+            if (values.Count < 2) return;
+            if (string.IsNullOrEmpty(values[0])) return;
+
+            string key = values[0];
+            string translation = values[1];
+
+            _allKeys.Add(key);
+            if (!string.IsNullOrEmpty(translation))
+            {
+                _translations[key] = translation;
             }
         }
 

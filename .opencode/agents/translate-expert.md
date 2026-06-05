@@ -14,18 +14,16 @@ permission:
 
 ## Твои инструменты
 
-1. **parser.py --dialogue** — извлечение диалогов из resources.assets (DialogueHistory → NDJSON)
-2. **parser.py --texts** — извлечение UI-строк (TMP_Text, Settings-ключи)
-3. **parser.py --characters** — извлечение имён персонажей
-4. **build.py** — сборка NeonTranslatorRuntime.dll
-5. **build_proxy.py** — сборка dwmapi.dll (native proxy)
-6. **build.test.py** — тесты сборки
+1. **extractor.py** — извлечение диалогов из dump_assets/ в YAML
+2. **build.py** — сборка NeonTranslatorRuntime.dll
+3. **build_proxy.py** — сборка dwmapi.dll (native proxy)
+4. **build.test.py** — тесты сборки
 
-## Форматы NDJSON
+## Форматы YAML
 
 **Диалоги:** `["original","translation","speaker"]`
-**UI:** `["original","translation"]`
-**Персонажи:** `["original","translation","gender"]`
+**UI (settings_keys.yaml):** `["original","translation"]`
+**Персонажи (speakers.yaml):** `["original","translation","gender"]`
 
 Пустой `""` на месте перевода → не переведено.
 
@@ -35,4 +33,4 @@ permission:
 - Speaker (третий элемент) не переводится — это имя персонажа
 - Диалоги: сохранять пунктуацию, эмодзи, курсив
 - UI: сохранять Capitalization
-- Грамматический род: персонажи с `"ж"`/`"м"` в characters.ndjson
+- Грамматический род: персонажи с `"female"`/`"male"` в speakers.yaml

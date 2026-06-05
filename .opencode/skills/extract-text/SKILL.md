@@ -1,6 +1,6 @@
 ---
 name: extract-text
-description: Извлечение диалогов, UI-текста и имён персонажей из Unity serialized файлов игры (resources.assets, level, .bundle) через parser.py
+description: Извлечение диалогов, UI-текста и имён персонажей из Unity serialized файлов игры (resources.assets, level, .bundle) через extractor.py
 ---
 
 # extract-text — Извлечение текста из Unity
@@ -20,43 +20,41 @@ python .opencode/skills/extract-text/extractor.py
 
 ## Выходные файлы
 
-### `translations/dialogues.yaml`
+### `translations/dialogues.{path_id}.yaml`
 ```yaml
-# Dialogues: [text, speaker]
+# Dialogues (path_id=73203): [text, translation, speaker]
 
-- {text: "Hello there!", speaker: "Zoey"}
-- {text: "Hi Zoey!", speaker: "Sarah"}
+- ["Yesss...!~", "", "Zoey"]
+- ["Fhaaa..!!", "", "Zoey"]
 ```
 
 ### `translations/speakers.yaml`
 ```yaml
-# Speakers: [name, gender]
+# Speakers: [name, translation, gender]
 
-- {name: "Zoey", gender: ""}
-- {name: "Sarah", gender: ""}
+- ["Zoey", "Зои", "female"]
 ```
 
-### `translations/global_strings.yaml`
+### `translations/settings_keys.yaml`
 ```yaml
-# Global strings (UI): [key]
+# Settings keys: [key, translation]
 
-- {key: "Fullscreen"}
-- {key: "Music Volume"}
+- ["Fullscreen", "Полный экран"]
 ```
 
 ## Источники данных
 
-- **dialogues** — из `"dialogues"` поля MonoBehaviour объектов в чанках (автопоиск, 1544 записи)
+- **dialogues** — из `"dialogues"` поля MonoBehaviour объектов в чанках (автопоиск, 1793 записи в 4 источниках)
 - **speakers** — уникальные спикеры из dialogues (23, без пустых/Narration)
-- **global_strings** — только `settings_keys.display` из summary JSON (55 UI-строк, реальный display-текст из бинарника)
+- **settings_keys** — только `settings_keys.display` из summary JSON (55 UI-строк, реальный display-текст из бинарника)
 
 Формат YAML позволяет писать комментарии `#` прямо в файлах переводов.
 
-## DEPRECATED: parser.py
+## REMOVED: parser.py
 
-Старый `parser.py` — не использовать. Он сканировал бинарники напрямую с шумными эвристиками,
+Удалён. Вместо него — `extractor.py` + `dump_assets.py`.
+Старый `parser.py` сканировал бинарники напрямую с шумными эвристиками,
 генерировал мусорные all-caps строки и непредсказуемые display-имена.
-Вместо него — `extractor.py` + `dump_assets.py`.
 
 ## Тесты
 
@@ -64,4 +62,4 @@ python .opencode/skills/extract-text/extractor.py
 python .opencode/skills/extract-text/extractor.test.py
 ```
 
-9 тестов: диалоги, спикеры, UI, YAML, пустой дамп, спецсимволы, дедупликация.
+14 тестов: диалоги, спикеры, UI, YAML, пустой дамп, спецсимволы, дедупликация, read_yaml, merge, idempotent, real_dump.

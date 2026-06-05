@@ -29,7 +29,7 @@ Scan-and-replace переводчик через NeonLateUpdate + Canvas.willRen
 | Файл                              | Назначение                                             |
 | --------------------------------- | ------------------------------------------------------ |
 | `source/NativeMethods.cs`         | P/Invoke kernel32 (VirtualProtect, GetProcAddress)     |
-| `source/TranslationLoader.cs`     | Читает NDJSON, строит Dictionary (рекурсивно по папке) |
+| `source/TranslationLoader.cs`     | Читает YAML, строит Dictionary (рекурсивно по папке) |
 | `source/MethodPatcher.cs`         | VirtualProtect + JMP hook (DEACTIVATED)                |
 | `source/NeonLateUpdate.cs`        | MonoBehaviour exec order 10000 — вызывает Populate     |
 | `source/TranslatorPlugin.cs`      | Точка входа [RuntimeInitializeOnLoadMethod]            |
@@ -50,10 +50,10 @@ python .opencode/skills/build-translator/build.py
 
 ```bash
 cp runtime/NeonTranslatorRuntime.dll "Third Crisis Neon Nights_Data/Managed/"
-cp translations/**/*.ndjson "Third Crisis Neon Nights_Data/Managed/"
+cp translations/**/*.yaml "Third Crisis Neon Nights_Data/Managed/"
 ```
 
-Словарь загружается рекурсивно из всех `*.ndjson` в `Managed/`. Пересборка DLL не требуется.
+Словарь загружается рекурсивно из всех `*.yaml` в `Managed/`. Пересборка DLL не требуется.
 
 ## Прокси (dwmapi.dll) — только один раз
 
@@ -63,12 +63,19 @@ python .opencode/skills/build-translator/build_proxy.py
 
 Собирает `dwmapi.dll` + `dwmapi_real.dll` в корне игры.
 
-## Формат данных (NDJSON)
+## Формат данных (YAML)
 
-```ndjson
-["Resolution Scaling","Масштабирование разрешения"]
-["I don't know...","Я не знаю...","Zoey"]
+```yaml
+# Dialogues (path_id=73203): [text, translation, speaker]
+- ["Yesss...!~", "Да-а-а...!~", "Zoey"]
+- ["Fhaaa..!!", "Ахха..!!", "Zoey"]
+
+# Settings keys: [key, translation]
+- ["Fullscreen", "Полный экран"]
+
+# Speakers: [name, translation, gender]
+- ["Zoey", "Зои", "female"]
 ```
 
-Первый элемент — оригинал (ключ), второй — перевод. Третий опционален (speaker).
-Пустой второй элемент = не переведено.
+Первый элемент — оригинал (ключ), второй — перевод. Для диалогов третий — speaker.
+Пустая строка `""` на месте перевода → не переведено.
