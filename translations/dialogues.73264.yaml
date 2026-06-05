@@ -1,102 +1,338 @@
 # Dialogues (path_id=73264): [text, translation, speaker]
 
-- ["(Maybe I'm just hearing things... Better get that power back on...)", "(Наверное, мне просто чудится... Лучше вернуть питание...)", "Zoey"]
-- ["(Nice. Power's back on. Now I just need to-)", "(Отлично. Питание вернулось. Теперь осталось только-)", "Zoey"]
+- [
+    "(Maybe I'm just hearing things... Better get that power back on...)",
+    "(Наверное, мне просто чудится... Лучше вернуть питание...)",
+    "Zoey",
+  ]
+- [
+    "(Nice. Power's back on. Now I just need to-)",
+    "(Отлично. Питание вернулось. Теперь осталось только-)",
+    "Zoey",
+  ]
 - ["L̵e̶a̴v̶e̸.̷ ̷G̴o̶ ̵a̵w̶a̸y̶.̷", "У̵х̶о̴д̶и̸.̷ ̷У̴б̶и̵р̵а̶й̸с̶я̷.", ""]
-- ["(Uhhh, that definitely wasn't in my head.)", "(Э-э, это точно было не у меня в голове.)", "Zoey"]
+- [
+    "(Uhhh, that definitely wasn't in my head.)",
+    "(Э-э, это точно было не у меня в голове.)",
+    "Zoey",
+  ]
 - ["(What have I gotten myself into?)", "(Во что же я ввязалась?)", "Zoey"]
-- ["(Nice. Key's all done. Looks like it'll fit into that machine.)", "(Отлично. Ключ готов. Похоже, подойдёт к той машине.)", "Zoey"]
-- ["Got a key, Lio. Hopefully this fits!", "Достала ключ, Лио. Надеюсь, подойдёт!", "Zoey"]
+- [
+    "(Nice. Key's all done. Looks like it'll fit into that machine.)",
+    "(Отлично. Ключ готов. Похоже, подойдёт к той машине.)",
+    "Zoey",
+  ]
+- [
+    "Got a key, Lio. Hopefully this fits!",
+    "Достала ключ, Лио. Надеюсь, подойдёт!",
+    "Zoey",
+  ]
 - ["Mfffh! Mmmf!", "Мфф! М-мф!", "Lio"]
-- ["(Okay, that's progress... Just need to print a couple more keys.)", "(Ладно, это прогресс... Осталось напечатать ещё пару ключей.)", "Zoey"]
+- [
+    "(Okay, that's progress... Just need to print a couple more keys.)",
+    "(Ладно, это прогресс... Осталось напечатать ещё пару ключей.)",
+    "Zoey",
+  ]
 - ["N̴o̴!̸ ̸G̶e̸t̷ ̷y̴o̶u̵r̴ ̷h̴a̷n̶d̸s̷ ̸o̴f̴f̷ ̴o̴f̷ ̸h̶i̶m̶.̴", "Н̴е̴т̸!̸ ̶У̸б̷е̷р̴и̶ ̵о̴т̷ ̴н̷е̶г̸о̷ ̸р̴у̴к̷и̴.̴", ""]
-- ["(What the fuck was that?! Is someone watching us?)", "(Какого хрена это было?! Кто-то следит за нами?)", "Zoey"]
-- ["(Maybe I can bypass the remote access to this door. That'll let me get through and get another key.)", "(Может, я смогу обойти удалённый доступ к этой двери. Тогда я пройду и возьму ещё один ключ.)", "Zoey"]
+- [
+    "(What the fuck was that?! Is someone watching us?)",
+    "(Какого хрена это было?! Кто-то следит за нами?)",
+    "Zoey",
+  ]
+- [
+    "(Maybe I can bypass the remote access to this door. That'll let me get through and get another key.)",
+    "(Может, я смогу обойти удалённый доступ к этой двери. Тогда я пройду и возьму ещё один ключ.)",
+    "Zoey",
+  ]
 - ["I̵ ̸w̶o̶n̸'̸t̴ ̵l̶e̶t̵ ̶y̶o̸u̷ ̴t̵a̷k̶e̸ ̴h̶i̷m̸.̸", "Я̵ ̸н̶е̶ ̸о̸т̴д̵а̶м̶ ̵т̶е̶б̸е̷ ̴е̵г̷о̶.̸", ""]
 - ["Uhhh... I'm not taking anyone!", "Э-э... Я никого не забираю!", "Zoey"]
 - ["I̵ ̵w̸o̴n̶'̶t̷ ̵l̸e̶t̸ ̶y̷o̴u̶.̴", "Я̵ ̵н̸е̴ ̶п̶о̷з̵в̸о̶л̸ю̶ ̷т̴е̶б̴е.", ""]
 - ["(Right. Better hurry this up.)", "(Верно. Лучше поторопиться.)", "Zoey"]
-- ["Alright, that's the second key. Time to get this back to Lio.)", "Ладно, это второй ключ. Пора вернуть это Лио.)", "Zoey"]
-- ["Uhhh... Okay Lio, I've got another key. Here goes nothing.", "Э-э... Ладно, Лио, у меня есть ещё один ключ. Попробуем.", "Zoey"]
-- ["Agh- Thank fuck. Okay, you- aah~ You better hurry, Jan's getting aggravated. I've never seen her like this before-", "Агх- Слава богу. Ладно, ты- а-ах~ Поторопись, Джан бесится. Я никогда не видел её такой-", "Lio"]
+- [
+    "Alright, that's the second key. Time to get this back to Lio.)",
+    "Ладно, это второй ключ. Пора вернуть это Лио.)",
+    "Zoey",
+  ]
+- [
+    "Uhhh... Okay Lio, I've got another key. Here goes nothing.",
+    "Э-э... Ладно, Лио, у меня есть ещё один ключ. Попробуем.",
+    "Zoey",
+  ]
+- [
+    "Agh- Thank fuck. Okay, you- aah~ You better hurry, Jan's getting aggravated. I've never seen her like this before-",
+    "А- Слава богу. Ладно, ты- а-ах~ Поторопись, Джан бесится. Я никогда не видел её такой-",
+    "Lio",
+  ]
 - ["Jan? Who the hell is Jan?", "Джан? Какого чёрта, кто такая Джан?", "Zoey"]
 - ["Y̵o̶u̶ ̵w̴o̵n̵'̵t̸ ̸t̴a̸k̴e̶ ̷h̵i̵m̷ ̷a̵w̵a̸y̸ ̶f̵r̵o̵m̶ ̶m̷e̸.̶", "Т̵ы̶ ̶н̵е̴ ̵з̵а̵б̸е̸р̴ё̸ш̴ь̶ ̷е̵г̵о̷ ̷у̵ ̵м̸е̸н̶я̵.̵", ""]
 - ["What the-", "Какого-", "Zoey"]
-- ["Jan! Calm down, it's okay! I'm not going anywhe- a-ahh!", "Джан! Успокойся, всё хорошо! Я никуда не ухо- а-ах!", "Lio"]
-- ["(Right... Crazy AI girlfriend. Got it.)", "(Ясно... Безумная девушка-ИИ. Поняла.)", "Zoey"]
-- ["The data chips...! You need to- Ahh...!", "Чипы данных...! Тебе нужно- Ах...!", "Lio"]
-- ["Three...! There's three of them! Nghh...! One of the has the- Ah-...! The code...!", "Три...! Их три! М-м...! В одном из них- А-...! Код...!", "Lio"]
-- ["Data chip? Like for my neck port?", "Чип данных? Вроде того, что для порта на шее?", "Zoey"]
+- [
+    "Jan! Calm down, it's okay! I'm not going anywhe- a-ahh!",
+    "Джан! Успокойся, всё хорошо! Я никуда не ухо- а-ах!",
+    "Lio",
+  ]
+- [
+    "(Right... Crazy AI girlfriend. Got it.)",
+    "(Ясно... Безумная девушка-ИИ. Поняла.)",
+    "Zoey",
+  ]
+- [
+    "The data chips...! You need to- Ahh...!",
+    "Чипы данных...! Тебе нужно- Ах...!",
+    "Lio",
+  ]
+- [
+    "Three...! There's three of them! Nghh...! One of the has the- Ah-...! The code...!",
+    "Три...! Их три! М-м...! В одном из них- А-...! Код...!",
+    "Lio",
+  ]
+- [
+    "Data chip? Like for my neck port?",
+    "Чип данных? Вроде того, что для порта на шее?",
+    "Zoey",
+  ]
 - ["Yes! Ah-...! Hurry! Nhhh!", "Да! А-...! Быстрее! М-м!", "Lio"]
-- ["(Huh... lucky guess. Looks like the key's ready now.)", "(Хм... повезло угадать. Похоже, ключ уже готов.)", "Zoey"]
-- ["Last key! Let's get you out of there, Lio!", "Последний ключ! Давай вытащу тебя оттуда, Лио!", "Zoey"]
+- [
+    "(Huh... lucky guess. Looks like the key's ready now.)",
+    "(Хм... повезло угадать. Похоже, ключ уже готов.)",
+    "Zoey",
+  ]
+- [
+    "Last key! Let's get you out of there, Lio!",
+    "Последний ключ! Давай вытащу тебя оттуда, Лио!",
+    "Zoey",
+  ]
 - ["N̵o̶!̴ ̷P̸l̸e̶a̶s̵e̷ ̵d̵o̴n̶'̸t̴!̵", "Н̵е̶т̴!̷ ̸П̸р̶о̶ш̵у̷,̵ ̵н̵е̸ ̴н̶а̴д̶о̷!̵", ""]
 - ["Ah-! Ahh! Hurry, Zoey!", "А-! Ах! Быстрее, Зои!", "Lio"]
 - ["Watch", "Смотри", ""]
 - ["(Just... A moment... )", "(Всего... мгновение...)", "Zoey"]
 - ["Ahh...! Fhahh...!", "Ах...! Ахх...!", "Lio"]
 - ["(The AI is... Doing this...?)", "(ИИ... Делает это...?)", "Zoey"]
-- ["(Did it just... Get faster...?)", "(Он только что... Ускорился...?)", "Zoey"]
+- [
+    "(Did it just... Get faster...?)",
+    "(Он только что... Ускорился...?)",
+    "Zoey",
+  ]
 - ["Fuck fuck fuck!", "Бля бля бля!", "Lio"]
-- ["(How did he even get in there...? He must have locked himself in there intentionally, right...?)", "(Как он вообще туда забрался...? Должно быть, специально там заперся, верно...?)", "Zoey"]
-- ["(Maybe he's testing giving the AI some sort of physical pleasure through this machine?)", "(Может, он тестирует, как ИИ получает физическое удовольствие через эту машину?)", "Zoey"]
-- ["(Pretty... Bold of him... To get into this thing when he knew I'd be coming over today... )", "(Довольно... Смело с его стороны... Залезть в эту штуку, зная, что я сегодня приду...)", "Zoey"]
-- ["Ghhh... Oh god, oh fuckhhh...! I-... Nghhh...!", "Гхх... А-ах, чёрт...! Я-... М-м-м...!", "Lio"]
+- [
+    "(How did he even get in there...? He must have locked himself in there intentionally, right...?)",
+    "(Как он вообще туда забрался...? Должно быть, специально там заперся, верно...?)",
+    "Zoey",
+  ]
+- [
+    "(Maybe he's testing giving the AI some sort of physical pleasure through this machine?)",
+    "(Может, он тестирует, как ИИ получает физическое удовольствие через эту машину?)",
+    "Zoey",
+  ]
+- [
+    "(Pretty... Bold of him... To get into this thing when he knew I'd be coming over today... )",
+    "(Довольно... Смело с его стороны... Залезть в эту штуку, зная, что я сегодня приду...)",
+    "Zoey",
+  ]
+- [
+    "Ghhh... Oh god, oh fuckhhh...! I-... Nghhh...!",
+    "Ухх... А-ах, чёрт...! Я-... М-м-м...!",
+    "Lio",
+  ]
 - ["(It got... Even faster...?)", "(Стало... Ещё быстрее...?)", "Zoey"]
-- ["(Doesn't exactly sound like he's-... Hating it... )", "(По голосу не скажешь, что ему-... Не нравится...)", "Zoey"]
-- ["(Compared to what I've seen before, his-... It's pretty... Cute... )", "(По сравнению с тем, что я видела раньше, его-... Это довольно... Мило...)", "Zoey"]
-- ["Hahhh...!! I-... Ghhahhh...!! Fhuckkhhh! I can't-... Nghhh...!", "Хахх...!! Я-... Гхахх...!! Бля-а-ах! Я не могу-... М-м-м...!", "Lio"]
+- [
+    "(Doesn't exactly sound like he's-... Hating it... )",
+    "(По голосу не скажешь, что ему-... Не нравится...)",
+    "Zoey",
+  ]
+- [
+    "(Compared to what I've seen before, his-... It's pretty... Cute... )",
+    "(По сравнению с тем, что я видела раньше, его-... Это довольно... Мило...)",
+    "Zoey",
+  ]
+- [
+    "Hahhh...!! I-... Ghhahhh...!! Fhuckkhhh! I can't-... Nghhh...!",
+    "Хахх...!! Я-... Ухахх...!! Бля-а-ах! Я не могу-... М-м-м...!",
+    "Lio",
+  ]
 - ["(Is he about to-)", "(Он собирается-)", "Zoey"]
 - ["(That amount... What?!)", "(Столько... Что?!)", "Zoey"]
-- ["(How did he-... Spurt so much...?! )", "(Как он-... Выплеснул так много...?!)", "Zoey"]
-- ["(Ah...! What am I doing?! I need to help him out of there!)", "(Ах...! Что я делаю?! Нужно помочь ему выбраться оттуда!)", "Zoey"]
-- ["Ahh- Holy fuck... Okay... ah- Let me... Let me help Jan out... and I'll uh... I'll clean up. Just give me a second.", "Ах- Ни хрена себе... Ладно... а- Дай мне... Дай мне помочь Джан... и я э-... Я приберусь. Дай мне секунду.", "Lio"]
-- ["And done! Eheh. Sorry you had to see that, Zoey.", "Готово! Хе-хе. Прости, что тебе пришлось это видеть, Зои.", "Lio"]
-- ["Oh- heh. No worries. I've uh... seen worse!", "О- хе. Не переживай. Я э-... видела и похуже!", "Zoey"]
-- ["Sooo uh... What'd ya need me for?", "Ну-у э... Зачем я тебе понадобился?", "Lio"]
-- ["Well... uh... I need to get a fake made of this little device I found.", "Ну... э... Мне нужно сделать подделку этой маленькой штуковины, которую я нашла.", "Zoey"]
+- [
+    "(How did he-... Spurt so much...?! )",
+    "(Как он-... Выплеснул так много...?!)",
+    "Zoey",
+  ]
+- [
+    "(Ah...! What am I doing?! I need to help him out of there!)",
+    "(Ах...! Что я делаю?! Нужно помочь ему выбраться оттуда!)",
+    "Zoey",
+  ]
+- [
+    "Ahh- Holy fuck... Okay... ah- Let me... Let me help Jan out... and I'll uh... I'll clean up. Just give me a second.",
+    "Ах- Ни хрена себе... Ладно... а- Дай мне... Дай мне помочь Джан... и я э-... Я приберусь. Дай мне секунду.",
+    "Lio",
+  ]
+- [
+    "And done! Eheh. Sorry you had to see that, Zoey.",
+    "Готово! Хе-хе. Прости, что тебе пришлось это видеть, Зои.",
+    "Lio",
+  ]
+- [
+    "Oh- heh. No worries. I've uh... seen worse!",
+    "О- хе. Не переживай. Я э-... видела и похуже!",
+    "Zoey",
+  ]
+- [
+    "Sooo uh... What'd ya need me for?",
+    "Ну-у э... Зачем я тебе понадобился?",
+    "Lio",
+  ]
+- [
+    "Well... uh... I need to get a fake made of this little device I found.",
+    "Ну... э... Мне нужно сделать подделку этой маленькой штуковины, которую я нашла.",
+    "Zoey",
+  ]
 - ["Ah yeah? This for a job of yours?", "А да? Это для твоей работы?", "Lio"]
 - ["Something like that.", "Вроде того.", "Zoey"]
 - ["Well give it here. Let's see it.", "Ну дай сюда. Посмотрим.", "Lio"]
-- ["Jesus, Zoey. What the hell is this thing?", "Господи, Зои. Что это за хрень?", "Lio"]
+- [
+    "Jesus, Zoey. What the hell is this thing?",
+    "Господи, Зои. Что это за хрень?",
+    "Lio",
+  ]
 - ["It's just uh... a uh...", "Это просто э-... э-...", "Zoey"]
 - ["Just a...?", "Просто...?", "Lio"]
 - ["It's... classified?", "Это... секретно?", "Zoey"]
 - ["Girl.", "Детка.", "Lio"]
-- ["I can't make a convincing fake of this thing if I don't even know what it is. Just tell me, Zoey.", "Я не смогу сделать убедительную подделку этой штуки, если даже не знаю, что это. Просто скажи мне, Зои.", "Lio"]
+- [
+    "I can't make a convincing fake of this thing if I don't even know what it is. Just tell me, Zoey.",
+    "Я не смогу сделать убедительную подделку этой штуки, если даже не знаю, что это. Просто скажи мне, Зои.",
+    "Lio",
+  ]
 - ["Tell him what the blocker is.", "Скажи ему, что такое блокиратор.", ""]
-- ["Well... It's called a uh... Crush Blocker.", "Ну... Это называется э-... Блокиратор Влечения.", "Zoey"]
+- [
+    "Well... It's called a uh... Crush Blocker.",
+    "Ну... Это называется э-... Блокиратор Влечения.",
+    "Zoey",
+  ]
 - ["Huh? What the hell is a crush?", "А? Что ещё за влечение?", "Lio"]
-- ["Uhhh... Well apparently it's the reason for the itch we've been feeling these past few years. This thing blocks it.", "Э-э... Ну, видимо, это причина зуда, который мы чувствовали последние несколько лет. Эта штука блокирует его.", "Zoey"]
-- ["What?!  Wait, so you've been able to just... not be horny all the time?", "Что?! Погоди, так ты могла просто... не хотеть секса всё время?", "Lio"]
-- ["Well... Not exactly. But it's helped.", "Ну... Не совсем. Но это помогло.", "Zoey"]
+- [
+    "Uhhh... Well apparently it's the reason for the itch we've been feeling these past few years. This thing blocks it.",
+    "Э-э... Ну, видимо, это причина зуда, который мы чувствовали последние несколько лет. Эта штука блокирует его.",
+    "Zoey",
+  ]
+- [
+    "What?!  Wait, so you've been able to just... not be horny all the time?",
+    "Что?! Погоди, так ты могла просто... не хотеть секса всё время?",
+    "Lio",
+  ]
+- [
+    "Well... Not exactly. But it's helped.",
+    "Ну... Не совсем. Но это помогло.",
+    "Zoey",
+  ]
 - ["Helped? Like with what?", "Помогло? С чем, например?", "Lio"]
-- ["Well... The way here for starters. Buncha pipes burst, so the tunnels were filled with haze.", "Ну... Дорога сюда, для начала. Лопнула куча труб, и туннели заполнились дымкой.", "Zoey"]
-- ["Wha- Really? Shit, Zoey, I wouldn't have made you go through that tunnel if I knew.", "Ч- Правда? Чёрт, Зои, я бы не заставил тебя лезть через тот туннель, если бы знал.", "Lio"]
-- ["No worries. I managed to make it in one piece thanks to the blocker.", "Без проблем. Я добралась целой и невредимой благодаря блокиратору.", "Zoey"]
-- ["And now you need me to make a fake of it? Why?", "И теперь тебе нужно, чтобы я сделал подделку? Зачем?", "Lio"]
+- [
+    "Well... The way here for starters. Buncha pipes burst, so the tunnels were filled with haze.",
+    "Ну... Дорога сюда, для начала. Лопнула куча труб, и туннели заполнились дымкой.",
+    "Zoey",
+  ]
+- [
+    "Wha- Really? Shit, Zoey, I wouldn't have made you go through that tunnel if I knew.",
+    "Ч- Правда? Чёрт, Зои, я бы не заставил тебя лезть через тот туннель, если бы знал.",
+    "Lio",
+  ]
+- [
+    "No worries. I managed to make it in one piece thanks to the blocker.",
+    "Без проблем. Я добралась целой и невредимой благодаря блокиратору.",
+    "Zoey",
+  ]
+- [
+    "And now you need me to make a fake of it? Why?",
+    "И теперь тебе нужно, чтобы я сделал подделку? Зачем?",
+    "Lio",
+  ]
 - ["Well... I sorta kinda stole it?", "Ну... Я вроде как украла его?", "Zoey"]
 - ["From who?", "У кого?", "Lio"]
 - ["Theee... Cartel?", "У-у... Картеля?", "Zoey"]
-- ["Wh- Are you serious, Zoey? Wait, was that you that made the commotion at the Redlight District? Fuck, this is not okay!", "Ч- Ты серьёзно, Зои? Погоди, это ты устроила переполох в Квартале Красных Фонарей? Бля, это никуда не годится!", "Lio"]
-- ["Maybe? I just need a fake to get them off me. They want me to bring it in to them, but I can't. If I do, bad things could happen.", "Может быть? Мне просто нужна подделка, чтобы они отстали. Они хотят, чтобы я принесла им его, но я не могу. Если сделаю, ничего хорошего не выйдет.", "Zoey"]
-- ["And if you don't, you're screwed. Ugh. Fuck me, alright Zoey. Just lemme see what I can do. Give me a minute.", "А если нет — ты в жопе. Уф. Ну ёбаный в рот, ладно, Зои. Дай посмотрю, что можно сделать. Дай мне минуту.", "Lio"]
-- ["This thing's more complicated than I thought it'd be. The material's not like anything I've seen before. I can't just 3D print a double.", "Эта штука сложнее, чем я думал. Материал не похож ни на что, что я раньше видел. Я не могу просто распечатать копию на 3D-принтере.", "Lio"]
+- [
+    "Wh- Are you serious, Zoey? Wait, was that you that made the commotion at the Redlight District? Fuck, this is not okay!",
+    "Ч- Ты серьёзно, Зои? Погоди, это ты устроила переполох в Квартале Красных Фонарей? Бля, это никуда не годится!",
+    "Lio",
+  ]
+- [
+    "Maybe? I just need a fake to get them off me. They want me to bring it in to them, but I can't. If I do, bad things could happen.",
+    "Может быть? Мне просто нужна подделка, чтобы они отстали. Они хотят, чтобы я принесла им его, но я не могу. Если сделаю, ничего хорошего не выйдет.",
+    "Zoey",
+  ]
+- [
+    "And if you don't, you're screwed. Ugh. Fuck me, alright Zoey. Just lemme see what I can do. Give me a minute.",
+    "А если нет — ты в жопе. Уф. Ну твою ж мать, ладно, Зои. Дай посмотрю, что можно сделать. Дай мне минуту.",
+    "Lio",
+  ]
+- [
+    "This thing's more complicated than I thought it'd be. The material's not like anything I've seen before. I can't just 3D print a double.",
+    "Эта штука сложнее, чем я думал. Материал не похож ни на что, что я раньше видел. Я не могу просто распечатать копию на 3D-принтере.",
+    "Lio",
+  ]
 - ["So... What does that mean?", "Так... Что это значит?", "Zoey"]
-- ["Means you're gonna have to do some leg work. I've got a contact that can get their hands on the sorts of materials we'll need for this.", "Значит, тебе придётся пробежаться. У меня есть контакт, который может достать материалы, которые нам понадобятся.", "Lio"]
+- [
+    "Means you're gonna have to do some leg work. I've got a contact that can get their hands on the sorts of materials we'll need for this.",
+    "Значит, тебе придётся пробежаться. У меня есть контакт, который может достать материалы, которые нам понадобятся.",
+    "Lio",
+  ]
 - ["And where is this contact?", "И где этот контакт?", "Zoey"]
-- ["The Redlight District, the trains just opened back up after your little episode, so you should be good to go whenever you're ready.", "В Квартале Красных Фонарей. Поезда только что снова запустили после твоего маленького эпизода, так что можешь ехать, когда будешь готова.", "Lio"]
+- [
+    "The Redlight District, the trains just opened back up after your little episode, so you should be good to go whenever you're ready.",
+    "В Квартале Красных Фонарей. Поезда только что снова запустили после твоего маленького эпизода, так что можешь ехать, когда будешь готова.",
+    "Lio",
+  ]
 - ["Right... and who's the contact?", "Ясно... и кто этот контакт?", "Zoey"]
-- ["Her name's Nova. Nice gal, bit of a hard ass, but we've got a business understanding.", "Её зовут Нова. Хорошая девчонка, немного суровая, но у нас деловое взаимопонимание.", "Lio"]
-- ["Nova. Alright. Where can I find her?", "Нова. Хорошо. Где мне её найти?", "Zoey"]
-- ["She's got a gig pulling security for the Glowing Hole. I'm sure you know where to find it.", "У неё подработка — охрана «Сияющей Дыры». Уверен, ты знаешь, где это.", "Lio"]
+- [
+    "Her name's Nova. Nice gal, bit of a hard ass, but we've got a business understanding.",
+    "Её зовут Нова. Хорошая девчонка, немного суровая, но у нас деловое взаимопонимание.",
+    "Lio",
+  ]
+- [
+    "Nova. Alright. Where can I find her?",
+    "Нова. Хорошо. Где мне её найти?",
+    "Zoey",
+  ]
+- [
+    "She's got a gig pulling security for the Glowing Hole. I'm sure you know where to find it.",
+    "У неё подработка — охрана «Сияющей Дыры». Уверен, ты знаешь, где это.",
+    "Lio",
+  ]
 - ["Yep. I know where that is alright.", "Ага. Я знаю, где это.", "Zoey"]
-- ["Go find her. I'll call ahead and let her know you're on the way. Once you've got the stuff from her, we can put your fake together.", "Иди найди её. Я позвоню и предупрежу, что ты идёшь. Как получишь от неё материалы, соберём твою подделку.", "Lio"]
-- ["Thanks, Lio. I'll let ya know when I've got what you need.", "Спасибо, Лио. Я дам знать, когда добуду то, что нужно.", "Zoey"]
-- ["Oh, also I took the liberty of putting your ID into the database here, so you can come and go as you please without those musky tunnels.", "О, и я позволил себе внести твой ID в местную базу, так что сможешь приходить и уходить, когда хочешь, без этих вонючих туннелей.", "Lio"]
-- ["W- You couldn't have done that earlier?", "Ч- Ты не мог сделать это раньше?", "Zoey"]
-- ["No, sorry. Needed you here to get an up-to-date imprint of your bio-signature. Hope that's okay.", "Нет, прости. Ты была нужна здесь, чтобы получить актуальный слепок твоей биоподписи. Надеюсь, это нормально.", "Lio"]
+- [
+    "Go find her. I'll call ahead and let her know you're on the way. Once you've got the stuff from her, we can put your fake together.",
+    "Иди найди её. Я позвоню и предупрежу, что ты идёшь. Как получишь от неё материалы, соберём твою подделку.",
+    "Lio",
+  ]
+- [
+    "Thanks, Lio. I'll let ya know when I've got what you need.",
+    "Спасибо, Лио. Я дам знать, когда добуду то, что нужно.",
+    "Zoey",
+  ]
+- [
+    "Oh, also I took the liberty of putting your ID into the database here, so you can come and go as you please without those musky tunnels.",
+    "О, и я позволил себе внести твой ID в местную базу, так что сможешь приходить и уходить, когда хочешь, без этих вонючих туннелей.",
+    "Lio",
+  ]
+- [
+    "W- You couldn't have done that earlier?",
+    "Ч- Ты не мог сделать это раньше?",
+    "Zoey",
+  ]
+- [
+    "No, sorry. Needed you here to get an up-to-date imprint of your bio-signature. Hope that's okay.",
+    "Нет, прости. Ты была нужна здесь, чтобы получить актуальный слепок твоей биоподписи. Надеюсь, это нормально.",
+    "Lio",
+  ]
 - ["My... bio-signature?", "Мою... биоподпись?", "Zoey"]
-- ["Purely for practical purposes of course.", "Исключительно в практических целях, разумеется.", "Lio"]
+- [
+    "Purely for practical purposes of course.",
+    "Исключительно в практических целях, разумеется.",
+    "Lio",
+  ]
 - ["Right...", "Ну да...", "Zoey"]
-- ["Enjoy the Redlight District!", "Наслаждайся Кварталом Красных Фонарей!", "Lio"]
+- [
+    "Enjoy the Redlight District!",
+    "Наслаждайся Кварталом Красных Фонарей!",
+    "Lio",
+  ]
