@@ -1,12 +1,31 @@
 # Test translations for main menu
 
-- ["New Game", "Новая игра"]
-- ["Continue", "Продолжить"]
-- ["Load Game", "Загрузить игру"]
-- ["Options", "Настройки"]
-- ["GAME", "ИГРА"]
-- ["Game", "Игра"]
-- ["EXIT TO DESKTOP", "Выйти на рабочий стол"]
-- ["MAIN MENU", "Главное меню"]
-- ["SAVE GAME", "Сохранить игру"]
-- ["RESUME", "Продолжить"]
+- text: "New Game"
+  translation: "Новая игра"
+
+- text: "Continue"
+  translation: "Продолжить"
+
+- text: "Load Game"
+  translation: "Загрузить игру"
+
+- text: "Options"
+  translation: "Настройки"
+
+- text: "GAME"
+  translation: "ИГРА"
+
+- text: "Game"
+  translation: "Игра"
+
+- text: "EXIT TO DESKTOP"
+  translation: "Выйти на рабочий стол"
+
+- text: "MAIN MENU"
+  translation: "Главное меню"
+
+- text: "SAVE GAME"
+  translation: "Сохранить игру"
+
+- text: "RESUME"
+  translation: "Продолжить"

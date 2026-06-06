@@ -16,10 +16,10 @@
 python .opencode/skills/extract-text/extractor.py
 ```
 
-→ `translations/dialogues.{path_id}.yaml` — `[text, translation, speaker]` (1503+93+97+100, ANToolkit JSON)
-→ `translations/dialogues.bundle.yaml` — `[text, translation, speaker]` (~992, PlayMaker FSM из .bundle)
-→ `translations/speakers.yaml` — `[name, translation, gender, notes]` (52 спикера)
-→ `translations/settings_keys.yaml` — `[key, translation]` (55 UI-строк)
+→ `translations/dialogues.{path_id}.yaml` — объектный YAML `{text, translation, speaker, rich_text, rich_translation}` (1503+93+97+100, ANToolkit JSON)
+→ `translations/dialogues.bundle.yaml` — объектный YAML `{text, translation, speaker}` (~992, PlayMaker FSM из .bundle)
+→ `translations/speakers.yaml` — объектный YAML `{text, translation, gender, notes}` (52 спикера)
+→ `translations/settings_keys.yaml` — объектный YAML `{text, translation}` (55 UI-строк)
 
 ### Источники данных
 
@@ -28,8 +28,9 @@ python .opencode/skills/extract-text/extractor.py
 - **speakers** — уникальные спикеры из обоих источников (пустые/Narration исключены)
 - **global_strings** — только `settings_keys.display` из summary JSON (реальный display-текст из бинарника)
 
-Формат YAML: `[key, translation, ...extra]`. Экстра колонки (speaker, gender, notes) игнорируются C#-рантаймом,
-но сохраняются через merge при перезапуске экстрактора.
+Формат YAML: объектный `{text, translation, ...}`. Поля опциональны.  
+Рантайм использует fallback: `rich_translation` > `translation` > `rich_text` > `text`.
+Неизвестные поля игнорируются рантаймом, но сохраняются через merge при перезапуске экстрактора.
 
 ### dump_assets
 

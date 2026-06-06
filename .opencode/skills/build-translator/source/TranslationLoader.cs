@@ -24,7 +24,6 @@ namespace NeonTranslator
                 if (!Directory.Exists(dirPath))
                     return _translations;
 
-                // Recursively find all *.yaml files
                 string[] files = Directory.GetFiles(dirPath, "*.yaml", SearchOption.AllDirectories);
                 Array.Sort(files);
 
@@ -47,116 +46,126 @@ namespace NeonTranslator
         private static void ParseYamlFile(string filePath)
         {
             string[] lines = File.ReadAllLines(filePath);
-            var entryLines = new List<string>();
+            var fields = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
             bool inEntry = false;
 
             foreach (string rawLine in lines)
             {
-                string line = rawLine.Trim();
+                string trimmed = rawLine.Trim();
 
                 // Skip comments and blank lines
-                if (line.Length == 0 || line[0] == '#')
+                if (trimmed.Length == 0 || trimmed[0] == '#')
                 {
                     if (inEntry)
                     {
-                        // This shouldn't happen in valid YAML, but handle gracefully
-                        ProcessEntry(entryLines);
-                        entryLines.Clear();
+                        ProcessEntry(fields);
+                        fields.Clear();
                         inEntry = false;
                     }
                     continue;
                 }
 
-                // Detect start of a list entry: "- ["
-                if (!inEntry && line.StartsWith("- ["))
+                // Detect entry start: "- key: value"
+                if (trimmed.StartsWith("- "))
                 {
+                    if (inEntry)
+                    {
+                        ProcessEntry(fields);
+                        fields.Clear();
+                    }
                     inEntry = true;
-                    entryLines.Clear();
-                    entryLines.Add(line);
-                    if (line.EndsWith("]"))
-                    {
-                        ProcessEntry(entryLines);
-                        entryLines.Clear();
-                        inEntry = false;
-                    }
+
+                    // Parse key:value after "- "
+                    string rest = trimmed.Substring(2).Trim();
+                    ParseField(rest, fields);
                     continue;
                 }
 
-                // Accumulate multi-line entries
-                if (inEntry)
+                // Continuation line (indented with 2+ spaces)
+                if (inEntry && rawLine.StartsWith("  "))
                 {
-                    entryLines.Add(line);
-                    if (line.Contains("]"))
-                    {
-                        ProcessEntry(entryLines);
-                        entryLines.Clear();
-                        inEntry = false;
-                    }
+                    ParseField(trimmed, fields);
                 }
+            }
+
+            // Last entry
+            if (inEntry)
+            {
+                ProcessEntry(fields);
             }
         }
 
-        private static void ProcessEntry(List<string> entryLines)
+        private static void ParseField(string text, Dictionary<string, string> fields)
         {
-            // Join accumulated lines into one string
-            StringBuilder sb = new StringBuilder();
-            foreach (string l in entryLines)
-            {
-                sb.Append(l.Trim());
-            }
-            string combined = sb.ToString();
+            // Format: key: "value"  or  key: 'value'
+            int colon = text.IndexOf(':');
+            if (colon < 0) return;
 
-            // Remove "- [" prefix and "]" suffix
-            int start = combined.IndexOf('[');
-            int end = combined.LastIndexOf(']');
-            if (start < 0 || end < 0 || end <= start)
+            string key = text.Substring(0, colon).Trim();
+            if (string.IsNullOrEmpty(key)) return;
+
+            string rest = text.Substring(colon + 1).Trim();
+            if (rest.Length < 2) return;
+
+            char quote = rest[0];
+            if (quote != '"' && quote != '\'') return;
+
+            // Find closing quote respecting escaping
+            int i = 1;
+            while (i < rest.Length)
+            {
+                if (rest[i] == '\\')
+                {
+                    i += 2;
+                    continue;
+                }
+                if (rest[i] == quote)
+                {
+                    string val = rest.Substring(1, i - 1);
+                    val = val.Replace("\\\"", "\"").Replace("\\\\", "\\");
+                    fields[key] = val;
+                    return;
+                }
+                i++;
+            }
+        }
+
+        private static void ProcessEntry(Dictionary<string, string> fields)
+        {
+            string text = GetField(fields, "text");
+            if (string.IsNullOrEmpty(text))
                 return;
 
-            string inner = combined.Substring(start + 1, end - start - 1);
+            string translation = GetField(fields, "translation");
+            string richText = GetField(fields, "rich_text");
+            string richTranslation = GetField(fields, "rich_translation");
 
-            // Parse quoted values: split on "," but respect escaping
-            var values = new List<string>();
-            int i = 0;
-            while (i < inner.Length)
+            // Best available: rich_translation > translation > rich_text > text
+            string best = Coalesce(richTranslation, translation, richText, text);
+
+            _allKeys.Add(text);
+            if (!string.IsNullOrEmpty(best))
             {
-                // Find opening quote
-                int qi = inner.IndexOf('"', i);
-                if (qi < 0) break;
-
-                // Find closing quote (skip escaped \")
-                int qj = qi + 1;
-                while (qj < inner.Length)
-                {
-                    if (inner[qj] == '\\')
-                    {
-                        qj += 2; // skip escaped char
-                        continue;
-                    }
-                    if (inner[qj] == '"')
-                        break;
-                    qj++;
-                }
-                if (qj >= inner.Length) break;
-
-                // Extract value between quotes
-                string val = inner.Substring(qi + 1, qj - qi - 1);
-                val = val.Replace("\\\"", "\"").Replace("\\\\", "\\");
-                values.Add(val);
-
-                i = qj + 1;
+                _translations[text] = best;
             }
+        }
 
-            if (values.Count < 2) return;
-            if (string.IsNullOrEmpty(values[0])) return;
+        private static string GetField(Dictionary<string, string> fields, string key)
+        {
+            string val;
+            if (fields.TryGetValue(key, out val))
+                return val ?? "";
+            return "";
+        }
 
-            string key = values[0];
-            string translation = values[1];
-
-            _allKeys.Add(key);
-            if (!string.IsNullOrEmpty(translation))
+        private static string Coalesce(params string[] values)
+        {
+            foreach (string v in values)
             {
-                _translations[key] = translation;
+                if (!string.IsNullOrEmpty(v))
+                    return v;
             }
+            return "";
         }
 
         public static bool IsKnownKey(string key)

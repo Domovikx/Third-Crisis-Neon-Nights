@@ -348,13 +348,6 @@ namespace NeonTranslator
             return _richTagRx.Replace(s, "");
         }
 
-        private static string ReplaceInRichText(string original, string cleanKey, string translation)
-        {
-            // Preserve rich-text tags: replace clean content inside tags, keep tags intact
-            if (original == cleanKey) return translation;
-            return original.Replace(cleanKey, translation);
-        }
-
         private static int _logDetailCount = 0;
 
         private static void PopulateAllText()
@@ -374,7 +367,6 @@ namespace NeonTranslator
                 string current = GetText(c);
                 if (string.IsNullOrEmpty(current))
                 {
-                    // Fallback: ANToolkit may have blanked the text — restore from cached original
                     string cachedOrig;
                     if (_componentOriginalText != null && _componentOriginalText.TryGetValue(c, out cachedOrig))
                     {
@@ -390,24 +382,13 @@ namespace NeonTranslator
                 string translated;
                 if (_translations.TryGetValue(lookup, out translated) && translated != lookup)
                 {
-                    string result;
-                    if (current == lookup)
-                    {
-                        result = translated;
-                    }
-                    else
-                    {
-                        result = ReplaceInRichText(current, lookup, translated);
-                        if (result == current)
-                            result = translated;
-                    }
                     if (_logDetailCount < 30)
                     {
                         _logDetailCount++;
                         string path = GetTransformPath(c.transform);
                         Log("Populate: '" + lookup + "' -> '" + translated + "' on " + path);
                     }
-                    SetTextFieldDirect(c, result);
+                    SetTextFieldDirect(c, translated);
                     replaced++;
                 }
             }

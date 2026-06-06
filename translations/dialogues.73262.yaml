@@ -1,307 +1,467 @@
-# Dialogues (path_id=73262): [text, translation, speaker]
+# Dialogues (path_id=73262)
 
-- ["Order now.", "Заказать.", ""]
-- [
-    "Please choose a room for SLUT Service™...",
-    "Выберите номер для SLUT Service™...",
-    "",
-  ]
-- ["Room 202", "Комната 202", ""]
-- [
-    "Are you sure you want to order SLUT Service™?",
-    "Вы уверены, что хотите заказать SLUT Service™?",
-    "",
-  ]
-- ["Yes", "Да", ""]
-- [
-    "Welcome to the SLUT Service™ menu! Select an option...",
-    "Добро пожаловать в меню SLUT Service™! Выберите опцию...",
-    "",
-  ]
-- ["Close menu.", "Закрыть меню.", ""]
-- [
-    "(Alright, I suppose now I just have to wait. Pretty tight in here. )",
-    "(Ладно, теперь мне остаётся только ждать. Здесь довольно тесно.)",
-    "Zoey",
-  ]
-- ["(What is that sound?)", "(Что это за звук?)", "Zoey"]
-- [">", ">", ""]
-- ["Uwaa! Hey!", "Уаа! Эй!", "Zoey"]
-- ["S-streching?", "Р-растяжение?", "Zoey"]
-- ["Unh! H-hey..! That's-..", "Ух! Э-эй..! Это-..", "Zoey"]
-- ["Eep-", "Ип-", "Zoey"]
-- [
-    "(Welp, thanks box. Didn't need those anyways. )",
-    "(Ну что ж, спасибо, коробка. Они мне всё равно не нужны.)",
-    "Zoey",
-  ]
-- [
-    "Khh-.. It's really-.. Stretching me..",
-    "Кх-.. Он правда-.. Растягивает меня..",
-    "Zoey",
-  ]
-- [
-    "(The box is shaking! Is it moving upstairs by itself?)",
-    "(Коробка трясётся! Она сама движется наверх?)",
-    "Zoey",
-  ]
-- [
-    "L-.. Lubrication system.. For improved arrival speed?",
-    "С-.. Смазочная система.. Для ускорения доставки?",
-    "Zoey",
-  ]
-- ["Decline", "Отказаться", ""]
-- [
-    "I'm not sure that's a good idea..",
-    "Я не уверена, что это хорошая идея..",
-    "Zoey",
-  ]
-- [
-    "(Phew! Thank goodness no one's in this room. That could've been a little bit too sexy for me right now.)",
-    "(Уф! Слава богу, в этой комнате никого нет. Это могло бы быть чересчур для меня сейчас.)",
-    "Zoey",
-  ]
-- [
-    "(Now I've just gotta get my stuff back from the box and get dressed back up.)",
-    "(Теперь нужно забрать свои вещи из коробки и снова одеться.)",
-    "Zoey",
-  ]
-- ["Received KeyCard (Room 202).", "Получена KeyCard (номер 202).", ""]
-- ["(205... This is the place. )", "(205... Это здесь.)", "Zoey"]
-- [
-    "Ah fuck! Yes! Naughty bunny boy! Next round!",
-    "Ах, бля! Да! Непослушный мальчик-зайчик! Следующий раунд!",
-    "Cartel Guy",
-  ]
-- [
-    "(Hhh! They're still in there.. I better make sure the suitcase is with them. )",
-    "(Хх! Они всё ещё там.. Лучше убедиться, что чемодан у них.)",
-    "Zoey",
-  ]
-- ["(This is so not okay... )", "(Это совсем не нормально...)", "Zoey"]
-- [
-    "(Jackpot! That's the case the client wants! )",
-    "(Джекпот! Это тот кейс, который нужен клиенту!)",
-    "Zoey",
-  ]
-- [
-    "Mnhhh.. Yess..! Please, put it innn..!!~",
-    "М-м.. Да..! Прошу, вставь его вну-у-трь..!!~",
-    "Jay",
-  ]
-- ["Want it so bad, hmm?", "Так сильно хочешь, мм?", "Cartel Guy"]
-- ["(Hh.. )", "(Хх..)", "Zoey"]
-- [
-    "(I'll have to wait until they're done... No way I'm getting it while they're.. Uh.. Next to it.. )",
-    "(Придётся подождать, пока они закончат... Ни за что не полезу, пока они.. Эм.. Рядом с ним..)",
-    "Zoey",
-  ]
-- [
-    "This place is dirty in more ways than one.",
-    "Это место грязное во всех смыслах.",
-    "Zoey",
-  ]
-- [
-    "Seems like this room is under renovation. Perfect place to lay low until they are finally.. done..",
-    "Похоже, эта комната на ремонте. Идеальное место, чтобы затаиться, пока они наконец.. не закончат..",
-    "Zoey",
-  ]
-- ["What should I do?", "Что мне делать?", ""]
-- ["Wait until they are done.", "Подождать, пока они закончат.", ""]
-- [
-    "(Guess I'll just wait until they're done.. )",
-    "(Наверное, просто подожду, пока они закончат..)",
-    "Zoey",
-  ]
-- [
-    "(They won't go at it for too long, right?)",
-    "(Они же не будут слишком долго, правда?)",
-    "Zoey",
-  ]
-- ["Later...", "Позже...", ""]
-- [
-    "I'm impressed that you can still walk, ehehe.",
-    "Я впечатлён, что ты ещё можешь ходить, хе-хе-хе.",
-    "Cartel Guy",
-  ]
-- ["M-mhh me too-.. Heh.", "М-м, я тоже-.. Хех.", "Jay"]
-- [
-    "Why don't you join me on a drink downstairs?",
-    "Почему бы тебе не составить мне компанию за выпивкой внизу?",
-    "Cartel Guy",
-  ]
-- ["S-sureee..~", "Д-дааа..~", "Jay"]
-- [
-    "Finally. Room should be empty. I need to get in there now.",
-    "Наконец-то. Комната должна быть пуста. Нужно попасть внутрь.",
-    "Zoey",
-  ]
-- [
-    "(Dang, he locked the door when he left... )",
-    "(Чёрт, он запер дверь, когда уходил...)",
-    "Zoey",
-  ]
-- [
-    "(Hm. The lock looks pretty simple.. Maybe I could pick it?)",
-    "(Хм. Замок выглядит довольно простым.. Может, вскрыть его?)",
-    "Zoey",
-  ]
-- ["(Got it!)", "(Готово!)", "Zoey"]
-- [
-    "(Now I just have to grab the suitcase. )",
-    "(Теперь нужно просто забрать чемодан.)",
-    "Zoey",
-  ]
-- [
-    "(This must be the suitcase. Gee, it seems pretty fuckin' heavy. Let's just open it up and see if I can just take what's inside.)",
-    "(Это, должно быть, тот чемодан. Ничего себе, он чертовски тяжёлый. Давай-ка откроем и посмотрим, можно ли забрать то, что внутри.)",
-    "Zoey",
-  ]
-- [
-    "(Ugh... Locked?! Hmm... This looks like the same sorta cypher I cracked on another job.)",
-    "(Тьфу... Заперто?! Хм... Похоже на тот же шифр, что я взламывала на другой работе.)",
-    "Zoey",
-  ]
-- [
-    "(I bet I could hack it open. Just need to dust off my decoder.)",
-    "(Готова поспорить, что смогу его взломать. Нужно только стряхнуть пыль с декодера.)",
-    "Zoey",
-  ]
-- ["(Hmm... Let's see...)", "(Хмм... Посмотрим...)", "Zoey"]
-- [
-    "(There we go! The case should just accept any code to unlock now!)",
-    "(Вот так! Теперь кейс должен принять любой код для разблокировки!)",
-    "Zoey",
-  ]
-- ["(Okay, that worked.. Now what?)", "(Окей, сработало.. Что дальше?)", "Zoey"]
-- [
-    "(I should turn it around to get to the latches. )",
-    "(Нужно перевернуть его, чтобы добраться до защёлок.)",
-    "Zoey",
-  ]
-- ["(It should just open up now. )", "(Теперь должно открыться.)", "Zoey"]
-- [
-    "(What the fuck is this? Just some little cylinder device thing in here... The suitcase must be the bulk of all the fuckin' weight. )",
-    "(Что за хрень? Какое-то маленькое цилиндрическое устройство внутри... Похоже, чемодан весит в основном из-за этой херни.)",
-    "Zoey",
-  ]
-- ["**Click!**", "**Щёлк!**", ""]
-- [
-    '"This is Dr. Lozenge. Lead Scientist of Project Crush in the R&D Department of Peitho..."',
-    "Это доктор Леденец. Ведущий учёный проекта «Краш» в отделе R&D Пейто...",
-    "",
-  ]
-- ["(What the fuck is Peitho?)", "(Что за хрень такая Пейто?)", "Zoey"]
-- [
-    '"Now I''m sure you have many questions... like "What even is Peitho?"-',
-    "«Уверен, у вас много вопросов... например: «Что вообще такое Пейто?» — ",
-    "",
-  ]
-- ["...", "...", "Zoey"]
-- [
-    '"We recently conducted a successful test of Crush Waves... a true method of mind control... with a side effect of arousal."',
-    "«Недавно мы провели успешное испытание Волн Краш... настоящий метод контроля сознания... с побочным эффектом возбуждения.»",
-    "",
-  ]
-- [
-    '"It worked... too well. The ramifications are horrifying. My coworkers are now discussing mass emission methods."',
-    "«Это сработало... слишком хорошо. Последствия ужасают. Мои коллеги уже обсуждают методы массового излучения.»",
-    "",
-  ]
-- [
-    '"So... I''ve created an antidote. The ''Crush Blocker'' in this suitcase should innoculate someone against my poison."',
-    "Итак... я создал противоядие. «Краш-блокатор» в этом чемодане должен защитить человека от моего яда.",
-    "",
-  ]
-- [
-    "(Blocker... That must be this little device in the suitcase. Looks like a little cylinder thing.)",
-    "(Блокатор... Должно быть, это то маленькое устройство в чемодане. Выглядит как маленькая цилиндрическая штука.)",
-    "Zoey",
-  ]
-- [
-    '"I just... couldn''t perfect the antidote, so it''s temporary. It only heals Crush buildup... or in layman''s terms... reverses arousal."',
-    "«Я просто... не смог довести противоядие до совершенства, так что оно временное. Оно лишь исцеляет накопление Краш... или, простыми словами... обращает возбуждение вспять.»",
-    "",
-  ]
-- [
-    '"However, the Blocker can deliver an infinite number of injections. Just needs a day to recharge between each dose."',
-    "«Однако Блокатор может делать бесконечное количество инъекций. Просто нужен день на перезарядку между каждой дозой.»",
-    "",
-  ]
-- [
-    "(If this can be mass reproduced... Whoever owns it could break free from GAG's control. The Cartel... Do they know about this?!)",
-    "(Если это можно массово воспроизвести... Тот, кто им завладеет, сможет вырваться из-под контроля GAG. Картель... Они знают об этом?!)",
-    "Zoey",
-  ]
-- [
-    '"I truly believed my work would make the world a better place. That if people were just compelled to cooperate together..."',
-    "«Я искренне верил, что моя работа сделает мир лучше. Что если людей просто принудить к сотрудничеству...»",
-    "",
-  ]
-- [
-    '"Well... time has shown me just how wrong I was. I just hope the world doesn''t need to suffer because of my mistakes."',
-    "«Что ж... время показало, как сильно я ошибался. Надеюсь только, что миру не придётся страдать из-за моих ошибок.»",
-    "",
-  ]
-- [
-    '"To use the blocker, first give it a squeeze to release the protrusion plug. Then inject it into your neck port."',
-    "«Чтобы использовать блокатор, сначала сожмите его, чтобы выпустить выступающую пробку. Затем введите её в порт на шее.»",
-    "",
-  ]
-- ["(That doesn't sound go- )", "(Звучит не очень хоро- )", "Zoey"]
-- ["Received Crush Blocker.", "Получен Краш-блокатор.", ""]
-- [
-    "(Shit! This place must be booby trapped...)",
-    "(Дерьмо! Это место, должно быть, заминировано...)",
-    "Zoey",
-  ]
-- ["Hooooly shit!", "Охренеть!", "Zoey"]
-- ["(It- It worked.)", "(Это- Сработало.)", "Zoey"]
-- [
-    "(Thank you, Dr. Lozenge. Now I just need to get out of here before this Crush Gas gets me again.)",
-    "(Спасибо, доктор Леденец. Теперь нужно убраться отсюда, пока этот Краш-газ снова меня не накрыл.)",
-    "Zoey",
-  ]
-- ["Get this door open!", "Открой эту дверь!", "Klaudia"]
-- [
-    "(Well... Only one way out. What was that saying about god closing a door and opening a window?)",
-    "(Что ж... Только один выход. Как там говорится: бог закрывает дверь, но открывает окно?)",
-    "Zoey",
-  ]
-- ["(Fuck it.)", "(К чёрту.)", "Zoey"]
-- ["Fucking OW!", "Ай, бля!", "Zoey"]
-- [
-    "(Ugh! Fucking gross! Why can't I just land in some fluffy pillows for once?)",
-    "(Тьфу! Чертовски мерзко! Почему я не могу приземлиться в пушистые подушки хоть раз?)",
-    "Zoey",
-  ]
-- ["Oh Zoooey~ Guess who~?", "О, Зооои~ Угадай, кто~?", "Sarah"]
-- ["Hi Sarah.", "Привет, Сара.", "Zoey"]
-- [
-    "Eh? What's up? You sound down in the dumps.",
-    "Э? Что случилось? Голос какой-то подавленный.",
-    "Sarah",
-  ]
-- [
-    "Something like that. Hey, can I call you back later? Just a liiittle busy at the moment.",
-    "Вроде того. Слушай, можно я тебе позже перезвоню? Я немноожечко занята сейчас.",
-    "Zoey",
-  ]
-- [
-    "Ughhh! But you're alwaaays busy! When you gonna make some time for your bestie, huh?",
-    "Угх! Но ты вечно занята! Когда ты найдёшь время для своей лучшей подруги, а?",
-    "Sarah",
-  ]
-- ["Uhhh- Soon? I really gotta go-", "Эээ- Скоро? Мне правда пора-", "Zoey"]
-- [
-    "Just fuckin' with ya. I get it, super spy! You've got your merc work. I'll swing by your place in a bit-",
-    "Да шучу я. Всё понимаю, супершпионка! У тебя своя наёмническая работа. Загляну к тебе через пару часов-",
-    "Sarah",
-  ]
-- ["Yep! See you there! Bye!", "Ага! Увидимся там! Пока!", "Zoey"]
-- ["(Welp. Onward and upward.)", "(Ну что ж. Вперёд и вверх.)", "Zoey"]
-- [
-    "(What a night... I've basically pissed off everyone in the redlight district, and now I smell like a dumpster. Just my luck.)",
-    "(Ну и ночка... Я, походу, бесила всех в районе красных фонарей, а теперь воняю как помойка. Как всегда везёт.)",
-    "Zoey",
-  ]
+- text: "Order now."
+  translation: "Заказать."
+  speaker: ""
+  rich_text: "Order now."
+  rich_translation: ""
+- text: "Please choose a room for SLUT Service™..."
+  translation: "Выберите номер для SLUT Service™..."
+  speaker: ""
+  rich_text: "<i>Please choose a room for SLUT Service™...</i>"
+  rich_translation: ""
+- text: "Room 202"
+  translation: "Комната 202"
+  speaker: ""
+  rich_text: "Room 202"
+  rich_translation: ""
+- text: "Are you sure you want to order SLUT Service™?"
+  translation: "Вы уверены, что хотите заказать SLUT Service™?"
+  speaker: ""
+  rich_text: "<i>Are you sure you want to order SLUT Service™?</i>"
+  rich_translation: ""
+- text: "Yes"
+  translation: "Да"
+  speaker: ""
+  rich_text: "Yes"
+  rich_translation: ""
+- text: "Welcome to the SLUT Service™ menu! Select an option..."
+  translation: "Добро пожаловать в меню SLUT Service™! Выберите опцию..."
+  speaker: ""
+  rich_text: "<i>Welcome to the SLUT Service™ menu! Select an option...</i>"
+  rich_translation: ""
+- text: "Close menu."
+  translation: "Закрыть меню."
+  speaker: ""
+  rich_text: "Close menu."
+  rich_translation: ""
+- text: "(Alright, I suppose now I just have to wait. Pretty tight in here. )"
+  translation: "(Ладно, теперь мне остаётся только ждать. Здесь довольно тесно.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Alright, I suppose now I just have to wait. Pretty tight in here. )</i>"
+  rich_translation: ""
+- text: "(What is that sound?)"
+  translation: "(Что это за звук?)"
+  speaker: "Zoey"
+  rich_text: "<i>(What is that sound?)</i>"
+  rich_translation: ""
+- text: ">"
+  translation: ">"
+  speaker: ""
+  rich_text: "<< Information: Servicer detected. Probing state. >>"
+  rich_translation: ""
+- text: "Uwaa! Hey!"
+  translation: "Уаа! Эй!"
+  speaker: "Zoey"
+  rich_text: "Uwaa! Hey!"
+  rich_translation: ""
+- text: "S-streching?"
+  translation: "Р-растяжение?"
+  speaker: "Zoey"
+  rich_text: "S-streching?"
+  rich_translation: ""
+- text: "Unh! H-hey..! That's-.."
+  translation: "Ух! Э-эй..! Это-.."
+  speaker: "Zoey"
+  rich_text: "Unh! H-hey..! That's-.."
+  rich_translation: ""
+- text: "Eep-"
+  translation: "Ип-"
+  speaker: "Zoey"
+  rich_text: "Eep-"
+  rich_translation: ""
+- text: "(Welp, thanks box. Didn't need those anyways. )"
+  translation: "(Ну что ж, спасибо, коробка. Они мне всё равно не нужны.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Welp, thanks box. Didn't need those anyways. )</i>"
+  rich_translation: ""
+- text: "Khh-.. It's really-.. Stretching me.."
+  translation: "Кх-.. Он правда-.. Растягивает меня.."
+  speaker: "Zoey"
+  rich_text: 'Khh-.. It''s really-.. <color=#B867FF><font="Roboto-Condensed_DialogueUI" material="Roboto-Condensed_DialogueUI_Perversion">Stretching me..</font></color>'
+  rich_translation: ""
+- text: "(The box is shaking! Is it moving upstairs by itself?)"
+  translation: "(Коробка трясётся! Она сама движется наверх?)"
+  speaker: "Zoey"
+  rich_text: "<i>(The box is shaking! Is it moving upstairs by itself?)</i>"
+  rich_translation: ""
+- text: "L-.. Lubrication system.. For improved arrival speed?"
+  translation: "С-.. Смазочная система.. Для ускорения доставки?"
+  speaker: "Zoey"
+  rich_text: 'L-.. <color=#B867FF><font="Roboto-Condensed_DialogueUI" material="Roboto-Condensed_DialogueUI_Perversion">Lubrication system</font></color>.. For improved arrival speed?'
+  rich_translation: ""
+- text: "Decline"
+  translation: "Отказаться"
+  speaker: ""
+  rich_text: "Decline"
+  rich_translation: ""
+- text: "I'm not sure that's a good idea.."
+  translation: "Я не уверена, что это хорошая идея.."
+  speaker: "Zoey"
+  rich_text: "I'm not sure that's a good idea.."
+  rich_translation: ""
+- text: "(Phew! Thank goodness no one's in this room. That could've been a little bit too sexy for me right now.)"
+  translation: "(Уф! Слава богу, в этой комнате никого нет. Это могло бы быть чересчур для меня сейчас.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Phew! Thank goodness no one's in this room. That could've been a little bit <b>too</b> sexy for me right now.)</i>"
+  rich_translation: ""
+- text: "(Now I've just gotta get my stuff back from the box and get dressed back up.)"
+  translation: "(Теперь нужно забрать свои вещи из коробки и снова одеться.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Now I've just gotta get my stuff back from the box and get dressed back up.)</i>"
+  rich_translation: ""
+- text: "Received KeyCard (Room 202)."
+  translation: "Получена KeyCard (номер 202)."
+  speaker: ""
+  rich_text: "Received <color=#00ffffff>KeyCard (Room 202)</color>."
+  rich_translation: ""
+- text: "(205... This is the place. )"
+  translation: "(205... Это здесь.)"
+  speaker: "Zoey"
+  rich_text: "<i>(205... This is the place. )</i>"
+  rich_translation: ""
+- text: "Ah fuck! Yes! Naughty bunny boy! Next round!"
+  translation: "Ах, бля! Да! Непослушный мальчик-зайчик! Следующий раунд!"
+  speaker: "Cartel Guy"
+  rich_text: "<size=30>Ah <size=37>fuck!</size> Yes! Naughty bunny boy!<size=37> Next round!"
+  rich_translation: ""
+- text: "(Hhh! They're still in there.. I better make sure the suitcase is with them. )"
+  translation: "(Хх! Они всё ещё там.. Лучше убедиться, что чемодан у них.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Hhh! They're still in there.. I better make sure the suitcase is with them. )</i>"
+  rich_translation: ""
+- text: "(This is so not okay... )"
+  translation: "(Это совсем не нормально...)"
+  speaker: "Zoey"
+  rich_text: "<i>(This is <b>so</b> not okay... )</i>"
+  rich_translation: ""
+- text: "(Jackpot! That's the case the client wants! )"
+  translation: "(Джекпот! Это тот кейс, который нужен клиенту!)"
+  speaker: "Zoey"
+  rich_text: "<i>(Jackpot! That's the case the client wants! )</i>"
+  rich_translation: ""
+- text: "Mnhhh.. Yess..! Please, put it innn..!!~"
+  translation: "М-м.. Да..! Прошу, вставь его вну-у-трь..!!~"
+  speaker: "Jay"
+  rich_text: "Mnhhh.. Yess..! Please, put it innn..!!~"
+  rich_translation: ""
+- text: "Want it so bad, hmm?"
+  translation: "Так сильно хочешь, мм?"
+  speaker: "Cartel Guy"
+  rich_text: "Want it so bad, hmm?"
+  rich_translation: ""
+- text: "(Hh.. )"
+  translation: "(Хх..)"
+  speaker: "Zoey"
+  rich_text: "<i>(Hh.. )</i>"
+  rich_translation: ""
+- text: "(I'll have to wait until they're done... No way I'm getting it while they're.. Uh.. Next to it.. )"
+  translation: "(Придётся подождать, пока они закончат... Ни за что не полезу, пока они.. Эм.. Рядом с ним..)"
+  speaker: "Zoey"
+  rich_text: "<i>(I'll have to wait until they're done... No way I'm getting it while they're.. Uh.. Next to it.. )</i>"
+  rich_translation: ""
+- text: "This place is dirty in more ways than one."
+  translation: "Это место грязное во всех смыслах."
+  speaker: "Zoey"
+  rich_text: "This place is dirty in more ways than one."
+  rich_translation: ""
+- text: "Seems like this room is under renovation. Perfect place to lay low until they are finally.. done.."
+  translation: "Похоже, эта комната на ремонте. Идеальное место, чтобы затаиться, пока они наконец.. не закончат.."
+  speaker: "Zoey"
+  rich_text: "Seems like this room is under renovation. Perfect place to lay low until they are finally.. <i>done.."
+  rich_translation: ""
+- text: "What should I do?"
+  translation: "Что мне делать?"
+  speaker: ""
+  rich_text: "What should I do?"
+  rich_translation: ""
+- text: "Wait until they are done."
+  translation: "Подождать, пока они закончат."
+  speaker: ""
+  rich_text: "Wait until they are done."
+  rich_translation: ""
+- text: "(Guess I'll just wait until they're done.. )"
+  translation: "(Наверное, просто подожду, пока они закончат..)"
+  speaker: "Zoey"
+  rich_text: "<i>(Guess I'll just wait until they're done.. )</i>"
+  rich_translation: ""
+- text: "(They won't go at it for too long, right?)"
+  translation: "(Они же не будут слишком долго, правда?)"
+  speaker: "Zoey"
+  rich_text: "<i>(They won't go at it for <b>too</b> long, right?)</i>"
+  rich_translation: ""
+- text: "Later..."
+  translation: "Позже..."
+  speaker: ""
+  rich_text: "Later..."
+  rich_translation: ""
+- text: "I'm impressed that you can still walk, ehehe."
+  translation: "Я впечатлён, что ты ещё можешь ходить, хе-хе-хе."
+  speaker: "Cartel Guy"
+  rich_text: "I'm impressed that you can still walk, ehehe."
+  rich_translation: ""
+- text: "M-mhh me too-.. Heh."
+  translation: "М-м, я тоже-.. Хех."
+  speaker: "Jay"
+  rich_text: "M-mhh me too-.. Heh."
+  rich_translation: ""
+- text: "Why don't you join me on a drink downstairs?"
+  translation: "Почему бы тебе не составить мне компанию за выпивкой внизу?"
+  speaker: "Cartel Guy"
+  rich_text: "Why don't you join me on a drink downstairs?"
+  rich_translation: ""
+- text: "S-sureee..~"
+  translation: "Д-дааа..~"
+  speaker: "Jay"
+  rich_text: "S-sureee..~"
+  rich_translation: ""
+- text: "Finally. Room should be empty. I need to get in there now."
+  translation: "Наконец-то. Комната должна быть пуста. Нужно попасть внутрь."
+  speaker: "Zoey"
+  rich_text: "Finally. Room should be empty. I need to get in there now."
+  rich_translation: ""
+- text: "(Dang, he locked the door when he left... )"
+  translation: "(Чёрт, он запер дверь, когда уходил...)"
+  speaker: "Zoey"
+  rich_text: "<i>(Dang, he locked the door when he left... )</i>"
+  rich_translation: ""
+- text: "(Hm. The lock looks pretty simple.. Maybe I could pick it?)"
+  translation: "(Хм. Замок выглядит довольно простым.. Может, вскрыть его?)"
+  speaker: "Zoey"
+  rich_text: "<i>(Hm. The lock looks pretty simple.. Maybe I could pick it?)</i>"
+  rich_translation: ""
+- text: "(Got it!)"
+  translation: "(Готово!)"
+  speaker: "Zoey"
+  rich_text: "<i>(Got it!)</i>"
+  rich_translation: ""
+- text: "(Now I just have to grab the suitcase. )"
+  translation: "(Теперь нужно просто забрать чемодан.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Now I just have to grab the suitcase. )</i>"
+  rich_translation: ""
+- text: "(This must be the suitcase. Gee, it seems pretty fuckin' heavy. Let's just open it up and see if I can just take what's inside.)"
+  translation: "(Это, должно быть, тот чемодан. Ничего себе, он чертовски тяжёлый. Давай-ка откроем и посмотрим, можно ли забрать то, что внутри.)"
+  speaker: "Zoey"
+  rich_text: "<i>(This must be the suitcase. Gee, it seems pretty fuckin' heavy. Let's just open it up and see if I can just take what's inside.)</i>"
+  rich_translation: ""
+- text: "(Ugh... Locked?! Hmm... This looks like the same sorta cypher I cracked on another job.)"
+  translation: "(Тьфу... Заперто?! Хм... Похоже на тот же шифр, что я взламывала на другой работе.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Ugh... Locked?! Hmm... This looks like the same sorta cypher I cracked on another job.)</i>"
+  rich_translation: ""
+- text: "(I bet I could hack it open. Just need to dust off my decoder.)"
+  translation: "(Готова поспорить, что смогу его взломать. Нужно только стряхнуть пыль с декодера.)"
+  speaker: "Zoey"
+  rich_text: "<i>(I bet I could hack it open. Just need to dust off my decoder.)</i>"
+  rich_translation: ""
+- text: "(Hmm... Let's see...)"
+  translation: "(Хмм... Посмотрим...)"
+  speaker: "Zoey"
+  rich_text: "<i>(Hmm... Let's see...)</i>"
+  rich_translation: ""
+- text: "(There we go! The case should just accept any code to unlock now!)"
+  translation: "(Вот так! Теперь кейс должен принять любой код для разблокировки!)"
+  speaker: "Zoey"
+  rich_text: "<i>(There we go! The case should just accept any code to unlock now!)</i>"
+  rich_translation: ""
+- text: "(Okay, that worked.. Now what?)"
+  translation: "(Окей, сработало.. Что дальше?)"
+  speaker: "Zoey"
+  rich_text: "<i>(Okay, that worked.. Now what?)</i>"
+  rich_translation: ""
+- text: "(I should turn it around to get to the latches. )"
+  translation: "(Нужно перевернуть его, чтобы добраться до защёлок.)"
+  speaker: "Zoey"
+  rich_text: "<i>(I should turn it around to get to the latches. )</i>"
+  rich_translation: ""
+- text: "(It should just open up now. )"
+  translation: "(Теперь должно открыться.)"
+  speaker: "Zoey"
+  rich_text: "<i>(It should just open up now. )</i>"
+  rich_translation: ""
+- text: "(What the fuck is this? Just some little cylinder device thing in here... The suitcase must be the bulk of all the fuckin' weight. )"
+  translation: "(Что за хрень? Какое-то маленькое цилиндрическое устройство внутри... Похоже, чемодан весит в основном из-за этой херни.)"
+  speaker: "Zoey"
+  rich_text: "<i>(What the fuck is this? Just some little cylinder device thing in here... The suitcase must be the bulk of all the fuckin' weight. )</i>"
+  rich_translation: ""
+- text: "**Click!**"
+  translation: "**Щёлк!**"
+  speaker: ""
+  rich_text: "<i>**Click!**"
+  rich_translation: ""
+- text: '"This is Dr. Lozenge. Lead Scientist of Project Crush in the R&D Department of Peitho..."'
+  translation: "Это доктор Леденец. Ведущий учёный проекта «Краш» в отделе R&D Пейто..."
+  speaker: ""
+  rich_text: '<i>"This is Dr. Lozenge. Lead Scientist of Project Crush in the R&D Department of Peitho..."'
+  rich_translation: ""
+- text: "(What the fuck is Peitho?)"
+  translation: "(Что за хрень такая Пейто?)"
+  speaker: "Zoey"
+  rich_text: "<i>(What the fuck is Peitho?)</i>"
+  rich_translation: ""
+- text: '"Now I''m sure you have many questions... like "What even is Peitho?"-'
+  translation: "«Уверен, у вас много вопросов... например: «Что вообще такое Пейто?» — "
+  speaker: ""
+  rich_text: '<i>"Now I''m sure you have many questions... like "What even is Peitho?"-</i>'
+  rich_translation: ""
+- text: "..."
+  translation: "..."
+  speaker: "Zoey"
+  rich_text: "..."
+  rich_translation: ""
+- text: '"We recently conducted a successful test of Crush Waves... a true method of mind control... with a side effect of arousal."'
+  translation: "«Недавно мы провели успешное испытание Волн Краш... настоящий метод контроля сознания... с побочным эффектом возбуждения.»"
+  speaker: ""
+  rich_text: '<i>"We recently conducted a successful test of Crush Waves... a true method of mind control... with a side effect of arousal."</i>'
+  rich_translation: ""
+- text: '"It worked... too well. The ramifications are horrifying. My coworkers are now discussing mass emission methods."'
+  translation: "«Это сработало... слишком хорошо. Последствия ужасают. Мои коллеги уже обсуждают методы массового излучения.»"
+  speaker: ""
+  rich_text: '<i>"It worked... too well. The ramifications are horrifying. My coworkers are now discussing mass emission methods."</i>'
+  rich_translation: ""
+- text: '"So... I''ve created an antidote. The ''Crush Blocker'' in this suitcase should innoculate someone against my poison."'
+  translation: "Итак... я создал противоядие. «Краш-блокатор» в этом чемодане должен защитить человека от моего яда."
+  speaker: ""
+  rich_text: '<i>"So... I''ve created an antidote. The ''Crush Blocker'' in this suitcase should innoculate someone against my poison."</i>'
+  rich_translation: ""
+- text: "(Blocker... That must be this little device in the suitcase. Looks like a little cylinder thing.)"
+  translation: "(Блокатор... Должно быть, это то маленькое устройство в чемодане. Выглядит как маленькая цилиндрическая штука.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Blocker... That must be this little device in the suitcase. Looks like a little cylinder thing.)</i>"
+  rich_translation: ""
+- text: '"I just... couldn''t perfect the antidote, so it''s temporary. It only heals Crush buildup... or in layman''s terms... reverses arousal."'
+  translation: "«Я просто... не смог довести противоядие до совершенства, так что оно временное. Оно лишь исцеляет накопление Краш... или, простыми словами... обращает возбуждение вспять.»"
+  speaker: ""
+  rich_text: '<i>"I just... couldn''t perfect the antidote, so it''s temporary. It only heals Crush buildup... or in layman''s terms... reverses arousal."'
+  rich_translation: ""
+- text: '"However, the Blocker can deliver an infinite number of injections. Just needs a day to recharge between each dose."'
+  translation: "«Однако Блокатор может делать бесконечное количество инъекций. Просто нужен день на перезарядку между каждой дозой.»"
+  speaker: ""
+  rich_text: '<i>"However, the Blocker can deliver an infinite number of injections. Just needs a day to recharge between each dose."'
+  rich_translation: ""
+- text: "(If this can be mass reproduced... Whoever owns it could break free from GAG's control. The Cartel... Do they know about this?!)"
+  translation: "(Если это можно массово воспроизвести... Тот, кто им завладеет, сможет вырваться из-под контроля GAG. Картель... Они знают об этом?!)"
+  speaker: "Zoey"
+  rich_text: "<i>(If this can be mass reproduced... Whoever owns it could break free from GAG's control. The Cartel... Do they know about this?!)</i>"
+  rich_translation: ""
+- text: '"I truly believed my work would make the world a better place. That if people were just compelled to cooperate together..."'
+  translation: "«Я искренне верил, что моя работа сделает мир лучше. Что если людей просто принудить к сотрудничеству...»"
+  speaker: ""
+  rich_text: '<i>"I truly believed my work would make the world a better place. That if people were just <b>compelled</b> to cooperate together..."</i>'
+  rich_translation: ""
+- text: '"Well... time has shown me just how wrong I was. I just hope the world doesn''t need to suffer because of my mistakes."'
+  translation: "«Что ж... время показало, как сильно я ошибался. Надеюсь только, что миру не придётся страдать из-за моих ошибок.»"
+  speaker: ""
+  rich_text: '<i>"Well... time has shown me just how wrong I was. I just hope the world doesn''t need to suffer because of my mistakes."</i>'
+  rich_translation: ""
+- text: '"To use the blocker, first give it a squeeze to release the protrusion plug. Then inject it into your neck port."'
+  translation: "«Чтобы использовать блокатор, сначала сожмите его, чтобы выпустить выступающую пробку. Затем введите её в порт на шее.»"
+  speaker: ""
+  rich_text: '<i>"To use the blocker, first give it a squeeze to release the protrusion plug. Then inject it into your neck port."</i>'
+  rich_translation: ""
+- text: "(That doesn't sound go- )"
+  translation: "(Звучит не очень хоро- )"
+  speaker: "Zoey"
+  rich_text: "<i>(That doesn't sound go- )</i>"
+  rich_translation: ""
+- text: "Received Crush Blocker."
+  translation: "Получен Краш-блокатор."
+  speaker: ""
+  rich_text: "Received <color=#00ffffff>Crush Blocker</color>."
+  rich_translation: ""
+- text: "(Shit! This place must be booby trapped...)"
+  translation: "(Дерьмо! Это место, должно быть, заминировано...)"
+  speaker: "Zoey"
+  rich_text: '<i>(Shit! This place must be <color=#B867FF><font="Roboto-Condensed_DialogueUI" material="Roboto-Condensed_DialogueUI_Perversion">booby</font></color> trap<color=#B867FF><font="Roboto-Condensed_DialogueUI" material="Roboto-Condensed_DialogueUI_Perversion">ped</font></color>...)</i>'
+  rich_translation: ""
+- text: "Hooooly shit!"
+  translation: "Охренеть!"
+  speaker: "Zoey"
+  rich_text: '<color=#B867FF><font="Roboto-Condensed_DialogueUI" material="Roboto-Condensed_DialogueUI_Perversion">Hoooo</font></color>ly shit!'
+  rich_translation: ""
+- text: "(It- It worked.)"
+  translation: "(Это- Сработало.)"
+  speaker: "Zoey"
+  rich_text: "<i>(It- It worked.)</i>"
+  rich_translation: ""
+- text: "(Thank you, Dr. Lozenge. Now I just need to get out of here before this Crush Gas gets me again.)"
+  translation: "(Спасибо, доктор Леденец. Теперь нужно убраться отсюда, пока этот Краш-газ снова меня не накрыл.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Thank you, Dr. Lozenge. Now I just need to get out of here before this Crush Gas gets me again.)</i>"
+  rich_translation: ""
+- text: "Get this door open!"
+  translation: "Открой эту дверь!"
+  speaker: "Klaudia"
+  rich_text: "Get this door open!"
+  rich_translation: ""
+- text: "(Well... Only one way out. What was that saying about god closing a door and opening a window?)"
+  translation: "(Что ж... Только один выход. Как там говорится: бог закрывает дверь, но открывает окно?)"
+  speaker: "Zoey"
+  rich_text: "<i>(Well... Only one way out. What was that saying about god closing a door and opening a window?)</i>"
+  rich_translation: ""
+- text: "(Fuck it.)"
+  translation: "(К чёрту.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Fuck it.)</i>"
+  rich_translation: ""
+- text: "Fucking OW!"
+  translation: "Ай, бля!"
+  speaker: "Zoey"
+  rich_text: "Fucking OW!"
+  rich_translation: ""
+- text: "(Ugh! Fucking gross! Why can't I just land in some fluffy pillows for once?)"
+  translation: "(Тьфу! Чертовски мерзко! Почему я не могу приземлиться в пушистые подушки хоть раз?)"
+  speaker: "Zoey"
+  rich_text: "<i>(Ugh! Fucking gross! Why can't I just land in some fluffy pillows for once?)</i>"
+  rich_translation: ""
+- text: "Oh Zoooey~ Guess who~?"
+  translation: "О, Зооои~ Угадай, кто~?"
+  speaker: "Sarah"
+  rich_text: "Oh Zoooey~ Guess who~?"
+  rich_translation: ""
+- text: "Hi Sarah."
+  translation: "Привет, Сара."
+  speaker: "Zoey"
+  rich_text: "Hi Sarah."
+  rich_translation: ""
+- text: "Eh? What's up? You sound down in the dumps."
+  translation: "Э? Что случилось? Голос какой-то подавленный."
+  speaker: "Sarah"
+  rich_text: "Eh? What's up? You sound down in the dumps."
+  rich_translation: ""
+- text: "Something like that. Hey, can I call you back later? Just a liiittle busy at the moment."
+  translation: "Вроде того. Слушай, можно я тебе позже перезвоню? Я немноожечко занята сейчас."
+  speaker: "Zoey"
+  rich_text: "Something like that. Hey, can I call you back later? Just a liiittle busy at the moment."
+  rich_translation: ""
+- text: "Ughhh! But you're alwaaays busy! When you gonna make some time for your bestie, huh?"
+  translation: "Угх! Но ты вечно занята! Когда ты найдёшь время для своей лучшей подруги, а?"
+  speaker: "Sarah"
+  rich_text: "Ughhh! But you're alwaaays busy! When you gonna make some time for your bestie, huh?"
+  rich_translation: ""
+- text: "Uhhh- Soon? I really gotta go-"
+  translation: "Эээ- Скоро? Мне правда пора-"
+  speaker: "Zoey"
+  rich_text: "Uhhh- Soon? I really gotta go-"
+  rich_translation: ""
+- text: "Just fuckin' with ya. I get it, super spy! You've got your merc work. I'll swing by your place in a bit-"
+  translation: "Да шучу я. Всё понимаю, супершпионка! У тебя своя наёмническая работа. Загляну к тебе через пару часов-"
+  speaker: "Sarah"
+  rich_text: "Just fuckin' with ya. I get it, super spy! You've got your merc work. I'll swing by your place in a bit-"
+  rich_translation: ""
+- text: "Yep! See you there! Bye!"
+  translation: "Ага! Увидимся там! Пока!"
+  speaker: "Zoey"
+  rich_text: "Yep! See you there! Bye!"
+  rich_translation: ""
+- text: "(Welp. Onward and upward.)"
+  translation: "(Ну что ж. Вперёд и вверх.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Welp. Onward and upward.)</i>"
+  rich_translation: ""
+- text: "(What a night... I've basically pissed off everyone in the redlight district, and now I smell like a dumpster. Just my luck.)"
+  translation: "(Ну и ночка... Я, походу, бесила всех в районе красных фонарей, а теперь воняю как помойка. Как всегда везёт.)"
+  speaker: "Zoey"
+  rich_text: "<i>(What a night... I've basically pissed off everyone in the redlight district, and now I smell like a dumpster. Just my luck.)</i>"
+  rich_translation: ""

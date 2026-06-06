@@ -1,59 +1,210 @@
-# Speakers: [name, translation, gender, notes]
+# Speakers
 
-- ["Zoey", "Зои", "female", "Главная героиня"]
-- ["Man", "Мужчина", "male", "Собирательный образ; в диалогах разные мужчины"]
-- ["Klaudia", "Клавдия", "female", "Клавдия (русская форма)"]
-- ["???", "???", "???", "Неизвестный персонаж (картель, комната 205, объект)"]
-- ["Jay", "Джей", "male", ""]
-- ["Cartel Guy", "Картельный", "male", "Член наркокартеля"]
-- ["Sarah", "Сара", "female", ""]
-- ["Nova", "Нова", "female", ""]
-- ["Woman", "Девушка", "female", "Картельная / клиентка массажа"]
-- ["Enforcer 1483", "Силовик 1483", "male", "Пол не указан, речь мужская"]
-- ["Salon Clerk", "Сотрудница салона", "female", ""]
-- ["Enforcer 1520", "Силовик 1520", "male", "Пол не указан, речь мужская"]
-- ["Max", "Макс", "female", "Персонаж женского пола (андроид)"]
-- ["Lio", "Лио", "male", ""]
-- ["Jaime", "Джейми", "male", "Сосед, речь мужская"]
-- ["Klark", "Кларк", "male", ""]
-- ["Hooligan", "Хулиган", "male", "Уличный громила, речь мужская"]
-- ["The Boss", "Шеф", "male", ""]
-- [
-    "Skank",
-    "Шлюшка",
-    "female",
-    "Персонаж секс-работницы; в диалогах возможна вариативность",
-  ]
-- ["Intercom", "Интерком", "male", "Мужской голос по интеркому"]
-- ["Leona", "Леона", "female", ""]
-- ["Rosie", "Рози", "female", ""]
-- ["Customer", "Клиент", "male", "Завсегдатай клуба (Trov), всегда мужчина"]
-- ["Cocky", "", "", ""]
-- ["Lewd", "", "", ""]
-- ["Varen", "", "", ""]
-- ["Bunnyboy", "", "", ""]
-- ["Rugnar", "", "", ""]
-- ["Mira", "", "", ""]
-- ["Femboy", "", "", ""]
-- ["Bunnygirl", "", "", ""]
-- ["Cancel", "", "", ""]
-- ["Help", "", "", ""]
-- ["Logs", "", "", ""]
-- ["Trov", "", "", ""]
-- ["GroundFloor", "", "", ""]
-- ["UpperFloor", "", "", ""]
-- ["Cook", "", "", ""]
-- ["Empty", "", "", ""]
-- ["Girl", "", "", ""]
-- ["Shoked", "", "", ""]
-- ["Athletic", "", "", ""]
-- ["Horny", "", "", ""]
-- ["Silly", "", "", ""]
-- ["Laughing", "", "", ""]
-- ["Agree", "", "", ""]
-- ["Decline", "", "", ""]
-- ["OrderSlutService", "", "", ""]
-- ["OnChoiceSelected", "", "", ""]
-- ["Press", "", "", ""]
-- ["Dialogue", "", "", ""]
-- ["FINISHED", "", "", ""]
+- text: "Zoey"
+  translation: "Зои"
+  gender: "female"
+  notes: "Главная героиня"
+- text: "Man"
+  translation: "Мужчина"
+  gender: "male"
+  notes: "Собирательный образ; в диалогах разные мужчины"
+- text: "Klaudia"
+  translation: "Клавдия"
+  gender: "female"
+  notes: "Клавдия (русская форма)"
+- text: "???"
+  translation: "???"
+  gender: "???"
+  notes: "Неизвестный персонаж (картель, комната 205, объект)"
+- text: "Jay"
+  translation: "Джей"
+  gender: "male"
+  notes: ""
+- text: "Cartel Guy"
+  translation: "Картельный"
+  gender: "male"
+  notes: "Член наркокартеля"
+- text: "Sarah"
+  translation: "Сара"
+  gender: "female"
+  notes: ""
+- text: "Nova"
+  translation: "Нова"
+  gender: "female"
+  notes: ""
+- text: "Woman"
+  translation: "Девушка"
+  gender: "female"
+  notes: "Картельная / клиентка массажа"
+- text: "Enforcer 1483"
+  translation: "Силовик 1483"
+  gender: "male"
+  notes: "Пол не указан, речь мужская"
+- text: "Salon Clerk"
+  translation: "Сотрудница салона"
+  gender: "female"
+  notes: ""
+- text: "Enforcer 1520"
+  translation: "Силовик 1520"
+  gender: "male"
+  notes: "Пол не указан, речь мужская"
+- text: "Max"
+  translation: "Макс"
+  gender: "female"
+  notes: "Персонаж женского пола (андроид)"
+- text: "Lio"
+  translation: "Лио"
+  gender: "male"
+  notes: ""
+- text: "Jaime"
+  translation: "Джейми"
+  gender: "male"
+  notes: "Сосед, речь мужская"
+- text: "Klark"
+  translation: "Кларк"
+  gender: "male"
+  notes: ""
+- text: "Hooligan"
+  translation: "Хулиган"
+  gender: "male"
+  notes: "Уличный громила, речь мужская"
+- text: "The Boss"
+  translation: "Шеф"
+  gender: "male"
+  notes: ""
+- text: "Skank"
+  translation: "Шлюшка"
+  gender: "female"
+  notes: "Персонаж секс-работницы; в диалогах возможна вариативность"
+- text: "Intercom"
+  translation: "Интерком"
+  gender: "male"
+  notes: "Мужской голос по интеркому"
+- text: "Leona"
+  translation: "Леона"
+  gender: "female"
+  notes: ""
+- text: "Rosie"
+  translation: "Рози"
+  gender: "female"
+  notes: ""
+- text: "Customer"
+  translation: "Клиент"
+  gender: "male"
+  notes: "Завсегдатай клуба (Trov), всегда мужчина"
+- text: "Cocky"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Lewd"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Varen"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Bunnyboy"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Rugnar"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Mira"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Femboy"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Bunnygirl"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Cancel"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Help"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Logs"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Trov"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "GroundFloor"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "UpperFloor"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Cook"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Empty"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Girl"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Shoked"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Athletic"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Horny"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Silly"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Laughing"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Agree"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Decline"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "OrderSlutService"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "OnChoiceSelected"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Press"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "Dialogue"
+  translation: ""
+  gender: ""
+  notes: ""
+- text: "FINISHED"
+  translation: ""
+  gender: ""
+  notes: ""

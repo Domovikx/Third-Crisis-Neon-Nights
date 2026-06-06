@@ -1,4 +1,7 @@
 # Test translations
 
-- ["Resolution Scaling", "Масштабирование разрешения"]
-- ["Fullscreen", "Полноэкранный режим"]
+- text: "Resolution Scaling"
+  translation: "Масштабирование разрешения"
+
+- text: "Fullscreen"
+  translation: "Полноэкранный режим"

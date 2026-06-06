@@ -51,26 +51,26 @@ cat "Third Crisis Neon Nights_Data/Managed/NeonTranslator.log"
 
 ```
 translations/
-  dialogues.73203.yaml  — диалоги (1503, [text, translation, speaker])
+  dialogues.73203.yaml  — диалоги (1503, text, translation, speaker, rich_text, rich_translation)
   dialogues.73262.yaml  — диалоги (93)
   dialogues.73263.yaml  — диалоги (97)
   dialogues.73264.yaml  — диалоги (100)
-  speakers.yaml         — персонажи (23, [name, translation, gender])
-  settings_keys.yaml    — UI строки (55, [key, translation])
+  speakers.yaml         — персонажи (23, text, translation, gender, notes)
+  settings_keys.yaml    — UI строки (55, text, translation)
 ```
 
 ## Файлы
 
 | Файл                                                              | Назначение                             |
 | ----------------------------------------------------------------- | -------------------------------------- |
-| `runtime/NeonTranslatorRuntime.dll`                                    | Скомпилированная DLL (build.py)         |
-| `Third Crisis Neon Nights_Data/Managed/NeonTranslatorRuntime.dll`      | Установленная DLL                       |
-| `translations/dialogues.{path_id}.yaml`                                | Диалоги (источник, 4 файла)             |
-| `translations/settings_keys.yaml`                                      | UI-текст (источник)                     |
-| `translations/speakers.yaml`                                           | Имена персонажей (источник)             |
-| `Third Crisis Neon Nights_Data/Managed/NeonTranslator.log`             | Лог рантайма                            |
-| `dwmapi.dll`                                                           | Native proxy (корень игры)              |
-| `dwmapi_real.dll`                                                      | Форвардер (копия системной dwmapi.dll)  |
+| `runtime/NeonTranslatorRuntime.dll`                               | Скомпилированная DLL (build.py)        |
+| `Third Crisis Neon Nights_Data/Managed/NeonTranslatorRuntime.dll` | Установленная DLL                      |
+| `translations/dialogues.{path_id}.yaml`                           | Диалоги (источник, 4 файла)            |
+| `translations/settings_keys.yaml`                                 | UI-текст (источник)                    |
+| `translations/speakers.yaml`                                      | Имена персонажей (источник)            |
+| `Third Crisis Neon Nights_Data/Managed/NeonTranslator.log`        | Лог рантайма                           |
+| `dwmapi.dll`                                                      | Native proxy (корень игры)             |
+| `dwmapi_real.dll`                                                 | Форвардер (копия системной dwmapi.dll) |
 
 ## После деплоя
 
@@ -81,6 +81,7 @@ translations/
 ## Очистка старых NDJSON
 
 Рантайм больше не читает `*.ndjson`. Удали старые файлы из `Managed/`:
+
 ```bash
 rm "Third Crisis Neon Nights_Data/Managed/"*.ndjson
 ```

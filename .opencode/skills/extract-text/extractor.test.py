@@ -9,6 +9,10 @@ sys.path.insert(0, str(SKILL_DIR))
 import extractor as ext
 
 
+def _count_by(entries: list, field: str) -> int:
+    return sum(1 for e in entries if e.get(field))
+
+
 def setup_test_dump(out_dir: Path):
     dump = out_dir / "dump_assets"
     dump.mkdir(parents=True, exist_ok=True)
@@ -39,12 +43,13 @@ def test_extract_dialogues():
         setup_test_dump(Path(tmp))
         ext.DUMP_DIR = Path(tmp) / "dump_assets"
         by_pid = ext.extract_dialogues(ext.find_chunks())
-        assert len(by_pid) == 2  # two path_ids
+        assert len(by_pid) == 2
         total = sum(len(v) for v in by_pid.values())
         assert total == 5
         all_entries = [e for lst in by_pid.values() for e in lst]
-        assert all(isinstance(x, list) and len(x) == 3 for x in all_entries)
-        assert any(x[0] == "Narration line" and x[2] == "" for x in all_entries)
+        assert all(isinstance(x, dict) for x in all_entries)
+        assert all(x.get("text") for x in all_entries)
+        assert any(x["text"] == "Narration line" and x.get("speaker") == "" for x in all_entries)
         assert 73203 in by_pid and 73264 in by_pid
         print(f"  PASS: {total} dialogues across {len(by_pid)} sources")
 
@@ -54,12 +59,15 @@ def test_extract_speakers():
         setup_test_dump(Path(tmp))
         ext.DUMP_DIR = Path(tmp) / "dump_assets"
         by_pid = ext.extract_dialogues(ext.find_chunks())
-        s = ext.extract_speakers(by_pid)
-        assert len(s) == 3
-        assert all(isinstance(x, list) and len(x) == 4 for x in s)
-        names = {x[0] for x in s}
-        assert names == {"Zoey", "Sarah", "Max"}
-        print(f"  PASS: {len(s)} speakers")
+        seen = {}
+        for entries in by_pid.values():
+            for d in entries:
+                sp = d.get("speaker", "")
+                if sp and sp not in seen:
+                    seen[sp] = True
+        assert len(seen) == 3
+        assert set(seen) == {"Zoey", "Sarah", "Max"}
+        print(f"  PASS: {len(seen)} speakers")
 
 
 def test_extract_global_strings():
@@ -68,8 +76,9 @@ def test_extract_global_strings():
         ext.DUMP_DIR = Path(tmp) / "dump_assets"
         g = ext.extract_global_strings(ext.find_summaries())
         assert len(g) == 3
-        assert all(isinstance(x, list) and len(x) == 2 for x in g)
-        keys = {x[0] for x in g}
+        assert all(isinstance(x, dict) for x in g)
+        assert all(x.get("text") for x in g)
+        keys = {x["text"] for x in g}
         assert keys == {"Fullscreen", "Music Volume", "FPS Limit"}
         print(f"  PASS: {len(g)} strings")
 
@@ -77,12 +86,15 @@ def test_extract_global_strings():
 def test_write_yaml():
     with tempfile.TemporaryDirectory() as tmp:
         out = Path(tmp) / "t.yaml"
-        ext.write_yaml(out, [["Fullscreen", ""], ["Music Volume", ""]], header="H")
+        ext.write_yaml(out, [
+            {"text": "Fullscreen", "translation": ""},
+            {"text": "Music Volume", "translation": ""},
+        ], header="H")
         c = out.read_text("utf-8")
-        assert '# H' in c
-        assert '["Fullscreen", ""]' in c
-        assert '["Music Volume", ""]' in c
-        print("  PASS: YAML list format")
+        assert "# H" in c
+        assert 'text: "Fullscreen"' in c
+        assert 'text: "Music Volume"' in c
+        print("  PASS: YAML object format")
 
 
 def test_empty_dump():
@@ -90,7 +102,6 @@ def test_empty_dump():
         ext.DUMP_DIR = Path(tmp) / "dump_assets"
         ext.DUMP_DIR.mkdir()
         assert len(ext.extract_dialogues([])) == 0
-        assert len(ext.extract_speakers({})) == 0
         assert len(ext.extract_global_strings([])) == 0
         print("  PASS: empty")
 
@@ -131,7 +142,7 @@ def test_dedup():
         (ext.DUMP_DIR / "t.chunk000.json").write_text(json.dumps(c))
         by_pid = ext.extract_dialogues(ext.find_chunks())
         total = sum(len(v) for v in by_pid.values())
-        assert total == 1  # dedup within same path_id
+        assert total == 1
         print("  PASS: dedup")
 
 
@@ -168,34 +179,46 @@ def test_read_yaml_multi():
 
 def test_merge():
     old = [["Hello", "Привет", "Zoey"], ["Hi", "", "Sarah"]]
-    fresh = [["Hello", "", "Zoey"], ["Bye", "", "Max"], ["Hi", "", "Sarah"]]
-    merged = ext.merge(old, fresh, 0, 2)
+    fresh = [
+        {"text": "Hello", "translation": "", "speaker": "Zoey"},
+        {"text": "Bye", "translation": "", "speaker": "Max"},
+        {"text": "Hi", "translation": "", "speaker": "Sarah"},
+    ]
+    merged = ext.merge(old, fresh, ext.DIALOGUE_FIELDS, "text", "speaker")
     assert len(merged) == 3
-    assert merged[0] == ["Hello", "Привет", "Zoey"]    # translation preserved
-    assert merged[1] == ["Bye", "", "Max"]              # new entry, empty translation
-    assert merged[2] == ["Hi", "", "Sarah"]             # no old translation, stays empty
+    assert merged[0]["text"] == "Hello" and merged[0]["translation"] == "Привет"
+    assert merged[1]["text"] == "Bye" and merged[1]["translation"] == ""
+    assert merged[2]["text"] == "Hi" and merged[2]["translation"] == ""
     print("  PASS: merge preserves translations")
 
 
 def test_merge_speakers():
     old = [["Zoey", "Зои", "", "Главная героиня"], ["Man", "Мужчина", "male", ""]]
-    fresh = [["Zoey", "", "", ""], ["Man", "", "", ""], ["Nova", "", "", ""]]
-    merged = ext.merge(old, fresh, 0)
+    fresh = [
+        {"text": "Zoey", "translation": "", "gender": "", "notes": ""},
+        {"text": "Man", "translation": "", "gender": "", "notes": ""},
+        {"text": "Nova", "translation": "", "gender": "", "notes": ""},
+    ]
+    merged = ext.merge(old, fresh, ext.SPEAKER_FIELDS, "text")
     assert len(merged) == 3
-    assert merged[0] == ["Zoey", "Зои", "", "Главная героиня"]
-    assert merged[1] == ["Man", "Мужчина", "male", ""]
-    assert merged[2] == ["Nova", "", "", ""]
+    assert merged[0]["text"] == "Zoey" and merged[0]["translation"] == "Зои" and merged[0]["notes"] == "Главная героиня"
+    assert merged[1]["text"] == "Man" and merged[1]["translation"] == "Мужчина" and merged[1]["gender"] == "male"
+    assert merged[2]["text"] == "Nova" and merged[2]["translation"] == ""
     print("  PASS: merge speakers")
 
 
 def test_merge_settings():
     old = [["Fullscreen", "Полный экран"], ["Volume", "Громкость"]]
-    fresh = [["Fullscreen", ""], ["Volume", ""], ["FPS", ""]]
-    merged = ext.merge(old, fresh, 0)
+    fresh = [
+        {"text": "Fullscreen", "translation": ""},
+        {"text": "Volume", "translation": ""},
+        {"text": "FPS", "translation": ""},
+    ]
+    merged = ext.merge(old, fresh, ext.SETTINGS_FIELDS, "text")
     assert len(merged) == 3
-    assert merged[0] == ["Fullscreen", "Полный экран"]
-    assert merged[1] == ["Volume", "Громкость"]
-    assert merged[2] == ["FPS", ""]
+    assert merged[0]["text"] == "Fullscreen" and merged[0]["translation"] == "Полный экран"
+    assert merged[1]["text"] == "Volume" and merged[1]["translation"] == "Громкость"
+    assert merged[2]["text"] == "FPS" and merged[2]["translation"] == ""
     print("  PASS: merge settings")
 
 
@@ -218,25 +241,29 @@ def test_idempotent():
         (ext.DUMP_DIR / "r.json").write_text(json.dumps(summary))
 
         ext.OUT_DIR = Path(tmp) / "out"
-        ext.extract()  # first run
+        ext.extract()
 
-        # simulate user translating some entries
+        # simulate user translating — parse, modify, write
         dpath = ext.OUT_DIR / "dialogues.1.yaml"
-        dtext = dpath.read_text("utf-8")
-        dtext = dtext.replace('"Hi", "", "Z"', '"Hi", "Привет", "Z"')
-        dpath.write_text(dtext, encoding="utf-8")
+        data = ext.read_yaml(dpath)
+        # set translation on "Hi" entry
+        for e in data:
+            if isinstance(e, dict) and e.get("text") == "Hi":
+                e["translation"] = "Привет"
+        ext.write_yaml(dpath, data)
+        # delete "Bye" entry
+        data = ext.read_yaml(dpath)
+        data = [e for e in data if not (isinstance(e, dict) and e.get("text") == "Bye")]
+        ext.write_yaml(dpath, data)
 
-        # simulate deleting a line
-        lines = dpath.read_text("utf-8").splitlines()
-        lines = [l for l in lines if "Bye" not in l]
-        dpath.write_text("\n".join(lines) + "\n", encoding="utf-8")
-
-        ext.extract()  # second run — should restore "Bye" and keep "Привет"
+        ext.extract()
 
         restored = ext.read_yaml(dpath)
         assert len(restored) == 2
-        assert restored[0] == ["Hi", "Привет", "Z"]
-        assert restored[1] == ["Bye", "", "Y"]
+        r0 = restored[0] if isinstance(restored[0], dict) else {"text": restored[0][0]}
+        r1 = restored[1] if isinstance(restored[1], dict) else {"text": restored[1][0]}
+        assert r0.get("text") == "Hi" and r0.get("translation", "") == "Привет"
+        assert r1.get("text") == "Bye" and r1.get("translation", "") == ""
         print("  PASS: idempotent — deleted rows restored, translations preserved")
 
 
@@ -244,7 +271,6 @@ def test_real_dump():
     ext.DUMP_DIR = Path("dump_assets")
     ext.OUT_DIR = Path(tmp := tempfile.mkdtemp())
     ext.extract()
-    # check per-path_id files
     assert (ext.OUT_DIR / "dialogues.73203.yaml").exists()
     assert (ext.OUT_DIR / "dialogues.73262.yaml").exists()
     assert (ext.OUT_DIR / "dialogues.73263.yaml").exists()
@@ -252,20 +278,19 @@ def test_real_dump():
     assert (ext.OUT_DIR / "dialogues.bundle.yaml").exists()
     assert (ext.OUT_DIR / "speakers.yaml").exists()
     assert (ext.OUT_DIR / "settings_keys.yaml").exists()
-    # counts (no cross-dedup: each source counts separately)
     by_pid = ext.extract_dialogues(ext.find_chunks())
     by_bundle = ext.extract_bundle_dialogues(ext.find_chunks())
     total = sum(len(v) for v in by_pid.values()) + sum(len(v) for v in by_bundle.values())
-    assert len(by_pid) == 4
-    assert len(by_bundle) == 97
-    s = ext.extract_speakers(by_pid)
-    assert len(s) == 23
+    assert len(by_pid) == 4, f"expected 4 sources, got {len(by_pid)}"
+    assert len(by_bundle) == 97, f"expected 97 bundles, got {len(by_bundle)}"
+    all_pid_entries = [e for lst in by_pid.values() for e in lst]
+    speakers = {d.get("speaker") for d in all_pid_entries if d.get("speaker")}
+    assert len(speakers) == 23
     g = ext.extract_global_strings(ext.find_summaries())
     assert len(g) == 55
-    # no combined file
     assert not (ext.OUT_DIR / "dialogues.yaml").exists()
     print(f"  PASS: {total} dialogues across {len(by_pid)} .assets + {len(by_bundle)} bundles, "
-          f"{len(s)} speakers, {len(g)} keys")
+          f"{len(speakers)} speakers, {len(g)} keys")
     shutil.rmtree(tmp)
 
 

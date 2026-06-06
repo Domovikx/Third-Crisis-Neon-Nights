@@ -22,24 +22,36 @@ python .opencode/skills/extract-text/extractor.py
 
 ### `translations/dialogues.{path_id}.yaml`
 ```yaml
-# Dialogues (path_id=73203): [text, translation, speaker]
+# Dialogues (path_id=73203): text, translation, speaker, rich_text, rich_translation
 
-- ["Yesss...!~", "", "Zoey"]
-- ["Fhaaa..!!", "", "Zoey"]
+- text: "Yesss...!~"
+  translation: ""
+  speaker: "Zoey"
+  rich_text: "<color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\">Yesss...!~</font></color>"
+  rich_translation: ""
+- text: "Fhaaa..!!"
+  translation: ""
+  speaker: "Zoey"
+  rich_text: "<color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\">Fhaaa..!!</font></color>"
+  rich_translation: ""
 ```
 
 ### `translations/speakers.yaml`
 ```yaml
-# Speakers: [name, translation, gender]
+# Speakers: text, translation, gender, notes
 
-- ["Zoey", "Зои", "female"]
+- text: "Zoey"
+  translation: "Зои"
+  gender: "female"
+  notes: ""
 ```
 
 ### `translations/settings_keys.yaml`
 ```yaml
-# Settings keys: [key, translation]
+# Settings keys: text, translation
 
-- ["Fullscreen", "Полный экран"]
+- text: "Fullscreen"
+  translation: "Полный экран"
 ```
 
 ## Источники данных
