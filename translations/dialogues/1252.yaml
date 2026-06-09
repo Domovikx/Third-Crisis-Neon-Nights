@@ -1,37 +1,37 @@
 # Dialogues (path_id=1252)
 
 - text: "Uhh... Hey. Are you alright?"
-  translation: ""
+  translation: "Эм... Эй. Ты в порядке?"
 
 - text: "I'm fine, thank you, sweetie. But those bastard enforcers scared the hell out of all the salon's helper bots."
-  translation: ""
+  translation: "Я в порядке, спасибо, дорогая. Но эти проклятые силовики до смерти перепугали всех роботов-помощников в салоне."
 
 - text: "Now they're scattered everywhere and I have no idea how to fix them! They're the ones that really run the place. I just look pretty."
-  translation: ""
+  translation: "Теперь они разбежались кто куда, а я понятия не имею, как их чинить! Ведь это они тут всем заправляют. Я тут просто для красоты."
 
 - text: "I'm sorry."
-  translation: ""
+  translation: "Прости."
 
 - text: "For what, hun? You just got here."
-  translation: ""
+  translation: "За что, милая? Ты только пришла."
 
 - text: "I think what she meant to say is that we could help you out! Zoey here is an expert at fixing things."
-  translation: ""
+  translation: "Думаю, она хотела сказать, что мы можем вам помочь! Наша Зои мастерица чинить."
 
 - text: "(Sure doesn't feel like it.)"
-  translation: ""
+  translation: "Что-то я в этом сомневаюсь."
   rich_text: "<i>(Sure doesn't feel like it.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>Что-то я в этом сомневаюсь.</i>"
 
 - text: "Uhh- Yeah! I can help if you want."
-  translation: ""
+  translation: "Эм- Да! Я могу помочь, если хочешь."
 
 - text: "Really? Oh I'd adore that! Nice to know there's still some good people in the neighbourhood."
-  translation: ""
+  translation: "Правда? О, я была бы так рада! Приятно знать, что в районе ещё остались хорошие люди."
 
 - text: "Happy to be of service! Right, Z?"
-  translation: ""
+  translation: "Рады помочь! Правда, Зои?"
 
 - text: "It's the least we can do."
-  translation: ""
+  translation: "Это меньшее, что мы можем сделать."
 
