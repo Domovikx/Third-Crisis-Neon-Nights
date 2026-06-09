@@ -49,6 +49,36 @@ python .opencode/skills/dump-assets/dump_assets.py
 Старый `parser.py` сканировал бинарники напрямую с шумными эвристиками,
 генерировал мусорные all-caps строки и непредсказуемые display-имена.
 
+## Кириллический шрифт
+
+Диалоги в игре используют TMP_FontAsset `"Roboto-Condensed_DialogueUI"` с
+материалом `"Roboto-Condensed_DialogueUI_Perversion"` (GLOW_ON + UNDERLAY_ON).
+Русские буквы в оригинальном атласе отсутствуют → при переводе на русский
+глифы без материала отображались без свечения (визуальный батч-мисматч).
+
+**Решение:** добавление кириллических глифов в существующий шрифт через
+`TryAddCharacters()` в рантайме.
+
+**Файлы:**
+- `fonts/RobotoCondensed-Regular.ttf` — TTF
+  Roboto Condensed (Google Fonts, включает кириллицу, 371 KB)
+- `source/TranslatorPlugin.cs::TryInstallCyrillicFont()` — чтение TTF,
+  GDI-регистрация через `AddFontMemResourceEx`,
+  переключение `atlasPopulationMode = Dynamic`,
+  `TryAddCharacters(cyrillicUnicodes)`
+
+**Как работает:**
+1. Игра стартует → `OnPreRender` считает 5 кадров → `TryInstallCyrillicFont()`
+2. TTF читается из `Managed/`, регистрируется с Windows через
+   `AddFontMemResourceEx` (без админ-прав)
+3. Находится `Roboto-Condensed_DialogueUI`, ставится в Dynamic-режим
+4. Кириллические codepoints добавляются → `ReadFontAssetDefinition()`
+5. Все глифы (латиница + кириллица) в одном шрифте → `<font material="...Perversion">`
+   работает одинаково для всех символов
+
+**Примечание:** SDF-генерация атласа (~200 мс) происходит один раз при старте,
+отложена на 5 кадров чтобы не тормозить загрузку.
+
 ## Сборка рантайма
 
 ```bash
@@ -79,4 +109,5 @@ python .opencode/skills/build-translator/build_proxy.py
 - Рантайм: `.opencode/skills/build-translator/`
 - Сборка DLL: `runtime/NeonTranslatorRuntime.dll`
 - Прокси: `dwmapi.dll` (корень игры), `dwmapi_real.dll` (форвардер)
+- Шрифт: `fonts/RobotoCondensed-Regular.ttf` (источник, отслеживается git)
 - Лог: `Third Crisis Neon Nights_Data/Managed/NeonTranslator.log`

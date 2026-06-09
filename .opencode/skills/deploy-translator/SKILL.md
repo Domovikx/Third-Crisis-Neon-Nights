@@ -23,6 +23,7 @@ compatibility: opencode
 python .opencode/skills/build-translator/build.py
 cp runtime/NeonTranslatorRuntime.dll "Third Crisis Neon Nights_Data/Managed/"
 cp translations/*.yaml "Third Crisis Neon Nights_Data/Managed/"
+cp fonts/RobotoCondensed-Regular.ttf "Third Crisis Neon Nights_Data/Managed/"
 ```
 
 ### Прокси (dwmapi.dll) — только при первом запуске или изменении прокси

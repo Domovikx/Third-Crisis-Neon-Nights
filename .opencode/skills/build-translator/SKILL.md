@@ -28,9 +28,8 @@ Scan-and-replace переводчик через NeonLateUpdate + Canvas.willRen
 
 | Файл                          | Назначение                                           |
 | ----------------------------- | ---------------------------------------------------- |
-| `source/NativeMethods.cs`     | P/Invoke kernel32 (VirtualProtect, GetProcAddress)   |
+| `source/NativeMethods.cs`     | P/Invoke gdi32 (AddFontMemResourceEx)                |
 | `source/TranslationLoader.cs` | Читает YAML, строит Dictionary (рекурсивно по папке) |
-| `source/MethodPatcher.cs`     | VirtualProtect + JMP hook (DEACTIVATED)              |
 | `source/NeonLateUpdate.cs`    | MonoBehaviour exec order 10000 — вызывает Populate   |
 | `source/TranslatorPlugin.cs`  | Точка входа [RuntimeInitializeOnLoadMethod]          |
 | `source/dwmapi_proxy.c`       | Native proxy DLL (32 forward + 2 intercepts)         |
@@ -50,10 +49,12 @@ python .opencode/skills/build-translator/build.py
 
 ```bash
 cp runtime/NeonTranslatorRuntime.dll "Third Crisis Neon Nights_Data/Managed/"
-cp translations/**/*.yaml "Third Crisis Neon Nights_Data/Managed/"
+cp translations/*.yaml "Third Crisis Neon Nights_Data/Managed/"
+cp fonts/RobotoCondensed-Regular.ttf "Third Crisis Neon Nights_Data/Managed/"
 ```
 
-Словарь загружается рекурсивно из всех `*.yaml` в `Managed/`. Пересборка DLL не требуется.
+Словарь загружается рекурсивно из всех `*.yaml` в `Managed/`. Пересборка DLL не требуется.  
+TTF (Roboto Condensed с кириллицей) читается рантаймом из той же папки.
 
 ## Прокси (dwmapi.dll) — только один раз
 
@@ -62,6 +63,29 @@ python .opencode/skills/build-translator/build_proxy.py
 ```
 
 Собирает `dwmapi.dll` + `dwmapi_real.dll` в корне игры.
+
+## Кириллический шрифт
+
+При переводе на русский кириллические глифы добавляются в существующий
+TMP_FontAsset `Roboto-Condensed_DialogueUI` через `TryAddCharacters()`.
+
+**Механизм** (TranslatorPlugin.cs::TryInstallCyrillicFont):
+1. `RobotoCondensed-Regular.ttf` читается из `Managed/`
+2. Регистрация через GDI `AddFontMemResourceEx` (без админ-прав)
+3. Поиск `Roboto-Condensed_DialogueUI` через `Resources.FindObjectsOfTypeAll`
+4. Переключение `atlasPopulationMode = Dynamic`
+5. Установка `sourceFontFile` через рефлексию
+6. `TryAddCharacters(cyrillicUnicodes)` + `ReadFontAssetDefinition()`
+
+**Требования:**
+- TTF в `Managed/` (`RobotoCondensed-Regular.ttf`, 371 KB)
+- `NativeMethods.cs` содержит `AddFontMemResourceEx`
+- `AtlasPopulationMode.Dynamic` поддерживается шрифтом
+- Вызов отложен на 5 кадров (через `_fontInitDelay`) чтобы не тормозить старт
+
+**Важно:** все глифы (латиница + кириллица + пунктуация) находятся в одном
+шрифтовом ассете, поэтому `<font material="...Perversion">` работает
+одинаково для всех символов (GLOW_ON + UNDERLAY_ON).
 
 ## Формат данных (YAML)
 

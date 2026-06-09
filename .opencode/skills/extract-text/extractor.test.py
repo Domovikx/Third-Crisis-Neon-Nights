@@ -277,7 +277,7 @@ def test_idempotent():
         ext.extract()
 
         # simulate user translating — parse, modify, write
-        dpath = ext.OUT_DIR / "dialogues.1.yaml"
+        dpath = ext.DIALOGUES_DIR / "1.yaml"
         data = ext.read_yaml(dpath)
         # set translation on "Hi" entry
         for e in data:
@@ -304,30 +304,30 @@ def test_real_dump():
     ext.DUMP_DIR = Path("dump_assets")
     ext.OUT_DIR = Path(tmp := tempfile.mkdtemp())
     ext.extract()
-    assert (ext.OUT_DIR / "dialogues.73203.yaml").exists()
-    assert (ext.OUT_DIR / "dialogues.73262.yaml").exists()
-    assert (ext.OUT_DIR / "dialogues.73263.yaml").exists()
-    assert (ext.OUT_DIR / "dialogues.73264.yaml").exists()
-    assert (ext.OUT_DIR / "dialogues.bundle_level-glowinghole.yaml").exists()
-    assert (ext.OUT_DIR / "dialogues.bundle_level-cartelhideout.yaml").exists()
-    assert (ext.OUT_DIR / "dialogues.bundle_lewdanimation_liofuckmachine.yaml").exists()
-    assert (ext.OUT_DIR / "dialogues.bundle_0.3-animation-maxxcustomercg.yaml").exists()
+    assert (ext.DIALOGUES_DIR / "73203.yaml").exists()
+    assert (ext.DIALOGUES_DIR / "73262.yaml").exists()
+    assert (ext.DIALOGUES_DIR / "73263.yaml").exists()
+    assert (ext.DIALOGUES_DIR / "73264.yaml").exists()
+    assert (ext.DIALOGUES_DIR / "bundle.bundle_level-glowinghole.yaml").exists()
+    assert (ext.DIALOGUES_DIR / "bundle.bundle_level-cartelhideout.yaml").exists()
+    assert (ext.DIALOGUES_DIR / "bundle.bundle_lewdanimation_liofuckmachine.yaml").exists()
+    assert (ext.DIALOGUES_DIR / "bundle.bundle_0.3-animation-maxxcustomercg.yaml").exists()
     assert (ext.OUT_DIR / "speakers.yaml").exists()
     assert (ext.OUT_DIR / "settings_keys.yaml").exists()
     by_pid = ext.extract_dialogues(ext.find_chunks())
     by_bundle = ext.extract_bundle_dialogues(ext.find_chunks())
     total = sum(len(v) for v in by_pid.values()) + sum(len(v) for v in by_bundle.values())
-    assert len(by_pid) == 4, f"expected 4 sources, got {len(by_pid)}"
+    assert len(by_pid) == 1085, f"expected 1085 sources, got {len(by_pid)}"
     assert len(by_bundle) == 97, f"expected 97 bundles, got {len(by_bundle)}"
     all_pid_entries = [e for lst in by_pid.values() for e in lst]
     all_bundle_entries = [e for lst in by_bundle.values() for e in lst]
     assert all("rich_text" in e and "rich_translation" in e for e in all_pid_entries)
     assert all("rich_text" in e and "rich_translation" in e for e in all_bundle_entries)
     speakers = {d.get("speaker") for d in all_pid_entries if d.get("speaker")}
-    assert len(speakers) == 23
+    assert len(speakers) == 46
     g = ext.extract_global_strings(ext.find_summaries())
     assert len(g) == 55
-    assert not (ext.OUT_DIR / "dialogues.yaml").exists()
+    assert not (ext.DIALOGUES_DIR / ".yaml").exists()
     print(f"  PASS: {total} dialogues across {len(by_pid)} .assets + {len(by_bundle)} bundles, "
           f"{len(speakers)} speakers, {len(g)} keys")
     shutil.rmtree(tmp)

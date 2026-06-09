@@ -22,12 +22,24 @@ GAME_DIR = DATA_DIR.parent
 
 OBJECTS_PER_CHUNK = 5000
 MAX_STRING_LEN = 500
-MIN_RAW_LEN = 4
+MIN_RAW_LEN = 3
 
 SKIP_ATTRS = {
     'assets_file', 'object_reader', 'container', 'files',
     'objects', 'resources', 'm_GameObject',
     'm_Script', 'm_Mesh', 'm_Material', 'm_Texture',
+}
+
+SKIP_RAW_PREFIXES = (
+    'line_', 'expressions/', 'separatedexpressions/', 'Poses/',
+    'expressionadditive/', 'p>xo', 'Other Dialogue Presets',
+    'Zoey Dialogue Presets', '_Preset', 'Dialogue Presets',
+    'Char_', 'Apl_',
+)
+
+KNOWN_NON_SPEAKERS = {
+    'GlowingHole', 'GlowingHoleKeys/', 'Narrator', 'Confirm',
+    'Other Dialogue Presets', 'Zoey Dialogue Presets', 'Simon',
 }
 
 
@@ -191,6 +203,76 @@ def parse_dialogue_from_raw(raw: bytes, base_offset: int = 0) -> list:
 # Object extraction
 # ============================================================
 
+def _is_skip_prefix(s: str) -> bool:
+    return any(s.startswith(p) for p in SKIP_RAW_PREFIXES)
+
+
+def _strip_rich(s: str) -> str:
+    return re.sub(r'<[^>]+>', '', s).strip()
+
+
+def parse_playmaker_dialogues(raw_strings: list) -> list:
+    """Extract dialogue lines from PlayMaker FSM raw_strings (line_X pattern)."""
+    results = []
+    seen = set()
+
+    i = 0
+    while i < len(raw_strings):
+        s = raw_strings[i].strip()
+        if not s.startswith('line_'):
+            i += 1
+            continue
+
+        # Skip line_X marker and optional duplicate
+        i += 1
+        if i < len(raw_strings) and raw_strings[i].strip() == s:
+            i += 1
+
+        # Find dialogue text: next non-skip string with space, length > 3
+        text = ""
+        while i < len(raw_strings):
+            ns = raw_strings[i].strip()
+            if _is_skip_prefix(ns) or ns == '':
+                i += 1
+                continue
+            if len(ns) <= 3 or ' ' not in ns:
+                i += 1
+                continue
+            if ns.startswith('{') or ns.startswith('['):
+                i += 1
+                continue
+            text = ns
+            i += 1
+            break
+
+        if not text:
+            continue
+
+        clean = _strip_rich(text)
+        rich_text = text if text != clean else ""
+
+        # Try to find speaker after the text
+        speaker = ""
+        if i < len(raw_strings):
+            ns = raw_strings[i].strip()
+            if (ns and not _is_skip_prefix(ns) and not ns.startswith('line_')
+                    and ' ' not in ns and ns[0].isupper() and ns.isalpha()
+                    and ns not in KNOWN_NON_SPEAKERS):
+                speaker = ns
+                i += 1
+
+        key = f"{speaker}|{clean}"
+        if clean and key not in seen:
+            seen.add(key)
+            results.append({
+                "speaker": speaker,
+                "text": clean,
+                "rich_text": rich_text,
+            })
+
+    return results
+
+
 def pptr_to_dict(pptr) -> dict:
     try:
         return {"file_id": pptr.m_FileID, "path_id": pptr.m_PathID}
@@ -279,11 +361,15 @@ def extract_object(obj, env) -> dict:
         return entry
 
     raw_strings = scan_raw_strings(raw)
+    all_texts = [s["text"] for s in raw_strings]
     dialogues = parse_dialogue_from_raw(raw)
+    playmaker = parse_playmaker_dialogues(all_texts)
+    if playmaker:
+        dialogues.extend(playmaker)
     if dialogues:
         entry["dialogues"] = dialogues
     if raw_strings:
-        entry["raw_strings"] = [s["text"] for s in raw_strings[:20]]
+        entry["raw_strings"] = all_texts[:100]
 
     return entry
 

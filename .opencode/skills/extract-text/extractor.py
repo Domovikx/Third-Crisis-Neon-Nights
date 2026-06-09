@@ -29,6 +29,7 @@ GAME_DIR = Path(
 )
 DUMP_DIR = GAME_DIR / "dump_assets"
 OUT_DIR = GAME_DIR / "translations"
+DIALOGUES_DIR = OUT_DIR / "dialogues"
 
 DIALOGUE_FIELDS = ["text", "translation", "speaker", "rich_text", "rich_translation"]
 SPEAKER_FIELDS = ["text", "translation", "gender", "notes"]
@@ -325,9 +326,11 @@ def extract():
     by_pid = extract_dialogues(chunks)
     by_bundle = extract_bundle_dialogues(chunks)
 
+    DIALOGUES_DIR.mkdir(parents=True, exist_ok=True)
+
     total = 0
     for pid in sorted(by_pid):
-        fpath = OUT_DIR / f"dialogues.{pid}.yaml"
+        fpath = DIALOGUES_DIR / f"{pid}.yaml"
         existing = read_yaml(fpath)
         merged = [_auto_rich_translation(e) for e in merge(existing, by_pid[pid], DIALOGUE_FIELDS, "text", "speaker")]
         total += len(merged)
@@ -336,7 +339,7 @@ def extract():
     # Build set of (text, speaker) already covered by ANToolkit dialogues
     dialogue_keys = set()
     for pid in sorted(by_pid):
-        fpath = OUT_DIR / f"dialogues.{pid}.yaml"
+        fpath = DIALOGUES_DIR / f"{pid}.yaml"
         for e in read_yaml(fpath):
             k = (e.get("text", ""), e.get("speaker", ""))
             if k[0]:
@@ -348,7 +351,7 @@ def extract():
         if not entries:
             continue
         short = _bundle_short_name(asset_name)
-        fpath = OUT_DIR / f"dialogues.{short}.yaml"
+        fpath = DIALOGUES_DIR / f"bundle.{short}.yaml"
         merged = [_auto_rich_translation(e) for e in merge(read_yaml(fpath), entries, DIALOGUE_FIELDS, "text", "speaker")]
         total += len(merged)
         write_yaml(fpath, merged, header=f"Dialogues (bundle: {asset_name})")

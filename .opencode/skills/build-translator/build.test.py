@@ -24,7 +24,7 @@ def main():
     print('=== NeonTranslatorRuntime — Build Tests ===\n')
 
     print('1. Source files')
-    for f in ['NativeMethods.cs', 'TranslationLoader.cs', 'MethodPatcher.cs', 'TranslatorPlugin.cs', 'NeonLateUpdate.cs']:
+    for f in ['NativeMethods.cs', 'TranslationLoader.cs', 'TranslatorPlugin.cs', 'NeonLateUpdate.cs']:
         p = SKILL_DIR / 'source' / f
         assert_eq(p.exists(), f'{f} exists')
 
@@ -50,7 +50,7 @@ def main():
     print('4. DLL content verification')
     if dll_path.exists():
         content = dll_path.read_bytes()
-        for term in ['NeonTranslator', 'TranslatorPlugin', 'MethodPatcher', 'TranslationLoader', 'NativeMethods', 'VirtualProtect']:
+        for term in ['NeonTranslator', 'TranslatorPlugin', 'TranslationLoader', 'NativeMethods', 'TryAddCharacters', 'TryInstallCyrillicFont']:
             assert_eq(term.encode() in content, f'{term} present')
 
     print()
