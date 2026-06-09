@@ -1,12 +1,12 @@
 # Dialogues (path_id=1198)
 
 - text: "(I-... I'll just look through quickly to check if I'm on here too...)"
-  translation: ""
+  translation: "(Я-... я просто быстро просмотрю, проверить, есть ли я здесь тоже...)"
   rich_text: "<i>(I-... I'll just look through quickly to check if I'm on here too...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Я-... я просто быстро просмотрю, проверить, есть ли я здесь тоже...)</i>"
 
 - text: "(It won't take long.)"
-  translation: ""
+  translation: "(Это ненадолго.)"
   rich_text: "<i>(It won't take long.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Это ненадолго.)</i>"
 

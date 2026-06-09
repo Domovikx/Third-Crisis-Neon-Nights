@@ -1,55 +1,55 @@
 # Dialogues (path_id=1232)
 
 - text: "You said you'd only need a moment!"
-  translation: ""
+  translation: "Ты сказал, что тебе нужна всего минута!"
 
 - text: "I'm sorry. Really, I am!"
-  translation: ""
+  translation: "Прости. Правда, прости!"
 
 - text: "Gah... Do I even want to know what you fucking did back there...?!"
-  translation: ""
+  translation: "Чёрт... Я вообще хочу знать, что ты там устроил...?!"
   speaker: "Zoey"
 
 - text: "I'm only doing what I have to, in order to protect San!"
-  translation: ""
+  translation: "Я делаю лишь то, что нужно, чтобы защитить Сэна!"
 
 - text: "Sorry... I-... I didn't mean to-..."
-  translation: ""
+  translation: "Прости... Я-... Я не хотел-..."
 
 - text: "Thanks for your help."
-  translation: ""
+  translation: "Спасибо за помощь."
 
 - text: "Glow. In the massage oil tank. They demanded it."
-  translation: ""
+  translation: "Глоу. В баке с массажным маслом. Они потребовали."
 
 - text: "G-Glow...? But-"
-  translation: ""
+  translation: "Г-Глоу...? Но-"
   speaker: "Zoey"
 
 - text: "I'm sorry. It's-... It's the only way!"
-  translation: ""
+  translation: "Прости. Это-... Это единственный выход!"
 
 - text: "But it's-... addictive... the customers... Max-"
-  translation: ""
+  translation: "Но это-... вызывает привыкание... клиенты... Макс-"
   speaker: "Zoey"
 
 - text: "They'll be fine... I think... It-... It should be diluted in the oil... Right?"
-  translation: ""
+  translation: "С ними всё будет хорошо... я думаю... Это-... должно разбавиться в масле... Да?"
 
 - text: "I-... I don't-... know..."
-  translation: ""
+  translation: "Я-... Я не-... знаю..."
   speaker: "Zoey"
 
 - text: "It will lead to the kind of videos they want, and then this will all be over."
-  translation: ""
+  translation: "Это даст им видео, которые они хотят, и тогда всё это закончится."
 
 - text: "(What have I done...)"
-  translation: ""
+  translation: "Что же я наделала..."
   speaker: "Zoey"
   rich_text: "<i>(What have I done...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Что же я наделала...)</i>"
 
 - text: "At least use these stupid fucking video cameras to make sure everyone is okay!"
-  translation: ""
+  translation: "Хотя бы используй эти долбаные видеокамеры, чтобы убедиться, что все в порядке!"
   speaker: "Zoey"
 

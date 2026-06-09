@@ -1,19 +1,19 @@
 # Dialogues (path_id=1228)
 
 - text: "It can detect the concentration of certain things in your sweat and oils. On top of that, it can also read your heart rate among other things."
-  translation: ""
+  translation: "Он определяет концентрацию веществ в твоём поте и кожном сале. А ещё считывает пульс и другие показатели."
 
 - text: "Wow, really? The heart rate?"
-  translation: ""
+  translation: "Ого, правда? Пульс?"
   speaker: "Zoey"
 
 - text: "Mhm, I even coded some of the routines the chair uses myself! I could show you how I did it if you want."
-  translation: ""
+  translation: "М-м, я даже писал некоторые алгоритмы для этого кресла! Могу показать, как это сделал, если хочешь."
 
 - text: "Mhm, I'd love that!"
-  translation: ""
+  translation: "М-м, с удовольствием!"
   speaker: "Zoey"
 
 - text: "Sure, I'll show you at my terminal!"
-  translation: ""
+  translation: "Конечно, покажу на своём терминале!"
 

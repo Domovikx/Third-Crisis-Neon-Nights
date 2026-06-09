@@ -1,29 +1,29 @@
 # Dialogues (path_id=1227)
 
 - text: "Stumbling over her own wordsY"
-  translation: ""
+  translation: "Запинается на своих же словах"
 
 - text: "The wheel uhm... sure. It's just behind this piece here."
-  translation: ""
+  translation: "Колесо, эм... да. Оно прямо за этой деталью."
 
 - text: "Mhm, okay, I see...  and uhm."
-  translation: ""
+  translation: "Мхм, ладно, понятно... и эм."
   speaker: "Zoey"
 
 - text: "How does it know when to extend?"
-  translation: ""
+  translation: "А как оно знает, когда выдвигаться?"
   speaker: "Zoey"
 
 - text: "Ahhh, I see what you're interested in now! It's in the fabric. Kinda similar to the sensors in my fingers. You see-"
-  translation: ""
+  translation: "Ааа, теперь я понял, что тебя интересует! Это в ткани. Вроде датчиков у меня в пальцах. Понимаешь-"
 
 - text: "Mhm, mhm!"
-  translation: ""
+  translation: "Мхм, мхм!"
   speaker: "Zoey"
 
 - text: "(Hurry up, Klark! What is taking so long?!)"
-  translation: ""
+  translation: "(Давай быстрее, Кларк! Сколько можно ждать?!)"
   speaker: "Zoey"
   rich_text: "<i>(Hurry up, Klark! What is taking so long?!)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Давай быстрее, Кларк! Сколько можно ждать?!)</i>"
 

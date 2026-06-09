@@ -1,43 +1,43 @@
 # Dialogues (path_id=1224)
 
 - text: "Hey Max."
-  translation: ""
+  translation: "Хэй, Макс."
   speaker: "Zoey"
 
 - text: "Did you find out what's up with that room?"
-  translation: ""
+  translation: "Ты выяснила, что с той комнатой?"
 
 - text: "Ah that-... no, sorry, I- uh... I couldn't get past the door, sorry."
-  translation: ""
+  translation: "А, это... нет, прости, я- эм... я не смогла пройти через дверь, извини."
 
 - text: "Ohh, okay. That's fine, you already helped me a lot with other stuff."
-  translation: ""
+  translation: "Оу, ладно. Ничего, ты и так мне очень помогла с другими делами."
 
 - text: "Yeah... right- so... speaking of other stuff... do you think you could show me how those massage chairs work?"
-  translation: ""
+  translation: "Да... точно, кстати... раз уж о других делах... не могла бы ты показать мне, как работают те массажные кресла?"
   speaker: "Zoey"
 
 - text: "Massage chair? Didn't you use that one already?"
-  translation: ""
+  translation: "Массажное кресло? Ты ведь уже пользовалась им?"
 
 - text: "Ahh-.. yeah, hah... well I-... uhm..."
-  translation: ""
+  translation: "А-а.. да, ха... ну я-... эм..."
   speaker: "Zoey"
 
 - text: "I wanted to know something else about them! Could you come and show me?"
-  translation: ""
+  translation: "Я хотела узнать кое-что ещё о них! Не могла бы ты подойти и показать мне?"
   speaker: "Zoey"
 
 - text: "Something else? Well... I mean... sure, I can show you anything you like about them."
-  translation: ""
+  translation: "Кое-что ещё? Ну... в смысле... конечно, я могу показать тебе всё, что захочешь."
 
 - text: "Right! Thank you, Max!"
-  translation: ""
+  translation: "Отлично! Спасибо, Макс!"
   speaker: "Zoey"
 
 - text: "(What. Am. I. Doing...?!)"
-  translation: ""
+  translation: "(Что. Я. Творю...?!)"
   speaker: "Zoey"
   rich_text: "<i>(What. Am. I. Doing...?!)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Что. Я. Творю...?!)</i>"
 

@@ -1,21 +1,21 @@
 # Dialogues (path_id=1230)
 
 - text: "(Finally he's done...)"
-  translation: ""
+  translation: "(Наконец-то он закончил...)"
   speaker: "Zoey"
   rich_text: "<i>(Finally he's done...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Наконец-то он закончил...)</i>"
 
 - text: "That sounds great, thank you so much!"
-  translation: ""
+  translation: "Звучит отлично, большое спасибо!"
   speaker: "Zoey"
 
 - text: "Don't mention it, hun. Hanging out with you is a treat in itself."
-  translation: ""
+  translation: "Да не за что, милая. Время с тобой — само по себе удовольствие."
 
 - text: "Right. Heh... thanks, Max."
-  translation: ""
+  translation: "Ага. Хех... спасибо, Макс."
 
 - text: "Any time, Zoey."
-  translation: ""
+  translation: "Всегда рада, Зои."
 

@@ -1,20 +1,20 @@
 # Dialogues (path_id=1212)
 
 - text: "Hey Max.."
-  translation: ""
+  translation: "Эй, Макс.."
 
 - text: "Did you find out what's up with that room?"
-  translation: ""
+  translation: "Ты выяснила, что с той комнатой?"
 
 - text: "Unfortunately, yeah."
-  translation: ""
+  translation: "К сожалению, да."
   speaker: "Zoey"
 
 - text: "Nail Salon Clerk"
-  translation: ""
+  translation: "Мастер маникюра"
   speaker: "Surprised"
 
 - text: "Yeah. Let me explain..."
-  translation: ""
+  translation: "Да. Давай объясню..."
   speaker: "Zoey"
 

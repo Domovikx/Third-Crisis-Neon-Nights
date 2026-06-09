@@ -1,12 +1,12 @@
 # Dialogues (path_id=1193)
 
 - text: "(This looks like the other side of that machine alright...)"
-  translation: ""
+  translation: "Похоже, это другая сторона той самой машины..."
   rich_text: "<i>(This looks like the other side of that machine alright...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>Похоже, это другая сторона той самой машины...</i>"
 
 - text: "(This looks like the unlock switch!)"
-  translation: ""
+  translation: "Похоже, это рычаг разблокировки!"
   rich_text: "<i>(This looks like the unlock switch!)</i>"
-  rich_translation: ""
+  rich_translation: "<i>Похоже, это рычаг разблокировки!</i>"
 

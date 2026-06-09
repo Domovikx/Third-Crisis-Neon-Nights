@@ -1,12 +1,12 @@
 # Dialogues (path_id=1192)
 
 - text: "(Hm... kinda looks like there's a doorway behind this machine...)"
-  translation: ""
+  translation: "(Хм... кажется, за этим аппаратом есть проход...)"
   rich_text: "<i>(Hm... kinda looks like there's a doorway behind this machine...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Хм... кажется, за этим аппаратом есть проход...)</i>"
 
 - text: "(I wonder if there's a room behind it. Maybe there's another way in besides this doorway?)"
-  translation: ""
+  translation: "(Интересно, за ним комната? Может, есть другой вход, кроме этой двери?)"
   rich_text: "<i>(I wonder if there's a room behind it. Maybe there's another way in besides this doorway?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Интересно, за ним комната? Может, есть другой вход, кроме этой двери?)</i>"
 
