@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
@@ -16,6 +17,8 @@ namespace NeonTranslator
         private static Dictionary<string, string> _translations;
         private static bool _initialized;
         private static string _logPath;
+        private static TMP_FontAsset _cyrillicFont;
+        private static int _fontInitDelay = -1;
 
         private static List<Component> _cachedComponents;
         private static bool _cacheValid = false;
@@ -41,6 +44,77 @@ namespace NeonTranslator
         private static MethodInfo _setTextMethod;
         private static IDictionary _guidDict;
         private static bool _reflectionReady = false;
+
+        private static void TryInstallCyrillicFont()
+        {
+            if (_cyrillicFont != null) return;
+
+            try
+            {
+                string dllDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+                string fontPath = Path.Combine(dllDir, "RobotoCondensed-Regular.ttf");
+
+                // Register our TTF with Windows so Unity can use it
+                Font unityFont = null;
+                if (File.Exists(fontPath))
+                {
+                    byte[] fontData = File.ReadAllBytes(fontPath);
+                    uint fontsAdded;
+                    IntPtr fontHandle = NativeMethods.AddFontMemResourceEx(
+                        fontData, (uint)fontData.Length, IntPtr.Zero, out fontsAdded);
+                    if (fontHandle != IntPtr.Zero)
+                        unityFont = Font.CreateDynamicFontFromOSFont("Roboto Condensed", 30);
+                }
+
+                if (unityFont == null)
+                {
+                    Log("Font: Roboto Condensed unavailable, using Arial");
+                    unityFont = Font.CreateDynamicFontFromOSFont("Arial", 30);
+                }
+                if (unityFont == null) { Log("Font: no font available"); return; }
+
+                // Find existing font asset to patch
+                var allFonts = Resources.FindObjectsOfTypeAll<TMP_FontAsset>();
+                TMP_FontAsset target = null;
+                foreach (var f in allFonts)
+                    if (f.name == "Roboto-Condensed_DialogueUI") { target = f; break; }
+
+                if (target == null) { Log("Font: target not found"); _fontInitDelay = 10; return; }
+
+                // Set dynamic mode so we can add glyphs (via reflection if setter is internal)
+                try { target.atlasPopulationMode = AtlasPopulationMode.Dynamic; } catch { }
+                try { target.isMultiAtlasTexturesEnabled = true; } catch { }
+
+                // Set source font file via reflection (setter may not be public)
+                var sffField = typeof(TMP_FontAsset).GetField("sourceFontFile",
+                    BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
+                if (sffField != null && sffField.FieldType == typeof(Font))
+                    sffField.SetValue(target, unityFont);
+                Log("Font: set source font to " + unityFont.name);
+
+                // Convert string to uint[] for TryAddCharacters
+                string cyrillicStr = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
+                uint[] cyrillicUnicodes = new uint[cyrillicStr.Length];
+                for (int i = 0; i < cyrillicStr.Length; i++)
+                    cyrillicUnicodes[i] = (uint)cyrillicStr[i];
+                bool added = target.TryAddCharacters(cyrillicUnicodes);
+                Log("Font: TryAddCharacters Cyrillic = " + added);
+
+                if (added)
+                {
+                    target.ReadFontAssetDefinition();
+                    Log("Font: Cyrillic glyphs added to Roboto-Condensed_DialogueUI");
+                }
+
+                _cyrillicFont = target; // mark as done
+                Log("Font: initialization complete");
+            }
+            catch (Exception ex)
+            {
+                Log("Font: error - " + ex.Message);
+                _fontInitDelay = 10;
+            }
+        }
 
         private static string GetLogPath()
         {
@@ -99,6 +173,9 @@ namespace NeonTranslator
                 PopulateAllText();
 
                 DumpTranslationsToFile();
+
+                // Schedule deferred font init (SDF gen is heavy, delay a few frames)
+                _fontInitDelay = 5;
             }
             catch (Exception ex)
             {
@@ -109,6 +186,8 @@ namespace NeonTranslator
         private static void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
             Log("Scene loaded: " + scene.name);
+            if (_cyrillicFont == null && _fontInitDelay == -1)
+                _fontInitDelay = 3;
             InvalidateCache();
             ScanAllUiLocs();
             PopulateAllText();
@@ -403,6 +482,12 @@ namespace NeonTranslator
 
         private static void OnPreRender()
         {
+            if (_fontInitDelay > 0)
+            {
+                _fontInitDelay--;
+                if (_fontInitDelay == 0)
+                    TryInstallCyrillicFont();
+            }
             InvalidateCache();
             ScanAllUiLocs();
             PopulateAllText();

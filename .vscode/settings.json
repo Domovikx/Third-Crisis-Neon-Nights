@@ -38,6 +38,11 @@
     "javascript": true,
     "json": true
   },
+  "yaml.format.enable": false,
+  "[yaml]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
