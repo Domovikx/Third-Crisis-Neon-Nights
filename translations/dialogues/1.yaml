@@ -3,10 +3,8 @@
 - text: "Hi"
   translation: "Привет"
   speaker: "Z"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Bye"
   translation: ""
   speaker: "Y"
-  rich_text: ""
-  rich_translation: ""
+

@@ -4,267 +4,295 @@
   translation: "Зои"
   gender: "female"
   notes: "Главная героиня"
+
 - text: "Klaudia"
   translation: "Клавдия"
   gender: "female"
   notes: "Клавдия (русская форма)"
+
 - text: "FINISHED"
   translation: ""
-  gender: ""
   notes: "Технический маркер FSM — финал диалога"
+
 - text: "OnChoiceSelected"
   translation: ""
-  gender: ""
   notes: "Технический маркер FSM — выбран вариант"
+
 - text: "Decline"
   translation: "Отказаться"
-  gender: ""
   notes: "Кнопка/реплика отказа"
+
 - text: "Dialogue"
   translation: ""
-  gender: ""
   notes: "Технический маркер FSM — блок диалога"
+
 - text: "SaveKey"
   translation: ""
-  gender: ""
   notes: "Технический маркер FSM — ключ сохранения"
+
 - text: "MusicToPlay"
   translation: ""
-  gender: ""
   notes: "Технический маркер FSM — музыка"
+
 - text: "Yes"
   translation: "Да"
-  gender: ""
   notes: "Кнопка согласия"
+
 - text: "Leave"
   translation: "Уйти"
-  gender: ""
   notes: "Кнопка/реплика ухода"
+
 - text: "Cancel"
   translation: "Отмена"
-  gender: ""
   notes: "Кнопка отмены"
+
 - text: "Salesman"
   translation: "Продавец"
   gender: "male"
   notes: "Торговец в магазине"
+
 - text: "Leona"
   translation: "Леона"
   gender: "female"
   notes: "Персонаж; в диалогах possible love interest"
+
 - text: "Horny"
   translation: "Возбуждённый"
-  gender: ""
   notes: "Эмоция/ветка диалога"
+
 - text: "Enforcer"
   translation: "Силовик"
   gender: "male"
   notes: "Общий тег для силовиков"
+
 - text: "Man"
   translation: "Мужчина"
   gender: "male"
   notes: "Собирательный образ; в диалогах разные мужчины"
+
 - text: "???"
   translation: "???"
   gender: "???"
   notes: "Неизвестный персонаж (картель, комната 205, объект)"
+
 - text: "Jay"
   translation: "Джей"
   gender: "male"
-  notes: ""
+
 - text: "Cartel Guy"
   translation: "Картельный"
   gender: "male"
   notes: "Член наркокартеля"
+
 - text: "Sarah"
   translation: "Сара"
   gender: "female"
-  notes: ""
+
 - text: "Nova"
   translation: "Нова"
   gender: "female"
-  notes: ""
+
 - text: "Woman"
   translation: "Девушка"
   gender: "female"
   notes: "Картельная / клиентка массажа"
+
 - text: "Enforcer 1483"
   translation: "Силовик 1483"
   gender: "male"
   notes: "Пол не указан, речь мужская"
+
 - text: "Salon Clerk"
   translation: "Сотрудница салона"
   gender: "female"
-  notes: ""
+
 - text: "Enforcer 1520"
   translation: "Силовик 1520"
   gender: "male"
   notes: "Пол не указан, речь мужская"
+
 - text: "Max"
   translation: "Макс"
   gender: "female"
   notes: "Персонаж женского пола (андроид)"
+
 - text: "Lio"
   translation: "Лио"
   gender: "male"
-  notes: ""
+
 - text: "Jaime"
   translation: "Джейми"
   gender: "male"
   notes: "Сосед, речь мужская"
+
 - text: "Klark"
   translation: "Кларк"
   gender: "male"
-  notes: ""
+
 - text: "Hooligan"
   translation: "Хулиган"
   gender: "male"
   notes: "Уличный громила, речь мужская"
+
 - text: "The Boss"
   translation: "Шеф"
   gender: "male"
-  notes: ""
+
 - text: "Skank"
   translation: "Шлюшка"
   gender: "female"
   notes: "Персонаж секс-работницы; в диалогах возможна вариативность"
+
 - text: "Intercom"
   translation: "Интерком"
   gender: "male"
   notes: "Мужской голос по интеркому"
+
 - text: "Rosie"
   translation: "Рози"
   gender: "female"
-  notes: ""
+
 - text: "Customer"
   translation: "Клиент"
   gender: "male"
   notes: "Завсегдатай клуба (Trov), всегда мужчина"
+
 - text: "Trov"
   translation: "Тров"
   gender: "male"
   notes: "Владелец клуба/заведения"
+
 - text: "AboultCauldron"
   translation: "О Котле"
-  gender: ""
   notes: "Техническая метка — диалог про Котёл (локация/группировка)"
+
 - text: "Bunnyboy"
   translation: "Зайчик"
   gender: "male"
   notes: "Официант/работник клуба"
+
 - text: "Bunnygirl"
   translation: "Зайка"
   gender: "female"
   notes: "Официантка/работница клуба"
+
 - text: "Femboy"
   translation: "Фембой"
   gender: "male"
   notes: "Персонаж феминного типа"
+
 - text: "Pouting"
   translation: "Надутый"
-  gender: ""
   notes: "Эмоция/ветка диалога"
+
 - text: "AskAboutThem"
   translation: "Спросить о них"
-  gender: ""
   notes: "Техническая метка — вариант диалога"
+
 - text: "Surprised"
   translation: "Удивлён"
-  gender: ""
   notes: "Эмоция/ветка диалога"
+
 - text: "Guy"
   translation: "Парень"
   gender: "male"
   notes: "Рядовой персонаж мужского пола"
+
 - text: "Sad"
   translation: "Грустный"
-  gender: ""
   notes: "Эмоция/ветка диалога"
+
 - text: "Angry"
   translation: "Злой"
-  gender: ""
   notes: "Эмоция/ветка диалога"
+
 - text: "Cocky"
   translation: "Наглый"
-  gender: ""
   notes: "Эмоция/ветка диалога"
+
 - text: "Mewing"
   translation: "Мяукающий"
-  gender: ""
   notes: "Эмоция/звукоподражание"
+
 - text: "Lewd"
   translation: "Пошлый"
-  gender: ""
   notes: "Эмоция/ветка диалога"
+
 - text: "Scheming"
   translation: "Коварный"
-  gender: ""
   notes: "Эмоция/ветка диалога"
+
 - text: "Varen"
   translation: "Варен"
   gender: "male"
   notes: "Персонаж"
+
 - text: "Rugnar"
   translation: "Рагнар"
   gender: "male"
   notes: "Персонаж"
+
 - text: "Mira"
   translation: "Мира"
   gender: "female"
   notes: "Персонаж"
+
 - text: "Help"
   translation: "Помощь"
-  gender: ""
   notes: "Кнопка/подсказка"
+
 - text: "Logs"
   translation: "Логи"
-  gender: ""
   notes: "Интерфейс — записи/журнал"
+
 - text: "GroundFloor"
   translation: "Первый этаж"
-  gender: ""
   notes: "Локация"
+
 - text: "UpperFloor"
   translation: "Верхний этаж"
-  gender: ""
   notes: "Локация"
+
 - text: "Cook"
   translation: "Повар"
   gender: "male"
   notes: "NPC"
+
 - text: "Empty"
   translation: "Пусто"
-  gender: ""
   notes: "Техническая метка — пустой слот/блок"
+
 - text: "Girl"
   translation: "Девушка"
   gender: "female"
   notes: "Общий тег для фоновых женских NPC"
+
 - text: "Shoked"
   translation: "Шокирован"
-  gender: ""
   notes: "Эмоция (опечатка: Shocked)"
+
 - text: "Athletic"
   translation: "Спортивная"
   gender: "female"
   notes: "Телосложение/тип персонажа"
+
 - text: "Silly"
   translation: "Глупый"
-  gender: ""
   notes: "Эмоция/ветка диалога"
+
 - text: "Laughing"
   translation: "Смеющийся"
-  gender: ""
   notes: "Эмоция/ветка диалога"
+
 - text: "Agree"
   translation: "Согласен"
-  gender: ""
   notes: "Кнопка/реплика согласия"
+
 - text: "OrderSlutService"
   translation: "Заказать услуги"
-  gender: ""
   notes: "Кнопка — заказ секс-услуги"
+
 - text: "Press"
   translation: "Нажать"
-  gender: ""
   notes: "Кнопка/инструкция (Press X to...)"
+

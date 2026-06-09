@@ -2,36 +2,31 @@
 
 - text: "(Don't stare... Don't stare... Don't stare... )"
   translation: ""
-  speaker: ""
   rich_text: "<i>(Don't stare... Don't stare... Don't stare... )</i>"
   rich_translation: ""
+
 - text: "(Don't-... )"
   translation: ""
   speaker: "Zoey"
   rich_text: "<i>(Don't-... )</i>"
   rich_translation: ""
+
 - text: "(Stare... )"
   translation: ""
   speaker: "Zoey"
   rich_text: "<i>(Stare... )</i>"
   rich_translation: ""
+
 - text: "You okay?"
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Oh, uh, yeah, sorry!"
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Was just-... Daydreaming... Heh."
   translation: ""
   speaker: "Zoey"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Yeah... Mood."
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+

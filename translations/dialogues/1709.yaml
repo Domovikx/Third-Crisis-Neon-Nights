@@ -3,15 +3,15 @@
 - text: "Get this door open!"
   translation: ""
   speaker: "Klaudia"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "(Well... Only one way out. What was that saying about god closing a door and opening a window?)"
   translation: ""
-  speaker: ""
   rich_text: "<i>(Well... Only one way out. What was that saying about god closing a door and opening a window?)</i>"
   rich_translation: ""
+
 - text: "(Fuck it.)"
   translation: ""
   speaker: "Zoey"
   rich_text: "<i>(Fuck it.)</i>"
   rich_translation: ""
+

@@ -5,18 +5,18 @@
   speaker: "Zoey"
   rich_text: "<i>(I need to turn it off! It's not- not okay while Sarah is right there!)</i>"
   rich_translation: ""
+
 - text: "(Maybe just the neck massagers... Those are nice. )"
   translation: ""
   speaker: "Zoey"
   rich_text: "<i>(Maybe just the neck massagers... Those are nice. )</i>"
   rich_translation: ""
+
 - text: "Hahh~ Oh wow it's got a tongue function too~!"
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "(Heh... Oh Sarah...)"
   translation: ""
-  speaker: ""
   rich_text: "<i>(Heh... Oh Sarah...)</i>"
   rich_translation: ""
+

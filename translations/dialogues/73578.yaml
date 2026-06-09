@@ -3,25 +3,24 @@
 - text: "Lookin' goood, waitress... *hic* ehehe!"
   translation: ""
   speaker: "Customer"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Oh, uhm... Thanks...?"
   translation: ""
   speaker: "Zoey"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "(Seems pretty drunk... Did I bring too many drinks...?)"
   translation: ""
   speaker: "Zoey"
   rich_text: "<color=perversion><i>(Seems pretty drunk... Did I bring too many drinks...?)</i></color>"
   rich_translation: ""
+
 - text: "Lemme'- *hic* peek at thos' big tiddies...! I'll tip ya."
   translation: ""
   speaker: "Customer"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Wha-... I-..."
   translation: ""
   speaker: "Zoey"
   rich_text: "<color=perversion>Wha-... I-...</color>"
   rich_translation: ""
+

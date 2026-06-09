@@ -2,16 +2,14 @@
 
 - text: "(Oh.. We missed this note when cleaning up.. )"
   translation: ""
-  speaker: ""
   rich_text: "<i>(Oh.. We missed this note when cleaning up.. )</i>"
   rich_translation: ""
+
 - text: "> To accomodate your special needs, another room has been assigned to you."
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "(Heh. That's one way to get to a code. )"
   translation: ""
-  speaker: ""
   rich_text: "<i>(Heh. That's one way to get to a code. )</i>"
   rich_translation: ""
+

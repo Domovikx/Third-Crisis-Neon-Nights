@@ -2,11 +2,12 @@
 
 - text: "(Guess I'll just wait until they're done.. )"
   translation: ""
-  speaker: ""
   rich_text: "<i>(Guess I'll just wait until they're done.. )</i>"
   rich_translation: ""
+
 - text: "(They won't go at it for too long, right?)"
   translation: ""
   speaker: "Zoey"
   rich_text: "<i>(They won't go at it for <b>too</b> long, right?)</i>"
   rich_translation: ""
+

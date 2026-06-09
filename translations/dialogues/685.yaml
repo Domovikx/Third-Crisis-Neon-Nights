@@ -2,16 +2,13 @@
 
 - text: "Leona opens the door"
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Cut off saying Lio"
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "The hallway isn't the place to discuss such... intimate details."
   translation: ""
   speaker: "Leona"
   rich_text: "The hallway isn't the place to discuss such... <b>intimate</b> details."
   rich_translation: ""
+

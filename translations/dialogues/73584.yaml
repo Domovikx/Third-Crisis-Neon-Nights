@@ -3,20 +3,22 @@
 - text: "God you're such a hot waitress... *hic*"
   translation: ""
   speaker: "Customer"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Show me ya' tits, pleaseeee? I have to see emmm'..."
   translation: ""
   speaker: "Customer"
   rich_text: "Show me ya' tits, pleaseeee? I <b>have</B> to see emmm'..."
   rich_translation: ""
+
 - text: "I, um-..."
   translation: ""
   speaker: "Zoey"
   rich_text: "<color=perversion>I, um-...</color>"
   rich_translation: ""
+
 - text: "(I-... I said I'd stop this... Right...?)"
   translation: ""
   speaker: "Zoey"
   rich_text: "<color=perversion><i>(I-... I said I'd stop this... Right...?)</i></color>"
   rich_translation: ""
+

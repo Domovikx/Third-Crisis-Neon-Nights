@@ -5,23 +5,17 @@
   speaker: "Zoey"
   rich_text: "<i>(Finally he's done...)</i>"
   rich_translation: ""
+
 - text: "That sounds great, thank you so much!"
   translation: ""
   speaker: "Zoey"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Don't mention it, hun. Hanging out with you is a treat in itself."
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Right. Heh... thanks, Max."
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Any time, Zoey."
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+

@@ -5,8 +5,10 @@
   speaker: "Zoey"
   rich_text: "<i>(It's raining again, at least I'm home. )</i>"
   rich_translation: ""
+
 - text: "(I should get a new umbrella next time I visit the store. )"
   translation: ""
   speaker: "Zoey"
   rich_text: "<i>(I should get a new umbrella next time I visit the store. )</i>"
   rich_translation: ""
+

@@ -1,42 +1,27 @@
 # Dialogues (path_id=106)
 
 - text: "Oh Zoooey~ Guess who~?"
-  translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+  translation: "О Зо-о-ои~ Угадай кто~?"
+
 - text: "Hi Sarah."
-  translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+  translation: "Привет, Сара."
+
 - text: "Eh? What's up? You sound down in the dumps."
-  translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+  translation: "Э? Что стряслось? Голос у тебя грустный."
+
 - text: "Something like that. Hey, can I call you back later? Just a liiittle busy at the moment."
-  translation: ""
+  translation: "Вроде того. Слушай, можно я перезвоню? Я не-мно-жко занята сейчас."
   speaker: "Zoey"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Ughhh! But you're alwaaays busy! When you gonna make some time for your bestie, huh?"
-  translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+  translation: "Угхх! Но ты ве-е-чно занята! Когда найдёшь время для подруги, а?"
+
 - text: "Uhhh- Soon? I really gotta go-"
-  translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+  translation: "Э-э-э- Скоро? Мне правда пора-"
+
 - text: "Just fuckin' with ya. I get it, super spy! You've got your merc work. I'll swing by your place in a bit-"
-  translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+  translation: "Да шучу я. Понимаю, супер-шпионка! У тебя контракты. Заскочу к тебе чуть позже-"
+
 - text: "Yep! See you there! Bye!"
-  translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+  translation: "Ага! Увидимся! Пока!"
+

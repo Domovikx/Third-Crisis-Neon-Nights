@@ -5,13 +5,14 @@
   speaker: "Zoey"
   rich_text: "<i>(She's-... really not wasting any time...)</i>"
   rich_translation: ""
+
 - text: "> Mmmhh, I want it nice and slow, Max. Please..."
   translation: ""
-  speaker: ""
   rich_text: "<i> > Mmmhh, I want it nice and slow, Max. Please..."
   rich_translation: ""
+
 - text: "> Nice and slow is my specialty."
   translation: ""
-  speaker: ""
   rich_text: "<i> > Nice and slow is my specialty."
   rich_translation: ""
+

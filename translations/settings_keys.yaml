@@ -2,111 +2,166 @@
 
 - text: "Controls"
   translation: "Управление"
+
 - text: "Game"
   translation: "Игра"
+
 - text: "Video"
   translation: "Видео"
+
 - text: "Texture Quality"
   translation: "Качество текстур"
+
 - text: "High"
   translation: "Высокое"
+
 - text: "Medium"
   translation: "Среднее"
+
 - text: "Low"
   translation: "Низкое"
+
 - text: "Language (Machine Translation)"
   translation: "Язык (машинный перевод)"
+
 - text: "Dialogue Autoplay"
   translation: "Автовоспроизведение диалогов"
+
 - text: "Off"
   translation: "Выкл"
+
 - text: "Slow"
   translation: "Медленно"
+
 - text: "Normal"
   translation: "Нормально"
+
 - text: "Fast"
   translation: "Быстро"
+
 - text: "Grass Detail"
   translation: "Детализация травы"
+
 - text: "Deactivated"
   translation: "Отключено"
+
 - text: "Ultra"
   translation: "Ультра"
+
 - text: "FPS Limit"
   translation: "Лимит FPS"
+
 - text: "Resolution"
   translation: "Разрешение"
+
 - text: "Dynamic Lighting"
   translation: "Динамическое освещение"
+
 - text: "Enable VSync"
   translation: "VSync"
+
 - text: "Show FPS"
   translation: "Показывать FPS"
+
 - text: "Show Advanced Performance Stats"
   translation: "Продвинутая статистика"
+
 - text: "Show Object Outlines"
   translation: "Контуры объектов"
+
 - text: "Enable console (~)"
   translation: "Включить консоль (~)"
+
 - text: "Always Sprint"
   translation: "Всегда бежать"
+
 - text: "Use Virtual Joystick"
   translation: "Виртуальный джойстик"
+
 - text: "Virtual Joystick Size"
   translation: "Размер джойстика"
+
 - text: "Use Joystick Axis Input"
   translation: "Ввод с оси джойстика"
+
 - text: "Show Hints"
   translation: "Подсказки"
+
 - text: "Enable Multiple Autosaves"
   translation: "Множественные автосохранения"
+
 - text: "Fullscreen"
   translation: "Полный экран"
+
 - text: "Toggle Player Sprite"
   translation: "Спрайт персонажа"
+
 - text: "Enable Cockblock Cat"
   translation: "Включить кота-блокиратора"
+
 - text: "Enable Skip Mode"
   translation: "Пропуск"
+
 - text: "Sound"
   translation: "Звук"
+
 - text: "Music Volume"
   translation: "Громкость музыки"
+
 - text: "Effects Volume"
   translation: "Громкость эффектов"
+
 - text: "Mouse Sensitivity"
   translation: "Чувствительность мыши"
+
 - text: "Lewder Shooter"
   translation: "Пошлый шутер"
+
 - text: "Movement Speed"
   translation: "Скорость движения"
+
 - text: "Open Data Privacy Page"
   translation: "Конфиденциальность данных"
+
 - text: "Toys"
   translation: "Игрушки"
+
 - text: "Lovense: Enabled"
   translation: "Lovense: Вкл"
+
 - text: "Lovense: Local IP"
   translation: "Lovense: Локальный IP"
+
 - text: "Lovense: Port"
   translation: "Lovense: Порт"
+
 - text: "Lovense: Use HTTP"
   translation: "Lovense: Использовать HTTP"
+
 - text: "Lovense: How to Setup"
   translation: "Lovense: Настройка"
+
 - text: "Buy a Lovense Toy Here"
   translation: "Купить Lovense"
+
 - text: "Vibrate in Dialogue"
   translation: "Вибрация в диалогах"
+
 - text: "Vibrate in Interface"
   translation: "Вибрация в интерфейсе"
+
 - text: "Lovense Native: How to Setup"
   translation: "Lovense Native: Настройка"
+
 - text: "Search for Devices"
   translation: "Поиск устройств"
+
 - text: "Seasonal Events"
   translation: "Сезонные события"
+
 - text: "Enable Multiplayer"
   translation: "Мультиплеер"
+
 - text: "Controllers"
   translation: "Контроллеры"
+

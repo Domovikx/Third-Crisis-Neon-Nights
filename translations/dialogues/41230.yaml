@@ -3,15 +3,11 @@
 - text: "System.Collections.Generic.List`1[[Asuna.Dialogues.DialogueLineLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
   translation: ""
   speaker: "MusicToPlay"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Follow Advice"
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Follow Advice"
   translation: ""
   speaker: "Decline"
-  rich_text: ""
-  rich_translation: ""
+

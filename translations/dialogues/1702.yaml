@@ -2,11 +2,11 @@
 
 - text: ">"
   translation: ""
-  speaker: ""
   rich_text: "<< Intruder Detected. >>"
   rich_translation: ""
+
 - text: "(That doesn't sound go- )"
   translation: ""
-  speaker: ""
   rich_text: "<i>(That doesn't sound go- )</i>"
   rich_translation: ""
+

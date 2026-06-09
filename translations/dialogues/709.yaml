@@ -2,56 +2,43 @@
 
 - text: "Your flat is really pretty! Super cozy!"
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Oh darling, this is nothing. If only I could show you how I lived before GAG took over."
   translation: ""
   speaker: "Leona"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Even prettier?"
   translation: ""
   speaker: "Zoey"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Floor 32 of the Skylane Spire. Such a lovely view from the upper district."
   translation: ""
   speaker: "Leona"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "You had an entire floor to yourself?"
   translation: ""
-  speaker: ""
   rich_text: "You had an entire <b>floor</b> to yourself?"
   rich_translation: ""
+
 - text: "Of course. All the floors in there are intended like that."
   translation: ""
   speaker: "Leona"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Woah. I've never been anywhere that fancy."
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "I loved it at first. Routine however lets even the brightest light fade."
   translation: ""
   speaker: "Leona"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "You mean you got bored of it?"
   translation: ""
   speaker: "Zoey"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Quite. Not that it matters anymore. Moving here has lead me to meeting you darling, so maybe it was worth it in the end, ehehe."
   translation: ""
   speaker: "Leona"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Ah-... Hah! Thanks...!"
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+

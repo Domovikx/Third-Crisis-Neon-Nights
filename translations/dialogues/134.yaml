@@ -2,11 +2,12 @@
 
 - text: "(They're talking about that apartment the enforcers are blocking?)"
   translation: ""
-  speaker: ""
   rich_text: "<i>(They're talking about that apartment the enforcers are blocking?)</i>"
   rich_translation: ""
+
 - text: "(Does that mean... The enforcers are looking for them?)"
   translation: ""
   speaker: "Zoey"
   rich_text: "<i>(Does that mean... The enforcers are looking for <b>them</b>?)</i>"
   rich_translation: ""
+

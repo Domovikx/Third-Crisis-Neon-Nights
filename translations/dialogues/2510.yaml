@@ -3,15 +3,12 @@
 - text: "Ah- maybe another day!"
   translation: ""
   speaker: "Zoey"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Really?! We're just throwing our stuff at anything you find hot now, do we?! You are going to explain this to the boss!"
   translation: ""
-  speaker: ""
   rich_text: "Really?! We're just throwing our stuff at anything you find hot now, do we?! <b>You</b> are going to explain this to the boss!"
   rich_translation: ""
+
 - text: "And she didn't even take it. Just get outa here, girl."
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+

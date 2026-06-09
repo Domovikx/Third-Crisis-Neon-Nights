@@ -5,38 +5,33 @@
   speaker: "Zoey"
   rich_text: "<i>(It's a <b>lot</b> of money for just wearing an outfit... Maybe I wouldn't need to ask Sarah for help so much...)</i>"
   rich_translation: ""
+
 - text: "Let's say I was interested... What would I need to do?"
   translation: ""
   speaker: "Zoey"
   rich_text: "Let's say I <b>was</b> interested... What would I need to do?"
   rich_translation: ""
+
 - text: "Just slip in and lean over so I can get the proof he wants."
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "That's... It?"
   translation: ""
   speaker: "Zoey"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Get me my proof and you get your money."
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "(Just an outfit... Nothing crazy... And it's quick money... This makes sense.)"
   translation: ""
   speaker: "Zoey"
   rich_text: "<i>(Just an outfit... Nothing crazy... And it's quick money... This makes sense.)</i>"
   rich_translation: ""
+
 - text: "Alright, fine. I'll do it."
   translation: ""
   speaker: "Zoey"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Outfit is in the box. Go and slip in."
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+

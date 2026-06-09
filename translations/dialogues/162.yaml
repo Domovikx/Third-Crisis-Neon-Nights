@@ -2,11 +2,11 @@
 
 - text: "(Hmmm... This thing seems to be working fine... Something else must be stopping the power from getting to the door.)"
   translation: ""
-  speaker: ""
   rich_text: "<i>(Hmmm... This thing seems to be working fine... Something else must be stopping the power from getting to the door.)</i>"
   rich_translation: ""
+
 - text: "(Need to reroute the power to the door somehow...)"
   translation: ""
-  speaker: ""
   rich_text: "<i>(Need to reroute the power to the door somehow...)</i>"
   rich_translation: ""
+

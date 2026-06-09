@@ -221,9 +221,21 @@ def _fmt(s: str) -> str:
     return f'"{s}"'
 
 
+_ALWAYS_FIELDS = {"text", "translation"}
+
+
 def _format_entry(entry: dict) -> str:
-    """Format a dict as YAML block entry. All fields written (incl. empty)."""
-    keys = list(entry.keys())
+    """Format a dict as YAML block entry. Skip empty optional fields."""
+    has_rich = bool(entry.get("rich_text"))
+    keys = []
+    for k in entry:
+        if k in _ALWAYS_FIELDS:
+            keys.append(k)
+        elif k == "rich_translation":
+            if has_rich:
+                keys.append(k)
+        elif entry[k]:
+            keys.append(k)
     if not keys:
         return ""
     first = keys[0]
@@ -308,6 +320,7 @@ def write_yaml(path: Path, data: list, header: str = None):
         if not isinstance(entry, dict):
             continue
         lines.append("- " + _format_entry(entry))
+        lines.append("")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"  -> {path} ({len(data)} entries)", file=sys.stderr)
 

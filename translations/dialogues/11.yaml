@@ -1,7 +1,7 @@
 # Dialogues (path_id=11)
 
 - text: "(Looks like a map of the subway lines. So many are constantly opening and closing 'due to construction'. Must be lockdowns. )"
-  translation: ""
-  speaker: ""
+  translation: "Похоже на карту линий метро. Многие станции постоянно открываются и закрываются «из-за ремонта». Должно быть, это блокпосты."
   rich_text: "<i>(Looks like a map of the subway lines. So many are constantly opening and closing 'due to construction'. Must be lockdowns. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>Похоже на карту линий метро. Многие станции постоянно открываются и закрываются «из-за ремонта». Должно быть, это блокпосты.</i>"
+

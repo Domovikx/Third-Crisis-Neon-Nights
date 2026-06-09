@@ -2,46 +2,35 @@
 
 - text: "Drunk, slurred speech"
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "(Is he-.. drunk?)"
   translation: ""
-  speaker: ""
   rich_text: "<i>(Is he-.. drunk?)</i>"
   rich_translation: ""
+
 - text: "Are you Cal?"
   translation: ""
   speaker: "Zoey"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Your friend Mynx asked me to go find you and send you to him!"
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Oh, okay, he seemed pretty urgent, are you sure?"
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Yeees yeees, I'll be thereee!  Hic-..! I have to finish ma drink! Eheh!"
   translation: ""
-  speaker: ""
   rich_text: "Yeees yeees, I'll be thereee! <i> Hic-..</i>! I have to finish ma drink! Eheh!"
   rich_translation: ""
+
 - text: "Uhh, okay-..! Sweet drink, huh?"
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "(If I tell Klaudia about one of her boys being drunk, maybe that will distract her for a moment.. !)"
   translation: ""
-  speaker: ""
   rich_text: "<i>(If I tell Klaudia about one of her boys being drunk, maybe that will distract her for a moment.. !)</i>"
   rich_translation: ""
+
 - text: "Sweet drinks are the best!"
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+

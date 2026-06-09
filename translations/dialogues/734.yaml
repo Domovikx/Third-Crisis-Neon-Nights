@@ -2,16 +2,12 @@
 
 - text: "Uhhh... I have no idea how this thing works..."
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Mfffh! Mffff~!"
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "(Looks like it has three slots, maybe for keys? But where the hell are the keys? I better take a look around.)"
   translation: ""
-  speaker: ""
   rich_text: "<i>(Looks like it has three slots, maybe for keys? But where the hell are the keys? I better take a look around.)</i>"
   rich_translation: ""
+

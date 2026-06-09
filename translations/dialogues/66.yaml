@@ -3,35 +3,27 @@
 - text: "H-hello...? C-can you hear me...? Please... Khh..."
   translation: ""
   speaker: "Intercom"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Huh? Hello?!"
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "That-... that outfit-... Please-... I need-... fhhh..."
   translation: ""
   speaker: "Intercom"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "I need to feel it... Set m-me free... Please... I b-beg you...!"
   translation: ""
   speaker: "Intercom"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Wh- who are you?!"
   translation: ""
-  speaker: ""
-  rich_text: ""
-  rich_translation: ""
+
 - text: "Meet me in... M31... please...! I can't-... Nghhh...!"
   translation: ""
   speaker: "Intercom"
-  rich_text: ""
-  rich_translation: ""
+
 - text: "(He sounds like he's in trouble... )"
   translation: ""
-  speaker: ""
   rich_text: "<i>(He sounds like he's in trouble... )</i>"
   rich_translation: ""
+

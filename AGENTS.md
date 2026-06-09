@@ -16,9 +16,9 @@
 python .opencode/skills/extract-text/extractor.py
 ```
 
-→ `translations/dialogues.{path_id}.yaml` — объектный YAML `{text, translation, speaker, rich_text, rich_translation}` (1503+93+97+100, ANToolkit JSON)
-→ `translations/dialogues.bundle_*.yaml` — объектный YAML `{text, translation, speaker, rich_text, rich_translation}` (952 всего, PlayMaker FSM из .bundle; дубликаты с ANToolkit отфильтрованы; 4 актива)
-→ `translations/speakers.yaml` — объектный YAML `{text, translation, gender, notes}` (52 спикера)
+→ `translations/dialogues.{path_id}.yaml` — объектный YAML, пустые опциональные поля не пишутся (ANToolkit JSON)
+→ `translations/dialogues.bundle_*.yaml` — объектный YAML (PlayMaker FSM из .bundle; дубликаты с ANToolkit отфильтрованы)
+→ `translations/speakers.yaml` — объектный YAML `{text, translation, gender, notes}` (67 спикеров)
 → `translations/settings_keys.yaml` — объектный YAML `{text, translation}` (55 UI-строк)
 
 ### Источники данных
@@ -31,6 +31,13 @@ python .opencode/skills/extract-text/extractor.py
 Формат YAML: объектный `{text, translation, ...}`. Поля опциональны.  
 Рантайм использует fallback: `rich_translation` > `translation` > `rich_text` > `text`.
 Неизвестные поля игнорируются рантаймом, но сохраняются через merge при перезапуске экстрактора.
+
+**Форматирование вывода:**
+- `text` и `translation` — всегда (обязательные поля)
+- `speaker` — только если непустой
+- `rich_text` — только если непустой
+- `rich_translation` — всегда, если есть `rich_text` (даже пустой, как подсказка переводчику)
+- Между записями — пустая строка для читабельности
 
 ### dump_assets
 
@@ -92,7 +99,7 @@ python .opencode/skills/build-translator/build_proxy.py
 ## Команды
 
 - `python .opencode/skills/extract-text/extractor.py` — извлечение переводов
-- `python .opencode/skills/extract-text/extractor.test.py` — тесты (14)
+- `python .opencode/skills/extract-text/extractor.test.py` — тесты (15)
 - `python .opencode/skills/dump-assets/dump_assets.py` — дамп ассетов (+ .bundle)
 - `python .opencode/skills/dump-assets/dump_assets.test.py` — тесты дампера (23)
 - `python .opencode/skills/build-translator/build.py` — сборка DLL
