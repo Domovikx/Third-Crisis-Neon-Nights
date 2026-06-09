@@ -51,6 +51,8 @@ def test_extract_dialogues():
         assert all(x.get("text") for x in all_entries)
         assert any(x["text"] == "Narration line" and x.get("speaker") == "" for x in all_entries)
         assert 73203 in by_pid and 73264 in by_pid
+        assert all("rich_text" in e and "rich_translation" in e for e in all_entries)
+        assert all(e.get("translation") == "" for e in all_entries)
         print(f"  PASS: {total} dialogues across {len(by_pid)} sources")
 
 
@@ -95,6 +97,36 @@ def test_write_yaml():
         assert 'text: "Fullscreen"' in c
         assert 'text: "Music Volume"' in c
         print("  PASS: YAML object format")
+
+
+def test_extract_bundle_dialogues_fields():
+    """Bundle entries always have rich_text + rich_translation fields."""
+    with tempfile.TemporaryDirectory() as tmp:
+        ext.DUMP_DIR = Path(tmp) / "dump_assets"
+        ext.DUMP_DIR.mkdir()
+        chunk = {"asset": "bundle_test", "chunk": 0, "objects": [
+            {"path_id": 100, "type": "MonoBehaviour",
+             "raw_strings": [
+                 "line_1",
+                 "Hello there!",
+                 "<color=red>Rich text here</color>",
+                 "Zoey",
+             ],
+             "strings": {"m_Name": "TestFSM"}},
+        ]}
+        (ext.DUMP_DIR / "bundle_.chunk000.json").write_text(json.dumps(chunk))
+        by_bundle = ext.extract_bundle_dialogues(ext.find_chunks())
+        assert len(by_bundle) > 0
+        entries = [e for lst in by_bundle.values() for e in lst]
+        assert len(entries) >= 2
+        assert all("rich_text" in e and "rich_translation" in e for e in entries)
+        assert all(e["rich_translation"] == "" for e in entries)
+        rich_entries = [e for e in entries if e["rich_text"]]
+        plain_entries = [e for e in entries if not e["rich_text"]]
+        assert len(rich_entries) >= 1, "should have entry with rich_text from tagged line"
+        assert len(plain_entries) >= 1, "should have entry without rich tags"
+        assert "<color=red>" in rich_entries[0]["rich_text"]
+        print(f"  PASS: {len(entries)} bundle entries, all have rich_text/rich_translation")
 
 
 def test_empty_dump():
@@ -189,6 +221,7 @@ def test_merge():
     assert merged[0]["text"] == "Hello" and merged[0]["translation"] == "Привет"
     assert merged[1]["text"] == "Bye" and merged[1]["translation"] == ""
     assert merged[2]["text"] == "Hi" and merged[2]["translation"] == ""
+    assert all("rich_text" in e and "rich_translation" in e for e in merged)
     print("  PASS: merge preserves translations")
 
 
@@ -275,7 +308,10 @@ def test_real_dump():
     assert (ext.OUT_DIR / "dialogues.73262.yaml").exists()
     assert (ext.OUT_DIR / "dialogues.73263.yaml").exists()
     assert (ext.OUT_DIR / "dialogues.73264.yaml").exists()
-    assert (ext.OUT_DIR / "dialogues.bundle.yaml").exists()
+    assert (ext.OUT_DIR / "dialogues.bundle_level-glowinghole.yaml").exists()
+    assert (ext.OUT_DIR / "dialogues.bundle_level-cartelhideout.yaml").exists()
+    assert (ext.OUT_DIR / "dialogues.bundle_lewdanimation_liofuckmachine.yaml").exists()
+    assert (ext.OUT_DIR / "dialogues.bundle_0.3-animation-maxxcustomercg.yaml").exists()
     assert (ext.OUT_DIR / "speakers.yaml").exists()
     assert (ext.OUT_DIR / "settings_keys.yaml").exists()
     by_pid = ext.extract_dialogues(ext.find_chunks())
@@ -284,6 +320,9 @@ def test_real_dump():
     assert len(by_pid) == 4, f"expected 4 sources, got {len(by_pid)}"
     assert len(by_bundle) == 97, f"expected 97 bundles, got {len(by_bundle)}"
     all_pid_entries = [e for lst in by_pid.values() for e in lst]
+    all_bundle_entries = [e for lst in by_bundle.values() for e in lst]
+    assert all("rich_text" in e and "rich_translation" in e for e in all_pid_entries)
+    assert all("rich_text" in e and "rich_translation" in e for e in all_bundle_entries)
     speakers = {d.get("speaker") for d in all_pid_entries if d.get("speaker")}
     assert len(speakers) == 23
     g = ext.extract_global_strings(ext.find_summaries())
@@ -296,7 +335,8 @@ def test_real_dump():
 
 if __name__ == "__main__":
     tests = [test_extract_dialogues, test_extract_speakers, test_extract_global_strings,
-             test_write_yaml, test_empty_dump, test_special_chars, test_dedup,
+             test_write_yaml, test_extract_bundle_dialogues_fields,
+             test_empty_dump, test_special_chars, test_dedup,
              test_read_yaml, test_read_yaml_multi,
              test_merge, test_merge_speakers, test_merge_settings,
              test_idempotent, test_real_dump]

@@ -21,11 +21,13 @@ permission:
 
 ## Форматы YAML
 
-**Диалоги:** `["original","translation","speaker"]`
-**UI (settings_keys.yaml):** `["original","translation"]`
-**Персонажи (speakers.yaml):** `["original","translation","gender"]`
+**Диалоги (`dialogues.*.yaml`):** объектный `{text, translation, speaker, rich_text, rich_translation}`
+**UI (`settings_keys.yaml`):** объектный `{text, translation}`
+**Персонажи (`speakers.yaml`):** объектный `{text, translation, gender, notes}`
+*Bundle-записи (`dialogues.bundle_*.yaml`): `{text, translation, speaker, rich_text, rich_translation}`*
 
 Пустой `""` на месте перевода → не переведено.
+Поля `rich_text` и `rich_translation` опциональны — рантайм авто-генерирует при нехватке.
 
 ## Правила
 

@@ -17,7 +17,7 @@ python .opencode/skills/extract-text/extractor.py
 ```
 
 → `translations/dialogues.{path_id}.yaml` — объектный YAML `{text, translation, speaker, rich_text, rich_translation}` (1503+93+97+100, ANToolkit JSON)
-→ `translations/dialogues.bundle.yaml` — объектный YAML `{text, translation, speaker}` (~992, PlayMaker FSM из .bundle)
+→ `translations/dialogues.bundle_*.yaml` — объектный YAML `{text, translation, speaker, rich_text, rich_translation}` (952 всего, PlayMaker FSM из .bundle; дубликаты с ANToolkit отфильтрованы; 4 актива)
 → `translations/speakers.yaml` — объектный YAML `{text, translation, gender, notes}` (52 спикера)
 → `translations/settings_keys.yaml` — объектный YAML `{text, translation}` (55 UI-строк)
 

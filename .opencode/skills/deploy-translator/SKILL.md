@@ -55,7 +55,8 @@ translations/
   dialogues.73262.yaml  — диалоги (93)
   dialogues.73263.yaml  — диалоги (97)
   dialogues.73264.yaml  — диалоги (100)
-  speakers.yaml         — персонажи (23, text, translation, gender, notes)
+  dialogues.bundle_*.yaml — диалоги (952, дубликаты отфильтрованы, по активу)
+  speakers.yaml         — персонажи (52, text, translation, gender, notes)
   settings_keys.yaml    — UI строки (55, text, translation)
 ```
 

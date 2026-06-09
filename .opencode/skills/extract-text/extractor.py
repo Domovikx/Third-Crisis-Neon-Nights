@@ -7,7 +7,7 @@ extractor.py — Извлекает диалоги, UI-строки и имен�
 
 Файлы на выходе (в translations/):
   - dialogues.{path_id}.yaml  — ANToolkit JSON диалоги
-  - dialogues.bundle.yaml     — PlayMaker FSM диалоги
+   - dialogues.bundle_*.yaml   — PlayMaker FSM диалоги (по активу)
   - speakers.yaml             — персонажи
   - settings_keys.yaml        — UI-строки
 
@@ -93,6 +93,12 @@ KNOWN_NON_SPEAKERS = {
 }
 
 _RICH_TAG_RX = re.compile(r'<[^>]+>')
+_BUNDLE_HASH_RX = re.compile(r'_(?:assets|scenes)_all_[a-f0-9]+$')
+
+
+def _bundle_short_name(asset_name: str) -> str:
+    """Derive stable short filename from bundle asset name (strip variable hash suffix)."""
+    return _BUNDLE_HASH_RX.sub('', asset_name)
 
 
 def _is_skip_prefix(s: str) -> bool:
@@ -155,6 +161,8 @@ def extract_bundle_dialogues(chunk_files: list) -> dict:
                     i += 1
                     continue
 
+                rich_text = s if s != clean else ""
+
                 speaker = ""
                 if i + 1 < len(rs):
                     ns = rs[i + 1].strip()
@@ -168,11 +176,14 @@ def extract_bundle_dialogues(chunk_files: list) -> dict:
                 entry_key = (clean, speaker)
                 if entry_key not in seen_entries:
                     seen_entries.add(entry_key)
-                    by_bundle[asset_name].append({
+                    entry = {
                         "text": clean,
                         "translation": "",
                         "speaker": speaker,
-                    })
+                        "rich_text": rich_text,
+                        "rich_translation": "",
+                    }
+                    by_bundle[asset_name].append(entry)
 
                 i += 1
 
@@ -243,6 +254,15 @@ def read_yaml(path: Path) -> list:
     return data
 
 
+def _auto_rich_translation(entry: dict) -> dict:
+    """Auto-generate rich_translation from rich_text + translation if missing."""
+    if not entry.get('rich_translation') and entry.get('rich_text') and entry.get('translation'):
+        plain = _RICH_TAG_RX.sub('', entry['rich_text']).strip()
+        if plain and plain in entry['rich_text']:
+            entry['rich_translation'] = entry['rich_text'].replace(plain, entry['translation'])
+    return entry
+
+
 def merge(existing_raw: list, fresh: list, fields: list, *key_fields: str) -> list:
     """Merge existing translations into fresh entries.
     existing_raw: raw list from read_yaml (lists or dicts)
@@ -270,9 +290,9 @@ def merge(existing_raw: list, fresh: list, fields: list, *key_fields: str) -> li
             for fld in fields:
                 if fld not in key_fields and old.get(fld):
                     new[fld] = old[fld]
-            merged.append(new)
+            merged.append(_normalize_entry(new, fields))
         else:
-            merged.append(e)
+            merged.append(_normalize_entry(e, fields))
     return merged
 
 
@@ -309,23 +329,29 @@ def extract():
     for pid in sorted(by_pid):
         fpath = OUT_DIR / f"dialogues.{pid}.yaml"
         existing = read_yaml(fpath)
-        merged = merge(existing, by_pid[pid], DIALOGUE_FIELDS, "text", "speaker")
+        merged = [_auto_rich_translation(e) for e in merge(existing, by_pid[pid], DIALOGUE_FIELDS, "text", "speaker")]
         total += len(merged)
         write_yaml(fpath, merged, header=f"Dialogues (path_id={pid})")
 
-    bundle_entries = []
-    seen_bundle = set()
-    for entries in by_bundle.values():
-        for e in entries:
-            k = (e["text"], e.get("speaker", ""))
-            if k not in seen_bundle:
-                seen_bundle.add(k)
-                bundle_entries.append(e)
-    if bundle_entries:
-        fpath = OUT_DIR / "dialogues.bundle.yaml"
-        bundle_entries = merge(read_yaml(fpath), bundle_entries, DIALOGUE_FIELDS, "text", "speaker")
-        total += len(bundle_entries)
-        write_yaml(fpath, bundle_entries, header="Dialogues (bundle/FSM)")
+    # Build set of (text, speaker) already covered by ANToolkit dialogues
+    dialogue_keys = set()
+    for pid in sorted(by_pid):
+        fpath = OUT_DIR / f"dialogues.{pid}.yaml"
+        for e in read_yaml(fpath):
+            k = (e.get("text", ""), e.get("speaker", ""))
+            if k[0]:
+                dialogue_keys.add(k)
+
+    # Write one YAML per bundle asset (stable short name, no hash)
+    for asset_name, entries in by_bundle.items():
+        entries = [e for e in entries if (e["text"], e.get("speaker", "")) not in dialogue_keys]
+        if not entries:
+            continue
+        short = _bundle_short_name(asset_name)
+        fpath = OUT_DIR / f"dialogues.{short}.yaml"
+        merged = [_auto_rich_translation(e) for e in merge(read_yaml(fpath), entries, DIALOGUE_FIELDS, "text", "speaker")]
+        total += len(merged)
+        write_yaml(fpath, merged, header=f"Dialogues (bundle: {asset_name})")
 
     all_speakers = OrderedDict()
     for entries in by_pid.values():

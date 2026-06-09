@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace NeonTranslator
 {
@@ -130,21 +131,38 @@ namespace NeonTranslator
             }
         }
 
+        private static readonly Regex _richTagRx = new Regex("<[^>]+>", RegexOptions.Compiled);
+
         private static void ProcessEntry(Dictionary<string, string> fields)
         {
             string text = GetField(fields, "text");
             if (string.IsNullOrEmpty(text))
                 return;
 
+            // Skip if already processed (defense-in-depth against duplicate keys)
+            if (_allKeys.Contains(text))
+                return;
+
             string translation = GetField(fields, "translation");
             string richText = GetField(fields, "rich_text");
             string richTranslation = GetField(fields, "rich_translation");
+
+            // Auto-generate rich_translation from rich_text + translation when missing
+            if (string.IsNullOrEmpty(richTranslation) && !string.IsNullOrEmpty(richText)
+                && !string.IsNullOrEmpty(translation))
+            {
+                string plainFromRich = _richTagRx.Replace(richText, "");
+                if (!string.IsNullOrEmpty(plainFromRich) && richText.Contains(plainFromRich))
+                {
+                    richTranslation = richText.Replace(plainFromRich, translation);
+                }
+            }
 
             // Best available: rich_translation > translation > rich_text > text
             string best = Coalesce(richTranslation, translation, richText, text);
 
             _allKeys.Add(text);
-            if (!string.IsNullOrEmpty(best))
+            if (!string.IsNullOrEmpty(best) && best != text)
             {
                 _translations[text] = best;
             }

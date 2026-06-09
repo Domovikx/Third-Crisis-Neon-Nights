@@ -70,12 +70,12 @@ python .opencode/skills/build-translator/build_proxy.py
 - text: "Yesss...!~"
   translation: "Да-а-а...!~"
   speaker: "Zoey"
-  rich_text: ""
-  rich_translation: ""
+  rich_text: "<color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\">Yesss...!~</font></color>"
+  rich_translation: "<color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\">Да-а-а...!~</font></color>"
 - text: "Fhaaa..!!"
   translation: "Ахха..!!"
   speaker: "Zoey"
-  rich_text: ""
+  rich_text: "<color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\">Fhaaa..!!</font></color>"
   rich_translation: ""
 
 # Settings keys: text, translation
@@ -88,6 +88,14 @@ python .opencode/skills/build-translator/build_proxy.py
   gender: "female"
   notes: ""
 
-Поля: `text` — оригинал (ключ), `translation` — перевод. Для диалогов также `speaker`, `rich_text`, `rich_translation`.
+Поля: `text` — оригинал (ключ словаря), `translation` — перевод.
+Для диалогов также `speaker`, `rich_text`, `rich_translation`.
+
 Пустая строка `""` на месте перевода → не переведено.
+
+Рантайм (TranslationLoader.cs):
+- auto-generates `rich_translation` из `rich_text` + `translation`
+- fallback: `rich_translation > translation > rich_text > text`
+- `best != text` guard — не перезаписывает перевод оригиналом из другого файла
+- `_allKeys.Contains(text)` skip — пропускает уже обработанные дубликаты (defense-in-depth)
 ```

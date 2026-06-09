@@ -57,8 +57,12 @@ python .opencode/skills/extract-text/extractor.py
 ## Источники данных
 
 - **dialogues** — из `"dialogues"` поля MonoBehaviour объектов в чанках (автопоиск, 1793 записи в 4 источниках)
-- **speakers** — уникальные спикеры из dialogues (23, без пустых/Narration)
+- **dialogues.bundle_*** — из `raw_strings` с `line_X` маркерами (952, дубликаты с ANToolkit отфильтрованы экстрактором; по 1 файлу на актив)
+- **speakers** — уникальные спикеры из обоих источников (52, без пустых/Narration)
 - **settings_keys** — только `settings_keys.display` из summary JSON (55 UI-строк, реальный display-текст из бинарника)
+
+Экстрактор авто-генерирует `rich_translation` из `rich_text` + `translation` при записи.
+Bundle-записи, уже присутствующие в dialogue-файлах, отфильтровываются (DRY).
 
 Формат YAML позволяет писать комментарии `#` прямо в файлах переводов.
 

@@ -304,23 +304,10 @@ namespace NeonTranslator
         private static void SetTextFieldDirect(Component c, string value)
         {
             if (c == null) return;
-            FieldInfo field = null;
-            Type t = c.GetType();
-            if (_legacyType != null && _legacyType.IsAssignableFrom(t)) field = _textMTextField;
-            else if (_tmpType != null && _tmpType.IsAssignableFrom(t)) field = _tmpMTextField;
-            if (field == null) return;
-            field.SetValue(c, value);
-            if (_tmpType != null && _tmpType.IsAssignableFrom(t))
+            var prop = c.GetType().GetProperty("text");
+            if (prop != null && prop.CanWrite)
             {
-                if (_tmpHavePropChangedField != null)
-                    _tmpHavePropChangedField.SetValue(c, true);
-                var tmp = c as TMPro.TMP_Text;
-                if (tmp != null) tmp.SetVerticesDirty();
-            }
-            else
-            {
-                var graphic = c as Graphic;
-                if (graphic != null) graphic.SetVerticesDirty();
+                prop.SetValue(c, value);
             }
         }
 
@@ -365,12 +352,14 @@ namespace NeonTranslator
             {
                 if (c == null) continue;
                 string current = GetText(c);
-                if (string.IsNullOrEmpty(current))
+                string lookup = StripRichTags(current).Trim();
+                if (string.IsNullOrEmpty(lookup))
                 {
                     string cachedOrig;
                     if (_componentOriginalText != null && _componentOriginalText.TryGetValue(c, out cachedOrig))
                     {
                         current = cachedOrig;
+                        lookup = StripRichTags(current).Trim();
                         SetTextFieldDirect(c, current);
                     }
                     else
@@ -378,22 +367,27 @@ namespace NeonTranslator
                         continue;
                     }
                 }
-                string lookup = StripRichTags(current).Trim();
                 string translated;
                 if (_translations.TryGetValue(lookup, out translated) && translated != lookup)
                 {
-                    if (_logDetailCount < 30)
+                    if (_logDetailCount < 200)
                     {
                         _logDetailCount++;
-                        string path = GetTransformPath(c.transform);
-                        Log("Populate: '" + lookup + "' -> '" + translated + "' on " + path);
+                        Log("Populate: '" + Truncate(lookup, 60) + "' -> '" + Truncate(translated, 80) + "' on " + GetTransformPath(c.transform));
                     }
                     SetTextFieldDirect(c, translated);
                     replaced++;
                 }
             }
-            if (replaced > 0 && (_logDetailCount < 30 || _logDetailCount % 10 == 0))
+            if (replaced > 0)
                 Log("Populate: replaced " + replaced + " texts");
+        }
+
+        private static string Truncate(string s, int max)
+        {
+            if (s == null) return "null";
+            if (s.Length <= max) return s;
+            return s.Substring(0, max) + "...";
         }
 
         private static void InvalidateCache()
