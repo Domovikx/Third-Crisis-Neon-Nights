@@ -1,12 +1,12 @@
 # Dialogues (path_id=2053)
 
 - text: "Whatcha doin' there, Z?"
-  translation: ""
+  translation: "Чем занимаешься, З?"
 
 - text: "U-Uh! Just making sure my camera works!"
-  translation: ""
+  translation: "Э-Эм! Просто проверяю, работает ли моя камера!"
 
 - text: "Sarah Dialogue Preset"
-  translation: ""
+  translation: "Пресет диалога Сары"
   speaker: "Horny"
 

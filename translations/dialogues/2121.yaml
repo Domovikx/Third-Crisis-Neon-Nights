@@ -1,17 +1,16 @@
 # Dialogues (path_id=2121)
 
 - text: "(I can't... I don't wanna mess up anything else for her...)"
-  translation: ""
+  translation: "(Я не могу... Я не хочу больше ничего для неё портить...)"
   rich_text: "<i>(I can't... I don't wanna mess up anything else for her...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Я не могу... Я не хочу больше ничего для неё портить...)</i>"
 
 - text: "(I've done enough damage to her today.)"
-  translation: ""
+  translation: "(Я и так достаточно ей сегодня навредила.)"
   rich_text: "<i>(I've done enough damage to her today.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Я и так достаточно ей сегодня навредила.)</i>"
 
 - text: "(Come on, Zoey. Quit it. This isn't helping.)"
-  translation: ""
+  translation: "(Да ладно, Зои. Брось. Это не помогает.)"
   rich_text: "<i>(Come on, Zoey. Quit it. This isn't helping.)</i>"
-  rich_translation: ""
-
+  rich_translation: "<i>(Да ладно, Зои. Брось. Это не помогает.)</i>"

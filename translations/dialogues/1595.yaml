@@ -1,26 +1,26 @@
 # Dialogues (path_id=1595)
 
 - text: "And where is Mynx anyways?!"
-  translation: ""
+  translation: "И где, вообще, Майнкс?!"
   speaker: "Klaudia"
 
 - text: "H-he went upsh sho the roomsh I think, miss..!  hic"
-  translation: ""
+  translation: "О-он пошёл наве-ерхх в комнаты, кажись, мисс..!  <i>ик</i>"
   rich_text: "H-he went upsh sho the roomsh I think, miss..! <i> hic</i>"
-  rich_translation: ""
+  rich_translation: "О-он пошёл наве-ерхх в комнаты, кажись, мисс..! <i> ик</i>"
 
 - text: "Grr.. At least he is making me money and not costing me, like you!"
-  translation: ""
+  translation: "Грр.. По крайней мере он приносит мне деньги, а не стоит мне их, как ты!"
   speaker: "Klaudia"
   rich_text: "Grr.. At least <b>he</b> is making me money and not <b>costing</b> me, like <b>you</b>!"
-  rich_translation: ""
+  rich_translation: "Грр.. По крайней мере <b>он</b> приносит мне деньги, а не <b>стоит</b> мне их, как <b>ты</b>!"
 
 - text: "I'm shorryy, miss..!  hic-.. Really..!"
-  translation: ""
+  translation: "Извиня-яюсь, мисс..!  ик-.. Правда..!"
   rich_text: "I'm shorryy, miss..!  <i>hic</i>-.. Really..!"
-  rich_translation: ""
+  rich_translation: "Извиня-яюсь, мисс..!  <i>ик</i>-.. Правда..!"
 
 - text: "\"Sorry\" won't cut it! Come with me!"
-  translation: ""
+  translation: "«Извиняюсь» не катит! Пошли со мной!"
   speaker: "Klaudia"
 

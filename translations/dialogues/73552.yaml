@@ -1,16 +1,16 @@
 # Dialogues (path_id=73552)
 
 - text: "(Just... another picture... I'll just... cover my face... )"
-  translation: ""
+  translation: "(Просто... ещё одно фото... Я просто... закрою лицо...)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Just... another picture... I'll just... cover my face... )</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Просто... ещё одно фото... Я просто... закрою лицо...)</i></color>"
 
 - text: "O-okay, fine..."
-  translation: ""
+  translation: "Л-ладно, хорошо..."
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>O-okay, fine...</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Л-ладно, хорошо...</color>"
 
 - text: "Stand still for me *hic*..."
   translation: "Стой смирно *ик*..."

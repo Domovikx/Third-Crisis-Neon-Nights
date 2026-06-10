@@ -1,31 +1,30 @@
 # Dialogues (path_id=1570)
 
 - text: "(She's... Staring... )"
-  translation: ""
+  translation: "(Она... Смотрит... )"
   rich_text: "<i>(She's... Staring... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Она... Смотрит... )</i>"
 
 - text: "(Khh... This is... Wrong... )"
-  translation: ""
+  translation: "(Кх... Это... Неправильно... )"
   rich_text: "<i>(Khh... This is... <color=#EB83FF>Wrong</color>... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Кх... Это... <color=#EB83FF>Неправильно</color>... )</i>"
 
 - text: "Quite the body you got there, thief. Not even any chrome on it. Customers will love you, ehehe."
-  translation: ""
+  translation: "Неплохое тело, воровка. Ни грамма хрома. Клиентам понравишься, хе-хе."
   speaker: "Klaudia"
 
 - text: "(Customers... Will-...? Khh... )"
-  translation: ""
+  translation: "(Клиенты... Бу-...? Кх... )"
   rich_text: "<i>(Customers... <color=#EB83FF>Will-...?</color> Khh... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Клиенты... <color=#EB83FF>Бу-...?</color> Кх... )</i>"
 
 - text: "Enough showing off. The bunnysuit is right here."
-  translation: ""
+  translation: "Хватит красоваться. Костюм зайки здесь."
   speaker: "Klaudia"
 
 - text: "(The bunnysuit... Right... )"
-  translation: ""
+  translation: "(Костюм зайки... Точно... )"
   speaker: "Zoey"
   rich_text: "<i>(The bunnysuit... Right... )</i>"
-  rich_translation: ""
-
+  rich_translation: "<i>(Костюм зайки... Точно... )</i>"

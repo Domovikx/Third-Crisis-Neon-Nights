@@ -21,18 +21,18 @@
   speaker: "Zoey"
 
 - text: "Could you... like... Hhh... spit in my drink...?"
-  translation: ""
+  translation: "Могла бы ты... ну... Ф-ф... <size=30>плюнуть в мой напиток...?"
   speaker: "Customer"
   rich_text: "Could you... like... Hhh... <size=30>spit in my drink...?"
-  rich_translation: ""
+  rich_translation: "Могла бы ты... ну... Ф-ф... <size=30>плюнуть в мой напиток...?"
 
 - text: "I-... Ahhh... S-sorry...! I-... I'd even tip you..."
   translation: "Я-... Ахх... П-прости...! Я-... Я бы даже заплатил..."
   speaker: "Customer"
 
 - text: "(Spit in the customers drink...? I-... I don't know... )"
-  translation: ""
+  translation: "(Плюнуть в напиток клиента...? Я-... Я не знаю... )"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Spit in the customers drink...? I-... I don't know... )</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Плюнуть в напиток клиента...? Я-... Я не знаю... )</i></color>"
 

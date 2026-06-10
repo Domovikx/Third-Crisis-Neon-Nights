@@ -1,32 +1,32 @@
 # Dialogues (path_id=1746)
 
 - text: "Hey, I'm looking for a Jasmine. You know her?"
-  translation: ""
+  translation: "Эй, я ищу Джасмин. Ты её знаешь?"
   speaker: "Zoey"
 
 - text: "Well, of course I know her. She's me."
-  translation: ""
+  translation: "Ну, конечно я её знаю. Это я."
 
 - text: "(That was easy.)"
-  translation: ""
+  translation: "(Это было легко.)"
   rich_text: "<i>(That was easy.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Это было легко.)</i>"
 
 - text: "Any particular reason you're looking for me, sweetie?"
-  translation: ""
+  translation: "Есть конкретная причина, по которой ты меня ищешь, милая?"
 
 - text: "Well, don't tell anyone I said this, but you may have a secret admirer. They've sent me up to look for ya."
-  translation: ""
+  translation: "Не говори никому, но у тебя, возможно, есть тайный поклонник. Меня попросили тебя найти."
 
 - text: "Secret admirer? Well, how exciting! Why didn't they come lookin' for me themselves?"
-  translation: ""
+  translation: "Тайный поклонник? Как волнительно! Почему он сам меня не нашёл?"
 
 - text: "Let's just say they ran into some obstacles."
-  translation: ""
+  translation: "Скажем так, у него возникли некоторые препятствия."
 
 - text: "Oh! Well, you tell them where to find me, alright?"
-  translation: ""
+  translation: "О! Ну, тогда передай ему, где меня найти, ладно?"
 
 - text: "You got it!"
-  translation: ""
+  translation: "Договорились!"
 

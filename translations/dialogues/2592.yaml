@@ -1,15 +1,14 @@
 # Dialogues (path_id=2592)
 
 - text: "Reboot complete..."
-  translation: ""
+  translation: "Перезагрузка завершена..."
 
 - text: "Hey, don't move too fast. You alright? You were uh... 'knocked out'."
-  translation: ""
+  translation: "Эй, не двигайся слишком резко. Ты в порядке? Ты была... ну... «отключена»."
 
 - text: "Yes... this one remembers... The charging station was non-functional. This one's diagnostics are acceptable."
-  translation: ""
+  translation: "Да... этот помнит... Зарядная станция была неработоспособна. Диагностика этого приемлема."
 
 - text: "I guess that means you're okay now."
-  translation: ""
+  translation: "Ну, значит, ты в порядке."
   speaker: "Zoey"
-

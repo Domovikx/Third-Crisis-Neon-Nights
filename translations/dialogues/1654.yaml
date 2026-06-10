@@ -1,12 +1,12 @@
 # Dialogues (path_id=1654)
 
 - text: "(Hm. This lock can definitely be picked. )"
-  translation: ""
+  translation: "(Хм. Этот замок точно можно открыть. )"
   rich_text: "<i>(Hm. This lock can definitely be picked. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Хм. Этот замок точно можно открыть. )</i>"
 
 - text: "(But should I..?)"
-  translation: ""
+  translation: "(Но стоит ли..?)"
   rich_text: "<i>(But should I..?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Но стоит ли..?)</i>"
 

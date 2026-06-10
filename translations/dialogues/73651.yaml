@@ -1,19 +1,19 @@
 # Dialogues (path_id=73651)
 
 - text: "Unhhh..! Fhhaaahhh! Mhnnhhh..."
-  translation: ""
+  translation: "Уух..! А-а-ах! М-н-н..."
   rich_text: "<color=#EB83FF>Unhhh..! Fhhaaahhh! Mhnnhhh...</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Уух..! А-а-ах! М-н-н...</color>"
 
 - text: "Hhh.. Hhh.. Khh.."
-  translation: ""
+  translation: "Ф-ф.. Ф-ф.. Кх.."
   rich_text: "<color=#EB83FF>Hhh.. Hhh.. Khh..</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Ф-ф.. Ф-ф.. Кх..</color>"
 
 - text: "(I shouldn't.. Have done.. That... )"
   translation: "(Я не должна была.. Этого.. делать... )"
   rich_text: "<i>(I shouldn't.. Have done.. <color=#EB83FF>That</color>... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Я не должна была.. <color=#EB83FF>Этого</color>.. делать... )</i>"
 
 - text: "(Spying on them while they-.. What was I thinking.. ?! )"
   translation: "(Подглядывать за ними, пока они-.. О чём я думала..?! )"
@@ -23,10 +23,10 @@
 - text: "(It shouldn't have been.. This hot... )"
   translation: "(Это не должно было быть.. таким горячим... )"
   rich_text: "<i>(It shouldn't have been.. <color=#EB83FF>This hot</color>... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Это не должно было быть.. <color=#EB83FF>таким горячим</color>... )</i>"
 
 - text: "(I need to be more careful.. This place is.. Affecting me.. )"
   translation: "(Нужно быть осторожнее.. Это место.. Влияет на меня.. )"
   rich_text: "<i>(I need to be more careful.. This place is.. <color=#EB83FF>Affecting me</color>.. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Нужно быть осторожнее.. Это место.. <color=#EB83FF>Влияет на меня</color>.. )</i>"
 

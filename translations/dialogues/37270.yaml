@@ -1,10 +1,10 @@
 # Dialogues (path_id=37270)
 
 - text: "Keep Looking."
-  translation: ""
+  translation: "Продолжай смотреть."
   rich_text: "<color=#EB83FF>Keep Looking.</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Продолжай смотреть.</color>"
 
 - text: "Turn off the screen and wait."
-  translation: ""
+  translation: "Выключить экран и ждать."
 

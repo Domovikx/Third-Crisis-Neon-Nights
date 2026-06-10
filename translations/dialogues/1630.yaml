@@ -1,17 +1,17 @@
 # Dialogues (path_id=1630)
 
 - text: "(Fffh...  I don't think she noticed me. Gosh, she's gorgeous...)"
-  translation: ""
+  translation: "(Ф-ф... Кажется, она меня не заметила. Боже, она великолепна...)"
   rich_text: "<i>(<color=#EB83FF>Fffh... </color> I don't think she noticed me. Gosh, she's gorgeous...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(<color=#EB83FF>Ф-ф... </color> Кажется, она меня не заметила. Боже, она великолепна...)</i>"
 
 - text: "(Agh- What am I doing...? This isn't right...)"
-  translation: ""
+  translation: "(А- Что я делаю...? Это неправильно...)"
   rich_text: "<i>(Agh- What am I doing...? This isn't right...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(А- Что я делаю...? Это неправильно...)</i>"
 
 - text: "(But I'll just... save this picture for later...)"
-  translation: ""
+  translation: "(Но я просто... сохраню это фото на потом...)"
   rich_text: "<i>(But I'll just... save this picture for <color=#EB83FF>later</color>...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Но я просто... сохраню это фото на <color=#EB83FF>потом</color>...)</i>"
 

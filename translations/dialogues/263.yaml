@@ -1,17 +1,16 @@
 # Dialogues (path_id=263)
 
 - text: "(I guess he really had to get out of here... )"
-  translation: ""
+  translation: "(Наверное, ему правда нужно было валить отсюда... )"
   rich_text: "<i>(I guess he really had to get out of here... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Наверное, ему правда нужно было валить отсюда... )</i>"
 
 - text: "(Could have at least said thanks... )"
-  translation: ""
+  translation: "(Мог бы хотя бы спасибо сказать... )"
   rich_text: "<color=#EB83FF><i>(Could have at least said thanks... )</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Мог бы хотя бы спасибо сказать... )</i></color>"
 
 - text: "(God my butt is all sticky... Kh... )"
-  translation: ""
+  translation: "(Чёрт, моя попка вся липкая... Кх... )"
   rich_text: "<color=#EB83FF><i>(God my butt is all sticky... Kh... )</i></color>"
-  rich_translation: ""
-
+  rich_translation: "<color=#EB83FF><i>(Чёрт, моя попка вся липкая... Кх... )</i></color>"

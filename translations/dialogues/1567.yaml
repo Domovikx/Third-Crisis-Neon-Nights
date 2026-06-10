@@ -1,26 +1,26 @@
 # Dialogues (path_id=1567)
 
 - text: "Welcome to the Glowing Hole. What can I-"
-  translation: ""
+  translation: "Добро пожаловать в «Сияющую Дыру». Чем могу-"
   speaker: "Klaudia"
 
 - text: "You?! What are you doing here?!"
-  translation: ""
+  translation: "Ты?! Что ты здесь делаешь?!"
   speaker: "Klaudia"
   rich_text: "You?! What are <b>you</b> doing here?!"
-  rich_translation: ""
+  rich_translation: "Ты?! Что <b>ты</b> здесь делаешь?!"
 
 - text: "I-... U-... Hi... I'm looking to uhm-... Talk to... Nova...?"
-  translation: ""
+  translation: "Я-... Э-... Привет... Я ищу эм-... Поговорить с... Новой...?"
 
 - text: "Nova, hm? She's in the back. Why don't you follow me there, hm?"
-  translation: ""
+  translation: "Нову, хм? Она в подсобке. Почему бы тебе не пройти со мной, хм?"
   speaker: "Klaudia"
   rich_text: "Nova, hm? She's in the back. Why don't you follow me there, <b>hm</b>?"
-  rich_translation: ""
+  rich_translation: "Нову, хм? Она в подсобке. Почему бы тебе не пройти со мной, <b>хм</b>?"
 
 - text: "(She seems pretty pissed... Does she know the mess in that room upstairs was my fault?)"
-  translation: ""
+  translation: "(Кажется, она зла... Она знает, что беспорядок в той комнате наверху из-за меня?)"
   rich_text: "<i>(She seems pretty pissed... Does she know the mess in that room upstairs was my fault?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Кажется, она зла... Она знает, что беспорядок в той комнате наверху из-за меня?)</i>"
 

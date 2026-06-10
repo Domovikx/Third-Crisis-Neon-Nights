@@ -1,12 +1,12 @@
 # Dialogues (path_id=1651)
 
 - text: "(Dang, he locked the door when he left... )"
-  translation: ""
+  translation: "(Чёрт, он запер дверь, когда уходил... )"
   rich_text: "<i>(Dang, he locked the door when he left... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Чёрт, он запер дверь, когда уходил... )</i>"
 
 - text: "(Hm. The lock looks pretty simple.. Maybe I could pick it?)"
-  translation: ""
+  translation: "(Хм. Замок выглядит довольно простым.. Может, я смогу его открыть?)"
   rich_text: "<i>(Hm. The lock looks pretty simple.. Maybe I could pick it?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Хм. Замок выглядит довольно простым.. Может, я смогу его открыть?)</i>"
 

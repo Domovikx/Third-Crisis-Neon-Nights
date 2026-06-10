@@ -6,6 +6,6 @@
   rich_translation: "<color=#EB83FF>Согласиться с ней.</color>"
 
 - text: "System.Collections.Generic.List`1[[Asuna.Dialogues.DialogueLineLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
-  translation: ""
+  translation: "(выбор сделан)"
   speaker: "OnChoiceSelected"
 

@@ -1,10 +1,10 @@
 # Dialogues (path_id=73548)
 
 - text: "I-... I guess that's fine..."
-  translation: ""
+  translation: "Я-... Полагаю, это нормально..."
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>I-... I guess that's fine...</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Я-... Полагаю, это нормально...</color>"
 
 - text: "Yess..! Let 'me get a lil'... clother..."
   translation: "Да..! Дай мне немного... поближе..."
@@ -15,20 +15,20 @@
   speaker: "Customer"
 
 - text: "(He's... Kneeling...?)"
-  translation: ""
+  translation: "(Он... На коленях...?)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(He's... Kneeling...?)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Он... На коленях...?)</i></color>"
 
 - text: "That's perfecthhh..."
   translation: "Идеально..."
   speaker: "Customer"
 
 - text: "(Kh... )"
-  translation: ""
+  translation: "(Кх... )"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Kh... )</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Кх... )</i></color>"
 
 - text: "Mhmm... that's a good one..."
   translation: "Ммм... хороший кадр..."
@@ -39,8 +39,8 @@
   speaker: "Customer"
 
 - text: "(Paying for a pic of my feet-... this is wrong... right...?)"
-  translation: ""
+  translation: "(Платят за фото моих ног-... это неправильно... ведь так...?)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Paying for a pic of my feet-... this is wrong... right...?)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Платят за фото моих ног-... это неправильно... ведь так...?)</i></color>"
 

@@ -1,18 +1,17 @@
 # Dialogues (path_id=2612)
 
 - text: "(Something fun, huh?)"
-  translation: ""
+  translation: "(Что-то весёленькое, а?)"
   rich_text: "<i>(Something fun, huh?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Что-то весёленькое, а?)</i>"
 
 - text: "(Maybe I can show her that chair in the nail salon. )"
-  translation: ""
+  translation: "(Может, покажу ей тот стул в маникюрном салоне. )"
   speaker: "Zoey"
   rich_text: "<i>(Maybe I can show her that <color=#EB83FF>chair</color> in the nail salon. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Может, покажу ей тот <color=#EB83FF>стул</color> в маникюрном салоне. )</i>"
 
 - text: "(I'm sure she'd like to... relax. )"
-  translation: ""
+  translation: "(Уверена, ей бы не помешало... расслабиться. )"
   rich_text: "<i>(I'm sure she'd like to... relax. )</i>"
-  rich_translation: ""
-
+  rich_translation: "<i>(Уверена, ей бы не помешало... расслабиться. )</i>"

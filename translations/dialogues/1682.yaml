@@ -1,28 +1,28 @@
 # Dialogues (path_id=1682)
 
 - text: "What- You?!"
-  translation: ""
+  translation: "Что- Ты?!"
   speaker: "Klaudia"
   rich_text: "What- <b><size=55>You</b>?!</size>"
-  rich_translation: ""
+  rich_translation: "Что- <b><size=55>Ты</b>?!</size>"
 
 - text: "Ghhh... Mnhhh... M-m-... Ma'm-... Nhhhh..."
-  translation: ""
+  translation: "Кххх... М-н-н... М-м-... Ма-ам-... Н-н-н..."
   rich_text: "<color=#EB83FF>Ghhh... Mnhhh... M-m-... Ma'm-... Nhhhh...</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Кххх... М-н-н... М-м-... Ма-ам-... Н-н-н...</color>"
 
 - text: "What the fuck are you doing in here?! What is this mess?!"
-  translation: ""
+  translation: "Какого хера ты тут делаешь?! Что это за бардак?!"
   speaker: "Klaudia"
   rich_text: "What the <b>fuck</b> are you doing in here?! What is this mess?!"
-  rich_translation: ""
+  rich_translation: "Какого <b>хера</b> ты тут делаешь?! Что это за бардак?!"
 
 - text: "Bl-... Blocker-... Khhh-... Mnnhhh..."
-  translation: ""
+  translation: "Бл-... Блокер-... Кххх-... М-н-н..."
   rich_text: "<color=#EB83FF>Bl-... Blocker-... Khhh-... Mnnhhh...</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Бл-... Блокер-... Кххх-... М-н-н...</color>"
 
 - text: "Give me that!"
-  translation: ""
+  translation: "Отдай это!"
   speaker: "Klaudia"
 

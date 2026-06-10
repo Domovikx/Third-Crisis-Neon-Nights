@@ -1,14 +1,14 @@
 # Dialogues (path_id=2048)
 
 - text: "(It's raining again, at least I'm home. )"
-  translation: ""
+  translation: "(Снова дождь, но хотя бы я дома. )"
   speaker: "Zoey"
   rich_text: "<i>(It's raining again, at least I'm home. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Снова дождь, но хотя бы я дома. )</i>"
 
 - text: "(I should get a new umbrella next time I visit the store. )"
-  translation: ""
+  translation: "(Надо купить новый зонт в следующий раз, когда зайду в магазин. )"
   speaker: "Zoey"
   rich_text: "<i>(I should get a new umbrella next time I visit the store. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Надо купить новый зонт в следующий раз, когда зайду в магазин. )</i>"
 

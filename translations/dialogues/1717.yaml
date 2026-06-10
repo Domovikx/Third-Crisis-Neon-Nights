@@ -1,22 +1,21 @@
 # Dialogues (path_id=1717)
 
 - text: "AIRSHIP Research Division"
-  translation: ""
+  translation: "ИССЛЕДОВАТЕЛЬСКИЙ ОТДЕЛ ДИРИЖАБЛЯ"
   rich_text: "<b>AIRSHIP Research Division</b>"
-  rich_translation: ""
+  rich_translation: "<b>ИССЛЕДОВАТЕЛЬСКИЙ ОТДЕЛ ДИРИЖАБЛЯ</b>"
 
 - text: "Upon signing of the included liability waiver, [PATIENT] will be transferred from [HOSPITAL] to secure medical facility."
-  translation: ""
+  translation: "После подписания прилагаемого отказа от ответственности [ПАЦИЕНТ] будет переведён из [БОЛЬНИЦА] в охраняемое медицинское учреждение."
 
 - text: "After a maximum of fourty days, or until [PATIENT] has been deemed healthy, [PATIENT] will be returned to [HOSPITAL]."
-  translation: ""
+  translation: "Максимум через сорок дней, или когда [ПАЦИЕНТ] будет признан здоровым, [ПАЦИЕНТ] вернут в [БОЛЬНИЦА]."
 
 - text: "Upon completion of the program, [PATIENT] will be cured."
-  translation: ""
+  translation: "По завершении программы [ПАЦИЕНТ] будет исцелён."
 
 - text: "Do you accept these terms?"
-  translation: ""
+  translation: "Вы принимаете эти условия?"
 
 - text: "That's not what you did."
-  translation: ""
-
+  translation: "Всё было совсем не так."

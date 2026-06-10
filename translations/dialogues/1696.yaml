@@ -1,22 +1,21 @@
 # Dialogues (path_id=1696)
 
 - text: "(This must be the suitcase. Gee, it seems pretty fuckin' heavy. Let's just open it up and see if I can just take what's inside.)"
-  translation: ""
+  translation: "(Это, должно быть, тот чемодан. Ого, он чертовски тяжёлый. Давай-ка откроем и посмотрим, можно ли просто забрать то, что внутри.)"
   rich_text: "<i>(This must be the suitcase. Gee, it seems pretty fuckin' heavy. Let's just open it up and see if I can just take what's inside.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Это, должно быть, тот чемодан. Ого, он чертовски тяжёлый. Давай-ка откроем и посмотрим, можно ли просто забрать то, что внутри.)</i>"
 
 - text: "(Ugh... Locked?! Hmm... This looks like the same sorta cypher I cracked on another job.)"
-  translation: ""
+  translation: "(Угх... Заперто?! Хм... Похоже на такой же шифр, какой я взломала на другой работе.)"
   rich_text: "<i>(Ugh... Locked?! Hmm... This looks like the same sorta cypher I cracked on another job.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Угх... Заперто?! Хм... Похоже на такой же шифр, какой я взломала на другой работе.)</i>"
 
 - text: "(I bet I could hack it open. Just need to dust off my decoder.)"
-  translation: ""
+  translation: "(Готова поспорить, я смогу его взломать. Просто нужно стряхнуть пыль с декодера.)"
   rich_text: "<i>(I bet I could hack it open. Just need to dust off my decoder.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Готова поспорить, я смогу его взломать. Просто нужно стряхнуть пыль с декодера.)</i>"
 
 - text: "(Hmm... Let's see...)"
-  translation: ""
+  translation: "(Хм... Посмотрим...)"
   rich_text: "<i>(Hmm... Let's see...)</i>"
-  rich_translation: ""
-
+  rich_translation: "<i>(Хм... Посмотрим...)</i>"

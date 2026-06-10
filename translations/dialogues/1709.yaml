@@ -1,17 +1,17 @@
 # Dialogues (path_id=1709)
 
 - text: "Get this door open!"
-  translation: ""
+  translation: "Открой эту дверь!"
   speaker: "Klaudia"
 
 - text: "(Well... Only one way out. What was that saying about god closing a door and opening a window?)"
-  translation: ""
+  translation: "(Что ж... Только один выход. Как там говорится — бог закрывает дверь, но открывает окно?)"
   rich_text: "<i>(Well... Only one way out. What was that saying about god closing a door and opening a window?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Что ж... Только один выход. Как там говорится — бог закрывает дверь, но открывает окно?)</i>"
 
 - text: "(Fuck it.)"
-  translation: ""
+  translation: "(К чёрту.)"
   speaker: "Zoey"
   rich_text: "<i>(Fuck it.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(К чёрту.)</i>"
 

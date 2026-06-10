@@ -1,19 +1,19 @@
 # Dialogues (path_id=1582)
 
 - text: "So you're free tonight, huh?"
-  translation: ""
+  translation: "Значит, сегодня ты свободна, да?"
 
 - text: "Depends on how loaded you are, big guy..~"
-  translation: ""
+  translation: "Зависит от того, насколько ты при деньгах, здоровяк..~"
 
 - text: "Heh. You know that my room 205 is the most expensive in this place, right?"
-  translation: ""
+  translation: "Хех. Ты же знаешь, что мой номер 205 — самый дорогой в этом заведении, да?"
 
 - text: "( 205? Wait.. That's the room I'm supposed to get into! )"
-  translation: ""
+  translation: "(205? Погоди.. Это же номер, в который я должна попасть!)"
   rich_text: "<i>( 205? Wait.. That's the room I'm supposed to get into! )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(205? Погоди.. Это же номер, в который я должна попасть!)</i>"
 
 - text: "Oh my..~ That will do, ehehe..~"
-  translation: ""
+  translation: "О-о..~ Это подойдёт, хехе..~"
 

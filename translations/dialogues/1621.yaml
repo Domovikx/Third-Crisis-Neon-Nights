@@ -1,17 +1,17 @@
 # Dialogues (path_id=1621)
 
 - text: "(Got it! )"
-  translation: ""
+  translation: "(Поняла! )"
   rich_text: "<i>(Got it! )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Поняла! )</i>"
 
 - text: "(I guess now I just need to.. )"
-  translation: ""
+  translation: "(Наверное, теперь нужно просто.. )"
   rich_text: "<i>(I guess now I just need to.. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Наверное, теперь нужно просто.. )</i>"
 
 - text: "(Put it on... )"
-  translation: ""
+  translation: "(Надеть это... )"
   rich_text: "<i>(Put it on... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Надеть это... )</i>"
 

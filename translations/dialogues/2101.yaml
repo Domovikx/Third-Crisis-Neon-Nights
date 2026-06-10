@@ -1,15 +1,14 @@
 # Dialogues (path_id=2101)
 
 - text: "Aah~ Mmmh~!"
-  translation: ""
+  translation: "А-ах~ М-м-м~!"
 
 - text: "(Gosh... This is so hot... I wanna touch myself too... just a little bit...)"
-  translation: ""
+  translation: "(Боже... Как же это горячо... Я тоже хочу себя потрогать... совсем чуть-чуть...)"
   rich_text: "<i>(Gosh... This is so hot... I wanna touch myself too... just a little bit...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Боже... Как же это горячо... Я тоже хочу себя потрогать... совсем чуть-чуть...)</i>"
 
 - text: "(Or... a lot...)"
-  translation: ""
+  translation: "(Или... много...)"
   rich_text: "<i>(Or... a lot...)</i>"
-  rich_translation: ""
-
+  rich_translation: "<i>(Или... много...)</i>"

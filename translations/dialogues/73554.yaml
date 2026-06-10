@@ -13,18 +13,18 @@
   speaker: "Customer"
 
 - text: "(F-feel it...?)"
-  translation: ""
+  translation: "(П-пощупать...?)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(F-feel it...?)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(П-пощупать...?)</i></color>"
 
 - text: "How'bout u take this lil tip... Turn 'round for me... And stand still *hic*, ehehe..."
   translation: "Как насчёт взять эти чаевые... Повернись ко мне... И стой смирно *ик*, хихи..."
   speaker: "Customer"
 
 - text: "(I-... I shouldn't-... Right...?)"
-  translation: ""
+  translation: "(Я-... Мне не стоит-... Да...?)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(I-... I shouldn't-... Right...?)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Я-... Мне не стоит-... Да...?)</i></color>"
 

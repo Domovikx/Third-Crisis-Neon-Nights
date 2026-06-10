@@ -9,14 +9,14 @@
   speaker: "Customer"
 
 - text: "(Last time was just sweat... It- it had to be... right? )"
-  translation: ""
+  translation: "(В прошлый раз это был просто пот... Д-должно быть так... правда?)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Last time was just sweat... It- it had to be... right? )</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(В прошлый раз это был просто пот... Д-должно быть так... правда?)</i></color>"
 
 - text: "(Just wants to... touch it... so... )"
-  translation: ""
+  translation: "(Просто хочет... потрогать... ну и...)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Just wants to... touch it... so... )</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Просто хочет... потрогать... ну и...)</i></color>"
 

@@ -19,8 +19,8 @@
   speaker: "Customer"
 
 - text: "(A picture of my- )"
-  translation: ""
+  translation: "(Фото моей- )"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(A picture of my- )</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Фото моей- )</i></color>"
 

@@ -1,12 +1,12 @@
 # Dialogues (path_id=1644)
 
 - text: "(I-.. I really shouldn't peek on them... It's not right. )"
-  translation: ""
+  translation: "(Я-.. Мне не стоит подглядывать за ними... Это неправильно. )"
   rich_text: "<i>(I-.. I really shouldn't peek on them... It's not right. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Я-.. Мне не стоит подглядывать за ними... Это неправильно. )</i>"
 
 - text: "(Hh... )"
-  translation: ""
+  translation: "(Х-х... )"
   rich_text: "<i>(Hh... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Х-х... )</i>"
 

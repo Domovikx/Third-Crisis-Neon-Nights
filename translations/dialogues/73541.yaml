@@ -1,16 +1,16 @@
 # Dialogues (path_id=73541)
 
 - text: "(I-... I guess they're fully covered, so... It'd be an easy tip, right...?)"
-  translation: ""
+  translation: "(Я-... Они же полностью одеты, так что... Лёгкие чаевые, да...?)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(I-... I guess they're fully covered, so... It'd be an easy tip, right...?)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Я-... Они же полностью одеты, так что... Лёгкие чаевые, да...?)</i></color>"
 
 - text: "F-fine... But make sure my face is not in it, okay?!"
-  translation: ""
+  translation: "Л-ладно... Но чтобы моего лица там не было, ясно?!"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>F-fine... But make sure my face is not in it, okay?!</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Л-ладно... Но чтобы моего лица там не было, ясно?!</color>"
 
 - text: "Promissseeee... Mheh! *hic*"
   translation: "Обещаю... Мхе! *ик*"
@@ -21,16 +21,16 @@
   speaker: "Customer"
 
 - text: "(Khh... I'm really posing for a... picture of my-... )"
-  translation: ""
+  translation: "(Кх... Я правда позирую для... фото моей-... )"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Khh... I'm really posing for a... picture of my-... )</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Кх... Я правда позирую для... фото моей-... )</i></color>"
 
 - text: "L-like this...?"
-  translation: ""
+  translation: "Т-так...?"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>L-like this...?</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Т-так...?</color>"
 
 - text: "Mhh... Yesss that's goood..."
   translation: "Мх... Да-а, хорошо..."
@@ -41,10 +41,10 @@
   speaker: "Customer"
 
 - text: "J-just show me that my face isn't in it..."
-  translation: ""
+  translation: "П-просто покажи, что там нет моего лица..."
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>J-just show me that my face isn't in it...</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>П-просто покажи, что там нет моего лица...</color>"
 
 - text: "Here, see?"
   translation: "Вот, видишь?"
@@ -55,28 +55,28 @@
   speaker: "Customer"
 
 - text: "Show your-... Friends...?!"
-  translation: ""
+  translation: "Показать своим-... Друзьям...?!"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>Show your-... Friends...?!</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Показать своим-... Друзьям...?!</color>"
 
 - text: "Tell 'em 'bout the hot new waitress at the Glowin' Hole."
   translation: "Рассказать им о горячей новой официантке в 'Сияющей Дыре'."
   speaker: "Customer"
 
 - text: "(Gahh-... I shouldn't have done that... Khh... )"
-  translation: ""
+  translation: "(Тьфу-... Не стоило этого делать... Кх... )"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Gahh-... I shouldn't have done that... Khh... )</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Тьфу-... Не стоило этого делать... Кх... )</i></color>"
 
 - text: "Here's ya tip."
   translation: "Вот твои чаевые."
   speaker: "Customer"
 
 - text: "(Was that... really worth it...?)"
-  translation: ""
+  translation: "(Стоило ли... оно того...?)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Was that... really worth it...?)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Стоило ли... оно того...?)</i></color>"
 

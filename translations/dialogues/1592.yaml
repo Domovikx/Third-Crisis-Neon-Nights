@@ -1,14 +1,14 @@
 # Dialogues (path_id=1592)
 
 - text: "Believe me now?"
-  translation: ""
+  translation: "Теперь веришь?"
 
 - text: "CAL! UGH!"
-  translation: ""
+  translation: "КАЛ! АЙ!"
   speaker: "Klaudia"
 
 - text: "(And there's my opening.)"
-  translation: ""
+  translation: "(А вот и мой шанс.)"
   rich_text: "<i>(And there's my opening.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(А вот и мой шанс.)</i>"
 

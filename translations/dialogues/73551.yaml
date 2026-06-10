@@ -15,8 +15,8 @@
   speaker: "Customer"
 
 - text: "(Another one...?)"
-  translation: ""
+  translation: "(Ещё один...?)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Another one...?)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Ещё один...?)</i></color>"
 

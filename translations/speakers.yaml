@@ -11,11 +11,11 @@
   notes: "Клавдия (русская форма)"
 
 - text: "FINISHED"
-  translation: ""
+  translation: "ФИНАЛ"
   notes: "Технический маркер FSM — финал диалога"
 
 - text: "OnChoiceSelected"
-  translation: ""
+  translation: "ВЫБРАНО"
   notes: "Технический маркер FSM — выбран вариант"
 
 - text: "Decline"
@@ -23,15 +23,15 @@
   notes: "Кнопка/реплика отказа"
 
 - text: "Dialogue"
-  translation: ""
+  translation: "ДИАЛОГ"
   notes: "Технический маркер FSM — блок диалога"
 
 - text: "SaveKey"
-  translation: ""
+  translation: "СОХРАНИТЬ"
   notes: "Технический маркер FSM — ключ сохранения"
 
 - text: "MusicToPlay"
-  translation: ""
+  translation: "МУЗЫКА"
   notes: "Технический маркер FSM — музыка"
 
 - text: "Yes"

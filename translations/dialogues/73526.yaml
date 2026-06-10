@@ -5,8 +5,8 @@
   speaker: "Customer"
 
 - text: "(Should I-... )"
-  translation: ""
+  translation: "(Стоит ли...?)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Should I-... )</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Стоит ли...?)</i></color>"
 

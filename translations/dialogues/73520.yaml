@@ -13,24 +13,24 @@
   speaker: "Customer"
 
 - text: "(Kh... Pervert... )"
-  translation: ""
+  translation: "(Кх... Извращенец... )"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Kh... Pervert... )</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Кх... Извращенец... )</i></color>"
 
 - text: "(Well... The whole point of these drinks is to loosen them up, I guess.)"
-  translation: ""
+  translation: "(Что ж... Весь смысл этих напитков — расслаблять их, наверное.)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Well... The whole point of these drinks is to loosen them up, I guess.)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Что ж... Весь смысл этих напитков — расслаблять их, наверное.)</i></color>"
 
 - text: "Just stand here for'a moment, hmm... 'Wana get a good lookh... I'll tip ya."
   translation: "Постой тут минутку, хм... Хочу хорошенько рассмотреть... Я тебе заплачу."
   speaker: "Customer"
 
 - text: "(A tip for... letting him... look at me...?)"
-  translation: ""
+  translation: "(Чаевые за... то, что позволю ему... смотреть на меня...?)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(A tip for... letting him... look at me...?)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Чаевые за... то, что позволю ему... смотреть на меня...?)</i></color>"
 

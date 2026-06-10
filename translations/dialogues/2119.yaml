@@ -1,14 +1,13 @@
 # Dialogues (path_id=2119)
 
 - text: "You've answered the phonecall from Zoey, and you're in a down mood at work."
-  translation: ""
+  translation: "Ты отвечаешь на звонок от Зои, и у тебя подавленное настроение на работе."
 
 - text: "You're worried about Sarah, but also just want to hear her voice again."
-  translation: ""
+  translation: "Ты волнуешься о Саре, но просто хочешь снова услышать её голос."
 
 - text: "Someone's noticed you talking on the phone, and you're talking to them first before talking to Zoey.A"
-  translation: ""
+  translation: "Кто-то замечает, что ты говоришь по телефону, и ты сначала говоришь с ними, прежде чем поговорить с Зои.A"
 
 - text: "You're disappointed, but get cut off by the phone hanging up."
-  translation: ""
-
+  translation: "Ты разочарован, но звонок обрывается."

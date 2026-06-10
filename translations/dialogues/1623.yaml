@@ -1,23 +1,23 @@
 # Dialogues (path_id=1623)
 
 - text: "Now that's a bunnygirl, ehehe."
-  translation: ""
+  translation: "Вот это настоящая зайка, хехе."
   rich_text: "Now <b>that's</b> a bunnygirl, ehehe."
-  rich_translation: ""
+  rich_translation: "Вот это <b>настоящая</b> зайка, хехе."
 
 - text: "(This outfit is way too.. revealing... )"
-  translation: ""
+  translation: "(Этот наряд слишком.. откровенный... )"
   rich_text: "<i>(This outfit is <b>way</b> too.. revealing... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Этот наряд <b>слишком</b>.. откровенный... )</i>"
 
 - text: "M-mhmm.. Sooo.. What uh-.. Now?"
-  translation: ""
+  translation: "М-гм.. Тааак.. И что эм-.. Теперь?"
 
 - text: "Turn around for me. I'll just make sure your outfit sits right..~"
-  translation: ""
+  translation: "Повернись ко мне. Я проверю, хорошо ли сидит форма..~"
 
 - text: "(What have I gotten myself into... )"
-  translation: ""
+  translation: "(И во что же я ввязалась... )"
   rich_text: "<i>(What have I gotten myself into... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(И во что же я ввязалась... )</i>"
 

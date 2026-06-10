@@ -5,28 +5,28 @@
   speaker: "Customer"
 
 - text: "Um-... Well, I-... It just kinda fit me somewhat okay."
-  translation: ""
+  translation: "Эм-... Ну, я-... Он просто более-менее на меня сел."
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>Um-... Well, I-... It just kinda fit me somewhat okay.</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Эм-... Ну, я-... Он просто более-менее на меня сел.</color>"
 
 - text: "What are ya taaalking about *hic*?! Only wanted a quick drink, but couldn' stop starin at that fat ass of yours..."
   translation: "Да ты чё *ик*?! Хотел всего лишь быстро выпить, но не мог оторвать взгляд от твоей толстой попки..."
   speaker: "Customer"
 
 - text: "(Wh-... Stayed because of... me...?)"
-  translation: ""
+  translation: "(Ч-... Остался из-за... меня...?)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Wh-... Stayed because of... me...?)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Ч-... Остался из-за... меня...?)</i></color>"
 
 - text: "Can't resis' anymore *hic*... I gotta feeel itth... Pleaseeeee!"
   translation: "Больше не могу сдерживаться *ик*... Мне нужно пощупать... Пожалуйста!"
   speaker: "Customer"
 
 - text: "I-... Um... Hh..."
-  translation: ""
+  translation: "Я-... Эм... Ф-ф..."
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>I-... Um... Hh...</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Я-... Эм... Ф-ф...</color>"
 

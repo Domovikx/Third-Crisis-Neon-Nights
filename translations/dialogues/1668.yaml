@@ -4,7 +4,7 @@
   translation: "Не уверена, что это хорошая идея.."
 
 - text: ">"
-  translation: ""
+  translation: ">"
   rich_text: "<< Declination processed. Proceeding relocation. >>"
   rich_translation: "<< Отказ обработан. Начинаю перемещение. >>"
 

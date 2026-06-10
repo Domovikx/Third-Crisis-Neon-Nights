@@ -25,8 +25,8 @@
   speaker: "Customer"
 
 - text: "(Of my... shoes...? )"
-  translation: ""
+  translation: "(Моих... туфель...?)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Of my... shoes...? )</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Моих... туфель...?)</i></color>"
 

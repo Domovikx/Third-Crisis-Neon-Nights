@@ -16,10 +16,10 @@
   speaker: "Customer"
 
 - text: "I-... The other customers... I can't-"
-  translation: ""
+  translation: "Я-... Другие посетители... Я не могу-"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>I-... The other customers... I can't-</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Я-... Другие посетители... Я не могу-</color>"
 
 - text: "Come'onnn... I'll make it worth'ya timee... *hic*..."
   translation: "Да ладно тебе... Я сделаю это стоящим... *ик*..."

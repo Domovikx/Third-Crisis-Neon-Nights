@@ -1,13 +1,13 @@
 # Dialogues (path_id=2060)
 
 - text: "Oooh~ Look at you~ Want some skin on skin contact?"
-  translation: ""
+  translation: "О-о~ Посмотри на себя~ Хочешь контакта кожа к коже?"
 
 - text: "I just want to see what you look like under those shorts."
-  translation: ""
+  translation: "Я просто хочу посмотреть, как ты выглядишь под этими шортами."
   rich_text: "<color=#EB83FF>I</color> just <color=#EB83FF>want</color> to see what <color=#EB83FF>you</color> look like under those shorts."
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Я</color> просто <color=#EB83FF>хочу</color> посмотреть, как <color=#EB83FF>ты</color> выглядишь под этими шортами."
 
 - text: "Mmm~ And what do you think~?"
-  translation: ""
+  translation: "Ммм~ А что ты думаешь~?"
 
