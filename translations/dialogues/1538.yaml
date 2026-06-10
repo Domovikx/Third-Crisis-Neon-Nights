@@ -1,11 +1,11 @@
 # Dialogues (path_id=1538)
 
 - text: "> To accomodate your special needs, another room has been assigned to you."
-  translation: ""
+  translation: "> Учитывая ваши особые нужды, вам выделили другую комнату."
 
 - text: "(So 8862 is the code for Room 102. )"
-  translation: ""
+  translation: "Итак, 8862 — код от комнаты 102."
   speaker: "Zoey"
   rich_text: "<i>(So <b>8862</b> is the code for Room 102. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Итак, <b>8862</b> — код от комнаты 102. )</i>"
 

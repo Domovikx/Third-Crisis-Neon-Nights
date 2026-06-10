@@ -1,12 +1,12 @@
 # Dialogues (path_id=1512)
 
 - text: "(T-this lewd stuff... )"
-  translation: ""
+  translation: "(Э-эта пошлятина... )"
   speaker: "Zoey"
   rich_text: "(T-this <color=perversion>lewd stuff</color>... )"
-  rich_translation: ""
+  rich_translation: "(Э-эта <color=perversion>пошлятина</color>... )"
 
 - text: "(Focus, Zoey. You need to find that suitcase. )"
-  translation: ""
+  translation: "(Соберись, Зои. Тебе нужно найти тот чемодан. )"
   speaker: "Zoey"
 

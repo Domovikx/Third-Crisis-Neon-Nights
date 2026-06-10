@@ -1,15 +1,15 @@
 # Dialogues (path_id=1539)
 
 - text: "(Oh.. We missed this note when cleaning up.. )"
-  translation: ""
+  translation: "(Ой.. Мы пропустили эту записку, когда убирались.. )"
   rich_text: "<i>(Oh.. We missed this note when cleaning up.. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Ой.. Мы пропустили эту записку, когда убирались.. )</i>"
 
 - text: "> To accomodate your special needs, another room has been assigned to you."
-  translation: ""
+  translation: "> Для удовлетворения ваших особых нужд вам назначена другая комната."
 
 - text: "(Heh. That's one way to get to a code. )"
-  translation: ""
+  translation: "(Хех. Это один способ получить код.)"
   rich_text: "<i>(Heh. That's one way to get to a code. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Хех. Это один способ получить код.)</i>"
 

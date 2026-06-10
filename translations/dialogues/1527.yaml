@@ -1,8 +1,8 @@
 # Dialogues (path_id=1527)
 
 - text: "(I can turn the lights on and off with this remote.)"
-  translation: ""
+  translation: "Я могу этим пультом включать и выключать свет."
   speaker: "Zoey"
   rich_text: "<i>(I can turn the lights on and off with this remote.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Я могу этим пультом включать и выключать свет.)</i>"
 

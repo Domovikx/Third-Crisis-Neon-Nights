@@ -226,12 +226,13 @@ _ALWAYS_FIELDS = {"text", "translation"}
 
 def _format_entry(entry: dict) -> str:
     """Format a dict as YAML block entry. Skip empty optional fields."""
-    has_rich = bool(entry.get("rich_text"))
+    rich_text = entry.get("rich_text", "")
+    has_rich = bool(rich_text) and rich_text != entry.get("text", "")
     keys = []
     for k in entry:
         if k in _ALWAYS_FIELDS:
             keys.append(k)
-        elif k == "rich_translation":
+        elif k in ("rich_text", "rich_translation"):
             if has_rich:
                 keys.append(k)
         elif entry[k]:
@@ -268,11 +269,15 @@ def read_yaml(path: Path) -> list:
 
 
 def _auto_rich_translation(entry: dict) -> dict:
-    """Auto-generate rich_translation from rich_text + translation if missing."""
-    if not entry.get('rich_translation') and entry.get('rich_text') and entry.get('translation'):
-        plain = _RICH_TAG_RX.sub('', entry['rich_text']).strip()
-        if plain and plain in entry['rich_text']:
-            entry['rich_translation'] = entry['rich_text'].replace(plain, entry['translation'])
+    """Auto-generate rich_translation from rich_text + translation if missing.
+    No-op if rich_text equals text (no rich formatting)."""
+    rich = entry.get('rich_text', '')
+    if not rich or rich == entry.get('text', ''):
+        return entry
+    if not entry.get('rich_translation') and entry.get('translation'):
+        plain = _RICH_TAG_RX.sub('', rich).strip()
+        if plain and plain in rich:
+            entry['rich_translation'] = rich.replace(plain, entry['translation'])
     return entry
 
 
