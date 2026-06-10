@@ -64,6 +64,11 @@ python .opencode/skills/extract-text/extractor.py
 Экстрактор авто-генерирует `rich_translation` из `rich_text` + `translation` при записи.
 Bundle-записи, уже присутствующие в dialogue-файлах, отфильтровываются (DRY).
 
+**Named colors resolution:** Экстрактор загружает `color_parser_list` из дампов
+(динамически, через `_load_color_parser_list()`) и заменяет `<color=perversion>` →
+`<color=#EB83FF>` во всех rich_text/rich_translation. При апдейте игры перезапуск
+dump_assets.py + extractor.py автоматически подхватит новые цвета.
+
 Формат YAML: объектный `{text, translation, ...}`. Поля опциональны.  
 Рантайм использует fallback: `rich_translation` > `translation` > `rich_text` > `text`.
 Неизвестные поля игнорируются рантаймом, но сохраняются через merge при перезапуске экстрактора.

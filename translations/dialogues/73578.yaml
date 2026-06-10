@@ -11,7 +11,7 @@
 - text: "(Seems pretty drunk... Did I bring too many drinks...?)"
   translation: ""
   speaker: "Zoey"
-  rich_text: "<color=perversion><i>(Seems pretty drunk... Did I bring too many drinks...?)</i></color>"
+  rich_text: "<color=#EB83FF><i>(Seems pretty drunk... Did I bring too many drinks...?)</i></color>"
   rich_translation: ""
 
 - text: "Lemme'- *hic* peek at thos' big tiddies...! I'll tip ya."
@@ -21,6 +21,6 @@
 - text: "Wha-... I-..."
   translation: ""
   speaker: "Zoey"
-  rich_text: "<color=perversion>Wha-... I-...</color>"
+  rich_text: "<color=#EB83FF>Wha-... I-...</color>"
   rich_translation: ""
 

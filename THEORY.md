@@ -305,7 +305,44 @@ DialogueHistory (MonoBehaviour)
 
 Каждый диалог — структурированный объект, а не строка в сырой data-секции.
 
-### 5.4. Object table guided extraction (перспективный метод)
+### 5.4. ColorParserList — named colors → hex resolution
+
+В `resources.assets` (path_id 72357) есть MonoBehaviour `ColorParserList` (класс
+`Asuna.Dialogues.ColorParserList`, Assembly-CSharp). Он содержит мапу имён→цветов,
+используемых в rich_text тегах диалогов:
+
+```
+<color=perversion>текст</color>
+<color=money>текст</color>
+<color=flashback>текст</color>
+<color=pure>текст</color>
+<color=positive>текст</color>
+```
+
+**Дамп:** `dump_assets.py` парсит сырые байты ColorParserList (4-byte aligned scan,
+8 байт паддинга между записями) и пишет `color_parser_list` поле:
+
+```json
+{
+  "path_id": 72357,
+  "type": "MonoBehaviour",
+  "color_parser_list": {
+    "money": "#F0BE23",
+    "perversion": "#EB83FF",
+    "flashback": "#969696",
+    "pure": "#449DEF",
+    "positive": "#00FF00"
+  }
+}
+```
+
+**Экстрактор:** При старте `extractor.py` вызывает `_load_color_parser_list()`,
+которая сканирует все `.chunk*.json` на наличие поля `color_parser_list` и собирает
+единый словарь `_COLOR_NAME_TO_HEX`. Этот словарь используется в `_resolve_named_colors()`
+для замены `<color=name>` на `<color=#HEX>` и в rich_text, и в rich_translation.
+Загрузка динамическая — при апдейте игры достаточно перезапустить дампер.
+
+### 5.5. Object table guided extraction (перспективный метод)
 
 ```
 1. Parse header → metadataOffset, dataOffset

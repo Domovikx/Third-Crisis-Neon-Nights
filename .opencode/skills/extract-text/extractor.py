@@ -65,7 +65,7 @@ def extract_dialogues(chunk_files: list) -> dict:
             for d in raw:
                 text = d.get("text", "").strip()
                 speaker = d.get("speaker", "").strip()
-                rich_text = d.get("rich_text", "").strip()
+                rich_text = _resolve_named_colors(d.get("rich_text", "").strip())
                 if not text:
                     continue
                 key = (text, speaker)
@@ -96,6 +96,28 @@ KNOWN_NON_SPEAKERS = {
 _RICH_TAG_RX = re.compile(r'<[^>]+>')
 _BUNDLE_HASH_RX = re.compile(r'_(?:assets|scenes)_all_[a-f0-9]+$')
 
+_NAMED_COLOR_RX = re.compile(r'<color=(\w+)>')
+
+
+def _load_color_parser_list() -> dict:
+    """Scan all chunk dumps for color_parser_list entries and merge into one dict."""
+    result = {}
+    if not DUMP_DIR.exists():
+        return result
+    for fp in sorted(DUMP_DIR.glob("*.chunk*.json")):
+        try:
+            data = json.loads(fp.read_text("utf-8"))
+        except Exception:
+            continue
+        for obj in data.get("objects", []):
+            cpl = obj.get("color_parser_list")
+            if isinstance(cpl, dict):
+                result.update(cpl)
+    return result
+
+
+_COLOR_NAME_TO_HEX = _load_color_parser_list()
+
 
 def _bundle_short_name(asset_name: str) -> str:
     """Derive stable short filename from bundle asset name (strip variable hash suffix)."""
@@ -105,6 +127,9 @@ def _bundle_short_name(asset_name: str) -> str:
 def _is_skip_prefix(s: str) -> bool:
     return any(s.startswith(p) for p in SKIP_RAW_PREFIXES)
 
+
+def _resolve_named_colors(s: str) -> str:
+    return _NAMED_COLOR_RX.sub(lambda m: f'<color={_COLOR_NAME_TO_HEX.get(m.group(1), m.group(1))}>', s)
 
 def _strip_rich(s: str) -> str:
     return _RICH_TAG_RX.sub('', s).strip()
@@ -162,7 +187,7 @@ def extract_bundle_dialogues(chunk_files: list) -> dict:
                     i += 1
                     continue
 
-                rich_text = s if s != clean else ""
+                rich_text = _resolve_named_colors(s) if s != clean else ""
 
                 speaker = ""
                 if i + 1 < len(rs):
@@ -281,6 +306,15 @@ def _auto_rich_translation(entry: dict) -> dict:
     return entry
 
 
+def _normalize_rich(entry: dict) -> dict:
+    """Resolve named colors in rich_text and rich_translation."""
+    if entry.get("rich_text"):
+        entry["rich_text"] = _resolve_named_colors(entry["rich_text"])
+    if entry.get("rich_translation"):
+        entry["rich_translation"] = _resolve_named_colors(entry["rich_translation"])
+    return entry
+
+
 def merge(existing_raw: list, fresh: list, fields: list, *key_fields: str) -> list:
     """Merge existing translations into fresh entries.
     existing_raw: raw list from read_yaml (lists or dicts)
@@ -350,7 +384,7 @@ def extract():
     for pid in sorted(by_pid):
         fpath = DIALOGUES_DIR / f"{pid}.yaml"
         existing = read_yaml(fpath)
-        merged = [_auto_rich_translation(e) for e in merge(existing, by_pid[pid], DIALOGUE_FIELDS, "text", "speaker")]
+        merged = [_normalize_rich(_auto_rich_translation(e)) for e in merge(existing, by_pid[pid], DIALOGUE_FIELDS, "text", "speaker")]
         total += len(merged)
         write_yaml(fpath, merged, header=f"Dialogues (path_id={pid})")
 
@@ -370,7 +404,7 @@ def extract():
             continue
         short = _bundle_short_name(asset_name)
         fpath = DIALOGUES_DIR / f"bundle.{short}.yaml"
-        merged = [_auto_rich_translation(e) for e in merge(read_yaml(fpath), entries, DIALOGUE_FIELDS, "text", "speaker")]
+        merged = [_normalize_rich(_auto_rich_translation(e)) for e in merge(read_yaml(fpath), entries, DIALOGUE_FIELDS, "text", "speaker")]
         total += len(merged)
         write_yaml(fpath, merged, header=f"Dialogues (bundle: {asset_name})")
 

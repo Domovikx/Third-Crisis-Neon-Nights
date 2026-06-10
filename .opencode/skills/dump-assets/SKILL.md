@@ -82,6 +82,7 @@ python .opencode/skills/dump-assets/dump_assets.py
 | `fields` | нестроковые поля (int, float, bool, PPtr, Vector3, …) |
 | `dialogues` | найденные диалоги Speaker/Text (из raw-скана) |
 | `raw_strings` | прочие строки из raw-байт объекта (top 20) |
+| `color_parser_list` | мапа именованных цветов `{name: #HEX}` (ColorParserList) |
 | `error` | если объект не читается |
 
 ## Примечания

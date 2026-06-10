@@ -7,7 +7,7 @@
 
 - text: "(Khh... This is... Wrong... )"
   translation: ""
-  rich_text: "<i>(Khh... This is... <color=perversion>Wrong</color>... )</i>"
+  rich_text: "<i>(Khh... This is... <color=#EB83FF>Wrong</color>... )</i>"
   rich_translation: ""
 
 - text: "Quite the body you got there, thief. Not even any chrome on it. Customers will love you, ehehe."
@@ -16,7 +16,7 @@
 
 - text: "(Customers... Will-...? Khh... )"
   translation: ""
-  rich_text: "<i>(Customers... <color=perversion>Will-...?</color> Khh... )</i>"
+  rich_text: "<i>(Customers... <color=#EB83FF>Will-...?</color> Khh... )</i>"
   rich_translation: ""
 
 - text: "Enough showing off. The bunnysuit is right here."

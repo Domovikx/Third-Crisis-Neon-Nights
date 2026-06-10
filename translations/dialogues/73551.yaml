@@ -7,7 +7,7 @@
 - text: "Th- thanks...?"
   translation: ""
   speaker: "Zoey"
-  rich_text: "<color=perversion>Th- thanks...?</color>"
+  rich_text: "<color=#EB83FF>Th- thanks...?</color>"
   rich_translation: ""
 
 - text: "If you let me snatch a pic of you, hottie, I'll get you a lil tip, ehehe *hic*."
@@ -17,6 +17,6 @@
 - text: "(Another one...?)"
   translation: ""
   speaker: "Zoey"
-  rich_text: "<color=perversion><i>(Another one...?)</i></color>"
+  rich_text: "<color=#EB83FF><i>(Another one...?)</i></color>"
   rich_translation: ""
 

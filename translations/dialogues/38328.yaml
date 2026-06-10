@@ -2,7 +2,7 @@
 
 - text: "Go along with her."
   translation: ""
-  rich_text: "<color=perversion>Go along with her.</color>"
+  rich_text: "<color=#EB83FF>Go along with her.</color>"
   rich_translation: ""
 
 - text: "System.Collections.Generic.List`1[[Asuna.Dialogues.DialogueLineLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"

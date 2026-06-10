@@ -2,7 +2,7 @@
 
 - text: "(Fffh...  I don't think she noticed me. Gosh, she's gorgeous...)"
   translation: ""
-  rich_text: "<i>(<color=perversion>Fffh... </color> I don't think she noticed me. Gosh, she's gorgeous...)</i>"
+  rich_text: "<i>(<color=#EB83FF>Fffh... </color> I don't think she noticed me. Gosh, she's gorgeous...)</i>"
   rich_translation: ""
 
 - text: "(Agh- What am I doing...? This isn't right...)"
@@ -12,6 +12,6 @@
 
 - text: "(But I'll just... save this picture for later...)"
   translation: ""
-  rich_text: "<i>(But I'll just... save this picture for <color=perversion>later</color>...)</i>"
+  rich_text: "<i>(But I'll just... save this picture for <color=#EB83FF>later</color>...)</i>"
   rich_translation: ""
 

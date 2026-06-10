@@ -10,6 +10,7 @@ dump_assets.py — Dump Unity .assets files to structured JSON with real objects
 import sys
 import json
 import re
+import struct
 from pathlib import Path
 from collections import Counter
 
@@ -273,6 +274,69 @@ def parse_playmaker_dialogues(raw_strings: list) -> list:
     return results
 
 
+def parse_color_parser_list(obj) -> dict | None:
+    """Parse ColorParserList MonoBehaviour into {name: hex_color, ...}.
+
+    Scans get_raw_data() for the list pattern:
+      int32:   count  (1-100)
+      for each:
+        int32:   name_length
+        char[]:  name
+        padding to 4
+        float[4]: r, g, b, a
+
+    Uses scan (not header offset) to avoid version/serialization differences.
+    """
+    raw = obj.get_raw_data()
+    if not raw:
+        return None
+
+    def _read_entry(offset: int) -> tuple | None:
+        """Try to read one entry at offset. Returns (name, r, g, b, a, next_offset) or None."""
+        if offset + 4 > len(raw):
+            return None
+        sl = struct.unpack_from('<i', raw, offset)[0]
+        if sl <= 0 or sl > 100 or offset + 4 + sl > len(raw):
+            return None
+        name = raw[offset + 4:offset + 4 + sl].decode('ascii', errors='replace')
+        if not name.replace('_', '').isalnum():
+            return None
+        off2 = offset + 4 + sl
+        if off2 % 4:
+            off2 += 4 - (off2 % 4)
+        if off2 + 24 > len(raw):
+            return None
+        r, g, b, a = struct.unpack_from('<ffff', raw, off2)
+        if any(not (0 <= v <= 1) for v in (r, g, b, a)):
+            return None
+        return (name, r, g, b, a, off2 + 24)
+
+    # Scan 4-byte aligned positions for a valid count
+    for off in range(0, len(raw) - 24, 4):
+        count = struct.unpack_from('<i', raw, off)[0]
+        if count <= 0 or count > 50:
+            continue
+
+        res = {}
+        ok = True
+        o = off + 4
+        for _ in range(count):
+            entry = _read_entry(o)
+            if entry is None:
+                ok = False
+                break
+            name, r, g, b, a, o = entry
+            ri = min(255, max(0, int(round(r * 255))))
+            gi = min(255, max(0, int(round(g * 255))))
+            bi = min(255, max(0, int(round(b * 255))))
+            res[name] = f"#{ri:02X}{gi:02X}{bi:02X}"
+
+        if ok and len(res) == count:
+            return res
+
+    return None
+
+
 def pptr_to_dict(pptr) -> dict:
     try:
         return {"file_id": pptr.m_FileID, "path_id": pptr.m_PathID}
@@ -308,11 +372,25 @@ def extract_object(obj, env) -> dict:
         "type": obj.type.name,
     }
 
+    # --- Raw bytes scan (before typed parsing, needed for fallback) ---
+    try:
+        raw = obj.get_raw_data()
+    except Exception:
+        return entry
+
+    raw_strings = scan_raw_strings(raw)
+    all_texts = [s["text"] for s in raw_strings]
+
     # --- Typed fields ---
     try:
         data = obj.read()
     except Exception:
         entry["error"] = "read_failed"
+        if "ColorParserList" in all_texts:
+            colors = parse_color_parser_list(obj)
+            if colors:
+                entry["color_parser_list"] = colors
+                del entry["error"]
     else:
         string_fields = {}
         other_fields = {}
@@ -354,14 +432,7 @@ def extract_object(obj, env) -> dict:
         if other_fields:
             entry["fields"] = other_fields
 
-    # --- Raw bytes scan ---
-    try:
-        raw = obj.get_raw_data()
-    except Exception:
-        return entry
-
-    raw_strings = scan_raw_strings(raw)
-    all_texts = [s["text"] for s in raw_strings]
+    # --- Remaining raw scans ---
     dialogues = parse_dialogue_from_raw(raw)
     playmaker = parse_playmaker_dialogues(all_texts)
     if playmaker:

@@ -15,7 +15,7 @@
 - text: "(It's only looking... I- I guess it's not such a-... huge deal... )"
   translation: ""
   speaker: "Zoey"
-  rich_text: "<color=perversion><i>(It's only looking... I- I guess it's not such a-... huge deal... )</i></color>"
+  rich_text: "<color=#EB83FF><i>(It's only looking... I- I guess it's not such a-... huge deal... )</i></color>"
   rich_translation: ""
 
 - text: "Mmmhhh... Could stare alll nighthh... *hic*..."
@@ -25,7 +25,7 @@
 - text: "(I'm just... Keeping company... It's-... it's fine... )"
   translation: ""
   speaker: "Zoey"
-  rich_text: "<color=perversion><i>(I'm just... Keeping company... It's-... it's fine... )</i></color>"
+  rich_text: "<color=#EB83FF><i>(I'm just... Keeping company... It's-... it's fine... )</i></color>"
   rich_translation: ""
 
 - text: "Mhh... Tha's worth the tip, ehehe... *hic*..."
@@ -35,6 +35,6 @@
 - text: "(Earning money... Nothing else... )"
   translation: ""
   speaker: "Zoey"
-  rich_text: "<color=perversion><i>(Earning money... Nothing else... )</i></color>"
+  rich_text: "<color=#EB83FF><i>(Earning money... Nothing else... )</i></color>"
   rich_translation: ""
 

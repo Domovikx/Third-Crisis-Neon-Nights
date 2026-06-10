@@ -2,7 +2,7 @@
 
 - text: "(Hhh- It smells so... sweet... khh...)"
   translation: ""
-  rich_text: "<i>(Hhh- It smells so... <color=perversion>sweet...</color> khh...)</i>"
+  rich_text: "<i>(Hhh- It smells so... <color=#EB83FF>sweet...</color> khh...)</i>"
   rich_translation: ""
 
 - text: "(Th-The blocker- I... I have to... )"
@@ -12,6 +12,6 @@
 
 - text: "(I'm... so warm...)"
   translation: ""
-  rich_text: "<color=perversion><i>(I'm... so warm...)</i></color>"
+  rich_text: "<color=#EB83FF><i>(I'm... so warm...)</i></color>"
   rich_translation: ""
 

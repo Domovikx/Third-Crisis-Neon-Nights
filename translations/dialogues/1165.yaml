@@ -2,6 +2,6 @@
 
 - text: "(Fuck... That was good... Bad... but good...)"
   translation: "Чёрт... Это было хорошо... Плохо... но хорошо..."
-  rich_text: "<i>(Fuck... That was <color=perversion>good...</color> Bad... but <color=perversion>good...</color>)</i>"
-  rich_translation: "<i>(Чёрт... Это было <color=perversion>хорошо...</color> Плохо... но <color=perversion>хорошо...</color>)</i>"
+  rich_text: "<i>(Fuck... That was <color=#EB83FF>good...</color> Bad... but <color=#EB83FF>good...</color>)</i>"
+  rich_translation: "<i>(Чёрт... Это было <color=#EB83FF>хорошо...</color> Плохо... но <color=#EB83FF>хорошо...</color>)</i>"
 

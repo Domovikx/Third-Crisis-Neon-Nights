@@ -11,8 +11,8 @@
 - text: "(This-... This is the right thing to do...)"
   translation: "(Это-... Это правильное решение...)"
   speaker: "Zoey"
-  rich_text: "<i>(This-... This is the <color=perversion>right</color> thing to do...)</i>"
-  rich_translation: "<i>(Это-... Это <color=perversion>правильное</color> решение...)</i>"
+  rich_text: "<i>(This-... This is the <color=#EB83FF>right</color> thing to do...)</i>"
+  rich_translation: "<i>(Это-... Это <color=#EB83FF>правильное</color> решение...)</i>"
 
 - text: "Follow me."
   translation: "За мной."

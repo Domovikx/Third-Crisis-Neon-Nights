@@ -2,8 +2,8 @@
 
 - text: "(Hhh... Why is it so hard to think...)"
   translation: "(Х-х-х... Что же так трудно думать...)"
-  rich_text: "<color=perversion><i>(Hhh... Why is it so hard to think...)</i></color>"
-  rich_translation: "<color=perversion><i>(Х-х-х... Что же так трудно думать...)</i></color>"
+  rich_text: "<color=#EB83FF><i>(Hhh... Why is it so hard to think...)</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Х-х-х... Что же так трудно думать...)</i></color>"
 
 - text: "(At least I'm past them now...)"
   translation: "(По крайней мере, они уже позади...)"

@@ -5,6 +5,6 @@
 
 - text: "(Agh- It sprayed me in the face. Need to... use the blocker...)"
   translation: "(Ай- Мне в лицо брызнуло. Надо... использовать блокиратор...)"
-  rich_text: "<i>(Agh- It sprayed me in the fa<color=perversion>ce. Need to... use the blocker...)</color></i>"
-  rich_translation: "<i>(Ай- Мне в лицо брызну<color=perversion>ло. Надо... использовать блокиратор...)</color></i>"
+  rich_text: "<i>(Agh- It sprayed me in the fa<color=#EB83FF>ce. Need to... use the blocker...)</color></i>"
+  rich_translation: "<i>(Ай- Мне в лицо брызну<color=#EB83FF>ло. Надо... использовать блокиратор...)</color></i>"
 

@@ -7,7 +7,7 @@
 - text: "Um-... Okayy...?"
   translation: ""
   speaker: "Zoey"
-  rich_text: "<color=perversion>Um-... Okayy...?</color>"
+  rich_text: "<color=#EB83FF>Um-... Okayy...?</color>"
   rich_translation: ""
 
 - text: "Oh! I know...! I could send 'em a pic of your butt!"
@@ -21,6 +21,6 @@
 - text: "(A picture of my- )"
   translation: ""
   speaker: "Zoey"
-  rich_text: "<color=perversion><i>(A picture of my- )</i></color>"
+  rich_text: "<color=#EB83FF><i>(A picture of my- )</i></color>"
   rich_translation: ""
 

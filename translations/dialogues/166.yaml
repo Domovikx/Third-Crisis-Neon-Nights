@@ -2,8 +2,8 @@
 
 - text: "(Ugh... much better...)"
   translation: "(Уф... так гораздо лучше...)"
-  rich_text: "<i><color=perversion>(Ugh... mu</color>ch better...)</i>"
-  rich_translation: "<i><color=perversion>(Уф... так</color> гораздо лучше...)</i>"
+  rich_text: "<i><color=#EB83FF>(Ugh... mu</color>ch better...)</i>"
+  rich_translation: "<i><color=#EB83FF>(Уф... так</color> гораздо лучше...)</i>"
 
 - text: "(Saved again by Dr. Lozenge. Ugh, how am I going to get through this place if there's more haze? The blocker's only got one charge.)"
   translation: "(Снова спасена доктором Лозенджем. Уф, как я проберусь через это место, если там ещё больше тумана? У блокатора только один заряд.)"
