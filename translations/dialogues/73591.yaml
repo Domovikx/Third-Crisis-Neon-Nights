@@ -7,11 +7,11 @@
   rich_translation: ""
 
 - text: "Fuuck yesss... You're my fav'rite waitreshh... *hic*"
-  translation: ""
+  translation: "Ах да-а... Ты моя любимая официантка... *ик*"
   speaker: "Customer"
 
 - text: "You shoul' jus' walk 'round like thisss... Woul' be wayyy more funnh... *hic* ehehe!"
-  translation: ""
+  translation: "Тебе стоит просто ходить так... Было бы в разы веселее... *ик* хихи!"
   speaker: "Customer"
 
 - text: "Wha-...! N-no...! That's-... No...!"
@@ -21,7 +21,7 @@
   rich_translation: ""
 
 - text: "Riiigh' ehehe! Wouldn' ern' ya tipsh, eheh."
-  translation: ""
+  translation: "Ага, хихи! Не заработаешь чаевые, хех."
   speaker: "Customer"
 
 - text: "But-... N-no...!"

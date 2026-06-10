@@ -1,10 +1,9 @@
 # Dialogues (path_id=84362)
 
 - text: "Add choice with indicator"
-  translation: ""
+  translation: "Добавить выбор с индикатором"
 
 - text: "Explore the train."
-  translation: ""
+  translation: "Осмотреть поезд."
   rich_text: "<color=purple>Explore the train.</color>"
-  rich_translation: ""
-
+  rich_translation: "<color=purple>Осмотреть поезд.</color>"

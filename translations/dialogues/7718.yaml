@@ -1,7 +1,6 @@
 # Dialogues (path_id=7718)
 
 - text: "N69News: Glowing Hole Robbery"
-  translation: ""
+  translation: "N69Новости: Ограбление «Светящейся дыры»"
   rich_text: "<color=yellow>N69News:</color> Glowing Hole Robbery"
-  rich_translation: ""
-
+  rich_translation: "<color=yellow>N69Новости:</color> Ограбление «Светящейся дыры»"

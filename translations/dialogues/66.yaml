@@ -1,29 +1,29 @@
 # Dialogues (path_id=66)
 
 - text: "H-hello...? C-can you hear me...? Please... Khh..."
-  translation: ""
+  translation: "А-алло...? В-вы слышите меня...? Пожалуйста... Кх..."
   speaker: "Intercom"
 
 - text: "Huh? Hello?!"
-  translation: ""
+  translation: "А? Алло?!"
 
 - text: "That-... that outfit-... Please-... I need-... fhhh..."
-  translation: ""
+  translation: "Эта-... эта одежда-... Пожалуйста-... Мне нужно-... ф-ф-ф..."
   speaker: "Intercom"
 
 - text: "I need to feel it... Set m-me free... Please... I b-beg you...!"
-  translation: ""
+  translation: "Мне нужно ощутить её... О-освободите меня... Пожалуйста... Я у-умоляю вас...!"
   speaker: "Intercom"
 
 - text: "Wh- who are you?!"
-  translation: ""
+  translation: "К-кто ты?!"
 
 - text: "Meet me in... M31... please...! I can't-... Nghhh...!"
-  translation: ""
+  translation: "Встреть меня в... M31... умоляю...! Я не могу-... Н-н-н...!"
   speaker: "Intercom"
 
 - text: "(He sounds like he's in trouble... )"
-  translation: ""
+  translation: "(Похоже, он в беде... )"
   rich_text: "<i>(He sounds like he's in trouble... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Похоже, он в беде... )</i>"
 

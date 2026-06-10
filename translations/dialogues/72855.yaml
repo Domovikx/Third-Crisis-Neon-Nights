@@ -1,32 +1,32 @@
 # Dialogues (path_id=72855)
 
 - text: "(Don't stare... Don't stare... Don't stare... )"
-  translation: ""
+  translation: "(Не пялиться... Не пялиться... Не пялиться... )"
   rich_text: "<i>(Don't stare... Don't stare... Don't stare... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Не пялиться... Не пялиться... Не пялиться... )</i>"
 
 - text: "(Don't-... )"
-  translation: ""
+  translation: "(Не-... )"
   speaker: "Zoey"
   rich_text: "<i>(Don't-... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Не-... )</i>"
 
 - text: "(Stare... )"
-  translation: ""
+  translation: "(Пялиться... )"
   speaker: "Zoey"
   rich_text: "<i>(Stare... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Пялиться... )</i>"
 
 - text: "You okay?"
-  translation: ""
+  translation: "Ты в порядке?"
 
 - text: "Oh, uh, yeah, sorry!"
-  translation: ""
+  translation: "О, эм, да, прости!"
 
 - text: "Was just-... Daydreaming... Heh."
-  translation: ""
+  translation: "Просто-... Замечталась... Хех."
   speaker: "Zoey"
 
 - text: "Yeah... Mood."
-  translation: ""
+  translation: "Ага... Бывает."
 

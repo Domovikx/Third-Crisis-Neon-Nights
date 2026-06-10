@@ -1,24 +1,24 @@
 # Dialogues (path_id=382)
 
 - text: "Welcome, welcome. Looking for some company, cutie?"
-  translation: ""
+  translation: "Добро пожаловать, добро пожаловать. Ищешь компанию, милашка?"
 
 - text: "My bitch over there is free right now. 100 per hour. Damage costs extra."
-  translation: ""
+  translation: "Моя сучка вон там сейчас свободна. 100 в час. Ущерб оплачивается отдельно."
 
 - text: "(He's pimping out that andro behind him...!)"
-  translation: ""
+  translation: "(Он сутенёрит того андроида у себя за спиной...!)"
   speaker: "Zoey"
   rich_text: "<i>(He's pimping out that andro behind him...!)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Он сутенёрит того андроида у себя за спиной...!)</i>"
 
 - text: "It'll find it's own way home after you're done. Just make sure to give it the pay before sending it out."
-  translation: ""
+  translation: "Он сам найдёт дорогу домой, когда закончишь. Просто не забудь заплатить ему перед отправкой."
 
 - text: "S-sorry, not interested..."
-  translation: ""
+  translation: "П-простите, не интересуюсь..."
   speaker: "Zoey"
 
 - text: "Eh? Why'd you come here then?"
-  translation: ""
+  translation: "А? Зачем тогда пришла?"
 

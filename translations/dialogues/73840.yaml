@@ -1,12 +1,11 @@
 # Dialogues (path_id=73840)
 
 - text: "(That's it! Okay, let's see... Looks like the signal is coming from... )"
-  translation: ""
+  translation: "(Вот оно! Так, посмотрим... Похоже, сигнал идёт от... )"
   rich_text: "<i>(That's it! Okay, let's see... Looks like the signal is coming from... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Вот оно! Так, посмотрим... Похоже, сигнал идёт от... )</i>"
 
 - text: "(Huh? It's coming from her direction. That can't be right... Better return to her and see what's happening. )"
-  translation: ""
+  translation: "(Хм? Идёт с её стороны. Этого не может быть... Лучше вернуться к ней и посмотреть, что происходит. )"
   rich_text: "<i>(Huh? It's coming from her direction. That can't be right... Better return to her and see what's happening. )</i>"
-  rich_translation: ""
-
+  rich_translation: "<i>(Хм? Идёт с её стороны. Этого не может быть... Лучше вернуться к ней и посмотреть, что происходит. )</i>"

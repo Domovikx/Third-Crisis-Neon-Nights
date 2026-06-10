@@ -1,62 +1,61 @@
 # Dialogues (path_id=2514)
 
 - text: "You look like someone in need of some cash on the side."
-  translation: ""
+  translation: "Ты выглядишь как та, кому нужны лишние деньги."
 
 - text: "Uhhh... Okay?"
-  translation: ""
+  translation: "Эээ... Ладно?"
 
 - text: "What? Am I wrong?"
-  translation: ""
+  translation: "Что? Я не прав?"
 
 - text: "Of course I'm not wrong, heh."
-  translation: ""
+  translation: "Конечно, я прав, хех."
 
 - text: "Look, just-... What do you want?"
-  translation: ""
+  translation: "Слушай, просто-... Что тебе надо?"
   speaker: "Zoey"
 
 - text: "I sell Goods... Used goods. But there's a problem with my goods."
-  translation: ""
+  translation: "Я продаю Товар... Подержанный товар. Но есть проблема с моим товаром."
   rich_text: "I sell <i>Goods</i>... Used goods. But there's a problem with my goods."
-  rich_translation: ""
+  rich_translation: "Я продаю <i>Товар</i>... Подержанный товар. Но есть проблема с моим товаром."
 
 - text: "Ookay... Whats the problem?"
-  translation: ""
+  translation: "Лаадно... В чём проблема?"
   speaker: "Zoey"
 
 - text: "The goods I'm trying to sell right now are not... Used."
-  translation: ""
+  translation: "Товар, который я сейчас пытаюсь продать, не... Подержанный."
 
 - text: "What kind of goods are you talking about exactly?"
-  translation: ""
+  translation: "О каком именно товаре ты говоришь?"
   speaker: "Zoey"
   rich_text: "What kind of <i>goods</i> are you talking about exactly?"
-  rich_translation: ""
+  rich_translation: "О каком именно <i>товаре</i> ты говоришь?"
 
 - text: "Something that your kind of body would look incredible in, hehehe."
-  translation: ""
+  translation: "Кое-что, в чём твоё тело будет выглядеть сногсшибательно, хе-хе-хе."
   rich_text: "Something that <b>your</b> kind of body would look incredible in, hehehe."
-  rich_translation: ""
+  rich_translation: "Кое-что, в чём <b>твоё</b> тело будет выглядеть сногсшибательно, хе-хе-хе."
 
 - text: "An outfit?"
-  translation: ""
+  translation: "Наряд?"
   speaker: "Zoey"
 
 - text: "I was about to deliver this one to some old fart. Then he suddenly demanded proof of it having been worn."
-  translation: ""
+  translation: "Я собирался доставить этот наряд одному старому хрычу. А он вдруг потребовал доказательства, что его носили."
 
 - text: "200 FB. Yours in cash. What do you think?"
-  translation: ""
+  translation: "200 кредитов. Наличные. Что скажешь?"
 
 - text: "(Just to wear an outfit...?)"
-  translation: ""
+  translation: "(Всего лишь надеть наряд...?)"
   speaker: "Zoey"
   rich_text: "<i>(Just to wear an outfit...?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Всего лишь надеть наряд...?)</i>"
 
 - text: "Hah. Look at that. You are in need of cash."
-  translation: ""
+  translation: "Ха. Я смотрю, тебе правда нужны деньги."
   rich_text: "Hah. Look at that. You <b>are</b> in need of cash."
-  rich_translation: ""
-
+  rich_translation: "Ха. Я смотрю, тебе <b>правда</b> нужны деньги."

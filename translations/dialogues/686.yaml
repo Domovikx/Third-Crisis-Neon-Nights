@@ -1,19 +1,19 @@
 # Dialogues (path_id=686)
 
 - text: "So, about that french kiss you mentioned, darling."
-  translation: ""
+  translation: "Итак, насчёт того французского поцелуя, что ты упомянула, дорогая."
   speaker: "Leona"
 
 - text: "I-... Wh- wha...?"
-  translation: ""
+  translation: "Я-... Ч-что...?"
   speaker: "Zoey"
 
 - text: "It wasn't just empty words, now was it, hmm?"
-  translation: ""
+  translation: "Это были не просто пустые слова, верно, хм?"
   speaker: "Leona"
 
 - text: "(Is this-... Part of the passphrase...?!)"
-  translation: ""
+  translation: "(Это-... Часть пароля...?!)"
   rich_text: "<i>(Is this-... Part of the passphrase...?!)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Это-... Часть пароля...?!)</i>"
 

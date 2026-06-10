@@ -1,51 +1,51 @@
 # Dialogues (path_id=2130)
 
 - text: "Zoey! Long time no see."
-  translation: ""
+  translation: "Зои! Давно не виделись."
 
 - text: "Happy that someone finally answered your call."
-  translation: ""
+  translation: "Рада, что кто-то наконец ответил на твой звонок."
 
 - text: "Not annoyed, but confused."
-  translation: ""
+  translation: "Не раздражена, но озадачена."
 
 - text: "Oh- uh- Heh. I've got a request. Can we-"
-  translation: ""
+  translation: "О- эм- Хех. У меня есть просьба. Можем-"
 
 - text: "Less angry, more paranoid."
-  translation: ""
+  translation: "Менее злая, более параноидальная."
 
 - text: "Oh- Right. Heh, I'm assuming you've moved to a new spot?"
-  translation: ""
+  translation: "Ах да. Хех, полагаю, ты перебрался на новое место?"
 
 - text: "Yup. Cozy spot. New place doesn't let in strangers, so you gotta take the back entrance."
-  translation: ""
+  translation: "Ага. Уютное местечко. Новое место не пускает незнакомцев, так что придётся через чёрный вход."
 
 - text: "Right... How far is this one?"
-  translation: ""
+  translation: "Понятно... Как далеко это?"
 
 - text: "Bit of a journey. Not as bad as the last one. Look outside for access hatch F04. Should lead you to the place."
-  translation: ""
+  translation: "Немного пути. Не так далеко, как в прошлый раз. Поищи снаружи люк доступа F04. Он приведёт тебя к месту."
 
 - text: "You expect all your clients to do this? How many actually go through with it?"
-  translation: ""
+  translation: "Ты ожидаешь от всех клиентов такого? Сколько вообще доходят?"
   speaker: "Zoey"
 
 - text: "Uhhh- so far none! Still working on retention."
-  translation: ""
+  translation: "Эээм- пока ни одного! Всё ещё работаю над удержанием."
 
 - text: "Anyway, once you're in the building, find Leona. Code phrase is French Kiss. That was her idea."
-  translation: ""
+  translation: "Короче, когда будешь в здании, найди Леону. Кодовая фраза — «Французский поцелуй». Это была её идея."
   rich_text: "Anyway, once you're in the building, find Leona. Code phrase is <b>French Kiss</b>. That was her idea."
-  rich_translation: ""
+  rich_translation: "Короче, когда будешь в здании, найди Леону. Кодовая фраза — <b>«Французский поцелуй»</b>. Это была её идея."
 
 - text: "Leona? What, you have a secretary or something now?"
-  translation: ""
+  translation: "Леону? Что, у тебя теперь секретарша или типа того?"
 
 - text: "Uhhh, something like that! Oh- I gotta go, let me know once you're close."
-  translation: ""
+  translation: "Эээ, вроде того! О- мне пора, дай знать, когда будешь рядом."
 
 - text: "You got it."
-  translation: ""
+  translation: "Договорились."
   speaker: "Zoey"
 

@@ -1,13 +1,12 @@
 # Dialogues (path_id=739)
 
 - text: "(Is that tongue is coming out of the screen?)"
-  translation: ""
+  translation: "(Это язык высовывается из экрана?)"
   speaker: "Zoey"
   rich_text: "<i>(Is that tongue is coming out of the screen?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Это язык высовывается из экрана?)</i>"
 
 - text: "(It's probably connected to the machine Lio is stuck in somehow... )"
-  translation: ""
+  translation: "(Наверное, это как-то связано с машиной, в которой застрял Лио... )"
   rich_text: "<i>(It's probably connected to the machine Lio is stuck in somehow... )</i>"
-  rich_translation: ""
-
+  rich_translation: "<i>(Наверное, это как-то связано с машиной, в которой застрял Лио... )</i>"

@@ -1,22 +1,22 @@
 # Dialogues (path_id=700)
 
 - text: "Did I interrupt you eating?"
-  translation: ""
+  translation: "Я помешала вам поесть?"
   speaker: "Zoey"
 
 - text: "Ah, no, no worries. Lio just skipped his breakfast."
-  translation: ""
+  translation: "А, нет, не волнуйся. Лио просто пропустил завтрак."
   speaker: "Leona"
 
 - text: "Oh you eat together? That's cute!"
-  translation: ""
+  translation: "О, вы едите вместе? Это мило!"
   speaker: "Zoey"
 
 - text: "Almost like having another child. Next to Felicia of course."
-  translation: ""
+  translation: "Почти как иметь второго ребёнка. Рядом с Фелицией, конечно."
   speaker: "Leona"
 
 - text: "Heh, of course!"
-  translation: ""
+  translation: "Хех, конечно!"
   speaker: "Zoey"
 

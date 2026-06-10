@@ -1,24 +1,24 @@
 # Dialogues (path_id=691)
 
 - text: "Zoey...! Ah-...! Fghh...!"
-  translation: ""
+  translation: "Зои...! А-...! Ф-ф-ф...!"
 
 - text: "Heyyy Lio, uh... I just got out of the tunnels and-"
-  translation: ""
+  translation: "Хэ-эй Лио, эм... Я только выбралась из туннелей и-"
   speaker: "Zoey"
 
 - text: "Fhahh...! Hurry...! It- she's not- Ghh-... Letting me out of-"
-  translation: ""
+  translation: "Ахха...! Скорее...! Оно- она не- Ух-... Выпускает меня из-"
 
 - text: "(He hung up...? What was that about?)"
-  translation: ""
+  translation: "(Он повесил трубку...? Что это было?)"
   speaker: "Zoey"
   rich_text: "<i>(He hung up...? What was that about?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Он повесил трубку...? Что это было?)</i>"
 
 - text: "(I guess I better hurry and get into that apartment. )"
-  translation: ""
+  translation: "(Наверное, мне лучше поторопиться и попасть в ту квартиру. )"
   speaker: "Zoey"
   rich_text: "<i>(I guess I better hurry and get into that apartment. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Наверное, мне лучше поторопиться и попасть в ту квартиру. )</i>"
 

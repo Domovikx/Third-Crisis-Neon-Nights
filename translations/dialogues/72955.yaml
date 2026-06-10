@@ -1,17 +1,17 @@
 # Dialogues (path_id=72955)
 
 - text: "(W-wow... )"
-  translation: ""
+  translation: "(Ни-ничего себе... )"
   rich_text: "<i>(<color=#EB83FF>W-wow...</color> )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(<color=#EB83FF>Ни-ничего себе...</color> )</i>"
 
 - text: "(They look so.. Soft.. )"
-  translation: ""
+  translation: "(Они выглядят такими.. Мягкими.. )"
   rich_text: "<i>(They look so.. <color=#EB83FF>Soft</color>.. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Они выглядят такими.. <color=#EB83FF>Мягкими</color>.. )</i>"
 
 - text: "(Gah-..! I-.. I shouldn't stare like that.. !)"
-  translation: ""
+  translation: "(Ай-..! Я-.. Нельзя так пялиться.. !)"
   rich_text: "<i>(Gah-..! I-.. I shouldn't stare like that.. !)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Ай-..! Я-.. Нельзя так пялиться.. !)</i>"
 

@@ -1,88 +1,88 @@
 # Dialogues (path_id=73101)
 
 - text: "Leona? Hi!"
-  translation: ""
+  translation: "Леона? Привет!"
   speaker: "Zoey"
 
 - text: "Zoey, darling. What a delight to meet you in this stuffed metal rod."
-  translation: ""
+  translation: "Зои, дорогая. Какая радость встретить тебя в этой набитой битком железной банке."
   speaker: "Leona"
 
 - text: "Not a fan of the tram?"
-  translation: ""
+  translation: "Не любишь трамвай?"
   speaker: "Zoey"
 
 - text: "Dire times require dire actions, I suppose. Used to travel a lot more... aesthetically pleasing."
-  translation: ""
+  translation: "Тяжёлые времена требуют тяжёлых мер, полагаю. Раньше путешествовала гораздо... эстетичнее."
   speaker: "Leona"
 
 - text: "But the past is the past. At least it got me to meet a pretty young lady like you again."
-  translation: ""
+  translation: "Но прошлое есть прошлое. По крайней мере, это позволило мне снова встретить такую хорошенькую девушку, как ты."
   speaker: "Leona"
 
 - text: "R-right, eheh...!"
-  translation: ""
+  translation: "Д-да, ахах...!"
   speaker: "Zoey"
 
 - text: "How's Lio?"
-  translation: ""
+  translation: "Как там Лио?"
   speaker: "Zoey"
 
 - text: "That little rascal has been fighting with his girlfriend after you left. I really didn't feel like getting involved with that."
-  translation: ""
+  translation: "Этот маленький проказник ссорится со своей девушкой после твоего ухода. Я не хотела в это вмешиваться."
   speaker: "Leona"
 
 - text: "Heh, yeah, I can only imagine."
-  translation: ""
+  translation: "Хех, да, могу представить."
   speaker: "Zoey"
 
 - text: "I still think a maid outfit would look stunning on you... Why don't you come and... help me... around the house a little bit, hmm?"
-  translation: ""
+  translation: "Я всё ещё думаю, что форма горничной будет на тебе шикарно смотреться... Почему бы тебе не прийти и... помочь мне... немного по дому, мм?"
   speaker: "Leona"
   rich_text: "I still think a maid outfit would look stunning on you... Why don't you come and... <b>help me</b>... around the house a little bit, hmm?"
-  rich_translation: ""
+  rich_translation: "Я всё ещё думаю, что форма горничной будет на тебе шикарно смотреться... Почему бы тебе не прийти и... <b>помочь мне</b>... немного по дому, мм?"
 
 - text: "Oh, uhm, I- err..."
-  translation: ""
+  translation: "О, эм, я- э-э..."
   speaker: "Zoey"
 
 - text: "I have my hands a bit full at the moment. On my way to the lower red for a, um..."
-  translation: ""
+  translation: "У меня сейчас немного заняты руки. Я направляюсь в Нижний Красный на, эм..."
   speaker: "Zoey"
 
 - text: "A... thing."
-  translation: ""
+  translation: "Одно... дело."
   speaker: "Zoey"
 
 - text: "You're working in the lower red? My, maybe that place does have a glimmer of hope left in it afterall."
-  translation: ""
+  translation: "Ты работаешь в Нижнем Красном? Боже, может, в этом месте всё-таки остался проблеск надежды."
   speaker: "Leona"
 
 - text: "Wait, no! Not work like-... I mean it's just-... like a gig...!"
-  translation: ""
+  translation: "Нет, погоди! Не работа в смысле-... Я имею в виду, это просто-... вроде подработки...!"
   speaker: "Zoey"
 
 - text: "Eheh, I've heard that before. Don't worry, darling. I certainly don't judge."
-  translation: ""
+  translation: "Ахах, я такое уже слышала. Не волнуйся, дорогая. Я не осуждаю."
   speaker: "Leona"
 
 - text: "(She thinks I'm working there as a-... Hhh... )"
-  translation: ""
+  translation: "(Она думает, я там работаю как-... Хых... )"
   speaker: "Zoey"
   rich_text: "<i>(She thinks I'm working there as a-... Hhh... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Она думает, я там работаю как-... Хых... )</i>"
 
 - text: "(Almost seems easier to just go with that than to explain what's really going on...)"
-  translation: ""
+  translation: "(Кажется, проще подыграть, чем объяснять, что на самом деле происходит...)"
   speaker: "Zoey"
   rich_text: "<i>(Almost seems easier to just go with that than to explain what's really going on...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Кажется, проще подыграть, чем объяснять, что на самом деле происходит...)</i>"
 
 - text: "Looks like your stop is up. Have fun, eheh."
-  translation: ""
+  translation: "Похоже, твоя остановка. Веселись, ахах."
   speaker: "Leona"
 
 - text: "Heh... th- thanks..."
-  translation: ""
+  translation: "Хех... с-спасибо..."
   speaker: "Zoey"
 

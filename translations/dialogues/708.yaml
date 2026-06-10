@@ -1,29 +1,29 @@
 # Dialogues (path_id=708)
 
 - text: "How do you know Lio by the way?"
-  translation: ""
+  translation: "Кстати, как ты знаешь Лио?"
 
 - text: "Apartment was a bit too big for myself and Felicia."
-  translation: ""
+  translation: "Квартира была слишком большой для меня и Фелиции."
   speaker: "Leona"
 
 - text: "Ah, so you were looking for a flatmate?"
-  translation: ""
+  translation: "А, так ты искала соседа?"
   speaker: "Zoey"
 
 - text: "Flatmate? Eheh. My tastes are a little too... unique for a flatmate."
-  translation: ""
+  translation: "Соседа? Эхех. Мои вкусы слишком... специфичны для соседа."
   speaker: "Leona"
   rich_text: "Flatmate? Eheh. My tastes are a little too... unique for a <i>flatmate</i>."
-  rich_translation: ""
+  rich_translation: "Соседа? Эхех. Мои вкусы слишком... специфичны для <i>соседа</i>."
 
 - text: "Soo... He's not your flatmate?"
-  translation: ""
+  translation: "Так... Он тебе не сосед?"
 
 - text: "Lets just say he pays his rent in a rather... unique arrangement, eheh."
-  translation: ""
+  translation: "Скажем так, он платит за аренду по довольно... уникальной договорённости, эхех."
   speaker: "Leona"
 
 - text: "Hah-... right...! I-... I see!"
-  translation: ""
+  translation: "Ха-... понятно...! Я-... Я понимаю!"
 

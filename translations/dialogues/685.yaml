@@ -1,14 +1,14 @@
 # Dialogues (path_id=685)
 
 - text: "Leona opens the door"
-  translation: ""
+  translation: "Леона открывает дверь"
 
 - text: "Cut off saying Lio"
-  translation: ""
+  translation: "Прерывается, говоря Лио"
 
 - text: "The hallway isn't the place to discuss such... intimate details."
-  translation: ""
+  translation: "Коридор — не место для обсуждения таких... <b>интимных</b> подробностей."
   speaker: "Leona"
   rich_text: "The hallway isn't the place to discuss such... <b>intimate</b> details."
-  rich_translation: ""
+  rich_translation: "Коридор — не место для обсуждения таких... <b>интимных</b> подробностей."
 

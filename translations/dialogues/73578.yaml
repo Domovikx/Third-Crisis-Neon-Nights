@@ -1,11 +1,11 @@
 # Dialogues (path_id=73578)
 
 - text: "Lookin' goood, waitress... *hic* ehehe!"
-  translation: ""
+  translation: "Выглядишь хорошо, официантка... *ик* хихи!"
   speaker: "Customer"
 
 - text: "Oh, uhm... Thanks...?"
-  translation: ""
+  translation: "О, эм... Спасибо...?"
   speaker: "Zoey"
 
 - text: "(Seems pretty drunk... Did I bring too many drinks...?)"
@@ -15,12 +15,12 @@
   rich_translation: ""
 
 - text: "Lemme'- *hic* peek at thos' big tiddies...! I'll tip ya."
-  translation: ""
+  translation: "Дай-ка *ик* глянуть на те большие сиськи...! Я заплачу."
   speaker: "Customer"
 
 - text: "Wha-... I-..."
-  translation: ""
+  translation: "Ч-... Я-..."
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>Wha-... I-...</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Ч-... Я-...</color>"
 

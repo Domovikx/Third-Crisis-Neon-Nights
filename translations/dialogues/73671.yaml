@@ -6,9 +6,9 @@
   rich_translation: ""
 
 - text: "(What is that sound?)"
-  translation: ""
+  translation: "(Что это за звук?)"
   rich_text: "<i>(What is that sound?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Что это за звук?)</i>"
 
 - text: ">"
   translation: ""
@@ -16,10 +16,10 @@
   rich_translation: ""
 
 - text: "Uwaa! Hey!"
-  translation: ""
+  translation: "Уаа! Эй!"
 
 - text: "Unh! H-hey..! That's-.."
-  translation: ""
+  translation: "Ан! Э-эй..! Это-.."
 
 - text: "(Welp, thanks box. Didn't need those anyways. )"
   translation: ""
@@ -37,7 +37,7 @@
   rich_translation: ""
 
 - text: "L-.. Lubrication system.. For improved arrival speed?"
-  translation: ""
+  translation: "С-.. Система смазки.. Для ускорения доставки?"
   rich_text: "L-.. <color=#EB83FF>Lubrication system</color>.. For improved arrival speed?"
   rich_translation: ""
 

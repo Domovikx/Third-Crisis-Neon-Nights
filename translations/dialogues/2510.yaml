@@ -1,14 +1,13 @@
 # Dialogues (path_id=2510)
 
 - text: "Ah- maybe another day!"
-  translation: ""
+  translation: "А- может, в другой раз!"
   speaker: "Zoey"
 
 - text: "Really?! We're just throwing our stuff at anything you find hot now, do we?! You are going to explain this to the boss!"
-  translation: ""
+  translation: "Серьёзно?! Мы теперь разбрасываемся товаром ради каждой твоей зазнобы?! Ты будешь объясняться перед боссом!"
   rich_text: "Really?! We're just throwing our stuff at anything you find hot now, do we?! <b>You</b> are going to explain this to the boss!"
-  rich_translation: ""
+  rich_translation: "Серьёзно?! Мы теперь разбрасываемся товаром ради каждой твоей зазнобы?! <b>Ты</b> будешь объясняться перед боссом!"
 
 - text: "And she didn't even take it. Just get outa here, girl."
-  translation: ""
-
+  translation: "А она даже не взяла. Просто вали отсюда, девочка."

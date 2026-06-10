@@ -1,29 +1,28 @@
 # Dialogues (path_id=1553)
 
 - text: "What happened to your arm?"
-  translation: ""
+  translation: "Что случилось с твоей рукой?"
 
 - text: "My arm? I cut it off."
-  translation: ""
+  translation: "Моя рука? Я её отрезала."
   speaker: "Klaudia"
 
 - text: "You-.. Cut it off?!"
-  translation: ""
+  translation: "Ты-.. Отрезала?!"
 
 - text: "Out with the old, in with the new. It's all nice and shiny now, don't you think?~"
-  translation: ""
+  translation: "Старое долой, новое на замену. Теперь она вся блестит и радует глаз, тебе не кажется?~"
   speaker: "Klaudia"
 
 - text: "It-.. is shiny."
-  translation: ""
+  translation: "Она-.. блестит."
 
 - text: "You should consider adding some chrome to yourself, sweety. It can be much more.. sensitive..~"
-  translation: ""
+  translation: "Тебе тоже стоит подумать о хромировании, сладкая. Это может быть гораздо.. чувствительнее..~"
   speaker: "Klaudia"
   rich_text: "You should consider adding some chrome to yourself, sweety. It can be much more.. <b>sensitive</b>..~"
-  rich_translation: ""
+  rich_translation: "Тебе тоже стоит подумать о хромировании, сладкая. Это может быть гораздо.. <b>чувствительнее</b>..~"
 
 - text: "If you have the right friends, replacing your body parts can lead to more than shiny looks.~"
-  translation: ""
+  translation: "С нужными друзьями замена частей тела может дать не только блестящий вид.~"
   speaker: "Klaudia"
-

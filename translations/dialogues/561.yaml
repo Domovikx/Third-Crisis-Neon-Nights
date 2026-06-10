@@ -1,11 +1,11 @@
 # Dialogues (path_id=561)
 
 - text: "Now have a seat."
-  translation: ""
+  translation: "А теперь садись."
 
 - text: "Y- Yes, sir..."
-  translation: ""
+  translation: "Д- Да, сэр..."
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>Y- Yes, sir...</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Д- Да, сэр...</color>"
 

@@ -1,40 +1,40 @@
 # Dialogues (path_id=688)
 
 - text: "So... About that little bookworm, hmm?"
-  translation: ""
+  translation: "Итак... Насчёт того маленького книжного червя, хм?"
   speaker: "Leona"
 
 - text: "You mean... Lio?"
-  translation: ""
+  translation: "Ты имеешь в виду... Лио?"
   speaker: "Zoey"
 
 - text: "Yes, Lio! He's in his room."
-  translation: ""
+  translation: "Да, Лио! Он в своей комнате."
   speaker: "Leona"
 
 - text: "Right, that's good...!"
-  translation: ""
+  translation: "Отлично, это хорошо...!"
   speaker: "Zoey"
 
 - text: "Can you show me where it is?"
-  translation: ""
+  translation: "Можешь показать, где это?"
   speaker: "Zoey"
 
 - text: "I'd love to, darling. But well, I'm not really into all this tech stuff. The entrance to his room is in the back of my bedroom, but... I'm not sure how to open the door."
-  translation: ""
+  translation: "Я бы с радостью, дорогая. Но, понимаешь, я не особо разбираюсь во всех этих технических штуках. Вход в его комнату в дальнем конце моей спальни, но... я не уверена, как открыть дверь."
   speaker: "Leona"
 
 - text: "Oh, alright. Would you mind if I had a look?"
-  translation: ""
+  translation: "О, хорошо. Не возражаешь, если я взгляну?"
   speaker: "Zoey"
 
 - text: "Please, darling. Make yourself a home. I really don't mind having you around, eheheh."
-  translation: ""
+  translation: "Пожалуйста, дорогая. Чувствуй себя как дома. Я <b>совсем</b> не против твоей компании, эхехе."
   speaker: "Leona"
   rich_text: "Please, darling. Make yourself a home. I <b>really</b> don't mind having you around, eheheh."
-  rich_translation: ""
+  rich_translation: "Пожалуйста, дорогая. Чувствуй себя как дома. Я <b>совсем</b> не против твоей компании, эхехе."
 
 - text: "Heh... I-... Thanks..."
-  translation: ""
+  translation: "Хех... Я-... Спасибо..."
   speaker: "Zoey"
 

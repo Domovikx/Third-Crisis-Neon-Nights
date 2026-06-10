@@ -13,11 +13,11 @@
   rich_translation: ""
 
 - text: "Promissseeee... Mheh! *hic*"
-  translation: ""
+  translation: "Обещаю... Мхе! *ик*"
   speaker: "Customer"
 
 - text: "Bithh closer, please... N' stretch ya chest out... *hic*"
-  translation: ""
+  translation: "Поближе, пожалуйста... И вытяни грудь... *ик*"
   speaker: "Customer"
 
 - text: "(Khh... I'm really posing for a... picture of my-... )"
@@ -33,11 +33,11 @@
   rich_translation: ""
 
 - text: "Mhh... Yesss that's goood..."
-  translation: ""
+  translation: "Мх... Да-а, хорошо..."
   speaker: "Customer"
 
 - text: "Got it, ehehe... God that's hot... Wanna seee?"
-  translation: ""
+  translation: "Готово, хихи... Боже, как горячо... Хочешь посмотреть?"
   speaker: "Customer"
 
 - text: "J-just show me that my face isn't in it..."
@@ -47,11 +47,11 @@
   rich_translation: ""
 
 - text: "Here, see?"
-  translation: ""
+  translation: "Вот, видишь?"
   speaker: "Customer"
 
 - text: "Can't wait to show my friends."
-  translation: ""
+  translation: "Не терпится показать друзьям."
   speaker: "Customer"
 
 - text: "Show your-... Friends...?!"
@@ -61,7 +61,7 @@
   rich_translation: ""
 
 - text: "Tell 'em 'bout the hot new waitress at the Glowin' Hole."
-  translation: ""
+  translation: "Рассказать им о горячей новой официантке в 'Сияющей Дыре'."
   speaker: "Customer"
 
 - text: "(Gahh-... I shouldn't have done that... Khh... )"
@@ -71,7 +71,7 @@
   rich_translation: ""
 
 - text: "Here's ya tip."
-  translation: ""
+  translation: "Вот твои чаевые."
   speaker: "Customer"
 
 - text: "(Was that... really worth it...?)"

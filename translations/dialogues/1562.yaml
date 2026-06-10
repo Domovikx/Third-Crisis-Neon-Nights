@@ -1,22 +1,21 @@
 # Dialogues (path_id=1562)
 
 - text: "And where do you think you're going?!"
-  translation: ""
+  translation: "А куда это ты собралась?!"
   speaker: "Klaudia"
 
 - text: "Ehm, upstairs, is that a problem?"
-  translation: ""
+  translation: "Эм, наверх, это проблема?"
 
 - text: "Yes, it is! The upstairs is for paying clients only."
-  translation: ""
+  translation: "Да, проблема! Наверху только для платных клиентов."
   speaker: "Klaudia"
 
 - text: "And I don't think you paid yet."
-  translation: ""
+  translation: "И ты вроде ещё не заплатила."
   speaker: "Klaudia"
 
 - text: "(I have to find another way up. Maybe I can find a way to distract her.)"
-  translation: ""
+  translation: "(Нужно найти другой путь наверх. Может, получится её отвлечь.)"
   rich_text: "<i>(I have to find another way up. Maybe I can find a way to distract her.)</i>"
-  rich_translation: ""
-
+  rich_translation: "<i>(Нужно найти другой путь наверх. Может, получится её отвлечь.)</i>"

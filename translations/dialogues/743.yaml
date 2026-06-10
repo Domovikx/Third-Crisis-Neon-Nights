@@ -1,7 +1,6 @@
 # Dialogues (path_id=743)
 
 - text: "(Maybe I can bypass the remote access to this door. That'll let me get through and get another key.)"
-  translation: ""
+  translation: "(Может, я смогу обойти удалённый доступ к этой двери. Тогда я пройду и возьму ещё один ключ.)"
   rich_text: "<i>(Maybe I can bypass the remote access to this door. That'll let me get through and get another key.)</i>"
-  rich_translation: ""
-
+  rich_translation: "<i>(Может, я смогу обойти удалённый доступ к этой двери. Тогда я пройду и возьму ещё один ключ.)</i>"

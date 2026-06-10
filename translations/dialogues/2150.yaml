@@ -1,7 +1,7 @@
 # Dialogues (path_id=2150)
 
 - text: "Password recovery request... Your one-time passcode is 5297."
-  translation: ""
+  translation: "Запрос на восстановление пароля... Ваш одноразовый код: 5297."
   rich_text: "<i>Password recovery request... Your one-time passcode is <color=yellow>5297</color>.</i>"
-  rich_translation: ""
+  rich_translation: "<i>Запрос на восстановление пароля... Ваш одноразовый код: <color=yellow>5297</color>.</i>"
 

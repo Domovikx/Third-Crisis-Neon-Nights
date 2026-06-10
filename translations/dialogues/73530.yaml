@@ -1,15 +1,15 @@
 # Dialogues (path_id=73530)
 
 - text: "Come here..."
-  translation: ""
+  translation: "Иди сюда..."
   speaker: "Customer"
 
 - text: "Gahhh... Amazing body..."
-  translation: ""
+  translation: "Ахх... Потрясающее тело..."
   speaker: "Customer"
 
 - text: "Turn around."
-  translation: ""
+  translation: "Повернись."
   speaker: "Customer"
 
 - text: "(It's only looking... I- I guess it's not such a-... huge deal... )"
@@ -19,7 +19,7 @@
   rich_translation: ""
 
 - text: "Mmmhhh... Could stare alll nighthh... *hic*..."
-  translation: ""
+  translation: "Мммм... Могу смотреть всю ночь... *ик*..."
   speaker: "Customer"
 
 - text: "(I'm just... Keeping company... It's-... it's fine... )"
@@ -29,7 +29,7 @@
   rich_translation: ""
 
 - text: "Mhh... Tha's worth the tip, ehehe... *hic*..."
-  translation: ""
+  translation: "Мх... Это стоит чаевых, хихи... *ик*..."
   speaker: "Customer"
 
 - text: "(Earning money... Nothing else... )"

@@ -1,22 +1,22 @@
 # Dialogues (path_id=2530)
 
 - text: ":: Undressing process beginning... ::"
-  translation: ""
+  translation: ":: Начало процесса раздевания... ::"
   rich_text: "<i>:: Undressing process beginning... ::</i>"
-  rich_translation: ""
+  rich_translation: "<i>:: Начало процесса раздевания... ::</i>"
 
 - text: "Eep! Zoey! My jacket!"
-  translation: ""
+  translation: "Ип! Зои! Моя куртка!"
 
 - text: "Agh! Mine too! This thing's taking our clothes!"
-  translation: ""
+  translation: "Ай! И мою тоже! Эта штука снимает с нас одежду!"
 
 - text: "And those stinking guards haven't even noticed us yet!"
-  translation: ""
+  translation: "А эти вонючие охранники нас даже не заметили!"
 
 - text: "What?! Agh! How!?"
-  translation: ""
+  translation: "Что?! Ай! Как!?"
 
 - text: "Just stay on the- ah-! on the route!"
-  translation: ""
+  translation: "Просто держись на- ах-! на маршруте!"
 

@@ -1,16 +1,15 @@
 # Dialogues (path_id=2506)
 
 - text: "Look, I don't even know what this resistance thing is, but she really looks like she needs help!"
-  translation: ""
+  translation: "Слушай, я даже не знаю, что это за сопротивление, но ей правда нужна помощь!"
 
 - text: "Well, well, well. That's what she said too."
-  translation: ""
+  translation: "Ну-ну-ну. Она тоже так говорила."
   speaker: "Enforcer"
 
 - text: "Get this resistance scum!"
-  translation: ""
+  translation: "Взять эту мразь из сопротивления!"
   speaker: "Enforcer"
 
 - text: "N- no wait!"
-  translation: ""
-
+  translation: "Н- нет, постойте!"

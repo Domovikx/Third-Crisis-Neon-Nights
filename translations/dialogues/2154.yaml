@@ -1,7 +1,7 @@
 # Dialogues (path_id=2154)
 
 - text: "Thank you for shopping with CLIT! Your order code is 3045!"
-  translation: ""
+  translation: "Спасибо за покупку в CLIT! Код вашего заказа: 3045!"
   rich_text: "Thank you for shopping with CLIT! Your order code is <color=yellow>3045</color>!</i>"
-  rich_translation: ""
+  rich_translation: "Спасибо за покупку в CLIT! Код вашего заказа: <color=yellow>3045</color>!</i>"
 

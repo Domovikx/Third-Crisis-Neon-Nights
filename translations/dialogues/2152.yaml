@@ -1,7 +1,7 @@
 # Dialogues (path_id=2152)
 
 - text: "Your new Neon-Trust Reserve account is now open! Your new pin number is as follows... 7192>"
-  translation: ""
+  translation: "Ваш новый счёт Neon-Trust Reserve открыт! Ваш пин-код: 7192."
   rich_text: "<i>Your new Neon-Trust Reserve account is now open! Your new pin number is as follows... <<color=yellow>7192</color>></i>"
-  rich_translation: ""
+  rich_translation: "<i>Ваш новый счёт Neon-Trust Reserve открыт! Ваш пин-код: <color=yellow>7192</color>.</i>"
 

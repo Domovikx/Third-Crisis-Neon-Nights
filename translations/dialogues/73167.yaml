@@ -1,32 +1,32 @@
 # Dialogues (path_id=73167)
 
 - text: "I am the Train Man! Hear my words of wisdom if you wish to survive this perilous train ride!"
-  translation: ""
+  translation: "Я — Человек-Поезд! Внемли моим мудрым словам, если хочешь пережить эту опасную поездку!"
   speaker: "Man"
 
 - text: "Right... What sort of wisdom do you have for me?"
-  translation: ""
+  translation: "Ага... И что же за мудрость ты мне поведаешь?"
   speaker: "Zoey"
 
 - text: "Come closer."
-  translation: ""
+  translation: "Подойди ближе."
   speaker: "Man"
 
 - text: "Uh huh."
-  translation: ""
+  translation: "Угу."
 
 - text: "No, no. Closer than that."
-  translation: ""
+  translation: "Нет, нет. Ещё ближе."
   speaker: "Man"
 
 - text: "I'm already pretty close!"
-  translation: ""
+  translation: "Я уже довольно близко!"
 
 - text: "Are you ready?"
-  translation: ""
+  translation: "Готова?"
   speaker: "Man"
 
 - text: "Just walk to the right until you can't anymore."
-  translation: ""
+  translation: "Просто иди направо, пока не упрёшься."
   speaker: "Man"
 

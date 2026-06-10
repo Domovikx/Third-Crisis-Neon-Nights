@@ -1,19 +1,19 @@
 # Dialogues (path_id=2541)
 
 - text: "Place is locked..."
-  translation: ""
+  translation: "Место заперто..."
   speaker: "Enforcer"
 
 - text: "Do we wait for them to open up?"
-  translation: ""
+  translation: "Будем ждать, пока откроют?"
   speaker: "Enforcer"
 
 - text: "Ugh. What the heck! These guys are blocking the way."
-  translation: ""
+  translation: "Угх. Какого чёрта! Эти парни загораживают проход."
 
 - text: "Sounds like the place is locked anyways."
-  translation: ""
+  translation: "Похоже, место всё равно закрыто."
 
 - text: "Duh! I'd lock my door too if I had enforcers outside."
-  translation: ""
+  translation: "Ну! Я бы тоже заперлась, если бы у меня под дверью стояли силовики."
 

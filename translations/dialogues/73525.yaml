@@ -7,15 +7,15 @@
   rich_translation: ""
 
 - text: "Mnhh gooodhh... Godh... Look at youu... *hic*"
-  translation: ""
+  translation: "Мнх хорош... Боже... Посмотри на себя... *ик*"
   speaker: "Customer"
 
 - text: "Y'er even hotter than the las' waitress that worked here... *hic*"
-  translation: ""
+  translation: "Ты даже горячее, чем прошлая официантка... *ик*"
   speaker: "Customer"
 
 - text: "Tho' that one was doing more than servin' drinks, khehehe."
-  translation: ""
+  translation: "Хотя та занималась не только напитками, кхихихи."
   speaker: "Customer"
 
 - text: "Um-... She was...?"
@@ -25,7 +25,7 @@
   rich_translation: ""
 
 - text: "Turn around for me, babe. I wanna see that rear up close..."
-  translation: ""
+  translation: "Повернись ко мне, детка. Хочу увидеть этот зад вблизи..."
   speaker: "Customer"
 
 - text: "Rear-...? But-"
@@ -35,7 +35,7 @@
   rich_translation: ""
 
 - text: "Come onnn... Ya took ma' money already... Give me a lil somethin' for it, hmmm?"
-  translation: ""
+  translation: "Да ладно... Ты уже взяла мои деньги... Дай мне что-нибудь за них, хмм?"
   speaker: "Customer"
 
 - text: "(Khh... I should't have agreed in the first place... )"
@@ -51,11 +51,11 @@
   rich_translation: ""
 
 - text: "Godhhh... Look at that ass...!"
-  translation: ""
+  translation: "Боже... Посмотри на эту попку...!"
   speaker: "Customer"
 
 - text: "Ya'd make a killing if ye wanted, hah!"
-  translation: ""
+  translation: "Ты бы озолотилась, если б захотела, ха!"
   speaker: "Customer"
 
 - text: "(I'm not selling my body...! Gah-... Fucking pervert...!)"
@@ -65,13 +65,13 @@
   rich_translation: ""
 
 - text: "That's enough."
-  translation: ""
+  translation: "Достаточно."
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>That's enough.</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Достаточно.</color>"
 
 - text: "Whatever ya say, waitress. I'm still right."
-  translation: ""
+  translation: "Как скажешь, официантка. Я всё равно прав."
   speaker: "Customer"
 
 - text: "(Idiot... )"

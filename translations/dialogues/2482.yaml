@@ -1,20 +1,20 @@
 # Dialogues (path_id=2482)
 
 - text: "Oy. Can you help me get this box open?"
-  translation: ""
+  translation: "Эй. Поможешь открыть этот ящик?"
 
 - text: "Lost my key for it... and now the damn thing won't open."
-  translation: ""
+  translation: "Потерял ключ... и теперь эта хреновина не открывается."
 
 - text: "You... lost your key?"
-  translation: ""
+  translation: "Ты... потерял ключ?"
   speaker: "Zoey"
 
 - text: "Yeah! And now the damn thing won't open. Can you help me?"
-  translation: ""
+  translation: "Ага! И теперь она не открывается. Поможешь?"
 
 - text: "(This is pretty sketchy... should I help him?)"
-  translation: ""
+  translation: "(Это довольно подозрительно... стоит помогать ему?)"
   rich_text: "<i>(This is pretty sketchy... should I help him?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Это довольно подозрительно... стоит помогать ему?)</i>"
 

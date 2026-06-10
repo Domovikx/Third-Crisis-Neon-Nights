@@ -1,9 +1,9 @@
 # Dialogues (path_id=71005)
 
 - text: "Go along"
-  translation: ""
+  translation: "Согласиться"
 
 - text: "wear outfit"
-  translation: ""
+  translation: "надеть наряд"
   speaker: "Cancel"
 

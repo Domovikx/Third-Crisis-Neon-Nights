@@ -1,44 +1,44 @@
 # Dialogues (path_id=709)
 
 - text: "Your flat is really pretty! Super cozy!"
-  translation: ""
+  translation: "У тебя очень красивая квартира! Очень уютно!"
 
 - text: "Oh darling, this is nothing. If only I could show you how I lived before GAG took over."
-  translation: ""
+  translation: "О, дорогая, это ерунда. Если бы ты только видела, как я жила до того, как GAG всё захватил."
   speaker: "Leona"
 
 - text: "Even prettier?"
-  translation: ""
+  translation: "Ещё красивее?"
   speaker: "Zoey"
 
 - text: "Floor 32 of the Skylane Spire. Such a lovely view from the upper district."
-  translation: ""
+  translation: "32-й этаж Шпиля Скайлэйн. Такой прекрасный вид из верхнего района."
   speaker: "Leona"
 
 - text: "You had an entire floor to yourself?"
-  translation: ""
+  translation: "У тебя был целый этаж в твоём распоряжении?"
   rich_text: "You had an entire <b>floor</b> to yourself?"
-  rich_translation: ""
+  rich_translation: "У тебя был целый <b>этаж</b> в твоём распоряжении?"
 
 - text: "Of course. All the floors in there are intended like that."
-  translation: ""
+  translation: "Конечно. Там все этажи так задуманы."
   speaker: "Leona"
 
 - text: "Woah. I've never been anywhere that fancy."
-  translation: ""
+  translation: "Ого. Я никогда не была в таких шикарных местах."
 
 - text: "I loved it at first. Routine however lets even the brightest light fade."
-  translation: ""
+  translation: "Сначала мне нравилось. Но рутина способна погасить даже самый яркий свет."
   speaker: "Leona"
 
 - text: "You mean you got bored of it?"
-  translation: ""
+  translation: "Ты хочешь сказать, тебе надоело?"
   speaker: "Zoey"
 
 - text: "Quite. Not that it matters anymore. Moving here has lead me to meeting you darling, so maybe it was worth it in the end, ehehe."
-  translation: ""
+  translation: "Именно. Хотя теперь это уже не важно. Переезд сюда привёл меня к встрече с тобой, дорогая, так что, возможно, оно того стоило, эхехе."
   speaker: "Leona"
 
 - text: "Ah-... Hah! Thanks...!"
-  translation: ""
+  translation: "А-... Ха! Спасибо...!"
 

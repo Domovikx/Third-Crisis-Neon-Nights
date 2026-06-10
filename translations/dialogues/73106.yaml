@@ -1,17 +1,17 @@
 # Dialogues (path_id=73106)
 
 - text: "(Train should arrive soon... )"
-  translation: ""
+  translation: "(Поезд скоро прибудет... )"
   rich_text: "<i>(Train should arrive soon... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Поезд скоро прибудет... )</i>"
 
 - text: "(Ah-! Something's brushing up against me-)"
-  translation: ""
+  translation: "(А-! Что-то трётся об меня-)"
   rich_text: "<i>(Ah-! Something's brushing up against me-)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(А-! Что-то трётся об меня-)</i>"
 
 - text: "(That doesn't feel accidental... I should say something... right?)"
-  translation: ""
+  translation: "(Это не похоже на случайность... Я должна что-то сказать... ведь так?)"
   rich_text: "<i>(That doesn't feel accidental... I should say something... <color=#EB83FF>right</color>?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Это не похоже на случайность... Я должна что-то сказать... <color=#EB83FF>ведь так</color>?)</i>"
 

@@ -1,7 +1,6 @@
 # Dialogues (path_id=745)
 
-- text: "Alright, that's the second key. Time to get this back to Lio.)"
-  translation: ""
+- text: "(Alright, that's the second key. Time to get this back to Lio.)"
+  translation: "(Ладно, это второй ключ. Пора вернуться к Лио.)"
   rich_text: "<i>Alright, that's the second key. Time to get this back to Lio.)</i>"
-  rich_translation: ""
-
+  rich_translation: "<i>(Ладно, это второй ключ. Пора вернуться к Лио.)</i>"

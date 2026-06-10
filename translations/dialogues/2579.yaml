@@ -1,25 +1,24 @@
 # Dialogues (path_id=2579)
 
 - text: "Hey, you okay?"
-  translation: ""
+  translation: "Эй, ты в порядке?"
 
 - text: "(Crap, she really did run out of power. Right next to a charging station too. I can't imagine what that must've felt like.)"
-  translation: ""
+  translation: "(Чёрт, у неё и правда кончился заряд. Прямо рядом с зарядной станцией. Даже представить страшно, каково это.)"
   rich_text: "<i>(Crap, she really did run out of power. Right next to a charging station too. I can't imagine what that must've felt like.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Чёрт, у неё и правда кончился заряд. Прямо рядом с зарядной станцией. Даже представить страшно, каково это.)</i>"
 
 - text: "(I've gotta help her. No one else is going to.)"
-  translation: ""
+  translation: "(Я должна ей помочь. Больше некому.)"
   rich_text: "<i>(I've gotta help her. No one else is going to.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Я должна ей помочь. Больше некому.)</i>"
 
 - text: "(If I can find a replacement Andro Battery, I'd be able to resuscitate her. Then she'd be able to get to a charging station.)"
-  translation: ""
+  translation: "(Если найду запасную Андро Батарею, смогу её оживить. Тогда она доберётся до зарядной станции.)"
   rich_text: "<i>(If I can find a replacement <b>Andro Battery</b>, I'd be able to resuscitate her. Then she'd be able to get to a charging station.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Если найду запасную <b>Андро Батарею</b>, смогу её оживить. Тогда она доберётся до зарядной станции.)</i>"
 
 - text: "(She's counting on me. I can't let her down.)"
-  translation: ""
+  translation: "(Она надеется на меня. Не могу её подвести.)"
   rich_text: "<i>(She's counting on me. I can't let her down.)</i>"
-  rich_translation: ""
-
+  rich_translation: "<i>(Она надеется на меня. Не могу её подвести.)</i>"

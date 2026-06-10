@@ -1,11 +1,10 @@
 # Dialogues (path_id=36126)
 
 - text: "Peek through the door."
-  translation: ""
+  translation: "Подглядеть в дверь."
 
 - text: "Look at the lock."
-  translation: ""
+  translation: "Посмотреть на замок."
 
 - text: "Peek Choice"
-  translation: ""
-
+  translation: "Выбор подглядывания"

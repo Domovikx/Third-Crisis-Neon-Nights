@@ -1,16 +1,16 @@
 # Dialogues (path_id=559)
 
 - text: "Yes, that's good."
-  translation: ""
+  translation: "Да, хорошо."
 
 - text: "Turn around."
-  translation: ""
+  translation: "Повернись."
 
 - text: "That's \"Yes, sir\" to you."
-  translation: ""
+  translation: "Для тебя это \"Да, сэр\"."
 
 - text: "Hh- Y-Yes... Sir..."
-  translation: ""
+  translation: "Х- Д-Да... Сэр..."
   rich_text: "<color=#EB83FF>Hh- Y-Yes... Sir...</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Х- Д-Да... Сэр...</color>"
 

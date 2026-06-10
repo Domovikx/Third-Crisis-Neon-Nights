@@ -1,22 +1,21 @@
 # Dialogues (path_id=258)
 
 - text: "N-no... no, no, no...! This is not-... the outfit!"
-  translation: ""
+  translation: "Н-нет... нет, нет, нет...! Это не-... наряд!"
   speaker: "Intercom"
 
 - text: "Huh? Outfit?"
-  translation: ""
+  translation: "А? Наряд?"
 
 - text: "Please... the outfit-... I-... Khhh... Help me...!"
-  translation: ""
+  translation: "Пожалуйста... наряд-... Я-... Кххх... Помоги мне...!"
   speaker: "Intercom"
 
 - text: "D13... It's in... D13-... Khhh... I can't-... nghhh..."
-  translation: ""
+  translation: "D13... Он в... D13-... Кххх... Я не могу-... нгххх..."
   speaker: "Intercom"
 
 - text: "(D13? Outfit?)"
-  translation: ""
+  translation: "(D13? Наряд?)"
   rich_text: "<i>(D13? Outfit?)</i>"
-  rich_translation: ""
-
+  rich_translation: "<i>(D13? Наряд?)</i>"

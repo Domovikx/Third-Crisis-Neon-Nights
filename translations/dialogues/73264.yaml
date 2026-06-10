@@ -7,25 +7,25 @@
   rich_translation: ""
 
 - text: "(Nice. Power's back on. Now I just need to-)"
-  translation: ""
+  translation: "(Отлично. Свет снова включился. Теперь нужно только-)"
   speaker: "Zoey"
   rich_text: "<i>(Nice. Power's back on. Now I just need to-)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Отлично. Свет снова включился. Теперь нужно только-)</i>"
 
 - text: "L̵e̶a̴v̶e̸.̷ ̷G̴o̶ ̵a̵w̶a̸y̶.̷"
   translation: ""
 
 - text: "(Uhhh, that definitely wasn't in my head.)"
-  translation: ""
+  translation: "(Эээ, это точно было не у меня в голове.)"
   speaker: "Zoey"
   rich_text: "<i>(Uhhh, that definitely wasn't in my head.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Эээ, это точно было не у меня в голове.)</i>"
 
 - text: "(What have I gotten myself into?)"
-  translation: ""
+  translation: "(Во что же я ввязалась?)"
   speaker: "Zoey"
   rich_text: "<i>(What have I gotten myself into?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Во что же я ввязалась?)</i>"
 
 - text: "(Nice. Key's all done. Looks like it'll fit into that machine.)"
   translation: ""
@@ -156,7 +156,7 @@
   rich_translation: ""
 
 - text: "Ahh...! Fhahh...!"
-  translation: ""
+  translation: "Ахх...! Фхахх...!"
   speaker: "Lio"
 
 - text: "(The AI is... Doing this...?)"
@@ -172,7 +172,7 @@
   rich_translation: ""
 
 - text: "Fuck fuck fuck!"
-  translation: ""
+  translation: "Бля бля бля!"
   speaker: "Lio"
 
 - text: "(How did he even get in there...? He must have locked himself in there intentionally, right...?)"
@@ -194,7 +194,7 @@
   rich_translation: ""
 
 - text: "Ghhh... Oh god, oh fuckhhh...! I-... Nghhh...!"
-  translation: ""
+  translation: "Гхх... О боже, о бля...! Я-... Ннн...!"
   speaker: "Lio"
 
 - text: "(It got... Even faster...?)"
@@ -216,7 +216,7 @@
   rich_translation: ""
 
 - text: "Hahhh...!! I-... Ghhahhh...!! Fhuckkhhh! I can't-... Nghhh...!"
-  translation: ""
+  translation: "Ахх...!! Я-... Гхахх...!! Бляяя! Я не могу-... Ннн...!"
   speaker: "Lio"
 
 - text: "(Is he about to-)"
@@ -407,31 +407,31 @@
   speaker: "Zoey"
 
 - text: "Go find her. I'll call ahead and let her know you're on the way. Once you've got the stuff from her, we can put your fake together."
-  translation: ""
+  translation: "Найди её. Я позвоню и предупрежу, что ты идёшь. Как получишь от неё материал, сможем собрать твою подделку."
   speaker: "Lio"
 
 - text: "Thanks, Lio. I'll let ya know when I've got what you need."
-  translation: ""
+  translation: "Спасибо, Лио. Дам знать, когда будет то, что нужно."
   speaker: "Zoey"
 
 - text: "Oh, also I took the liberty of putting your ID into the database here, so you can come and go as you please without those musky tunnels."
-  translation: ""
+  translation: "О, и ещё я позволил себе внести твой ID в базу, так что сможешь приходить и уходить без этих душных туннелей."
   speaker: "Lio"
 
 - text: "W- You couldn't have done that earlier?"
-  translation: ""
+  translation: "Ч- Ты не мог сделать это раньше?"
   speaker: "Zoey"
 
 - text: "No, sorry. Needed you here to get an up-to-date imprint of your bio-signature. Hope that's okay."
-  translation: ""
+  translation: "Нет, прости. Нужно было, чтобы ты была здесь для свежего слепка твоей биоподписи. Надеюсь, это нормально."
   speaker: "Lio"
 
 - text: "My... bio-signature?"
-  translation: ""
+  translation: "Мою... биоподпись?"
   speaker: "Zoey"
 
 - text: "Purely for practical purposes of course."
-  translation: ""
+  translation: "Исключительно в практических целях, разумеется."
   speaker: "Lio"
 
 - text: "Right..."
@@ -439,6 +439,6 @@
   speaker: "Zoey"
 
 - text: "Enjoy the Redlight District!"
-  translation: ""
+  translation: "Наслаждайся Кварталом Красных Фонарей!"
   speaker: "Lio"
 

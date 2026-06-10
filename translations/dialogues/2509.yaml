@@ -1,50 +1,49 @@
 # Dialogues (path_id=2509)
 
 - text: "What do you want?"
-  translation: ""
+  translation: "Чего тебе?"
 
 - text: "Me? Uh-... Nothing. I'm just taking a walk."
-  translation: ""
+  translation: "Мне? Эм-... Ничего. Просто прогуливаюсь."
   speaker: "Zoey"
 
 - text: "This alley doesn't exactly look like a nice stroll, now does it?"
-  translation: ""
+  translation: "Этот переулок не похож на приятную прогулку, не так ли?"
 
 - text: "It's a lot prettier with her in it now, hehehe."
-  translation: ""
+  translation: "С ней он стал куда симпатичнее, хе-хе-хе."
 
 - text: "Th-thanks, heh... I- um. I should probably-"
-  translation: ""
+  translation: "С-спасибо, хех... Я- эм. Мне, наверное-"
   speaker: "Zoey"
 
 - text: "Shut up, you're scaring our customer."
-  translation: ""
+  translation: "Заткнись, ты пугаешь нашу клиентку."
 
 - text: "Scaring? I'm just complimenting this pretty lady. So, cutie, how much do you want?"
-  translation: ""
+  translation: "Пугаю? Я просто делаю комплимент этой красотке. Так что, милашка, сколько тебе надо?"
 
 - text: "Unsure what they are talking about"
-  translation: ""
+  translation: "Не понимает, о чём они"
 
 - text: "50 for two hits, 200 for five. Clean Glow. Price has gone up with the raid."
-  translation: ""
+  translation: "50 за два укола, 200 за пять. Чистый Глоу. Цена выросла после рейда."
 
 - text: "(Glow...? They're trying to sell me drugs?)"
-  translation: ""
+  translation: "(Глоу...? Они пытаются впарить мне наркотики?)"
   speaker: "Zoey"
   rich_text: "<i>(Glow...? They're trying to sell me drugs?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Глоу...? Они пытаются впарить мне наркотики?)</i>"
 
 - text: "Hah-...! Th-thanks, but-... I don't-... Uhm... Yeah... I-"
-  translation: ""
+  translation: "Ха-...! С-спасибо, но-... Я не-... М-м... Да... Я-"
   speaker: "Zoey"
 
 - text: "Now, now. Short on cash, hm? I'm happy to discuss a... unique price for someone of your... proportions."
-  translation: ""
+  translation: "Ну-ну. Денег нет, да? Я готов обсудить... особую цену для человека твоих... пропорций."
   rich_text: "Now, now. Short on cash, hm? I'm happy to discuss a... <i>unique</i> price for someone of your... <b>proportions</b>."
-  rich_translation: ""
+  rich_translation: "Ну-ну. Денег нет, да? Я готов обсудить... <i>особую</i> цену для человека твоих... <b>пропорций</b>."
 
 - text: "No, sorry, I like-... I don't do this... sorta stuff."
-  translation: ""
+  translation: "Нет, прости, я вроде-... Я не занимаюсь... таким."
   speaker: "Zoey"
-

@@ -1,22 +1,21 @@
 # Dialogues (path_id=8302)
 
 - text: "Look Through Files"
-  translation: ""
+  translation: "Просмотреть файлы"
 
 - text: "Look Through Files"
-  translation: ""
+  translation: "Просмотреть файлы"
   speaker: "Leave"
 
 - text: "Look at Videos"
-  translation: ""
+  translation: "Посмотреть видео"
 
 - text: "Look at Massage Room Recording"
-  translation: ""
+  translation: "Посмотреть запись массажной комнаты"
   speaker: "Leave"
 
 - text: "Tell Max"
-  translation: ""
+  translation: "Рассказать Макс"
 
 - text: "Help Him"
-  translation: ""
-
+  translation: "Помочь ему"

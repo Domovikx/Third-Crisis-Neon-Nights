@@ -1,43 +1,43 @@
 # Dialogues (path_id=374)
 
 - text: "Welcome, welcome! Come closer! Don't be shy!"
-  translation: ""
+  translation: "Добро пожаловать, добро пожаловать! Подходите ближе! Не стесняйтесь!"
   speaker: "Salesman"
 
 - text: "A bunch of Andro pelvis are hanging off a shabby stand, with one of them a hologram coming out of it."
-  translation: ""
+  translation: "Куча андроидных тазов свисает с потрёпанного стенда, из одного из них выходит голограмма."
 
 - text: "(Or rather... just the waist...?)"
-  translation: ""
+  translation: "(Или, скорее... просто пояс...?)"
   speaker: "Zoey"
   rich_text: "<i>(Or rather... just the waist...?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Или, скорее... просто пояс...?)</i>"
 
 - text: "Any shape you desire, all at the tip of your... finger."
-  translation: ""
+  translation: "Любая форма на ваш вкус, всё на кончике вашего... пальца."
   speaker: "Salesman"
 
 - text: "The Andro Hologram Boobs sudden grow."
-  translation: ""
+  translation: "Грудные импланты андроида внезапно увеличиваются."
   speaker: "Zoey"
 
 - text: "This one is quite the special model. Not your average Andro meatframe."
-  translation: ""
+  translation: "Это довольно особенная модель. Не ваш средний андро-каркас."
   speaker: "Salesman"
 
 - text: "(Meat... frame...? I don't think Max would approve of that word... )"
-  translation: ""
+  translation: "(Мясной... каркас...? Не думаю, что Макс одобрила бы это слово...)"
   speaker: "Zoey"
   rich_text: "<i>(Meat... frame...? I don't think Max would approve of that word... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Мясной... каркас...? Не думаю, что Макс одобрила бы это слово...)</i>"
 
 - text: "Harvested from a... desynchronized Andro, equipped with some quite personal features left over from it's... previous body, eheh..."
-  translation: ""
+  translation: "Извлечено из... десинхронизированного андроида, оснащено некоторыми весьма личными деталями, оставшимися от его... предыдущего тела, хе-хе..."
   speaker: "Salesman"
 
 - text: "In other words, it can feel you."
-  translation: ""
+  translation: "Другими словами, он чувствует тебя."
   speaker: "Salesman"
   rich_text: "In other words, <b>it can feel you</b>."
-  rich_translation: ""
+  rich_translation: "Другими словами, <b>он чувствует тебя</b>."
 

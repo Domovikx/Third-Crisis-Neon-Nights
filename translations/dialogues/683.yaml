@@ -1,13 +1,13 @@
 # Dialogues (path_id=683)
 
 - text: "(I think this is probably the place then. )"
-  translation: ""
+  translation: "(Кажется, это то самое место. )"
   speaker: "Zoey"
   rich_text: "<i>(I think this is probably the place then. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Кажется, это то самое место. )</i>"
 
 - text: "(Do I just... Knock?)"
-  translation: ""
+  translation: "(Мне просто... Постучать?)"
   rich_text: "<i>(Do I just... Knock?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Мне просто... Постучать?)</i>"
 

@@ -1,13 +1,12 @@
 # Dialogues (path_id=2577)
 
 - text: "What the- Why aren't you helping her?"
-  translation: ""
+  translation: "Какого- Почему ты ей не помогаешь?"
 
 - text: "Help it?"
-  translation: ""
+  translation: "Помогать ей?"
   speaker: "Man"
 
 - text: "We ain't helpin' no rust-bucket."
-  translation: ""
+  translation: "Мы не помогаем ржавым вёдрам."
   speaker: "Man"
-

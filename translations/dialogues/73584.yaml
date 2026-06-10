@@ -1,7 +1,7 @@
 # Dialogues (path_id=73584)
 
 - text: "God you're such a hot waitress... *hic*"
-  translation: ""
+  translation: "Боже, ты такая горячая официантка... *ик*"
   speaker: "Customer"
 
 - text: "Show me ya' tits, pleaseeee? I have to see emmm'..."
@@ -11,10 +11,10 @@
   rich_translation: ""
 
 - text: "I, um-..."
-  translation: ""
+  translation: "Я, эм-..."
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>I, um-...</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Я, эм-...</color>"
 
 - text: "(I-... I said I'd stop this... Right...?)"
   translation: ""

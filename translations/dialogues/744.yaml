@@ -1,10 +1,9 @@
 # Dialogues (path_id=744)
 
 - text: "Uhhh... I'm not taking anyone!"
-  translation: ""
+  translation: "Эээ... Я никого не беру!"
 
 - text: "(Right. Better hurry this up.)"
-  translation: ""
+  translation: "(Точно. Лучше поторопиться.)"
   rich_text: "<i>(Right. Better hurry this up.)</i>"
-  rich_translation: ""
-
+  rich_translation: "<i>(Точно. Лучше поторопиться.)</i>"

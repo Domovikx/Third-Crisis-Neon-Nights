@@ -1,12 +1,12 @@
 # Dialogues (path_id=7095)
 
 - text: "Ask how she knows Lio."
-  translation: ""
+  translation: "Спросить, как она знает Лио."
 
 - text: "Compliment her flat."
-  translation: ""
+  translation: "Похвалить её квартиру."
 
 - text: "Ask about Lio"
-  translation: ""
+  translation: "Спросить о Лио"
   speaker: "FINISHED"
 

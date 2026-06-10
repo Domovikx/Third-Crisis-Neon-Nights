@@ -1,14 +1,14 @@
 # Dialogues (path_id=73117)
 
 - text: "Uhm... Hey, no touching, please."
-  translation: ""
+  translation: "Эм... Эй, пожалуйста, не трогайте."
 
 - text: "Understandable, have a great day."
-  translation: ""
+  translation: "Понимаю, хорошего дня."
   speaker: "Man"
 
 - text: "(Could've taken care of my problem... Agh-! No- Just... tough it out until the ride's over...)"
-  translation: ""
+  translation: "(Могла бы решить свою проблему... Ах-! Нет- Просто... терпеть до конца поездки...)"
   rich_text: "<i>(<color=#EB83FF>Could've taken care of my problem...</color> Agh-! No- Just... tough it out until the ride's over...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(<color=#EB83FF>Могла бы решить свою проблему...</color> Ах-! Нет- Просто... терпеть до конца поездки...)</i>"
 

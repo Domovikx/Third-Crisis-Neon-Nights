@@ -1,15 +1,15 @@
 # Dialogues (path_id=2140)
 
 - text: "Jaime? You okay?! Jaime?"
-  translation: ""
+  translation: "Джейми? Ты в порядке?! Джейми?"
 
 - text: "(She's stuck in her headset. Shit, it looks like it's gonna fry her brain any second now. Brain Burn is no joke. I've gotta get her out of it.)"
-  translation: ""
+  translation: "(Она застряла в гарнитуре. Чёрт, похоже, её мозг сейчас поджарится. Прожарка мозга — это не шутки. Нужно вытащить её.)"
   rich_text: "<i>(She's stuck in her headset. Shit, it looks like it's gonna fry her brain any second now. Brain Burn is no joke. I've gotta get her out of it.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Она застряла в гарнитуре. Чёрт, похоже, её мозг сейчас поджарится. Прожарка мозга — это не шутки. Нужно вытащить её.)</i>"
 
 - text: "(It'll hurt her if I just pull the thing off. I've gotta get it under control somehow... but how?)"
-  translation: ""
+  translation: "(Будет больно, если просто сорвать эту штуку. Нужно как-то взять её под контроль... но как?)"
   rich_text: "<i>(It'll hurt her if I just pull the thing off. I've gotta get it under control somehow... but how?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Будет больно, если просто сорвать эту штуку. Нужно как-то взять её под контроль... но как?)</i>"
 

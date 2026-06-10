@@ -1,25 +1,25 @@
 # Dialogues (path_id=2535)
 
 - text: "What the hell is going on over here?! You okay in there?"
-  translation: ""
+  translation: "Какого чёрта тут происходит?! Вы там в порядке?"
   speaker: "Enforcer"
 
 - text: "Uhh... Yeah! We're okay! The box went crazy on us."
-  translation: ""
+  translation: "Эм... Да! Мы в порядке! Этот ящик взбесился."
 
 - text: "We? Someone order a two-for-one special?"
-  translation: ""
+  translation: "Мы? Кто-то заказал две по цене одной?"
   speaker: "Enforcer"
 
 - text: "(Ughh... They think we're prostitutes... I guess that's better than thinking we're up to no good...)"
-  translation: ""
+  translation: "(Тьфу... Они думают, мы проститутки... Наверное, это лучше, чем думать, будто мы замышляем что-то нехорошее...)"
   rich_text: "<i>(Ughh... They think we're prostitutes... I guess that's better than thinking we're up to no good...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Тьфу... Они думают, мы проститутки... Наверное, это лучше, чем думать, будто мы замышляем что-то нехорошее...)</i>"
 
 - text: "Err... Yeah! Mhm! There's a lucky person we gotta get to! Sooo can you get us out? Please?"
-  translation: ""
+  translation: "Э-э... Да! Ага! Нам нужно к одному везунчику! Та-ак вытащите нас? Пожалуйста?"
 
 - text: "Just hold on a second, we'll get you out of there."
-  translation: ""
+  translation: "Минуточку, мы вас вытащим."
   speaker: "Enforcer"
 

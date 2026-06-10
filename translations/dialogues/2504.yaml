@@ -1,15 +1,14 @@
 # Dialogues (path_id=2504)
 
 - text: "Mpfh. Glad we don't need to go through here."
-  translation: ""
+  translation: "Пф. Хорошо, что нам не нужно туда."
 
 - text: "Yeah.. Whats goin on back there..? I can't quite see."
-  translation: ""
+  translation: "Ага.. Что там происходит..? Мне плохо видно."
 
 - text: "Are you really too stupid to read a four-letter word? Fuck off!"
-  translation: ""
+  translation: "Ты правда настолько тупая, что не прочтёшь слово из трёх букв? Отвали!"
   speaker: "Enforcer"
 
 - text: "Jeez, alright."
-  translation: ""
-
+  translation: "Господи, ладно."

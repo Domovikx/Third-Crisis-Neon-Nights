@@ -1,16 +1,16 @@
 # Dialogues (path_id=2163)
 
 - text: "Hey, those are Jaime's things."
-  translation: ""
+  translation: "Эй, это же вещи Джейми."
 
 - text: "Huh? Yeah. We're taking these for auction. We need to empty the place so someone else can rent it."
-  translation: ""
+  translation: "А? Ага. Забираем на аукцион. Нужно освободить помещение, чтобы сдать другому."
 
 - text: "It's not like the landlord will stop making money just 'cause some girl died."
-  translation: ""
+  translation: "Хозяйка не перестанет зарабатывать только из-за того, что какая-то девчонка умерла."
 
 - text: "(Jaime... )"
-  translation: ""
+  translation: "(Джейми...)"
   rich_text: "<i>(Jaime... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Джейми...)</i>"
 

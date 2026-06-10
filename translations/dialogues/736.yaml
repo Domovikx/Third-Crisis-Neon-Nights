@@ -1,17 +1,17 @@
 # Dialogues (path_id=736)
 
 - text: "(Uhhh... What the hell was that?)"
-  translation: ""
+  translation: "(Эээ... Что это, чёрт возьми, было?)"
   rich_text: "<i>(Uhhh... What the hell was that?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Эээ... Что это, чёрт возьми, было?)</i>"
 
 - text: "(Something turned the power off...)"
-  translation: ""
+  translation: "(Кто-то выключил свет...)"
   rich_text: "<i>(Something turned the power off...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Кто-то выключил свет...)</i>"
 
 - text: "U-Uh... hello? Who's there?"
-  translation: ""
+  translation: "Э-Эм... ау? Кто здесь?"
 
 - text: "(Maybe I'm just hearing things... Better get that power back on...)"
   translation: ""

@@ -1,15 +1,15 @@
 # Dialogues (path_id=384)
 
 - text: "Something's really fishy about this stand."
-  translation: ""
+  translation: "С этим стендом что-то очень подозрительно."
 
 - text: "Looks like a regular stand to me."
-  translation: ""
+  translation: "Мне кажется обычным стендом."
 
 - text: "Trust me, I've seen enough corpo scams to see through them."
-  translation: ""
+  translation: "Поверь, я видела достаточно корпоративных афер, чтобы распознать их."
 
 - text: "Ask about the place."
-  translation: ""
+  translation: "Спросить про это место."
   speaker: "AboultCauldron"
 

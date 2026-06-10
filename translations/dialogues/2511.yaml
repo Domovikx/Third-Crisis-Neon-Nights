@@ -1,14 +1,13 @@
 # Dialogues (path_id=2511)
 
 - text: "(What... Was... That...?)"
-  translation: ""
+  translation: "(Что... Это... Было...?)"
   speaker: "Zoey"
   rich_text: "<i>(What... Was... That...?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Что... Это... Было...?)</i>"
 
 - text: "(What has come of this district... )"
-  translation: ""
+  translation: "(Во что превратился этот район... )"
   speaker: "Zoey"
   rich_text: "<i>(What has come of this district... )</i>"
-  rich_translation: ""
-
+  rich_translation: "<i>(Во что превратился этот район... )</i>"

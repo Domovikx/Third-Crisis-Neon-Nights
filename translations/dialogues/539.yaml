@@ -1,19 +1,19 @@
 # Dialogues (path_id=539)
 
 - text: "(This is... crazy...)"
-  translation: ""
+  translation: "(Это... безумие...)"
   rich_text: "<color=#EB83FF><i>(This is... crazy...)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Это... безумие...)</i></color>"
 
 - text: "(They're all staring at me- at my-)"
-  translation: ""
+  translation: "(Они все пялятся на меня- на моё-)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(They're all staring at me- at my-)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Они все пялятся на меня- на моё-)</i></color>"
 
 - text: "(My body...)"
-  translation: ""
+  translation: "(Моё тело...)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(My body...)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Моё тело...)</i></color>"
 

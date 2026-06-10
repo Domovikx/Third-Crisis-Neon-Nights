@@ -1,27 +1,27 @@
 # Dialogues (path_id=388)
 
 - text: "Ohhh... *hic* you"
-  translation: ""
+  translation: "О-о... *ик* ты"
 
 - text: "*hic*... Sooo I was wonderin"
-  translation: ""
+  translation: "*ик*... Та-ак я тут подумал"
 
 - text: "I don't think we're homies."
-  translation: ""
+  translation: "Не думаю, что мы кореша."
   speaker: "Zoey"
 
 - text: "(Ugh... Why am I even talking to him?)"
-  translation: ""
+  translation: "(Фу... Зачем я вообще с ним разговариваю?)"
   speaker: "Zoey"
   rich_text: "<i>(Ugh... Why am I even talking to him?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Фу... Зачем я вообще с ним разговариваю?)</i>"
 
 - text: "Ohh right... *hic* haven't even introduced myself...*hic* name is Cody."
-  translation: ""
+  translation: "А, да... *ик* даже не представился... *ик* меня Коди зовут."
 
 - text: "Sooo... *hic* since we've been talkin' forever now and are basically best friends... like real close... *hic*. How' bout we just... *hic* fuck already."
-  translation: ""
+  translation: "Та-ак... *ик* раз уж мы болтаем целую вечность и практически лучшие друзья... совсем близкие... *ик*. Может просто... *ик* уже трахнемся."
 
 - text: "Not angry, more like \"ugh yeah yeah fuck off\""
-  translation: ""
+  translation: "Не злая, скорее \"тьфу, да-да, отвали\""
 

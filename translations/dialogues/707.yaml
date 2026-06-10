@@ -1,22 +1,22 @@
 # Dialogues (path_id=707)
 
 - text: "Do you know what Lios favorite band is?"
-  translation: ""
+  translation: "Ты знаешь, какая любимая группа у Лио?"
   speaker: "Zoey"
 
 - text: "Favorite band? No, sorry."
-  translation: ""
+  translation: "Любимая группа? Нет, прости."
   speaker: "Leona"
 
 - text: "It's alright."
-  translation: ""
+  translation: "Ничего страшного."
   speaker: "Zoey"
 
 - text: "I do know that he recently went to a concert though. The clothes from that night are still in the bathroom."
-  translation: ""
+  translation: "Но я знаю, что он недавно ходил на концерт. Одежда с того вечера всё ещё в ванной."
   speaker: "Leona"
 
 - text: "Oh! I'll check!"
-  translation: ""
+  translation: "О! Я проверю!"
   speaker: "Zoey"
 

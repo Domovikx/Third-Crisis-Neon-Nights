@@ -13,7 +13,7 @@
   rich_translation: ""
 
 - text: "R-really...?! Oh my god... Th-thank you so much, ma'am...!"
-  translation: ""
+  translation: "П-правда...?! О боже... С-спасибо огромное, госпожа...!"
   speaker: "Customer"
 
 - text: "Right... So... just like... spit in your drink...?"
@@ -23,7 +23,7 @@
   rich_translation: ""
 
 - text: "C-could i um... tip first, m-ma'am...?"
-  translation: ""
+  translation: "М-могу я эм... заплатить сначала, г-госпожа...?"
   speaker: "Customer"
 
 - text: "Tip first? I guess so."
@@ -33,7 +33,7 @@
   rich_translation: ""
 
 - text: "H-here... Please take it. My- money is yours, godd-... Er I mean ma'am...!!!"
-  translation: ""
+  translation: "В-вот... Возьми, пожалуйста. Мои- деньги твои, бо-... То есть госпожа...!!!"
   speaker: "Customer"
 
 - text: "(Not quite as confident as the other customers... )"
@@ -49,13 +49,13 @@
   rich_translation: ""
 
 - text: "Thanks for the tip."
-  translation: ""
+  translation: "Спасибо за чаевые."
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>Thanks for the tip.</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Спасибо за чаевые.</color>"
 
 - text: "Hh-... M-my pleasure, ma'am."
-  translation: ""
+  translation: "Хх-... С моё удовольствие, госпожа."
   speaker: "Customer"
 
 - text: "(Now for the... weird part... )"
@@ -71,14 +71,14 @@
   rich_translation: ""
 
 - text: "Nghh... Pleaseee... S-spit o-... in my drink..."
-  translation: ""
+  translation: "Нн... Пожалуйста... П-плюнь в-... в мой напиток..."
   speaker: "Customer"
 
 - text: "Spitting noise"
-  translation: ""
+  translation: "Звук плевка"
 
 - text: "Fghhhhhmnnnn... Thank you... Ma'am..."
-  translation: ""
+  translation: "Фгхмммнн... Спасибо... Госпожа..."
   speaker: "Customer"
 
 - text: "You're welcome...?"

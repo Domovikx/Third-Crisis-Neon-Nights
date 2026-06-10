@@ -1,21 +1,21 @@
 # Dialogues (path_id=2124)
 
 - text: "Bolting awake from a nightmare"
-  translation: ""
+  translation: "Просыпаться от кошмара"
 
 - text: "(Fuck... Asshole dream.)"
-  translation: ""
+  translation: "(Блять... Дерьмовый сон.)"
   rich_text: "<i>(Fuck... Asshole dream.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Блять... Дерьмовый сон.)</i>"
 
 - text: "Trying to stop yourself from spiraling."
-  translation: ""
+  translation: "Пытаюсь удержаться от паники."
 
 - text: "(The past is the past...)"
-  translation: ""
+  translation: "(Прошлое — это прошлое...)"
   rich_text: "<i>(The past is the past...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Прошлое — это прошлое...)</i>"
 
 - text: "Onward and upward. Onward and upward."
-  translation: ""
+  translation: "Вперёд и вверх. Вперёд и вверх."
 

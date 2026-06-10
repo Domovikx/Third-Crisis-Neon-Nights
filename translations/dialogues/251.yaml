@@ -1,12 +1,12 @@
 # Dialogues (path_id=251)
 
 - text: "A maintenance report."
-  translation: ""
+  translation: "Отчёт о техобслуживании."
   speaker: "Zoey"
 
 - text: "Hmm, there are a lot of problems listed here why did no one fix these?"
-  translation: ""
+  translation: "Хм, здесь перечислено много проблем, почему их никто не исправил?"
 
 - text: "There is something written on the back ... Ben N. Inya"
-  translation: ""
+  translation: "На обратной стороне что-то написано... Бен Н. Иння"
 

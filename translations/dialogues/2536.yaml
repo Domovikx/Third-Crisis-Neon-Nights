@@ -1,32 +1,32 @@
 # Dialogues (path_id=2536)
 
 - text: "Ow! Crap!"
-  translation: ""
+  translation: "Ой! Чёрт!"
 
 - text: "Stinkin' box."
-  translation: ""
+  translation: "Чёртов ящик."
 
 - text: "Wow. Lookin' good, ladies."
-  translation: ""
+  translation: "Ого. Хорошо выглядите, дамочки."
   speaker: "Enforcer"
 
 - text: "Yeah! Thanks for the help, officers! Heh..."
-  translation: ""
+  translation: "Да! Спасибо за помощь, офицеры! Хе..."
 
 - text: "That's why we're here. For your protection."
-  translation: ""
+  translation: "Для того мы и здесь. Для вашей защиты."
   speaker: "Enforcer"
 
 - text: "(First time an enforcer has actually been helpful.)"
-  translation: ""
+  translation: "(Впервые силовик реально помог.)"
   speaker: "Zoey"
   rich_text: "<i>(First time an enforcer has actually been helpful.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Впервые силовик реально помог.)</i>"
 
 - text: "Thank you for your service, officers!"
-  translation: ""
+  translation: "Спасибо за службу, офицеры!"
 
 - text: "Let's go, 1520. I want to get to the townhall after seeing this."
-  translation: ""
+  translation: "Пошли, 1520. Хочу попасть в ратушу после такого."
   speaker: "Enforcer"
 

@@ -1,21 +1,21 @@
 # Dialogues (path_id=73147)
 
 - text: "U-Uhm! I uh- I gotta get goin'! Places to be- uhm- here's your picture!"
-  translation: ""
+  translation: "Э-Эм! Я э-э- мне пора идти! Дела- эм- вот ваше фото!"
   rich_text: "<color=#EB83FF>U-Uh</color>m! I uh- I gotta get goin'! Places to be- uhm- here's your picture!"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Э-Эм</color>! Я э-э- мне пора идти! Дела- эм- вот ваше фото!"
 
 - text: "Tsk~ Oh well~"
-  translation: ""
+  translation: "Цок~ Ну ладно~"
 
 - text: "We'll just have to catch you another time~"
-  translation: ""
+  translation: "Придётся поймать тебя в другой раз~"
 
 - text: "For some~ macro photography~"
-  translation: ""
+  translation: "Для~ макросъёмки~"
   rich_text: "For some~ <b>macro</b> photography~"
-  rich_translation: ""
+  rich_translation: "Для~ <b>макро</b>съёмки~"
 
 - text: "R-Right! Uh- catch you later!"
-  translation: ""
+  translation: "Д-Да! Эм- до встречи!"
 

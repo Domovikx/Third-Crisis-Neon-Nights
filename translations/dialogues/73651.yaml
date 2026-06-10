@@ -11,22 +11,22 @@
   rich_translation: ""
 
 - text: "(I shouldn't.. Have done.. That... )"
-  translation: ""
+  translation: "(Я не должна была.. Этого.. делать... )"
   rich_text: "<i>(I shouldn't.. Have done.. <color=#EB83FF>That</color>... )</i>"
   rich_translation: ""
 
 - text: "(Spying on them while they-.. What was I thinking.. ?! )"
-  translation: ""
+  translation: "(Подглядывать за ними, пока они-.. О чём я думала..?! )"
   rich_text: "<i>(Spying on them while they-.. What was I thinking.. ?! )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Подглядывать за ними, пока они-.. О чём я думала..?! )</i>"
 
 - text: "(It shouldn't have been.. This hot... )"
-  translation: ""
+  translation: "(Это не должно было быть.. таким горячим... )"
   rich_text: "<i>(It shouldn't have been.. <color=#EB83FF>This hot</color>... )</i>"
   rich_translation: ""
 
 - text: "(I need to be more careful.. This place is.. Affecting me.. )"
-  translation: ""
+  translation: "(Нужно быть осторожнее.. Это место.. Влияет на меня.. )"
   rich_text: "<i>(I need to be more careful.. This place is.. <color=#EB83FF>Affecting me</color>.. )</i>"
   rich_translation: ""
 

@@ -1,25 +1,25 @@
 # Dialogues (path_id=684)
 
 - text: "A bit rough, answering the door not expecting someone."
-  translation: ""
+  translation: "Грубовато отвечает, не ожидая никого."
 
 - text: "Heyy, uhm. I'm looking for Lio."
-  translation: ""
+  translation: "Хэй, эм. Я ищу Лио."
 
 - text: "> Never heard."
-  translation: ""
+  translation: "> Не слышала."
   speaker: "Leona"
   rich_text: "> <i>Never heard."
-  rich_translation: ""
+  rich_translation: "> <i>Не слышала."
 
 - text: "Oh, right. Sorry... French Kiss?"
-  translation: ""
+  translation: "А, точно. Прости... Французский поцелуй?"
   rich_text: "Oh, right. Sorry... <b>French Kiss</b>?"
-  rich_translation: ""
+  rich_translation: "А, точно. Прости... <b>Французский поцелуй</b>?"
 
 - text: "> French Kiss?"
-  translation: ""
+  translation: "> Французский поцелуй?"
   speaker: "Leona"
   rich_text: "> <i>French Kiss?"
-  rich_translation: ""
+  rich_translation: "> <i>Французский поцелуй?"
 

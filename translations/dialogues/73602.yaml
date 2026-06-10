@@ -1,23 +1,23 @@
 # Dialogues (path_id=73602)
 
 - text: "H-hey waitress, um..."
-  translation: ""
+  translation: "Э-эй, официантка, эм..."
   speaker: "Customer"
 
 - text: "D-do you think I could- um... Like... Um... Ask you something...?"
-  translation: ""
+  translation: "М-можешь... эм... Ну... Эм... Спросить кое-что...?"
   speaker: "Customer"
 
 - text: "I guess so? What is it?"
-  translation: ""
+  translation: "Наверное? Что именно?"
   speaker: "Zoey"
 
 - text: "I-it's a bit weird- I-... Promise not to laugh, okay?"
-  translation: ""
+  translation: "Э-это немного странно- Я-... Обещай не смеяться, ладно?"
   speaker: "Customer"
 
 - text: "Umm, okay... Promise."
-  translation: ""
+  translation: "Эмм, ладно... Обещаю."
   speaker: "Zoey"
 
 - text: "Could you... like... Hhh... spit in my drink...?"
@@ -27,7 +27,7 @@
   rich_translation: ""
 
 - text: "I-... Ahhh... S-sorry...! I-... I'd even tip you..."
-  translation: ""
+  translation: "Я-... Ахх... П-прости...! Я-... Я бы даже заплатил..."
   speaker: "Customer"
 
 - text: "(Spit in the customers drink...? I-... I don't know... )"

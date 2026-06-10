@@ -1,26 +1,26 @@
 # Dialogues (path_id=586)
 
 - text: "(What am I-... doing...?)"
-  translation: ""
+  translation: "(Что я-... делаю...?)"
   rich_text: "<color=#EB83FF><i>(What am I-... doing...?)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Что я-... делаю...?)</i></color>"
 
 - text: "(They're all-... staring at-... m-me...?)"
-  translation: ""
+  translation: "(Они все-... пялятся на-... м-меня...?)"
   rich_text: "<color=#EB83FF><i>(They're all-... staring at-... m-me...?)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Они все-... пялятся на-... м-меня...?)</i></color>"
 
 - text: "Hehehe... Much better, don't you think?"
-  translation: ""
+  translation: "Хе-хе-хе... Гораздо лучше, тебе не кажется?"
 
 - text: "So much better."
-  translation: ""
+  translation: "Намного лучше."
 
 - text: "Follow me."
-  translation: ""
+  translation: "Следуй за мной."
 
 - text: "R-... Right..."
-  translation: ""
+  translation: "Д-... Да..."
   rich_text: "<color=#EB83FF>R-... Right...</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Д-... Да...</color>"
 

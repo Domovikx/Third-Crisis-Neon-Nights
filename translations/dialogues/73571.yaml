@@ -7,7 +7,7 @@
   rich_translation: ""
 
 - text: "Yes! Turn around for me, baby!"
-  translation: ""
+  translation: "Да! Повернись ко мне, детка!"
   speaker: "Customer"
 
 - text: "(Just like... last time... Just... ignore the hand for a moment and... get paid... Mhm... )"
@@ -17,7 +17,7 @@
   rich_translation: ""
 
 - text: "Mhh... Your ass would look even hotter if you leaned over just a bit. I'll tip ya double."
-  translation: ""
+  translation: "Мх... Твоя попка будет выглядеть ещё горячее, если ты наклонишься чуть-чуть. Заплачу вдвойне."
   speaker: "Customer"
 
 - text: "Lean... over...?"
@@ -27,7 +27,7 @@
   rich_translation: ""
 
 - text: "Lean forwards and push your ass back, waitress. Your body will look amazing in that pose."
-  translation: ""
+  translation: "Наклонись вперёд и выстави попку назад, официантка. Твоё тело будет выглядеть потрясающе в этой позе."
   speaker: "Customer"
 
 - text: "(Double tip for... Just for that...? I-... I guess... )"
@@ -43,7 +43,7 @@
   rich_translation: ""
 
 - text: "Oh my god you're so fucking hot!"
-  translation: ""
+  translation: "О боже, ты такая чертовски горячая!"
   speaker: "Customer"
   rich_text: "Oh my god you're so <b>fucking</b> hot!"
   rich_translation: ""
@@ -67,7 +67,7 @@
   rich_translation: ""
 
 - text: "Yer leaking, waitress..."
-  translation: ""
+  translation: "У тебя течёт, официантка..."
   speaker: "Customer"
 
 - text: "Wh-... N-no... I-..."
@@ -77,17 +77,17 @@
   rich_translation: ""
 
 - text: "Eheh... Whatever ya sayyy..."
-  translation: ""
+  translation: "Хех... Как скажешь..."
   speaker: "Customer"
 
 - text: "Th- that's enough...!"
-  translation: ""
+  translation: "Э- этого достаточно...!"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>Th- that's enough...!</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Э- этого достаточно...!</color>"
 
 - text: "Hehehe, suree..."
-  translation: ""
+  translation: "Хехехе, конечнно..."
   speaker: "Customer"
 
 - text: "(There's the tip... I'm... done here...!)"
