@@ -1,25 +1,24 @@
 # Dialogues (path_id=138)
 
 - text: "Hey, so... You were... like... mentioning something about taking a break...? I-... I could... Help."
-  translation: ""
+  translation: "Эй, ну... Ты... это... говорила про перерыв...? Я-... Я могу... Помочь."
 
 - text: "(Ahh... What am I doing? I'm just going to let an enforcer grope me?!)"
-  translation: ""
+  translation: "(Ах... Что я делаю? Я просто позволю энфорсеру лапать меня?!)"
   rich_text: "<i>(Ahh... What am I doing? I'm just going to let an enforcer grope me?!)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Ах... Что я делаю? Я просто позволю энфорсеру лапать меня?!)</i>"
 
 - text: "Break, hm? I think you need to be... physically examined... for suspicious behavior, girl."
-  translation: ""
+  translation: "Перерыв, хм? Думаю, тебя нужно... телесно досмотреть... за подозрительное поведение, девочка."
   speaker: "Enforcer"
   rich_text: "Break, hm? I think you need to be... <i>physically examined</i>... for suspicious behavior, girl."
-  rich_translation: ""
+  rich_translation: "Перерыв, хм? Думаю, тебя нужно... <i>телесно досмотреть</i>... за подозрительное поведение, девочка."
 
 - text: "Suspicious-... But-!"
-  translation: ""
+  translation: "Подозритель-... Но-!"
 
 - text: "Shh, just go along with it. Don't care about whats in your pockets. Just whats underneath them, ehehe."
-  translation: ""
+  translation: "Тсс, просто подыграй. Меня не волнует, что у тебя в карманах. Только то, что под ними, хе-хе."
   speaker: "Enforcer"
   rich_text: "<size=24>Shh, just go along with it. Don't care about whats in your pockets. Just whats underneath them, ehehe."
-  rich_translation: ""
-
+  rich_translation: "<size=24>Тсс, просто подыграй. Меня не волнует, что у тебя в карманах. Только то, что под ними, хе-хе."

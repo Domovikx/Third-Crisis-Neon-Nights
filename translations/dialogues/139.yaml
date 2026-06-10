@@ -1,20 +1,20 @@
 # Dialogues (path_id=139)
 
 - text: "R-right.. Fine.. It's just to get us past your boss..."
-  translation: ""
+  translation: "Д-да.. Ладно.. Просто чтобы пройти мимо твоего начальника..."
 
 - text: "(At least I-... I'm not putting the couple near the entrance in harms way...)"
-  translation: ""
+  translation: "(По крайней мере я-... я не подставляю ту пару у входа...)"
   rich_text: "<i>(At least I-... I'm not putting the couple near the entrance in harms way...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(По крайней мере я-... я не подставляю ту пару у входа...)</i>"
 
 - text: "(This-... This is the right thing to do...)"
-  translation: ""
+  translation: "(Это-... Это правильное решение...)"
   speaker: "Zoey"
   rich_text: "<i>(This-... This is the <color=perversion>right</color> thing to do...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Это-... Это <color=perversion>правильное</color> решение...)</i>"
 
 - text: "Follow me."
-  translation: ""
+  translation: "За мной."
   speaker: "Enforcer"
 

@@ -1,13 +1,12 @@
 # Dialogues (path_id=134)
 
 - text: "(They're talking about that apartment the enforcers are blocking?)"
-  translation: ""
+  translation: "(Они говорят о той квартире, которую блокируют силовики?)"
   rich_text: "<i>(They're talking about that apartment the enforcers are blocking?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Они говорят о той квартире, которую блокируют силовики?)</i>"
 
 - text: "(Does that mean... The enforcers are looking for them?)"
-  translation: ""
+  translation: "(Значит... Силовики ищут их?)"
   speaker: "Zoey"
   rich_text: "<i>(Does that mean... The enforcers are looking for <b>them</b>?)</i>"
-  rich_translation: ""
-
+  rich_translation: "<i>(Значит... Силовики ищут <b>их</b>?)</i>"

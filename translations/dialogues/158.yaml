@@ -1,13 +1,13 @@
 # Dialogues (path_id=158)
 
 - text: "(Was that really the right thing to do...?)"
-  translation: ""
+  translation: "(Правильно ли я поступила...?)"
   rich_text: "<i>(Was that really the right thing to do...?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Правильно ли я поступила...?)</i>"
 
 - text: "(Are they really bad people... Terrorists?)"
-  translation: ""
+  translation: "(Неужели они действительно плохие люди... Террористы?)"
   speaker: "Zoey"
   rich_text: "<i>(Are they really bad people... <b>Terrorists</b>?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Неужели они действительно плохие люди... <b>Террористы</b>?)</i>"
 

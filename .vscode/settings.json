@@ -38,9 +38,8 @@
     "javascript": true,
     "json": true
   },
-  "yaml.format.enable": false,
   "[yaml]": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",

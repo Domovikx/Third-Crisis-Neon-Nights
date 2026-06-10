@@ -1,24 +1,24 @@
 # Dialogues (path_id=157)
 
 - text: "Stop resisting! Comply with our lawful orders!"
-  translation: ""
+  translation: "Не сопротивляйтесь! Выполняйте законные требования!"
   speaker: "Enforcer"
 
 - text: "What do you want?! Just leave us alone!"
-  translation: ""
+  translation: "Чего вам надо?! Просто оставьте нас!"
 
 - text: "We have credible evidence that you are the occupants of unit 03, linking you to terrorist activity! Cease resisting!"
-  translation: ""
+  translation: "У нас есть доказательства, что вы из 03-й, а это — связь с терроризмом! Прекратите сопротивление!"
   speaker: "Enforcer"
 
 - text: "What?! Who is saying that?! We're not from unit 03!"
-  translation: ""
+  translation: "Что?! Кто это говорит?! Мы не из 03-й!"
 
 - text: "We'll see about that. Get them in restraints and into the back of our patrol!"
-  translation: ""
+  translation: "Это мы ещё проверим. Наручники на них и в патрульную машину!"
   speaker: "Enforcer"
 
 - text: "Yes, Ma'am!"
-  translation: ""
+  translation: "Так точно!"
   speaker: "Enforcer"
 

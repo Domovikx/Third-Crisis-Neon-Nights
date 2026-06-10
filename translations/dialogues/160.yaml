@@ -1,12 +1,12 @@
 # Dialogues (path_id=160)
 
 - text: "(Ugh, it stinks in here! Smells like sex and... agh, gross.)"
-  translation: ""
+  translation: "(Фу, тут воняет! Пахнет сексом и... тьфу, гадость.)"
   rich_text: "<i>(Ugh, it stinks in here! Smells like sex and... agh, gross.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Фу, тут воняет! Пахнет сексом и... тьфу, гадость.)</i>"
 
 - text: "(Door's locked too, just my luck.)"
-  translation: ""
+  translation: "(Дверь тоже заперта, везёт мне.)"
   rich_text: "<i>(Door's locked too, just my luck.)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Дверь тоже заперта, везёт мне.)</i>"
 
