@@ -34,6 +34,10 @@ nul
 Thumbs.db
 .DS_Store
 
-temp_assets
+temp_assets/
+
+# Unity asset dumps (large, regenerated on demand)
+dump_assets/
 dump_assets*.pyc
+
 __pycache__/
