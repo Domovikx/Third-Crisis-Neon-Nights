@@ -6890,7 +6890,7 @@
   translation: "(Мне не стоит привлекать внимание с блокиратором на мне, да...? Просто... Просто игнорировать...)"
   speaker: "Zoey"
   rich_text: "<i>(I shouldn't draw any attention to myself with the blocker on me, right...? Just... Just <color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\">ignore it...</font></color> )</i>"
-  rich_translation: "<i>(Мне не стоит привлекать внимание с блокиратором на мне, да...? Просто... Просто <color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\>игнорировать...</font></color>)</i>"
+  rich_translation: "<i>(Мне не стоит привлекать внимание с блокиратором на мне, да...? Просто... Просто <color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\\>игнорировать...</font></color>)</i>"
 
 - text: "(Khh-... That's-...  Nghh... )"
   translation: "(Кх-... Это-... Н-н-н...)"

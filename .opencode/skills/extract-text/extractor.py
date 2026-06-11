@@ -29,7 +29,10 @@ GAME_DIR = Path(
 )
 DUMP_DIR = GAME_DIR / "dump_assets"
 OUT_DIR = GAME_DIR / "translations"
-DIALOGUES_DIR = OUT_DIR / "dialogues"
+
+
+def _dialogues_dir() -> Path:
+    return OUT_DIR / "dialogues"
 
 DIALOGUE_FIELDS = ["text", "translation", "speaker", "rich_text", "rich_translation"]
 SPEAKER_FIELDS = ["text", "translation", "gender", "notes"]
@@ -239,13 +242,6 @@ def extract_global_strings(summary_files: list) -> list:
 # YAML helpers
 # ---------------------------------------------------------------------------
 
-def _fmt(s: str) -> str:
-    s = str(s)
-    s = s.replace("\\", "\\\\").replace('"', '\\"')
-    s = "".join(c for c in s if c >= " " or c in "\n\r")
-    return f'"{s}"'
-
-
 _ALWAYS_FIELDS = {"text", "translation"}
 
 
@@ -264,10 +260,24 @@ def _format_entry(entry: dict) -> str:
             keys.append(k)
     if not keys:
         return ""
-    first = keys[0]
-    parts = [f"{first}: {_fmt(entry[first])}"]
-    parts += [f"  {k}: {_fmt(entry[k])}" for k in keys[1:]]
-    return "\n".join(parts)
+    # Build YAML manually with reliable value quoting
+    def _qv(v: str) -> str:
+        """Quote a string value for YAML. Always quote to ensure safe re-parsing."""
+        if not v:
+            return '""'
+        escaped = v.replace('\\', '\\\\').replace('"', '\\"')
+        # Strip control chars except newline/carriage return
+        escaped = "".join(c for c in escaped if c >= " " or c in "\n\r")
+        return f'"{escaped}"'
+    
+    parts = [f"{k}: {_qv(entry[k])}" for k in keys]
+    dumped = "\n".join(parts)
+    lines = dumped.strip().splitlines()
+    if not lines:
+        return ""
+    first = lines[0]
+    rest = [f"  {line}" if not line.startswith("  ") else line for line in lines[1:]]
+    return "\n".join([first] + rest)
 
 
 def _normalize_entry(entry, fields: list) -> dict:
@@ -279,18 +289,76 @@ def _normalize_entry(entry, fields: list) -> dict:
     return {}
 
 
+_YAML_LINE_RX = re.compile(
+    r'^(\s*)([\w_]+):\s*'
+    r'(?:"((?:[^"\\]|\\.)*)"'   # double-quoted
+    r"|'((?:[^'\\]|\\.)*)'"     # single-quoted
+    r'|(\S.*))$'                 # unquoted
+)
+
+
+def _unescape(s: str) -> str:
+    return s.replace('\\"', '"').replace("\\'", "'").replace("\\\\", "\\")
+
+
+def _parse_yaml_fallback(content: str) -> list:
+    """Fallback line-by-line YAML parser for malformed files.
+    Handles quoted and unquoted values. Returns list of dicts."""
+    entries = []
+    current = None
+    for raw_line in content.splitlines():
+        line = raw_line.strip()
+        # Blank or comment: end current entry
+        if not line or line.startswith("#"):
+            if current is not None:
+                entries.append(current)
+                current = None
+            continue
+        # Check if line has key:value pattern
+        # Handle line that looks like "  key: value" (continuation) or "- key: value" (list item start)
+        stripped_for_match = line
+        if line.startswith("- "):
+            stripped_for_match = line[2:]
+        m = _YAML_LINE_RX.match(stripped_for_match)
+        if m:
+            key = m.group(2)
+            val = m.group(3) or m.group(4) or m.group(5) or ""
+            val = val.strip().rstrip(',')
+            # Strip leading/trailing mismatched quotes from unquoted match (malformed YAML)
+            if not m.group(3) and not m.group(4):
+                val = val.lstrip('"').lstrip("'").rstrip('"').rstrip("'")
+            val = _unescape(val)
+            if line.startswith("- ") or current is None:
+                # New entry
+                if current is not None:
+                    entries.append(current)
+                current = {key: val}
+            else:
+                # Continuation of current entry
+                current[key] = val
+    if current is not None:
+        entries.append(current)
+    return entries
+
+
 def read_yaml(path: Path) -> list:
     """Read existing YAML entries. Returns [] if file missing or empty."""
     if not path.exists():
         return []
-    with open(path, encoding="utf-8") as f:
-        try:
+    try:
+        with open(path, encoding="utf-8") as f:
             data = yaml.safe_load(f)
-        except Exception:
-            return []
-    if not isinstance(data, list):
+        if isinstance(data, list):
+            return data
+    except Exception:
+        pass
+    # Fallback: try line-by-line parser
+    try:
+        with open(path, encoding="utf-8") as f:
+            content = f.read()
+        return _parse_yaml_fallback(content)
+    except Exception:
         return []
-    return data
 
 
 def _auto_rich_translation(entry: dict) -> dict:
@@ -333,6 +401,9 @@ def merge(existing_raw: list, fresh: list, fields: list, *key_fields: str) -> li
             continue
         old_map[k] = e
 
+    # Fields that must always come from fresh dump data, never from old (game data, not user content)
+    _always_fresh = {"rich_text"}
+    
     merged = []
     for e in fresh:
         k = tuple(e.get(f, "") for f in key_fields)
@@ -340,7 +411,7 @@ def merge(existing_raw: list, fresh: list, fields: list, *key_fields: str) -> li
             old = old_map[k]
             new = dict(e)
             for fld in fields:
-                if fld not in key_fields and old.get(fld):
+                if fld not in key_fields and fld not in _always_fresh and old.get(fld):
                     new[fld] = old[fld]
             merged.append(_normalize_entry(new, fields))
         else:
@@ -378,11 +449,11 @@ def extract():
     by_pid = extract_dialogues(chunks)
     by_bundle = extract_bundle_dialogues(chunks)
 
-    DIALOGUES_DIR.mkdir(parents=True, exist_ok=True)
+    _dialogues_dir().mkdir(parents=True, exist_ok=True)
 
     total = 0
     for pid in sorted(by_pid):
-        fpath = DIALOGUES_DIR / f"{pid}.yaml"
+        fpath = _dialogues_dir() / f"{pid}.yaml"
         existing = read_yaml(fpath)
         merged = [_normalize_rich(_auto_rich_translation(e)) for e in merge(existing, by_pid[pid], DIALOGUE_FIELDS, "text", "speaker")]
         total += len(merged)
@@ -391,7 +462,7 @@ def extract():
     # Build set of (text, speaker) already covered by ANToolkit dialogues
     dialogue_keys = set()
     for pid in sorted(by_pid):
-        fpath = DIALOGUES_DIR / f"{pid}.yaml"
+        fpath = _dialogues_dir() / f"{pid}.yaml"
         for e in read_yaml(fpath):
             k = (e.get("text", ""), e.get("speaker", ""))
             if k[0]:
@@ -403,7 +474,7 @@ def extract():
         if not entries:
             continue
         short = _bundle_short_name(asset_name)
-        fpath = DIALOGUES_DIR / f"bundle.{short}.yaml"
+        fpath = _dialogues_dir() / f"bundle.{short}.yaml"
         merged = [_normalize_rich(_auto_rich_translation(e)) for e in merge(read_yaml(fpath), entries, DIALOGUE_FIELDS, "text", "speaker")]
         total += len(merged)
         write_yaml(fpath, merged, header=f"Dialogues (bundle: {asset_name})")

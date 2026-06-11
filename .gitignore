@@ -35,4 +35,5 @@ Thumbs.db
 .DS_Store
 
 temp_assets
-dump_assets
+dump_assets*.pyc
+__pycache__/
