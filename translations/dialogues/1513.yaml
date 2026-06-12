@@ -1,0 +1,12 @@
+# Dialogues (path_id=1513)
+
+- text: "mon Zoey. You don't need a picture of that"
+  translation: "Да ладно, Зои. Тебе не нужна фотография этого"
+  speaker: "Zoey"
+  rich_text: "mon Zoey. You don't need a picture of <color=#EB83FF>that</color>"
+  rich_translation: "Да ладно, Зои. Тебе не нужна фотография <color=#EB83FF>этого</color>"
+
+- text: "(You got a job to do. )"
+  translation: "(Тебя ждёт работа. )"
+  speaker: "Zoey"
+

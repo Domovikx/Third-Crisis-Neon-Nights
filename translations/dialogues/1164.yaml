@@ -1,0 +1,15 @@
+# Dialogues (path_id=1164)
+
+- text: "(Oohh fuck~ This is still wet from when she was sitting on it~)"
+  translation: "(Ох~ Всё ещё мокрая после того, как она на ней сидела~)"
+  rich_text: "<i>(Oohh <color=#EB83FF>fuck~ Thi</color>s is still wet from when <color=#EB83FF>she was sitting on it~</color>)</i>"
+  rich_translation: "<i>(Ох~ <color=#EB83FF>Всё ещё мокр</color>ая после того, как <color=#EB83FF>она на ней сидела~</color>)</i>"
+
+- text: "Hey! That's mine!"
+  translation: "Эй! Это моё!"
+
+- text: "Not until I'm done with it~"
+  translation: "Пока я не закончу~"
+  rich_text: "Not until <color=#EB83FF>I'm done with it~</color>"
+  rich_translation: "Пока <color=#EB83FF>я не закончу~</color>"
+

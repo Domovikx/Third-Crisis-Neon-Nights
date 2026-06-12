@@ -1,0 +1,20 @@
+# Dialogues (path_id=377)
+
+- text: "Ah-! Um... to protect it's previous owners privacy of course...!"
+  translation: "А-! Эм... чтобы защитить конфиденциальность предыдущих владельцев, конечно...!"
+  speaker: "Salesman"
+
+- text: "Privacy... Right..."
+  translation: "Конфиденциальность... Ага..."
+  speaker: "Zoey"
+
+- text: "(4 7 1 0 1 1... Not exactly redacted very well... )"
+  translation: "(4 7 1 0 1 1... Не очень-то хорошо скрыто...)"
+  speaker: "Zoey"
+  rich_text: "<i>(4 7 1 0 1 1... Not exactly redacted very well... )</i>"
+  rich_translation: "<i>(4 7 1 0 1 1... Не очень-то хорошо скрыто...)</i>"
+
+- text: "You can see the GAG seal of approval right there on it's thigh. My wares area always clean!"
+  translation: "Видишь печать одобрения GAG прямо здесь на бедре. Мои товары всегда чистые!"
+  speaker: "Salesman"
+

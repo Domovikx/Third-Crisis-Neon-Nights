@@ -1,0 +1,11 @@
+# Dialogues (path_id=1207)
+
+- text: "Repay your.. Debt..?"
+  translation: ""
+
+- text: "What does that have to do with... this?!"
+  translation: "Какое это имеет отношение к... этому?!"
+  speaker: "Zoey"
+  rich_text: "What does that have to do with... <b>this</b>?!"
+  rich_translation: "Какое это имеет отношение к... <b>этому</b>?!"
+

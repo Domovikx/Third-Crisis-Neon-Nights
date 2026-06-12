@@ -1,0 +1,47 @@
+# Dialogues (path_id=1701)
+
+- text: "\"This is Dr. Lozenge. Lead Scientist of Project Crush in the R&D Department of Peitho...\""
+  translation: "\"Это доктор Лозендж. Ведущий учёный проекта «Краш» в отделе R&D компании Пейто...\""
+  rich_text: "<i>\"This is Dr. Lozenge. Lead Scientist of Project Crush in the R&D Department of Peitho...\""
+  rich_translation: "<i>\"Это доктор Лозендж. Ведущий учёный проекта «Краш» в отделе R&D компании Пейто...\""
+
+- text: "\"Now I'm sure you have many questions... like \"What even is Peitho?\"-"
+  translation: "\"Уверен, у вас много вопросов... например: «Что вообще такое Пейто?»-"
+  rich_text: "<i>\"Now I'm sure you have many questions... like \"What even is Peitho?\"-</i>"
+  rich_translation: "<i>\"Уверен, у вас много вопросов... например: «Что вообще такое Пейто?»-</i>"
+
+- text: "\"We recently conducted a successful test of Crush Waves... a true method of mind control... with a side effect of arousal.\""
+  translation: "\"Недавно мы провели успешное тестирование Crush-волн... настоящий метод контроля сознания... с побочным эффектом возбуждения.\""
+  rich_text: "<i>\"We recently conducted a successful test of Crush Waves... a true method of mind control... with a side effect of arousal.\"</i>"
+  rich_translation: "<i>\"Недавно мы провели успешное тестирование Crush-волн... настоящий метод контроля сознания... с побочным эффектом возбуждения.\"</i>"
+
+- text: "\"It worked... too well. The ramifications are horrifying. My coworkers are now discussing mass emission methods.\""
+  translation: "\"Оно сработало... слишком хорошо. Последствия ужасают. Мои коллеги уже обсуждают методы массового излучения.\""
+  rich_text: "<i>\"It worked... too well. The ramifications are horrifying. My coworkers are now discussing mass emission methods.\"</i>"
+  rich_translation: "<i>\"Оно сработало... слишком хорошо. Последствия ужасают. Мои коллеги уже обсуждают методы массового излучения.\"</i>"
+
+- text: "\"So... I've created an antidote. The 'Crush Blocker' in this suitcase should innoculate someone against my poison.\""
+  translation: "\"Поэтому... я создал антидот. «Crush-Блокатор» в этом чемоданчике должен защитить кого-то от моего яда.\""
+  rich_text: "<i>\"So... I've created an antidote. The 'Crush Blocker' in this suitcase should innoculate someone against my poison.\"</i>"
+  rich_translation: "<i>\"Поэтому... я создал антидот. «Crush-Блокатор» в этом чемоданчике должен защитить кого-то от моего яда.\"</i>"
+
+- text: "\"I just... couldn't perfect the antidote, so it's temporary. It only heals Crush buildup... or in layman's terms... reverses arousal.\""
+  translation: "\"Я просто... не смог довести антидот до ума, так что он временный. Он лишь лечит накопление Crush... проще говоря... подавляет возбуждение.\""
+  rich_text: "<i>\"I just... couldn't perfect the antidote, so it's temporary. It only heals Crush buildup... or in layman's terms... reverses arousal.\""
+  rich_translation: "<i>\"Я просто... не смог довести антидот до ума, так что он временный. Он лишь лечит накопление Crush... проще говоря... подавляет возбуждение.\""
+
+- text: "\"However, the Blocker can deliver an infinite number of injections. Just needs to recharge between each dose.\""
+  translation: "\"Однако Блокатор может делать бесконечное число инъекций. Просто нужно перезаряжаться между дозами.\""
+  rich_text: "<i>\"However, the Blocker can deliver an infinite number of injections. Just needs to recharge between each dose.\""
+  rich_translation: "<i>\"Однако Блокатор может делать бесконечное число инъекций. Просто нужно перезаряжаться между дозами.\""
+
+- text: "\"I truly believed my work would make the world a better place. That if people were just compelled to cooperate together...\""
+  translation: "\"Я искренне верил, что моя работа сделает мир лучше. Что если людей просто <b>вынудить</b> сотрудничать друг с другом...\""
+  rich_text: "<i>\"I truly believed my work would make the world a better place. That if people were just <b>compelled</b> to cooperate together...\"</i>"
+  rich_translation: "<i>\"Я искренне верил, что моя работа сделает мир лучше. Что если людей просто <b>вынудить</b> сотрудничать друг с другом...\"</i>"
+
+- text: "\"Well... time has shown me just how wrong I was. I just hope the world doesn't need to suffer because of my mistakes.\""
+  translation: "\"Что ж... время показало, как сильно я ошибался. Надеюсь, миру не придётся страдать из-за моих ошибок.\""
+  rich_text: "<i>\"Well... time has shown me just how wrong I was. I just hope the world doesn't need to suffer because of my mistakes.\"</i>"
+  rich_translation: "<i>\"Что ж... время показало, как сильно я ошибался. Надеюсь, миру не придётся страдать из-за моих ошибок.\"</i>"
+

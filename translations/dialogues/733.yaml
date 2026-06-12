@@ -1,0 +1,26 @@
+# Dialogues (path_id=733)
+
+- text: "Did you two have fun in there, hun? Sure sounded like it, eheheh."
+  translation: "Весело провели время там, милая? Звучало именно так, хихихи."
+  speaker: "Leona"
+
+- text: "Ah-... No, we-... I mean... We didn't-"
+  translation: ""
+
+- text: "It's alright darling, I don't judge."
+  translation: "Всё в порядке, дорогая, я не осуждаю."
+  speaker: "Leona"
+
+- text: "No, really, we're... Not like that...!"
+  translation: "Нет, правда, мы... Не в том смысле...!"
+  speaker: "Zoey"
+
+- text: "Oh, really now? Heh. Whatever you say, darling."
+  translation: "О, правда? Хех. Как скажешь, дорогая."
+  speaker: "Leona"
+
+- text: "(I... Don't think she believes me... )"
+  translation: "(Я... Кажется, она мне не верит...)"
+  rich_text: "<i>(I... Don't think she believes me... )</i>"
+  rich_translation: "<i>(Я... Кажется, она мне не верит...)</i>"
+

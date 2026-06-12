@@ -1,0 +1,12 @@
+# Dialogues (path_id=131)
+
+- text: "(Haven't seen anyone behind this counter in months...)"
+  translation: "Уже несколько месяцев за этой стойкой никого не было..."
+  rich_text: "<i>(Haven't seen anyone behind this counter in months...)</i>"
+  rich_translation: "<i>Уже несколько месяцев за этой стойкой никого не было...</i>"
+
+- text: "(So lonely...)"
+  translation: "Так одиноко..."
+  rich_text: "<i>(So lonely...)</i>"
+  rich_translation: "<i>Так одиноко...</i>"
+

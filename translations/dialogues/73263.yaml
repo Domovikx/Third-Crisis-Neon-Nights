@@ -1,0 +1,53 @@
+# Dialogues (path_id=73263)
+
+- text: "Now what?"
+  translation: "И что теперь?"
+  speaker: "Zoey"
+
+- text: "Nails tiiiime~! Let's go, Z! Let's go!"
+  translation: "Но-о-огти~! Пошли, З! Пошли!"
+  speaker: "Sarah"
+
+- text: "Your nails really came out well, my gosh!"
+  translation: "Твои ногти действительно вышли отлично, боже мой!"
+  speaker: "Zoey"
+
+- text: "Riiight? I took a picture of 'em too. Gonna post them on Smutgram."
+  translation: "Пра-а-авда? Я тоже сфоткала. Выложу в Сматграм."
+  speaker: "Sarah"
+
+- text: "What's up, bestie?"
+  translation: "Как дела, подруга?"
+  speaker: "Sarah"
+
+- text: "Ask what's next."
+  translation: ""
+
+- text: "Compliment her nails."
+  translation: ""
+
+- text: "Turn off the Vibrator."
+  translation: ""
+
+- text: "(I need to turn it off! It's not- not okay while Sarah is right there!)"
+  translation: "(Надо выключить! Это не- неприлично, пока Сара рядом!)"
+  speaker: "Zoey"
+  rich_text: "<i>(I need to turn it off! It's not- not okay while Sarah is right there!)</i>"
+  rich_translation: "<i>(Надо выключить! Это не- неприлично, пока Сара рядом!)</i>"
+
+- text: "(Maybe just the neck massagers... Those are nice. )"
+  translation: "(Может, только массажёры для шеи... Они приятные.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Maybe just the neck massagers... Those are nice. )</i>"
+  rich_translation: "<i>(Может, только массажёры для шеи... Они приятные.)</i>"
+
+- text: "Hahh~ Oh wow it's got a tongue function too~!"
+  translation: "Ах~ Ого, у неё ещё и функция языка~!"
+  speaker: "Sarah"
+
+- text: "(Heh... Oh Sarah...)"
+  translation: "(Хех... О, Сара...)"
+  speaker: "Zoey"
+  rich_text: "<i>(Heh... Oh Sarah...)</i>"
+  rich_translation: "<i>(Хех... О, Сара...)</i>"
+

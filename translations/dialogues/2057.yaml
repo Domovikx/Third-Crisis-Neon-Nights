@@ -1,0 +1,28 @@
+# Dialogues (path_id=2057)
+
+- text: "O-Oh~ Hey there, gorgeous~"
+  translation: "О-О~ Привет, красотка~"
+
+- text: "Mmm... hi there..."
+  translation: ""
+
+- text: "What brings you here, hm?"
+  translation: "Что привело тебя сюда, хм?"
+
+- text: "Just... enjoying the scenery..."
+  translation: ""
+
+- text: "Well, the scenery's enjoying you too, sexy~"
+  translation: "Ну, вид тоже тобой любуется, секси~"
+
+- text: "Eheh... What're you doin'? Working on the elevator?"
+  translation: ""
+
+- text: "Yeah~ Though I'd much rather be workin' on you."
+  translation: ""
+
+- text: "Hehe- That sounds- fun..."
+  translation: "Хе-хе- Звучит- весело..."
+  rich_text: "Hehe- That sounds- <color=#EB83FF>fun...</color>"
+  rich_translation: "Хе-хе- Звучит- <color=#EB83FF>весело...</color>"
+

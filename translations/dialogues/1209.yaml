@@ -1,0 +1,35 @@
+# Dialogues (path_id=1209)
+
+- text: "Kh-..! S-sorry, Ma'am! I-.. I didn't mean to-"
+  translation: ""
+
+- text: "(I'm sorry, Max... I-... I have no choice...)"
+  translation: "(Прости, Макс... Я-... у меня нет выбора...)"
+  speaker: "Zoey"
+  rich_text: "<i>(I'm sorry, Max... I-... I have no choice...)</i>"
+  rich_translation: "<i>(Прости, Макс... Я-... у меня нет выбора...)</i>"
+
+- text: "(Hhhh... what have I gotten myself into...)"
+  translation: "(Уф-ф... во что же я ввязалась...)"
+  speaker: "Zoey"
+  rich_text: "<i>(Hhhh... what have I gotten myself into...)</i>"
+  rich_translation: "<i>(Уф-ф... во что же я ввязалась...)</i>"
+
+- text: "Hhh... let's pretend, I'd help you save her. What would you even want me to do?"
+  translation: "Уф... давай представим, я помогу тебе спасти её. Что бы ты вообще хотела, чтобы я сделала?"
+  speaker: "Zoey"
+  rich_text: "Hhh... let's <b>pretend</b>, I'd help you save her. What would you even want me to do?"
+  rich_translation: "Уф... давай <b>представим</b>, я помогу тебе спасти её. Что бы ты вообще хотела, чтобы я сделала?"
+
+- text: "So... you want me to distract 'em for a moment and that's it?"
+  translation: "Значит... ты хочешь, чтобы я отвлекла её на минутку, и всё?"
+  speaker: "Zoey"
+
+- text: "Fine. I-... I'll help you. This once."
+  translation: "Ладно. Я-... я помогу тебе. Один раз."
+  speaker: "Zoey"
+
+- text: "Shh, not so loud!"
+  translation: "Тсс, не так громко!"
+  speaker: "Zoey"
+

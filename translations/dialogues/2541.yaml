@@ -1,0 +1,10 @@
+# Dialogues (path_id=2541)
+
+- text: "Place is locked..."
+  translation: "Место заперто..."
+  speaker: "Enforcer"
+
+- text: "Do we wait for them to open up?"
+  translation: "Будем ждать, пока откроют?"
+  speaker: "Enforcer"
+

@@ -1,0 +1,12 @@
+# Dialogues (path_id=1709)
+
+- text: "Get this door open!"
+  translation: "Открой эту дверь!"
+  speaker: "Klaudia"
+
+- text: "(Fuck it.)"
+  translation: "(К чёрту.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Fuck it.)</i>"
+  rich_translation: "<i>(К чёрту.)</i>"
+

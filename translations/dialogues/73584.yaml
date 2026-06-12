@@ -1,0 +1,24 @@
+# Dialogues (path_id=73584)
+
+- text: "God you're such a hot waitress... *hic*"
+  translation: "Боже, ты такая горячая официантка... *ик*"
+  speaker: "Customer"
+
+- text: "Show me ya' tits, pleaseeee? I have to see emmm'..."
+  translation: "Покажи мне сиськи, ну пожа-а-алуйста? Я <b>должен</B> их увиде-е-еть..."
+  speaker: "Customer"
+  rich_text: "Show me ya' tits, pleaseeee? I <b>have</B> to see emmm'..."
+  rich_translation: "Покажи мне сиськи, ну пожа-а-алуйста? Я <b>должен</B> их увиде-е-еть..."
+
+- text: "I, um-..."
+  translation: "Я, эм-..."
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>I, um-...</color>"
+  rich_translation: "<color=#EB83FF>Я, эм-...</color>"
+
+- text: "(I-... I said I'd stop this... Right...?)"
+  translation: "(Я-... Я ведь обещала прекратить это... Да...?)"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF><i>(I-... I said I'd stop this... Right...?)</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Я-... Я ведь обещала прекратить это... Да...?)</i></color>"
+

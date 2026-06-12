@@ -1,0 +1,26 @@
+# Dialogues (path_id=73533)
+
+- text: "Ma' frend's not believin' me that theresh' a hot new waitress..."
+  translation: "Мой друг не верит, что здесь есть новая горячая официантка..."
+  speaker: "Customer"
+
+- text: "Um-... Okayy...?"
+  translation: "Эм-... Ладно...?"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>Um-... Okayy...?</color>"
+  rich_translation: "<color=#EB83FF>Эм-... Ладно...?</color>"
+
+- text: "Oh! I know...! I could send 'em a pic of your butt!"
+  translation: "О! Я знаю...! Могу отправить им фото твоей попки!"
+  speaker: "Customer"
+
+- text: "Here's a tip, turn around real quick!"
+  translation: "Вот чаевые, повернись быстро!"
+  speaker: "Customer"
+
+- text: "(A picture of my- )"
+  translation: "(Фото моей- )"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF><i>(A picture of my- )</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Фото моей- )</i></color>"
+

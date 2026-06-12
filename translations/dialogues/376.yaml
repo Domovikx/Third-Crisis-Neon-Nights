@@ -1,0 +1,20 @@
+# Dialogues (path_id=376)
+
+- text: "It's previous owner has of course brought it in to be upcycled instead of becoming landfill! So thoughtful of the environment, don't you think?"
+  translation: "Его предыдущий владелец, конечно же, принёс его на переработку, чтобы не отправлять на свалку! Так заботливо по отношению к окружающей среде, тебе не кажется?"
+  speaker: "Salesman"
+
+- text: "Upcycled? Really?"
+  translation: "Переработка? Серьёзно?"
+  speaker: "Zoey"
+
+- text: "Of course! It's written right here on the thigh!"
+  translation: "Конечно! Прямо здесь на бедре написано!"
+  speaker: "Salesman"
+
+- text: "(No way that's the truth... )"
+  translation: "(Да быть не может, что это правда...)"
+  speaker: "Zoey"
+  rich_text: "<i>(No way that's the truth... )</i>"
+  rich_translation: "<i>(Да быть не может, что это правда...)</i>"
+

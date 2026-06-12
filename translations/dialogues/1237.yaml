@@ -1,0 +1,14 @@
+# Dialogues (path_id=1237)
+
+- text: "(... )"
+  translation: "(...)"
+  speaker: "Zoey"
+  rich_text: "<i>(... )</i>"
+  rich_translation: "<i>(...)</i>"
+
+- text: "(Someone is in one of the booths...)"
+  translation: "(Кто-то в одной из кабинок...)"
+  speaker: "Zoey"
+  rich_text: "<i>(Someone is in one of the booths...)</i>"
+  rich_translation: "<i>(Кто-то в одной из кабинок...)</i>"
+

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>NeonTranslatorRuntime</AssemblyName>
+    <RootNamespace>NeonTranslator</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>7.3</LangVersion>
+    <NoWarn>1701;1702;IDE0060</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>../../Third Crisis Neon Nights_Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>../../Third Crisis Neon Nights_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>../../Third Crisis Neon Nights_Data/Managed/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>../../Third Crisis Neon Nights_Data/Managed/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="source/NativeMethods.cs" />
+    <Compile Include="source/TranslationLoader.cs" />
+    <Compile Include="source/MethodPatcher.cs" />
+    <Compile Include="source/TranslatorPlugin.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,74 @@
+# Dialogues (path_id=1569)
+
+- text: "Nova will be here when I tell her to be. And for that, you will first answer my questions."
+  translation: "Нова появится, когда я скажу. А для этого ты сначала ответишь на мои вопросы."
+  speaker: "Klaudia"
+
+- text: "How about we start with your name."
+  translation: "Давай начнём с твоего имени."
+  speaker: "Klaudia"
+
+- text: "I'm-... Zoey. Zoey Madison."
+  translation: "Я-... Зои. Зои Мэдисон."
+  speaker: "Zoey"
+
+- text: "Very well, Zoey Madison. Tell me... What was the purpose of your previous... visit, hm?"
+  translation: "Хорошо, Зои Мэдисон. Скажи мне... Какова была цель твоего прошлого... визита, мм?"
+  speaker: "Klaudia"
+  rich_text: "Very well, Zoey Madison. Tell me... What was the purpose of your previous... <b>visit</b>, hm?"
+  rich_translation: "Хорошо, Зои Мэдисон. Скажи мне... Какова была цель твоего прошлого... <b>визита</b>, мм?"
+
+- text: "I-... Well... I was just... Having a look around."
+  translation: "Я-... Ну... Я просто... Осматривалась."
+  speaker: "Zoey"
+
+- text: "Drop the fucking act! I know you were involved in that mess in 205!"
+  translation: "Кончай этот грёбаный спектакль! Я знаю, ты была замешана в той заварушке в 205!"
+  speaker: "Klaudia"
+
+- text: "I-... I- I'm sorry-... I didn't mean to-..."
+  translation: "Я-... Я- Простите-... Я не хотела-..."
+  speaker: "Zoey"
+
+- text: "I don't care about the intruiges between you and the cartel. However. You will make up for the damage you caused me, Madison. Understood?!"
+  translation: "Меня не волнуют твои интриги с картелем. Однако. Ты возместишь ущерб, который ты мне причинила, Мэдисон. Ясно?!"
+  speaker: "Klaudia"
+  rich_text: "I don't care about the intruiges between you and the cartel. However. You <b>will</b> make up for the damage you caused me, Madison. <b>Understood</b>?!"
+  rich_translation: "Меня не волнуют твои интриги с картелем. Однако. Ты <b>возместишь</b> ущерб, который ты мне причинила, Мэдисон. <b>Ясно</b>?!"
+
+- text: "Yes-... I- I understand."
+  translation: "Да-... Я- Я понимаю."
+  speaker: "Zoey"
+
+- text: "Have you worked at a bar before, Madison?"
+  translation: "Ты работала в баре раньше, Мэдисон?"
+  speaker: "Klaudia"
+
+- text: "I-... No, Ma'am."
+  translation: "Я-... Нет, мэм."
+  speaker: "Zoey"
+
+- text: "Hmpf. Well then you better learn fast. Put on this bunnysuit and talk to Rosie. You will help her out at the bar."
+  translation: "Хмф. Тогда лучше учись быстро. Надевай этот костюм кролика и поговори с Рози. Будешь помогать ей в баре."
+  speaker: "Klaudia"
+
+- text: "(I-... I don't have time for this! At least she didn't call the enforcers on me though... I better do what she asks for now.)"
+  translation: "(Я-... У меня нет на это времени! Но хотя бы она не вызвала стражей... Лучше пока делать, что она говорит.)"
+  rich_text: "<i>(I-... I don't have time for this! At least she didn't call the enforcers on me though... I better do what she asks for now.)</i>"
+  rich_translation: "<i>(Я-... У меня нет на это времени! Но хотя бы она не вызвала стражей... Лучше пока делать, что она говорит.)</i>"
+
+- text: "F-fine... How long will I-"
+  translation: "Л-ладно... Как долго я-"
+  speaker: "Zoey"
+
+- text: "You are not in a position to negotiate, Madison! You'll be done when we close. Now take off your clothes and get into this bunnysuit, before I change my mind and make some calls!"
+  translation: "Ты не в том положении, чтобы торговаться, Мэдисон! Освободишься, когда закроемся. А сейчас раздевайся и надевай этот костюм кролика, пока я не передумала и не позвонила!"
+  speaker: "Klaudia"
+  rich_text: "You are <b>not</b> in a position to negotiate, Madison! You'll be done when we close. Now take off your clothes and get into this bunnysuit, before I change my mind and make some calls!"
+  rich_translation: "Ты <b>не</b> в том положении, чтобы торговаться, Мэдисон! Освободишься, когда закроемся. А сейчас раздевайся и надевай этот костюм кролика, пока я не передумала и не позвонила!"
+
+- text: "(Undress in front of her...? It's-... No big deal... She's-... Used to seeing nude bunnies... Right?)"
+  translation: "(Раздеваться перед ней...? Это-... Пустяки... Она-... Привыкла видеть голых кроликов... Да?)"
+  rich_text: "<i>(Undress in front of her...? It's-... No big deal... She's-... Used to seeing nude bunnies... Right?)</i>"
+  rich_translation: "<i>(Раздеваться перед ней...? Это-... Пустяки... Она-... Привыкла видеть голых кроликов... Да?)</i>"
+

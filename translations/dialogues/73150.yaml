@@ -1,0 +1,22 @@
+# Dialogues (path_id=73150)
+
+- text: "Ooh~ She's trying to stay silent~"
+  translation: "Оо~ Она пытается молчать~"
+
+- text: "Scared that someone will hear~"
+  translation: "Боится, что кто-то услышит~"
+
+- text: "That's okay~"
+  translation: "Всё в порядке~"
+
+- text: "We know how good we're making you feel~"
+  translation: "Мы знаем, как хорошо нам удаётся тебя раззадорить~"
+
+- text: "We can taste it~"
+  translation: "Мы это чувствуем~"
+
+- text: "Hhh~ Hhh~"
+  translation: "Хых~ Хых~"
+  rich_text: "<color=#EB83FF>Hhh~ Hhh~</color>"
+  rich_translation: "<color=#EB83FF>Хых~ Хых~</color>"
+

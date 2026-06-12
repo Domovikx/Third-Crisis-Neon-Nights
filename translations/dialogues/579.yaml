@@ -1,0 +1,15 @@
+# Dialogues (path_id=579)
+
+- text: "L-Like... that...? Khh..."
+  translation: "Т-Так...? Кх..."
+  rich_text: "<color=#EB83FF>L-Like... that...? Khh...</color>"
+  rich_translation: "<color=#EB83FF>Т-Так...? Кх...</color>"
+
+- text: "Just like that, yes... Now tie it to this string and put it around your wrist."
+  translation: ""
+
+- text: "(This is... crazy... It's so... filthy... Khh...)"
+  translation: "(Это... безумие... Это так... грязно... Кх...)"
+  rich_text: "<color=#EB83FF><i>(This is... crazy... It's so... filthy... Khh...)</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Это... безумие... Это так... грязно... Кх...)</i></color>"
+

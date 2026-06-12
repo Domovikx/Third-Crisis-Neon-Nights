@@ -1,0 +1,20 @@
+# Dialogues (path_id=2477)
+
+- text: "Didn't I tell you to fuck off?"
+  translation: "Я же сказал валить?"
+
+- text: "Or do you wanna earn some fB?"
+  translation: "Или хочешь заработать fB?"
+
+- text: "(I'm sure whatever he'll offer will involve something lewd.)"
+  translation: "(Уверена, что бы он ни предложил, это будет связано с чем-то неприличным.)"
+  rich_text: "<i>(I'm sure whatever he'll offer will involve something lewd.)</i>"
+  rich_translation: "<i>(Уверена, что бы он ни предложил, это будет связано с чем-то неприличным.)</i>"
+
+- text: "No thanks."
+  translation: "Нет, спасибо."
+  speaker: "Zoey"
+
+- text: "Then piss off."
+  translation: ""
+

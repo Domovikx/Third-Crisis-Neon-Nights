@@ -1,0 +1,7 @@
+# Dialogues (path_id=1668)
+
+- text: ">"
+  translation: ">"
+  rich_text: "<< Declination processed. Proceeding relocation. >>"
+  rich_translation: "<< Отказ обработан. Начинаю перемещение. >>"
+

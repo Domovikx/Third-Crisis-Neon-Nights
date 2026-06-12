@@ -1,0 +1,40 @@
+# Dialogues (path_id=2081)
+
+- text: "(Why did I open the fucking suitcase? )"
+  translation: "(Зачем я открыла этот грёбаный чемодан? )"
+  speaker: "Zoey"
+  rich_text: "<i>(Why did I open the fucking suitcase? )</i>"
+  rich_translation: "<i>(Зачем я открыла этот грёбаный чемодан? )</i>"
+
+- text: "(Client asked me to retrieve it, not mess with it. )"
+  translation: "(Клиент просил забрать его, а не копаться в нём. )"
+  speaker: "Zoey"
+  rich_text: "<i>(Client asked me to retrieve it, not mess with it. )</i>"
+  rich_translation: "<i>(Клиент просил забрать его, а не копаться в нём. )</i>"
+
+- text: "No questions, no improvising. Just do the job, Zoey."
+  translation: "Никаких вопросов, никакой импровизации. Просто делай работу, Зои."
+  speaker: "Zoey"
+
+- text: "Then again this blocker could be huge. I wonder how much the Cartel knows about this. )"
+  translation: "Хотя этот блокиратор может быть серьёзным. Интересно, сколько Картель знает об этом. )"
+  speaker: "Zoey"
+  rich_text: "Then again this blocker could be huge. I wonder how much the Cartel knows about this. )</i>"
+  rich_translation: "Хотя этот блокиратор может быть серьёзным. Интересно, сколько Картель знает об этом. )</i>"
+
+- text: "(I don't think I should deliver it to them knowing what it does. )"
+  translation: "(Не думаю, что стоит доставлять им это, зная, что оно делает. )"
+  rich_text: "<i>(I don't think I should deliver it to them knowing what it does. )</i>"
+  rich_translation: "<i>(Не думаю, что стоит доставлять им это, зная, что оно делает. )</i>"
+
+- text: "(Maybe I should keep it?)"
+  translation: "(Может, оставить его себе?)"
+  rich_text: "<i>(Maybe I should keep it?)</i>"
+  rich_translation: "<i>(Может, оставить его себе?)</i>"
+
+- text: "(It's not like they would send someone after me for this... )"
+  translation: "(Не думаю, что они пошлют кого-то за мной из-за этого... )"
+  speaker: "Zoey"
+  rich_text: "<i>(It's not like they would send someone after me for this... )</i>"
+  rich_translation: "<i>(Не думаю, что они пошлют кого-то за мной из-за этого... )</i>"
+

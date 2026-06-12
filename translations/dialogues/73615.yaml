@@ -1,0 +1,44 @@
+# Dialogues (path_id=73615)
+
+- text: "Things got a bit heated, hmm?"
+  translation: "Стало жарковато, хм?"
+
+- text: "Er-... Um-... How do you-... know...?"
+  translation: "Э-... Эм-... Откуда ты-... знаешь...?"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>Er-... Um-... How do you-... know...?</color>"
+  rich_translation: "<color=#EB83FF>Э-... Эм-... Откуда ты-... знаешь...?</color>"
+
+- text: "You're all sweaty, darling."
+  translation: ""
+
+- text: "Ah-... S-sorry... Just, um... All the walking around..."
+  translation: "А-... П-прости... Просто, эм... Вся эта ходьба..."
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>Ah-... S-sorry... Just, um... All the walking around...</color>"
+  rich_translation: "<color=#EB83FF>А-... П-прости... Просто, эм... Вся эта ходьба...</color>"
+
+- text: "Walking, hmmm? Riiight..."
+  translation: ""
+
+- text: "Should I go and freshen up quickly? I don't want to be... like... nasty."
+  translation: "Мне пойти освежиться? Я не хочу быть... такой... противной."
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>Should I go and freshen up quickly? I don't want to be... like... nasty.</color>"
+  rich_translation: "<color=#EB83FF>Мне пойти освежиться? Я не хочу быть... такой... противной.</color>"
+
+- text: "Huh? Why would you? It's hot!"
+  translation: "А? Зачем? Это sexy!"
+
+- text: "Trust me, shiny skin looks amazing on you, ehehe."
+  translation: ""
+
+- text: "Oh, um... okay. I-... I'll stay like this then...?"
+  translation: "О, эм... ладно. Я-... Я останусь так тогда...?"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>Oh, um... okay. I-... I'll stay like this then...?</color>"
+  rich_translation: "<color=#EB83FF>О, эм... ладно. Я-... Я останусь так тогда...?</color>"
+
+- text: "Mhmm, please do, darling."
+  translation: ""
+

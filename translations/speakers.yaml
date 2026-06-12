@@ -1,0 +1,427 @@
+# Speakers
+
+- text: "Zoey"
+  translation: "Зои"
+  gender: "female"
+  notes: "Главная героиня"
+
+- text: "Klaudia"
+  translation: "Клавдия"
+  gender: "female"
+  notes: "Клавдия (русская форма)"
+
+- text: "FINISHED"
+  translation: "ФИНАЛ"
+  gender: "neutral"
+  notes: "Технический маркер FSM — финал диалога"
+
+- text: "Varen"
+  translation: "Варен"
+  gender: "male"
+  notes: "Персонаж (боец/наёмник)"
+
+- text: "Mira"
+  translation: "Мира"
+  gender: "female"
+  notes: "Персонаж (Битнер)"
+
+- text: "Leona"
+  translation: "Леона"
+  gender: "female"
+  notes: "Персонаж; в диалогах possible love interest"
+
+- text: "Bunnyboy"
+  translation: "Зайчик"
+  gender: "male"
+  notes: "Официант/работник клуба"
+
+- text: "Rugnar"
+  translation: "Ругнар"
+  gender: "male"
+  notes: "NPC, торговец/криминал"
+
+- text: "Man"
+  translation: "Мужчина"
+  gender: "male"
+  notes: "Собирательный образ; в диалогах разные мужчины"
+
+- text: "Femboy"
+  translation: "Фембой"
+  gender: "male"
+  notes: "Персонаж феминного типа"
+
+- text: "Bunnygirl"
+  translation: "Зайка"
+  gender: "female"
+  notes: "Официантка/работница клуба"
+
+- text: "Trov"
+  translation: "Тров"
+  gender: "male"
+  notes: "Владелец клуба/заведения"
+
+- text: "Cook"
+  translation: "Повар"
+  gender: "male"
+  notes: "NPC, профессия"
+
+- text: "Customer"
+  translation: "Клиент"
+  gender: "male"
+  notes: "Завсегдатай клуба (Trov), всегда мужчина"
+
+- text: "Athletic"
+  translation: "Атлетичный"
+  gender: "neutral"
+  notes: "Описание типа телосложения NPC"
+
+- text: "AskAboutThem"
+  translation: "Спросить о них"
+  gender: "neutral"
+  notes: "Техническая метка — вариант диалога"
+
+- text: "Horny"
+  translation: "Возбуждённый"
+  gender: "neutral"
+  notes: "Эмоция/ветка диалога"
+
+- text: "Surprised"
+  translation: "Удивлён"
+  gender: "neutral"
+  notes: "Эмоция/ветка диалога"
+
+- text: "OnChoiceSelected"
+  translation: "ВЫБРАНО"
+  gender: "neutral"
+  notes: "Технический маркер FSM — выбран вариант"
+
+- text: "Remove"
+  translation: "Удалить"
+  gender: "neutral"
+  notes: "Реплика действия"
+
+- text: "Look"
+  translation: "Осмотреть"
+  gender: "neutral"
+  notes: "Реплика действия"
+
+- text: "Agree"
+  translation: "Согласиться"
+  gender: "neutral"
+  notes: "Реплика согласия"
+
+- text: "Dialogue"
+  translation: "ДИАЛОГ"
+  gender: "neutral"
+  notes: "Технический маркер FSM — блок диалога"
+
+- text: "SaveKey"
+  translation: "СОХРАНИТЬ"
+  gender: "neutral"
+  notes: "Технический маркер FSM — ключ сохранения"
+
+- text: "Decline"
+  translation: "Отказаться"
+  gender: "neutral"
+  notes: "Кнопка/реплика отказа"
+
+- text: "MusicToPlay"
+  translation: "МУЗЫКА"
+  gender: "neutral"
+  notes: "Технический маркер FSM — музыка"
+
+- text: "Yes"
+  translation: "Да"
+  gender: "neutral"
+  notes: "Кнопка согласия"
+
+- text: "Leave"
+  translation: "Уйти"
+  gender: "neutral"
+  notes: "Кнопка/реплика ухода"
+
+- text: "Cancel"
+  translation: "Отмена"
+  gender: "neutral"
+  notes: "Кнопка отмены"
+
+- text: "Salesman"
+  translation: "Продавец"
+  gender: "male"
+  notes: "Торговец в магазине"
+
+- text: "Enforcer"
+  translation: "Силовик"
+  gender: "male"
+  notes: "Общий тег для силовиков"
+
+- text: "???"
+  translation: "???"
+  gender: "???"
+  notes: "Неизвестный персонаж (картель, комната 205, объект)"
+
+- text: "Jay"
+  translation: "Джей"
+  gender: "male"
+  notes: "Персонаж"
+
+- text: "Cartel Guy"
+  translation: "Картельный"
+  gender: "male"
+  notes: "Член наркокартеля"
+
+- text: "Sarah"
+  translation: "Сара"
+  gender: "female"
+  notes: "Персонаж (жрица любви)"
+
+- text: "Nova"
+  translation: "Нова"
+  gender: "female"
+  notes: "Персонаж"
+
+- text: "Woman"
+  translation: "Девушка"
+  gender: "female"
+  notes: "Картельная / клиентка массажа"
+
+- text: "Enforcer 1483"
+  translation: "Силовик 1483"
+  gender: "male"
+  notes: "Пол не указан, речь мужская"
+
+- text: "Salon Clerk"
+  translation: "Сотрудница салона"
+  gender: "female"
+  notes: "NPC, профессия"
+
+- text: "Enforcer 1520"
+  translation: "Силовик 1520"
+  gender: "male"
+  notes: "Пол не указан, речь мужская"
+
+- text: "Max"
+  translation: "Макс"
+  gender: "female"
+  notes: "Персонаж женского пола (андроид)"
+
+- text: "Lio"
+  translation: "Лио"
+  gender: "male"
+  notes: "Персонаж (Лиам/Lio)"
+
+- text: "Jaime"
+  translation: "Джейми"
+  gender: "male"
+  notes: "Сосед, речь мужская"
+
+- text: "Klark"
+  translation: "Кларк"
+  gender: "male"
+  notes: "Персонаж"
+
+- text: "Hooligan"
+  translation: "Хулиган"
+  gender: "male"
+  notes: "Уличный громила, речь мужская"
+
+- text: "The Boss"
+  translation: "Шеф"
+  gender: "male"
+  notes: "Глава картеля/антагонист"
+
+- text: "Skank"
+  translation: "Шлюшка"
+  gender: "female"
+  notes: "Персонаж секс-работницы; в диалогах возможна вариативность"
+
+- text: "Intercom"
+  translation: "Интерком"
+  gender: "male"
+  notes: "Мужской голос по интеркому"
+
+- text: "Rosie"
+  translation: "Рози"
+  gender: "female"
+  notes: "Персонаж"
+
+- text: "AboultCauldron"
+  translation: "О Котле"
+  gender: "neutral"
+  notes: "Техническая метка — диалог про Котёл (локация/группировка)"
+
+- text: "Pouting"
+  translation: "Надутый"
+  gender: "neutral"
+  notes: "Эмоция/ветка диалога"
+
+- text: "Guy"
+  translation: "Парень"
+  gender: "male"
+  notes: "Рядовой персонаж мужского пола"
+
+- text: "Sad"
+  translation: "Грустный"
+  gender: "neutral"
+  notes: "Эмоция/ветка диалога"
+
+- text: "Angry"
+  translation: "Злой"
+  gender: "neutral"
+  notes: "Эмоция/ветка диалога"
+
+- text: "Cocky"
+  translation: "Наглый"
+  gender: "neutral"
+  notes: "Эмоция/ветка диалога"
+
+- text: "Mewing"
+  translation: "Мяукающий"
+  gender: "neutral"
+  notes: "Эмоция/звукоподражание"
+
+- text: "Lewd"
+  translation: "Пошлый"
+  gender: "neutral"
+  notes: "Эмоция/ветка диалога"
+
+- text: "Scheming"
+  translation: "Коварный"
+  gender: "neutral"
+  notes: "Эмоция/ветка диалога"
+
+- text: "Help"
+  translation: "Помощь"
+  gender: "neutral"
+  notes: "Реплика/кнопка"
+
+- text: "Logs"
+  translation: "Логи"
+  gender: "neutral"
+  notes: "Реплика/кнопка"
+
+- text: "GroundFloor"
+  translation: "Первый этаж"
+  gender: "neutral"
+  notes: "Локация"
+
+- text: "UpperFloor"
+  translation: "Верхний этаж"
+  gender: "neutral"
+  notes: "Локация"
+
+- text: "Empty"
+  translation: "Пусто"
+  gender: "neutral"
+  notes: "Состояние локации"
+
+- text: "Girl"
+  translation: "Девушка"
+  gender: "female"
+  notes: "NPC, описание"
+
+- text: "Shoked"
+  translation: "Шокированный"
+  gender: "neutral"
+  notes: "Эмоция (опечатка в оригинале — Shoked вместо Shocked)"
+
+- text: "Silly"
+  translation: "Глупый"
+  gender: "neutral"
+  notes: "Эмоция/ветка диалога"
+
+- text: "Laughing"
+  translation: "Смеющийся"
+  gender: "neutral"
+  notes: "Эмоция/ветка диалога"
+
+- text: "BUUWC"
+  translation: ""
+  gender: "neutral"
+  notes: "Технический акроним/код — оставить как есть"
+
+- text: "ToCallOnUse"
+  translation: ""
+  gender: "neutral"
+  notes: "Технический маркер FSM — вызов при использовании"
+
+- text: "CVU"
+  translation: ""
+  gender: "neutral"
+  notes: "Технический акроним/код — оставить как есть"
+
+- text: "OrderSlutService"
+  translation: ""
+  gender: "neutral"
+  notes: "Технический маркер FSM — заказ секс-услуги"
+
+- text: "ToCallOnDialogueDone"
+  translation: ""
+  gender: "neutral"
+  notes: "Технический маркер FSM — вызов при завершении диалога"
+
+- text: "CUUAC"
+  translation: ""
+  gender: "neutral"
+  notes: "Технический акроним/код — оставить как есть"
+
+- text: "Cancelled"
+  translation: "Отменено"
+  gender: "neutral"
+  notes: "Состояние квеста/события"
+
+- text: "Lockpick"
+  translation: "Отмычка"
+  gender: "neutral"
+  notes: "Предмет/реплика"
+
+- text: "CUU"
+  translation: ""
+  gender: "neutral"
+  notes: "Технический акроним/код — оставить как есть"
+
+- text: "Mission"
+  translation: "Миссия"
+  gender: "neutral"
+  notes: "FSM/тип квеста"
+
+- text: "Triggered"
+  translation: "Сработало"
+  gender: "neutral"
+  notes: "Состояние триггера"
+
+- text: "CUUyC"
+  translation: ""
+  gender: "neutral"
+  notes: "Технический акроним/код — оставить как есть"
+
+- text: "OnAccepted"
+  translation: ""
+  gender: "neutral"
+  notes: "Технический маркер FSM — событие принятия"
+
+- text: "Press"
+  translation: "Нажать"
+  gender: "neutral"
+  notes: "Действие/кнопка"
+
+- text: "Interacted"
+  translation: ""
+  gender: "neutral"
+  notes: "Технический маркер FSM — взаимодействие"
+
+- text: "FollowHer"
+  translation: "Идти за ней"
+  gender: "neutral"
+  notes: "Реплика/действие"
+
+- text: "Accept"
+  translation: "Принять"
+  gender: "neutral"
+  notes: "Кнопка/реплика"
+
+- text: "Undress"
+  translation: "Раздеть"
+  gender: "neutral"
+  notes: "Кнопка/реплика"
+

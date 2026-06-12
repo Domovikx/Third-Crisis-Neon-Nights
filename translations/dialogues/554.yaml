@@ -1,0 +1,10 @@
+# Dialogues (path_id=554)
+
+- text: "And where the fuck do you think you're going, huh?"
+  translation: "И куда, блядь, ты собралась, а?"
+
+- text: "Gah- S-Sorry!"
+  translation: "А- П-Простите!"
+  rich_text: "<color=#EB83FF>Gah- S-Sorry!</color>"
+  rich_translation: "<color=#EB83FF>А- П-Простите!</color>"
+

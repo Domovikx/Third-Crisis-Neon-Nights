@@ -1,0 +1,12 @@
+# Dialogues (path_id=1587)
+
+- text: "Hope Klaudia doesn fin out, heh..!  Hic.. !"
+  translation: "Надеюсь, Клавдия не узнает, хе-хе..!  Ик.. !"
+  rich_text: "Hope Klaudia doesn fin out, heh..! <i> Hic.. !</i>"
+  rich_translation: "Надеюсь, Клавдия не узнает, хе-хе..! <i> Ик.. !</i>"
+
+- text: "(If Klaudia checks up on him, I should have enough time to slip past upstairs. )"
+  translation: "(Если Клавдия пойдёт проверить его, у меня будет время прошмыгнуть наверх.)"
+  rich_text: "<i>(If Klaudia checks up on him, I should have enough time to slip past upstairs. )</i>"
+  rich_translation: "<i>(Если Клавдия пойдёт проверить его, у меня будет время прошмыгнуть наверх.)</i>"
+

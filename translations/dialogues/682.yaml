@@ -1,0 +1,13 @@
+# Dialogues (path_id=682)
+
+- text: "(Huh... Sounds like someone is having fun in there...)"
+  translation: "(Хм... Похоже, там кто-то развлекается...)"
+  speaker: "Zoey"
+  rich_text: "<i>(Huh... Sounds like someone is having fun in there...)</i>"
+  rich_translation: "<i>(Хм... Похоже, там кто-то развлекается...)</i>"
+
+- text: "(Probably not the right door then.)"
+  translation: "(Значит, не та дверь.)"
+  rich_text: "<i>(Probably not the right door then.)</i>"
+  rich_translation: "<i>(Значит, не та дверь.)</i>"
+

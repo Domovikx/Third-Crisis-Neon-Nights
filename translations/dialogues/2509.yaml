@@ -1,0 +1,47 @@
+# Dialogues (path_id=2509)
+
+- text: "Me? Uh-... Nothing. I'm just taking a walk."
+  translation: "Мне? Эм-... Ничего. Просто прогуливаюсь."
+  speaker: "Zoey"
+
+- text: "This alley doesn't exactly look like a nice stroll, now does it?"
+  translation: ""
+
+- text: "It's a lot prettier with her in it now, hehehe."
+  translation: ""
+
+- text: "Th-thanks, heh... I- um. I should probably-"
+  translation: "С-спасибо, хех... Я- эм. Мне, наверное-"
+  speaker: "Zoey"
+
+- text: "Shut up, you're scaring our customer."
+  translation: ""
+
+- text: "Scaring? I'm just complimenting this pretty lady. So, cutie, how much do you want?"
+  translation: ""
+
+- text: "Unsure what they are talking about"
+  translation: "Не понимает, о чём они"
+
+- text: "50 for two hits, 200 for five. Clean Glow. Price has gone up with the raid."
+  translation: ""
+
+- text: "(Glow...? They're trying to sell me drugs?)"
+  translation: "(Глоу...? Они пытаются впарить мне наркотики?)"
+  speaker: "Zoey"
+  rich_text: "<i>(Glow...? They're trying to sell me drugs?)</i>"
+  rich_translation: "<i>(Глоу...? Они пытаются впарить мне наркотики?)</i>"
+
+- text: "Hah-...! Th-thanks, but-... I don't-... Uhm... Yeah... I-"
+  translation: "Ха-...! С-спасибо, но-... Я не-... М-м... Да... Я-"
+  speaker: "Zoey"
+
+- text: "Now, now. Short on cash, hm? I'm happy to discuss a... unique price for someone of your... proportions."
+  translation: "Ну-ну. Денег нет, да? Я готов обсудить... особую цену для человека твоих... пропорций."
+  rich_text: "Now, now. Short on cash, hm? I'm happy to discuss a... <i>unique</i> price for someone of your... <b>proportions</b>."
+  rich_translation: "Ну-ну. Денег нет, да? Я готов обсудить... <i>особую</i> цену для человека твоих... <b>пропорций</b>."
+
+- text: "No, sorry, I like-... I don't do this... sorta stuff."
+  translation: "Нет, прости, я вроде-... Я не занимаюсь... таким."
+  speaker: "Zoey"
+

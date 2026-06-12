@@ -1,0 +1,14 @@
+# Dialogues (path_id=689)
+
+- text: "(Whew! I made it out of those tunnels it seems!)"
+  translation: "(Уф! Кажется, я выбралась из этих туннелей!)"
+  speaker: "Zoey"
+  rich_text: "<i>(Whew! I made it out of those tunnels it seems!)</i>"
+  rich_translation: "<i>(Уф! Кажется, я выбралась из этих туннелей!)</i>"
+
+- text: "(I'll call Lio to let him know I'm here!)"
+  translation: "(Позвоню Лио, чтобы он знал, что я здесь!)"
+  speaker: "Zoey"
+  rich_text: "<i>(I'll call Lio to let him know I'm here!)</i>"
+  rich_translation: "<i>(Позвоню Лио, чтобы он знал, что я здесь!)</i>"
+

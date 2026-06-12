@@ -1,0 +1,34 @@
+# Dialogues (path_id=1109)
+
+- text: "Here's your drink... sir."
+  translation: ""
+
+- text: "(I let things go way too far last time... )"
+  translation: ""
+  rich_text: "<color=#EB83FF><i>(I let things go way too far last time... )</i></color>"
+  rich_translation: ""
+
+- text: "Excellent service like always."
+  translation: ""
+  speaker: "Varen"
+
+- text: "Excuse my... raw comments on our previous... exchange."
+  translation: ""
+  speaker: "Varen"
+  rich_text: "Excuse my... <i>raw </i>comments on our previous... exchange."
+  rich_translation: ""
+
+- text: "(I guess it wasn't really my fault, that he couldn't behave... )"
+  translation: ""
+  rich_text: "<color=#EB83FF><i>(I guess it wasn't really <b>my</b> fault, that he couldn't behave... )</i></color>"
+  rich_translation: ""
+
+- text: "Come and keep me some company. My manners won't slip again."
+  translation: ""
+  speaker: "Varen"
+
+- text: "(Can I really trust him...?)"
+  translation: ""
+  rich_text: "<color=#EB83FF><i>(Can I really trust him...?)</i></color>"
+  rich_translation: ""
+

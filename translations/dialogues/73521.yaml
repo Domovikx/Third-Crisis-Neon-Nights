@@ -1,0 +1,52 @@
+# Dialogues (path_id=73521)
+
+- text: "..."
+  translation: "..."
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>... </color>"
+  rich_translation: "<color=#EB83FF>...</color>"
+
+- text: "(I-... I guess that's... fine...?)"
+  translation: "(Я-... Наверное, это... нормально...?)"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF><i>(I-... I guess that's... fine...?)</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Я-... Наверное, это... нормально...?)</i></color>"
+
+- text: "Alright, um... Just stand here...?"
+  translation: "Ладно, эм... Просто стоять здесь...?"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>Alright, um... Just stand here...?</color>"
+  rich_translation: "<color=#EB83FF>Ладно, эм... Просто стоять здесь...?</color>"
+
+- text: "Mmm, yess... You're hot up close, bunny..."
+  translation: "Ммм, да... Ты горячая вблизи, зайка..."
+  speaker: "Customer"
+
+- text: "(Getting these customers drunk so they can't help but pay those crazy service prices... That's what this job is really about, isn't it...? Gahh... )"
+  translation: "(Поить клиентов, чтобы платили бешеные цены... Вот в чём суть работы, да...? Тьфу... )"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF><i>(Getting these customers drunk so they can't help but pay those crazy service prices... That's what this job is really about, isn't it...? Gahh... )</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Поить клиентов, чтобы платили бешеные цены... Вот в чём суть работы, да...? Тьфу... )</i></color>"
+
+- text: "(I should stop doing this, it's-... Not right... )"
+  translation: "(Мне стоит перестать это делать, это-... Неправильно... )"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF><i>(I should stop doing this, it's-... Not right... )</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Мне стоит перестать это делать, это-... Неправильно... )</i></color>"
+
+- text: "Too bad waitresses are off the menu... Here's ya tip... *hic*"
+  translation: "Жаль, официантки не в меню... Вот твои чаевые... *ик*"
+  speaker: "Customer"
+
+- text: "Tip-... Right... Th-thanks..."
+  translation: "Чаевые-... А, да... С-спасибо..."
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>Tip-... Right... Th-thanks...</color>"
+  rich_translation: "<color=#EB83FF>Чаевые-... А, да... С-спасибо...</color>"
+
+- text: "(Paid just to be... Looked at...?)"
+  translation: "(Просто заплатили... Чтобы смотрели...?)"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF><i>(Paid just to be... Looked at...?)</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Просто заплатили... Чтобы смотрели...?)</i></color>"
+

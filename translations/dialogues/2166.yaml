@@ -1,0 +1,18 @@
+# Dialogues (path_id=2166)
+
+- text: "Jaime's headset..."
+  translation: ""
+
+- text: "You want it? Thing's broken. It's useless now."
+  translation: ""
+
+- text: "(Something's wrong with the system... Jaime was wearing this when... )"
+  translation: "(Что-то не так с системой... Джейми была в ней, когда...)"
+  rich_text: "<i>(Something's wrong with the system... Jaime was wearing this when... )</i>"
+  rich_translation: "<i>(Что-то не так с системой... Джейми была в ней, когда...)</i>"
+
+- text: "(Maybe someone tech- savvy enough can shed some light on what happened. )"
+  translation: "(Может, кто-то достаточно разбирающийся в технике сможет пролить свет на случившееся.)"
+  rich_text: "<i>(Maybe someone tech- savvy enough can shed some light on what happened. )</i>"
+  rich_translation: "<i>(Может, кто-то достаточно разбирающийся в технике сможет пролить свет на случившееся.)</i>"
+

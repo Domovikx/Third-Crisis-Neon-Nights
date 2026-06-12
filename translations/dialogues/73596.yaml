@@ -1,0 +1,18 @@
+# Dialogues (path_id=73596)
+
+- text: "Y'er tit flaps are blocking ya tip, waitresh *hic*."
+  translation: "Твои титьки закрывают чаевые, официантка *ик*."
+  speaker: "Customer"
+
+- text: "Blocking my tip...?"
+  translation: "Закрывают чаевые...?"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>Blocking my tip...?</color>"
+  rich_translation: "<color=#EB83FF>Закрывают чаевые...?</color>"
+
+- text: "Oh-... I see..."
+  translation: "О-... Понятно..."
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>Oh-... I see...</color>"
+  rich_translation: "<color=#EB83FF>О-... Понятно...</color>"
+

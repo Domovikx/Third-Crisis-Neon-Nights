@@ -1,0 +1,12 @@
+# Dialogues (path_id=1539)
+
+- text: "(Oh.. We missed this note when cleaning up.. )"
+  translation: "(Ой.. Мы пропустили эту записку, когда убирались.. )"
+  rich_text: "<i>(Oh.. We missed this note when cleaning up.. )</i>"
+  rich_translation: "<i>(Ой.. Мы пропустили эту записку, когда убирались.. )</i>"
+
+- text: "(Heh. That's one way to get to a code. )"
+  translation: "(Хех. Это один способ получить код.)"
+  rich_text: "<i>(Heh. That's one way to get to a code. )</i>"
+  rich_translation: "<i>(Хех. Это один способ получить код.)</i>"
+

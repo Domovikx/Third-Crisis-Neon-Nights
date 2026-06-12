@@ -1,0 +1,36 @@
+# Dialogues (path_id=2505)
+
+- text: "What are you doing here? Is she okay?"
+  translation: "Что ты здесь делаешь? С ней всё в порядке?"
+
+- text: "I don't care and neither should you. Bitch had it coming. This is what happens to terrorists."
+  translation: "Мне плевать, и тебе должно быть плевать. Сука сама напросилась. Вот что бывает с террористами."
+  speaker: "Enforcer"
+
+- text: "Calling themselves \"resistance\", hah! Didn't resist much once we stuck that glow in her neck. Rattet out all her friends in this building too."
+  translation: "Называют себя \"сопротивлением\", ха! Не особо сопротивлялась, когда мы вставили ей в шею глоу. Сдала всех своих друзей в этом здании."
+  speaker: "Enforcer"
+
+- text: "Not exactly sure what they're trying to resist. Ah-.. Who cares. Soon we'll have every single one of them sent off to Compliance Ward."
+  translation: "Не уверен, чему они там сопротивляются. А-.. Кому плевать. Скоро мы каждого из них отправим в Палату Покорности."
+  speaker: "Enforcer"
+
+- text: "Right-.. Look-.. Terrorist or not. She doesn't look okay. I think she might need help."
+  translation: ""
+
+- text: "Why the fuck do you care so much about that terrorist bitch? You're not one of them, are you?!"
+  translation: "Какого хрена ты так печёшься о той террористке? Ты что, одна из них?!"
+  speaker: "Enforcer"
+
+- text: "Wh- what? No! I-"
+  translation: "Ч-что? Нет! Я-"
+
+- text: "Then turn around and leave before I change my mind!"
+  translation: "Тогда разворачивайся и уходи, пока я не передумал!"
+  speaker: "Enforcer"
+
+- text: "(Fuck..! What do I do..?)"
+  translation: "(Бля..! Что же делать..?)"
+  rich_text: "<i>(Fuck..! What do I do..?)</i>"
+  rich_translation: "<i>(Бля..! Что же делать..?)</i>"
+

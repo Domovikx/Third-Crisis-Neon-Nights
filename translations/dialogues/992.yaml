@@ -1,0 +1,24 @@
+# Dialogues (path_id=992)
+
+- text: "What can I get you, ma'am?"
+  translation: ""
+  speaker: "Zoey"
+
+- text: "Ah-...! Um... H-hi...!"
+  translation: ""
+  speaker: "Mira"
+
+- text: "You mean the Strawberry Cream?"
+  translation: ""
+  speaker: "Zoey"
+
+- text: "T-that one...! M-mhm...!"
+  translation: ""
+  speaker: "Mira"
+
+- text: "(She seems a bit tense... )"
+  translation: ""
+  speaker: "Zoey"
+  rich_text: "<i>(She seems a bit tense... )</i>"
+  rich_translation: ""
+

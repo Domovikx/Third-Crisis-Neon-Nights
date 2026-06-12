@@ -1,0 +1,12 @@
+# Dialogues (path_id=985)
+
+- text: "What do you want... Sir...?"
+  translation: ""
+  speaker: "Zoey"
+
+- text: "(He better tip me again... )"
+  translation: ""
+  speaker: "Zoey"
+  rich_text: "<i>(He better tip me again... )</i>"
+  rich_translation: ""
+

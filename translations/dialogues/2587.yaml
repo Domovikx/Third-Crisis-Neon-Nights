@@ -1,0 +1,21 @@
+# Dialogues (path_id=2587)
+
+- text: "Here... I took the picture."
+  translation: ""
+
+- text: "Well, well. Full of surprises, aren't ya? I was expecting ya to flash me. Didn't think you'd actually show me her tits instead."
+  translation: "Ну-ну. Полна сюрпризов, да? Я думал, ты мне грудь покажешь, а не её."
+  speaker: "Man"
+
+- text: "Of course, a deal's a deal. Here, take this to our sexy friend."
+  translation: "Конечно, уговор есть уговор. Вот, передай нашей сексуальной подружке."
+  speaker: "Man"
+
+- text: "Right. Thanks."
+  translation: ""
+
+- text: "(What have I done?)"
+  translation: "(Что я наделала?)"
+  rich_text: "<i>(What have I done?)</i>"
+  rich_translation: "<i>(Что я наделала?)</i>"
+

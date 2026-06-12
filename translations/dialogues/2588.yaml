@@ -1,0 +1,11 @@
+# Dialogues (path_id=2588)
+
+- text: "Yeah, well- Whatever. Are we good now?"
+  translation: "Ага, ну- Ладно. Мы в расчёте?"
+  speaker: "Zoey"
+
+- text: "(Fuckin' idiot. He didn't even realize.)"
+  translation: "(Чёртов идиот. Он даже не понял.)"
+  rich_text: "<i>(Fuckin' idiot. He didn't even realize.)</i>"
+  rich_translation: "<i>(Чёртов идиот. Он даже не понял.)</i>"
+

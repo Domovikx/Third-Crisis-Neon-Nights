@@ -1,0 +1,35 @@
+# Dialogues (path_id=1205)
+
+- text: "Enjoying the view, hun?~"
+  translation: "Наслаждаешься видом, зайка?~"
+
+- text: "Khh-..! I-.. I wasn't-.."
+  translation: ""
+
+- text: "You weren't staring at my tits? D'aww.. You really should! Outfit is made for it, ehehe!~"
+  translation: ""
+
+- text: "(That's... that's one of the massage rooms...)"
+  translation: "(Это... это один из массажных кабинетов...)"
+  speaker: "Zoey"
+  rich_text: "<i>(That's... that's one of the massage rooms...)</i>"
+  rich_translation: "<i>(Это... это один из массажных кабинетов...)</i>"
+
+- text: "(A recording from yesterday... this system is always recording...)"
+  translation: "(Запись со вчерашнего... эта система всё время записывает...)"
+  speaker: "Zoey"
+  rich_text: "<i>(A recording from yesterday... this system is always recording...)</i>"
+  rich_translation: "<i>(Запись со вчерашнего... эта система всё время записывает...)</i>"
+
+- text: "(There's Max-...)"
+  translation: "(Там Макс-...)"
+  speaker: "Zoey"
+  rich_text: "<i>(There's Max-...)</i>"
+  rich_translation: "<i>(Там Макс-...)</i>"
+
+- text: "(And... a customer...)"
+  translation: "(И... клиент...)"
+  speaker: "Zoey"
+  rich_text: "<i>(And... a customer...)</i>"
+  rich_translation: "<i>(И... клиент...)</i>"
+

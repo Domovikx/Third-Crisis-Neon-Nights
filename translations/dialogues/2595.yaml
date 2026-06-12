@@ -1,0 +1,18 @@
+# Dialogues (path_id=2595)
+
+- text: "(What she doesn't know can't hurt her...)"
+  translation: "(Чего она не знает, то ей не навредит...)"
+  rich_text: "<i>(What she doesn't know can't hurt her...)</i>"
+  rich_translation: "<i>(Чего она не знает, то ей не навредит...)</i>"
+
+- text: "(At least I helped her. No one else was going to. It's fine.)"
+  translation: "(По крайней мере, я помогла ей. Больше никто бы не стал. Всё нормально.)"
+  rich_text: "<i>(At least I helped her. No one else was going to. It's fine.)</i>"
+  rich_translation: "<i>(По крайней мере, я помогла ей. Больше никто бы не стал. Всё нормально.)</i>"
+
+- text: "This one detects a new battery. Was that your doing?"
+  translation: ""
+
+- text: "Yep, that was me."
+  translation: ""
+

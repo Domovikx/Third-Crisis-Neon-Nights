@@ -1,0 +1,11 @@
+# Dialogues (path_id=752)
+
+- text: "Hey darling! Another shift?"
+  translation: ""
+
+- text: "(So that's his favorite band?)"
+  translation: "(Так это его любимая группа?)"
+  speaker: "Zoey"
+  rich_text: "<i>(So that's his favorite band?)</i>"
+  rich_translation: "<i>(Так это его любимая группа?)</i>"
+

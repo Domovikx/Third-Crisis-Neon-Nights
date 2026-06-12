@@ -1,0 +1,12 @@
+# Dialogues (path_id=594)
+
+- text: "(They look anything but comfortable to walk in.. )"
+  translation: "(Они выглядят совсем не удобными для ходьбы..)"
+  rich_text: "<i>(They look anything but comfortable to walk in.. )</i>"
+  rich_translation: "<i>(Они выглядят совсем не удобными для ходьбы..)</i>"
+
+- text: "(I guess their appeal are more important to her than the comfort.. She looks so tall and.. dominant in them.. )"
+  translation: "(Наверное, их привлекательность для неё важнее удобства.. В них она выглядит такой высокой и.. доминантной..)"
+  rich_text: "<i>(I guess their appeal are more important to her than the comfort.. She looks so tall and.. <color=#EB83FF>dominant</color> in them.. )</i>"
+  rich_translation: "<i>(Наверное, их привлекательность для неё важнее удобства.. В них она выглядит такой высокой и.. <color=#EB83FF>доминантной</color>..)</i>"
+

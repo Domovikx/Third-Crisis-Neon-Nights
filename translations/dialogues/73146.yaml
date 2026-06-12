@@ -1,0 +1,19 @@
+# Dialogues (path_id=73146)
+
+- text: "They suddenly begin groping Zoey on the train"
+  translation: "Они внезапно начинают лапать Зои в поезде"
+
+- text: "Say cheese~!"
+  translation: "Скажи сы-ы-ыр~!"
+
+- text: "We think it's time for a little~"
+  translation: "Мы думаем, пришло время для маленького~"
+
+- text: "- close up~!"
+  translation: "-крупного плана~!"
+
+- text: "(Their hands feel kinda good-... I-... Nh... )"
+  translation: "(Их руки такие приятные-... Я-... Нх... )"
+  rich_text: "<i>(Their hands feel <color=#EB83FF>kinda good-...</color> I-... Nh... )</i>"
+  rich_translation: "<i>(Их руки такие <color=#EB83FF>приятные-...</color> Я-... Нх... )</i>"
+

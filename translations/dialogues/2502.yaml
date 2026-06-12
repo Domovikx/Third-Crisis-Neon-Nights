@@ -1,0 +1,15 @@
+# Dialogues (path_id=2502)
+
+- text: "M-Mmm... You should come take mooore than just pictures~"
+  translation: ""
+
+- text: "(I might be a little too tipsy for this...)"
+  translation: "(Я, кажется, перебрала для такого...)"
+  rich_text: "<i>(I might be a little too tipsy for this...)</i>"
+  rich_translation: "<i>(Я, кажется, перебрала для такого...)</i>"
+
+- text: "Have some fun with her?"
+  translation: "Развлечься с ней?"
+  rich_text: "<i>Have some fun with her?</i>"
+  rich_translation: "<i>Развлечься с ней?</i>"
+

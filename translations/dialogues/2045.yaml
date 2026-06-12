@@ -1,0 +1,13 @@
+# Dialogues (path_id=2045)
+
+- text: "(An old picture of Sarah and me. )"
+  translation: "(Старая фотография Сары и меня. )"
+  speaker: "Zoey"
+  rich_text: "<i>(An old picture of Sarah and me. )</i>"
+  rich_translation: "<i>(Старая фотография Сары и меня. )</i>"
+
+- text: "(A lot changed because of the crisis, but she is still her old self. )"
+  translation: "(Многое изменилось из-за кризиса, но она всё та же. )"
+  rich_text: "<i>(A lot changed because of the crisis, but she is still her old self. )</i>"
+  rich_translation: "<i>(Многое изменилось из-за кризиса, но она всё та же. )</i>"
+

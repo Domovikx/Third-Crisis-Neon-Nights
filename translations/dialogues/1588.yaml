@@ -1,0 +1,36 @@
+# Dialogues (path_id=1588)
+
+- text: "Drunk, slurred speech"
+  translation: "Пьяный, заплетающийся голос"
+
+- text: "(Is he-.. drunk?)"
+  translation: "(Он-.. пьян?)"
+  rich_text: "<i>(Is he-.. drunk?)</i>"
+  rich_translation: "<i>(Он-.. пьян?)</i>"
+
+- text: "Are you Cal?"
+  translation: "Ты Кэл?"
+  speaker: "Zoey"
+
+- text: "Your friend Mynx asked me to go find you and send you to him!"
+  translation: ""
+
+- text: "Oh, okay, he seemed pretty urgent, are you sure?"
+  translation: "О, ладно, он говорил, это срочно, ты уверен?"
+
+- text: "Yeees yeees, I'll be thereee!  Hic-..! I have to finish ma drink! Eheh!"
+  translation: "Да-а-а, я бу-у-уду! Ик-..! Мне надо допить! Хех!"
+  rich_text: "Yeees yeees, I'll be thereee! <i> Hic-..</i>! I have to finish ma drink! Eheh!"
+  rich_translation: "Да-а-а, я бу-у-уду! <i> Ик-..</i>! Мне надо допить! Хех!"
+
+- text: "Uhh, okay-..! Sweet drink, huh?"
+  translation: ""
+
+- text: "(If I tell Klaudia about one of her boys being drunk, maybe that will distract her for a moment.. !)"
+  translation: "(Если я скажу Клавдии, что один из её парней пьян, может, это отвлечёт её на минуту..!)"
+  rich_text: "<i>(If I tell Klaudia about one of her boys being drunk, maybe that will distract her for a moment.. !)</i>"
+  rich_translation: "<i>(Если я скажу Клавдии, что один из её парней пьян, может, это отвлечёт её на минуту..!)</i>"
+
+- text: "Sweet drinks are the best!"
+  translation: "Сладкие напитки — это лучшее!"
+

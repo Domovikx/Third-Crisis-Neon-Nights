@@ -1,0 +1,12 @@
+# Dialogues (path_id=73526)
+
+- text: "'Ey waitress... Come keep me som' company with ya' hot bodyy, ehhh? *hic*"
+  translation: "Эй, официантка... Составь мне компанию своим горячим телом, а? *ик*"
+  speaker: "Customer"
+
+- text: "(Should I-... )"
+  translation: "(Стоит ли...?)"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF><i>(Should I-... )</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Стоит ли...?)</i></color>"
+

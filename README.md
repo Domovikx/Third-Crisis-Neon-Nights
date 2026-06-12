@@ -1,162 +1,191 @@
-# Third Crisis Neon Nights — Технический анализ
+# Third Crisis: Neon Nights — Русская локализация
 
-[![GitHub release](https://img.shields.io/github/v/release/Domovikx/Third-Crisis-Neon-Nights)](https://github.com/Domovikx/Third-Crisis-Neon-Nights/releases)
-[![License](https://img.shields.io/github/license/Domovikx/Third-Crisis-Neon-Nights)](LICENSE)
+> **⚠️ 18+ ONLY**
+> Данный репозиторий содержит материалы (диалоги, UI, описания) из игры **Third Crisis: Neon Nights** — произведения для взрослых.
+> Весь контент предназначен исключительно для лиц старше 18 лет.
+>
+> Администрация GitHub допускает такой контент в образовательных, художественных и исторических целях согласно [Acceptable Use Policies — Sexually Obscene Content](https://docs.github.com/en/site-policy/acceptable-use-policies/github-sexually-obscene-content).
+>
+> _If you are under 18, please leave this repository._
 
-Кастомный инструментарий локализации для игры **Third Crisis Neon Nights** (Anduo Games).
+> Инструментарий для извлечения, перевода и рантайм-замены текста игры **Third Crisis: Neon Nights** (Anduo Games).
+> Парсинг Unity через UnityPy + структурированный дамп ассетов + рантайм-переводчик C# через scan-and-replace.
 
-В репозитории только наши файлы. Всё стороннее (BepInEx, XUnity, Doorstop, Mono)
-удалено и будет переустановлено с нуля.
+**Поисковые теги:** `Third Crisis Neon Nights` `русская локализация` `русификатор` `Russian translation` `Anduo Games` `Unity 2022.3` `PlayMaker` `визуальная новелла` `киберпанк` `перевод игры` `Python` `YAML` `BepInEx`
 
-## Инструменты
+---
+
+## Об игре
+
+**Third Crisis: Neon Nights** — приквел к Third Crisis, действие через 3 года после мирового кризиса. Киберпанк-метрополия Neon City, коррумпированное правительство GAG, наёмница Зои Мэдисон. Выборы, соблазны, выживание. RPG / Visual Novel на Unity 2022.3.62f3 (URP) со скриптингом PlayMaker FSM.
+
+Страницы: [Steam](https://store.steampowered.com/app/3400350/Third_Crisis_Neon_Nights/) · [Itch.io](https://anduogames.itch.io/third-crisis-neon-nights)
+
+---
+
+## Пайплайн локализации
+
+```
+dump_assets.py ─→ dump_assets/ (140 JSON-файлов: 34 summary + 105 chunk)
+       │
+       ▼
+extractor.py ─→ translations/
+                   ├── dialogues.{path_id}.yaml  (1793 диалога, 4 источника)
+                   ├── speakers.yaml             (23 спикера)
+                   └── settings_keys.yaml        (55 UI-строк)
+       │
+       ▼ (перевод → деплой)
+build.py → runtime/NeonTranslatorRuntime.dll
+build_proxy.py → dwmapi.dll (native proxy)
+```
+
+Все переводы — плоские YAML-файлы (списки `[original, translation, speaker?]`). Рантайм загружает `*.yaml` из `Managed/`.
+
+---
+
+## Быстрый старт
 
 ```bash
-npm run analyze         # Анализ файлов перевода
-npm run translate       # Пакетный перевод непереведённых строк
-npm run translate:dry   # Тестовый прогон (без сохранения)
-npm run find-strings    # Поиск английских строк в бинарниках
+# 1. Дамп ассетов (UnityPy)
+python .opencode/skills/dump-assets/dump_assets.py
+
+# 2. Извлечение переводов
+python .opencode/skills/extract-text/extractor.py
+
+# 3. Тесты
+python .opencode/skills/extract-text/extractor.test.py  # 14 тестов
+python .opencode/skills/build-translator/build.test.py   # 19 тестов
+python .opencode/skills/dump-assets/dump_assets.test.py  # 23 теста
+
+# 4. Сборка
+python .opencode/skills/build-translator/build.py       # сборка DLL
+python .opencode/skills/build-translator/build_proxy.py # сборка прокси
 ```
+
+---
+
+## Ключевые открытия (технические)
+
+### Диалоги: DialogueHistory в resources.assets
+
+Вся структура диалогов (Speaker + Text + color) хранится в сериализованном массиве `DialogueHistory` внутри `resources.assets`. 1793 записи в 4 MonoBehaviour, 23 уникальных спикера.
+
+### UI: Settings.\* ключи
+
+UI-текст читается из `settings_keys` поля summary JSON (реальный display-текст из бинарника). 55 строк: настройки, меню, интерфейс.
+
+### Addressables .bundle: только 4 с текстом
+
+Из 97 бандлов только 4 содержат UI текст: level-cartelhideout, level-glowinghole, 3dsuitcasescene, releasenotesui.
+
+### Scan-and-Replace вместо патча
+
+Перевод в оперативной памяти через NeonLateUpdate + Canvas.willRenderCanvases. Бинарники игры не модифицируются. Длина перевода не ограничена.
+
+---
+
+## Формат YAML
+
+**Диалоги:**
+
+```yaml
+- ["Yesss...!~", "Да-а-а...!~", "Zoey"]
+- ["Fhaaa..!!", "Ахха..!!", "Zoey"]
+```
+
+**UI:**
+
+```yaml
+- ["Fullscreen", "Полный экран"]
+```
+
+**Персонажи:**
+
+```yaml
+- ["Zoey", "Зои", "female"]
+```
+
+Пустая строка `""` на месте перевода → не переведено.
+
+---
 
 ## Технический анализ
 
-### Движок и стек
+| Компонент    | Версия                             | Примечание                      |
+| ------------ | ---------------------------------- | ------------------------------- |
+| Unity        | 2022.3.62f3 (LTS)                  | URP рендеринг                   |
+| C# Runtime   | .NET 4.x (Mono)                    | IL2CPP не используется          |
+| Фреймворк    | ANToolkit                          | Кастомная система настроек и UI |
+| Скриптинг    | PlayMaker FSM                      | Визуальные скрипты, диалоги     |
+| Локализация  | NeonTranslatorRuntime (самописный) | Scan-and-replace, 0 библиотек   |
+| Сцен         | 16 (level0–15)                     | Бинарные Unity-сцены            |
+| Addressables | 97 .bundle файлов                  | LZ4HC сжатие                    |
 
-| Компонент | Версия | Примечание |
-|-----------|--------|-----------|
-| **Unity** | 2022.3.62f3 | LTS релиз |
-| **Рендеринг** | URP | Universal Render Pipeline |
-| **C# Runtime** | .NET 4.x (Mono) | IL2CPP не используется |
+### Статистика перевода
 
-**Сторонние инструменты (не в репозитории, были удалены):**
-- ~~BepInEx 5.4.23.5~~ — мод-менеджер (удалён)
-- ~~XUnity Auto Translator 5.6.1~~ — плагин перевода (удалён)
-- ~~XUnity Resource Redirector 2.1.0~~ — редирект ресурсов (удалён)
-- ~~Doorstop 4.5.0~~ — загрузчик сборок (удалён)
+| Показатель         | Значение                       |
+| ------------------ | ------------------------------ |
+| Диалогов всего     | 1 793                          |
+| UI-строк           | 55                             |
+| Персонажей         | 23                             |
+| Settings.\* ключей | 55                             |
+| Дампер             | dump_assets.py (UnityPy)       |
+| Экстрактор         | extractor.py (Python)          |
+| Рантайм            | NeonTranslatorRuntime.dll (C#) |
 
-### Архитектура игры
-
-```
-Ядро Unity 2022.3 (URP)
-├── Assembly-CSharp.dll — основной код на C# (NToolkit framework)
-├── PlayMaker.dll — визуальный скриптинг (FSM)
-├── 16 сцен (level0-level15) — весь геймплей и диалоги
-└── Addressables (~97 бандлов) — арт, аудио, анимации
-```
-
-**NToolkit** — внутренний фреймворк игры, покрывающий:
-
-- Контроллеры, Level, Rooms
-- UI (темы, компоненты)
-- Сохранения (Save)
-- Локализация (Localization)
-- Decisions, Behaviours, Effects
-- InputManagement, Audio, Animation
-- Steamworks, Achievements, Analytics
-- ResourceManagement, AssetBundles
-- Toys (Lovense интеграция)
-- Pooling, Extensions, Debugging
-
-### Структура ассетов
-
-Игра использует **Unity Addressables** для потоковой загрузки контента:
-
-| Тип           | Кол-во | Описание                      |
-| ------------- | ------ | ----------------------------- |
-| Sprite        | 129    | Пинапы, UI элементы           |
-| Texture2D     | 51     | Фоны, спрайты                 |
-| SpriteAtlas   | 37     | Атласы спрайтов               |
-| GameObject    | 17     | Префабы CG-анимаций           |
-| Mesh          | 13     | 3D модели                     |
-| AudioClip     | 8      | Музыка, SFX, озвучка          |
-| MonoBehaviour | 3      | Конфиги (пинапы, мастурбация) |
-| VideoClip     | 1      | Видео                         |
-
-### Ключевые сторонние библиотеки (Managed/)
-
-- **PlayMaker** — визуальный скриптинг, диалоги и логика на FSM
-- **spine-csharp / spine-unity** — 2D скелетная анимация
-- **MagicaCloth V2** — симуляция ткани/физики одежды
-- **Newtonsoft.Json** — сериализация данных
-- **CsvHelper** — парсинг CSV (возможно, таблицы диалогов/квестов)
-- **Coffee.UIParticle** — частицы в UI
-- **Coffee.SoftMaskForUGUI** — маски для UI
-- **LeTai.TrueShadow** — тени для UI
-- **Lovense\*** — интеграция с Lovense-игрушками
-- **Tayx.Graphy** — FPS/производительность
-- **AstarPathfindingProject** — поиск путей
-- **Clipper2** — булевы операции с полигонами
-- **Unity.Animation.Rigging** — риггинг анимаций
-
-### Где находится текст игры
-
-Текст игры хранится **внутри сцен** (level0-level15) в компонентах:
-
-- **TextMeshPro** — основной диалоговый текст
-- **UGUI Text** — UI-элементы
-- **PlayMaker FSM** — переменные и строки в визуальных скриптах
-- **MonoBehaviour** — кастомные скрипты NToolkit
-
-XUnity Auto Translator перехватывал их в рантайме — сейчас он удалён, будет написана своя система.
-
-### Файлы перевода
-
-```
-BepInEx/Translation/ru/Text/
-├── _AutoGeneratedTranslations.txt   # Основной файл: оригинал=перевод
-├── _Substitutions.txt               # Субституции (пусто)
-├── _Preprocessors.txt               # Предобработка (пусто)
-└── _Postprocessors.txt              # Постобработка (пусто)
-```
-
-Формат: `оригинальный текст=переведённый текст`
+---
 
 ## Структура репозитория
 
 ```
-├── .opencode/                        # Инструменты opencode (наши)
+├── .opencode/
 │   ├── agents/
-│   │   └── translate-expert.md        # Агент-переводчик
-│   ├── deprecated/                    # Устаревшие файлы
-│   │   └── README.md
-│   └── skills/                        # Скилы opencode
-│       ├── translate-analysis/{SKILL.md, analyze.mjs}
-│       ├── translate-batch/{SKILL.md, batch.mjs}
-│       └── find-strings/{SKILL.md, find.mjs}
-├── .vscode/                          # Настройки VSCode
-│   ├── extensions.json
-│   └── settings.json
-├── BepInEx/Translation/ru/Text/      # Файлы перевода (будет создано)
-├── opencode.json                     # Конфиг opencode
-├── AGENTS.md                         # Правила проекта
-├── package.json                      # Скрипты
+│   │   └── translate-expert.md       # агент-переводчик для opencode
+│   └── skills/
+│       ├── extract-text/
+│       │   ├── extractor.py       # экстрактор из dump_assets/ в YAML
+│       │   ├── extractor.test.py  # 14 тестов
+│       │   ├── parser.py          # [REMOVED] старый парсер (удалён)
+│       │   └── SKILL.md
+│       ├── build-translator/
+│       │   ├── source/               # C# исходники
+│       │   ├── build.py              # сборка DLL
+│       │   ├── build_proxy.py        # сборка dwmapi.dll
+│       │   └── SKILL.md
+│       ├── dump-assets/
+│       │   ├── dump_assets.py        # дампер ассетов
+│       │   ├── dump_assets.test.py   # 23 теста
+│       │   └── SKILL.md
+│       └── deploy-translator/
+│           └── SKILL.md
+├── dump_assets/                      # 140 JSON-файлов (UnityPy дампы)
+├── translations/
+│   ├── dialogues.73203.yaml          # диалоги (1503)
+│   ├── dialogues.73262.yaml          # диалоги (93)
+│   ├── dialogues.73263.yaml          # диалоги (97)
+│   ├── dialogues.73264.yaml          # диалоги (100)
+│   ├── speakers.yaml                 # персонажи (23)
+│   └── settings_keys.yaml            # UI строки (55)
+├── runtime/
+│   └── NeonTranslatorRuntime.dll     # скомпилированная DLL
+├── AGENTS.md                         # правила проекта для opencode
+├── THEORY.md                         # техническая документация
 └── README.md
 ```
 
-## Разработка
-
-### Принцип работы перевода (в планах)
-
-1. BepInEx загружается через Doorstop при старте игры
-2. Кастомный плагин перехватывает TextMeshPro/UGUI компоненты
-3. Оригинальный английский текст перехватывается
-4. Текст ищется в本地 кэше переводов
-5. Если перевода нет — отправляется в Google Translate API
-6. Перевод сохраняется в файл (`BepInEx/Translation/ru/Text/_AutoGeneratedTranslations.txt`)
-
-> Ранее использовался XUnity Auto Translator — удалён, будет заменён кастомным решением.
-
-### Как улучшить перевод
-
-1. **Прямое редактирование**: `BepInEx/Translation/ru/Text/_AutoGeneratedTranslations.txt`
-2. **Субституции**: `_Substitutions.txt` для точной замены фраз
-3. **Pre/Post-processors**: для автоматической обработки текста
-
 ## Требования
 
-- Windows 10/11 64-bit
-- [Node.js](https://nodejs.org/) 16+
+- Python 3.11+
+- UnityPy (`pip install UnityPy`)
+- PyYAML (`pip install PyYAML`)
+- .NET Framework SDK (csc.exe) — для сборки DLL
+- MSVC Build Tools (cl.exe) — для сборки прокси
+- Игра Third Crisis: Neon Nights (Steam)
 
-## Лицензия
+## Лицензия и отказ от ответственности
 
-MIT — перевод и инструменты распространяются свободно.
-Игра Third Crisis Neon Nights © Anduo Games.
+**Инструменты и код** (скрипты сборки, экстрактор, дампер, рантайм) — [MIT](LICENSE). Авторские права на код принадлежат переводчику.
+
+**Файлы перевода** (`translations/*.yaml`, `runtime/`) — [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Вы можете свободно использовать и распространять перевод с указанием авторства, но не в коммерческих целях.
+
+**Отказ от ответственности:** Данный перевод является неофициальной фанатской работой. Авторы перевода не связаны с разработчиками и издателями оригинальной игры. Все права на игру **Third Crisis: Neon Nights** принадлежат [Anduo Games](https://store.steampowered.com/app/3400350/Third_Crisis_Neon_Nights/). Использование перевода требует наличия лицензионной копии игры.

@@ -1,0 +1,18 @@
+# Dialogues (path_id=544)
+
+- text: "One hundred thousand? Are you out of your fucking mind?!"
+  translation: ""
+
+- text: "I am most certainly not. Pay and you get your stolen goods. I'll even include the merc you sent in the price."
+  translation: "Я совершенно точно в своём уме. Плати и получишь свой украденный товар. Я даже включу в цену наёмницу, которую ты прислала."
+  speaker: "Klaudia"
+
+- text: "Grr... She'll pay for this."
+  translation: ""
+
+- text: "Believe me... You'll find her company much more... enjoyable than when you last met her, ehehe."
+  translation: "Поверь... Ты найдёшь её общество гораздо более... приятным, чем при последней встрече, хе-хе-хе."
+  speaker: "Klaudia"
+  rich_text: "Believe me... You'll find her company much more... <b>enjoyable</b> than when you last met her, ehehe."
+  rich_translation: "Поверь... Ты найдёшь её общество гораздо более... <b>приятным</b>, чем при последней встрече, хе-хе-хе."
+

@@ -1,0 +1,13 @@
+# Dialogues (path_id=1610)
+
+- text: "Hh-.. Hi-.. Heh..! We- I mean I'm done, heh!"
+  translation: "Х-х.. При-.. Хех..! Мы- то есть я закончил, хех!"
+  speaker: "Femboy"
+  rich_text: "Hh-.. Hi-.. Heh..! We- I mean <b>I'm</b> done, heh!"
+  rich_translation: "Х-х.. При-.. Хех..! Мы- то есть <b>я</b> закончил, хех!"
+
+- text: "(Wait, was she in here with him?)"
+  translation: "(Погодите, она была здесь с ним?)"
+  rich_text: "<i>(Wait, was she in here with him?)</i>"
+  rich_translation: "<i>(Погодите, она была здесь с ним?)</i>"
+

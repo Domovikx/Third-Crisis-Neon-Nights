@@ -1,0 +1,10 @@
+# Dialogues (path_id=1738)
+
+- text: "I... kinda wanna climb inside..."
+  translation: "Я... вроде как хочу залезть внутрь..."
+  rich_text: "I... kinda w<color=#EB83FF>anna climb inside...</color>"
+  rich_translation: "Я... вроде как х<color=#EB83FF>очу залезть внутрь...</color>"
+
+- text: "Agh-! No I don't! Stop!"
+  translation: "А-! Нет, не хочу! Прекрати!"
+

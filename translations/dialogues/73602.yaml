@@ -1,0 +1,38 @@
+# Dialogues (path_id=73602)
+
+- text: "H-hey waitress, um..."
+  translation: "Э-эй, официантка, эм..."
+  speaker: "Customer"
+
+- text: "D-do you think I could- um... Like... Um... Ask you something...?"
+  translation: "М-можешь... эм... Ну... Эм... Спросить кое-что...?"
+  speaker: "Customer"
+
+- text: "I guess so? What is it?"
+  translation: "Наверное? Что именно?"
+  speaker: "Zoey"
+
+- text: "I-it's a bit weird- I-... Promise not to laugh, okay?"
+  translation: "Э-это немного странно- Я-... Обещай не смеяться, ладно?"
+  speaker: "Customer"
+
+- text: "Umm, okay... Promise."
+  translation: "Эмм, ладно... Обещаю."
+  speaker: "Zoey"
+
+- text: "Could you... like... Hhh... spit in my drink...?"
+  translation: "Могла бы ты... ну... Ф-ф... <size=30>плюнуть в мой напиток...?"
+  speaker: "Customer"
+  rich_text: "Could you... like... Hhh... <size=30>spit in my drink...?"
+  rich_translation: "Могла бы ты... ну... Ф-ф... <size=30>плюнуть в мой напиток...?"
+
+- text: "I-... Ahhh... S-sorry...! I-... I'd even tip you..."
+  translation: "Я-... Ахх... П-прости...! Я-... Я бы даже заплатил..."
+  speaker: "Customer"
+
+- text: "(Spit in the customers drink...? I-... I don't know... )"
+  translation: "(Плюнуть в напиток клиента...? Я-... Я не знаю... )"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF><i>(Spit in the customers drink...? I-... I don't know... )</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Плюнуть в напиток клиента...? Я-... Я не знаю... )</i></color>"
+

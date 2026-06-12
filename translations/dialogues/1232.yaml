@@ -1,0 +1,28 @@
+# Dialogues (path_id=1232)
+
+- text: "Gah... Do I even want to know what you fucking did back there...?!"
+  translation: "Чёрт... Я вообще хочу знать, что ты там устроил...?!"
+  speaker: "Zoey"
+
+- text: "G-Glow...? But-"
+  translation: "Г-Глоу...? Но-"
+  speaker: "Zoey"
+
+- text: "But it's-... addictive... the customers... Max-"
+  translation: "Но это-... вызывает привыкание... клиенты... Макс-"
+  speaker: "Zoey"
+
+- text: "I-... I don't-... know..."
+  translation: "Я-... Я не-... знаю..."
+  speaker: "Zoey"
+
+- text: "(What have I done...)"
+  translation: "Что же я наделала..."
+  speaker: "Zoey"
+  rich_text: "<i>(What have I done...)</i>"
+  rich_translation: "<i>(Что же я наделала...)</i>"
+
+- text: "At least use these stupid fucking video cameras to make sure everyone is okay!"
+  translation: "Хотя бы используй эти долбаные видеокамеры, чтобы убедиться, что все в порядке!"
+  speaker: "Zoey"
+

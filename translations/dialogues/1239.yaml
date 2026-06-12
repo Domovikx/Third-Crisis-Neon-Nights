@@ -1,0 +1,21 @@
+# Dialogues (path_id=1239)
+
+- text: "(I think I can hear Max in there... )"
+  translation: "(Кажется, я слышу там Макс... )"
+  rich_text: "<i>(I think I can hear Max in there... )</i>"
+  rich_translation: "<i>(Кажется, я слышу там Макс... )</i>"
+
+- text: "Fhhh... hahhh..."
+  translation: ""
+
+- text: "(They're probably... )"
+  translation: "(Они, наверное... )"
+  rich_text: "<i>(They're probably... )</i>"
+  rich_translation: "<i>(Они, наверное... )</i>"
+
+- text: "(I guess Max didn't hate giving this kind of massage in the end... )"
+  translation: "(Похоже, Макс в итоге была не против делать такой массаж... )"
+  speaker: "Zoey"
+  rich_text: "<i>(I guess Max didn't hate giving this kind of massage in the end... )</i>"
+  rich_translation: "<i>(Похоже, Макс в итоге была не против делать такой массаж... )</i>"
+

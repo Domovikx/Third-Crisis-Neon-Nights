@@ -1,0 +1,12 @@
+# Dialogues (path_id=1571)
+
+- text: "That wasn't so hard now, was it, hm?"
+  translation: "Было ведь не так уж и трудно, а?"
+  speaker: "Klaudia"
+
+- text: "If I don't hear any complaints about you from our customers, maybe I'll let you talk to Nova afterall, Madison."
+  translation: "Если я не услышу жалоб на тебя от клиентов, может, я всё-таки позволю тебе поговорить с Новой, Мэдисон."
+  speaker: "Klaudia"
+  rich_text: "If I don't hear any complaints about you from our customers, maybe I'll let you talk to Nova afterall, <i>Madison</i>."
+  rich_translation: "Если я не услышу жалоб на тебя от клиентов, может, я всё-таки позволю тебе поговорить с Новой, <i>Мэдисон</i>."
+

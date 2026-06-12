@@ -1,0 +1,10 @@
+# Dialogues (path_id=1165)
+
+- text: "Yes... Yes, that'd be a good place to start..."
+  translation: ""
+
+- text: "(Fuck... That was good... Bad... but good...)"
+  translation: "Чёрт... Это было хорошо... Плохо... но хорошо..."
+  rich_text: "<i>(Fuck... That was <color=#EB83FF>good...</color> Bad... but <color=#EB83FF>good...</color>)</i>"
+  rich_translation: "<i>(Чёрт... Это было <color=#EB83FF>хорошо...</color> Плохо... но <color=#EB83FF>хорошо...</color>)</i>"
+

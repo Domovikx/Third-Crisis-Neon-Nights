@@ -1,0 +1,27 @@
+# Dialogues (path_id=2125)
+
+- text: "(Ugh... Maybe I could call Sarah... Catch her before she gets to work.)"
+  translation: "(Уф... Может, позвонить Саре... Застать её до работы.)"
+  rich_text: "<i>(Ugh... Maybe I could call Sarah... Catch her before she gets to work.)</i>"
+  rich_translation: "<i>(Уф... Может, позвонить Саре... Застать её до работы.)</i>"
+
+- text: "(But I probably got her in trouble last night by trying to call her.)"
+  translation: "(Но я, наверное, подставила её вчера своим звонком.)"
+  rich_text: "<i>(But I probably got her in trouble last night by trying to call her.)</i>"
+  rich_translation: "<i>(Но я, наверное, подставила её вчера своим звонком.)</i>"
+
+- text: "(I... I shouldn't bother her. I can tough it out.)"
+  translation: "(Я... Не стоит её беспокоить. Я справлюсь.)"
+  rich_text: "<i>(I... I shouldn't bother her. I can tough it out.)</i>"
+  rich_translation: "<i>(Я... Не стоит её беспокоить. Я справлюсь.)</i>"
+
+- text: "(Come on, Zoey. Get it together. Focus on the blocker issue.)"
+  translation: "(Давай, Зои. Соберись. Сосредоточься на проблеме с блокиратором.)"
+  rich_text: "<i>(Come on, Zoey. Get it together. Focus on the blocker issue.)</i>"
+  rich_translation: "<i>(Давай, Зои. Соберись. Сосредоточься на проблеме с блокиратором.)</i>"
+
+- text: "(I should get a hold of my tech guy, Lio. He'll know how to put together a fake blocker to give to the Cartel.)"
+  translation: "(Нужно связаться с моим техником, Лио. Он знает, как собрать фальшивый блокиратор для Картеля.)"
+  rich_text: "<i>(I should get a hold of my tech guy, Lio. He'll know how to put together a fake blocker to give to the Cartel.)</i>"
+  rich_translation: "<i>(Нужно связаться с моим техником, Лио. Он знает, как собрать фальшивый блокиратор для Картеля.)</i>"
+

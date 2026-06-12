@@ -1,0 +1,16 @@
+# Dialogues (path_id=156)
+
+- text: "Hey, uhm-... I think I the... people you're looking for are in the lobby."
+  translation: "Эй, эм-... Я думаю, я... люди, которых вы ищете, в холле."
+  rich_text: "Hey, uhm-... I think I the... <i>people</i> you're looking for are in the lobby."
+  rich_translation: "Эй, эм-... Я думаю, я... <i>люди</i>, которых вы ищете, в холле."
+
+- text: "They mentioned wanting to get in the aparment you're guarding."
+  translation: ""
+
+- text: "You found the terrorists?! Get them boys!"
+  translation: "Вы нашли террористов?! Взять их, парни!"
+
+- text: "Terrorists... Right..."
+  translation: ""
+

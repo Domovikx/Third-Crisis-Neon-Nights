@@ -1,0 +1,12 @@
+# Dialogues (path_id=392)
+
+- text: "(Is that-... )"
+  translation: "(Неужели это-...)"
+  rich_text: "<i>(Is that-... )</i>"
+  rich_translation: "<i>(Неужели это-...)</i>"
+
+- text: "(Eww! It's-... just been used... )"
+  translation: "(Фу! Его-... только что использовали...)"
+  rich_text: "<i>(Eww! It's-... just been used... )</i>"
+  rich_translation: "<i>(Фу! Его-... только что использовали...)</i>"
+

@@ -1,0 +1,14 @@
+# Dialogues (path_id=1204)
+
+- text: "Staring, are we?"
+  translation: "Подглядываем?"
+
+- text: "Ack-! Sorry!"
+  translation: "Ай-! Прости!"
+
+- text: "(What is wrong with me?!)"
+  translation: "(Да что со мной не так?!)"
+  speaker: "Zoey"
+  rich_text: "<i>(What is wrong with me?!)</i>"
+  rich_translation: "<i>(Да что со мной не так?!)</i>"
+

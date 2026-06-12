@@ -1,0 +1,17 @@
+# Dialogues (path_id=1704)
+
+- text: "(Hhh- It smells so... sweet... khh...)"
+  translation: "(Х-х- Пахнет так... сладко... кх...)"
+  rich_text: "<i>(Hhh- It smells so... <color=#EB83FF>sweet...</color> khh...)</i>"
+  rich_translation: "<i>(Х-х- Пахнет так... <color=#EB83FF>сладко...</color> кх...)</i>"
+
+- text: "(Th-The blocker- I... I have to... )"
+  translation: "(Б-Блокатор- Я... Я должна... )"
+  rich_text: "<i>(Th-The blocker- I... I have to... )</i>"
+  rich_translation: "<i>(Б-Блокатор- Я... Я должна... )</i>"
+
+- text: "(I'm... so warm...)"
+  translation: "(Я... такая тёплая...)"
+  rich_text: "<color=#EB83FF><i>(I'm... so warm...)</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Я... такая тёплая...)</i></color>"
+

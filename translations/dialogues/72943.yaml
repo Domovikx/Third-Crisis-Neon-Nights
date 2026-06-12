@@ -1,0 +1,13 @@
+# Dialogues (path_id=72943)
+
+- text: "(Two pistols.. This place really doesn't seem to take security lightly. )"
+  translation: "(Два пистолета.. Похоже, тут серьёзно относятся к безопасности. )"
+  rich_text: "<i>(Two pistols.. This place really doesn't seem to take security lightly. )</i>"
+  rich_translation: "<i>(Два пистолета.. Похоже, тут серьёзно относятся к безопасности. )</i>"
+
+- text: "(Never liked how my hands hurt after drills. )"
+  translation: "(Никогда не любила, когда болят руки после тренировок. )"
+  speaker: "Zoey"
+  rich_text: "<i>(Never liked how my hands hurt after drills. )</i>"
+  rich_translation: "<i>(Никогда не любила, когда болят руки после тренировок. )</i>"
+

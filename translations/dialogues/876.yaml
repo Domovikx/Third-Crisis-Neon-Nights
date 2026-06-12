@@ -1,0 +1,12 @@
+# Dialogues (path_id=876)
+
+- text: "My Nova? Hm. What do you want from her?"
+  translation: ""
+  speaker: "Klaudia"
+
+- text: "Fill in for my... missing bunny. You'll be paid and get Nova for yourself for a little while."
+  translation: ""
+  speaker: "Klaudia"
+  rich_text: "Fill in for my... <i>missing</i> bunny. You'll be paid <b>and</b> get Nova for yourself for a little while."
+  rich_translation: ""
+

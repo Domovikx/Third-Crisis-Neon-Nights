@@ -1,0 +1,37 @@
+# Dialogues (path_id=1224)
+
+- text: "Perfect! Now that my letter is complete, could you-"
+  translation: ""
+
+- text: "Yeah, I'll go give it to her. Just gimme a minute, I'll be back."
+  translation: ""
+
+- text: "You are a true saint and a scholar!"
+  translation: "Ты истинная святая и учёная!"
+
+- text: "Hey Max."
+  translation: "Хэй, Макс."
+  speaker: "Zoey"
+
+- text: "Yeah... right- so... speaking of other stuff... do you think you could show me how those massage chairs work?"
+  translation: "Да... точно, кстати... раз уж о других делах... не могла бы ты показать мне, как работают те массажные кресла?"
+  speaker: "Zoey"
+
+- text: "Ahh-.. yeah, hah... well I-... uhm..."
+  translation: "А-а.. да, ха... ну я-... эм..."
+  speaker: "Zoey"
+
+- text: "I wanted to know something else about them! Could you come and show me?"
+  translation: "Я хотела узнать кое-что ещё о них! Не могла бы ты подойти и показать мне?"
+  speaker: "Zoey"
+
+- text: "Right! Thank you, Max!"
+  translation: "Отлично! Спасибо, Макс!"
+  speaker: "Zoey"
+
+- text: "(What. Am. I. Doing...?!)"
+  translation: "(Что. Я. Творю...?!)"
+  speaker: "Zoey"
+  rich_text: "<i>(What. Am. I. Doing...?!)</i>"
+  rich_translation: "<i>(Что. Я. Творю...?!)</i>"
+

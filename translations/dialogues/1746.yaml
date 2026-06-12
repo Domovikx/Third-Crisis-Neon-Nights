@@ -1,0 +1,11 @@
+# Dialogues (path_id=1746)
+
+- text: "Hey, I'm looking for a Jasmine. You know her?"
+  translation: "Эй, я ищу Джасмин. Ты её знаешь?"
+  speaker: "Zoey"
+
+- text: "(That was easy.)"
+  translation: "(Это было легко.)"
+  rich_text: "<i>(That was easy.)</i>"
+  rich_translation: "<i>(Это было легко.)</i>"
+

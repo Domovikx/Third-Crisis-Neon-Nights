@@ -1,0 +1,93 @@
+# Dialogues (path_id=73262)
+
+- text: "Fucking OW!"
+  translation: "Ёбаный БОЛЬНО!"
+  speaker: "Zoey"
+
+- text: "I'm not sure that's a good idea.."
+  translation: "Я не уверена, что это хорошая идея.."
+  speaker: "Zoey"
+
+- text: "Oh Zoooey~ Guess who~?"
+  translation: "О, Зоооой~ Угадай кто~?"
+  speaker: "Sarah"
+
+- text: "Hi Sarah."
+  translation: "Привет, Сара."
+  speaker: "Zoey"
+
+- text: "Eh? What's up? You sound down in the dumps."
+  translation: "А? Что такое? Голос какой-то подавленный."
+  speaker: "Sarah"
+
+- text: "Ughhh! But you're alwaaays busy! When you gonna make some time for your bestie, huh?"
+  translation: "Угхх! Ты вечно занята-а! Когда найдёшь время для своей лучшей подруги, а?"
+  speaker: "Sarah"
+
+- text: "Uhhh- Soon? I really gotta go-"
+  translation: "Эээ- Скоро? Мне правда пора-"
+  speaker: "Zoey"
+
+- text: "Just fuckin' with ya. I get it, super spy! You've got your merc work. I'll swing by your place in a bit-"
+  translation: "Да шучу я. Всё понимаю, супершпионка! У тебя же работа наёмницы. Заскочу к тебе позже-"
+  speaker: "Sarah"
+
+- text: "Yep! See you there! Bye!"
+  translation: "Ага! Увидимся там! Пока!"
+  speaker: "Zoey"
+
+- text: "(Welp. Onward and upward.)"
+  translation: "(Ну что ж. Вперёд и вверх.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Welp. Onward and upward.)</i>"
+  rich_translation: "<i>(Ну что ж. Вперёд и вверх.)</i>"
+
+- text: "(Well... Only one way out. What was that saying about god closing a door and opening a window?)"
+  translation: "(Что ж... Выход только один. Как там говорится — бог закрывает дверь, но открывает окно?)"
+  speaker: "Zoey"
+  rich_text: "<i>(Well... Only one way out. What was that saying about god closing a door and opening a window?)</i>"
+  rich_translation: "<i>(Что ж... Выход только один. Как там говорится — бог закрывает дверь, но открывает окно?)</i>"
+
+- text: "Hooooly shit!"
+  translation: "Офиге-е-ть!"
+  speaker: "Zoey"
+  rich_text: "<color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\">Hoooo</font></color>ly shit!"
+  rich_translation: "<color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\">Офиге-е-</font></color>ть!"
+
+- text: "(It- It worked.)"
+  translation: "(С- Сработало.)"
+  speaker: "Zoey"
+  rich_text: "<i>(It- It worked.)</i>"
+  rich_translation: "<i>(С- Сработало.)</i>"
+
+- text: "Decline"
+  translation: ""
+
+- text: "This place is dirty in more ways than one."
+  translation: "Это место грязное во всех смыслах."
+  speaker: "Zoey"
+
+- text: "What should I do?"
+  translation: "Что мне делать?"
+
+- text: "Wait until they are done."
+  translation: ""
+
+- text: "(I should turn it around to get to the latches. )"
+  translation: "(Надо перевернуть его, чтобы добраться до защёлок.)"
+  speaker: "Zoey"
+  rich_text: "<i>(I should turn it around to get to the latches. )</i>"
+  rich_translation: "<i>(Надо перевернуть его, чтобы добраться до защёлок.)</i>"
+
+- text: "(Thank you, Dr. Lozenge. Now I just need to get out of here before this Crush Gas gets me again.)"
+  translation: "(Спасибо, доктор Лозендж. Теперь нужно просто выбраться отсюда, пока этот Crush Gas снова не добрался до меня.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Thank you, Dr. Lozenge. Now I just need to get out of here before this Crush Gas gets me again.)</i>"
+  rich_translation: "<i>(Спасибо, доктор Лозендж. Теперь нужно просто выбраться отсюда, пока этот Crush Gas снова не добрался до меня.)</i>"
+
+- text: "(What a night... I've basically pissed off everyone in the redlight district, and now I smell like a dumpster. Just my luck.)"
+  translation: "(Вот это ночка... Я, кажется, бесила всех в районе красных фонарей, и теперь воняю как помойка. Как всегда везёт.)"
+  speaker: "Zoey"
+  rich_text: "<i>(What a night... I've basically pissed off everyone in the redlight district, and now I smell like a dumpster. Just my luck.)</i>"
+  rich_translation: "<i>(Вот это ночка... Я, кажется, бесила всех в районе красных фонарей, и теперь воняю как помойка. Как всегда везёт.)</i>"
+

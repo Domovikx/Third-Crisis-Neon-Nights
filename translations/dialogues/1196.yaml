@@ -1,0 +1,16 @@
+# Dialogues (path_id=1196)
+
+- text: "How long have you had those glasses now?"
+  translation: "Как давно у тебя эти очки?"
+
+- text: "Oh- years at least. Daddy got 'em for me way back when."
+  translation: ""
+
+- text: "They suit you!"
+  translation: "Они тебе идут!"
+
+- text: "(Those look like hard drives... a lot of hard drives.)"
+  translation: "(Похоже, это жёсткие диски... много жёстких дисков.)"
+  rich_text: "<i>(Those look like hard drives... a <b>lot</b> of hard drives.)</i>"
+  rich_translation: "<i>(Похоже, это жёсткие диски... <b>много</b> жёстких дисков.)</i>"
+

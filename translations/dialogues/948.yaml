@@ -1,0 +1,23 @@
+# Dialogues (path_id=948)
+
+- text: "U-uhm... Twenty...?"
+  translation: ""
+  rich_text: "<color=#EB83FF>U-uhm... Twenty...?</color>"
+  rich_translation: ""
+
+- text: "Too much."
+  translation: ""
+  speaker: "Rugnar"
+
+- text: "Ah-... S-sorry, sir...!"
+  translation: ""
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>Ah-... S-sorry, sir...!</color>"
+  rich_translation: ""
+
+- text: "(Wait, no-... Why am I sorry...?! I-... Ahhh...!)"
+  translation: ""
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF><i>(Wait, no-... Why am I sorry...?! I-... Ahhh...!)</i></color>"
+  rich_translation: ""
+

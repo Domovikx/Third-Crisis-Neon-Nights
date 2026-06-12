@@ -1,0 +1,10 @@
+# Dialogues (path_id=1)
+
+- text: "Hi"
+  translation: "Привет"
+  speaker: "Z"
+
+- text: "Bye"
+  translation: "Пока"
+  speaker: "Y"
+

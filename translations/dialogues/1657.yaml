@@ -1,0 +1,12 @@
+# Dialogues (path_id=1657)
+
+- text: "Please select a camera feed to view..."
+  translation: "Выберите камеру для просмотра..."
+  rich_text: "<i>Please select a camera feed to view...</i>"
+  rich_translation: "<i>Выберите камеру для просмотра...</i>"
+
+- text: "View upper floor cameras."
+  translation: "Камеры верхнего этажа."
+  rich_text: "<i>View upper floor cameras.</i>"
+  rich_translation: "<i>Камеры верхнего этажа.</i>"
+

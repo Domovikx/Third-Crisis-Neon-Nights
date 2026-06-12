@@ -1,12 +1,13 @@
-# Game files
+# Game files (restored by Steam)
 *.exe
 *.dll
-
-# Unity game data (restored by Steam)
+!runtime/NeonTranslatorRuntime.dll
+!dwmapi.dll
 Third\ Crisis\ Neon\ Nights_Data/
+!Third\ Crisis\ Neon\ Nights_Data/Managed/NeonTranslatorRuntime_Data.ndjson
 MonoBleedingEdge/
 
-# BepInEx (mod loader, not part of the game)
+# BepInEx (not used anymore, safety ignore)
 BepInEx/
 
 # Doorstop (injector)
@@ -18,6 +19,25 @@ changelog.txt
 # Install script temp
 .install_temp/
 
+# Generated output (parser, extractor, analysis)
+output/
+
+# Build artifacts (proxy compilation)
+*.exp
+*.lib
+*.obj
+
+# Temp / misc
+nul
+
 # OS junk
 Thumbs.db
 .DS_Store
+
+temp_assets/
+
+# Unity asset dumps (large, regenerated on demand)
+dump_assets/
+dump_assets*.pyc
+
+__pycache__/

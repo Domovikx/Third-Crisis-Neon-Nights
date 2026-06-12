@@ -1,0 +1,14 @@
+# Dialogues (path_id=2503)
+
+- text: "(What's going on, I thought the blockade was lifted?)"
+  translation: "(Что происходит, разве блокаду не сняли?)"
+  rich_text: "<i>(What's going on, I thought the blockade was lifted?)</i>"
+  rich_translation: "<i>(Что происходит, разве блокаду не сняли?)</i>"
+
+- text: "Hey you, what do you want? This area is off limits!"
+  translation: "Эй ты, чего надо? Эта зона закрыта!"
+  speaker: "Enforcer"
+
+- text: "I- um.."
+  translation: ""
+

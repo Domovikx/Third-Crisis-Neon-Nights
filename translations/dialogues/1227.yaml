@@ -1,0 +1,23 @@
+# Dialogues (path_id=1227)
+
+- text: "Stumbling over her own wordsY"
+  translation: "Запинается на своих же словах"
+
+- text: "Mhm, okay, I see...  and uhm."
+  translation: "Мхм, ладно, понятно... и эм."
+  speaker: "Zoey"
+
+- text: "How does it know when to extend?"
+  translation: "А как оно знает, когда выдвигаться?"
+  speaker: "Zoey"
+
+- text: "Mhm, mhm!"
+  translation: "Мхм, мхм!"
+  speaker: "Zoey"
+
+- text: "(Hurry up, Klark! What is taking so long?!)"
+  translation: "(Давай быстрее, Кларк! Сколько можно ждать?!)"
+  speaker: "Zoey"
+  rich_text: "<i>(Hurry up, Klark! What is taking so long?!)</i>"
+  rich_translation: "<i>(Давай быстрее, Кларк! Сколько можно ждать?!)</i>"
+

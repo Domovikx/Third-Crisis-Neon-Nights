@@ -1,0 +1,40 @@
+# Dialogues (path_id=73530)
+
+- text: "Turn around."
+  translation: "Повернись."
+  speaker: "Customer"
+
+- text: "Come here..."
+  translation: "Иди сюда..."
+  speaker: "Customer"
+
+- text: "Gahhh... Amazing body..."
+  translation: "Ахх... Потрясающее тело..."
+  speaker: "Customer"
+
+- text: "(It's only looking... I- I guess it's not such a-... huge deal... )"
+  translation: "(Он ведь просто смотрит... Я- Я думаю, это не такая уж-... большая проблема... )"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF><i>(It's only looking... I- I guess it's not such a-... huge deal... )</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Он ведь просто смотрит... Я- Я думаю, это не такая уж-... большая проблема... )</i></color>"
+
+- text: "Mmmhhh... Could stare alll nighthh... *hic*..."
+  translation: "Мммм... Могу смотреть всю ночь... *ик*..."
+  speaker: "Customer"
+
+- text: "(I'm just... Keeping company... It's-... it's fine... )"
+  translation: "(Я просто... составляю компанию... Всё-... всё нормально... )"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF><i>(I'm just... Keeping company... It's-... it's fine... )</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Я просто... составляю компанию... Всё-... всё нормально... )</i></color>"
+
+- text: "Mhh... Tha's worth the tip, ehehe... *hic*..."
+  translation: "Мх... Это стоит чаевых, хихи... *ик*..."
+  speaker: "Customer"
+
+- text: "(Earning money... Nothing else... )"
+  translation: "(Зарабатываю деньги... И ничего больше... )"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF><i>(Earning money... Nothing else... )</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Зарабатываю деньги... И ничего больше... )</i></color>"
+

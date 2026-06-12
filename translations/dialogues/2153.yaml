@@ -1,0 +1,7 @@
+# Dialogues (path_id=2153)
+
+- text: "Your superwet order is on the way! The code is 2916!"
+  translation: "Ваш заказ SuperWet в пути! Код: 2916!"
+  rich_text: "<i>Your superwet order is on the way! The code is <color=yellow>2916</color>!</i>"
+  rich_translation: "<i>Ваш заказ SuperWet в пути! Код: <color=yellow>2916</color>!</i>"
+

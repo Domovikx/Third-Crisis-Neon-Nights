@@ -1,0 +1,12 @@
+# Dialogues (path_id=72954)
+
+- text: "(Khh.. Just.. Just a peek. )"
+  translation: "(Кх.. Просто.. Просто одним глазком. )"
+  rich_text: "<i>(Khh.. Just.. <color=#EB83FF>Just a peek</color>. )</i>"
+  rich_translation: "<i>(Кх.. Просто.. <color=#EB83FF>Просто одним глазком</color>. )</i>"
+
+- text: "(I-.. I shouldn't.. Stare like this.. Mh.. It's not-.. )"
+  translation: "(Я-.. Не стоит.. Так пялиться.. Мх.. Это не-.. )"
+  rich_text: "<i>(I-.. I shouldn't.. <color=#EB83FF>Stare</color> like this.. Mh.. It's not-.. )</i>"
+  rich_translation: "<i>(Я-.. Не стоит.. <color=#EB83FF>Так пялиться</color>.. Мх.. Это не-.. )</i>"
+

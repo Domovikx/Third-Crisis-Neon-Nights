@@ -1,0 +1,22 @@
+# Dialogues (path_id=73551)
+
+- text: "Waitresss... Lookin' amazinghh..."
+  translation: "Официантка... Выглядишь потрясающе..."
+  speaker: "Customer"
+
+- text: "Th- thanks...?"
+  translation: "С-спасибо...?"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>Th- thanks...?</color>"
+  rich_translation: "<color=#EB83FF>С-спасибо...?</color>"
+
+- text: "If you let me snatch a pic of you, hottie, I'll get you a lil tip, ehehe *hic*."
+  translation: "Если дашь мне сделать фото, горячка, получишь маленькие чаевые, хихи *ик*."
+  speaker: "Customer"
+
+- text: "(Another one...?)"
+  translation: "(Ещё один...?)"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF><i>(Another one...?)</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Ещё один...?)</i></color>"
+

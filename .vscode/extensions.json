@@ -3,7 +3,6 @@
     "ms-dotnettools.csharp",
     "ms-dotnettools.csdevkit",
     "ms-dotnettools.vscode-dotnet-runtime",
-    "tobiah.unity-tools",
     "visualstudiotoolsforunity.vstuc",
     "kaizhu.assetstudio-gui",
     "ms-vscode.powershell",
@@ -17,6 +16,7 @@
     "streetsidesoftware.code-spell-checker-russian",
     "editorconfig.editorconfig",
     "eamodio.gitlens",
-    "github.vscode-github-actions"
+    "github.vscode-github-actions",
+    "silvioprog.file-size-badge"
   ]
 }

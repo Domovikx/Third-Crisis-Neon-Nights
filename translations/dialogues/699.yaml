@@ -1,0 +1,24 @@
+# Dialogues (path_id=699)
+
+- text: "Maybe you should come by some day and cook for me, darling."
+  translation: "Может, заглянешь как-нибудь и приготовишь для меня, дорогая."
+  speaker: "Leona"
+
+- text: "Mhmm. Been way too long since I had a maid, ehehe."
+  translation: "Ммм. Слишком давно у меня не было горничной, эхехе."
+  speaker: "Leona"
+
+- text: "Maid...? Sorry, I-"
+  translation: "Горничной...? Прости, я-"
+  speaker: "Zoey"
+
+- text: "Just joking, darling."
+  translation: "Шучу, дорогая."
+  speaker: "Leona"
+
+- text: "Though... I'd love to see you in something my maids used to wear."
+  translation: "Хотя... Я бы <b>очень</b> хотела увидеть тебя в том, что носили мои горничные."
+  speaker: "Leona"
+  rich_text: "Though... I'd <b>love</b> to see you in something my maids used to wear."
+  rich_translation: "Хотя... Я бы <b>очень</b> хотела увидеть тебя в том, что носили мои горничные."
+

@@ -1,0 +1,12 @@
+# Dialogues (path_id=154)
+
+- text: "(Hhh... Why is it so hard to think...)"
+  translation: "(Х-х-х... Что же так трудно думать...)"
+  rich_text: "<color=#EB83FF><i>(Hhh... Why is it so hard to think...)</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Х-х-х... Что же так трудно думать...)</i></color>"
+
+- text: "(At least I'm past them now...)"
+  translation: "(По крайней мере, они уже позади...)"
+  rich_text: "<i>(At least I'm past them now...)</i>"
+  rich_translation: "<i>(По крайней мере, они уже позади...)</i>"
+

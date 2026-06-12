@@ -1,0 +1,15 @@
+# Dialogues (path_id=1220)
+
+- text: "Well maybe try..."
+  translation: ""
+
+- text: "(The mirror is see-through from this side... )"
+  translation: "(С этой стороны зеркало прозрачное...)"
+  rich_text: "<i>(The mirror is see-through from this side... )</i>"
+  rich_translation: "<i>(С этой стороны зеркало прозрачное...)</i>"
+
+- text: "(The customers have no clue what's going on behind the mirror... )"
+  translation: "(Клиенты и не догадываются, что за зеркалом происходит...)"
+  rich_text: "<i>(The customers have no clue what's going on behind the mirror... )</i>"
+  rich_translation: "<i>(Клиенты и не догадываются, что за зеркалом происходит...)</i>"
+

@@ -1,0 +1,729 @@
+# Dialogues (path_id=bundle.bundle_level-glowinghole)
+
+- text: "Room 202"
+  translation: "Комната 202"
+  speaker: "Empty"
+
+- text: "Ask about Nova"
+  translation: "Спросить о Нове"
+  speaker: "OnChoiceSelected"
+
+- text: "Return to menu."
+  translation: "Вернуться в меню."
+  speaker: "Cancel"
+
+- text: "Close menu."
+  translation: "Закрыть меню."
+  speaker: "Cancel"
+
+- text: "Wait for line"
+  translation: "Ждать строку"
+  speaker: "FINISHED"
+
+- text: "uneasy 2"
+  translation: "нервно 2"
+
+- text: "horny panting"
+  translation: "возбуждённое дыхание"
+
+- text: "How much for one of your \"bunnies\"?"
+  translation: "Почём одна из твоих «заек»?"
+
+- text: "m busy!"
+  translation: "занят!"
+
+- text: "Horse dildo?"
+  translation: "Лошадиный дилдо?"
+
+- text: "Man - No Sprite"
+  translation: "Мужчина - Нет Спрайта"
+
+- text: "Rhythmic these are. )"
+  translation: "Ритмичные они. )"
+  speaker: "Zoey"
+
+- text: "t paying for a sloshed mess who can"
+  translation: "не платит за пьяную размазню, которая не может"
+
+- text: "t even have a decent conversation."
+  translation: "даже нормально разговаривать."
+  speaker: "Klaudia"
+
+- text: "t think. My customers seeing you like this will think that I'm running some kind of cheap shit hole. They'll think I can"
+  translation: ""
+
+- text: "t keep my bunnies in line!"
+  translation: ""
+  speaker: "Klaudia"
+
+- text: "t care if your life"
+  translation: ""
+
+- text: "s falling apart outside these walls. Everyone's is! When you"
+  translation: ""
+
+- text: "re in my club, your behavior will be as I say."
+  translation: ""
+  speaker: "Klaudia"
+  rich_text: "re in <b>my</b> club, your behavior will be as <b>I</b> say."
+  rich_translation: ""
+
+- text: "re out, Cal. I can find a dozen guys to take your spot right now. Do you understand me?"
+  translation: ""
+  speaker: "Klaudia"
+  rich_text: "re <b>out</b>, Cal. I can find a <b>dozen</b> guys to take your spot right now. Do you understand me?"
+  rich_translation: ""
+
+- text: "t come back down here until you smell like you"
+  translation: ""
+
+- text: "re ready to work."
+  translation: ""
+  speaker: "Klaudia"
+
+- text: "Cartel Guy"
+  translation: ""
+
+- text: "menu! Select an option..."
+  translation: "меню! Выберите опцию..."
+  rich_text: "menu! Select an option...</i>"
+  rich_translation: "меню! Выберите опцию...</i>"
+
+- text: "More information."
+  translation: "Подробнее."
+  speaker: "Help"
+
+- text: "View service logs."
+  translation: "Просмотреть логи услуг."
+  speaker: "Logs"
+
+- text: "m busy right now."
+  translation: "сейчас занят."
+
+- text: "ll do anything I want~?"
+  translation: "сделаешь всё, что я захочу~?"
+
+- text: "access logs:"
+  translation: "логи доступа:"
+  rich_text: "access logs:</i>"
+  rich_translation: "логи доступа:</i>"
+
+- text: "Room 203"
+  translation: ""
+  speaker: "Guy"
+
+- text: "Room 204"
+  translation: "Комната 204"
+  speaker: "Girl"
+
+- text: "Go back."
+  translation: "Назад."
+  speaker: "Cancel"
+
+- text: "Ohhh~ hhey ther', hunnn..~  Hic.. Whash you doin' in here, hmmmmm?~"
+  translation: "Ооо~ хэй тям, милашш..~ Ик.. Что ты тут делаешь, ммммм?~"
+  rich_text: "Ohhh~ hhey ther', hunnn..~  <i>Hic</i>.. Whash you doin' in here, hmmmmm?~"
+  rich_translation: "Ооо~ хэй тям, милашш..~  <i>Ик</i>.. Что ты тут делаешь, ммммм?~"
+
+- text: "Yush, das me!~"
+  translation: "Ага, эта я!~"
+
+- text: "Ohhh..!~ A clienthh, ehehe! Yass, I'll jus finish this drink!  Hic!~"
+  translation: ""
+  rich_text: "Ohhh..!~ A clienthh, ehehe! Yass, I'll jus finish this drink! <i> Hic!~</i>"
+  rich_translation: ""
+
+- text: "Swweeth.. Very sweet.. I  hic like swweet thingths..~ Eheheh..!"
+  translation: ""
+  rich_text: "Swweeth.. Very sweet.. I <i> hic</i> like swweet thingths..~ Eheheh..!"
+  rich_translation: ""
+
+- text: "Ohh youh arre s-so right..!"
+  translation: ""
+
+- text: "(Ah... )"
+  translation: ""
+  rich_text: "<i>(Ah... )</i>"
+  rich_translation: ""
+
+- text: "(I forgot to put my clothes back on..!)"
+  translation: "(Я забыла надеть одежду обратно..!)"
+  rich_text: "<color=#EB83FF><i>(I forgot to put my clothes back on..!)</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Я забыла надеть одежду обратно..!)</i></color>"
+
+- text: "View ground floor cameras."
+  translation: "Посмотреть камеры первого этажа."
+  rich_text: "<i>View ground floor cameras.</i>"
+  rich_translation: "<i>Посмотреть камеры первого этажа.</i>"
+
+- text: "s pick someone already!"
+  translation: "уже выберем кого-нибудь!"
+
+- text: "re with a customer."
+  translation: "не с клиентом."
+  speaker: "Bunnygirl"
+
+- text: "Destination: Room 203"
+  translation: "Назначение: Комната 203"
+  rich_text: "<b>Destination:</b> Room 203"
+  rich_translation: "<b>Назначение:</b> Комната 203"
+
+- text: "Employee: Mynx"
+  translation: "Сотрудница: Минкс"
+  rich_text: "<b>Employee:</b> Mynx"
+  rich_translation: "<b>Сотрудница:</b> Минкс"
+
+- text: "Notes: \"Rocked the customer's world. He'll definitely be coming back. I'm sure of it. ;)\""
+  translation: "Заметки: «Перевернула мир клиента. Он точно вернётся. Я уверена. ;)»"
+  rich_text: "<b>Notes:</b> \"Rocked the customer's world. He'll definitely be coming back. I'm sure of it. ;)\"</i>"
+  rich_translation: "<b>Заметки:</b> «Перевернула мир клиента. Он точно вернётся. Я уверена. ;)»</i>"
+
+- text: "Mnnhhh... Ghhrmmm..."
+  translation: "Мннхх... Гхрмм..."
+  rich_text: "<color=#EB83FF>Mnnhhh... Ghhrmmm...</color>"
+  rich_translation: "<color=#EB83FF>Мннхх... Гхрмм...</color>"
+
+- text: "m getting a"
+  translation: "получаю"
+
+- text: "Destination: Room 202"
+  translation: "Назначение: Комната 202"
+  rich_text: "<b>Destination:</b> Room 202"
+  rich_translation: "<b>Назначение:</b> Комната 202"
+
+- text: "Employee: Cal"
+  translation: "Сотрудник: Кэл"
+  rich_text: "<b>Employee:</b> Cal"
+  rich_translation: "<b>Сотрудник:</b> Кэл"
+
+- text: "Notes: \"No one was here. I guess I was ordered by mistake?\""
+  translation: "Заметки: «Никого не было. Наверное, меня вызвали по ошибке?»"
+  rich_text: "<b>Notes:</b> \"No one was here. I guess I was ordered by mistake?\"</i>"
+  rich_translation: "<b>Заметки:</b> «Никого не было. Наверное, меня вызвали по ошибке?»</i>"
+
+- text: "> Please move to Room 102. The code is 8862."
+  translation: "> Пройдите в комнату 102. Код: 8862."
+  rich_text: "> Please move to Room 102. The code is <b>8862</b>."
+  rich_translation: "> Пройдите в комнату 102. Код: <b>8862</b>."
+
+- text: "> Klaudia"
+  translation: ""
+
+- text: "s up to.)"
+  translation: "задумал.)"
+  speaker: "Zoey"
+  rich_text: "s up to.)</i>"
+  rich_translation: "задумал.)</i>"
+
+- text: "t ya?"
+  translation: "ну?"
+
+- text: "only and you haven"
+  translation: "только, а ты ещё"
+
+- text: "t paid yet!"
+  translation: "не заплатил!"
+  speaker: "Klaudia"
+
+- text: "Oh-..! They're-.."
+  translation: ""
+
+- text: "re good..."
+  translation: "хороша..."
+
+- text: "(I can't change here. One of Klaudia's cameras is watching this room. Ughh... I don't want to give her any more footage...)"
+  translation: "(Я не могу переодеться здесь. Одна из камер Клавдии следит за этой комнатой. Угх... Не хочу давать ей больше материала...)"
+  speaker: "Zoey"
+  rich_text: "<i>(I can't change here. One of Klaudia's cameras is watching this room. Ughh... I don't want to give her any <b>more</b> footage...)</i>"
+  rich_translation: "<i>(Я не могу переодеться здесь. Одна из камер Клавдии следит за этой комнатой. Угх... Не хочу давать ей <b>больше</b> материала...)</i>"
+
+- text: "(I should find somewhere more private.)"
+  translation: "(Нужно найти место поукромнее.)"
+  rich_text: "<i>(I should find somewhere more private.)</i>"
+  rich_translation: "<i>(Нужно найти место поукромнее.)</i>"
+
+- text: "Destination: Room 204"
+  translation: "Назначение: Комната 204"
+  rich_text: "<b>Destination:</b> Room 204"
+  rich_translation: "<b>Назначение:</b> Комната 204"
+
+- text: "Employee: Jasmine"
+  translation: "Сотрудница: Жасмин"
+  rich_text: "<b>Employee:</b> Jasmine"
+  rich_translation: "<b>Сотрудница:</b> Жасмин"
+
+- text: "Voice Notes: \"Looks like I showed her things about her body even she didn't know about. I think she was in love.\""
+  translation: "Голосовые заметки: «Кажется, я показала ей такое о её теле, чего она сама не знала. Думаю, она влюбилась.»"
+  rich_text: "<b>Voice Notes:</b> \"Looks like I showed her things about her body even she didn't know about. I think she was in love.\"</i>"
+  rich_translation: "<b>Голосовые заметки:</b> «Кажется, я показала ей такое о её теле, чего она сама не знала. Думаю, она влюбилась.»</i>"
+
+- text: "(This guy really isn't getting it... )"
+  translation: "(Этот парень реально не въезжает... )"
+  speaker: "Zoey"
+  rich_text: "<i>(This guy really isn't getting it... )</i>"
+  rich_translation: "<i>(Этот парень реально не въезжает... )</i>"
+
+- text: "You coouuuld make sure he doesn't get into trouble for spending more than he can afford again... Buuut..."
+  translation: ""
+  rich_text: "You <b>coouuuld</b> make sure he doesn't get into trouble for spending more than he can afford again... Buuut..."
+  rich_translation: ""
+
+- text: "Well... Let's just say... His bad choices are not your responsibility, ehehe..."
+  translation: ""
+
+- text: "really that simple...?)"
+  translation: ""
+  speaker: "Zoey"
+
+- text: "0.4 - GlowingHoleBartending - RichCustomerVaren - 4 - 2 - Accept!"
+  translation: ""
+
+- text: "re done. Gametime.)"
+  translation: "готово. Время игр.)"
+  speaker: "Zoey"
+  rich_text: "re done. Gametime.)</i>"
+  rich_translation: "готово. Время игр.)</i>"
+
+- text: "re late! Do you have the case I"
+  translation: "опаздываешь! У тебя есть кейс, который я"
+
+- text: "m paying you to grab or not?"
+  translation: ""
+  speaker: "Man"
+
+- text: "Relax, this.. Hhh.. this ain"
+  translation: ""
+
+- text: "t my first gig. I"
+  translation: ""
+
+- text: "m just waiting for an opportunity to grab it."
+  translation: ""
+
+- text: "ll call you when it"
+  translation: ""
+
+- text: "s done."
+  translation: ""
+
+- text: "s hypnotized."
+  translation: "загипнотизирована."
+  speaker: "Bunnygirl"
+
+- text: "Do not get a customer off. A customer spent is worthless. Understood?!"
+  translation: ""
+  speaker: "Klaudia"
+  rich_text: "Do <b><size=50>not</size></b> get a customer off. A customer spent is worthless. Understood?!"
+  rich_translation: ""
+
+- text: "m here for the cute boys."
+  translation: "здесь ради милых мальчиков."
+
+- text: "is unavailable..."
+  translation: "недоступен..."
+  rich_text: "is unavailable...</i>"
+  rich_translation: "недоступен...</i>"
+
+- text: "(His hand-...!)"
+  translation: ""
+  speaker: "Zoey"
+  rich_text: "<i>(His hand-...!)</i>"
+  rich_translation: ""
+
+- text: "(I... Bl- Block... Nghh... Hhh...)"
+  translation: ""
+  rich_text: "<color=#EB83FF><i>(I... Bl- Block... Nghh... Hhh...)</i></color>"
+  rich_translation: ""
+
+- text: "Researching her dance moves. )"
+  translation: "Изучаю её танцевальные движения. )"
+  speaker: "Zoey"
+
+- text: "re hot. I wonder if I can afford a threesome."
+  translation: "горяча. Интересно, потяну ли я тройничок."
+
+- text: "Good evening, fair maiden. I am Mark..."
+  translation: ""
+
+- text: "To whom it may concern, I am your secret admirer..."
+  translation: ""
+
+- text: "You must have amnesia, you forgot that I'm HIM..."
+  translation: ""
+
+- text: "is one of the mandatory utilities required of a GAG-approved establishment."
+  translation: "является одной из обязательных услуг, требуемых в заведении, одобренном ГАГ."
+  rich_text: "is one of the mandatory utilities required of a GAG-approved establishment.</i>"
+  rich_translation: "является одной из обязательных услуг, требуемых в заведении, одобренном ГАГ.</i>"
+
+- text: "and its tools, this service is used to provide sexual gratification to the visitors of your business."
+  translation: "и его инструментов, эта услуга используется для удовлетворения сексуальных потребностей посетителей вашего заведения."
+  rich_text: "and its tools, this service is used to provide sexual gratification to the visitors of your business.</i>"
+  rich_translation: "и его инструментов, эта услуга используется для удовлетворения сексуальных потребностей посетителей вашего заведения.</i>"
+
+- text: "with a willing employee of your choice, and let it handle the rest. It's that easy!"
+  translation: "с согласным сотрудником по вашему выбору, и позвольте ему сделать всё остальное. Это так просто!"
+  rich_text: "with a willing employee of your choice, and let it handle the rest. It's that easy!</i>"
+  rich_translation: "с согласным сотрудником по вашему выбору, и позвольте ему сделать всё остальное. Это так просто!</i>"
+
+- text: ", and have the employee climb inside. It will handle the rest."
+  translation: ""
+  rich_text: ", and have the employee climb inside. It will handle the rest.</i>"
+  rich_translation: ""
+
+- text: "That symbol... Is that...?"
+  translation: "Этот символ... Неужели...?"
+  speaker: "Klaudia"
+
+- text: "You can tell me, hun. You will feel so good once the truth is out."
+  translation: ""
+  speaker: "Klaudia"
+
+- text: "I was wondering if you'd like to go on a date with me."
+  translation: ""
+
+- text: "Call that pussy the Matrix, cuz I'm in it, and I can't get out."
+  translation: ""
+
+- text: "Since our eyes first met, I've wanted to be with you."
+  translation: ""
+
+- text: "This shit ain't nothin' to me, man."
+  translation: ""
+
+- text: "I await your response with bated breath. Yours eternally, Mark."
+  translation: ""
+
+- text: "Love, your secret admirer."
+  translation: ""
+
+- text: "Wait for showing Drink"
+  translation: "Ждать показа напитка"
+
+- text: "Ask for Repeat Dialogue"
+  translation: "Попросить повторить диалог"
+  speaker: "Agree"
+
+- text: "Agree Dialogue 1"
+  translation: "Диалог согласия 1"
+  speaker: "Decline"
+
+- text: "Play Decline Dialogue"
+  translation: "Проиграть диалог отказа"
+
+- text: "PMA SetCanShowBubble"
+  translation: "PMA УстановитьПоказыватьПузырь"
+
+- text: "Wait for Interaction with Rosie"
+  translation: ""
+  speaker: "BUUWC"
+
+- text: "Interacted with Rosie"
+  translation: ""
+  speaker: "ToCallOnUse"
+
+- text: "Rosie asks if wants to work"
+  translation: ""
+  speaker: "Agree"
+
+- text: "Setup next State"
+  translation: ""
+  speaker: "Decline"
+
+- text: "State 3"
+  translation: ""
+
+- text: "Play Initial Dialogue"
+  translation: ""
+  speaker: "CVU"
+
+- text: "Agree Dialogue"
+  translation: "Диалог согласия"
+  speaker: "Decline"
+
+- text: "Decline Dialogue"
+  translation: ""
+  speaker: "Accept"
+
+- text: "Force Show Bubble"
+  translation: ""
+  speaker: "FINISHED"
+
+- text: "Setup Next Order"
+  translation: ""
+
+- text: "Wait for choice"
+  translation: "Ждать выбора"
+  speaker: "OrderSlutService"
+
+- text: "Is use service in progress?"
+  translation: "Услуга используется?"
+
+- text: "Play slut service dialogue"
+  translation: ""
+  speaker: "FINISHED"
+
+- text: "Play cannot use dialogue"
+  translation: ""
+  speaker: "Yes"
+
+- text: "Did already lockpick door?"
+  translation: ""
+  speaker: "CUUAC"
+
+- text: "Wait for Interaction"
+  translation: ""
+  speaker: "CVU"
+
+- text: "Dialogue before lockpicking"
+  translation: ""
+  speaker: "Lockpick"
+
+- text: "Disable Interaction"
+  translation: ""
+
+- text: "System.Collections.Generic.List`1[[HutongGames.PlayMaker.FsmEvent, PlayMaker, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]"
+  translation: ""
+
+- text: "Lock Picked"
+  translation: ""
+  speaker: "Cancelled"
+
+- text: "Unlock Door"
+  translation: ""
+
+- text: "Interacted with Locker"
+  translation: ""
+  speaker: "ToCallOnUse"
+
+- text: "Open Locker"
+  translation: ""
+
+- text: "Play Dialogue"
+  translation: ""
+  speaker: "CUU"
+
+- text: "Setup Next State"
+  translation: ""
+
+- text: "Offer Five"
+  translation: ""
+
+- text: "Offer Ten"
+  translation: ""
+
+- text: "Offer Twenty"
+  translation: ""
+  speaker: "Decline"
+
+- text: "Setup next state"
+  translation: ""
+
+- text: "Did we already do this?"
+  translation: ""
+
+- text: "Is first Talk?"
+  translation: ""
+  speaker: "Yes"
+
+- text: "Repeat Talk"
+  translation: ""
+  speaker: "CUU"
+
+- text: "First Talk"
+  translation: ""
+
+- text: "GlowingHoleKeys/Did talk to Lady groping Femboy"
+  translation: ""
+
+- text: "Walk Away"
+  translation: ""
+
+- text: "Sex scene Dialogue 1"
+  translation: ""
+
+- text: "Walk away"
+  translation: ""
+
+- text: "Wait for Choice"
+  translation: "Ждать выбора"
+
+- text: "Give Key Card"
+  translation: ""
+  speaker: "CUU"
+
+- text: "Set Mission Task"
+  translation: ""
+
+- text: "Did initial event?"
+  translation: ""
+  speaker: "Yes"
+
+- text: "Wait for initial Trigger"
+  translation: ""
+  speaker: "Triggered"
+
+- text: "GlowingHoleKeys/NovaMeet Did walk out of Bathroom"
+  translation: ""
+
+- text: "Force Move Nova just past the Door"
+  translation: ""
+
+- text: "Move Nova out of Bathroom to Zoey"
+  translation: ""
+  speaker: "CUUyC"
+
+- text: "Initial Dialogue"
+  translation: ""
+  speaker: "OnAccepted"
+
+- text: "Nova Intro"
+  translation: ""
+
+- text: "Tell her what other customer ask for"
+  translation: "Сказать ей, о чём просил другой клиент"
+
+- text: "Ready to add Dialogue?"
+  translation: ""
+
+- text: "Did talk to Cal?"
+  translation: ""
+  speaker: "Yes"
+
+- text: "Did show the picture to Klaudia already?"
+  translation: ""
+
+- text: "GlowingHoleKeys/DrunkFemboy Did talk to Cal"
+  translation: ""
+
+- text: "Add Choice"
+  translation: ""
+  speaker: "CVU"
+
+- text: "Choice Selected"
+  translation: ""
+  speaker: "OnChoiceSelected"
+
+- text: "Start First Dialogue"
+  translation: ""
+  speaker: "FINISHED"
+
+- text: "Do we have a pic of him?"
+  translation: ""
+
+- text: "GlowingHoleKeys/Klaudia wants proof for Cal"
+  translation: ""
+
+- text: "Pull up Photo Dialogue"
+  translation: ""
+
+- text: "Show dialogue explaining to take a pic"
+  translation: ""
+
+- text: "Check Save Key after remote used once"
+  translation: "Проверить ключ сохранения после использования пульта"
+
+- text: "Start Dialogue"
+  translation: "Начать диалог"
+  speaker: "Press"
+
+- text: "Play Sound"
+  translation: ""
+  speaker: "FINISHED"
+
+- text: "Don't press it."
+  translation: ""
+
+- text: "Check Save Key"
+  translation: ""
+
+- text: "Wait for Interaction from Main FSM"
+  translation: ""
+  speaker: "Interacted"
+
+- text: "Initial Klaudia Dialogue"
+  translation: ""
+  speaker: "Yes"
+
+- text: "Did Initial Talk?"
+  translation: ""
+
+- text: "State 1"
+  translation: ""
+
+- text: "has fallen over before?"
+  translation: "падал раньше?"
+
+- text: "Wait for Line"
+  translation: "Ждать строку"
+
+- text: "fallen over"
+  translation: "упал"
+
+- text: "Fall over 2"
+  translation: "Падение 2"
+
+- text: "GlowingHoleKeys/Mark fell over"
+  translation: "КлючиДыры/Марк упал"
+
+- text: "Wait for dialogue"
+  translation: ""
+  speaker: "Yes"
+
+- text: "Which room did we pick?"
+  translation: ""
+  speaker: "Empty"
+
+- text: "Play empty (Int 0) - (Room 202)"
+  translation: ""
+  speaker: "Guy"
+
+- text: "Play guy (Int 1) - (Room 203)"
+  translation: ""
+  speaker: "Girl"
+
+- text: "Play girl (Int 2) - (Room 204)"
+  translation: ""
+  speaker: "FINISHED"
+
+- text: "Wait for Interaction with Simon"
+  translation: ""
+
+- text: "Play Choice Dialogue for getting groped"
+  translation: ""
+  speaker: "CVU"
+
+- text: "Accepted Dialogue"
+  translation: ""
+  speaker: "Decline"
+
+- text: "Did Suitcase Mission?"
+  translation: ""
+
+- text: "Play initial Dialogue"
+  translation: ""
+  speaker: "CVU"
+
+- text: "Should we enter the box?"
+  translation: ""
+  speaker: "Yes"
+
+- text: "Wait for hideable"
+  translation: ""
+  speaker: "Interacted"
+
+- text: "Are we the demo?"
+  translation: ""
+
+- text: "Fade screen"
+  translation: ""
+  speaker: "FINISHED"
+
+- text: "Set hideable position"
+  translation: ""
+  speaker: "FINISHED"
+
+- text: "Play box moved dialogue"
+  translation: ""
+  speaker: "Undress"
+

@@ -1,0 +1,11 @@
+# Dialogues (path_id=1559)
+
+- text: "No-.. I-.. I'm quite.. Employed, you know?"
+  translation: ""
+
+- text: "Tsk tsk tsk... Well then. If you're ever looking to make some real money, you know where to find me."
+  translation: "Ц-ц-ц... Ну что ж. Если захочешь заработать по-настоящему, знаешь, где меня найти."
+  speaker: "Klaudia"
+  rich_text: "Tsk tsk tsk... Well then. If you're ever looking to make some <b>real</b> money, you know where to find me."
+  rich_translation: "Ц-ц-ц... Ну что ж. Если захочешь заработать <b>по-настоящему</b>, знаешь, где меня найти."
+

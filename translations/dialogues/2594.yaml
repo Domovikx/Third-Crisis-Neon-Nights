@@ -1,0 +1,12 @@
+# Dialogues (path_id=2594)
+
+- text: "(Should I tell her about the picture?)"
+  translation: "(Стоит ли рассказать ей о фото?)"
+  rich_text: "<i>(Should I tell her about the picture?)</i>"
+  rich_translation: "<i>(Стоит ли рассказать ей о фото?)</i>"
+
+- text: "Tell her about the picture you took of her?"
+  translation: "Рассказать ей о фото, которое ты сделала?"
+  rich_text: "<i>Tell her about the picture you took of her?</i>"
+  rich_translation: "<i>Рассказать ей о фото, которое ты сделала?</i>"
+
