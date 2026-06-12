@@ -1,8 +1,5 @@
 # Dialogues (path_id=1683)
 
-- text: "She recognizes the Peitho symbol on the injector she snatched out of Zoeys hand."
-  translation: "Она узнаёт символ Пейто на инжекторе, который выхватила из руки Зои."
-
 - text: "Cum-... Nghh-... Please-...! I-... I want to-... Please...! Please!!"
   translation: "Кончить-... Н-н-н... Пожалуйста-...! Я-... Я хочу-... Пожалуйста...! Пожалуйста!!"
   rich_text: "<color=#EB83FF>Cum-... Nghh-... Please-...! I-... I want to-... Please...! Please!!</color>"
@@ -34,9 +31,6 @@
   translation: "(Н-... Нет, я-... Х-х-... Я-... Н-н-...)"
   rich_text: "<color=#EB83FF><i>(N-... No, I-... Hhh-... I-... Nghh...)</i></color>"
   rich_translation: "<color=#EB83FF><i>(Н-... Нет, я-... Х-х-... Я-... Н-н-...)</i></color>"
-
-- text: "Whispers into Zoeys ear.B"
-  translation: "Шепчет на ухо Зои."
 
 - text: "Khh... Ca-... Cartel... Hhhh..."
   translation: "Кх... Ка-... Картель... Х-х-х..."

@@ -1,25 +1,8 @@
 # Dialogues (path_id=1233)
 
-- text: "I- I would... but I have to turn the drives in to their place now..."
-  translation: "Я- Я бы... но мне нужно отнести диски на место сейчас..."
-
-- text: "But then-..."
-  translation: "Но тогда-..."
-
-- text: "If you-... want to make sure everyone is okay, then-..."
-  translation: "Если ты-... хочешь убедиться, что все в порядке, тогда-..."
-
-- text: "(No, no, no, no, no!)"
-  translation: "(Нет, нет, нет, нет, нет!)"
-  rich_text: "<i>(No, no, no, no, no!)</i>"
-  rich_translation: "<i>(Нет, нет, нет, нет, нет!)</i>"
-
 - text: "So-... I have to-...?"
   translation: "Так-... Я должна-...?"
   speaker: "Zoey"
   rich_text: "So-... <b>I</b> have to-...?"
   rich_translation: "Так-... <b>Я</b> должна-...?"
-
-- text: "I'm so sorry... I-... I'll be back as soon as I can, I promise!"
-  translation: "Мне так жаль... Я-... Я вернусь как только смогу, обещаю!"
 

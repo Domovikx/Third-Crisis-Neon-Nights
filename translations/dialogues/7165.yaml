@@ -1,8 +1,5 @@
 # Dialogues (path_id=7165)
 
-- text: "Go along with her."
-  translation: "Согласиться с ней."
-
 - text: "Go Along with her"
   translation: "Согласиться с ней"
   speaker: "Decline"

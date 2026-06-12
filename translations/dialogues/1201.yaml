@@ -6,13 +6,3 @@
   rich_text: "<i>(She's-... really not wasting any time...)</i>"
   rich_translation: "<i>(Она-... совсем не теряет времени...)</i>"
 
-- text: "> Mmmhh, I want it nice and slow, Max. Please..."
-  translation: "> Ммм, я хочу нежно и медленно, Макс. Пожалуйста..."
-  rich_text: "<i> > Mmmhh, I want it nice and slow, Max. Please..."
-  rich_translation: "<i> > Ммм, я хочу нежно и медленно, Макс. Пожалуйста..."
-
-- text: "> Nice and slow is my specialty."
-  translation: "> Медленно и нежно — это я умею."
-  rich_text: "<i> > Nice and slow is my specialty."
-  rich_translation: "<i> > Медленно и нежно — это я умею."
-

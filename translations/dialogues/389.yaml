@@ -1,17 +1,17 @@
 # Dialogues (path_id=389)
 
 - text: "*Hic*... Changed your... *hic* mind?"
-  translation: "*Ик*... Передумала... *ик*?"
+  translation: ""
 
 - text: "... Nope."
   translation: "... Неа."
   speaker: "Zoey"
 
 - text: "Here. Found this while I was collecting concoctions."
-  translation: "Вот. Нашла это, пока собирала зелья."
+  translation: ""
 
 - text: "Ahh, this will do nicely! Give it here."
-  translation: "А-а, это отлично подойдёт! Давай сюда."
+  translation: ""
 
 - text: "Is it supposed to smell like that?"
   translation: "Оно должно так пахнуть?"
@@ -21,8 +21,8 @@
   translation: "Конечно! Как иначе оно будет работать?"
 
 - text: "Here you are, my sweet sapphire. The boon of your efforts."
-  translation: "Держи, мой сладкий сапфир. Награда за твои старания."
+  translation: ""
 
 - text: "Oh- uh... heh- thanks!"
-  translation: "О- эм... хе- спасибо!"
+  translation: ""
 

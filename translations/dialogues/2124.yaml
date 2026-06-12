@@ -3,19 +3,6 @@
 - text: "Bolting awake from a nightmare"
   translation: "Просыпаться от кошмара"
 
-- text: "(Fuck... Asshole dream.)"
-  translation: "(Блять... Дерьмовый сон.)"
-  rich_text: "<i>(Fuck... Asshole dream.)</i>"
-  rich_translation: "<i>(Блять... Дерьмовый сон.)</i>"
-
 - text: "Trying to stop yourself from spiraling."
-  translation: "Пытаюсь удержаться от паники."
-
-- text: "(The past is the past...)"
-  translation: "(Прошлое — это прошлое...)"
-  rich_text: "<i>(The past is the past...)</i>"
-  rich_translation: "<i>(Прошлое — это прошлое...)</i>"
-
-- text: "Onward and upward. Onward and upward."
-  translation: "Вперёд и вверх. Вперёд и вверх."
+  translation: ""
 

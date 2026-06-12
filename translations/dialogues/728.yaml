@@ -1,24 +1,6 @@
 # Dialogues (path_id=728)
 
-- text: "This thing's more complicated than I thought it'd be. The material's not like anything I've seen before. I can't just 3D print a double."
-  translation: "Эта штука сложнее, чем я думал. Материал не похож ни на что, что я раньше видел. Я не могу просто распечатать копию на 3D-принтере."
-
-- text: "So... What does that mean?"
-  translation: "И... Что это значит?"
-
-- text: "Means you're gonna have to do some leg work. I've got a contact that can get their hands on the sorts of materials we'll need for this."
-  translation: "Значит, тебе придётся пробежаться. У меня есть контакт, который может раздобыть материалы, необходимые для этого."
-
-- text: "And where is this contact?"
-  translation: "И где этот контакт?"
-
-- text: "The Redlight District, the trains just opened back up after your little episode, so you should be good to go whenever you're ready."
-  translation: "В Районе красных фонарей, поезда только открылись после твоего маленького инцидента, так что можешь ехать, когда будешь готова."
-
 - text: "Right... and who's the contact?"
   translation: "Понятно... и кто этот контакт?"
   speaker: "Zoey"
-
-- text: "Her name's Nova. Nice gal, bit of a hard ass, but we've got a business understanding."
-  translation: "Её зовут Нова. Хорошая девчонка, немного жёсткая, но у нас деловое взаимопонимание."
 

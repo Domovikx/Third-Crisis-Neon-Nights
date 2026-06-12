@@ -4,9 +4,6 @@
   translation: "А-алло...? В-вы слышите меня...? Пожалуйста... Кх..."
   speaker: "Intercom"
 
-- text: "Huh? Hello?!"
-  translation: "А? Алло?!"
-
 - text: "That-... that outfit-... Please-... I need-... fhhh..."
   translation: "Эта-... эта одежда-... Пожалуйста-... Мне нужно-... ф-ф-ф..."
   speaker: "Intercom"
@@ -15,15 +12,7 @@
   translation: "Мне нужно ощутить её... О-освободите меня... Пожалуйста... Я у-умоляю вас...!"
   speaker: "Intercom"
 
-- text: "Wh- who are you?!"
-  translation: "К-кто ты?!"
-
 - text: "Meet me in... M31... please...! I can't-... Nghhh...!"
   translation: "Встреть меня в... M31... умоляю...! Я не могу-... Н-н-н...!"
   speaker: "Intercom"
-
-- text: "(He sounds like he's in trouble... )"
-  translation: "(Похоже, он в беде... )"
-  rich_text: "<i>(He sounds like he's in trouble... )</i>"
-  rich_translation: "<i>(Похоже, он в беде... )</i>"
 

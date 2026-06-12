@@ -1,21 +1,6 @@
 # Dialogues (path_id=2542)
 
-- text: "Sarah! Keep it down! You're gonna piss them off!"
-  translation: "Сара! Тише! Ты их разозлишь!"
-
-- text: "So what? What are they gonna do?"
-  translation: "И что? Что они сделают?"
-
 - text: "I could think of a few things."
   translation: "Могу придумать пару вариантов."
   speaker: "Zoey"
-
-- text: "Fuck that. We should do somethin' about these guys."
-  translation: "К чёрту. Надо что-то делать с этими парнями."
-
-- text: "I'm supposed to be keeping my head down, Sarah!"
-  translation: "Я должна вести себя тихо, Сара!"
-
-- text: "What do you suggest we do then, Z?"
-  translation: "Что тогда предлагаешь, Зи?"
 

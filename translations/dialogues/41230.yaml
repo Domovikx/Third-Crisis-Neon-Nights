@@ -1,12 +1,5 @@
 # Dialogues (path_id=41230)
 
-- text: "System.Collections.Generic.List`1[[Asuna.Dialogues.DialogueLineLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
-  translation: "(музыка для воспроизведения)"
-  speaker: "MusicToPlay"
-
-- text: "Follow Advice"
-  translation: "Последовать совету"
-
 - text: "Follow Advice"
   translation: "Последовать совету"
   speaker: "Decline"

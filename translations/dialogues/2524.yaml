@@ -1,15 +1,6 @@
 # Dialogues (path_id=2524)
 
-- text: "Are you sure about this, Sarah?"
-  translation: "Ты уверена насчёт этого, Сара?"
-
-- text: "Uh. Yeah! Put those super spy skills to work!"
-  translation: "Ага. Да! Пустим в ход твои супершпионские навыки!"
-
 - text: "If you say so."
   translation: "Как скажешь."
   speaker: "Zoey"
-
-- text: "Oh- crap I think someone's lookin'. We gotta make our move now!"
-  translation: "Ох- чёрт, кажется, кто-то смотрит. Надо действовать сейчас!"
 

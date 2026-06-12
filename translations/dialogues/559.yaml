@@ -1,13 +1,10 @@
 # Dialogues (path_id=559)
 
 - text: "Yes, that's good."
-  translation: "Да, хорошо."
-
-- text: "Turn around."
-  translation: "Повернись."
+  translation: ""
 
 - text: "That's \"Yes, sir\" to you."
-  translation: "Для тебя это \"Да, сэр\"."
+  translation: ""
 
 - text: "Hh- Y-Yes... Sir..."
   translation: "Х- Д-Да... Сэр..."

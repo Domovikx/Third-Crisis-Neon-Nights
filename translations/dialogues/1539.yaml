@@ -5,9 +5,6 @@
   rich_text: "<i>(Oh.. We missed this note when cleaning up.. )</i>"
   rich_translation: "<i>(Ой.. Мы пропустили эту записку, когда убирались.. )</i>"
 
-- text: "> To accomodate your special needs, another room has been assigned to you."
-  translation: "> Для удовлетворения ваших особых нужд вам назначена другая комната."
-
 - text: "(Heh. That's one way to get to a code. )"
   translation: "(Хех. Это один способ получить код.)"
   rich_text: "<i>(Heh. That's one way to get to a code. )</i>"

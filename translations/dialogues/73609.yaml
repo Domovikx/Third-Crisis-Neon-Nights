@@ -45,9 +45,6 @@
   rich_text: "<i>(God... What am I doing... Is this really okay...?)</i>"
   rich_translation: "<i>(Боже... Что я делаю... Это действительно нормально...?)</i>"
 
-- text: "Think of the money"
-  translation: "Думай о деньгах"
-
 - text: "Like-... this...?"
   translation: "В-вот... так...?"
   rich_text: "<color=#EB83FF>Like-... this...?</color>"
@@ -62,9 +59,6 @@
   rich_text: "<color=#EB83FF><i>(Ugh... Disgusting pervert... )</i></color>"
   rich_translation: "<color=#EB83FF><i>(Угх... Отвратительный извращенец...)</i></color>"
 
-- text: "Trov Hask"
-  translation: "Тров Хаск"
-
 - text: "Mhhh, fuckhhh your asshol' shmells so goooodhh, bunnyslut!"
   translation: "Мхх, бля, твоя дырочка так хорошо пахнет, зайка-шлюха!"
   speaker: "Trov"
@@ -72,9 +66,6 @@
 - text: "I wanna riph' off thath' shuit and shtick my tongue niiiice and deephh down ya shweaty little assholeeee', ahaha!"
   translation: "Хочу сорвать этот костюм и засунуть язык глубоко в твою потную маленькую дырочку, ахаха!"
   speaker: "Trov"
-
-- text: "That's enough!"
-  translation: "Хватит!"
 
 - text: "Mnhahaha... Whatever ya shay', bhunny sluthh..."
   translation: "Мнхаха... Как скажешь, зайка-шлюха..."

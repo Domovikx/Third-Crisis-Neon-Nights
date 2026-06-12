@@ -1,21 +1,12 @@
 # Dialogues (path_id=1247)
 
-- text: "Ah- Hey! Leave them alone!"
-  translation: "А- Эй! Оставь их в покое!"
-
 - text: "Back up. Haven't you heard about the lockdown?"
   translation: "Назад. Ты что, не слышала о карантине?"
   speaker: "Enforcer"
 
-- text: "No? I've just been in here. Can you-"
-  translation: "Нет? Я всё это время была здесь. Вы не мог..."
-
 - text: "Since last night? Don't you andros need to recharge?"
   translation: "С прошлой ночи? Разве вам, андросам, не нужно подзаряжаться?"
   speaker: "Enforcer"
-
-- text: "I can recharge here, now can you pleas-"
-  translation: "Я могу подзарядиться здесь, а теперь вы не мог..."
 
 - text: "Hey, I think this little guy likes me..."
   translation: "Эй, кажется, этот малыш ко мне неравнодушен..."

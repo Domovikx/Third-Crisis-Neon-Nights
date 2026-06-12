@@ -40,9 +40,3 @@
   rich_text: "<color=#EB83FF><i>(Earning money like this, I'm... Not any better than... )</i></color>"
   rich_translation: "<color=#EB83FF><i>(Зарабатывая деньги так, я... Ничем не лучше...)</i></color>"
 
-- text: "(... )"
-  translation: "(...)"
-  speaker: "Zoey"
-  rich_text: "<color=#EB83FF><i>(... )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(...)</i></color>"
-

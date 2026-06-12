@@ -1,5 +1,11 @@
 # Dialogues (path_id=72854)
 
+- text: "(Jaime... )"
+  translation: "(Джейми... )"
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF><i>(Jaime... )</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Джейми... )</i></color>"
+
 - text: "(That top isn't-... Hiding much... )"
   translation: "(Этот топ не-... Многое скрывает... )"
   rich_text: "<i>(That top isn't-... Hiding much... )</i>"
@@ -11,20 +17,14 @@
   rich_text: "<color=#EB83FF><i>(Just-... A peek... )</i></color>"
   rich_translation: "<color=#EB83FF><i>(Просто-... Взглянуть... )</i></color>"
 
-- text: "(Jaime... )"
-  translation: "(Джейми... )"
-  speaker: "Zoey"
-  rich_text: "<color=#EB83FF><i>(Jaime... )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Джейми... )</i></color>"
-
 - text: "I know, they're kinda small..."
-  translation: "Я знаю, они маловаты..."
+  translation: ""
 
 - text: "Denying that her boobs are too small would mean she was staring at them, fumbling around7"
-  translation: "Отрицать, что её грудь слишком мала, означало бы, что она пялилась на них, запинаясь7"
+  translation: ""
 
 - text: "There's not much to hide, so I tend to just not bother, I guess."
-  translation: "Там нечего особо скрывать, так что я просто не заморачиваюсь, наверное."
+  translation: ""
 
 - text: "What? No they're so hot-"
   translation: "Что? Нет, они такие классные-"
@@ -35,10 +35,10 @@
   speaker: "Zoey"
 
 - text: "Wish they were more like yours..."
-  translation: "Хотела бы я, чтобы они были больше похожи на твои..."
+  translation: ""
 
 - text: "Has it's downsides too, heh."
-  translation: "У этого есть и минусы, хех."
+  translation: ""
 
 - text: "Does it?"
   translation: "Правда?"
@@ -49,19 +49,19 @@
   rich_translation: "Ага... Привлекает внимание-... <i>нежелательное</i> иногда."
 
 - text: "Right... Sorry..."
-  translation: "Понятно... Прости..."
+  translation: ""
 
 - text: "Ah-! I didn't mean you, silly!"
   translation: "А-! Я не тебя имела в виду, глупышка!"
   speaker: "Zoey"
 
 - text: "Oh, you didn't?"
-  translation: "О, правда?"
+  translation: ""
 
 - text: "Anything but, heh!"
   translation: "Вовсе нет, хех!"
   speaker: "Zoey"
 
 - text: "That's good."
-  translation: "Это хорошо."
+  translation: ""
 

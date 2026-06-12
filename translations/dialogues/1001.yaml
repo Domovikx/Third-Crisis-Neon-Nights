@@ -1,0 +1,29 @@
+# Dialogues (path_id=1001)
+
+- text: "(I can hear someone in there"
+  translation: ""
+  speaker: "Zoey"
+  rich_text: "<i>(I can hear someone in there"
+  rich_translation: ""
+
+- text: "It's not my fault! My wrist was glitching off again."
+  translation: ""
+  speaker: "Cook"
+
+- text: "I told you those cheap implants are trouble. You spilled soup all over the floor!"
+  translation: ""
+  speaker: "Bunnyboy"
+
+- text: "Just help me clean this up before Klaudia finds out."
+  translation: ""
+  speaker: "Cook"
+
+- text: "Uh... Alright."
+  translation: ""
+  speaker: "Bunnyboy"
+
+- text: "(I should move. Better leave before they're done. )"
+  translation: ""
+  rich_text: "<i>(I should move. Better leave before they're done. )</i>"
+  rich_translation: ""
+

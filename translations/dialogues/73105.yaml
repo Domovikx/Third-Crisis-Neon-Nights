@@ -13,14 +13,14 @@
   speaker: "Enforcer"
 
 - text: "Yes... ma'am."
-  translation: "Да... госпожа."
+  translation: ""
 
 - text: "Again. Look up at me, slummer."
   translation: "Ещё раз. Посмотри на меня, нищенка."
   speaker: "Enforcer"
 
 - text: "Yes ma'am... I know my place..."
-  translation: "Да, госпожа... Я знаю своё место..."
+  translation: ""
 
 - text: "Ahh~ That's a good girl. Now run along."
   translation: "Ах~ Умница. А теперь беги."
@@ -34,5 +34,5 @@
   speaker: "Enforcer"
 
 - text: "Running along."
-  translation: "Уже бегу."
+  translation: ""
 

@@ -1,0 +1,46 @@
+# Dialogues (path_id=989)
+
+- text: "Hey..! Welcome to the- Afterglow."
+  translation: ""
+  speaker: "Zoey"
+
+- text: "What would you like to order...?"
+  translation: ""
+
+- text: "You're asking me what I want. Hah. So you're the latest trial, huh?"
+  translation: ""
+  speaker: "Varen"
+  rich_text: "You're asking <i>me</i> what I want. Hah. So you're the latest trial, huh?"
+  rich_translation: ""
+
+- text: "Oh, sorry, yeah... First day and all, heh...!"
+  translation: ""
+
+- text: "Name's Varen, bunny. I can... see why she picked you up, heh."
+  translation: ""
+  speaker: "Varen"
+
+- text: "R-right... Uhm..."
+  translation: ""
+  speaker: "Zoey"
+
+- text: "What did you want to order?"
+  translation: ""
+  speaker: "Zoey"
+
+- text: "I only ever order one of two things. Neon Lime and... Company."
+  translation: ""
+  speaker: "Varen"
+
+- text: "So... A Neon Lime?"
+  translation: ""
+  speaker: "Zoey"
+
+- text: "For now, sure."
+  translation: ""
+  speaker: "Varen"
+
+- text: "Okay, I'll be right back with your order, sir."
+  translation: ""
+  speaker: "Zoey"
+

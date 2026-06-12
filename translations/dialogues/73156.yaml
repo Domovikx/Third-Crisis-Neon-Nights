@@ -1,10 +1,5 @@
 # Dialogues (path_id=73156)
 
-- text: "(Aaand they're gone...)"
-  translation: "(И-и-их нет...)"
-  rich_text: "<i>(Aaand they're gone...)</i>"
-  rich_translation: "<i>(И-и-их нет...)</i>"
-
 - text: "(A-At least the way forward's clear... )"
   translation: "(П-По крайней мере, путь свободен... )"
   rich_text: "<i>(A-At least the way forward's clear... )</i>"

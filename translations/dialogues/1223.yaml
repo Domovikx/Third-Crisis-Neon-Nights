@@ -1,5 +1,8 @@
 # Dialogues (path_id=1223)
 
+- text: "I- What...?"
+  translation: ""
+
 - text: "(This is the room I saw in the recording... )"
   translation: "(Это та самая комната из записи... )"
   rich_text: "<i>(This is the room I saw in the recording... )</i>"

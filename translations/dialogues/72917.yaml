@@ -17,24 +17,6 @@
   rich_text: "<color=#EB83FF><i>(It's probably really cute while soft... )</i></color>"
   rich_translation: "<color=#EB83FF><i>(В мягком виде он, наверное, очень милый... )</i></color>"
 
-- text: "Is there something on my waist?"
-  translation: "У меня что-то на поясе?"
-
-- text: "Oh...- Uhm-... N-no! Sorry...!"
-  translation: "О...- Эм-... Н-нет! Прости...!"
-
-- text: "Shush, don't be!"
-  translation: "Тише, не извиняйся!"
-
-- text: "How do you like my new arrow tattoos?"
-  translation: "Как тебе мои новые татуировки-стрелки?"
-
-- text: "Heh, yeah, they're quite the attention grab!"
-  translation: "Хех, да, они привлекают внимание!"
-
-- text: "Then getting them was a total success, hehe."
-  translation: "Значит, я их набил не зря, хе-хе."
-
 - text: "(I have to stop staring at everyone's... Privates... )"
   translation: "(Мне нужно перестать пялиться на... интимные места... )"
   speaker: "Zoey"
@@ -52,7 +34,4 @@
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(So... It's not like I'm doing something wrong really... )</i></color>"
   rich_translation: "<color=#EB83FF><i>(Так что... Я ведь ничего плохого не делаю... )</i></color>"
-
-- text: "Stare all you want."
-  translation: "Можешь пялиться сколько хочешь."
 

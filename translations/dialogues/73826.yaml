@@ -6,13 +6,13 @@
   rich_translation: "О-О! Эм- <color=#EB83FF>Наверное... я могу это сд</color>елать-..."
 
 - text: "Mhm- Just like that. Hold still."
-  translation: "Мхм- Вот так. Не двигайся."
+  translation: ""
 
 - text: "He begins to grope Zoey"
   translation: "Он начинает лапать Зои"
 
 - text: "Hold still."
-  translation: "Не двигайся."
+  translation: ""
 
 - text: "(R-Right! Sorry- I'll- I'll be still- )"
   translation: "(Д-да! Прости- Я буду- Я буду стоять смирно- )"
@@ -20,7 +20,7 @@
   rich_translation: "<i>(Д-да! Прости- Я буду- Я буду <color=#EB83FF>стоять смирно-</color> )</i>"
 
 - text: "Good girl. Don't worry, no one's watching. This'll be over soon."
-  translation: "Умница. Не волнуйся, никто не смотрит. Скоро всё закончится."
+  translation: ""
 
 - text: "(Fuuck... He just... just like that- N-Khh... Keep it together-... It's just... just for his... research... )"
   translation: "(Бля-а... Он просто... вот так- Н-Кх... Держись-... Это просто... ради его... исследования... )"
@@ -28,5 +28,5 @@
   rich_translation: "<i>(<color=#EB83FF>Бля-а... Он просто... вот так- Н-</color>Кх... Держись-... Это просто... ради его... иссле<color=#EB83FF>дования...</color> )</i>"
 
 - text: "Closer. Stop squirming. We're all alone in this corner of the car."
-  translation: "Ближе. Хватит ёрзать. Мы совсем одни в этом углу вагона."
+  translation: ""
 

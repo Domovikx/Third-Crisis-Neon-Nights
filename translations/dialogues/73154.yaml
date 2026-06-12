@@ -47,26 +47,20 @@
 - text: "Very good~"
   translation: "Очень хорошо~"
 
-- text: "Good girl~"
-  translation: "Умница~"
-
-- text: "Such a good girl~"
-  translation: "Какая умница~"
-
 - text: "(I just... in front of... and it felt so... fuck...)"
   translation: "(Я только что... на глазах у... и это было так... чёрт...)"
   rich_text: "<i>(<color=#EB83FF>I just... in front of... and it felt so... fuck...</color>)</i>"
   rich_translation: "<i>(<color=#EB83FF>Я только что... на глазах у... и это было так... чёрт...</color>)</i>"
 
 - text: "We've had our fun~"
-  translation: "Мы повеселились~"
+  translation: ""
 
 - text: "And so has she~"
-  translation: "И она тоже~"
+  translation: ""
 
 - text: "Time to go~"
-  translation: "Пора идти~"
+  translation: ""
 
 - text: "Enjoy the afterglow~"
-  translation: "Наслаждайся послевкусием~"
+  translation: ""
 

@@ -1,14 +1,14 @@
 # Dialogues (path_id=2580)
 
 - text: "Uhh... You wouldn't happen to have something that could help recharge an andro would you?"
-  translation: "Э-э... У тебя случайно нет чего-нибудь, чем можно перезарядить андро?"
+  translation: ""
 
 - text: "Maybe. Why do you ask, girl?"
   translation: "Может быть. А что такое, девчонка?"
   speaker: "Man"
 
 - text: "There's an andro girl that ran out of power near a busted up charging station. She needs our help."
-  translation: "Там андро-девушка разрядилась возле сломанной зарядной станции. Ей нужна наша помощь."
+  translation: ""
 
 - text: "Our help? Well. Yeah, I've got an Andro Battery. Old one from before the first crisis. Should still interface well with all these new andros."
   translation: "Наша помощь? Ну. Да, есть у меня Андро-Батарея. Старая, ещё до первого кризиса. Должна подойти ко всем этим новым андро."
@@ -37,7 +37,7 @@
   speaker: "Man"
 
 - text: "I need to... uh... think about it..."
-  translation: "Мне нужно... э-э... подумать..."
+  translation: ""
 
 - text: "(It'd be wrong to take a picture of her while she's knocked out... but It'd save her... Ugh... maybe I should just flash him instead...)"
   translation: "(Будет неправильно снимать её, пока она без сознания... но это спасёт её... Уф... может, лучше просто ему показаться...)"

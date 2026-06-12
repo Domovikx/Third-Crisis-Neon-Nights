@@ -1,33 +1,30 @@
 # Dialogues (path_id=2509)
 
-- text: "What do you want?"
-  translation: "Чего тебе?"
-
 - text: "Me? Uh-... Nothing. I'm just taking a walk."
   translation: "Мне? Эм-... Ничего. Просто прогуливаюсь."
   speaker: "Zoey"
 
 - text: "This alley doesn't exactly look like a nice stroll, now does it?"
-  translation: "Этот переулок не похож на приятную прогулку, не так ли?"
+  translation: ""
 
 - text: "It's a lot prettier with her in it now, hehehe."
-  translation: "С ней он стал куда симпатичнее, хе-хе-хе."
+  translation: ""
 
 - text: "Th-thanks, heh... I- um. I should probably-"
   translation: "С-спасибо, хех... Я- эм. Мне, наверное-"
   speaker: "Zoey"
 
 - text: "Shut up, you're scaring our customer."
-  translation: "Заткнись, ты пугаешь нашу клиентку."
+  translation: ""
 
 - text: "Scaring? I'm just complimenting this pretty lady. So, cutie, how much do you want?"
-  translation: "Пугаю? Я просто делаю комплимент этой красотке. Так что, милашка, сколько тебе надо?"
+  translation: ""
 
 - text: "Unsure what they are talking about"
   translation: "Не понимает, о чём они"
 
 - text: "50 for two hits, 200 for five. Clean Glow. Price has gone up with the raid."
-  translation: "50 за два укола, 200 за пять. Чистый Глоу. Цена выросла после рейда."
+  translation: ""
 
 - text: "(Glow...? They're trying to sell me drugs?)"
   translation: "(Глоу...? Они пытаются впарить мне наркотики?)"

@@ -1,10 +1,7 @@
 # Dialogues (path_id=1212)
 
 - text: "Hey Max.."
-  translation: "Эй, Макс.."
-
-- text: "Did you find out what's up with that room?"
-  translation: "Ты выяснила, что с той комнатой?"
+  translation: ""
 
 - text: "Unfortunately, yeah."
   translation: "К сожалению, да."

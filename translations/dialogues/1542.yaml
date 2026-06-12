@@ -1,17 +1,8 @@
 # Dialogues (path_id=1542)
 
-- text: "I hate cleaning."
-  translation: "Ненавижу уборку."
-
-- text: "What happened?"
-  translation: "Что случилось?"
-
 - text: "Some dipshit thought it would be a great idea to ruin this room and now I have to clean it."
   translation: "Какой-то придурок решил, что разнести эту комнату — отличная идея, а теперь мне убирать."
   speaker: "Bunnyboy"
-
-- text: "Some people just suck.."
-  translation: "Некоторые люди просто отстой.."
 
 - text: "Yeah.. They were moved to 102 and I was sent to clean up.. Ugh.."
   translation: "Ага.. Их перевели в 102, а меня послали убирать.. Угх.."

@@ -5,11 +5,6 @@
   rich_text: "<i>\"This is Dr. Lozenge. Lead Scientist of Project Crush in the R&D Department of Peitho...\""
   rich_translation: "<i>\"Это доктор Лозендж. Ведущий учёный проекта «Краш» в отделе R&D компании Пейто...\""
 
-- text: "(What the fuck is Peitho?)"
-  translation: "(Что за хрень такая — Пейто?)"
-  rich_text: "<i>(What the fuck is Peitho?)</i>"
-  rich_translation: "<i>(Что за хрень такая — Пейто?)</i>"
-
 - text: "\"Now I'm sure you have many questions... like \"What even is Peitho?\"-"
   translation: "\"Уверен, у вас много вопросов... например: «Что вообще такое Пейто?»-"
   rich_text: "<i>\"Now I'm sure you have many questions... like \"What even is Peitho?\"-</i>"
@@ -30,11 +25,6 @@
   rich_text: "<i>\"So... I've created an antidote. The 'Crush Blocker' in this suitcase should innoculate someone against my poison.\"</i>"
   rich_translation: "<i>\"Поэтому... я создал антидот. «Crush-Блокатор» в этом чемоданчике должен защитить кого-то от моего яда.\"</i>"
 
-- text: "(Blocker... That must be this little device in the suitcase. Looks like a little cylinder thing.)"
-  translation: "(Блокатор... Должно быть, это то устройство в чемоданчике. Похоже на маленький цилиндр.)"
-  rich_text: "<i>(Blocker... That must be this little device in the suitcase. Looks like a little cylinder thing.)</i>"
-  rich_translation: "<i>(Блокатор... Должно быть, это то устройство в чемоданчике. Похоже на маленький цилиндр.)</i>"
-
 - text: "\"I just... couldn't perfect the antidote, so it's temporary. It only heals Crush buildup... or in layman's terms... reverses arousal.\""
   translation: "\"Я просто... не смог довести антидот до ума, так что он временный. Он лишь лечит накопление Crush... проще говоря... подавляет возбуждение.\""
   rich_text: "<i>\"I just... couldn't perfect the antidote, so it's temporary. It only heals Crush buildup... or in layman's terms... reverses arousal.\""
@@ -44,11 +34,6 @@
   translation: "\"Однако Блокатор может делать бесконечное число инъекций. Просто нужно перезаряжаться между дозами.\""
   rich_text: "<i>\"However, the Blocker can deliver an infinite number of injections. Just needs to recharge between each dose.\""
   rich_translation: "<i>\"Однако Блокатор может делать бесконечное число инъекций. Просто нужно перезаряжаться между дозами.\""
-
-- text: "(If this can be mass reproduced... Whoever owns it could break free from GAG's control. The Cartel... Do they know about this?!)"
-  translation: "(Если это можно массово воспроизвести... Тот, кто им завладеет, сможет вырваться из-под контроля GAG. Картель... Они знают об этом?!)"
-  rich_text: "<i>(If this can be mass reproduced... Whoever owns it could break free from GAG's control. The Cartel... Do they know about this?!)</i>"
-  rich_translation: "<i>(Если это можно массово воспроизвести... Тот, кто им завладеет, сможет вырваться из-под контроля GAG. Картель... Они знают об этом?!)</i>"
 
 - text: "\"I truly believed my work would make the world a better place. That if people were just compelled to cooperate together...\""
   translation: "\"Я искренне верил, что моя работа сделает мир лучше. Что если людей просто <b>вынудить</b> сотрудничать друг с другом...\""

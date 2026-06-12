@@ -1,14 +1,8 @@
 # Dialogues (path_id=1569)
 
-- text: "So... Where's... Nova...?"
-  translation: "Так... Где... Нова...?"
-
 - text: "Nova will be here when I tell her to be. And for that, you will first answer my questions."
   translation: "Нова появится, когда я скажу. А для этого ты сначала ответишь на мои вопросы."
   speaker: "Klaudia"
-
-- text: "Q-... questions...?"
-  translation: "В-... вопросы...?"
 
 - text: "How about we start with your name."
   translation: "Давай начнём с твоего имени."
@@ -41,9 +35,6 @@
   speaker: "Klaudia"
   rich_text: "I don't care about the intruiges between you and the cartel. However. You <b>will</b> make up for the damage you caused me, Madison. <b>Understood</b>?!"
   rich_translation: "Меня не волнуют твои интриги с картелем. Однако. Ты <b>возместишь</b> ущерб, который ты мне причинила, Мэдисон. <b>Ясно</b>?!"
-
-- text: "Scary screaming at zoey, trying to intimidate her."
-  translation: "Грозно кричит на Зои, пытаясь запугать её."
 
 - text: "Yes-... I- I understand."
   translation: "Да-... Я- Я понимаю."

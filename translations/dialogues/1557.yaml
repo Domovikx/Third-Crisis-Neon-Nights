@@ -1,8 +1,5 @@
 # Dialogues (path_id=1557)
 
-- text: "Could I take a look around upstairs?"
-  translation: "Можно мне осмотреться наверху?"
-
 - text: "No, upstairs is only for clients who booked one of my sweethearts."
   translation: "Нет, наверху только для клиентов, которые заказали одну из моих сладких."
   speaker: "Klaudia"
@@ -25,9 +22,6 @@
   speaker: "Klaudia"
   rich_text: "They are going to take all your <b>worries</b> away.~"
   rich_translation: "Они избавят тебя от всех <b>тревог</b>.~"
-
-- text: "I have to pass."
-  translation: "Я пас."
 
 - text: "Your loss."
   translation: "Твоя потеря."

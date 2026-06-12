@@ -1,29 +1,10 @@
 # Dialogues (path_id=1204)
 
-- text: "> Mmmh. Good girl."
-  translation: "> Ммм. Умница."
-  rich_text: "<i> > Mmmh. Good girl."
-  rich_translation: "<i> > Ммм. Умница."
+- text: "Staring, are we?"
+  translation: "Подглядываем?"
 
-- text: "> Mnghhh... fhh..."
-  translation: "> М-м-м... ф-ф..."
-  rich_text: "<i> > Mnghhh... fhh..."
-  rich_translation: "<i> > М-м-м... ф-ф..."
-
-- text: "> Why don't we move over to the massage now, hmm hun?"
-  translation: "> Может, перейдём к массажу, а, милая?"
-  rich_text: "<i> > Why don't we move over to the massage <b>now</b>, hmm hun?"
-  rich_translation: "<i> > Может, перейдём к массажу <b>сейчас</b>, а, милая?"
-
-- text: "> Mhh... yesss..."
-  translation: "> М-м... да-а..."
-  rich_text: "<i> > Mhh... yesss..."
-  rich_translation: "<i> > М-м... да-а..."
-
-- text: "(I-... have I really been watching all of that?!)"
-  translation: "(Я-... неужели я всё это смотрела?!)"
-  rich_text: "<i>(I-... have I really been watching all of that?!)</i>"
-  rich_translation: "<i>(Я-... неужели я всё это смотрела?!)</i>"
+- text: "Ack-! Sorry!"
+  translation: "Ай-! Прости!"
 
 - text: "(What is wrong with me?!)"
   translation: "(Да что со мной не так?!)"

@@ -9,28 +9,28 @@
   translation: "Э-э, алло?"
 
 - text: "You stirred the hornet's nest, Zoey. Do you at least have the suitcase? The Cartel is breathing down my neck."
-  translation: "Разворошила осиное гнездо, Зои. Чемодан-то хоть у тебя? Картель дышит мне в спину."
+  translation: ""
 
 - text: "Right to business, huh? Well, things didn't exactly go to plan-"
-  translation: "Сразу к делу, да? Ну, пошло не совсем по плану—"
+  translation: ""
 
 - text: "You don't say? You busted out a window. Quite the exit. From what I hear, the NCU is locking down the Redlight District to investigate."
-  translation: "Неужели? Выбила окно. Эффектный выход. Насколько я слышал, NCU перекрывает Район красных фонарей для расследования."
+  translation: ""
 
 - text: "Crap. That can't be good."
-  translation: "Чёрт. Это не к добру."
+  translation: ""
 
 - text: "No, it's not. So you're going to have to lay low wherever you are. Stay out of the Redlight District until the lockdown is lifted."
-  translation: "Нет, не к добру. Так что заляжешь на дно там, где ты есть. Не суйся в Район красных фонарей, пока не снимут блокпосты."
+  translation: ""
 
 - text: "But... You're in the Redlight District. I won't be able to do the handoff until the lockdown's lifted then."
-  translation: "Но... Вы же в Районе красных фонарей. Я не смогу передать товар, пока блокпосты не снимут."
+  translation: ""
 
 - text: "Correct. So I assume that means you've got the suitcase?"
-  translation: "Верно. Значит, я так понимаю, чемодан у тебя?"
+  translation: ""
 
 - text: "Well- Not exactly? I uh..."
-  translation: "Ну- Не совсем? Я э-э..."
+  translation: ""
 
 - text: "(Shit, do I tell her about the blocker? Better just play dumb for now.)"
   translation: "(Чёрт, сказать ей про блокиратор? Лучше пока прикинуться дурочкой.)"
@@ -38,7 +38,7 @@
   rich_translation: "<i>(Чёрт, сказать ей про блокиратор? Лучше пока прикинуться дурочкой.)</i>"
 
 - text: "Well, I had to crack the suitcase open. Just had some injector thing in there. No idea what it does, but I've got it."
-  translation: "Ну, пришлось взломать чемодан. Там внутри какая-то штука вроде инжектора. Понятия не имею, что оно делает, но оно у меня."
+  translation: ""
 
 - text: "(If I'm gonna lie to the Cartel about this... I need a fake blocker.)"
   translation: "(Если я собираюсь врать Картелю насчёт этого... Мне нужна подделка под блокиратор.)"
@@ -46,35 +46,35 @@
   rich_translation: "<i>(Если я собираюсь врать Картелю насчёт этого... Мне нужна подделка под блокиратор.)</i>"
 
 - text: "... Interesting. I haven't seen anyone crack open one of those suitcases before. It seems you're not a complete failure after all."
-  translation: "... Интересно. Я ещё не видел, чтобы кто-то взламывал такой чемодан. Похоже, ты не совсем безнадёжна."
+  translation: ""
 
 - text: "I- Uh- Thanks?"
   translation: "Я- Э- Спасибо?"
   speaker: "Zoey"
 
 - text: "I'll tell the Cartel about your situation. That'll calm them the fuck down. Just don't let the Enforcers or NCU get you, got it?"
-  translation: "Я сообщу Картелю о твоей ситуации. Это их успокоит на хрен. Только не дай Силовикам или NCU себя сцапать, ясно?"
+  translation: ""
 
 - text: "The last thing we need is you getting arrested when we're so close to finally having this contract finalized."
-  translation: "Нам только не хватало, чтобы тебя арестовали, когда мы так близки к завершению этого контракта."
+  translation: ""
 
 - text: "Nice to hear you care..."
-  translation: "Приятно слышать, что ты волнуешься..."
+  translation: ""
 
 - text: "The Redlight District lockdown should be gone in a couple days once they do their little show investigation and find nothing."
-  translation: "Блокпосты в Районе красных фонарей должны снять через пару дней, когда они проведут своё показательное расследование и ничего не найдут."
+  translation: ""
 
 - text: "Once it's lifted, wait for my call and I'll tell you when to bring it in. Got it?"
-  translation: "Как снимут — жди моего звонка, я скажу, когда приносить. Ясно?"
+  translation: ""
 
 - text: "Yeah, you got it Boss. See you then."
-  translation: "Да, есть, Шеф. До связи."
+  translation: ""
 
 - text: "Cheer up! You're gonna get a big payout for this one."
-  translation: "Выше нос! Получишь хороший куш за это."
+  translation: ""
 
 - text: "Yep. Looking forward to it!"
-  translation: "Ага. С нетерпением жду!"
+  translation: ""
 
 - text: "(Stupid, stupid, stupid. What am I doing? Am I really thinking about throwing away my big score?)"
   translation: "(Дура, дура, дура. Что я делаю? Я правда думаю о том, чтобы выбросить свой большой куш?)"

@@ -1,12 +1,5 @@
 # Dialogues (path_id=1193)
 
-- text: "(This looks like the other side of that machine alright...)"
-  translation: "Похоже, это другая сторона той самой машины..."
-  rich_text: "<i>(This looks like the other side of that machine alright...)</i>"
-  rich_translation: "<i>Похоже, это другая сторона той самой машины...</i>"
-
-- text: "(This looks like the unlock switch!)"
-  translation: "Похоже, это рычаг разблокировки!"
-  rich_text: "<i>(This looks like the unlock switch!)</i>"
-  rich_translation: "<i>Похоже, это рычаг разблокировки!</i>"
+- text: "Klaudia Dialogue Preset"
+  translation: "Пресет диалога Клавдии"
 

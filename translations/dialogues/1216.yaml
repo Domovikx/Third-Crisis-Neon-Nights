@@ -1,12 +1,15 @@
 # Dialogues (path_id=1216)
 
+- text: "Yes, yes! It truly puts my passion to words!"
+  translation: "Да, да! Это действительно выражает мою страсть словами!"
+
 - text: "Everything is setup and ready to go."
-  translation: "Всё готово и настроено."
+  translation: ""
 
 - text: "R-right. Okay."
   translation: "Д-да. Ладно."
   speaker: "Zoey"
 
 - text: "Here they come."
-  translation: "А вот и они."
+  translation: ""
 

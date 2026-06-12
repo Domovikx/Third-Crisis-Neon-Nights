@@ -6,19 +6,3 @@
   rich_text: "<i>(Jackpot! That's the case the client wants! )</i>"
   rich_translation: "<i>(Джекпот! Это тот кейс, который нужен клиенту!)</i>"
 
-- text: "Mnhhh.. Yess..! Please, put it innn..!!~"
-  translation: "М-н-н.. Да-а..! Вставь его глубже..!!~"
-
-- text: "Want it so bad, hmm?"
-  translation: "Так сильно хочешь, мм?"
-
-- text: "(Hh.. )"
-  translation: "(Ф-ф.. )"
-  rich_text: "<i>(Hh.. )</i>"
-  rich_translation: "<i>(Ф-ф.. )</i>"
-
-- text: "(I'll have to wait until they're done... No way I'm getting it while they're.. Uh.. Next to it.. )"
-  translation: "(Придётся подождать, пока они закончат... Ни за что не возьму его, пока они.. Эм.. Рядом с ним.. )"
-  rich_text: "<i>(I'll have to wait until they're done... No way I'm getting it while they're.. Uh.. Next to it.. )</i>"
-  rich_translation: "<i>(Придётся подождать, пока они закончат... Ни за что не возьму его, пока они.. Эм.. Рядом с ним.. )</i>"
-

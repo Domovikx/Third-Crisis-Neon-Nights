@@ -10,7 +10,7 @@
   rich_translation: "<color=#EB83FF>Э-... Эм-... Откуда ты-... знаешь...?</color>"
 
 - text: "You're all sweaty, darling."
-  translation: "Ты вся потная, дорогая."
+  translation: ""
 
 - text: "Ah-... S-sorry... Just, um... All the walking around..."
   translation: "А-... П-прости... Просто, эм... Вся эта ходьба..."
@@ -19,7 +19,7 @@
   rich_translation: "<color=#EB83FF>А-... П-прости... Просто, эм... Вся эта ходьба...</color>"
 
 - text: "Walking, hmmm? Riiight..."
-  translation: "Ходьба, хмм? Ну да..."
+  translation: ""
 
 - text: "Should I go and freshen up quickly? I don't want to be... like... nasty."
   translation: "Мне пойти освежиться? Я не хочу быть... такой... противной."
@@ -31,7 +31,7 @@
   translation: "А? Зачем? Это sexy!"
 
 - text: "Trust me, shiny skin looks amazing on you, ehehe."
-  translation: "Поверь, блестящая кожа смотрится на тебе потрясающе, хихи."
+  translation: ""
 
 - text: "Oh, um... okay. I-... I'll stay like this then...?"
   translation: "О, эм... ладно. Я-... Я останусь так тогда...?"
@@ -40,5 +40,5 @@
   rich_translation: "<color=#EB83FF>О, эм... ладно. Я-... Я останусь так тогда...?</color>"
 
 - text: "Mhmm, please do, darling."
-  translation: "Ммм, пожалуйста, дорогая."
+  translation: ""
 

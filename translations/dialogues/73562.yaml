@@ -12,10 +12,6 @@
   rich_text: "<color=#EB83FF><i>(And they said that they stayed just for me, right...? I-... I guess I should get a... a tip... )</i></color>"
   rich_translation: "<color=#EB83FF><i>(И они сказали, что остались только ради меня, верно...? Я-... Наверное, мне стоит получить... чаевые...)</i></color>"
 
-- text: "Can't resis' anymore *hic*... I gotta feeel itth... Pleaseeeee!"
-  translation: "Больше не могу сдерживаться *ик*... Мне нужно пощупать... Пожалуйста!"
-  speaker: "Customer"
-
 - text: "O-okay... But no groping... Just-... Nothing weird, okay?"
   translation: "Л-ладно... Но без лапанья... Просто-... Ничего странного, хорошо?"
   speaker: "Zoey"
@@ -39,12 +35,6 @@
 - text: "Fghh... The mone' I'd give ya to thoroughly grope ithh..."
   translation: "Фгх... Деньги, которые я бы отдал, чтобы как следует её пощупать..."
   speaker: "Customer"
-
-- text: "(... )"
-  translation: "(... )"
-  speaker: "Zoey"
-  rich_text: "<color=#EB83FF><i>(... )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(... )</i></color>"
 
 - text: "N-no, that's-... Nh..."
   translation: "Н-нет, это-... Нн..."

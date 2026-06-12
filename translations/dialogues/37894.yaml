@@ -1,9 +1,5 @@
 # Dialogues (path_id=37894)
 
 - text: "Kneel in the flesh."
-  translation: "Встать на колени лично."
-
-- text: "System.Collections.Generic.List`1[[Asuna.Dialogues.DialogueLineLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
-  translation: "(выбор сделан)"
-  speaker: "OnChoiceSelected"
+  translation: ""
 

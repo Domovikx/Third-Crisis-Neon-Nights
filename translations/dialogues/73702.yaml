@@ -1,36 +1,8 @@
 # Dialogues (path_id=73702)
 
-- text: "Ah- the neck massagers are nice, heh!"
-  translation: "А- шейные массажёры nice, хех!"
-  speaker: "Zoey"
-
-- text: "Mmm... Real nice."
-  translation: "Ммм... Очень nice."
-
-- text: "So relaxing."
-  translation: "Так расслабляет."
-  speaker: "Zoey"
-
 - text: "A vibrator in Sarahs seat started vibrating"
   translation: "Вибратор в кресле Сары начал вибрировать"
 
 - text: "Relaxed almost sleepy"
   translation: "Расслаблена, почти сонная"
-
-- text: "Th- That-... setting!"
-  translation: "Э- Этот-... режим!"
-  speaker: "Zoey"
-
-- text: "Mmh... Gosh that's so good.. Doesn't this feel great, Z?"
-  translation: "Мм... Боже, как хорошо.. Разве не здорово, З?"
-
-- text: "I- B-But-!"
-  translation: "Я- Н-Но-!"
-  speaker: "Zoey"
-
-- text: "(The vibration function... It- It turned itself on! It's... turning me on too... I should... turn it off... This isn't... appropriate next to...)"
-  translation: "(Функция вибрации... О-Она сама включилась! Она... меня тоже заводит... Надо... выключить... Это неуместно... рядом с...)"
-  speaker: "Zoey"
-  rich_text: "<i>(The vibration function... It- It turned itself on! It's... turning me on too... I should... turn it off... This isn't... appropriate next to...)</i>"
-  rich_translation: "<i>(Функция вибрации... О-Она сама включилась! Она... меня тоже заводит... Надо... выключить... Это неуместно... рядом с...)</i>"
 

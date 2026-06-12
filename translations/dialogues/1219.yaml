@@ -1,5 +1,8 @@
 # Dialogues (path_id=1219)
 
+- text: "Now... what to end it with, I wonder?"
+  translation: ""
+
 - text: "(I need to distract Max...)"
   translation: "(Нужно отвлечь Макс...)"
   rich_text: "<i>(I need to distract Max...)</i>"

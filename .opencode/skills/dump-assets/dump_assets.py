@@ -83,6 +83,34 @@ def discover_bundle_files() -> list:
     return files
 
 
+def discover_resource_files() -> list:
+    """Find .resource files — Unity legacy Resources/ format (not asset bundles).
+
+    These contain raw serialized data (not Unity objects), so UnityPy can't
+    load them. We scan them as raw binary for ASCII strings.
+    """
+    files = []
+    for p in sorted(DATA_DIR.glob('*.resource')):
+        files.append((f'resource_{p.stem}', p))
+    return files
+
+
+def discover_dll_files() -> list:
+    """Find Assembly-CSharp.dll — .NET assembly with hardcoded UI strings.
+
+    .NET stores strings in #US heap as UTF-16-LE with compressed length prefix.
+    """
+    managed = DATA_DIR / 'Managed'
+    if not managed.exists():
+        return []
+    files = []
+    for name in ['Assembly-CSharp.dll', 'Assembly-CSharp-firstpass.dll']:
+        p = managed / name
+        if p.exists():
+            files.append((f'dll_{p.stem}', p))
+    return files
+
+
 # ============================================================
 # Raw string scanner (finds embedded text in object blobs)
 # ============================================================
@@ -118,6 +146,359 @@ def scan_raw_strings(raw: bytes, base_offset: int = 0) -> list:
         else:
             i += 1
 
+    return results
+
+
+# ============================================================
+# .NET #US heap scanner (Assembly-CSharp.dll)
+# ============================================================
+
+def _read_compressed_int(data: bytes, offset: int) -> tuple:
+    """Read a .NET compressed integer (1, 2, or 4 bytes).
+
+    Returns (value, next_offset). Value is the number of UTF-16 bytes
+    in the following string (not including terminal byte).
+    """
+    if offset >= len(data):
+        return -1, offset
+    b0 = data[offset]
+    if b0 < 0x80:
+        return b0, offset + 1
+    elif b0 < 0xC0:
+        if offset + 1 >= len(data):
+            return -1, offset
+        return ((b0 & 0x3F) << 8) | data[offset + 1], offset + 2
+    elif b0 < 0xE0:
+        if offset + 3 >= len(data):
+            return -1, offset
+        return ((b0 & 0x1F) << 24) | (data[offset + 1] << 16) | (data[offset + 2] << 8) | data[offset + 3], offset + 4
+    else:
+        return -1, offset
+
+
+def _read_us_string(data: bytes, offset: int, byte_count: int) -> tuple:
+    """Read a UTF-16-LE string of given byte count from .NET #US heap.
+
+    The last byte is the terminal (usually 0x00). Returns (string, next_offset).
+    """
+    if offset + byte_count > len(data):
+        return None, offset
+    raw = data[offset:offset + byte_count]
+    try:
+        s = raw.decode('utf-16-le')
+        if s.endswith('\x00'):
+            s = s[:-1]
+        return s, offset + byte_count + 1
+    except Exception:
+        return None, offset
+
+
+def _looks_like_display_text(s: str) -> bool:
+    """Heuristic: does this string look like a UI display label?"""
+    if not s or len(s) < 2 or len(s) > 80:
+        return False
+    # Reject C# identifiers and code
+    if s.startswith('Settings.') or s.startswith('System.'):
+        return False
+    if '_' in s and ' ' not in s:
+        return False
+    if any(c in s for c in '{}[]<>();='):
+        return False
+    # Reject all-lowercase (likely code/variable)
+    if s.islower():
+        return False
+    # Accept: has space, or has uppercase letters, or is ALL CAPS with vowels
+    if ' ' in s:
+        return True
+    if any(c.isupper() for c in s):
+        return True
+    if s.isupper() and any(v in s for v in 'AEIOU'):
+        return True
+    return False
+
+
+def _read_next_us_string(data: bytes, offset: int) -> tuple:
+    """Read the next UTF-16-LE string from #US heap starting at given offset.
+
+    Returns (string, next_offset) or (None, offset) on failure.
+    """
+    if offset >= len(data):
+        return None, offset
+    total, data_start = _read_compressed_int(data, offset)
+    if total < 2 or total > 200:
+        return None, offset
+    utf16_bytes = total - 1
+    if utf16_bytes % 2 != 0:
+        return None, offset
+    if data_start + utf16_bytes + 1 > len(data):
+        return None, offset
+    if data[data_start + utf16_bytes] not in (0x00, 0x01, 0x23, 0x25):
+        return None, offset
+    try:
+        raw = data[data_start:data_start + utf16_bytes]
+        s = raw.decode('utf-16-le').strip('\x00').strip()
+        return s, data_start + utf16_bytes + 1
+    except Exception:
+        return None, offset
+
+
+def _split_camel_case(s: str) -> list:
+    """Split CamelCase into words. 'EnvironmentEffects' -> ['Environment', 'Effects']"""
+    import re
+    return [w for w in re.findall(r'[A-Z][a-z]*|[A-Z]+(?=[A-Z][a-z])|\d+', s) if w]
+
+
+def find_dotnet_us_heap(data: bytes) -> tuple:
+    """Find the #US (User Strings) heap in a .NET assembly PE file.
+
+    Returns (offset, size) or (None, 0) if not found.
+    """
+    import struct
+    sig = b'\x42\x53\x4a\x42'
+    sig_offset = data.find(sig)
+    if sig_offset < 0:
+        return None, 0
+    pos = sig_offset + 12
+    if pos + 4 > len(data):
+        return None, 0
+    ver_len = struct.unpack_from('<I', data, pos)[0]
+    pos += 4 + ver_len
+    if pos % 4:
+        pos += 4 - (pos % 4)
+    if pos + 4 > len(data):
+        return None, 0
+    flags, streams_count = struct.unpack_from('<HH', data, pos)
+    pos += 4
+    for _ in range(streams_count):
+        if pos + 8 > len(data):
+            return None, 0
+        s_offset, s_size = struct.unpack_from('<II', data, pos)
+        pos += 8
+        name_end = data.find(b'\x00', pos)
+        if name_end < 0:
+            return None, 0
+        name = data[pos:name_end].decode('ascii', errors='replace')
+        name_len = name_end - pos + 1
+        pos = name_end + 1
+        if pos % 4:
+            pos += 4 - (pos % 4)
+        if name == '#US':
+            return sig_offset + s_offset, s_size
+    return None, 0
+
+
+def _build_display_index(data: bytes, us_start: int = None, us_end: int = None) -> dict:
+    """Build an index of all human-readable strings in the #US heap.
+
+    Returns dict: lowercase_word -> list of (original_string, offset)
+    Used for matching Settings.* keys to their display text.
+    If us_start/us_end are given, only scans within that range.
+    """
+    index = {}
+    i = us_start if us_start is not None else 0
+    n = us_end if us_end is not None else len(data)
+    seen_strings = set()
+    while i < n - 4:
+        b0 = data[i]
+        if b0 < 0x20 or b0 > 0x7E:
+            i += 1
+            continue
+        total_bytes = b0
+        if total_bytes >= 0x80:
+            i += 1
+            continue
+        utf16_bytes = total_bytes - 1
+        if utf16_bytes < 4 or utf16_bytes > 200 or utf16_bytes % 2 != 0:
+            i += 1
+            continue
+        data_start = i + 1
+        if data_start + utf16_bytes + 1 > n:
+            i += 1
+            continue
+        if data[data_start + utf16_bytes] not in (0x00, 0x01):
+            i += 1
+            continue
+        try:
+            raw = data[data_start:data_start + utf16_bytes]
+            s = raw.decode('utf-16-le').strip('\x00').strip()
+        except Exception:
+            i += 1
+            continue
+        if s in seen_strings or not _looks_like_display_text(s):
+            i = data_start + utf16_bytes + 1
+            continue
+        seen_strings.add(s)
+        for word in s.split():
+            word_lower = word.lower()
+            if len(word_lower) >= 3:
+                index.setdefault(word_lower, []).append(s)
+        i = data_start + utf16_bytes + 1
+    return index
+
+
+def _find_display_for_key(key_suffix: str, display_index: dict) -> str:
+    """Find a display string for a Settings key suffix.
+
+    'EnvironmentEffects' -> search for string containing 'environment' AND 'effects'
+    """
+    words = _split_camel_case(key_suffix)
+    if not words:
+        return None
+    # Try to find a display that contains all the key words
+    word_lower = [w.lower() for w in words if len(w) >= 3]
+    if not word_lower:
+        return None
+    # Get candidate displays that contain the first word
+    candidates = display_index.get(word_lower[0], [])
+    best = None
+    best_score = 0
+    for cand in candidates:
+        cand_lower = cand.lower()
+        score = sum(1 for w in word_lower if w in cand_lower)
+        # Prefer strings that contain ALL words
+        if score == len(word_lower) and score > best_score:
+            best = cand
+            best_score = score
+    return best
+
+
+def _key_to_display(key_text: str) -> str:
+    """Convert Settings.* key to human-readable display text.
+
+    'Settings.EnableVSync' -> 'Enable VSync'
+    'Settings.EnvironmentEffects' -> 'Environment Effects'
+    'Settings.DialogueAutoplay.Off' -> 'Off'
+    """
+    suffix = key_text[len('Settings.'):]
+    if not suffix:
+        return None
+    # For sub-keys, just use the last part
+    parts = suffix.split('.')
+    if len(parts) > 1:
+        return parts[-1]
+    # Split CamelCase: "EnableVSync" -> "Enable VSync"
+    # Handle "VSync" -> "VSync" (keep acronyms)
+    import re
+    words = re.findall(r'[A-Z][a-z]*|[A-Z]+(?=[A-Z][a-z])|[A-Z]+$|^[a-z]+|[0-9]+', suffix)
+    if not words:
+        return suffix
+    return ' '.join(words)
+
+
+def scan_dotnet_settings(data: bytes) -> list:
+    """Scan .NET #US heap for Settings.* keys.
+
+    Display text is generated from the key name (CamelCase -> 'Camel Case').
+    The .assets files are the primary source for display text; the DLL
+    provides ADDITIONAL keys that might not be in the .assets files.
+    """
+    us_start, us_size = find_dotnet_us_heap(data)
+    if us_start is None:
+        us_start, us_end = 0, len(data)
+    else:
+        us_end = us_start + us_size
+    results = []
+    seen = set()
+    marker = 'Settings.'.encode('utf-16-le')
+    i = us_start
+    while i < us_end - len(marker):
+        pos = data.find(marker, i)
+        if pos < 0 or pos >= us_end:
+            break
+        key_start = pos - 1
+        if key_start < 0:
+            i = pos + 1
+            continue
+        prefix_byte = data[key_start]
+        if prefix_byte < 0x80:
+            total_bytes = prefix_byte
+            key_data_start = key_start + 1
+        elif prefix_byte < 0xC0 and key_start >= 1:
+            total_bytes = ((prefix_byte & 0x3F) << 8) | data[key_start - 1]
+            key_data_start = key_start + 2
+        else:
+            i = pos + 1
+            continue
+        utf16_bytes = total_bytes - 1
+        if utf16_bytes < 10 or utf16_bytes > 200 or utf16_bytes % 2 != 0:
+            i = pos + 1
+            continue
+        if key_data_start + utf16_bytes > len(data):
+            i = pos + 1
+            continue
+        key_text = data[key_data_start:key_data_start + utf16_bytes].decode('utf-16-le', errors='replace')
+        if not key_text.startswith('Settings.') or not all(c.isalnum() or c in '._' for c in key_text[9:]):
+            i = pos + 1
+            continue
+        if key_text in seen:
+            i = pos + 1
+            continue
+        display = _key_to_display(key_text)
+        if display is None:
+            i = pos + len(marker)
+            continue
+        seen.add(key_text)
+        results.append({"key": key_text, "display": display[:MAX_STRING_LEN]})
+        i = pos + len(marker)
+    return results
+
+
+def scan_dotnet_utf16_strings(data: bytes) -> list:
+    """Scan .NET #US heap for all readable UTF-16-LE strings.
+
+    Useful for finding standalone UI labels (not paired with Settings.*).
+    Length prefix INCLUDES the terminal byte (e.g., 39 = 38 UTF-16 + 1 terminal).
+    """
+    results = []
+    seen = set()
+    i = 0
+    n = len(data)
+    while i < n - 4:
+        b0 = data[i]
+        if b0 < 0x20 or b0 > 0x7E:
+            i += 1
+            continue
+        total_bytes = b0
+        if total_bytes < 0x80:
+            data_start = i + 1
+        else:
+            i += 1
+            continue
+        # total_bytes includes terminal; UTF-16 is total_bytes - 1
+        utf16_bytes = total_bytes - 1
+        if utf16_bytes < 4 or utf16_bytes > 200 or utf16_bytes % 2 != 0:
+            i += 1
+            continue
+        if data_start + utf16_bytes + 1 > n:
+            i += 1
+            continue
+        # Check terminal byte
+        if data[data_start + utf16_bytes] not in (0x00, 0x01, 0x23, 0x25):
+            i += 1
+            continue
+        raw = data[data_start:data_start + utf16_bytes]
+        try:
+            s = raw.decode('utf-16-le')
+        except Exception:
+            i += 1
+            continue
+        s = s.strip().strip('\x00')
+        if len(s) < 3 or len(s) > 80:
+            i += 1
+            continue
+        letters = sum(1 for c in s if c.isalpha())
+        if letters < 3:
+            i += 1
+            continue
+        if any(c in s for c in '{}[]<>();'):
+            i += 1
+            continue
+        if s in seen:
+            i += 1
+            continue
+        seen.add(s)
+        results.append(s)
+        i = data_start + utf16_bytes + 1
     return results
 
 
@@ -488,14 +869,22 @@ def _is_global_string_candidate(s: str) -> bool:
     # Reject strings with code symbols
     if any(c in s for c in '#$%@&*{}[]()<>|^~`='):
         return False
+    # Reject shader/Unity internal properties (start with underscore)
+    if s.startswith('_') and s[1:2].isalpha() and s[1:2].isupper():
+        return False
+    # Reject path-like strings
+    if '/' in s and not s.startswith('http'):
+        return False
     # Reject hex-like strings (random uppercase+digits)
     if all(c.isupper() or c.isdigit() or c in ' ' for c in s):
         if len(s) >= 3 and not any(c in 'AEIOUY ' for c in s.upper()):
             return False
-    # Accept multi-word strings
+    # Accept multi-word strings (highest priority)
     if ' ' in s:
-        return True
-    # Accept all-caps with vowels (MENU, FULLSCREEN)
+        # Reject strings that look like code paths or file names
+        if not any(c in s for c in '/\\.()[]'):
+            return True
+    # Accept all-caps with vowels (MENU, FULLSCREEN, BACK, HIDE)
     if s.isupper():
         return any(v in s for v in 'AEIOU')
     # Accept PascalCase (first upper, rest lower)
@@ -507,9 +896,41 @@ def _is_global_string_candidate(s: str) -> bool:
     return False
 
 
+def _ui_priority(s: str) -> int:
+    """Score a string by likelihood of being UI text (higher = more likely).
+
+    Used to sort global_strings so UI labels come before shader properties.
+    """
+    # Multi-word with spaces is the strongest signal of UI text
+    if ' ' in s:
+        # Penalize file paths
+        if '/' in s or '\\' in s:
+            return -10
+        return 100
+    # ALL CAPS with vowels (UI buttons: BACK, HIDE, LOG, SKIP, MANUAL)
+    if s.isupper():
+        has_vowel = any(v in s for v in 'AEIOU')
+        has_underscore = '_' in s
+        if has_vowel and not has_underscore and 2 <= len(s) <= 20:
+            return 80
+    # PascalCase (Settings labels: Resolution, TextureQuality)
+    if s[0].isupper() and any(c.islower() for c in s[1:]):
+        return 50
+    # All lowercase or all uppercase without vowels (shader: _FaceTex)
+    if s.startswith('_'):
+        return -50
+    # Camelcase
+    if s[0].islower() and any(c.isupper() for c in s[1:]):
+        return 20
+    return 0
+
+
 def scan_global_strings(data: bytes) -> list:
-    """Find readable UI-like strings in non-object data."""
-    results = []
+    """Find readable UI-like strings in non-object data.
+
+    Returns UI strings sorted by priority (highest first), limited to 500.
+    """
+    candidates = []
     seen = set()
     n = len(data)
     i = 0
@@ -521,13 +942,15 @@ def scan_global_strings(data: bytes) -> list:
                 cur.append(data[i])
                 i += 1
             s = cur.decode('ascii', errors='replace').strip()
-            if 4 <= len(s) <= 120:
+            if 3 <= len(s) <= 120:
                 if s not in seen and _is_global_string_candidate(s):
                     seen.add(s)
-                    results.append(s)
+                    candidates.append(s)
         else:
             i += 1
-    return results
+    # Sort by UI priority (highest first)
+    candidates.sort(key=lambda s: _ui_priority(s), reverse=True)
+    return candidates[:500]
 
 
 def get_object_ranges(env) -> list:
@@ -588,7 +1011,7 @@ def write_asset_json(name: str, env, out_dir: Path, raw_data: bytes = None):
                 found_texts.add(s["display"])
 
         global_strings = scan_global_strings(raw_data)
-        global_strings = [t for t in global_strings if t not in found_texts][:200]
+        global_strings = [t for t in global_strings if t not in found_texts]
         if global_strings:
             summary["global_strings"] = global_strings
 
@@ -616,8 +1039,9 @@ def write_asset_json(name: str, env, out_dir: Path, raw_data: bytes = None):
             chunk_data["objects"].append(extracted)
 
         try:
+            # Compact JSON for chunks (indent=2 triples file size and slows writing 3x)
             (out_dir / f"{name}.chunk{ci:03d}.json").write_text(
-                json.dumps(chunk_data, indent=2, ensure_ascii=False), encoding='utf-8'
+                json.dumps(chunk_data, ensure_ascii=False), encoding='utf-8'
             )
         except Exception as e:
             print(f"    WARN: chunk {ci} write failed: {e}", file=sys.stderr)
@@ -626,6 +1050,151 @@ def write_asset_json(name: str, env, out_dir: Path, raw_data: bytes = None):
     print(f"  -> {num_chunks} chunk(s)" if total_files > 2
           else f"  -> {out_dir / f'{name}.chunk000.json'}", file=sys.stderr)
     return total_files
+
+
+def write_raw_scan_json(name: str, raw_data: bytes, out_dir: Path):
+    """Write summary for .resource files (raw binary, no Unity objects).
+
+    Scans for ASCII strings and writes them to global_strings.
+    """
+    found_texts = set()
+    settings = scan_settings_keys(raw_data)
+    global_strings = scan_global_strings(raw_data)
+    if settings:
+        for s in settings:
+            found_texts.add(s["key"])
+            found_texts.add(s["display"])
+    global_strings = [t for t in global_strings if t not in found_texts]
+
+    summary = {
+        "asset": name,
+        "chunk": "summary",
+        "total_chunks": 0,
+        "total_objects": 0,
+        "object_types": {},
+        "chunks": [],
+        "format": "raw_binary",
+    }
+    if settings:
+        summary["settings_keys"] = settings
+    if global_strings:
+        summary["global_strings"] = global_strings
+
+    (out_dir / f"{name}.json").write_text(
+        json.dumps(summary, indent=2, ensure_ascii=False), encoding='utf-8'
+    )
+    n_str = len(global_strings)
+    n_set = len(settings) if settings else 0
+    print(f"  -> {out_dir / f'{name}.json'} (raw scan: {n_str} strings, {n_set} settings)", file=sys.stderr)
+    return 1
+
+
+def scan_dotnet_ui_strings(data: bytes) -> list:
+    """Extract all UI-like strings from .NET #US heap.
+
+    These are standalone strings (not paired with Settings.* keys) that look
+    like UI labels: "Environment Effects", "Post Processing", "Manual", etc.
+
+    Uses structure-aware scanning: reads length prefix, then UTF-16 data,
+    then terminal byte. Always advances by the correct amount to maintain
+    alignment.
+    """
+    us_start, us_size = find_dotnet_us_heap(data)
+    if us_start is None:
+        return []
+    us_end = us_start + us_size
+    results = []
+    seen = set()
+    i = us_start
+    while i < us_end - 2:
+        # Read compressed length prefix
+        b0 = data[i]
+        if b0 == 0x00:
+            # Empty string, skip (length 0 means just terminal)
+            i += 1
+            continue
+        if b0 < 0x80:
+            total_bytes = b0
+            prefix_size = 1
+        elif b0 < 0xC0:
+            if i + 1 >= us_end:
+                break
+            total_bytes = ((b0 & 0x3F) << 8) | data[i + 1]
+            prefix_size = 2
+        else:
+            # Invalid for #US heap (only 1-2 byte lengths used)
+            i += 1
+            continue
+        # total_bytes includes terminal byte; UTF-16 is total_bytes - 1
+        utf16_bytes = total_bytes - 1
+        if utf16_bytes < 2 or utf16_bytes > 300 or utf16_bytes % 2 != 0:
+            i += prefix_size
+            continue
+        data_start = i + prefix_size
+        if data_start + utf16_bytes + 1 > us_end:
+            break
+        # Verify terminal byte
+        if data[data_start + utf16_bytes] not in (0x00, 0x01):
+            i += prefix_size
+            continue
+        # Decode UTF-16
+        try:
+            raw = data[data_start:data_start + utf16_bytes]
+            s = raw.decode('utf-16-le').strip('\x00').strip()
+        except (UnicodeDecodeError, ValueError):
+            i += prefix_size + utf16_bytes + 1
+            continue
+        # Advance past this entry
+        i = data_start + utf16_bytes + 1
+        # Filter
+        if s in seen or len(s) < 3 or len(s) > 80:
+            continue
+        if not _looks_like_display_text(s):
+            continue
+        if ' ' not in s and '_' not in s:
+            if not (s.isupper() and any(v in s for v in 'AEIOU') and 2 <= len(s) <= 20):
+                continue
+        seen.add(s)
+        results.append(s)
+    results.sort(key=lambda s: _ui_priority(s), reverse=True)
+    return results[:500]
+
+
+def write_dll_scan_json(name: str, raw_data: bytes, out_dir: Path):
+    """Write summary for .NET DLL files.
+
+    Extracts:
+    - Settings.* keys with auto-generated display text
+    - Standalone UI strings from #US heap (Environment Effects, Post Processing, etc.)
+
+    Both are written to settings_keys so the extractor picks them up uniformly.
+    """
+    settings = scan_dotnet_settings(raw_data)
+    ui_strings = scan_dotnet_ui_strings(raw_data)
+    settings_displays = {s["display"] for s in settings}
+    ui_strings = [s for s in ui_strings if s not in settings_displays]
+    # Add UI strings as settings_keys entries (key=display text, display=display text)
+    for s in ui_strings:
+        settings.append({"key": s, "display": s})
+
+    summary = {
+        "asset": name,
+        "chunk": "summary",
+        "total_chunks": 0,
+        "total_objects": 0,
+        "object_types": {},
+        "chunks": [],
+        "format": "dotnet_us_heap",
+    }
+    if settings:
+        summary["settings_keys"] = settings
+
+    (out_dir / f"{name}.json").write_text(
+        json.dumps(summary, indent=2, ensure_ascii=False), encoding='utf-8'
+    )
+    n_set = len(settings) if settings else 0
+    print(f"  -> {out_dir / f'{name}.json'} (DLL scan: {n_set} settings/UI strings)", file=sys.stderr)
+    return 1
 
 
 # ============================================================
@@ -653,8 +1222,14 @@ def dump_assets(output_dir: str = None) -> str:
 
     files = discover_asset_files()
     bundle_files = discover_bundle_files()
+    resource_files = discover_resource_files()
+    dll_files = discover_dll_files()
     if bundle_files:
         print(f"  Bundles: {len(bundle_files)} file(s) found", file=sys.stderr)
+    if resource_files:
+        print(f"  Resources: {len(resource_files)} file(s) found", file=sys.stderr)
+    if dll_files:
+        print(f"  DLLs: {len(dll_files)} file(s) found", file=sys.stderr)
     files.extend(bundle_files)
     print(f"Dump-Assets (UnityPy): {len(files)} file(s) found", file=sys.stderr)
 
@@ -668,6 +1243,26 @@ def dump_assets(output_dir: str = None) -> str:
             print(f"    -> {total_objs} objects", file=sys.stderr)
             nfiles = write_asset_json(name, env, out, raw_data)
             results.append((name, total_objs, nfiles))
+        except Exception as e:
+            print(f"    ERROR: {e}", file=sys.stderr)
+
+    # Raw scan for .resource files (no Unity objects)
+    for name, fp in resource_files:
+        print(f"  Raw-scanning {name}...", file=sys.stderr)
+        try:
+            raw_data = fp.read_bytes()
+            nfiles = write_raw_scan_json(name, raw_data, out)
+            results.append((name, 0, nfiles))
+        except Exception as e:
+            print(f"    ERROR: {e}", file=sys.stderr)
+
+    # .NET #US heap scan for DLL files
+    for name, fp in dll_files:
+        print(f"  DLL-scanning {name}...", file=sys.stderr)
+        try:
+            raw_data = fp.read_bytes()
+            nfiles = write_dll_scan_json(name, raw_data, out)
+            results.append((name, 0, nfiles))
         except Exception as e:
             print(f"    ERROR: {e}", file=sys.stderr)
 

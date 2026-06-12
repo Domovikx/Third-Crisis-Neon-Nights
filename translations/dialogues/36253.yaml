@@ -1,9 +1,9 @@
 # Dialogues (path_id=36253)
 
-- text: "Lick the cum off the toilet."
-  translation: "Слизать сперму с унитаза."
-
 - text: "System.Collections.Generic.List`1[[Asuna.Dialogues.DialogueLineLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
   translation: "(выбор сделан)"
   speaker: "OnChoiceSelected"
+
+- text: "Lick the cum off the toilet."
+  translation: ""
 

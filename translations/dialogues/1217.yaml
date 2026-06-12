@@ -1,10 +1,13 @@
 # Dialogues (path_id=1217)
 
+- text: "No, no, no! Too simple. Too generic."
+  translation: ""
+
 - text: "Thanks again for all your help, Zoey"
   translation: "Спасибо ещё раз за всю твою помощь, Зои"
 
 - text: "Any time, Max."
-  translation: "Всегда пожалуйста, Макс."
+  translation: ""
 
 - text: "I'll head back to the counter, see you there!"
   translation: "Я вернусь к стойке, увидимся там!"

@@ -1,0 +1,27 @@
+# Dialogues (path_id=1015)
+
+- text: "Trov Hask"
+  translation: "Тров Хаск"
+
+- text: "Too bad. That's all you're getting."
+  translation: ""
+  speaker: "Zoey"
+
+- text: "Here's 10 bucks. Call me \"sir\" and you're getting another 10."
+  translation: ""
+  speaker: "Trov"
+
+- text: "(Huh? He tipped...? But-... )"
+  translation: ""
+  rich_text: "<i>(Huh? He tipped...? But-... )</i>"
+  rich_translation: ""
+
+- text: "(He made me fall, I-... I shouldn't... Right...?)"
+  translation: ""
+  rich_text: "<i>(He made me fall, I-... I shouldn't... Right...?)</i>"
+  rich_translation: ""
+
+- text: "Just say \"yes, sir\" and the money is yours, eheh."
+  translation: ""
+  speaker: "Trov"
+

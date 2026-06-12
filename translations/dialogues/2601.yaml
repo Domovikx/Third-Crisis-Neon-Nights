@@ -1,19 +1,19 @@
 # Dialogues (path_id=2601)
 
 - text: "Finally I can smoke in peace."
-  translation: "Наконец-то можно спокойно покурить."
+  translation: ""
 
 - text: "Yup, no landlords out here."
   translation: "Ага, здесь нет арендодателей."
   speaker: "Zoey"
 
 - text: "Not yet, anyway."
-  translation: "Пока что."
+  translation: ""
 
 - text: "Say, how about we take a quick walk around the district?"
   translation: "Слушай, как насчёт прогуляться по району?"
   speaker: "Zoey"
 
 - text: "Sure, whatever."
-  translation: "Да без проблем."
+  translation: ""
 

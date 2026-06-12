@@ -5,7 +5,7 @@
   speaker: "Enforcer"
 
 - text: "Uhh... Yeah! We're okay! The box went crazy on us."
-  translation: "Эм... Да! Мы в порядке! Этот ящик взбесился."
+  translation: ""
 
 - text: "We? Someone order a two-for-one special?"
   translation: "Мы? Кто-то заказал две по цене одной?"
@@ -17,7 +17,7 @@
   rich_translation: "<i>(Тьфу... Они думают, мы проститутки... Наверное, это лучше, чем думать, будто мы замышляем что-то нехорошее...)</i>"
 
 - text: "Err... Yeah! Mhm! There's a lucky person we gotta get to! Sooo can you get us out? Please?"
-  translation: "Э-э... Да! Ага! Нам нужно к одному везунчику! Та-ак вытащите нас? Пожалуйста?"
+  translation: ""
 
 - text: "Just hold on a second, we'll get you out of there."
   translation: "Минуточку, мы вас вытащим."

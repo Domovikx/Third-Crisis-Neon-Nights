@@ -14,11 +14,6 @@
   rich_text: "<i>(Is that... A used condom...?!)</i>"
   rich_translation: "<i>(Это... Использованный презерватив...?!)</i>"
 
-- text: "(Maybe I should... Check another pocket... )"
-  translation: "(Может, мне стоит... Проверить другой карман... )"
-  rich_text: "<i>(Maybe I should... Check another pocket... )</i>"
-  rich_translation: "<i>(Может, мне стоит... Проверить другой карман... )</i>"
-
 - text: "A concert ticket! Jackpot! Let's see the band name."
   translation: "Билет на концерт! Джекпот! Посмотрим на название группы."
   speaker: "Zoey"

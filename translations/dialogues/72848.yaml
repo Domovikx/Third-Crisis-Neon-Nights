@@ -6,7 +6,7 @@
   rich_translation: "<i>(Её рука прозрачная. Материал выглядит почти мягким. )</i>"
 
 - text: "Sorry, I-... I know my arm looks weird."
-  translation: "Прости, я-... Знаю, моя рука выглядит странно."
+  translation: ""
 
 - text: "Huh? No, but-"
   translation: "А? Нет, но-"
@@ -16,7 +16,7 @@
   speaker: "Zoey"
 
 - text: "I usually try to hide it but I-... didn't get around to washing my long sleeves."
-  translation: "Я обычно пытаюсь это скрывать, но я-... не успела постирать свои длинные рукава."
+  translation: ""
 
 - text: "I think you look really pretty with it showing!"
   translation: "Я думаю, ты выглядишь очень красиво, когда это видно!"

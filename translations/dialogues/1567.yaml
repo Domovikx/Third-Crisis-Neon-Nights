@@ -10,9 +10,6 @@
   rich_text: "You?! What are <b>you</b> doing here?!"
   rich_translation: "Ты?! Что <b>ты</b> здесь делаешь?!"
 
-- text: "I-... U-... Hi... I'm looking to uhm-... Talk to... Nova...?"
-  translation: "Я-... Э-... Привет... Я ищу эм-... Поговорить с... Новой...?"
-
 - text: "Nova, hm? She's in the back. Why don't you follow me there, hm?"
   translation: "Нову, хм? Она в подсобке. Почему бы тебе не пройти со мной, хм?"
   speaker: "Klaudia"

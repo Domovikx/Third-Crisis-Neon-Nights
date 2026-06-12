@@ -1,5 +1,11 @@
 # Dialogues (path_id=73521)
 
+- text: "..."
+  translation: "..."
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>... </color>"
+  rich_translation: "<color=#EB83FF>...</color>"
+
 - text: "(I-... I guess that's... fine...?)"
   translation: "(Я-... Наверное, это... нормально...?)"
   speaker: "Zoey"
@@ -15,12 +21,6 @@
 - text: "Mmm, yess... You're hot up close, bunny..."
   translation: "Ммм, да... Ты горячая вблизи, зайка..."
   speaker: "Customer"
-
-- text: "..."
-  translation: "..."
-  speaker: "Zoey"
-  rich_text: "<color=#EB83FF>... </color>"
-  rich_translation: "<color=#EB83FF>...</color>"
 
 - text: "(Getting these customers drunk so they can't help but pay those crazy service prices... That's what this job is really about, isn't it...? Gahh... )"
   translation: "(Поить клиентов, чтобы платили бешеные цены... Вот в чём суть работы, да...? Тьфу... )"

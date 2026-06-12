@@ -1,16 +1,16 @@
 # Dialogues (path_id=2514)
 
 - text: "You look like someone in need of some cash on the side."
-  translation: "Ты выглядишь как та, кому нужны лишние деньги."
+  translation: ""
 
 - text: "Uhhh... Okay?"
-  translation: "Эээ... Ладно?"
+  translation: ""
 
 - text: "What? Am I wrong?"
   translation: "Что? Я не прав?"
 
 - text: "Of course I'm not wrong, heh."
-  translation: "Конечно, я прав, хех."
+  translation: ""
 
 - text: "Look, just-... What do you want?"
   translation: "Слушай, просто-... Что тебе надо?"
@@ -26,7 +26,7 @@
   speaker: "Zoey"
 
 - text: "The goods I'm trying to sell right now are not... Used."
-  translation: "Товар, который я сейчас пытаюсь продать, не... Подержанный."
+  translation: ""
 
 - text: "What kind of goods are you talking about exactly?"
   translation: "О каком именно товаре ты говоришь?"
@@ -44,10 +44,10 @@
   speaker: "Zoey"
 
 - text: "I was about to deliver this one to some old fart. Then he suddenly demanded proof of it having been worn."
-  translation: "Я собирался доставить этот наряд одному старому хрычу. А он вдруг потребовал доказательства, что его носили."
+  translation: ""
 
 - text: "200 FB. Yours in cash. What do you think?"
-  translation: "200 кредитов. Наличные. Что скажешь?"
+  translation: ""
 
 - text: "(Just to wear an outfit...?)"
   translation: "(Всего лишь надеть наряд...?)"

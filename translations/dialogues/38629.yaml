@@ -1,18 +1,5 @@
 # Dialogues (path_id=38629)
 
-- text: "System.Collections.Generic.List`1[[Asuna.Dialogues.DialogueLineLogic, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
-  translation: "(ключ сохранения)"
-  speaker: "SaveKey"
-
-- text: "Ask about Arm"
-  translation: "Спросить о руке"
-
-- text: "Ask to go upstairs"
-  translation: "Попроситься наверх"
-
-- text: "Ask about a Bunny"
-  translation: "Спросить о Зайке"
-
 - text: "Ask for Work"
-  translation: "Попросить работу"
+  translation: ""
 

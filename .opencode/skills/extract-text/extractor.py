@@ -219,6 +219,99 @@ def extract_bundle_dialogues(chunk_files: list) -> dict:
     return by_bundle
 
 
+def _is_ui_string(s: str) -> bool:
+    """Check if a raw_string looks like a UI label (not debug msg, not shader prop, not path).
+
+    Strict filter to avoid Steamworks/Unity debug noise. Cyberpunk-style text
+    (█ ▓ ▒ ░, special unicode) is kept if it matches UI patterns.
+    """
+    if not s or len(s) < 2 or len(s) > 50:
+        return False
+    # Reject shader/Unity internal properties (start with underscore + uppercase)
+    if s.startswith('_') and len(s) > 2 and s[1].isupper():
+        return False
+    # Reject GUIDs
+    if re.match(r'^[0-9a-f]{8}-[0-9a-f]{4}', s, re.I):
+        return False
+    # Reject pure hex
+    if re.match(r'^[0-9a-fA-F]+$', s) and len(s) > 6:
+        return False
+    # Reject code-like patterns (debug messages)
+    code_patterns = [
+        'must be', 'is out of', 'is not ', 'cannot ', "doesn't", "don't ",
+        'not found', 'not initialized', 'not null', 'is null', 'is empty',
+        'must not', 'is bigger', 'is smaller', 'is invalid', 'is unknown',
+        'size of', 'count is', 'range of', 'index ', 'array', 'function ',
+        'parameter', 'argument', 'exception', 'error:', 'warning:',
+        'origins', 'handles', 'properties', 'serializ', 'deserializ',
+        'callback', 'steam', 'unity ',
+    ]
+    s_lower = s.lower()
+    for pat in code_patterns:
+        if pat in s_lower:
+            return False
+    # Reject C# field names with dots or angle brackets
+    if '.' in s and any(c.isupper() for c in s.split('.')[0][:5]):
+        return False
+    if '<' in s or '>' in s:
+        return False
+    if '{' in s or '}' in s:
+        return False
+    if '(' in s and ')' in s:
+        return False
+    # Reject file paths
+    if s.startswith('actions/') or s.startswith('expressions/') or s.startswith('Textures/'):
+        return False
+    if '/' in s and '\\' in s:
+        return False
+    if s.endswith('.cs') or s.endswith('.dll') or s.endswith('.json'):
+        return False
+    # Reject animation/asset state names (e.g., "Normal", "Highlighted", "Pressed")
+    asset_states = {
+        'Normal', 'Highlighted', 'Pressed', 'Selected', 'Disabled', 'Active',
+    }
+    if s in asset_states:
+        return False
+    # Now accept based on patterns
+    # ALL CAPS with vowels = button label (BACK, HIDE, SKIP, LOG, OPTIONS)
+    if s.isupper() and 2 <= len(s) <= 25:
+        return any(v in s for v in 'AEIOU')
+    # Has space = multi-word label (New Game, Dialogue Log, LOAD GAME)
+    if ' ' in s:
+        return True
+    # Short PascalCase with no space (Back, Continue, Skip, Resume)
+    if s[0].isupper() and any(c.islower() for c in s[1:]) and 2 <= len(s) <= 15:
+        # Reject obvious C# class names (long, no vowels, technical)
+        if s in {'FSM', 'FSMs', 'GUID', 'Data'}:
+            return False
+        return True
+    return False
+
+
+def extract_chunk_ui_strings(chunk_files: list) -> list:
+    """Extract UI-like strings from raw_strings in chunk files.
+
+    Many UI labels (BACK, HIDE, SKIP, Dialogue Log, etc.) are in MonoBehaviour
+    raw_strings but not in settings_keys. This catches them.
+    """
+    seen = set()
+    results = []
+    for fp in chunk_files:
+        try:
+            data = json.loads(fp.read_text("utf-8"))
+        except Exception:
+            continue
+        for obj in data.get("objects", []):
+            for s in obj.get("raw_strings", []):
+                s = s.strip()
+                if not s or s in seen or "\x00" in s:
+                    continue
+                if _is_ui_string(s):
+                    seen.add(s)
+                    results.append(s)
+    return [{"text": s, "translation": ""} for s in results]
+
+
 def extract_global_strings(summary_files: list) -> list:
     """Extract UI strings from settings_keys.
     Returns list of dicts with text + translation."""
@@ -236,6 +329,183 @@ def extract_global_strings(summary_files: list) -> list:
             seen.add(display)
             keys.append({"text": display, "translation": ""})
     return keys
+
+
+# ---------------------------------------------------------------------------
+# Dialogue vs settings_keys disambiguation
+# ---------------------------------------------------------------------------
+
+def _is_dialogue_entry(entry: dict) -> bool:
+    """Check if an entry is a dialogue (has speaker or rich_text) or a simple UI string.
+
+    Dialogue entries have multiple fields (text, translation, speaker, rich_text, ...).
+    Settings_key entries have only text + translation.
+    Runtime uses `text` as key, so a dialogue in settings_keys.yaml would lose
+    speaker/rich_text — that's the bug we're fixing.
+    """
+    if not entry:
+        return False
+    has_speaker = bool(entry.get("speaker", "").strip())
+    has_rich = bool(entry.get("rich_text", "").strip())
+    return has_speaker or has_rich
+
+
+def _entry_field_count(entry: dict) -> int:
+    """Count non-empty fields in an entry. Used to pick the richer version."""
+    return sum(1 for v in entry.values() if v and str(v).strip())
+
+
+def consolidate_translations():
+    """Post-extraction cleanup: deduplicate by `text` and route to correct file.
+
+    Algorithm:
+    1. Load all dialogues/*.yaml and settings_keys.yaml
+    2. Group entries by `text` field
+    3. For each group, keep the entry with the MOST fields (richest)
+    4. If richest has dialogue fields (speaker/rich_text) → keep in dialogues/
+    5. If richest has only text+translation → keep in settings_keys.yaml
+    6. Remove duplicates from wrong files
+
+    Runtime uses `text` as the only key, so duplicates are pure noise.
+    """
+    dialogues_dir = _dialogues_dir()
+    if not dialogues_dir.exists():
+        return
+
+    # Counter for entries removed during consolidation
+    removed_count = 0
+
+    # Step 1: Collect all entries by text
+    # text -> {"dialogue": (file, entry), "settings": (file, entry)}
+    by_text: dict = {}
+
+    # Load dialogues
+    for fp in sorted(dialogues_dir.glob("*.yaml")):
+        try:
+            entries = yaml.safe_load(fp.read_text(encoding="utf-8")) or []
+        except Exception:
+            continue
+        for entry in entries:
+            if not isinstance(entry, dict):
+                continue
+            t = entry.get("text", "")
+            if not t:
+                continue
+            slot = by_text.setdefault(t, {"dialogue": None, "settings": None})
+            # slot["dialogue"] stores (filepath, entry_dict)
+            existing = slot["dialogue"]
+            if existing is None or _entry_field_count(entry) > _entry_field_count(existing[1]):
+                slot["dialogue"] = (fp, entry)
+
+    # Load settings_keys
+    sk_path = OUT_DIR / "settings_keys.yaml"
+    sk_entries = []
+    if sk_path.exists():
+        try:
+            sk_entries = yaml.safe_load(sk_path.read_text(encoding="utf-8")) or []
+        except Exception:
+            sk_entries = []
+
+    # Load speakers — these are handled by speakers.yaml, NOT by settings_keys.
+    # Without this filter, settings_keys.yaml (loaded first alphabetically: s-e-t < s-p-e)
+    # would seed the runtime dictionary with empty translations, blocking speakers.yaml.
+    # Match case-insensitively because the game may uppercase speaker names for display
+    # (e.g., "Zoey" in dialogues becomes "ZOEY" in TMP).
+    speaker_texts_lower = set()
+    sp_path = OUT_DIR / "speakers.yaml"
+    if sp_path.exists():
+        try:
+            sp_entries = yaml.safe_load(sp_path.read_text(encoding="utf-8")) or []
+            for e in sp_entries:
+                if isinstance(e, dict) and e.get("text"):
+                    speaker_texts_lower.add(e["text"].lower())
+        except Exception:
+            pass
+
+    for entry in sk_entries:
+        if not isinstance(entry, dict):
+            continue
+        t = entry.get("text", "")
+        if not t:
+            continue
+        # Skip entries that belong to speakers.yaml (case-insensitive)
+        if t.lower() in speaker_texts_lower:
+            removed_count += 1
+            continue
+        slot = by_text.setdefault(t, {"dialogue": None, "settings": None})
+        existing = slot["settings"]
+        if existing is None or _entry_field_count(entry) > _entry_field_count(existing[1]):
+            slot["settings"] = (sk_path, entry)
+
+    # Step 2: Decide winner and route to correct file
+    keep_in_dialogues: dict = {}  # file -> [entries]
+    keep_in_settings = []
+
+    for t, versions in by_text.items():
+        dlg = versions["dialogue"]   # (file, entry) or None
+        stt = versions["settings"]   # (file, entry) or None
+
+        # Pick the richer version (more fields = better)
+        if dlg and stt:
+            dlg_count = _entry_field_count(dlg[1])
+            stt_count = _entry_field_count(stt[1])
+            if dlg_count >= stt_count:
+                chosen = dlg[1]
+                chosen_src = "dialogue"
+            else:
+                chosen = stt[1]
+                chosen_src = "settings"
+                removed_count += 1  # dialogue version removed
+        elif dlg:
+            chosen = dlg[1]
+            chosen_src = "dialogue"
+        elif stt:
+            chosen = stt[1]
+            chosen_src = "settings"
+        else:
+            continue
+
+        # Route by ACTUAL content AND source file.
+        # - If dlg (dialogue) version exists → keep in dialogues/ (preserve context)
+        # - Otherwise, check content: speaker/rich_text → dialogue, else → settings_key
+        if dlg is not None:
+            # Keep in original dialogues/ file regardless of content
+            keep_in_dialogues.setdefault(dlg[0], []).append(chosen)
+            if chosen_src == "settings":
+                removed_count += 1
+        elif _is_dialogue_entry(chosen):
+            # Settings_keys version that looks like a dialogue — write to _orphans
+            keep_in_dialogues.setdefault(dialogues_dir / "_orphans.yaml", []).append(chosen)
+            removed_count += 1
+        else:
+            keep_in_settings.append(chosen)
+
+    # Step 3: Write back dialogues files (only files that have entries)
+    for fp, entries in keep_in_dialogues.items():
+        seen_t = set()
+        unique = []
+        for e in entries:
+            if e.get("text", "") not in seen_t:
+                seen_t.add(e.get("text", ""))
+                unique.append(e)
+        write_yaml(fp, unique, header=f"Dialogues (path_id={fp.stem})")
+
+    # Delete dialogue files that had all entries removed
+    for fp in sorted(dialogues_dir.glob("*.yaml")):
+        if fp not in keep_in_dialogues:
+            fp.unlink()
+
+    # Step 4: Write back settings_keys
+    seen_t = set()
+    unique_sk = []
+    for e in keep_in_settings:
+        if e.get("text", "") not in seen_t:
+            seen_t.add(e.get("text", ""))
+            unique_sk.append(e)
+    write_yaml(sk_path, unique_sk, header="Settings keys")
+
+    if removed_count > 0:
+        print(f"  Consolidated: removed {removed_count} duplicates (dialogue/settings conflicts)", file=sys.stderr)
 
 
 # ---------------------------------------------------------------------------
@@ -501,6 +771,12 @@ def extract():
 
     fpath = OUT_DIR / "settings_keys.yaml"
     settings_keys = extract_global_strings(summaries)
+    # Also extract UI strings from chunk raw_strings (BACK, HIDE, SKIP, Dialogue Log, etc.)
+    chunk_ui = extract_chunk_ui_strings(chunks)
+    # Deduplicate: don't add chunk UI strings that are already in settings_keys
+    existing = {sk["text"] for sk in settings_keys}
+    chunk_ui = [s for s in chunk_ui if s["text"] not in existing]
+    settings_keys.extend(chunk_ui)
     settings_keys = merge(read_yaml(fpath), settings_keys, SETTINGS_FIELDS, "text")
     write_yaml(fpath, settings_keys, header="Settings keys")
 
@@ -508,6 +784,10 @@ def extract():
           f"{len(by_pid)} .assets sources + {len(by_bundle)} bundles, "
           f"{len(speakers_list)} speakers, {len(settings_keys)} settings keys",
           file=sys.stderr)
+
+    # Post-extraction: deduplicate by `text` and route to correct file
+    print("\nConsolidating translations...", file=sys.stderr)
+    consolidate_translations()
 
 
 if __name__ == "__main__":

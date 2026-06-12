@@ -1,19 +1,31 @@
 # Dialogues (path_id=750)
 
-- text: "(Right... Crazy AI girlfriend. Got it.)"
-  translation: "(Ага... Безумная ИИ-девушка. Понял.)"
-  rich_text: "<i>(Right... Crazy AI girlfriend. Got it.)</i>"
-  rich_translation: "<i>(Ага... Безумная ИИ-девушка. Понял.)</i>"
+- text: "Taking a picture of my like... Chest or rear..."
+  translation: ""
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>Taking a picture of my like... Chest or rear...</color>"
+  rich_translation: ""
 
-- text: "The data chips...! You need to- Ahh...!"
-  translation: "Чипы с данными...! Тебе нужно- Ах...!"
+- text: "Mira Bitner"
+  translation: ""
 
-- text: "Three...! There's three of them! Nghh...! One of the has the- Ah-...! The code...!"
-  translation: "Три...! Их три! Н-н-н...! В одном из них- А-...! Код...!"
+- text: "Others asked for me to like... get really close and... let them stare..."
+  translation: ""
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>Others asked for me to like... get really close and... let them stare...</color>"
+  rich_translation: ""
 
-- text: "Data chip? Like for my neck port?"
-  translation: "Чип с данными? Как для порта на шее?"
+- text: "And um... some... other things..."
+  translation: ""
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>And um... some... other things...</color>"
+  rich_translation: ""
 
-- text: "Yes! Ah-...! Hurry! Nhhh!"
-  translation: "Да! Ах-...! Быстрее! Нхх!"
+- text: "Other... t-things...?"
+  translation: ""
+  speaker: "Mira"
+
+- text: "S-sorry, I shouldn't have- asked... Um... C-can I-... You-... C-come like... close and-... let me... see...?"
+  translation: ""
+  speaker: "Mira"
 

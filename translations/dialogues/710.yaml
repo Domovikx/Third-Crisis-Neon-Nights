@@ -1,16 +1,8 @@
 # Dialogues (path_id=710)
 
-- text: "Jeez, Lio! Are you- Do you want me to- Give you a minute?!"
-  translation: "Боже, Лио! Ты- Может мне- Дать тебе минутку?!"
-
 - text: "Cut off by getting gagged when you're about to say 'thing'."
-  translation: "Прерывается, когда рот затыкают в момент, когда собирался сказать «штука»."
+  translation: ""
 
 - text: "Lio Dialogue Preset"
   translation: "Пресет диалога Лио"
-
-- text: "(Shit, how the hell am I gonna help him?! I better take a closer look. )"
-  translation: "(Чёрт, как я вообще собираюсь ему помочь?! Лучше присмотрюсь. )"
-  rich_text: "<i>(Shit, how the hell am I gonna help him?! I better take a closer look. )</i>"
-  rich_translation: "<i>(Чёрт, как я вообще собираюсь ему помочь?! Лучше присмотрюсь. )</i>"
 

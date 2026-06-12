@@ -1,15 +1,5 @@
 # Dialogues (path_id=1708)
 
-- text: "Hooooly shit!"
-  translation: "Офи-ге-еть!"
-  rich_text: "<color=#EB83FF>Hoooo</color>ly shit!"
-  rich_translation: "<color=#EB83FF>Офи-</color>ге-еть!"
-
-- text: "(It- It worked.)"
-  translation: "(Эт- Это сработало.)"
-  rich_text: "<i>(It- It worked.)</i>"
-  rich_translation: "<i>(Эт- Это сработало.)</i>"
-
 - text: "(Thank you, Dr. Lozenge. Now I just need to get out of here before this Haze gets me again.)"
   translation: "(Спасибо, доктор Лозендж. Теперь нужно просто убраться отсюда, пока этот Туман снова не накрыл меня.)"
   rich_text: "<i>(Thank you, Dr. Lozenge. Now I just need to get out of here before this Haze gets me again.)</i>"

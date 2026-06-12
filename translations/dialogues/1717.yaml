@@ -6,17 +6,17 @@
   rich_translation: "<b>ИССЛЕДОВАТЕЛЬСКИЙ ОТДЕЛ ДИРИЖАБЛЯ</b>"
 
 - text: "Upon signing of the included liability waiver, [PATIENT] will be transferred from [HOSPITAL] to secure medical facility."
-  translation: "После подписания прилагаемого отказа от ответственности [ПАЦИЕНТ] будет переведён из [БОЛЬНИЦА] в охраняемое медицинское учреждение."
+  translation: ""
 
 - text: "After a maximum of fourty days, or until [PATIENT] has been deemed healthy, [PATIENT] will be returned to [HOSPITAL]."
-  translation: "Максимум через сорок дней, или когда [ПАЦИЕНТ] будет признан здоровым, [ПАЦИЕНТ] вернут в [БОЛЬНИЦА]."
+  translation: ""
 
 - text: "Upon completion of the program, [PATIENT] will be cured."
-  translation: "По завершении программы [ПАЦИЕНТ] будет исцелён."
+  translation: ""
 
 - text: "Do you accept these terms?"
   translation: "Вы принимаете эти условия?"
 
 - text: "That's not what you did."
-  translation: "Всё было совсем не так."
+  translation: ""
 

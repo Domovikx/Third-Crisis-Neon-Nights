@@ -1,18 +1,8 @@
 # Dialogues (path_id=1235)
 
-- text: "(Why do things always have to get worse...)"
-  translation: "(Почему всё всегда становится только хуже...)"
-  rich_text: "<i>(Why do things always have to get worse...)</i>"
-  rich_translation: "<i>(Почему всё всегда становится только хуже...)</i>"
-
 - text: "(I'm just trying to do the right thing. Help anyone I can.)"
   translation: "(Я просто пытаюсь поступать правильно. Помогать всем, кому могу.)"
   speaker: "Zoey"
   rich_text: "<i>(I'm just trying to do the right thing. Help anyone I can.)</i>"
   rich_translation: "<i>(Я просто пытаюсь поступать правильно. Помогать всем, кому могу.)</i>"
-
-- text: "(Am I really helping anyone anymore...?)"
-  translation: "(Действительно ли я ещё кому-то помогаю...?)"
-  rich_text: "<i>(Am I really helping anyone anymore...?)</i>"
-  rich_translation: "<i>(Действительно ли я ещё кому-то помогаю...?)</i>"
 

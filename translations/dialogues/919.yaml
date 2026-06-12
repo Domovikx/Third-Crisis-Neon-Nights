@@ -1,0 +1,24 @@
+# Dialogues (path_id=919)
+
+- text: "Great job, darling! You did great for your first shift!"
+  translation: ""
+
+- text: "Heh... thanks."
+  translation: ""
+  speaker: "Zoey"
+
+- text: "Hope to see you again soon."
+  translation: ""
+
+- text: "Again... r-right..."
+  translation: ""
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF>Again... r-right...</color>"
+  rich_translation: ""
+
+- text: "(Am I really going to do this again...?)"
+  translation: ""
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF><i>(Am I really going to do this again...?)</i></color>"
+  rich_translation: ""
+

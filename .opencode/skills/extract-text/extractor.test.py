@@ -3,6 +3,7 @@
 
 import sys, json, tempfile, shutil
 from pathlib import Path
+import yaml
 
 SKILL_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(SKILL_DIR))
@@ -397,13 +398,170 @@ def test_real_dump():
 
 
 if __name__ == "__main__":
+    pass  # moved to bottom
+
+
+# ---------------------------------------------------------------------------
+# Tests for dialogue vs settings_keys disambiguation (consolidation)
+# ---------------------------------------------------------------------------
+
+def test_is_dialogue_entry():
+    """Entry with speaker or rich_text is a dialogue, not a settings_key."""
+    assert ext._is_dialogue_entry({"text": "Hi", "speaker": "Zoey"}) is True
+    assert ext._is_dialogue_entry({"text": "Hi", "rich_text": "Hi"}) is True
+    assert ext._is_dialogue_entry({"text": "Hi", "speaker": "Zoey", "rich_text": "Hi"}) is True
+    assert ext._is_dialogue_entry({"text": "Hi", "translation": "Привет"}) is False
+    assert ext._is_dialogue_entry({"text": "Hi"}) is False
+    assert ext._is_dialogue_entry({"text": "Hi", "speaker": ""}) is False
+    assert ext._is_dialogue_entry({}) is False
+    assert ext._is_dialogue_entry(None) is False
+    print("  OK: _is_dialogue_entry")
+
+
+def test_entry_field_count():
+    """Field count should count non-empty values only."""
+    assert ext._entry_field_count({"text": "Hi", "translation": "Привет"}) == 2
+    assert ext._entry_field_count({"text": "Hi", "translation": "Привет", "speaker": "Zoey"}) == 3
+    assert ext._entry_field_count({"text": "Hi", "translation": "", "speaker": "Zoey"}) == 2
+    assert ext._entry_field_count({"text": "Hi", "speaker": "  "}) == 1
+    assert ext._entry_field_count({}) == 0
+    print("  OK: _entry_field_count")
+
+
+def _setup_consolidation_test(work: Path):
+    """Create a fake translations/ with a dialogue/settings conflict."""
+    dlg_dir = work / "dialogues"
+    dlg_dir.mkdir(parents=True, exist_ok=True)
+    (dlg_dir / "73203.yaml").write_text(
+        '- text: "S-Shit! Haze!"\n  translation: "Ч-Чёрт!"\n  speaker: "Zoey"\n  rich_text: "S-Shit! Haze!"\n\n',
+        encoding="utf-8",
+    )
+    (work / "settings_keys.yaml").write_text(
+        '- text: "S-Shit! Haze!"\n  translation: "Ч-Чёрт!"\n\n',
+        encoding="utf-8",
+    )
+
+
+def test_consolidate_dialogue_wins():
+    """When same text in both files, dialogue (richer) wins and is kept in dialogues/."""
+    with tempfile.TemporaryDirectory() as tmp:
+        work = Path(tmp)
+        _setup_consolidation_test(work)
+        ext.OUT_DIR = work
+        ext._dialogues_dir = lambda: work / "dialogues"
+        ext.consolidate_translations()
+        dlg = yaml.safe_load(open(work / "dialogues" / "73203.yaml", encoding="utf-8"))
+        assert len(dlg) == 1
+        assert dlg[0]["speaker"] == "Zoey"
+        sk = yaml.safe_load(open(work / "settings_keys.yaml", encoding="utf-8"))
+        assert sk is None or len(sk) == 0
+        print("  OK: consolidate keeps dialogue, removes settings duplicate")
+
+
+def test_consolidate_settings_wins():
+    """Dialogue version (even without speaker) always wins over settings version.
+
+    The routing logic preserves dialogue context: if a dialogue file contains
+    a text, that text stays in dialogues/ — even if it lacks speaker/rich_text
+    fields. This prevents one-word dialogue lines like "Yes" from leaking
+    into settings_keys.yaml with empty translations.
+    """
+    with tempfile.TemporaryDirectory() as tmp:
+        work = Path(tmp)
+        dlg_dir = work / "dialogues"
+        dlg_dir.mkdir(parents=True, exist_ok=True)
+        (dlg_dir / "99.yaml").write_text(
+            '- text: "Just a label"\n  translation: "Просто метка"\n\n',
+            encoding="utf-8",
+        )
+        (work / "settings_keys.yaml").write_text(
+            '- text: "Just a label"\n  translation: "Просто метка"\n\n',
+            encoding="utf-8",
+        )
+        ext.OUT_DIR = work
+        ext._dialogues_dir = lambda: work / "dialogues"
+        ext.consolidate_translations()
+        # Dialogue version wins → stays in dialogues/99.yaml
+        dlg = yaml.safe_load(open(work / "dialogues" / "99.yaml", encoding="utf-8"))
+        assert dlg is not None and len(dlg) == 1
+        assert dlg[0]["text"] == "Just a label"
+        # Settings version removed (because dialogue has it)
+        sk = yaml.safe_load(open(work / "settings_keys.yaml", encoding="utf-8"))
+        assert sk is None or len(sk) == 0
+        print("  OK: dialogue version wins even without speaker/rich_text")
+
+
+def test_consolidate_no_duplicates():
+    """When text only in one file, it stays untouched."""
+    with tempfile.TemporaryDirectory() as tmp:
+        work = Path(tmp)
+        dlg_dir = work / "dialogues"
+        dlg_dir.mkdir(parents=True, exist_ok=True)
+        (dlg_dir / "1.yaml").write_text(
+            '- text: "Dialogue only"\n  translation: "Только диалог"\n  speaker: "A"\n\n',
+            encoding="utf-8",
+        )
+        (work / "settings_keys.yaml").write_text(
+            '- text: "Settings only"\n  translation: "Только настройка"\n\n',
+            encoding="utf-8",
+        )
+        ext.OUT_DIR = work
+        ext._dialogues_dir = lambda: work / "dialogues"
+        ext.consolidate_translations()
+        dlg = yaml.safe_load(open(work / "dialogues" / "1.yaml", encoding="utf-8"))
+        assert len(dlg) == 1
+        assert dlg[0]["text"] == "Dialogue only"
+        sk = yaml.safe_load(open(work / "settings_keys.yaml", encoding="utf-8"))
+        assert len(sk) == 1
+        assert sk[0]["text"] == "Settings only"
+        print("  OK: consolidate leaves unique entries untouched")
+
+
+def test_consolidate_speakers_not_in_settings():
+    """Bug fix: speakers in speakers.yaml must NOT appear in settings_keys.yaml.
+
+    Otherwise settings_keys.yaml (loaded first alphabetically) seeds the runtime
+    dictionary with empty translations, blocking speakers.yaml entries.
+    """
+    with tempfile.TemporaryDirectory() as tmp:
+        work = Path(tmp)
+        dlg_dir = work / "dialogues"
+        dlg_dir.mkdir(parents=True, exist_ok=True)
+        # speakers.yaml with proper translation
+        (work / "speakers.yaml").write_text(
+            '- text: "Zoey"\n  translation: "Зои"\n  gender: "female"\n  notes: "Главная героиня"\n\n',
+            encoding="utf-8",
+        )
+        # settings_keys.yaml has the same "Zoey" but EMPTY translation (from chunk UI scan)
+        (work / "settings_keys.yaml").write_text(
+            '- text: "Zoey"\n  translation: ""\n\n',
+            encoding="utf-8",
+        )
+        ext.OUT_DIR = work
+        ext._dialogues_dir = lambda: work / "dialogues"
+        ext.consolidate_translations()
+        # "Zoey" must NOT be in settings_keys.yaml (belongs to speakers.yaml)
+        sk = yaml.safe_load(open(work / "settings_keys.yaml", encoding="utf-8"))
+        assert sk is None or all(e.get("text") != "Zoey" for e in sk), \
+            f"Zoey should be removed from settings_keys: {sk}"
+        # speakers.yaml should be untouched
+        sp = yaml.safe_load(open(work / "speakers.yaml", encoding="utf-8"))
+        assert len(sp) == 1
+        assert sp[0]["translation"] == "Зои"
+        print("  OK: consolidate removes speakers from settings_keys (alphabetical bug fix)")
+
+
+if __name__ == "__main__":
     tests = [test_extract_dialogues, test_extract_speakers, test_extract_global_strings,
              test_write_yaml, test_extract_bundle_dialogues_fields,
              test_empty_dump, test_special_chars, test_dedup,
              test_read_yaml, test_read_yaml_multi,
              test_merge, test_merge_speakers, test_merge_settings,
              test_idempotent, test_real_dump,
-             test_fallback_parser, test_cyrillic_roundtrip, test_fallback_on_corrupted_file]
+             test_fallback_parser, test_cyrillic_roundtrip, test_fallback_on_corrupted_file,
+             test_is_dialogue_entry, test_entry_field_count,
+             test_consolidate_dialogue_wins, test_consolidate_settings_wins,
+             test_consolidate_no_duplicates, test_consolidate_speakers_not_in_settings]
     failed = 0
     for t in tests:
         try:

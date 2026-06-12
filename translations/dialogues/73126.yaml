@@ -10,11 +10,6 @@
   rich_text: "<size=27>Funny how you tense up... but don't step away."
   rich_translation: "<size=27>Забавно, как ты напрягаешься... но не отходишь."
 
-- text: "(Khh... )"
-  translation: "(Кх... )"
-  rich_text: "<color=#EB83FF><i>(Khh... )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Кх... )</i></color>"
-
 - text: "Right here in the open... and it's still our little secret."
   translation: "Прямо здесь, на виду... и всё равно это наш маленький секрет."
   rich_text: "<size=27>Right here in the open... and it's still our little secret."

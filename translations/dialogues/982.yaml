@@ -1,0 +1,19 @@
+# Dialogues (path_id=982)
+
+- text: "(What are you doing, Zoey... )"
+  translation: ""
+  speaker: "Zoey"
+  rich_text: "<i>(What are you doing, Zoey... )</i>"
+  rich_translation: ""
+
+- text: "(Letting a customer in a nightclub grope you for money... Really...?)"
+  translation: ""
+  rich_text: "<i>(Letting a customer in a nightclub grope you for money... Really...?)</i>"
+  rich_translation: ""
+
+- text: "(Easier money than merc work, I guess... )"
+  translation: ""
+  speaker: "Zoey"
+  rich_text: "<color=#EB83FF><i>(Easier money than merc work, I guess... )</i></color>"
+  rich_translation: ""
+

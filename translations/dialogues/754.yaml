@@ -1,20 +1,53 @@
 # Dialogues (path_id=754)
 
+- text: "Hey! Aren't you the cutie that helped me clean up this room a while ago?"
+  translation: ""
+  speaker: "Bunnyboy"
+
+- text: "Huh? Oh, right! I did, heh!"
+  translation: ""
+  speaker: "Zoey"
+
+- text: "So you're our new waitress, hmm? I'm Simon by the way, eheh."
+  translation: ""
+
+- text: "New waitress...? Um... well..."
+  translation: ""
+  speaker: "Zoey"
+
+- text: "Rosie seemed pretty happy having you around. Much more than the last one, eheh."
+  translation: ""
+
+- text: "Yeahhh... Last one was kinda... well... let's just say she didn't follow the rules too closely."
+  translation: ""
+
+- text: "Anyways! Glad to have you on board, eheh! You're such a cutie!"
+  translation: ""
+
+- text: "Heh...! Thanks."
+  translation: ""
+  speaker: "Zoey"
+
+- text: "Also... don't I owe you something a little... sweaty for helping me clean up, hmm?~"
+  translation: ""
+  rich_text: "Also... don't I owe you something a little... <b>sweaty</b> for helping me clean up, hmm?~"
+  rich_translation: ""
+
 - text: "Can you take a look at this headset for me?"
   translation: "Можешь взглянуть на этот шлем?"
 
 - text: "Oh? It's an old BF-75d. These were everywhere before the crisis!"
-  translation: "О? Это старый BF-75d. Такие были везде до кризиса!"
+  translation: ""
 
 - text: "It's broken."
-  translation: "Он сломан."
+  translation: ""
 
 - text: "Understatement. It's a glorified paperweight. What even happened to this little guy?"
-  translation: "Мягко сказано. Это просто пресс-папье. Что вообще случилось с этим малышом?"
+  translation: ""
 
 - text: "I was hoping you could tell me."
-  translation: "Я надеялась, ты скажешь мне."
+  translation: ""
 
 - text: "Let me take a closer look."
-  translation: "Дай-ка взгляну поближе."
+  translation: ""
 

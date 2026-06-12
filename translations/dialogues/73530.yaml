@@ -1,15 +1,15 @@
 # Dialogues (path_id=73530)
 
+- text: "Turn around."
+  translation: "Повернись."
+  speaker: "Customer"
+
 - text: "Come here..."
   translation: "Иди сюда..."
   speaker: "Customer"
 
 - text: "Gahhh... Amazing body..."
   translation: "Ахх... Потрясающее тело..."
-  speaker: "Customer"
-
-- text: "Turn around."
-  translation: "Повернись."
   speaker: "Customer"
 
 - text: "(It's only looking... I- I guess it's not such a-... huge deal... )"

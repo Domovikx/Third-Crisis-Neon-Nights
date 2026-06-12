@@ -2,13 +2,10 @@
 
 - text: "Look Through Files"
   translation: "Просмотреть файлы"
-
-- text: "Look Through Files"
-  translation: "Просмотреть файлы"
   speaker: "Leave"
 
 - text: "Look at Videos"
-  translation: "Посмотреть видео"
+  translation: ""
 
 - text: "Look at Massage Room Recording"
   translation: "Посмотреть запись массажной комнаты"
@@ -18,5 +15,5 @@
   translation: "Рассказать Макс"
 
 - text: "Help Him"
-  translation: "Помочь ему"
+  translation: ""
 

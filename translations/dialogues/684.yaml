@@ -1,10 +1,7 @@
 # Dialogues (path_id=684)
 
 - text: "A bit rough, answering the door not expecting someone."
-  translation: "Грубовато отвечает, не ожидая никого."
-
-- text: "Heyy, uhm. I'm looking for Lio."
-  translation: "Хэй, эм. Я ищу Лио."
+  translation: ""
 
 - text: "> Never heard."
   translation: "> Не слышала."

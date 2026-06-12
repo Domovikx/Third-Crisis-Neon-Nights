@@ -1,47 +1,20 @@
 # Dialogues (path_id=1232)
 
-- text: "You said you'd only need a moment!"
-  translation: "Ты сказал, что тебе нужна всего минута!"
-
-- text: "I'm sorry. Really, I am!"
-  translation: "Прости. Правда, прости!"
-
 - text: "Gah... Do I even want to know what you fucking did back there...?!"
   translation: "Чёрт... Я вообще хочу знать, что ты там устроил...?!"
   speaker: "Zoey"
-
-- text: "I'm only doing what I have to, in order to protect San!"
-  translation: "Я делаю лишь то, что нужно, чтобы защитить Сэна!"
-
-- text: "Sorry... I-... I didn't mean to-..."
-  translation: "Прости... Я-... Я не хотел-..."
-
-- text: "Thanks for your help."
-  translation: "Спасибо за помощь."
-
-- text: "Glow. In the massage oil tank. They demanded it."
-  translation: "Глоу. В баке с массажным маслом. Они потребовали."
 
 - text: "G-Glow...? But-"
   translation: "Г-Глоу...? Но-"
   speaker: "Zoey"
 
-- text: "I'm sorry. It's-... It's the only way!"
-  translation: "Прости. Это-... Это единственный выход!"
-
 - text: "But it's-... addictive... the customers... Max-"
   translation: "Но это-... вызывает привыкание... клиенты... Макс-"
   speaker: "Zoey"
 
-- text: "They'll be fine... I think... It-... It should be diluted in the oil... Right?"
-  translation: "С ними всё будет хорошо... я думаю... Это-... должно разбавиться в масле... Да?"
-
 - text: "I-... I don't-... know..."
   translation: "Я-... Я не-... знаю..."
   speaker: "Zoey"
-
-- text: "It will lead to the kind of videos they want, and then this will all be over."
-  translation: "Это даст им видео, которые они хотят, и тогда всё это закончится."
 
 - text: "(What have I done...)"
   translation: "Что же я наделала..."

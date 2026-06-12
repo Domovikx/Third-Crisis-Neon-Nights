@@ -1,10 +1,5 @@
 # Dialogues (path_id=1647)
 
-- text: "(Guess I'll just wait until they're done.. )"
-  translation: "(Наверное, просто подожду, пока они закончат.. )"
-  rich_text: "<i>(Guess I'll just wait until they're done.. )</i>"
-  rich_translation: "<i>(Наверное, просто подожду, пока они закончат.. )</i>"
-
 - text: "(They won't go at it for too long, right?)"
   translation: "(Они же не будут заниматься этим слишком долго, правда?)"
   speaker: "Zoey"

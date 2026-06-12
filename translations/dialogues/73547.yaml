@@ -14,12 +14,6 @@
   translation: "Ммм... эти каблуки так sexy на тебе..."
   speaker: "Customer"
 
-- text: "Kh-... R-right..."
-  translation: "Кх-... А-ага..."
-  speaker: "Zoey"
-  rich_text: "<color=#EB83FF>Kh-... R-right...</color>"
-  rich_translation: "<color=#EB83FF>Кх-... А-ага...</color>"
-
 - text: "Lemme snap a quick pic of 'em like thish, pleaseee... I'll tip 'ya...! *hic*"
   translation: "Дай быстро сфоткать их вот так, пожалуйста... Я заплачу...! *ик*"
   speaker: "Customer"

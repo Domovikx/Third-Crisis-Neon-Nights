@@ -1,5 +1,10 @@
 # Dialogues (path_id=73124)
 
+- text: "Look who's back."
+  translation: "Глядите-ка, кто вернулся."
+  rich_text: "<size=27>Look who's back."
+  rich_translation: "<size=27>Глядите-ка, кто вернулся."
+
 - text: "(Last time was... A bit too far, right...?)"
   translation: "(В прошлый раз всё было... Слишком, да...?)"
   rich_text: "<color=#EB83FF><i>(Last time was... A bit too far, right...?)</i></color>"
@@ -24,14 +29,6 @@
   translation: "(Снова-... зудит... внизу... Боже, что со... мной не так... )"
   rich_text: "<color=#EB83FF><i>(It's-... itching again... down there... God what is... wrong with me... )</i></color>"
   rich_translation: "<color=#EB83FF><i>(Снова-... зудит... внизу... Боже, что со... мной не так... )</i></color>"
-
-- text: "Zoey is getting groped"
-  translation: "Зои лапают"
-
-- text: "Look who's back."
-  translation: "Глядите-ка, кто вернулся."
-  rich_text: "<size=27>Look who's back."
-  rich_translation: "<size=27>Глядите-ка, кто вернулся."
 
 - text: "Let it happen."
   translation: "Позволить этому случиться."

@@ -1,8 +1,5 @@
 # Dialogues (path_id=72362)
 
-- text: "The Andro Hologram Boobs sudden grow."
-  translation: "Внезапное увеличение андро-голографической груди."
-
 - text: "(Can a pelvis like that really have feelings...?)"
   translation: "(Может ли такой таз на самом деле чувствовать...?)"
   speaker: "Zoey"
@@ -32,12 +29,6 @@
 - text: "Perfect pairing for an Andro cock like the one I'm wearing right now. Mhhh... Feels fucking amazing."
   translation: "Идеальная пара для андро-члена, который сейчас на мне. Мхх... Офигенные ощущения."
   speaker: "Salesman"
-
-- text: "(... )"
-  translation: "(... )"
-  speaker: "Zoey"
-  rich_text: "<color=#EB83FF><i>(... )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(... )</i></color>"
 
 - text: "See that heart shaped plate where the personality module used to sit?"
   translation: "Видишь ту пластину в форме сердца, где раньше был модуль личности?"

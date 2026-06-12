@@ -1,14 +1,22 @@
 # Dialogues (path_id=1199)
 
-- text: "(Most of the recordings are labelled \"Massage room\"... I'm probably not in there... but-...)"
-  translation: "Большинство записей помечены как «Массажный кабинет»... Меня там наверняка нет... но-..."
-  rich_text: "<i>(Most of the recordings are labelled \"Massage room\"... I'm probably not in there... but-...)</i>"
-  rich_translation: "<i>(Большинство записей помечены как «Массажный кабинет»... Меня там наверняка нет... но-...)</i>"
+- text: "Looking for this?"
+  translation: ""
+  speaker: "Klaudia"
+  rich_text: "Looking for <b>this</b>?"
+  rich_translation: ""
 
-- text: "(Maybe I should-... just to be sure-...)"
-  translation: "Может, стоит-... на всякий случай-..."
-  rich_text: "<i>(Maybe I should-... just to be sure-...)</i>"
-  rich_translation: "<i>(Может, стоит-... на всякий случай-...)</i>"
+- text: "(The blocker-...!)"
+  translation: ""
+  rich_text: "<i>(The blocker-...!)</i>"
+  rich_translation: ""
+
+- text: "Looks an awful lot like the device you stole out of that suitcase in 205 before you jumped out of the window. Don't you think?"
+  translation: ""
+  speaker: "Klaudia"
+
+- text: "I-... A-ah...!"
+  translation: ""
 
 - text: "(Whoever is on those videos, they wouldn't even know I saw them... so-... It's no big deal, right...?)"
   translation: "Кто бы там ни был, они даже не узнают, что я смотрела... так-... Ничего страшного, верно...?"

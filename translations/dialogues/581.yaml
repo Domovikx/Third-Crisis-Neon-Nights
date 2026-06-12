@@ -1,21 +1,5 @@
 # Dialogues (path_id=581)
 
-- text: "(This place doesn't look... safe...)"
-  translation: "(Это место выглядит... небезопасно...)"
-  rich_text: "<color=#EB83FF><i>(This place doesn't look... safe...)</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Это место выглядит... небезопасно...)</i></color>"
-
-- text: "(The air-... it-... smells faintly-... sweet... hhh...)"
-  translation: "(Воздух-... он-... пахнет слабо-... сладко... х-х...)"
-  rich_text: "<color=#EB83FF><i>(The air-... it-... smells faintly-... sweet... hhh...)</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Воздух-... он-... пахнет слабо-... сладко... х-х...)</i></color>"
-
-- text: "You're lucky you look fucking hot, even in those clothes."
-  translation: "Тебе повезло, что ты чертовски сексуально выглядишь, даже в этой одежде."
-
-- text: "Now then... Lets get started working on your debt, hmm?"
-  translation: "А теперь... Давай начнём отрабатывать твой долг, хмм?"
-
 - text: "M-My debt-... Right... Hh... What should I-"
   translation: "М-Мой долг-... Да... Х-х... Что мне-"
   speaker: "Zoey"

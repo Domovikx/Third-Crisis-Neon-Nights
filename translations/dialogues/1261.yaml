@@ -1,24 +1,6 @@
 # Dialogues (path_id=1261)
 
-- text: "Nice! That did it!"
-  translation: "Отлично! Сработало!"
-
-- text: "Oh my gosh! He's all energetic now! How'd you do that?"
-  translation: "О боже! Он так оживился! Как ты это сделала?"
-
-- text: "Just some simple rewiring... Learnt it on a job."
-  translation: "Простая перепрошивка... Научилась на заказе."
-
-- text: "Is there anything you can't do?!"
-  translation: "Ты хоть что-то не умеешь?!"
-
 - text: "Pay my bills on time?"
   translation: "Вовремя платить счета?"
   speaker: "Zoey"
-
-- text: "Pff! That's what you got me for!"
-  translation: "Пф! Для этого я тебе и нужна!"
-
-- text: "Among other things."
-  translation: "И не только."
 

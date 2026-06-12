@@ -1,0 +1,31 @@
+# Dialogues (path_id=1103)
+
+- text: "Hey Rosie... So this customer asked for a... Remote...?"
+  translation: ""
+  speaker: "Zoey"
+
+- text: "A remote? Oh this is going to be funnn..."
+  translation: ""
+
+- text: "Let me guess... Stoic bearded guy in the corner?"
+  translation: ""
+
+- text: "I think that's him, yeah. You know him?"
+  translation: ""
+  speaker: "Zoey"
+
+- text: "Of course I know Rungar. He's a big tipper and that's not the only big thing about him, ehehe!"
+  translation: ""
+
+- text: "Ah- uh... R-right..."
+  translation: ""
+
+- text: "Take this one and bring it to him. He's... great... company. Tell him to call me any time."
+  translation: ""
+  rich_text: "Take this one and bring it to him. He's... <i>great</i>... company. Tell him to call me any time."
+  rich_translation: ""
+
+- text: "Okay, I'll tell him..."
+  translation: ""
+  speaker: "Zoey"
+

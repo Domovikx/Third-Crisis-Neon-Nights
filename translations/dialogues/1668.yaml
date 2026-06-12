@@ -1,8 +1,5 @@
 # Dialogues (path_id=1668)
 
-- text: "I'm not sure that's a good idea.."
-  translation: "Не уверена, что это хорошая идея.."
-
 - text: ">"
   translation: ">"
   rich_text: "<< Declination processed. Proceeding relocation. >>"

@@ -1,34 +1,5 @@
 # Dialogues (path_id=576)
 
-- text: "(Just a few favors... I-... It won't be too bad...)"
-  translation: "(Всего пара услуг... Я-... Будет не так уж плохо...)"
-  rich_text: "<color=#EB83FF><i>(Just a few favors... I-... It won't be too bad...)</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Всего пара услуг... Я-... Будет не так уж плохо...)</i></color>"
-
-- text: "F-Fine... I-... I'll work off my-... debt..."
-  translation: "Л-Ладно... Я-... Я отработаю свой-... долг..."
-  rich_text: "<color=#EB83FF>F-Fine... I-... I'll work off my-... debt...</color>"
-  rich_translation: "<color=#EB83FF>Л-Ладно... Я-... Я отработаю свой-... долг...</color>"
-
-- text: "Heh... Klaudia didn't lie..."
-  translation: "Хе... Клавдия не соврала..."
-
-- text: "Now then. Why don't you take off your jacket, hm? You're sweating."
-  translation: "А теперь. Почему бы тебе не снять куртку, хмм? Ты вся вспотела."
-
-- text: "M-... My jacket? But-"
-  translation: "М-... Мою куртку? Но-"
-  rich_text: "<color=#EB83FF>M-... My jacket? But-</color>"
-  rich_translation: "<color=#EB83FF>М-... Мою куртку? Но-</color>"
-
-- text: "Do you want to work off your debt or not?! Huh?!"
-  translation: "Ты хочешь отработать свой долг или нет?! А?!"
-
-- text: "Hh-... R-Right...!"
-  translation: "Х-... Д-Да...!"
-  rich_text: "<color=#EB83FF>Hh-... R-Right...!</color>"
-  rich_translation: "<color=#EB83FF>Х-... Д-Да...!</color>"
-
 - text: "Show inspection"
   translation: "Показать осмотр"
   speaker: "FINISHED"

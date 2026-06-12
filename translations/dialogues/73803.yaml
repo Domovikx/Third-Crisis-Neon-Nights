@@ -1,14 +1,14 @@
 # Dialogues (path_id=73803)
 
 - text: "Fine... I'll... I'll show you my boobs. Just make it quick, okay?"
-  translation: "Ладно... Я... Я покажу тебе свою грудь. Только быстро, хорошо?"
+  translation: ""
 
 - text: "Tsk. Well, let's see them, darling."
   translation: "Ц-ц. Ну, показывай, дорогая."
   speaker: "Man"
 
 - text: "Just... Just give me a second..."
-  translation: "П-просто... Дай мне секунду..."
+  translation: ""
 
 - text: "Of course. Take your time."
   translation: "Конечно. Не торопись."
@@ -20,7 +20,7 @@
   rich_translation: "<i>(Это так унизительно... но ради благого дела.)</i>"
 
 - text: "Okay, here. Take a look."
-  translation: "Ладно, вот. Смотри."
+  translation: ""
 
 - text: "Wonderful. As great as andro women are, there's nothing like going organic."
   translation: "Чудесно. Как бы ни были хороши андро-женщины, ничто не сравнится с органикой."
@@ -37,7 +37,7 @@
   speaker: "Man"
 
 - text: "Insecure about her exposed booba being photographed"
-  translation: "Смущается от того, что её грудь фотографируют"
+  translation: ""
 
 - text: "Not backing out of our deal now, are we? I thought you needed that battery."
   translation: "Не передумала насчёт сделки? Я думал, тебе нужна та батарея."
@@ -60,12 +60,12 @@
   speaker: "Man"
 
 - text: "Flustered by the \"compliment\""
-  translation: "Смущена «комплиментом»"
+  translation: ""
 
 - text: "Alright, that's enough. Here's your battery, dear. Give my regards to our andro friend."
   translation: "Ладно, хватит. Вот твоя батарея, дорогая. Передавай привет нашему андро-другу."
   speaker: "Man"
 
 - text: "Right, thanks. Pleasure doing... business with ya."
-  translation: "Ага, спасибо. Приятно иметь... дело."
+  translation: ""
 

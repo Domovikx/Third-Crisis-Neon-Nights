@@ -1,7 +1,7 @@
 # Dialogues (path_id=2596)
 
 - text: "Uhm... I had to take a picture of you while you were out... It was the only way I could get you the battery you needed."
-  translation: "Эм... Мне пришлось сфотографировать тебя, пока ты была в отключке... Это был единственный способ раздобыть батарею, которая тебе нужна."
+  translation: ""
 
 - text: "(Ugh... It wasn't the only way...)"
   translation: "(Угх... Был не единственный способ...)"
@@ -9,11 +9,11 @@
   rich_translation: "<i>(Угх... Был не единственный способ...)</i>"
 
 - text: "Picture? Of this one's frame? Interesting..."
-  translation: "Фотографию? Моей модели? Интересно..."
+  translation: ""
 
 - text: "Yeah. Sorry."
-  translation: "Ага. Прости."
+  translation: ""
 
 - text: "This one... understands."
-  translation: "Я... понимаю."
+  translation: ""
 

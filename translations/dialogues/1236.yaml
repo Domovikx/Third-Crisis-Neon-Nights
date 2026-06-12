@@ -1,10 +1,5 @@
 # Dialogues (path_id=1236)
 
-- text: "(Watching a secret video feed of Max's customers...)"
-  translation: "(Наблюдает за секретной трансляцией клиентов Макса...)"
-  rich_text: "<i>(Watching a secret video feed of Max's customers...)</i>"
-  rich_translation: "<i>(Наблюдает за секретной трансляцией клиентов Макса...)</i>"
-
 - text: "(At least I can intervene if something goes-)"
   translation: "(Хотя бы я могу вмешаться, если что-то пойдёт-)"
   speaker: "Zoey"

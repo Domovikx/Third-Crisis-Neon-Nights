@@ -1,218 +1,46 @@
-# Dialogues (bundle: bundle_level-glowinghole_scenes_all_741d8619fcc0f42c035ae5010cf5392)
+# Dialogues (path_id=bundle.bundle_level-glowinghole)
 
-- text: "(As if this place didn't have enough balls with all the femboys around.)"
-  translation: "(Как будто в этом месте и так мало яиц со всеми этими фембоями.)"
-  rich_text: "<i>(As if this place didn't have enough balls with all the femboys around.)</i>"
-  rich_translation: "<i>(Как будто в этом месте и так мало яиц со всеми этими фембоями.)</i>"
+- text: "Room 202"
+  translation: "Комната 202"
+  speaker: "Empty"
 
-- text: "(No no no... Where's the blocker...?!)"
-  translation: "(Нет-нет-нет... Где блокиратор...?!)"
-  rich_text: "<i>(No no no... Where's the blocker...?!)</i>"
-  rich_translation: "<i>(Нет-нет-нет... Где блокиратор...?!)</i>"
+- text: "Ask about Nova"
+  translation: "Спросить о Нове"
+  speaker: "OnChoiceSelected"
 
-- text: "Here's your drink, sir."
-  translation: "Ваш напиток, сэр."
-  speaker: "Zoey"
+- text: "Return to menu."
+  translation: "Вернуться в меню."
+  speaker: "Cancel"
 
-- text: "Looks perfect like always."
-  translation: "Выглядит идеально, как всегда."
-  speaker: "Varen"
+- text: "Close menu."
+  translation: "Закрыть меню."
+  speaker: "Cancel"
 
-- text: "Varen Koss"
-  translation: "Варен Косс"
+- text: "Wait for line"
+  translation: "Ждать строку"
+  speaker: "FINISHED"
 
-- text: "Would that be all?"
-  translation: "Это всё?"
+- text: "uneasy 2"
+  translation: "нервно 2"
 
-- text: "Taking a picture of my like... Chest or rear..."
-  translation: "Фоткает меня типа... Грудь или зад..."
-  speaker: "Zoey"
-  rich_text: "<color=#EB83FF>Taking a picture of my like... Chest or rear...</color>"
-  rich_translation: "<color=#EB83FF>Фоткает меня типа... Грудь или зад...</color>"
-
-- text: "Mira Bitner"
-  translation: "Мира Битнер"
-
-- text: "Hey darling! Another shift?"
-  translation: "Привет, дорогая! Ещё смена?"
-
-- text: "Hey! Aren't you the cutie that helped me clean up this room a while ago?"
-  translation: "Эй! Ты та милашка, что помогала мне убирать эту комнату недавно?"
-  speaker: "Bunnyboy"
-
-- text: "Huh? Oh, right! I did, heh!"
-  translation: "А? О, точно! Было дело, хе!"
-  speaker: "Zoey"
-
-- text: "So you're our new waitress, hmm? I'm Simon by the way, eheh."
-  translation: "Значит, ты наша новая официантка, хмм? Я Саймон, кстати, ехе."
-
-- text: "Changed your mind?"
-  translation: "Передумала?"
-  speaker: "Rugnar"
-
-- text: "Rugnar Cole"
-  translation: "Рагнар Коул"
-
-- text: "Sorry, I-... I have to go."
-  translation: "Прости, я-... Мне нужно идти."
-  speaker: "Zoey"
-
-- text: "Ah-! I-it's fine... s-sorry..."
-  translation: "А-! В-всё нормально... п-прости..."
-  speaker: "Mira"
+- text: "horny panting"
+  translation: "возбуждённое дыхание"
 
 - text: "How much for one of your \"bunnies\"?"
   translation: "Почём одна из твоих «заек»?"
 
-- text: "I think Klaudia has it in for me today."
-  translation: "Кажется, Клавдия сегодня решила меня достать."
-  speaker: "Bunnyboy"
-
-- text: "Here you go, sir."
-  translation: "Вот, сэр."
-  speaker: "Zoey"
-
-- text: "(Why didn't I walk away..? Khh.. )"
-  translation: "(Почему я не ушла..? Кх.. )"
-  rich_text: "<color=#EB83FF><i>(Why didn't I walk away..? Khh.. )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Почему я не ушла..? Кх.. )</i></color>"
-
-- text: "(He really.. Liked it.. )"
-  translation: "(Ему правда.. Понравилось.. )"
-  rich_text: "<color=#EB83FF><i>(He really.. Liked it.. )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Ему правда.. Понравилось.. )</i></color>"
-
-- text: "Hmmm yeess~  What? A bunny girl? I"
-  translation: "Ммм даа~  Что? Зайка? Я"
-
 - text: "m busy!"
   translation: "занят!"
-
-- text: "Either eat me out or get out of the way!"
-  translation: "Или вылижи меня, или убирайся с дороги!"
-
-- text: "Is that a"
-  translation: "Это"
 
 - text: "Horse dildo?"
   translation: "Лошадиный дилдо?"
 
-- text: "You did say that- but... I- um."
-  translation: "Ты так сказал- но... я- эм."
-  speaker: "Zoey"
-  rich_text: "<color=#EB83FF>You did say that- but... I- um.</color>"
-  rich_translation: "<color=#EB83FF>Ты так сказал- но... я- эм.</color>"
-
-- text: "I knew it, eheh... God you're such a snack."
-  translation: "Я так и знал, ехе... Боже, ты такая вкусняшка."
-
-- text: "(Am I really going to let him grope me for a tip? I'm just... here to be a waitress...)"
-  translation: "(Я правда позволю ему лапать меня за чаевые? Я просто... здесь, чтобы быть официанткой...)"
-
-- text: "(Well... More money wouldn't hurt, really... )"
-  translation: "(Ну... Больше денег не помешало бы, правда... )"
-  speaker: "Zoey"
-
-- text: "Can't you see that we are in the middle of something?"
-  translation: "Ты не видишь, мы заняты?"
-
 - text: "Man - No Sprite"
   translation: "Мужчина - Нет Спрайта"
-
-- text: "Th-.. There..!"
-  translation: "В-.. Вот..!"
-  speaker: "Femboy"
-
-- text: "(He-.. He really did it.. ! )"
-  translation: "(Он-.. Он правда это сделал.. ! )"
-  rich_text: "<color=#EB83FF><i>(He-.. He really did it.. ! )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Он-.. Он правда это сделал.. ! )</i></color>"
-
-- text: "Mmmhh..~ Such an obedient good boy. What a hot body you've got there. Don't you agree, miss spectator?"
-  translation: "Мммх..~ Такой послушный хороший мальчик. Какое горячее тело у тебя. Согласны, мисс зрительница?"
-
-- text: "(Just... squishing my chest... It's not that... weird... right...?)"
-  translation: "(Просто... мнут мою грудь... В этом нет ничего... странного... верно...?)"
-  speaker: "Zoey"
-  rich_text: "<color=#EB83FF><i>(Just... squishing my chest... It's not that... weird... right...?)</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Просто... мнут мою грудь... В этом нет ничего... странного... верно...?)</i></color>"
-
-- text: "Okay, I-... I'll try..."
-  translation: "Ладно, я-... Я попробую..."
-  rich_text: "<color=#EB83FF>Okay, I-... I'll try...</color>"
-  rich_translation: "<color=#EB83FF>Ладно, я-... Я попробую...</color>"
-
-- text: "What can I do for you, ladies?"
-  translation: "Чем могу помочь, дамы?"
-
-- text: "We are trying to settle a-.. disagreement. Maybe you can help us?"
-  translation: "Мы пытаемся уладить один-.. спор. Может, ты поможешь нам?"
-
-- text: "Anything for a happy customer!"
-  translation: "Всё для довольного клиента!"
-
-- text: "We are trying to find out which is squishier. Your ass or your tits."
-  translation: "Мы пытаемся выяснить, что мягче. Твоя попка или сиськи."
-
-- text: "Some customers are best avoided. Although... Leaning into it can be... fun now and then, ehehe!"
-  translation: "Некоторых клиентов лучше избегать. Хотя... поддаваться этому иногда может быть... весело, ехехе!"
-
-- text: "(I doubt that idiot would've been any fun... )"
-  translation: "(Сомневаюсь, что с этим идиотом было бы весело... )"
-  rich_text: "<i>(I doubt that idiot would've been any fun... )</i>"
-  rich_translation: "<i>(Сомневаюсь, что с этим идиотом было бы весело... )</i>"
-
-- text: "(A hologram. Guess profit isn't too bad if they have one. )"
-  translation: "(Голограмма. Видимо, прибыль неплохая, раз у них такая есть. )"
-  speaker: "Zoey"
-  rich_text: "<i>(A hologram. Guess profit isn't too bad if they have one. )</i>"
-  rich_translation: "<i>(Голограмма. Видимо, прибыль неплохая, раз у них такая есть. )</i>"
-
-- text: "Welcome to the Glowing Hole!"
-  translation: "Добро пожаловать в «Светящуюся дыру»!"
 
 - text: "Rhythmic these are. )"
   translation: "Ритмичные они. )"
   speaker: "Zoey"
-
-- text: "Rosie? Yeah, I have."
-  translation: "Рози? Да, знакома."
-  speaker: "Zoey"
-
-- text: "Isn't it just the worst that she's not available to come to a room with us customers?"
-  translation: "Разве это не отстой, что она недоступна, чтобы пойти в комнату с нами, клиентами?"
-
-- text: "She's.. Quite the sweetheart, heh..! But someone needs to make the drinks, right?"
-  translation: "Она.. Такая милашка, хе..! Но кто-то же должен делать напитки, верно?"
-
-- text: "(Thinly sliced. )"
-  translation: "(Тонко нарезано. )"
-  speaker: "Zoey"
-  rich_text: "<i>(Thinly sliced. )</i>"
-  rich_translation: "<i>(Тонко нарезано. )</i>"
-
-- text: "Just boxes of wallpaper."
-  translation: "Просто коробки с обоями."
-
-- text: "(Just like... last time... I managed last time too... It... it will be fine... mhm... )"
-  translation: "(Как в... прошлый раз... я справилась в прошлый раз... Всё... будет хорошо... мхм... )"
-  rich_text: "<color=#EB83FF><i>(Just like... last time... I managed last time too... It... it will be fine... mhm... )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Как в... прошлый раз... я справилась в прошлый раз... Всё... будет хорошо... мхм... )</i></color>"
-
-- text: "O-okay, I-... I'll get another tip, right...?"
-  translation: "Л-ладно, я-... я получу ещё чаевые, верно...?"
-  rich_text: "<color=#EB83FF>O-okay, I-... I'll get another tip, right...?</color>"
-  rich_translation: "<color=#EB83FF>Л-ладно, я-... я получу ещё чаевые, верно...?</color>"
-
-- text: "You look banging. Wanna come back to my room?"
-  translation: "Ты выглядишь сногсшибательно. Хочешь пойти ко мне в комнату?"
-
-- text: "I- uh..."
-  translation: "Я- эм..."
-
-- text: "I'm already with another client. Sorry!"
-  translation: "Я уже с другим клиентом. Прости!"
 
 - text: "t paying for a sloshed mess who can"
   translation: "не платит за пьяную размазню, которая не может"
@@ -221,51 +49,45 @@
   translation: "даже нормально разговаривать."
   speaker: "Klaudia"
 
-- text: "Hmmm~ your tits look great in tight leather."
-  translation: "Ммм~ твои сиськи отлично смотрятся в обтягивающей коже."
+- text: "t think. My customers seeing you like this will think that I'm running some kind of cheap shit hole. They'll think I can"
+  translation: ""
 
-- text: "S-sorry, maybe another time...!"
-  translation: "П-прости, может, в другой раз...!"
-  speaker: "Zoey"
+- text: "t keep my bunnies in line!"
+  translation: ""
+  speaker: "Klaudia"
 
-- text: "Have you seen Rosie, the bartender?"
-  translation: "Ты видела Рози, барменшу?"
+- text: "t care if your life"
+  translation: ""
 
-- text: "horny panting"
-  translation: "возбуждённое дыхание"
+- text: "s falling apart outside these walls. Everyone's is! When you"
+  translation: ""
 
-- text: "Like what you see?"
-  translation: "Нравится то, что видишь?"
-  speaker: "Bunnygirl"
+- text: "re in my club, your behavior will be as I say."
+  translation: ""
+  speaker: "Klaudia"
+  rich_text: "re in <b>my</b> club, your behavior will be as <b>I</b> say."
+  rich_translation: ""
 
-- text: "(Just a sip to-.. To take the edge off. )"
-  translation: "(Просто глоток, чтобы-.. Снять напряжение. )"
-  rich_text: "<i>(Just a sip to-.. To take the edge off. )</i>"
-  rich_translation: "<i>(Просто глоток, чтобы-.. Снять напряжение. )</i>"
+- text: "re out, Cal. I can find a dozen guys to take your spot right now. Do you understand me?"
+  translation: ""
+  speaker: "Klaudia"
+  rich_text: "re <b>out</b>, Cal. I can find a <b>dozen</b> guys to take your spot right now. Do you understand me?"
+  rich_translation: ""
 
-- text: "Hey Rosie, do you think you could mix me something light?"
-  translation: "Эй, Рози, не могла бы ты смешать мне что-нибудь лёгкое?"
+- text: "t come back down here until you smell like you"
+  translation: ""
 
-- text: "Of course, honey! How about a Neon Bliss? Just the right drink for a cutie like you. 25 fB."
-  translation: "Конечно, милая! Как насчёт «Неонового блаженства»? Самое то для такой милашки, как ты. 25 гр."
+- text: "re ready to work."
+  translation: ""
+  speaker: "Klaudia"
 
-- text: "Neon Lime, huh?"
-  translation: "Неоновый лайм, да?"
-
-- text: "Uhm, yeah!"
-  translation: "Эм, да!"
-
-- text: "Hehe, Varen is quite the frequent flyer. Not short on cash either."
-  translation: "Хе-хе, Варен частый гость. И деньгами не обижен."
+- text: "Cartel Guy"
+  translation: ""
 
 - text: "menu! Select an option..."
   translation: "меню! Выберите опцию..."
   rich_text: "menu! Select an option...</i>"
   rich_translation: "меню! Выберите опцию...</i>"
-
-- text: "Close menu."
-  translation: "Закрыть меню."
-  speaker: "Cancel"
 
 - text: "More information."
   translation: "Подробнее."
@@ -275,122 +97,11 @@
   translation: "Просмотреть логи услуг."
   speaker: "Logs"
 
-- text: "You can take that money and stick it up your ass!"
-  translation: "Можешь взять эти деньги и засунуть себе в задницу!"
-
-- text: "Woah there! Relax! I was just goofing around."
-  translation: "Воу полегче! Расслабься! Я просто шутил."
-  speaker: "Trov"
-
-- text: "Not my problem."
-  translation: "Не моя проблема."
-
-- text: "Oh... My... God... You look amazing!"
-  translation: "Ох... Ни... хрена... себе... Ты выглядишь потрясающе!"
-
-- text: "U-uhm... Ten...?"
-  translation: "Э-эм... Десять...?"
-  rich_text: "<color=#EB83FF>U-uhm... Ten...?</color>"
-  rich_translation: "<color=#EB83FF>Э-эм... Десять...?</color>"
-
-- text: "(Just leaning over... It's nothing... Weird... )"
-  translation: "(Просто наклоняюсь... Ничего... Странного... )"
-  rich_text: "<i>(Just leaning over... It's nothing... Weird... )</i>"
-  rich_translation: "<i>(Просто наклоняюсь... Ничего... Странного... )</i>"
-
-- text: "Holy shit, look at that big fat ass of yours, ahaha! Bet it's squishy as fuck!"
-  translation: "Ни хрена себе, глянь на свою жирную задницу, ахаха! Спорим, она мягкая, как блин!"
-  speaker: "Trov"
-
-- text: "(God he's such a fucking pervert...!)"
-  translation: "(Боже, он такой извращенец...!)"
-  rich_text: "<i>(God he's such a fucking pervert...!)</i>"
-  rich_translation: "<i>(Боже, он такой извращенец...!)</i>"
-
-- text: "re cute, but I"
-  translation: "милая, но я"
-
 - text: "m busy right now."
   translation: "сейчас занят."
 
-- text: "Maybe later though?"
-  translation: "Может, позже?"
-
-- text: "Here you go, sir!"
-  translation: "Вот, сэр!"
-
-- text: "How about earning another tip for some extra... Service...?"
-  translation: "Как насчёт заработать ещё чаевые за дополнительный... сервис...?"
-  speaker: "Varen"
-
-- text: "What kind of... service...?"
-  translation: "Какого рода... сервис...?"
-
-- text: "Here's your Drink, Mira."
-  translation: "Вот ваш напиток, Мира."
-  speaker: "Zoey"
-
-- text: "Anything else?"
-  translation: "Что-нибудь ещё?"
-  speaker: "Zoey"
-
-- text: "So you"
-  translation: "Значит, ты"
-
 - text: "ll do anything I want~?"
   translation: "сделаешь всё, что я захочу~?"
-
-- text: "Oh you can bet on that, sugar.~"
-  translation: "О, можешь не сомневаться, сладкий.~"
-  speaker: "Bunnyboy"
-  rich_text: "Oh you can bet on that, <i>sugar.~</i>"
-  rich_translation: "О, можешь не сомневаться, <i>сладкий.~</i>"
-
-- text: "Maybe I can impress her by buying a ton of expensive drinks.."
-  translation: "Может, я впечатлю её, купив кучу дорогих напитков.."
-
-- text: "Good luck.."
-  translation: "Удачи.."
-
-- text: "Mmmhh.. Just like that. Good boy."
-  translation: "Мммх.. Вот так. Хороший мальчик."
-
-- text: "Hhh-.. Th- thank you.. Hhh.. Our room is-"
-  translation: "Хх-.. С-спасибо.. Хх.. Наша комната-"
-  speaker: "Femboy"
-
-- text: "You'll lead me there in just a moment. I want to grope your perfect ass right here, right now."
-  translation: "Ты проводишь меня туда через минуту. Я хочу пощупать твою идеальную попку прямо здесь, прямо сейчас."
-
-- text: "Yes-.. Ma'am.. Hhh.. S-.. Someone's watching uss.."
-  translation: "Да-.. Госпожа.. Хх.. К-.. Кто-то смотрит на насс.."
-  speaker: "Femboy"
-
-- text: "(Is that"
-  translation: "(Неужели"
-  rich_text: "<i>(Is that"
-  rich_translation: "<i>(Неужели"
-
-- text: "(You know what? Never mind.)"
-  translation: "(Знаешь что? Забей.)"
-  speaker: "Zoey"
-  rich_text: "<i>(You know what? Never mind.)</i>"
-  rich_translation: "<i>(Знаешь что? Забей.)</i>"
-
-- text: "Here's your Strawberry Cream!"
-  translation: "Вот ваш клубничный крем!"
-  speaker: "Zoey"
-
-- text: "C-can I tip you...?"
-  translation: "М-можно дать тебе чаевые...?"
-  speaker: "Mira"
-
-- text: "Tip... me...?"
-  translation: "Чаевые... мне...?"
-  speaker: "Zoey"
-
-- text: "I'm... Looking for someone."
-  translation: "Я... Ищу кое-кого."
 
 - text: "access logs:"
   translation: "логи доступа:"
@@ -398,31 +109,16 @@
   rich_translation: "логи доступа:</i>"
 
 - text: "Room 203"
-  translation: "Комната 203"
+  translation: ""
+  speaker: "Guy"
 
 - text: "Room 204"
   translation: "Комната 204"
+  speaker: "Girl"
 
 - text: "Go back."
   translation: "Назад."
   speaker: "Cancel"
-
-- text: "You're new here."
-  translation: "Ты здесь новенькая."
-  speaker: "Rugnar"
-
-- text: "Y-yes, I am. I just recently... joined."
-  translation: "Д-да. Я недавно... присоединилась."
-  speaker: "Zoey"
-
-- text: "Good. Place needs bunnies."
-  translation: "Хорошо. Заведению нужны зайки."
-  speaker: "Rugnar"
-
-- text: "(These prices are a rip-off. )"
-  translation: "(Эти цены — грабёж. )"
-  rich_text: "<i>(These prices are a rip-off. )</i>"
-  rich_translation: "<i>(Эти цены — грабёж. )</i>"
 
 - text: "Ohhh~ hhey ther', hunnn..~  Hic.. Whash you doin' in here, hmmmmm?~"
   translation: "Ооо~ хэй тям, милашш..~ Ик.. Что ты тут делаешь, ммммм?~"
@@ -432,200 +128,40 @@
 - text: "Yush, das me!~"
   translation: "Ага, эта я!~"
 
-- text: "(He's all about manners, right...? So-... I'm sure he can... behave if I accept another tip... )"
-  translation: "(Он же весь о манерах, верно...? Значит-... я уверена, он может... вести себя прилично, если я приму ещё чаевые... )"
-  rich_text: "<color=#EB83FF><i>(He's all about manners, right...? So-... I'm sure he can... behave if I accept another tip... )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Он же весь о манерах, верно...? Значит-... я уверена, он может... вести себя прилично, если я приму ещё чаевые... )</i></color>"
+- text: "Ohhh..!~ A clienthh, ehehe! Yass, I'll jus finish this drink!  Hic!~"
+  translation: ""
+  rich_text: "Ohhh..!~ A clienthh, ehehe! Yass, I'll jus finish this drink! <i> Hic!~</i>"
+  rich_translation: ""
 
-- text: "(Taking tips from customers without like... Getting them off-... It's encouraged, right...? Its just... )"
-  translation: "(Брать чаевые с клиентов, типа не... доводя их до разрядки... Это поощряется, верно...? Просто... )"
-  rich_text: "<color=#EB83FF><i>(Taking tips from customers without like... Getting them off-... It's encouraged, right...? Its just... )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Брать чаевые с клиентов, типа не... доводя их до разрядки... Это поощряется, верно...? Просто... )</i></color>"
+- text: "Swweeth.. Very sweet.. I  hic like swweet thingths..~ Eheheh..!"
+  translation: ""
+  rich_text: "Swweeth.. Very sweet.. I <i> hic</i> like swweet thingths..~ Eheheh..!"
+  rich_translation: ""
 
-- text: "(Khh... I shouldn't cause a scene on my first day... )"
-  translation: "(Кх... Не стоит устраивать сцену в первый день... )"
-  rich_text: "<i>(Khh... I shouldn't cause a scene on my first day... )</i>"
-  rich_translation: "<i>(Кх... Не стоит устраивать сцену в первый день... )</i>"
+- text: "Ohh youh arre s-so right..!"
+  translation: ""
 
-- text: "Shouldn't you be cleaning up the mess you made?"
-  translation: "Не стоило бы тебе убрать беспорядок, который ты устроил?"
-  speaker: "Trov"
-
-- text: "Me? Are you serious?!"
-  translation: "Мне? Ты серьёзно?!"
+- text: "(Ah... )"
+  translation: ""
+  rich_text: "<i>(Ah... )</i>"
+  rich_translation: ""
 
 - text: "(I forgot to put my clothes back on..!)"
   translation: "(Я забыла надеть одежду обратно..!)"
   rich_text: "<color=#EB83FF><i>(I forgot to put my clothes back on..!)</i></color>"
   rich_translation: "<color=#EB83FF><i>(Я забыла надеть одежду обратно..!)</i></color>"
 
-- text: "Here you go, enjoy!"
-  translation: "Вот, наслаждайтесь!"
-
-- text: "Thank you, Rosie!"
-  translation: "Спасибо, Рози!"
-
-- text: "View ground floor cameras."
-  translation: "Посмотреть камеры первого этажа."
-  speaker: "GroundFloor"
-
-- text: "View upper floor cameras."
-  translation: "Посмотреть камеры верхнего этажа."
-  speaker: "UpperFloor"
-
 - text: "View ground floor cameras."
   translation: "Посмотреть камеры первого этажа."
   rich_text: "<i>View ground floor cameras.</i>"
   rich_translation: "<i>Посмотреть камеры первого этажа.</i>"
 
-- text: "Go back."
-  translation: "Назад."
-
-- text: "You're hotter than the service ones today."
-  translation: "Ты сегодня горячее, чем те, что на обслуживании."
-  speaker: "Rugnar"
-
-- text: "Ah-... Uh... Th-thanks...?"
-  translation: "А-... Эм... С-спасибо...?"
-  speaker: "Zoey"
-
-- text: "Who are you? Are you new here?"
-  translation: "Ты кто? Ты здесь новенькая?"
-
-- text: "They must be changing shifts, let"
-  translation: "У них, наверное, смена, давай"
-
 - text: "s pick someone already!"
   translation: "уже выберем кого-нибудь!"
-
-- text: "Here's your... Drink... Sir."
-  translation: "Вот ваш... Напиток... Сэр."
-
-- text: "Fast learner, are we, hmm? A waitress that does what a customer asks of her. Quite the rarity from my experience."
-  translation: "Быстро учишься, да, хмм? Официантка, которая делает то, что просит клиент. Редкость, судя по моему опыту."
-  speaker: "Trov"
-
-- text: "How do you feel about working here? Is it not a bit gloomy?"
-  translation: "Как тебе работа здесь? Не слишком мрачно?"
-
-- text: "Gloomy? I'd say it's colorful! Sure beats working on the streets!"
-  translation: "Мрачно? Я бы сказала, красочно! Уж лучше, чем работать на улице!"
-
-- text: "That makes sense."
-  translation: "Логично."
-
-- text: "(I can't leave yet. )"
-  translation: "(Я не могу пока уйти. )"
-  rich_text: "<i>(I can't leave yet. )</i>"
-  rich_translation: "<i>(Я не могу пока уйти. )</i>"
-
-- text: "Y-yes, sir..."
-  translation: "Д-да, сэр..."
-  rich_text: "<color=#EB83FF>Y-yes, sir...</color>"
-  rich_translation: "<color=#EB83FF>Д-да, сэр...</color>"
-
-- text: "The drink!"
-  translation: "Напиток!"
-
-- text: "Hahahah! Oops. My hand must have slipped."
-  translation: "Хахаха! Ой. Моя рука, должно быть, соскользнула."
-  speaker: "Trov"
-
-- text: "(There's no way he slapped my ass unintentionally... )"
-  translation: "(Не может быть, чтобы он шлёпнул меня по заднице случайно... )"
-  rich_text: "<i>(There's no way he slapped my ass unintentionally... )</i>"
-  rich_translation: "<i>(Не может быть, чтобы он шлёпнул меня по заднице случайно... )</i>"
-
-- text: "Great job, darling! You did great for your first shift!"
-  translation: "Отличная работа, дорогая! Ты отлично справилась в первую смену!"
-
-- text: "Heh... thanks."
-  translation: "Хе... спасибо."
-  speaker: "Zoey"
-
-- text: "(High-tech cooling unit. )"
-  translation: "(Высокотехнологичный охладитель. )"
-  speaker: "Zoey"
-  rich_text: "<i>(High-tech cooling unit. )</i>"
-  rich_translation: "<i>(Высокотехнологичный охладитель. )</i>"
-
-- text: "(Wish I could afford one. )"
-  translation: "(Хотела бы я такой себе позволить. )"
-  speaker: "Zoey"
-  rich_text: "<i>(Wish I could afford one. )</i>"
-  rich_translation: "<i>(Хотела бы я такой себе позволить. )</i>"
-
-- text: "Becky! Don't look at the camera!"
-  translation: "Бекки! Не смотри в камеру!"
-
-- text: "Look who's back, ehehe..~ You've found yourself a spectator, sweety..~"
-  translation: "Гляньте, кто вернулся, ехехе..~ Ты нашла себе зрителя, сладенький..~"
-
-- text: "Hhh.. Hii.. Nghh.. Ffhha.."
-  translation: "Хх.. Прии.. Н-н-н.. Ффха.."
-  speaker: "Femboy"
-
-- text: "(So many dirty dishes. )"
-  translation: "(Сколько грязной посуды. )"
-  speaker: "Zoey"
-  rich_text: "<i>(So many dirty dishes. )</i>"
-  rich_translation: "<i>(Сколько грязной посуды. )</i>"
-
-- text: "(Food must be popular. )"
-  translation: "(Еда, видимо, популярна. )"
-  speaker: "Zoey"
-  rich_text: "<i>(Food must be popular. )</i>"
-  rich_translation: "<i>(Еда, видимо, популярна. )</i>"
-
-- text: "This place is dirty in more ways than one."
-  translation: "Это место грязное во всех смыслах."
-
-- text: "Holo-plant. No photosynthesis, only photons."
-  translation: "Голорастение. Никакого фотосинтеза, только фотоны."
-
-- text: "(Just... Squish them like Rosie showed... I-... I can do this... )"
-  translation: "(Просто... Мять их, как показала Рози... Я-... Я справлюсь... )"
-  speaker: "Zoey"
-  rich_text: "<color=#EB83FF><i>(Just... Squish them like Rosie showed... I-... I can do this... )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Просто... Мять их, как показала Рози... Я-... Я справлюсь... )</i></color>"
-
-- text: "Fuck yeah bunny girl, watch me getting stuffed!"
-  translation: "О да зайка, смотри, как меня трахают!"
-
-- text: "(Just a... quick peek... m-mhm... )"
-  translation: "(Просто... быстрый взгляд... м-мхм... )"
-  rich_text: "<color=#EB83FF><i>(Just a... quick peek... m-mhm... )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Просто... быстрый взгляд... м-мхм... )</i></color>"
-
-- text: "Just for a quick moment... Okay...?"
-  translation: "Всего на мгновение... Ладно...?"
-  speaker: "Zoey"
-  rich_text: "<color=#EB83FF>Just for a quick moment... Okay...?</color>"
-  rich_translation: "<color=#EB83FF>Всего на мгновение... Ладно...?</color>"
-
-- text: "What can I get you, honey?"
-  translation: "Что тебе принести, милый?"
-
-- text: "U-uhm... Twenty...?"
-  translation: "Э-эм... Двадцать...?"
-  rich_text: "<color=#EB83FF>U-uhm... Twenty...?</color>"
-  rich_translation: "<color=#EB83FF>Э-эм... Двадцать...?</color>"
-
-- text: "Too much."
-  translation: "Много."
-  speaker: "Rugnar"
-
-- text: "No drinking on the clock unless you"
-  translation: "Не пей на работе, если ты"
 
 - text: "re with a customer."
   translation: "не с клиентом."
   speaker: "Bunnygirl"
-
-- text: "(Gahhh... It's just a quick look... No-... No touching, so... )"
-  translation: "(Ахх... Это просто быстрый взгляд... Нет-... Никаких прикосновений, так что... )"
-  rich_text: "<i>(Gahhh... It's just a quick look... No-... No touching, so... )</i>"
-  rich_translation: "<i>(Ахх... Это просто быстрый взгляд... Нет-... Никаких прикосновений, так что... )</i>"
 
 - text: "Destination: Room 203"
   translation: "Назначение: Комната 203"
@@ -642,69 +178,10 @@
   rich_text: "<b>Notes:</b> \"Rocked the customer's world. He'll definitely be coming back. I'm sure of it. ;)\"</i>"
   rich_translation: "<b>Заметки:</b> «Перевернула мир клиента. Он точно вернётся. Я уверена. ;)»</i>"
 
-- text: "How's... this...?"
-  translation: "Как... так...?"
-  speaker: "Zoey"
-  rich_text: "<color=#EB83FF>How's... this...?</color>"
-  rich_translation: "<color=#EB83FF>Как... так...?</color>"
-
-- text: "Want a drink? What's your poison?"
-  translation: "Хочешь выпить? Что предпочитаешь?"
-  speaker: "Bunnygirl"
-
-- text: "I'm alright, thank you."
-  translation: "Я в порядке, спасибо."
-
 - text: "Mnnhhh... Ghhrmmm..."
   translation: "Мннхх... Гхрмм..."
   rich_text: "<color=#EB83FF>Mnnhhh... Ghhrmmm...</color>"
   rich_translation: "<color=#EB83FF>Мннхх... Гхрмм...</color>"
-
-- text: "I'll have another drink, waitress."
-  translation: "Мне ещё один напиток, официантка."
-  speaker: "Varen"
-
-- text: "(It's just... Words... And I'll get money... )"
-  translation: "(Это просто... Слова... И я получу деньги... )"
-  rich_text: "<i>(It's just... Words... And I'll get money... )</i>"
-  rich_translation: "<i>(Это просто... Слова... И я получу деньги... )</i>"
-
-- text: "(Is that synthetic meat?)"
-  translation: "(Это синтетическое мясо?)"
-  speaker: "Zoey"
-  rich_text: "<i>(Is that synthetic meat?)</i>"
-  rich_translation: "<i>(Это синтетическое мясо?)</i>"
-
-- text: "(I miss real beef. )"
-  translation: "(Скучаю по настоящей говядине. )"
-  speaker: "Zoey"
-  rich_text: "<i>(I miss real beef. )</i>"
-  rich_translation: "<i>(Скучаю по настоящей говядине. )</i>"
-
-- text: "(These seem ready to go. )"
-  translation: "(Эти, кажется, готовы к подаче. )"
-  speaker: "Zoey"
-  rich_text: "<i>(These seem ready to go. )</i>"
-  rich_translation: "<i>(Эти, кажется, готовы к подаче. )</i>"
-
-- text: "(The stove is lit. )"
-  translation: "(Плита включена. )"
-  speaker: "Zoey"
-  rich_text: "<i>(The stove is lit. )</i>"
-  rich_translation: "<i>(Плита включена. )</i>"
-
-- text: "(Is that safe?)"
-  translation: "(Это безопасно?)"
-  speaker: "Zoey"
-  rich_text: "<i>(Is that safe?)</i>"
-  rich_translation: "<i>(Это безопасно?)</i>"
-
-- text: "Not now, new girl!"
-  translation: "Не сейчас, новенькая!"
-  speaker: "Bunnygirl"
-
-- text: "t you see I"
-  translation: "ты не видишь, я"
 
 - text: "m getting a"
   translation: "получаю"
@@ -724,53 +201,13 @@
   rich_text: "<b>Notes:</b> \"No one was here. I guess I was ordered by mistake?\"</i>"
   rich_translation: "<b>Заметки:</b> «Никого не было. Наверное, меня вызвали по ошибке?»</i>"
 
-- text: "(It's just his pants... I-... I'm not even really like... Touching him directly... )"
-  translation: "(Это просто его штаны... Я-... Я даже не касаюсь его напрямую... )"
-  rich_text: "<color=#EB83FF><i>(It's just his pants... I-... I'm not even really like... Touching him directly... )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Это просто его штаны... Я-... Я даже не касаюсь его напрямую... )</i></color>"
-
-- text: "(And he'll double the tip...! So... it only makes sense to do it... Right?)"
-  translation: "(И он удвоит чаевые...! Так что... это вполне разумно... Верно?)"
-  rich_text: "<color=#EB83FF><i>(And he'll double the tip...! So... it only makes sense to do it... Right?)</i></color>"
-  rich_translation: "<color=#EB83FF><i>(И он удвоит чаевые...! Так что... это вполне разумно... Верно?)</i></color>"
-
-- text: "(What are you doing, Zoey... )"
-  translation: "(Что ты делаешь, Зои... )"
-  speaker: "Zoey"
-  rich_text: "<i>(What are you doing, Zoey... )</i>"
-  rich_translation: "<i>(Что ты делаешь, Зои... )</i>"
-
-- text: "(Letting a customer in a nightclub grope you for money... Really...?)"
-  translation: "(Позволяешь клиенту в ночном клубе лапать тебя за деньги... Серьёзно...?)"
-  rich_text: "<i>(Letting a customer in a nightclub grope you for money... Really...?)</i>"
-  rich_translation: "<i>(Позволяешь клиенту в ночном клубе лапать тебя за деньги... Серьёзно...?)</i>"
-
 - text: "> Please move to Room 102. The code is 8862."
   translation: "> Пройдите в комнату 102. Код: 8862."
   rich_text: "> Please move to Room 102. The code is <b>8862</b>."
   rich_translation: "> Пройдите в комнату 102. Код: <b>8862</b>."
 
 - text: "> Klaudia"
-  translation: "> Клавдия"
-
-- text: "(I'm not about to go dishwashing. )"
-  translation: "(Я не собираюсь мыть посуду. )"
-  speaker: "Zoey"
-  rich_text: "<i>(I'm not about to go dishwashing. )</i>"
-  rich_translation: "<i>(Я не собираюсь мыть посуду. )</i>"
-
-- text: "Glad to see you back and excited to take another order from your favorite customer, eheheh."
-  translation: "Рад видеть тебя снова, и с нетерпением жду нового заказа от твоего любимого клиента, ехехе."
-  speaker: "Trov"
-
-- text: "Ay, waitress! I want 'nather drinkh!"
-  translation: "Эй, официантка! Хочу ешшо вопитель!"
-  speaker: "Trov"
-
-- text: "(Seems like he's already had quite a bit of alcohol... )"
-  translation: "(Похоже, он уже выпил немало алкоголя... )"
-  rich_text: "<i>(Seems like he's already had quite a bit of alcohol... )</i>"
-  rich_translation: "<i>(Похоже, он уже выпил немало алкоголя... )</i>"
+  translation: ""
 
 - text: "s up to.)"
   translation: "задумал.)"
@@ -778,113 +215,8 @@
   rich_text: "s up to.)</i>"
   rich_translation: "задумал.)</i>"
 
-- text: "Hey..! Welcome to the- Afterglow."
-  translation: "Хей..! Добро пожаловать в- «Afterglow»."
-  speaker: "Zoey"
-
-- text: "What would you like to order...?"
-  translation: "Что бы вы хотели заказать...?"
-
-- text: "What can I get you, ma'am?"
-  translation: "Что вам принести, мэм?"
-  speaker: "Zoey"
-
-- text: "Ah-...! Um... H-hi...!"
-  translation: "А-...! Эм... П-привет...!"
-  speaker: "Mira"
-
-- text: "Deep breath"
-  translation: "Глубокий вдох"
-
-- text: "You will have to seek another bunny for your requested services."
-  translation: "Вам придётся поискать другую зайку для запрошенных услуг."
-
-- text: "uneasy 2"
-  translation: "нервно 2"
-
-- text: "(I can hear someone in there"
-  translation: "(Я слышу кого-то там"
-  speaker: "Zoey"
-  rich_text: "<i>(I can hear someone in there"
-  rich_translation: "<i>(Я слышу кого-то там"
-
-- text: "It's not my fault! My wrist was glitching off again."
-  translation: "Это не моя вина! Моё запястье опять глючило."
-  speaker: "Cook"
-
-- text: "I told you those cheap implants are trouble. You spilled soup all over the floor!"
-  translation: "Я говорил тебе, эти дешёвые импланты — проблема. Ты разлила суп по всему полу!"
-  speaker: "Bunnyboy"
-
-- text: "Changed your mind about working in the... service... side of the job?"
-  translation: "Передумала насчёт работы в... сервисной... части работы?"
-  speaker: "Klaudia"
-
-- text: "Upstairs is only meant for intimate experiences with customers, waitress."
-  translation: "Верхний этаж только для интимных услуг с клиентами, официантка."
-  speaker: "Klaudia"
-  rich_text: "Upstairs is only meant for intimate experiences with customers, <i>waitress</i>."
-  rich_translation: "Верхний этаж только для интимных услуг с клиентами, <i>официантка</i>."
-
-- text: "(This thing sells condoms and lube... Whatever happened to a good ol soda?)"
-  translation: "(Эта штука продаёт презервативы и смазку... Куда подевалась обычная газировка?)"
-  rich_text: "<i>(This thing sells condoms and lube... Whatever happened to a good ol soda?)</i>"
-  rich_translation: "<i>(Эта штука продаёт презервативы и смазку... Куда подевалась обычная газировка?)</i>"
-
-- text: "Heh. Don't need waitress skills with an ass like that, bunny."
-  translation: "Хе. С такой попой навыки официантки и не нужны, зайка."
-  speaker: "Trov"
-
-- text: "(Asshole and pervert... )"
-  translation: "(Мудак и извращенец... )"
-  rich_text: "<i>(Asshole <b>and</b> pervert... )</i>"
-  rich_translation: "<i>(Мудак <b>и</b> извращенец... )</i>"
-
-- text: "Why don't you spread that ass for me down there, hm?"
-  translation: "Почему бы тебе не раздвинуть эту попку для меня внизу, хм?"
-  speaker: "Trov"
-
-- text: "(Wait-.. I don't have enough money.. )"
-  translation: "(Погоди-.. У меня недостаточно денег.. )"
-  rich_text: "<i>(Wait-.. I don't have enough money.. )</i>"
-  rich_translation: "<i>(Погоди-.. У меня недостаточно денег.. )</i>"
-
-- text: "Here's your drink..."
-  translation: "Вот ваш напиток..."
-
-- text: "You're forgetting the \"sir\"."
-  translation: "Ты забываешь «сэр»."
-  speaker: "Trov"
-
-- text: "Yeah~ Get a nice picture of this sexy boy."
-  translation: "Да~ Сделай хорошее фото этого сексуального мальчика."
-
-- text: "I was just uh- enjoying the show!"
-  translation: "Я просто эм- наслаждался шоу!"
-
-- text: "Don't worry, babe. Flash photography is allowed with me~ Aw, look you're making him all flustered."
-  translation: "Не волнуйся, детка. Фото со вспышкой разрешено~ Оу, смотри, ты его смущаешь."
-
-- text: "Room 202"
-  translation: "Комната 202"
-  speaker: "Empty"
-
-- text: "Room 204"
-  translation: "Комната 204"
-  speaker: "Girl"
-
-- text: "Return to menu."
-  translation: "Вернуться в меню."
-  speaker: "Cancel"
-
-- text: "Set the mood, why don"
-  translation: "Создай настроение, а"
-
 - text: "t ya?"
   translation: "ну?"
-
-- text: "HEY! Upstairs is for fuckin"
-  translation: "ЭЙ! Наверху для траха"
 
 - text: "only and you haven"
   translation: "только, а ты ещё"
@@ -893,98 +225,8 @@
   translation: "не заплатил!"
   speaker: "Klaudia"
 
-- text: "Oh! Right-!"
-  translation: "О! Точно-!"
-
-- text: "(Is this really worth the tips...?)"
-  translation: "(Действительно ли это стоит чаевых...?)"
-  rich_text: "<i>(Is this really worth the tips...?)</i>"
-  rich_translation: "<i>(Действительно ли это стоит чаевых...?)</i>"
-
-- text: "Sarah Dialogue Preset"
-  translation: "Пресет диалога Сары"
-  speaker: "Shoked"
-
-- text: "Another bunny girl?"
-  translation: "Ещё одна зайка?"
-  speaker: "Bunnyboy"
-
-- text: "Place is getting crowded."
-  translation: "Место становится людным."
-  speaker: "Bunnyboy"
-
-- text: "(The money... really wouldn't hurt... I'll just... sit with him for a moment and leave... )"
-  translation: "(Деньги... не помешали бы... Я просто... посижу с ним минутку и уйду... )"
-  speaker: "Zoey"
-  rich_text: "<i>(The money... really wouldn't hurt... I'll just... sit with him for a moment and leave... )</i>"
-  rich_translation: "<i>(Деньги... не помешали бы... Я просто... посижу с ним минутку и уйду... )</i>"
-
-- text: "O-okay, I uhm... I can stay for a bit."
-  translation: "Л-ладно, я эм... Могу побыть немного."
-
-- text: "I need more attention!"
-  translation: "Мне нужно больше внимания!"
-  speaker: "Bunnygirl"
-
-- text: "Eheh... Look at you... tasty..."
-  translation: "Ехе... Посмотри на себя... вкусная..."
-  speaker: "Customer"
-
-- text: "Errr... what can I get you?"
-  translation: "Эрр... что вам принести?"
-  speaker: "Zoey"
-
-- text: "(I-.. I should't-.. )"
-  translation: "(Я-.. Мне не стоит-.. )"
-  rich_text: "<i>(I-.. I should't-.. )</i>"
-  rich_translation: "<i>(Я-.. Мне не стоит-.. )</i>"
-
 - text: "Oh-..! They're-.."
-  translation: "О-..! Они-.."
-
-- text: "How about a nip slip for the camera?"
-  translation: "Как насчёт соска для камеры?"
-
-- text: "Maybe later?"
-  translation: "Может, позже?"
-
-- text: "(I should go. )"
-  translation: "(Мне пора. )"
-  rich_text: "<i>(I should go. )</i>"
-  rich_translation: "<i>(Мне пора. )</i>"
-
-- text: "Here's your drink, sir."
-  translation: "Ваш напиток, сэр."
-
-- text: "If it isn't my new favorite bunny... Come have a seat. Right here. My hands ache for your... company."
-  translation: "Если это не моя новая любимая зайка... Присядь. Прямо сюда. Мои руки жаждут твоего... общества."
-  speaker: "Varen"
-
-- text: "(He wants to... Grope me again...? I-... )"
-  translation: "(Он хочет... Лапать меня снова...? Я-... )"
-  rich_text: "<color=#EB83FF><i>(He wants to... Grope me again...? I-... )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Он хочет... Лапать меня снова...? Я-... )</i></color>"
-
-- text: "Sorry, I-.. I changed my mind.."
-  translation: "Прости, я-.. Передумала.."
-
-- text: "Nothing to be sorry for, honey! Let me know if I can do anything for you, hehe.~"
-  translation: "Не извиняйся, милая! Дай знать, если я могу что-то для тебя сделать, хе-хе.~"
-
-- text: "(So much food. )"
-  translation: "(Так много еды. )"
-  speaker: "Zoey"
-  rich_text: "<i>(So much food. )</i>"
-  rich_translation: "<i>(Так много еды. )</i>"
-
-- text: "(...This is making me hungry. )"
-  translation: "(...У меня аж аппетит разыгрался. )"
-  speaker: "Zoey"
-  rich_text: "<i>(...This is making me hungry. )</i>"
-  rich_translation: "<i>(...У меня аж аппетит разыгрался. )</i>"
-
-- text: "Fuuuuuck you"
-  translation: "Бля-а-а, ты"
+  translation: ""
 
 - text: "re good..."
   translation: "хороша..."
@@ -999,11 +241,6 @@
   translation: "(Нужно найти место поукромнее.)"
   rich_text: "<i>(I should find somewhere more private.)</i>"
   rich_translation: "<i>(Нужно найти место поукромнее.)</i>"
-
-- text: "(What a subtle name for the place... )"
-  translation: "(Какое тонкое название для заведения... )"
-  rich_text: "<i>(What a subtle name for the place... )</i>"
-  rich_translation: "<i>(Какое тонкое название для заведения... )</i>"
 
 - text: "Destination: Room 204"
   translation: "Назначение: Комната 204"
@@ -1020,90 +257,26 @@
   rich_text: "<b>Voice Notes:</b> \"Looks like I showed her things about her body even she didn't know about. I think she was in love.\"</i>"
   rich_translation: "<b>Голосовые заметки:</b> «Кажется, я показала ей такое о её теле, чего она сама не знала. Думаю, она влюбилась.»</i>"
 
-- text: "Absolutely not!"
-  translation: "Ни за что!"
-
-- text: "Borin' bitch... Com' back when ya changedya' mind..."
-  translation: "Скучная сучка... Возвращайся, когда передумаешь..."
-  speaker: "Trov"
-
-- text: "(I need to look for room 205 up here. )"
-  translation: "(Нужно найти комнату 205 здесь наверху. )"
-  rich_text: "<i>(I need to look for room 205 up here. )</i>"
-  rich_translation: "<i>(Нужно найти комнату 205 здесь наверху. )</i>"
-
-- text: "I don't think it is."
-  translation: "Не думаю."
-
-- text: "Mmmhh, I love ladies playing hard to get."
-  translation: "Мммх, люблю, когда леди играют в неприступность."
-  speaker: "Trov"
-
-- text: "Slightly annoyed / defeated exhale"
-  translation: "Слегка раздражённый / побеждённый выдох"
-
 - text: "(This guy really isn't getting it... )"
   translation: "(Этот парень реально не въезжает... )"
   speaker: "Zoey"
   rich_text: "<i>(This guy really isn't getting it... )</i>"
   rich_translation: "<i>(Этот парень реально не въезжает... )</i>"
 
-- text: "Oh my! Aren't you a delicious little bunny?"
-  translation: "О! Разве ты не аппетитная маленькая зайка?"
+- text: "You coouuuld make sure he doesn't get into trouble for spending more than he can afford again... Buuut..."
+  translation: ""
+  rich_text: "You <b>coouuuld</b> make sure he doesn't get into trouble for spending more than he can afford again... Buuut..."
+  rich_translation: ""
 
-- text: "U-uhm... F-five...?"
-  translation: "Э-эм... П-пять...?"
-  rich_text: "<color=#EB83FF>U-uhm... F-five...?</color>"
-  rich_translation: "<color=#EB83FF>Э-эм... П-пять...?</color>"
+- text: "Well... Let's just say... His bad choices are not your responsibility, ehehe..."
+  translation: ""
 
-- text: "Heh. Cheap. Deal."
-  translation: "Хе. Дёшево. Идёт."
-  speaker: "Rugnar"
-
-- text: "Mnh..~ Heh..~"
-  translation: "Мнх..~ Хе..~"
-
-- text: "So soft..~"
-  translation: "Такая мягкая..~"
-
-- text: "Trov giving you a hard time, hun?"
-  translation: "Тров достаёт тебя, милая?"
-
-- text: "Trov? That's his name?"
-  translation: "Тров? Его так зовут?"
-
-- text: "Trov's looking like he went a bit overboard, hm?"
-  translation: "Тров выглядит так, будто перебрал, хм?"
-
-- text: "I, um... I guess so..."
-  translation: "Я, эм... Наверное..."
-
-- text: "You- you have to turn around while I change...!"
-  translation: "Ты- ты должен отвернуться, пока я переодеваюсь...!"
+- text: "really that simple...?)"
+  translation: ""
   speaker: "Zoey"
-
-- text: "My... Aren't you a tame one..."
-  translation: "Ну надо же... Какая ты ручная..."
-  speaker: "Klaudia"
 
 - text: "0.4 - GlowingHoleBartending - RichCustomerVaren - 4 - 2 - Accept!"
-  translation: "0.4 - Бармен в Дыре - БогатыйКлиентВарен - 4 - 2 - Принять!"
-
-- text: "(I'm just... Doing my job... Right. )"
-  translation: "(Я просто... Делаю свою работу... Верно. )"
-  rich_text: "<color=#EB83FF><i>(I'm just... Doing my job... Right. )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Я просто... Делаю свою работу... Верно. )</i></color>"
-
-- text: "Just... don't do anything weird, okay...?"
-  translation: "Только... ничего странного, хорошо...?"
-  rich_text: "<color=#EB83FF>Just... don't do anything weird, okay...?</color>"
-  rich_translation: "<color=#EB83FF>Только... ничего странного, хорошо...?</color>"
-
-- text: "(Not sure what this is, but it smells great. )"
-  translation: "(Не знаю, что это, но пахнет отлично. )"
-  speaker: "Zoey"
-  rich_text: "<i>(Not sure what this is, but it smells great. )</i>"
-  rich_translation: "<i>(Не знаю, что это, но пахнет отлично. )</i>"
+  translation: ""
 
 - text: "re done. Gametime.)"
   translation: "готово. Время игр.)"
@@ -1111,220 +284,72 @@
   rich_text: "re done. Gametime.)</i>"
   rich_translation: "готово. Время игр.)</i>"
 
-- text: "Would you... like to order something else?"
-  translation: "Не хотели бы... заказать что-нибудь ещё?"
-  speaker: "Zoey"
-
-- text: "A-another strawberry...? Would that be- um- like... okay...?"
-  translation: "Е-ещё один клубничный...? Это будет- эм- типа... нормально...?"
-  speaker: "Mira"
-
-- text: "Hmmm fuckk... The way she jiggles that ass.~"
-  translation: "Ммм бля... Как она виляет этой попой.~"
-
-- text: "She seems very"
-  translation: "Она выглядит очень"
-  speaker: "Athletic"
-
-- text: "Hh... Y-yah..?"
-  translation: "Х... Д-да..?"
-
 - text: "re late! Do you have the case I"
   translation: "опаздываешь! У тебя есть кейс, который я"
 
 - text: "m paying you to grab or not?"
-  translation: "плачу тебе забрать, или нет?"
+  translation: ""
+  speaker: "Man"
 
-- text: "Hey Rosie... So this customer asked for a... Remote...?"
-  translation: "Эй, Рози... Тут клиент попросил... Пульт...?"
-  speaker: "Zoey"
+- text: "Relax, this.. Hhh.. this ain"
+  translation: ""
 
-- text: "A remote? Oh this is going to be funnn..."
-  translation: "Пульт? О, это будет веселооо..."
+- text: "t my first gig. I"
+  translation: ""
 
-- text: "Hehe. I think she"
-  translation: "Хе-хе. Кажется, она"
+- text: "m just waiting for an opportunity to grab it."
+  translation: ""
+
+- text: "ll call you when it"
+  translation: ""
+
+- text: "s done."
+  translation: ""
 
 - text: "s hypnotized."
   translation: "загипнотизирована."
   speaker: "Bunnygirl"
 
-- text: "Run along girl, I"
-  translation: "Беги дальше, девочка, я"
+- text: "Do not get a customer off. A customer spent is worthless. Understood?!"
+  translation: ""
+  speaker: "Klaudia"
+  rich_text: "Do <b><size=50>not</size></b> get a customer off. A customer spent is worthless. Understood?!"
+  rich_translation: ""
 
 - text: "m here for the cute boys."
   translation: "здесь ради милых мальчиков."
-
-- text: "Here's your drink... sir."
-  translation: "Ваш напиток... сэр."
-
-- text: "(I let things go way too far last time... )"
-  translation: "(В прошлый раз я слишком далеко зашла... )"
-  rich_text: "<color=#EB83FF><i>(I let things go way too far last time... )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(В прошлый раз я слишком далеко зашла... )</i></color>"
 
 - text: "is unavailable..."
   translation: "недоступен..."
   rich_text: "is unavailable...</i>"
   rich_translation: "недоступен...</i>"
 
-- text: "Sorry for the wait, sir. Here's your Neon Lime!"
-  translation: "Простите за ожидание, сэр. Ваш неоновый лайм!"
+- text: "(His hand-...!)"
+  translation: ""
   speaker: "Zoey"
+  rich_text: "<i>(His hand-...!)</i>"
+  rich_translation: ""
 
-- text: "Rosie made it?"
-  translation: "Рози сделала?"
-  speaker: "Rugnar"
-
-- text: "Huh? Oh, uhh... Yeah, Rosie mixed the drink."
-  translation: "А? О, эм... Да, Рози смешала напиток."
-  speaker: "Zoey"
-
-- text: "Welcome to the Afterglow, cutie!~ I'm Rosie!"
-  translation: "Добро пожаловать в «Afterglow», милашка!~ Я Рози!"
-
-- text: "What can I get you, hun?"
-  translation: "Что тебе принести, милый?"
-
-- text: "(The locker- it's open...? )"
-  translation: "(Шкафчик- он открыт...? )"
-  rich_text: "<i>(The locker- it's open...? )</i>"
-  rich_translation: "<i>(Шкафчик- он открыт...? )</i>"
-
-- text: "With this whole new district opening up above us, I was starting to worry someone like you would prefer to work over there."
-  translation: "С открытием целого нового района над нами, я начал беспокоиться, что кто-то вроде тебя предпочтёт работать там."
-  speaker: "Varen"
-
-- text: "Right. I guess I was just... Drawn here...!"
-  translation: "Верно. Наверное, меня просто... Тянуло сюда...!"
-  speaker: "Zoey"
-
-- text: "The Hole does have it's very real charm. I'd know, heh."
-  translation: "У Дыры есть свой особый шарм. Мне ли не знать, хе."
-
-- text: "Rosie..? Hmm.. I don't think so."
-  translation: "Рози..? Хмм.. Не думаю."
-
-- text: "Dear god, you're missing out big time, hun. Go say hi to her! She's the goddess behind the bar!"
-  translation: "Боже, ты многое упускаешь, милый. Поздоровайся с ней! Она богиня за барной стойкой!"
-
-- text: "Goddess..? Alright."
-  translation: "Богиня..? Ладно."
-
-- text: "(Khh... I have to ask Rosie to make another drink... I hope she won't mind... )"
-  translation: "(Кх... Придётся попросить Рози сделать ещё один напиток... Надеюсь, она не против... )"
-  rich_text: "<i>(Khh... I have to ask Rosie to make another drink... I hope she won't mind... )</i>"
-  rich_translation: "<i>(Кх... Придётся попросить Рози сделать ещё один напиток... Надеюсь, она не против... )</i>"
+- text: "(I... Bl- Block... Nghh... Hhh...)"
+  translation: ""
+  rich_text: "<color=#EB83FF><i>(I... Bl- Block... Nghh... Hhh...)</i></color>"
+  rich_translation: ""
 
 - text: "Researching her dance moves. )"
   translation: "Изучаю её танцевальные движения. )"
   speaker: "Zoey"
 
-- text: "New bunny?"
-  translation: "Новая зайка?"
-  speaker: "Bunnyboy"
-
-- text: "Go easy on the drinks, Rosie doesn't hold back."
-  translation: "Полегче с напитками, Рози не сдерживается."
-  speaker: "Bunnyboy"
-
-- text: "Sorry, um... Maybe another time!"
-  translation: "Прости, эм... Может, в другой раз!"
-  speaker: "Zoey"
-
-- text: "(He asked for it and-... Rosie said it's okay, so... Not my problem, right...?)"
-  translation: "(Он сам попросил и-... Рози сказала, что нормально, так что... Не моя проблема, верно...?)"
-  rich_text: "<i>(He asked for it and-... Rosie said it's okay, so... <color=#EB83FF>Not my problem, right...?</color>)</i>"
-  rich_translation: "<i>(Он сам попросил и-... Рози сказала, что нормально, так что... <color=#EB83FF>Не моя проблема, верно...?</color>)</i>"
-
-- text: "Here's your drink... Sir..."
-  translation: "Ваш напиток... Сэр..."
-  speaker: "Zoey"
-  rich_text: "Here's your drink... <i>Sir</i>..."
-  rich_translation: "Ваш напиток... <i>Сэр</i>..."
-
-- text: "Here you go, hun!"
-  translation: "Держи, милый!"
-
-- text: "Thanks, Rosie!"
-  translation: "Спасибо, Рози!"
-
-- text: "Oh! Varen usually asks for some company along with his drink. He's not the worst really. Just likes to have a bit of bunny in his hands."
-  translation: "О! Варен обычно просит компанию вместе с напитком. Он не худший вариант. Просто любит подержать зайку в руках."
-
-- text: "Wow you"
-  translation: "Ого, ты"
-
 - text: "re hot. I wonder if I can afford a threesome."
   translation: "горяча. Интересно, потяну ли я тройничок."
 
-- text: "m keeping the tip, right?"
-  translation: "оставляю чаевые себе, верно?"
-  speaker: "Bunnyboy"
-
-- text: "Maybe we should book a bunny together. Sounds like fun, hehe."
-  translation: "Может, нам вместе заказать зайку. Звучит весело, хе-хе."
-
-- text: "What are those tags on the things on your nipples for?"
-  translation: "А для чего эти бирки на штуках у тебя на сосках?"
-
-- text: "Haha, well.. If you want table service, you can order a remote to call me."
-  translation: "Ха-ха, ну.. Если хочешь обслуживание за столиком, можешь заказать пульт, чтобы вызвать меня."
-
-- text: "A remote?"
-  translation: "Пульт?"
-
-- text: "Enjoying the show?"
-  translation: "Нравится шоу?"
-  speaker: "Bunnygirl"
-
-- text: "(I'm just... Making ends meet... I need money... right?)"
-  translation: "(Я просто... Свожу концы с концами... Мне нужны деньги... верно?)"
-  rich_text: "<color=#EB83FF><i>(I'm just... Making ends meet... I need money... right?)</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Я просто... Свожу концы с концами... Мне нужны деньги... верно?)</i></color>"
-
-- text: "Ah- sorry, sir... I don't really... Offer that kind of service."
-  translation: "А- простите, сэр... Я не... Предлагаю такого рода услуги."
-  speaker: "Zoey"
-
-- text: "Your loss."
-  translation: "Твоя потеря."
-  speaker: "Varen"
-
-- text: "(These look like orders. )"
-  translation: "(Похоже на заказы. )"
-  speaker: "Zoey"
-  rich_text: "<i>(These look like orders. )</i>"
-  rich_translation: "<i>(Похоже на заказы. )</i>"
-
-- text: "(Must be the room service terminal. )"
-  translation: "(Должно быть, терминал обслуживания номеров. )"
-  speaker: "Zoey"
-  rich_text: "<i>(Must be the room service terminal. )</i>"
-  rich_translation: "<i>(Должно быть, терминал обслуживания номеров. )</i>"
-
-- text: "(How long has this ratty old food been sitting here?)"
-  translation: "(Как долго эта старая еда здесь простояла?)"
-  rich_text: "<i>(How long has this ratty old food been sitting here?)</i>"
-  rich_translation: "<i>(Как долго эта старая еда здесь простояла?)</i>"
-
-- text: "Hey Rosie... I'm really sorry, but I dropped the drinks you made."
-  translation: "Эй, Рози... Мне очень жаль, но я уронила напитки, которые ты сделала."
-
-- text: "Oh, no problem darling, happens a lot around here! Did something happen?"
-  translation: "О, без проблем, дорогая, здесь такое часто бывает! Что-то случилось?"
-
-- text: "This one customer just slapped my butt and I lost balance... I'm sorry..."
-  translation: "Один клиент шлёпнул меня по заднице, и я потеряла равновесие... Прости..."
-
 - text: "Good evening, fair maiden. I am Mark..."
-  translation: "Добрый вечер, прекрасная дева. Я Марк..."
+  translation: ""
 
 - text: "To whom it may concern, I am your secret admirer..."
-  translation: "Всем заинтересованным лицам, я ваш тайный поклонник..."
+  translation: ""
 
 - text: "You must have amnesia, you forgot that I'm HIM..."
-  translation: "У тебя, должно быть, амнезия, ты забыла, что я ТОТ САМЫЙ..."
+  translation: ""
 
 - text: "is one of the mandatory utilities required of a GAG-approved establishment."
   translation: "является одной из обязательных услуг, требуемых в заведении, одобренном ГАГ."
@@ -1341,58 +366,39 @@
   rich_text: "with a willing employee of your choice, and let it handle the rest. It's that easy!</i>"
   rich_translation: "с согласным сотрудником по вашему выбору, и позвольте ему сделать всё остальное. Это так просто!</i>"
 
+- text: ", and have the employee climb inside. It will handle the rest."
+  translation: ""
+  rich_text: ", and have the employee climb inside. It will handle the rest.</i>"
+  rich_translation: ""
+
 - text: "That symbol... Is that...?"
   translation: "Этот символ... Неужели...?"
   speaker: "Klaudia"
 
-- text: "Sarah Dialogue Preset"
-  translation: "Пресет диалога Сары"
-  speaker: "Silly"
-
-- text: "Cartel Guy"
-  translation: "Картельный"
-
-- text: "Sarah Dialogue Preset"
-  translation: "Пресет диалога Сары"
-  speaker: "Laughing"
-
-- text: "Looking for this?"
-  translation: "Это ищешь?"
+- text: "You can tell me, hun. You will feel so good once the truth is out."
+  translation: ""
   speaker: "Klaudia"
-  rich_text: "Looking for <b>this</b>?"
-  rich_translation: "<b>Это</b> ищешь?"
-
-- text: "(The blocker-...!)"
-  translation: "(Блокиратор-...!)"
-  rich_text: "<i>(The blocker-...!)</i>"
-  rich_translation: "<i>(Блокиратор-...!)</i>"
-
-- text: "Quite the body you got there, thief. Not even any chrome on it. Customers will love you, ehehe."
-  translation: "Неплохое тело у тебя, воровка. Даже хрома нет. Клиентам понравишься, ехехе."
 
 - text: "I was wondering if you'd like to go on a date with me."
-  translation: "Мне интересно, не хочешь ли ты пойти со мной на свидание."
+  translation: ""
 
 - text: "Call that pussy the Matrix, cuz I'm in it, and I can't get out."
-  translation: "Назови эту киску Матрицей, потому что я в ней и не могу выбраться."
+  translation: ""
 
 - text: "Since our eyes first met, I've wanted to be with you."
-  translation: "С тех пор как наши глаза встретились, я хотел быть с тобой."
+  translation: ""
 
 - text: "This shit ain't nothin' to me, man."
-  translation: "Это дерьмо для меня пустяк, чувак."
+  translation: ""
 
 - text: "I await your response with bated breath. Yours eternally, Mark."
-  translation: "Жду твоего ответа, затаив дыхание. Навеки твой, Марк."
+  translation: ""
 
 - text: "Love, your secret admirer."
-  translation: "С любовью, твой тайный поклонник."
+  translation: ""
 
 - text: "Wait for showing Drink"
   translation: "Ждать показа напитка"
-
-- text: "Ask for Repeat Dialogue"
-  translation: "Попросить повторить диалог"
 
 - text: "Ask for Repeat Dialogue"
   translation: "Попросить повторить диалог"
@@ -1405,25 +411,46 @@
 - text: "Play Decline Dialogue"
   translation: "Проиграть диалог отказа"
 
-- text: "Play Initial Dialogue"
-  translation: "Проиграть начальный диалог"
+- text: "PMA SetCanShowBubble"
+  translation: "PMA УстановитьПоказыватьПузырь"
+
+- text: "Wait for Interaction with Rosie"
+  translation: ""
+  speaker: "BUUWC"
+
+- text: "Interacted with Rosie"
+  translation: ""
+  speaker: "ToCallOnUse"
+
+- text: "Rosie asks if wants to work"
+  translation: ""
+  speaker: "Agree"
+
+- text: "Setup next State"
+  translation: ""
+  speaker: "Decline"
+
+- text: "State 3"
+  translation: ""
 
 - text: "Play Initial Dialogue"
-  translation: "Проиграть начальный диалог"
-  speaker: "Agree"
+  translation: ""
+  speaker: "CVU"
 
 - text: "Agree Dialogue"
   translation: "Диалог согласия"
   speaker: "Decline"
 
 - text: "Decline Dialogue"
-  translation: "Диалог отказа"
+  translation: ""
+  speaker: "Accept"
 
-- text: "PMA SetCanShowBubble"
-  translation: "PMA УстановитьПоказыватьПузырь"
+- text: "Force Show Bubble"
+  translation: ""
+  speaker: "FINISHED"
 
-- text: "Wait for choice"
-  translation: "Ждать выбора"
+- text: "Setup Next Order"
+  translation: ""
 
 - text: "Wait for choice"
   translation: "Ждать выбора"
@@ -1432,21 +459,166 @@
 - text: "Is use service in progress?"
   translation: "Услуга используется?"
 
-- text: "Let him sniff your asshole and take his money."
-  translation: "Дай ему понюхать свою задницу и возьми его деньги."
+- text: "Play slut service dialogue"
+  translation: ""
+  speaker: "FINISHED"
+
+- text: "Play cannot use dialogue"
+  translation: ""
+  speaker: "Yes"
+
+- text: "Did already lockpick door?"
+  translation: ""
+  speaker: "CUUAC"
+
+- text: "Wait for Interaction"
+  translation: ""
+  speaker: "CVU"
+
+- text: "Dialogue before lockpicking"
+  translation: ""
+  speaker: "Lockpick"
+
+- text: "Disable Interaction"
+  translation: ""
+
+- text: "System.Collections.Generic.List`1[[HutongGames.PlayMaker.FsmEvent, PlayMaker, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]"
+  translation: ""
+
+- text: "Lock Picked"
+  translation: ""
+  speaker: "Cancelled"
+
+- text: "Unlock Door"
+  translation: ""
+
+- text: "Interacted with Locker"
+  translation: ""
+  speaker: "ToCallOnUse"
+
+- text: "Open Locker"
+  translation: ""
+
+- text: "Play Dialogue"
+  translation: ""
+  speaker: "CUU"
+
+- text: "Setup Next State"
+  translation: ""
+
+- text: "Offer Five"
+  translation: ""
+
+- text: "Offer Ten"
+  translation: ""
+
+- text: "Offer Twenty"
+  translation: ""
+  speaker: "Decline"
+
+- text: "Setup next state"
+  translation: ""
+
+- text: "Did we already do this?"
+  translation: ""
+
+- text: "Is first Talk?"
+  translation: ""
+  speaker: "Yes"
+
+- text: "Repeat Talk"
+  translation: ""
+  speaker: "CUU"
+
+- text: "First Talk"
+  translation: ""
+
+- text: "GlowingHoleKeys/Did talk to Lady groping Femboy"
+  translation: ""
+
+- text: "Walk Away"
+  translation: ""
+
+- text: "Sex scene Dialogue 1"
+  translation: ""
+
+- text: "Walk away"
+  translation: ""
 
 - text: "Wait for Choice"
   translation: "Ждать выбора"
 
-- text: "Ask about Nova"
-  translation: "Спросить о Нове"
-  speaker: "OnChoiceSelected"
+- text: "Give Key Card"
+  translation: ""
+  speaker: "CUU"
 
-- text: "Agree 1"
-  translation: "Согласие 1"
+- text: "Set Mission Task"
+  translation: ""
+
+- text: "Did initial event?"
+  translation: ""
+  speaker: "Yes"
+
+- text: "Wait for initial Trigger"
+  translation: ""
+  speaker: "Triggered"
+
+- text: "GlowingHoleKeys/NovaMeet Did walk out of Bathroom"
+  translation: ""
+
+- text: "Force Move Nova just past the Door"
+  translation: ""
+
+- text: "Move Nova out of Bathroom to Zoey"
+  translation: ""
+  speaker: "CUUyC"
+
+- text: "Initial Dialogue"
+  translation: ""
+  speaker: "OnAccepted"
+
+- text: "Nova Intro"
+  translation: ""
 
 - text: "Tell her what other customer ask for"
   translation: "Сказать ей, о чём просил другой клиент"
+
+- text: "Ready to add Dialogue?"
+  translation: ""
+
+- text: "Did talk to Cal?"
+  translation: ""
+  speaker: "Yes"
+
+- text: "Did show the picture to Klaudia already?"
+  translation: ""
+
+- text: "GlowingHoleKeys/DrunkFemboy Did talk to Cal"
+  translation: ""
+
+- text: "Add Choice"
+  translation: ""
+  speaker: "CVU"
+
+- text: "Choice Selected"
+  translation: ""
+  speaker: "OnChoiceSelected"
+
+- text: "Start First Dialogue"
+  translation: ""
+  speaker: "FINISHED"
+
+- text: "Do we have a pic of him?"
+  translation: ""
+
+- text: "GlowingHoleKeys/Klaudia wants proof for Cal"
+  translation: ""
+
+- text: "Pull up Photo Dialogue"
+  translation: ""
+
+- text: "Show dialogue explaining to take a pic"
+  translation: ""
 
 - text: "Check Save Key after remote used once"
   translation: "Проверить ключ сохранения после использования пульта"
@@ -1456,16 +628,34 @@
   speaker: "Press"
 
 - text: "Play Sound"
-  translation: "Проиграть звук"
+  translation: ""
+  speaker: "FINISHED"
+
+- text: "Don't press it."
+  translation: ""
+
+- text: "Check Save Key"
+  translation: ""
+
+- text: "Wait for Interaction from Main FSM"
+  translation: ""
+  speaker: "Interacted"
+
+- text: "Initial Klaudia Dialogue"
+  translation: ""
+  speaker: "Yes"
+
+- text: "Did Initial Talk?"
+  translation: ""
+
+- text: "State 1"
+  translation: ""
 
 - text: "has fallen over before?"
   translation: "падал раньше?"
 
 - text: "Wait for Line"
   translation: "Ждать строку"
-
-- text: "Fall over 1"
-  translation: "Падение 1"
 
 - text: "fallen over"
   translation: "упал"
@@ -1476,12 +666,64 @@
 - text: "GlowingHoleKeys/Mark fell over"
   translation: "КлючиДыры/Марк упал"
 
-- text: "Wait for line"
-  translation: "Ждать строку"
-  speaker: "FINISHED"
-
 - text: "Wait for dialogue"
-  translation: "Ждать диалог"
+  translation: ""
+  speaker: "Yes"
 
 - text: "Which room did we pick?"
-  translation: "Какую комнату мы выбрали?"
+  translation: ""
+  speaker: "Empty"
+
+- text: "Play empty (Int 0) - (Room 202)"
+  translation: ""
+  speaker: "Guy"
+
+- text: "Play guy (Int 1) - (Room 203)"
+  translation: ""
+  speaker: "Girl"
+
+- text: "Play girl (Int 2) - (Room 204)"
+  translation: ""
+  speaker: "FINISHED"
+
+- text: "Wait for Interaction with Simon"
+  translation: ""
+
+- text: "Play Choice Dialogue for getting groped"
+  translation: ""
+  speaker: "CVU"
+
+- text: "Accepted Dialogue"
+  translation: ""
+  speaker: "Decline"
+
+- text: "Did Suitcase Mission?"
+  translation: ""
+
+- text: "Play initial Dialogue"
+  translation: ""
+  speaker: "CVU"
+
+- text: "Should we enter the box?"
+  translation: ""
+  speaker: "Yes"
+
+- text: "Wait for hideable"
+  translation: ""
+  speaker: "Interacted"
+
+- text: "Are we the demo?"
+  translation: ""
+
+- text: "Fade screen"
+  translation: ""
+  speaker: "FINISHED"
+
+- text: "Set hideable position"
+  translation: ""
+  speaker: "FINISHED"
+
+- text: "Play box moved dialogue"
+  translation: ""
+  speaker: "Undress"
+

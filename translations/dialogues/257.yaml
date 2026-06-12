@@ -4,9 +4,6 @@
   translation: "Бо-... ахх...! Ты-... ты... да...!"
   speaker: "Intercom"
 
-- text: "Is this the outfit you meant...?"
-  translation: "Это тот наряд, что ты имел в виду...?"
-
 - text: "Come in and-... let me cum to it... please-... I will finally be free...!"
   translation: "Войди и-... дай мне кончить на это... пожалуйста-... Я наконец освобожусь...!"
   speaker: "Intercom"
@@ -22,9 +19,4 @@
 - text: "Come in and-... help me... please!"
   translation: "Войди и-... помоги мне... пожалуйста!"
   speaker: "Intercom"
-
-- text: "(Not sure if that's really a good idea... )"
-  translation: "(Не уверена, что это действительно хорошая идея... )"
-  rich_text: "<i>(Not sure if that's really a good idea... )</i>"
-  rich_translation: "<i>(Не уверена, что это действительно хорошая идея... )</i>"
 

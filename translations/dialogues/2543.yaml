@@ -1,17 +1,8 @@
 # Dialogues (path_id=2543)
 
-- text: "Let's just sit down and wait for them to leave."
-  translation: "Давай просто сядем и подождём, пока они уйдут."
-
-- text: "Yeah... We could do that."
-  translation: "Да... Можно и так."
-
 - text: "But they might trash the Salon while we wait."
-  translation: "Но они могут разгромить салон, пока мы ждём."
+  translation: ""
 
 - text: "We can always help clean up after they leave...?"
-  translation: "Можем потом помочь убраться, после их ухода...?"
-
-- text: "What do you think we should do?"
-  translation: "Что, по-твоему, нам делать?"
+  translation: ""
 

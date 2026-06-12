@@ -1,38 +1,11 @@
 # Dialogues (path_id=1207)
 
-- text: "Huh?! Who are you!?"
-  translation: "Ха?! Ты кто?!"
-
-- text: "I-... wha- I am-... I'm Klark. Who are you?!"
-  translation: "Я-... ч-то... я... Я Кларк. Ты кто?!"
-
-- text: "I'm Zoey. Are you behind all of this?"
-  translation: "Я Зои. Это ты за всем этим стоишь?"
-
-- text: "Oh no... oh no, no, no. Please- please believe me, it's not what it looks like!"
-  translation: "О нет... о нет, нет, нет. Пожалуйста- поверь мне, всё не так, как кажется!"
-
-- text: "Not what it looks like?! You're spying on Max's customers and selling their sex tapes, that's what it looks like!"
-  translation: "Не так, как кажется?! Ты шпионишь за клиентами Макс и продаёшь их интим-записи, вот как это выглядит!"
-
-- text: "No- I-... Please! Let me explain! My girl, they have my girlfriend!"
-  translation: "Нет- я-... Пожалуйста! Дай объяснить! Моя девочка, у них моя девушка!"
-
-- text: "Her name is San! She-... the Cartel...! Please, you have to believe me! They will cut her apart and sell her piece by piece!"
-  translation: "Её зовут Сан! Она-... Картель...! Умоляю, ты должна мне поверить! Они разрежут её и продадут по частям!"
-
-- text: "The Cartel? San? But-"
-  translation: "Картель? Сан? Но-"
+- text: "Repay your.. Debt..?"
+  translation: ""
 
 - text: "What does that have to do with... this?!"
   translation: "Какое это имеет отношение к... этому?!"
   speaker: "Zoey"
   rich_text: "What does that have to do with... <b>this</b>?!"
   rich_translation: "Какое это имеет отношение к... <b>этому</b>?!"
-
-- text: "Please, they're making me do this to pay them off! I swear!"
-  translation: "Умоляю, они заставляют меня делать это, чтобы расплатиться с ними! Клянусь!"
-
-- text: "How do I know you're not lying?"
-  translation: "Откуда мне знать, что ты не врёшь?"
 
