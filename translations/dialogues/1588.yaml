@@ -13,7 +13,7 @@
   speaker: "Zoey"
 
 - text: "Your friend Mynx asked me to go find you and send you to him!"
-  translation: ""
+  translation: "Твой друг Минкс попросил меня найти тебя и отправить к нему!"
 
 - text: "Oh, okay, he seemed pretty urgent, are you sure?"
   translation: "О, ладно, он говорил, это срочно, ты уверен?"
@@ -24,7 +24,7 @@
   rich_translation: "Да-а-а, я бу-у-уду! <i> Ик-..</i>! Мне надо допить! Хех!"
 
 - text: "Uhh, okay-..! Sweet drink, huh?"
-  translation: ""
+  translation: "Ухх, ладно-..! Сладкий напиток, да?"
 
 - text: "(If I tell Klaudia about one of her boys being drunk, maybe that will distract her for a moment.. !)"
   translation: "(Если я скажу Клавдии, что один из её парней пьян, может, это отвлечёт её на минуту..!)"

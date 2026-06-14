@@ -73,7 +73,7 @@
 
 - text: "Psst, that's where you say \"thank you, sir\", darling!"
   translation: "Псс, тут нужно сказать \"спасибо, сэр\", дорогуша!"
-  rich_text: "<size=28>Psst, that's where you say \"thank you, sir\", darling!</size>"
+  rich_text: "<size=28>Psst, that's where you say \"thank you, sir\", darling!"
   rich_translation: "<size=28>Псс, тут нужно сказать \"спасибо, сэр\", дорогуша!</size>"
 
 - text: "Ah-...! Sorry! Thank you-... Sir..."
@@ -143,3 +143,4 @@
 - text: "My pleasure."
   translation: "Моё удовольствие."
   speaker: "Rugnar"
+

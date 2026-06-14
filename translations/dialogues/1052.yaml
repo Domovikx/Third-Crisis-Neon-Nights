@@ -1,16 +1,16 @@
 # Dialogues (path_id=1052)
 
 - text: "If it isn't my new favorite bunny... Come have a seat. Right here. My hands ache for your... company."
-  translation: ""
+  translation: "О, а вот и мой новый любимый зайка... Проходи, садись. Прямо сюда. Руки так и чешутся по твою... компанию."
   speaker: "Varen"
 
 - text: "(He wants to... Grope me again...? I-... )"
-  translation: ""
+  translation: "(Он снова хочет... меня пощупать?.. Я-... )"
   rich_text: "<color=#EB83FF><i>(He wants to... Grope me again...? I-... )</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Он снова хочет... меня пощупать?.. Я-... )</i></color>"
 
 - text: "(I should... stop this... right...?)"
-  translation: ""
+  translation: "(Надо бы... остановить это... да?..)"
   rich_text: "<color=#EB83FF><i>(I should... stop this... right...?)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Надо бы... остановить это... да?..)</i></color>"
 

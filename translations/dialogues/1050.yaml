@@ -1,13 +1,13 @@
 # Dialogues (path_id=1050)
 
 - text: "How about a nip slip for the camera?"
-  translation: ""
+  translation: "Может, мелькнём соском для камеры?"
 
 - text: "Maybe later?"
-  translation: ""
+  translation: "Может, позже?"
 
 - text: "(I should go. )"
-  translation: ""
+  translation: "(Мне пора.)"
   rich_text: "<i>(I should go. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Мне пора.)</i>"
 

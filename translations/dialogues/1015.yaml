@@ -4,24 +4,24 @@
   translation: "Тров Хаск"
 
 - text: "Too bad. That's all you're getting."
-  translation: ""
+  translation: "Жаль. Больше тебе ничего не светит."
   speaker: "Zoey"
 
 - text: "Here's 10 bucks. Call me \"sir\" and you're getting another 10."
-  translation: ""
+  translation: "Вот десятка. Скажешь мне «сэр» — получишь ещё одну."
   speaker: "Trov"
 
 - text: "(Huh? He tipped...? But-... )"
-  translation: ""
+  translation: "(Что? Он дал чаевые...? Но-... )"
   rich_text: "<i>(Huh? He tipped...? But-... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Что? Он дал чаевые...? Но-... )</i>"
 
 - text: "(He made me fall, I-... I shouldn't... Right...?)"
-  translation: ""
+  translation: "(Он меня сразил, я-... не стоит... Правда...?)"
   rich_text: "<i>(He made me fall, I-... I shouldn't... Right...?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Он меня сразил, я-... не стоит... Правда...?)</i>"
 
 - text: "Just say \"yes, sir\" and the money is yours, eheh."
-  translation: ""
+  translation: "Просто скажи «да, сэр» — и деньги твои, хе-хе."
   speaker: "Trov"
 

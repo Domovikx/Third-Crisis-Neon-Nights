@@ -1,4 +1,4 @@
-# Dialogues (path_id=72916)
+# Dialogues (path_id=-3182426189585413809)
 
 - text: "(His pants are unzipped...?)"
   translation: "(Его штаны расстёгнуты...?)"
@@ -6,19 +6,19 @@
   rich_translation: "<i>(Его штаны расстёгнуты...?)</i>"
 
 - text: "(No, wait-... There's no zipper on there at all...!)"
-  translation: "(Нет, погоди-... Там вообще нет молнии...!)"
+  translation: "(Нет, стой-... Там же вообще нет молнии...!)"
   rich_text: "<i>(No, wait-... There's no zipper on there at all...!)</i>"
-  rich_translation: "<i>(Нет, погоди-... Там вообще нет молнии...!)</i>"
+  rich_translation: "<i>(Нет, стой-... Там же вообще нет молнии...!)</i>"
 
 - text: "(Come to think of it... His pants are... Incredibly tight. Like... Is that really comfortable for his-... )"
-  translation: "(Если подумать... Его штаны... Невероятно обтягивающие. Серьёзно... Ему там удобно-... )"
+  translation: "(Если подумать... Его штаны... Невероятно узкие. Типа... Ему правда удобно в своих-... )"
   speaker: "Zoey"
   rich_text: "<i>(Come to think of it... His pants are... Incredibly tight. Like... Is that really comfortable for his-... )</i>"
-  rich_translation: "<i>(Если подумать... Его штаны... Невероятно обтягивающие. Серьёзно... Ему там удобно-... )</i>"
+  rich_translation: "<i>(Если подумать... Его штаны... Невероятно узкие. Типа... Ему правда удобно в своих-... )</i>"
 
 - text: "(Oookay, time to stop thinking about your friend's... Thing, Zoey... )"
-  translation: "(Ла-адно, хватит думать о... Причиндалах друга, Зои... )"
+  translation: "(Ооокей, хватит думать о штуке твоего друга, Зои... )"
   speaker: "Zoey"
   rich_text: "<i>(Oookay, time to stop thinking about your friend's... <b>Thing</b>, Zoey... )</i>"
-  rich_translation: "<i>(Ла-адно, хватит думать о... <b>Причиндалах</b> друга, Зои... )</i>"
+  rich_translation: "<i>(Ооокей, хватит думать о штуке твоего друга, Зои... <b>Штука</b>... )</i>"
 

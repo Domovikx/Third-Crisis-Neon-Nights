@@ -1,22 +1,22 @@
 # Dialogues (path_id=1117)
 
 - text: "Welcome to the Afterglow, cutie!~ I'm Rosie!"
-  translation: ""
+  translation: "Добро пожаловать в Afterglow, милашка!~ Я Рози!"
 
 - text: "embarrassed laugh"
   translation: "Смущённый смех"
 
 - text: "What can I get you, hun?"
-  translation: ""
+  translation: "Что тебе налить, дорогуша?"
 
 - text: "Oh-..! Sorry, I'm not here for drinks."
-  translation: ""
+  translation: "Ой-..! Извини, я не за выпивкой."
 
 - text: "You're not here for drinks.. Yet..~"
-  translation: ""
+  translation: "Ты не за выпивкой.. <i>Пока</i>..~"
   rich_text: "You're not here for drinks.. <i>Yet</i>..~"
-  rich_translation: ""
+  rich_translation: "Ты не за выпивкой.. <i>Пока</i>..~"
 
 - text: "Our selection is a thick as my thighs and as sweet as my smile!"
-  translation: ""
+  translation: "Наш выбор такой же густой, как мои бёдра, и такой же сладкий, как моя улыбка!"
 

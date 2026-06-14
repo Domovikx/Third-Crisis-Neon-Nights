@@ -1,17 +1,17 @@
 # Dialogues (path_id=1076)
 
 - text: "U-uhm... F-five...?"
-  translation: ""
+  translation: "У-ухм... П-пять...?"
   rich_text: "<color=#EB83FF>U-uhm... F-five...?</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>У-ухм... П-пять...?</color>"
 
 - text: "Heh. Cheap. Deal."
-  translation: ""
+  translation: "Хех. Дёшево. Сделка."
   speaker: "Rugnar"
 
 - text: "(Cheap...? Did I-... Ask for too little...?)"
-  translation: ""
+  translation: "(Дёшево...? Неужели я-... попросила слишком мало...?)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Cheap...? Did I-... Ask for too little...?)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Дёшево...? Неужели я-... попросила слишком мало...?)</i></color>"
 

@@ -1,7 +1,7 @@
 # Dialogues (path_id=73638)
 
 - text: "You are quite something, heh."
-  translation: ""
+  translation: "Ты та ещё штучка, хех."
 
 - text: "Ngh-.. Th- thanks.."
   translation: "Н-н-н.. С- спасибо.."
@@ -9,7 +9,7 @@
   rich_translation: "Н-н-н.. С- <color=#EB83FF>спасибо</color>.."
 
 - text: "No need to be so stiff, hun..~ How much do you know about the work here, hmm?"
-  translation: ""
+  translation: "Не будь такой зажатой, лапочка..~ Что ты знаешь о нашей работе, хм?"
 
 - text: "I- um.. A thing or two, heh.. It's pretty.. Lewd.."
   translation: "Я- эм.. Кое-что знаю, хех.. Это довольно.. пошло.."
@@ -17,13 +17,13 @@
   rich_translation: "Я- эм.. Кое-что знаю, хех.. Это довольно.. <color=#EB83FF>пошло</color>.."
 
 - text: "The bar is quite tame compared to what some clients request..~"
-  translation: ""
+  translation: "Бар — это сущие пустяки по сравнению с тем, что заказывают некоторые клиенты..~"
 
 - text: "Ahh-..! It.. Is..?"
-  translation: ""
+  translation: "Ахх-..! Это.. Правда..?"
 
 - text: "My, aren't you a tame one..~ I know a few clients that would pay more than a small fortune for you like this, ehehe..~"
-  translation: ""
+  translation: "Ого, ну ты и послушная..~ Знаю парочку клиентов, которые отвалили бы за тебя целое состояние в таком виде, ехехе..~"
 
 - text: "(Her hands.. So.. Warm.. )"
   translation: "(Её руки.. Такие.. Тёплые..)"
@@ -31,7 +31,7 @@
   rich_translation: "<i>(Её руки.. Такие.. <color=#EB83FF>Тёплые</color>..)</i>"
 
 - text: "Don't worry, we'll go easy on you for now. And remember, if a client is being a shithead, come to me and I will beat his shit head into pulp."
-  translation: ""
+  translation: "Не переживай, поначалу будем полегче. И запомни: если какой-нибудь клиент окажется мудаком — приходи ко мне, я ему башку в кашу превращу."
 
 - text: "R-right.. I- Khh.. I will..!"
   translation: "Д-да.. Я- Кхх.. Я буду..!"
@@ -49,10 +49,10 @@
   rich_translation: "Ммм.. Я бы что угодно отдала  <b><i>лишь бы</i></b> не убирать пальцы с тебя.. Но, увы, мне нужно вернуться охранять коридор."
 
 - text: "Stay a while longer after your shift, I'll show you more of the 'ropes'~"
-  translation: ""
+  translation: "Задержись после смены — покажу тебе парочку 'верёвочек'~"
 
 - text: "Mm-.. Mhmm-..!"
-  translation: ""
+  translation: "Мм-.. Ммм-..!"
 
 - text: "When you're  done in here, go talk to Klaudia. Maybe she already has a client lined up for you, hehe..~"
   translation: "Когда закончишь здесь, поговори с Клаудией. Может, у неё уже есть для тебя клиент, хехе..~"

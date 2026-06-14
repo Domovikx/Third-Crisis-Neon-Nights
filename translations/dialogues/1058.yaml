@@ -1,14 +1,14 @@
 # Dialogues (path_id=1058)
 
 - text: "(So much food. )"
-  translation: ""
+  translation: "(Столько еды. )"
   speaker: "Zoey"
   rich_text: "<i>(So much food. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Столько еды. )</i>"
 
 - text: "(...This is making me hungry. )"
-  translation: ""
+  translation: "(...От этого хочется есть. )"
   speaker: "Zoey"
   rich_text: "<i>(...This is making me hungry. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(...От этого хочется есть. )</i>"
 

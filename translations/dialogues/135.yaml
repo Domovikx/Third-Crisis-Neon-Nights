@@ -5,14 +5,14 @@
   speaker: "Enforcer"
 
 - text: "Hey, right... I just need to go past real quick. Would that be okay?"
-  translation: ""
+  translation: "Э-э, да... Мне просто надо быстро пройти. Можно?"
 
 - text: "I just told you this area is off limits. Nobody is getting through here until we found the terrorists hiding in here."
   translation: "Я же сказал — зона закрыта. Никто не пройдёт, пока мы не найдём спрятавшихся здесь террористов."
   speaker: "Enforcer"
 
 - text: "You heard me. Not like we enjoy standing around here all day either. Should be halfway through a free-use session with one of the district"
-  translation: ""
+  translation: "Ты меня слышала. Нам тоже не в кайф торчать тут целый день. Уже были бы на середине сессии свободного доступа с одной из районных"
 
 - text: "I-... I see."
   translation: "Я-... Понятно."
@@ -40,7 +40,7 @@
   speaker: "Enforcer"
 
 - text: "R-right.. M-mhm.. Got it-..."
-  translation: ""
+  translation: "Д-да.. М-угу.. П-поняла-..."
 
 - text: "Hahaha. Stuttering mess. Just your type, eheh."
   translation: "Хахаха. Заикается. Прямо по тебе, хе-хе."

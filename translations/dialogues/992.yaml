@@ -1,24 +1,24 @@
 # Dialogues (path_id=992)
 
 - text: "What can I get you, ma'am?"
-  translation: ""
+  translation: "Что вам принести, мэм?"
   speaker: "Zoey"
 
 - text: "Ah-...! Um... H-hi...!"
-  translation: ""
+  translation: "А-а...! Эм... П-привет...!"
   speaker: "Mira"
 
 - text: "You mean the Strawberry Cream?"
-  translation: ""
+  translation: "Клубничные сливки, верно?"
   speaker: "Zoey"
 
 - text: "T-that one...! M-mhm...!"
-  translation: ""
+  translation: "Т-те самые...! М-угу...!"
   speaker: "Mira"
 
 - text: "(She seems a bit tense... )"
-  translation: ""
+  translation: "(Похоже, она немного нервничает... )"
   speaker: "Zoey"
   rich_text: "<i>(She seems a bit tense... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Похоже, она немного нервничает... )</i>"
 

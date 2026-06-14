@@ -1,24 +1,24 @@
 # Dialogues (path_id=919)
 
 - text: "Great job, darling! You did great for your first shift!"
-  translation: ""
+  translation: "Молодец, дорогая! Отлично отработала первую смену!"
 
 - text: "Heh... thanks."
-  translation: ""
+  translation: "Хех... спасибо."
   speaker: "Zoey"
 
 - text: "Hope to see you again soon."
-  translation: ""
+  translation: "Надеюсь, скоро увидимся."
 
 - text: "Again... r-right..."
-  translation: ""
+  translation: "Снова... д-да..."
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>Again... r-right...</color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF>Снова... д-да...</color>"
 
 - text: "(Am I really going to do this again...?)"
-  translation: ""
+  translation: "(Неужели я правда соглашусь на это снова...?)"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Am I really going to do this again...?)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Неужели я правда соглашусь на это снова...?)</i></color>"
 

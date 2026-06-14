@@ -1,16 +1,16 @@
 # Dialogues (path_id=1146)
 
 - text: "Ah- sorry, sir... I don't really... Offer that kind of service."
-  translation: ""
+  translation: "Ах- простите, сэр... Я вообще-то... Не оказываю таких услуг."
   speaker: "Zoey"
 
 - text: "Let me know when you change your mind, bunny. The real money isn't earned through drinks."
-  translation: ""
+  translation: "Дай знать, когда передумаешь, зайка. Настоящие деньги не за напитками."
   speaker: "Varen"
 
 - text: "(Pervert... )"
-  translation: ""
+  translation: "(Извращенец... )"
   speaker: "Zoey"
   rich_text: "<i>(Pervert... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Извращенец... )</i>"
 

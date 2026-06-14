@@ -1,29 +1,5 @@
 # Dialogues (path_id=73203)
 
-- text: "(That... Thing inside the tube... It looks so squishy... )"
-  translation: "(Эта... штука внутри трубы... Такая мягонькая на вид...)"
-  speaker: "Zoey"
-  rich_text: "<i>(That... Thing inside the tube... It looks so squishy... )</i>"
-  rich_translation: "<i>(Эта... штука внутри трубы... Такая мягонькая на вид...)</i>"
-
-- text: "(It's transparent too... I can clearly see his-... )"
-  translation: "(И она прозрачная... Я отчётливо вижу его-...)"
-  speaker: "Zoey"
-  rich_text: "<i>(It's transparent too... I can clearly see his-... )</i>"
-  rich_translation: "<i>(И она прозрачная... Я отчётливо вижу его-...)</i>"
-
-- text: "(The size is... Kinda cute... )"
-  translation: "(Размер... Довольно милый...)"
-  speaker: "Zoey"
-  rich_text: "<i>(The size is... Kinda cute... )</i>"
-  rich_translation: "<i>(Размер... Довольно милый...)</i>"
-
-- text: "(Ah-...! What am I thinking...?!)"
-  translation: "(А-...! О чём я только думаю...?!)"
-  speaker: "Zoey"
-  rich_text: "<i>(Ah-...! What am I thinking...?!)</i>"
-  rich_translation: "<i>(А-...! О чём я только думаю...?!)</i>"
-
 - text: "(I need to get him out of there!)"
   translation: "(Надо вытащить его оттуда!)"
   speaker: "Zoey"

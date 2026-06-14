@@ -1,14 +1,14 @@
 # Dialogues (path_id=1147)
 
 - text: "(These look like orders. )"
-  translation: ""
+  translation: "(Похоже на заказы.)"
   speaker: "Zoey"
   rich_text: "<i>(These look like orders. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Похоже на заказы.)</i>"
 
 - text: "(Must be the room service terminal. )"
-  translation: ""
+  translation: "(Должно быть, терминал обслуживания номеров.)"
   speaker: "Zoey"
   rich_text: "<i>(Must be the room service terminal. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Должно быть, терминал обслуживания номеров.)</i>"
 

@@ -1,16 +1,16 @@
 # Dialogues (path_id=810)
 
 - text: "You look banging. Wanna come back to my room?"
-  translation: ""
+  translation: "Ты выглядишь отпадно. Не хочешь вернуться ко мне в номер?"
 
 - text: "I- uh..."
-  translation: ""
+  translation: "Я- э-э..."
 
 - text: "I'm already with another client. Sorry!"
-  translation: ""
+  translation: "У меня уже есть клиент. Извини!"
 
 - text: "(Time to go, Zoey. )"
-  translation: ""
+  translation: "(Пора уходить, Зои.)"
   rich_text: "<i>(Time to go, Zoey. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Пора уходить, Зои.)</i>"
 

@@ -1,15 +1,15 @@
 # Dialogues (path_id=1029)
 
 - text: "(The money... really wouldn't hurt... I'll just... sit with him for a moment and leave... )"
-  translation: ""
+  translation: "(Деньги... ну правда бы не помешали... Я просто... посижу с ним немного и уйду... )"
   speaker: "Zoey"
   rich_text: "<i>(The money... really wouldn't hurt... I'll just... sit with him for a moment and leave... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Деньги... ну правда бы не помешали... Я просто... посижу с ним немного и уйду... )</i>"
 
 - text: "O-okay, I uhm... I can stay for a bit."
-  translation: ""
+  translation: "О-окей, я эмм... могу остаться ненадолго."
 
 - text: "I knew Klaudia had a hand for picking out a replacement. Have a seat."
-  translation: ""
+  translation: "Я знал, что у Клавдии рука на подбор замены. Присядь."
   speaker: "Varen"
 

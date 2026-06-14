@@ -5,26 +5,26 @@
   speaker: "Zoey"
 
 - text: "This alley doesn't exactly look like a nice stroll, now does it?"
-  translation: ""
+  translation: "Этот переулок как-то не тянет на приятную прогулку, а?"
 
 - text: "It's a lot prettier with her in it now, hehehe."
-  translation: ""
+  translation: "С ней тут куда симпатичнее, хе-хе-хе."
 
 - text: "Th-thanks, heh... I- um. I should probably-"
   translation: "С-спасибо, хех... Я- эм. Мне, наверное-"
   speaker: "Zoey"
 
 - text: "Shut up, you're scaring our customer."
-  translation: ""
+  translation: "Заткнись, пугаешь нашу клиентку."
 
 - text: "Scaring? I'm just complimenting this pretty lady. So, cutie, how much do you want?"
-  translation: ""
+  translation: "Пугаю? Я всего лишь делаю комплимент этой красотке. Сколько хочешь, крошка?"
 
 - text: "Unsure what they are talking about"
   translation: "Не понимает, о чём они"
 
 - text: "50 for two hits, 200 for five. Clean Glow. Price has gone up with the raid."
-  translation: ""
+  translation: "50 за две дозы, 200 за пять. Чистый Глоу. Цена подскочила из-за рейда."
 
 - text: "(Glow...? They're trying to sell me drugs?)"
   translation: "(Глоу...? Они пытаются впарить мне наркотики?)"

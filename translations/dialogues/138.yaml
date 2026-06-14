@@ -1,7 +1,7 @@
 # Dialogues (path_id=138)
 
 - text: "Hey, so... You were... like... mentioning something about taking a break...? I-... I could... Help."
-  translation: ""
+  translation: "Эй, эм... Ты вроде... говорил что-то про перерыв...? Я-... Я могла бы... помочь."
 
 - text: "(Ahh... What am I doing? I'm just going to let an enforcer grope me?!)"
   translation: "(Ах... Что я делаю? Я просто позволю энфорсеру лапать меня?!)"
@@ -15,7 +15,7 @@
   rich_translation: "Перерыв, хм? Думаю, тебя нужно... <i>телесно досмотреть</i>... за подозрительное поведение, девочка."
 
 - text: "Suspicious-... But-!"
-  translation: ""
+  translation: "Подозрительное-... Но-!"
 
 - text: "Shh, just go along with it. Don't care about whats in your pockets. Just whats underneath them, ehehe."
   translation: "Тсс, просто подыграй. Меня не волнует, что у тебя в карманах. Только то, что под ними, хе-хе."
