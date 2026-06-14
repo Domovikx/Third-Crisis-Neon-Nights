@@ -1,41 +1,41 @@
 # Dialogues (path_id=880)
 
 - text: "You're new here."
-  translation: ""
+  translation: "Ты здесь новенькая."
   speaker: "Rugnar"
 
 - text: "Y-yes, I am. I just recently... joined."
-  translation: ""
+  translation: "Д-да, я... Совсем недавно устроилась."
   speaker: "Zoey"
 
 - text: "Good. Place needs bunnies."
-  translation: ""
+  translation: "Хорошо. Тут нужны кролики."
   speaker: "Rugnar"
 
 - text: "Uhm. Right. Soo..."
-  translation: ""
+  translation: "Эм. Да. Ну-у..."
   speaker: "Zoey"
 
 - text: "What would you like to order, sir?"
-  translation: ""
+  translation: "Что будете заказывать, сэр?"
   speaker: "Zoey"
 
 - text: "Neon Lime."
-  translation: ""
+  translation: "Неон Лайм."
   speaker: "Rugnar"
 
 - text: "Neon Lime, coming right up!"
-  translation: ""
+  translation: "Неон Лайм, сию секунду!"
   speaker: "Zoey"
 
 - text: "Pretty smile."
-  translation: ""
+  translation: "Красивая улыбка."
   speaker: "Rugnar"
 
 - text: "Oh-! I... Thanks!"
-  translation: ""
+  translation: "Ой-! Я... Спасибо!"
 
 - text: "I erm... I'll be on my way then!"
-  translation: ""
+  translation: "Я эм... Тогда я пойду!"
   speaker: "Zoey"
 

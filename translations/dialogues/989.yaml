@@ -1,46 +1,46 @@
 # Dialogues (path_id=989)
 
 - text: "Hey..! Welcome to the- Afterglow."
-  translation: ""
+  translation: "Эй..! Добро пожаловать в- Afterglow."
   speaker: "Zoey"
 
 - text: "What would you like to order...?"
-  translation: ""
+  translation: "Что бы вы хотели заказать...?"
 
 - text: "You're asking me what I want. Hah. So you're the latest trial, huh?"
-  translation: ""
+  translation: "Ты спрашиваешь меня, чего я хочу. Ха. Значит, ты — последняя проба, да?"
   speaker: "Varen"
   rich_text: "You're asking <i>me</i> what I want. Hah. So you're the latest trial, huh?"
-  rich_translation: ""
+  rich_translation: "Ты спрашиваешь <i>меня</i>, чего я хочу. Ха. Значит, ты — последняя проба, да?"
 
 - text: "Oh, sorry, yeah... First day and all, heh...!"
-  translation: ""
+  translation: "Ой, извините, да... Первый день и всё такое, хе...!"
 
 - text: "Name's Varen, bunny. I can... see why she picked you up, heh."
-  translation: ""
+  translation: "Меня зовут Варен, зайка. Я... вижу, почему она тебя выбрала, хе."
   speaker: "Varen"
 
 - text: "R-right... Uhm..."
-  translation: ""
+  translation: "Д-да... Эм..."
   speaker: "Zoey"
 
 - text: "What did you want to order?"
-  translation: ""
+  translation: "Что вы хотели заказать?"
   speaker: "Zoey"
 
 - text: "I only ever order one of two things. Neon Lime and... Company."
-  translation: ""
+  translation: "Я заказываю всегда одно из двух. Неон Лайм или... Компанию."
   speaker: "Varen"
 
 - text: "So... A Neon Lime?"
-  translation: ""
+  translation: "Тогда... Неон Лайм?"
   speaker: "Zoey"
 
 - text: "For now, sure."
-  translation: ""
+  translation: "Пока что — да."
   speaker: "Varen"
 
 - text: "Okay, I'll be right back with your order, sir."
-  translation: ""
+  translation: "Хорошо, я сейчас вернусь с вашим заказом, сэр."
   speaker: "Zoey"
 

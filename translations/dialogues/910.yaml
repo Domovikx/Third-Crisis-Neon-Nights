@@ -1,25 +1,25 @@
 # Dialogues (path_id=910)
 
 - text: "How do you feel about working here? Is it not a bit gloomy?"
-  translation: ""
+  translation: "Как тебе работа здесь? Не мрачновато?"
 
 - text: "Gloomy? I'd say it's colorful! Sure beats working on the streets!"
-  translation: ""
+  translation: "Мрачно? Скажу так — тут ярко! Лучше, чем на улицах!"
 
 - text: "That makes sense."
-  translation: ""
+  translation: "Логично."
 
 - text: "Mhm! Nova makes short work of everyone causing trouble and I get to talk to cuties like you a lot!"
-  translation: ""
+  translation: "Угу! Нова быстро разбирается с буянами, и я часто могу поболтать с такими милашками, как ты!"
 
 - text: "(Maybe this place isn't as bad as it seems? )"
-  translation: ""
+  translation: "(Может, тут не так уж плохо? )"
   rich_text: "<i>(Maybe this place isn't as bad as it seems? )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Может, тут не так уж плохо? )</i>"
 
 - text: "And besides.. The tips really make for some sweet extra more often than not!~"
-  translation: ""
+  translation: "И потом.. Частенько чаевые — сладкая прибавка!~"
 
 - text: "I'm glad to hear!"
-  translation: ""
+  translation: "Рада слышать!"
 

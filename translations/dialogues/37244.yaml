@@ -1,18 +1,17 @@
 # Dialogues (path_id=37244)
 
 - text: "Ask about her Tags"
-  translation: ""
+  translation: "Спросить про её Теги"
 
 - text: "Ask how she likes the place"
-  translation: ""
+  translation: "Спросить, нравится ли ей тут"
 
 - text: "Buy alcohol"
-  translation: ""
+  translation: "Купить алкоголь"
 
 - text: "Buy a Neon Bliss (25fB)"
-  translation: ""
+  translation: "Купить Неон Блисс (25fB)"
 
 - text: "Buy Drink"
-  translation: ""
+  translation: "Купить напиток"
   speaker: "Decline"
-
