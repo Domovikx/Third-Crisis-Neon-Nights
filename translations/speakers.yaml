@@ -336,32 +336,32 @@
   notes: "Эмоция/ветка диалога"
 
 - text: "BUUWC"
-  translation: ""
+  translation: "BUUWC"
   gender: "neutral"
   notes: "Технический акроним/код — оставить как есть"
 
 - text: "ToCallOnUse"
-  translation: ""
+  translation: "ВЫЗОВ"
   gender: "neutral"
   notes: "Технический маркер FSM — вызов при использовании"
 
 - text: "CVU"
-  translation: ""
+  translation: "CVU"
   gender: "neutral"
   notes: "Технический акроним/код — оставить как есть"
 
 - text: "OrderSlutService"
-  translation: ""
+  translation: "ЗАКАЗ"
   gender: "neutral"
   notes: "Технический маркер FSM — заказ секс-услуги"
 
 - text: "ToCallOnDialogueDone"
-  translation: ""
+  translation: "ВЫЗОВ_ДИАЛ"
   gender: "neutral"
   notes: "Технический маркер FSM — вызов при завершении диалога"
 
 - text: "CUUAC"
-  translation: ""
+  translation: "CUUAC"
   gender: "neutral"
   notes: "Технический акроним/код — оставить как есть"
 
@@ -376,7 +376,7 @@
   notes: "Предмет/реплика"
 
 - text: "CUU"
-  translation: ""
+  translation: "CUU"
   gender: "neutral"
   notes: "Технический акроним/код — оставить как есть"
 
@@ -391,12 +391,12 @@
   notes: "Состояние триггера"
 
 - text: "CUUyC"
-  translation: ""
+  translation: "CUUyC"
   gender: "neutral"
   notes: "Технический акроним/код — оставить как есть"
 
 - text: "OnAccepted"
-  translation: ""
+  translation: "ПРИНЯТО"
   gender: "neutral"
   notes: "Технический маркер FSM — событие принятия"
 
@@ -406,7 +406,7 @@
   notes: "Действие/кнопка"
 
 - text: "Interacted"
-  translation: ""
+  translation: "ВЗАИМОДЕЙСТВИЕ"
   gender: "neutral"
   notes: "Технический маркер FSM — взаимодействие"
 

@@ -61,7 +61,7 @@
   rich_translation: "<i>(С- Сработало.)</i>"
 
 - text: "Decline"
-  translation: ""
+  translation: "Отказаться"
 
 - text: "This place is dirty in more ways than one."
   translation: "Это место грязное во всех смыслах."
@@ -71,7 +71,7 @@
   translation: "Что мне делать?"
 
 - text: "Wait until they are done."
-  translation: ""
+  translation: "Подождать, пока они закончат."
 
 - text: "(I should turn it around to get to the latches. )"
   translation: "(Надо перевернуть его, чтобы добраться до защёлок.)"

@@ -1,8 +1,4 @@
-# Dialogues (path_id=2496)
-
-- text: "H-Heeh~ Where's ca-cab~?"
-  translation: "Х-Хи~ Где та-такси~?"
-
-- text: "It'll be here soon, just be patient, and keep your top on this time."
-  translation: ""
-
+- text: H-Heeh~ Where's ca-cab~?
+  translation: Х-Хи~ Где та-такси~?
+- text: It'll be here soon, just be patient, and keep your top on this time.
+  translation: Скоро будет, просто потерпи и на этот раз не снимай топ.

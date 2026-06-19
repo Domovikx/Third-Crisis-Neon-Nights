@@ -1,9 +1,5 @@
-# Dialogues (path_id=956)
-
-- text: "Want a drink? What's your poison?"
-  translation: ""
-  speaker: "Bunnygirl"
-
-- text: "I'm alright, thank you."
-  translation: ""
-
+- text: Want a drink? What's your poison?
+  translation: Хочешь выпить? Что будешь?
+  speaker: Bunnygirl
+- text: I'm alright, thank you.
+  translation: Я в порядке, спасибо.

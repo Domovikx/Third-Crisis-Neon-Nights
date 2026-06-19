@@ -1,8 +1,4 @@
-# Dialogues (path_id=4839)
-
-- text: "Offer Grope"
-  translation: ""
-
-- text: "Rat Out"
-  translation: ""
-
+- text: Offer Grope
+  translation: Позволить пощупать
+- text: Rat Out
+  translation: Сдать

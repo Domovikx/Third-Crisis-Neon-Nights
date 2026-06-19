@@ -1,12 +1,8 @@
-# Dialogues (path_id=876)
-
-- text: "My Nova? Hm. What do you want from her?"
-  translation: ""
-  speaker: "Klaudia"
-
-- text: "Fill in for my... missing bunny. You'll be paid and get Nova for yourself for a little while."
-  translation: ""
-  speaker: "Klaudia"
-  rich_text: "Fill in for my... <i>missing</i> bunny. You'll be paid <b>and</b> get Nova for yourself for a little while."
-  rich_translation: ""
-
+- text: My Nova? Hm. What do you want from her?
+  translation: Моя Нова? Хм. Что тебе от неё нужно?
+  speaker: Klaudia
+- text: Fill in for my... missing bunny. You'll be paid and get Nova for yourself for a little while.
+  translation: Замени мою... пропавшую зайку. Тебе заплатят, и получишь Нову на некоторое время.
+  speaker: Klaudia
+  rich_text: Fill in for my... <i>missing</i> bunny. You'll be paid <b>and</b> get Nova for yourself for a little while.
+  rich_translation: Замени мою... пропавшую зайку. Тебе заплатят, и получишь Нову на некоторое время.

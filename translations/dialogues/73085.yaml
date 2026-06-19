@@ -1,5 +1,2 @@
-# Dialogues (path_id=73085)
-
-- text: "Received #ItemName#."
-  translation: ""
-
+- text: 'Received #ItemName#.'
+  translation: 'Получено #ItemName#.'

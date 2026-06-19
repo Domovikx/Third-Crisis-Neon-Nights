@@ -1,8 +1,4 @@
-# Dialogues (path_id=2483)
-
-- text: "Fuck it. Looks like a basic package lock, nothing special. I should be able to open it pretty easy."
-  translation: ""
-
-- text: "Oh yeah? Awesome!"
-  translation: "Да? Круто!"
-
+- text: Fuck it. Looks like a basic package lock, nothing special. I should be able to open it pretty easy.
+  translation: Да плевать. Похоже на обычный кодовый замок, ничего особенного. Должна вскрыть без проблем.
+- text: Oh yeah? Awesome!
+  translation: Да? Круто!

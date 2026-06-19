@@ -1,6 +1,3 @@
-# Dialogues (path_id=1032)
-
-- text: "I need more attention!"
-  translation: ""
-  speaker: "Bunnygirl"
-
+- text: I need more attention!
+  translation: Мне нужно больше внимания!
+  speaker: Bunnygirl

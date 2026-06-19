@@ -1,7 +1,4 @@
-# Dialogues (path_id=800)
-
-- text: "(I doubt that idiot would've been any fun... )"
-  translation: ""
-  rich_text: "<i>(I doubt that idiot would've been any fun... )</i>"
-  rich_translation: ""
-
+- text: (I doubt that idiot would've been any fun... )
+  translation: (Сомневаюсь, что с тем идиотом было бы весело...)
+  rich_text: <i>(I doubt that idiot would've been any fun... )</i>
+  rich_translation: <i>(Сомневаюсь, что с тем идиотом было бы весело...)</i>

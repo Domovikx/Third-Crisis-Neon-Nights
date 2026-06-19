@@ -1,8 +1,4 @@
-# Dialogues (path_id=6847)
-
-- text: "Start Inspection"
-  translation: "Начать осмотр"
-
-- text: "Ask about Jaime's broken headset."
-  translation: ""
-
+- text: Start Inspection
+  translation: Начать осмотр
+- text: Ask about Jaime's broken headset.
+  translation: Спросить о сломанной гарнитуре Джейми.

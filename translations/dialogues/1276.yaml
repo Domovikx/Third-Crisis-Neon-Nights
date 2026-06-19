@@ -1,11 +1,6 @@
-# Dialogues (path_id=1276)
-
-- text: "Do they look good, hun?"
-  translation: "Ну как, идёт мне, милый?"
-
-- text: "Yeah- they- mhm! Looks great!"
-  translation: "Ага- они- м-м! Отлично!"
-
-- text: "Gosh, you're cute. Okay, lemme know how it goes, hun."
-  translation: ""
-
+- text: Do they look good, hun?
+  translation: Ну как, идёт мне, милый?
+- text: Yeah- they- mhm! Looks great!
+  translation: Ага- они- м-м! Отлично!
+- text: Gosh, you're cute. Okay, lemme know how it goes, hun.
+  translation: Боже, ты милый. Ладно, дай знать, как всё пройдёт, милая.

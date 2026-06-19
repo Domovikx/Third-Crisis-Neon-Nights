@@ -1,8 +1,4 @@
-# Dialogues (path_id=724)
-
-- text: "Feeling shameful."
-  translation: ""
-
-- text: "Questioning, not annoyed."
-  translation: ""
-
+- text: Feeling shameful.
+  translation: Чувствуя стыд.
+- text: Questioning, not annoyed.
+  translation: Спрашивая, не раздражённо.

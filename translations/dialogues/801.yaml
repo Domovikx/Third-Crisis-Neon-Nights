@@ -1,11 +1,7 @@
-# Dialogues (path_id=801)
-
-- text: "(A hologram. Guess profit isn't too bad if they have one. )"
-  translation: ""
-  speaker: "Zoey"
-  rich_text: "<i>(A hologram. Guess profit isn't too bad if they have one. )</i>"
-  rich_translation: ""
-
-- text: "Welcome to the Glowing Hole!"
-  translation: ""
-
+- text: (A hologram. Guess profit isn't too bad if they have one. )
+  translation: (Голограмма. Видимо, прибыль неплохая, раз они могут себе такое позволить.)
+  speaker: Zoey
+  rich_text: <i>(A hologram. Guess profit isn't too bad if they have one. )</i>
+  rich_translation: <i>(Голограмма. Видимо, прибыль неплохая, раз они могут себе такое позволить.)</i>
+- text: Welcome to the Glowing Hole!
+  translation: Добро пожаловать в Сияющую Дыру!

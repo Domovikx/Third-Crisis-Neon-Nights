@@ -1,7 +1,4 @@
-# Dialogues (path_id=1148)
-
-- text: "(How long has this ratty old food been sitting here?)"
-  translation: ""
-  rich_text: "<i>(How long has this ratty old food been sitting here?)</i>"
-  rich_translation: ""
-
+- text: (How long has this ratty old food been sitting here?)
+  translation: (Как долго эта старая еда тут лежит?)
+  rich_text: <i>(How long has this ratty old food been sitting here?)</i>
+  rich_translation: <i>(Как долго эта старая еда тут лежит?)</i>
