@@ -225,11 +225,14 @@ def test_write_report_format():
         write_report(results, settings, speakers, out)
         text = out.read_text(encoding="utf-8")
         assert text.startswith("last_scan:"), "Missing last_scan"
-        assert "dialogues/73203.yaml: 3" in text, "Expected untranslated count"
-        assert "dialogues/error.yaml: error" in text, "Expected error entry"
-        assert "speakers.yaml: 2" in text, "Expected speakers count"
-        assert "dialogues/1001.yaml" not in text, "Done files should be omitted"
-        assert "settings_keys.yaml" not in text, "Done settings should be omitted"
+        assert "total_files:" in text, "Missing total_files"
+        assert "total_strings:" in text, "Missing total_strings"
+        assert "translated:" in text, "Missing translated"
+        assert "untranslated:" in text, "Missing untranslated"
+        assert "speakers:" in text, "Expected speakers line"
+        assert "untranslated_files:" in text, "Expected untranslated_files section"
+        assert "73203.yaml" in text, "Expected untranslated file"
+        assert "error.yaml" not in text, "Error files should not be in untranslated section (excluded from valid)"
         assert text.endswith("\n"), "Missing trailing newline"
     print("  PASS test_write_report_format")
 
@@ -245,8 +248,10 @@ def test_write_report_all_done():
         out = Path(tmp) / "report.yaml"
         write_report(results, settings, speakers, out)
         text = out.read_text(encoding="utf-8")
-        lines = [l for l in text.strip().split("\n") if not l.startswith("last_scan:") and l]
-        assert lines == [], f"Should be empty, got: {lines}"
+        assert "total_files:" in text
+        assert "total_strings:" in text
+        assert "translated:" in text
+        assert "untranslated: 0" in text
     print("  PASS test_write_report_all_done")
 
 

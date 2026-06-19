@@ -96,15 +96,20 @@ def scan_file(path: Path, filename: str | None = None) -> dict:
             continue
         txt = item.get("text", "").strip()
         tr = item.get("translation", "").strip()
+        rich_text = item.get("rich_text", "").strip()
+        rich_tr = item.get("rich_translation", "").strip()
         if not txt:
             continue
-        if not tr:
+        needs_tr = not tr
+        needs_rich_tr = bool(rich_text) and not rich_tr
+        if needs_tr or needs_rich_tr:
             result["untranslated"] += 1
             result["indices"].append(i)
             result["strings"].append({
                 "index": i,
                 "text": txt,
                 "speaker": item.get("speaker", ""),
+                "rich_text": rich_text,
             })
     return result
 
@@ -169,20 +174,42 @@ def write_report(results, settings_result, speakers_result, output_path=None):
     if output_path is None:
         output_path = SKILL_DIR / "report.yaml"
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    lines = [f"last_scan: {now}", ""]
-    for r in sorted(results, key=lambda x: x["file"]):
-        if "error" in r:
-            lines.append(f"dialogues/{r['file']}: error")
-        elif r["untranslated"] > 0:
-            lines.append(f"dialogues/{r['file']}: {r['untranslated']}")
-    if settings_result.get("error"):
-        lines.append("settings_keys.yaml: error")
-    elif settings_result["untranslated"] > 0:
-        lines.append(f"settings_keys.yaml: {settings_result['untranslated']}")
+
+    valid = [r for r in results if "error" not in r]
+    total_files = len(valid)
+    total_strings = sum(r["total"] for r in valid) + settings_result["total"] + speakers_result["total"]
+    total_untranslated = sum(r["untranslated"] for r in valid) + settings_result["untranslated"] + speakers_result["untranslated"]
+    total_translated = total_strings - total_untranslated
+
+    untranslated_files = sorted(
+        [r for r in valid if r["untranslated"] > 0],
+        key=lambda x: x["file"]
+    )
+
+    lines = [f"last_scan: {now}"]
+    lines.append(f"total_files: {total_files}")
+    lines.append(f"total_strings: {total_strings}")
+    lines.append(f"translated: {total_translated}")
+    lines.append(f"untranslated: {total_untranslated}")
+    lines.append("")
+
+    if settings_result["untranslated"] > 0:
+        lines.append(f"settings_keys: {settings_result['untranslated']}/{settings_result['total']}")
+    if speakers_result["untranslated"] > 0:
+        lines.append(f"speakers: {speakers_result['untranslated']}/{speakers_result['total']}")
     if speakers_result.get("error"):
-        lines.append("speakers.yaml: error")
-    elif speakers_result["untranslated"] > 0:
-        lines.append(f"speakers.yaml: {speakers_result['untranslated']}")
+        lines.append(f"speakers: error — {speakers_result['error']}")
+    if settings_result.get("error"):
+        lines.append(f"settings_keys: error — {settings_result['error']}")
+
+    if untranslated_files:
+        lines.append("")
+        lines.append("untranslated_files:")
+        for r in untranslated_files:
+            lines.append(f"  - file: {r['file']}")
+            lines.append(f"    untranslated: {r['untranslated']}")
+            lines.append(f"    total: {r['total']}")
+
     output_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return output_path
 

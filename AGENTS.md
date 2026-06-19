@@ -103,6 +103,7 @@ python .opencode/skills/build-translator/build_proxy.py
 - `python .opencode/skills/dump-assets/dump_assets.py` — дамп ассетов (+ .bundle)
 - `python .opencode/skills/dump-assets/dump_assets.test.py` — тесты дампера (23)
 - `python .opencode/skills/scan-translations/scan_translations.py` — сканирование непереведённого
+- `translate-manager` — пакетный перевод файлов диалогов: group_files.py → task(general) + translate-game
 - `python .opencode/skills/scan-translations/scan_translations.test.py` — тесты (14)
 - `python .opencode/skills/build-translator/build.py` — сборка DLL
 - `python .opencode/skills/build-translator/build_proxy.py` — сборка прокси
