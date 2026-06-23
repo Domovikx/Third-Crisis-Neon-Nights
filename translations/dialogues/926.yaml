@@ -1,10 +1,14 @@
-- text: (So many dirty dishes. )
-  translation: (Так много грязной посуды.)
-  speaker: Zoey
-  rich_text: <i>(So many dirty dishes. )</i>
-  rich_translation: <i>(Так много грязной посуды.)</i>
-- text: (Food must be popular. )
-  translation: (Видимо, еда популярна.)
-  speaker: Zoey
-  rich_text: <i>(Food must be popular. )</i>
-  rich_translation: <i>(Видимо, еда популярна.)</i>
+# Dialogues (path_id=926)
+
+- text: "(So many dirty dishes. )"
+  translation: "(Так много грязной посуды.)"
+  speaker: "Zoey"
+  rich_text: "<i>(So many dirty dishes. )</i>"
+  rich_translation: "<i>(Так много грязной посуды.)</i>"
+
+- text: "(Food must be popular. )"
+  translation: "(Видимо, еда популярна.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Food must be popular. )</i>"
+  rich_translation: "<i>(Видимо, еда популярна.)</i>"
+

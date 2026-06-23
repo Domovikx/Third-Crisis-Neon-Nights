@@ -1,2 +1,5 @@
-- text: Don't be shy~ The machine won't bite ya. Get it open!
-  translation: Не стесняйся~ Машинка не укусит. Открывай!
+# Dialogues (path_id=2567)
+
+- text: "Don't be shy~ The machine won't bite ya. Get it open!"
+  translation: "Не стесняйся~ Машинка не укусит. Открывай!"
+

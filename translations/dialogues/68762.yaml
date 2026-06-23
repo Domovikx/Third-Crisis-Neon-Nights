@@ -1,2 +1,5 @@
-- text: Ask about the choice.
-  translation: Спросить о выборе.
+# Dialogues (path_id=68762)
+
+- text: "Ask about the choice."
+  translation: "Спросить о выборе."
+

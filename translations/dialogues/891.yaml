@@ -1,4 +1,7 @@
-- text: (Khh... I shouldn't cause a scene on my first day... )
-  translation: (Кх... Нельзя устраивать сцену в первый же день...)
-  rich_text: <i>(Khh... I shouldn't cause a scene on my first day... )</i>
-  rich_translation: <i>(Кх... Нельзя устраивать сцену в первый же день...)</i>
+# Dialogues (path_id=891)
+
+- text: "(Khh... I shouldn't cause a scene on my first day... )"
+  translation: "(Кх... Нельзя устраивать сцену в первый же день...)"
+  rich_text: "<i>(Khh... I shouldn't cause a scene on my first day... )</i>"
+  rich_translation: "<i>(Кх... Нельзя устраивать сцену в первый же день...)</i>"
+

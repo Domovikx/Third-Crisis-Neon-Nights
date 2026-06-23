@@ -1,4 +1,7 @@
-- text: (These prices are a rip-off. )
-  translation: (Эти цены — грабёж.)
-  rich_text: <i>(These prices are a rip-off. )</i>
-  rich_translation: <i>(Эти цены — грабёж.)</i>
+# Dialogues (path_id=882)
+
+- text: "(These prices are a rip-off. )"
+  translation: "(Эти цены — грабёж.)"
+  rich_text: "<i>(These prices are a rip-off. )</i>"
+  rich_translation: "<i>(Эти цены — грабёж.)</i>"
+

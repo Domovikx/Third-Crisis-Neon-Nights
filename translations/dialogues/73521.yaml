@@ -1,10 +1,10 @@
 # Dialogues (path_id=73521)
 
 - text: "..."
-  translation: "..."
+  translation: ""
   speaker: "Zoey"
   rich_text: "<color=#EB83FF>... </color>"
-  rich_translation: "<color=#EB83FF>...</color>"
+  rich_translation: ""
 
 - text: "(I-... I guess that's... fine...?)"
   translation: "(Я-... Наверное, это... нормально...?)"

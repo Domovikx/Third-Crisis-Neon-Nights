@@ -1,4 +1,8 @@
-- text: No, no. Too forward!
-  translation: Нет, нет. Слишком прямолинейно!
-- text: Hey, watch where you're flashing that thing, lady!
-  translation: Эй, смотри, куда светишь этой штукой, леди!
+# Dialogues (path_id=1167)
+
+- text: "No, no. Too forward!"
+  translation: "Нет, нет. Слишком прямолинейно!"
+
+- text: "Hey, watch where you're flashing that thing, lady!"
+  translation: "Эй, смотри, куда светишь этой штукой, леди!"
+

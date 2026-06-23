@@ -1,13 +1,20 @@
-- text: Not enjoying the word "sweeties", only using it because Klaudia used it.#
-  translation: Не нравится слово «милашки», использую его только потому что Клавдия его использовала.
-- text: One hundred for the room and fifty for the service.
-  translation: Сто за комнату и пятьдесят за обслуживание.
-  speaker: Klaudia
-- text: That is expensive!
-  translation: Это дорого!
-- text: Quality and privacy have their price.
-  translation: У качества и уединения есть своя цена.
-  speaker: Klaudia
-- text: And at the Glowing Hole, we keep that promise.
-  translation: И в Сияющей Дыре мы сдерживаем это обещание.
-  speaker: Klaudia
+# Dialogues (path_id=1555)
+
+- text: "Not enjoying the word \"sweeties\", only using it because Klaudia used it.#"
+  translation: "Не нравится слово «милашки», использую его только потому что Клавдия его использовала."
+
+- text: "One hundred for the room and fifty for the service."
+  translation: "Сто за комнату и пятьдесят за обслуживание."
+  speaker: "Klaudia"
+
+- text: "That is expensive!"
+  translation: "Это дорого!"
+
+- text: "Quality and privacy have their price."
+  translation: "У качества и уединения есть своя цена."
+  speaker: "Klaudia"
+
+- text: "And at the Glowing Hole, we keep that promise."
+  translation: "И в Сияющей Дыре мы сдерживаем это обещание."
+  speaker: "Klaudia"
+

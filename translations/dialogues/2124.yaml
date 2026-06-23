@@ -1,4 +1,8 @@
-- text: Bolting awake from a nightmare
-  translation: Просыпаться от кошмара
-- text: Trying to stop yourself from spiraling.
-  translation: Пытается остановить спираль мыслей.
+# Dialogues (path_id=2124)
+
+- text: "Bolting awake from a nightmare"
+  translation: "Просыпаться от кошмара"
+
+- text: "Trying to stop yourself from spiraling."
+  translation: "Пытается остановить спираль мыслей."
+

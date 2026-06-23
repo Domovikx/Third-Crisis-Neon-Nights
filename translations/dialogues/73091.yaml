@@ -1,2 +1,5 @@
-- text: Pet, pet, pet... Pet the cats, I can't stop.
-  translation: Гладить, гладить, гладить... Гладить кошек, я не могу остановиться.
+# Dialogues (path_id=73091)
+
+- text: "Pet, pet, pet... Pet the cats, I can't stop."
+  translation: "Гладить, гладить, гладить... Гладить кошек, я не могу остановиться."
+

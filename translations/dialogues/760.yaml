@@ -1,3 +1,6 @@
-- text: Changed your mind?
-  translation: Передумала?
-  speaker: Rugnar
+# Dialogues (path_id=760)
+
+- text: "Changed your mind?"
+  translation: "Передумала?"
+  speaker: "Rugnar"
+

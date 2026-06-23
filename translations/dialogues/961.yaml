@@ -1,3 +1,6 @@
-- text: I'll have another drink, waitress.
-  translation: Мне ещё выпить, официантка.
-  speaker: Varen
+# Dialogues (path_id=961)
+
+- text: "I'll have another drink, waitress."
+  translation: "Мне ещё выпить, официантка."
+  speaker: "Varen"
+

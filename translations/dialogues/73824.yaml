@@ -1,4 +1,8 @@
-- text: You, um... you mentioned something about improving quality of life for citizens, right?
-  translation: Ты, эм... упоминал что-то об улучшении качества жизни граждан, верно?
-- text: Hmm... Come closer. Gonna need to do a thorough inspection.
-  translation: Хмм... Подойди поближе. Нужно провести тщательный осмотр.
+# Dialogues (path_id=73824)
+
+- text: "You, um... you mentioned something about improving quality of life for citizens, right?"
+  translation: "Ты, эм... упоминал что-то об улучшении качества жизни граждан, верно?"
+
+- text: "Hmm... Come closer. Gonna need to do a thorough inspection."
+  translation: "Хмм... Подойди поближе. Нужно провести тщательный осмотр."
+

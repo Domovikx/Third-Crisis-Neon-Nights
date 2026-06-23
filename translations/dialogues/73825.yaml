@@ -1,4 +1,8 @@
-- text: U-Uh- I uh... I can't.
-  translation: Я-Э- Я э-... я не могу.
-- text: Alright. Your choice. I'll be here if you want that pay.
-  translation: Хорошо. Твой выбор. Я буду здесь, если захочешь получить оплату.
+# Dialogues (path_id=73825)
+
+- text: "U-Uh- I uh... I can't."
+  translation: "Я-Э- Я э-... я не могу."
+
+- text: "Alright. Your choice. I'll be here if you want that pay."
+  translation: "Хорошо. Твой выбор. Я буду здесь, если захочешь получить оплату."
+

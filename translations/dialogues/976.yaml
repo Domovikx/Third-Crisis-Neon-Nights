@@ -1,10 +1,14 @@
-- text: (The stove is lit. )
-  translation: (Плита включена.)
-  speaker: Zoey
-  rich_text: <i>(The stove is lit. )</i>
-  rich_translation: <i>(Плита включена.)</i>
-- text: (Is that safe?)
-  translation: (Это безопасно?)
-  speaker: Zoey
-  rich_text: <i>(Is that safe?)</i>
-  rich_translation: <i>(Это безопасно?)</i>
+# Dialogues (path_id=976)
+
+- text: "(The stove is lit. )"
+  translation: "(Плита включена.)"
+  speaker: "Zoey"
+  rich_text: "<i>(The stove is lit. )</i>"
+  rich_translation: "<i>(Плита включена.)</i>"
+
+- text: "(Is that safe?)"
+  translation: "(Это безопасно?)"
+  speaker: "Zoey"
+  rich_text: "<i>(Is that safe?)</i>"
+  rich_translation: "<i>(Это безопасно?)</i>"
+

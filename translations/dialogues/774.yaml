@@ -1,8 +1,12 @@
-- text: (Why didn't I walk away..? Khh.. )
-  translation: (Почему я не ушла..? Кх..)
-  rich_text: <color=#EB83FF><i>(Why didn't I walk away..? Khh.. )</i></color>
-  rich_translation: <color=#EB83FF><i>(Почему я не ушла..? Кх..)</i></color>
-- text: (He really.. Liked it.. )
-  translation: (Ему правда.. Понравилось..)
-  rich_text: <color=#EB83FF><i>(He really.. Liked it.. )</i></color>
-  rich_translation: <color=#EB83FF><i>(Ему правда.. Понравилось..)</i></color>
+# Dialogues (path_id=774)
+
+- text: "(Why didn't I walk away..? Khh.. )"
+  translation: "(Почему я не ушла..? Кх..)"
+  rich_text: "<color=#EB83FF><i>(Why didn't I walk away..? Khh.. )</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Почему я не ушла..? Кх..)</i></color>"
+
+- text: "(He really.. Liked it.. )"
+  translation: "(Ему правда.. Понравилось..)"
+  rich_text: "<color=#EB83FF><i>(He really.. Liked it.. )</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Ему правда.. Понравилось..)</i></color>"
+

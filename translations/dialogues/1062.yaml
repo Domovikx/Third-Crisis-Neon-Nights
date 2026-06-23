@@ -1,4 +1,7 @@
-- text: (What a subtle name for the place... )
-  translation: (Какое тонкое название для этого места...)
-  rich_text: <i>(What a subtle name for the place... )</i>
-  rich_translation: <i>(Какое тонкое название для этого места...)</i>
+# Dialogues (path_id=1062)
+
+- text: "(What a subtle name for the place... )"
+  translation: "(Какое тонкое название для этого места...)"
+  rich_text: "<i>(What a subtle name for the place... )</i>"
+  rich_translation: "<i>(Какое тонкое название для этого места...)</i>"
+

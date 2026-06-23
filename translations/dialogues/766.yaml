@@ -1,6 +1,10 @@
-- text: Sorry, I-... I have to go.
-  translation: Прости, я-... мне пора.
-  speaker: Zoey
-- text: Ah-! I-it's fine... s-sorry...
-  translation: А-! Н-ничего... п-прости...
-  speaker: Mira
+# Dialogues (path_id=766)
+
+- text: "Sorry, I-... I have to go."
+  translation: "Прости, я-... мне пора."
+  speaker: "Zoey"
+
+- text: "Ah-! I-it's fine... s-sorry..."
+  translation: "А-! Н-ничего... п-прости..."
+  speaker: "Mira"
+

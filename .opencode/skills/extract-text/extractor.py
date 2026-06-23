@@ -381,10 +381,7 @@ def consolidate_translations():
 
     # Load dialogues
     for fp in sorted(dialogues_dir.glob("*.yaml")):
-        try:
-            entries = yaml.safe_load(fp.read_text(encoding="utf-8")) or []
-        except Exception:
-            continue
+        entries = read_yaml(fp)
         for entry in entries:
             if not isinstance(entry, dict):
                 continue
@@ -399,12 +396,7 @@ def consolidate_translations():
 
     # Load settings_keys
     sk_path = OUT_DIR / "settings_keys.yaml"
-    sk_entries = []
-    if sk_path.exists():
-        try:
-            sk_entries = yaml.safe_load(sk_path.read_text(encoding="utf-8")) or []
-        except Exception:
-            sk_entries = []
+    sk_entries = read_yaml(sk_path)
 
     # Load speakers — these are handled by speakers.yaml, NOT by settings_keys.
     # Without this filter, settings_keys.yaml (loaded first alphabetically: s-e-t < s-p-e)
@@ -517,6 +509,7 @@ _ALWAYS_FIELDS = {"text", "translation"}
 
 def _format_entry(entry: dict) -> str:
     """Format a dict as YAML block entry. Skip empty optional fields."""
+    skip_flag = entry.pop("skip_translation", False)
     rich_text = entry.get("rich_text", "")
     has_rich = bool(rich_text) and rich_text != entry.get("text", "")
     keys = []
@@ -539,8 +532,10 @@ def _format_entry(entry: dict) -> str:
         # Strip control chars except newline/carriage return
         escaped = "".join(c for c in escaped if c >= " " or c in "\n\r")
         return f'"{escaped}"'
-    
+
     parts = [f"{k}: {_qv(entry[k])}" for k in keys]
+    if skip_flag:
+        parts.append("skip_translation: true")
     dumped = "\n".join(parts)
     lines = dumped.strip().splitlines()
     if not lines:
@@ -664,6 +659,10 @@ def merge(existing_raw: list, fresh: list, fields: list, *key_fields: str) -> li
         return fresh
 
     existing = [_normalize_entry(e, fields) for e in existing_raw]
+    # Preserve skip_translation field during normalization
+    for i, raw_e in enumerate(existing_raw):
+        if isinstance(raw_e, dict) and raw_e.get("skip_translation"):
+            existing[i]["skip_translation"] = True
     old_map = {}
     for e in existing:
         k = tuple(e.get(f, "") for f in key_fields)
@@ -673,17 +672,29 @@ def merge(existing_raw: list, fresh: list, fields: list, *key_fields: str) -> li
 
     # Fields that must always come from fresh dump data, never from old (game data, not user content)
     _always_fresh = {"rich_text"}
-    
+
     merged = []
     for e in fresh:
         k = tuple(e.get(f, "") for f in key_fields)
         if k in old_map:
             old = old_map[k]
             new = dict(e)
+            skip = old.get("skip_translation", False)
             for fld in fields:
                 if fld not in key_fields and fld not in _always_fresh and old.get(fld):
+                    # Skip copy-through "translations" that just repeat the original text
+                    # unless skip_translation is set
+                    if fld == "translation" and old[fld] == e["text"] and not skip:
+                        continue
+                    # Skip copy-through "rich_translation" where stripped content equals text
+                    # unless skip_translation is set
+                    if fld == "rich_translation" and _strip_rich(old[fld]) == e["text"] and not skip:
+                        continue
                     new[fld] = old[fld]
-            merged.append(_normalize_entry(new, fields))
+            result = _normalize_entry(new, fields)
+            if skip:
+                result["skip_translation"] = True
+            merged.append(result)
         else:
             merged.append(_normalize_entry(e, fields))
     return merged

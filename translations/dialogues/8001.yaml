@@ -1,2 +1,5 @@
-- text: Talk about the drink.
-  translation: Поговорить о напитке.
+# Dialogues (path_id=8001)
+
+- text: "Talk about the drink."
+  translation: "Поговорить о напитке."
+

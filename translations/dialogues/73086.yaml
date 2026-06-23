@@ -1,2 +1,5 @@
-- text: '#TakenFromInventoryText# #ItemName#.'
-  translation: '#TakenFromInventoryText# #ItemName#.'
+# Dialogues (path_id=73086)
+
+- text: "#TakenFromInventoryText# #ItemName#."
+  translation: ""
+

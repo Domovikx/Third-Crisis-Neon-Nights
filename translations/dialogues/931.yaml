@@ -1,2 +1,5 @@
-- text: Holo-plant. No photosynthesis, only photons.
-  translation: Голо-растение. Никакого фотосинтеза, только фотоны.
+# Dialogues (path_id=931)
+
+- text: "Holo-plant. No photosynthesis, only photons."
+  translation: "Голо-растение. Никакого фотосинтеза, только фотоны."
+
