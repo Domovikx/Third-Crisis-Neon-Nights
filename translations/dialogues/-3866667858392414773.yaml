@@ -1,4 +1,4 @@
-# Dialogues (path_id=72939)
+# Dialogues (path_id=-3866667858392414773)
 
 - text: "(I don't think she's wearing a bra-.. )"
   translation: "(Кажется, на ней нет лифчика-.. )"
@@ -6,7 +6,7 @@
   rich_translation: "<i>(Кажется, на ней нет лифчика-.. )</i>"
 
 - text: "(I-.. I shouldn't look again.. She might notice.. )"
-  translation: "(Я-.. Не стоит смотреть снова.. Она заметит.. )"
+  translation: "(Я-.. Мне не стоит смотреть снова.. Она может заметить.. )"
   rich_text: "<i>(I-.. I shouldn't look again.. She might notice.. )</i>"
-  rich_translation: "<i>(Я-.. Не стоит смотреть снова.. Она заметит.. )</i>"
+  rich_translation: "<i>(Я-.. Мне не стоит смотреть снова.. Она может заметить.. )</i>"
 

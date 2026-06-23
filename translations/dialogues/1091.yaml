@@ -1,30 +1,30 @@
 # Dialogues (path_id=1091)
 
 - text: "Would you... like to order something else?"
-  translation: ""
+  translation: "Хотите... заказать что-то ещё?"
   speaker: "Zoey"
 
 - text: "A-another strawberry...? Would that be- um- like... okay...?"
-  translation: ""
+  translation: "Е-ещё одну клубничку...? Это будет- эм- ну... нормально...?"
   speaker: "Mira"
 
 - text: "I'm Mira-!... B-by the way..."
-  translation: ""
+  translation: "Я Мира-!... К-кстати..."
   speaker: "Mira"
 
 - text: "Mira-... Um... Hi!"
-  translation: ""
+  translation: "Мира-... Эм... Привет!"
   speaker: "Zoey"
 
 - text: "Ah- s-sorry, I-... cut you off..."
-  translation: ""
+  translation: "А- п-простите, я-... вас перебила..."
   speaker: "Mira"
 
 - text: "It's um... It's okay. I-... I'll get your drink now, Mira..."
-  translation: ""
+  translation: "Это эм... Всё нормально. Я-... сейчас принесу ваш напиток, Мира..."
   speaker: "Zoey"
 
 - text: "T-thank you..."
-  translation: ""
+  translation: "С-спасибо..."
   speaker: "Mira"
 

@@ -1,34 +1,34 @@
 # Dialogues (path_id=1109)
 
 - text: "Here's your drink... sir."
-  translation: ""
+  translation: "Вот ваш напиток... сэр."
 
 - text: "(I let things go way too far last time... )"
-  translation: ""
+  translation: "(В прошлый раз я зашла слишком далеко... )"
   rich_text: "<color=#EB83FF><i>(I let things go way too far last time... )</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(В прошлый раз я зашла слишком далеко... )</i></color>"
 
 - text: "Excellent service like always."
-  translation: ""
+  translation: "Превосходное обслуживание, как всегда."
   speaker: "Varen"
 
 - text: "Excuse my... raw comments on our previous... exchange."
-  translation: ""
+  translation: "Простите за мои... грубые комментарии во время нашего прошлого... общения."
   speaker: "Varen"
   rich_text: "Excuse my... <i>raw </i>comments on our previous... exchange."
-  rich_translation: ""
+  rich_translation: "Простите за мои... <i>грубые </i>комментарии во время нашего прошлого... общения."
 
 - text: "(I guess it wasn't really my fault, that he couldn't behave... )"
-  translation: ""
+  translation: "(Думаю, на самом деле это не моя вина, что он не мог вести себя прилично... )"
   rich_text: "<color=#EB83FF><i>(I guess it wasn't really <b>my</b> fault, that he couldn't behave... )</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Думаю, на самом деле это не <b>моя</b> вина, что он не мог вести себя прилично... )</i></color>"
 
 - text: "Come and keep me some company. My manners won't slip again."
-  translation: ""
+  translation: "Составь мне компанию. Мои манеры больше не подведут."
   speaker: "Varen"
 
 - text: "(Can I really trust him...?)"
-  translation: ""
+  translation: "(Могу ли я ему правда доверять...?)"
   rich_text: "<color=#EB83FF><i>(Can I really trust him...?)</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Могу ли я ему правда доверять...?)</i></color>"
 

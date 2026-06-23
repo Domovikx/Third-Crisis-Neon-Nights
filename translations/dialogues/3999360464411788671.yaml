@@ -1,8 +1,5 @@
-# Dialogues (path_id=3999360464411788671)
-
-- text: "(Gah! I have to quit staring while he's locked up like this... )"
-  translation: ""
-  speaker: "Zoey"
-  rich_text: "<i>(Gah! I have to quit staring while he's locked up like this... )</i>"
-  rich_translation: ""
-
+- text: (Gah! I have to quit staring while he's locked up like this... )
+  translation: (Ай! Хватит пялиться, пока он так заперт...)
+  speaker: Zoey
+  rich_text: <i>(Gah! I have to quit staring while he's locked up like this... )</i>
+  rich_translation: <i>(Ай! Хватит пялиться, пока он так заперт...)</i>

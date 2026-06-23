@@ -4,7 +4,7 @@
   translation: "Какие вести ты принёс о моей прекрасной Жасмин?"
 
 - text: "Listen, pal. You know the old saying, a picture's worth a thousand words? Well she's a fuckin' poet."
-  translation: ""
+  translation: "Слушай, приятель. Знаешь старую поговорку — лучше один раз увидеть, чем сто раз услышать? Так она, блядь, поэт."
 
 - text: "What do you possibly mean by that?"
   translation: "Что это, чёрт возьми, значит?"
@@ -20,10 +20,10 @@
   rich_translation: "<i>С этими словами он падает навзничь и теряет сознание. Отключается в момент падения. Через секунду вспоминает, что не заплатил мне.</i>"
 
 - text: "Ah- Here, sorry."
-  translation: ""
+  translation: "А- Вот, извини."
 
 - text: "Yeah, no worries."
-  translation: ""
+  translation: "Не, без проблем."
 
 - text: "He nods and promptly faints again."
   translation: "Он кивает и снова падает в обморок."

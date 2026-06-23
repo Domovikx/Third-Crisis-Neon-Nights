@@ -1,8 +1,5 @@
-# Dialogues (path_id=806)
-
-- text: "(Thinly sliced. )"
-  translation: ""
-  speaker: "Zoey"
-  rich_text: "<i>(Thinly sliced. )</i>"
-  rich_translation: ""
-
+- text: (Thinly sliced. )
+  translation: (Тонко нарезано.)
+  speaker: Zoey
+  rich_text: <i>(Thinly sliced. )</i>
+  rich_translation: <i>(Тонко нарезано.)</i>

@@ -1,20 +1,20 @@
 # Dialogues (path_id=1003)
 
 - text: "Changed your mind about working in the... service... side of the job?"
-  translation: ""
+  translation: "Передумала насчёт работы в... сервисной... части заведения?"
   speaker: "Klaudia"
 
 - text: "Upstairs is only meant for intimate experiences with customers, waitress."
-  translation: ""
+  translation: "Наверху — только для близкого общения с клиентами, официантка."
   speaker: "Klaudia"
   rich_text: "Upstairs is only meant for intimate experiences with customers, <i>waitress</i>."
-  rich_translation: ""
+  rich_translation: "Наверху — только для близкого общения с клиентами, <i>официантка</i>."
 
 - text: "Ah-...! R-right...!"
-  translation: ""
+  translation: "А-ах...! Д-да...!"
 
 - text: "(I'd-... never do something like... that... )"
-  translation: ""
+  translation: "(Я бы... никогда не сделала... ничего подобного...)"
   rich_text: "<i>(I'd-... never do something like... that... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Я бы... никогда не сделала... ничего подобного...)</i>"
 

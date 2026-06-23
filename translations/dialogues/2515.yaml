@@ -13,14 +13,14 @@
   rich_translation: "Допустим, мне <b>интересно</b>... Что нужно делать?"
 
 - text: "Just slip in and lean over so I can get the proof he wants."
-  translation: ""
+  translation: "Просто надень и наклонись, чтобы я смог снять доказательство для него."
 
 - text: "That's... It?"
   translation: "И... Всё?"
   speaker: "Zoey"
 
 - text: "Get me my proof and you get your money."
-  translation: ""
+  translation: "Дай мне доказательство — и получишь свои деньги."
 
 - text: "(Just an outfit... Nothing crazy... And it's quick money... This makes sense.)"
   translation: "(Просто наряд... Ничего безумного... И быстрые деньги... В этом есть смысл.)"
@@ -33,5 +33,5 @@
   speaker: "Zoey"
 
 - text: "Outfit is in the box. Go and slip in."
-  translation: ""
+  translation: "Наряд в коробке. Иди, надевай."
 

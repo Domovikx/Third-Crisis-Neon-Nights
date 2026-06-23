@@ -1,14 +1,10 @@
-# Dialogues (path_id=970)
-
-- text: "(Is that synthetic meat?)"
-  translation: ""
-  speaker: "Zoey"
-  rich_text: "<i>(Is that synthetic meat?)</i>"
-  rich_translation: ""
-
-- text: "(I miss real beef. )"
-  translation: ""
-  speaker: "Zoey"
-  rich_text: "<i>(I miss real beef. )</i>"
-  rich_translation: ""
-
+- text: (Is that synthetic meat?)
+  translation: (Это синтетическое мясо?)
+  speaker: Zoey
+  rich_text: <i>(Is that synthetic meat?)</i>
+  rich_translation: <i>(Это синтетическое мясо?)</i>
+- text: (I miss real beef. )
+  translation: (Скучаю по настоящей говядине.)
+  speaker: Zoey
+  rich_text: <i>(I miss real beef. )</i>
+  rich_translation: <i>(Скучаю по настоящей говядине.)</i>

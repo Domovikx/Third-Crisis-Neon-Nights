@@ -14,7 +14,7 @@
   rich_translation: "<color=#EB83FF>А-а- Н-Нет, госпожа-! Я... Н-х... П-Простите... госпожа...!</color>"
 
 - text: "Heh... Look at you... Learning manners real fast."
-  translation: ""
+  translation: "Хех... Посмотри на себя... Учишься манерам очень быстро."
 
 - text: "Y-Yes, ma'am... Pleasee... Hhh..."
   translation: "Д-Да, госпожа... Пожалуйста-а... Х-х..."
@@ -26,7 +26,7 @@
   translation: "Хочешь кончить?"
 
 - text: "There's a stack of condoms on the counter. Take them."
-  translation: ""
+  translation: "На стойке лежит стопка презервативов. Возьми их."
 
 - text: "C- Condoms...?"
   translation: "П- Презервативы...?"
@@ -34,7 +34,7 @@
   rich_translation: "<color=#EB83FF>П- Презервативы...?</color>"
 
 - text: "You heard me."
-  translation: ""
+  translation: "Ты меня слышала."
 
 - text: "Yh- Yes..."
   translation: "Д- Да..."

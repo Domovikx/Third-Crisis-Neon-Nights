@@ -1,12 +1,8 @@
-# Dialogues (path_id=965)
-
-- text: "Slightly annoyed / defeated exhale"
-  translation: ""
-  speaker: "Zoey"
-
-- text: "See? Wasn't that hard, was it? Your purse will be much heavier if you're nice to your customers, waitress."
-  translation: ""
-  speaker: "Trov"
-  rich_text: "See? Wasn't that hard, was it? Your purse will be much heavier if you're nice to your customers, <i><b>waitress</b></i>."
-  rich_translation: ""
-
+- text: Slightly annoyed / defeated exhale
+  translation: Слегка раздражённый / обречённый выдох
+  speaker: Zoey
+- text: See? Wasn't that hard, was it? Your purse will be much heavier if you're nice to your customers, waitress.
+  translation: Видишь? Не так уж и сложно, правда? Кошелёк будет тяжелее, если будешь любезной с клиентами, официантка.
+  speaker: Trov
+  rich_text: See? Wasn't that hard, was it? Your purse will be much heavier if you're nice to your customers, <i><b>waitress</b></i>.
+  rich_translation: Видишь? Не так уж и сложно, правда? Кошелёк будет тяжелее, если будешь любезной с клиентами, официантка.

@@ -1,7 +1,4 @@
-# Dialogues (path_id=913)
-
-- text: "(I can't leave yet. )"
-  translation: ""
-  rich_text: "<i>(I can't leave yet. )</i>"
-  rich_translation: ""
-
+- text: (I can't leave yet. )
+  translation: (Я пока не могу уйти.)
+  rich_text: <i>(I can't leave yet. )</i>
+  rich_translation: <i>(Я пока не могу уйти.)</i>

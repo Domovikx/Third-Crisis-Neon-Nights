@@ -1,14 +1,14 @@
 # Dialogues (path_id=918)
 
 - text: "The drink!"
-  translation: ""
+  translation: "Выпивка!"
 
 - text: "Hahahah! Oops. My hand must have slipped."
-  translation: ""
+  translation: "Ха-ха-ха! Упс. Рука, похоже, сама соскользнула."
   speaker: "Trov"
 
 - text: "(There's no way he slapped my ass unintentionally... )"
-  translation: ""
+  translation: "(Никак не мог шлёпнуть меня по заднице случайно... )"
   rich_text: "<i>(There's no way he slapped my ass unintentionally... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Никак не мог шлёпнуть меня по заднице случайно... )</i>"
 

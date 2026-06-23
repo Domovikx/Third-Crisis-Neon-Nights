@@ -1,12 +1,12 @@
 # Dialogues (path_id=36190)
 
 - text: "Agree 1"
-  translation: ""
+  translation: "Согласиться 1"
 
 - text: "Agree 2"
-  translation: ""
+  translation: "Согласиться 2"
 
 - text: "Waitressing - Mira Order 2"
-  translation: ""
+  translation: "Официантка - Заказ Миры 2"
   speaker: "Agree"
 

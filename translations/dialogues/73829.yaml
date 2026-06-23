@@ -11,7 +11,7 @@
   rich_translation: "<color=#EB83FF>П-пожалуйста... Я-... Н-н-н...</color>"
 
 - text: "Wow~ Listen to you~ So far gone~ and still remembering your manners~ Good girl~"
-  translation: ""
+  translation: "Ого~ Только послушай себя~ Совсем потерялась~ а всё помнишь о манерах~ Умница~"
 
 - text: "(What is-... wrong with me-... nghhh... )"
   translation: "(Что-... со мной не так-... н-н-н... )"
@@ -30,7 +30,7 @@
   translation: "Ох~ Вот это да, посмотри на себя~"
 
 - text: "There you go. Thanks for the help."
-  translation: ""
+  translation: "Ну вот. Спасибо за помощь."
 
 - text: "Y-you're... welcome... Hhh..."
   translation: "П-пожалуйста... Хх..."
@@ -38,7 +38,7 @@
   rich_translation: "<color=#EB83FF>П-пожалуйста... Хх...</color>"
 
 - text: "Got what I need. My stop's coming up. I gotta get this back to my place. Here's your pay."
-  translation: ""
+  translation: "Получил что нужно. Скоро моя остановка. Надо отнести это к себе. Вот твоя оплата."
 
 - text: "(Fuck, I-... I just... I can't believe I just-... did that... on the damn train... )"
   translation: "(Бля, я-... Я просто... Не могу поверить, что я только что-... сделала это... в чёртовом поезде... )"
@@ -46,5 +46,5 @@
   rich_translation: "<i>(Бля, я-... Я просто... Не могу поверить, что я только что-... сделала это... в чёртовом поезде... )</i>"
 
 - text: "My pay, yeah... t-thanks."
-  translation: ""
+  translation: "Моя оплата, ага... с-спасибо."
 

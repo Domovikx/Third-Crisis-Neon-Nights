@@ -1,29 +1,29 @@
 # Dialogues (path_id=1001)
 
 - text: "(I can hear someone in there"
-  translation: ""
+  translation: "(Я слышу кого-то там"
   speaker: "Zoey"
   rich_text: "<i>(I can hear someone in there"
-  rich_translation: ""
+  rich_translation: "<i>(Я слышу кого-то там"
 
 - text: "It's not my fault! My wrist was glitching off again."
-  translation: ""
+  translation: "Это не моя вина! Мой имплант на запястье опять заглючил."
   speaker: "Cook"
 
 - text: "I told you those cheap implants are trouble. You spilled soup all over the floor!"
-  translation: ""
+  translation: "Я же говорил, эти дешёвые импланты — сплошные проблемы. Ты залил супом весь пол!"
   speaker: "Bunnyboy"
 
 - text: "Just help me clean this up before Klaudia finds out."
-  translation: ""
+  translation: "Просто помоги мне убрать, пока Клавдия не узнала."
   speaker: "Cook"
 
 - text: "Uh... Alright."
-  translation: ""
+  translation: "Угу... Ладно."
   speaker: "Bunnyboy"
 
 - text: "(I should move. Better leave before they're done. )"
-  translation: ""
+  translation: "(Надо свалить. Лучше уйти, пока они не закончили. )"
   rich_text: "<i>(I should move. Better leave before they're done. )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Надо свалить. Лучше уйти, пока они не закончили. )</i>"
 

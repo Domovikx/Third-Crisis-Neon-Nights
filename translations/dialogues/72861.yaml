@@ -4,28 +4,28 @@
   translation: "Ты в последнее время нормально спишь?"
 
 - text: "Sleep's always been a bit up and down for me..."
-  translation: ""
+  translation: "Сон у меня всегда скачет..."
 
 - text: "Awwh, how comes?"
   translation: "Оуу, почему?"
   speaker: "Zoey"
 
 - text: "Dreams just... Aren't really my thing."
-  translation: ""
+  translation: "Сны... они просто не моё."
 
 - text: "Yeah... Mine neither."
   translation: "Да... Мои тоже."
   speaker: "Zoey"
 
 - text: "Vr helps... Like being someone else. Not... Me."
-  translation: ""
+  translation: "VR помогает... Стать кем-то другим. Не... собой."
 
 - text: "It helps with the nightmares?"
   translation: "Это помогает с кошмарами?"
   speaker: "Zoey"
 
 - text: "Unlike the pills, yeah..."
-  translation: ""
+  translation: "В отличие от таблеток, да..."
 
 - text: "Do you fall asleep while in vr?"
   translation: "Ты засыпаешь в VR?"
@@ -39,5 +39,5 @@
   speaker: "Zoey"
 
 - text: "No, I-... It's fine."
-  translation: ""
+  translation: "Нет, я-... Всё нормально."
 

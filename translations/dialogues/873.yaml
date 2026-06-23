@@ -1,26 +1,26 @@
 # Dialogues (path_id=873)
 
 - text: "Here's your Strawberry Cream!"
-  translation: ""
+  translation: "Вот ваш «Клубничный крем»!"
   speaker: "Zoey"
 
 - text: "C-can I tip you...?"
-  translation: ""
+  translation: "М-можно... дать вам на чай...?"
   speaker: "Mira"
 
 - text: "Tip... me...?"
-  translation: ""
+  translation: "На чай... мне...?"
   speaker: "Zoey"
 
 - text: "S-sorry! I- Ahhh... N-nothing... I- um..."
-  translation: ""
+  translation: "П-прости! Я- А-а... Н-ничего... Я- эм..."
   speaker: "Mira"
 
 - text: "Jh- just f-forget I said... anything... ahhh..."
-  translation: ""
+  translation: "П-п-просто з-забудь, что я сказала... вообще... а-а..."
   speaker: "Mira"
 
 - text: "Umm... Okay..."
-  translation: ""
+  translation: "Эмм... Ладно..."
   speaker: "Zoey"
 

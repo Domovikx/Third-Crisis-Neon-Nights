@@ -1,19 +1,19 @@
 # Dialogues (path_id=982)
 
 - text: "(What are you doing, Zoey... )"
-  translation: ""
+  translation: "(Что ты делаешь, Зои... )"
   speaker: "Zoey"
   rich_text: "<i>(What are you doing, Zoey... )</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Что ты делаешь, Зои... )</i>"
 
 - text: "(Letting a customer in a nightclub grope you for money... Really...?)"
-  translation: ""
+  translation: "(Позволять клиенту в ночном клубе лапать тебя за деньги... Серьёзно...?)"
   rich_text: "<i>(Letting a customer in a nightclub grope you for money... Really...?)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Позволять клиенту в ночном клубе лапать тебя за деньги... Серьёзно...?)</i>"
 
 - text: "(Easier money than merc work, I guess... )"
-  translation: ""
+  translation: "(Деньги полегче, чем наёмничество, наверное... )"
   speaker: "Zoey"
   rich_text: "<color=#EB83FF><i>(Easier money than merc work, I guess... )</i></color>"
-  rich_translation: ""
+  rich_translation: "<color=#EB83FF><i>(Деньги полегче, чем наёмничество, наверное... )</i></color>"
 

@@ -1,8 +1,4 @@
-# Dialogues (path_id=1609)
-
-- text: "Hey.. Nova, right?"
-  translation: ""
-
-- text: "Changed your mind about coming upstairs with me?"
-  translation: "Передумала насчёт подняться ко мне наверх?"
-
+- text: Hey.. Nova, right?
+  translation: Привет.. Нова, верно?
+- text: Changed your mind about coming upstairs with me?
+  translation: Передумала насчёт подняться ко мне наверх?

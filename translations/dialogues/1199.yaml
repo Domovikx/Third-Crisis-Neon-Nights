@@ -1,22 +1,22 @@
 # Dialogues (path_id=1199)
 
 - text: "Looking for this?"
-  translation: ""
+  translation: "Ищешь это?"
   speaker: "Klaudia"
   rich_text: "Looking for <b>this</b>?"
-  rich_translation: ""
+  rich_translation: "Ищешь <b>это</b>?"
 
 - text: "(The blocker-...!)"
-  translation: ""
+  translation: "(Блокиратор-...!)"
   rich_text: "<i>(The blocker-...!)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(Блокиратор-...!)</i>"
 
 - text: "Looks an awful lot like the device you stole out of that suitcase in 205 before you jumped out of the window. Don't you think?"
-  translation: ""
+  translation: "Здорово смахивает на устройство, которое ты стащила из того чемодана в 205-й, прежде чем сиганула из окна. Не думаешь?"
   speaker: "Klaudia"
 
 - text: "I-... A-ah...!"
-  translation: ""
+  translation: "Я-... А-ах...!"
 
 - text: "(Whoever is on those videos, they wouldn't even know I saw them... so-... It's no big deal, right...?)"
   translation: "Кто бы там ни был, они даже не узнают, что я смотрела... так-... Ничего страшного, верно...?"
