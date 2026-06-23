@@ -276,7 +276,8 @@
   speaker: "Zoey"
 
 - text: "0.4 - GlowingHoleBartending - RichCustomerVaren - 4 - 2 - Accept!"
-  translation: ""
+  translation: "0.4 - GlowingHoleBartending - RichCustomerVaren - 4 - 2 - Accept!"
+  skip_translation: true
 
 - text: "re done. Gametime.)"
   translation: "готово. Время игр.)"
@@ -483,7 +484,8 @@
   translation: "Отключить взаимодействие"
 
 - text: "System.Collections.Generic.List`1[[HutongGames.PlayMaker.FsmEvent, PlayMaker, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]"
-  translation: ""
+  translation: "System.Collections.Generic.List`1[[HutongGames.PlayMaker.FsmEvent, PlayMaker, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]"
+  skip_translation: true
 
 - text: "Lock Picked"
   translation: "Замок вскрыт"

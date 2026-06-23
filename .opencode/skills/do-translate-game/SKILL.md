@@ -81,6 +81,42 @@ metadata:
   translation: "Полный экран"
 ```
 
+**Режим обработки settings_keys.yaml — ручной построчный разбор, каждый блок — атом.**
+
+#### Категории записей
+
+**Перевести:**
+
+- **UI-текст** — `Fullscreen`, `BACK`, `Resolution` → перевод
+- **Диалоговые реплики** — `"Вот так..."`, `"Ты готова?"` → перевод как диалог
+- **Имена сцен/CG** — `"Glowing Zoey - Doggy"` → `"Светящаяся Зои - Собачкой"`
+- **Статистики/счётчики** — `Sex Speed`, `Orgasm`, `Perversion` → перевод
+- **Названия частей тела/текстур** — `Apex Wet Strong` → `Вершина мокрая сильно`
+- **Анимационные стейты** — `0_-_Foreplay 0` → `0_-_Прелюдия 0`
+- **Readable English** — `Bunny`, `Ped`, `Volume` → `Зайка`, `Пед`, `Громкость`
+
+**skip_translation: true:**
+
+- **Компоненты/классы Unity** — `PlayerInteract`, `HornyEffects`, `DoorEntity`, `AIController`. Если читаемый английский — перевести; `AstarPath` → skip (proper noun)
+- **Имена текстур/ассетов** — `Liquid_3_007`, `Heels_1`, `JayDoggy_Atlas`. Технические идентификаторы. Исключение: если имя содержит читаемый текст — перевести (`JayDoggy_Atlas` → `Атлас Джея - собачкой`)
+- **Гибериш/арт-код** — `VbOj`, `ZAGt?`, `I?H[u?5I@` → skip
+- **Сломанные кавычки** — `text: "E\"A"` → починить и skip
+- **Шейдерные проперти** — `_Albedo`, `_Smoothness`, `_Metallic` → skip
+- **PlayMaker FSM-состояния** — `TimelineTrigger`, `PlayMakerGUI` → skip
+
+#### Протокол для settings_keys.yaml (атомарный)
+
+```
+0. Прочитай ровно одну запись (от `- text:` до след. `- text:` или конца).
+1. Определи категорию по содержимому `text`.
+2. Если категория требует `skip_translation: true` — скопируй `text` в `translation`, добавь флаг.
+3. Если категория требует перевода — напиши русский `translation`.
+4. Если запись имеет поломанные `\"` от старого скрипта — почини.
+5. Переходи к следующей записи. Никаких bulk-операций.
+```
+
+**Важно: никаких скриптов, сабагентов или пакетной обработки settings_keys.yaml. Только ручной построчный разбор.**
+
 ## Особенности формата
 
 ### Типы текста в игре
@@ -477,16 +513,16 @@ Zalgo-символы — это не просто украшение, а **сю�
 
 #### Категории строк, которые НЕ переводятся (copy-through)
 
-| Категория                                 | Примеры                                        | Решение                                      |
-| ----------------------------------------- | ---------------------------------------------- | -------------------------------------------- |
-| **Арт-код / декоративные паттерны**       | `AfN6A`, `@HA2A`, `$TA`, `Ax@`, `C?j`          | copy-through + `skip_translation: true`     |
-| **Уже по-русски**                         | `Привет`, `Зои`                                | copy-through + `skip_translation: true`     |
-| **Осмысленные коды (N/A, OK, FPS)**       | `OK`, `ID`, `URL`, `N/A`, `Wi-Fi`, `FPS`, `AI` | copy-through + `skip_translation: true`     |
-| **Чистые числа/версии**                   | `404`, `v1.0`, `2024`, `404.05`                | copy-through + `skip_translation: true`     |
-| **Одиночные символы/пунктуация**          | `X`, `Y`, `>`, `<`, `*`, `...`, `!!!`          | copy-through + `skip_translation: true`     |
-| **Имя файла/путь/идентификатор**          | `m_Name`, `path_id=73203`, `actions/sitting`   | copy-through + `skip_translation: true`     |
-| **С# enum/поле (CamelCase)**             | `m_Enabled`, `PreloadingUI`, `GrassDetail`     | copy-through + `skip_translation: true`     |
-| **Пустая строка или только пробелы**      | `""`, `"   "`                                  | copy-through + `skip_translation: true`     |
+| Категория                            | Примеры                                        | Решение                                 |
+| ------------------------------------ | ---------------------------------------------- | --------------------------------------- |
+| **Арт-код / декоративные паттерны**  | `AfN6A`, `@HA2A`, `$TA`, `Ax@`, `C?j`          | copy-through + `skip_translation: true` |
+| **Уже по-русски**                    | `Привет`, `Зои`                                | copy-through + `skip_translation: true` |
+| **Осмысленные коды (N/A, OK, FPS)**  | `OK`, `ID`, `URL`, `N/A`, `Wi-Fi`, `FPS`, `AI` | copy-through + `skip_translation: true` |
+| **Чистые числа/версии**              | `404`, `v1.0`, `2024`, `404.05`                | copy-through + `skip_translation: true` |
+| **Одиночные символы/пунктуация**     | `X`, `Y`, `>`, `<`, `*`, `...`, `!!!`          | copy-through + `skip_translation: true` |
+| **Имя файла/путь/идентификатор**     | `m_Name`, `path_id=73203`, `actions/sitting`   | copy-through + `skip_translation: true` |
+| **С# enum/поле (CamelCase)**         | `m_Enabled`, `PreloadingUI`, `GrassDetail`     | copy-through + `skip_translation: true` |
+| **Пустая строка или только пробелы** | `""`, `"   "`                                  | copy-through + `skip_translation: true` |
 
 **Важно:** без `skip_translation: true` любое `translation == text` **очищается в `""`** при следующем запуске экстрактора.
 

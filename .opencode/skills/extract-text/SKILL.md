@@ -21,23 +21,25 @@ python .opencode/skills/extract-text/extractor.py
 ## Выходные файлы
 
 ### `translations/dialogues.{path_id}.yaml`
+
 ```yaml
 # Dialogues (path_id=73203): text, translation, speaker, rich_text, rich_translation
 
 - text: "Yesss...!~"
   translation: "Да-а...!~"
   speaker: "Zoey"
-  rich_text: "<color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\">Yesss...!~</font></color>"
-  rich_translation: "<color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\">Да-а...!~</font></color>"
+  rich_text: '<color=#B867FF><font="Roboto-Condensed_DialogueUI" material="Roboto-Condensed_DialogueUI_Perversion">Yesss...!~</font></color>'
+  rich_translation: '<color=#B867FF><font="Roboto-Condensed_DialogueUI" material="Roboto-Condensed_DialogueUI_Perversion">Да-а...!~</font></color>'
 
 - text: "Fhaaa..!!"
   translation: ""
   speaker: "Zoey"
-  rich_text: "<color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\">Fhaaa..!!</font></color>"
+  rich_text: '<color=#B867FF><font="Roboto-Condensed_DialogueUI" material="Roboto-Condensed_DialogueUI_Perversion">Fhaaa..!!</font></color>'
   rich_translation: ""
 ```
 
 ### `translations/speakers.yaml`
+
 ```yaml
 # Speakers: text, translation, gender, notes
 
@@ -47,6 +49,7 @@ python .opencode/skills/extract-text/extractor.py
 ```
 
 ### `translations/settings_keys.yaml`
+
 ```yaml
 # Settings keys: text, translation
 
@@ -56,10 +59,10 @@ python .opencode/skills/extract-text/extractor.py
 
 ## Источники данных
 
-- **dialogues** — из `"dialogues"` поля MonoBehaviour объектов в чанках (автопоиск, 1085+97 источников)
-- **dialogues.bundle_*** — из `raw_strings` с `line_X` маркерами (дубликаты с ANToolkit отфильтрованы экстрактором; по 1 файлу на актив)
-- **speakers** — уникальные спикеры из обоих источников (67, без пустых/Narration)
-- **settings_keys** — только `settings_keys.display` из summary JSON (55 UI-строк, реальный display-текст из бинарника)
+- **dialogues** — из `"dialogues"` поля MonoBehaviour объектов в чанках (1050 файлов, автопоиск)
+- **dialogues.bundle\_\*** — из `raw_strings` с `line_X` маркерами (дубликаты с ANToolkit отфильтрованы экстрактором; влиты в dialogues/\*.yaml)
+- **speakers** — уникальные спикеры из обоих источников (85, без пустых/Narration)
+- **settings_keys** — из `settings_keys.display` summary JSON + `_color=perversion_*` диалогов из .bundle (27223 записи: UI, CG-имена, PlayMaker-состояния, шейдерные проперти, гибериш-коды, диалоговые реплики)
 
 Экстрактор авто-генерирует `rich_translation` из `rich_text` + `translation` при записи.
 Bundle-записи, уже присутствующие в dialogue-файлах, отфильтровываются (DRY).
@@ -74,6 +77,7 @@ dump_assets.py + extractor.py автоматически подхватит но
 Неизвестные поля игнорируются рантаймом, но сохраняются через merge при перезапуске экстрактора.
 
 **Форматирование вывода:**
+
 - `text` и `translation` — всегда (обязательные поля)
 - `speaker` — только если непустой
 - `rich_text` — только если непустой
@@ -92,4 +96,4 @@ dump_assets.py + extractor.py автоматически подхватит но
 python .opencode/skills/extract-text/extractor.test.py
 ```
 
-15 тестов: диалоги, спикеры, UI, YAML, пустой дамп, спецсимволы, дедупликация, read_yaml, merge, idempotent, real_dump.
+26 тестов: диалоги, спикеры, UI, YAML, пустой дамп, спецсимволы, дедупликация, read_yaml, merge, idempotent, real_dump, bundle-диалоги, color_parser, settings_keys_display, settings_keys_bundle.

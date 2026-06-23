@@ -18,8 +18,8 @@ python .opencode/skills/extract-text/extractor.py
 
 → `translations/dialogues.{path_id}.yaml` — объектный YAML, пустые опциональные поля не пишутся (ANToolkit JSON)
 → `translations/dialogues.bundle_*.yaml` — объектный YAML (PlayMaker FSM из .bundle; дубликаты с ANToolkit отфильтрованы)
-→ `translations/speakers.yaml` — объектный YAML `{text, translation, gender, notes}` (67 спикеров)
-→ `translations/settings_keys.yaml` — объектный YAML `{text, translation}` (55 UI-строк)
+→ `translations/speakers.yaml` — объектный YAML `{text, translation, gender, notes}` (85 спикеров)
+→ `translations/settings_keys.yaml` — объектный YAML `{text, translation}` (27223 записи: UI, CG-имена, PlayMaker-состояния, шейдерные проперти, гибериш-коды, диалоговые реплики)
 
 ### Источники данных
 
@@ -99,12 +99,12 @@ python .opencode/skills/build-translator/build_proxy.py
 ## Команды
 
 - `python .opencode/skills/extract-text/extractor.py` — извлечение переводов
-- `python .opencode/skills/extract-text/extractor.test.py` — тесты (15)
+- `python .opencode/skills/extract-text/extractor.test.py` — тесты (26)
 - `python .opencode/skills/dump-assets/dump_assets.py` — дамп ассетов (+ .bundle)
 - `python .opencode/skills/dump-assets/dump_assets.test.py` — тесты дампера (23)
 - `python .opencode/skills/scan-translations/scan_translations.py` — сканирование непереведённого
 - `translate-manager` — пакетный перевод файлов диалогов: group_files.py → task(general) + translate-game
-- `python .opencode/skills/scan-translations/scan_translations.test.py` — тесты (14)
+- `python .opencode/skills/scan-translations/scan_translations.test.py` — тесты (17)
 - `python .opencode/skills/build-translator/build.py` — сборка DLL
 - `python .opencode/skills/build-translator/build_proxy.py` — сборка прокси
 - `python .opencode/skills/build-translator/build.test.py` — тесты сборки (19)

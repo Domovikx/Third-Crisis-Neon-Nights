@@ -4781,10 +4781,11 @@
   rich_translation: "<i>(Не стоило мне- Ах- Возьми себя в руки, Зои.)</i>"
 
 - text: "(...)"
-  translation: ""
+  translation: "(...)"
   speaker: "Zoey"
+  skip_translation: true
   rich_text: "<i>(...)</i>"
-  rich_translation: ""
+  rich_translation: "<i>(...)</i>"
 
 - text: "Lio! You answered!"
   translation: "Лио! Ты ответил!"
@@ -4879,8 +4880,9 @@
   speaker: "Zoey"
 
 - text: "...!"
-  translation: ""
+  translation: "...!"
   speaker: "Zoey"
+  skip_translation: true
 
 - text: "Is this close enough...?"
   translation: "Так достаточно близко...?"

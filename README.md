@@ -30,16 +30,16 @@ dump_assets.py ─→ dump_assets/ (140 JSON-файлов: 34 summary + 105 chun
        │
        ▼
 extractor.py ─→ translations/
-                   ├── dialogues.{path_id}.yaml  (1793 диалога, 4 источника)
-                   ├── speakers.yaml             (23 спикера)
-                   └── settings_keys.yaml        (55 UI-строк)
+                   ├── dialogues/*.yaml       (1050 файлов, 5639 диалогов)
+                   ├── speakers.yaml          (85 спикеров)
+                   └── settings_keys.yaml     (27223 записи: UI, CG, FSM, шейдеры)
        │
        ▼ (перевод → деплой)
 build.py → runtime/NeonTranslatorRuntime.dll
 build_proxy.py → dwmapi.dll (native proxy)
 ```
 
-Все переводы — плоские YAML-файлы (списки `[original, translation, speaker?]`). Рантайм загружает `*.yaml` из `Managed/`.
+Все переводы — объектные YAML-файлы (`{text, translation, speaker?, rich_text?, rich_translation?}`). Рантайм загружает `*.yaml` из `Managed/`.
 
 ---
 
@@ -53,7 +53,7 @@ python .opencode/skills/dump-assets/dump_assets.py
 python .opencode/skills/extract-text/extractor.py
 
 # 3. Тесты
-python .opencode/skills/extract-text/extractor.test.py  # 14 тестов
+python .opencode/skills/extract-text/extractor.test.py  # 26 тестов
 python .opencode/skills/build-translator/build.test.py   # 19 тестов
 python .opencode/skills/dump-assets/dump_assets.test.py  # 23 теста
 
@@ -89,20 +89,30 @@ UI-текст читается из `settings_keys` поля summary JSON (ре�
 **Диалоги:**
 
 ```yaml
-- ["Yesss...!~", "Да-а-а...!~", "Zoey"]
-- ["Fhaaa..!!", "Ахха..!!", "Zoey"]
+- text: "Yesss...!~"
+  translation: "Да-а-а...!~"
+  speaker: "Zoey"
+  rich_text: "<color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\">Yesss...!~</font></color>"
+  rich_translation: "<color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\">Да-а-а...!~</font></color>"
+
+- text: "Fhaaa..!!"
+  translation: "Ахха..!!"
+  speaker: "Zoey"
 ```
 
-**UI:**
+**UI/настройки:**
 
 ```yaml
-- ["Fullscreen", "Полный экран"]
+- text: "Fullscreen"
+  translation: "Полный экран"
 ```
 
 **Персонажи:**
 
 ```yaml
-- ["Zoey", "Зои", "female"]
+- text: "Zoey"
+  translation: "Зои"
+  gender: "female"
 ```
 
 Пустая строка `""` на месте перевода → не переведено.
@@ -123,15 +133,18 @@ UI-текст читается из `settings_keys` поля summary JSON (ре�
 
 ### Статистика перевода
 
-| Показатель         | Значение                       |
-| ------------------ | ------------------------------ |
-| Диалогов всего     | 1 793                          |
-| UI-строк           | 55                             |
-| Персонажей         | 23                             |
-| Settings.\* ключей | 55                             |
-| Дампер             | dump_assets.py (UnityPy)       |
-| Экстрактор         | extractor.py (Python)          |
-| Рантайм            | NeonTranslatorRuntime.dll (C#) |
+| Показатель             | Значение                           |
+| ---------------------- | ---------------------------------- |
+| Файлов диалогов        | 1 050                             |
+| Строк диалогов         | 5 639                              |
+| Файлов settings_keys   | 1 (27 223 записей)                 |
+| Персонажей             | 85                                 |
+| Переведено диалогов    | 100% (0 непереведённых)            |
+| Переведено speakers    | 100% (0 непереведённых)            |
+| Переведено settings    | ~40.9% (16 107 непереведённых)     |
+| Дампер                 | dump_assets.py (UnityPy)           |
+| Экстрактор             | extractor.py (Python)              |
+| Рантайм                | NeonTranslatorRuntime.dll (C#)     |
 
 ---
 
@@ -142,10 +155,11 @@ UI-текст читается из `settings_keys` поля summary JSON (ре�
 │   ├── agents/
 │   │   └── translate-expert.md       # агент-переводчик для opencode
 │   └── skills/
+│       ├── do-translate-game/        # навык перевода диалогов
+│       │   └── SKILL.md
 │       ├── extract-text/
-│       │   ├── extractor.py       # экстрактор из dump_assets/ в YAML
-│       │   ├── extractor.test.py  # 14 тестов
-│       │   ├── parser.py          # [REMOVED] старый парсер (удалён)
+│       │   ├── extractor.py          # экстрактор из dump_assets/ в YAML
+│       │   ├── extractor.test.py     # 26 тестов
 │       │   └── SKILL.md
 │       ├── build-translator/
 │       │   ├── source/               # C# исходники
@@ -156,21 +170,30 @@ UI-текст читается из `settings_keys` поля summary JSON (ре�
 │       │   ├── dump_assets.py        # дампер ассетов
 │       │   ├── dump_assets.test.py   # 23 теста
 │       │   └── SKILL.md
-│       └── deploy-translator/
+│       ├── scan-translations/        # сканирование непереведённого
+│       │   ├── scan_translations.py
+│       │   ├── scan_translations.test.py  # 17 тестов
+│       │   └── SKILL.md
+│       ├── deploy-translator/
+│       │   └── SKILL.md
+│       ├── translate-manager/        # пакетный перевод
+│       │   ├── group_files.py
+│       │   └── SKILL.md
+│       └── professional-code-review/ # ревью кода
 │           └── SKILL.md
 ├── dump_assets/                      # 140 JSON-файлов (UnityPy дампы)
+├── fonts/
+│   └── RobotoCondensed-Regular.ttf   # TTF с кириллицей
 ├── translations/
-│   ├── dialogues.73203.yaml          # диалоги (1503)
-│   ├── dialogues.73262.yaml          # диалоги (93)
-│   ├── dialogues.73263.yaml          # диалоги (97)
-│   ├── dialogues.73264.yaml          # диалоги (100)
-│   ├── speakers.yaml                 # персонажи (23)
-│   └── settings_keys.yaml            # UI строки (55)
+│   ├── dialogues/                    # 1050 файлов диалогов
+│   ├── speakers.yaml                 # 85 персонажей
+│   └── settings_keys.yaml            # 27223 записи (UI, CG, FSM, шейдеры)
 ├── runtime/
 │   └── NeonTranslatorRuntime.dll     # скомпилированная DLL
 ├── AGENTS.md                         # правила проекта для opencode
+├── README.md
 ├── THEORY.md                         # техническая документация
-└── README.md
+└── TODO.md                           # известные баги
 ```
 
 ## Требования
