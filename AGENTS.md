@@ -33,6 +33,7 @@ python .opencode/skills/extract-text/extractor.py
 Неизвестные поля игнорируются рантаймом, но сохраняются через merge при перезапуске экстрактора.
 
 **Форматирование вывода:**
+
 - `text` и `translation` — всегда (обязательные поля)
 - `speaker` — только если непустой
 - `rich_text` — только если непустой
@@ -67,6 +68,7 @@ python .opencode/skills/dump-assets/dump_assets.py
 `TryAddCharacters()` в рантайме.
 
 **Файлы:**
+
 - `fonts/RobotoCondensed-Regular.ttf` — TTF
   Roboto Condensed (Google Fonts, включает кириллицу, 371 KB)
 - `source/TranslatorPlugin.cs::TryInstallCyrillicFont()` — чтение TTF,
@@ -75,6 +77,7 @@ python .opencode/skills/dump-assets/dump_assets.py
   `TryAddCharacters(cyrillicUnicodes)`
 
 **Как работает:**
+
 1. Игра стартует → `OnPreRender` считает 5 кадров → `TryInstallCyrillicFont()`
 2. TTF читается из `Managed/`, регистрируется с Windows через
    `AddFontMemResourceEx` (без админ-прав)
@@ -121,3 +124,83 @@ python .opencode/skills/build-translator/build_proxy.py
 - Прокси: `dwmapi.dll` (корень игры), `dwmapi_real.dll` (форвардер)
 - Шрифт: `fonts/RobotoCondensed-Regular.ttf` (источник, отслеживается git)
 - Лог: `Third Crisis Neon Nights_Data/Managed/NeonTranslator.log`
+
+## settings_keys.yaml — перевод
+
+Файл: `translations/settings_keys.yaml` (27223 записи, 92 K строк).
+Содержит всё, что не вошло в диалоги: UI-текст настроек, имена ассетов, шейдерные проперти, гибериш, диалоговые реплики PlayMaker FSM и немецкий текст.
+
+### Текущее состояние (2026-06-23)
+
+| Категория                           | Кол-во   | Статус                                         |
+| ----------------------------------- | -------- | ---------------------------------------------- |
+| `skip_translation: true`            | ~11 000  | Готово                                         |
+| Переведено                          | ~11 000  | Готово                                         |
+| Ассет-неймы (пусто)                 | ~1 460   | Не переводить — проставить `skip_translation`  |
+| FSM-имена (пусто)                   | ~107     | Не переводить — проставить `skip_translation`  |
+| Анимации (Take off, Put on)         | ~18      | Не переводить — проставить `skip_translation`  |
+| Кастомизация (hair, glasses)        | ~28      | Не переводить — проставить `skip_translation`  |
+| **Диалоговые реплики (с номерами)** | **~223** | **Нужен перевод**                              |
+| **Немецкий текст**                  | **~12**  | **Нужен перевод (DE → RU)**                    |
+| Сцены/квесты/материалы              | ~2‹864   | Проставить `skip_translation` (всё, что не UI) |
+| Гибериш                             | ~16      | `skip_translation`                             |
+
+**Итого осталось:** ~4 717 пустых, из них реально переводимых — ~235 (диалоги + немецкий).
+
+### Как переводить
+
+**1. Ассет-неймы, FSM, анимации, материалы, пути:**
+
+```yaml
+- text: "Bathroom Lighting Ground"
+  translation: "Bathroom Lighting Ground" # copy-through
+  skip_translation: true
+```
+
+**2. Диалоговые реплики (префикс `N-`):**
+
+```yaml
+- text: "278-Ugh! Asshole!"
+  translation: "278-Ухх! Мудак!" # сохранить номер строки!
+```
+
+Правила: стоны, SFX, мат — согласно `do-translate-game` скилу.
+Длина — макс 2× от `text` (без учёта номера строки).
+Номер строки (цифры+дефис) сохранять как есть.
+
+**3. Немецкий текст:**
+
+```
+Sollte ich wiederstehen? → Должен ли я сопротивляться?
+Werde ich die richtige Entscheidung treffen? → Приму ли я правильное решение?
+Aber was passiert wenn ich sie abnehme? → Но что будет, если я сниму её?
+```
+
+### Протокол работы
+
+1. Загрузить скил `do-translate-game`
+2. Открыть `translations/settings_keys.yaml`
+3. Искать блоки с `translation: ""` и без `skip_translation: true`
+4. Для каждой строки:
+   - **Гибериш/ассет/FSM/путь** → copy-through + `skip_translation: true`
+   - **Диалог с номером** (`N-текст`) → перевести, номер оставить
+   - **Немецкий** → перевести на русский
+   - **UI-текст** (редко, кнопки/заголовки) → перевести
+
+### Где мы остановились
+
+Последняя обработанная строка: блок `"EnPEE"` (был пустой → проставлен skip).
+Следующий непереведённый диалог: блок 6094 — `"132-I miss real beef"`.
+Необработанные блоки: ~4 717 шт, начинаются с блока ~3619 (`"Bathroom Lighting Ground"`).
+
+### Быстрая проверка
+
+```bash
+# Сколько пустых осталось
+python -c "import re
+with open('translations/settings_keys.yaml') as f:
+    c = f.read()
+b = c.split('\n- text: ')
+e = [i for i,bl in enumerate(b) if 'translation: \"\"' in bl and 'skip_translation: true' not in bl]
+print(f'Pustykh: {len(e)}')"
+```

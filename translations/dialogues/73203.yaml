@@ -4783,9 +4783,9 @@
 - text: "(...)"
   translation: "(...)"
   speaker: "Zoey"
-  skip_translation: true
   rich_text: "<i>(...)</i>"
   rich_translation: "<i>(...)</i>"
+  skip_translation: true
 
 - text: "Lio! You answered!"
   translation: "Лио! Ты ответил!"

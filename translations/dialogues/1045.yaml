@@ -4,4 +4,5 @@
   translation: ">"
   rich_text: "<< Declination processed. Proceeding relocation. >>"
   rich_translation: "<< Отказ обработан. Начинаю перемещение. >>"
+  skip_translation: true
 

@@ -233,9 +233,7 @@
 
 - text: "Toggle navigation camera
   When enabled use:"
-  translation: "Toggle navigation camera
-  When enabled use:"
-  skip_translation: true
+  translation: ""
 
 - text: "Link Select"
   translation: "Link Select"
@@ -518,36 +516,28 @@
   skip_translation: true
 
 - text: "Show/Hide Unity Assemblies Shift click to multi select"
-  translation: "Show/Hide Unity Assemblies Shift click to multi select"
-  skip_translation: true
+  translation: ""
 
 - text: "Show/Hide System Assemblies Shift click to multi select"
-  translation: "Show/Hide System Assemblies Shift click to multi select"
-  skip_translation: true
+  translation: ""
 
 - text: "Show/Hide Mono Assemblies Shift click to multi select"
-  translation: "Show/Hide Mono Assemblies Shift click to multi select"
-  skip_translation: true
+  translation: ""
 
 - text: "Show/Hide All Other Assemblies Shift click to multi select"
-  translation: "Show/Hide All Other Assemblies Shift click to multi select"
-  skip_translation: true
+  translation: ""
 
 - text: "Show/Hide Memory Objects that are MonoBehaviours Shift click to multi select"
-  translation: "Show/Hide Memory Objects that are MonoBehaviours Shift click to multi select"
-  skip_translation: true
+  translation: ""
 
 - text: "Show/Hide Memory Objects that are ScriptableObjects Shift click to multi select"
-  translation: "Show/Hide Memory Objects that are ScriptableObjects Shift click to multi select"
-  skip_translation: true
+  translation: ""
 
 - text: "Show/Hide Memory Objects that are Components Shift click to multi select"
-  translation: "Show/Hide Memory Objects that are Components Shift click to multi select"
-  skip_translation: true
+  translation: ""
 
 - text: "Show/Hide other Memory Objects Shift click to multi select"
-  translation: "Show/Hide other Memory Objects Shift click to multi select"
-  skip_translation: true
+  translation: ""
 
 - text: "Foldout all up/down"
   translation: "Foldout all up/down"
@@ -594,8 +584,7 @@
   skip_translation: true
 
 - text: "Click to search inside Shift click to enable/disable"
-  translation: "Click to search inside Shift click to enable/disable"
-  skip_translation: true
+  translation: ""
 
 - text: "Toggle Search On/Off"
   translation: "Toggle Search On/Off"
@@ -1083,7 +1072,7 @@
   translation: "NNTabMenuItemHighlighter: Попытка подсветить нулевой элемент!"
 
 - text: "PlaySoundFromCategory: '"
-  translation: "PlaySoundFromCategory: '"
+  translation: ""
 
 - text: "is not a Sound Category."
   translation: "не является звуковой категорией."
@@ -1458,8 +1447,7 @@
 
 - text: "is now available to play!
   Click the button below to play the latest version."
-  translation: "теперь доступна для игры!
-  Нажмите кнопку ниже, чтобы играть в последнюю версию."
+  translation: ""
 
 - text: "Play latest version"
   translation: "Играть последнюю версию"
@@ -1558,7 +1546,7 @@
   translation: "Отсутствует MeshFilter!"
 
 - text: "Null GameObject"
-  translation: "Null GameObject"
+  translation: ""
 
 - text: "Source and Destination scenes can not be the same"
   translation: "Исходная и целевая сцены не могут совпадать"
@@ -1579,19 +1567,19 @@
   translation: "Неверное имя метода или параметры:"
 
 - text: "Parameter count does not match method. Method has"
-  translation: "Количество параметров не совпадает с методом. Метод имеет"
+  translation: ""
 
 - text: "parameters. You specified"
-  translation: "параметров. Вы указали"
+  translation: ""
 
 - text: "Parameters do not match method signature. Parameter"
-  translation: "Параметры не совпадают с сигнатурой метода. Параметр"
+  translation: ""
 
 - text: "Method does not have return. Specify 'none' in Store Result."
-  translation: "Метод не имеет возврата. Укажите 'none' в Store Result."
+  translation: ""
 
 - text: "Store Result is of the wrong type. It should be of type:"
-  translation: "Store Result имеет неверный тип. Должен быть типа:"
+  translation: ""
 
 - text: "Class is invalid:"
   translation: "Класс недействителен:"
@@ -1648,7 +1636,7 @@
   translation: "MissionContainer: Не должно быть более одной миссии с ID '"
 
 - text: "MissionEnabler: '"
-  translation: "MissionEnabler: '"
+  translation: ""
 
 - text: "Mission: '"
   translation: "Миссия: '"
@@ -1753,7 +1741,7 @@
   translation: "Нельзя перемотать диалог, так как установлен ExternalCanForward:"
 
 - text: "Cutscene: Null Director"
-  translation: "Cutscene: Null Director"
+  translation: ""
 
 - text: "Cutscene: Starting cutscene: '"
   translation: "Cutscene: Запуск катсцены: '"
@@ -1873,7 +1861,7 @@
   translation: "NNItemPopupUI: ItemPopulate не установлен."
 
 - text: "CharacterStats: '"
-  translation: "CharacterStats: '"
+  translation: ""
 
 - text: "You were not able to store all the fB collected! Upgrade your wallet at an ATM."
   translation: "Вы не смогли сохранить все собранные fB! Улучшите кошелёк в банкомате."
@@ -2149,7 +2137,7 @@
   translation: "ID по умолчанию"
 
 - text: "InteractableTypes: '"
-  translation: "InteractableTypes: '"
+  translation: ""
 
 - text: "Entity: More than one player entity is currently active!"
   translation: "Entity: Активно более одной сущности игрока!"
@@ -2185,7 +2173,7 @@
   translation: "Список команд"
 
 - text: "Console: ConCommand '"
-  translation: "Console: ConCommand '"
+  translation: ""
 
 - text: "Playmaker Blur"
   translation: "Размытие Playmaker"
@@ -2437,16 +2425,16 @@
   translation: "Реклама - Corrupt Technologies 4"
 
 - text: "A&X"
-  translation: "A&X"
+  translation: ""
 
 - text: "AD8"
-  translation: "AD8"
+  translation: ""
 
 - text: "[~AC)"
-  translation: "[~AC)"
+  translation: ""
 
 - text: "|AO"
-  translation: "|AO"
+  translation: ""
 
 - text: "CxA"
   translation: "CxA"
@@ -2945,8 +2933,7 @@
   skip_translation: true
 
 - text: "PA,"
-  translation: "PA,"
-  skip_translation: true
+  translation: ""
 
 - text: "sactx-0-1024x1024-DXT5|BC3-Ad - Furline-e0a15901"
   translation: "sactx-0-1024x1024-DXT5|BC3-Ad - Furline-e0a15901"
@@ -4884,8 +4871,7 @@
   skip_translation: true
 
 - text: "!+5?IQVX`````````[YSKA7,"
-  translation: "!+5?IQVX`````````[YSKA7,"
-  skip_translation: true
+  translation: ""
 
 - text: ")4?IQVX`````````ZWRJ@5*"
   translation: ")4?IQVX`````````ZWRJ@5*"
@@ -5079,8 +5065,7 @@
   skip_translation: true
 
 - text: "IX,"
-  translation: "IX,"
-  skip_translation: true
+  translation: ""
 
 - text: "W?q=J"
   translation: "W?q=J"
@@ -7279,8 +7264,7 @@
   skip_translation: true
 
 - text: "Az,"
-  translation: "Az,"
-  skip_translation: true
+  translation: ""
 
 - text: "Af*"
   translation: "Af*"
@@ -8811,8 +8795,7 @@
   skip_translation: true
 
 - text: "IQ,"
-  translation: "IQ,"
-  skip_translation: true
+  translation: ""
 
 - text: "Texture"
   translation: "Texture"
@@ -9581,8 +9564,7 @@
   skip_translation: true
 
 - text: "Hn?,"
-  translation: "Hn?,"
-  skip_translation: true
+  translation: ""
 
 - text: "0_-_Foreplay 0"
   translation: "0_-_Прелюдия 0"
@@ -12411,8 +12393,7 @@
   skip_translation: true
 
 - text: "FE,"
-  translation: "FE,"
-  skip_translation: true
+  translation: ""
 
 - text: "E@p"
   translation: "E@p"
@@ -12471,8 +12452,7 @@
   skip_translation: true
 
 - text: "WnMEb,"
-  translation: "WnMEb,"
-  skip_translation: true
+  translation: ""
 
 - text: "Dn`/E"
   translation: "Dn`/E"
@@ -12576,7 +12556,7 @@
   skip_translation: true
 
 - text: "Cp\""
-  translation: "Cp\"
+  translation: "Cp\\"
   skip_translation: true
 
 - text: "WnMEb5!"
@@ -12908,7 +12888,7 @@
   translation: ""
 
 - text: "I\"W"
-  translation: "I\"
+  translation: "I\\"
   skip_translation: true
 
 - text: "E?R"
@@ -13356,7 +13336,7 @@
   skip_translation: true
 
 - text: "[|=AA\""
-  translation: "[|=AA\"
+  translation: "[|=AA\\"
   skip_translation: true
 
 - text: "[|=AWX:"
@@ -13411,7 +13391,7 @@
   skip_translation: true
 
 - text: "N\"A"
-  translation: "N\"
+  translation: "N\\"
   skip_translation: true
 
 - text: "Xc@"
@@ -14281,7 +14261,7 @@
   skip_translation: true
 
 - text: "Z\"x"
-  translation: "Z\"
+  translation: "Z\\"
   skip_translation: true
 
 - text: "*)CE"
@@ -14891,7 +14871,7 @@
   skip_translation: true
 
 - text: "\"AN"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "N@ie"
@@ -15235,7 +15215,7 @@
   skip_translation: true
 
 - text: "B#\"nB"
-  translation: "B#\"
+  translation: "B#\\"
   skip_translation: true
 
 - text: "AG*"
@@ -15406,8 +15386,7 @@
   skip_translation: true
 
 - text: "Bk,"
-  translation: "Bk,"
-  skip_translation: true
+  translation: ""
 
 - text: "Dwh"
   translation: "Dwh"
@@ -15756,8 +15735,7 @@
   skip_translation: true
 
 - text: "X`d1_;=,"
-  translation: "X`d1_;=,"
-  skip_translation: true
+  translation: ""
 
 - text: "X`d1_;=B"
   translation: "X`d1_;=B"
@@ -15771,7 +15749,7 @@
   skip_translation: true
 
 - text: "X`d1_;=\""
-  translation: "X`d1_;=\"
+  translation: "X`d1_;=\\"
   skip_translation: true
 
 - text: "X`d1_;=#b"
@@ -16549,7 +16527,7 @@
   skip_translation: true
 
 - text: "!\"\"?TUU?"
-  translation: "!\"
+  translation: "!\\"
   skip_translation: true
 
 - text: "?TUU?"
@@ -16745,7 +16723,7 @@
   skip_translation: true
 
 - text: "!\"\"@TU"
-  translation: "!\"
+  translation: "!\\"
   skip_translation: true
 
 - text: "233@TUU?"
@@ -16756,11 +16734,11 @@
   skip_translation: true
 
 - text: "N\"4Br"
-  translation: "N\"
+  translation: "N\\"
   skip_translation: true
 
 - text: "BN\"4Br"
-  translation: "BN\"
+  translation: "BN\\"
   skip_translation: true
 
 - text: "!OP"
@@ -16822,11 +16800,11 @@
   skip_translation: true
 
 - text: "CN\"xBd"
-  translation: "CN\"
+  translation: "CN\\"
   skip_translation: true
 
 - text: "CN\"xB"
-  translation: "CN\"
+  translation: "CN\\"
   skip_translation: true
 
 - text: "Mix"
@@ -16877,7 +16855,7 @@
   skip_translation: true
 
 - text: "!\"\"@UU"
-  translation: "!\"
+  translation: "!\\"
   skip_translation: true
 
 - text: "FDs"
@@ -17077,7 +17055,7 @@
   translation: ""
 
 - text: "\"\"JO"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "Ruffle Hair"
@@ -17171,7 +17149,7 @@
   skip_translation: true
 
 - text: "$\"1IHJ2"
-  translation: "$\"
+  translation: "$\\"
   skip_translation: true
 
 - text: "0E(J1"
@@ -17234,7 +17212,7 @@
   skip_translation: true
 
 - text: "Gx\""
-  translation: "Gx\"
+  translation: "Gx\\"
   skip_translation: true
 
 - text: "Ftb"
@@ -19129,7 +19107,7 @@
   skip_translation: true
 
 - text: "@@\"\"JA"
-  translation: "@@\"
+  translation: "@@\\"
   skip_translation: true
 
 - text: "Xg?"
@@ -19185,7 +19163,7 @@
   skip_translation: true
 
 - text: "B\"\"EB"
-  translation: "B\"
+  translation: "B\\"
   skip_translation: true
 
 - text: "Df2"
@@ -19236,7 +19214,7 @@
   skip_translation: true
 
 - text: "D\"b+C"
-  translation: "D\"
+  translation: "D\\"
   skip_translation: true
 
 - text: "Dww4C"
@@ -19448,11 +19426,11 @@
   skip_translation: true
 
 - text: "A\"\"BA"
-  translation: "A\"
+  translation: "A\\"
   skip_translation: true
 
 - text: "?\"\"FA"
-  translation: "?\"
+  translation: "?\\"
   skip_translation: true
 
 - text: "VdLD"
@@ -19464,7 +19442,7 @@
   skip_translation: true
 
 - text: "\"\"VA"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "33WA"
@@ -19484,7 +19462,7 @@
   skip_translation: true
 
 - text: "\"\"ZA"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "DD33[A"
@@ -19495,7 +19473,7 @@
   skip_translation: true
 
 - text: "A\"\"^A"
-  translation: "A\"
+  translation: "A\\"
   skip_translation: true
 
 - text: "UUaA"
@@ -20566,7 +20544,7 @@
   skip_translation: true
 
 - text: "\"2;DJOQSSSSSRFD?80&"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: ")5?IQWY``````VTNF=2'"
@@ -20719,7 +20697,7 @@
   skip_translation: true
 
 - text: "\".8@EILLLLLLLLKGC=6-#"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "NC_Z2_Redlight_GlowingHole Kitchen Black Overlay"
@@ -20821,7 +20799,7 @@
   skip_translation: true
 
 - text: "@PI\""
-  translation: "@PI\"
+  translation: "@PI\\"
   skip_translation: true
 
 - text: "Electronic Highway Sign SDF Atlas"
@@ -21095,8 +21073,7 @@
   skip_translation: true
 
 - text: "E`D-,"
-  translation: "E`D-,"
-  skip_translation: true
+  translation: ""
 
 - text: "C#Ce"
   translation: "C#Ce"
@@ -21422,8 +21399,7 @@
   skip_translation: true
 
 - text: "IA,"
-  translation: "IA,"
-  skip_translation: true
+  translation: ""
 
 - text: "U@b4"
   translation: "U@b4"
@@ -23422,7 +23398,7 @@
   translation: ""
 
 - text: "X\"I@"
-  translation: "X\"
+  translation: "X\\"
   skip_translation: true
 
 - text: "VAZoey - 174 - Too fire I get it 2"
@@ -23583,7 +23559,7 @@
   skip_translation: true
 
 - text: "L?d\"X"
-  translation: "L?d\"
+  translation: "L?d\\"
   skip_translation: true
 
 - text: "OjP@"
@@ -23830,7 +23806,7 @@
   translation: ""
 
 - text: "Cf\"8B"
-  translation: "Cf\"
+  translation: "Cf\\"
   skip_translation: true
 
 - text: "K?d+"
@@ -23960,7 +23936,7 @@
   skip_translation: true
 
 - text: "HD\"3,CvX1Aw"
-  translation: "HD\"
+  translation: "HD\\"
   skip_translation: true
 
 - text: "KUaH"
@@ -24090,7 +24066,7 @@
   skip_translation: true
 
 - text: "X\"A\""
-  translation: "X\"
+  translation: "X\\"
   skip_translation: true
 
 - text: "A[h!"
@@ -24098,15 +24074,14 @@
   skip_translation: true
 
 - text: "O~A,"
-  translation: "O~A,"
-  skip_translation: true
+  translation: ""
 
 - text: "H#A#"
   translation: "H#A#"
   skip_translation: true
 
 - text: "X\"A"
-  translation: "X\"
+  translation: "X\\"
   skip_translation: true
 
 - text: "@UP"
@@ -24552,7 +24527,7 @@
   skip_translation: true
 
 - text: "A=\"J"
-  translation: "A=\"
+  translation: "A=\\"
   skip_translation: true
 
 - text: "TDf"
@@ -24591,7 +24566,7 @@
   skip_translation: true
 
 - text: "Bf\"8B"
-  translation: "Bf\"
+  translation: "Bf\\"
   skip_translation: true
 
 - text: "SO@"
@@ -24789,7 +24764,7 @@
   skip_translation: true
 
 - text: "@OE:?\""
-  translation: "@OE:?\"
+  translation: "@OE:?\\"
   skip_translation: true
 
 - text: "Tv?"
@@ -25311,7 +25286,7 @@
   translation: ""
 
 - text: "Bf\"8C"
-  translation: "Bf\"
+  translation: "Bf\\"
   skip_translation: true
 
 - text: "XeE"
@@ -26577,7 +26552,7 @@
   translation: ""
 
 - text: "\"IA"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "KALY"
@@ -26647,7 +26622,7 @@
   translation: ""
 
 - text: "A\"i`A"
-  translation: "A\"
+  translation: "A\\"
   skip_translation: true
 
 - text: "Y[AlJ"
@@ -26670,11 +26645,11 @@
   skip_translation: true
 
 - text: "Hh\"A"
-  translation: "Hh\"
+  translation: "Hh\\"
   skip_translation: true
 
 - text: "P\"A"
-  translation: "P\"
+  translation: "P\\"
   skip_translation: true
 
 - text: "Eu@"
@@ -32052,7 +32027,7 @@
   skip_translation: true
 
 - text: "A\"n"
-  translation: "A\"
+  translation: "A\\"
   skip_translation: true
 
 - text: "NW?z:"
@@ -36538,7 +36513,7 @@
   skip_translation: true
 
 - text: "L\"A"
-  translation: "L\"
+  translation: "L\\"
   skip_translation: true
 
 - text: "Aff*A"
@@ -37074,7 +37049,7 @@
   skip_translation: true
 
 - text: "V@3+\"Ag&I@"
-  translation: "V@3+\"
+  translation: "V@3+\\"
   skip_translation: true
 
 - text: "AgF8"
@@ -37303,7 +37278,7 @@
   skip_translation: true
 
 - text: "\",4;ADFFFFFFFFFFDC?92)"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "$.8@GLMNNNNNNNNNNLGA8/$"
@@ -37520,7 +37495,7 @@
   skip_translation: true
 
 - text: "Wv\"?$"
-  translation: "Wv\"
+  translation: "Wv\\"
   skip_translation: true
 
 - text: "#S@E"
@@ -38036,7 +38011,7 @@
   skip_translation: true
 
 - text: "G\"A"
-  translation: "G\"
+  translation: "G\\"
   skip_translation: true
 
 - text: "Q?+p0"
@@ -38917,8 +38892,7 @@
   translation: ""
 
 - text: "T?y,"
-  translation: "T?y,"
-  skip_translation: true
+  translation: ""
 
 - text: "Mt?P"
   translation: "Mt?P"
@@ -39690,7 +39664,7 @@
   translation: ""
 
 - text: "I\"K"
-  translation: "I\"
+  translation: "I\\"
   skip_translation: true
 
 - text: "Xby"
@@ -40534,8 +40508,7 @@
   translation: ""
 
 - text: "SHEX,"
-  translation: "SHEX,"
-  skip_translation: true
+  translation: ""
 
 - text: "BitonicSort2048"
   translation: ""
@@ -43421,7 +43394,7 @@
   translation: ""
 
 - text: "MX\"E"
-  translation: "MX\"
+  translation: "MX\\"
   skip_translation: true
 
 - text: "TMP_SpriteGlyph"
@@ -47530,8 +47503,7 @@
   translation: ""
 
 - text: "UJ,"
-  translation: "UJ,"
-  skip_translation: true
+  translation: ""
 
 - text: "Benchmark04"
   translation: ""
@@ -54226,7 +54198,7 @@
   translation: ""
 
 - text: "B\"jA"
-  translation: "B\"
+  translation: "B\\"
   skip_translation: true
 
 - text: "Interacted with Chopping Board?"
@@ -57031,7 +57003,7 @@
   skip_translation: true
 
 - text: "V\"Ao"
-  translation: "V\"
+  translation: "V\\"
   skip_translation: true
 
 - text: "?EP2A"
@@ -57132,7 +57104,7 @@
   skip_translation: true
 
 - text: "\"(BU"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "YcAt6"
@@ -57418,11 +57390,11 @@
   skip_translation: true
 
 - text: "T\"y?G"
-  translation: "T\"
+  translation: "T\\"
   skip_translation: true
 
 - text: "S\"y?G"
-  translation: "S\"
+  translation: "S\\"
   skip_translation: true
 
 - text: "IZ?"
@@ -57470,7 +57442,7 @@
   skip_translation: true
 
 - text: "\"AJ"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "OKz@"
@@ -57592,7 +57564,7 @@
   skip_translation: true
 
 - text: "\"ZA"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "FA?@TiA"
@@ -57703,7 +57675,7 @@
   skip_translation: true
 
 - text: "Q\"A"
-  translation: "Q\"
+  translation: "Q\\"
   skip_translation: true
 
 - text: "R@ef"
@@ -60659,11 +60631,11 @@
   skip_translation: true
 
 - text: "Pj\"=^M"
-  translation: "Pj\"
+  translation: "Pj\\"
   skip_translation: true
 
 - text: "Pj\"="
-  translation: "Pj\"
+  translation: "Pj\\"
   skip_translation: true
 
 - text: "Z?t)6?"
@@ -61470,7 +61442,7 @@
   translation: ""
 
 - text: "R\"@o"
-  translation: "R\"
+  translation: "R\\"
   skip_translation: true
 
 - text: "B?Qk"
@@ -62212,7 +62184,7 @@
   skip_translation: true
 
 - text: "\"WA"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "9IA"
@@ -62567,8 +62539,7 @@
   skip_translation: true
 
 - text: "( l@'j,"
-  translation: "( l@'j,"
-  skip_translation: true
+  translation: ""
 
 - text: "):A]`HA"
   translation: "):A]`HA"
@@ -62986,7 +62957,7 @@
   skip_translation: true
 
 - text: "\"AG7"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "?AD"
@@ -63018,7 +62989,7 @@
   skip_translation: true
 
 - text: "A\"d"
-  translation: "A\"
+  translation: "A\\"
   skip_translation: true
 
 - text: "AQk"
@@ -65339,7 +65310,7 @@
   translation: ""
 
 - text: "R8?\"d"
-  translation: "R8?\"
+  translation: "R8?\\"
   skip_translation: true
 
 - text: "Ny?"
@@ -66110,7 +66081,7 @@
   skip_translation: true
 
 - text: "\"5A?HL"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "J@)\\O@"
@@ -67032,7 +67003,7 @@
   translation: ""
 
 - text: "\"EC"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "Your pussy is top notch!"
@@ -67112,7 +67083,7 @@
   translation: ""
 
 - text: "\"MA"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "WAC"
@@ -67147,7 +67118,7 @@
   skip_translation: true
 
 - text: "\"A8R"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "Tc)A"
@@ -67558,8 +67529,7 @@
   skip_translation: true
 
 - text: "Hg,"
-  translation: "Hg,"
-  skip_translation: true
+  translation: ""
 
 - text: "RacingMinigame"
   translation: ""
@@ -67983,7 +67953,7 @@
   skip_translation: true
 
 - text: "E\"L"
-  translation: "E\"
+  translation: "E\\"
   skip_translation: true
 
 - text: "WL?(k"
@@ -68208,7 +68178,7 @@
   skip_translation: true
 
 - text: "P`y?\""
-  translation: "P`y?\"
+  translation: "P`y?\\"
   skip_translation: true
 
 - text: "Yy?"
@@ -68689,7 +68659,7 @@
   skip_translation: true
 
 - text: "\"CXU"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "Bq=n"
@@ -68744,8 +68714,7 @@
   skip_translation: true
 
 - text: "FA,"
-  translation: "FA,"
-  skip_translation: true
+  translation: ""
 
 - text: "Fn5"
   translation: "Fn5"
@@ -69081,7 +69050,7 @@
   translation: ""
 
 - text: "Xc\"?Xc\"?Xc\"?"
-  translation: "Xc\"
+  translation: "Xc\\"
   skip_translation: true
 
 - text: "NoDraw"
@@ -69186,7 +69155,7 @@
   skip_translation: true
 
 - text: "(08=ACFFFFFFFEDA;4+\""
-  translation: "(08=ACFFFFFFFEDA;4+\"
+  translation: "(08=ACFFFFFFFEDA;4+\\"
   skip_translation: true
 
 - text: "&.48FFFFFFFFFBA=70'"
@@ -69194,7 +69163,7 @@
   skip_translation: true
 
 - text: "\"*17=CGIGC=4+"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "'09@EFHHHHHHGFA;2)"
@@ -69236,11 +69205,10 @@
   translation: ""
 
 - text: "#.8BJP_````````[YSKA7,"
-  translation: "#.8BJP_````````[YSKA7,"
-  skip_translation: true
+  translation: ""
 
 - text: "\"-8AIPS]`````````[YSKA5+"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "&0=FOTV`````````_TSME;1%"
@@ -69262,7 +69230,7 @@
   translation: ""
 
 - text: "\"-9CMU[]``````ZXSJA6+"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "Arial Atlas"
@@ -69273,11 +69241,11 @@
   skip_translation: true
 
 - text: "#$%%%%&-39@EGLGEA:2(!##\""
-  translation: "#$%%%%&-39@EGLGEA:2(!##\"
+  translation: "#$%%%%&-39@EGLGEA:2(!##\\"
   skip_translation: true
 
 - text: "$,1:AEGEA:1+\""
-  translation: "$,1:AEGEA:1+\"
+  translation: "$,1:AEGEA:1+\\"
   skip_translation: true
 
 - text: "!+5=DHISSSSSSSSSRGFA;2)"
@@ -69285,7 +69253,7 @@
   skip_translation: true
 
 - text: "\".9CMU[]]]]]]YWQI?5*"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "'2=GOTV`````````_TRLD;/&"
@@ -69303,7 +69271,7 @@
   skip_translation: true
 
 - text: "\"-8CMU[]``````YWRJ@5*"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "$.7AKSY[````````_TSME;1%"
@@ -69314,7 +69282,7 @@
   translation: ""
 
 - text: "*2:?CEFFFFFFFFEDA;4+\""
-  translation: "*2:?CEFFFFFFFFEDA;4+\"
+  translation: "*2:?CEFFFFFFFFEDA;4+\\"
   skip_translation: true
 
 - text: "+4=CGIJJJJJJJJJFD?80&"
@@ -69326,7 +69294,7 @@
   skip_translation: true
 
 - text: "\"-8CMU[]````````_]WOF;0$"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "%0;FPX]_```_^\\XTQKE@90*!"
@@ -69353,7 +69321,7 @@
   skip_translation: true
 
 - text: "\"+27:@EGHIIGFA:72*\""
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "sactx-0-512x512-Crunch-Pinup Unlock Atlas-c882c445"
@@ -69917,7 +69885,7 @@
   translation: ""
 
 - text: "Nb\""
-  translation: "Nb\"
+  translation: "Nb\\"
   skip_translation: true
 
 - text: "Texture Icon"
@@ -69991,7 +69959,7 @@
   skip_translation: true
 
 - text: "\"III"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "Fade_Slim_30Deg"
@@ -70135,8 +70103,7 @@
   skip_translation: true
 
 - text: "#/9CKQ_``````````[YSKA7,"
-  translation: "#/9CKQ_``````````[YSKA7,"
-  skip_translation: true
+  translation: ""
 
 - text: "'3=GOUV``````````XVQI?4)"
   translation: ""
@@ -70167,7 +70134,7 @@
   skip_translation: true
 
 - text: "\"*178?DFHIIHGE@:84.&"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: ")09@DFJLKGFA:2)"
@@ -70206,7 +70173,7 @@
   skip_translation: true
 
 - text: "\"-6?EJKHFB;82+&"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "&08?DFRSSSSSSSSQOJD;2'"
@@ -70237,11 +70204,11 @@
   translation: ""
 
 - text: "#.8BJPS_````````^[UMD9.\""
-  translation: "#.8BJPS_````````^[UMD9.\"
+  translation: "#.8BJPS_````````^[UMD9.\\"
   skip_translation: true
 
 - text: ",7BKSY[````````][UMC9-\""
-  translation: ",7BKSY[````````][UMC9-\"
+  translation: ",7BKSY[````````][UMC9-\\"
   skip_translation: true
 
 - text: "!-8BLTZ\\``````ZXSJA6+"
@@ -70249,11 +70216,11 @@
   skip_translation: true
 
 - text: "\"-8AIPS]``````````XVPH?/&"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "\".9DMU[]````````ZXSJA6+"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "&.4@GOU]``]ULA5)"
@@ -70265,8 +70232,7 @@
   skip_translation: true
 
 - text: "Zr?,"
-  translation: "Zr?,"
-  skip_translation: true
+  translation: ""
 
 - text: "UZ?"
   translation: "UZ?"
@@ -70927,7 +70893,7 @@
   translation: ""
 
 - text: "Ph\"-"
-  translation: "Ph\"
+  translation: "Ph\\"
   skip_translation: true
 
 - text: "USq"
@@ -71430,7 +71396,7 @@
   skip_translation: true
 
 - text: "B\"]s?"
-  translation: "B\"
+  translation: "B\\"
   skip_translation: true
 
 - text: "Btqn?"
@@ -71441,7 +71407,7 @@
   translation: ""
 
 - text: "C)e\"?"
-  translation: "C)e\"
+  translation: "C)e\\"
   skip_translation: true
 
 - text: "AW~H?"
@@ -71728,7 +71694,7 @@
   translation: ""
 
 - text: "X?)y\""
-  translation: "X?)y\"
+  translation: "X?)y\\"
   skip_translation: true
 
 - text: "Label_Pulse"
@@ -72382,7 +72348,7 @@
   skip_translation: true
 
 - text: "\"GSUB"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "JSTFm*i"
@@ -72408,7 +72374,7 @@
   translation: ""
 
 - text: "%\"\"A=C0"
-  translation: "%\"
+  translation: "%\\"
   skip_translation: true
 
 - text: "0%0%0%0%0%-!-!B/B/+ + -!)!)!)!%"
@@ -72548,7 +72514,7 @@
   skip_translation: true
 
 - text: "\" 0 : D t"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "0 9 D t"
@@ -72829,8 +72795,7 @@
   skip_translation: true
 
 - text: "%EH!!!!-,"
-  translation: "%EH!!!!-,"
-  skip_translation: true
+  translation: ""
 
 - text: "%CH!!!-,E# E"
   translation: "%CH!!!-,E# E"
@@ -72882,7 +72847,7 @@
   translation: ""
 
 - text: "I\"j"
-  translation: "I\"
+  translation: "I\\"
   skip_translation: true
 
 - text: "9E'';Q8`U@50;('21?"
@@ -72910,7 +72875,7 @@
   skip_translation: true
 
 - text: "2E% y3\""
-  translation: "2E% y3\"
+  translation: "2E% y3\\"
   skip_translation: true
 
 - text: "V:CA:bi"
@@ -72931,7 +72896,7 @@
   skip_translation: true
 
 - text: "E\"EBE^E"
-  translation: "E\"
+  translation: "E\\"
   skip_translation: true
 
 - text: "T@TfT"
@@ -73016,7 +72981,7 @@
   skip_translation: true
 
 - text: "\" & : D t"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "& 9 D t"
@@ -73430,7 +73395,7 @@
   skip_translation: true
 
 - text: "\"CU"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: ")\\5AR-"
@@ -73575,8 +73540,7 @@
   skip_translation: true
 
 - text: "QA,"
-  translation: "QA,"
-  skip_translation: true
+  translation: ""
 
 - text: "AWs5A"
   translation: "AWs5A"
@@ -73702,8 +73666,7 @@
   skip_translation: true
 
 - text: "GA,"
-  translation: "GA,"
-  skip_translation: true
+  translation: ""
 
 - text: "0AJ"
   translation: "0AJ"
@@ -77587,7 +77550,7 @@
   skip_translation: true
 
 - text: "\"5A?\"5A?\"5A?"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "Zf`B"
@@ -82185,7 +82148,7 @@
   skip_translation: true
 
 - text: "\"-8AIPSWSPJD?8/(#"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "$,19@EGKQSUUVUTRLKGFA;5/("
@@ -82339,7 +82302,7 @@
   skip_translation: true
 
 - text: "\"5A?\"5A?\"5A?\"5A?\"5A?\"5A?"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "Camera Container Sway"
@@ -82520,7 +82483,7 @@
   skip_translation: true
 
 - text: "G ?e@\"A"
-  translation: "G ?e@\"
+  translation: "G ?e@\\"
   skip_translation: true
 
 - text: "W'A"
@@ -82602,7 +82565,7 @@
   skip_translation: true
 
 - text: "C\"A 6u?"
-  translation: "C\"
+  translation: "C\\"
   skip_translation: true
 
 - text: "A 6u?"
@@ -83752,7 +83715,7 @@
   skip_translation: true
 
 - text: "@\"A\"?\"A\"@\""
-  translation: "@\"
+  translation: "@\\"
   skip_translation: true
 
 - text: "CI/?G"
@@ -84175,7 +84138,7 @@
   skip_translation: true
 
 - text: "E\"YE"
-  translation: "E\"
+  translation: "E\\"
   skip_translation: true
 
 - text: "Bz?"
@@ -84230,7 +84193,7 @@
   skip_translation: true
 
 - text: "\"MA!"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "LAT"
@@ -84322,7 +84285,7 @@
   skip_translation: true
 
 - text: "Dx\""
-  translation: "Dx\"
+  translation: "Dx\\"
   skip_translation: true
 
 - text: "+AD"
@@ -85552,7 +85515,7 @@
   skip_translation: true
 
 - text: "P\"E"
-  translation: "P\"
+  translation: "P\\"
   skip_translation: true
 
 - text: "PhE"
@@ -86419,7 +86382,7 @@
   skip_translation: true
 
 - text: "R\"?h"
-  translation: "R\"
+  translation: "R\\"
   skip_translation: true
 
 - text: "H?l"
@@ -86521,7 +86484,7 @@
   skip_translation: true
 
 - text: "$#)IHL\""
-  translation: "$#)IHL\"
+  translation: "$#)IHL\\"
   skip_translation: true
 
 - text: "M,b"
@@ -86571,7 +86534,7 @@
   skip_translation: true
 
 - text: "Bd\""
-  translation: "Bd\"
+  translation: "Bd\\"
   skip_translation: true
 
 - text: "ChB"
@@ -86579,7 +86542,7 @@
   skip_translation: true
 
 - text: "Lb\""
-  translation: "Lb\"
+  translation: "Lb\\"
   skip_translation: true
 
 - text: "HO:"
@@ -86713,7 +86676,7 @@
   skip_translation: true
 
 - text: "LB\"\"b?"
-  translation: "LB\"
+  translation: "LB\\"
   skip_translation: true
 
 - text: "PBfff?"
@@ -86740,7 +86703,7 @@
   skip_translation: true
 
 - text: "PC\"\"b@"
-  translation: "PC\"
+  translation: "PC\\"
   skip_translation: true
 
 - text: "QC33c@"
@@ -86784,8 +86747,7 @@
   translation: ""
 
 - text: "Fp:^,"
-  translation: "Fp:^,"
-  skip_translation: true
+  translation: ""
 
 - text: "DZk"
   translation: "DZk"
@@ -86893,8 +86855,7 @@
   skip_translation: true
 
 - text: "QTq,"
-  translation: "QTq,"
-  skip_translation: true
+  translation: ""
 
 - text: "SrC"
   translation: "SrC"
@@ -86942,7 +86903,7 @@
   skip_translation: true
 
 - text: "H~^\"tBOC"
-  translation: "H~^\"
+  translation: "H~^\\"
   skip_translation: true
 
 - text: "DAv"
@@ -87378,7 +87339,7 @@
   skip_translation: true
 
 - text: "B\"\"b@"
-  translation: "B\"
+  translation: "B\\"
   skip_translation: true
 
 - text: "BDDd@"
@@ -87425,7 +87386,7 @@
   skip_translation: true
 
 - text: "E\"A!"
-  translation: "E\"
+  translation: "E\\"
   skip_translation: true
 
 - text: "RTA-"
@@ -87557,7 +87518,7 @@
   skip_translation: true
 
 - text: "\" & 9 D t"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "Xccmp"
@@ -87710,7 +87671,7 @@
   skip_translation: true
 
 - text: "V\"Aff"
-  translation: "V\"
+  translation: "V\\"
   skip_translation: true
 
 - text: "C+@ff"
@@ -88659,7 +88620,7 @@
   translation: ""
 
 - text: "\"ZI"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "ShowActive"
@@ -89762,7 +89723,7 @@
   skip_translation: true
 
 - text: "X\"Am"
-  translation: "X\"
+  translation: "X\\"
   skip_translation: true
 
 - text: "x Am"
@@ -90322,8 +90283,7 @@
   skip_translation: true
 
 - text: "AL,"
-  translation: "AL,"
-  skip_translation: true
+  translation: ""
 
 - text: "=0/AK"
   translation: "=0/AK"
@@ -90666,7 +90626,7 @@
   skip_translation: true
 
 - text: "\"'AA"
-  translation: "\"
+  translation: "\\"
   skip_translation: true
 
 - text: "N4m"
@@ -90882,7 +90842,7 @@
   skip_translation: true
 
 - text: "U!A7W\"@"
-  translation: "U!A7W\"
+  translation: "U!A7W\\"
   skip_translation: true
 
 - text: "H?Cs"
