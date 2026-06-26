@@ -4,16 +4,20 @@
   translation: "Реклама - Corrupt Technologies 4"
 
 - text: "A&X"
-  translation: ""
+  translation: "A&X"
+  skip_translation: true
 
 - text: "AD8"
-  translation: ""
+  translation: "AD8"
+  skip_translation: true
 
 - text: "[~AC)"
-  translation: ""
+  translation: "[~AC)"
+  skip_translation: true
 
 - text: "|AO"
-  translation: ""
+  translation: "|AO"
+  skip_translation: true
 
 - text: "CxA"
   translation: "CxA"

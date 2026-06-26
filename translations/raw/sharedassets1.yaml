@@ -13,17 +13,19 @@
   skip_translation: true
 
 - text: "Baked Train Background Blurred"
-  translation: ""
+  translation: "Размытый фон поезда"
 
 - text: "BlurredTex"
-  translation: ""
+  translation: "BlurredTex"
+  skip_translation: true
 
 - text: "Blur"
   translation: "Blur"
   skip_translation: true
 
 - text: "Train_Camera"
-  translation: ""
+  translation: "Train_Camera"
+  skip_translation: true
 
 - text: "\\UD?"
   translation: "\\\\UD?"
@@ -38,20 +40,26 @@
   skip_translation: true
 
 - text: "GqYB"
-  translation: ""
+  translation: "GqYB"
+  skip_translation: true
 
 - text: "DGqYB"
-  translation: ""
+  translation: "DGqYB"
+  skip_translation: true
 
 - text: "DrivebyLights"
-  translation: ""
+  translation: "DrivebyLights"
+  skip_translation: true
 
 - text: "ColorChanger"
-  translation: ""
+  translation: "ColorChanger"
+  skip_translation: true
 
 - text: "Car1 Move Left_Masked"
-  translation: ""
+  translation: "Car1 Move Left_Masked"
+  skip_translation: true
 
 - text: "FlyBy"
-  translation: ""
+  translation: "FlyBy"
+  skip_translation: true
 

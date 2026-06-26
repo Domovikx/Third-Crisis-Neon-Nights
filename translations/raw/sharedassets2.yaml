@@ -57,7 +57,8 @@
   skip_translation: true
 
 - text: "B3pO?"
-  translation: ""
+  translation: "B3pO?"
+  skip_translation: true
 
 - text: "=)HO"
   translation: "=)HO"
@@ -84,7 +85,8 @@
   skip_translation: true
 
 - text: "BDnME"
-  translation: ""
+  translation: "BDnME"
+  skip_translation: true
 
 - text: "Nh?"
   translation: "Nh?"
@@ -171,7 +173,8 @@
   skip_translation: true
 
 - text: "TdC?qy"
-  translation: ""
+  translation: "TdC?qy"
+  skip_translation: true
 
 - text: "(VE"
   translation: "(VE"
@@ -198,5 +201,6 @@
   skip_translation: true
 
 - text: "AboultWare"
-  translation: ""
+  translation: "AboultWare"
+  skip_translation: true
 

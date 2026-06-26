@@ -9,7 +9,8 @@
   skip_translation: true
 
 - text: "QEqM"
-  translation: ""
+  translation: "QEqM"
+  skip_translation: true
 
 - text: "ELM"
   translation: "ELM"

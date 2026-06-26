@@ -1,7 +1,7 @@
 # raw (bundle_pinupnovaxjay_assets_all)
 
 - text: "Nova x Jay"
-  translation: ""
+  translation: "Нова и Джей"
 
 - text: "NAP"
   translation: "NAP"
@@ -80,7 +80,8 @@
   skip_translation: true
 
 - text: "0LA)"
-  translation: ""
+  translation: "0LA)"
+  skip_translation: true
 
 - text: "&XBA"
   translation: "&XBA"

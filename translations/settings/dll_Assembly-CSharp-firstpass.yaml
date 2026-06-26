@@ -2,234 +2,177 @@
 
 - text: "handlesOut must be the same size as Constants.STEAM_CONTROLLER_MAX_COUNT!"
   translation: "handlesOut must be the same size as Constants.STEAM_CONTROLLER_MAX_COUNT!"
-  skip_translation: true
 
 - text: "originsOut must be the same size as Constants.STEAM_CONTROLLER_MAX_ORIGINS!"
   translation: "originsOut must be the same size as Constants.STEAM_CONTROLLER_MAX_ORIGINS!"
-  skip_translation: true
 
 - text: "pOutItemsArray must be the same size as punOutItemsArraySize!"
   translation: "pOutItemsArray must be the same size as punOutItemsArraySize!"
-  skip_translation: true
 
 - text: "pItemDefIDs must be the same size as punItemDefIDsArraySize!"
   translation: "pItemDefIDs must be the same size as punItemDefIDsArraySize!"
-  skip_translation: true
 
 - text: "pArrayItemDefs must be the same size as unArrayLength!"
   translation: "pArrayItemDefs must be the same size as unArrayLength!"
-  skip_translation: true
 
 - text: "pCurrentPrices must be the same size as unArrayLength!"
   translation: "pCurrentPrices must be the same size as unArrayLength!"
-  skip_translation: true
 
 - text: "pBasePrices must be the same size as unArrayLength!"
   translation: "pBasePrices must be the same size as unArrayLength!"
-  skip_translation: true
 
 - text: "handlesOut must be the same size as Constants.STEAM_INPUT_MAX_COUNT!"
   translation: "handlesOut must be the same size as Constants.STEAM_INPUT_MAX_COUNT!"
-  skip_translation: true
 
 - text: "handlesOut must be the same size as Constants.STEAM_INPUT_MAX_ACTIVE_LAYERS!"
   translation: "handlesOut must be the same size as Constants.STEAM_INPUT_MAX_ACTIVE_LAYERS!"
-  skip_translation: true
 
 - text: "originsOut must be the same size as Constants.STEAM_INPUT_MAX_ORIGINS!"
   translation: "originsOut must be the same size as Constants.STEAM_INPUT_MAX_ORIGINS!"
-  skip_translation: true
 
 - text: "Callback function must not be null."
   translation: "Callback function must not be null."
-  skip_translation: true
 
 - text: "Callback number not found for struct"
   translation: "Номер колбэка не найден для структуры"
 
 - text: "Steamworks is not initialized."
   translation: "Steamworks is not initialized."
-  skip_translation: true
 
 - text: "Steamworks GameServer is not initialized."
   translation: "Steamworks GameServer is not initialized."
-  skip_translation: true
 
 - text: "Unknown rendering mode"
   translation: "Unknown rendering mode"
-  skip_translation: true
 
 - text: "Unknown dilate quality level"
   translation: "Unknown dilate quality level"
-  skip_translation: true
 
 - text: "Unknown blur type"
   translation: "Unknown blur type"
-  skip_translation: true
 
 - text: "Trying to set cutout texture index less than zero"
   translation: "Trying to set cutout texture index less than zero"
-  skip_translation: true
 
 - text: "Unknown mode"
   translation: "Unknown mode"
-  skip_translation: true
 
 - text: "The property"
   translation: "The property"
-  skip_translation: true
 
 - text: "doesn't exist. Use string overload to create one."
   translation: "doesn't exist. Use string overload to create one."
-  skip_translation: true
 
 - text: "You have more than 1 HtmlDebug GameObject, make sure to only use 1"
   translation: "You have more than 1 HtmlDebug GameObject, make sure to only use 1"
-  skip_translation: true
 
 - text: "Unity version"
   translation: "Unity version"
-  skip_translation: true
 
 - text: "is out of range. List count is"
   translation: "is out of range. List count is"
-  skip_translation: true
 
 - text: "Invalid length!"
   translation: "Invalid length!"
-  skip_translation: true
 
 - text: "List is empty!"
   translation: "List is empty!"
-  skip_translation: true
 
 - text: "is bigger than Count"
   translation: "is bigger than Count"
-  skip_translation: true
 
 - text: "FastQueue is empty!"
   translation: "FastQueue is empty!"
-  skip_translation: true
 
 - text: "Item not found in FastQueue"
   translation: "Item not found in FastQueue"
-  skip_translation: true
 
 - text: "yyyy-MM-dd HH:mm:ss"
   translation: "yyyy-MM-dd HH:mm:ss"
-  skip_translation: true
 
 - text: "Not enough parameters"
   translation: "Not enough parameters"
-  skip_translation: true
 
 - text: "Cannot find '"
   translation: "Cannot find '"
-  skip_translation: true
 
 - text: "Cannot parse"
   translation: "Cannot parse"
-  skip_translation: true
 
 - text: "Type '?' to list all commands"
   translation: "Type '?' to list all commands"
-  skip_translation: true
 
 - text: "Property has no getter or setter"
   translation: "Property has no getter or setter"
-  skip_translation: true
 
 - text: "Duplicate command: `"
   translation: "Duplicate command: `"
-  skip_translation: true
 
 - text: "Cannot register:"
   translation: "Cannot register:"
-  skip_translation: true
 
 - text: ". Only primitive and string parameters are allowed at the moment."
   translation: ". Only primitive and string parameters are allowed at the moment."
-  skip_translation: true
 
 - text: "There is no registered instance for command '"
   translation: "There is no registered instance for command '"
-  skip_translation: true
 
 - text: "Execute only on remote '"
   translation: "Execute only on remote '"
-  skip_translation: true
 
 - text: "Execute on all '"
   translation: "Execute on all '"
-  skip_translation: true
 
 - text: "String closing \" is missing"
   translation: "String closing \" is missing"
-  skip_translation: true
 
 - text: "Cannot find command '"
   translation: "Cannot find command '"
-  skip_translation: true
 
 - text: "Unity Log"
   translation: "Unity Log"
-  skip_translation: true
 
 - text: "Html Log"
   translation: "Html Log"
-  skip_translation: true
 
 - text: "Open Html Log in browser"
   translation: "Open Html Log in browser"
-  skip_translation: true
 
 - text: "Logs Folder"
   translation: "Logs Folder"
-  skip_translation: true
 
 - text: "Open Logs Folder in File Exlorer"
   translation: "Open Logs Folder in File Exlorer"
-  skip_translation: true
 
 - text: "Centers the window in the top of the screen"
   translation: "Centers the window in the top of the screen"
-  skip_translation: true
 
 - text: "Clear all Logs"
   translation: "Clear all Logs"
-  skip_translation: true
 
 - text: "Scroll to last Log"
   translation: "Scroll to last Log"
-  skip_translation: true
 
 - text: "Resize console window"
   translation: "Resize console window"
-  skip_translation: true
 
 - text: "Time Scale"
   translation: "Time Scale"
-  skip_translation: true
 
 - text: "Toggles Time-Scale to 0 and before"
   translation: "Toggles Time-Scale to 0 and before"
-  skip_translation: true
 
 - text: "Reset Time-Scale to 1"
   translation: "Reset Time-Scale to 1"
-  skip_translation: true
 
 - text: "Reset fov to 60"
   translation: "Reset fov to 60"
-  skip_translation: true
 
 - text: "Show Controls"
   translation: "Show Controls"
-  skip_translation: true
 
 - text: "Change tooltip, search and Camera settings"
   translation: "Change tooltip, search and Camera settings"
-  skip_translation: true
 
 - text: "Toggle navigation camera
   When enabled use:"
@@ -237,275 +180,207 @@
 
 - text: "Link Select"
   translation: "Link Select"
-  skip_translation: true
 
 - text: "Link selected to Unity's hierarchy window"
   translation: "Link selected to Unity's hierarchy window"
-  skip_translation: true
 
 - text: "Child Count"
   translation: "Child Count"
-  skip_translation: true
 
 - text: "Shows the child count for each GameObject"
   translation: "Shows the child count for each GameObject"
-  skip_translation: true
 
 - text: "Scene Mode"
   translation: "Scene Mode"
-  skip_translation: true
 
 - text: "Assembly Mode"
   translation: "Assembly Mode"
-  skip_translation: true
 
 - text: "Memory Mode"
   translation: "Memory Mode"
-  skip_translation: true
 
 - text: "Take Snapshot"
   translation: "Take Snapshot"
-  skip_translation: true
 
 - text: "Take Memory Snapshot"
   translation: "Take Memory Snapshot"
-  skip_translation: true
 
 - text: "Toggle sorting between alphabetic and child count"
   translation: "Toggle sorting between alphabetic and child count"
-  skip_translation: true
 
 - text: "Filter Compare"
   translation: "Filter Compare"
-  skip_translation: true
 
 - text: "Show HideFlags icons"
   translation: "Show HideFlags icons"
-  skip_translation: true
 
 - text: "Foldout one level"
   translation: "Foldout one level"
-  skip_translation: true
 
 - text: "Fold one level"
   translation: "Fold one level"
-  skip_translation: true
 
 - text: "Shift Click GameObject"
   translation: "Shift Click GameObject"
-  skip_translation: true
 
 - text: "Toggle Active"
   translation: "Toggle Active"
-  skip_translation: true
 
 - text: "Shift Click Inspector"
   translation: "Shift Click Inspector"
-  skip_translation: true
 
 - text: "Click Component in Inspector"
   translation: "Click Component in Inspector"
-  skip_translation: true
 
 - text: "Search inside it"
   translation: "Search inside it"
-  skip_translation: true
 
 - text: "Right Click Scene"
   translation: "Right Click Scene"
-  skip_translation: true
 
 - text: "Set Active Scene"
   translation: "Set Active Scene"
-  skip_translation: true
 
 - text: "Control Click 'D'"
   translation: "Control Click 'D'"
-  skip_translation: true
 
 - text: "Duplicate GameObject"
   translation: "Duplicate GameObject"
-  skip_translation: true
 
 - text: "Delete GameObject"
   translation: "Delete GameObject"
-  skip_translation: true
 
 - text: "Show Tooltips"
   translation: "Show Tooltips"
-  skip_translation: true
 
 - text: "Selection Sphere"
   translation: "Selection Sphere"
-  skip_translation: true
 
 - text: "The radius of the Selection Sphere"
   translation: "The radius of the Selection Sphere"
-  skip_translation: true
 
 - text: "GUI Scale"
   translation: "GUI Scale"
-  skip_translation: true
 
 - text: "GameObjects Per Frame"
   translation: "GameObjects Per Frame"
-  skip_translation: true
 
 - text: "Assembly Per Frame"
   translation: "Assembly Per Frame"
-  skip_translation: true
 
 - text: "Inspector Per Frame"
   translation: "Inspector Per Frame"
-  skip_translation: true
 
 - text: "Mouse Sensivity"
   translation: "Mouse Sensivity"
-  skip_translation: true
 
 - text: "Acceleration Multi"
   translation: "Acceleration Multi"
-  skip_translation: true
 
 - text: "Deceleration Multi"
   translation: "Deceleration Multi"
-  skip_translation: true
 
 - text: "Speed Slow"
   translation: "Speed Slow"
-  skip_translation: true
 
 - text: "Speed Normal"
   translation: "Speed Normal"
-  skip_translation: true
 
 - text: "Speed Fast"
   translation: "Speed Fast"
-  skip_translation: true
 
 - text: "Mouse ScrollWheel Multi"
   translation: "Mouse ScrollWheel Multi"
-  skip_translation: true
 
 - text: "Mouse Strafe Multi"
   translation: "Mouse Strafe Multi"
-  skip_translation: true
 
 - text: "Object is Destroyed"
   translation: "Object is Destroyed"
-  skip_translation: true
 
 - text: "Deep Inspector"
   translation: "Deep Inspector"
-  skip_translation: true
 
 - text: "Search Level"
   translation: "Search Level"
-  skip_translation: true
 
 - text: "Click on a Component to search inside it"
   translation: "Click on a Component to search inside it"
-  skip_translation: true
 
 - text: "Is Inherited"
   translation: "Is Inherited"
-  skip_translation: true
 
 - text: "Is Static"
   translation: "Is Static"
-  skip_translation: true
 
 - text: "Has a Getter"
   translation: "Has a Getter"
-  skip_translation: true
 
 - text: "Has a Setter"
   translation: "Has a Setter"
-  skip_translation: true
 
 - text: "is Constant"
   translation: "is Constant"
-  skip_translation: true
 
 - text: "Multi dimensional arrays will be supported soon"
   translation: "Multi dimensional arrays will be supported soon"
-  skip_translation: true
 
 - text: "Add another Search Condition"
   translation: "Add another Search Condition"
-  skip_translation: true
 
 - text: "Remove this Search Condition"
   translation: "Remove this Search Condition"
-  skip_translation: true
 
 - text: "Delete search text"
   translation: "Delete search text"
-  skip_translation: true
 
 - text: "Is Prefab"
   translation: "Is Prefab"
-  skip_translation: true
 
 - text: "Is Public"
   translation: "Is Public"
-  skip_translation: true
 
 - text: "Is Protected"
   translation: "Is Protected"
-  skip_translation: true
 
 - text: "Is Private"
   translation: "Is Private"
-  skip_translation: true
 
 - text: "Can't execute because of wrong number of arguments"
   translation: "Can't execute because of wrong number of arguments"
-  skip_translation: true
 
 - text: "Too many arguments"
   translation: "Too many arguments"
-  skip_translation: true
 
 - text: "Can't execute because"
   translation: "Can't execute because"
-  skip_translation: true
 
 - text: "GAUSSIAN5X5"
   translation: "GAUSSIAN5X5"
-  skip_translation: true
 
 - text: "GAUSSIAN9X9"
   translation: "GAUSSIAN9X9"
-  skip_translation: true
 
 - text: "GAUSSIAN13X13"
   translation: "GAUSSIAN13X13"
-  skip_translation: true
 
 - text: "Show/Hide Command Logs"
   translation: "Show/Hide Command Logs"
-  skip_translation: true
 
 - text: "Show/Hide Debug Logs"
   translation: "Show/Hide Debug Logs"
-  skip_translation: true
 
 - text: "Show/Hide Debug Warnings"
   translation: "Show/Hide Debug Warnings"
-  skip_translation: true
 
 - text: "Show/Hide Debug Errors"
   translation: "Show/Hide Debug Errors"
-  skip_translation: true
 
 - text: "Show/Hide Debug Exceptions"
   translation: "Show/Hide Debug Exceptions"
-  skip_translation: true
 
 - text: "Show/Hide Stack Trace"
   translation: "Show/Hide Stack Trace"
-  skip_translation: true
 
 - text: "Show/Hide Unity Assemblies Shift click to multi select"
   translation: ""
@@ -533,56 +408,43 @@
 
 - text: "Foldout all up/down"
   translation: "Foldout all up/down"
-  skip_translation: true
 
 - text: "Show/Hide Fields"
   translation: "Show/Hide Fields"
-  skip_translation: true
 
 - text: "Show/Hide Properties"
   translation: "Show/Hide Properties"
-  skip_translation: true
 
 - text: "Show/Hide Methods"
   translation: "Show/Hide Methods"
-  skip_translation: true
 
 - text: "Show/Hide Inherited Members"
   translation: "Show/Hide Inherited Members"
-  skip_translation: true
 
 - text: "Show/Hide Declared Members"
   translation: "Show/Hide Declared Members"
-  skip_translation: true
 
 - text: "Show/Hide Static Members"
   translation: "Show/Hide Static Members"
-  skip_translation: true
 
 - text: "Show/Hide Instance Members"
   translation: "Show/Hide Instance Members"
-  skip_translation: true
 
 - text: "Show/Hide Public Members"
   translation: "Show/Hide Public Members"
-  skip_translation: true
 
 - text: "Show/Hide Protected Members"
   translation: "Show/Hide Protected Members"
-  skip_translation: true
 
 - text: "Sow/Hide Private Members"
   translation: "Sow/Hide Private Members"
-  skip_translation: true
 
 - text: "Click to search inside Shift click to enable/disable"
   translation: ""
 
 - text: "Toggle Search On/Off"
   translation: "Toggle Search On/Off"
-  skip_translation: true
 
 - text: "Toggle between searching for Names/Types"
   translation: "Toggle between searching for Names/Types"
-  skip_translation: true
 

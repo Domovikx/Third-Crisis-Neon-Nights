@@ -318,5 +318,6 @@
   skip_translation: true
 
 - text: "PA,"
-  translation: ""
+  translation: "PA,"
+  skip_translation: true
 

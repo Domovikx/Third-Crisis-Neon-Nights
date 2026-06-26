@@ -1,19 +1,20 @@
 # raw (bundle_sexscene-zoeyflashingtitcg_assets_all)
 
 - text: "Camera Flash"
-  translation: ""
+  translation: "Вспышка камеры"
 
 - text: "Camera After Flash"
-  translation: ""
+  translation: "Камера после вспышки"
 
 - text: "Camera Picture"
-  translation: ""
+  translation: "Фото камеры"
 
 - text: "Flash Tit"
-  translation: ""
+  translation: "Вспышка груди"
 
 - text: "MQxA"
-  translation: ""
+  translation: "MQxA"
+  skip_translation: true
 
 - text: "n?C 8"
   translation: "n?C 8"
@@ -40,14 +41,16 @@
   skip_translation: true
 
 - text: "Aj0?Ks"
-  translation: ""
+  translation: "Aj0?Ks"
+  skip_translation: true
 
 - text: "BMA"
   translation: "BMA"
   skip_translation: true
 
 - text: "5?BA"
-  translation: ""
+  translation: "5?BA"
+  skip_translation: true
 
 - text: "SA`o"
   translation: "SA`o"
@@ -102,10 +105,11 @@
   skip_translation: true
 
 - text: "CameraHUD"
-  translation: ""
+  translation: "CameraHUD"
+  skip_translation: true
 
 - text: "Zoey Boobflash CG - Sprite Atlas"
-  translation: ""
+  translation: "CG показа груди Зои - Sprite Atlas"
 
 - text: "L4A"
   translation: "L4A"
@@ -116,10 +120,12 @@
   skip_translation: true
 
 - text: "YAff*?"
-  translation: ""
+  translation: "YAff*?"
+  skip_translation: true
 
 - text: "YAff"
-  translation: ""
+  translation: "YAff"
+  skip_translation: true
 
 - text: "L^A"
   translation: "L^A"
@@ -130,13 +136,13 @@
   skip_translation: true
 
 - text: "Camera Hud - Camera Position Copy"
-  translation: ""
+  translation: "HUD камеры — Копия позиции камеры"
 
 - text: "Shutter Button"
-  translation: ""
+  translation: "Кнопка затвора"
 
 - text: "Camera Hud Sprite"
-  translation: ""
+  translation: "Спрайт HUD камеры"
 
 - text: "C2h9"
   translation: "C2h9"
@@ -147,43 +153,55 @@
   skip_translation: true
 
 - text: "Black Saved Image Overlay"
-  translation: ""
+  translation: "Чёрное наложение сохранённого изображения"
 
 - text: "A_boobs_covered"
-  translation: ""
+  translation: "A_boobs_covered"
+  skip_translation: true
 
 - text: "A_buckle_left"
-  translation: ""
+  translation: "A_buckle_left"
+  skip_translation: true
 
 - text: "A_buckle_right"
-  translation: ""
+  translation: "A_buckle_right"
+  skip_translation: true
 
 - text: "A_mouth_open"
-  translation: ""
+  translation: "A_mouth_open"
+  skip_translation: true
 
 - text: "A_zipper"
-  translation: ""
+  translation: "A_zipper"
+  skip_translation: true
 
 - text: "A_zipper_base"
-  translation: ""
+  translation: "A_zipper_base"
+  skip_translation: true
 
 - text: "B_boob_left"
-  translation: ""
+  translation: "B_boob_left"
+  skip_translation: true
 
 - text: "B_boob_right"
-  translation: ""
+  translation: "B_boob_right"
+  skip_translation: true
 
 - text: "B_bra_band"
-  translation: ""
+  translation: "B_bra_band"
+  skip_translation: true
 
 - text: "B_bra_pulled"
-  translation: ""
+  translation: "B_bra_pulled"
+  skip_translation: true
 
 - text: "B_hand_right"
-  translation: ""
+  translation: "B_hand_right"
+  skip_translation: true
 
 - text: "B_mouth_closed"
-  translation: ""
+  translation: "B_mouth_closed"
+  skip_translation: true
 
 - text: "Dv2"
   translation: "Dv2"
@@ -206,13 +224,16 @@
   skip_translation: true
 
 - text: "A_zipper2"
-  translation: ""
+  translation: "A_zipper2"
+  skip_translation: true
 
 - text: "A_buckle_right2"
-  translation: ""
+  translation: "A_buckle_right2"
+  skip_translation: true
 
 - text: "A_buckle_right3"
-  translation: ""
+  translation: "A_buckle_right3"
+  skip_translation: true
 
 - text: "+UD"
   translation: "+UD"
@@ -223,14 +244,16 @@
   skip_translation: true
 
 - text: "A_buckle_left2"
-  translation: ""
+  translation: "A_buckle_left2"
+  skip_translation: true
 
 - text: "A_buckle_left3!"
-  translation: ""
+  translation: "A_buckle_left3!"
+  skip_translation: true
 
 - text: "Zoey Flashing Tit CG"
-  translation: ""
+  translation: "CG Зои показывает грудь"
 
 - text: "Camera Hud Parent"
-  translation: ""
+  translation: "Родитель HUD камеры"
 

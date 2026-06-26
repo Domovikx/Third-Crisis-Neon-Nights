@@ -1,79 +1,82 @@
 # raw (level0)
 
 - text: "Create Main Menu Script"
-  translation: ""
+  translation: "Создать скрипт главного меню"
 
 - text: "Camera Container"
-  translation: ""
+  translation: "Контейнер камер"
 
 - text: "Version UI"
-  translation: ""
+  translation: "Версия"
 
 - text: "Preload Addressables"
-  translation: ""
+  translation: "Предзагрузка Addressables"
 
 - text: "RestrictSaves"
-  translation: ""
+  translation: "RestrictSaves"
+  skip_translation: true
 
 - text: "Phone"
-  translation: ""
+  translation: "Телефон"
 
 - text: "White Background"
-  translation: ""
+  translation: "Белый фон"
 
 - text: "Highlighted Graphic"
-  translation: ""
+  translation: "Выделенная графика"
 
 - text: "Main Graphic"
-  translation: ""
+  translation: "Основная графика"
 
 - text: "Options Button"
-  translation: ""
+  translation: "Кнопка настроек"
 
 - text: "New Game Animation Container"
-  translation: ""
+  translation: "Контейнер анимации новой игры"
 
 - text: "Bind Display for Selectable"
-  translation: ""
+  translation: "Привязать отображение для Selectable"
 
 - text: "Start Game Button"
-  translation: ""
+  translation: "Новая игра"
 
 - text: "Continue Button"
-  translation: ""
+  translation: "Продолжить"
 
 - text: "Exit Button"
-  translation: ""
+  translation: "Выйти"
 
 - text: "Head IK Target"
-  translation: ""
+  translation: "Цель IK головы"
 
 - text: "Subtitle"
-  translation: ""
+  translation: "Субтитры"
 
 - text: "Review Button"
-  translation: ""
+  translation: "Кнопка отзыва"
 
 - text: "Social Button Twitter"
-  translation: ""
+  translation: "Twitter"
 
 - text: "HighlightArrow"
-  translation: ""
+  translation: "HighlightArrow"
+  skip_translation: true
 
 - text: "Release Notes Button"
-  translation: ""
+  translation: "Список изменений"
 
 - text: "ButtonContainer"
-  translation: ""
+  translation: "ButtonContainer"
+  skip_translation: true
 
 - text: "Buy Button"
-  translation: ""
+  translation: "Купить"
 
 - text: "Load Button"
-  translation: ""
+  translation: "Загрузить"
 
 - text: "Social Button Discord"
-  translation: ""
+  translation: "Discord"
 
 - text: "?WA&?"
   translation: "?WA&?"
@@ -96,74 +99,78 @@
   skip_translation: true
 
 - text: "PURCHASE"
-  translation: ""
+  translation: "КУПИТЬ"
 
 - text: "WIshlist"
-  translation: ""
+  translation: "В список желаемого"
 
 - text: "WISHLIST"
-  translation: ""
+  translation: "В СПИСОК ЖЕЛАЕМОГО"
 
 - text: "Load Game"
-  translation: ""
+  translation: "Загрузить игру"
 
 - text: "Review"
-  translation: ""
+  translation: "Оставить отзыв"
 
 - text: "Open Menu"
-  translation: ""
+  translation: "Открыть меню"
 
 - text: "Fire"
-  translation: ""
+  translation: "Огонь"
 
 - text: "Wait for clicked"
-  translation: ""
+  translation: "Ожидание клика"
 
 - text: "Open Release Notes"
-  translation: ""
+  translation: "Открыть список изменений"
 
 - text: "Quit"
-  translation: ""
+  translation: "Выйти"
 
 - text: "Open Twitter"
-  translation: ""
+  translation: "Открыть Twitter"
 
 - text: "Are there any Save Games?"
-  translation: ""
+  translation: "Есть сохранения?"
 
 - text: "Disable Continue button"
-  translation: ""
+  translation: "Отключить кнопку продолжения"
 
 - text: "YesThereAre"
-  translation: ""
+  translation: "YesThereAre"
+  skip_translation: true
 
 - text: "NoThereAreNot"
-  translation: ""
+  translation: "NoThereAreNot"
+  skip_translation: true
 
 - text: "Setup new Save and start Animation"
-  translation: ""
+  translation: "Настроить новое сохранение и запустить анимацию"
 
 - text: "Start new Game"
-  translation: ""
+  translation: "Новая игра"
 
 - text: "Change Level"
-  translation: ""
+  translation: "Сменить уровень"
 
 - text: "LevelName"
-  translation: ""
+  translation: "LevelName"
+  skip_translation: true
 
 - text: "Forced"
-  translation: ""
+  translation: "Принудительно"
 
 - text: "IgnoreLock"
-  translation: ""
+  translation: "IgnoreLock"
+  skip_translation: true
 
 - text: "Eye Wiggle"
-  translation: ""
+  translation: "Движение глаз"
 
 - text: "Spec Wiggle"
-  translation: ""
+  translation: "Движение бликов"
 
 - text: "Open discord"
-  translation: ""
+  translation: "Открыть Discord"
 

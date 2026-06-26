@@ -5,7 +5,8 @@
   skip_translation: true
 
 - text: "h ?DI'"
-  translation: ""
+  translation: "h ?DI'"
+  skip_translation: true
 
 - text: "Xu%"
   translation: "Xu%"
@@ -52,13 +53,13 @@
   skip_translation: true
 
 - text: "HUD Mask"
-  translation: ""
+  translation: "Маска HUD"
 
 - text: "Enforcers"
-  translation: ""
+  translation: "Энфорсеры"
 
 - text: "HUD Parent"
-  translation: ""
+  translation: "Родитель HUD"
 
 - text: "Signs"
   translation: "Signs"
@@ -69,72 +70,78 @@
   skip_translation: true
 
 - text: "Dressing Dildo2_Shadow"
-  translation: ""
+  translation: "Dressing Dildo2_Shadow"
+  skip_translation: true
 
 - text: "CurtainsRight"
-  translation: ""
+  translation: "CurtainsRight"
+  skip_translation: true
 
 - text: "Dressing Dildo"
-  translation: ""
+  translation: "Дильдо"
 
 - text: "HUD"
   translation: "HUD"
   skip_translation: true
 
 - text: "Ad Main Content"
-  translation: ""
+  translation: "Основное содержание рекламы"
 
 - text: "Character Mask"
-  translation: ""
+  translation: "Маска персонажа"
 
 - text: "Dressing Dildo2"
-  translation: ""
+  translation: "Дильдо 2"
 
 - text: "Character Parent"
-  translation: ""
+  translation: "Родитель персонажа"
 
 - text: "Dressing Dildo_Shadow"
-  translation: ""
+  translation: "Dressing Dildo_Shadow"
+  skip_translation: true
 
 - text: "Texts"
   translation: "Texts"
   skip_translation: true
 
 - text: "Text 2"
-  translation: ""
+  translation: "Текст 2"
 
 - text: "Glitch Mask"
-  translation: ""
+  translation: "Маска глитча"
 
 - text: "Company Text"
-  translation: ""
+  translation: "Текст компании"
 
 - text: "MiddleLight"
-  translation: ""
+  translation: "MiddleLight"
+  skip_translation: true
 
 - text: "Picture Pinup Unlocker - Corrupt Technologues 2"
-  translation: ""
+  translation: "Разблокировщик пинапов — Corrupt Technologies 2"
 
 - text: "Spiral"
-  translation: ""
+  translation: "Спираль"
 
 - text: "Spiral Parent"
-  translation: ""
+  translation: "Родитель спирали"
 
 - text: "Composite Shadow caster"
-  translation: ""
+  translation: "Составной отбрасыватель тени"
 
 - text: "Text 1"
-  translation: ""
+  translation: "Текст 1"
 
 - text: "Text 3"
-  translation: ""
+  translation: "Текст 3"
 
 - text: "HoloGirls"
-  translation: ""
+  translation: "HoloGirls"
+  skip_translation: true
 
 - text: "CurtainsLeft"
-  translation: ""
+  translation: "CurtainsLeft"
+  skip_translation: true
 
 - text: "Q@c"
   translation: "Q@c"
@@ -153,26 +160,26 @@
   skip_translation: true
 
 - text: "Your"
-  translation: ""
+  translation: "Твои"
 
 - text: "Urges"
-  translation: ""
+  translation: "Желания"
 
 - text: "Resist"
-  translation: ""
+  translation: "Сопротивляйся"
 
 - text: "Become"
-  translation: ""
+  translation: "Стань"
 
 - text: "Her"
-  translation: ""
+  translation: "Её"
 
 - text: "Ws?"
   translation: "Ws?"
   skip_translation: true
 
 - text: "Corrupt Technologies Advertisement"
-  translation: ""
+  translation: "Реклама Corrupt Technologies"
 
 - text: "PAw"
   translation: "PAw"
@@ -183,20 +190,22 @@
   skip_translation: true
 
 - text: "Residential"
-  translation: ""
+  translation: "Жилой"
 
 - text: "Set to Residential"
-  translation: ""
+  translation: "Установить жилой"
 
 - text: "ToLowerRDL"
-  translation: ""
+  translation: "ToLowerRDL"
+  skip_translation: true
 
 - text: "ToSubway"
-  translation: ""
+  translation: "ToSubway"
+  skip_translation: true
 
 - text: "REDLIGHT DISTRICT"
-  translation: ""
+  translation: "КВАРТАЛ КРАСНЫХ ФОНАРЕЙ"
 
 - text: "Picture Taken"
-  translation: ""
+  translation: "Фото сделано"
 

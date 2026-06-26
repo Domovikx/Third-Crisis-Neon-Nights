@@ -13,20 +13,24 @@
   skip_translation: true
 
 - text: "WaterMask"
-  translation: ""
+  translation: "WaterMask"
+  skip_translation: true
 
 - text: "BakedFlowers Lobby"
-  translation: ""
+  translation: "BakedFlowers Lobby"
+  skip_translation: true
 
 - text: "GraphCache"
   translation: "GraphCache"
   skip_translation: true
 
 - text: "FujP"
-  translation: ""
+  translation: "FujP"
+  skip_translation: true
 
 - text: "MiFsZ"
-  translation: ""
+  translation: "MiFsZ"
+  skip_translation: true
 
 - text: "Fwz"
   translation: "Fwz"
@@ -37,14 +41,16 @@
   skip_translation: true
 
 - text: "Lobby_overlay2"
-  translation: ""
+  translation: "Lobby_overlay2"
+  skip_translation: true
 
 - text: "*I]B"
   translation: "*I]B"
   skip_translation: true
 
 - text: "Lobby Atlas 2k"
-  translation: ""
+  translation: "Lobby Atlas 2k"
+  skip_translation: true
 
 - text: "FA)&"
   translation: "FA)&"
@@ -99,42 +105,45 @@
   skip_translation: true
 
 - text: "RubA"
-  translation: ""
+  translation: "RubA"
+  skip_translation: true
 
 - text: "Agl"
-  translation: ""
+  translation: "Agl"
+  skip_translation: true
 
 - text: "NA\\"
   translation: "NA\\\\"
   skip_translation: true
 
 - text: "ADDDDD"
-  translation: ""
+  translation: "ADDDDD"
+  skip_translation: true
 
 - text: "B+7A"
   translation: "B+7A"
   skip_translation: true
 
 - text: "Lobby_masturbating_girl B"
-  translation: ""
+  translation: "Лобби — мастурбирующая девушка B"
 
 - text: "0.3 - Neon Rise - Enforcer Block - 01"
-  translation: ""
+  translation: "0.3 — Neon Rise — Блок энфорсеров — 01"
 
 - text: "0.3 - Neon Rise - Enforcer Block - 02 - Has Party"
-  translation: ""
+  translation: "0.3 — Neon Rise — Блок энфорсеров — 02 — Есть вечеринка"
 
 - text: "Protecting?"
-  translation: ""
+  translation: "Защищаешь?"
 
 - text: "0.3 - Neon Rise - Enforcer Block - Rat Out - 01"
-  translation: ""
+  translation: "0.3 — Neon Rise — Блок энфорсеров — Стукач — 01"
 
 - text: "0.3 - Neon Rise - Enforcer Block - Rat Out - 02"
-  translation: ""
+  translation: "0.3 — Neon Rise — Блок энфорсеров — Стукач — 02"
 
 - text: "0.3 - Neon Rise - Enforcer Block - Rat Out - 03"
-  translation: ""
+  translation: "0.3 — Neon Rise — Блок энфорсеров — Стукач — 03"
 
 - text: "Let Enforcer Grope ZoeyTimeline"
   translation: "Let Enforcer Grope ZoeyTimeline"
@@ -145,5 +154,6 @@
   skip_translation: true
 
 - text: "EDDDDD"
-  translation: ""
+  translation: "EDDDDD"
+  skip_translation: true
 

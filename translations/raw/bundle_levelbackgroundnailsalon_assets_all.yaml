@@ -1,5 +1,6 @@
 # raw (bundle_levelbackgroundnailsalon_assets_all)
 
 - text: "LVLBG_NailSalon"
-  translation: ""
+  translation: "LVLBG_NailSalon"
+  skip_translation: true
 

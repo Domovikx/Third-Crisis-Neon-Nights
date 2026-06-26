@@ -1,23 +1,26 @@
 # raw (sharedassets10)
 
 - text: "NC_Z2_Residential_Maintenance_D13 AO Map 2"
-  translation: ""
+  translation: "NC_Z2_Residential_Maintenance_D13 AO Map 2"
+  skip_translation: true
 
 - text: "NC_Z2_Residential_Maintenance_D13 AO Map 1"
-  translation: ""
+  translation: "NC_Z2_Residential_Maintenance_D13 AO Map 1"
+  skip_translation: true
 
 - text: "PCYfN"
-  translation: ""
+  translation: "PCYfN"
+  skip_translation: true
 
 - text: "Wall Mounted Camera Idle"
-  translation: ""
+  translation: "Настенная камера ожидания"
 
 - text: "P2AD"
   translation: "P2AD"
   skip_translation: true
 
 - text: "Lewd Gas Leak Animation"
-  translation: ""
+  translation: "Анимация утечки Lewd Gas"
 
 - text: "RdV"
   translation: "RdV"
@@ -32,7 +35,8 @@
   skip_translation: true
 
 - text: "Chibi_Zoey_outfit_black_onground Atlas"
-  translation: ""
+  translation: "Chibi_Zoey_outfit_black_onground Atlas"
+  skip_translation: true
 
 - text: "K?)\\O?"
   translation: "K?)\\O?"
@@ -43,14 +47,15 @@
   skip_translation: true
 
 - text: "Background_Up"
-  translation: ""
+  translation: "Background_Up"
+  skip_translation: true
 
 - text: "0.4 - TunnelAddition - 1 - Find Outfit"
-  translation: ""
+  translation: "0.4 — TunnelAddition — 1 — Найти наряд"
 
 - text: "0.4 - TunnelAddition - 2 - Intercom"
-  translation: ""
+  translation: "0.4 — TunnelAddition — 2 — Интерком"
 
 - text: "0.4 - TunnelAddition - Generic - Server Room D13"
-  translation: ""
+  translation: "0.4 — TunnelAddition — Общее — Серверная D13"
 

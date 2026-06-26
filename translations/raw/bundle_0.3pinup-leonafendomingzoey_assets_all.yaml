@@ -162,7 +162,8 @@
   skip_translation: true
 
 - text: "Az,"
-  translation: ""
+  translation: "Az,"
+  skip_translation: true
 
 - text: "Af*"
   translation: "Af*"

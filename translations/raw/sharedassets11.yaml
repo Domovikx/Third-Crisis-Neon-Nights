@@ -1,23 +1,27 @@
 # raw (sharedassets11)
 
 - text: "Holographic Hanging Plant - Vertex Wind - Unlit"
-  translation: ""
+  translation: "Holographic Hanging Plant - Vertex Wind - Unlit"
+  skip_translation: true
 
 - text: "Sprite Hologram Unlit Background"
-  translation: ""
+  translation: "Sprite Hologram Unlit Background"
+  skip_translation: true
 
 - text: "FakeLightShader Background"
   translation: "FakeLightShader Background"
   skip_translation: true
 
 - text: "SpriteGrayscale"
-  translation: ""
+  translation: "SpriteGrayscale"
+  skip_translation: true
 
 - text: "PIXELSNAP_ON"
-  translation: ""
+  translation: "PIXELSNAP_ON"
+  skip_translation: true
 
 - text: "New Car Test"
-  translation: ""
+  translation: "Тест новой машины"
 
 - text: "Shader Graphs_Sprite Hologram Unlit 8 Background"
   translation: "Shader Graphs_Sprite Hologram Unlit 8 Background"
@@ -32,84 +36,105 @@
   skip_translation: true
 
 - text: "M_Glow01"
-  translation: ""
+  translation: "M_Glow01"
+  skip_translation: true
 
 - text: "M_Shapes02"
-  translation: ""
+  translation: "M_Shapes02"
+  skip_translation: true
 
 - text: "M_Shapes03"
-  translation: ""
+  translation: "M_Shapes03"
+  skip_translation: true
 
 - text: "M_Shapes04"
-  translation: ""
+  translation: "M_Shapes04"
+  skip_translation: true
 
 - text: "M_Shapes04b"
-  translation: ""
+  translation: "M_Shapes04b"
+  skip_translation: true
 
 - text: "M_Sparks"
-  translation: ""
+  translation: "M_Sparks"
+  skip_translation: true
 
 - text: "holograms_angled_test C"
-  translation: ""
+  translation: "holograms_angled_test C"
+  skip_translation: true
 
 - text: "holograms_angled_test Crr"
-  translation: ""
+  translation: "holograms_angled_test Crr"
+  skip_translation: true
 
 - text: "Sprite_Smoke NoMovement"
-  translation: ""
+  translation: "Sprite_Smoke NoMovement"
+  skip_translation: true
 
 - text: "holograms_angled_test I"
-  translation: ""
+  translation: "holograms_angled_test I"
+  skip_translation: true
 
 - text: "holograms_angled_test Bpng"
-  translation: ""
+  translation: "holograms_angled_test Bpng"
+  skip_translation: true
 
 - text: "T_Sparks"
-  translation: ""
+  translation: "T_Sparks"
+  skip_translation: true
 
 - text: "T_Shapes03"
-  translation: ""
+  translation: "T_Shapes03"
+  skip_translation: true
 
 - text: "holograms_angled_test corpa crrpt"
-  translation: ""
+  translation: "holograms_angled_test corpa crrpt"
+  skip_translation: true
 
 - text: "T_Glow01"
-  translation: ""
+  translation: "T_Glow01"
+  skip_translation: true
 
 - text: "NC_Z2_Residential_Maintenance_M31 Texture AO Map 1"
-  translation: ""
+  translation: "NC_Z2_Residential_Maintenance_M31 Texture AO Map 1"
+  skip_translation: true
 
 - text: "T_Shapes02"
-  translation: ""
+  translation: "T_Shapes02"
+  skip_translation: true
 
 - text: "T_Shapes04"
-  translation: ""
+  translation: "T_Shapes04"
+  skip_translation: true
 
 - text: "Time Offset"
-  translation: ""
+  translation: "Time Offset"
+  skip_translation: true
 
 - text: "XdA8"
   translation: "XdA8"
   skip_translation: true
 
 - text: "PreviewType"
-  translation: ""
+  translation: "PreviewType"
+  skip_translation: true
 
 - text: "Light inten change"
-  translation: ""
+  translation: "Изменение интенсивности света"
 
 - text: "Fire light flicker"
-  translation: ""
+  translation: "Мерцание огня"
 
 - text: "4DE?"
-  translation: ""
+  translation: "4DE?"
+  skip_translation: true
 
 - text: "@2KE"
   translation: "@2KE"
   skip_translation: true
 
 - text: "Searchlight"
-  translation: ""
+  translation: "Прожектор"
 
 - text: "C`e"
   translation: "C`e"
@@ -120,7 +145,7 @@
   skip_translation: true
 
 - text: "Flickering Lightx"
-  translation: ""
+  translation: "Мерцающий свет x"
 
 - text: "X@ I"
   translation: "X@ I"
@@ -159,52 +184,52 @@
   skip_translation: true
 
 - text: "Tunnel Valve for hand"
-  translation: ""
+  translation: "Туннельный вентиль для руки"
 
 - text: "Enter Fire Trigger"
-  translation: ""
+  translation: "Вход в триггер огня"
 
 - text: "NPC Zoey Dialogue Presets"
-  translation: ""
+  translation: "Пресеты диалогов NPC Зои"
 
 - text: "Examine Boxes"
-  translation: ""
+  translation: "Осмотреть коробки"
 
 - text: "Examine E-Wall Box"
-  translation: ""
+  translation: "Осмотреть коробку E-Wall"
 
 - text: "Examine Writing After"
-  translation: ""
+  translation: "Осмотреть надпись после"
 
 - text: "Examine Writing"
-  translation: ""
+  translation: "Осмотреть надпись"
 
 - text: "Examine missing vlave"
-  translation: ""
+  translation: "Осмотреть отсутствующий клапан"
 
 - text: "Look at Pocketpussy"
-  translation: ""
+  translation: "Посмотреть на Pocketpussy"
 
 - text: "Look at horse dildo"
-  translation: ""
+  translation: "Посмотреть на лошадиный дилдо"
 
 - text: "Switch after Gas off"
-  translation: ""
+  translation: "Переключатель после отключения газа"
 
 - text: "0.4 - TunnelAddition - 3 - Notice Door Trigger"
-  translation: ""
+  translation: "0.4 — TunnelAddition — 3 — Триггер уведомления о двери"
 
 - text: "0.4 - TunnelAddition - 4 - Entered Room"
-  translation: ""
+  translation: "0.4 — TunnelAddition — 4 — Вошёл в комнату"
 
 - text: "0.4 - TunnelAddition - 5 - Agree to help man - 0"
-  translation: ""
+  translation: "0.4 — TunnelAddition — 5 — Согласиться помочь мужчине — 0"
 
 - text: "0.4 - TunnelAddition - 5 - Decline to help man"
-  translation: ""
+  translation: "0.4 — TunnelAddition — 5 — Отказать мужчине"
 
 - text: "0.4 - TunnelAddition - 6 - After helping man"
-  translation: ""
+  translation: "0.4 — TunnelAddition — 6 — После помощи мужчине"
 
 - text: "Guy run out cutsceneTimeline"
   translation: "Guy run out cutsceneTimeline"

@@ -1,36 +1,40 @@
 # raw (level1)
 
 - text: "City"
-  translation: ""
+  translation: "Город"
 
 - text: "CutsceneTarget"
-  translation: ""
+  translation: "CutsceneTarget"
+  skip_translation: true
 
 - text: "Generator"
-  translation: ""
+  translation: "Генератор"
 
 - text: "Ad=u"
   translation: "Ad=u"
   skip_translation: true
 
 - text: "FromStation"
-  translation: ""
+  translation: "FromStation"
+  skip_translation: true
 
 - text: "Restrain movement"
-  translation: ""
+  translation: "Заблокировать передвижение"
 
 - text: "Transit"
-  translation: ""
+  translation: "Транзит"
 
 - text: "Did we arrive from the transition?"
-  translation: ""
+  translation: "Мы прибыли из перехода?"
 
 - text: "Generate a new layout"
-  translation: ""
+  translation: "Сгенерировать новую планировку"
 
 - text: "OnArrived"
-  translation: ""
+  translation: "OnArrived"
+  skip_translation: true
 
 - text: "GenerateRandom"
-  translation: ""
+  translation: "GenerateRandom"
+  skip_translation: true
 

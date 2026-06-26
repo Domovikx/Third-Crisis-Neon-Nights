@@ -1,7 +1,7 @@
 # raw (bundle_pinupfourspartygroup_assets_all)
 
 - text: "Four's A Party C"
-  translation: ""
+  translation: "Вечеринка на четверых C"
 
 - text: "LcG"
   translation: "LcG"
@@ -12,24 +12,28 @@
   skip_translation: true
 
 - text: "Aff*A"
-  translation: ""
+  translation: "Aff*A"
+  skip_translation: true
 
 - text: "L|A"
   translation: "L|A"
   skip_translation: true
 
 - text: "LsAff"
-  translation: ""
+  translation: "LsAff"
+  skip_translation: true
 
 - text: "33YA"
   translation: "33YA"
   skip_translation: true
 
 - text: "LUAff"
-  translation: ""
+  translation: "LUAff"
+  skip_translation: true
 
 - text: "QAff"
-  translation: ""
+  translation: "QAff"
+  skip_translation: true
 
 - text: "QAffr@"
   translation: "QAffr@"
@@ -52,10 +56,12 @@
   skip_translation: true
 
 - text: "EAff"
-  translation: ""
+  translation: "EAff"
+  skip_translation: true
 
 - text: "CAff"
-  translation: ""
+  translation: "CAff"
+  skip_translation: true
 
 - text: "L:A33#?"
   translation: "L:A33#?"
@@ -82,17 +88,20 @@
   skip_translation: true
 
 - text: "XAff"
-  translation: ""
+  translation: "XAff"
+  skip_translation: true
 
 - text: "LOAff"
-  translation: ""
+  translation: "LOAff"
+  skip_translation: true
 
 - text: "MA33"
   translation: "MA33"
   skip_translation: true
 
 - text: "HAff"
-  translation: ""
+  translation: "HAff"
+  skip_translation: true
 
 - text: "HA33"
   translation: "HA33"
@@ -111,13 +120,13 @@
   skip_translation: true
 
 - text: "Four's A Party A"
-  translation: ""
+  translation: "Вечеринка на четверых A"
 
 - text: "Four's A Party B"
-  translation: ""
+  translation: "Вечеринка на четверых B"
 
 - text: "Four's A Party D"
-  translation: ""
+  translation: "Вечеринка на четверых D"
 
 - text: "A23w"
   translation: "A23w"
@@ -128,7 +137,8 @@
   skip_translation: true
 
 - text: "AffN"
-  translation: ""
+  translation: "AffN"
+  skip_translation: true
 
 - text: "A23G"
   translation: "A23G"

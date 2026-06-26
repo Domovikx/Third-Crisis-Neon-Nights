@@ -133,7 +133,8 @@
   skip_translation: true
 
 - text: "kUh?p 6?"
-  translation: ""
+  translation: "kUh?p 6?"
+  skip_translation: true
 
 - text: "AT*Y"
   translation: "AT*Y"
@@ -160,7 +161,7 @@
   skip_translation: true
 
 - text: "Zoey Tentacle Nightmare CG"
-  translation: ""
+  translation: "CG кошмара со щупальцами Зои"
 
 - text: "FAST 1"
   translation: "FAST 1"
@@ -187,37 +188,37 @@
   skip_translation: true
 
 - text: "Tentacle Grope - Clit Pulling"
-  translation: ""
+  translation: "Щупальца лапают — Тянет клитор"
 
 - text: "Brows Ahegaou"
-  translation: ""
+  translation: "Брови ахегао"
 
 - text: "Tentable - Between Boobs Moving"
-  translation: ""
+  translation: "Щупальце — Движение между грудью"
 
 - text: "Tentacle - Anal Level"
-  translation: ""
+  translation: "Щупальце — Анальный уровень"
 
 - text: "Tentacle Grope - Boob Squeeze"
-  translation: ""
+  translation: "Щупальца лапают — Сжатие груди"
 
 - text: "Face Pupil ShakeT"
-  translation: ""
+  translation: "Дрожание зрачков лица"
 
 - text: "penetration_loop/triple_anal 2x"
-  translation: ""
+  translation: "петля проникновения/тройной анал 2x"
 
 - text: "Face Eye Glint Wiggle"
-  translation: ""
+  translation: "Движение блеска глаз"
 
 - text: "Tentacle Groping - Nose Pulling"
-  translation: ""
+  translation: "Щупальца лапают — Тянет нос"
 
 - text: "Pupil Idle"
-  translation: ""
+  translation: "Зрачки бездействуют"
 
 - text: "Tentacle Groping - Ear Pulling"
-  translation: ""
+  translation: "Щупальца лапают — Тянет ухо"
 
 - text: "E'iw"
   translation: "E'iw"
@@ -228,5 +229,5 @@
   skip_translation: true
 
 - text: "MEDIUM"
-  translation: ""
+  translation: "СРЕДНИЙ"
 

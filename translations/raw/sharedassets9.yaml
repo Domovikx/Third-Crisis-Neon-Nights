@@ -1,25 +1,27 @@
 # raw (sharedassets9)
 
 - text: "Dust Particle"
-  translation: ""
+  translation: "Частица пыли"
 
 - text: "Sprite-Unlit-CornerFade Instance _LewdGas 2"
-  translation: ""
+  translation: "Sprite-Unlit-CornerFade Instance _LewdGas 2"
+  skip_translation: true
 
 - text: "Flickering Power Sign"
-  translation: ""
+  translation: "Мерцающая вывеска"
 
 - text: "Flickering Salon Neon Tube"
-  translation: ""
+  translation: "Мерцающая неоновая трубка салона"
 
 - text: "Moving Platform Long Vert"
-  translation: ""
+  translation: "Длинная вертикальная платформа"
 
 - text: "flickering vending machine"
-  translation: ""
+  translation: "мерцающий вендинговый аппарат"
 
 - text: "Nailsalon_Neon_Tube x"
-  translation: ""
+  translation: "Nailsalon_Neon_Tube x"
+  skip_translation: true
 
 - text: "*7m Nn6"
   translation: "*7m Nn6"
@@ -38,8 +40,8 @@
   skip_translation: true
 
 - text: "Exit Points"
-  translation: ""
+  translation: "Точки выхода"
 
 - text: "Loops"
-  translation: ""
+  translation: "Циклы"
 
