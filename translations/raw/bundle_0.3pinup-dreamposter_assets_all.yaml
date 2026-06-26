@@ -1,0 +1,16 @@
+# raw (bundle_0.3pinup-dreamposter_assets_all)
+
+- text: "Zoey Dream Poster"
+  translation: "Постер мечты Зои"
+
+- text: "Sweet Dreams"
+  translation: "Сладких снов"
+
+- text: "LenChi"
+  translation: "LenChi"
+  skip_translation: true
+
+- text: "Anduo Games"
+  translation: "Anduo Games"
+  skip_translation: true
+

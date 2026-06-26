@@ -1,0 +1,36 @@
+# raw (level1)
+
+- text: "City"
+  translation: ""
+
+- text: "CutsceneTarget"
+  translation: ""
+
+- text: "Generator"
+  translation: ""
+
+- text: "Ad=u"
+  translation: "Ad=u"
+  skip_translation: true
+
+- text: "FromStation"
+  translation: ""
+
+- text: "Restrain movement"
+  translation: ""
+
+- text: "Transit"
+  translation: ""
+
+- text: "Did we arrive from the transition?"
+  translation: ""
+
+- text: "Generate a new layout"
+  translation: ""
+
+- text: "OnArrived"
+  translation: ""
+
+- text: "GenerateRandom"
+  translation: ""
+

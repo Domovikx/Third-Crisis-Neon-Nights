@@ -1,0 +1,3110 @@
+# raw (level15)
+
+- text: "$BVU"
+  translation: "$BVU"
+  skip_translation: true
+
+- text: "FO$B"
+  translation: "FO$B"
+  skip_translation: true
+
+- text: "?FO$B"
+  translation: "?FO$B"
+  skip_translation: true
+
+- text: "@FO$B"
+  translation: "@FO$B"
+  skip_translation: true
+
+- text: "N@jT%B"
+  translation: "N@jT%B"
+  skip_translation: true
+
+- text: "BfI"
+  translation: "BfI"
+  skip_translation: true
+
+- text: "Aj/"
+  translation: "Aj/"
+  skip_translation: true
+
+- text: "ALf"
+  translation: "ALf"
+  skip_translation: true
+
+- text: "OU#"
+  translation: "OU#"
+  skip_translation: true
+
+- text: "Q\\A"
+  translation: "Q\\A"
+  skip_translation: true
+
+- text: "Q\\APc"
+  translation: "Q\\\\APc"
+  skip_translation: true
+
+- text: "E?`f"
+  translation: "E?`f"
+  skip_translation: true
+
+- text: "Gn@"
+  translation: "Gn@"
+  skip_translation: true
+
+- text: "AhY!"
+  translation: "AhY!"
+  skip_translation: true
+
+- text: "L;A"
+  translation: "L;A"
+  skip_translation: true
+
+- text: "P[K?0U"
+  translation: "P[K?0U"
+  skip_translation: true
+
+- text: "MAPU"
+  translation: "MAPU"
+  skip_translation: true
+
+- text: "@LE"
+  translation: "@LE"
+  skip_translation: true
+
+- text: "?LE"
+  translation: "?LE"
+  skip_translation: true
+
+- text: "A@tL"
+  translation: "A@tL"
+  skip_translation: true
+
+- text: "D?a"
+  translation: "D?a"
+  skip_translation: true
+
+- text: "Tl@D"
+  translation: "Tl@D"
+  skip_translation: true
+
+- text: "La\""
+  translation: ""
+
+- text: "Pma@@"
+  translation: ""
+
+- text: "@BA?`"
+  translation: "@BA?`"
+  skip_translation: true
+
+- text: "?@BA?`"
+  translation: "?@BA?`"
+  skip_translation: true
+
+- text: "A`M"
+  translation: "A`M"
+  skip_translation: true
+
+- text: "A@V"
+  translation: "A@V"
+  skip_translation: true
+
+- text: "YYA"
+  translation: "YYA"
+  skip_translation: true
+
+- text: "? EZ?"
+  translation: "? EZ?"
+  skip_translation: true
+
+- text: "EZ?"
+  translation: "EZ?"
+  skip_translation: true
+
+- text: "`YA"
+  translation: "`YA"
+  skip_translation: true
+
+- text: "Q]YA"
+  translation: "Q]YA"
+  skip_translation: true
+
+- text: "OYAd"
+  translation: "OYAd"
+  skip_translation: true
+
+- text: "FYA"
+  translation: "FYA"
+  skip_translation: true
+
+- text: "J@c'9@"
+  translation: "J@c'9@"
+  skip_translation: true
+
+- text: "J@c'9@q"
+  translation: "J@c'9@q"
+  skip_translation: true
+
+- text: "J@c'9@jI"
+  translation: ""
+
+- text: ":Q]YA"
+  translation: ":Q]YA"
+  skip_translation: true
+
+- text: "J@Fv"
+  translation: "J@Fv"
+  skip_translation: true
+
+- text: "\\GSA 8"
+  translation: "\\\\GSA 8"
+  skip_translation: true
+
+- text: "M6?s"
+  translation: "M6?s"
+  skip_translation: true
+
+- text: "M6?p"
+  translation: "M6?p"
+  skip_translation: true
+
+- text: "8 ?\\GSA 8"
+  translation: "8 ?\\\\GSA 8"
+  skip_translation: true
+
+- text: "Flies_1"
+  translation: "Flies_1"
+  skip_translation: true
+
+- text: "Fleshlight examination"
+  translation: ""
+
+- text: "Window Shine"
+  translation: ""
+
+- text: "Car Color"
+  translation: ""
+
+- text: "Blinds"
+  translation: "Blinds"
+  skip_translation: true
+
+- text: "Ground Outline Inner Corner"
+  translation: ""
+
+- text: "Shine_Red"
+  translation: ""
+
+- text: "NonChange"
+  translation: ""
+
+- text: "Andro Pimp Interaction"
+  translation: ""
+
+- text: "Under Hang"
+  translation: ""
+
+- text: "Rail 3"
+  translation: ""
+
+- text: "Ground Outline"
+  translation: ""
+
+- text: "Fence"
+  translation: ""
+
+- text: "Car Shadow"
+  translation: ""
+
+- text: "Window_Shadow"
+  translation: ""
+
+- text: "Stair Steps"
+  translation: ""
+
+- text: "Stair Handrail Bottom"
+  translation: ""
+
+- text: "Parallax Pivot"
+  translation: ""
+
+- text: "Bunny Jumping Manager"
+  translation: ""
+
+- text: "Talk repeat"
+  translation: ""
+
+- text: "Edge Side"
+  translation: ""
+
+- text: "Random Sound Location - 3"
+  translation: ""
+
+- text: "Building 2"
+  translation: ""
+
+- text: "LineGlow"
+  translation: ""
+
+- text: "Edges"
+  translation: ""
+
+- text: "Car in Air"
+  translation: ""
+
+- text: "Outine"
+  translation: ""
+
+- text: "VIP Car"
+  translation: ""
+
+- text: "Under GlowingHole"
+  translation: ""
+
+- text: "Group 5"
+  translation: ""
+
+- text: "SignSet_4"
+  translation: ""
+
+- text: "Ground Outline Corner 4"
+  translation: ""
+
+- text: "Rail End Top"
+  translation: ""
+
+- text: "Stair Shape"
+  translation: ""
+
+- text: "Wall Handrail Back"
+  translation: ""
+
+- text: "Parking Area"
+  translation: ""
+
+- text: "Doors/Transition Points"
+  translation: ""
+
+- text: "Cloud 4"
+  translation: ""
+
+- text: "Ground Indicator"
+  translation: ""
+
+- text: "Group 10"
+  translation: ""
+
+- text: "Angry Man barks"
+  translation: ""
+
+- text: "CinematicCamera"
+  translation: ""
+
+- text: "LoadingArea"
+  translation: ""
+
+- text: "Shine_Blue"
+  translation: ""
+
+- text: "Vending Machines"
+  translation: ""
+
+- text: "Rail 2"
+  translation: ""
+
+- text: "Rail 1"
+  translation: ""
+
+- text: "Haze Cloud 4"
+  translation: ""
+
+- text: "Power Box"
+  translation: ""
+
+- text: "Group1"
+  translation: ""
+
+- text: "Flies_3"
+  translation: "Flies_3"
+  skip_translation: true
+
+- text: "Glowing_Letters"
+  translation: ""
+
+- text: "hotel_pack8_staffroom_assets_export_base_76 b"
+  translation: ""
+
+- text: "Platforms"
+  translation: ""
+
+- text: "Stair Ground"
+  translation: ""
+
+- text: "Power Box Shadow"
+  translation: ""
+
+- text: "Steps"
+  translation: "Steps"
+  skip_translation: true
+
+- text: "Stair Handrail Top"
+  translation: ""
+
+- text: "Group 1"
+  translation: ""
+
+- text: "BigSign"
+  translation: ""
+
+- text: "Drone_4"
+  translation: "Drone_4"
+  skip_translation: true
+
+- text: "Flies"
+  translation: ""
+
+- text: "Building"
+  translation: ""
+
+- text: "Beginning fall out of window cutscene"
+  translation: ""
+
+- text: "Ground Outline Big Door 1"
+  translation: ""
+
+- text: "Ground Outline Big Door 2"
+  translation: ""
+
+- text: "Random Sound Location - 0"
+  translation: ""
+
+- text: "Haze Cloud"
+  translation: ""
+
+- text: "Roof"
+  translation: ""
+
+- text: "Window_Small"
+  translation: ""
+
+- text: "Break Guy"
+  translation: ""
+
+- text: "Random Sound Location - 5"
+  translation: ""
+
+- text: "Haze Cloud 3"
+  translation: ""
+
+- text: "Group6"
+  translation: ""
+
+- text: "Flies_7"
+  translation: "Flies_7"
+  skip_translation: true
+
+- text: "Group 2"
+  translation: ""
+
+- text: "Group5"
+  translation: ""
+
+- text: "Group 11/Dont turn off"
+  translation: ""
+
+- text: "Edge Back"
+  translation: ""
+
+- text: "Walls Edge"
+  translation: ""
+
+- text: "Parking Spot Indicator"
+  translation: ""
+
+- text: "Bark 1"
+  translation: ""
+
+- text: "Alley Way"
+  translation: ""
+
+- text: "Kittys"
+  translation: ""
+
+- text: "Wall 2"
+  translation: ""
+
+- text: "Loading Area Sign FakeLight"
+  translation: ""
+
+- text: "White Cloud"
+  translation: ""
+
+- text: "VIP Parking"
+  translation: ""
+
+- text: "Bridges"
+  translation: ""
+
+- text: "Random Sound Location - 6"
+  translation: ""
+
+- text: "Corner Piece Outer"
+  translation: ""
+
+- text: "Overlay"
+  translation: ""
+
+- text: "Placeholder"
+  translation: ""
+
+- text: "OutroCutscene"
+  translation: ""
+
+- text: "hotel_pack8_staffroom_assets_export_base_77 a"
+  translation: ""
+
+- text: "Rail 5"
+  translation: ""
+
+- text: "White Cloud 11"
+  translation: ""
+
+- text: "Main Ground"
+  translation: ""
+
+- text: "SignSet_1"
+  translation: ""
+
+- text: "Vent_1"
+  translation: "Vent_1"
+  skip_translation: true
+
+- text: "Platform Ground"
+  translation: ""
+
+- text: "Random Sound Location - 4"
+  translation: ""
+
+- text: "White Cloud 13"
+  translation: ""
+
+- text: "hotel_pack8_staffroom_assets_export_base_76 d"
+  translation: ""
+
+- text: "Ground Elements"
+  translation: ""
+
+- text: "Pocket Pussy Crowd Barks"
+  translation: ""
+
+- text: "Upper Right"
+  translation: ""
+
+- text: "Ground Outline Corner 8"
+  translation: ""
+
+- text: "Loading Area Sign"
+  translation: ""
+
+- text: "Asshole can't park"
+  translation: ""
+
+- text: "Sphere Collider"
+  translation: ""
+
+- text: "Group 8"
+  translation: ""
+
+- text: "Angeled Railing Corner"
+  translation: ""
+
+- text: "Drone_2"
+  translation: "Drone_2"
+  skip_translation: true
+
+- text: "Bridge and Under"
+  translation: ""
+
+- text: "Parking Area 1 Background"
+  translation: ""
+
+- text: "Drone_3"
+  translation: "Drone_3"
+  skip_translation: true
+
+- text: "Group2"
+  translation: ""
+
+- text: "Car for animation"
+  translation: ""
+
+- text: "Wall Front"
+  translation: ""
+
+- text: "Rail End Bottom"
+  translation: ""
+
+- text: "Fleshlight examination repeat"
+  translation: ""
+
+- text: "Platform"
+  translation: ""
+
+- text: "White Cloud 7"
+  translation: ""
+
+- text: "Wall Top"
+  translation: ""
+
+- text: "Hole_Letters"
+  translation: ""
+
+- text: "Rail 4"
+  translation: ""
+
+- text: "Cars"
+  translation: "Cars"
+  skip_translation: true
+
+- text: "Ground Outline Corner 7"
+  translation: ""
+
+- text: "Cloud 2"
+  translation: ""
+
+- text: "Distant Laughing"
+  translation: ""
+
+- text: "Walla_2"
+  translation: "Walla_2"
+  skip_translation: true
+
+- text: "Car Lady"
+  translation: ""
+
+- text: "Caster"
+  translation: ""
+
+- text: "Updated Background"
+  translation: ""
+
+- text: "GlowingHole Platform"
+  translation: ""
+
+- text: "Background Pivot"
+  translation: ""
+
+- text: "Shadwocaster Roof"
+  translation: ""
+
+- text: "BunnyAd2"
+  translation: ""
+
+- text: "hotel_pack8_staffroom_assets_export_base_76 g"
+  translation: ""
+
+- text: "Angeled Railing 2"
+  translation: ""
+
+- text: "Drones"
+  translation: ""
+
+- text: "Andro Pimp 1"
+  translation: ""
+
+- text: "White Cloud 10"
+  translation: ""
+
+- text: "Landing Trash"
+  translation: ""
+
+- text: "Group 12"
+  translation: ""
+
+- text: "Group 3"
+  translation: ""
+
+- text: "Global Light"
+  translation: ""
+
+- text: "Window_Wide"
+  translation: ""
+
+- text: "Flying Cars"
+  translation: ""
+
+- text: "Change Kitty on ground"
+  translation: ""
+
+- text: "After Car Girl Interaction Ground Indicator"
+  translation: ""
+
+- text: "JumpingBunny"
+  translation: ""
+
+- text: "wall_spriteshape 1"
+  translation: ""
+
+- text: "Parking Area Background"
+  translation: ""
+
+- text: "Andro Pimp 2"
+  translation: ""
+
+- text: "Ground Outline Corner 5"
+  translation: ""
+
+- text: "Random Sound Location - 2"
+  translation: ""
+
+- text: "Stair"
+  translation: ""
+
+- text: "Cloud 3"
+  translation: ""
+
+- text: "Walla_1"
+  translation: "Walla_1"
+  skip_translation: true
+
+- text: "Ground Outline Corner"
+  translation: ""
+
+- text: "Ground Outline Corner 2"
+  translation: ""
+
+- text: "Group 7"
+  translation: ""
+
+- text: "hotel_pack8_staffroom_assets_export_base_76 e"
+  translation: ""
+
+- text: "Under Side Entrance"
+  translation: ""
+
+- text: "Chimny"
+  translation: ""
+
+- text: "White Cloud 12"
+  translation: ""
+
+- text: "Flavour Dialogues and Converstations"
+  translation: ""
+
+- text: "GlowingHole Sign"
+  translation: ""
+
+- text: "SignSet_3"
+  translation: ""
+
+- text: "2nd/3rd Floor"
+  translation: ""
+
+- text: "New"
+  translation: ""
+
+- text: "Random Sound Location - 1"
+  translation: ""
+
+- text: "Broken Walkway"
+  translation: ""
+
+- text: "Haze Cloud 9"
+  translation: ""
+
+- text: "Decal"
+  translation: ""
+
+- text: "Haze Cloud 6"
+  translation: ""
+
+- text: "Drone_5"
+  translation: "Drone_5"
+  skip_translation: true
+
+- text: "Girls Bark"
+  translation: ""
+
+- text: "Group 4"
+  translation: ""
+
+- text: "White Cloud 2"
+  translation: ""
+
+- text: "Group4"
+  translation: ""
+
+- text: "GlowingHole break Bunny barks"
+  translation: ""
+
+- text: "Building Background 2"
+  translation: ""
+
+- text: "Haze Cloud 8"
+  translation: ""
+
+- text: "Set everything for after"
+  translation: ""
+
+- text: "Drone_6"
+  translation: "Drone_6"
+  skip_translation: true
+
+- text: "Angeled Railing Corner 2"
+  translation: ""
+
+- text: "Glass Breaking"
+  translation: ""
+
+- text: "Building Background 1"
+  translation: ""
+
+- text: "White Cloud 8"
+  translation: ""
+
+- text: "Glass Shards"
+  translation: ""
+
+- text: "Beanu"
+  translation: ""
+
+- text: "White Cloud 5"
+  translation: ""
+
+- text: "GloryHoles"
+  translation: ""
+
+- text: "Group 6"
+  translation: ""
+
+- text: "Check trash swap"
+  translation: ""
+
+- text: "Angeled Wall"
+  translation: ""
+
+- text: "ADS"
+  translation: "ADS"
+  skip_translation: true
+
+- text: "Cloud"
+  translation: ""
+
+- text: "Group 9"
+  translation: ""
+
+- text: "Corner Piece Horizontal"
+  translation: ""
+
+- text: "Group 15"
+  translation: ""
+
+- text: "3D Ladys"
+  translation: ""
+
+- text: "Flies_4"
+  translation: "Flies_4"
+  skip_translation: true
+
+- text: "Parking Area Ground"
+  translation: ""
+
+- text: "Angeled Railing 4"
+  translation: ""
+
+- text: "Under Walkway Upper"
+  translation: ""
+
+- text: "Flies_2"
+  translation: "Flies_2"
+  skip_translation: true
+
+- text: "Railing Top 3"
+  translation: ""
+
+- text: "Wall Decals"
+  translation: ""
+
+- text: "Angeled Railing"
+  translation: ""
+
+- text: "GloryHoleGuy"
+  translation: ""
+
+- text: "Ground Outline Inner Corner 3"
+  translation: ""
+
+- text: "Paralax"
+  translation: ""
+
+- text: "Shine_Middle"
+  translation: ""
+
+- text: "White Cloud 4"
+  translation: ""
+
+- text: "Moveable"
+  translation: ""
+
+- text: "Group 14"
+  translation: ""
+
+- text: "White Cloud 3"
+  translation: ""
+
+- text: "Waiting in Line"
+  translation: ""
+
+- text: "World Colliders"
+  translation: ""
+
+- text: "Ground Outline Corner 3"
+  translation: ""
+
+- text: "Under Walkway Upper 2"
+  translation: ""
+
+- text: "Pipes/Vents"
+  translation: ""
+
+- text: "Edge Front"
+  translation: ""
+
+- text: "Under Walkway 2"
+  translation: ""
+
+- text: "Ground Outline Inner Corner 2"
+  translation: ""
+
+- text: "Flies_5"
+  translation: "Flies_5"
+  skip_translation: true
+
+- text: "Cabel"
+  translation: ""
+
+- text: "Shine_Right"
+  translation: ""
+
+- text: "Ventilator"
+  translation: ""
+
+- text: "LRLD_BG_color_001 1"
+  translation: ""
+
+- text: "Sound Location Source"
+  translation: ""
+
+- text: "Group"
+  translation: ""
+
+- text: "Random Sound Location - 8"
+  translation: ""
+
+- text: "White Cloud 9"
+  translation: ""
+
+- text: "Big Building"
+  translation: ""
+
+- text: "Car to Remove"
+  translation: ""
+
+- text: "Group 8 after Intro swap"
+  translation: ""
+
+- text: "Side Path Ground"
+  translation: ""
+
+- text: "Railing Top 2"
+  translation: ""
+
+- text: "Ventilator Shadow"
+  translation: ""
+
+- text: "Drone_1"
+  translation: "Drone_1"
+  skip_translation: true
+
+- text: "Flies_6"
+  translation: "Flies_6"
+  skip_translation: true
+
+- text: "White Cloud 6"
+  translation: ""
+
+- text: "Ground Outline Corner 6"
+  translation: ""
+
+- text: "SpriteMask"
+  translation: ""
+
+- text: "Angeled Railing 5"
+  translation: ""
+
+- text: "Haze Cloud 5"
+  translation: ""
+
+- text: "Shadowcaster Upper Platform"
+  translation: ""
+
+- text: "Cypher Roof"
+  translation: ""
+
+- text: "Haze Cloud 2"
+  translation: ""
+
+- text: "Lights and Signs"
+  translation: ""
+
+- text: "Black Overlay canvas"
+  translation: ""
+
+- text: "Haze Cloud 7"
+  translation: ""
+
+- text: "SignSet_2"
+  translation: ""
+
+- text: "Upper and Staircase"
+  translation: ""
+
+- text: "Walls Lower"
+  translation: ""
+
+- text: "hotel_pack8_staffroom_assets_export_base_76 f"
+  translation: ""
+
+- text: "Group 13"
+  translation: ""
+
+- text: "Railing Top 4"
+  translation: ""
+
+- text: "GlowingHole Roof"
+  translation: ""
+
+- text: "Group3"
+  translation: ""
+
+- text: "Shine_Left"
+  translation: ""
+
+- text: "Talk 2"
+  translation: ""
+
+- text: "Buildings"
+  translation: ""
+
+- text: "hotel_pack8_staffroom_assets_export_base_76 c"
+  translation: ""
+
+- text: "Wall 3"
+  translation: ""
+
+- text: "hotel_pack8_staffroom_assets_export_base_75 a"
+  translation: ""
+
+- text: "Wall Ventilator"
+  translation: ""
+
+- text: "GloryHole Corner"
+  translation: ""
+
+- text: "Railing Top"
+  translation: ""
+
+- text: "GlowingHole Logo for Animation"
+  translation: ""
+
+- text: "Random Sound Location - 7"
+  translation: ""
+
+- text: "Cable_Corner"
+  translation: ""
+
+- text: "Symbol"
+  translation: ""
+
+- text: "streetlights emissive bottom 2"
+  translation: ""
+
+- text: "Ticket Machine"
+  translation: ""
+
+- text: "color back 1"
+  translation: ""
+
+- text: "Poor Guy"
+  translation: ""
+
+- text: "Cartel Girl"
+  translation: ""
+
+- text: "Idle Men"
+  translation: ""
+
+- text: "Bunny Boy"
+  translation: ""
+
+- text: "Dealer"
+  translation: ""
+
+- text: "Andro"
+  translation: ""
+
+- text: "Angry Man"
+  translation: ""
+
+- text: "Car girl"
+  translation: ""
+
+- text: "Bunny Girl"
+  translation: ""
+
+- text: "Shady Guy"
+  translation: ""
+
+- text: "GloryHole Fucker"
+  translation: ""
+
+- text: "Waiting 1"
+  translation: ""
+
+- text: "Wall_Base_Right"
+  translation: ""
+
+- text: "Cable2"
+  translation: ""
+
+- text: "Base Sprite Shadow"
+  translation: ""
+
+- text: "WallGround"
+  translation: ""
+
+- text: "Lower Wall Bend"
+  translation: ""
+
+- text: "BehindDoor"
+  translation: ""
+
+- text: "Pillar_Bottom"
+  translation: ""
+
+- text: "Upper Wall Straight"
+  translation: ""
+
+- text: "Outside_Chimney"
+  translation: ""
+
+- text: "Cable_Corner_2"
+  translation: ""
+
+- text: "CameraHolder3"
+  translation: ""
+
+- text: "Arrow_whites"
+  translation: "Arrow_whites"
+  skip_translation: true
+
+- text: "Lower Wall Straight"
+  translation: ""
+
+- text: "Decal_G_Dakkr"
+  translation: ""
+
+- text: "Charging_2"
+  translation: "Charging_2"
+  skip_translation: true
+
+- text: "FakeLight1"
+  translation: ""
+
+- text: "Ticket Screen Hologram"
+  translation: ""
+
+- text: "Choice - Ask for Demonstration"
+  translation: ""
+
+- text: "Arrow Right 2"
+  translation: ""
+
+- text: "Base Sprite"
+  translation: ""
+
+- text: "Open_Hatch"
+  translation: ""
+
+- text: "color platform bottom extended 2"
+  translation: ""
+
+- text: "color roof"
+  translation: ""
+
+- text: "Water hit Ground Sound Location"
+  translation: ""
+
+- text: "LightFloor"
+  translation: ""
+
+- text: "Decal_G_AntiGAG"
+  translation: ""
+
+- text: "FakeLight2"
+  translation: ""
+
+- text: "T-Seperator"
+  translation: ""
+
+- text: "Sorting Sprite"
+  translation: ""
+
+- text: "Barrier_Right"
+  translation: ""
+
+- text: "GoSignRight"
+  translation: ""
+
+- text: "Decal_G_Cum"
+  translation: ""
+
+- text: "Box4"
+  translation: "Box4"
+  skip_translation: true
+
+- text: "BridgeConnector Right"
+  translation: ""
+
+- text: "Prop Parent"
+  translation: ""
+
+- text: "Plastic"
+  translation: ""
+
+- text: "streetlights bottom 1"
+  translation: ""
+
+- text: "Fake Light"
+  translation: ""
+
+- text: "streetlights emissive top"
+  translation: ""
+
+- text: "Car Shadows Spawner"
+  translation: ""
+
+- text: "Light4"
+  translation: "Light4"
+  skip_translation: true
+
+- text: "Red Light Piece Left"
+  translation: ""
+
+- text: "Wall_Base_Left"
+  translation: ""
+
+- text: "Go Sign Left Top"
+  translation: ""
+
+- text: "TrafficBridge"
+  translation: ""
+
+- text: "Shine_FakeLight"
+  translation: ""
+
+- text: "color platform"
+  translation: ""
+
+- text: "Pillar_Top"
+  translation: ""
+
+- text: "Train Station Entrance Side"
+  translation: ""
+
+- text: "red lights"
+  translation: ""
+
+- text: "Dumpster_Front"
+  translation: ""
+
+- text: "Music Ducker"
+  translation: ""
+
+- text: "Arrow_greens"
+  translation: "Arrow_greens"
+  skip_translation: true
+
+- text: "DoorFrame_Left"
+  translation: ""
+
+- text: "Decal_G_Never"
+  translation: ""
+
+- text: "CameraHolder"
+  translation: ""
+
+- text: "PillarRight"
+  translation: ""
+
+- text: "Decal_G_Eyeball"
+  translation: ""
+
+- text: "Pole4"
+  translation: ""
+
+- text: "DoorRight"
+  translation: ""
+
+- text: "Lid"
+  translation: ""
+
+- text: "streetlights platform"
+  translation: ""
+
+- text: "Light2"
+  translation: "Light2"
+  skip_translation: true
+
+- text: "Both"
+  translation: "Both"
+  skip_translation: true
+
+- text: "CollectedVisual"
+  translation: ""
+
+- text: "color platform bottom extended"
+  translation: ""
+
+- text: "Cable3"
+  translation: ""
+
+- text: "SideGenerator"
+  translation: ""
+
+- text: "Curtian"
+  translation: ""
+
+- text: "Set Boobs Big"
+  translation: ""
+
+- text: "LightRight"
+  translation: ""
+
+- text: "Cable_8"
+  translation: "Cable_8"
+  skip_translation: true
+
+- text: "Outside_Pole"
+  translation: ""
+
+- text: "Cable_6"
+  translation: "Cable_6"
+  skip_translation: true
+
+- text: "Outside_Outtake"
+  translation: ""
+
+- text: "CameraHolder2"
+  translation: ""
+
+- text: "Set Boobs Huge"
+  translation: ""
+
+- text: "Floor Light Reflection"
+  translation: ""
+
+- text: "Decal_G_ESheep"
+  translation: ""
+
+- text: "Lady Augmenta Poster"
+  translation: ""
+
+- text: "Fusebox"
+  translation: ""
+
+- text: "Cable_Top_2"
+  translation: ""
+
+- text: "Upper Railing"
+  translation: ""
+
+- text: "Cable_Top_1"
+  translation: ""
+
+- text: "HoloBunny"
+  translation: ""
+
+- text: "DoorFrame_Top"
+  translation: ""
+
+- text: "Train 3d Symbol Camera"
+  translation: ""
+
+- text: "streetlights emissive bottom 3"
+  translation: ""
+
+- text: "Arrow Right 1"
+  translation: ""
+
+- text: "Pos"
+  translation: ""
+
+- text: "Set Sex"
+  translation: ""
+
+- text: "StopSignTopLeft"
+  translation: ""
+
+- text: "Upper Wall Bend 2"
+  translation: ""
+
+- text: "StopSignRight"
+  translation: ""
+
+- text: "LRLD_BG_emissive_A_001 1"
+  translation: ""
+
+- text: "SteelBeam_Trash"
+  translation: ""
+
+- text: "Decal_G_Angela"
+  translation: ""
+
+- text: "GoSignRightHolo"
+  translation: ""
+
+- text: "GoSignLeft_Holo"
+  translation: ""
+
+- text: "Ticket Screen"
+  translation: ""
+
+- text: "The"
+  translation: ""
+
+- text: "TempLimit"
+  translation: ""
+
+- text: "color cables bottom extended"
+  translation: ""
+
+- text: "UseWhileLocked"
+  translation: ""
+
+- text: "aerial lights platform"
+  translation: ""
+
+- text: "Blocker"
+  translation: ""
+
+- text: "BridgeArrowUp2"
+  translation: ""
+
+- text: "Light1"
+  translation: "Light1"
+  skip_translation: true
+
+- text: "Shine_Charge"
+  translation: ""
+
+- text: "Light3"
+  translation: "Light3"
+  skip_translation: true
+
+- text: "Choice - Leave"
+  translation: ""
+
+- text: "Charge_Sign"
+  translation: ""
+
+- text: "streetlights bottom 3"
+  translation: ""
+
+- text: "color cables top"
+  translation: ""
+
+- text: "RoofBack"
+  translation: ""
+
+- text: "Charging_3"
+  translation: "Charging_3"
+  skip_translation: true
+
+- text: "aerial lights"
+  translation: ""
+
+- text: "PinkLight"
+  translation: ""
+
+- text: "Decal_G_OBEY"
+  translation: ""
+
+- text: "Background Piece Right"
+  translation: ""
+
+- text: "Calliach Music"
+  translation: ""
+
+- text: "streetlights bottom 2"
+  translation: ""
+
+- text: "RoofFront"
+  translation: ""
+
+- text: "RoofEntrance"
+  translation: ""
+
+- text: "Booba Ladies for LRLD"
+  translation: ""
+
+- text: "Choice - Ask about its Origin"
+  translation: ""
+
+- text: "Upper Wall Bend 1"
+  translation: ""
+
+- text: "Powergasm"
+  translation: ""
+
+- text: "Trash_Prop_6"
+  translation: ""
+
+- text: "streetlights roof"
+  translation: ""
+
+- text: "FakeLight_Shine"
+  translation: ""
+
+- text: "Set to Furry Form"
+  translation: ""
+
+- text: "Trim"
+  translation: "Trim"
+  skip_translation: true
+
+- text: "streetlights emissive platform"
+  translation: ""
+
+- text: "Interaction - Repeat"
+  translation: ""
+
+- text: "Box3"
+  translation: "Box3"
+  skip_translation: true
+
+- text: "Cable_7"
+  translation: "Cable_7"
+  skip_translation: true
+
+- text: "Upper Wall Light"
+  translation: ""
+
+- text: "Go Sign Left Bottom"
+  translation: ""
+
+- text: "Bridge"
+  translation: ""
+
+- text: "Wall2_2ndFloor"
+  translation: ""
+
+- text: "Choice - Ask about its feeling"
+  translation: ""
+
+- text: "LightsBridge"
+  translation: ""
+
+- text: "UpperPlatform"
+  translation: ""
+
+- text: "SupportLeft"
+  translation: ""
+
+- text: "Ticket Sign Hologram"
+  translation: ""
+
+- text: "Choice - Ask about Serial Number"
+  translation: ""
+
+- text: "Follow"
+  translation: ""
+
+- text: "Pole3"
+  translation: ""
+
+- text: "H2O_Sign"
+  translation: ""
+
+- text: "Pole_Shadow"
+  translation: ""
+
+- text: "ColorSwap"
+  translation: ""
+
+- text: "DoorFrame_Right"
+  translation: ""
+
+- text: "Decal_G_Happy"
+  translation: ""
+
+- text: "Pole1"
+  translation: ""
+
+- text: "Barrier_Left"
+  translation: ""
+
+- text: "Charging"
+  translation: ""
+
+- text: "PillarLeft"
+  translation: ""
+
+- text: "BridgeConnector Left"
+  translation: ""
+
+- text: "Background Piece Left"
+  translation: ""
+
+- text: "CableConector"
+  translation: ""
+
+- text: "Box5"
+  translation: "Box5"
+  skip_translation: true
+
+- text: "Overlaid Upper Platform"
+  translation: ""
+
+- text: "Go Sign Right Bottom"
+  translation: ""
+
+- text: "PoleRoot"
+  translation: ""
+
+- text: "LRLD_BG_emissive_B_001 1"
+  translation: ""
+
+- text: "FakeLight4"
+  translation: ""
+
+- text: "color back 2"
+  translation: ""
+
+- text: "Upper Wall"
+  translation: ""
+
+- text: "StopSignLeft"
+  translation: ""
+
+- text: "color platform bottom extended 3"
+  translation: ""
+
+- text: "NIXCX Poster"
+  translation: ""
+
+- text: "Closed_Hatch"
+  translation: ""
+
+- text: "Cable_9"
+  translation: "Cable_9"
+  skip_translation: true
+
+- text: "SupportRight"
+  translation: ""
+
+- text: "OnLight"
+  translation: ""
+
+- text: "Pocket Pussy Overworld"
+  translation: ""
+
+- text: "Access_Hatch"
+  translation: ""
+
+- text: "redlight_ground_sparkles_ssp_color_001 1"
+  translation: ""
+
+- text: "Cable_10"
+  translation: "Cable_10"
+  skip_translation: true
+
+- text: "Train 3d Symbol"
+  translation: ""
+
+- text: "RoofSide"
+  translation: ""
+
+- text: "PurrSound"
+  translation: ""
+
+- text: "Lower Wall"
+  translation: ""
+
+- text: "Train Entrance Background"
+  translation: ""
+
+- text: "Screen"
+  translation: ""
+
+- text: "streetlights emissive bottom 1"
+  translation: ""
+
+- text: "LowerPlatform"
+  translation: ""
+
+- text: "DoorLeft"
+  translation: ""
+
+- text: "Decal_G_Help"
+  translation: ""
+
+- text: "GoSignLeft"
+  translation: ""
+
+- text: "Train_whites"
+  translation: "Train_whites"
+  skip_translation: true
+
+- text: "aerial lights bottom 2"
+  translation: ""
+
+- text: "Arrow Left 1"
+  translation: ""
+
+- text: "Train_greens"
+  translation: "Train_greens"
+  skip_translation: true
+
+- text: "Pole2"
+  translation: ""
+
+- text: "FrontGenerator"
+  translation: ""
+
+- text: "LRLD_BG_emissive_C_001 1"
+  translation: ""
+
+- text: "Ticket Sign"
+  translation: ""
+
+- text: "NTEHI Poster"
+  translation: ""
+
+- text: "Red Light Piece Right"
+  translation: ""
+
+- text: "Pole"
+  translation: ""
+
+- text: "Collected"
+  translation: ""
+
+- text: "BridgeArrowUp1"
+  translation: ""
+
+- text: "FakeLight3"
+  translation: ""
+
+- text: "Lower Railing"
+  translation: ""
+
+- text: "Box2"
+  translation: "Box2"
+  skip_translation: true
+
+- text: "Rabbit"
+  translation: ""
+
+- text: "LightLeft"
+  translation: ""
+
+- text: "Arrow Left 2"
+  translation: ""
+
+- text: "Train Entrance Ground Light"
+  translation: ""
+
+- text: "VisualContainer"
+  translation: ""
+
+- text: "aerial lights top"
+  translation: ""
+
+- text: "H2O_FakeLight"
+  translation: ""
+
+- text: "aerial lights bottom"
+  translation: ""
+
+- text: "Decal_G_IDKBro"
+  translation: ""
+
+- text: "Decal_G_RoboBee"
+  translation: ""
+
+- text: "Interaction - First time"
+  translation: ""
+
+- text: "Go Sign Right Top"
+  translation: ""
+
+- text: "Tran Symbol Parent"
+  translation: ""
+
+- text: "Train Entrance Background Light"
+  translation: ""
+
+- text: "An~"
+  translation: "An~"
+  skip_translation: true
+
+- text: "QU@1"
+  translation: "QU@1"
+  skip_translation: true
+
+- text: "ZdS"
+  translation: "ZdS"
+  skip_translation: true
+
+- text: "? Ac"
+  translation: "? Ac"
+  skip_translation: true
+
+- text: "Aw-KA"
+  translation: "Aw-KA"
+  skip_translation: true
+
+- text: "G5A"
+  translation: "G5A"
+  skip_translation: true
+
+- text: "A@y"
+  translation: "A@y"
+  skip_translation: true
+
+- text: "NO%"
+  translation: "NO%"
+  skip_translation: true
+
+- text: "Bt\\"
+  translation: "Bt\\\\"
+  skip_translation: true
+
+- text: "j A"
+  translation: "j A"
+  skip_translation: true
+
+- text: "SkA"
+  translation: "SkA"
+  skip_translation: true
+
+- text: "Mp?Nb@"
+  translation: "Mp?Nb@"
+  skip_translation: true
+
+- text: "Q@fa"
+  translation: "Q@fa"
+  skip_translation: true
+
+- text: "5?0L2A"
+  translation: "5?0L2A"
+  skip_translation: true
+
+- text: ";YA"
+  translation: ";YA"
+  skip_translation: true
+
+- text: "~VA"
+  translation: "~VA"
+  skip_translation: true
+
+- text: "B)\\+A"
+  translation: "B)\\+A"
+  skip_translation: true
+
+- text: "Ashm"
+  translation: "Ashm"
+  skip_translation: true
+
+- text: "3B)\\MA"
+  translation: "3B)\\\\MA"
+  skip_translation: true
+
+- text: "QDA"
+  translation: "QDA"
+  skip_translation: true
+
+- text: "Aq=("
+  translation: "Aq=("
+  skip_translation: true
+
+- text: "V\"Ao"
+  translation: "V\\"
+  skip_translation: true
+
+- text: "?EP2A"
+  translation: "?EP2A"
+  skip_translation: true
+
+- text: "Qb@"
+  translation: "Qb@"
+  skip_translation: true
+
+- text: "Vn?"
+  translation: "Vn?"
+  skip_translation: true
+
+- text: "ZjC"
+  translation: "ZjC"
+  skip_translation: true
+
+- text: "BAc"
+  translation: "BAc"
+  skip_translation: true
+
+- text: "s? c"
+  translation: "s? c"
+  skip_translation: true
+
+- text: "IBIE"
+  translation: "IBIE"
+  skip_translation: true
+
+- text: "Q@A"
+  translation: "Q@A"
+  skip_translation: true
+
+- text: "XkA"
+  translation: "XkA"
+  skip_translation: true
+
+- text: "AlAt6"
+  translation: ""
+
+- text: "Xy?"
+  translation: "Xy?"
+  skip_translation: true
+
+- text: "Iv?"
+  translation: "Iv?"
+  skip_translation: true
+
+- text: "AXQ"
+  translation: "AXQ"
+  skip_translation: true
+
+- text: "GEAffb"
+  translation: ""
+
+- text: "NbP@"
+  translation: "NbP@"
+  skip_translation: true
+
+- text: "GAc"
+  translation: "GAc"
+  skip_translation: true
+
+- text: "Pq?"
+  translation: "Pq?"
+  skip_translation: true
+
+- text: "?UW"
+  translation: "?UW"
+  skip_translation: true
+
+- text: "Bi;"
+  translation: "Bi;"
+  skip_translation: true
+
+- text: "'AP"
+  translation: ""
+
+- text: "C3A"
+  translation: "C3A"
+  skip_translation: true
+
+- text: "GdB"
+  translation: "GdB"
+  skip_translation: true
+
+- text: "OyA"
+  translation: "OyA"
+  skip_translation: true
+
+- text: "O[A"
+  translation: "O[A"
+  skip_translation: true
+
+- text: "Ad;"
+  translation: "Ad;"
+  skip_translation: true
+
+- text: "\"(BU"
+  translation: "\\"
+  skip_translation: true
+
+- text: "YcAt6"
+  translation: ""
+
+- text: "AxyMA"
+  translation: ""
+
+- text: "G-Ac"
+  translation: "G-Ac"
+  skip_translation: true
+
+- text: "AIE"
+  translation: "AIE"
+  skip_translation: true
+
+- text: "OY@D"
+  translation: "OY@D"
+  skip_translation: true
+
+- text: "Bq=*"
+  translation: "Bq=*"
+  skip_translation: true
+
+- text: "?X9(A"
+  translation: "?X9(A"
+  skip_translation: true
+
+- text: "A5^V"
+  translation: "A5^V"
+  skip_translation: true
+
+- text: "?X92A"
+  translation: "?X92A"
+  skip_translation: true
+
+- text: "Bgf"
+  translation: "Bgf"
+  skip_translation: true
+
+- text: "7AD"
+  translation: "7AD"
+  skip_translation: true
+
+- text: "Ef@NbN"
+  translation: "Ef@NbN"
+  skip_translation: true
+
+- text: "JA43%A"
+  translation: "JA43%A"
+  skip_translation: true
+
+- text: "Ok:?"
+  translation: "Ok:?"
+  skip_translation: true
+
+- text: "Q@fff?"
+  translation: "Q@fff?"
+  skip_translation: true
+
+- text: "`ZA"
+  translation: "`ZA"
+  skip_translation: true
+
+- text: "Q8@c"
+  translation: "Q8@c"
+  skip_translation: true
+
+- text: "?EG"
+  translation: "?EG"
+  skip_translation: true
+
+- text: "XA@"
+  translation: "XA@"
+  skip_translation: true
+
+- text: "A33c@"
+  translation: "A33c@"
+  skip_translation: true
+
+- text: "BTt`A"
+  translation: ""
+
+- text: "AZd"
+  translation: "AZd"
+  skip_translation: true
+
+- text: "R/A"
+  translation: "R/A"
+  skip_translation: true
+
+- text: "Fw?\\"
+  translation: "Fw?\\\\"
+  skip_translation: true
+
+- text: "OyA#"
+  translation: "OyA#"
+  skip_translation: true
+
+- text: "4^XA"
+  translation: ""
+
+- text: "K]At6"
+  translation: "K]At6"
+  skip_translation: true
+
+- text: "MAF"
+  translation: "MAF"
+  skip_translation: true
+
+- text: "At\\"
+  translation: "At\\\\"
+  skip_translation: true
+
+- text: "Us?"
+  translation: "Us?"
+  skip_translation: true
+
+- text: "JAT"
+  translation: "JAT"
+  skip_translation: true
+
+- text: "7AJ"
+  translation: "7AJ"
+  skip_translation: true
+
+- text: "PA^"
+  translation: "PA^"
+  skip_translation: true
+
+- text: "OA#"
+  translation: "OA#"
+  skip_translation: true
+
+- text: "KAz"
+  translation: "KAz"
+  skip_translation: true
+
+- text: "I`E"
+  translation: "I`E"
+  skip_translation: true
+
+- text: "ZiB"
+  translation: "ZiB"
+  skip_translation: true
+
+- text: "XBg0"
+  translation: "XBg0"
+  skip_translation: true
+
+- text: "CeAt6"
+  translation: ""
+
+- text: "?ZEW"
+  translation: "?ZEW"
+  skip_translation: true
+
+- text: "BtF=A"
+  translation: ""
+
+- text: "Dy?"
+  translation: "Dy?"
+  skip_translation: true
+
+- text: "B4k"
+  translation: "B4k"
+  skip_translation: true
+
+- text: "QDAX9"
+  translation: "QDAX9"
+  skip_translation: true
+
+- text: "GAT"
+  translation: "GAT"
+  skip_translation: true
+
+- text: "Bd`"
+  translation: "Bd`"
+  skip_translation: true
+
+- text: "XA8"
+  translation: "XA8"
+  skip_translation: true
+
+- text: "AC[\""
+  translation: "AC[\""
+  skip_translation: true
+
+- text: "^VE?"
+  translation: "^VE?"
+  skip_translation: true
+
+- text: "D3Aa5T"
+  translation: ""
+
+- text: "AL7-"
+  translation: ""
+
+- text: "OD?c"
+  translation: "OD?c"
+  skip_translation: true
+
+- text: "Afo"
+  translation: ""
+
+- text: "A0y"
+  translation: "A0y"
+  skip_translation: true
+
+- text: "~IB"
+  translation: "~IB"
+  skip_translation: true
+
+- text: "PA8"
+  translation: "PA8"
+  skip_translation: true
+
+- text: "MNA"
+  translation: "MNA"
+  skip_translation: true
+
+- text: "Kw@O*\\"
+  translation: "Kw@O*\\\\"
+  skip_translation: true
+
+- text: "Bq=Z"
+  translation: "Bq=Z"
+  skip_translation: true
+
+- text: "DAxw"
+  translation: ""
+
+- text: "AB`%"
+  translation: "AB`%"
+  skip_translation: true
+
+- text: "?V]|A$C|"
+  translation: "?V]|A$C|"
+  skip_translation: true
+
+- text: "A`f&"
+  translation: "A`f&"
+  skip_translation: true
+
+- text: "O@x"
+  translation: "O@x"
+  skip_translation: true
+
+- text: "AgU"
+  translation: "AgU"
+  skip_translation: true
+
+- text: "K?k"
+  translation: "K?k"
+  skip_translation: true
+
+- text: "At?7"
+  translation: "At?7"
+  skip_translation: true
+
+- text: "Ash7"
+  translation: "Ash7"
+  skip_translation: true
+
+- text: "Kw?"
+  translation: "Kw?"
+  skip_translation: true
+
+- text: "AP7"
+  translation: "AP7"
+  skip_translation: true
+
+- text: "A*d"
+  translation: "A*d"
+  skip_translation: true
+
+- text: "LMA"
+  translation: "LMA"
+  skip_translation: true
+
+- text: "X=b"
+  translation: "X=b"
+  skip_translation: true
+
+- text: "T\"y?G"
+  translation: "T\\"
+  skip_translation: true
+
+- text: "S\"y?G"
+  translation: "S\\"
+  skip_translation: true
+
+- text: "IZ?"
+  translation: "IZ?"
+  skip_translation: true
+
+- text: "QMm?"
+  translation: "QMm?"
+  skip_translation: true
+
+- text: "P@j"
+  translation: "P@j"
+  skip_translation: true
+
+- text: "PeA"
+  translation: "PeA"
+  skip_translation: true
+
+- text: "Al1"
+  translation: "Al1"
+  skip_translation: true
+
+- text: "?B`1A"
+  translation: "?B`1A"
+  skip_translation: true
+
+- text: "Xy@"
+  translation: "Xy@"
+  skip_translation: true
+
+- text: "M=I"
+  translation: "M=I"
+  skip_translation: true
+
+- text: "`AL"
+  translation: "`AL"
+  skip_translation: true
+
+- text: "AB`aA"
+  translation: "AB`aA"
+  skip_translation: true
+
+- text: "AZ5S"
+  translation: "AZ5S"
+  skip_translation: true
+
+- text: "\"AJ"
+  translation: "\\"
+  skip_translation: true
+
+- text: "OKz@"
+  translation: "OKz@"
+  skip_translation: true
+
+- text: "Al^"
+  translation: "Al^"
+  skip_translation: true
+
+- text: "I?+bI?"
+  translation: "I?+bI?"
+  skip_translation: true
+
+- text: "UBq=,B633"
+  translation: ""
+
+- text: "FA633"
+  translation: "FA633"
+  skip_translation: true
+
+- text: "C@t"
+  translation: "C@t"
+  skip_translation: true
+
+- text: "AL7/"
+  translation: ""
+
+- text: "Ath"
+  translation: ""
+
+- text: "B@u"
+  translation: "B@u"
+  skip_translation: true
+
+- text: "A(\\?A"
+  translation: "A(\\?A"
+  skip_translation: true
+
+- text: "A'1vA"
+  translation: "A'1vA"
+  skip_translation: true
+
+- text: "Mj?h"
+  translation: "Mj?h"
+  skip_translation: true
+
+- text: "RYk?"
+  translation: "RYk?"
+  skip_translation: true
+
+- text: "Sk?"
+  translation: "Sk?"
+  skip_translation: true
+
+- text: "J?h"
+  translation: "J?h"
+  skip_translation: true
+
+- text: "Dh?'M"
+  translation: "Dh?'M"
+  skip_translation: true
+
+- text: "B43OA"
+  translation: "B43OA"
+  skip_translation: true
+
+- text: "~B=E"
+  translation: "~B=E"
+  skip_translation: true
+
+- text: "EfA"
+  translation: "EfA"
+  skip_translation: true
+
+- text: "D;q="
+  translation: "D;q="
+  skip_translation: true
+
+- text: "VlAX9"
+  translation: ""
+
+- text: "ATM"
+  translation: "ATM"
+  skip_translation: true
+
+- text: "Al2|A"
+  translation: ""
+
+- text: "KlB"
+  translation: "KlB"
+  skip_translation: true
+
+- text: "O7B"
+  translation: "O7B"
+  skip_translation: true
+
+- text: "V2A"
+  translation: "V2A"
+  skip_translation: true
+
+- text: "Zd?ff"
+  translation: "Zd?ff"
+  skip_translation: true
+
+- text: "ZAn\""
+  translation: ""
+
+- text: "?BO"
+  translation: "?BO"
+  skip_translation: true
+
+- text: "MtB"
+  translation: "MtB"
+  skip_translation: true
+
+- text: "?L7/A"
+  translation: "?L7/A"
+  skip_translation: true
+
+- text: "\"ZA"
+  translation: "\\"
+  skip_translation: true
+
+- text: "FA?@TiA"
+  translation: ""
+
+- text: "T@h"
+  translation: "T@h"
+  skip_translation: true
+
+- text: "R*A v"
+  translation: "R*A v"
+  skip_translation: true
+
+- text: "A8U"
+  translation: "A8U"
+  skip_translation: true
+
+- text: "@@UU@"
+  translation: "@@UU@"
+  skip_translation: true
+
+- text: "RE?"
+  translation: "RE?"
+  skip_translation: true
+
+- text: "XPI@"
+  translation: "XPI@"
+  skip_translation: true
+
+- text: "^V'A"
+  translation: "^V'A"
+  skip_translation: true
+
+- text: "A`S"
+  translation: "A`S"
+  skip_translation: true
+
+- text: "FA?"
+  translation: "FA?"
+  skip_translation: true
+
+- text: "&A]Z"
+  translation: "&A]Z"
+  skip_translation: true
+
+- text: "LuA"
+  translation: "LuA"
+  skip_translation: true
+
+- text: "Aa*Y@"
+  translation: "Aa*Y@"
+  skip_translation: true
+
+- text: "E@mt"
+  translation: "E@mt"
+  skip_translation: true
+
+- text: "O?P"
+  translation: "O?P"
+  skip_translation: true
+
+- text: ",A:\\GA"
+  translation: ",A:\\GA"
+  skip_translation: true
+
+- text: "Vi?"
+  translation: "Vi?"
+  skip_translation: true
+
+- text: "@AH"
+  translation: "@AH"
+  skip_translation: true
+
+- text: "Bo/@"
+  translation: "Bo/@"
+  skip_translation: true
+
+- text: "Vx?"
+  translation: "Vx?"
+  skip_translation: true
+
+- text: "Qx?tz"
+  translation: "Qx?tz"
+  skip_translation: true
+
+- text: "Ga@pi"
+  translation: "Ga@pi"
+  skip_translation: true
+
+- text: "Bc@"
+  translation: "Bc@"
+  skip_translation: true
+
+- text: "K?E"
+  translation: "K?E"
+  skip_translation: true
+
+- text: "AOL?"
+  translation: "AOL?"
+  skip_translation: true
+
+- text: "Q?h-"
+  translation: "Q?h-"
+  skip_translation: true
+
+- text: "?`1WA"
+  translation: "?`1WA"
+  skip_translation: true
+
+- text: "Q\"A"
+  translation: "Q\\"
+  skip_translation: true
+
+- text: "R@ef"
+  translation: "R@ef"
+  skip_translation: true
+
+- text: "Y?Rv"
+  translation: "Y?Rv"
+  skip_translation: true
+
+- text: "Awt=?"
+  translation: ""
+
+- text: "P`A"
+  translation: "P`A"
+  skip_translation: true
+
+- text: "OM?o"
+  translation: "OM?o"
+  skip_translation: true
+
+- text: "G?h-"
+  translation: "G?h-"
+  skip_translation: true
+
+- text: "S?Por?"
+  translation: "S?Por?"
+  skip_translation: true
+
+- text: "Z@Et&?"
+  translation: "Z@Et&?"
+  skip_translation: true
+
+- text: "WR^@s%"
+  translation: "WR^@s%"
+  skip_translation: true
+
+- text: "EZA"
+  translation: "EZA"
+  skip_translation: true
+
+- text: "K]A"
+  translation: "K]A"
+  skip_translation: true
+
+- text: "Ox?"
+  translation: "Ox?"
+  skip_translation: true
+
+- text: "|LA"
+  translation: "|LA"
+  skip_translation: true
+
+- text: "!MA"
+  translation: "!MA"
+  skip_translation: true
+
+- text: "HAA"
+  translation: "HAA"
+  skip_translation: true
+
+- text: "E@j)"
+  translation: "E@j)"
+  skip_translation: true
+
+- text: "D*@nq"
+  translation: "D*@nq"
+  skip_translation: true
+
+- text: "!AE"
+  translation: "!AE"
+  skip_translation: true
+
+- text: "B,2@n"
+  translation: "B,2@n"
+  skip_translation: true
+
+- text: "X@c"
+  translation: "X@c"
+  skip_translation: true
+
+- text: ")AT"
+  translation: ")AT"
+  skip_translation: true
+
+- text: "LUz@"
+  translation: "LUz@"
+  skip_translation: true
+
+- text: "Juno - Assistant Environment Artist"
+  translation: ""
+
+- text: "BlauKitten"
+  translation: ""
+
+- text: "Nerada"
+  translation: ""
+
+- text: "Rokean"
+  translation: ""
+
+- text: "Swurst"
+  translation: "Swurst"
+  skip_translation: true
+
+- text: "Turn on and off"
+  translation: ""
+
+- text: "A7K"
+  translation: "A7K"
+  skip_translation: true
+
+- text: "TPA"
+  translation: "TPA"
+  skip_translation: true
+
+- text: "Alo"
+  translation: ""
+
+- text: "Ady"
+  translation: ""
+
+- text: "CA@~V"
+  translation: "CA@~V"
+  skip_translation: true
+
+- text: "RA`^"
+  translation: "RA`^"
+  skip_translation: true
+
+- text: "RAp"
+  translation: "RAp"
+  skip_translation: true
+
+- text: "O@@e"
+  translation: "O@@e"
+  skip_translation: true
+
+- text: "ZI@"
+  translation: "ZI@"
+  skip_translation: true
+
+- text: "ZC%A@"
+  translation: "ZC%A@"
+  skip_translation: true
+
+- text: "J?hEu"
+  translation: "J?hEu"
+  skip_translation: true
+
+- text: "Turn off characters"
+  translation: ""
+
+- text: "Lock Character and fade to black"
+  translation: ""
+
+- text: "Fade in"
+  translation: ""
+
+- text: "Redlight_Intro"
+  translation: ""
+
+- text: "TypeToRemove"
+  translation: ""
+
+- text: "Hours"
+  translation: ""
+
+- text: "Minutes"
+  translation: ""
+
+- text: "Seconds"
+  translation: ""
+
+- text: "AdvanceDay"
+  translation: ""
+
+- text: "Call"
+  translation: "Call"
+  skip_translation: true
+
+- text: "lmao call again"
+  translation: ""
+
+- text: "Play Sarah dialogue"
+  translation: ""
+
+- text: "Play last dialogue"
+  translation: ""
+
+- text: "Remove restraint"
+  translation: ""
+
+- text: "FCff"
+  translation: "FCff"
+  skip_translation: true
+
+- text: "RemoveCheese"
+  translation: ""
+
+- text: "Add effects"
+  translation: ""
+
+- text: "Remove cheese"
+  translation: ""
+
+- text: "AddEffects"
+  translation: ""
+
+- text: "Activate Game Object"
+  translation: ""
+
+- text: "R'CUU%C"
+  translation: ""
+
+- text: "P7q@"
+  translation: "P7q@"
+  skip_translation: true
+
+- text: "T@mVS@"
+  translation: "T@mVS@"
+  skip_translation: true
+
+- text: "stop break guy"
+  translation: ""
+
+- text: "0UB"
+  translation: "0UB"
+  skip_translation: true
+
+- text: "In trigger"
+  translation: ""
+
+- text: "DWA"
+  translation: "DWA"
+  skip_translation: true
+
+- text: "Pick up"
+  translation: ""
+
+- text: "Add cheese to inventory"
+  translation: ""
+
+- text: "Bark character 2"
+  translation: ""
+
+- text: "Add Bark"
+  translation: ""
+
+- text: "remove bark"
+  translation: ""
+
+- text: "change look direction"
+  translation: ""
+
+- text: "CUU!C"
+  translation: "CUU!C"
+  skip_translation: true
+
+- text: "Get into car"
+  translation: ""
+
+- text: "BgC"
+  translation: "BgC"
+  skip_translation: true
+
+- text: "Remove phone"
+  translation: ""
+
+- text: "Turn off character"
+  translation: ""
+
+- text: "Unlock Zoey"
+  translation: ""
+
+- text: "JkC"
+  translation: "JkC"
+  skip_translation: true
+
+- text: "set idle"
+  translation: ""
+
+- text: "7AX"
+  translation: "7AX"
+  skip_translation: true
+
+- text: "ES$"
+  translation: "ES$"
+  skip_translation: true
+
+- text: "LiC"
+  translation: "LiC"
+  skip_translation: true
+
+- text: "Wait for a random amount of time"
+  translation: ""
+
+- text: "XeB"
+  translation: "XeB"
+  skip_translation: true
+
+- text: "Change Kitty under Car"
+  translation: ""
+
+- text: "Swap Kitty"
+  translation: ""
+
+- text: "wait 2"
+  translation: ""
+
+- text: "Bark 3"
+  translation: ""
+
+- text: "wait 3"
+  translation: ""
+
+- text: "Wow, that's scary! Did you open?"
+  translation: ""
+
+- text: "Bark 4"
+  translation: ""
+
+- text: "wait 4"
+  translation: ""
+
+- text: "Since the incident, we lost a lot of customers"
+  translation: ""
+
+- text: "Turn off car"
+  translation: ""
+
+- text: "Check Mission state"
+  translation: ""
+
+- text: "Dont have"
+  translation: ""
+
+- text: "Hk1"
+  translation: "Hk1"
+  skip_translation: true
+
+- text: "Wait again"
+  translation: ""
+
+- text: "PaB"
+  translation: "PaB"
+  skip_translation: true
+
+- text: "`P[?NJU"
+  translation: "`P[?NJU"
+  skip_translation: true
+
+- text: "XtC"
+  translation: "XtC"
+  skip_translation: true
+
+- text: "Active Game Object"
+  translation: ""
+
+- text: "R?iM"
+  translation: "R?iM"
+  skip_translation: true
+
+- text: "Z*AP"
+  translation: "Z*AP"
+  skip_translation: true
+
+- text: "A33nC"
+  translation: ""
+
+- text: "OnFinished"
+  translation: ""
+
+- text: "Disable Animator Bool"
+  translation: ""
+
+- text: "PCUU%C"
+  translation: "PCUU%C"
+  skip_translation: true
+
+- text: "Play Repeat Dialogue"
+  translation: ""
+
+- text: "External Trigger"
+  translation: ""
+
+- text: "*B2A"
+  translation: "*B2A"
+  skip_translation: true
+
+- text: "&L1A"
+  translation: "&L1A"
+  skip_translation: true
+
+- text: "It can feel?"
+  translation: ""
+
+- text: "Unlock choice to ask for Demonstration"
+  translation: ""
+
+- text: "Restart Repeat Dialogue"
+  translation: ""
+
+- text: "CUU3C"
+  translation: "CUU3C"
+  skip_translation: true
+
+- text: "Wait for used when locked"
+  translation: ""
+
+- text: "LockUsed"
+  translation: ""
+
+- text: "Walk to exit"
+  translation: ""
+
+- text: "What is that serial Number?"
+  translation: ""
+
+- text: "@CUU3C"
+  translation: "@CUU3C"
+  skip_translation: true
+
+- text: "WitchsCauldron"
+  translation: ""
+
+- text: "ToOutside"
+  translation: ""
+
+- text: "Ask for a demonstration"
+  translation: ""
+
+- text: "Pocket Pussy Vendor Demonstration"
+  translation: ""
+
+- text: "Wait for collect"
+  translation: ""
+
+- text: "Collect"
+  translation: ""
+
+- text: "DialogueToPlay"
+  translation: ""
+
+- text: "ShuffleList"
+  translation: ""
+
+- text: "Dialogues"
+  translation: ""
+
+- text: "Check DayTime"
+  translation: ""
+
+- text: "Night"
+  translation: "Night"
+  skip_translation: true
+
+- text: "Turn on light"
+  translation: ""
+
+- text: "Day"
+  translation: ""
+
+- text: "Turn off light"
+  translation: ""
+
+- text: "OnNight"
+  translation: ""
+
+- text: "OnDay"
+  translation: ""
+
+- text: "OnDark"
+  translation: ""
+
+- text: "OnBright"
+  translation: ""
+
+- text: "Do we have the task?"
+  translation: ""
+
+- text: "Are we collected?"
+  translation: ""
+
+- text: "Activate transition"
+  translation: ""
+
+- text: "Volume Faded"
+  translation: ""
+
+- text: "Where did you get it from?"
+  translation: ""
+
+- text: "Yh?"
+  translation: "Yh?"
+  skip_translation: true
+
+- text: "Huge Boobs"
+  translation: ""
+
+- text: "Did we get collected?"
+  translation: ""
+
+- text: "TaskToWaitFor"
+  translation: ""
+
+- text: "Play minigame"
+  translation: ""
+
+- text: "Set State to Collected 2"
+  translation: ""
+
+- text: "Set State to Collected"
+  translation: ""
+
+- text: "V/CUU%C"
+  translation: ""
+
+- text: "Activate Repeat Dialogue"
+  translation: ""
+
+- text: "Big Boobs"
+  translation: ""
+
+- text: "On use while locked"
+  translation: ""
+
+- text: "Did we arrive from this transition?"
+  translation: ""
+
+- text: "Are we unlocked?"
+  translation: ""
+
+- text: "Set unlocked visuals"
+  translation: ""
+
+- text: "Set locked visuals"
+  translation: ""
+
+- text: "Unlocked_Value"
+  translation: ""
+
+- text: "Wait for transition interact"
+  translation: ""
+
+- text: "Do we wanna lockpick?"
+  translation: ""
+
+- text: "KeyChange"
+  translation: ""
+
+- text: "Do lockpick"
+  translation: ""
+
+- text: "OnKeyChange"
+  translation: ""
+
+- text: "?CI"
+  translation: "?CI"
+  skip_translation: true
+
+- text: "d A"
+  translation: "d A"
+  skip_translation: true
+
+- text: "YA_"
+  translation: "YA_"
+  skip_translation: true
+
+- text: "TA_"
+  translation: "TA_"
+  skip_translation: true
+
+- text: "Nf@^"
+  translation: "Nf@^"
+  skip_translation: true
+
+- text: "Wait for use while locked"
+  translation: ""
+
+- text: "BUU7C"
+  translation: "BUU7C"
+  skip_translation: true
+
+- text: "On Water Hit Ground"
+  translation: ""
+
+- text: "Do we have the task to pet?"
+  translation: ""
+
+- text: "BUUIC"
+  translation: "BUUIC"
+  skip_translation: true
+

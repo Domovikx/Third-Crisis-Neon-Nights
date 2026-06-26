@@ -6,15 +6,16 @@ extractor.py — Извлекает диалоги, UI-строки и имен�
 Работает через dump_assets/ — не сканирует бинарники напрямую.
 
 Файлы на выходе (в translations/):
-  - dialogues.{path_id}.yaml  — ANToolkit JSON диалоги
-   - dialogues.bundle_*.yaml   — PlayMaker FSM диалоги (по активу)
+  - dialogues/{path_id}.yaml  — ANToolkit JSON диалоги
+  - dialogues/bundle.{name}.yaml — PlayMaker FSM диалоги (по активу)
   - speakers.yaml             — персонажи
-  - settings_keys.yaml        — UI-строки
+  - settings/{source}.yaml    — UI-строки из settings_keys.display (по summary-файлу)
+  - raw/{asset}.yaml          — UI-лейблы из raw_strings (по asset-у)
 
 Объектный формат:
   dialogues: {text, translation, speaker, rich_text, rich_translation}
   speakers:  {text, translation, gender, notes}
-  settings:  {text, translation}
+  settings/raw:  {text, translation}
 """
 
 import sys
@@ -33,6 +34,15 @@ OUT_DIR = GAME_DIR / "translations"
 
 def _dialogues_dir() -> Path:
     return OUT_DIR / "dialogues"
+
+
+def _settings_dir() -> Path:
+    return OUT_DIR / "settings"
+
+
+def _raw_dir() -> Path:
+    return OUT_DIR / "raw"
+
 
 DIALOGUE_FIELDS = ["text", "translation", "speaker", "rich_text", "rich_translation"]
 SPEAKER_FIELDS = ["text", "translation", "gender", "notes"]
@@ -288,47 +298,59 @@ def _is_ui_string(s: str) -> bool:
     return False
 
 
-def extract_chunk_ui_strings(chunk_files: list) -> list:
-    """Extract UI-like strings from raw_strings in chunk files.
+def extract_chunk_ui_strings(chunk_files: list) -> dict:
+    """Extract UI-like strings from raw_strings in chunk files, grouped by source asset.
 
     Many UI labels (BACK, HIDE, SKIP, Dialogue Log, etc.) are in MonoBehaviour
     raw_strings but not in settings_keys. This catches them.
+    Returns dict: asset_name -> [entries]
     """
-    seen = set()
-    results = []
+    global_seen = set()
+    result = {}
     for fp in chunk_files:
         try:
             data = json.loads(fp.read_text("utf-8"))
         except Exception:
             continue
+        asset = data.get("asset", "unknown")
+        local_seen = set()
+        entries = []
         for obj in data.get("objects", []):
             for s in obj.get("raw_strings", []):
                 s = s.strip()
-                if not s or s in seen or "\x00" in s:
+                if not s or s in local_seen or s in global_seen or "\x00" in s:
                     continue
                 if _is_ui_string(s):
-                    seen.add(s)
-                    results.append(s)
-    return [{"text": s, "translation": ""} for s in results]
+                    local_seen.add(s)
+                    global_seen.add(s)
+                    entries.append({"text": s, "translation": ""})
+        if entries:
+            if asset not in result:
+                result[asset] = []
+            result[asset].extend(entries)
+    return result
 
 
-def extract_global_strings(summary_files: list) -> list:
-    """Extract UI strings from settings_keys.
-    Returns list of dicts with text + translation."""
-    seen = set()
-    keys = []
+def extract_global_strings(summary_files: list) -> dict:
+    """Extract UI strings from settings_keys, grouped by source summary file.
+    Returns dict: source_file_stem -> [entries]"""
+    result = {}
     for fp in summary_files:
         try:
             data = json.loads(fp.read_text("utf-8"))
         except Exception:
             continue
+        entries = []
+        seen = set()
         for sk in data.get("settings_keys", []):
             display = sk.get("display", "").strip().strip("\x00")
             if not display or display in seen or "\x00" in display:
                 continue
             seen.add(display)
-            keys.append({"text": display, "translation": ""})
-    return keys
+            entries.append({"text": display, "translation": ""})
+        if entries:
+            result[fp.stem] = entries
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -355,15 +377,42 @@ def _entry_field_count(entry: dict) -> int:
     return sum(1 for v in entry.values() if v and str(v).strip())
 
 
+def _load_speaker_texts_lower() -> set:
+    """Load speaker names from speakers.yaml (case-insensitive)."""
+    sp_path = OUT_DIR / "speakers.yaml"
+    if not sp_path.exists():
+        return set()
+    try:
+        sp_entries = yaml.safe_load(sp_path.read_text(encoding="utf-8")) or []
+        return {e["text"].lower() for e in sp_entries if isinstance(e, dict) and e.get("text")}
+    except Exception:
+        return set()
+
+
+def _load_settings_files() -> dict:
+    """Load all entries from settings/ and raw/ directories.
+    Returns dict: filepath -> [entries]"""
+    result = {}
+    for dir_name in ("settings", "raw"):
+        dir_path = OUT_DIR / dir_name
+        if not dir_path.exists():
+            continue
+        for fp in sorted(dir_path.glob("*.yaml")):
+            entries = read_yaml(fp)
+            if entries:
+                result[fp] = entries
+    return result
+
+
 def consolidate_translations():
     """Post-extraction cleanup: deduplicate by `text` and route to correct file.
 
     Algorithm:
-    1. Load all dialogues/*.yaml and settings_keys.yaml
+    1. Load all dialogues/*.yaml and settings/*.yaml + raw/*.yaml
     2. Group entries by `text` field
     3. For each group, keep the entry with the MOST fields (richest)
     4. If richest has dialogue fields (speaker/rich_text) → keep in dialogues/
-    5. If richest has only text+translation → keep in settings_keys.yaml
+    5. If richest has only text+translation → keep in settings/ or raw/
     6. Remove duplicates from wrong files
 
     Runtime uses `text` as the only key, so duplicates are pure noise.
@@ -372,12 +421,12 @@ def consolidate_translations():
     if not dialogues_dir.exists():
         return
 
-    # Counter for entries removed during consolidation
     removed_count = 0
 
     # Step 1: Collect all entries by text
     # text -> {"dialogue": (file, entry), "settings": (file, entry)}
     by_text: dict = {}
+    settings_files = _load_settings_files()
 
     # Load dialogues
     for fp in sorted(dialogues_dir.glob("*.yaml")):
@@ -389,55 +438,38 @@ def consolidate_translations():
             if not t:
                 continue
             slot = by_text.setdefault(t, {"dialogue": None, "settings": None})
-            # slot["dialogue"] stores (filepath, entry_dict)
             existing = slot["dialogue"]
             if existing is None or _entry_field_count(entry) > _entry_field_count(existing[1]):
                 slot["dialogue"] = (fp, entry)
 
-    # Load settings_keys
-    sk_path = OUT_DIR / "settings_keys.yaml"
-    sk_entries = read_yaml(sk_path)
-
-    # Load speakers — these are handled by speakers.yaml, NOT by settings_keys.
-    # Without this filter, settings_keys.yaml (loaded first alphabetically: s-e-t < s-p-e)
+    # Load speakers — these are handled by speakers.yaml, NOT by settings/raw files.
+    # Without this filter, settings/ files (loaded first alphabetically: s < s-p)
     # would seed the runtime dictionary with empty translations, blocking speakers.yaml.
-    # Match case-insensitively because the game may uppercase speaker names for display
-    # (e.g., "Zoey" in dialogues becomes "ZOEY" in TMP).
-    speaker_texts_lower = set()
-    sp_path = OUT_DIR / "speakers.yaml"
-    if sp_path.exists():
-        try:
-            sp_entries = yaml.safe_load(sp_path.read_text(encoding="utf-8")) or []
-            for e in sp_entries:
-                if isinstance(e, dict) and e.get("text"):
-                    speaker_texts_lower.add(e["text"].lower())
-        except Exception:
-            pass
+    speaker_texts_lower = _load_speaker_texts_lower()
 
-    for entry in sk_entries:
-        if not isinstance(entry, dict):
-            continue
-        t = entry.get("text", "")
-        if not t:
-            continue
-        # Skip entries that belong to speakers.yaml (case-insensitive)
-        if t.lower() in speaker_texts_lower:
-            removed_count += 1
-            continue
-        slot = by_text.setdefault(t, {"dialogue": None, "settings": None})
-        existing = slot["settings"]
-        if existing is None or _entry_field_count(entry) > _entry_field_count(existing[1]):
-            slot["settings"] = (sk_path, entry)
+    for sfp, sentries in settings_files.items():
+        for entry in sentries:
+            if not isinstance(entry, dict):
+                continue
+            t = entry.get("text", "")
+            if not t:
+                continue
+            if t.lower() in speaker_texts_lower:
+                removed_count += 1
+                continue
+            slot = by_text.setdefault(t, {"dialogue": None, "settings": None})
+            existing = slot["settings"]
+            if existing is None or _entry_field_count(entry) > _entry_field_count(existing[1]):
+                slot["settings"] = (sfp, entry)
 
     # Step 2: Decide winner and route to correct file
-    keep_in_dialogues: dict = {}  # file -> [entries]
-    keep_in_settings = []
+    keep_in_dialogues: dict = {}    # file -> [entries]
+    keep_in_settings: dict = {}     # file -> [entries]
 
     for t, versions in by_text.items():
-        dlg = versions["dialogue"]   # (file, entry) or None
-        stt = versions["settings"]   # (file, entry) or None
+        dlg = versions["dialogue"]
+        stt = versions["settings"]
 
-        # Pick the richer version (more fields = better)
         if dlg and stt:
             dlg_count = _entry_field_count(dlg[1])
             stt_count = _entry_field_count(stt[1])
@@ -447,7 +479,7 @@ def consolidate_translations():
             else:
                 chosen = stt[1]
                 chosen_src = "settings"
-                removed_count += 1  # dialogue version removed
+                removed_count += 1
         elif dlg:
             chosen = dlg[1]
             chosen_src = "dialogue"
@@ -457,22 +489,17 @@ def consolidate_translations():
         else:
             continue
 
-        # Route by ACTUAL content AND source file.
-        # - If dlg (dialogue) version exists → keep in dialogues/ (preserve context)
-        # - Otherwise, check content: speaker/rich_text → dialogue, else → settings_key
         if dlg is not None:
-            # Keep in original dialogues/ file regardless of content
             keep_in_dialogues.setdefault(dlg[0], []).append(chosen)
             if chosen_src == "settings":
                 removed_count += 1
         elif _is_dialogue_entry(chosen):
-            # Settings_keys version that looks like a dialogue — write to _orphans
             keep_in_dialogues.setdefault(dialogues_dir / "_orphans.yaml", []).append(chosen)
             removed_count += 1
-        else:
-            keep_in_settings.append(chosen)
+        elif stt is not None:
+            keep_in_settings.setdefault(stt[0], []).append(chosen)
 
-    # Step 3: Write back dialogues files (only files that have entries)
+    # Step 3: Write back dialogues files
     for fp, entries in keep_in_dialogues.items():
         seen_t = set()
         unique = []
@@ -482,19 +509,24 @@ def consolidate_translations():
                 unique.append(e)
         write_yaml(fp, unique, header=f"Dialogues (path_id={fp.stem})")
 
-    # Delete dialogue files that had all entries removed
     for fp in sorted(dialogues_dir.glob("*.yaml")):
         if fp not in keep_in_dialogues:
             fp.unlink()
 
-    # Step 4: Write back settings_keys
-    seen_t = set()
-    unique_sk = []
-    for e in keep_in_settings:
-        if e.get("text", "") not in seen_t:
-            seen_t.add(e.get("text", ""))
-            unique_sk.append(e)
-    write_yaml(sk_path, unique_sk, header="Settings keys")
+    # Step 4: Write back settings/raw files
+    for fp in sorted(settings_files.keys()):
+        entries = keep_in_settings.get(fp, [])
+        seen_t = set()
+        unique = []
+        for e in entries:
+            if e.get("text", "") not in seen_t:
+                seen_t.add(e.get("text", ""))
+                unique.append(e)
+        if unique:
+            write_yaml(fp, unique, header=f"{fp.parent.stem} ({fp.stem})")
+        elif fp.exists():
+            fp.unlink()
+            print(f"  Consolidated: removed empty {fp.name}", file=sys.stderr)
 
     if removed_count > 0:
         print(f"  Consolidated: removed {removed_count} duplicates (dialogue/settings conflicts)", file=sys.stderr)
@@ -780,20 +812,60 @@ def extract():
     speakers_list = merge(read_yaml(fpath), speakers_list, SPEAKER_FIELDS, "text")
     write_yaml(fpath, speakers_list, header="Speakers")
 
-    fpath = OUT_DIR / "settings_keys.yaml"
-    settings_keys = extract_global_strings(summaries)
-    # Also extract UI strings from chunk raw_strings (BACK, HIDE, SKIP, Dialogue Log, etc.)
-    chunk_ui = extract_chunk_ui_strings(chunks)
-    # Deduplicate: don't add chunk UI strings that are already in settings_keys
-    existing = {sk["text"] for sk in settings_keys}
-    chunk_ui = [s for s in chunk_ui if s["text"] not in existing]
-    settings_keys.extend(chunk_ui)
-    settings_keys = merge(read_yaml(fpath), settings_keys, SETTINGS_FIELDS, "text")
-    write_yaml(fpath, settings_keys, header="Settings keys")
+    # Load old monolithic settings_keys.yaml for migration (will stop being written)
+    old_settings = read_yaml(OUT_DIR / "settings_keys.yaml")
+
+    # Extract UI strings grouped by source
+    settings_by_source = extract_global_strings(summaries)  # dict: source_stem -> [entries]
+    chunk_ui_by_asset = extract_chunk_ui_strings(chunks)    # dict: asset_name -> [entries]
+
+    # Build set of all summary texts for dedup against chunk entries
+    all_summary_texts = set()
+    for entries in settings_by_source.values():
+        for e in entries:
+            all_summary_texts.add(e["text"])
+
+    # Collect per-file fresh entries with dedup
+    total_settings = 0
+
+    # Write summary-per-source files (settings/)
+    _settings_dir().mkdir(parents=True, exist_ok=True)
+    for source_name in sorted(settings_by_source):
+        entries = settings_by_source[source_name]
+        # Remove any entries already covered by another summary source (intra-summary dedup)
+        source_texts = {e["text"] for e in entries}
+        for other_name in settings_by_source:
+            if other_name == source_name:
+                continue
+            other_texts = {e["text"] for e in settings_by_source[other_name]}
+            # Remove from entries if in other source (first alphabetically wins)
+            if other_name < source_name:
+                entries = [e for e in entries if e["text"] not in other_texts]
+
+        fpath = _settings_dir() / f"{source_name}.yaml"
+        merged = merge(old_settings + read_yaml(fpath), entries, SETTINGS_FIELDS, "text")
+        write_yaml(fpath, merged, header=f"Settings ({source_name})")
+        total_settings += len(merged)
+
+    # Write chunk-per-asset files (raw/)
+    _raw_dir().mkdir(parents=True, exist_ok=True)
+    for asset_name in sorted(chunk_ui_by_asset):
+        entries = chunk_ui_by_asset[asset_name]
+        # Dedup: remove entries already in any summary source (summary takes priority)
+        entries = [e for e in entries if e["text"] not in all_summary_texts]
+        if not entries:
+            continue
+
+        safe_name = re.sub(r'_[a-f0-9]{12,}$', '', asset_name)
+        safe_name = re.sub(r'[\\/:*?"<>|]', '_', safe_name)
+        fpath = _raw_dir() / f"{safe_name}.yaml"
+        merged = merge(old_settings + read_yaml(fpath), entries, SETTINGS_FIELDS, "text")
+        write_yaml(fpath, merged, header=f"UI strings ({asset_name})")
+        total_settings += len(merged)
 
     print(f"\nDone: {total} dialogues across "
           f"{len(by_pid)} .assets sources + {len(by_bundle)} bundles, "
-          f"{len(speakers_list)} speakers, {len(settings_keys)} settings keys",
+          f"{len(speakers_list)} speakers, {total_settings} settings/raw entries",
           file=sys.stderr)
 
     # Post-extraction: deduplicate by `text` and route to correct file

@@ -1,0 +1,455 @@
+# raw (level6)
+
+- text: "Ahx"
+  translation: ""
+
+- text: "A*N"
+  translation: "A*N"
+  skip_translation: true
+
+- text: "0IW"
+  translation: "0IW"
+  skip_translation: true
+
+- text: "Front_Side_Left"
+  translation: ""
+
+- text: "Front_Pillar Middle 2"
+  translation: ""
+
+- text: "Roof_Side_Inner"
+  translation: ""
+
+- text: "Front_Pillar"
+  translation: ""
+
+- text: "Pillars_Left"
+  translation: ""
+
+- text: "Side_Left"
+  translation: ""
+
+- text: "Roof_Side"
+  translation: ""
+
+- text: "Front_Pillar Middle"
+  translation: ""
+
+- text: "Front_Left"
+  translation: ""
+
+- text: "2nd Floor"
+  translation: ""
+
+- text: "Building4"
+  translation: ""
+
+- text: "Side_Right"
+  translation: ""
+
+- text: "Windows_2"
+  translation: "Windows_2"
+  skip_translation: true
+
+- text: "Roof_Top"
+  translation: ""
+
+- text: "Building3"
+  translation: ""
+
+- text: "Pillar_Left"
+  translation: ""
+
+- text: "Walls_Right"
+  translation: ""
+
+- text: "Walls_Left"
+  translation: ""
+
+- text: "Pillars_Right"
+  translation: ""
+
+- text: "Alley"
+  translation: ""
+
+- text: "Global_Light"
+  translation: ""
+
+- text: "Wall_Front_Left"
+  translation: ""
+
+- text: "Window_1"
+  translation: "Window_1"
+  skip_translation: true
+
+- text: "1st Floor"
+  translation: ""
+
+- text: "Building Outline"
+  translation: ""
+
+- text: "Side"
+  translation: ""
+
+- text: "Front_Right"
+  translation: ""
+
+- text: "Light 2D N"
+  translation: ""
+
+- text: "Pillar_Right"
+  translation: ""
+
+- text: "Front"
+  translation: "Front"
+  skip_translation: true
+
+- text: "GroundDetails"
+  translation: ""
+
+- text: "Glass_Bleaks"
+  translation: ""
+
+- text: "Wall2"
+  translation: "Wall2"
+  skip_translation: true
+
+- text: "?A`%A"
+  translation: "?A`%A"
+  skip_translation: true
+
+- text: "B`mA"
+  translation: "B`mA"
+  skip_translation: true
+
+- text: "XAm"
+  translation: "XAm"
+  skip_translation: true
+
+- text: "A@f"
+  translation: "A@f"
+  skip_translation: true
+
+- text: "?33OA"
+  translation: "?33OA"
+  skip_translation: true
+
+- text: "A Z"
+  translation: "A Z"
+  skip_translation: true
+
+- text: "~ZA"
+  translation: "~ZA"
+  skip_translation: true
+
+- text: "A:A"
+  translation: "A:A"
+  skip_translation: true
+
+- text: "\"AG7"
+  translation: "\\"
+  skip_translation: true
+
+- text: "?AD"
+  translation: "?AD"
+  skip_translation: true
+
+- text: "u= Z"
+  translation: "u= Z"
+  skip_translation: true
+
+- text: "MZA-"
+  translation: "MZA-"
+  skip_translation: true
+
+- text: "AG7"
+  translation: "AG7"
+  skip_translation: true
+
+- text: "VN?d"
+  translation: "VN?d"
+  skip_translation: true
+
+- text: "A@A`?"
+  translation: "A@A`?"
+  skip_translation: true
+
+- text: "QA;"
+  translation: "QA;"
+  skip_translation: true
+
+- text: "A\"d"
+  translation: "A\\"
+  skip_translation: true
+
+- text: "AQk"
+  translation: "AQk"
+  skip_translation: true
+
+- text: "MZA"
+  translation: "MZA"
+  skip_translation: true
+
+- text: "*Z-A"
+  translation: "*Z-A"
+  skip_translation: true
+
+- text: "(NA"
+  translation: "(NA"
+  skip_translation: true
+
+- text: "SAl"
+  translation: "SAl"
+  skip_translation: true
+
+- text: "U@d"
+  translation: "U@d"
+  skip_translation: true
+
+- text: "!AL7"
+  translation: "!AL7"
+  skip_translation: true
+
+- text: "AmgLB"
+  translation: ""
+
+- text: "Nbf"
+  translation: "Nbf"
+  skip_translation: true
+
+- text: "6HA("
+  translation: ""
+
+- text: "? Zl@"
+  translation: "? Zl@"
+  skip_translation: true
+
+- text: "NA@"
+  translation: "NA@"
+  skip_translation: true
+
+- text: "C|lGC"
+  translation: "C|lGC"
+  skip_translation: true
+
+- text: "QPA@A`?"
+  translation: "QPA@A`?"
+  skip_translation: true
+
+- text: "A`A`?"
+  translation: "A`A`?"
+  skip_translation: true
+
+- text: "CyAmgLB"
+  translation: ""
+
+- text: "Q,AT"
+  translation: "Q,AT"
+  skip_translation: true
+
+- text: "!A Z"
+  translation: "!A Z"
+  skip_translation: true
+
+- text: "DA="
+  translation: "DA="
+  skip_translation: true
+
+- text: "Ba@"
+  translation: "Ba@"
+  skip_translation: true
+
+- text: "EmC"
+  translation: "EmC"
+  skip_translation: true
+
+- text: ":AG7"
+  translation: ":AG7"
+  skip_translation: true
+
+- text: "Bge"
+  translation: ""
+
+- text: "|WA"
+  translation: "|WA"
+  skip_translation: true
+
+- text: "XAJ"
+  translation: "XAJ"
+  skip_translation: true
+
+- text: "OUA"
+  translation: "OUA"
+  skip_translation: true
+
+- text: "?AT"
+  translation: "?AT"
+  skip_translation: true
+
+- text: "(VA1"
+  translation: "(VA1"
+  skip_translation: true
+
+- text: "OgA"
+  translation: "OgA"
+  skip_translation: true
+
+- text: "QAG7"
+  translation: "QAG7"
+  skip_translation: true
+
+- text: "9AJ"
+  translation: "9AJ"
+  skip_translation: true
+
+- text: "PAmgLB"
+  translation: ""
+
+- text: "?F%E?"
+  translation: "?F%E?"
+  skip_translation: true
+
+- text: "CjA"
+  translation: "CjA"
+  skip_translation: true
+
+- text: "k A"
+  translation: "k A"
+  skip_translation: true
+
+- text: "9AN"
+  translation: "9AN"
+  skip_translation: true
+
+- text: "?GLUA("
+  translation: "?GLUA("
+  skip_translation: true
+
+- text: "#AB"
+  translation: "#AB"
+  skip_translation: true
+
+- text: "#A@A`?"
+  translation: "#A@A`?"
+  skip_translation: true
+
+- text: "G5A|"
+  translation: "G5A|"
+  skip_translation: true
+
+- text: "XAo"
+  translation: "XAo"
+  skip_translation: true
+
+- text: "O=@mgLB"
+  translation: "O=@mgLB"
+  skip_translation: true
+
+- text: "?X9pA Z"
+  translation: "?X9pA Z"
+  skip_translation: true
+
+- text: "Jf?"
+  translation: "Jf?"
+  skip_translation: true
+
+- text: "?B`%A"
+  translation: "?B`%A"
+  skip_translation: true
+
+- text: "VXAT"
+  translation: "VXAT"
+  skip_translation: true
+
+- text: "A\\ IA"
+  translation: "A\\\\ IA"
+  skip_translation: true
+
+- text: "MvA"
+  translation: "MvA"
+  skip_translation: true
+
+- text: "A@bp?"
+  translation: "A@bp?"
+  skip_translation: true
+
+- text: "UA`f"
+  translation: "UA`f"
+  skip_translation: true
+
+- text: "X?`f"
+  translation: "X?`f"
+  skip_translation: true
+
+- text: "Cs?"
+  translation: "Cs?"
+  skip_translation: true
+
+- text: "LAl"
+  translation: "LAl"
+  skip_translation: true
+
+- text: "Y@@bp?"
+  translation: "Y@@bp?"
+  skip_translation: true
+
+- text: "A`f"
+  translation: "A`f"
+  skip_translation: true
+
+- text: "W?+O"
+  translation: "W?+O"
+  skip_translation: true
+
+- text: "'O=A"
+  translation: "'O=A"
+  skip_translation: true
+
+- text: "MIA"
+  translation: "MIA"
+  skip_translation: true
+
+- text: "PEB"
+  translation: "PEB"
+  skip_translation: true
+
+- text: "E@ff&@"
+  translation: "E@ff&@"
+  skip_translation: true
+
+- text: "JA?u"
+  translation: "JA?u"
+  skip_translation: true
+
+- text: "'RA"
+  translation: ""
+
+- text: "ANtBA"
+  translation: ""
+
+- text: "]BA"
+  translation: "]BA"
+  skip_translation: true
+
+- text: "Ps@"
+  translation: "Ps@"
+  skip_translation: true
+
+- text: "HbR?"
+  translation: "HbR?"
+  skip_translation: true
+
+- text: ";EGB?"
+  translation: ";EGB?"
+  skip_translation: true
+
+- text: "VO8"
+  translation: "VO8"
+  skip_translation: true
+
+- text: "Check Day/Night"
+  translation: ""
+
+- text: "Turn on 2"
+  translation: ""
+

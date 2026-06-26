@@ -1,0 +1,57 @@
+# raw (sharedassets1)
+
+- text: "Shader Graphs_NN_Blurable Unlit"
+  translation: "Shader Graphs_NN_Blurable Unlit"
+  skip_translation: true
+
+- text: "Shader Graphs_NN_Blurable"
+  translation: "Shader Graphs_NN_Blurable"
+  skip_translation: true
+
+- text: "Shader Graphs_NN_Blurable_Fakelight"
+  translation: "Shader Graphs_NN_Blurable_Fakelight"
+  skip_translation: true
+
+- text: "Baked Train Background Blurred"
+  translation: ""
+
+- text: "BlurredTex"
+  translation: ""
+
+- text: "Blur"
+  translation: "Blur"
+  skip_translation: true
+
+- text: "Train_Camera"
+  translation: ""
+
+- text: "\\UD?"
+  translation: "\\\\UD?"
+  skip_translation: true
+
+- text: "G?A"
+  translation: "G?A"
+  skip_translation: true
+
+- text: "G?u"
+  translation: "G?u"
+  skip_translation: true
+
+- text: "GqYB"
+  translation: ""
+
+- text: "DGqYB"
+  translation: ""
+
+- text: "DrivebyLights"
+  translation: ""
+
+- text: "ColorChanger"
+  translation: ""
+
+- text: "Car1 Move Left_Masked"
+  translation: ""
+
+- text: "FlyBy"
+  translation: ""
+

@@ -1,0 +1,12 @@
+# raw (bundle_sarahandzoeyinlatex_assets_all)
+
+- text: "SARAH_AND_ZOEY_3"
+  translation: ""
+
+- text: "SARAH_AND_ZOEY"
+  translation: ""
+
+- text: "DlS"
+  translation: "DlS"
+  skip_translation: true
+

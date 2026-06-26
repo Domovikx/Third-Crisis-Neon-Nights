@@ -1,0 +1,64 @@
+# raw (level2)
+
+- text: "BottomDoorLight"
+  translation: ""
+
+- text: "Doors"
+  translation: ""
+
+- text: "Stools"
+  translation: ""
+
+- text: "BarLightPink"
+  translation: ""
+
+- text: "Milestones"
+  translation: ""
+
+- text: "RightDoorRed"
+  translation: ""
+
+- text: "Counter"
+  translation: ""
+
+- text: "Floors"
+  translation: ""
+
+- text: "LeftDoorRed"
+  translation: ""
+
+- text: "Calliach"
+  translation: ""
+
+- text: "BottomFade"
+  translation: ""
+
+- text: "B`m@"
+  translation: "B`m@"
+  skip_translation: true
+
+- text: "SBA"
+  translation: "SBA"
+  skip_translation: true
+
+- text: "Add choice"
+  translation: ""
+
+- text: "Choice"
+  translation: ""
+
+- text: "Milestone10"
+  translation: ""
+
+- text: "Take item"
+  translation: ""
+
+- text: "Give reward"
+  translation: ""
+
+- text: "GetAllInstances"
+  translation: ""
+
+- text: "DestroyItems"
+  translation: ""
+

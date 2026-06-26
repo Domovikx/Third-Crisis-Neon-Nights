@@ -1,0 +1,15 @@
+# raw (bundle_0.2pinup-lio-aclosefriend_assets_all)
+
+- text: "Lio - A close friend - 1"
+  translation: "Лио - Близкий друг - 1"
+
+- text: "Lio - A close friend"
+  translation: "Лио - Близкий друг"
+
+- text: "Lio - A close friend - 2"
+  translation: "Лио - Близкий друг - 2"
+
+- text: "A*j"
+  translation: "A*j"
+  skip_translation: true
+

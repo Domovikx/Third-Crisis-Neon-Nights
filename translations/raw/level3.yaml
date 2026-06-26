@@ -1,0 +1,1216 @@
+# raw (level3)
+
+- text: "M')A"
+  translation: "M')A"
+  skip_translation: true
+
+- text: "ADj"
+  translation: "ADj"
+  skip_translation: true
+
+- text: "Js@(%"
+  translation: "Js@(%"
+  skip_translation: true
+
+- text: "@`DE"
+  translation: "@`DE"
+  skip_translation: true
+
+- text: "`DE"
+  translation: "`DE"
+  skip_translation: true
+
+- text: "Closet"
+  translation: ""
+
+- text: "On_Ground"
+  translation: ""
+
+- text: "Crack29"
+  translation: ""
+
+- text: "Crack23"
+  translation: ""
+
+- text: "Table_Left_4"
+  translation: ""
+
+- text: "Dream_Flavour"
+  translation: ""
+
+- text: "On_CornerTable"
+  translation: ""
+
+- text: "Room Peeking"
+  translation: ""
+
+- text: "Crack10"
+  translation: ""
+
+- text: "Ground_Props"
+  translation: ""
+
+- text: "Hologram 1"
+  translation: ""
+
+- text: "Hologram 2"
+  translation: ""
+
+- text: "Lockpicking Interaction"
+  translation: ""
+
+- text: "Room_4"
+  translation: "Room_4"
+  skip_translation: true
+
+- text: "Crack2"
+  translation: "Crack2"
+  skip_translation: true
+
+- text: "205 Bed"
+  translation: ""
+
+- text: "Zoey Tentacle Target"
+  translation: ""
+
+- text: "DirtOnWall_2"
+  translation: ""
+
+- text: "StartPos"
+  translation: ""
+
+- text: "Crack26"
+  translation: ""
+
+- text: "Toilet Interaction"
+  translation: ""
+
+- text: "NewPos"
+  translation: ""
+
+- text: "Drink Visuals"
+  translation: ""
+
+- text: "Tabel_Long_1"
+  translation: ""
+
+- text: "Ambient Lighting"
+  translation: ""
+
+- text: "On_SideTable"
+  translation: ""
+
+- text: "Environment Ground_Floor"
+  translation: ""
+
+- text: "Dialogue Reverb Override"
+  translation: ""
+
+- text: "Bin_Left"
+  translation: ""
+
+- text: "Tentacles"
+  translation: ""
+
+- text: "Table_Left_1"
+  translation: ""
+
+- text: "LuxusRoom_Floor"
+  translation: ""
+
+- text: "Crack21"
+  translation: ""
+
+- text: "Rokean Flavor"
+  translation: ""
+
+- text: "DirtOnWall_1"
+  translation: ""
+
+- text: "OnGround"
+  translation: ""
+
+- text: "Sex Scene Preview"
+  translation: ""
+
+- text: "Room_2"
+  translation: "Room_2"
+  skip_translation: true
+
+- text: "bandaid collider"
+  translation: ""
+
+- text: "RimLight 2"
+  translation: ""
+
+- text: "Flesh Floor"
+  translation: ""
+
+- text: "Crack6"
+  translation: "Crack6"
+  skip_translation: true
+
+- text: "Dream_Sequence"
+  translation: ""
+
+- text: "Crack27"
+  translation: ""
+
+- text: "Timeline"
+  translation: "Timeline"
+  skip_translation: true
+
+- text: "Upstairs Closet 1"
+  translation: ""
+
+- text: "Room 205 Black Overlay"
+  translation: ""
+
+- text: "BackgroundTiles"
+  translation: ""
+
+- text: "205 Hot tub"
+  translation: ""
+
+- text: "GlobalLight"
+  translation: ""
+
+- text: "RimLight"
+  translation: ""
+
+- text: "Public_WC"
+  translation: ""
+
+- text: "On_Wardorbe"
+  translation: ""
+
+- text: "Crack5"
+  translation: "Crack5"
+  skip_translation: true
+
+- text: "Electronic Hum Loops"
+  translation: ""
+
+- text: "Crack11"
+  translation: ""
+
+- text: "BigTiles"
+  translation: ""
+
+- text: "Black Overlay Trigger"
+  translation: ""
+
+- text: "Set Zoey Expression"
+  translation: ""
+
+- text: "Hologram 3"
+  translation: ""
+
+- text: "Light 2D - hotel_test2_multiplymap"
+  translation: ""
+
+- text: "Entrance_Left"
+  translation: ""
+
+- text: "Crack13"
+  translation: ""
+
+- text: "Bin_Right"
+  translation: ""
+
+- text: "Environment Second_Floor"
+  translation: ""
+
+- text: "Zoey Teleport Position for Tentacles"
+  translation: ""
+
+- text: "Crack25"
+  translation: ""
+
+- text: "Ambient Moans"
+  translation: ""
+
+- text: "Bar Fridge"
+  translation: ""
+
+- text: "Zoey chibi worker"
+  translation: ""
+
+- text: "Passage Highlight"
+  translation: ""
+
+- text: "SignHum_Loop_2"
+  translation: ""
+
+- text: "Crack19"
+  translation: ""
+
+- text: "Room_1"
+  translation: "Room_1"
+  skip_translation: true
+
+- text: "Crack15"
+  translation: ""
+
+- text: "AmbientGlitch"
+  translation: ""
+
+- text: "Licking Cutscene"
+  translation: ""
+
+- text: "NoPrefab"
+  translation: ""
+
+- text: "ReturnPos"
+  translation: ""
+
+- text: "Worker of the Month sign"
+  translation: ""
+
+- text: "Holoscreens"
+  translation: ""
+
+- text: "Wallprops"
+  translation: ""
+
+- text: "BarTrigger"
+  translation: ""
+
+- text: "Crack16"
+  translation: ""
+
+- text: "Overworld Animation Trigger"
+  translation: ""
+
+- text: "Room_3"
+  translation: "Room_3"
+  skip_translation: true
+
+- text: "Table_Left_2"
+  translation: ""
+
+- text: "Fans"
+  translation: "Fans"
+  skip_translation: true
+
+- text: "Lapdance Interaction"
+  translation: ""
+
+- text: "Zoeys"
+  translation: ""
+
+- text: "Hologram 4"
+  translation: ""
+
+- text: "LuxusRoom"
+  translation: ""
+
+- text: "GroundLights"
+  translation: ""
+
+- text: "StorageFan_Loop"
+  translation: ""
+
+- text: "Tentacles Interaction"
+  translation: ""
+
+- text: "Office Cameras"
+  translation: ""
+
+- text: "Upstairs Closet 2"
+  translation: ""
+
+- text: "OnWall"
+  translation: ""
+
+- text: "Crack28"
+  translation: ""
+
+- text: "Bottle_"
+  translation: ""
+
+- text: "Drink Alcohol"
+  translation: ""
+
+- text: "DismountPos"
+  translation: ""
+
+- text: "SatPos"
+  translation: ""
+
+- text: "On_Floor"
+  translation: ""
+
+- text: "ExtraProps"
+  translation: ""
+
+- text: "Klaudia PC"
+  translation: ""
+
+- text: "Reception"
+  translation: ""
+
+- text: "Light 2D - hotel_test4_additivemap"
+  translation: ""
+
+- text: "Room_Signs"
+  translation: ""
+
+- text: "Sign Glitches"
+  translation: ""
+
+- text: "Crack4"
+  translation: "Crack4"
+  skip_translation: true
+
+- text: "WallSeperator"
+  translation: ""
+
+- text: "Crack18"
+  translation: ""
+
+- text: "Bar Interaction"
+  translation: ""
+
+- text: "Crack14"
+  translation: ""
+
+- text: "Non_Prefabs"
+  translation: ""
+
+- text: "Crack22"
+  translation: ""
+
+- text: "Crack20"
+  translation: ""
+
+- text: "Crack9"
+  translation: "Crack9"
+  skip_translation: true
+
+- text: "BaseAmbientLoop"
+  translation: ""
+
+- text: "Room 205 Tentacle Stuff"
+  translation: ""
+
+- text: "Bathroom_Floor"
+  translation: ""
+
+- text: "Crack8"
+  translation: "Crack8"
+  skip_translation: true
+
+- text: "Crack3"
+  translation: "Crack3"
+  skip_translation: true
+
+- text: "Entrance_Right"
+  translation: ""
+
+- text: "Table_Left_3"
+  translation: ""
+
+- text: "Crack7"
+  translation: "Crack7"
+  skip_translation: true
+
+- text: "Crack12"
+  translation: ""
+
+- text: "Dripping Showers"
+  translation: ""
+
+- text: "UnityLights"
+  translation: ""
+
+- text: "LenChi Chaos"
+  translation: ""
+
+- text: "Bathroom2_Floor"
+  translation: ""
+
+- text: "Room_5"
+  translation: "Room_5"
+  skip_translation: true
+
+- text: "Bar Interactions"
+  translation: ""
+
+- text: "Black Overlay Image"
+  translation: ""
+
+- text: "MultiplyMaps"
+  translation: ""
+
+- text: "Crack24"
+  translation: ""
+
+- text: "HidePlayerPos"
+  translation: ""
+
+- text: "Crack1"
+  translation: "Crack1"
+  skip_translation: true
+
+- text: "KitchenFan_Loop"
+  translation: ""
+
+- text: "Crack17"
+  translation: ""
+
+- text: "Table_Right_2"
+  translation: ""
+
+- text: "Pole Interaction"
+  translation: ""
+
+- text: "SignHum_Loop_1"
+  translation: ""
+
+- text: "Flesh Feet Overlay"
+  translation: ""
+
+- text: "Table_Right_1"
+  translation: ""
+
+- text: "Thing1"
+  translation: "Thing1"
+  skip_translation: true
+
+- text: "Fat dude Lapdance Downstairs"
+  translation: ""
+
+- text: "Pole Dancer Zoey Downstairs"
+  translation: ""
+
+- text: "Toilet Zoey Downstairs"
+  translation: ""
+
+- text: "ZoeyDancer"
+  translation: ""
+
+- text: "Lapdance Zoey Downstairs"
+  translation: ""
+
+- text: "Thing2"
+  translation: "Thing2"
+  skip_translation: true
+
+- text: "AlsoZoey"
+  translation: ""
+
+- text: "SpilledCan_5"
+  translation: ""
+
+- text: "PinupPickup - Zoey Dream Poster"
+  translation: ""
+
+- text: "Rig 1"
+  translation: ""
+
+- text: "Toilet Zoey Spine GameObject"
+  translation: ""
+
+- text: "Buttplug_2"
+  translation: "Buttplug_2"
+  skip_translation: true
+
+- text: "Flesh Tentacle"
+  translation: ""
+
+- text: "EhA5^"
+  translation: ""
+
+- text: "GoB"
+  translation: "GoB"
+  skip_translation: true
+
+- text: "GuBff"
+  translation: ""
+
+- text: "RA337A"
+  translation: ""
+
+- text: "DA$"
+  translation: "DA$"
+  skip_translation: true
+
+- text: "?8WYA"
+  translation: "?8WYA"
+  skip_translation: true
+
+- text: "?HI"
+  translation: "?HI"
+  skip_translation: true
+
+- text: "O*A"
+  translation: "O*A"
+  skip_translation: true
+
+- text: "/MA"
+  translation: "/MA"
+  skip_translation: true
+
+- text: "SIA%"
+  translation: "SIA%"
+  skip_translation: true
+
+- text: "QPA"
+  translation: "QPA"
+  skip_translation: true
+
+- text: "QNA"
+  translation: "QNA"
+  skip_translation: true
+
+- text: "BPo"
+  translation: "BPo"
+  skip_translation: true
+
+- text: "AQ@"
+  translation: "AQ@"
+  skip_translation: true
+
+- text: "`BIA"
+  translation: "`BIA"
+  skip_translation: true
+
+- text: "Zd[?"
+  translation: "Zd[?"
+  skip_translation: true
+
+- text: "?B`E"
+  translation: "?B`E"
+  skip_translation: true
+
+- text: "?`BYA"
+  translation: "?`BYA"
+  skip_translation: true
+
+- text: "AF5"
+  translation: "AF5"
+  skip_translation: true
+
+- text: "SlB;_!B"
+  translation: ""
+
+- text: "C^kqC1"
+  translation: "C^kqC1"
+  skip_translation: true
+
+- text: "Z#A"
+  translation: "Z#A"
+  skip_translation: true
+
+- text: ":AR"
+  translation: ":AR"
+  skip_translation: true
+
+- text: "Bff2A"
+  translation: "Bff2A"
+  skip_translation: true
+
+- text: "M5?p:W"
+  translation: "M5?p:W"
+  skip_translation: true
+
+- text: "5?B`U@"
+  translation: "5?B`U@"
+  skip_translation: true
+
+- text: "4AT?4AT?5AT?"
+  translation: ""
+
+- text: "AA*"
+  translation: "AA*"
+  skip_translation: true
+
+- text: "GQA"
+  translation: "GQA"
+  skip_translation: true
+
+- text: "RA)\\"
+  translation: "RA)\\\\"
+  skip_translation: true
+
+- text: "PgB@5"
+  translation: "PgB@5"
+  skip_translation: true
+
+- text: "?Nb A"
+  translation: "?Nb A"
+  skip_translation: true
+
+- text: "V?x"
+  translation: "V?x"
+  skip_translation: true
+
+- text: "S!Ab"
+  translation: "S!Ab"
+  skip_translation: true
+
+- text: "Bq=7"
+  translation: "Bq=7"
+  skip_translation: true
+
+- text: "QxB"
+  translation: "QxB"
+  skip_translation: true
+
+- text: "Q$A"
+  translation: "Q$A"
+  skip_translation: true
+
+- text: "Aq=^A"
+  translation: "Aq=^A"
+  skip_translation: true
+
+- text: "? 8fA"
+  translation: "? 8fA"
+  skip_translation: true
+
+- text: "?`BYA'"
+  translation: "?`BYA'"
+  skip_translation: true
+
+- text: "^AR"
+  translation: "^AR"
+  skip_translation: true
+
+- text: "Z|A"
+  translation: "Z|A"
+  skip_translation: true
+
+- text: "Q0Ap="
+  translation: ""
+
+- text: "?8WYA:"
+  translation: "?8WYA:"
+  skip_translation: true
+
+- text: "Nb0?"
+  translation: "Nb0?"
+  skip_translation: true
+
+- text: "P|A"
+  translation: "P|A"
+  skip_translation: true
+
+- text: ".OA"
+  translation: ".OA"
+  skip_translation: true
+
+- text: "E?JW"
+  translation: "E?JW"
+  skip_translation: true
+
+- text: "A(J"
+  translation: "A(J"
+  skip_translation: true
+
+- text: "B33kA"
+  translation: ""
+
+- text: "NA9"
+  translation: "NA9"
+  skip_translation: true
+
+- text: "P?5d"
+  translation: "P?5d"
+  skip_translation: true
+
+- text: "V9v"
+  translation: "V9v"
+  skip_translation: true
+
+- text: "OE@"
+  translation: "OE@"
+  skip_translation: true
+
+- text: "?E^V="
+  translation: "?E^V="
+  skip_translation: true
+
+- text: "?IO"
+  translation: "?IO"
+  skip_translation: true
+
+- text: "?'1RA"
+  translation: "?'1RA"
+  skip_translation: true
+
+- text: "A|G"
+  translation: "A|G"
+  skip_translation: true
+
+- text: "?LO"
+  translation: "?LO"
+  skip_translation: true
+
+- text: "?MO"
+  translation: "?MO"
+  skip_translation: true
+
+- text: "@AT"
+  translation: "@AT"
+  skip_translation: true
+
+- text: "+AO"
+  translation: "+AO"
+  skip_translation: true
+
+- text: "E@)\\O"
+  translation: "E@)\\O"
+  skip_translation: true
+
+- text: "N?o"
+  translation: "N?o"
+  skip_translation: true
+
+- text: "#AL'"
+  translation: "#AL'"
+  skip_translation: true
+
+- text: "OA^\\"
+  translation: "OA^\\\\"
+  skip_translation: true
+
+- text: "5TA"
+  translation: "5TA"
+  skip_translation: true
+
+- text: "^OA"
+  translation: "^OA"
+  skip_translation: true
+
+- text: "AHf"
+  translation: "AHf"
+  skip_translation: true
+
+- text: "Bd;"
+  translation: "Bd;"
+  skip_translation: true
+
+- text: "IxA9"
+  translation: "IxA9"
+  skip_translation: true
+
+- text: "(VA%6"
+  translation: "(VA%6"
+  skip_translation: true
+
+- text: "/KA"
+  translation: "/KA"
+  skip_translation: true
+
+- text: "OEA"
+  translation: "OEA"
+  skip_translation: true
+
+- text: "A6p"
+  translation: "A6p"
+  skip_translation: true
+
+- text: "O/A"
+  translation: "O/A"
+  skip_translation: true
+
+- text: "?L7)A"
+  translation: "?L7)A"
+  skip_translation: true
+
+- text: "Il@"
+  translation: "Il@"
+  skip_translation: true
+
+- text: "?a *A"
+  translation: "?a *A"
+  skip_translation: true
+
+- text: "TE!@"
+  translation: "TE!@"
+  skip_translation: true
+
+- text: "Ga?B`U@"
+  translation: "Ga?B`U@"
+  skip_translation: true
+
+- text: "DA,`"
+  translation: "DA,`"
+  skip_translation: true
+
+- text: "Rlz;"
+  translation: "Rlz;"
+  skip_translation: true
+
+- text: "EvA"
+  translation: "EvA"
+  skip_translation: true
+
+- text: "WA7"
+  translation: "WA7"
+  skip_translation: true
+
+- text: "1U6A"
+  translation: "1U6A"
+  skip_translation: true
+
+- text: "'AN"
+  translation: ""
+
+- text: "Gw@"
+  translation: "Gw@"
+  skip_translation: true
+
+- text: ",AB`"
+  translation: ",AB`"
+  skip_translation: true
+
+- text: "ArA"
+  translation: "ArA"
+  skip_translation: true
+
+- text: "AH/"
+  translation: "AH/"
+  skip_translation: true
+
+- text: "NjeA"
+  translation: ""
+
+- text: "CA~"
+  translation: "CA~"
+  skip_translation: true
+
+- text: "=WI"
+  translation: "=WI"
+  skip_translation: true
+
+- text: "Qc@"
+  translation: "Qc@"
+  skip_translation: true
+
+- text: "Bv!?"
+  translation: "Bv!?"
+  skip_translation: true
+
+- text: "SA33S@"
+  translation: "SA33S@"
+  skip_translation: true
+
+- text: "SA\\"
+  translation: "SA\\\\"
+  skip_translation: true
+
+- text: "FA7E"
+  translation: "FA7E"
+  skip_translation: true
+
+- text: "Check Motion Sickness Setting"
+  translation: ""
+
+- text: "Activate animation"
+  translation: ""
+
+- text: "DildoAnim"
+  translation: ""
+
+- text: "Wait for movement"
+  translation: ""
+
+- text: "Fade screen again"
+  translation: ""
+
+- text: "OnMovement"
+  translation: ""
+
+- text: "Check Motion Sickness Setting 2"
+  translation: ""
+
+- text: "Deactivate Gameobject"
+  translation: ""
+
+- text: "Licked Toilet before?"
+  translation: ""
+
+- text: "Licked"
+  translation: ""
+
+- text: "Fade to Black"
+  translation: ""
+
+- text: "Lick"
+  translation: "Lick"
+  skip_translation: true
+
+- text: "PickedUp"
+  translation: ""
+
+- text: "ALs"
+  translation: "ALs"
+  skip_translation: true
+
+- text: "Skip"
+  translation: "Skip"
+  skip_translation: true
+
+- text: "Wait for interactable 2"
+  translation: ""
+
+- text: "Play completed dialogue"
+  translation: ""
+
+- text: "Add perv"
+  translation: ""
+
+- text: "Deactivate this"
+  translation: ""
+
+- text: "Did the lady move?"
+  translation: ""
+
+- text: "U@Har?"
+  translation: "U@Har?"
+  skip_translation: true
+
+- text: "Check Accessibility Initially"
+  translation: ""
+
+- text: "Set rotation"
+  translation: ""
+
+- text: "Check Accessibility Changed"
+  translation: ""
+
+- text: "BUUGC"
+  translation: "BUUGC"
+  skip_translation: true
+
+- text: "NoCamera"
+  translation: ""
+
+- text: "Disable Rotation"
+  translation: ""
+
+- text: "AllDisabled"
+  translation: ""
+
+- text: "OnOff"
+  translation: ""
+
+- text: "Ms@"
+  translation: "Ms@"
+  skip_translation: true
+
+- text: "PlaySoundFromCategory, Assembly-CSharp"
+  translation: ""
+
+- text: "BtJr@"
+  translation: "BtJr@"
+  skip_translation: true
+
+- text: "Activate Interactable"
+  translation: ""
+
+- text: "Disable Interactable"
+  translation: ""
+
+- text: "GlowingHoleKeys/Did Camera Tutorial"
+  translation: ""
+
+- text: "Set Expression"
+  translation: ""
+
+- text: "O?KEt?"
+  translation: "O?KEt?"
+  skip_translation: true
+
+- text: "[@&SO@"
+  translation: "[@&SO@"
+  skip_translation: true
+
+- text: "Lj!"
+  translation: "Lj!"
+  skip_translation: true
+
+- text: "M&@Vu"
+  translation: "M&@Vu"
+  skip_translation: true
+
+- text: "Do we have the first task?"
+  translation: ""
+
+- text: "Play intro"
+  translation: ""
+
+- text: "DreamIntro"
+  translation: ""
+
+- text: "Circling Vultures"
+  translation: ""
+
+- text: "ChapterNumber"
+  translation: ""
+
+- text: "Play intro 2"
+  translation: ""
+
+- text: "PMA_AddHorny4"
+  translation: ""
+
+- text: "Wait for mission"
+  translation: ""
+
+- text: "Did we do this already?"
+  translation: ""
+
+- text: "SaveKey_Key"
+  translation: ""
+
+- text: "DidBarIntro"
+  translation: ""
+
+- text: "SaveKey_Value"
+  translation: ""
+
+- text: "Check motion sickness"
+  translation: ""
+
+- text: "Set key"
+  translation: ""
+
+- text: "Deactivate characters"
+  translation: ""
+
+- text: "Add Overworld Animation"
+  translation: ""
+
+- text: "BUU;C"
+  translation: "BUU;C"
+  skip_translation: true
+
+- text: "Speed change Finished"
+  translation: ""
+
+- text: "Tentacle Slop"
+  translation: ""
+
+- text: "Remove Overworld Animation"
+  translation: ""
+
+- text: "Is task in progress?"
+  translation: ""
+
+- text: "Enable Zoeys"
+  translation: ""
+
+- text: "Wait for pickup"
+  translation: ""
+
+- text: "SKANK_Lapdance"
+  translation: ""
+
+- text: "Highlight item and wait for use"
+  translation: ""
+
+- text: "Close tab menu"
+  translation: ""
+
+- text: "Second dialogue"
+  translation: ""
+
+- text: "Deactivate drink sprite"
+  translation: ""
+
+- text: "Get Drink"
+  translation: ""
+
+- text: "Do perversion"
+  translation: ""
+
+- text: "Are we in-progress?"
+  translation: ""
+
+- text: "Did Nova grope Zoey?5"
+  translation: ""
+
+- text: "Path Femboy off screen"
+  translation: ""
+
+- text: "Do some lil anim blending"
+  translation: ""
+
+- text: "ClearOnExit"
+  translation: ""
+
+- text: "DonePeeking"
+  translation: ""
+
+- text: "Is the task in-progress?"
+  translation: ""
+
+- text: "Play next dialogue"
+  translation: ""
+
+- text: "AlsoYes"
+  translation: ""
+
+- text: "Transition to apartment"
+  translation: ""
+
+- text: "Overwhelm"
+  translation: ""
+
+- text: "PMA_AddHorny0"
+  translation: ""
+
+- text: "Play 2nd dialogue"
+  translation: ""
+
+- text: "Free player"
+  translation: ""
+
+- text: "Deactivate scene"
+  translation: ""
+
+- text: "GlowingHoleOutsideBarSoundsInsideVolume - VADucked"
+  translation: ""
+
+- text: "SKANK_Poledance"
+  translation: ""
+
+- text: "Wait for seat"
+  translation: ""
+
+- text: "play dialogue"
+  translation: ""
+
+- text: "MustBePlayer"
+  translation: ""
+
+- text: "OnSat"
+  translation: ""
+
+- text: "OnUnSat"
+  translation: ""
+
+- text: "V@xGu"
+  translation: "V@xGu"
+  skip_translation: true
+
+- text: "p D@"
+  translation: "p D@"
+  skip_translation: true
+
+- text: "Set initial State"
+  translation: ""
+
+- text: "Set Random Selector"
+  translation: ""
+
+- text: "Selector"
+  translation: ""
+
+- text: "Reset Trigger"
+  translation: ""
+

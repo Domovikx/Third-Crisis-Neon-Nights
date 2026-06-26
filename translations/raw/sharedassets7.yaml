@@ -1,0 +1,3208 @@
+# raw (sharedassets7)
+
+- text: "Light Bridge Vertical"
+  translation: ""
+
+- text: "Train 3d Symbol - 2d Shader"
+  translation: "Train 3d Symbol - 2d Shader"
+  skip_translation: true
+
+- text: "FakeLightShader UI"
+  translation: "FakeLightShader UI"
+  skip_translation: true
+
+- text: "SpriteShape Fade"
+  translation: ""
+
+- text: "Arrow Green"
+  translation: ""
+
+- text: "Arrow White"
+  translation: ""
+
+- text: "Train Green"
+  translation: ""
+
+- text: "Train White"
+  translation: ""
+
+- text: "New Material"
+  translation: ""
+
+- text: "Shader Graphs_New Shader Graph"
+  translation: "Shader Graphs_New Shader Graph"
+  skip_translation: true
+
+- text: "SingleFlower Material"
+  translation: ""
+
+- text: "M_Checkpoint"
+  translation: ""
+
+- text: "Shader Graphs_Slutbox Racing Blocker"
+  translation: "Shader Graphs_Slutbox Racing Blocker"
+  skip_translation: true
+
+- text: "Light Bridge Horizontal 1"
+  translation: ""
+
+- text: "Light Bridge Horizontal"
+  translation: ""
+
+- text: "Shader Graphs_Sprite Hologram Unlit 7"
+  translation: "Shader Graphs_Sprite Hologram Unlit 7"
+  skip_translation: true
+
+- text: "Unlit_TCFakeLight UI"
+  translation: ""
+
+- text: "Holographic Tree #1"
+  translation: ""
+
+- text: "Holographic Tree #2"
+  translation: ""
+
+- text: "Holographic Tree - Glow #1"
+  translation: ""
+
+- text: "Holographic Tree - Glow #2"
+  translation: ""
+
+- text: "3d Ad - Calliach 1"
+  translation: ""
+
+- text: "3d Ad - Calliach 2"
+  translation: ""
+
+- text: "3d Ad - Corrupt Technologies 1"
+  translation: ""
+
+- text: "3d Ad - Corrupt Technologies 2"
+  translation: ""
+
+- text: "3d Ad - Furline 1"
+  translation: ""
+
+- text: "3d Ad - Glowing Hole 1"
+  translation: ""
+
+- text: "3d Ad - Mana Factory"
+  translation: ""
+
+- text: "3d Ad - Neon Doll"
+  translation: ""
+
+- text: "3d Ad - Neur Affinity 1"
+  translation: ""
+
+- text: "3d Ad - Neur Affinity 2"
+  translation: ""
+
+- text: "3d Ad - Shatterline Systems 1"
+  translation: ""
+
+- text: "Shader Graphs_Vertical Shape Fade Shader 2"
+  translation: "Shader Graphs_Vertical Shape Fade Shader 2"
+  skip_translation: true
+
+- text: "Shader Graphs_Vertical Shape Fade Shader 3"
+  translation: "Shader Graphs_Vertical Shape Fade Shader 3"
+  skip_translation: true
+
+- text: "Shader Graphs_Vertical Shape Fade Shader 4"
+  translation: "Shader Graphs_Vertical Shape Fade Shader 4"
+  skip_translation: true
+
+- text: "Shader Graphs_Vertical Shape Fade Shader"
+  translation: "Shader Graphs_Vertical Shape Fade Shader"
+  skip_translation: true
+
+- text: "ZenDots-Regular SDF 1"
+  translation: ""
+
+- text: "Shader Graphs_Ads - Foreground Shader_Copy"
+  translation: "Shader Graphs_Ads - Foreground Shader_Copy"
+  skip_translation: true
+
+- text: "NeonDoll Ad - FakeLightMaterial"
+  translation: ""
+
+- text: "Penis Enhancement Ad - FakeLightMaterial_Copy"
+  translation: ""
+
+- text: "Corrupt Technologies Ad - FakeLightMaterial Glitch"
+  translation: ""
+
+- text: "Corrupt Technologies Ad - FakeLightMaterial"
+  translation: ""
+
+- text: "Unlit_TCFakeLight UI - NTR 2"
+  translation: ""
+
+- text: "Thick Mat_Smoke"
+  translation: ""
+
+- text: "Shader Graphs_OverhandCurtain"
+  translation: "Shader Graphs_OverhandCurtain"
+  skip_translation: true
+
+- text: "Shader Graphs_OverhandCurtain_Unlit"
+  translation: "Shader Graphs_OverhandCurtain_Unlit"
+  skip_translation: true
+
+- text: "Shader Graphs_Sprite Hologram Unlit 5"
+  translation: "Shader Graphs_Sprite Hologram Unlit 5"
+  skip_translation: true
+
+- text: "sactx-0-512x512-Crunch-Anime Spark Flame-f8cc3fb8"
+  translation: "sactx-0-512x512-Crunch-Anime Spark Flame-f8cc3fb8"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]"
+  translation: ""
+
+- text: "Furline 1"
+  translation: ""
+
+- text: "Corrupt Technologies 2"
+  translation: ""
+
+- text: "Shatterline Systems 1"
+  translation: ""
+
+- text: "TCN_AD_Comm_1"
+  translation: ""
+
+- text: "Water 0397normal"
+  translation: ""
+
+- text: "Ad - Mask - 3"
+  translation: ""
+
+- text: "Glowing Hole 1"
+  translation: ""
+
+- text: "Background_Cars"
+  translation: ""
+
+- text: "city_asset_pack_8_bridge - Single Bridge Piece"
+  translation: ""
+
+- text: "Corrupt Technologies 1"
+  translation: ""
+
+- text: "Ad - Mask - 1"
+  translation: ""
+
+- text: "Neur Affinity 1"
+  translation: ""
+
+- text: "cloud01 1"
+  translation: ""
+
+- text: "Paz"
+  translation: ""
+
+- text: "Neon Doll"
+  translation: ""
+
+- text: "Calliach 2"
+  translation: ""
+
+- text: "Neur Affinity 2"
+  translation: ""
+
+- text: "VI^"
+  translation: "VI^"
+  skip_translation: true
+
+- text: "Wind Strength"
+  translation: ""
+
+- text: "Edge Cutoff"
+  translation: ""
+
+- text: "Luminance"
+  translation: ""
+
+- text: "Position Offset Strength"
+  translation: ""
+
+- text: "Random Input Value"
+  translation: ""
+
+- text: "Line Brightness"
+  translation: ""
+
+- text: "ScrollTex"
+  translation: ""
+
+- text: "Color A"
+  translation: ""
+
+- text: "Color B"
+  translation: ""
+
+- text: "Color C"
+  translation: ""
+
+- text: "TopGlow"
+  translation: ""
+
+- text: "Fade Out"
+  translation: ""
+
+- text: "Fadeout Strength"
+  translation: ""
+
+- text: "!=$A%U"
+  translation: "!=$A%U"
+  skip_translation: true
+
+- text: "FbOU"
+  translation: ""
+
+- text: "Ct`"
+  translation: "Ct`"
+  skip_translation: true
+
+- text: "E[saW"
+  translation: "E[saW"
+  skip_translation: true
+
+- text: "=AH"
+  translation: "=AH"
+  skip_translation: true
+
+- text: "2AR"
+  translation: "2AR"
+  skip_translation: true
+
+- text: "A'r"
+  translation: "A'r"
+  skip_translation: true
+
+- text: "Kc4"
+  translation: "Kc4"
+  skip_translation: true
+
+- text: "MA)\\"
+  translation: "MA)\\\\"
+  skip_translation: true
+
+- text: "Animtaion_APC"
+  translation: ""
+
+- text: "AddedTime_Idle"
+  translation: ""
+
+- text: "BUUU?"
+  translation: "BUUU?"
+  skip_translation: true
+
+- text: "Idle Layer 2"
+  translation: ""
+
+- text: "`;UB"
+  translation: "`;UB"
+  skip_translation: true
+
+- text: "Residential Police Car"
+  translation: ""
+
+- text: "GAG car"
+  translation: ""
+
+- text: "XA33"
+  translation: "XA33"
+  skip_translation: true
+
+- text: "DoorClosed 1"
+  translation: ""
+
+- text: "DoorClosing 1"
+  translation: ""
+
+- text: "DoorOpen 1"
+  translation: ""
+
+- text: "DoorOpening 1"
+  translation: ""
+
+- text: "Racing Result Active FadeIn"
+  translation: ""
+
+- text: "Racing Result Active FadeOut"
+  translation: ""
+
+- text: "Racing Result Active Hidden"
+  translation: ""
+
+- text: "Racing Result Active Visible"
+  translation: ""
+
+- text: "Racing Result FadeIn"
+  translation: ""
+
+- text: "Racing Result FadeOut"
+  translation: ""
+
+- text: "Racing Result Hidden"
+  translation: ""
+
+- text: "Racing Result Visible"
+  translation: ""
+
+- text: "Sparkler 04 - Racing Cone Hit"
+  translation: ""
+
+- text: "Neon Doll Animation - Additive 1"
+  translation: ""
+
+- text: "AUUyA"
+  translation: ""
+
+- text: "Neon Doll Animation"
+  translation: ""
+
+- text: "8@UUU?"
+  translation: ""
+
+- text: "P=33s?"
+  translation: "P=33s?"
+  skip_translation: true
+
+- text: "P=UU"
+  translation: "P=UU"
+  skip_translation: true
+
+- text: "VU$D"
+  translation: "VU$D"
+  skip_translation: true
+
+- text: "Ji\\C"
+  translation: "Ji\\\\C"
+  skip_translation: true
+
+- text: "?DDHA"
+  translation: "?DDHA"
+  skip_translation: true
+
+- text: "33KA"
+  translation: "33KA"
+  skip_translation: true
+
+- text: "?UUMA"
+  translation: "?UUMA"
+  skip_translation: true
+
+- text: "Looping Flash VFX"
+  translation: ""
+
+- text: "Looping VFX"
+  translation: ""
+
+- text: "Ad Loop"
+  translation: ""
+
+- text: "Cff6@"
+  translation: "Cff6@"
+  skip_translation: true
+
+- text: "Cww7@"
+  translation: "Cww7@"
+  skip_translation: true
+
+- text: "&CUUE@"
+  translation: "&CUUE@"
+  skip_translation: true
+
+- text: "5CUUU@"
+  translation: ""
+
+- text: "JCff"
+  translation: "JCff"
+  skip_translation: true
+
+- text: "LCww"
+  translation: "LCww"
+  skip_translation: true
+
+- text: "UCDD"
+  translation: "UCDD"
+  skip_translation: true
+
+- text: "WCUU"
+  translation: "WCUU"
+  skip_translation: true
+
+- text: "YCff"
+  translation: ""
+
+- text: "`ADD"
+  translation: "`ADD"
+  skip_translation: true
+
+- text: "KBc"
+  translation: "KBc"
+  skip_translation: true
+
+- text: "Xf?"
+  translation: "Xf?"
+  skip_translation: true
+
+- text: "HUD Loop"
+  translation: ""
+
+- text: "NTR2 - Idle"
+  translation: ""
+
+- text: "QD1AE"
+  translation: "QD1AE"
+  skip_translation: true
+
+- text: "WFE"
+  translation: "WFE"
+  skip_translation: true
+
+- text: "9ZIC"
+  translation: "9ZIC"
+  skip_translation: true
+
+- text: "Dx!DQ"
+  translation: "Dx!DQ"
+  skip_translation: true
+
+- text: "LvB"
+  translation: "LvB"
+  skip_translation: true
+
+- text: "B`u"
+  translation: "B`u"
+  skip_translation: true
+
+- text: "?UX"
+  translation: "?UX"
+  skip_translation: true
+
+- text: "7CO"
+  translation: "7CO"
+  skip_translation: true
+
+- text: "9NE"
+  translation: "9NE"
+  skip_translation: true
+
+- text: "OEc"
+  translation: "OEc"
+  skip_translation: true
+
+- text: "OEG"
+  translation: "OEG"
+  skip_translation: true
+
+- text: "A8J"
+  translation: "A8J"
+  skip_translation: true
+
+- text: "BDb"
+  translation: "BDb"
+  skip_translation: true
+
+- text: "AOxE3"
+  translation: ""
+
+- text: "\\ BHqC"
+  translation: "\\\\ BHqC"
+  skip_translation: true
+
+- text: "\\ BKqC"
+  translation: "\\\\ BKqC"
+  skip_translation: true
+
+- text: "XW+Bg"
+  translation: "XW+Bg"
+  skip_translation: true
+
+- text: "?q D"
+  translation: "?q D"
+  skip_translation: true
+
+- text: "IqE^,3B"
+  translation: "IqE^,3B"
+  skip_translation: true
+
+- text: "Spark Flame"
+  translation: ""
+
+- text: "Strike 7"
+  translation: ""
+
+- text: "Boost End"
+  translation: ""
+
+- text: ")IG"
+  translation: ")IG"
+  skip_translation: true
+
+- text: "Boost Loop"
+  translation: ""
+
+- text: "Boost Off"
+  translation: ""
+
+- text: "Boost Start"
+  translation: ""
+
+- text: "Slutbox Boost Burst"
+  translation: ""
+
+- text: "Speedlines 5 Animation"
+  translation: ""
+
+- text: "[AB"
+  translation: "[AB"
+  skip_translation: true
+
+- text: "ADD@"
+  translation: "ADD@"
+  skip_translation: true
+
+- text: "BHa"
+  translation: "BHa"
+  skip_translation: true
+
+- text: "V#VE"
+  translation: "V#VE"
+  skip_translation: true
+
+- text: "PG8Fz"
+  translation: "PG8Fz"
+  skip_translation: true
+
+- text: "?UUEA"
+  translation: "?UUEA"
+  skip_translation: true
+
+- text: "B:a"
+  translation: "B:a"
+  skip_translation: true
+
+- text: "?UUIA"
+  translation: "?UUIA"
+  skip_translation: true
+
+- text: "?OC"
+  translation: "?OC"
+  skip_translation: true
+
+- text: "WE("
+  translation: "WE("
+  skip_translation: true
+
+- text: "Ps/"
+  translation: "Ps/"
+  skip_translation: true
+
+- text: "Police Car Soundx"
+  translation: ""
+
+- text: "APC_animation_3"
+  translation: ""
+
+- text: "APC_animation 0"
+  translation: ""
+
+- text: "APC_animation"
+  translation: ""
+
+- text: "APC_animation_2"
+  translation: ""
+
+- text: "Enforcer Carx"
+  translation: ""
+
+- text: "Train 1"
+  translation: ""
+
+- text: "\"ZI"
+  translation: "\\"
+  skip_translation: true
+
+- text: "ShowActive"
+  translation: ""
+
+- text: "Racing Result HiddenB/M"
+  translation: ""
+
+- text: "Show"
+  translation: "Show"
+  skip_translation: true
+
+- text: "HideActive"
+  translation: ""
+
+- text: "Racing Result Active VisibleU;"
+  translation: ""
+
+- text: "Additive 1"
+  translation: ""
+
+- text: "Small Vehicle Bonk 2x"
+  translation: ""
+
+- text: "U?U"
+  translation: "U?U"
+  skip_translation: true
+
+- text: "Small Vehicle Bonk 1x"
+  translation: ""
+
+- text: "Boosting"
+  translation: ""
+
+- text: "DidBoost"
+  translation: ""
+
+- text: "Slutbox Physics Material"
+  translation: ""
+
+- text: "CjC"
+  translation: "CjC"
+  skip_translation: true
+
+- text: "Residential Background Sprite Atlas"
+  translation: ""
+
+- text: "L6=m9"
+  translation: "L6=m9"
+  skip_translation: true
+
+- text: "?*AE?"
+  translation: "?*AE?"
+  skip_translation: true
+
+- text: "]A?[F~"
+  translation: "]A?[F~"
+  skip_translation: true
+
+- text: "Y?if"
+  translation: "Y?if"
+  skip_translation: true
+
+- text: "VLm"
+  translation: "VLm"
+  skip_translation: true
+
+- text: "Atlas Residential Buildings"
+  translation: ""
+
+- text: "Fh@SH"
+  translation: "Fh@SH"
+  skip_translation: true
+
+- text: "R@E!"
+  translation: "R@E!"
+  skip_translation: true
+
+- text: "Kz@"
+  translation: "Kz@"
+  skip_translation: true
+
+- text: "EB=&)"
+  translation: "EB=&)"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_0"
+  translation: ""
+
+- text: "Sparkler 04_#[512,288]_5"
+  translation: ""
+
+- text: "AS#"
+  translation: "AS#"
+  skip_translation: true
+
+- text: "BO[%C"
+  translation: "BO[%C"
+  skip_translation: true
+
+- text: "^D$I"
+  translation: "^D$I"
+  skip_translation: true
+
+- text: "VI@"
+  translation: "VI@"
+  skip_translation: true
+
+- text: "D@U"
+  translation: "D@U"
+  skip_translation: true
+
+- text: "@\\=J@U"
+  translation: "@\\=J@U"
+  skip_translation: true
+
+- text: "VI@\""
+  translation: "VI@\""
+  skip_translation: true
+
+- text: "?ES"
+  translation: "?ES"
+  skip_translation: true
+
+- text: "BbC"
+  translation: "BbC"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_6"
+  translation: ""
+
+- text: "HEo"
+  translation: "HEo"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_2"
+  translation: ""
+
+- text: "G?g"
+  translation: "G?g"
+  skip_translation: true
+
+- text: "Pm?"
+  translation: "Pm?"
+  skip_translation: true
+
+- text: "TiD"
+  translation: "TiD"
+  skip_translation: true
+
+- text: "D@ff"
+  translation: "D@ff"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_16"
+  translation: ""
+
+- text: "C$x"
+  translation: "C$x"
+  skip_translation: true
+
+- text: "HUE"
+  translation: "HUE"
+  skip_translation: true
+
+- text: "Gv?"
+  translation: "Gv?"
+  skip_translation: true
+
+- text: "Xx^"
+  translation: "Xx^"
+  skip_translation: true
+
+- text: "Y+@j,C"
+  translation: "Y+@j,C"
+  skip_translation: true
+
+- text: "pi I-"
+  translation: ""
+
+- text: "H$E"
+  translation: "H$E"
+  skip_translation: true
+
+- text: ";ALB"
+  translation: ";ALB"
+  skip_translation: true
+
+- text: "D-A"
+  translation: "D-A"
+  skip_translation: true
+
+- text: "ALe"
+  translation: "ALe"
+  skip_translation: true
+
+- text: "GAf"
+  translation: "GAf"
+  skip_translation: true
+
+- text: "@Y'MA3"
+  translation: "@Y'MA3"
+  skip_translation: true
+
+- text: "AOA"
+  translation: "AOA"
+  skip_translation: true
+
+- text: "L?2a"
+  translation: "L?2a"
+  skip_translation: true
+
+- text: "U@Y"
+  translation: "U@Y"
+  skip_translation: true
+
+- text: "Aghe@@"
+  translation: "Aghe@@"
+  skip_translation: true
+
+- text: "VCA"
+  translation: "VCA"
+  skip_translation: true
+
+- text: "BtjGD"
+  translation: "BtjGD"
+  skip_translation: true
+
+- text: "V?v"
+  translation: "V?v"
+  skip_translation: true
+
+- text: "U\\C"
+  translation: "U\\C"
+  skip_translation: true
+
+- text: "`ID"
+  translation: "`ID"
+  skip_translation: true
+
+- text: "Qx?H"
+  translation: "Qx?H"
+  skip_translation: true
+
+- text: "B$a"
+  translation: "B$a"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_12"
+  translation: ""
+
+- text: "B?)\\O"
+  translation: "B?)\\O"
+  skip_translation: true
+
+- text: "Gae"
+  translation: ""
+
+- text: "Dxz"
+  translation: "Dxz"
+  skip_translation: true
+
+- text: "P?ff&?"
+  translation: "P?ff&?"
+  skip_translation: true
+
+- text: "Q8?p=j"
+  translation: "Q8?p=j"
+  skip_translation: true
+
+- text: "E?p=j"
+  translation: "E?p=j"
+  skip_translation: true
+
+- text: "E?p=*"
+  translation: "E?p=*"
+  skip_translation: true
+
+- text: "E?p=*?p=J?\\"
+  translation: "E?p=*?p=J?\\"
+  skip_translation: true
+
+- text: "QX?p=J?33S?"
+  translation: ""
+
+- text: "E?33S?"
+  translation: "E?33S?"
+  skip_translation: true
+
+- text: "ADVU"
+  translation: "ADVU"
+  skip_translation: true
+
+- text: "UD$I"
+  translation: "UD$I"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_14"
+  translation: ""
+
+- text: "Sparkler 04_#[512,288]_7"
+  translation: ""
+
+- text: "^UV@"
+  translation: "^UV@"
+  skip_translation: true
+
+- text: "Dn`tC)\\"
+  translation: "Dn`tC)\\\\"
+  skip_translation: true
+
+- text: "Bn`tC"
+  translation: "Bn`tC"
+  skip_translation: true
+
+- text: "Y'?efz?"
+  translation: ""
+
+- text: "JDgN"
+  translation: "JDgN"
+  skip_translation: true
+
+- text: "Y@ff"
+  translation: "Y@ff"
+  skip_translation: true
+
+- text: "Y@q=z"
+  translation: "Y@q=z"
+  skip_translation: true
+
+- text: "V@q=z"
+  translation: "V@q=z"
+  skip_translation: true
+
+- text: "S@33c"
+  translation: "S@33c"
+  skip_translation: true
+
+- text: "Zp?="
+  translation: "Zp?="
+  skip_translation: true
+
+- text: "Zp?"
+  translation: "Zp?"
+  skip_translation: true
+
+- text: "Bx$"
+  translation: "Bx$"
+  skip_translation: true
+
+- text: "Q?q=*"
+  translation: "Q?q=*"
+  skip_translation: true
+
+- text: "@J+#A"
+  translation: "@J+#A"
+  skip_translation: true
+
+- text: "J+#A"
+  translation: "J+#A"
+  skip_translation: true
+
+- text: "AMK"
+  translation: "AMK"
+  skip_translation: true
+
+- text: "J+#Af"
+  translation: "J+#Af"
+  skip_translation: true
+
+- text: "!A3X["
+  translation: "!A3X["
+  skip_translation: true
+
+- text: "ALU"
+  translation: "ALU"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_11"
+  translation: ""
+
+- text: "DICXD"
+  translation: "DICXD"
+  skip_translation: true
+
+- text: "Cny"
+  translation: ""
+
+- text: "0DE"
+  translation: "0DE"
+  skip_translation: true
+
+- text: "B^w"
+  translation: "B^w"
+  skip_translation: true
+
+- text: "H#E"
+  translation: "H#E"
+  skip_translation: true
+
+- text: "C@/vY+B"
+  translation: "C@/vY+B"
+  skip_translation: true
+
+- text: "I@ff6@"
+  translation: "I@ff6@"
+  skip_translation: true
+
+- text: "I@ff6"
+  translation: "I@ff6"
+  skip_translation: true
+
+- text: "G?33s?)\\O?"
+  translation: "G?33s?)\\O?"
+  skip_translation: true
+
+- text: "AffN@"
+  translation: "AffN@"
+  skip_translation: true
+
+- text: "A33G"
+  translation: "A33G"
+  skip_translation: true
+
+- text: "A23G@"
+  translation: "A23G@"
+  skip_translation: true
+
+- text: "Aff*@33"
+  translation: "Aff*@33"
+  skip_translation: true
+
+- text: "I@ff"
+  translation: "I@ff"
+  skip_translation: true
+
+- text: "P@ff"
+  translation: "P@ff"
+  skip_translation: true
+
+- text: "BigCock"
+  translation: ""
+
+- text: "Penis Enhancement Ad - Sprite Atlas"
+  translation: ""
+
+- text: ",FA"
+  translation: ",FA"
+  skip_translation: true
+
+- text: "LA3"
+  translation: "LA3"
+  skip_translation: true
+
+- text: "MA\\"
+  translation: "MA\\\\"
+  skip_translation: true
+
+- text: "LAg"
+  translation: "LAg"
+  skip_translation: true
+
+- text: ",KA\\"
+  translation: ",KA\\"
+  skip_translation: true
+
+- text: "R[]AR"
+  translation: "R[]AR"
+  skip_translation: true
+
+- text: ",KA"
+  translation: ",KA"
+  skip_translation: true
+
+- text: "3DJA"
+  translation: "3DJA"
+  skip_translation: true
+
+- text: "MA)D"
+  translation: "MA)D"
+  skip_translation: true
+
+- text: "ChA"
+  translation: "ChA"
+  skip_translation: true
+
+- text: "CmAaP"
+  translation: ""
+
+- text: "AaP"
+  translation: "AaP"
+  skip_translation: true
+
+- text: ",UAR["
+  translation: ",UAR["
+  skip_translation: true
+
+- text: "A)--A"
+  translation: "A)--A"
+  skip_translation: true
+
+- text: "A=-#A"
+  translation: "A=-#A"
+  skip_translation: true
+
+- text: "A)s"
+  translation: "A)s"
+  skip_translation: true
+
+- text: "Aq-"
+  translation: "Aq-"
+  skip_translation: true
+
+- text: "Afru"
+  translation: ""
+
+- text: "AfD"
+  translation: "AfD"
+  skip_translation: true
+
+- text: "DcAf"
+  translation: ""
+
+- text: "KARD;"
+  translation: "KARD;"
+  skip_translation: true
+
+- text: ")DOA"
+  translation: ")DOA"
+  skip_translation: true
+
+- text: "KA\\"
+  translation: "KA\\\\"
+  skip_translation: true
+
+- text: "?)\\O?R"
+  translation: "?)\\O?R"
+  skip_translation: true
+
+- text: "WpxA"
+  translation: ""
+
+- text: "AgI"
+  translation: "AgI"
+  skip_translation: true
+
+- text: "VoA*r'"
+  translation: ""
+
+- text: "VoA"
+  translation: "VoA"
+  skip_translation: true
+
+- text: "IA*r'"
+  translation: "IA*r'"
+  skip_translation: true
+
+- text: "VoAgI="
+  translation: "VoAgI="
+  skip_translation: true
+
+- text: "AK#"
+  translation: "AK#"
+  skip_translation: true
+
+- text: "F3A"
+  translation: "F3A"
+  skip_translation: true
+
+- text: "LA*r"
+  translation: "LA*r"
+  skip_translation: true
+
+- text: "NA^"
+  translation: "NA^"
+  skip_translation: true
+
+- text: "K#]A"
+  translation: "K#]A"
+  skip_translation: true
+
+- text: "Ach"
+  translation: ""
+
+- text: "AS:"
+  translation: "AS:"
+  skip_translation: true
+
+- text: "AchZ"
+  translation: ""
+
+- text: "OYyA2"
+  translation: ""
+
+- text: "TeAZ"
+  translation: ""
+
+- text: "AchZ?_"
+  translation: ""
+
+- text: "?F%E@"
+  translation: "?F%E@"
+  skip_translation: true
+
+- text: "OQ[K"
+  translation: "OQ[K"
+  skip_translation: true
+
+- text: "/A n"
+  translation: "/A n"
+  skip_translation: true
+
+- text: "FAVf"
+  translation: "FAVf"
+  skip_translation: true
+
+- text: "NMAL"
+  translation: "NMAL"
+  skip_translation: true
+
+- text: "IAd?"
+  translation: "IAd?"
+  skip_translation: true
+
+- text: "Avw"
+  translation: ""
+
+- text: "Zi["
+  translation: "Zi["
+  skip_translation: true
+
+- text: "Afff@"
+  translation: "Afff@"
+  skip_translation: true
+
+- text: "Fj)"
+  translation: "Fj)"
+  skip_translation: true
+
+- text: "Iy A"
+  translation: ""
+
+- text: "TLK?Ty"
+  translation: "TLK?Ty"
+  skip_translation: true
+
+- text: "Pj1"
+  translation: "Pj1"
+  skip_translation: true
+
+- text: "(AF"
+  translation: "(AF"
+  skip_translation: true
+
+- text: "Fj)A"
+  translation: "Fj)A"
+  skip_translation: true
+
+- text: "Ty(A"
+  translation: "Ty(A"
+  skip_translation: true
+
+- text: "A~Lk"
+  translation: "A~Lk"
+  skip_translation: true
+
+- text: ")AF"
+  translation: ")AF"
+  skip_translation: true
+
+- text: "Fj)@P"
+  translation: "Fj)@P"
+  skip_translation: true
+
+- text: "Fj)@h"
+  translation: "Fj)@h"
+  skip_translation: true
+
+- text: "5ATLK"
+  translation: "5ATLK"
+  skip_translation: true
+
+- text: "B[2ATLK"
+  translation: ""
+
+- text: "Pj1A"
+  translation: "Pj1A"
+  skip_translation: true
+
+- text: "B[2Aw[Z"
+  translation: ""
+
+- text: "-AF"
+  translation: "-AF"
+  skip_translation: true
+
+- text: "Aiy8"
+  translation: "Aiy8"
+  skip_translation: true
+
+- text: "A?y"
+  translation: "A?y"
+  skip_translation: true
+
+- text: "AFj"
+  translation: "AFj"
+  skip_translation: true
+
+- text: "ATL"
+  translation: "ATL"
+  skip_translation: true
+
+- text: "W[BA"
+  translation: "W[BA"
+  skip_translation: true
+
+- text: "*L+A+"
+  translation: "*L+A+"
+  skip_translation: true
+
+- text: "I@33#@23S@"
+  translation: "I@33#@23S@"
+  skip_translation: true
+
+- text: "B?33s?"
+  translation: "B?33s?"
+  skip_translation: true
+
+- text: "Corrupt Technologies Ad - Background"
+  translation: ""
+
+- text: "Corrupt Technologies Ad - Character Sprite Atlas"
+  translation: ""
+
+- text: "2DEN"
+  translation: "2DEN"
+  skip_translation: true
+
+- text: "*HO"
+  translation: "*HO"
+  skip_translation: true
+
+- text: "SmallCock"
+  translation: ""
+
+- text: "XcA"
+  translation: "XcA"
+  skip_translation: true
+
+- text: "XTA"
+  translation: "XTA"
+  skip_translation: true
+
+- text: "RKj"
+  translation: "RKj"
+  skip_translation: true
+
+- text: "DmTh"
+  translation: "DmTh"
+  skip_translation: true
+
+- text: "ADDB@"
+  translation: "ADDB@"
+  skip_translation: true
+
+- text: "-ADDB"
+  translation: "-ADDB"
+  skip_translation: true
+
+- text: "ADDB"
+  translation: "ADDB"
+  skip_translation: true
+
+- text: "Awwg@"
+  translation: "Awwg@"
+  skip_translation: true
+
+- text: "MADD"
+  translation: "MADD"
+  skip_translation: true
+
+- text: "AUU%"
+  translation: "AUU%"
+  skip_translation: true
+
+- text: "]EA33"
+  translation: "]EA33"
+  skip_translation: true
+
+- text: "Wall texture"
+  translation: ""
+
+- text: "I@23k"
+  translation: "I@23k"
+  skip_translation: true
+
+- text: "Anime Spark Flame"
+  translation: ""
+
+- text: "Sx&"
+  translation: "Sx&"
+  skip_translation: true
+
+- text: "ZOl;"
+  translation: "ZOl;"
+  skip_translation: true
+
+- text: "Mj1A B"
+  translation: ""
+
+- text: "GFrG"
+  translation: "GFrG"
+  skip_translation: true
+
+- text: "Ga@333@"
+  translation: "Ga@333@"
+  skip_translation: true
+
+- text: "B@p="
+  translation: "B@p="
+  skip_translation: true
+
+- text: "Pm_@"
+  translation: "Pm_@"
+  skip_translation: true
+
+- text: "Q?ff&"
+  translation: "Q?ff&"
+  skip_translation: true
+
+- text: "B?ff&"
+  translation: "B?ff&"
+  skip_translation: true
+
+- text: "G!?ff&"
+  translation: "G!?ff&"
+  skip_translation: true
+
+- text: "E?fff?"
+  translation: "E?fff?"
+  skip_translation: true
+
+- text: "Y?p=J"
+  translation: "Y?p=J"
+  skip_translation: true
+
+- text: "Q7A"
+  translation: "Q7A"
+  skip_translation: true
+
+- text: "T8A"
+  translation: "T8A"
+  skip_translation: true
+
+- text: "J@R|DA"
+  translation: "J@R|DA"
+  skip_translation: true
+
+- text: "`AR"
+  translation: "translation"
+
+- text: "]AR"
+  translation: "]AR"
+  skip_translation: true
+
+- text: "Aq7/A3"
+  translation: ""
+
+- text: "AfN6A"
+  translation: "AfN6A"
+  skip_translation: true
+
+- text: "@HA2A"
+  translation: "@HA2A"
+  skip_translation: true
+
+- text: "V@3o@A"
+  translation: "V@3o@A"
+  skip_translation: true
+
+- text: "VAR"
+  translation: "VAR"
+  skip_translation: true
+
+- text: "IAR"
+  translation: "IAR"
+  skip_translation: true
+
+- text: "R w"
+  translation: "R w"
+  skip_translation: true
+
+- text: "HA2"
+  translation: "HA2"
+  skip_translation: true
+
+- text: "HA2@3"
+  translation: ""
+
+- text: "HA2@R*+"
+  translation: "HA2@R*+"
+  skip_translation: true
+
+- text: "%AHA2?"
+  translation: "%AHA2?"
+  skip_translation: true
+
+- text: "R*+AfN"
+  translation: "R*+AfN"
+  skip_translation: true
+
+- text: "A3o"
+  translation: "A3o"
+  skip_translation: true
+
+- text: "AfN"
+  translation: "AfN"
+  skip_translation: true
+
+- text: "AHA"
+  translation: "AHA"
+  skip_translation: true
+
+- text: "AR|"
+  translation: "AR|"
+  skip_translation: true
+
+- text: "@R*+A"
+  translation: "@R*+A"
+  skip_translation: true
+
+- text: "E-A"
+  translation: "E-A"
+  skip_translation: true
+
+- text: "Azu?"
+  translation: "Azu?"
+  skip_translation: true
+
+- text: "I@fff"
+  translation: "I@fff"
+  skip_translation: true
+
+- text: "7AA3"
+  translation: "7AA3"
+  skip_translation: true
+
+- text: "J O"
+  translation: "J O"
+  skip_translation: true
+
+- text: "KUY"
+  translation: "KUY"
+  skip_translation: true
+
+- text: "GA@H"
+  translation: "GA@H"
+  skip_translation: true
+
+- text: "L=q=j"
+  translation: "L=q=j"
+  skip_translation: true
+
+- text: "F;E"
+  translation: "F;E"
+  skip_translation: true
+
+- text: "Qx?ff&"
+  translation: "Qx?ff&"
+  skip_translation: true
+
+- text: "I@fff@"
+  translation: "I@fff@"
+  skip_translation: true
+
+- text: "I@23S@"
+  translation: "I@23S@"
+  skip_translation: true
+
+- text: "W?fff"
+  translation: "W?fff"
+  skip_translation: true
+
+- text: "B9 *1t"
+  translation: "B9 *1t"
+  skip_translation: true
+
+- text: "Ga@p="
+  translation: "Ga@p="
+  skip_translation: true
+
+- text: "S[O"
+  translation: "S[O"
+  skip_translation: true
+
+- text: "L?q=*A"
+  translation: "L?q=*A"
+  skip_translation: true
+
+- text: "KRc"
+  translation: "KRc"
+  skip_translation: true
+
+- text: "Ga?33s?"
+  translation: ""
+
+- text: "TLK?b"
+  translation: "TLK?b"
+  skip_translation: true
+
+- text: "`AT"
+  translation: "`AT"
+  skip_translation: true
+
+- text: "#.=AT"
+  translation: "#.=AT"
+  skip_translation: true
+
+- text: "!AF"
+  translation: "!AF"
+  skip_translation: true
+
+- text: "B[2A"
+  translation: "B[2A"
+  skip_translation: true
+
+- text: "Pj1A#["
+  translation: "Pj1A#["
+  skip_translation: true
+
+- text: "Iy Av"
+  translation: ""
+
+- text: "@5L3A"
+  translation: "@5L3A"
+  skip_translation: true
+
+- text: "UPAA"
+  translation: "UPAA"
+  skip_translation: true
+
+- text: "IA/"
+  translation: "IA/"
+  skip_translation: true
+
+- text: "XA1"
+  translation: "XA1"
+  skip_translation: true
+
+- text: "KA8"
+  translation: "KA8"
+  skip_translation: true
+
+- text: "$SAA"
+  translation: "$SAA"
+  skip_translation: true
+
+- text: "x A;"
+  translation: "x A;"
+  skip_translation: true
+
+- text: "+AA"
+  translation: "+AA"
+  skip_translation: true
+
+- text: "A_z"
+  translation: "A_z"
+  skip_translation: true
+
+- text: "VA8"
+  translation: "VA8"
+  skip_translation: true
+
+- text: "LA%"
+  translation: "LA%"
+  skip_translation: true
+
+- text: "EAa"
+  translation: "EAa"
+  skip_translation: true
+
+- text: "AQA"
+  translation: "AQA"
+  skip_translation: true
+
+- text: "K)%A"
+  translation: "K)%A"
+  skip_translation: true
+
+- text: "TA\""
+  translation: "TA\""
+  skip_translation: true
+
+- text: "@QA"
+  translation: "@QA"
+  skip_translation: true
+
+- text: "AUP"
+  translation: "AUP"
+  skip_translation: true
+
+- text: "X\"Am"
+  translation: "X\\"
+  skip_translation: true
+
+- text: "x Am"
+  translation: ""
+
+- text: "I@fff?ff"
+  translation: "I@fff?ff"
+  skip_translation: true
+
+- text: "Jj1"
+  translation: "Jj1"
+  skip_translation: true
+
+- text: "BpC"
+  translation: "BpC"
+  skip_translation: true
+
+- text: "B?fff?ff&?"
+  translation: ""
+
+- text: "?&#FA"
+  translation: "?&#FA"
+  skip_translation: true
+
+- text: "A0p6A"
+  translation: "A0p6A"
+  skip_translation: true
+
+- text: "Azk\\A"
+  translation: "Azk\\\\A"
+  skip_translation: true
+
+- text: "49~A;99A"
+  translation: "49~A;99A"
+  skip_translation: true
+
+- text: "UsA8\"2A"
+  translation: ""
+
+- text: "IOqAI"
+  translation: ""
+
+- text: "E8jA~"
+  translation: ""
+
+- text: "B!cA"
+  translation: "B!cA"
+  skip_translation: true
+
+- text: "T_A"
+  translation: "T_A"
+  skip_translation: true
+
+- text: "Q^A^'[A"
+  translation: "Q^A^'[A"
+  skip_translation: true
+
+- text: "Q^Az"
+  translation: "Q^Az"
+  skip_translation: true
+
+- text: "Q^A1"
+  translation: "Q^A1"
+  skip_translation: true
+
+- text: "K\\A"
+  translation: "K\\A"
+  skip_translation: true
+
+- text: "K\\ABo\"A"
+  translation: "K\\\\ABo\"A"
+  skip_translation: true
+
+- text: "ZABgGA"
+  translation: ""
+
+- text: "ZAT"
+  translation: "ZAT"
+  skip_translation: true
+
+- text: "YAT"
+  translation: "YAT"
+  skip_translation: true
+
+- text: "4AYA"
+  translation: "4AYA"
+  skip_translation: true
+
+- text: "h A"
+  translation: "h A"
+  skip_translation: true
+
+- text: "~XAS"
+  translation: "~XAS"
+  skip_translation: true
+
+- text: "=XAS"
+  translation: "=XAS"
+  skip_translation: true
+
+- text: "=XA"
+  translation: "=XA"
+  skip_translation: true
+
+- text: "`EA"
+  translation: "`EA"
+  skip_translation: true
+
+- text: "WAee"
+  translation: ""
+
+- text: "TDE4"
+  translation: "TDE4"
+  skip_translation: true
+
+- text: "NeonDollAd - Characters"
+  translation: ""
+
+- text: "Neon Doll Ad - Sprite Atlas 1"
+  translation: ""
+
+- text: "K(A]uX"
+  translation: "K(A]uX"
+  skip_translation: true
+
+- text: "RV@Zt"
+  translation: "RV@Zt"
+  skip_translation: true
+
+- text: "VfF"
+  translation: "VfF"
+  skip_translation: true
+
+- text: "]CA"
+  translation: "]CA"
+  skip_translation: true
+
+- text: "L;A3c"
+  translation: "L;A3c"
+  skip_translation: true
+
+- text: ";AR"
+  translation: ";AR"
+  skip_translation: true
+
+- text: "It@"
+  translation: "It@"
+  skip_translation: true
+
+- text: "T l?"
+  translation: "T l?"
+  skip_translation: true
+
+- text: "H+q?pKm="
+  translation: ""
+
+- text: "PHs?"
+  translation: "PHs?"
+  skip_translation: true
+
+- text: "Nc?)"
+  translation: "Nc?)"
+  skip_translation: true
+
+- text: "Gd?`"
+  translation: "Gd?`"
+  skip_translation: true
+
+- text: "AjI~"
+  translation: "AjI~"
+  skip_translation: true
+
+- text: "Of?"
+  translation: "Of?"
+  skip_translation: true
+
+- text: "Ph@"
+  translation: "Ph@"
+  skip_translation: true
+
+- text: "EGA"
+  translation: "EGA"
+  skip_translation: true
+
+- text: "OXA"
+  translation: "OXA"
+  skip_translation: true
+
+- text: "R@vAR"
+  translation: "R@vAR"
+  skip_translation: true
+
+- text: "CBe"
+  translation: "CBe"
+  skip_translation: true
+
+- text: "WEGN"
+  translation: "WEGN"
+  skip_translation: true
+
+- text: "C|x"
+  translation: "C|x"
+  skip_translation: true
+
+- text: "I@33#@ff"
+  translation: "I@33#@ff"
+  skip_translation: true
+
+- text: "N!s"
+  translation: "N!s"
+  skip_translation: true
+
+- text: "Q?)\\O"
+  translation: "Q?)\\O"
+  skip_translation: true
+
+- text: "Pr|q"
+  translation: "Pr|q"
+  skip_translation: true
+
+- text: "BaH"
+  translation: "BaH"
+  skip_translation: true
+
+- text: "JQd"
+  translation: "JQd"
+  skip_translation: true
+
+- text: "B?p=J"
+  translation: "B?p=J"
+  skip_translation: true
+
+- text: "W?)\\O"
+  translation: "W?)\\O"
+  skip_translation: true
+
+- text: "W?ff&"
+  translation: "W?ff&"
+  skip_translation: true
+
+- text: ")\\O?)\\O"
+  translation: ")\\O?)\\O"
+  skip_translation: true
+
+- text: "Cz@"
+  translation: "Cz@"
+  skip_translation: true
+
+- text: "Z@I"
+  translation: "Z@I"
+  skip_translation: true
+
+- text: "A(V"
+  translation: "A(V"
+  skip_translation: true
+
+- text: ",AA("
+  translation: ",AA("
+  skip_translation: true
+
+- text: "-AA("
+  translation: "-AA("
+  skip_translation: true
+
+- text: "Cz@A("
+  translation: "Cz@A("
+  skip_translation: true
+
+- text: ":EL"
+  translation: ":EL"
+  skip_translation: true
+
+- text: "I@23S@ff6@"
+  translation: ""
+
+- text: "Corrupt Technologies - Logo - Text"
+  translation: ""
+
+- text: "Corrupt Technologies Ad - Logo Sprite Atlas"
+  translation: ""
+
+- text: "G@\\O"
+  translation: "G@\\O"
+  skip_translation: true
+
+- text: "IK@H"
+  translation: "IK@H"
+  skip_translation: true
+
+- text: "IK@"
+  translation: "IK@"
+  skip_translation: true
+
+- text: "Ye@"
+  translation: "Ye@"
+  skip_translation: true
+
+- text: "Nd@q"
+  translation: "Nd@q"
+  skip_translation: true
+
+- text: "Nd@"
+  translation: "Nd@"
+  skip_translation: true
+
+- text: "Ye?g"
+  translation: "Ye?g"
+  skip_translation: true
+
+- text: "BzA"
+  translation: "BzA"
+  skip_translation: true
+
+- text: "NlE"
+  translation: "NlE"
+  skip_translation: true
+
+- text: "I@23S@33#@ff"
+  translation: ""
+
+- text: "M4Be"
+  translation: ""
+
+- text: "MPBe"
+  translation: "MPBe"
+  skip_translation: true
+
+- text: "Lhi"
+  translation: ""
+
+- text: "KtF"
+  translation: "KtF"
+  skip_translation: true
+
+- text: "QUJJ"
+  translation: "QUJJ"
+  skip_translation: true
+
+- text: "MiC"
+  translation: "MiC"
+  skip_translation: true
+
+- text: "Ga?)\\O?"
+  translation: "Ga?)\\\\O?"
+  skip_translation: true
+
+- text: "^BE"
+  translation: "^BE"
+  skip_translation: true
+
+- text: "LzA"
+  translation: "LzA"
+  skip_translation: true
+
+- text: "NeonDollAd - Text"
+  translation: ""
+
+- text: "Z@]?f"
+  translation: "Z@]?f"
+  skip_translation: true
+
+- text: "Corrupt Technologies Ad - Foreground"
+  translation: ""
+
+- text: "0YA"
+  translation: "0YA"
+  skip_translation: true
+
+- text: "BbN"
+  translation: "BbN"
+  skip_translation: true
+
+- text: "G!?)\\O"
+  translation: "G!?)\\O"
+  skip_translation: true
+
+- text: "Qx?fff?"
+  translation: ""
+
+- text: "Qx?)\\O?33"
+  translation: "Qx?)\\\\O?33"
+  skip_translation: true
+
+- text: "Corrupt Technologies - Logo - Icon"
+  translation: ""
+
+- text: "P@R8u?"
+  translation: "P@R8u?"
+  skip_translation: true
+
+- text: "R8u"
+  translation: "R8u"
+  skip_translation: true
+
+- text: "H!c"
+  translation: "H!c"
+  skip_translation: true
+
+- text: "I@ff6@33#@23"
+  translation: ""
+
+- text: "FqA"
+  translation: "FqA"
+  skip_translation: true
+
+- text: "Y?fff?G"
+  translation: ""
+
+- text: "NeonDollAd - VFX"
+  translation: ""
+
+- text: "FA)"
+  translation: "FA)"
+  skip_translation: true
+
+- text: "UAA"
+  translation: "UAA"
+  skip_translation: true
+
+- text: "GE?A"
+  translation: "GE?A"
+  skip_translation: true
+
+- text: "=A)45A"
+  translation: "=A)45A"
+  skip_translation: true
+
+- text: "=^BA33%A"
+  translation: "=^BA33%A"
+  skip_translation: true
+
+- text: "=^BA"
+  translation: "=^BA"
+  skip_translation: true
+
+- text: "G]2A"
+  translation: "G]2A"
+  skip_translation: true
+
+- text: "Rp\\"
+  translation: "Rp\\\\"
+  skip_translation: true
+
+- text: "GE?"
+  translation: "GE?"
+  skip_translation: true
+
+- text: "Q?fff?"
+  translation: "Q?fff?"
+  skip_translation: true
+
+- text: "I@23S@ff"
+  translation: "I@23S@ff"
+  skip_translation: true
+
+- text: "LvL"
+  translation: "LvL"
+  skip_translation: true
+
+- text: "B4w"
+  translation: "B4w"
+  skip_translation: true
+
+- text: "E_h"
+  translation: "E_h"
+  skip_translation: true
+
+- text: "Ga@q="
+  translation: "Ga@q="
+  skip_translation: true
+
+- text: "J@q=J"
+  translation: "J@q=J"
+  skip_translation: true
+
+- text: "8AA"
+  translation: "8AA"
+  skip_translation: true
+
+- text: "A3C="
+  translation: "A3C="
+  skip_translation: true
+
+- text: "?A3C="
+  translation: "?A3C="
+  skip_translation: true
+
+- text: "A3C=?"
+  translation: "A3C=?"
+  skip_translation: true
+
+- text: "'?U j?"
+  translation: "'?U j?"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_9"
+  translation: ""
+
+- text: "0DU"
+  translation: "0DU"
+  skip_translation: true
+
+- text: "GA?q=*@"
+  translation: "GA?q=*@"
+  skip_translation: true
+
+- text: "GA?p=*@"
+  translation: "GA?p=*@"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_1"
+  translation: ""
+
+- text: "G!?ffF@"
+  translation: "G!?ffF@"
+  skip_translation: true
+
+- text: "U?e"
+  translation: "U?e"
+  skip_translation: true
+
+- text: "0?OD"
+  translation: ""
+
+- text: "UtM"
+  translation: "UtM"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_15"
+  translation: ""
+
+- text: "Y?Yy"
+  translation: "Y?Yy"
+  skip_translation: true
+
+- text: "Z?Fw"
+  translation: "Z?Fw"
+  skip_translation: true
+
+- text: "QOl?"
+  translation: "QOl?"
+  skip_translation: true
+
+- text: "Y?33s?="
+  translation: "Y?33s?="
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_8"
+  translation: ""
+
+- text: "@U@L"
+  translation: "@U@L"
+  skip_translation: true
+
+- text: "ALD"
+  translation: "ALD"
+  skip_translation: true
+
+- text: "AL,"
+  translation: ""
+
+- text: "=0/AK"
+  translation: "=0/AK"
+  skip_translation: true
+
+- text: "S@k"
+  translation: "S@k"
+  skip_translation: true
+
+- text: "Ajo"
+  translation: ""
+
+- text: "Aj_\\@"
+  translation: "Aj_\\\\@"
+  skip_translation: true
+
+- text: "Hu@"
+  translation: "Hu@"
+  skip_translation: true
+
+- text: "AK@"
+  translation: "AK@"
+  skip_translation: true
+
+- text: "AKp"
+  translation: "AKp"
+  skip_translation: true
+
+- text: "A-A"
+  translation: "A-A"
+  skip_translation: true
+
+- text: "+AT"
+  translation: "+AT"
+  skip_translation: true
+
+- text: "K==`'Ak"
+  translation: ""
+
+- text: "/AJ"
+  translation: "/AJ"
+  skip_translation: true
+
+- text: "E?=d"
+  translation: "E?=d"
+  skip_translation: true
+
+- text: "Z@=X AiwX@=X A"
+  translation: ""
+
+- text: "@=p5Ai7 @=p5A"
+  translation: "@=p5Ai7 @=p5A"
+  skip_translation: true
+
+- text: "G1@)\\O@p=:@G"
+  translation: "G1@)\\O@p=:@G"
+  skip_translation: true
+
+- text: "P@33c@"
+  translation: "P@33c@"
+  skip_translation: true
+
+- text: "E@fff@"
+  translation: "E@fff@"
+  skip_translation: true
+
+- text: "A333?p="
+  translation: "A333?p="
+  skip_translation: true
+
+- text: "Gt&?"
+  translation: "Gt&?"
+  skip_translation: true
+
+- text: "EG?"
+  translation: "EG?"
+  skip_translation: true
+
+- text: "Zzy"
+  translation: ""
+
+- text: "JbH="
+  translation: "JbH="
+  skip_translation: true
+
+- text: "BsJ"
+  translation: "BsJ"
+  skip_translation: true
+
+- text: "B/n"
+  translation: "B/n"
+  skip_translation: true
+
+- text: "Xq@"
+  translation: "Xq@"
+  skip_translation: true
+
+- text: "Xq@e"
+  translation: "Xq@e"
+  skip_translation: true
+
+- text: "Gk@2"
+  translation: "Gk@2"
+  skip_translation: true
+
+- text: "Xq@3"
+  translation: "Xq@3"
+  skip_translation: true
+
+- text: "IZUD5"
+  translation: "IZUD5"
+  skip_translation: true
+
+- text: "Kz@[;"
+  translation: "Kz@[;"
+  skip_translation: true
+
+- text: "I@p=Z@"
+  translation: "I@p=Z@"
+  skip_translation: true
+
+- text: "Qh@="
+  translation: "Qh@="
+  skip_translation: true
+
+- text: "X2DU"
+  translation: "X2DU"
+  skip_translation: true
+
+- text: "Su?"
+  translation: "Su?"
+  skip_translation: true
+
+- text: "Bj^"
+  translation: "Bj^"
+  skip_translation: true
+
+- text: "V&@d"
+  translation: "V&@d"
+  skip_translation: true
+
+- text: "C2l"
+  translation: "C2l"
+  skip_translation: true
+
+- text: "Lz?"
+  translation: "Lz?"
+  skip_translation: true
+
+- text: "Lz?/"
+  translation: "Lz?/"
+  skip_translation: true
+
+- text: "BJx"
+  translation: "BJx"
+  skip_translation: true
+
+- text: "No+"
+  translation: "No+"
+  skip_translation: true
+
+- text: "UR??*"
+  translation: "UR??*"
+  skip_translation: true
+
+- text: "UD?"
+  translation: "UD?"
+  skip_translation: true
+
+- text: "Un?"
+  translation: "Un?"
+  skip_translation: true
+
+- text: "UY?"
+  translation: "UY?"
+  skip_translation: true
+
+- text: "UD?!\\"
+  translation: "UD?!\\\\"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_4"
+  translation: ""
+
+- text: "Ga?333"
+  translation: "Ga?333"
+  skip_translation: true
+
+- text: "EmO"
+  translation: "EmO"
+  skip_translation: true
+
+- text: "A|Ob"
+  translation: "A|Ob"
+  skip_translation: true
+
+- text: "YAA@U;%"
+  translation: ""
+
+- text: "YAA@"
+  translation: "YAA@"
+  skip_translation: true
+
+- text: "YAA@8M3"
+  translation: ""
+
+- text: "YAA@U\"Z"
+  translation: ""
+
+- text: "A|S"
+  translation: "A|S"
+  skip_translation: true
+
+- text: "A,x"
+  translation: "A,x"
+  skip_translation: true
+
+- text: "YLA"
+  translation: "YLA"
+  skip_translation: true
+
+- text: "QIA"
+  translation: "QIA"
+  skip_translation: true
+
+- text: "VbA"
+  translation: "VbA"
+  skip_translation: true
+
+- text: "A$L+"
+  translation: "A$L+"
+  skip_translation: true
+
+- text: "OP\"@"
+  translation: "OP\"@"
+  skip_translation: true
+
+- text: "M%A"
+  translation: "M%A"
+  skip_translation: true
+
+- text: "P?g"
+  translation: "P?g"
+  skip_translation: true
+
+- text: "@CA"
+  translation: "@CA"
+  skip_translation: true
+
+- text: "c ?8M3"
+  translation: "c ?8M3"
+  skip_translation: true
+
+- text: "Aw)"
+  translation: "Aw)"
+  skip_translation: true
+
+- text: "ALd"
+  translation: "ALd"
+  skip_translation: true
+
+- text: "C?A"
+  translation: "C?A"
+  skip_translation: true
+
+- text: "N?A"
+  translation: "N?A"
+  skip_translation: true
+
+- text: "DU:TD"
+  translation: "DU:TD"
+  skip_translation: true
+
+- text: "BU:TD"
+  translation: "BU:TD"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_18"
+  translation: ""
+
+- text: "UDl&"
+  translation: "UDl&"
+  skip_translation: true
+
+- text: "HZU"
+  translation: "HZU"
+  skip_translation: true
+
+- text: "RED"
+  translation: "RED"
+  skip_translation: true
+
+- text: "RIM"
+  translation: "RIM"
+  skip_translation: true
+
+- text: "Mp\\D"
+  translation: "Mp\\\\D"
+  skip_translation: true
+
+- text: "+HDU"
+  translation: "+HDU"
+  skip_translation: true
+
+- text: "DAgKC"
+  translation: ""
+
+- text: "BAgKC"
+  translation: ""
+
+- text: "Q+n?"
+  translation: "Q+n?"
+  skip_translation: true
+
+- text: "L=k"
+  translation: "L=k"
+  skip_translation: true
+
+- text: "? FI"
+  translation: "? FI"
+  skip_translation: true
+
+- text: "Y=?^m"
+  translation: "Y=?^m"
+  skip_translation: true
+
+- text: "(UD"
+  translation: "(UD"
+  skip_translation: true
+
+- text: "A(3NB"
+  translation: "A(3NB"
+  skip_translation: true
+
+- text: "B(bXDJJ"
+  translation: ""
+
+- text: "A:R"
+  translation: "A:R"
+  skip_translation: true
+
+- text: "\"'AA"
+  translation: "\\"
+  skip_translation: true
+
+- text: "N4m"
+  translation: "N4m"
+  skip_translation: true
+
+- text: "E@H_"
+  translation: "E@H_"
+  skip_translation: true
+
+- text: "G?v"
+  translation: "G?v"
+  skip_translation: true
+
+- text: "Fg9"
+  translation: "Fg9"
+  skip_translation: true
+
+- text: "j @`r"
+  translation: "j @`r"
+  skip_translation: true
+
+- text: "j @Fg9"
+  translation: ""
+
+- text: "D?Aw"
+  translation: "D?Aw"
+  skip_translation: true
+
+- text: "S?`r"
+  translation: "S?`r"
+  skip_translation: true
+
+- text: "N@?Sc"
+  translation: "N@?Sc"
+  skip_translation: true
+
+- text: "K?paJ"
+  translation: "K?paJ"
+  skip_translation: true
+
+- text: "O?Yb"
+  translation: "O?Yb"
+  skip_translation: true
+
+- text: "DR?q"
+  translation: "DR?q"
+  skip_translation: true
+
+- text: "DY?q"
+  translation: "DY?q"
+  skip_translation: true
+
+- text: "D|?q"
+  translation: "D|?q"
+  skip_translation: true
+
+- text: "Dg?"
+  translation: "Dg?"
+  skip_translation: true
+
+- text: "Du?"
+  translation: "Du?"
+  skip_translation: true
+
+- text: "Dn?!"
+  translation: "Dn?!"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_10"
+  translation: ""
+
+- text: "Wc^"
+  translation: "Wc^"
+  skip_translation: true
+
+- text: "Aq=2A"
+  translation: "Aq=2A"
+  skip_translation: true
+
+- text: "Aff&A"
+  translation: ""
+
+- text: "Ap=:A"
+  translation: "Ap=:A"
+  skip_translation: true
+
+- text: "GWA"
+  translation: "GWA"
+  skip_translation: true
+
+- text: "A)\\IA"
+  translation: "A)\\\\IA"
+  skip_translation: true
+
+- text: "(FA"
+  translation: "(FA"
+  skip_translation: true
+
+- text: "A)\\w@"
+  translation: "A)\\w@"
+  skip_translation: true
+
+- text: "Affn@"
+  translation: "Affn@"
+  skip_translation: true
+
+- text: "Ap=lA"
+  translation: "Ap=lA"
+  skip_translation: true
+
+- text: "0AR"
+  translation: "0AR"
+  skip_translation: true
+
+- text: "Aff2A"
+  translation: "Aff2A"
+  skip_translation: true
+
+- text: "Ap=2A"
+  translation: "Ap=2A"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_17"
+  translation: ""
+
+- text: "D0)lDJ"
+  translation: ""
+
+- text: "A#@ju"
+  translation: "A#@ju"
+  skip_translation: true
+
+- text: "G@xs"
+  translation: "G@xs"
+  skip_translation: true
+
+- text: "Sn@s"
+  translation: "Sn@s"
+  skip_translation: true
+
+- text: "Hgg"
+  translation: "Hgg"
+  skip_translation: true
+
+- text: "N@333?ffV@"
+  translation: ""
+
+- text: "Bxz%C"
+  translation: "Bxz%C"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_13"
+  translation: ""
+
+- text: "C9j"
+  translation: "C9j"
+  skip_translation: true
+
+- text: "@3TMA"
+  translation: "@3TMA"
+  skip_translation: true
+
+- text: "3TMA"
+  translation: "3TMA"
+  skip_translation: true
+
+- text: "Ag@"
+  translation: "Ag@"
+  skip_translation: true
+
+- text: "3P?A"
+  translation: "3P?A"
+  skip_translation: true
+
+- text: "Qr="
+  translation: "Qr="
+  skip_translation: true
+
+- text: "HHn@"
+  translation: "HHn@"
+  skip_translation: true
+
+- text: "@|QI@="
+  translation: "@|QI@="
+  skip_translation: true
+
+- text: "O@v"
+  translation: "O@v"
+  skip_translation: true
+
+- text: "Sparkler 04_#[512,288]_3"
+  translation: ""
+
+- text: "G?p=J"
+  translation: "G?p=J"
+  skip_translation: true
+
+- text: "G?ff&"
+  translation: "G?ff&"
+  skip_translation: true
+
+- text: "ODFU"
+  translation: "ODFU"
+  skip_translation: true
+
+- text: "G r"
+  translation: "G r"
+  skip_translation: true
+
+- text: "A_vc@p"
+  translation: "A_vc@p"
+  skip_translation: true
+
+- text: "U!A7W\"@"
+  translation: "U!A7W\\"
+  skip_translation: true
+
+- text: "H?Cs"
+  translation: "H?Cs"
+  skip_translation: true
+
+- text: "GQs"
+  translation: "GQs"
+  skip_translation: true
+
+- text: "L?v"
+  translation: "L?v"
+  skip_translation: true
+
+- text: "[?HI"
+  translation: "[?HI"
+  skip_translation: true
+
+- text: "O?H"
+  translation: "O?H"
+  skip_translation: true
+
+- text: "QW?I'"
+  translation: "QW?I'"
+  skip_translation: true
+
+- text: "Cyc"
+  translation: ""
+
+- text: "R@^z"
+  translation: "R@^z"
+  skip_translation: true
+
+- text: "X@%r"
+  translation: "X@%r"
+  skip_translation: true
+
+- text: "Zp@"
+  translation: "Zp@"
+  skip_translation: true
+
+- text: "V@w|"
+  translation: "V@w|"
+  skip_translation: true
+
+- text: "@OK"
+  translation: "@OK"
+  skip_translation: true
+
+- text: "NY;f"
+  translation: "NY;f"
+  skip_translation: true
+
+- text: "NY;ei"
+  translation: "NY;ei"
+  skip_translation: true
+
+- text: "Ds@"
+  translation: "Ds@"
+  skip_translation: true
+
+- text: "C@Ed"
+  translation: "C@Ed"
+  skip_translation: true
+
+- text: "H@gq"
+  translation: "H@gq"
+  skip_translation: true
+
+- text: "G@I"
+  translation: "G@I"
+  skip_translation: true
+
+- text: "W\\w@'"
+  translation: "W\\w@'"
+  skip_translation: true
+
+- text: "Aj@"
+  translation: "Aj@"
+  skip_translation: true
+
+- text: "F@r"
+  translation: "F@r"
+  skip_translation: true
+
+- text: "Q+z@P|"
+  translation: "Q+z@P|"
+  skip_translation: true
+
+- text: "n l@"
+  translation: "n l@"
+  skip_translation: true
+
+- text: "s @@P|"
+  translation: "s @@P|"
+  skip_translation: true
+
+- text: "Bt*FD"
+  translation: "Bt*FD"
+  skip_translation: true
+
+- text: "Y?o"
+  translation: "Y?o"
+  skip_translation: true
+
+- text: "Medium Vehicle Bonk 1"
+  translation: ""
+
+- text: "Car1 Move Left"
+  translation: ""
+
+- text: "Car1ShadowBlur"
+  translation: ""
+
+- text: "Car1ShadowBlur 2"
+  translation: ""
+
+- text: "AC?"
+  translation: "AC?"
+  skip_translation: true
+
+- text: "Wall texture)"
+  translation: ""
+
+- text: "Corrupt Technologies Ad - Foreground$"
+  translation: ""
+
+- text: "And I won"
+  translation: ""
+
+- text: "t leave anything behind"
+  translation: ""
+
+- text: "A lifeline lost and a tether"
+  translation: ""
+
+- text: "s frayed"
+  translation: ""
+
+- text: "Empty hands reach through the cold"
+  translation: "Пустые руки тянутся сквозь холод"
+
+- text: "UUUUUU?@"
+  translation: ""
+
+- text: "re out of reach, I'm on my own"
+  translation: ""
+
+- text: "UUUUUU+@"
+  translation: ""
+
+- text: "The tether snaps, the silence loud"
+  translation: ""
+
+- text: "I will scream my name into the crowd"
+  translation: ""
+
+- text: "So tonight I'll give you a sign"
+  translation: ""
+
+- text: "This city's a graveyard, alive but decayed"
+  translation: ""
+
+- text: "Walking side by side, but still"
+  translation: ""
+
+- text: "Fingers trace the track I can't rewind"
+  translation: ""
+
+- text: "We only have limited time"
+  translation: ""
+
+- text: "The sorrows you and I need to bear"
+  translation: ""
+
+- text: "Blinded by hopes, wishing to the sky"
+  translation: ""
+
+- text: "This story comes to the end"
+  translation: ""
+
+- text: "The silence grows where promises stayed"
+  translation: ""
+
+- text: "But I hold on, though skies turn gray"
+  translation: ""
+
+- text: "A lifeline lost, the tether's frayed"
+  translation: ""
+
+- text: "ve drifted far, I stand alone"
+  translation: ""
+
+- text: "Random HissingTimeline"
+  translation: "Random HissingTimeline"
+  skip_translation: true
+
+- text: "Corpo_Phone_1"
+  translation: ""
+
+- text: "Corpo_Phone_2"
+  translation: ""
+
+- text: "Guard_Event"
+  translation: ""
+
+- text: "PhoneGuy"
+  translation: ""
+
+- text: "No Help"
+  translation: ""
+
+- text: "Ground_2"
+  translation: "Ground_2"
+  skip_translation: true
+
+- text: "Ground_3"
+  translation: "Ground_3"
+  skip_translation: true
+
+- text: "Ground_4"
+  translation: "Ground_4"
+  skip_translation: true
+
+- text: "Ground_Roof"
+  translation: ""
+
+- text: "E-Erm-!"
+  translation: ""
+
+- text: "Drunk_In_Love CutsceneTimeline"
+  translation: "Drunk_In_Love CutsceneTimeline"
+  skip_translation: true
+
+- text: "Oh-!"
+  translation: "Oh-!"
+  skip_translation: true
+
+- text: "N-Neveeeer!"
+  translation: ""
+
+- text: "Resitendial_SouthEastGuards_3_Alone - Get Involved"
+  translation: ""
+
+- text: "Terrorists?!"
+  translation: ""
+
+- text: "Resistance?"
+  translation: ""
+
+- text: "Wha-"
+  translation: "Wha-"
+  skip_translation: true
+
+- text: "South East Guards - CutsceneTimeline"
+  translation: "South East Guards - CutsceneTimeline"
+  skip_translation: true
+
+- text: "0.3 - Residential - Cartel Event - 1"
+  translation: ""
+
+- text: "0.3 - Residential - Cartel Event - 2 - Shorter"
+  translation: ""
+
+- text: "0.3 - Residential - Cartel Event - 3"
+  translation: ""
+
+- text: "0.3 - Residential - Cartel Event - 4"
+  translation: ""
+
+- text: "0.3 - Residential - Cartel Event - 5 - Walk back"
+  translation: ""
+
+- text: "0.3 - Residential - Worn Panties - 1"
+  translation: ""
+
+- text: "0.3 - Residential - Worn Panties - 2"
+  translation: ""
+
+- text: "Uhh-! Nice tentacles!"
+  translation: ""
+
+- text: "AreYou"
+  translation: ""
+
+- text: "ButYou"
+  translation: ""
+
+- text: "Post Processing Profile"
+  translation: ""
+
+- text: "Tried to follow you, I'm losing hope"
+  translation: ""
+
+- text: "WUUUUU"
+  translation: ""
+
+- text: "A shadow of myself beneath my skin"
+  translation: ""
+
+- text: "Playable Set TMP Text Track"
+  translation: ""
+
+- text: "Qa@"
+  translation: "Qa@"
+  skip_translation: true
+
+- text: "Uu;"
+  translation: "Uu;"
+  skip_translation: true
+
+- text: "Static hums in the back of my mind"
+  translation: ""
+
+- text: "The night is too deep and the fight is too long"
+  translation: ""
+
+- text: "A blinding light, it fades away"
+  translation: ""
+
+- text: "Silence grows where promises stayed"
+  translation: ""
+
+- text: "Can we be free?"
+  translation: ""
+
+- text: "I trapped myself in a different hole"
+  translation: ""
+
+- text: "UUUUUU!@"
+  translation: ""
+
+- text: "UUUUU5A@"
+  translation: ""
+
+- text: "The darkness flows as we breathe the air"
+  translation: ""
+
+- text: "This night is too deep and the fight is too long"
+  translation: ""
+
+- text: "ff B"
+  translation: "ff B"
+  skip_translation: true
+
+- text: "A fleeting hope where I belong"
+  translation: ""
+
+- text: "So why did you leave me behind?"
+  translation: ""
+
+- text: "Drowned in the glow, lost and betrayed"
+  translation: ""
+
+- text: "Our hearts feel too far"
+  translation: ""
+

@@ -1,0 +1,4366 @@
+# raw (level7)
+
+- text: "gaussian blur"
+  translation: ""
+
+- text: "Zf:"
+  translation: "Zf:"
+  skip_translation: true
+
+- text: "K5A"
+  translation: "K5A"
+  skip_translation: true
+
+- text: "AjV6A"
+  translation: "AjV6A"
+  skip_translation: true
+
+- text: "K4A"
+  translation: "K4A"
+  skip_translation: true
+
+- text: "3AP"
+  translation: "3AP"
+  skip_translation: true
+
+- text: "To;"
+  translation: "To;"
+  skip_translation: true
+
+- text: "Building_1"
+  translation: "Building_1"
+  skip_translation: true
+
+- text: "RoofGround"
+  translation: ""
+
+- text: "PlaceHolderADS"
+  translation: ""
+
+- text: "2_RaceStartCutscene - SFX"
+  translation: ""
+
+- text: "MoveGuards"
+  translation: ""
+
+- text: "POS_Guard2"
+  translation: ""
+
+- text: "POS_Left"
+  translation: ""
+
+- text: "Sides"
+  translation: ""
+
+- text: "TopDumpster"
+  translation: ""
+
+- text: "FloorSide_Left"
+  translation: ""
+
+- text: "ThiefBox"
+  translation: ""
+
+- text: "Lightbridge Top Pivot"
+  translation: ""
+
+- text: "Env"
+  translation: ""
+
+- text: "FloorSide_Right"
+  translation: ""
+
+- text: "Sprite Mask"
+  translation: ""
+
+- text: "FloorWall"
+  translation: ""
+
+- text: "POS_Down"
+  translation: ""
+
+- text: "Props to turn off after"
+  translation: ""
+
+- text: "Guy_Leave"
+  translation: ""
+
+- text: "WalkTarget2"
+  translation: ""
+
+- text: "RoofBack_Middle"
+  translation: ""
+
+- text: "DefaultLayer"
+  translation: ""
+
+- text: "Placeholder Ads"
+  translation: ""
+
+- text: "Fences"
+  translation: ""
+
+- text: "Lightbridge Bottom Pivot"
+  translation: ""
+
+- text: "Mana Factory Logo Foreground"
+  translation: ""
+
+- text: "ALL_POS"
+  translation: ""
+
+- text: "Fuck"
+  translation: "Fuck"
+  skip_translation: true
+
+- text: "SecondIntro"
+  translation: ""
+
+- text: "Cartel people interaction"
+  translation: ""
+
+- text: "Building5"
+  translation: ""
+
+- text: "SideContent"
+  translation: ""
+
+- text: "Guy_Fuck"
+  translation: ""
+
+- text: "Events"
+  translation: ""
+
+- text: "Lid Pivot"
+  translation: ""
+
+- text: "Bark Dialogue 6"
+  translation: ""
+
+- text: "Character/Props"
+  translation: ""
+
+- text: "Neon City Railway Interaction"
+  translation: ""
+
+- text: "Building6"
+  translation: ""
+
+- text: "DealerSpot"
+  translation: ""
+
+- text: "Before Enabled Logic"
+  translation: ""
+
+- text: "Mana Factory Ad"
+  translation: ""
+
+- text: "DealerPos"
+  translation: ""
+
+- text: "Camera Position"
+  translation: ""
+
+- text: "Connectors"
+  translation: ""
+
+- text: "Lights_Night"
+  translation: ""
+
+- text: "Impacts"
+  translation: ""
+
+- text: "South East Guards After"
+  translation: ""
+
+- text: "DNCTimeCheck"
+  translation: ""
+
+- text: "BottomBlock"
+  translation: ""
+
+- text: "04_After Roadblock"
+  translation: ""
+
+- text: "Guards trigger_Down"
+  translation: ""
+
+- text: "2_RaceStartCutscene - SFX - Left"
+  translation: ""
+
+- text: "Treetest_right"
+  translation: "Treetest_right"
+  skip_translation: true
+
+- text: "Building2"
+  translation: ""
+
+- text: "Gal_Leave"
+  translation: ""
+
+- text: "SideWalk_5"
+  translation: ""
+
+- text: "Guy_Wait"
+  translation: ""
+
+- text: "Sprite_Smoke"
+  translation: ""
+
+- text: "Mana Factory Logo Background"
+  translation: ""
+
+- text: "Letters"
+  translation: ""
+
+- text: "GasVent"
+  translation: ""
+
+- text: "Police Car Sound"
+  translation: ""
+
+- text: "Closed Shape Ambient Occlusion 1"
+  translation: ""
+
+- text: "Edge_Lower"
+  translation: ""
+
+- text: "Gal_Wait"
+  translation: ""
+
+- text: "SideWalk"
+  translation: ""
+
+- text: "Blockers"
+  translation: ""
+
+- text: "---------- UNFINISHED ------------"
+  translation: "---------- UNFINISHED ------------"
+  skip_translation: true
+
+- text: "Building_2"
+  translation: "Building_2"
+  skip_translation: true
+
+- text: "Background_Left"
+  translation: ""
+
+- text: "Floor_1"
+  translation: "Floor_1"
+  skip_translation: true
+
+- text: "Bark Dialogue 2"
+  translation: ""
+
+- text: "Abovebackground"
+  translation: ""
+
+- text: "Environmental"
+  translation: ""
+
+- text: "CalliachKiosk"
+  translation: ""
+
+- text: "FX_roundlight"
+  translation: ""
+
+- text: "LightBridge 1"
+  translation: ""
+
+- text: "Floor_2"
+  translation: "Floor_2"
+  skip_translation: true
+
+- text: "Checkpoints"
+  translation: ""
+
+- text: "Corner"
+  translation: ""
+
+- text: "SideWalk_3"
+  translation: ""
+
+- text: "Soft Mask Bug Fixer"
+  translation: ""
+
+- text: "SmokeParticles"
+  translation: ""
+
+- text: "Missions"
+  translation: ""
+
+- text: "Bark Dialogue 7"
+  translation: ""
+
+- text: "SideWalk_4"
+  translation: ""
+
+- text: "CorruptTch Ad"
+  translation: ""
+
+- text: "LowerRightBlock"
+  translation: ""
+
+- text: "LastRow"
+  translation: ""
+
+- text: "Converstation 4"
+  translation: ""
+
+- text: "SideBalcony"
+  translation: ""
+
+- text: "NailSalon_Intro"
+  translation: ""
+
+- text: "West Abyss Drone"
+  translation: ""
+
+- text: "Roof_Ground_1"
+  translation: ""
+
+- text: "Cypher's Boobs"
+  translation: ""
+
+- text: "Roof_Ground"
+  translation: ""
+
+- text: "Guards Talking"
+  translation: ""
+
+- text: "POS_Up"
+  translation: "POS_Up"
+  skip_translation: true
+
+- text: "Global Background Walla"
+  translation: ""
+
+- text: "RetryPos"
+  translation: ""
+
+- text: "RailwaysLogo"
+  translation: ""
+
+- text: "To be continued"
+  translation: ""
+
+- text: "Drain_Right"
+  translation: ""
+
+- text: "SideBalcony_2"
+  translation: ""
+
+- text: "FirstIntro"
+  translation: ""
+
+- text: "WalkTarget1"
+  translation: ""
+
+- text: "Grey"
+  translation: ""
+
+- text: "South East Guards"
+  translation: ""
+
+- text: "Closed Shape Ambient Occlusion 2"
+  translation: ""
+
+- text: "DogWalker"
+  translation: ""
+
+- text: "Zoey's Boobs"
+  translation: ""
+
+- text: "FinalPos"
+  translation: ""
+
+- text: "Guards trigger_left"
+  translation: ""
+
+- text: "Bark Dialogue 1"
+  translation: ""
+
+- text: "Balcony2"
+  translation: ""
+
+- text: "Kiosk"
+  translation: ""
+
+- text: "MoanSound"
+  translation: ""
+
+- text: "LeftRoadblock"
+  translation: ""
+
+- text: "Hack_Box"
+  translation: ""
+
+- text: "YOUR"
+  translation: "YOUR"
+  skip_translation: true
+
+- text: "Offsetter"
+  translation: ""
+
+- text: "EnergyThing"
+  translation: ""
+
+- text: "Tree Rustling"
+  translation: ""
+
+- text: "Decals_Graffiti"
+  translation: ""
+
+- text: "IdleWindDown"
+  translation: ""
+
+- text: "UnderPlatform"
+  translation: ""
+
+- text: "Small talk"
+  translation: ""
+
+- text: "EnforcerPos2"
+  translation: ""
+
+- text: "Hooligans"
+  translation: ""
+
+- text: "NotWalkable"
+  translation: ""
+
+- text: "Lap 2 Obstacles"
+  translation: ""
+
+- text: "Outer_Ground"
+  translation: ""
+
+- text: "Bark Dialogue 9"
+  translation: ""
+
+- text: "RestartButton"
+  translation: ""
+
+- text: "Side/Corner"
+  translation: ""
+
+- text: "Max's Boobs"
+  translation: ""
+
+- text: "Concoctions"
+  translation: ""
+
+- text: "RoofSide_Right"
+  translation: ""
+
+- text: "Treetest_left"
+  translation: "Treetest_left"
+  skip_translation: true
+
+- text: "Guards trigger_Up"
+  translation: ""
+
+- text: "Synforma Corp Ad"
+  translation: ""
+
+- text: "Conversation 2"
+  translation: ""
+
+- text: "POS_Right"
+  translation: ""
+
+- text: "Conversation 1"
+  translation: ""
+
+- text: "finish line"
+  translation: ""
+
+- text: "East Abyss Drone"
+  translation: ""
+
+- text: "Outer_Pillars"
+  translation: ""
+
+- text: "ad_right 2"
+  translation: ""
+
+- text: "SideWalk_Edges"
+  translation: ""
+
+- text: "Random Hissing"
+  translation: ""
+
+- text: "Cartel Event"
+  translation: ""
+
+- text: "Back_Lower"
+  translation: ""
+
+- text: "Synforma Corp Logo Background"
+  translation: ""
+
+- text: "Row2"
+  translation: "Row2"
+  skip_translation: true
+
+- text: "Primary_logo"
+  translation: "Primary_logo"
+  skip_translation: true
+
+- text: "Malfunctions"
+  translation: ""
+
+- text: "Windows_3"
+  translation: "Windows_3"
+  skip_translation: true
+
+- text: "Bark Dialogue 8"
+  translation: ""
+
+- text: "Outer_Details"
+  translation: ""
+
+- text: "Crossing"
+  translation: ""
+
+- text: "Neck Follower"
+  translation: ""
+
+- text: "Could"
+  translation: ""
+
+- text: "POS_Guard1"
+  translation: ""
+
+- text: "South East"
+  translation: ""
+
+- text: "EnforcerPos1"
+  translation: ""
+
+- text: "Nail Salon Exterior Music"
+  translation: ""
+
+- text: "Piviot Front"
+  translation: ""
+
+- text: "Lap 1 Obstacles"
+  translation: ""
+
+- text: "Guard triggers"
+  translation: ""
+
+- text: "LightBridge 2"
+  translation: ""
+
+- text: "Platform_Bottom"
+  translation: ""
+
+- text: "Furline Ad"
+  translation: ""
+
+- text: "RoofSide_Left"
+  translation: ""
+
+- text: "Speedlines 5 Canvas"
+  translation: ""
+
+- text: "DoorExterior"
+  translation: ""
+
+- text: "Bark Dialogue 5"
+  translation: ""
+
+- text: "Layer Separation Glow 1"
+  translation: ""
+
+- text: "Synforma Corp Logo Foreground"
+  translation: ""
+
+- text: "LostGuy_Event"
+  translation: ""
+
+- text: "Speedlines Parent"
+  translation: ""
+
+- text: "Jaime_Phonecall"
+  translation: ""
+
+- text: "Guards trigger_Right"
+  translation: ""
+
+- text: "RouteBlockers"
+  translation: ""
+
+- text: "Lights_Day"
+  translation: ""
+
+- text: "BandaidCollider"
+  translation: ""
+
+- text: "SideWalk_2"
+  translation: ""
+
+- text: "MachineLogic"
+  translation: ""
+
+- text: "GoToSalon"
+  translation: ""
+
+- text: "Logo - Corrupt Technologies Ad"
+  translation: ""
+
+- text: "TopLeftAlley"
+  translation: ""
+
+- text: "Drain_Left"
+  translation: ""
+
+- text: "LootBox"
+  translation: ""
+
+- text: "Slutboxes"
+  translation: ""
+
+- text: "TrainEntrances"
+  translation: ""
+
+- text: "Building7"
+  translation: ""
+
+- text: "Converstaion 3"
+  translation: ""
+
+- text: "Decoration"
+  translation: ""
+
+- text: "BenchBlocker"
+  translation: ""
+
+- text: "Drunk_In_Love Cutscene"
+  translation: ""
+
+- text: "Logo - Furline Ad"
+  translation: ""
+
+- text: "Ground_Details"
+  translation: ""
+
+- text: "POS_PickTrash"
+  translation: ""
+
+- text: "Bark Dialogue 3"
+  translation: ""
+
+- text: "Sound Object"
+  translation: ""
+
+- text: "Detials"
+  translation: ""
+
+- text: "First_Row"
+  translation: ""
+
+- text: "Gal_Fuck"
+  translation: ""
+
+- text: "Move to POS"
+  translation: ""
+
+- text: "Row1"
+  translation: "Row1"
+  skip_translation: true
+
+- text: "LowerLeftBlock"
+  translation: ""
+
+- text: "Neon Rise"
+  translation: ""
+
+- text: "Lap 3 Obstacles"
+  translation: ""
+
+- text: "PlaceHolder Ads"
+  translation: ""
+
+- text: "SideRoof"
+  translation: ""
+
+- text: "FMS_Checkups"
+  translation: ""
+
+- text: "Obstacles"
+  translation: ""
+
+- text: "WalkTarget3"
+  translation: ""
+
+- text: "Day/Night Lighting"
+  translation: ""
+
+- text: "RacingProps"
+  translation: ""
+
+- text: "Secondary_logo"
+  translation: "Secondary_logo"
+  skip_translation: true
+
+- text: "Pillar_Front"
+  translation: ""
+
+- text: "Audio Reverb Zone"
+  translation: ""
+
+- text: "Treetest_left_train 2"
+  translation: ""
+
+- text: "Pivot2"
+  translation: ""
+
+- text: "Bark Dialogue 4"
+  translation: ""
+
+- text: "LeavePos"
+  translation: ""
+
+- text: "Platform_Top"
+  translation: ""
+
+- text: "Areas"
+  translation: ""
+
+- text: "Outer_Pillar"
+  translation: ""
+
+- text: "ToNailsSalon"
+  translation: ""
+
+- text: "Ads"
+  translation: ""
+
+- text: "SideBlocker"
+  translation: ""
+
+- text: "Lower_Outline"
+  translation: ""
+
+- text: "East Wall"
+  translation: ""
+
+- text: "Purple Glow Chip 2"
+  translation: ""
+
+- text: "Dressing Blanket4"
+  translation: ""
+
+- text: "Curved Ad Prefab"
+  translation: ""
+
+- text: "ForeShadow"
+  translation: ""
+
+- text: "Replace_Later"
+  translation: ""
+
+- text: "Front_Details"
+  translation: ""
+
+- text: "Background test"
+  translation: ""
+
+- text: "Boost"
+  translation: ""
+
+- text: "Back Tire Lights"
+  translation: ""
+
+- text: "Sorting Helper"
+  translation: ""
+
+- text: "Tower Light Front FakeLight"
+  translation: ""
+
+- text: "BarSideRight"
+  translation: ""
+
+- text: "YappingGirl"
+  translation: ""
+
+- text: "Phone Character Siluhette"
+  translation: ""
+
+- text: "Dancing Character Siluhette"
+  translation: ""
+
+- text: "Thief"
+  translation: ""
+
+- text: "Hooligan 1"
+  translation: ""
+
+- text: "Hooligan 2"
+  translation: ""
+
+- text: "Dancing Character Siluhette 2"
+  translation: ""
+
+- text: "Drunk_Flasher"
+  translation: ""
+
+- text: "Slut Box Guy"
+  translation: ""
+
+- text: "Lost_Guy"
+  translation: ""
+
+- text: "Female Citizen"
+  translation: ""
+
+- text: "Cartel Lady"
+  translation: ""
+
+- text: "Litterer"
+  translation: ""
+
+- text: "Hooligan 3"
+  translation: ""
+
+- text: "Cypher"
+  translation: ""
+
+- text: "Walker"
+  translation: ""
+
+- text: "Female Enforcer"
+  translation: ""
+
+- text: "Left Character"
+  translation: ""
+
+- text: "Keanu"
+  translation: ""
+
+- text: "Fem_Corpo_Phone"
+  translation: ""
+
+- text: "Thing5"
+  translation: "Thing5"
+  skip_translation: true
+
+- text: "Right Character"
+  translation: ""
+
+- text: "Thing3"
+  translation: "Thing3"
+  skip_translation: true
+
+- text: "Cartel Dude"
+  translation: ""
+
+- text: "Thing4"
+  translation: "Thing4"
+  skip_translation: true
+
+- text: "Thing6"
+  translation: "Thing6"
+  skip_translation: true
+
+- text: "Male Enforcer"
+  translation: ""
+
+- text: "Railing_Top"
+  translation: ""
+
+- text: "Rooftop"
+  translation: ""
+
+- text: "Purple Glow Chip 1"
+  translation: ""
+
+- text: "Siren Lights"
+  translation: ""
+
+- text: "Building Alpha"
+  translation: ""
+
+- text: "Characters Mask 2"
+  translation: ""
+
+- text: "Edge Glow"
+  translation: ""
+
+- text: "APC"
+  translation: "APC"
+  skip_translation: true
+
+- text: "Box Collider"
+  translation: ""
+
+- text: "Siren Light 2"
+  translation: ""
+
+- text: "Trash_Prop_25"
+  translation: ""
+
+- text: "Car Base"
+  translation: ""
+
+- text: "HumpOffsetRight"
+  translation: ""
+
+- text: "Building_Residential Building 1_Roof"
+  translation: ""
+
+- text: "GAG Mech"
+  translation: ""
+
+- text: "Characters Mask - Regular"
+  translation: ""
+
+- text: "Top Right"
+  translation: ""
+
+- text: "Dressing WallPaint4"
+  translation: ""
+
+- text: "Warning Sign"
+  translation: ""
+
+- text: "apc_final_1 bloom"
+  translation: ""
+
+- text: "Shelf_1"
+  translation: "Shelf_1"
+  skip_translation: true
+
+- text: "NeonRise"
+  translation: ""
+
+- text: "Small Penis Mask"
+  translation: ""
+
+- text: "Train Station Entrance Down"
+  translation: ""
+
+- text: "Back Light"
+  translation: ""
+
+- text: "Front Tire Lights"
+  translation: ""
+
+- text: "Fake Top Light"
+  translation: ""
+
+- text: "Bot"
+  translation: ""
+
+- text: "Dressing Blanket7"
+  translation: ""
+
+- text: "Blue Glow Chip 2"
+  translation: ""
+
+- text: "Mech Sounds"
+  translation: ""
+
+- text: "Char2"
+  translation: "Char2"
+  skip_translation: true
+
+- text: "GAG Logo Side"
+  translation: ""
+
+- text: "Vehicle Arrow Target"
+  translation: ""
+
+- text: "Back Tire Lights FakeLight"
+  translation: ""
+
+- text: "G A G"
+  translation: "G A G"
+  skip_translation: true
+
+- text: "Initial Boost Burst"
+  translation: ""
+
+- text: "West Wall"
+  translation: ""
+
+- text: "Synforma Corp Logo"
+  translation: ""
+
+- text: "Light from Below"
+  translation: ""
+
+- text: "Green Glow Chip 1"
+  translation: ""
+
+- text: "Tree Sprite"
+  translation: ""
+
+- text: "Dressing Bars"
+  translation: ""
+
+- text: "Bad Light!"
+  translation: ""
+
+- text: "News Bottom"
+  translation: ""
+
+- text: "Front Light 2"
+  translation: ""
+
+- text: "Front Tire Lights FakeLight"
+  translation: ""
+
+- text: "Sprite Parent"
+  translation: ""
+
+- text: "Siren Light 1"
+  translation: ""
+
+- text: "AddedTime"
+  translation: ""
+
+- text: "Back Light FakeLight"
+  translation: ""
+
+- text: "BarSideLeft"
+  translation: ""
+
+- text: "Curved Ads"
+  translation: ""
+
+- text: "Par Time"
+  translation: ""
+
+- text: "Decal_CrackLong"
+  translation: ""
+
+- text: "Condom_2_Shadow"
+  translation: ""
+
+- text: "Fades"
+  translation: ""
+
+- text: "Front Light 1"
+  translation: ""
+
+- text: "Floor Ground"
+  translation: ""
+
+- text: "Front Light 1 FakeLight"
+  translation: ""
+
+- text: "Dressing GAGBanner"
+  translation: ""
+
+- text: "Char1"
+  translation: "Char1"
+  skip_translation: true
+
+- text: "Green Glow Chip 2"
+  translation: ""
+
+- text: "Dressing Jacket1"
+  translation: ""
+
+- text: "OffsetSetter"
+  translation: ""
+
+- text: "Door_Fade"
+  translation: ""
+
+- text: "Slutbox Sprite"
+  translation: ""
+
+- text: "Flash VFX"
+  translation: ""
+
+- text: "Tower Light Front"
+  translation: ""
+
+- text: "Dressing Fleshlight"
+  translation: ""
+
+- text: "Dressing GAGBanner_Shadow"
+  translation: ""
+
+- text: "Time Display UI"
+  translation: ""
+
+- text: "Wall Edge"
+  translation: ""
+
+- text: "Siren Light Red"
+  translation: ""
+
+- text: "ExitPoints"
+  translation: ""
+
+- text: "Upper_Outline"
+  translation: ""
+
+- text: "Character Parent Constraint"
+  translation: ""
+
+- text: "Outside_Bollard"
+  translation: ""
+
+- text: "Text Container"
+  translation: ""
+
+- text: "Front_Pillar 3"
+  translation: ""
+
+- text: "FocusPoint"
+  translation: ""
+
+- text: "Door Pivot"
+  translation: ""
+
+- text: "Ad_GAGSecurity"
+  translation: ""
+
+- text: "Dressing Underwear3_Shadow"
+  translation: ""
+
+- text: "Text Fake Lighting"
+  translation: ""
+
+- text: "Floor 1"
+  translation: ""
+
+- text: "Boobs Container"
+  translation: ""
+
+- text: "Dressing Fleshlight_Shadow"
+  translation: ""
+
+- text: "Canvas - Ad - Neon Doll Variant"
+  translation: ""
+
+- text: "Interaction Logic"
+  translation: ""
+
+- text: "Blue Glow Chip 1"
+  translation: ""
+
+- text: "Slutbox_Resting"
+  translation: ""
+
+- text: "EndpieceLeft"
+  translation: ""
+
+- text: "Picture Pinup Unlocker - NTR 2"
+  translation: ""
+
+- text: "Penis Right Regular"
+  translation: ""
+
+- text: "Tree Bed Grass - Glow"
+  translation: ""
+
+- text: "Big Penis Mask"
+  translation: ""
+
+- text: "Dressing Underwear"
+  translation: ""
+
+- text: "Boost VFX"
+  translation: ""
+
+- text: "Window_Corner_1"
+  translation: ""
+
+- text: "RoofSex_Guy"
+  translation: ""
+
+- text: "Railing_Middle"
+  translation: ""
+
+- text: "Shelf_Bottom"
+  translation: ""
+
+- text: "Character Glow"
+  translation: ""
+
+- text: "Ladder_Top_Back"
+  translation: ""
+
+- text: "Items"
+  translation: ""
+
+- text: "Entrance Lights"
+  translation: ""
+
+- text: "Dressing WallPaint3"
+  translation: ""
+
+- text: "CameraHelper"
+  translation: ""
+
+- text: "AndroStation"
+  translation: ""
+
+- text: "Dressing Clothing_Underwear_Shadow"
+  translation: ""
+
+- text: "Big Glow"
+  translation: ""
+
+- text: "NeonRise_Door"
+  translation: ""
+
+- text: "BindContainer"
+  translation: ""
+
+- text: "Tree Bed Grass"
+  translation: ""
+
+- text: "Penis Left Glow"
+  translation: ""
+
+- text: "Entrance Railing Left"
+  translation: ""
+
+- text: "Pivot First Floor"
+  translation: ""
+
+- text: "ENV Sounds"
+  translation: ""
+
+- text: "Nail_Salon"
+  translation: ""
+
+- text: "Doorways"
+  translation: ""
+
+- text: "ImageIcon"
+  translation: ""
+
+- text: "Front Edges"
+  translation: ""
+
+- text: "Dressing WallPaint1"
+  translation: ""
+
+- text: "RaceTimer"
+  translation: ""
+
+- text: "Character Regular"
+  translation: ""
+
+- text: "Picture Pinup Unlocker - Corrupt Technologies"
+  translation: ""
+
+- text: "BoostParticles"
+  translation: ""
+
+- text: "Small Vehicle Bonk 1"
+  translation: ""
+
+- text: "Pivot Ground Floor"
+  translation: ""
+
+- text: "VehicleUI"
+  translation: ""
+
+- text: "Small Cock"
+  translation: ""
+
+- text: "Flash Mask"
+  translation: ""
+
+- text: "PinupPickup - Leona Femdoming"
+  translation: ""
+
+- text: "PinupPickup - Sarah Gloryhole - Before / After"
+  translation: ""
+
+- text: "PinupPickup - Enforcer M"
+  translation: ""
+
+- text: "PinupPickup - Enforcer Bot"
+  translation: ""
+
+- text: "PinupPickup - Sarah's Nightlife"
+  translation: ""
+
+- text: "PinupPickup - Sarah Gloryhole - Stroking"
+  translation: ""
+
+- text: "PinupPickup - Lio - A close friend"
+  translation: ""
+
+- text: "PinupPickup - Cartel Bad End"
+  translation: ""
+
+- text: "PinupPickup - Zoey and Sarah Doggy"
+  translation: ""
+
+- text: "Front_Pillar 2"
+  translation: ""
+
+- text: "Picture Pinup Unlocker"
+  translation: ""
+
+- text: "AnimBandaid"
+  translation: ""
+
+- text: "Sparkler 04"
+  translation: ""
+
+- text: "Decal_G_Super"
+  translation: ""
+
+- text: "Final Trigger"
+  translation: ""
+
+- text: "Canvas - Ad - Penis Enhancement"
+  translation: ""
+
+- text: "SeatedPos"
+  translation: ""
+
+- text: "Boobs Regular"
+  translation: ""
+
+- text: "Engine"
+  translation: ""
+
+- text: "GameOverUI - Slutbox Variant"
+  translation: ""
+
+- text: "GAG Mech Variant"
+  translation: ""
+
+- text: "Gun Charge Light"
+  translation: ""
+
+- text: "Shine_Big"
+  translation: ""
+
+- text: "LadderRight"
+  translation: ""
+
+- text: "News Top"
+  translation: ""
+
+- text: "Dressing Awning"
+  translation: ""
+
+- text: "Enforcer Car Variant"
+  translation: ""
+
+- text: "Dressing Underwear2"
+  translation: ""
+
+- text: "OverhangCurtian"
+  translation: ""
+
+- text: "Glowing Tree - Green"
+  translation: ""
+
+- text: "Gun Charge Light FakeLight"
+  translation: ""
+
+- text: "Canvas - Ad - NTR 2"
+  translation: ""
+
+- text: "Entrance Railing Right Light"
+  translation: ""
+
+- text: "Glowing Tree"
+  translation: ""
+
+- text: "Railing_Front"
+  translation: ""
+
+- text: "HumpOffsets"
+  translation: ""
+
+- text: "Entrance Railing Middle"
+  translation: ""
+
+- text: "3d News Pillar"
+  translation: ""
+
+- text: "Window strip"
+  translation: ""
+
+- text: "Red_Shine"
+  translation: ""
+
+- text: "Dressing Blanket7_Shadow"
+  translation: ""
+
+- text: "Text Regular Display"
+  translation: ""
+
+- text: "AccessHatchF04"
+  translation: ""
+
+- text: "RaceMinigame"
+  translation: ""
+
+- text: "Dressing Blanket3 1"
+  translation: ""
+
+- text: "Front_Pillar 1"
+  translation: ""
+
+- text: "Siren Light Blue"
+  translation: ""
+
+- text: "Car Door Handel Light"
+  translation: ""
+
+- text: "GAG Logo Front"
+  translation: ""
+
+- text: "Characters Mask - Glow"
+  translation: ""
+
+- text: "Damage"
+  translation: ""
+
+- text: "Holographic Tree - Falling Leaves Particles"
+  translation: ""
+
+- text: "GAG Logo"
+  translation: ""
+
+- text: "Dressing Blanket5"
+  translation: ""
+
+- text: "Pivot Roof"
+  translation: ""
+
+- text: "Window_2"
+  translation: "Window_2"
+  skip_translation: true
+
+- text: "Post Racing Results UI"
+  translation: ""
+
+- text: "Dressing Bar2"
+  translation: ""
+
+- text: "Floor 0"
+  translation: ""
+
+- text: "Pillar_Light"
+  translation: ""
+
+- text: "Tower Light Back"
+  translation: ""
+
+- text: "Dressing WallPaint2"
+  translation: ""
+
+- text: "Dressing Underwear2_Shadow"
+  translation: ""
+
+- text: "Dressing Underwear3"
+  translation: ""
+
+- text: "SlutBox_Vehicle"
+  translation: ""
+
+- text: "Shelf_Top"
+  translation: ""
+
+- text: "Shelf_2"
+  translation: "Shelf_2"
+  skip_translation: true
+
+- text: "Big Cock"
+  translation: ""
+
+- text: "Pivot Second Floor"
+  translation: ""
+
+- text: "Window_Large"
+  translation: ""
+
+- text: "Light Element 1"
+  translation: ""
+
+- text: "Car Door Handel"
+  translation: ""
+
+- text: "Penis Right Glow"
+  translation: ""
+
+- text: "Tree Sprite Glow"
+  translation: ""
+
+- text: "Entrance Railing Left Light"
+  translation: ""
+
+- text: "Floor Baseplate"
+  translation: ""
+
+- text: "Dressing Blanket5_Shadow"
+  translation: ""
+
+- text: "Floor 2"
+  translation: ""
+
+- text: "Trees/Plants"
+  translation: ""
+
+- text: "Outside_Bench"
+  translation: ""
+
+- text: "Front_Pillar 4"
+  translation: ""
+
+- text: "Entrance Railing Right"
+  translation: ""
+
+- text: "Front_Edges"
+  translation: ""
+
+- text: "SphereCollider"
+  translation: ""
+
+- text: "Penis Left Regular"
+  translation: ""
+
+- text: "Picture Pinup Unlocker - Corrupt Technologies 3"
+  translation: ""
+
+- text: "Picture Pinup Unlocker - Synforma Corp"
+  translation: ""
+
+- text: "Picture Pinup Unlocker - Shatterline Systems"
+  translation: ""
+
+- text: "Picture Pinup Unlocker - Neon Doll"
+  translation: ""
+
+- text: "Picture Pinup Unlocker - Glowing Hole"
+  translation: ""
+
+- text: "Picture Pinup Unlocker - Corrupt Technologues 4"
+  translation: ""
+
+- text: "Picture Pinup Unlocker - Furline"
+  translation: ""
+
+- text: "Picture Pinup Unlocker - ManaFactory"
+  translation: ""
+
+- text: "Glowing Tree - Green 2"
+  translation: ""
+
+- text: "K9 Character Prefab - Petable Interaction Variant"
+  translation: ""
+
+- text: "Entrance Background"
+  translation: ""
+
+- text: "AccessHatchD13"
+  translation: ""
+
+- text: "AccessHatchM31"
+  translation: ""
+
+- text: "Boobs Glow"
+  translation: ""
+
+- text: "Dressing Blanket4_Shadow"
+  translation: ""
+
+- text: "Petplay NPC Variant"
+  translation: ""
+
+- text: "Dressing Jacket1_Shadow"
+  translation: ""
+
+- text: "Ladder_Front"
+  translation: ""
+
+- text: "HumpOffsetLeft"
+  translation: ""
+
+- text: "Decal_G_Hate"
+  translation: ""
+
+- text: "Active Container"
+  translation: ""
+
+- text: "3D Parts"
+  translation: ""
+
+- text: "Left/Right_Side"
+  translation: ""
+
+- text: "Enforcer Car"
+  translation: ""
+
+- text: "DoorTop_Wall"
+  translation: ""
+
+- text: "Active Racing Time Display"
+  translation: ""
+
+- text: "RoofSex_Girl"
+  translation: ""
+
+- text: "Condom_2"
+  translation: "Condom_2"
+  skip_translation: true
+
+- text: "Outside_Flower_Plant_Tree_Prop_4 1"
+  translation: ""
+
+- text: "Base Pivot"
+  translation: ""
+
+- text: "Sex Scene - Reverse Cowboy"
+  translation: ""
+
+- text: "Dressing Awning_Shadow"
+  translation: ""
+
+- text: "Wall_4"
+  translation: "Wall_4"
+  skip_translation: true
+
+- text: "A5^H"
+  translation: "A5^H"
+  skip_translation: true
+
+- text: "Am!"
+  translation: "Am!"
+  skip_translation: true
+
+- text: "Vf@"
+  translation: "Vf@"
+  skip_translation: true
+
+- text: "QPAR"
+  translation: "QPAR"
+  skip_translation: true
+
+- text: "AFA"
+  translation: "AFA"
+  skip_translation: true
+
+- text: "Dm@P"
+  translation: "Dm@P"
+  skip_translation: true
+
+- text: "?)\\OBH"
+  translation: "?)\\OBH"
+  skip_translation: true
+
+- text: "Bx@O"
+  translation: "Bx@O"
+  skip_translation: true
+
+- text: "AH7"
+  translation: "AH7"
+  skip_translation: true
+
+- text: "Bp="
+  translation: "Bp="
+  skip_translation: true
+
+- text: "?M7IA"
+  translation: "?M7IA"
+  skip_translation: true
+
+- text: ")UA"
+  translation: ")UA"
+  skip_translation: true
+
+- text: "RJA"
+  translation: "RJA"
+  skip_translation: true
+
+- text: "Md?"
+  translation: "Md?"
+  skip_translation: true
+
+- text: "? c6A"
+  translation: "? c6A"
+  skip_translation: true
+
+- text: "9EG?"
+  translation: ""
+
+- text: "X?j"
+  translation: "X?j"
+  skip_translation: true
+
+- text: "A'1p"
+  translation: "A'1p"
+  skip_translation: true
+
+- text: "XI@"
+  translation: "XI@"
+  skip_translation: true
+
+- text: "Ko?"
+  translation: "Ko?"
+  skip_translation: true
+
+- text: "If@"
+  translation: "If@"
+  skip_translation: true
+
+- text: "? Aq"
+  translation: "? Aq"
+  skip_translation: true
+
+- text: "GrB"
+  translation: "GrB"
+  skip_translation: true
+
+- text: "K?A`="
+  translation: "K?A`="
+  skip_translation: true
+
+- text: "Zd["
+  translation: "Zd["
+  skip_translation: true
+
+- text: "Az4Q"
+  translation: "Az4Q"
+  skip_translation: true
+
+- text: "JBc"
+  translation: "JBc"
+  skip_translation: true
+
+- text: "? \\4A0r"
+  translation: "? \\4A0r"
+  skip_translation: true
+
+- text: "QHA"
+  translation: "QHA"
+  skip_translation: true
+
+- text: "!AR"
+  translation: "!AR"
+  skip_translation: true
+
+- text: "7A S"
+  translation: "7A S"
+  skip_translation: true
+
+- text: "OU@"
+  translation: "OU@"
+  skip_translation: true
+
+- text: "?(\\OA"
+  translation: "?(\\OA"
+  skip_translation: true
+
+- text: "BBc"
+  translation: "BBc"
+  skip_translation: true
+
+- text: "B335Bc"
+  translation: ""
+
+- text: "?L7IA"
+  translation: "?L7IA"
+  skip_translation: true
+
+- text: "Rh@Zd["
+  translation: "Rh@Zd["
+  skip_translation: true
+
+- text: "A_RY"
+  translation: "A_RY"
+  skip_translation: true
+
+- text: "By?A"
+  translation: "By?A"
+  skip_translation: true
+
+- text: "Aha"
+  translation: ""
+
+- text: "AjMfA"
+  translation: ""
+
+- text: "?OQ"
+  translation: "?OQ"
+  skip_translation: true
+
+- text: "B~jN"
+  translation: "B~jN"
+  skip_translation: true
+
+- text: "Bxy$A"
+  translation: ""
+
+- text: "?)\\KA\\"
+  translation: "?)\\KA\\"
+  skip_translation: true
+
+- text: "Ep?"
+  translation: "Ep?"
+  skip_translation: true
+
+- text: "AG@"
+  translation: "AG@"
+  skip_translation: true
+
+- text: "Z4A0*"
+  translation: "Z4A0*"
+  skip_translation: true
+
+- text: "X9d?"
+  translation: "X9d?"
+  skip_translation: true
+
+- text: "ZHA"
+  translation: "ZHA"
+  skip_translation: true
+
+- text: "Bz4Q"
+  translation: "Bz4Q"
+  skip_translation: true
+
+- text: "Zd?)\\"
+  translation: "Zd?)\\\\"
+  skip_translation: true
+
+- text: "AT9t"
+  translation: "AT9t"
+  skip_translation: true
+
+- text: "MA13"
+  translation: "MA13"
+  skip_translation: true
+
+- text: "BXO%Bc"
+  translation: "BXO%Bc"
+  skip_translation: true
+
+- text: "R'p?"
+  translation: "R'p?"
+  skip_translation: true
+
+- text: "ZAhf*@"
+  translation: "ZAhf*@"
+  skip_translation: true
+
+- text: "Bs3F"
+  translation: "Bs3F"
+  skip_translation: true
+
+- text: "%(EA"
+  translation: "%(EA"
+  skip_translation: true
+
+- text: "R@d"
+  translation: "R@d"
+  skip_translation: true
+
+- text: "OYA(\\"
+  translation: "OYA(\\\\"
+  skip_translation: true
+
+- text: "As3F"
+  translation: "As3F"
+  skip_translation: true
+
+- text: "Nb^"
+  translation: "Nb^"
+  skip_translation: true
+
+- text: "B1]r"
+  translation: "B1]r"
+  skip_translation: true
+
+- text: "A(\\W@"
+  translation: "A(\\W@"
+  skip_translation: true
+
+- text: "?63IA"
+  translation: "?63IA"
+  skip_translation: true
+
+- text: "?)\\OB"
+  translation: "?)\\OB"
+  skip_translation: true
+
+- text: "Av~"
+  translation: "Av~"
+  skip_translation: true
+
+- text: "?33GA"
+  translation: "?33GA"
+  skip_translation: true
+
+- text: "HAB"
+  translation: "HAB"
+  skip_translation: true
+
+- text: "Cl("
+  translation: "Cl("
+  skip_translation: true
+
+- text: "-TA"
+  translation: "-TA"
+  skip_translation: true
+
+- text: "UAT"
+  translation: "UAT"
+  skip_translation: true
+
+- text: "ADA"
+  translation: "ADA"
+  skip_translation: true
+
+- text: "Ap_"
+  translation: "Ap_"
+  skip_translation: true
+
+- text: "HAc"
+  translation: "HAc"
+  skip_translation: true
+
+- text: "S@c"
+  translation: "S@c"
+  skip_translation: true
+
+- text: "OYAG"
+  translation: "OYAG"
+  skip_translation: true
+
+- text: "G?m"
+  translation: "G?m"
+  skip_translation: true
+
+- text: "GBw"
+  translation: "GBw"
+  skip_translation: true
+
+- text: "Wy5"
+  translation: "Wy5"
+  skip_translation: true
+
+- text: "UB33P"
+  translation: "UB33P"
+  skip_translation: true
+
+- text: "?xMnB z"
+  translation: "?xMnB z"
+  skip_translation: true
+
+- text: "JBp="
+  translation: "JBp="
+  skip_translation: true
+
+- text: "GA;"
+  translation: "GA;"
+  skip_translation: true
+
+- text: "Bv~"
+  translation: "Bv~"
+  skip_translation: true
+
+- text: "Po?"
+  translation: "Po?"
+  skip_translation: true
+
+- text: "Wy?8"
+  translation: "Wy?8"
+  skip_translation: true
+
+- text: "Ti@np"
+  translation: "Ti@np"
+  skip_translation: true
+
+- text: "AVY@"
+  translation: "AVY@"
+  skip_translation: true
+
+- text: "B z"
+  translation: "B z"
+  skip_translation: true
+
+- text: "ATyI"
+  translation: ""
+
+- text: "YBgf~"
+  translation: "YBgf~"
+  skip_translation: true
+
+- text: "B237A"
+  translation: "B237A"
+  skip_translation: true
+
+- text: "MSBthqA"
+  translation: ""
+
+- text: "UAH7"
+  translation: "UAH7"
+  skip_translation: true
+
+- text: "G?ffF"
+  translation: "G?ffF"
+  skip_translation: true
+
+- text: "L?np"
+  translation: "L?np"
+  skip_translation: true
+
+- text: "Dm@"
+  translation: "Dm@"
+  skip_translation: true
+
+- text: "?IC"
+  translation: "?IC"
+  skip_translation: true
+
+- text: "JBq="
+  translation: "JBq="
+  skip_translation: true
+
+- text: "Bx=*"
+  translation: "Bx=*"
+  skip_translation: true
+
+- text: "IBr"
+  translation: "IBr"
+  skip_translation: true
+
+- text: "Aq=z"
+  translation: "Aq=z"
+  skip_translation: true
+
+- text: "Dm@0"
+  translation: "Dm@0"
+  skip_translation: true
+
+- text: "Ahf*@"
+  translation: ""
+
+- text: "R8?\"d"
+  translation: "R8?\\"
+  skip_translation: true
+
+- text: "Ny?"
+  translation: "Ny?"
+  skip_translation: true
+
+- text: "KhB"
+  translation: "KhB"
+  skip_translation: true
+
+- text: "15AP"
+  translation: "15AP"
+  skip_translation: true
+
+- text: "Sj?"
+  translation: "Sj?"
+  skip_translation: true
+
+- text: "Zd[@"
+  translation: "Zd[@"
+  skip_translation: true
+
+- text: "Lu?"
+  translation: "Lu?"
+  skip_translation: true
+
+- text: "?P+3A"
+  translation: "?P+3A"
+  skip_translation: true
+
+- text: "ZBI"
+  translation: "ZBI"
+  skip_translation: true
+
+- text: "CsA"
+  translation: "CsA"
+  skip_translation: true
+
+- text: "Ar=v"
+  translation: "Ar=v"
+  skip_translation: true
+
+- text: "Ar=:A"
+  translation: "Ar=:A"
+  skip_translation: true
+
+- text: "CkA"
+  translation: "CkA"
+  skip_translation: true
+
+- text: "MnZ"
+  translation: "MnZ"
+  skip_translation: true
+
+- text: "? cZ@"
+  translation: "? cZ@"
+  skip_translation: true
+
+- text: "IA(\\W@"
+  translation: "IA(\\\\W@"
+  skip_translation: true
+
+- text: "Ad_"
+  translation: "Ad_"
+  skip_translation: true
+
+- text: "Ef@T"
+  translation: "Ef@T"
+  skip_translation: true
+
+- text: "&EA"
+  translation: "&EA"
+  skip_translation: true
+
+- text: "Bri"
+  translation: ""
+
+- text: "neB z"
+  translation: ""
+
+- text: "9AO"
+  translation: "9AO"
+  skip_translation: true
+
+- text: "EwB"
+  translation: "EwB"
+  skip_translation: true
+
+- text: "PHAO"
+  translation: "PHAO"
+  skip_translation: true
+
+- text: "AM#J"
+  translation: "AM#J"
+  skip_translation: true
+
+- text: "AffnA"
+  translation: ""
+
+- text: "O9A"
+  translation: "O9A"
+  skip_translation: true
+
+- text: "AnX|"
+  translation: "AnX|"
+  skip_translation: true
+
+- text: "Wr~?"
+  translation: "Wr~?"
+  skip_translation: true
+
+- text: "@L7I?"
+  translation: "@L7I?"
+  skip_translation: true
+
+- text: "OYA"
+  translation: "OYA"
+  skip_translation: true
+
+- text: "Affb"
+  translation: "Affb"
+  skip_translation: true
+
+- text: "W9zA"
+  translation: ""
+
+- text: ",A@5V"
+  translation: ",A@5V"
+  skip_translation: true
+
+- text: "MxA"
+  translation: "MxA"
+  skip_translation: true
+
+- text: "AO7S"
+  translation: "AO7S"
+  skip_translation: true
+
+- text: "AH?"
+  translation: "AH?"
+  skip_translation: true
+
+- text: "OO?"
+  translation: "OO?"
+  skip_translation: true
+
+- text: "Aff(A"
+  translation: ""
+
+- text: "B-sk"
+  translation: "B-sk"
+  skip_translation: true
+
+- text: "A`_N?"
+  translation: "A`_N?"
+  skip_translation: true
+
+- text: "ANbx"
+  translation: ""
+
+- text: "A@^Z?"
+  translation: "A@^Z?"
+  skip_translation: true
+
+- text: "MoA"
+  translation: "MoA"
+  skip_translation: true
+
+- text: "5AC"
+  translation: "5AC"
+  skip_translation: true
+
+- text: "A2UP"
+  translation: "A2UP"
+  skip_translation: true
+
+- text: "Ssv"
+  translation: "Ssv"
+  skip_translation: true
+
+- text: "= nA@"
+  translation: "= nA@"
+  skip_translation: true
+
+- text: "X9BA"
+  translation: "X9BA"
+  skip_translation: true
+
+- text: "K_A"
+  translation: "K_A"
+  skip_translation: true
+
+- text: "AZ9"
+  translation: "AZ9"
+  skip_translation: true
+
+- text: "B8d"
+  translation: "B8d"
+  skip_translation: true
+
+- text: "X?AS"
+  translation: "X?AS"
+  skip_translation: true
+
+- text: "Ar|"
+  translation: "Ar|"
+  skip_translation: true
+
+- text: "AZd&B"
+  translation: ""
+
+- text: "UuB"
+  translation: "UuB"
+  skip_translation: true
+
+- text: "GaB"
+  translation: "GaB"
+  skip_translation: true
+
+- text: "ZdBA"
+  translation: ""
+
+- text: "G!A"
+  translation: "G!A"
+  skip_translation: true
+
+- text: ":AW_,B"
+  translation: ":AW_,B"
+  skip_translation: true
+
+- text: "Hal"
+  translation: ""
+
+- text: "ZA`"
+  translation: "ZA`"
+  skip_translation: true
+
+- text: "&KA"
+  translation: "&KA"
+  skip_translation: true
+
+- text: "Xc?%"
+  translation: "Xc?%"
+  skip_translation: true
+
+- text: "M ?t"
+  translation: "M ?t"
+  skip_translation: true
+
+- text: "(3JA"
+  translation: "(3JA"
+  skip_translation: true
+
+- text: "A6r"
+  translation: "A6r"
+  skip_translation: true
+
+- text: "G'A"
+  translation: "G'A"
+  skip_translation: true
+
+- text: "?ff B"
+  translation: "?ff B"
+  skip_translation: true
+
+- text: "DeA"
+  translation: "DeA"
+  skip_translation: true
+
+- text: "Xi@'1"
+  translation: "Xi@'1"
+  skip_translation: true
+
+- text: "GA@-"
+  translation: "GA@-"
+  skip_translation: true
+
+- text: "HA/g$"
+  translation: "HA/g$"
+  skip_translation: true
+
+- text: "KfA"
+  translation: "KfA"
+  skip_translation: true
+
+- text: "AE:U"
+  translation: "AE:U"
+  skip_translation: true
+
+- text: "|AA"
+  translation: "|AA"
+  skip_translation: true
+
+- text: "$NA"
+  translation: "$NA"
+  skip_translation: true
+
+- text: "AH:8@"
+  translation: "AH:8@"
+  skip_translation: true
+
+- text: "SAE"
+  translation: "SAE"
+  skip_translation: true
+
+- text: "?,AW"
+  translation: "?,AW"
+  skip_translation: true
+
+- text: "'AHP"
+  translation: ""
+
+- text: "A(\\Q"
+  translation: "A(\\Q"
+  skip_translation: true
+
+- text: "%AJ"
+  translation: "%AJ"
+  skip_translation: true
+
+- text: "6AK"
+  translation: "6AK"
+  skip_translation: true
+
+- text: "M6A"
+  translation: "M6A"
+  skip_translation: true
+
+- text: "Id9"
+  translation: "Id9"
+  skip_translation: true
+
+- text: "A(H"
+  translation: "A(H"
+  skip_translation: true
+
+- text: "I A"
+  translation: "I A"
+  skip_translation: true
+
+- text: "K]AA"
+  translation: "K]AA"
+  skip_translation: true
+
+- text: "ANb^B"
+  translation: ""
+
+- text: "ADl"
+  translation: "ADl"
+  skip_translation: true
+
+- text: "AZd_B"
+  translation: ""
+
+- text: "@YU"
+  translation: "@YU"
+  skip_translation: true
+
+- text: "6JA"
+  translation: "6JA"
+  skip_translation: true
+
+- text: "Aq=F"
+  translation: "Aq=F"
+  skip_translation: true
+
+- text: "M@d"
+  translation: "M@d"
+  skip_translation: true
+
+- text: "Aq=;"
+  translation: "Aq=;"
+  skip_translation: true
+
+- text: "ARA"
+  translation: "ARA"
+  skip_translation: true
+
+- text: "Aq=X"
+  translation: "Aq=X"
+  skip_translation: true
+
+- text: "?)\\O?H"
+  translation: "?)\\O?H"
+  skip_translation: true
+
+- text: "Aq=="
+  translation: "Aq=="
+  skip_translation: true
+
+- text: "5AK"
+  translation: "5AK"
+  skip_translation: true
+
+- text: "AffO"
+  translation: ""
+
+- text: "A)\\H"
+  translation: "A)\\H"
+  skip_translation: true
+
+- text: "?B3U"
+  translation: "?B3U"
+  skip_translation: true
+
+- text: "3AI"
+  translation: "3AI"
+  skip_translation: true
+
+- text: "Bzmg"
+  translation: "Bzmg"
+  skip_translation: true
+
+- text: "Cm?"
+  translation: "Cm?"
+  skip_translation: true
+
+- text: "T@U"
+  translation: "T@U"
+  skip_translation: true
+
+- text: "KEA"
+  translation: "KEA"
+  skip_translation: true
+
+- text: "Ga@`"
+  translation: "Ga@`"
+  skip_translation: true
+
+- text: "+AI"
+  translation: "+AI"
+  skip_translation: true
+
+- text: "@AQ"
+  translation: "@AQ"
+  skip_translation: true
+
+- text: "?LI"
+  translation: "?LI"
+  skip_translation: true
+
+- text: "WI\"B"
+  translation: "WI\"B"
+  skip_translation: true
+
+- text: "AE\\+B"
+  translation: "AE\\\\+B"
+  skip_translation: true
+
+- text: "CJ@t"
+  translation: "CJ@t"
+  skip_translation: true
+
+- text: "AgrB"
+  translation: ""
+
+- text: "ATC"
+  translation: "ATC"
+  skip_translation: true
+
+- text: "~AO"
+  translation: "~AO"
+  skip_translation: true
+
+- text: "D;o"
+  translation: "D;o"
+  skip_translation: true
+
+- text: "AD^"
+  translation: "AD^"
+  skip_translation: true
+
+- text: "AgA:"
+  translation: "AgA:"
+  skip_translation: true
+
+- text: "ATb"
+  translation: "ATb"
+  skip_translation: true
+
+- text: "ZAff^A"
+  translation: "ZAff^A"
+  skip_translation: true
+
+- text: ":AB"
+  translation: ":AB"
+  skip_translation: true
+
+- text: "AW9"
+  translation: "AW9"
+  skip_translation: true
+
+- text: "WjB"
+  translation: "WjB"
+  skip_translation: true
+
+- text: "?B`U"
+  translation: "?B`U"
+  skip_translation: true
+
+- text: "?XE"
+  translation: "?XE"
+  skip_translation: true
+
+- text: "A(3JA"
+  translation: "A(3JA"
+  skip_translation: true
+
+- text: "GlB"
+  translation: "GlB"
+  skip_translation: true
+
+- text: "W?j"
+  translation: "W?j"
+  skip_translation: true
+
+- text: "A33C"
+  translation: "A33C"
+  skip_translation: true
+
+- text: "ATJ"
+  translation: "ATJ"
+  skip_translation: true
+
+- text: "A9X?"
+  translation: "A9X?"
+  skip_translation: true
+
+- text: "D=A"
+  translation: "D=A"
+  skip_translation: true
+
+- text: "Go?"
+  translation: "Go?"
+  skip_translation: true
+
+- text: "? cn"
+  translation: "? cn"
+  skip_translation: true
+
+- text: "BXn4@"
+  translation: "BXn4@"
+  skip_translation: true
+
+- text: "AmBD"
+  translation: ""
+
+- text: "L7#A"
+  translation: "L7#A"
+  skip_translation: true
+
+- text: "GZA"
+  translation: "GZA"
+  skip_translation: true
+
+- text: "OWA"
+  translation: "OWA"
+  skip_translation: true
+
+- text: "B= i"
+  translation: "B= i"
+  skip_translation: true
+
+- text: "R'k"
+  translation: "R'k"
+  skip_translation: true
+
+- text: "EA%"
+  translation: "EA%"
+  skip_translation: true
+
+- text: "z AH"
+  translation: ""
+
+- text: "&AX2"
+  translation: "&AX2"
+  skip_translation: true
+
+- text: "AX2"
+  translation: "AX2"
+  skip_translation: true
+
+- text: "A0@J"
+  translation: "A0@J"
+  skip_translation: true
+
+- text: "&AX"
+  translation: "&AX"
+  skip_translation: true
+
+- text: "Mx?"
+  translation: "Mx?"
+  skip_translation: true
+
+- text: "A)\\B"
+  translation: "A)\\B"
+  skip_translation: true
+
+- text: "O=A"
+  translation: "O=A"
+  skip_translation: true
+
+- text: "YAV$"
+  translation: "YAV$"
+  skip_translation: true
+
+- text: "Y@i"
+  translation: "Y@i"
+  skip_translation: true
+
+- text: "=MA^"
+  translation: "=MA^"
+  skip_translation: true
+
+- text: "DB+A"
+  translation: "DB+A"
+  skip_translation: true
+
+- text: ")VA"
+  translation: ")VA"
+  skip_translation: true
+
+- text: "N)b@"
+  translation: "N)b@"
+  skip_translation: true
+
+- text: "QG@A"
+  translation: "QG@A"
+  skip_translation: true
+
+- text: "PpLAPx3A"
+  translation: ""
+
+- text: "RO="
+  translation: "RO="
+  skip_translation: true
+
+- text: "X(A"
+  translation: "X(A"
+  skip_translation: true
+
+- text: "M8A"
+  translation: "M8A"
+  skip_translation: true
+
+- text: "E? xF@"
+  translation: "E? xF@"
+  skip_translation: true
+
+- text: "Hn*@"
+  translation: "Hn*@"
+  skip_translation: true
+
+- text: "P?JA"
+  translation: "P?JA"
+  skip_translation: true
+
+- text: "ZyH@"
+  translation: "ZyH@"
+  skip_translation: true
+
+- text: "R&A"
+  translation: "R&A"
+  skip_translation: true
+
+- text: "H^@ l"
+  translation: "H^@ l"
+  skip_translation: true
+
+- text: "Ha=8t"
+  translation: "Ha=8t"
+  skip_translation: true
+
+- text: "JTA"
+  translation: "JTA"
+  skip_translation: true
+
+- text: "JO="
+  translation: "JO="
+  skip_translation: true
+
+- text: "Z@=Fc"
+  translation: "Z@=Fc"
+  skip_translation: true
+
+- text: "A?@h"
+  translation: "A?@h"
+  skip_translation: true
+
+- text: "EI?"
+  translation: "EI?"
+  skip_translation: true
+
+- text: "O?V"
+  translation: "O?V"
+  skip_translation: true
+
+- text: "H-A"
+  translation: "H-A"
+  skip_translation: true
+
+- text: "]=EA"
+  translation: "]=EA"
+  skip_translation: true
+
+- text: "JA33"
+  translation: "JA33"
+  skip_translation: true
+
+- text: "AffV@"
+  translation: "AffV@"
+  skip_translation: true
+
+- text: "VSA"
+  translation: "VSA"
+  skip_translation: true
+
+- text: "AL@"
+  translation: "AL@"
+  skip_translation: true
+
+- text: "?ED"
+  translation: "?ED"
+  skip_translation: true
+
+- text: "YY?j"
+  translation: "YY?j"
+  skip_translation: true
+
+- text: "8UA"
+  translation: "8UA"
+  skip_translation: true
+
+- text: "O?Ip??"
+  translation: "O?Ip??"
+  skip_translation: true
+
+- text: "YBffV@"
+  translation: "YBffV@"
+  skip_translation: true
+
+- text: "R?eyL?"
+  translation: "R?eyL?"
+  skip_translation: true
+
+- text: "BffV@"
+  translation: "BffV@"
+  skip_translation: true
+
+- text: "HMp?"
+  translation: "HMp?"
+  skip_translation: true
+
+- text: "?ZAD"
+  translation: "?ZAD"
+  skip_translation: true
+
+- text: "ZBffV@"
+  translation: "ZBffV@"
+  skip_translation: true
+
+- text: "^WA"
+  translation: "^WA"
+  skip_translation: true
+
+- text: "ZI?`"
+  translation: "ZI?`"
+  skip_translation: true
+
+- text: "\"5A?HL"
+  translation: "\\"
+  skip_translation: true
+
+- text: "J@)\\O@"
+  translation: "J@)\\O@"
+  skip_translation: true
+
+- text: "Jn?"
+  translation: "Jn?"
+  skip_translation: true
+
+- text: "?EK"
+  translation: "?EK"
+  skip_translation: true
+
+- text: "?ZU"
+  translation: "?ZU"
+  skip_translation: true
+
+- text: "Ga?fff?"
+  translation: ""
+
+- text: "Lg?"
+  translation: "Lg?"
+  skip_translation: true
+
+- text: "Vv?M"
+  translation: "Vv?M"
+  skip_translation: true
+
+- text: "KAy"
+  translation: "KAy"
+  skip_translation: true
+
+- text: "BDUb;DUb;DUb;"
+  translation: ""
+
+- text: "B\\o"
+  translation: "B\\o"
+  skip_translation: true
+
+- text: "KDf"
+  translation: "KDf"
+  skip_translation: true
+
+- text: "LWCf"
+  translation: "LWCf"
+  skip_translation: true
+
+- text: "Yy@"
+  translation: "Yy@"
+  skip_translation: true
+
+- text: "XpA"
+  translation: "XpA"
+  skip_translation: true
+
+- text: "Oh@"
+  translation: "Oh@"
+  skip_translation: true
+
+- text: "OAH"
+  translation: "OAH"
+  skip_translation: true
+
+- text: "EY?"
+  translation: "EY?"
+  skip_translation: true
+
+- text: "DxR@U"
+  translation: ""
+
+- text: "Xrr"
+  translation: "Xrr"
+  skip_translation: true
+
+- text: "AFF"
+  translation: "AFF"
+  skip_translation: true
+
+- text: "Auw"
+  translation: ""
+
+- text: "AAyS"
+  translation: ""
+
+- text: "K!A"
+  translation: "K!A"
+  skip_translation: true
+
+- text: "@:GBA"
+  translation: "@:GBA"
+  skip_translation: true
+
+- text: "OU-"
+  translation: "OU-"
+  skip_translation: true
+
+- text: "24/7 Kiosk"
+  translation: ""
+
+- text: "BlauKitten - Assistant Programmer"
+  translation: ""
+
+- text: "Chasing whispers, slipping hold"
+  translation: ""
+
+- text: "Neon City"
+  translation: ""
+
+- text: "not your fault"
+  translation: ""
+
+- text: "We can fix you"
+  translation: ""
+
+- text: "Stronger"
+  translation: ""
+
+- text: "SKIP"
+  translation: "SKIP"
+  skip_translation: true
+
+- text: "Improved"
+  translation: ""
+
+- text: "Better"
+  translation: ""
+
+- text: "Time:"
+  translation: "Time:"
+  skip_translation: true
+
+- text: "Worthy"
+  translation: ""
+
+- text: "Bigger"
+  translation: ""
+
+- text: "Harder"
+  translation: ""
+
+- text: "Longer"
+  translation: ""
+
+- text: "Keep back, citizen!"
+  translation: ""
+
+- text: "Xv@"
+  translation: "Xv@"
+  skip_translation: true
+
+- text: "*AC\\"
+  translation: "*AC\\"
+  skip_translation: true
+
+- text: "Tt:"
+  translation: "Tt:"
+  skip_translation: true
+
+- text: "Um@"
+  translation: "Um@"
+  skip_translation: true
+
+- text: "Bo@"
+  translation: "Bo@"
+  skip_translation: true
+
+- text: "N@x("
+  translation: "N@x("
+  skip_translation: true
+
+- text: "XJ?A@"
+  translation: "XJ?A@"
+  skip_translation: true
+
+- text: "Guard Move"
+  translation: ""
+
+- text: "Move Guards"
+  translation: ""
+
+- text: "RhC"
+  translation: "RhC"
+  skip_translation: true
+
+- text: "Look direction"
+  translation: ""
+
+- text: "NbC"
+  translation: "NbC"
+  skip_translation: true
+
+- text: "Look left"
+  translation: ""
+
+- text: "Look Right"
+  translation: ""
+
+- text: "~XA"
+  translation: "~XA"
+  skip_translation: true
+
+- text: "Enable container"
+  translation: ""
+
+- text: "Is Jaime in party?"
+  translation: ""
+
+- text: "Get follower"
+  translation: ""
+
+- text: "Set idle anim"
+  translation: ""
+
+- text: "Anim"
+  translation: ""
+
+- text: "IncludeInactive"
+  translation: ""
+
+- text: "Wait for frame lol"
+  translation: ""
+
+- text: "Lock all doors"
+  translation: ""
+
+- text: "Restore"
+  translation: ""
+
+- text: "Check savekey"
+  translation: ""
+
+- text: "Wait for end of dialogue"
+  translation: ""
+
+- text: "Finish"
+  translation: ""
+
+- text: "Move character"
+  translation: ""
+
+- text: "Play pickup"
+  translation: ""
+
+- text: "E?A"
+  translation: "E?A"
+  skip_translation: true
+
+- text: "Play the outro cutscene"
+  translation: ""
+
+- text: "Fade back in"
+  translation: ""
+
+- text: "Play roadblock cutscene"
+  translation: ""
+
+- text: "DuckTo"
+  translation: ""
+
+- text: "DuckSpeed"
+  translation: ""
+
+- text: "OnDucked"
+  translation: ""
+
+- text: "Play credits"
+  translation: ""
+
+- text: "HooliganIntro"
+  translation: ""
+
+- text: "Told ya it'd work!"
+  translation: ""
+
+- text: "Move characters"
+  translation: ""
+
+- text: "Return to character"
+  translation: ""
+
+- text: "Talked to them before?"
+  translation: ""
+
+- text: "UXD"
+  translation: "UXD"
+  skip_translation: true
+
+- text: "ResidentialDistrictKeys/Cartel Drugdealer Talked"
+  translation: ""
+
+- text: "L?Zz"
+  translation: "L?Zz"
+  skip_translation: true
+
+- text: "Is she topless?"
+  translation: ""
+
+- text: "Topless dialogue"
+  translation: ""
+
+- text: "Did we show the picture?"
+  translation: ""
+
+- text: "StartFinish"
+  translation: ""
+
+- text: "Redress her"
+  translation: ""
+
+- text: "Cypher_4_Return"
+  translation: ""
+
+- text: "Wake her up"
+  translation: ""
+
+- text: "ToOutsideF"
+  translation: ""
+
+- text: "Ay^HA"
+  translation: "Ay^HA"
+  skip_translation: true
+
+- text: "Left Bark"
+  translation: ""
+
+- text: "Left Bark 2"
+  translation: ""
+
+- text: "Left Bark 3"
+  translation: ""
+
+- text: "Left Bark 4"
+  translation: ""
+
+- text: "Left Bark 5"
+  translation: ""
+
+- text: "Left Bark 6"
+  translation: ""
+
+- text: "AgE"
+  translation: "AgE"
+  skip_translation: true
+
+- text: "NVA"
+  translation: "NVA"
+  skip_translation: true
+
+- text: "XVc"
+  translation: "XVc"
+  skip_translation: true
+
+- text: "Are Cypher's boobs out?"
+  translation: ""
+
+- text: "Show Text"
+  translation: ""
+
+- text: "After Bark"
+  translation: ""
+
+- text: "I'm busy, come back later!"
+  translation: ""
+
+- text: "Calliach Not Available Bark"
+  translation: ""
+
+- text: "Did we beat the nail salon?"
+  translation: ""
+
+- text: "Do we need to do the first intro?"
+  translation: ""
+
+- text: "Do we need to do the second intro?"
+  translation: ""
+
+- text: "Enable the first intro and wait"
+  translation: ""
+
+- text: "Enable the second intro"
+  translation: ""
+
+- text: "Day#"
+  translation: "Day#"
+  skip_translation: true
+
+- text: "ACUUCC"
+  translation: ""
+
+- text: "Look at Zoey"
+  translation: ""
+
+- text: "Ask for confirmation"
+  translation: ""
+
+- text: "Unsit 2"
+  translation: ""
+
+- text: "Play first dialogue"
+  translation: ""
+
+- text: "Disable guards"
+  translation: ""
+
+- text: "Play second dialogue"
+  translation: ""
+
+- text: ",AK"
+  translation: ",AK"
+  skip_translation: true
+
+- text: "H*A"
+  translation: "H*A"
+  skip_translation: true
+
+- text: "KHA"
+  translation: "KHA"
+  skip_translation: true
+
+- text: "Wait for first trigger"
+  translation: ""
+
+- text: "Lap check"
+  translation: ""
+
+- text: "Focus"
+  translation: ""
+
+- text: "TargetTimescale"
+  translation: ""
+
+- text: "Freeze and prompt"
+  translation: ""
+
+- text: "Resume"
+  translation: ""
+
+- text: "UnFocus"
+  translation: ""
+
+- text: "FINISHED+"
+  translation: ""
+
+- text: "Slow 3"
+  translation: ""
+
+- text: "Lap"
+  translation: ""
+
+- text: "Activate the dealer"
+  translation: ""
+
+- text: "W4u"
+  translation: "W4u"
+  skip_translation: true
+
+- text: "AW@"
+  translation: "AW@"
+  skip_translation: true
+
+- text: "L?j"
+  translation: "L?j"
+  skip_translation: true
+
+- text: "@?RI"
+  translation: "@?RI"
+  skip_translation: true
+
+- text: "B?h#"
+  translation: "B?h#"
+  skip_translation: true
+
+- text: "Lower"
+  translation: ""
+
+- text: "AX~!@"
+  translation: "AX~!@"
+  skip_translation: true
+
+- text: "Do we have the task to go inside?"
+  translation: ""
+
+- text: "Activate characters"
+  translation: ""
+
+- text: "Do we have the task in progress?"
+  translation: ""
+
+- text: "Play repeat dialogue"
+  translation: ""
+
+- text: "Mech Bark"
+  translation: ""
+
+- text: "Left GAG Bark"
+  translation: ""
+
+- text: "Right GAG Bark"
+  translation: ""
+
+- text: "Left GAG Bark 2"
+  translation: ""
+
+- text: "Huh? Why?"
+  translation: ""
+
+- text: "Right GAG Bark 2"
+  translation: ""
+
+- text: "Left GAG Bark 3"
+  translation: ""
+
+- text: "`VA?"
+  translation: "`VA?"
+  skip_translation: true
+
+- text: "R@A"
+  translation: "R@A"
+  skip_translation: true
+
+- text: "AIc"
+  translation: "AIc"
+  skip_translation: true
+
+- text: "ATy"
+  translation: "ATy"
+  skip_translation: true
+
+- text: "|(DA"
+  translation: "|(DA"
+  skip_translation: true
+
+- text: "A@b"
+  translation: "A@b"
+  skip_translation: true
+
+- text: "Did we arrive"
+  translation: ""
+
+- text: "Do we have the key?"
+  translation: ""
+
+- text: "Turn on offsetter"
+  translation: ""
+
+- text: "Wait for transition"
+  translation: ""
+
+- text: "Set the key"
+  translation: ""
+
+- text: "RemoveKey"
+  translation: ""
+
+- text: "Set key to false"
+  translation: ""
+
+- text: "Skip the timer?"
+  translation: ""
+
+- text: "Is in Dialogue or Cutscene?"
+  translation: ""
+
+- text: "Call again"
+  translation: ""
+
+- text: "Stepped in"
+  translation: ""
+
+- text: "Are you on the Jaime walk?"
+  translation: ""
+
+- text: "Is this the first light bridge?"
+  translation: ""
+
+- text: "Play first quest dialogue"
+  translation: ""
+
+- text: "Is Zoey ready for the 2nd light bridge?"
+  translation: ""
+
+- text: "Play third quest dialogue"
+  translation: ""
+
+- text: "Set first task done"
+  translation: ""
+
+- text: "Set third task as done"
+  translation: ""
+
+- text: "A:4@A"
+  translation: "A:4@A"
+  skip_translation: true
+
+- text: "Activate Calliach"
+  translation: ""
+
+- text: "Activate Wait"
+  translation: ""
+
+- text: "Already did content"
+  translation: ""
+
+- text: "CutsceneTrigger"
+  translation: ""
+
+- text: "StartRace"
+  translation: ""
+
+- text: "R@0U"
+  translation: "R@0U"
+  skip_translation: true
+
+- text: "Bn@h!"
+  translation: "Bn@h!"
+  skip_translation: true
+
+- text: "6AH"
+  translation: "6AH"
+  skip_translation: true
+
+- text: "@ L2A"
+  translation: "@ L2A"
+  skip_translation: true
+
+- text: "A(X"
+  translation: "A(X"
+  skip_translation: true
+
+- text: "Did we still need to do this?"
+  translation: ""
+
+- text: "DidTrigger_Key"
+  translation: ""
+
+- text: "DidPlayTrigger"
+  translation: ""
+
+- text: "HatchFound_Zoom"
+  translation: ""
+
+- text: "W 5A"
+  translation: "W 5A"
+  skip_translation: true
+
+- text: "Pk="
+  translation: "Pk="
+  skip_translation: true
+
+- text: "Do we need to intro?"
+  translation: ""
+
+- text: "Hide Hooligans"
+  translation: ""
+
+- text: "Line Done"
+  translation: ""
+
+- text: "Still want to go to the red-light district?"
+  translation: ""
+
+- text: "Yeah, why not?"
+  translation: ""
+
+- text: "NxC"
+  translation: "NxC"
+  skip_translation: true
+
+- text: "Bark 6"
+  translation: ""
+
+- text: "Play hub dialogue"
+  translation: ""
+
+- text: "Remember the 10-38 yesterday?"
+  translation: ""
+
+- text: "VjC"
+  translation: "VjC"
+  skip_translation: true
+
+- text: "RlC"
+  translation: "RlC"
+  skip_translation: true
+
+- text: "Why would you slot an unknown chip?"
+  translation: ""
+
+- text: "I5A@"
+  translation: "I5A@"
+  skip_translation: true
+
+- text: "CreditsCanvas"
+  translation: ""
+
+- text: "w3@ R"
+  translation: "w3@ R"
+  skip_translation: true
+
+- text: "A$d'@"
+  translation: "A$d'@"
+  skip_translation: true
+
+- text: "NI@"
+  translation: "NI@"
+  skip_translation: true
+
+- text: "NU?"
+  translation: "NU?"
+  skip_translation: true
+
+- text: "?PI"
+  translation: "?PI"
+  skip_translation: true
+
+- text: "Is Jaime in the party?"
+  translation: ""
+
+- text: "Add her"
+  translation: ""
+
+- text: "Remove Jaime from party"
+  translation: ""
+
+- text: "C\\U"
+  translation: "C\\U"
+  skip_translation: true
+
+- text: "?@8EG@"
+  translation: "?@8EG@"
+  skip_translation: true
+
+- text: "Add perversion 4"
+  translation: ""
+
+- text: "Cypher_Flash"
+  translation: ""
+
+- text: "Did we take both pics?"
+  translation: ""
+
+- text: "Did we take the Cypher picture?"
+  translation: ""
+
+- text: "Miss show picture"
+  translation: ""
+
+- text: "Start Dialgoue"
+  translation: ""
+
+- text: "Check 2nd Save Key"
+  translation: ""
+
+- text: "ResidentialDistrictKeys/CorpoPhone talk"
+  translation: ""
+
+- text: "Wait for dialogue 2"
+  translation: ""
+
+- text: "Stop Phone animation 2"
+  translation: ""
+
+- text: "F1CUU-C"
+  translation: ""
+
+- text: "Start Dialgoue 2"
+  translation: ""
+
+- text: "Start Phone animation"
+  translation: ""
+
+- text: "CUU%C"
+  translation: "CUU%C"
+  skip_translation: true
+
+- text: "MCUU"
+  translation: "MCUU"
+  skip_translation: true
+
+- text: "Dailogue stop"
+  translation: ""
+
+- text: "Wait for dialogue end 2"
+  translation: ""
+
+- text: "Wait for dialogue end 3"
+  translation: ""
+
+- text: "`?CUU"
+  translation: "`?CUU"
+  skip_translation: true
+
+- text: "Wait for dialogue end"
+  translation: ""
+
+- text: "CUU+C"
+  translation: "CUU+C"
+  skip_translation: true
+
+- text: "Are we on second lap?"
+  translation: ""
+
+- text: "Make guards chase"
+  translation: ""
+
+- text: "AA~6@"
+  translation: "AA~6@"
+  skip_translation: true
+
+- text: ":AU"
+  translation: ":AU"
+  skip_translation: true
+
+- text: "Look Left"
+  translation: ""
+
+- text: "TlC"
+  translation: "TlC"
+  skip_translation: true
+
+- text: "Bark2"
+  translation: "Bark2"
+  skip_translation: true
+
+- text: "Check Save Key 2"
+  translation: ""
+
+- text: "Bark3"
+  translation: "Bark3"
+  skip_translation: true
+
+- text: "Check Save Key 3"
+  translation: ""
+
+- text: "Bark4"
+  translation: "Bark4"
+  skip_translation: true
+
+- text: "Check Save Key 4"
+  translation: ""
+
+- text: "Bark5"
+  translation: "Bark5"
+  skip_translation: true
+
+- text: "Check Save Key 5"
+  translation: ""
+
+- text: "Do we have the task to leave the apartment?"
+  translation: ""
+
+- text: "Fade out instantly"
+  translation: ""
+
+- text: "Play intro cutscene"
+  translation: ""
+
+- text: "Right Bark"
+  translation: ""
+
+- text: "Any 10-14 from NCU?"
+  translation: ""
+
+- text: "Right Bark 2"
+  translation: ""
+
+- text: "K?Di#"
+  translation: "K?Di#"
+  skip_translation: true
+
+- text: "Set offset"
+  translation: ""
+
+- text: "Orderer"
+  translation: ""
+
+- text: "Remove offset"
+  translation: ""
+
+- text: "Get checkpoints"
+  translation: ""
+
+- text: "Iterate through all checkpoints"
+  translation: ""
+
+- text: "StoreIn"
+  translation: ""
+
+- text: "Next"
+  translation: "Next"
+  skip_translation: true
+
+- text: "Walk to next position"
+  translation: ""
+
+- text: "Index"
+  translation: ""
+
+- text: "ShouldReset"
+  translation: ""
+
+- text: "Wait for task to go inside"
+  translation: ""
+
+- text: "OverDefault"
+  translation: ""
+
+- text: "So she pissed that labcoat lady off, huh?"
+  translation: ""
+
+- text: "Enable the roadblocks"
+  translation: ""
+
+- text: "Wait for Dialogue"
+  translation: ""
+
+- text: "Mhmm just fuck me!"
+  translation: ""
+
+- text: "\"EC"
+  translation: "\\"
+  skip_translation: true
+
+- text: "Your pussy is top notch!"
+  translation: ""
+
+- text: "I need this for glow!"
+  translation: ""
+
+- text: "Bark 9"
+  translation: ""
+
+- text: "Check Mission"
+  translation: ""
+
+- text: "Turn off VFX and some props"
+  translation: ""
+
+- text: "Do the nothing"
+  translation: ""
+
+- text: "BUUQC"
+  translation: "BUUQC"
+  skip_translation: true
+
+- text: "^TA"
+  translation: "^TA"
+  skip_translation: true
+
+- text: "U?r"
+  translation: "U?r"
+  skip_translation: true
+
+- text: "Undress and play dialogue"
+  translation: ""
+
+- text: "Unfreeze"
+  translation: ""
+
+- text: "Slow 2"
+  translation: ""
+
+- text: "Line DOne"
+  translation: ""
+
+- text: "These advertisements are not okay!"
+  translation: ""
+
+- text: "But what do we do?"
+  translation: ""
+
+- text: "Is@"
+  translation: "Is@"
+  skip_translation: true
+
+- text: "Psst!"
+  translation: "Psst!"
+  skip_translation: true
+
+- text: "RI?@"
+  translation: "RI?@"
+  skip_translation: true
+
+- text: "U!A"
+  translation: "U!A"
+  skip_translation: true
+
+- text: "Sarah in Party"
+  translation: ""
+
+- text: "Sarah not in Party"
+  translation: ""
+
+- text: "Who sprayed that AIRSHIP symbol?"
+  translation: ""
+
+- text: "Are we Android?"
+  translation: ""
+
+- text: "\"MA"
+  translation: "\\"
+  skip_translation: true
+
+- text: "WAC"
+  translation: "WAC"
+  skip_translation: true
+
+- text: "Aua!A"
+  translation: ""
+
+- text: "A)CLA"
+  translation: "A)CLA"
+  skip_translation: true
+
+- text: "Fp?"
+  translation: "Fp?"
+  skip_translation: true
+
+- text: "`3EAH"
+  translation: "`3EAH"
+  skip_translation: true
+
+- text: "3LA"
+  translation: "3LA"
+  skip_translation: true
+
+- text: "SA02"
+  translation: "SA02"
+  skip_translation: true
+
+- text: "KA@"
+  translation: "KA@"
+  skip_translation: true
+
+- text: "\"A8R"
+  translation: "\\"
+  skip_translation: true
+
+- text: "Tc)A"
+  translation: "Tc)A"
+  skip_translation: true
+
+- text: "Cypher_ShowPic"
+  translation: ""
+
+- text: "CmA"
+  translation: "CmA"
+  skip_translation: true
+
+- text: "Ej@"
+  translation: "Ej@"
+  skip_translation: true
+
+- text: "AH_"
+  translation: "AH_"
+  skip_translation: true
+
+- text: "0V%A`"
+  translation: "0V%A`"
+  skip_translation: true
+
+- text: "set offset"
+  translation: ""
+
+- text: "Set laying anim"
+  translation: ""
+
+- text: "Do we need to return?"
+  translation: ""
+
+- text: "Play return logic"
+  translation: ""
+
+- text: "Do we need to take picture?"
+  translation: ""
+
+- text: "Did we take the picture?"
+  translation: ""
+
+- text: "Did we get her boobs out?"
+  translation: ""
+
+- text: "Choose to get boobs out"
+  translation: ""
+
+- text: "Play boobs out dialogue"
+  translation: ""
+
+- text: "Are her boobs still out?"
+  translation: ""
+
+- text: "Repeat dialogue"
+  translation: ""
+
+- text: "Is first task in progress?"
+  translation: ""
+
+- text: "Give task"
+  translation: ""
+
+- text: "Play return dialogue"
+  translation: ""
+
+- text: "Do we need to find more tokens?"
+  translation: ""
+
+- text: "HIGH TIDE"
+  translation: ""
+
+- text: "They just dumped him in there?"
+  translation: ""
+
+- text: "Activate Character"
+  translation: ""
+
+- text: "Check for main quest"
+  translation: ""
+
+- text: "25 s Delay"
+  translation: ""
+
+- text: "met lio"
+  translation: ""
+
+- text: "Check for jaime alive"
+  translation: ""
+
+- text: "no lio"
+  translation: ""
+
+- text: "Do we have task"
+  translation: ""
+
+- text: "Lock door and wait for task"
+  translation: ""
+
+- text: "Do minigame"
+  translation: ""
+
+- text: "Recieved Calliach Task"
+  translation: ""
+
+- text: "AK-"
+  translation: "AK-"
+  skip_translation: true
+
+- text: "%1CA"
+  translation: "%1CA"
+  skip_translation: true
+
+- text: "@SU?"
+  translation: "@SU?"
+  skip_translation: true
+
+- text: "Are we starting the Walk?"
+  translation: ""
+
+- text: "Are we ready to end the walk mission?"
+  translation: ""
+
+- text: "Play final dialogue"
+  translation: ""
+
+- text: "End tasks"
+  translation: ""
+
+- text: "Moving Jaime"
+  translation: ""
+
+- text: "VirtualAddictt"
+  translation: ""
+
+- text: "A8g"
+  translation: "A8g"
+  skip_translation: true
+
+- text: "We got one!"
+  translation: ""
+
+- text: "Oh shit, really? Let's go!"
+  translation: ""
+
+- text: "Look direction 2"
+  translation: ""
+
+- text: "FUCK!"
+  translation: "FUCK!"
+  skip_translation: true
+
+- text: "Animation 2"
+  translation: ""
+
+- text: "BEC"
+  translation: "BEC"
+  skip_translation: true
+
+- text: "Is this the right step?"
+  translation: ""
+
+- text: "Disable the hatch interactable"
+  translation: ""
+
+- text: "Did you hear?"
+  translation: ""
+
+- text: "What?!?"
+  translation: ""
+
+- text: "LsC"
+  translation: "LsC"
+  skip_translation: true
+
+- text: "Bark 7"
+  translation: ""
+
+- text: "State 10"
+  translation: ""
+
+- text: "Turn off all"
+  translation: ""
+
+- text: "ResidentialDistrictKeys/Litterer remove"
+  translation: ""
+
+- text: "D^BAp"
+  translation: "D^BAp"
+  skip_translation: true
+
+- text: "5AA\\^8@"
+  translation: "5AA\\\\^8@"
+  skip_translation: true
+
+- text: "At%v@"
+  translation: "At%v@"
+  skip_translation: true
+
+- text: "AtO"
+  translation: "AtO"
+  skip_translation: true
+
+- text: "All this because of some 10-37 in the Red?"
+  translation: ""
+
+- text: "Did we talk to the lady?!"
+  translation: ""
+
+- text: "Did we talk to the lady?"
+  translation: ""
+
+- text: "And we haven't watched them yet?"
+  translation: ""
+
+- text: "And we didn't leave?"
+  translation: ""
+
+- text: "Activate container"
+  translation: ""
+
+- text: "Girl waiting?"
+  translation: ""
+
+- text: "Walk lady"
+  translation: ""
+
+- text: "Set her pos"
+  translation: ""
+
+- text: "Guy waiting?"
+  translation: ""
+
+- text: "VkC"
+  translation: "VkC"
+  skip_translation: true
+
+- text: "Bark 8"
+  translation: ""
+
+- text: "Yeah"
+  translation: ""
+
+- text: "Is the task complete?"
+  translation: ""
+
+- text: "Disable the interactable"
+  translation: ""
+
+- text: "Play ask dialogue"
+  translation: ""
+
+- text: "Start first cutscene"
+  translation: ""
+
+- text: "Start race"
+  translation: ""
+
+- text: "Did she flash us?"
+  translation: ""
+
+- text: "Wait for interactions"
+  translation: ""
+
+- text: "Is her top open?"
+  translation: ""
+
+- text: "Did we already take the pic? 2"
+  translation: ""
+
+- text: "Strip top"
+  translation: ""
+
+- text: "Did we already take the pic?"
+  translation: ""
+
+- text: "Strip top 2"
+  translation: ""
+
+- text: "Turn off Day"
+  translation: ""
+
+- text: "Turn off Night"
+  translation: ""
+
+- text: "Minigame"
+  translation: ""
+
+- text: "Activate open case"
+  translation: ""
+
+- text: "Start Dailogue"
+  translation: ""
+
+- text: "Set Save Key opened"
+  translation: ""
+
+- text: "And the drone was recording?"
+  translation: ""
+
+- text: "And the purple stuff?"
+  translation: ""
+
+- text: "Wait for frame for Interactable"
+  translation: ""
+
+- text: "A,e"
+  translation: "A,e"
+  skip_translation: true
+
+- text: "OY@"
+  translation: "OY@"
+  skip_translation: true
+
+- text: "Synforma Corp Advertisement"
+  translation: ""
+
+- text: "Glowing Hole Advertisement"
+  translation: ""
+
+- text: "Neon Doll Advertisement"
+  translation: ""
+
+- text: "Furline Advertisement"
+  translation: ""
+
+- text: "ManaFactory Advertisement"
+  translation: ""
+
+- text: "Slutbox"
+  translation: ""
+
+- text: "ToAccessF04"
+  translation: ""
+
+- text: "Broken Material"
+  translation: ""
+
+- text: "Reset All"
+  translation: ""
+
+- text: "Triangle Material"
+  translation: ""
+
+- text: "Are we progressed?"
+  translation: ""
+
+- text: "Push camera"
+  translation: ""
+
+- text: "Task progress"
+  translation: ""
+
+- text: "Eavesdrop"
+  translation: ""
+
+- text: "Found that dealer yet?"
+  translation: ""
+
+- text: "Bark 10"
+  translation: ""
+
+- text: "Bark2 2"
+  translation: ""
+
+- text: "PlyEnt"
+  translation: ""
+
+- text: "Wait for rooftop enter"
+  translation: ""
+
+- text: "Wait for rooftop exit"
+  translation: ""
+
+- text: "RS?c"
+  translation: "RS?c"
+  skip_translation: true
+
+- text: "Z?]zL?"
+  translation: "Z?]zL?"
+  skip_translation: true
+
+- text: "Check time of day"
+  translation: ""
+
+- text: "NeurAffinity Advertisement"
+  translation: ""
+
+- text: "Middle_Bench"
+  translation: ""
+
+- text: "TopLeft_Roof"
+  translation: ""
+
+- text: "Bottom_Building"
+  translation: ""
+
+- text: "Unhook camera"
+  translation: ""
+
+- text: "A`U?"
+  translation: "A`U?"
+  skip_translation: true
+
+- text: "Bt["
+  translation: "Bt["
+  skip_translation: true
+
+- text: "Hg,"
+  translation: ""
+
+- text: "RacingMinigame"
+  translation: ""
+
+- text: "Penis Enhancement Advertisement"
+  translation: ""
+
+- text: "Look at Player"
+  translation: ""
+
+- text: "Pick random Animation"
+  translation: ""
+
+- text: "0CUU+C"
+  translation: ""
+
+- text: "Anim 1"
+  translation: ""
+
+- text: "Anim 2"
+  translation: ""
+
+- text: "Anim 3"
+  translation: ""
+
+- text: "Anim 4"
+  translation: ""
+
+- text: "Animation FInished"
+  translation: ""
+
+- text: "Enable Interactable"
+  translation: ""
+
+- text: "Reset Anim"
+  translation: ""
+
+- text: "F6j@"
+  translation: "F6j@"
+  skip_translation: true
+
+- text: "(EF@"
+  translation: "(EF@"
+  skip_translation: true
+
+- text: "WO@h4"
+  translation: "WO@h4"
+  skip_translation: true
+
+- text: "Asb?"
+  translation: "Asb?"
+  skip_translation: true
+
+- text: "Ie?"
+  translation: "Ie?"
+  skip_translation: true
+
+- text: "AEA"
+  translation: "AEA"
+  skip_translation: true
+
+- text: "K$@ly"
+  translation: "K$@ly"
+  skip_translation: true
+
+- text: "D2?l"
+  translation: "D2?l"
+  skip_translation: true
+
+- text: "% NA"
+  translation: "% NA"
+  skip_translation: true
+
+- text: "M42A"
+  translation: "M42A"
+  skip_translation: true
+
+- text: "OkA"
+  translation: "OkA"
+  skip_translation: true
+
+- text: "OoC@"
+  translation: "OoC@"
+  skip_translation: true
+
+- text: "BbA"
+  translation: "BbA"
+  skip_translation: true
+
+- text: "?LA"
+  translation: "?LA"
+  skip_translation: true
+
+- text: "EMA"
+  translation: "EMA"
+  skip_translation: true
+

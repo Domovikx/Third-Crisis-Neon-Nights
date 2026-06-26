@@ -1,0 +1,169 @@
+# raw (level0)
+
+- text: "Create Main Menu Script"
+  translation: ""
+
+- text: "Camera Container"
+  translation: ""
+
+- text: "Version UI"
+  translation: ""
+
+- text: "Preload Addressables"
+  translation: ""
+
+- text: "RestrictSaves"
+  translation: ""
+
+- text: "Phone"
+  translation: ""
+
+- text: "White Background"
+  translation: ""
+
+- text: "Highlighted Graphic"
+  translation: ""
+
+- text: "Main Graphic"
+  translation: ""
+
+- text: "Options Button"
+  translation: ""
+
+- text: "New Game Animation Container"
+  translation: ""
+
+- text: "Bind Display for Selectable"
+  translation: ""
+
+- text: "Start Game Button"
+  translation: ""
+
+- text: "Continue Button"
+  translation: ""
+
+- text: "Exit Button"
+  translation: ""
+
+- text: "Head IK Target"
+  translation: ""
+
+- text: "Subtitle"
+  translation: ""
+
+- text: "Review Button"
+  translation: ""
+
+- text: "Social Button Twitter"
+  translation: ""
+
+- text: "HighlightArrow"
+  translation: ""
+
+- text: "Release Notes Button"
+  translation: ""
+
+- text: "ButtonContainer"
+  translation: ""
+
+- text: "Buy Button"
+  translation: ""
+
+- text: "Load Button"
+  translation: ""
+
+- text: "Social Button Discord"
+  translation: ""
+
+- text: "?WA&?"
+  translation: "?WA&?"
+  skip_translation: true
+
+- text: "HBff"
+  translation: "HBff"
+  skip_translation: true
+
+- text: "BgD"
+  translation: "BgD"
+  skip_translation: true
+
+- text: "SDx"
+  translation: "SDx"
+  skip_translation: true
+
+- text: "v 0.4.0-a17"
+  translation: "v 0.4.0-a17"
+  skip_translation: true
+
+- text: "PURCHASE"
+  translation: ""
+
+- text: "WIshlist"
+  translation: ""
+
+- text: "WISHLIST"
+  translation: ""
+
+- text: "Load Game"
+  translation: ""
+
+- text: "Review"
+  translation: ""
+
+- text: "Open Menu"
+  translation: ""
+
+- text: "Fire"
+  translation: ""
+
+- text: "Wait for clicked"
+  translation: ""
+
+- text: "Open Release Notes"
+  translation: ""
+
+- text: "Quit"
+  translation: ""
+
+- text: "Open Twitter"
+  translation: ""
+
+- text: "Are there any Save Games?"
+  translation: ""
+
+- text: "Disable Continue button"
+  translation: ""
+
+- text: "YesThereAre"
+  translation: ""
+
+- text: "NoThereAreNot"
+  translation: ""
+
+- text: "Setup new Save and start Animation"
+  translation: ""
+
+- text: "Start new Game"
+  translation: ""
+
+- text: "Change Level"
+  translation: ""
+
+- text: "LevelName"
+  translation: ""
+
+- text: "Forced"
+  translation: ""
+
+- text: "IgnoreLock"
+  translation: ""
+
+- text: "Eye Wiggle"
+  translation: ""
+
+- text: "Spec Wiggle"
+  translation: ""
+
+- text: "Open discord"
+  translation: ""
+

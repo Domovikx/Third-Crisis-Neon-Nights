@@ -1,0 +1,688 @@
+# raw (level13)
+
+- text: "Train Station Walla"
+  translation: ""
+
+- text: "Bark repeat"
+  translation: ""
+
+- text: "Shove"
+  translation: ""
+
+- text: "Inspection bark start"
+  translation: ""
+
+- text: "Barks"
+  translation: "Barks"
+  skip_translation: true
+
+- text: "Lights_level"
+  translation: "Lights_level"
+  skip_translation: true
+
+- text: "Light_main"
+  translation: "Light_main"
+  skip_translation: true
+
+- text: "Addons_new"
+  translation: "Addons_new"
+  skip_translation: true
+
+- text: "CameraReaction"
+  translation: ""
+
+- text: "Addons_old"
+  translation: "Addons_old"
+  skip_translation: true
+
+- text: "Seated"
+  translation: ""
+
+- text: "Dismount"
+  translation: ""
+
+- text: "Train Window Left"
+  translation: ""
+
+- text: "Train End Window Side Right"
+  translation: ""
+
+- text: "Train Light Entrance"
+  translation: ""
+
+- text: "Train Door Window Left"
+  translation: ""
+
+- text: "Train Middle"
+  translation: ""
+
+- text: "Train Door Left"
+  translation: ""
+
+- text: "Train Window Shine Right"
+  translation: ""
+
+- text: "Train Wall Right"
+  translation: ""
+
+- text: "Train Door Window Right"
+  translation: ""
+
+- text: "Benches"
+  translation: ""
+
+- text: "Train Connector Top"
+  translation: ""
+
+- text: "Train End Wall Right"
+  translation: ""
+
+- text: "Train Door Window Shine Left"
+  translation: ""
+
+- text: "Train End Right"
+  translation: ""
+
+- text: "Traiin Wall Left"
+  translation: ""
+
+- text: "Smoking Guy"
+  translation: ""
+
+- text: "Inspection Girl"
+  translation: ""
+
+- text: "Train Door Window Shine Right"
+  translation: ""
+
+- text: "Train End Cabin Main Window"
+  translation: ""
+
+- text: "Trainwagon"
+  translation: ""
+
+- text: "Train End Cabin Small Window Shine"
+  translation: ""
+
+- text: "Train End Top Left"
+  translation: ""
+
+- text: "Train Door Light Right"
+  translation: ""
+
+- text: "Train Light Big Front"
+  translation: ""
+
+- text: "Train Cabels"
+  translation: ""
+
+- text: "Train Background"
+  translation: ""
+
+- text: "Train End Window Shine Left"
+  translation: ""
+
+- text: "Light Glow"
+  translation: ""
+
+- text: "SFX Arrival"
+  translation: ""
+
+- text: "Train End Light Element 2"
+  translation: ""
+
+- text: "Train Door Right"
+  translation: ""
+
+- text: "Train Window Shine Left"
+  translation: ""
+
+- text: "Train Connector Light Left"
+  translation: ""
+
+- text: "Train End Window Side Shine Right"
+  translation: ""
+
+- text: "Train End Door Light"
+  translation: ""
+
+- text: "Train Door Light Left"
+  translation: ""
+
+- text: "Train Connector"
+  translation: ""
+
+- text: "Train End Left"
+  translation: ""
+
+- text: "Train Top"
+  translation: ""
+
+- text: "Train Connector Light Right"
+  translation: ""
+
+- text: "Train End Door Window Right"
+  translation: ""
+
+- text: "Train End Background"
+  translation: ""
+
+- text: "Train End Cabin Small Window"
+  translation: ""
+
+- text: "Train End Door Left"
+  translation: ""
+
+- text: "Seats"
+  translation: ""
+
+- text: "Train Window Right"
+  translation: ""
+
+- text: "Train Connector Bottom"
+  translation: ""
+
+- text: "Train End Background 2"
+  translation: ""
+
+- text: "TimeLabel"
+  translation: ""
+
+- text: "Destinations"
+  translation: ""
+
+- text: "StateLabel"
+  translation: ""
+
+- text: "SideBench"
+  translation: ""
+
+- text: "Ad_CityNews"
+  translation: ""
+
+- text: "Plant on Pillar Blue"
+  translation: ""
+
+- text: "Train End Side"
+  translation: ""
+
+- text: "Train Light Big"
+  translation: ""
+
+- text: "Train End Door Window Shine Left"
+  translation: ""
+
+- text: "Plant on Pillar Blue-Green Variant"
+  translation: ""
+
+- text: "text 2"
+  translation: ""
+
+- text: "Train End Small Window Shine"
+  translation: ""
+
+- text: "Sitter"
+  translation: ""
+
+- text: "Train End Connection Light"
+  translation: ""
+
+- text: "Train Rumble"
+  translation: ""
+
+- text: "Train End Top Right"
+  translation: ""
+
+- text: "Train End Front Window Shine"
+  translation: ""
+
+- text: "Train End Light Element 1"
+  translation: ""
+
+- text: "Terminals"
+  translation: ""
+
+- text: "Solar Square Label"
+  translation: ""
+
+- text: "BoardableTrain"
+  translation: ""
+
+- text: "Chargers"
+  translation: ""
+
+- text: "FlashTimer"
+  translation: ""
+
+- text: "LossTransition"
+  translation: ""
+
+- text: "Train End Front Window"
+  translation: ""
+
+- text: "Train End Small Window"
+  translation: ""
+
+- text: "Train End Door Window Shine Right"
+  translation: ""
+
+- text: "Train End Cabin Main Window Shine"
+  translation: ""
+
+- text: "Train End Middle"
+  translation: ""
+
+- text: "Train End Window Side Shine Left"
+  translation: ""
+
+- text: "Train End Door Window Left"
+  translation: ""
+
+- text: "Train End Light Element"
+  translation: ""
+
+- text: "Light_Assets"
+  translation: ""
+
+- text: "Trainwagon End Variant"
+  translation: ""
+
+- text: "Train End Window Left"
+  translation: ""
+
+- text: "NCR_Logo"
+  translation: ""
+
+- text: "Train End Window Side Left"
+  translation: ""
+
+- text: "TerminalLogic"
+  translation: ""
+
+- text: "Arrival Timeline"
+  translation: "Arrival Timeline"
+  skip_translation: true
+
+- text: "SFX Departure"
+  translation: ""
+
+- text: "BottomMiddle"
+  translation: ""
+
+- text: "Train End Wall Left"
+  translation: ""
+
+- text: "Train End Window Shine Right"
+  translation: ""
+
+- text: "Train End Door Right"
+  translation: ""
+
+- text: "AudioSource"
+  translation: ""
+
+- text: "Hideables"
+  translation: ""
+
+- text: "BottomSides"
+  translation: ""
+
+- text: "Train End Front"
+  translation: ""
+
+- text: "Train End Window Right"
+  translation: ""
+
+- text: "Departure Timeline"
+  translation: "Departure Timeline"
+  skip_translation: true
+
+- text: "Origin"
+  translation: ""
+
+- text: "text 1"
+  translation: ""
+
+- text: "LeftLight"
+  translation: ""
+
+- text: "Plants"
+  translation: "Plants"
+  skip_translation: true
+
+- text: "?33SA"
+  translation: "?33SA"
+  skip_translation: true
+
+- text: "J@c"
+  translation: "J@c"
+  skip_translation: true
+
+- text: "?*\\[A*\\[A)\\[A"
+  translation: "?*\\[A*\\[A)\\[A"
+  skip_translation: true
+
+- text: "Bq=z"
+  translation: "Bq=z"
+  skip_translation: true
+
+- text: "A33w"
+  translation: "A33w"
+  skip_translation: true
+
+- text: "XAh"
+  translation: "XAh"
+  skip_translation: true
+
+- text: "C d|C"
+  translation: "C d|C"
+  skip_translation: true
+
+- text: "D%y@"
+  translation: "D%y@"
+  skip_translation: true
+
+- text: "AL7"
+  translation: "AL7"
+  skip_translation: true
+
+- text: "Pd[?"
+  translation: "Pd[?"
+  skip_translation: true
+
+- text: "ANb"
+  translation: "ANb"
+  skip_translation: true
+
+- text: "Aq=r"
+  translation: "Aq=r"
+  skip_translation: true
+
+- text: "RA23"
+  translation: "RA23"
+  skip_translation: true
+
+- text: "VA23"
+  translation: "VA23"
+  skip_translation: true
+
+- text: "QA="
+  translation: "QA="
+  skip_translation: true
+
+- text: "LA23"
+  translation: "LA23"
+  skip_translation: true
+
+- text: "7IA"
+  translation: "7IA"
+  skip_translation: true
+
+- text: "Arriving"
+  translation: ""
+
+- text: "Enforcer Bark"
+  translation: ""
+
+- text: "This is a nice plum ass!"
+  translation: ""
+
+- text: "Girl Bark"
+  translation: ""
+
+- text: "Enforcer Bark 2"
+  translation: ""
+
+- text: "ECUU"
+  translation: "ECUU"
+  skip_translation: true
+
+- text: "Wait 3"
+  translation: ""
+
+- text: "Stick your ass out more!"
+  translation: ""
+
+- text: "Sw?"
+  translation: "Sw?"
+  skip_translation: true
+
+- text: "Cache old dir"
+  translation: ""
+
+- text: "Shove back"
+  translation: ""
+
+- text: "Citizen"
+  translation: ""
+
+- text: "Does bark exist?"
+  translation: ""
+
+- text: "CitizenObj"
+  translation: ""
+
+- text: "ToLookAt"
+  translation: ""
+
+- text: "HorizontalOnly"
+  translation: ""
+
+- text: "WaitAFrame"
+  translation: ""
+
+- text: "OriginPosition"
+  translation: ""
+
+- text: "BarkGO"
+  translation: ""
+
+- text: "BarkObj"
+  translation: ""
+
+- text: "But I didn't do anything wrong!?"
+  translation: ""
+
+- text: "Enforcer Bark 3"
+  translation: ""
+
+- text: "ZIC"
+  translation: "ZIC"
+  skip_translation: true
+
+- text: "Wait 4"
+  translation: ""
+
+- text: "Restrain player"
+  translation: ""
+
+- text: "Wait a little"
+  translation: ""
+
+- text: "Set target"
+  translation: ""
+
+- text: "Wait a little 2"
+  translation: ""
+
+- text: "Pop target"
+  translation: ""
+
+- text: "WELCOME TO"
+  translation: ""
+
+- text: "Y[A;pNA"
+  translation: ""
+
+- text: "X@v"
+  translation: "X@v"
+  skip_translation: true
+
+- text: "PO$?R"
+  translation: "PO$?R"
+  skip_translation: true
+
+- text: "THE RES"
+  translation: ""
+
+- text: "Activate interactable"
+  translation: ""
+
+- text: "Wait for receiver"
+  translation: ""
+
+- text: "Bark 2"
+  translation: ""
+
+- text: "No pictures, citizen!"
+  translation: ""
+
+- text: "Zz?"
+  translation: "Zz?"
+  skip_translation: true
+
+- text: "randomize pitch"
+  translation: ""
+
+- text: "HCVU"
+  translation: "HCVU"
+  skip_translation: true
+
+- text: "IsOpen"
+  translation: ""
+
+- text: "IsWarning"
+  translation: ""
+
+- text: "FromTrain"
+  translation: ""
+
+- text: "WATCH YOUR STEP"
+  translation: ""
+
+- text: "RESIDENTIAL DISTRICT"
+  translation: ""
+
+- text: "Play jingle"
+  translation: ""
+
+- text: "Play random announcement"
+  translation: ""
+
+- text: "CUUGC"
+  translation: "CUUGC"
+  skip_translation: true
+
+- text: "Announcements"
+  translation: ""
+
+- text: "Play jingle 2"
+  translation: ""
+
+- text: "Play random announcement 2"
+  translation: ""
+
+- text: "Play jingle 3"
+  translation: ""
+
+- text: "FromLunarLane"
+  translation: ""
+
+- text: "LunarLane"
+  translation: ""
+
+- text: "SkipRide"
+  translation: ""
+
+- text: "Pause timer"
+  translation: ""
+
+- text: "Can we skip?"
+  translation: ""
+
+- text: "Leave hideable"
+  translation: ""
+
+- text: "Resume timer"
+  translation: ""
+
+- text: "IsOnTrain"
+  translation: ""
+
+- text: "Solar Square"
+  translation: ""
+
+- text: "Lunar Lane"
+  translation: ""
+
+- text: "\\CA"
+  translation: "\\\\CA"
+  skip_translation: true
+
+- text: "Get data and wait a frame"
+  translation: ""
+
+- text: "What state are we in?"
+  translation: ""
+
+- text: "Set waiting for arrival"
+  translation: ""
+
+- text: "Set arriving"
+  translation: ""
+
+- text: "Set waiting for depart"
+  translation: ""
+
+- text: "Set departing"
+  translation: ""
+
+- text: "Wait for timer"
+  translation: ""
+
+- text: "TimerComplete"
+  translation: ""
+
+- text: "Switch state"
+  translation: ""
+
+- text: "TimerDuration"
+  translation: ""
+
+- text: "TimeToWait"
+  translation: ""
+
+- text: "StartTimer"
+  translation: ""
+
+- text: "Wrap check"
+  translation: ""
+
+- text: "Should we randomize state?"
+  translation: ""
+
+- text: "`CUUKC"
+  translation: "`CUUKC"
+  skip_translation: true
+
+- text: "Randomize state"
+  translation: ""
+
+- text: "Add choices"
+  translation: ""
+
+- text: "Redlight"
+  translation: ""
+
+- text: "Set to Redlight"
+  translation: ""
+
+- text: "FromSolarSquare"
+  translation: ""
+
+- text: "SolarSquare"
+  translation: ""
+
+- text: "FromTrain_Loss"
+  translation: ""
+

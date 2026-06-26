@@ -1,0 +1,1987 @@
+# raw (level4)
+
+- text: "^AP"
+  translation: "^AP"
+  skip_translation: true
+
+- text: "Y@p"
+  translation: "Y@p"
+  skip_translation: true
+
+- text: "OG?"
+  translation: "OG?"
+  skip_translation: true
+
+- text: "RZd@"
+  translation: "RZd@"
+  skip_translation: true
+
+- text: "KU@"
+  translation: "KU@"
+  skip_translation: true
+
+- text: "Axb@"
+  translation: "Axb@"
+  skip_translation: true
+
+- text: "Pillow_Shadow"
+  translation: ""
+
+- text: "Parallax Mask"
+  translation: ""
+
+- text: "Aquarium"
+  translation: ""
+
+- text: "Clothes_rack_1"
+  translation: "Clothes_rack_1"
+  skip_translation: true
+
+- text: "Flowers"
+  translation: ""
+
+- text: "Welcome_Mat"
+  translation: ""
+
+- text: "LightSwitch_2"
+  translation: ""
+
+- text: "Wallpaper_Angle"
+  translation: ""
+
+- text: "KitchenPlates"
+  translation: ""
+
+- text: "Cabinet"
+  translation: ""
+
+- text: "Pipe_angeled"
+  translation: "Pipe_angeled"
+  skip_translation: true
+
+- text: "Candle"
+  translation: ""
+
+- text: "Pipe_2"
+  translation: "Pipe_2"
+  skip_translation: true
+
+- text: "TimeRemaining"
+  translation: ""
+
+- text: "LightSwitch"
+  translation: ""
+
+- text: "ZoeyMoveBack"
+  translation: ""
+
+- text: "DoorWall"
+  translation: ""
+
+- text: "VirtualAddict_1"
+  translation: ""
+
+- text: "ToiletWindow"
+  translation: ""
+
+- text: "N69_GlowingHole"
+  translation: ""
+
+- text: "BelowDoor"
+  translation: ""
+
+- text: "Window"
+  translation: ""
+
+- text: "Aquarium_Glass"
+  translation: ""
+
+- text: "MainWall_Angle"
+  translation: ""
+
+- text: "Flavour"
+  translation: ""
+
+- text: "Apartment"
+  translation: ""
+
+- text: "Wall_1"
+  translation: "Wall_1"
+  skip_translation: true
+
+- text: "Can_Shadow"
+  translation: ""
+
+- text: "CleanSpots"
+  translation: ""
+
+- text: "Rain"
+  translation: ""
+
+- text: "Chapter2"
+  translation: ""
+
+- text: "Pipe_Small"
+  translation: ""
+
+- text: "VirtualAddict_2"
+  translation: ""
+
+- text: "Kitchen_Cable"
+  translation: ""
+
+- text: "WallBathroom"
+  translation: ""
+
+- text: "Targets"
+  translation: ""
+
+- text: "WindowLight"
+  translation: ""
+
+- text: "Rain Audio"
+  translation: ""
+
+- text: "Bathtube"
+  translation: ""
+
+- text: "FishPicture"
+  translation: ""
+
+- text: "Pipe_End_Angle"
+  translation: ""
+
+- text: "Wallpaper_1"
+  translation: "Wallpaper_1"
+  skip_translation: true
+
+- text: "Nice Pillow"
+  translation: ""
+
+- text: "Rent_Overdue_2"
+  translation: ""
+
+- text: "VRContainer"
+  translation: ""
+
+- text: "Toilet_Flat"
+  translation: ""
+
+- text: "Light Switch_1"
+  translation: ""
+
+- text: "MoaningSound"
+  translation: ""
+
+- text: "ExitPrevention"
+  translation: ""
+
+- text: "Masturbation"
+  translation: ""
+
+- text: "ElevatorWorker"
+  translation: ""
+
+- text: "Bathroom_Carpet"
+  translation: ""
+
+- text: "Cutscene playmaker logic"
+  translation: ""
+
+- text: "FakeParallax"
+  translation: ""
+
+- text: "Magica Wind Zone"
+  translation: ""
+
+- text: "Lamp_1"
+  translation: "Lamp_1"
+  skip_translation: true
+
+- text: "Jaime lives"
+  translation: ""
+
+- text: "LivingRoom"
+  translation: ""
+
+- text: "Setups"
+  translation: ""
+
+- text: "SeatPos"
+  translation: ""
+
+- text: "Flying Car"
+  translation: ""
+
+- text: "SPAM_Cum"
+  translation: ""
+
+- text: "Lamp_FakeLight"
+  translation: ""
+
+- text: "Flats"
+  translation: "Flats"
+  skip_translation: true
+
+- text: "HeadsetSaveKey"
+  translation: ""
+
+- text: "Window_Small_3"
+  translation: ""
+
+- text: "Cupboard1"
+  translation: ""
+
+- text: "Stove_FakeLight"
+  translation: ""
+
+- text: "Shower VFX"
+  translation: ""
+
+- text: "SarahShowerPos"
+  translation: ""
+
+- text: "BalconyFuckers"
+  translation: ""
+
+- text: "Cupboard3"
+  translation: ""
+
+- text: "EnterShower"
+  translation: ""
+
+- text: "Clothes"
+  translation: ""
+
+- text: "Kitty"
+  translation: ""
+
+- text: "Mop"
+  translation: ""
+
+- text: "Cabinet_Shadow"
+  translation: ""
+
+- text: "Mission Trigger"
+  translation: ""
+
+- text: "Cabinet_Small"
+  translation: ""
+
+- text: "Pipe_3"
+  translation: "Pipe_3"
+  skip_translation: true
+
+- text: "KitchenPlates1"
+  translation: ""
+
+- text: "Turn Off Music"
+  translation: ""
+
+- text: "Clothes_rack"
+  translation: "Clothes_rack"
+  skip_translation: true
+
+- text: "NeonRise RoomTone"
+  translation: ""
+
+- text: "FakeSetup"
+  translation: ""
+
+- text: "WallProp"
+  translation: ""
+
+- text: "LeaveCutscene"
+  translation: ""
+
+- text: "WallPipe"
+  translation: ""
+
+- text: "Washing_Machine"
+  translation: ""
+
+- text: "Cupboard4"
+  translation: ""
+
+- text: "FlatLight"
+  translation: ""
+
+- text: "OutsideSetup"
+  translation: ""
+
+- text: "Pinups"
+  translation: ""
+
+- text: "AnduoItems"
+  translation: ""
+
+- text: "Pipe_4"
+  translation: "Pipe_4"
+  skip_translation: true
+
+- text: "Pipe_End_Right"
+  translation: ""
+
+- text: "Supporter"
+  translation: ""
+
+- text: "Wall_7"
+  translation: "Wall_7"
+  skip_translation: true
+
+- text: "DoorLocker"
+  translation: ""
+
+- text: "CutsceneFSM"
+  translation: ""
+
+- text: "Fallback Flowers"
+  translation: ""
+
+- text: "HummingSound"
+  translation: ""
+
+- text: "Lobby_Parallax"
+  translation: ""
+
+- text: "Showerhead"
+  translation: ""
+
+- text: "ZoeyGropePos"
+  translation: ""
+
+- text: "She gon"
+  translation: ""
+
+- text: "EnterCutscene"
+  translation: ""
+
+- text: "Pipe_1"
+  translation: "Pipe_1"
+  skip_translation: true
+
+- text: "Ambience Flat"
+  translation: ""
+
+- text: "ParallaxLight"
+  translation: ""
+
+- text: "Mail"
+  translation: ""
+
+- text: "GoAwayMeme"
+  translation: ""
+
+- text: "Pipe_end_Right"
+  translation: ""
+
+- text: "RejectTarget"
+  translation: ""
+
+- text: "CutsceneCamera"
+  translation: ""
+
+- text: "ForegroundParts"
+  translation: ""
+
+- text: "Rain behind Window VFX"
+  translation: ""
+
+- text: "extractor hood"
+  translation: ""
+
+- text: "Cupboard2"
+  translation: ""
+
+- text: "Aquarium_lid"
+  translation: "Aquarium_lid"
+  skip_translation: true
+
+- text: "Blankie"
+  translation: ""
+
+- text: "FrontThingie"
+  translation: ""
+
+- text: "Peeking"
+  translation: ""
+
+- text: "Aquarium_Shadow"
+  translation: ""
+
+- text: "Rain On Window VFX"
+  translation: ""
+
+- text: "Fish_Shadow"
+  translation: ""
+
+- text: "Switch to Danger Music"
+  translation: ""
+
+- text: "BlockWay"
+  translation: ""
+
+- text: "Cupboard_Small"
+  translation: ""
+
+- text: "WalkTarget"
+  translation: ""
+
+- text: "Hai Sarah Enabler"
+  translation: ""
+
+- text: "Mailbox"
+  translation: ""
+
+- text: "Palm_tree"
+  translation: "Palm_tree"
+  skip_translation: true
+
+- text: "Sarah Container"
+  translation: ""
+
+- text: "TopPartAngle"
+  translation: ""
+
+- text: "SinkFlat"
+  translation: ""
+
+- text: "ToLobby"
+  translation: ""
+
+- text: "Neighbour_Flat"
+  translation: ""
+
+- text: "LoopingMusic"
+  translation: ""
+
+- text: "Candle_Shadow"
+  translation: ""
+
+- text: "3d Flower Camera"
+  translation: ""
+
+- text: "Flower 4"
+  translation: ""
+
+- text: "Small_Window_2"
+  translation: ""
+
+- text: "Flower 3"
+  translation: ""
+
+- text: "Flower Rendering"
+  translation: ""
+
+- text: "Vent_Inner"
+  translation: ""
+
+- text: "String_3_Shadow"
+  translation: ""
+
+- text: "Small_Window_3"
+  translation: ""
+
+- text: "GoAwayGuy"
+  translation: ""
+
+- text: "Moving guy"
+  translation: ""
+
+- text: "Neighbour"
+  translation: ""
+
+- text: "Jaime after mission"
+  translation: ""
+
+- text: "Worker"
+  translation: ""
+
+- text: "Neighbour_VR"
+  translation: ""
+
+- text: "Jaime start mission"
+  translation: ""
+
+- text: "AskingGirl"
+  translation: ""
+
+- text: "DarkSarah"
+  translation: ""
+
+- text: "SecretDocument"
+  translation: ""
+
+- text: "Purr Audio Source"
+  translation: ""
+
+- text: "Wall_2"
+  translation: "Wall_2"
+  skip_translation: true
+
+- text: "Magica Cloth"
+  translation: ""
+
+- text: "Elevator_Ground"
+  translation: ""
+
+- text: "Pole_Asset"
+  translation: ""
+
+- text: "BananaBasket"
+  translation: ""
+
+- text: "Plant 2"
+  translation: ""
+
+- text: "Flower_Pot_2"
+  translation: ""
+
+- text: "Cabel_2"
+  translation: "Cabel_2"
+  skip_translation: true
+
+- text: "Blanked"
+  translation: ""
+
+- text: "HoloPlant"
+  translation: ""
+
+- text: "Root"
+  translation: ""
+
+- text: "Shark"
+  translation: "Shark"
+  skip_translation: true
+
+- text: "PropsBed"
+  translation: ""
+
+- text: "Zoey's Door"
+  translation: ""
+
+- text: "Inner Sphere"
+  translation: ""
+
+- text: "Laptop_1"
+  translation: "Laptop_1"
+  skip_translation: true
+
+- text: "Big_Tv"
+  translation: ""
+
+- text: "Side Frame"
+  translation: ""
+
+- text: "Elevator"
+  translation: ""
+
+- text: "OuterWall_7"
+  translation: ""
+
+- text: "Note_Pinboard"
+  translation: ""
+
+- text: "Laptop_Shadow"
+  translation: ""
+
+- text: "String_1_Shadow"
+  translation: ""
+
+- text: "OuterWall_2"
+  translation: ""
+
+- text: "Elevator_Consol"
+  translation: ""
+
+- text: "Laptop_1_Shadow"
+  translation: ""
+
+- text: "Big_Tv_Shadow"
+  translation: ""
+
+- text: "Secret_Room"
+  translation: ""
+
+- text: "CleaningSpot_4"
+  translation: ""
+
+- text: "FakeLightStrip"
+  translation: ""
+
+- text: "Flower_Pot_6"
+  translation: ""
+
+- text: "String_2_Shadow"
+  translation: ""
+
+- text: "BigRound_Carpet"
+  translation: ""
+
+- text: "Drum"
+  translation: "Drum"
+  skip_translation: true
+
+- text: "Pill_Box"
+  translation: ""
+
+- text: "Spawn Point"
+  translation: ""
+
+- text: "Bed_Curtain"
+  translation: ""
+
+- text: "Laptop"
+  translation: ""
+
+- text: "Bird"
+  translation: "Bird"
+  skip_translation: true
+
+- text: "Tiles"
+  translation: ""
+
+- text: "Flower 2"
+  translation: ""
+
+- text: "Flower_Pot_1"
+  translation: ""
+
+- text: "Pin_1"
+  translation: ""
+
+- text: "Door Symbol"
+  translation: ""
+
+- text: "Flower 1"
+  translation: ""
+
+- text: "Carpet_Medium"
+  translation: ""
+
+- text: "Flower_Pot_4"
+  translation: ""
+
+- text: "OuterWall_8"
+  translation: ""
+
+- text: "3D_apartmentcomplex_flowers04 2"
+  translation: ""
+
+- text: "Camera_Shadow"
+  translation: ""
+
+- text: "Neighbour's Door"
+  translation: ""
+
+- text: "3d Apartment Flower"
+  translation: ""
+
+- text: "Elevator_Footer"
+  translation: ""
+
+- text: "Tape"
+  translation: ""
+
+- text: "HoloPlant_3"
+  translation: ""
+
+- text: "OuterWall_6"
+  translation: ""
+
+- text: "CleaningSpot_5"
+  translation: ""
+
+- text: "CleaningSpot"
+  translation: ""
+
+- text: "Pillow_1"
+  translation: "Pillow_1"
+  skip_translation: true
+
+- text: "String_3"
+  translation: "String_3"
+  skip_translation: true
+
+- text: "Cabel_1"
+  translation: "Cabel_1"
+  skip_translation: true
+
+- text: "PinupPickup - Zoey as Bunny"
+  translation: ""
+
+- text: "PinupPickup - Hai Sarah"
+  translation: ""
+
+- text: "PinupPickup - Cheeky Zoey"
+  translation: ""
+
+- text: "PinupPickup - Sarah Pixel Portrait"
+  translation: ""
+
+- text: "MainHallway"
+  translation: ""
+
+- text: "OuterWall_5"
+  translation: ""
+
+- text: "Pillow"
+  translation: ""
+
+- text: "Small_Window"
+  translation: ""
+
+- text: "Elevator_Lamp"
+  translation: ""
+
+- text: "Shutter_Big"
+  translation: ""
+
+- text: "Plushi_Hippo"
+  translation: ""
+
+- text: "Drum_Shadow"
+  translation: ""
+
+- text: "Flower_Pot_5"
+  translation: ""
+
+- text: "Playmaker Spawn Logic"
+  translation: ""
+
+- text: "Window_Shine"
+  translation: ""
+
+- text: "CleaningSpot_3"
+  translation: ""
+
+- text: "Elevator_Wall"
+  translation: ""
+
+- text: "Zoey_Flat"
+  translation: ""
+
+- text: "Flower_Pot_8"
+  translation: ""
+
+- text: "Origami_Bird"
+  translation: ""
+
+- text: "Cat"
+  translation: ""
+
+- text: "Box_Flat"
+  translation: ""
+
+- text: "Balcony"
+  translation: ""
+
+- text: "Pill_Box_Shadow"
+  translation: ""
+
+- text: "NewMail"
+  translation: ""
+
+- text: "OuterWall_1"
+  translation: ""
+
+- text: "Flower Background"
+  translation: ""
+
+- text: "Cooking_Pot"
+  translation: ""
+
+- text: "Note_Pinboard_2"
+  translation: ""
+
+- text: "Gun"
+  translation: ""
+
+- text: "Parcel"
+  translation: ""
+
+- text: "Upper"
+  translation: ""
+
+- text: "HoloPlant_1"
+  translation: ""
+
+- text: "Elevator Light"
+  translation: ""
+
+- text: "Pinboard"
+  translation: ""
+
+- text: "Pillow_1_Shadow"
+  translation: ""
+
+- text: "ZoeyBed"
+  translation: ""
+
+- text: "String_1"
+  translation: "String_1"
+  skip_translation: true
+
+- text: "Bills Light"
+  translation: ""
+
+- text: "Kitchen Door"
+  translation: ""
+
+- text: "BigWindow"
+  translation: ""
+
+- text: "CoffeeMachine"
+  translation: ""
+
+- text: "Blanked_Shadow"
+  translation: ""
+
+- text: "Pin_4"
+  translation: ""
+
+- text: "Pin_2"
+  translation: ""
+
+- text: "String_2"
+  translation: "String_2"
+  skip_translation: true
+
+- text: "CleaningSpot_2"
+  translation: ""
+
+- text: "Couch_Top"
+  translation: ""
+
+- text: "Plant 1"
+  translation: ""
+
+- text: "Box_Flat_Shadow"
+  translation: ""
+
+- text: "GroundFakeLight"
+  translation: ""
+
+- text: "ZoeyBed_Shadow"
+  translation: ""
+
+- text: "Stair Light"
+  translation: ""
+
+- text: "Gun_Shadow"
+  translation: ""
+
+- text: "Flower_Pot_3"
+  translation: ""
+
+- text: "Plushi_1"
+  translation: "Plushi_1"
+  skip_translation: true
+
+- text: "Plushi_1_Shadow"
+  translation: ""
+
+- text: "Wallpaper_2"
+  translation: "Wallpaper_2"
+  skip_translation: true
+
+- text: "RealParallax"
+  translation: ""
+
+- text: "WallSeperators"
+  translation: ""
+
+- text: "WallLights"
+  translation: ""
+
+- text: "Spawn Area"
+  translation: ""
+
+- text: "Couch_Middle"
+  translation: ""
+
+- text: "Heart_Pillow"
+  translation: ""
+
+- text: "Pillow_Bear"
+  translation: ""
+
+- text: "Wall_Details"
+  translation: ""
+
+- text: "WallSword"
+  translation: ""
+
+- text: "Prop"
+  translation: "Prop"
+  skip_translation: true
+
+- text: "Catto"
+  translation: ""
+
+- text: "Pin_3"
+  translation: ""
+
+- text: "BigLong_Carpet"
+  translation: ""
+
+- text: "OuterWall_4"
+  translation: ""
+
+- text: "Flower Outer Container"
+  translation: ""
+
+- text: "Pillar"
+  translation: ""
+
+- text: "Apartment Side Door"
+  translation: ""
+
+- text: "BoxColliders"
+  translation: ""
+
+- text: "OuterWall_3"
+  translation: ""
+
+- text: "Bottom Frame"
+  translation: ""
+
+- text: "Shark_Shadow"
+  translation: ""
+
+- text: "?B`A"
+  translation: "?B`A"
+  skip_translation: true
+
+- text: "9ES"
+  translation: "9ES"
+  skip_translation: true
+
+- text: "AH@~?"
+  translation: "AH@~?"
+  skip_translation: true
+
+- text: "A\\%Y@"
+  translation: "A\\%Y@"
+  skip_translation: true
+
+- text: "L7y"
+  translation: "L7y"
+  skip_translation: true
+
+- text: "Gi?"
+  translation: "Gi?"
+  skip_translation: true
+
+- text: "X9t?"
+  translation: "X9t?"
+  skip_translation: true
+
+- text: "Kz?f8"
+  translation: "Kz?f8"
+  skip_translation: true
+
+- text: "Dx?)\\"
+  translation: "Dx?)\\\\"
+  skip_translation: true
+
+- text: "Ac*"
+  translation: "Ac*"
+  skip_translation: true
+
+- text: "A)\\O"
+  translation: "A)\\O"
+  skip_translation: true
+
+- text: "Xqq"
+  translation: "Xqq"
+  skip_translation: true
+
+- text: "; lx"
+  translation: "; lx"
+  skip_translation: true
+
+- text: "M^AP"
+  translation: "M^AP"
+  skip_translation: true
+
+- text: "Kz?"
+  translation: "Kz?"
+  skip_translation: true
+
+- text: "Js1"
+  translation: "Js1"
+  skip_translation: true
+
+- text: "|EAH"
+  translation: "|EAH"
+  skip_translation: true
+
+- text: "#AT"
+  translation: "#AT"
+  skip_translation: true
+
+- text: "=A0L"
+  translation: "=A0L"
+  skip_translation: true
+
+- text: "MA="
+  translation: "MA="
+  skip_translation: true
+
+- text: "A5jTBH"
+  translation: ""
+
+- text: "?L73A\\"
+  translation: "?L73A\\"
+  skip_translation: true
+
+- text: "M^A"
+  translation: "M^A"
+  skip_translation: true
+
+- text: "ABHFB"
+  translation: "ABHFB"
+  skip_translation: true
+
+- text: "Bn4"
+  translation: "Bn4"
+  skip_translation: true
+
+- text: "NL~?o"
+  translation: "NL~?o"
+  skip_translation: true
+
+- text: "AL7!"
+  translation: ""
+
+- text: "AGr"
+  translation: "AGr"
+  skip_translation: true
+
+- text: "F5Plw?"
+  translation: ""
+
+- text: ".W?&I"
+  translation: ".W?&I"
+  skip_translation: true
+
+- text: "A!=H"
+  translation: "A!=H"
+  skip_translation: true
+
+- text: "A0%CA"
+  translation: ""
+
+- text: "A?u"
+  translation: "A?u"
+  skip_translation: true
+
+- text: "Oj\"="
+  translation: ""
+
+- text: "_\\AR"
+  translation: "_\\\\AR"
+  skip_translation: true
+
+- text: "Pj\"=^M"
+  translation: "Pj\\"
+  skip_translation: true
+
+- text: "Pj\"="
+  translation: "Pj\\"
+  skip_translation: true
+
+- text: "Z?t)6?"
+  translation: "Z?t)6?"
+  skip_translation: true
+
+- text: "Y?gf&?"
+  translation: "Y?gf&?"
+  skip_translation: true
+
+- text: "GEA"
+  translation: "GEA"
+  skip_translation: true
+
+- text: "Y?)\\O?"
+  translation: "Y?)\\O?"
+  skip_translation: true
+
+- text: "@(U@R"
+  translation: "@(U@R"
+  skip_translation: true
+
+- text: "g@ A"
+  translation: "g@ A"
+  skip_translation: true
+
+- text: "Fatality Imminent"
+  translation: ""
+
+- text: "Wait for events"
+  translation: ""
+
+- text: "Add int and check"
+  translation: ""
+
+- text: "Remove int"
+  translation: ""
+
+- text: "OnSparkle"
+  translation: ""
+
+- text: "Reset int"
+  translation: ""
+
+- text: "SparkleCount"
+  translation: ""
+
+- text: "SparklesNeeded"
+  translation: ""
+
+- text: "Is Sarah with us?"
+  translation: ""
+
+- text: "Play solo dialogue"
+  translation: ""
+
+- text: "Do we have Sarah?"
+  translation: ""
+
+- text: "TdC"
+  translation: "TdC"
+  skip_translation: true
+
+- text: "Start Dialogue Repeat"
+  translation: ""
+
+- text: "Did we peek?"
+  translation: ""
+
+- text: "Wait for trigger enter"
+  translation: ""
+
+- text: "Wait for trigger exit"
+  translation: ""
+
+- text: "Masturbate"
+  translation: ""
+
+- text: "Play masturbate dialogue"
+  translation: ""
+
+- text: "IgnoreOverwhelm"
+  translation: ""
+
+- text: "OnMasturbate"
+  translation: ""
+
+- text: "Wait for orgasm"
+  translation: ""
+
+- text: "Play orgasm dialogue"
+  translation: ""
+
+- text: "OnOrgasm"
+  translation: ""
+
+- text: "Set save key"
+  translation: ""
+
+- text: "Give cozy clothes"
+  translation: ""
+
+- text: "Unlock door and wait for trigger"
+  translation: ""
+
+- text: "Complete mission"
+  translation: ""
+
+- text: "Disable Turn Off Music"
+  translation: ""
+
+- text: "Back to regular Music"
+  translation: ""
+
+- text: "Missed"
+  translation: ""
+
+- text: "Reset to default Music"
+  translation: ""
+
+- text: "Is light toggled?"
+  translation: ""
+
+- text: "Swap"
+  translation: "Swap"
+  skip_translation: true
+
+- text: "Wait for savekey"
+  translation: ""
+
+- text: "Send call"
+  translation: ""
+
+- text: "Add choice to mailbox"
+  translation: ""
+
+- text: "Start bark"
+  translation: ""
+
+- text: "bark 2"
+  translation: ""
+
+- text: "You have now heard the guards"
+  translation: ""
+
+- text: "What was it? Brain Burn?"
+  translation: ""
+
+- text: "bark 3"
+  translation: ""
+
+- text: "bark 4"
+  translation: ""
+
+- text: "bark 5"
+  translation: ""
+
+- text: "Do we have the task to go to leave apartment?"
+  translation: ""
+
+- text: "Activate interactables"
+  translation: ""
+
+- text: "CloseMailbox"
+  translation: ""
+
+- text: "OpenMailbox"
+  translation: ""
+
+- text: "TimeTrigger"
+  translation: ""
+
+- text: "Did we complete the nail salon quest?"
+  translation: ""
+
+- text: "OverdueRent"
+  translation: ""
+
+- text: "Chapter popup"
+  translation: ""
+
+- text: "VlC"
+  translation: "VlC"
+  skip_translation: true
+
+- text: "Do we have the task to shower?"
+  translation: ""
+
+- text: "Do anim"
+  translation: ""
+
+- text: "Is Sarah taking shower?"
+  translation: ""
+
+- text: "ShowerOn"
+  translation: ""
+
+- text: "Shower on"
+  translation: ""
+
+- text: "Undress Sarah"
+  translation: ""
+
+- text: "Shower Sarah"
+  translation: ""
+
+- text: "Masturbate Sarah"
+  translation: ""
+
+- text: "Flip bool"
+  translation: ""
+
+- text: "Is the mission in progress?"
+  translation: ""
+
+- text: "Activate character"
+  translation: ""
+
+- text: "Wait for task to leave"
+  translation: ""
+
+- text: "Sit character up"
+  translation: ""
+
+- text: "Deactivate character"
+  translation: ""
+
+- text: "Activate masturbation on Sarah"
+  translation: ""
+
+- text: "Did we already walk in?"
+  translation: ""
+
+- text: "Activate peeking"
+  translation: ""
+
+- text: "Play walk in cutscene"
+  translation: ""
+
+- text: "Set walk in save key"
+  translation: ""
+
+- text: "XIB"
+  translation: "XIB"
+  skip_translation: true
+
+- text: "Play excuse dialogue"
+  translation: ""
+
+- text: "Start mission + add jaime to party"
+  translation: ""
+
+- text: "Is window toggled?"
+  translation: ""
+
+- text: "Show real window"
+  translation: ""
+
+- text: "Show fake window"
+  translation: ""
+
+- text: "VtC"
+  translation: "VtC"
+  skip_translation: true
+
+- text: "HAJ_Interaction"
+  translation: ""
+
+- text: "Spam_CUM"
+  translation: ""
+
+- text: "Did we masturbate?"
+  translation: ""
+
+- text: "Set savekey"
+  translation: ""
+
+- text: "Unlock pinup"
+  translation: ""
+
+- text: "Play post masturbate dialogue"
+  translation: ""
+
+- text: "Reenable"
+  translation: ""
+
+- text: "GoAway"
+  translation: ""
+
+- text: "Set key and destroy"
+  translation: ""
+
+- text: "Deactivate guy"
+  translation: ""
+
+- text: "Fade again"
+  translation: ""
+
+- text: "Pick up headset"
+  translation: ""
+
+- text: "Headset poof"
+  translation: ""
+
+- text: "Start mission"
+  translation: ""
+
+- text: "headset save key"
+  translation: ""
+
+- text: "Is Cal in progress?"
+  translation: ""
+
+- text: "Miss Cal"
+  translation: ""
+
+- text: "Is Nova in progress?"
+  translation: ""
+
+- text: "Miss Nova"
+  translation: ""
+
+- text: "Miss slut service"
+  translation: ""
+
+- text: "Activate interactable and wait"
+  translation: ""
+
+- text: "Also Danger Music"
+  translation: ""
+
+- text: "Check"
+  translation: "Check"
+  skip_translation: true
+
+- text: "Are we checking or looking for code?"
+  translation: ""
+
+- text: "Play dialogue and show keypad"
+  translation: ""
+
+- text: "Fail"
+  translation: ""
+
+- text: "Fail dialogue"
+  translation: ""
+
+- text: "Keypad_Combo"
+  translation: ""
+
+- text: "StopMusic"
+  translation: ""
+
+- text: "Activate kitty"
+  translation: ""
+
+- text: "Give item"
+  translation: ""
+
+- text: "Is Jamie alive?"
+  translation: ""
+
+- text: "Alive"
+  translation: ""
+
+- text: "Did we do enough of the main story?"
+  translation: ""
+
+- text: "Dead"
+  translation: ""
+
+- text: "Have we heard the guards?"
+  translation: ""
+
+- text: "Activate mission Jaime"
+  translation: ""
+
+- text: "Activate moving stuff"
+  translation: ""
+
+- text: "Do we have the second Jaime quest?"
+  translation: ""
+
+- text: "Activate post-mission Jaime"
+  translation: ""
+
+- text: "turn on no smoking sign"
+  translation: ""
+
+- text: "heard 'em"
+  translation: ""
+
+- text: "Did we already display them?"
+  translation: ""
+
+- text: "Is the mission failed?"
+  translation: ""
+
+- text: "Have we seen the guards?"
+  translation: ""
+
+- text: "Enable the characters"
+  translation: ""
+
+- text: "DidDisplay"
+  translation: ""
+
+- text: "we have not"
+  translation: ""
+
+- text: "we have"
+  translation: ""
+
+- text: "Is in Party with Sarah?"
+  translation: ""
+
+- text: "Force move to"
+  translation: ""
+
+- text: "Play animation"
+  translation: ""
+
+- text: "Restrict things"
+  translation: ""
+
+- text: "Groping"
+  translation: ""
+
+- text: "Add perversion 2"
+  translation: ""
+
+- text: "ShowerOff"
+  translation: ""
+
+- text: "Activate and wait for interactable"
+  translation: ""
+
+- text: "Confirmation dialogue"
+  translation: ""
+
+- text: "Lockpicking"
+  translation: ""
+
+- text: "Start cutscene"
+  translation: ""
+
+- text: "TurnOn"
+  translation: ""
+
+- text: "Activated"
+  translation: ""
+
+- text: "TurnOff"
+  translation: ""
+
+- text: "Do hack"
+  translation: ""
+
+- text: "Play success"
+  translation: ""
+
+- text: "Difficulty"
+  translation: ""
+
+- text: "OnFail"
+  translation: ""
+
+- text: "Do ending cutscene"
+  translation: ""
+
+- text: "Is the salon quest complete?"
+  translation: ""
+
+- text: "Enable the character"
+  translation: ""
+
+- text: "C0A"
+  translation: "C0A"
+  skip_translation: true
+
+- text: "Resync"
+  translation: ""
+
+- text: "Do we have the mission done?"
+  translation: ""
+
+- text: "Do we need the item?"
+  translation: ""
+
+- text: "[Subject: Appreciation Bundle]"
+  translation: "[Subject: Appreciation Bundle]"
+  skip_translation: true
+
+- text: "Give items"
+  translation: ""
+
+- text: "Sit"
+  translation: ""
+
+- text: "Did we already do this cutscene?"
+  translation: ""
+
+- text: "Data_Key"
+  translation: ""
+
+- text: "Data_Value"
+  translation: ""
+
+- text: "Fade screen 2"
+  translation: ""
+
+- text: "CutsceneZoom"
+  translation: ""
+
+- text: "Dress her Working Cloth"
+  translation: ""
+
+- text: "Do we have the DLC?"
+  translation: ""
+
+- text: "Do we need to give the items?"
+  translation: ""
+
+- text: "IsInstalled"
+  translation: ""
+
+- text: "Add the choice"
+  translation: ""
+
+- text: "Give the items"
+  translation: ""
+
+- text: "KeepUnchanged"
+  translation: ""
+
+- text: "StoreToSaveFile"
+  translation: ""
+
+- text: "ResetOnLeave"
+  translation: ""
+
+- text: "Activate Gameobject"
+  translation: ""
+
+- text: "ExitFail"
+  translation: ""
+
+- text: "Wait for exit fail"
+  translation: ""
+
+- text: "Did we place the parcel?"
+  translation: ""
+
+- text: "Is the task in progress?"
+  translation: ""
+
+- text: "Place item"
+  translation: ""
+
+- text: "Turn off Music"
+  translation: ""
+
+- text: "Wait for task to be in progress"
+  translation: ""
+
+- text: "Wait for task to complete"
+  translation: ""
+
+- text: "Did we do the nail salon?"
+  translation: ""
+
+- text: "Activate the interactable"
+  translation: ""
+
+- text: "Confirmation"
+  translation: ""
+
+- text: "Dress Zoey up"
+  translation: ""
+
+- text: "Dress Sarah up"
+  translation: ""
+
+- text: "Add Sarah"
+  translation: ""
+
+- text: "Choice to inspect or talk"
+  translation: ""
+
+- text: "Inspecting Jaime"
+  translation: ""
+
+- text: "Leaving"
+  translation: ""
+
+- text: "Respond to Jaime"
+  translation: ""
+
+- text: "VA_1_Timer"
+  translation: ""
+
+- text: "Hide timer"
+  translation: ""
+
+- text: "Play fail cutscene"
+  translation: ""
+
+- text: "Fail the mission"
+  translation: ""
+
+- text: "Wait 15s"
+  translation: ""
+
+- text: "Also turn of Music"
+  translation: ""
+
+- text: "IsForced"
+  translation: ""
+
+- text: "Should we activate?"
+  translation: ""
+
+- text: "Play the dialogue"
+  translation: ""
+
+- text: "Did we call Sarah?"
+  translation: ""
+
+- text: "Set the tasks"
+  translation: ""
+
+- text: "Play the dialogue 2"
+  translation: ""
+
+- text: "Play the dialogue 3"
+  translation: ""
+
+- text: "Open phone 2"
+  translation: ""
+
+- text: "Wait for Interaction with Shower"
+  translation: ""
+
+- text: "Start shower cutscene"
+  translation: ""
+
+- text: "Play shower minigame"
+  translation: ""
+
+- text: "Play smoking anim"
+  translation: ""
+
+- text: "Go to level"
+  translation: ""
+
+- text: "WaitForSleep"
+  translation: ""
+
+- text: "Slow fade"
+  translation: ""
+
+- text: "Strip"
+  translation: "Strip"
+  skip_translation: true
+
+- text: "Play loop dialogue"
+  translation: ""
+
+- text: "Sarah dialogue"
+  translation: ""
+
+- text: "Do we have the bunnysuit?"
+  translation: ""
+
+- text: "Solo dialogue"
+  translation: ""
+
+- text: "Bunnysuit reaction"
+  translation: ""
+
+- text: "Dialogue repeat"
+  translation: ""
+
+- text: "Set Key"
+  translation: ""
+
+- text: "XkB"
+  translation: "XkB"
+  skip_translation: true
+
+- text: "Set time"
+  translation: ""
+
+- text: "Did we choose to peek?"
+  translation: ""
+
+- text: "Do peek"
+  translation: ""
+
+- text: "Ask to peek"
+  translation: ""
+
+- text: "Set stats"
+  translation: ""
+
+- text: "Take a shower?"
+  translation: ""
+
+- text: "Start a shower"
+  translation: ""
+
+- text: "Rounds"
+  translation: ""
+
+- text: "CanCancel"
+  translation: ""
+
+- text: "Leave cutscene"
+  translation: ""
+
+- text: "Redress"
+  translation: ""
+
+- text: "Did Sarah Sleep?"
+  translation: ""
+
+- text: "Is Unlockable"
+  translation: ""
+
+- text: "Activate Pinup Pickup"
+  translation: ""
+
+- text: "ToFlat"
+  translation: ""
+
+- text: "Walk to target"
+  translation: ""
+
+- text: "Play reject dialogue"
+  translation: ""
+
+- text: "not ready"
+  translation: ""
+
+- text: "Is the nail salon mission done?"
+  translation: ""
+
+- text: "Enable the interactable"
+  translation: ""
+
+- text: "Do we need to do the intro?"
+  translation: ""
+
+- text: "Did we arrive from the intro?"
+  translation: ""
+
+- text: "Do intro cutscene"
+  translation: ""
+
+- text: "Do we have banana?"
+  translation: ""
+
+- text: "Lock Zoey and play anim for a bit"
+  translation: ""
+
+- text: "PlayerHandler"
+  translation: ""
+
+- text: "Hide this"
+  translation: ""
+
+- text: "Stop anim"
+  translation: ""
+
+- text: "T@ o#?"
+  translation: "T@ o#?"
+  skip_translation: true
+
+- text: "R@pv??"
+  translation: "R@pv??"
+  skip_translation: true
+
+- text: "O@pz:?"
+  translation: "O@pz:?"
+  skip_translation: true
+
+- text: "N@@w/?"
+  translation: "N@@w/?"
+  skip_translation: true
+
+- text: "Purr sound"
+  translation: ""
+
+- text: "Solo"
+  translation: ""
+
+- text: "Is Sarah here?"
+  translation: ""
+
+- text: "Fix a bug where jaimes bathroom door is locked"
+  translation: ""
+
+- text: "this door was getting locked too lol"
+  translation: ""
+
+- text: "R\"@o"
+  translation: "R\\"
+  skip_translation: true
+
+- text: "B?Qk"
+  translation: "B?Qk"
+  skip_translation: true
+
+- text: "$CUU"
+  translation: "$CUU"
+  skip_translation: true
+
+- text: "ZoeyApartment"
+  translation: ""
+
+- text: "Play random sound"
+  translation: ""
+
+- text: "Reactivate"
+  translation: ""
+
+- text: "Wait a frame6"
+  translation: ""
+
+- text: "Play music"
+  translation: ""
+
+- text: "Is it toggled?"
+  translation: ""
+
+- text: "U`D"
+  translation: "U`D"
+  skip_translation: true
+
+- text: "Wc2"
+  translation: "Wc2"
+  skip_translation: true
+
+- text: "Ts!"
+  translation: "Ts!"
+  skip_translation: true
+
+- text: "M[3w@"
+  translation: "M[3w@"
+  skip_translation: true
+
+- text: "P?dX"
+  translation: "P?dX"
+  skip_translation: true
+
+- text: "Zm?H"
+  translation: "Zm?H"
+  skip_translation: true
+
+- text: "B=o"
+  translation: "B=o"
+  skip_translation: true
+
+- text: "B=n"
+  translation: "B=n"
+  skip_translation: true
+
+- text: "Ac*N"
+  translation: "Ac*N"
+  skip_translation: true
+
+- text: "P?j"
+  translation: "P?j"
+  skip_translation: true
+
+- text: "Dx?"
+  translation: "Dx?"
+  skip_translation: true
+
+- text: "Dx?P"
+  translation: "Dx?P"
+  skip_translation: true
+
+- text: "N?f"
+  translation: "N?f"
+  skip_translation: true
+
+- text: "S?,U"
+  translation: "S?,U"
+  skip_translation: true
+
+- text: "Xc2"
+  translation: "Xc2"
+  skip_translation: true
+

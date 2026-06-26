@@ -1,0 +1,1281 @@
+# raw (level5)
+
+- text: "bokeh blur"
+  translation: ""
+
+- text: "TopWall_2"
+  translation: ""
+
+- text: "PlayerSeat"
+  translation: ""
+
+- text: "SitDownPos"
+  translation: ""
+
+- text: "Nailsalon_Floor"
+  translation: ""
+
+- text: "Show Backroom Cutscene"
+  translation: ""
+
+- text: "Nailsalon_Stage"
+  translation: ""
+
+- text: "Table Light"
+  translation: ""
+
+- text: "Machinery Arms"
+  translation: ""
+
+- text: "Servers Interaction"
+  translation: ""
+
+- text: "Shadow_4"
+  translation: "Shadow_4"
+  skip_translation: true
+
+- text: "Nails Area Light"
+  translation: ""
+
+- text: "Props_4"
+  translation: "Props_4"
+  skip_translation: true
+
+- text: "Props_3"
+  translation: "Props_3"
+  skip_translation: true
+
+- text: "Old"
+  translation: ""
+
+- text: "Tint Light"
+  translation: ""
+
+- text: "Shadow_6"
+  translation: "Shadow_6"
+  skip_translation: true
+
+- text: "Vending Machine Light"
+  translation: ""
+
+- text: "Drinks Light"
+  translation: ""
+
+- text: "Cypher_Intro"
+  translation: ""
+
+- text: "Particles"
+  translation: ""
+
+- text: "StandUpPos"
+  translation: ""
+
+- text: "Wall cable"
+  translation: ""
+
+- text: "Follower_Sarah"
+  translation: ""
+
+- text: "Transition To Residential"
+  translation: ""
+
+- text: "Background Sound"
+  translation: ""
+
+- text: "ApprouchTrigger"
+  translation: ""
+
+- text: "TopWall_Corner"
+  translation: ""
+
+- text: "Shadow_2"
+  translation: "Shadow_2"
+  skip_translation: true
+
+- text: "SurfaceRenderer"
+  translation: ""
+
+- text: "PervGain"
+  translation: ""
+
+- text: "Shadow_3"
+  translation: "Shadow_3"
+  skip_translation: true
+
+- text: "Enter and Exit Logic"
+  translation: ""
+
+- text: "Reflection Light"
+  translation: ""
+
+- text: "Wall_Prop"
+  translation: ""
+
+- text: "FloorPatch"
+  translation: ""
+
+- text: "Massage Stalls"
+  translation: ""
+
+- text: "MiddlePart"
+  translation: ""
+
+- text: "Intro_PostNails"
+  translation: ""
+
+- text: "Character2"
+  translation: ""
+
+- text: "AlleyFuckers"
+  translation: ""
+
+- text: "Intro_NailSalon"
+  translation: ""
+
+- text: "Clerk Area Lighting"
+  translation: ""
+
+- text: "TableTop"
+  translation: ""
+
+- text: "NN Exterior Puddle post processing"
+  translation: ""
+
+- text: "Hum"
+  translation: ""
+
+- text: "Global Light 2D"
+  translation: ""
+
+- text: "PreTalk"
+  translation: ""
+
+- text: "Robos"
+  translation: ""
+
+- text: "Fake Lights"
+  translation: ""
+
+- text: "BackroomTrigger"
+  translation: ""
+
+- text: "Clerk Table Light"
+  translation: ""
+
+- text: "SarahLeaveParty"
+  translation: ""
+
+- text: "IntroMusic"
+  translation: ""
+
+- text: "PerversionCheck"
+  translation: ""
+
+- text: "BottomPart"
+  translation: ""
+
+- text: "RightBottom"
+  translation: ""
+
+- text: "TopWallCorner"
+  translation: ""
+
+- text: "LightProps"
+  translation: ""
+
+- text: "BackGround"
+  translation: ""
+
+- text: "Props_2"
+  translation: "Props_2"
+  skip_translation: true
+
+- text: "Evil Room"
+  translation: ""
+
+- text: "Record Equipment"
+  translation: ""
+
+- text: "TopWall_Fix"
+  translation: ""
+
+- text: "Entrance_Fade"
+  translation: ""
+
+- text: "Main Room"
+  translation: ""
+
+- text: "Shadow_5"
+  translation: "Shadow_5"
+  skip_translation: true
+
+- text: "Props_1"
+  translation: "Props_1"
+  skip_translation: true
+
+- text: "Nail Salon Black Fade Cover"
+  translation: ""
+
+- text: "FinishCutscene"
+  translation: ""
+
+- text: "Bottom_Table"
+  translation: ""
+
+- text: "Patches"
+  translation: ""
+
+- text: "Glitter Idea"
+  translation: ""
+
+- text: "Robo"
+  translation: ""
+
+- text: "Global Area Light"
+  translation: ""
+
+- text: "Wall cable Shadow"
+  translation: ""
+
+- text: "Dirt"
+  translation: "Dirt"
+  skip_translation: true
+
+- text: "Secret Backroom Black Fade Cover"
+  translation: ""
+
+- text: "Lightstrips Animations"
+  translation: ""
+
+- text: "PostSex"
+  translation: ""
+
+- text: "Floor Markings"
+  translation: ""
+
+- text: "Intro_PostDrink"
+  translation: ""
+
+- text: "Backrooms"
+  translation: ""
+
+- text: "Plastic Curtain Highlight"
+  translation: ""
+
+- text: "Shutter_Small"
+  translation: ""
+
+- text: "Right Pillar"
+  translation: ""
+
+- text: "Left Black Square"
+  translation: ""
+
+- text: "Clerk"
+  translation: "Clerk"
+  skip_translation: true
+
+- text: "Customer1"
+  translation: ""
+
+- text: "Character6"
+  translation: ""
+
+- text: "Character5"
+  translation: ""
+
+- text: "Massage Customer"
+  translation: ""
+
+- text: "Character4"
+  translation: ""
+
+- text: "Gal"
+  translation: ""
+
+- text: "Character1"
+  translation: ""
+
+- text: "Character3"
+  translation: ""
+
+- text: "Massage Towel 4"
+  translation: ""
+
+- text: "StaffOnly_Sign"
+  translation: ""
+
+- text: "Plastic Curtain Curtain"
+  translation: ""
+
+- text: "Location Copy"
+  translation: ""
+
+- text: "Plastic Curtain Regular"
+  translation: ""
+
+- text: "Massage Towel 3 Shadow"
+  translation: ""
+
+- text: "Plastic Curtain Holder"
+  translation: ""
+
+- text: "Split Screen"
+  translation: ""
+
+- text: "Massage Stall Left"
+  translation: ""
+
+- text: "Massage Candle"
+  translation: ""
+
+- text: "Massage Bed"
+  translation: ""
+
+- text: "Rod Center"
+  translation: ""
+
+- text: "Plastic Curtain Rotated 3"
+  translation: ""
+
+- text: "Rod"
+  translation: ""
+
+- text: "Massage Towel 2"
+  translation: ""
+
+- text: "Moveable Door Container"
+  translation: ""
+
+- text: "Sigh"
+  translation: "Sigh"
+  skip_translation: true
+
+- text: "Bottom_Back"
+  translation: ""
+
+- text: "Bottom_Front"
+  translation: ""
+
+- text: "Canvas - Split Screen Camera"
+  translation: ""
+
+- text: "Massage Candle Shadow"
+  translation: ""
+
+- text: "Hand_FakeLight"
+  translation: ""
+
+- text: "Confused"
+  translation: ""
+
+- text: "Shadow Location Copy"
+  translation: ""
+
+- text: "FakeLight_1"
+  translation: ""
+
+- text: "Open Collision"
+  translation: ""
+
+- text: "TableTop_Back"
+  translation: ""
+
+- text: "Right Back Wall"
+  translation: ""
+
+- text: "Plastic Curtain Rotated 4"
+  translation: ""
+
+- text: "Raw Image Camera Image"
+  translation: ""
+
+- text: "Back Wall Center"
+  translation: ""
+
+- text: "Rod Shadow Left"
+  translation: ""
+
+- text: "Sparkler 02_No_Loop"
+  translation: ""
+
+- text: "Massage Towel 2 Shadow"
+  translation: ""
+
+- text: "Hanging Pieces"
+  translation: ""
+
+- text: "Massage Bed Shadow"
+  translation: ""
+
+- text: "Rod Shadow Right"
+  translation: ""
+
+- text: "Body"
+  translation: ""
+
+- text: "Massage Towel 1"
+  translation: ""
+
+- text: "NailSalon_Glass"
+  translation: ""
+
+- text: "Left Back Wall"
+  translation: ""
+
+- text: "Catface"
+  translation: ""
+
+- text: "Massage Towel 1 Shadow"
+  translation: ""
+
+- text: "2d Pivot Parent"
+  translation: ""
+
+- text: "Left Pillar"
+  translation: ""
+
+- text: "Rod Holder Right"
+  translation: ""
+
+- text: "Rod Shadow Center"
+  translation: ""
+
+- text: "2d Pivot"
+  translation: ""
+
+- text: "Arms"
+  translation: "Arms"
+  skip_translation: true
+
+- text: "Salon Robo"
+  translation: ""
+
+- text: "Massage Towel 3"
+  translation: ""
+
+- text: "Rod Holder Left"
+  translation: ""
+
+- text: "Bluescreen"
+  translation: ""
+
+- text: "Pad"
+  translation: ""
+
+- text: "Cry"
+  translation: ""
+
+- text: "Plastic Curtain Rotated 1"
+  translation: ""
+
+- text: "PinupPickup - Hello Gorgeous"
+  translation: ""
+
+- text: "PinupPickup - Zoey and Sarah Photos"
+  translation: ""
+
+- text: "Massage Towel 4 Shadow"
+  translation: ""
+
+- text: "Right Black Square"
+  translation: ""
+
+- text: "Plastic Curtain Rotated 2"
+  translation: ""
+
+- text: "Massage Stall Right"
+  translation: ""
+
+- text: "Collision"
+  translation: ""
+
+- text: "Shadow_1"
+  translation: "Shadow_1"
+  skip_translation: true
+
+- text: "Nailsalon_Carpet_2 1"
+  translation: ""
+
+- text: "Nailsalon_Bell"
+  translation: ""
+
+- text: "Moveable Door"
+  translation: ""
+
+- text: "NN Exterior Puddle"
+  translation: ""
+
+- text: "Massage Customer Spine GameObject"
+  translation: ""
+
+- text: "Max Spine GameObject"
+  translation: ""
+
+- text: "Split Screen Camera"
+  translation: ""
+
+- text: "Split Screen Separator"
+  translation: ""
+
+- text: "L@,\\O"
+  translation: "L@,\\O"
+  skip_translation: true
+
+- text: "Tv2"
+  translation: "Tv2"
+  skip_translation: true
+
+- text: "O%AV"
+  translation: "O%AV"
+  skip_translation: true
+
+- text: "TkA"
+  translation: "TkA"
+  skip_translation: true
+
+- text: "A-_?T"
+  translation: "A-_?T"
+  skip_translation: true
+
+- text: "A-_?\\d"
+  translation: "A-_?\\d"
+  skip_translation: true
+
+- text: "5AT?5AT?5AT?"
+  translation: ""
+
+- text: "J#A"
+  translation: "J#A"
+  skip_translation: true
+
+- text: "Ko@"
+  translation: "Ko@"
+  skip_translation: true
+
+- text: "2APG"
+  translation: "2APG"
+  skip_translation: true
+
+- text: "JVA"
+  translation: "JVA"
+  skip_translation: true
+
+- text: "@[*5@EG"
+  translation: "@[*5@EG"
+  skip_translation: true
+
+- text: "A[g"
+  translation: "A[g"
+  skip_translation: true
+
+- text: "I(A"
+  translation: "I(A"
+  skip_translation: true
+
+- text: "G9A"
+  translation: "G9A"
+  skip_translation: true
+
+- text: "1APG"
+  translation: "1APG"
+  skip_translation: true
+
+- text: "Av]"
+  translation: "Av]"
+  skip_translation: true
+
+- text: "OU@\\"
+  translation: "OU@\\\\"
+  skip_translation: true
+
+- text: "A?5RA"
+  translation: "A?5RA"
+  skip_translation: true
+
+- text: "I@X9(A"
+  translation: "I@X9(A"
+  skip_translation: true
+
+- text: "Zd@PG"
+  translation: "Zd@PG"
+  skip_translation: true
+
+- text: "A(A"
+  translation: "A(A"
+  skip_translation: true
+
+- text: ")APG"
+  translation: ")APG"
+  skip_translation: true
+
+- text: "9EW?"
+  translation: ""
+
+- text: "Q4A"
+  translation: "Q4A"
+  skip_translation: true
+
+- text: "A#r"
+  translation: "A#r"
+  skip_translation: true
+
+- text: "?33'AH"
+  translation: "?33'AH"
+  skip_translation: true
+
+- text: ".APG"
+  translation: ".APG"
+  skip_translation: true
+
+- text: "Ck?"
+  translation: "Ck?"
+  skip_translation: true
+
+- text: "Mr@"
+  translation: "Mr@"
+  skip_translation: true
+
+- text: "F_i?F_i?F_i?"
+  translation: "F_i?F_i?F_i?"
+  skip_translation: true
+
+- text: "-APG"
+  translation: "-APG"
+  skip_translation: true
+
+- text: "EWA"
+  translation: "EWA"
+  skip_translation: true
+
+- text: "A@i"
+  translation: "A@i"
+  skip_translation: true
+
+- text: "\"WA"
+  translation: "\\"
+  skip_translation: true
+
+- text: "9IA"
+  translation: "9IA"
+  skip_translation: true
+
+- text: "Qv?,\\8?"
+  translation: "Qv?,\\\\8?"
+  skip_translation: true
+
+- text: "AN?"
+  translation: "AN?"
+  skip_translation: true
+
+- text: "Gc="
+  translation: "Gc="
+  skip_translation: true
+
+- text: "R?v"
+  translation: "R?v"
+  skip_translation: true
+
+- text: "Wait for Task"
+  translation: ""
+
+- text: "PC Interacted"
+  translation: ""
+
+- text: "$2CUU"
+  translation: "$2CUU"
+  skip_translation: true
+
+- text: "Check Tasks"
+  translation: ""
+
+- text: "Dialogue Finished"
+  translation: ""
+
+- text: "No Task"
+  translation: ""
+
+- text: "Wait for sit"
+  translation: ""
+
+- text: "Sat"
+  translation: ""
+
+- text: "Strip pants and play dialogue"
+  translation: ""
+
+- text: "Wait for unsit"
+  translation: ""
+
+- text: "UnSat"
+  translation: ""
+
+- text: "Redress and play dialogue"
+  translation: ""
+
+- text: "CacheItem"
+  translation: ""
+
+- text: "StoreItemAs"
+  translation: ""
+
+- text: "Fade out and in"
+  translation: ""
+
+- text: "Progress task"
+  translation: ""
+
+- text: "Progress"
+  translation: ""
+
+- text: "Success dialogue"
+  translation: ""
+
+- text: "Undress Man"
+  translation: ""
+
+- text: "Redress Man"
+  translation: ""
+
+- text: "Leave state to re-dress"
+  translation: ""
+
+- text: "Eh@"
+  translation: "Eh@"
+  skip_translation: true
+
+- text: "W@t*%"
+  translation: "W@t*%"
+  skip_translation: true
+
+- text: "Is task In Progress?"
+  translation: ""
+
+- text: "B@x"
+  translation: "B@x"
+  skip_translation: true
+
+- text: "Add Max to Party"
+  translation: ""
+
+- text: "Chair Interaction"
+  translation: ""
+
+- text: "Chair Cutscene"
+  translation: ""
+
+- text: "Update Tasks"
+  translation: ""
+
+- text: "A?0Q"
+  translation: "A?0Q"
+  skip_translation: true
+
+- text: "Picture dialogue"
+  translation: ""
+
+- text: "IsShaking"
+  translation: ""
+
+- text: "StartBotShake"
+  translation: ""
+
+- text: "Qy?"
+  translation: "Qy?"
+  skip_translation: true
+
+- text: "Enable robos and wait for complete"
+  translation: ""
+
+- text: "Fade in and out"
+  translation: ""
+
+- text: "Deactivate robos"
+  translation: ""
+
+- text: "Set new task"
+  translation: ""
+
+- text: "Play pre-dialogue"
+  translation: ""
+
+- text: "BE?"
+  translation: "BE?"
+  skip_translation: true
+
+- text: "Reflections"
+  translation: ""
+
+- text: "Obstructors"
+  translation: ""
+
+- text: "P@Xyz"
+  translation: "P@Xyz"
+  skip_translation: true
+
+- text: "Wu?"
+  translation: "Wu?"
+  skip_translation: true
+
+- text: "Wait for item"
+  translation: ""
+
+- text: "Remove choice"
+  translation: ""
+
+- text: "Wait for try exit"
+  translation: ""
+
+- text: "TryLeave"
+  translation: ""
+
+- text: "ToOutsideN"
+  translation: ""
+
+- text: "ToNailSalon"
+  translation: ""
+
+- text: "Did Zoey enter from the front?"
+  translation: ""
+
+- text: "First Start Cutscene"
+  translation: ""
+
+- text: "Update Savekey"
+  translation: ""
+
+- text: "BUUYC"
+  translation: "BUUYC"
+  skip_translation: true
+
+- text: "Start Sidequest"
+  translation: ""
+
+- text: "Nail Salon Keys/StaffOnlyDoorUnlocked"
+  translation: ""
+
+- text: "K'A1"
+  translation: "K'A1"
+  skip_translation: true
+
+- text: "Q?oe"
+  translation: "Q?oe"
+  skip_translation: true
+
+- text: "Play Dialogue 1"
+  translation: ""
+
+- text: "Dialogue over"
+  translation: ""
+
+- text: "R%CUU"
+  translation: "R%CUU"
+  skip_translation: true
+
+- text: "Top off?"
+  translation: ""
+
+- text: "Cypher_TopOff"
+  translation: ""
+
+- text: "Wait for trigger leave"
+  translation: ""
+
+- text: "IsEquipped"
+  translation: ""
+
+- text: "Add perversion"
+  translation: ""
+
+- text: "Wait 1 Frame for Player to be positioned"
+  translation: ""
+
+- text: "Entered Secret Backroom"
+  translation: ""
+
+- text: "Salon_EvilRoom"
+  translation: ""
+
+- text: "FadeChildren"
+  translation: ""
+
+- text: "Exited Secret Backroom"
+  translation: ""
+
+- text: "Backroom Trigger"
+  translation: ""
+
+- text: "Jam Discover Trigger"
+  translation: ""
+
+- text: "Confrontation Cutscene"
+  translation: ""
+
+- text: "FCUU1C"
+  translation: ""
+
+- text: "Do we have the task to enter the nail salon?"
+  translation: ""
+
+- text: "Did we wait or race?"
+  translation: ""
+
+- text: "Activate the music"
+  translation: ""
+
+- text: "Start wait cutscene"
+  translation: ""
+
+- text: "Race"
+  translation: ""
+
+- text: "Start after race cutscene"
+  translation: ""
+
+- text: "Is Task Complete?"
+  translation: ""
+
+- text: "Add tell choice"
+  translation: ""
+
+- text: "Start dialogue with Max"
+  translation: ""
+
+- text: "TellAboutJam"
+  translation: ""
+
+- text: "Fade out & in"
+  translation: ""
+
+- text: "PC Interaction"
+  translation: ""
+
+- text: "Cleanup Cutscene"
+  translation: ""
+
+- text: "Start dialogue with Max 2"
+  translation: ""
+
+- text: "A,C A"
+  translation: "A,C A"
+  skip_translation: true
+
+- text: "Did Zoey enter from the tunnel?"
+  translation: ""
+
+- text: "PUB"
+  translation: "PUB"
+  skip_translation: true
+
+- text: "Play Cutscene"
+  translation: ""
+
+- text: "Is the salon intro mission done?"
+  translation: ""
+
+- text: "Did we talk to them yet?"
+  translation: ""
+
+- text: "Did we watch the alley sex?"
+  translation: ""
+
+- text: "Activate pretalk"
+  translation: ""
+
+- text: "Nail Salon Keys/DidSpeakWithHoloLady"
+  translation: ""
+
+- text: "Activate post sex"
+  translation: ""
+
+- text: "Nail Salon Keys/DidWatchAlleySex"
+  translation: ""
+
+- text: "Do we have the nails task?"
+  translation: ""
+
+- text: "Deactivate default characters and wait for task"
+  translation: ""
+
+- text: "Activate default characters"
+  translation: ""
+
+- text: "wK Ax"
+  translation: ""
+
+- text: "A=c"
+  translation: "A=c"
+  skip_translation: true
+
+- text: "( l@'j,"
+  translation: ""
+
+- text: "):A]`HA"
+  translation: "):A]`HA"
+  skip_translation: true
+
+- text: "BDHA"
+  translation: "BDHA"
+  skip_translation: true
+
+- text: "Timeline Trigger"
+  translation: "Timeline Trigger"
+  skip_translation: true
+
+- text: "Strip characters"
+  translation: ""
+
+- text: "CutsceneStrip"
+  translation: ""
+
+- text: "Identifier"
+  translation: ""
+
+- text: "OnTriggered"
+  translation: ""
+
+- text: "Stripn't characters"
+  translation: ""
+
+- text: "TargetCamera"
+  translation: ""
+
+- text: "MinSize"
+  translation: ""
+
+- text: "ShouldSnap"
+  translation: ""
+
+- text: "FqCVU"
+  translation: ""
+
+- text: "Check Task"
+  translation: ""
+
+- text: "Peeked once check"
+  translation: ""
+
+- text: "Nail Salon Keys/PeekedThroughWindowOnce"
+  translation: ""
+
+- text: "Move Position"
+  translation: ""
+
+- text: "Leave party"
+  translation: ""
+
+- text: "Has watched recording?"
+  translation: ""
+
+- text: "Nail Salon Keys/WatchedRecording"
+  translation: ""
+
+- text: "RaC"
+  translation: "RaC"
+  skip_translation: true
+
+- text: "Do we have enough perversion?"
+  translation: ""
+
+- text: "AmountToCheck"
+  translation: ""
+
+- text: "HookToStat"
+  translation: ""
+
+- text: "OnEquals"
+  translation: ""
+
+- text: "OnGreaterThan"
+  translation: ""
+
+- text: "OnLessThan"
+  translation: ""
+
+- text: "Nail Salon Keys/TableLadyIsStanding"
+  translation: ""
+
+- text: "Is she standing up?"
+  translation: ""
+
+- text: "Unsit"
+  translation: ""
+
+- text: "Stand up"
+  translation: ""
+
+- text: "Wait for interact"
+  translation: ""
+
+- text: "UnSit"
+  translation: ""
+
+- text: "Sit down"
+  translation: ""
+
+- text: "BCUU"
+  translation: "BCUU"
+  skip_translation: true
+
+- text: "Message choice"
+  translation: ""
+
+- text: "Watch recording dialogue"
+  translation: ""
+
+- text: "Post-Cutscene Dialogue"
+  translation: ""
+
+- text: "PqB"
+  translation: "PqB"
+  skip_translation: true
+
+- text: "Show end of Content Message"
+  translation: ""
+
+- text: "Enable Max"
+  translation: ""
+
+- text: "BUUCC"
+  translation: "BUUCC"
+  skip_translation: true
+
+- text: "Y@hw"
+  translation: "Y@hw"
+  skip_translation: true
+
+- text: "I@ X"
+  translation: "I@ X"
+  skip_translation: true
+
+- text: "CE@"
+  translation: "CE@"
+  skip_translation: true
+
+- text: "DQ@pi^"
+  translation: "DQ@pi^"
+  skip_translation: true
+
+- text: "Wait for task to take pic"
+  translation: ""
+
+- text: "Are Max's boobs out?"
+  translation: ""
+
+- text: "Play prompt dialogue"
+  translation: ""
+
+- text: "Add distract choice"
+  translation: ""
+
+- text: "Distract for Jam Selected"
+  translation: ""
+
+- text: "Distract"
+  translation: ""
+
+- text: "NMCUU/C"
+  translation: ""
+
+- text: "Enable pickup"
+  translation: ""
+
+- text: "Open your inventory to drink the cocktail!"
+  translation: ""
+
+- text: "Set mission tasks"
+  translation: ""
+
+- text: "IK?"
+  translation: "IK?"
+  skip_translation: true
+
+- text: "(CVU"
+  translation: "(CVU"
+  skip_translation: true
+
+- text: "Watch PC Recording"
+  translation: ""
+
+- text: "Pre-Cutscene Dialogue"
+  translation: ""
+
+- text: "Camera Feed Cutscene"
+  translation: ""
+
+- text: "CUU-C"
+  translation: "CUU-C"
+  skip_translation: true
+
+- text: "Close Camera"
+  translation: ""
+
+- text: "Room 1"
+  translation: ""
+
+- text: "IdleIndex"
+  translation: ""
+
+- text: "Play Random Bark"
+  translation: ""
+
+- text: "GameObjects"
+  translation: ""
+
+- text: "DisableOthers"
+  translation: ""
+
+- text: "Chose Random Bark"
+  translation: ""
+
+- text: "Bark Done"
+  translation: ""
+
+- text: "Uwaaa!"
+  translation: "Uwaaa!"
+  skip_translation: true
+
+- text: "Brrrrtt!"
+  translation: ""
+
+- text: "Has been openned once? 2"
+  translation: ""
+
+- text: "WCVU"
+  translation: "WCVU"
+  skip_translation: true
+
+- text: "Check task status"
+  translation: ""
+
+- text: "Has been openned once?"
+  translation: ""
+
+- text: "Out of order"
+  translation: ""
+
+- text: "&CUU"
+  translation: "&CUU"
+  skip_translation: true
+
+- text: "Cant enter here"
+  translation: ""
+
+- text: "LessThan"
+  translation: ""
+
+- text: "InteractedNum"
+  translation: ""
+
+- text: "How many times has Zoey interacted with this door?"
+  translation: ""
+
+- text: "ToTunnels"
+  translation: ""
+
+- text: "FromSalon"
+  translation: ""
+
+- text: "Water"
+  translation: ""
+

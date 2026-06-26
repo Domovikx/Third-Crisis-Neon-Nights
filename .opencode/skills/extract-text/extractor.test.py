@@ -78,12 +78,15 @@ def test_extract_global_strings():
         setup_test_dump(Path(tmp))
         ext.DUMP_DIR = Path(tmp) / "dump_assets"
         g = ext.extract_global_strings(ext.find_summaries())
-        assert len(g) == 3
-        assert all(isinstance(x, dict) for x in g)
-        assert all(x.get("text") for x in g)
-        keys = {x["text"] for x in g}
+        # Returns dict keyed by source file stem
+        assert isinstance(g, dict)
+        assert 'resources' in g
+        assert len(g['resources']) == 3
+        assert all(isinstance(x, dict) for x in g['resources'])
+        assert all(x.get("text") for x in g['resources'])
+        keys = {x["text"] for x in g['resources']}
         assert keys == {"Fullscreen", "Music Volume", "FPS Limit"}
-        print(f"  PASS: {len(g)} strings")
+        print(f"  PASS: {len(g)} sources, {sum(len(v) for v in g.values())} strings")
 
 
 def test_write_yaml():
@@ -472,7 +475,15 @@ def test_real_dump():
             pass  # found, good
 
     assert (ext.OUT_DIR / "speakers.yaml").exists()
-    assert (ext.OUT_DIR / "settings_keys.yaml").exists()
+    # Check new per-source structure
+    settings_dir = ext._settings_dir()
+    raw_dir = ext._raw_dir()
+    assert settings_dir.exists(), "settings/ directory should exist"
+    settings_files = list(settings_dir.glob("*.yaml"))
+    assert len(settings_files) >= 1, f"expected settings/*.yaml files, got {settings_files}"
+    raw_files = list(raw_dir.glob("*.yaml"))
+    assert len(raw_files) >= 1, f"expected raw/*.yaml files, got {raw_files}"
+
     by_pid = ext.extract_dialogues(ext.find_chunks())
     by_bundle = ext.extract_bundle_dialogues(ext.find_chunks())
     total = sum(len(v) for v in by_pid.values()) + sum(len(v) for v in by_bundle.values())
@@ -485,10 +496,12 @@ def test_real_dump():
     speakers = {d.get("speaker") for d in all_pid_entries if d.get("speaker")}
     assert len(speakers) >= 40, f"expected 40+ speakers, got {len(speakers)}"
     g = ext.extract_global_strings(ext.find_summaries())
-    assert len(g) >= 50
+    total_settings = sum(len(v) for v in g.values()) if isinstance(g, dict) else len(g)
+    assert total_settings >= 50
     assert not (dialogues_dir / ".yaml").exists()
     print(f"  PASS: {total} dialogues across {len(by_pid)} .assets + {len(by_bundle)} bundles, "
-          f"{len(speakers)} speakers, {len(g)} keys, {len(bundle_files)} bundles")
+          f"{len(speakers)} speakers, {total_settings} settings, "
+          f"{len(settings_files)} settings/ + {len(raw_files)} raw/ files")
     shutil.rmtree(tmp)
 
 
@@ -531,7 +544,9 @@ def _setup_consolidation_test(work: Path):
         '- text: "S-Shit! Haze!"\n  translation: "Ч-Чёрт!"\n  speaker: "Zoey"\n  rich_text: "S-Shit! Haze!"\n\n',
         encoding="utf-8",
     )
-    (work / "settings_keys.yaml").write_text(
+    settings_dir = work / "settings"
+    settings_dir.mkdir(parents=True, exist_ok=True)
+    (settings_dir / "test.yaml").write_text(
         '- text: "S-Shit! Haze!"\n  translation: "Ч-Чёрт!"\n\n',
         encoding="utf-8",
     )
@@ -548,8 +563,11 @@ def test_consolidate_dialogue_wins():
         dlg = yaml.safe_load(open(work / "dialogues" / "73203.yaml", encoding="utf-8"))
         assert len(dlg) == 1
         assert dlg[0]["speaker"] == "Zoey"
-        sk = yaml.safe_load(open(work / "settings_keys.yaml", encoding="utf-8"))
-        assert sk is None or len(sk) == 0
+        # Settings duplicate should be removed
+        sk_files = list((work / "settings").glob("*.yaml"))
+        if sk_files:
+            sk = yaml.safe_load(open(sk_files[0], encoding="utf-8"))
+            assert sk is None or len(sk) == 0
         print("  OK: consolidate keeps dialogue, removes settings duplicate")
 
 
@@ -559,7 +577,7 @@ def test_consolidate_settings_wins():
     The routing logic preserves dialogue context: if a dialogue file contains
     a text, that text stays in dialogues/ — even if it lacks speaker/rich_text
     fields. This prevents one-word dialogue lines like "Yes" from leaking
-    into settings_keys.yaml with empty translations.
+    into settings/ files with empty translations.
     """
     with tempfile.TemporaryDirectory() as tmp:
         work = Path(tmp)
@@ -569,7 +587,9 @@ def test_consolidate_settings_wins():
             '- text: "Just a label"\n  translation: "Просто метка"\n\n',
             encoding="utf-8",
         )
-        (work / "settings_keys.yaml").write_text(
+        settings_dir = work / "settings"
+        settings_dir.mkdir(parents=True, exist_ok=True)
+        (settings_dir / "test.yaml").write_text(
             '- text: "Just a label"\n  translation: "Просто метка"\n\n',
             encoding="utf-8",
         )
@@ -581,8 +601,10 @@ def test_consolidate_settings_wins():
         assert dlg is not None and len(dlg) == 1
         assert dlg[0]["text"] == "Just a label"
         # Settings version removed (because dialogue has it)
-        sk = yaml.safe_load(open(work / "settings_keys.yaml", encoding="utf-8"))
-        assert sk is None or len(sk) == 0
+        sk_files = list((work / "settings").glob("*.yaml"))
+        if sk_files:
+            sk = yaml.safe_load(open(sk_files[0], encoding="utf-8"))
+            assert sk is None or len(sk) == 0
         print("  OK: dialogue version wins even without speaker/rich_text")
 
 
@@ -596,7 +618,9 @@ def test_consolidate_no_duplicates():
             '- text: "Dialogue only"\n  translation: "Только диалог"\n  speaker: "A"\n\n',
             encoding="utf-8",
         )
-        (work / "settings_keys.yaml").write_text(
+        settings_dir = work / "settings"
+        settings_dir.mkdir(parents=True, exist_ok=True)
+        (settings_dir / "test.yaml").write_text(
             '- text: "Settings only"\n  translation: "Только настройка"\n\n',
             encoding="utf-8",
         )
@@ -606,16 +630,16 @@ def test_consolidate_no_duplicates():
         dlg = yaml.safe_load(open(work / "dialogues" / "1.yaml", encoding="utf-8"))
         assert len(dlg) == 1
         assert dlg[0]["text"] == "Dialogue only"
-        sk = yaml.safe_load(open(work / "settings_keys.yaml", encoding="utf-8"))
+        sk = yaml.safe_load(open(work / "settings" / "test.yaml", encoding="utf-8"))
         assert len(sk) == 1
         assert sk[0]["text"] == "Settings only"
         print("  OK: consolidate leaves unique entries untouched")
 
 
 def test_consolidate_speakers_not_in_settings():
-    """Bug fix: speakers in speakers.yaml must NOT appear in settings_keys.yaml.
+    """Bug fix: speakers in speakers.yaml must NOT appear in settings/ or raw/ files.
 
-    Otherwise settings_keys.yaml (loaded first alphabetically) seeds the runtime
+    Otherwise settings/ files (loaded first alphabetically) seed the runtime
     dictionary with empty translations, blocking speakers.yaml entries.
     """
     with tempfile.TemporaryDirectory() as tmp:
@@ -627,23 +651,28 @@ def test_consolidate_speakers_not_in_settings():
             '- text: "Zoey"\n  translation: "Зои"\n  gender: "female"\n  notes: "Главная героиня"\n\n',
             encoding="utf-8",
         )
-        # settings_keys.yaml has the same "Zoey" but EMPTY translation (from chunk UI scan)
-        (work / "settings_keys.yaml").write_text(
+        # settings/ file has the same "Zoey" but EMPTY translation (from chunk UI scan)
+        settings_dir = work / "settings"
+        settings_dir.mkdir(parents=True, exist_ok=True)
+        (settings_dir / "test.yaml").write_text(
             '- text: "Zoey"\n  translation: ""\n\n',
             encoding="utf-8",
         )
         ext.OUT_DIR = work
         ext._dialogues_dir = lambda: work / "dialogues"
         ext.consolidate_translations()
-        # "Zoey" must NOT be in settings_keys.yaml (belongs to speakers.yaml)
-        sk = yaml.safe_load(open(work / "settings_keys.yaml", encoding="utf-8"))
-        assert sk is None or all(e.get("text") != "Zoey" for e in sk), \
-            f"Zoey should be removed from settings_keys: {sk}"
+        # "Zoey" must NOT be in settings/ files (belongs to speakers.yaml)
+        sk_files = list((work / "settings").glob("*.yaml"))
+        for skf in sk_files:
+            sk = yaml.safe_load(open(skf, encoding="utf-8"))
+            if sk:
+                assert all(e.get("text") != "Zoey" for e in sk), \
+                    f"Zoey should be removed from {skf}: {sk}"
         # speakers.yaml should be untouched
         sp = yaml.safe_load(open(work / "speakers.yaml", encoding="utf-8"))
         assert len(sp) == 1
         assert sp[0]["translation"] == "Зои"
-        print("  OK: consolidate removes speakers from settings_keys (alphabetical bug fix)")
+        print("  OK: consolidate removes speakers from settings/ (alphabetical bug fix)")
 
 
 if __name__ == "__main__":

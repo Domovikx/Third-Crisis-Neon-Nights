@@ -1,0 +1,2500 @@
+# raw (level12)
+
+- text: "Bn8"
+  translation: "Bn8"
+  skip_translation: true
+
+- text: "AQB"
+  translation: "AQB"
+  skip_translation: true
+
+- text: "Az_"
+  translation: "Az_"
+  skip_translation: true
+
+- text: "PI@"
+  translation: "PI@"
+  skip_translation: true
+
+- text: "J@t"
+  translation: "J@t"
+  skip_translation: true
+
+- text: "PI@t"
+  translation: "PI@t"
+  skip_translation: true
+
+- text: "HH@t"
+  translation: "HH@t"
+  skip_translation: true
+
+- text: "PI@dk"
+  translation: "PI@dk"
+  skip_translation: true
+
+- text: "I+@dk"
+  translation: "I+@dk"
+  skip_translation: true
+
+- text: "I+@h"
+  translation: "I+@h"
+  skip_translation: true
+
+- text: "I+@l"
+  translation: "I+@l"
+  skip_translation: true
+
+- text: "Id@"
+  translation: "Id@"
+  skip_translation: true
+
+- text: "Id@x"
+  translation: "Id@x"
+  skip_translation: true
+
+- text: "HH@l"
+  translation: "HH@l"
+  skip_translation: true
+
+- text: "I+@p"
+  translation: "I+@p"
+  skip_translation: true
+
+- text: "Id@X"
+  translation: "Id@X"
+  skip_translation: true
+
+- text: "HH@Oj"
+  translation: "HH@Oj"
+  skip_translation: true
+
+- text: "Id@@@m"
+  translation: "Id@@@m"
+  skip_translation: true
+
+- text: "I+@Oj"
+  translation: "I+@Oj"
+  skip_translation: true
+
+- text: "PI@p"
+  translation: "PI@p"
+  skip_translation: true
+
+- text: "Wall Footer Dark Corner connector 2"
+  translation: ""
+
+- text: "Dripping Bathroom Sink"
+  translation: ""
+
+- text: "Small Fridge Top"
+  translation: ""
+
+- text: "Apartment RoomTone"
+  translation: ""
+
+- text: "Ground Pivot"
+  translation: ""
+
+- text: "01_Give Mission Logic"
+  translation: ""
+
+- text: "Wall Footer Dark Angeled 2"
+  translation: ""
+
+- text: "LightCone"
+  translation: ""
+
+- text: "Kitchen Right Corner"
+  translation: ""
+
+- text: "Wall Thingy"
+  translation: ""
+
+- text: "Red Lamp"
+  translation: ""
+
+- text: "Wall Footer Dark Corner connector"
+  translation: ""
+
+- text: "Hacked Door"
+  translation: ""
+
+- text: "PizzaTower"
+  translation: ""
+
+- text: "Leona Bathroom Door Wall"
+  translation: ""
+
+- text: "WhiteLamp"
+  translation: ""
+
+- text: "Move out of Door"
+  translation: ""
+
+- text: "Calm"
+  translation: "Calm"
+  skip_translation: true
+
+- text: "Interactions"
+  translation: ""
+
+- text: "Small Fridge Visuals"
+  translation: ""
+
+- text: "LowerArm"
+  translation: ""
+
+- text: "Audio Zones"
+  translation: ""
+
+- text: "Cat Door Light Element"
+  translation: ""
+
+- text: "Keypad_Glow"
+  translation: ""
+
+- text: "ElecricityHum Loop 1"
+  translation: ""
+
+- text: "Door Left"
+  translation: ""
+
+- text: "FromOutside"
+  translation: ""
+
+- text: "Camera_Glow"
+  translation: ""
+
+- text: "Neck Chip Black Shadow"
+  translation: ""
+
+- text: "Printer_Glow"
+  translation: ""
+
+- text: "Wall Footer Dark Corner Left"
+  translation: ""
+
+- text: "Cat Door FakeLight"
+  translation: ""
+
+- text: "Cable End"
+  translation: ""
+
+- text: "Lio Inspection Choice"
+  translation: ""
+
+- text: "Wall Footer Dark Angeled"
+  translation: ""
+
+- text: "Printer Cable"
+  translation: ""
+
+- text: "Check Gag Light"
+  translation: ""
+
+- text: "HoverCart_Glow"
+  translation: ""
+
+- text: "Fuck Machine Box"
+  translation: ""
+
+- text: "Dripping Kitchen Sink"
+  translation: ""
+
+- text: "Vent"
+  translation: "Vent"
+  skip_translation: true
+
+- text: "Shadowcaster 2"
+  translation: ""
+
+- text: "Neck Chip Red"
+  translation: ""
+
+- text: "Leona Inside Position"
+  translation: ""
+
+- text: "Interactions Container"
+  translation: ""
+
+- text: "Wall Cable Bent Shadow"
+  translation: ""
+
+- text: "Sphere collider"
+  translation: ""
+
+- text: "Small Fridge Shadow"
+  translation: ""
+
+- text: "Lio Music Zone"
+  translation: ""
+
+- text: "Wall Footer Light"
+  translation: ""
+
+- text: "Secret Door Keypad"
+  translation: ""
+
+- text: "All 3 picked up Hint"
+  translation: ""
+
+- text: "Door Frame Right"
+  translation: ""
+
+- text: "Fridge Background"
+  translation: ""
+
+- text: "Living Room"
+  translation: ""
+
+- text: "Fridge FakeLight"
+  translation: ""
+
+- text: "Ask Leona for Band Logic"
+  translation: ""
+
+- text: "Cat Pictures Light 2"
+  translation: ""
+
+- text: "Wait for Print Location"
+  translation: ""
+
+- text: "LeonasApartment"
+  translation: ""
+
+- text: "Tension"
+  translation: ""
+
+- text: "Fake Move down stairs position"
+  translation: ""
+
+- text: "Zoey at Door Position"
+  translation: ""
+
+- text: "Lamps"
+  translation: "Lamps"
+  skip_translation: true
+
+- text: "In Flat"
+  translation: ""
+
+- text: "Sofa Location"
+  translation: ""
+
+- text: "LiosApartment"
+  translation: ""
+
+- text: "Before_Machine"
+  translation: ""
+
+- text: "Inside"
+  translation: ""
+
+- text: "Overlays"
+  translation: ""
+
+- text: "Wall Footer Dark"
+  translation: ""
+
+- text: "Printing Sequence"
+  translation: ""
+
+- text: "Locations"
+  translation: ""
+
+- text: "After_Machine"
+  translation: ""
+
+- text: "Inside Trigger"
+  translation: ""
+
+- text: "Laundry"
+  translation: ""
+
+- text: "Camera2"
+  translation: ""
+
+- text: "Neck Chip"
+  translation: ""
+
+- text: "Cat Pictures Light 1"
+  translation: ""
+
+- text: "Leona Party Inspections"
+  translation: ""
+
+- text: "Door Frame Top"
+  translation: ""
+
+- text: "Dark"
+  translation: "Dark"
+  skip_translation: true
+
+- text: "Fridge Light"
+  translation: ""
+
+- text: "Audio Loop"
+  translation: ""
+
+- text: "Pillar In Apartment"
+  translation: ""
+
+- text: "Music Logic"
+  translation: ""
+
+- text: "Faces"
+  translation: ""
+
+- text: "Machine Interaction"
+  translation: ""
+
+- text: "Vent Above Shelves"
+  translation: ""
+
+- text: "Cat Door"
+  translation: ""
+
+- text: "Wall Cable Bent"
+  translation: ""
+
+- text: "Pet Felicia"
+  translation: ""
+
+- text: "Bedroom Corner"
+  translation: ""
+
+- text: "Lio Hallway Main Door Interaction"
+  translation: ""
+
+- text: "Check Nipple Light"
+  translation: ""
+
+- text: "Tangled Cables Shadow"
+  translation: ""
+
+- text: "LioOverlay"
+  translation: ""
+
+- text: "Flying Cat Tree"
+  translation: ""
+
+- text: "ZoomTrigger"
+  translation: ""
+
+- text: "Respawn Key in Hand"
+  translation: ""
+
+- text: "03_Inside Flat Logic"
+  translation: ""
+
+- text: "Cabels"
+  translation: ""
+
+- text: "Check Machine Light"
+  translation: ""
+
+- text: "Felicia"
+  translation: ""
+
+- text: "Server Cable"
+  translation: ""
+
+- text: "Flickering"
+  translation: ""
+
+- text: "Bed Room"
+  translation: ""
+
+- text: "Lio Moaning"
+  translation: ""
+
+- text: "Electric Wallbox Big Shadow"
+  translation: ""
+
+- text: "Spine Objects"
+  translation: ""
+
+- text: "CameraTarget"
+  translation: ""
+
+- text: "Kitchen Left Corner"
+  translation: ""
+
+- text: "BackroomOverlay"
+  translation: ""
+
+- text: "COCK Poster"
+  translation: ""
+
+- text: "Door Frame Left"
+  translation: ""
+
+- text: "Wall Footer Dark Corner Right"
+  translation: ""
+
+- text: "Cat Tree"
+  translation: ""
+
+- text: "Apartment Floor WIP"
+  translation: ""
+
+- text: "Zoey Kissing Location"
+  translation: ""
+
+- text: "Small Screen"
+  translation: ""
+
+- text: "1_AI"
+  translation: ""
+
+- text: "Dining Table"
+  translation: ""
+
+- text: "Electric Wallbox Big"
+  translation: ""
+
+- text: "Pizza Tower 2"
+  translation: ""
+
+- text: "Collider 2"
+  translation: ""
+
+- text: "Kitchen Floor"
+  translation: ""
+
+- text: "Lio_Light"
+  translation: ""
+
+- text: "Chopping Board"
+  translation: ""
+
+- text: "HallOverlay"
+  translation: ""
+
+- text: "Small Screen Shadow"
+  translation: ""
+
+- text: "Zoey Reject French Kiss Position"
+  translation: ""
+
+- text: "Camera Holder Shadow"
+  translation: ""
+
+- text: "Collider 1"
+  translation: ""
+
+- text: "Small Fridge"
+  translation: ""
+
+- text: "Door Right"
+  translation: ""
+
+- text: "Tangled Cables"
+  translation: ""
+
+- text: "Camera Holder"
+  translation: ""
+
+- text: "Lio Door"
+  translation: ""
+
+- text: "Wall Ligh"
+  translation: ""
+
+- text: "Bed"
+  translation: ""
+
+- text: "Leona Music Zone"
+  translation: ""
+
+- text: "AI Screen"
+  translation: ""
+
+- text: "Connecting Room"
+  translation: ""
+
+- text: "Wall Footer Light Corner"
+  translation: ""
+
+- text: "Hallway Floor"
+  translation: ""
+
+- text: "Take Key Location"
+  translation: ""
+
+- text: "Printer Audio"
+  translation: ""
+
+- text: "Cable End Shadow"
+  translation: ""
+
+- text: "Leona Bathroom Door"
+  translation: ""
+
+- text: "Leona at Door Position"
+  translation: ""
+
+- text: "Fridge"
+  translation: ""
+
+- text: "Piano"
+  translation: ""
+
+- text: "ElecricityHum Loop 2"
+  translation: ""
+
+- text: "Leona Kissing Location"
+  translation: ""
+
+- text: "BathroomOverlay"
+  translation: ""
+
+- text: "Hallway Music Zone"
+  translation: ""
+
+- text: "Leona Interaction"
+  translation: ""
+
+- text: "Cat Appliences"
+  translation: ""
+
+- text: "Main"
+  translation: ""
+
+- text: "02_Apartment Door Interaction"
+  translation: ""
+
+- text: "Neck Chip Yellow"
+  translation: ""
+
+- text: "AI Glitching"
+  translation: ""
+
+- text: "Knock on Door - Audio Source"
+  translation: ""
+
+- text: "Camera3"
+  translation: ""
+
+- text: "Closed Shape Ambient Occlusion"
+  translation: ""
+
+- text: "Spider Sticker"
+  translation: ""
+
+- text: "Androkei Poster"
+  translation: ""
+
+- text: "Fake Meat Shadow"
+  translation: ""
+
+- text: "Sink and Mirror"
+  translation: ""
+
+- text: "Book 1 Shadow"
+  translation: ""
+
+- text: "Kitchen Horizontal 2"
+  translation: ""
+
+- text: "Cat Box Shadow"
+  translation: ""
+
+- text: "Cupboard Right"
+  translation: ""
+
+- text: "Cat Picture 6"
+  translation: ""
+
+- text: "Apartment Door"
+  translation: ""
+
+- text: "Cat Water Dispenser Shadow"
+  translation: ""
+
+- text: "AC Shadow"
+  translation: ""
+
+- text: "Bathroom Carpet"
+  translation: ""
+
+- text: "Slipper"
+  translation: ""
+
+- text: "Pivot 2"
+  translation: ""
+
+- text: "Wall Lamp Small Shadow"
+  translation: ""
+
+- text: "True"
+  translation: ""
+
+- text: "Kitchen Decal"
+  translation: ""
+
+- text: "Lios Server - Light - 4"
+  translation: ""
+
+- text: "Thingy"
+  translation: ""
+
+- text: "Wig"
+  translation: ""
+
+- text: "Lios Bed Shadow"
+  translation: ""
+
+- text: "Cuttingboard"
+  translation: ""
+
+- text: "Cat Food Station Shadow"
+  translation: ""
+
+- text: "Lios Jacket Shadow"
+  translation: ""
+
+- text: "Kitchen Stove"
+  translation: ""
+
+- text: "Light Red FakeLight"
+  translation: ""
+
+- text: "LioGamingChair Visuals"
+  translation: ""
+
+- text: "Ball Cat Toy Shadow"
+  translation: ""
+
+- text: "Standing Picture"
+  translation: ""
+
+- text: "Door Side Right"
+  translation: ""
+
+- text: "Table Round Shadow"
+  translation: ""
+
+- text: "Kitchen End"
+  translation: ""
+
+- text: "FridgeLights"
+  translation: ""
+
+- text: "Lever1"
+  translation: ""
+
+- text: "Small Carpet"
+  translation: ""
+
+- text: "Wardrobe Shadow"
+  translation: ""
+
+- text: "WheelLight FakeLight"
+  translation: ""
+
+- text: "Cursed Condom Poster"
+  translation: ""
+
+- text: "LioGamingChair"
+  translation: ""
+
+- text: "Lios Keyboard Visuals"
+  translation: ""
+
+- text: "Corwn Sticker"
+  translation: ""
+
+- text: "Shower Shadow"
+  translation: ""
+
+- text: "Book 1"
+  translation: ""
+
+- text: "Plate Shadow"
+  translation: ""
+
+- text: "Wall Vent"
+  translation: ""
+
+- text: "Lios Vest Shadow"
+  translation: ""
+
+- text: "Lios Computer Corner Table"
+  translation: ""
+
+- text: "Lios Cursed Condom Shirt"
+  translation: ""
+
+- text: "Wig Stand"
+  translation: ""
+
+- text: "Lios Computer Corner"
+  translation: ""
+
+- text: "Round Carpet"
+  translation: ""
+
+- text: "Lios Vest"
+  translation: ""
+
+- text: "Interface"
+  translation: ""
+
+- text: "Cat Picture 4"
+  translation: ""
+
+- text: "Metal Wall Decal"
+  translation: ""
+
+- text: "Door Interface"
+  translation: ""
+
+- text: "Creme 1 Shadow"
+  translation: ""
+
+- text: "Laundery Shadow"
+  translation: ""
+
+- text: "Cat Picture 2"
+  translation: ""
+
+- text: "RoundLight Fakelight"
+  translation: ""
+
+- text: "Cupboard with Props"
+  translation: ""
+
+- text: "Cat Tree F1"
+  translation: ""
+
+- text: "Wall Lamp Small"
+  translation: ""
+
+- text: "AC Build In"
+  translation: ""
+
+- text: "BigScreen"
+  translation: ""
+
+- text: "Apartment Outside Wall Angled Corner"
+  translation: ""
+
+- text: "Bowls Shadows"
+  translation: ""
+
+- text: "Kitchen Vertical"
+  translation: ""
+
+- text: "Mouse Toy Shadow"
+  translation: ""
+
+- text: "HoverCart"
+  translation: ""
+
+- text: "Light Panel"
+  translation: ""
+
+- text: "Shower Front"
+  translation: ""
+
+- text: "Cat Food Small"
+  translation: ""
+
+- text: "Apartment Toilet"
+  translation: ""
+
+- text: "Ventilator Wall Big Visuals"
+  translation: ""
+
+- text: "WheelLight Back"
+  translation: ""
+
+- text: "Light Elements"
+  translation: ""
+
+- text: "Cat Picture 5 Shadow"
+  translation: ""
+
+- text: "Lio Machine Key"
+  translation: ""
+
+- text: "Luxus Bottle"
+  translation: ""
+
+- text: "Lios Server - Light - 1"
+  translation: ""
+
+- text: "Stove Big 2"
+  translation: ""
+
+- text: "Wall Decal Middle"
+  translation: ""
+
+- text: "IDK"
+  translation: "IDK"
+  skip_translation: true
+
+- text: "Washing Powder Big"
+  translation: ""
+
+- text: "Standing Lamp"
+  translation: ""
+
+- text: "Ball Cat Toy Ground Shadow"
+  translation: ""
+
+- text: "Ventilator Wall Cable"
+  translation: ""
+
+- text: "Toilet Paper"
+  translation: ""
+
+- text: "Fish Toy"
+  translation: ""
+
+- text: "Lios Pants 3"
+  translation: ""
+
+- text: "Red_4"
+  translation: ""
+
+- text: "Ball Cat Toy"
+  translation: ""
+
+- text: "Fish"
+  translation: "Fish"
+  skip_translation: true
+
+- text: "Slipper 1 Shadow"
+  translation: ""
+
+- text: "HoverCart Handle Visual"
+  translation: ""
+
+- text: "Kitchen Corner Piece"
+  translation: ""
+
+- text: "Stove Small"
+  translation: ""
+
+- text: "Stove FakeLight"
+  translation: ""
+
+- text: "Band Mascot Shadow"
+  translation: ""
+
+- text: "Salt"
+  translation: "Salt"
+  skip_translation: true
+
+- text: "Wall Decal Line"
+  translation: ""
+
+- text: "Lios Cursed Condom Shirt Shadow"
+  translation: ""
+
+- text: "Keyboards Lights"
+  translation: ""
+
+- text: "Cat Stature"
+  translation: ""
+
+- text: "Computer Mouse Shadow"
+  translation: ""
+
+- text: "Wall Decal Left"
+  translation: ""
+
+- text: "TV Shadow"
+  translation: ""
+
+- text: "Red_3"
+  translation: ""
+
+- text: "Red_3_FakeLight"
+  translation: ""
+
+- text: "Cat Picture 4 Shadow"
+  translation: ""
+
+- text: "BigScreen Shadow"
+  translation: ""
+
+- text: "Sugar Pot Shadow"
+  translation: ""
+
+- text: "Cat Picture 6 Shadow"
+  translation: ""
+
+- text: "Microwave Shadow"
+  translation: ""
+
+- text: "HighTech Computer Shadow"
+  translation: ""
+
+- text: "Lios Pants"
+  translation: ""
+
+- text: "Cat Picture 3"
+  translation: ""
+
+- text: "Table Round"
+  translation: ""
+
+- text: "Standing Lamp Stand"
+  translation: ""
+
+- text: "Fallen Poster"
+  translation: ""
+
+- text: "Wall Keypat Shadow"
+  translation: ""
+
+- text: "Doormat"
+  translation: ""
+
+- text: "Shower Lid"
+  translation: ""
+
+- text: "Cat Picture 5"
+  translation: ""
+
+- text: "Lios Server - Light - 3"
+  translation: ""
+
+- text: "Cat Box"
+  translation: ""
+
+- text: "Green_3"
+  translation: "Green_3"
+  skip_translation: true
+
+- text: "Sugar Pot"
+  translation: ""
+
+- text: "Keyboard Shadow"
+  translation: ""
+
+- text: "Light Right"
+  translation: ""
+
+- text: "Cat Tree Base Shadow"
+  translation: ""
+
+- text: "Wig Stand Shadow"
+  translation: ""
+
+- text: "Ventilator Wall Big Shadow"
+  translation: ""
+
+- text: "Res Table Shadow"
+  translation: ""
+
+- text: "Light Left"
+  translation: ""
+
+- text: "Wall Slit"
+  translation: ""
+
+- text: "Keyboard Key FakeLights"
+  translation: ""
+
+- text: "Cup Shadow"
+  translation: ""
+
+- text: "Cat Tree Base"
+  translation: ""
+
+- text: "Cat Tree F3"
+  translation: ""
+
+- text: "Metal Wall Decal Shadow"
+  translation: ""
+
+- text: "Coffee Pot Shadow"
+  translation: ""
+
+- text: "Cat Tree F2"
+  translation: ""
+
+- text: "Big Wall TV"
+  translation: ""
+
+- text: "Lever3"
+  translation: ""
+
+- text: "Wall Lamp Big"
+  translation: ""
+
+- text: "Living Room Couch"
+  translation: ""
+
+- text: "Apartment Bathroom Wall"
+  translation: ""
+
+- text: "TV Interface"
+  translation: ""
+
+- text: "Lever4"
+  translation: ""
+
+- text: "UpperLight"
+  translation: ""
+
+- text: "False"
+  translation: ""
+
+- text: "Wall Line Right"
+  translation: ""
+
+- text: "Bowls"
+  translation: "Bowls"
+  skip_translation: true
+
+- text: "Small Prop Shadow"
+  translation: ""
+
+- text: "HoverCart Shadow"
+  translation: ""
+
+- text: "Cat Scratching Post Shadow"
+  translation: ""
+
+- text: "Lios Armrest Shadow"
+  translation: ""
+
+- text: "UpperLight FakeLight"
+  translation: ""
+
+- text: "Bed Shadow"
+  translation: ""
+
+- text: "Band Mascot"
+  translation: ""
+
+- text: "Room Seperator"
+  translation: ""
+
+- text: "Chip1"
+  translation: "Chip1"
+  skip_translation: true
+
+- text: "Chip2"
+  translation: "Chip2"
+  skip_translation: true
+
+- text: "Chip3"
+  translation: "Chip3"
+  skip_translation: true
+
+- text: "Cat Picture 1"
+  translation: ""
+
+- text: "Lios Server - Light - 2"
+  translation: ""
+
+- text: "Cups Shadow"
+  translation: ""
+
+- text: "Lube Shadow"
+  translation: ""
+
+- text: "Keyboards Display FakeLight"
+  translation: ""
+
+- text: "Salt Shadow"
+  translation: ""
+
+- text: "Washing Powder Big Shadow"
+  translation: ""
+
+- text: "Red_1"
+  translation: ""
+
+- text: "Light Green FakeLight 2"
+  translation: ""
+
+- text: "Door Interface Shadow"
+  translation: ""
+
+- text: "Levers"
+  translation: ""
+
+- text: "Kitchen Horizontal"
+  translation: ""
+
+- text: "Luxus Bottle Shadow"
+  translation: ""
+
+- text: "Spices"
+  translation: ""
+
+- text: "Wardrobe with Props"
+  translation: ""
+
+- text: "Lever2"
+  translation: ""
+
+- text: "Trash_Prop_2"
+  translation: ""
+
+- text: "LightElement Cat Tree"
+  translation: ""
+
+- text: "Keyboards FakeLights"
+  translation: ""
+
+- text: "Washing Powder Small Shadow"
+  translation: ""
+
+- text: "Otamatone Shadow"
+  translation: ""
+
+- text: "Cupboard Left"
+  translation: ""
+
+- text: "Book 2 Shadow"
+  translation: ""
+
+- text: "Book 2"
+  translation: ""
+
+- text: "Door Top"
+  translation: ""
+
+- text: "Fake Light Interface"
+  translation: ""
+
+- text: "Bed Visual"
+  translation: ""
+
+- text: "Lamp Light"
+  translation: ""
+
+- text: "Seat Shadow"
+  translation: ""
+
+- text: "Lios Keyboard Shadow"
+  translation: ""
+
+- text: "Pillar Top"
+  translation: ""
+
+- text: "Cat Scratching Post"
+  translation: ""
+
+- text: "CircuitBox_Left"
+  translation: ""
+
+- text: "Green_2"
+  translation: "Green_2"
+  skip_translation: true
+
+- text: "Refrigerator Shadow"
+  translation: ""
+
+- text: "Table Horizontal"
+  translation: ""
+
+- text: "Creme 3 Shadow"
+  translation: ""
+
+- text: "Cock Poster"
+  translation: ""
+
+- text: "Creme 2"
+  translation: ""
+
+- text: "Fallen Poster Shadow"
+  translation: ""
+
+- text: "Wall Decal Right"
+  translation: ""
+
+- text: "Mirror Shadow"
+  translation: ""
+
+- text: "Red_2_FakeLight"
+  translation: ""
+
+- text: "Fridge FakeLights"
+  translation: ""
+
+- text: "Stove Small 2"
+  translation: ""
+
+- text: "Wall Line Left"
+  translation: ""
+
+- text: "Fake Meat"
+  translation: ""
+
+- text: "DoorLight"
+  translation: ""
+
+- text: "Cup Filled"
+  translation: ""
+
+- text: "Table Vertikal"
+  translation: ""
+
+- text: "Apartment Outside Wall Door"
+  translation: ""
+
+- text: "Creme 2 Shadow"
+  translation: ""
+
+- text: "Cat Picture 1 Shadow"
+  translation: ""
+
+- text: "Lios Pants 2"
+  translation: ""
+
+- text: "Cupboard Middle 1"
+  translation: ""
+
+- text: "Cuttingboard Shadow"
+  translation: ""
+
+- text: "Wall Vent 2"
+  translation: ""
+
+- text: "Lios Computer Corner Table Shadow"
+  translation: ""
+
+- text: "Cat Food Big"
+  translation: ""
+
+- text: "Keyboard Key Lights"
+  translation: ""
+
+- text: "Creme 3"
+  translation: ""
+
+- text: "Laundery"
+  translation: ""
+
+- text: "Light Green FakeLight"
+  translation: ""
+
+- text: "Wig Shadow"
+  translation: ""
+
+- text: "Red_1_FakeLight"
+  translation: ""
+
+- text: "Fish Toy Shadow"
+  translation: ""
+
+- text: "Lios Keyboard"
+  translation: ""
+
+- text: "Lios Computer Corner Table Corner"
+  translation: ""
+
+- text: "Lios Pants Shadow"
+  translation: ""
+
+- text: "LockedAnimBool"
+  translation: ""
+
+- text: "Light Red FakeLight 2"
+  translation: ""
+
+- text: "Big Carpet"
+  translation: ""
+
+- text: "Stove Light elements"
+  translation: ""
+
+- text: "Cat Food Big Shadow"
+  translation: ""
+
+- text: "Washing Machine Shadow"
+  translation: ""
+
+- text: "Light Panel FakeLight"
+  translation: ""
+
+- text: "Red_4_FakeLight"
+  translation: ""
+
+- text: "Cat Food Station"
+  translation: ""
+
+- text: "Cat Tree F1 Shadow"
+  translation: ""
+
+- text: "Ventilator Wall Big"
+  translation: ""
+
+- text: "Wall Decal Middle 2"
+  translation: ""
+
+- text: "Shower Bottom"
+  translation: ""
+
+- text: "Open Book 2 Shadow"
+  translation: ""
+
+- text: "Kitchen Corner"
+  translation: ""
+
+- text: "Cat Picture 3 Shadow"
+  translation: ""
+
+- text: "Apartment Inside Wall"
+  translation: ""
+
+- text: "Teapot"
+  translation: ""
+
+- text: "Cups"
+  translation: "Cups"
+  skip_translation: true
+
+- text: "Ocular Nerve Poster"
+  translation: ""
+
+- text: "LioGamingChair Shadow"
+  translation: ""
+
+- text: "Plate"
+  translation: ""
+
+- text: "Door Side Left"
+  translation: ""
+
+- text: "Washing Machine"
+  translation: ""
+
+- text: "Beauty Product 1"
+  translation: ""
+
+- text: "Keyboards Display Light"
+  translation: ""
+
+- text: "Lios Jacket"
+  translation: ""
+
+- text: "Lios Pants 3 Shadow"
+  translation: ""
+
+- text: "Cat Water Dispenser"
+  translation: ""
+
+- text: "Shower Back Tiles"
+  translation: ""
+
+- text: "Coffee Pot"
+  translation: ""
+
+- text: "Wall Decal 1"
+  translation: ""
+
+- text: "Kei Kei Poster"
+  translation: ""
+
+- text: "Cursed Condom Sticker"
+  translation: ""
+
+- text: "HoverCart Visual"
+  translation: ""
+
+- text: "Open Book 2"
+  translation: ""
+
+- text: "Wall Keypat"
+  translation: ""
+
+- text: "Soap Shadow"
+  translation: ""
+
+- text: "Lios Pants 2 Shadow"
+  translation: ""
+
+- text: "Toilet Paper Shadow"
+  translation: ""
+
+- text: "Cat Toilet"
+  translation: ""
+
+- text: "Shower Hose"
+  translation: ""
+
+- text: "Teapot Shadow"
+  translation: ""
+
+- text: "Slipper 2 Shadow"
+  translation: ""
+
+- text: "Cat Stature Shadow"
+  translation: ""
+
+- text: "Interface FakeLight"
+  translation: ""
+
+- text: "Table Room Seperator"
+  translation: ""
+
+- text: "Apartment Outside Wall"
+  translation: ""
+
+- text: "Green_4"
+  translation: "Green_4"
+  skip_translation: true
+
+- text: "Apartment Toilet Shadow"
+  translation: ""
+
+- text: "Room Seperator Vertical"
+  translation: ""
+
+- text: "HighTech Computer"
+  translation: ""
+
+- text: "Cat Food Small Shadow"
+  translation: ""
+
+- text: "Spices Shadow"
+  translation: ""
+
+- text: "Res Table"
+  translation: ""
+
+- text: "Ventilator Wall Cable Shadow"
+  translation: ""
+
+- text: "RoundLight"
+  translation: ""
+
+- text: "Lios Bed"
+  translation: ""
+
+- text: "Slipper 2"
+  translation: ""
+
+- text: "Pillow Left"
+  translation: ""
+
+- text: "Green_1"
+  translation: "Green_1"
+  skip_translation: true
+
+- text: "Apartment Outside Wall Pillar"
+  translation: ""
+
+- text: "Wall Line"
+  translation: ""
+
+- text: "Hanging cupboard"
+  translation: ""
+
+- text: "Table Room Seperator Shadow"
+  translation: ""
+
+- text: "LiosCap Shadow"
+  translation: ""
+
+- text: "WheelLight Front"
+  translation: ""
+
+- text: "Small Prop"
+  translation: ""
+
+- text: "Cat Tree F2 Shadow"
+  translation: ""
+
+- text: "Stove Big"
+  translation: ""
+
+- text: "Cat Light Icon"
+  translation: ""
+
+- text: "Mouse Toy"
+  translation: ""
+
+- text: "Chair Backrest"
+  translation: ""
+
+- text: "Pillow Right"
+  translation: ""
+
+- text: "Faucet"
+  translation: ""
+
+- text: "Cup Filled Shadow"
+  translation: ""
+
+- text: "Res Bed"
+  translation: ""
+
+- text: "Wall Lamp Big Shadow"
+  translation: ""
+
+- text: "Wall Decal Middle 1"
+  translation: ""
+
+- text: "Hanging cupboard  Shadow"
+  translation: ""
+
+- text: "Red_2"
+  translation: ""
+
+- text: "Shower Front Corner"
+  translation: ""
+
+- text: "Ball Cat Toy Ground"
+  translation: ""
+
+- text: "Washing Powder Small"
+  translation: ""
+
+- text: "Cupboard Shadow"
+  translation: ""
+
+- text: "Cupboard Middle 2"
+  translation: ""
+
+- text: "Slipper 1"
+  translation: ""
+
+- text: "Creme 1"
+  translation: ""
+
+- text: "Table Vertikal Shadow"
+  translation: ""
+
+- text: "Big Wall TV Shadow"
+  translation: ""
+
+- text: "Otamatone"
+  translation: ""
+
+- text: "Table Horizontal Shadow"
+  translation: ""
+
+- text: "Beauty Product Shadow"
+  translation: ""
+
+- text: "Apartment Inside Wall Corner"
+  translation: ""
+
+- text: "LiosCap"
+  translation: ""
+
+- text: "Thingy Shadow"
+  translation: ""
+
+- text: "AVP"
+  translation: "AVP"
+  skip_translation: true
+
+- text: "A\\&dA"
+  translation: "A\\\\&dA"
+  skip_translation: true
+
+- text: "Aa?"
+  translation: "Aa?"
+  skip_translation: true
+
+- text: "A33kA"
+  translation: ""
+
+- text: "Vl?\"(Y?"
+  translation: ""
+
+- text: "Ac|"
+  translation: "Ac|"
+  skip_translation: true
+
+- text: "AffBA"
+  translation: ""
+
+- text: "NbP?"
+  translation: "NbP?"
+  skip_translation: true
+
+- text: "Ash"
+  translation: ""
+
+- text: "A`X"
+  translation: "A`X"
+  skip_translation: true
+
+- text: "NwA"
+  translation: "NwA"
+  skip_translation: true
+
+- text: "B!g"
+  translation: "B!g"
+  skip_translation: true
+
+- text: "AlSLA"
+  translation: ""
+
+- text: ")EC["
+  translation: ")EC["
+  skip_translation: true
+
+- text: "AZd]A"
+  translation: ""
+
+- text: "MABc"
+  translation: "MABc"
+  skip_translation: true
+
+- text: "UA'1("
+  translation: "UA'1("
+  skip_translation: true
+
+- text: "AshAA"
+  translation: ""
+
+- text: "AlSpA"
+  translation: ""
+
+- text: "ID@"
+  translation: "ID@"
+  skip_translation: true
+
+- text: "@L7A@"
+  translation: "@L7A@"
+  skip_translation: true
+
+- text: "B`q@"
+  translation: "B`q@"
+  skip_translation: true
+
+- text: "TA["
+  translation: "TA["
+  skip_translation: true
+
+- text: "S)A"
+  translation: "S)A"
+  skip_translation: true
+
+- text: "Q:A"
+  translation: "Q:A"
+  skip_translation: true
+
+- text: "A%T"
+  translation: "A%T"
+  skip_translation: true
+
+- text: "EcA"
+  translation: "EcA"
+  skip_translation: true
+
+- text: "YAF1^A"
+  translation: ""
+
+- text: "7HA"
+  translation: "7HA"
+  skip_translation: true
+
+- text: "VdA"
+  translation: "VdA"
+  skip_translation: true
+
+- text: "AFMgA"
+  translation: ""
+
+- text: "C)A"
+  translation: "C)A"
+  skip_translation: true
+
+- text: "A)\\[A"
+  translation: "A)\\[A"
+  skip_translation: true
+
+- text: "ZlA"
+  translation: "ZlA"
+  skip_translation: true
+
+- text: "G]A"
+  translation: "G]A"
+  skip_translation: true
+
+- text: "A:KxA"
+  translation: "A:KxA"
+  skip_translation: true
+
+- text: "K[Ay"
+  translation: "K[Ay"
+  skip_translation: true
+
+- text: "Ek:"
+  translation: "Ek:"
+  skip_translation: true
+
+- text: "/YA"
+  translation: "/YA"
+  skip_translation: true
+
+- text: "Y=d;"
+  translation: "Y=d;"
+  skip_translation: true
+
+- text: "UA^"
+  translation: "UA^"
+  skip_translation: true
+
+- text: "3IN?3IN?"
+  translation: ""
+
+- text: "SS@y"
+  translation: "SS@y"
+  skip_translation: true
+
+- text: "POA"
+  translation: "POA"
+  skip_translation: true
+
+- text: "L7EA"
+  translation: "L7EA"
+  skip_translation: true
+
+- text: "A|B"
+  translation: "A|B"
+  skip_translation: true
+
+- text: "Kw?R"
+  translation: "Kw?R"
+  skip_translation: true
+
+- text: "Zd?"
+  translation: "Zd?"
+  skip_translation: true
+
+- text: "A'1rA"
+  translation: "A'1rA"
+  skip_translation: true
+
+- text: "~A&|`A"
+  translation: "~A&|`A"
+  skip_translation: true
+
+- text: "G]k"
+  translation: "G]k"
+  skip_translation: true
+
+- text: "2IN?3IN?"
+  translation: ""
+
+- text: "33IA"
+  translation: "33IA"
+  skip_translation: true
+
+- text: "TNA"
+  translation: "TNA"
+  skip_translation: true
+
+- text: "~AF"
+  translation: "~AF"
+  skip_translation: true
+
+- text: "V\\A"
+  translation: "V\\A"
+  skip_translation: true
+
+- text: "GgA"
+  translation: "GgA"
+  skip_translation: true
+
+- text: "A$A"
+  translation: "A$A"
+  skip_translation: true
+
+- text: "@IH?"
+  translation: "@IH?"
+  skip_translation: true
+
+- text: ", ?+Tk:"
+  translation: ", ?+Tk:"
+  skip_translation: true
+
+- text: "ABA"
+  translation: "ABA"
+  skip_translation: true
+
+- text: "TwA"
+  translation: "TwA"
+  skip_translation: true
+
+- text: "QbA"
+  translation: "QbA"
+  skip_translation: true
+
+- text: "Aps"
+  translation: ""
+
+- text: "AYH"
+  translation: "AYH"
+  skip_translation: true
+
+- text: "VYA"
+  translation: "VYA"
+  skip_translation: true
+
+- text: "H4!A"
+  translation: "H4!A"
+  skip_translation: true
+
+- text: "JDA@"
+  translation: "JDA@"
+  skip_translation: true
+
+- text: "Iio"
+  translation: ""
+
+- text: "Yg'"
+  translation: ""
+
+- text: "Hp="
+  translation: "Hp="
+  skip_translation: true
+
+- text: "KDA@"
+  translation: "KDA@"
+  skip_translation: true
+
+- text: "O;y?"
+  translation: "O;y?"
+  skip_translation: true
+
+- text: "BAF"
+  translation: "BAF"
+  skip_translation: true
+
+- text: "Set locked"
+  translation: ""
+
+- text: "Set unlocked"
+  translation: ""
+
+- text: "Has Mission?"
+  translation: ""
+
+- text: "Has Mission"
+  translation: ""
+
+- text: "We good"
+  translation: ""
+
+- text: "Does not Have Mission"
+  translation: ""
+
+- text: "Show Phone"
+  translation: ""
+
+- text: "Add Mission"
+  translation: ""
+
+- text: "Activate Door"
+  translation: ""
+
+- text: "2nd Dialogue"
+  translation: ""
+
+- text: "Hide Phone"
+  translation: ""
+
+- text: "Disable Music"
+  translation: ""
+
+- text: "Wait for Trigger 2"
+  translation: ""
+
+- text: "Is Task to pick up Over?"
+  translation: ""
+
+- text: "Destroy Self"
+  translation: ""
+
+- text: "Did already pick up?"
+  translation: ""
+
+- text: "Disable interactables"
+  translation: ""
+
+- text: "Enable interactables"
+  translation: ""
+
+- text: "Wait for task 2"
+  translation: ""
+
+- text: "Disable interactables 2"
+  translation: ""
+
+- text: "Hrb?"
+  translation: "Hrb?"
+  skip_translation: true
+
+- text: "Did we complete the mission?"
+  translation: ""
+
+- text: "To level"
+  translation: ""
+
+- text: "CUUUC"
+  translation: "CUUUC"
+  skip_translation: true
+
+- text: "Move downstairs"
+  translation: ""
+
+- text: "Play cant leave yet dialogue"
+  translation: ""
+
+- text: "@CUUIC"
+  translation: "@CUUIC"
+  skip_translation: true
+
+- text: "Move finished"
+  translation: ""
+
+- text: "FromDistrict"
+  translation: ""
+
+- text: "ToHighTide"
+  translation: ""
+
+- text: "Task Check"
+  translation: ""
+
+- text: "Inspect"
+  translation: ""
+
+- text: "Inspection"
+  translation: ""
+
+- text: "Inspection Closed"
+  translation: ""
+
+- text: "has headset"
+  translation: ""
+
+- text: "Add Choice 2"
+  translation: ""
+
+- text: "Start Inspection 2"
+  translation: ""
+
+- text: "give headset"
+  translation: ""
+
+- text: "BrokenVR"
+  translation: ""
+
+- text: "Did Key?"
+  translation: ""
+
+- text: "Did Key"
+  translation: ""
+
+- text: "Set Animator Bool"
+  translation: ""
+
+- text: "GagLio"
+  translation: ""
+
+- text: "Gag Light"
+  translation: ""
+
+- text: "Did not Key"
+  translation: ""
+
+- text: "Ready to enable Interactions?"
+  translation: ""
+
+- text: "Activate Interactions"
+  translation: ""
+
+- text: "Do we need to realign levers?"
+  translation: ""
+
+- text: "Disable lights"
+  translation: ""
+
+- text: "Wait for complete"
+  translation: ""
+
+- text: "Turn lights back on"
+  translation: ""
+
+- text: "Power Off"
+  translation: ""
+
+- text: "Is mission completely done?"
+  translation: ""
+
+- text: "Is mission in progress?"
+  translation: ""
+
+- text: "Play tension"
+  translation: ""
+
+- text: "Play calm"
+  translation: ""
+
+- text: "Wait for mission in progress"
+  translation: ""
+
+- text: "Wait for mission complete"
+  translation: ""
+
+- text: "Have we never entered before?"
+  translation: ""
+
+- text: "Are we already trying to unlock?"
+  translation: ""
+
+- text: "On Task to find Door initially?"
+  translation: ""
+
+- text: "Show initial Keypad"
+  translation: ""
+
+- text: "Setup tasks and play dialogue"
+  translation: ""
+
+- text: "Leona_Lio_Door"
+  translation: ""
+
+- text: "Favorite Band C=2 K=7"
+  translation: ""
+
+- text: "Match"
+  translation: "Match"
+  skip_translation: true
+
+- text: "Initial Found Dialogue"
+  translation: ""
+
+- text: "No Match"
+  translation: ""
+
+- text: "Looking for Band?"
+  translation: ""
+
+- text: "ReSTART"
+  translation: ""
+
+- text: "Unlock Doors"
+  translation: ""
+
+- text: "Did wear Any Datachip?"
+  translation: ""
+
+- text: "BUU1C"
+  translation: "BUU1C"
+  skip_translation: true
+
+- text: "Is on Task to wear Data Chips?"
+  translation: ""
+
+- text: "Wait for has items"
+  translation: ""
+
+- text: "Has Items"
+  translation: ""
+
+- text: "Did wear Any Datachip? 2"
+  translation: ""
+
+- text: "Do Nothing 2"
+  translation: ""
+
+- text: "Wait for other dialogues"
+  translation: ""
+
+- text: "Show Hint Dialogue"
+  translation: ""
+
+- text: "Gc?(gj@"
+  translation: "Gc?(gj@"
+  skip_translation: true
+
+- text: "Do we not have the task?"
+  translation: ""
+
+- text: "Undress Lio"
+  translation: ""
+
+- text: "Move Zoey Inside"
+  translation: ""
+
+- text: "LioIntro"
+  translation: ""
+
+- text: "ZoomOutOrIn"
+  translation: ""
+
+- text: "Moved"
+  translation: ""
+
+- text: "Set zoom"
+  translation: ""
+
+- text: "Wait for trigger 2"
+  translation: ""
+
+- text: "Set zoom 2"
+  translation: ""
+
+- text: "Do we need to get the code?"
+  translation: ""
+
+- text: "Do we have the next task?"
+  translation: ""
+
+- text: "Play dialogue or w/e"
+  translation: ""
+
+- text: "Play dialogue or w/e 2"
+  translation: ""
+
+- text: "Set task"
+  translation: ""
+
+- text: "Play tell him"
+  translation: ""
+
+- text: "Are we pure?"
+  translation: ""
+
+- text: "Wait for Task in Progress"
+  translation: ""
+
+- text: "In Progress"
+  translation: ""
+
+- text: "Add Choice when task active"
+  translation: ""
+
+- text: "Ask for Band"
+  translation: ""
+
+- text: "AskBand"
+  translation: ""
+
+- text: "Wait 2s"
+  translation: ""
+
+- text: "Play dialogue 2"
+  translation: ""
+
+- text: "T?l"
+  translation: "T?l"
+  skip_translation: true
+
+- text: "Do Printing Sequence"
+  translation: ""
+
+- text: "H@A"
+  translation: "H@A"
+  skip_translation: true
+
+- text: "Nothing"
+  translation: ""
+
+- text: "Move Zoey Aside and begin Animation"
+  translation: ""
+
+- text: "Look to the right"
+  translation: ""
+
+- text: "Do Print"
+  translation: ""
+
+- text: "Create Key"
+  translation: ""
+
+- text: "Wait for Animation"
+  translation: ""
+
+- text: "Move Zoey to Machine"
+  translation: ""
+
+- text: "Key in Zoeys Hand"
+  translation: ""
+
+- text: "CUU'C"
+  translation: "CUU'C"
+  skip_translation: true
+
+- text: "Take Animation"
+  translation: ""
+
+- text: "Hacky"
+  translation: ""
+
+- text: "Play finish dialogue"
+  translation: ""
+
+- text: "Make sure objects are disabled"
+  translation: ""
+
+- text: "Wait for Sequence to be done"
+  translation: ""
+
+- text: "Free Lio Sequence DOne"
+  translation: ""
+
+- text: "A?H"
+  translation: "A?H"
+  skip_translation: true
+
+- text: "A(I&@"
+  translation: "A(I&@"
+  skip_translation: true
+
+- text: "Looking for Hint"
+  translation: ""
+
+- text: "Looking for Hint Dialogue"
+  translation: ""
+
+- text: "Not looking for Hint"
+  translation: ""
+
+- text: "Generic Dialogue"
+  translation: ""
+
+- text: "Add Choices"
+  translation: ""
+
+- text: "AskAboutLio"
+  translation: ""
+
+- text: "Compliment her Flat"
+  translation: ""
+
+- text: "ComplimentFlat"
+  translation: ""
+
+- text: "Completed First Key"
+  translation: ""
+
+- text: "Havent completed first Key"
+  translation: ""
+
+- text: "Not on Task"
+  translation: ""
+
+- text: "Hearts"
+  translation: ""
+
+- text: "ShowDuration"
+  translation: ""
+
+- text: "HeartsInstance"
+  translation: ""
+
+- text: "Check for Task State"
+  translation: ""
+
+- text: "Is on Mission to find Leona Door"
+  translation: ""
+
+- text: "Nipple Light"
+  translation: ""
+
+- text: "Has Key in Hand in Savefile?"
+  translation: ""
+
+- text: "BUUKC"
+  translation: "BUUKC"
+  skip_translation: true
+
+- text: "Set before machine"
+  translation: ""
+
+- text: "Set after machine"
+  translation: ""
+
+- text: "Waiting to step into Leonas Apartment?"
+  translation: ""
+
+- text: "Wait for Interaction with Leona"
+  translation: ""
+
+- text: "Interacted with Leona"
+  translation: ""
+
+- text: "Start Lowend Music"
+  translation: ""
+
+- text: "Leona Kissing Scene Intro"
+  translation: ""
+
+- text: "Play Scene"
+  translation: ""
+
+- text: "Move Zoey away from Leona"
+  translation: ""
+
+- text: "Machine Light"
+  translation: ""
+
+- text: "A gf@"
+  translation: "A gf@"
+  skip_translation: true
+
+- text: "Too far in mission to hear lio moaning?"
+  translation: ""
+
+- text: "Wait for Door Unlocked"
+  translation: ""
+
+- text: "Wait a frame"
+  translation: ""
+
+- text: "Setup Leona to sit next to Felicia"
+  translation: ""
+
+- text: "FSM Sit next to Felicia"
+  translation: ""
+
+- text: "Do we need to examine him?"
+  translation: ""
+
+- text: "Play examine dialogue"
+  translation: ""
+
+- text: "Do we need to put the first key in?"
+  translation: ""
+
+- text: "AsMenu"
+  translation: ""
+
+- text: "Set tasks 2"
+  translation: ""
+
+- text: "Do we need to put the second key in?"
+  translation: ""
+
+- text: "Play first key dialogue"
+  translation: ""
+
+- text: "Set horny"
+  translation: ""
+
+- text: "Do we have the angry task?"
+  translation: ""
+
+- text: "Happy"
+  translation: ""
+
+- text: "Set angry"
+  translation: ""
+
+- text: "Is the mission complete?"
+  translation: ""
+
+- text: "Final Task complete"
+  translation: ""
+
+- text: "Set happy"
+  translation: ""
+
+- text: "A=E"
+  translation: "A=E"
+  skip_translation: true
+
+- text: "B`k"
+  translation: "B`k"
+  skip_translation: true
+
+- text: "Bt\\G@"
+  translation: "Bt\\\\G@"
+  skip_translation: true
+
+- text: "Ax="
+  translation: "Ax="
+  skip_translation: true
+
+- text: "RKwA"
+  translation: ""
+
+- text: "B\"jA"
+  translation: "B\\"
+  skip_translation: true
+
+- text: "Interacted with Chopping Board?"
+  translation: ""
+
+- text: "On Interacted 2"
+  translation: ""
+
+- text: "Keypad"
+  translation: ""
+
+- text: "Destroy items"
+  translation: ""
+
+- text: "Do we have the right item?"
+  translation: ""
+
+- text: "Equip the datachips!"
+  translation: ""
+
+- text: "TakeAllItems"
+  translation: ""
+
+- text: "Avq"
+  translation: ""
+
+- text: "A`c|"
+  translation: "A`c|"
+  skip_translation: true
+
+- text: "Did find door?"
+  translation: ""
+
+- text: "Mission Completed"
+  translation: ""
+
+- text: "Play Regular Loop"
+  translation: ""
+
+- text: "Wait for Trigger 3"
+  translation: ""
+
+- text: "I&@C"
+  translation: "I&@C"
+  skip_translation: true
+
+- text: "X;@l"
+  translation: "X;@l"
+  skip_translation: true
+
+- text: "Wait for Savefile to Move Zoey"
+  translation: ""
+
+- text: "Has French Kiss Task?"
+  translation: ""
+
+- text: "Do I knock Dialogue"
+  translation: ""
+
+- text: "Knocking Sound"
+  translation: ""
+
+- text: "Wait for Sound"
+  translation: ""
+
+- text: "Move to wait location"
+  translation: ""
+
+- text: "Solved"
+  translation: ""
+
+- text: "Re-enable interactables"
+  translation: ""
+
+- text: "Wait for puzzle solve"
+  translation: ""
+

@@ -1,0 +1,8522 @@
+# raw (globalgamemanagers)
+
+- text: "Neon Nights - WorldspaceBlurShader_FullScreen"
+  translation: "Neon Nights - WorldspaceBlurShader_FullScreen"
+  skip_translation: true
+
+- text: "Invalidated"
+  translation: ""
+
+- text: "Medium01"
+  translation: ""
+
+- text: "Medium05"
+  translation: ""
+
+- text: "SearchTex"
+  translation: ""
+
+- text: "Large02"
+  translation: ""
+
+- text: "Thin01"
+  translation: "Thin01"
+  skip_translation: true
+
+- text: "Medium03"
+  translation: ""
+
+- text: "Medium06"
+  translation: ""
+
+- text: "Medium04"
+  translation: ""
+
+- text: "AreaTex"
+  translation: ""
+
+- text: "Thin02"
+  translation: "Thin02"
+  skip_translation: true
+
+- text: "Medium02"
+  translation: ""
+
+- text: "BayerMatrix"
+  translation: ""
+
+- text: "Large01"
+  translation: ""
+
+- text: "Blur Technique"
+  translation: ""
+
+- text: "Blur Quality"
+  translation: ""
+
+- text: "Blur Strength"
+  translation: ""
+
+- text: "Mask Texture"
+  translation: ""
+
+- text: "Radius"
+  translation: ""
+
+- text: "Center"
+  translation: ""
+
+- text: "Float"
+  translation: ""
+
+- text: "Boolean"
+  translation: ""
+
+- text: "DrawProcedural"
+  translation: ""
+
+- text: "BoxDownsample"
+  translation: ""
+
+- text: "SuperSample Size"
+  translation: ""
+
+- text: "Grayscale Amount"
+  translation: ""
+
+- text: "Stop NaN"
+  translation: ""
+
+- text: "TemporalAAData"
+  translation: ""
+
+- text: "TemporalAA - Accumulate - Quality Very Low"
+  translation: ""
+
+- text: "Camera Motion Blur - Low Quality"
+  translation: ""
+
+- text: "BlendOp"
+  translation: ""
+
+- text: "U&^s"
+  translation: "U&^s"
+  skip_translation: true
+
+- text: "UISoftMaskPass"
+  translation: ""
+
+- text: "Bokeh Depth Of Field CoC"
+  translation: ""
+
+- text: "Tint of Texture 0"
+  translation: ""
+
+- text: "Tint of Texture 1"
+  translation: ""
+
+- text: "Tint of Texture 2"
+  translation: ""
+
+- text: "Tint of Texture 3"
+  translation: ""
+
+- text: "Tint of Texture 4"
+  translation: ""
+
+- text: "Tint of Texture 5"
+  translation: ""
+
+- text: "Tint of Texture 6"
+  translation: ""
+
+- text: "Tint of Texture 7"
+  translation: ""
+
+- text: "Tint of Texture 8"
+  translation: ""
+
+- text: "Tint of Texture 9"
+  translation: ""
+
+- text: "Tint of Texture 10"
+  translation: ""
+
+- text: "Tint of Texture 11"
+  translation: ""
+
+- text: "Tint of Texture 12"
+  translation: ""
+
+- text: "Tint of Texture 13"
+  translation: ""
+
+- text: "Tint of Texture 14"
+  translation: ""
+
+- text: "Tint of Texture 15"
+  translation: ""
+
+- text: "Amount of Textures"
+  translation: ""
+
+- text: "LIGHTMODE"
+  translation: ""
+
+- text: "None"
+  translation: ""
+
+- text: "FOG_LINEAR"
+  translation: ""
+
+- text: "FOG_EXP"
+  translation: ""
+
+- text: "Terminal"
+  translation: ""
+
+- text: "EASU"
+  translation: "EASU"
+  skip_translation: true
+
+- text: "Gaussian Depth Of Field CoC"
+  translation: ""
+
+- text: "Bloom Prefilter"
+  translation: ""
+
+- text: "LutBuilderLdr"
+  translation: ""
+
+- text: "QUEUE"
+  translation: "QUEUE"
+  skip_translation: true
+
+- text: "HEl"
+  translation: "HEl"
+  skip_translation: true
+
+- text: "ISGN,f"
+  translation: "ISGN,f"
+  skip_translation: true
+
+- text: "Panini Projection"
+  translation: ""
+
+- text: "BLIT_SINGLE_SLICE"
+  translation: ""
+
+- text: "DEBUG_DISPLAY"
+  translation: ""
+
+- text: "HDR_COLORSPACE_CONVERSION"
+  translation: ""
+
+- text: "HDR_ENCODING&"
+  translation: ""
+
+- text: "FinalPost"
+  translation: ""
+
+- text: "Xw;!"
+  translation: "Xw;!"
+  skip_translation: true
+
+- text: "Vertex Attributes"
+  translation: ""
+
+- text: "UberPost"
+  translation: ""
+
+- text: "ScalingSetup"
+  translation: ""
+
+- text: "LutBuilderHdr"
+  translation: ""
+
+- text: "VFXCopyBuffer"
+  translation: ""
+
+- text: "CSVFXCopyBuffer"
+  translation: ""
+
+- text: "Uniform"
+  translation: ""
+
+- text: "DXBCe3nT@"
+  translation: ""
+
+- text: "SHEX`"
+  translation: "SHEX`"
+  skip_translation: true
+
+- text: "DXBCcTgV"
+  translation: ""
+
+- text: "GenSdfRayMap"
+  translation: ""
+
+- text: "InBucketSum"
+  translation: ""
+
+- text: "Input"
+  translation: ""
+
+- text: "SHEX\\"
+  translation: "SHEX\\\\"
+  skip_translation: true
+
+- text: "BlockSums"
+  translation: ""
+
+- text: "FinalSum"
+  translation: ""
+
+- text: "VoxelParams"
+  translation: ""
+
+- text: "CopyTextures"
+  translation: ""
+
+- text: "SFI0"
+  translation: "SFI0"
+  skip_translation: true
+
+- text: "JFA"
+  translation: "JFA"
+  skip_translation: true
+
+- text: "SHEXl"
+  translation: "SHEXl"
+  skip_translation: true
+
+- text: "CopyBuffers"
+  translation: ""
+
+- text: "SHEXT&"
+  translation: "SHEXT&"
+  skip_translation: true
+
+- text: "RayMapScanX"
+  translation: ""
+
+- text: "UpdateStrips"
+  translation: ""
+
+- text: "SHEXX"
+  translation: "SHEXX"
+  skip_translation: true
+
+- text: "Sort"
+  translation: "Sort"
+  skip_translation: true
+
+- text: "BitonicSort128"
+  translation: ""
+
+- text: "SortConstants"
+  translation: ""
+
+- text: "BitonicSort1024"
+  translation: ""
+
+- text: "SHEX,"
+  translation: ""
+
+- text: "BitonicSort2048"
+  translation: ""
+
+- text: ";AB"
+  translation: ";AB"
+  skip_translation: true
+
+- text: "SHEX4"
+  translation: "SHEX4"
+  skip_translation: true
+
+- text: "BitonicSort4096"
+  translation: ""
+
+- text: "BitonicPrePass"
+  translation: ""
+
+- text: "DXBCUw4K~"
+  translation: ""
+
+- text: "MergePass"
+  translation: ""
+
+- text: "MergeFinalPass"
+  translation: ""
+
+- text: "Worldspace Blur Mask"
+  translation: ""
+
+- text: "Common"
+  translation: ""
+
+- text: "DfD"
+  translation: "DfD"
+  skip_translation: true
+
+- text: "WaveSimNode"
+  translation: ""
+
+- text: "XPath"
+  translation: ""
+
+- text: "LayoutRebuilder"
+  translation: ""
+
+- text: "DrawGLBounds"
+  translation: ""
+
+- text: "CloningContext"
+  translation: ""
+
+- text: "ValueInput"
+  translation: ""
+
+- text: "MotionVectors"
+  translation: ""
+
+- text: "ComponentType"
+  translation: ""
+
+- text: "LoadSceneAsynch"
+  translation: ""
+
+- text: "SetBoolValue"
+  translation: ""
+
+- text: "ThirdCrisis"
+  translation: ""
+
+- text: "PMA_IsEditor"
+  translation: ""
+
+- text: "UiOnCancelEvent"
+  translation: ""
+
+- text: "Benchmark"
+  translation: ""
+
+- text: "MagicaCloth2"
+  translation: ""
+
+- text: "MagicaClothV2"
+  translation: ""
+
+- text: "PositionAsUV1"
+  translation: ""
+
+- text: "Misc"
+  translation: "Misc"
+  skip_translation: true
+
+- text: "ResetGUIMatrix"
+  translation: ""
+
+- text: "ActionMapsView"
+  translation: ""
+
+- text: "GetStateGraph"
+  translation: ""
+
+- text: "NNEnergyDisplay"
+  translation: ""
+
+- text: "SignInResponse"
+  translation: ""
+
+- text: "VisualLayerInfo"
+  translation: ""
+
+- text: "CustomParser"
+  translation: ""
+
+- text: "MoveLinear"
+  translation: ""
+
+- text: "SkeletonGhost"
+  translation: ""
+
+- text: "DebugUI"
+  translation: ""
+
+- text: "RuntimeConsole"
+  translation: ""
+
+- text: "SetLightColor"
+  translation: ""
+
+- text: "ScalarNormalize"
+  translation: ""
+
+- text: "IHttpClient"
+  translation: ""
+
+- text: "SetDrag"
+  translation: ""
+
+- text: "SkeletonData"
+  translation: ""
+
+- text: "Spine"
+  translation: ""
+
+- text: "SetOptionBool"
+  translation: ""
+
+- text: "TemporalAA"
+  translation: ""
+
+- text: "PointAttachment"
+  translation: ""
+
+- text: "FPSDisplay"
+  translation: ""
+
+- text: "UiOnSubmitEvent"
+  translation: ""
+
+- text: "GetName"
+  translation: ""
+
+- text: "Hash128"
+  translation: ""
+
+- text: "Vector3Angle"
+  translation: ""
+
+- text: "BlobBuilder"
+  translation: ""
+
+- text: "DynamicKey"
+  translation: ""
+
+- text: "Vector3AddXYZ"
+  translation: ""
+
+- text: "GUILayoutLabel"
+  translation: ""
+
+- text: "GetStatFraction"
+  translation: ""
+
+- text: "PlanarGraph"
+  translation: ""
+
+- text: "DebugVector3"
+  translation: ""
+
+- text: "Sphere"
+  translation: ""
+
+- text: "Geom"
+  translation: ""
+
+- text: "Geom-"
+  translation: "Geom-"
+  skip_translation: true
+
+- text: "OnDrawGizmos"
+  translation: ""
+
+- text: "GradientCloner"
+  translation: ""
+
+- text: "Vector2"
+  translation: ""
+
+- text: "Vector2Ext"
+  translation: ""
+
+- text: "NEON_ctor"
+  translation: ""
+
+- text: "TMP_SubMeshUI"
+  translation: ""
+
+- text: "VersionNotifier"
+  translation: ""
+
+- text: "WakeUp2d"
+  translation: ""
+
+- text: "SpriteCombiner"
+  translation: ""
+
+- text: "OnButtonInput"
+  translation: ""
+
+- text: "CutinTester"
+  translation: ""
+
+- text: "MemoryProfiler"
+  translation: ""
+
+- text: "GetScriptGraph"
+  translation: ""
+
+- text: "RigUtils"
+  translation: ""
+
+- text: "UiToggleGetIsOn"
+  translation: ""
+
+- text: "GraphicsOptions"
+  translation: ""
+
+- text: "Sleep2d"
+  translation: ""
+
+- text: "HashFNV1A32"
+  translation: ""
+
+- text: "MovementControl"
+  translation: ""
+
+- text: "DestroySelf"
+  translation: ""
+
+- text: "Vector2Control"
+  translation: ""
+
+- text: "FindGameObject"
+  translation: ""
+
+- text: "IntVec3"
+  translation: ""
+
+- text: "CoreAttributes"
+  translation: ""
+
+- text: "Version"
+  translation: ""
+
+- text: "JsonAdapter"
+  translation: ""
+
+- text: "DecalProjector"
+  translation: ""
+
+- text: "TMP_SubMesh"
+  translation: ""
+
+- text: "AVjz"
+  translation: ""
+
+- text: "ProbeBrickPool"
+  translation: ""
+
+- text: "IJwtDecoder"
+  translation: ""
+
+- text: "UpBehaviour"
+  translation: ""
+
+- text: "Texture2DAtlas"
+  translation: ""
+
+- text: "ConnectElements"
+  translation: ""
+
+- text: "ResizeCollider"
+  translation: ""
+
+- text: "GetLocationInfo"
+  translation: ""
+
+- text: "Sse3"
+  translation: "Sse3"
+  skip_translation: true
+
+- text: "UseGUILayout"
+  translation: ""
+
+- text: "Submesh"
+  translation: ""
+
+- text: "OrderSprites"
+  translation: ""
+
+- text: "UiOnSelectEvent"
+  translation: ""
+
+- text: "PriorityHeap"
+  translation: ""
+
+- text: "PQHandle("
+  translation: ""
+
+- text: "SemanticVersion"
+  translation: ""
+
+- text: "Subdivision"
+  translation: ""
+
+- text: "AABB"
+  translation: "AABB"
+  skip_translation: true
+
+- text: "IJobEntity"
+  translation: ""
+
+- text: "PlatformUtility"
+  translation: ""
+
+- text: "Ssse3"
+  translation: "Ssse3"
+  skip_translation: true
+
+- text: "GenericSubtract"
+  translation: ""
+
+- text: "AnimateVector3"
+  translation: ""
+
+- text: "IKManager2D"
+  translation: ""
+
+- text: "RayConverter"
+  translation: ""
+
+- text: "Vector4Modulo"
+  translation: ""
+
+- text: "UpdateBoundsJob"
+  translation: ""
+
+- text: "UpdateBoundJob"
+  translation: ""
+
+- text: "ScalarSum"
+  translation: ""
+
+- text: "EZScale"
+  translation: ""
+
+- text: "TakeScreenshot"
+  translation: ""
+
+- text: "GetKey"
+  translation: ""
+
+- text: "MinimapIcon"
+  translation: ""
+
+- text: "ScreenPick"
+  translation: ""
+
+- text: "RawRenderQueue"
+  translation: ""
+
+- text: "MaterialAccess"
+  translation: ""
+
+- text: "ProgressBar"
+  translation: ""
+
+- text: "QuitGame"
+  translation: ""
+
+- text: "PathConstraint"
+  translation: ""
+
+- text: "PlayerSettings"
+  translation: ""
+
+- text: "Utilities"
+  translation: ""
+
+- text: "UIBehaviour"
+  translation: ""
+
+- text: "Stat_Currency"
+  translation: ""
+
+- text: "D1rIP"
+  translation: ""
+
+- text: "Math"
+  translation: "Math"
+  skip_translation: true
+
+- text: "QuadUtility"
+  translation: ""
+
+- text: "RigBuilderUtils"
+  translation: ""
+
+- text: "Vector4Multiply"
+  translation: ""
+
+- text: "AddSaveString"
+  translation: ""
+
+- text: "Glitch13"
+  translation: ""
+
+- text: "ScalarPerSecond"
+  translation: ""
+
+- text: "ScalarRound"
+  translation: ""
+
+- text: "Vertex"
+  translation: ""
+
+- text: "CommandBuilder"
+  translation: ""
+
+- text: "Drawing"
+  translation: ""
+
+- text: "EquipEquipment"
+  translation: ""
+
+- text: "VisualEffect"
+  translation: ""
+
+- text: "AndroidSupport"
+  translation: ""
+
+- text: "ActionResult"
+  translation: ""
+
+- text: "Faction"
+  translation: ""
+
+- text: "GetFsmObject"
+  translation: ""
+
+- text: "Deprecated"
+  translation: ""
+
+- text: "DiagnosticInfo"
+  translation: ""
+
+- text: "BufferHeader"
+  translation: ""
+
+- text: "SavePrefills"
+  translation: ""
+
+- text: "IsSleeping"
+  translation: ""
+
+- text: "VirtualMesh"
+  translation: ""
+
+- text: "Dropdown"
+  translation: ""
+
+- text: "DetachChildren"
+  translation: ""
+
+- text: "IState"
+  translation: ""
+
+- text: "PlayerInfo"
+  translation: ""
+
+- text: "PMA_LockDoor"
+  translation: ""
+
+- text: "INetworkHandler"
+  translation: ""
+
+- text: "Triangulator"
+  translation: ""
+
+- text: "ProtoShape2D"
+  translation: ""
+
+- text: "SetRectFields"
+  translation: ""
+
+- text: "MoveDirection"
+  translation: ""
+
+- text: "While"
+  translation: ""
+
+- text: "XInputSupport"
+  translation: ""
+
+- text: "G_GraphShader"
+  translation: "G_GraphShader"
+  skip_translation: true
+
+- text: "ZBinningJob"
+  translation: ""
+
+- text: "NamedValue"
+  translation: ""
+
+- text: "SceneHierarchy"
+  translation: ""
+
+- text: "DoOnSaveInt"
+  translation: ""
+
+- text: "JumpController"
+  translation: ""
+
+- text: "TaskProgressor"
+  translation: ""
+
+- text: "GetFsmFloat"
+  translation: ""
+
+- text: "NativeHashMap"
+  translation: ""
+
+- text: "TypeHash"
+  translation: ""
+
+- text: "LoopUnit"
+  translation: ""
+
+- text: "GetStringLength"
+  translation: ""
+
+- text: "OnDisable"
+  translation: ""
+
+- text: "IntClamp"
+  translation: ""
+
+- text: "SetAnimatorBody"
+  translation: ""
+
+- text: "CapturePass"
+  translation: ""
+
+- text: "Vector4Divide"
+  translation: ""
+
+- text: "PMA_FadeVolume"
+  translation: ""
+
+- text: "Search"
+  translation: ""
+
+- text: "FastAction"
+  translation: ""
+
+- text: "IUnit"
+  translation: ""
+
+- text: "TypeExt"
+  translation: ""
+
+- text: "TypeHelper"
+  translation: ""
+
+- text: "ObjectPool"
+  translation: ""
+
+- text: "Promise"
+  translation: ""
+
+- text: "IProgress"
+  translation: ""
+
+- text: "MinimapOrigin"
+  translation: ""
+
+- text: "OO/*"
+  translation: "OO/*"
+  skip_translation: true
+
+- text: "WeaponActionUI"
+  translation: ""
+
+- text: "GetFsmRect"
+  translation: ""
+
+- text: "GUILayoutBox"
+  translation: ""
+
+- text: "SequenceEnabler"
+  translation: ""
+
+- text: "MatchingManager"
+  translation: ""
+
+- text: "GBufferPass"
+  translation: ""
+
+- text: "TimeRangeEvent"
+  translation: ""
+
+- text: "MeshHandle"
+  translation: ""
+
+- text: "Renderer2DData"
+  translation: ""
+
+- text: "SubclassType"
+  translation: ""
+
+- text: "GetRotation"
+  translation: ""
+
+- text: "Vector2Round"
+  translation: ""
+
+- text: "GetTime"
+  translation: ""
+
+- text: "MeshValidation"
+  translation: ""
+
+- text: "Rotator"
+  translation: ""
+
+- text: "FloodPath"
+  translation: ""
+
+- text: "GetLayer"
+  translation: ""
+
+- text: "UnityEngine"
+  translation: ""
+
+- text: "Torus"
+  translation: ""
+
+- text: "Extensions"
+  translation: ""
+
+- text: "MeshAttachment"
+  translation: ""
+
+- text: "KdTree"
+  translation: ""
+
+- text: "IsFixedAngle2d"
+  translation: ""
+
+- text: "AnimatedTile"
+  translation: ""
+
+- text: "DelegateUtility"
+  translation: ""
+
+- text: "TypeName"
+  translation: ""
+
+- text: "ANLayeredSprite"
+  translation: ""
+
+- text: "Vector4Sum"
+  translation: ""
+
+- text: "FontData"
+  translation: ""
+
+- text: "Normals"
+  translation: ""
+
+- text: "InputManager"
+  translation: ""
+
+- text: "MaterialQuality"
+  translation: ""
+
+- text: "Triangulation"
+  translation: ""
+
+- text: "Model"
+  translation: ""
+
+- text: "CurveVector3"
+  translation: ""
+
+- text: "Vector3Sum"
+  translation: ""
+
+- text: "Dispatcher"
+  translation: ""
+
+- text: "SetDurability"
+  translation: ""
+
+- text: "Oculus"
+  translation: ""
+
+- text: "OculusHMD"
+  translation: ""
+
+- text: "RenderSetupData"
+  translation: ""
+
+- text: "BaseInput"
+  translation: ""
+
+- text: "SetEnumValue"
+  translation: ""
+
+- text: "WeaponUI"
+  translation: ""
+
+- text: "UiOnScrollEvent"
+  translation: ""
+
+- text: "BlurConfig"
+  translation: ""
+
+- text: "SignalEmitter"
+  translation: ""
+
+- text: "LookAt"
+  translation: ""
+
+- text: "Vector3Divide"
+  translation: ""
+
+- text: "ControlTrack"
+  translation: ""
+
+- text: "EaseFloat"
+  translation: ""
+
+- text: "NumberHelpers"
+  translation: ""
+
+- text: "Vector3Invert"
+  translation: ""
+
+- text: "SetRectValue"
+  translation: ""
+
+- text: "WorldTime"
+  translation: ""
+
+- text: "LinqUtility"
+  translation: ""
+
+- text: "GUIChangeBool"
+  translation: ""
+
+- text: "UIParticle"
+  translation: ""
+
+- text: "TileMesh"
+  translation: ""
+
+- text: "SetItemColor"
+  translation: ""
+
+- text: "Smoothing"
+  translation: ""
+
+- text: "FloatSwitch"
+  translation: ""
+
+- text: "WalletUpgrade"
+  translation: ""
+
+- text: "GetScriptGraphs"
+  translation: ""
+
+- text: "Option"
+  translation: ""
+
+- text: "ISystem"
+  translation: ""
+
+- text: "IHaptics"
+  translation: ""
+
+- text: "TextureRegion"
+  translation: ""
+
+- text: "Weapon"
+  translation: ""
+
+- text: "GUIAction"
+  translation: ""
+
+- text: "SetTime"
+  translation: ""
+
+- text: "StateUnit"
+  translation: ""
+
+- text: "DynamicObstacle"
+  translation: ""
+
+- text: "AutoSavePoint"
+  translation: ""
+
+- text: "DrawDebugLine"
+  translation: ""
+
+- text: "ChunkListMap"
+  translation: ""
+
+- text: "Vector2Minimum"
+  translation: ""
+
+- text: "EntityDiffer"
+  translation: ""
+
+- text: "PublicEntityRef"
+  translation: ""
+
+- text: "Trigger2dEvent"
+  translation: ""
+
+- text: "AsyncOperation"
+  translation: ""
+
+- text: "ObjectVariables"
+  translation: ""
+
+- text: "GetStringLeft"
+  translation: ""
+
+- text: "WingedEdge"
+  translation: ""
+
+- text: "BlurAnimControl"
+  translation: ""
+
+- text: "DAUI1"
+  translation: "DAUI1"
+  skip_translation: true
+
+- text: "Chunk"
+  translation: "Chunk"
+  skip_translation: true
+
+- text: "RoomPort"
+  translation: ""
+
+- text: "WaitWhileUnit"
+  translation: ""
+
+- text: "HasItems"
+  translation: ""
+
+- text: "N1IV"
+  translation: "N1IV"
+  skip_translation: true
+
+- text: "Parser"
+  translation: ""
+
+- text: "InputHandle_t"
+  translation: ""
+
+- text: "Flow"
+  translation: "Flow"
+  skip_translation: true
+
+- text: "GetDurability"
+  translation: ""
+
+- text: "DampedTransform"
+  translation: ""
+
+- text: "StringChanged"
+  translation: ""
+
+- text: "GridNodeBase"
+  translation: ""
+
+- text: "ApiUtils"
+  translation: ""
+
+- text: "ApiUtils$"
+  translation: ""
+
+- text: "DialogueHistory"
+  translation: ""
+
+- text: "PlaySoundAsset"
+  translation: ""
+
+- text: "MissionTasksUI"
+  translation: ""
+
+- text: "ControlOutput"
+  translation: ""
+
+- text: "TileBuilder"
+  translation: ""
+
+- text: "GraphSnapshot"
+  translation: ""
+
+- text: "SetVelocity"
+  translation: ""
+
+- text: "Changelog"
+  translation: ""
+
+- text: "IPlayerName"
+  translation: ""
+
+- text: "CameraFadeOut"
+  translation: ""
+
+- text: "VariablesAsset"
+  translation: ""
+
+- text: "VictoryMenu"
+  translation: ""
+
+- text: "IPlayerId"
+  translation: ""
+
+- text: "Explosion"
+  translation: ""
+
+- text: "ProBuilderShape"
+  translation: ""
+
+- text: "QzQ"
+  translation: "QzQ"
+  skip_translation: true
+
+- text: "FindClosest"
+  translation: ""
+
+- text: "ItemShopPreview"
+  translation: ""
+
+- text: "PropertyWrapper"
+  translation: ""
+
+- text: "VehicleTrigger"
+  translation: ""
+
+- text: "DeferredPass"
+  translation: ""
+
+- text: "DeferredPass("
+  translation: ""
+
+- text: "SuF"
+  translation: "SuF"
+  skip_translation: true
+
+- text: "EdgeUtility"
+  translation: ""
+
+- text: "DataChunk"
+  translation: ""
+
+- text: "GraphInput"
+  translation: ""
+
+- text: "ServiceRegistry"
+  translation: ""
+
+- text: "SelectOnFlow"
+  translation: ""
+
+- text: "ILayerable"
+  translation: ""
+
+- text: "GetFsmColor"
+  translation: ""
+
+- text: "EaseEditor"
+  translation: ""
+
+- text: "HutongGames"
+  translation: ""
+
+- text: "JsonValidator"
+  translation: ""
+
+- text: "CharacterSaving"
+  translation: ""
+
+- text: "QuaternionEuler"
+  translation: ""
+
+- text: "KeyframeUtility"
+  translation: ""
+
+- text: "NavMeshModifier"
+  translation: ""
+
+- text: "GraphOutput"
+  translation: ""
+
+- text: "CallMultiple"
+  translation: ""
+
+- text: "BaseInputModule"
+  translation: ""
+
+- text: "SetFsmEnum"
+  translation: ""
+
+- text: "GetParent"
+  translation: ""
+
+- text: "BurstCompiler"
+  translation: ""
+
+- text: "Stat"
+  translation: "Stat"
+  skip_translation: true
+
+- text: "TimelineUndo"
+  translation: "TimelineUndo"
+  skip_translation: true
+
+- text: "ECBInterop"
+  translation: ""
+
+- text: "ControllerMove"
+  translation: ""
+
+- text: "Literal"
+  translation: ""
+
+- text: "IntAdd"
+  translation: ""
+
+- text: "RandomPath"
+  translation: ""
+
+- text: "IUnitRelation"
+  translation: ""
+
+- text: "TypeUtility"
+  translation: ""
+
+- text: "OnEnable"
+  translation: ""
+
+- text: "JobReadNodeData"
+  translation: ""
+
+- text: "Sensor"
+  translation: ""
+
+- text: "IApiClient"
+  translation: ""
+
+- text: "GUILayoutToggle"
+  translation: ""
+
+- text: "BroadcastEvent"
+  translation: ""
+
+- text: "TimerTest"
+  translation: ""
+
+- text: "GetColorRGBA"
+  translation: ""
+
+- text: "FsmStateSwitch"
+  translation: ""
+
+- text: "ISingleton"
+  translation: ""
+
+- text: "EnsureThat"
+  translation: ""
+
+- text: "BoneData"
+  translation: ""
+
+- text: "SetMaterial"
+  translation: ""
+
+- text: "SurfaceTopology"
+  translation: ""
+
+- text: "PsLayerImage"
+  translation: ""
+
+- text: "PluginMaster"
+  translation: ""
+
+- text: "SetSaveBool"
+  translation: ""
+
+- text: "OnButtonClick"
+  translation: ""
+
+- text: "Vector3Minimum"
+  translation: ""
+
+- text: "ANSpriteOutline"
+  translation: ""
+
+- text: "GetEventSentBy"
+  translation: ""
+
+- text: "SetVariableUnit"
+  translation: ""
+
+- text: "WhiteBalance"
+  translation: ""
+
+- text: "XcU"
+  translation: "XcU"
+  skip_translation: true
+
+- text: "G_AudioMonitor"
+  translation: ""
+
+- text: "G_FpsManager"
+  translation: ""
+
+- text: "Limb"
+  translation: "Limb"
+  skip_translation: true
+
+- text: "BakingSettings"
+  translation: ""
+
+- text: "For"
+  translation: ""
+
+- text: "SetHairMessy"
+  translation: ""
+
+- text: "Patrol"
+  translation: ""
+
+- text: "EventInterfaces"
+  translation: ""
+
+- text: "RandomChance"
+  translation: ""
+
+- text: "UiTextGetText"
+  translation: ""
+
+- text: "Transform2D"
+  translation: ""
+
+- text: "TreeViewItem"
+  translation: ""
+
+- text: "G_RamMonitor"
+  translation: ""
+
+- text: "CreditList"
+  translation: ""
+
+- text: "PartyBeaconID_t"
+  translation: ""
+
+- text: "DrawTexture"
+  translation: ""
+
+- text: "InputDevice"
+  translation: ""
+
+- text: "Cache"
+  translation: ""
+
+- text: "G_Intstring"
+  translation: ""
+
+- text: "G_IntString"
+  translation: ""
+
+- text: "Credits"
+  translation: ""
+
+- text: "SpriteState"
+  translation: ""
+
+- text: "AffineTransform"
+  translation: ""
+
+- text: "AtlasUtilities"
+  translation: ""
+
+- text: "RrhjE"
+  translation: ""
+
+- text: "PMA_SetPosition"
+  translation: ""
+
+- text: "Json"
+  translation: "Json"
+  skip_translation: true
+
+- text: "Plane"
+  translation: ""
+
+- text: "PopulateEntries"
+  translation: ""
+
+- text: "MenuPrefabs"
+  translation: ""
+
+- text: "TransferItem"
+  translation: ""
+
+- text: "BurstRuntime"
+  translation: ""
+
+- text: "TMP_Settings"
+  translation: ""
+
+- text: "V%XIW"
+  translation: "V%XIW"
+  skip_translation: true
+
+- text: "CoreMetrics"
+  translation: ""
+
+- text: "SetVisibility"
+  translation: ""
+
+- text: "GetNextChild"
+  translation: ""
+
+- text: "WaveSimulation"
+  translation: ""
+
+- text: "Vector2Maximum"
+  translation: ""
+
+- text: "GraphInstances"
+  translation: ""
+
+- text: "UnsafeList"
+  translation: ""
+
+- text: "Locale"
+  translation: ""
+
+- text: "CheckDoorLocked"
+  translation: ""
+
+- text: "BakingUtility"
+  translation: ""
+
+- text: "ResetInputAxes"
+  translation: ""
+
+- text: "SetMainCamera"
+  translation: ""
+
+- text: "INesterState"
+  translation: ""
+
+- text: "LastItem"
+  translation: ""
+
+- text: "Spawner"
+  translation: ""
+
+- text: "UvUnwrapping"
+  translation: ""
+
+- text: "WaterColorUtils"
+  translation: ""
+
+- text: "MeshGizmo"
+  translation: ""
+
+- text: "RectOverlaps"
+  translation: ""
+
+- text: "CoroutineRunner"
+  translation: ""
+
+- text: "G_RamText"
+  translation: ""
+
+- text: "BindInput"
+  translation: ""
+
+- text: "XNd"
+  translation: "XNd"
+  skip_translation: true
+
+- text: "IAccessToken"
+  translation: ""
+
+- text: "IAccessToken&"
+  translation: ""
+
+- text: "AndroidUtils"
+  translation: ""
+
+- text: "StringContains"
+  translation: ""
+
+- text: "UnsafeStream"
+  translation: ""
+
+- text: "UnsafeStream!"
+  translation: ""
+
+- text: "ICache"
+  translation: ""
+
+- text: "IUnityServices"
+  translation: ""
+
+- text: "IEventUnit"
+  translation: ""
+
+- text: "ShapeFactory"
+  translation: ""
+
+- text: "AudioPause"
+  translation: ""
+
+- text: "InvalidOutput"
+  translation: ""
+
+- text: "MinMaxAABB"
+  translation: ""
+
+- text: "FilmGrain"
+  translation: ""
+
+- text: "OnMove"
+  translation: ""
+
+- text: "BlendConstraint"
+  translation: ""
+
+- text: "OnAnimatorMove"
+  translation: ""
+
+- text: "ApplicationQuit"
+  translation: ""
+
+- text: "IDataValidate"
+  translation: ""
+
+- text: "DebugObject"
+  translation: ""
+
+- text: "RouteEventInfo"
+  translation: ""
+
+- text: "DepthOnlyPass"
+  translation: ""
+
+- text: "AccessToken"
+  translation: ""
+
+- text: "DTSweep"
+  translation: ""
+
+- text: "DialogueLine"
+  translation: ""
+
+- text: "CurveColor"
+  translation: ""
+
+- text: "WorldUnmanaged"
+  translation: ""
+
+- text: "StringCompare"
+  translation: ""
+
+- text: "CloseTabMenu"
+  translation: ""
+
+- text: "SetSaveFloat"
+  translation: ""
+
+- text: "TypeFilter"
+  translation: ""
+
+- text: "GetAtan2"
+  translation: ""
+
+- text: "GenericMultiply"
+  translation: ""
+
+- text: "GetRandomObject"
+  translation: ""
+
+- text: "InputExtensions"
+  translation: ""
+
+- text: "Renderer2D"
+  translation: ""
+
+- text: "OnDrop"
+  translation: ""
+
+- text: "DNCTimeEvent"
+  translation: ""
+
+- text: "Ew0"
+  translation: "Ew0"
+  skip_translation: true
+
+- text: "IInstallationId"
+  translation: ""
+
+- text: "EventBus"
+  translation: ""
+
+- text: "PIDMovement"
+  translation: ""
+
+- text: "GetFsmInt"
+  translation: ""
+
+- text: "TMP_InputField"
+  translation: ""
+
+- text: "HMSTime"
+  translation: ""
+
+- text: "G_FpsGraph"
+  translation: ""
+
+- text: "LocalToWorld"
+  translation: ""
+
+- text: "PinupItem"
+  translation: ""
+
+- text: "Bounds2D"
+  translation: ""
+
+- text: "SetGravity2d"
+  translation: ""
+
+- text: "PathTracer"
+  translation: ""
+
+- text: "VertexJitter"
+  translation: ""
+
+- text: "SpriteAttacher"
+  translation: ""
+
+- text: "PathfindingTag"
+  translation: ""
+
+- text: "EndDialogue"
+  translation: ""
+
+- text: "G_SafeArea"
+  translation: ""
+
+- text: "CameraUtility"
+  translation: ""
+
+- text: "FloatClamp"
+  translation: ""
+
+- text: "MissionEnabler"
+  translation: ""
+
+- text: "MoveTowards"
+  translation: ""
+
+- text: "CharacterViewer"
+  translation: ""
+
+- text: "ToggleGroup"
+  translation: ""
+
+- text: "TextureUtils"
+  translation: ""
+
+- text: "Baker"
+  translation: ""
+
+- text: "BakedEntity"
+  translation: ""
+
+- text: "PopulateCredits"
+  translation: ""
+
+- text: "XRSystemData"
+  translation: ""
+
+- text: "FastTouchscreen"
+  translation: ""
+
+- text: "LimbSolver2D"
+  translation: ""
+
+- text: "GetPosition"
+  translation: ""
+
+- text: "TMP_Style"
+  translation: ""
+
+- text: "LoadLevel"
+  translation: ""
+
+- text: "PoseControl"
+  translation: ""
+
+- text: "BlockAllocator"
+  translation: ""
+
+- text: "MeshGenerator"
+  translation: ""
+
+- text: "IComponentData"
+  translation: ""
+
+- text: "MoveInCircle"
+  translation: ""
+
+- text: "Fxet"
+  translation: "Fxet"
+  skip_translation: true
+
+- text: "SpriteExt"
+  translation: ""
+
+- text: "TouchGUIEvent"
+  translation: ""
+
+- text: "ClothProcess"
+  translation: ""
+
+- text: "SetGUISkin"
+  translation: ""
+
+- text: "SetIntRandom"
+  translation: ""
+
+- text: "CheckIsDemo"
+  translation: ""
+
+- text: "PuT\\F"
+  translation: "PuT\\\\F"
+  skip_translation: true
+
+- text: "SNetSocket_t"
+  translation: ""
+
+- text: "SetGUIColor"
+  translation: ""
+
+- text: "ConfigManager"
+  translation: ""
+
+- text: "IgnoreSnap"
+  translation: ""
+
+- text: "RoomSet"
+  translation: ""
+
+- text: "Tyu"
+  translation: ""
+
+- text: "ShowerManager"
+  translation: ""
+
+- text: "PMA_AddSaveInt"
+  translation: ""
+
+- text: "MeshUtility"
+  translation: ""
+
+- text: "Extrapolation"
+  translation: ""
+
+- text: "Event"
+  translation: ""
+
+- text: "ConsoleUI"
+  translation: ""
+
+- text: "RectMask2D"
+  translation: ""
+
+- text: "EnumUtility"
+  translation: ""
+
+- text: "Funnel"
+  translation: ""
+
+- text: "DPk"
+  translation: "DPk"
+  skip_translation: true
+
+- text: "IsKinematic2d"
+  translation: ""
+
+- text: "PerversionLevel"
+  translation: ""
+
+- text: "DemoScene"
+  translation: ""
+
+- text: "BlendMode"
+  translation: ""
+
+- text: "DecisionHelper"
+  translation: ""
+
+- text: "GraphStack"
+  translation: ""
+
+- text: "DeltaControl"
+  translation: ""
+
+- text: "CountItems"
+  translation: ""
+
+- text: "ManagedState"
+  translation: ""
+
+- text: "ScalarMaximum"
+  translation: ""
+
+- text: "Sse4_2"
+  translation: ""
+
+- text: "FixedUpdate"
+  translation: ""
+
+- text: "CharController"
+  translation: ""
+
+- text: "NavigationModel"
+  translation: ""
+
+- text: "GenericSum"
+  translation: ""
+
+- text: "TextureXR"
+  translation: ""
+
+- text: "RaycastResult"
+  translation: ""
+
+- text: "VFXBinderBase"
+  translation: ""
+
+- text: "Formula"
+  translation: ""
+
+- text: "TileMapBaker"
+  translation: ""
+
+- text: "GUIButton"
+  translation: ""
+
+- text: "WaitForDialogue"
+  translation: ""
+
+- text: "ExpressionUtils"
+  translation: ""
+
+- text: "Vlm"
+  translation: "Vlm"
+  skip_translation: true
+
+- text: "SetPosition"
+  translation: ""
+
+- text: "ILayoutElement"
+  translation: ""
+
+- text: "Smoothen"
+  translation: ""
+
+- text: "Clouds"
+  translation: ""
+
+- text: "EnumCompare"
+  translation: ""
+
+- text: "SequenceEvent"
+  translation: ""
+
+- text: "IntVec4"
+  translation: ""
+
+- text: "FlowState"
+  translation: ""
+
+- text: "GetFsmVariable"
+  translation: ""
+
+- text: "IClipRegion"
+  translation: ""
+
+- text: "IClipper"
+  translation: ""
+
+- text: "SkeletonRagdoll"
+  translation: ""
+
+- text: "Seeker"
+  translation: ""
+
+- text: "RandomWait"
+  translation: ""
+
+- text: "RenderGraphPass"
+  translation: ""
+
+- text: "PMA_FadeCamera"
+  translation: ""
+
+- text: "Vector2Rotation"
+  translation: ""
+
+- text: "PS2DGlobals"
+  translation: ""
+
+- text: "TimeSpan"
+  translation: ""
+
+- text: "OnDrag"
+  translation: ""
+
+- text: "Identity"
+  translation: ""
+
+- text: "Vector4Round"
+  translation: ""
+
+- text: "Pipe"
+  translation: ""
+
+- text: "OnTimerElapsed"
+  translation: ""
+
+- text: "PMA_AutoSave"
+  translation: ""
+
+- text: "NodeLink3"
+  translation: ""
+
+- text: "IAdditionalData"
+  translation: ""
+
+- text: "RectContains"
+  translation: ""
+
+- text: "NotEqual"
+  translation: ""
+
+- text: "ANJoystick"
+  translation: ""
+
+- text: "Documentation"
+  translation: ""
+
+- text: "SelectUnit_T"
+  translation: ""
+
+- text: "SelectUnit"
+  translation: ""
+
+- text: "HashUtility"
+  translation: ""
+
+- text: "SelectionPicker"
+  translation: ""
+
+- text: "AstarData"
+  translation: ""
+
+- text: "AdsrEnvelop"
+  translation: ""
+
+- text: "SetVector3XYZ"
+  translation: ""
+
+- text: "ResetDurability"
+  translation: ""
+
+- text: "TouchEvent"
+  translation: ""
+
+- text: "HurtFlashEffect"
+  translation: ""
+
+- text: "AddScript"
+  translation: ""
+
+- text: "GraphModifier"
+  translation: ""
+
+- text: "StateGraphData"
+  translation: ""
+
+- text: "TileLayoutUtils"
+  translation: ""
+
+- text: "JwtDecoder"
+  translation: ""
+
+- text: "SDFFont"
+  translation: ""
+
+- text: "ResetKeypad"
+  translation: ""
+
+- text: "FadeLight"
+  translation: ""
+
+- text: "BBTree"
+  translation: ""
+
+- text: "InvokeMethod"
+  translation: ""
+
+- text: "AddComponent"
+  translation: ""
+
+- text: "SetLightCookie"
+  translation: ""
+
+- text: "FocusUI"
+  translation: ""
+
+- text: "Mc3"
+  translation: "Mc3"
+  skip_translation: true
+
+- text: "PolygonSet"
+  translation: ""
+
+- text: "TeamManager"
+  translation: ""
+
+- text: "Negate"
+  translation: ""
+
+- text: "OnMouseInput"
+  translation: ""
+
+- text: "DisabledMetrics"
+  translation: ""
+
+- text: "TrackAsset"
+  translation: ""
+
+- text: "Graph"
+  translation: "Graph"
+  skip_translation: true
+
+- text: "TappingMinigame"
+  translation: ""
+
+- text: "OnPointerExit"
+  translation: ""
+
+- text: "SystemDefine"
+  translation: ""
+
+- text: "Define"
+  translation: ""
+
+- text: "AnimationState"
+  translation: ""
+
+- text: "StatusMenu"
+  translation: ""
+
+- text: "TMP_Asset"
+  translation: ""
+
+- text: "Glitch21"
+  translation: ""
+
+- text: "CustomEventArgs"
+  translation: ""
+
+- text: "StateTransition"
+  translation: ""
+
+- text: "UpdateHelper"
+  translation: ""
+
+- text: "IManager"
+  translation: ""
+
+- text: "UseGravity"
+  translation: ""
+
+- text: "SetVector3Value"
+  translation: ""
+
+- text: "Vector4Lerp"
+  translation: ""
+
+- text: "IsKinematic"
+  translation: ""
+
+- text: "EasingFunction"
+  translation: ""
+
+- text: "D;t"
+  translation: "D;t"
+  skip_translation: true
+
+- text: "InteropHelp"
+  translation: ""
+
+- text: "ITriangulatable"
+  translation: ""
+
+- text: "Triangulatable"
+  translation: ""
+
+- text: "IkConstraint"
+  translation: ""
+
+- text: "IXboxOneRumble"
+  translation: ""
+
+- text: "XRSystem"
+  translation: ""
+
+- text: "XRSystem\""
+  translation: ""
+
+- text: "ScalarLerp"
+  translation: ""
+
+- text: "Mesh"
+  translation: "Mesh"
+  skip_translation: true
+
+- text: "Mesh("
+  translation: "Mesh("
+  skip_translation: true
+
+- text: "LinuxSupport"
+  translation: ""
+
+- text: "MissingType"
+  translation: ""
+
+- text: "L3Nh"
+  translation: "L3Nh"
+  skip_translation: true
+
+- text: "EnumSwitch"
+  translation: ""
+
+- text: "DestroyObjects"
+  translation: ""
+
+- text: "HasLimbEffect"
+  translation: ""
+
+- text: "AddSaveFloat"
+  translation: ""
+
+- text: "LevelTransition"
+  translation: ""
+
+- text: "UCkP"
+  translation: ""
+
+- text: "HandleUtility"
+  translation: ""
+
+- text: "CC_Spine_Color"
+  translation: ""
+
+- text: "GetMouseX"
+  translation: ""
+
+- text: "DecisionGroup"
+  translation: ""
+
+- text: "ColorUtils"
+  translation: ""
+
+- text: "ColorCurves"
+  translation: ""
+
+- text: "TypeTable"
+  translation: ""
+
+- text: "Cylinder"
+  translation: ""
+
+- text: "GetStateGraphs"
+  translation: ""
+
+- text: "Substring"
+  translation: ""
+
+- text: "PMA_DuckSounds"
+  translation: ""
+
+- text: "AnimationViewer"
+  translation: ""
+
+- text: "DialogueShaker"
+  translation: ""
+
+- text: "ShowOnHover"
+  translation: ""
+
+- text: "EnabledMask"
+  translation: ""
+
+- text: "EntityManager"
+  translation: ""
+
+- text: "Bone"
+  translation: ""
+
+- text: "LocalSpaceGraph"
+  translation: ""
+
+- text: "FastList"
+  translation: ""
+
+- text: "FastListBase"
+  translation: ""
+
+- text: "P,Wa"
+  translation: "P,Wa"
+  skip_translation: true
+
+- text: "DrawDebugRay"
+  translation: ""
+
+- text: "Goblins"
+  translation: ""
+
+- text: "FastKeyboard"
+  translation: ""
+
+- text: "TaskWidget"
+  translation: ""
+
+- text: "WindManager"
+  translation: ""
+
+- text: "IKChain2D"
+  translation: ""
+
+- text: "LerpOverArea"
+  translation: ""
+
+- text: "DialogueNameTag"
+  translation: ""
+
+- text: "World"
+  translation: "World"
+  skip_translation: true
+
+- text: "GetSceneIsValid"
+  translation: ""
+
+- text: "WaitForHideable"
+  translation: ""
+
+- text: "IsBunny"
+  translation: ""
+
+- text: "ColliderManager"
+  translation: ""
+
+- text: "ItemToEquipment"
+  translation: ""
+
+- text: "Constant"
+  translation: ""
+
+- text: "BaseRaycaster"
+  translation: ""
+
+- text: "Room"
+  translation: ""
+
+- text: "GetDistance"
+  translation: ""
+
+- text: "Spline"
+  translation: ""
+
+- text: "RuleTexture"
+  translation: ""
+
+- text: "FinishFSM"
+  translation: ""
+
+- text: "AyU"
+  translation: "AyU"
+  skip_translation: true
+
+- text: "MarkerList"
+  translation: ""
+
+- text: "JobManager"
+  translation: ""
+
+- text: "NullCheck"
+  translation: ""
+
+- text: "UGCHandle_t"
+  translation: ""
+
+- text: "FSRUtils"
+  translation: ""
+
+- text: "O@j"
+  translation: "O@j"
+  skip_translation: true
+
+- text: "OnMouseDrag"
+  translation: ""
+
+- text: "SetAudioClip"
+  translation: ""
+
+- text: "HasMission"
+  translation: ""
+
+- text: "AllLevelInfo"
+  translation: ""
+
+- text: "SetStat"
+  translation: ""
+
+- text: "FootstepTrigger"
+  translation: ""
+
+- text: "GoogleVR"
+  translation: ""
+
+- text: "DaydreamHMD"
+  translation: ""
+
+- text: "NNVerticalDoor"
+  translation: ""
+
+- text: "TCNN_Dropdown"
+  translation: ""
+
+- text: "ANTA_ExitAsset"
+  translation: ""
+
+- text: "UnsafeText"
+  translation: ""
+
+- text: "RandomEvent"
+  translation: ""
+
+- text: "IPoolable"
+  translation: ""
+
+- text: "BindingRegistry"
+  translation: ""
+
+- text: "OnSelect"
+  translation: ""
+
+- text: "PrimitiveValue"
+  translation: ""
+
+- text: "StackExt"
+  translation: ""
+
+- text: "BurstString"
+  translation: ""
+
+- text: "Vector2Project"
+  translation: ""
+
+- text: "SubScene"
+  translation: ""
+
+- text: "SetIntFromFloat"
+  translation: ""
+
+- text: "LockDoorEntity"
+  translation: ""
+
+- text: "SkipModeEnabler"
+  translation: ""
+
+- text: "SwitchOnString"
+  translation: ""
+
+- text: "LoadLevelNum"
+  translation: ""
+
+- text: "GetFsmVariables"
+  translation: ""
+
+- text: "UnlinkResponse"
+  translation: ""
+
+- text: "AnimateRect"
+  translation: ""
+
+- text: "GetFsmVector3"
+  translation: ""
+
+- text: "GetRoot"
+  translation: ""
+
+- text: "GetAxis"
+  translation: ""
+
+- text: "ANReturnToPool"
+  translation: ""
+
+- text: "MultiInputUnit"
+  translation: ""
+
+- text: "IMultiInputUnit"
+  translation: ""
+
+- text: "HttpUtilities"
+  translation: ""
+
+- text: "Codec"
+  translation: ""
+
+- text: "CodecService"
+  translation: ""
+
+- text: "WaterPresets"
+  translation: ""
+
+- text: "AnimatorExt"
+  translation: ""
+
+- text: "Kef"
+  translation: ""
+
+- text: "Speedlines"
+  translation: ""
+
+- text: "OnPointerEnter"
+  translation: ""
+
+- text: "BufferManager"
+  translation: ""
+
+- text: "FloatMath"
+  translation: ""
+
+- text: "ShapeGenerator"
+  translation: ""
+
+- text: "XU!"
+  translation: "XU!"
+  skip_translation: true
+
+- text: "O(E"
+  translation: "O(E"
+  skip_translation: true
+
+- text: "RigTransform"
+  translation: ""
+
+- text: "Memory"
+  translation: ""
+
+- text: "XROcclusionMesh"
+  translation: ""
+
+- text: "StringReplace"
+  translation: ""
+
+- text: "ResourceManager"
+  translation: ""
+
+- text: "DestroyItem"
+  translation: ""
+
+- text: "AnimateAlpha"
+  translation: ""
+
+- text: "Clipper"
+  translation: ""
+
+- text: "InputBinding"
+  translation: ""
+
+- text: "SelectOnString"
+  translation: ""
+
+- text: "Vector3Subtract"
+  translation: ""
+
+- text: "GetSceneCount"
+  translation: ""
+
+- text: "ConfigManager2x"
+  translation: ""
+
+- text: "IGraphNest"
+  translation: ""
+
+- text: "SimdDebugViews"
+  translation: ""
+
+- text: "V64DebugView"
+  translation: ""
+
+- text: "SetFsmObject"
+  translation: ""
+
+- text: "DebugLog"
+  translation: ""
+
+- text: "Vector2Int"
+  translation: ""
+
+- text: "Vector2IntExt"
+  translation: ""
+
+- text: "RVOSystem"
+  translation: ""
+
+- text: "GraphDebugData"
+  translation: ""
+
+- text: "TMP_Character"
+  translation: ""
+
+- text: "SharedVertex"
+  translation: ""
+
+- text: "TMP_TextInfo"
+  translation: ""
+
+- text: "Vector2Divide"
+  translation: ""
+
+- text: "PointKDTree"
+  translation: ""
+
+- text: "JobControl"
+  translation: ""
+
+- text: "WaitForSeat"
+  translation: ""
+
+- text: "TransformData"
+  translation: ""
+
+- text: "ResourceHandle"
+  translation: ""
+
+- text: "AccountID_t"
+  translation: ""
+
+- text: "HaltonSequence"
+  translation: ""
+
+- text: "IMarker"
+  translation: ""
+
+- text: "Glitch10"
+  translation: ""
+
+- text: "TouchHistory"
+  translation: ""
+
+- text: "TouchHistory%"
+  translation: ""
+
+- text: "CutIn"
+  translation: ""
+
+- text: "F|a"
+  translation: "F|a"
+  skip_translation: true
+
+- text: "HableCurve"
+  translation: ""
+
+- text: "ShowKeypad"
+  translation: ""
+
+- text: "Fma"
+  translation: ""
+
+- text: "RunFSM"
+  translation: ""
+
+- text: "GridGraphRules"
+  translation: ""
+
+- text: "HServerQuery"
+  translation: ""
+
+- text: "IGraphItem"
+  translation: ""
+
+- text: "IFum"
+  translation: ""
+
+- text: "EnableAnimation"
+  translation: ""
+
+- text: "BinaryAdapter"
+  translation: ""
+
+- text: "Timer"
+  translation: ""
+
+- text: "VectorHash"
+  translation: ""
+
+- text: "DepotId_t"
+  translation: ""
+
+- text: "Vector3Lerp"
+  translation: ""
+
+- text: "FloatMultiply"
+  translation: ""
+
+- text: "Pen"
+  translation: ""
+
+- text: "CurrencyHelper"
+  translation: ""
+
+- text: "HIDSupport"
+  translation: ""
+
+- text: "ObjectSpin"
+  translation: ""
+
+- text: "GetTouchInfo"
+  translation: ""
+
+- text: "QuaternionSlerp"
+  translation: ""
+
+- text: "GetChild"
+  translation: ""
+
+- text: "HotDogSwipeView"
+  translation: ""
+
+- text: "WebRequestQueue"
+  translation: ""
+
+- text: "OnPointerDown"
+  translation: ""
+
+- text: "PerSecond"
+  translation: ""
+
+- text: "Upgrade"
+  translation: ""
+
+- text: "Vector3Distance"
+  translation: ""
+
+- text: "Draw"
+  translation: "Draw"
+  skip_translation: true
+
+- text: "SetMass"
+  translation: ""
+
+- text: "BufferX"
+  translation: ""
+
+- text: "SystemAPI"
+  translation: ""
+
+- text: "TimerEvent"
+  translation: ""
+
+- text: "ConstraintData"
+  translation: ""
+
+- text: "AstarDebugger"
+  translation: ""
+
+- text: "XRGraphics"
+  translation: ""
+
+- text: "PMA_GiveItem"
+  translation: ""
+
+- text: "TMP_Text"
+  translation: ""
+
+- text: "BasicSample"
+  translation: ""
+
+- text: "BarGraph"
+  translation: ""
+
+- text: "ForwardEvent"
+  translation: ""
+
+- text: "ITreeViewItem"
+  translation: ""
+
+- text: "GlobalVars"
+  translation: ""
+
+- text: "FormatString"
+  translation: ""
+
+- text: "FsmExtension"
+  translation: ""
+
+- text: "InclusiveRange"
+  translation: ""
+
+- text: "GridNode"
+  translation: ""
+
+- text: "ShowLevelName"
+  translation: ""
+
+- text: "IdE"
+  translation: "IdE"
+  skip_translation: true
+
+- text: "RVONavmesh"
+  translation: ""
+
+- text: "VectorExtention"
+  translation: ""
+
+- text: "SetFullscreen"
+  translation: ""
+
+- text: "Polygon"
+  translation: ""
+
+- text: "MagicaManager"
+  translation: ""
+
+- text: "StateGraphAsset"
+  translation: ""
+
+- text: "RTime32"
+  translation: ""
+
+- text: "AdvancingFront"
+  translation: ""
+
+- text: "PMA_PlayMusic"
+  translation: ""
+
+- text: "OnSubmit"
+  translation: ""
+
+- text: "ChatController"
+  translation: ""
+
+- text: "ITimeControl"
+  translation: ""
+
+- text: "ObstructorPair"
+  translation: ""
+
+- text: "Refinery"
+  translation: ""
+
+- text: "Refinery%"
+  translation: ""
+
+- text: "TMP_TextElement"
+  translation: ""
+
+- text: "Vector3Bool"
+  translation: ""
+
+- text: "Vector3Multiply"
+  translation: ""
+
+- text: "SetObjectValue"
+  translation: ""
+
+- text: "LiftGammaGain"
+  translation: ""
+
+- text: "OlA"
+  translation: "OlA"
+  skip_translation: true
+
+- text: "BakingAnalytics"
+  translation: ""
+
+- text: "EffectButton"
+  translation: ""
+
+- text: "WhenHasItems"
+  translation: ""
+
+- text: "StringHelpers"
+  translation: ""
+
+- text: "PMA_BlurCamera"
+  translation: ""
+
+- text: "NNDebugHelper"
+  translation: ""
+
+- text: "ForwardLights"
+  translation: ""
+
+- text: "JsonTokenStream"
+  translation: ""
+
+- text: "GUIHelpers"
+  translation: ""
+
+- text: "IMacro"
+  translation: ""
+
+- text: "Reflection3DSO"
+  translation: ""
+
+- text: "HotDogSprite"
+  translation: ""
+
+- text: "OnPointerClick"
+  translation: ""
+
+- text: "AxisControl"
+  translation: ""
+
+- text: "Vector3Project"
+  translation: ""
+
+- text: "IProfile"
+  translation: ""
+
+- text: "LudiqBehaviour"
+  translation: ""
+
+- text: "FunctionArgs"
+  translation: ""
+
+- text: "FunctionArgs("
+  translation: ""
+
+- text: "PMA_RestrainTab"
+  translation: ""
+
+- text: "VolumeComponent"
+  translation: ""
+
+- text: "UiTextSetText"
+  translation: ""
+
+- text: "CreateEffect"
+  translation: ""
+
+- text: "VariablesSaver"
+  translation: ""
+
+- text: "Xs@a"
+  translation: "Xs@a"
+  skip_translation: true
+
+- text: "IGraphRoot"
+  translation: ""
+
+- text: "AgeCheck"
+  translation: ""
+
+- text: "PatreonDisabler"
+  translation: ""
+
+- text: "GiveItems"
+  translation: ""
+
+- text: "SpriteStrecher"
+  translation: ""
+
+- text: "Edge"
+  translation: ""
+
+- text: "WaitForOrgasm"
+  translation: ""
+
+- text: "GUIUtility"
+  translation: ""
+
+- text: "E:u"
+  translation: "E:u"
+  skip_translation: true
+
+- text: "AddListItem"
+  translation: ""
+
+- text: "SessionManager"
+  translation: ""
+
+- text: "PostProcessData"
+  translation: ""
+
+- text: "Sr-9"
+  translation: "Sr-9"
+  skip_translation: true
+
+- text: "ClearList"
+  translation: ""
+
+- text: "Shaders"
+  translation: "Shaders"
+  skip_translation: true
+
+- text: "ShadersDummy"
+  translation: "ShadersDummy"
+  skip_translation: true
+
+- text: "Glitch_3"
+  translation: "Glitch_3"
+  skip_translation: true
+
+- text: "DataUtility"
+  translation: ""
+
+- text: "IAotStubbable"
+  translation: ""
+
+- text: "Vector2AddXY"
+  translation: ""
+
+- text: "MeshExtensions"
+  translation: ""
+
+- text: "Aliasing"
+  translation: ""
+
+- text: "SpriteSkin"
+  translation: ""
+
+- text: "CullGroup"
+  translation: ""
+
+- text: "ActionScheduler"
+  translation: ""
+
+- text: "SetVelocity2d"
+  translation: ""
+
+- text: "Int3"
+  translation: "Int3"
+  skip_translation: true
+
+- text: "ConsoleLogUI"
+  translation: ""
+
+- text: "OculusConfig"
+  translation: ""
+
+- text: "ShowerEyeCloser"
+  translation: ""
+
+- text: "AnimateColor"
+  translation: ""
+
+- text: "GetStringRight"
+  translation: ""
+
+- text: "SmoothLookAt"
+  translation: ""
+
+- text: "AddForce"
+  translation: ""
+
+- text: "SaveButton"
+  translation: ""
+
+- text: "IzP!"
+  translation: "IzP!"
+  skip_translation: true
+
+- text: "CleanupEntity"
+  translation: ""
+
+- text: "MeshImporter"
+  translation: ""
+
+- text: "MeshImporter%"
+  translation: ""
+
+- text: "SetScriptGraph"
+  translation: ""
+
+- text: "Bwt"
+  translation: "Bwt"
+  skip_translation: true
+
+- text: "DoRandom"
+  translation: ""
+
+- text: "DJru"
+  translation: ""
+
+- text: "VertexEditing"
+  translation: ""
+
+- text: "ParentSystem"
+  translation: ""
+
+- text: "ChannelToken"
+  translation: ""
+
+- text: "CC_Option"
+  translation: ""
+
+- text: "Vector2Absolute"
+  translation: ""
+
+- text: "SetTaskName"
+  translation: ""
+
+- text: "ConsoleLog"
+  translation: ""
+
+- text: "EntityPatcher"
+  translation: ""
+
+- text: "AssetReference"
+  translation: ""
+
+- text: "SinSpriteColor"
+  translation: ""
+
+- text: "NNItemPopupUI"
+  translation: ""
+
+- text: "HasUpgrade"
+  translation: ""
+
+- text: "InputEventTrace"
+  translation: ""
+
+- text: "MX\"E"
+  translation: "MX\\"
+  skip_translation: true
+
+- text: "TMP_SpriteGlyph"
+  translation: ""
+
+- text: "Node"
+  translation: ""
+
+- text: "Analytics"
+  translation: ""
+
+- text: "IMouseEventUnit"
+  translation: ""
+
+- text: "IBlurAlgorithm"
+  translation: ""
+
+- text: "SO_Window"
+  translation: ""
+
+- text: "NetworkHandler"
+  translation: ""
+
+- text: "IsSlotEquipped"
+  translation: ""
+
+- text: "CharacterSprite"
+  translation: ""
+
+- text: "G_AdvancedData"
+  translation: ""
+
+- text: "Vector2Operator"
+  translation: ""
+
+- text: "DictionaryExt"
+  translation: ""
+
+- text: "PQHandle-"
+  translation: ""
+
+- text: "Clipping"
+  translation: ""
+
+- text: "IWire"
+  translation: ""
+
+- text: "PsGroup"
+  translation: ""
+
+- text: "RestrainSaving"
+  translation: ""
+
+- text: "Dke"
+  translation: ""
+
+- text: "MissionDisplay"
+  translation: ""
+
+- text: "DebugUtility"
+  translation: ""
+
+- text: "BoolChanged"
+  translation: ""
+
+- text: "IUnitValuePort"
+  translation: ""
+
+- text: "ITimeProvider"
+  translation: ""
+
+- text: "RigLayer"
+  translation: ""
+
+- text: "DynamicTable"
+  translation: ""
+
+- text: "Be~"
+  translation: "Be~"
+  skip_translation: true
+
+- text: "PointGenerator"
+  translation: ""
+
+- text: "AnimateFloat"
+  translation: ""
+
+- text: "SendEventByName"
+  translation: ""
+
+- text: "OnGUI"
+  translation: ""
+
+- text: "SetFsmFloat"
+  translation: ""
+
+- text: "Cone"
+  translation: ""
+
+- text: "FrameCache"
+  translation: ""
+
+- text: "AddSaveInt"
+  translation: ""
+
+- text: "CheckSaveInt"
+  translation: ""
+
+- text: "SetColorRGBA"
+  translation: ""
+
+- text: "Glitch5"
+  translation: ""
+
+- text: "TreeView"
+  translation: ""
+
+- text: "ProfilingScope"
+  translation: ""
+
+- text: "SetGUIDepth"
+  translation: ""
+
+- text: "Restraint"
+  translation: ""
+
+- text: "CharacterParty"
+  translation: ""
+
+- text: "KnobAttribute"
+  translation: ""
+
+- text: "UnityTimeSpan"
+  translation: ""
+
+- text: "GetVector2XY"
+  translation: ""
+
+- text: "Commands"
+  translation: ""
+
+- text: "FlowerMovement"
+  translation: ""
+
+- text: "De=a"
+  translation: "De=a"
+  skip_translation: true
+
+- text: "TreeViewHelpers"
+  translation: ""
+
+- text: "Glitch18"
+  translation: ""
+
+- text: "MultiTargetPath"
+  translation: ""
+
+- text: "OnTriggerEnter"
+  translation: ""
+
+- text: "ANObjectPooler"
+  translation: ""
+
+- text: "RuntimeConfig2x"
+  translation: ""
+
+- text: "RuntimeConfig"
+  translation: ""
+
+- text: "ConstantBuffer"
+  translation: ""
+
+- text: "GetAnimatorBool"
+  translation: ""
+
+- text: "ClearDictionary"
+  translation: ""
+
+- text: "FreeCamera"
+  translation: ""
+
+- text: "JobApplyGravity"
+  translation: ""
+
+- text: "GalleryImageUI"
+  translation: ""
+
+- text: "NavmeshEdges"
+  translation: ""
+
+- text: "PMA_NewSaveFile"
+  translation: ""
+
+- text: "IMaskable"
+  translation: ""
+
+- text: "StringUtility"
+  translation: ""
+
+- text: "Navigation"
+  translation: ""
+
+- text: "SetPhoneSignal"
+  translation: ""
+
+- text: "SsS"
+  translation: "SsS"
+  skip_translation: true
+
+- text: "ApiResponse"
+  translation: ""
+
+- text: "AxisComposite"
+  translation: ""
+
+- text: "ExecuteEvents"
+  translation: ""
+
+- text: "Touch"
+  translation: ""
+
+- text: "MinimapHandler"
+  translation: ""
+
+- text: "PlayerInput"
+  translation: ""
+
+- text: "Member"
+  translation: ""
+
+- text: "GetStatMax"
+  translation: ""
+
+- text: "Allegiance"
+  translation: ""
+
+- text: "CutToCamera"
+  translation: ""
+
+- text: "PsLayerSprite"
+  translation: ""
+
+- text: "MergeLists"
+  translation: ""
+
+- text: "LockpickHandler"
+  translation: ""
+
+- text: "ANDraggable"
+  translation: ""
+
+- text: "InternedString"
+  translation: ""
+
+- text: "TCNN_HornyMenu"
+  translation: ""
+
+- text: "EmptyEventArgs"
+  translation: ""
+
+- text: "Gamepad"
+  translation: ""
+
+- text: "OnEnterState"
+  translation: ""
+
+- text: "Translate"
+  translation: ""
+
+- text: "NativeStream"
+  translation: ""
+
+- text: "Sweep"
+  translation: ""
+
+- text: "Tess("
+  translation: "Tess("
+  skip_translation: true
+
+- text: "CoreLogger"
+  translation: ""
+
+- text: "CompanionLink"
+  translation: ""
+
+- text: "JsonTokenizer"
+  translation: ""
+
+- text: "RadiusModifier"
+  translation: ""
+
+- text: "StripCharacter"
+  translation: ""
+
+- text: "Lerp"
+  translation: "Lerp"
+  skip_translation: true
+
+- text: "ScreenShake"
+  translation: ""
+
+- text: "EaseFsmAction"
+  translation: ""
+
+- text: "DrawEnum"
+  translation: ""
+
+- text: "UnsafeUtilityEx"
+  translation: ""
+
+- text: "ResultDefine"
+  translation: ""
+
+- text: "CameraExt"
+  translation: ""
+
+- text: "RigEffectorData"
+  translation: ""
+
+- text: "StopAnimation"
+  translation: ""
+
+- text: "ITweenValue"
+  translation: ""
+
+- text: "GetVariableUnit"
+  translation: ""
+
+- text: "RayCast2d"
+  translation: ""
+
+- text: "Toy"
+  translation: ""
+
+- text: "DictionaryAsset"
+  translation: ""
+
+- text: "TimelineClip"
+  translation: "TimelineClip"
+  skip_translation: true
+
+- text: "BurstReflection"
+  translation: ""
+
+- text: "FlowerRotator"
+  translation: ""
+
+- text: "TileHandler"
+  translation: ""
+
+- text: "E~m("
+  translation: "E~m("
+  skip_translation: true
+
+- text: "SwD"
+  translation: "SwD"
+  skip_translation: true
+
+- text: "ClipCaps"
+  translation: ""
+
+- text: "ANInputModule"
+  translation: ""
+
+- text: "VTI"
+  translation: "VTI"
+  skip_translation: true
+
+- text: "BlurSettings"
+  translation: ""
+
+- text: "SendMessage"
+  translation: ""
+
+- text: "SpineboyPole"
+  translation: ""
+
+- text: "CollectibleType"
+  translation: ""
+
+- text: "FixedString"
+  translation: ""
+
+- text: "HitEffect"
+  translation: ""
+
+- text: "FlowerSpawner"
+  translation: ""
+
+- text: "SetGameVolume"
+  translation: ""
+
+- text: "SetVector2Value"
+  translation: ""
+
+- text: "G_Graph"
+  translation: ""
+
+- text: "Slider"
+  translation: ""
+
+- text: "GetDataFromItem"
+  translation: ""
+
+- text: "PMA_SetSaveKey"
+  translation: ""
+
+- text: "SetGUIAlpha"
+  translation: ""
+
+- text: "RenderStateData"
+  translation: ""
+
+- text: "HttpOptions"
+  translation: ""
+
+- text: "GetScenePath"
+  translation: ""
+
+- text: "MeshUtils"
+  translation: ""
+
+- text: "Synonym"
+  translation: ""
+
+- text: "RichPath"
+  translation: ""
+
+- text: "StopBark"
+  translation: ""
+
+- text: "TextureCurve"
+  translation: ""
+
+- text: "ClampProcessor"
+  translation: ""
+
+- text: "GetAtan"
+  translation: ""
+
+- text: "AssemblyInfo"
+  translation: ""
+
+- text: "InputSystem"
+  translation: ""
+
+- text: "EntityArchetype"
+  translation: ""
+
+- text: "ANMathUtils"
+  translation: ""
+
+- text: "LightFlicker"
+  translation: ""
+
+- text: "BakingSystem"
+  translation: ""
+
+- text: "LayerMask"
+  translation: ""
+
+- text: "LayerMaskExt"
+  translation: ""
+
+- text: "UiRebuild"
+  translation: ""
+
+- text: "ODAt"
+  translation: "ODAt"
+  skip_translation: true
+
+- text: "CoreUnsafeUtils"
+  translation: ""
+
+- text: "StencilMaterial"
+  translation: ""
+
+- text: "CopyTransform"
+  translation: ""
+
+- text: "GraphicRegistry"
+  translation: ""
+
+- text: "Entity"
+  translation: ""
+
+- text: "ThemeManager"
+  translation: ""
+
+- text: "CollisionEvent"
+  translation: ""
+
+- text: "FastMouse"
+  translation: ""
+
+- text: "ClipUpgrade"
+  translation: ""
+
+- text: "Comment"
+  translation: ""
+
+- text: "Vector3Add"
+  translation: ""
+
+- text: "EZFill"
+  translation: ""
+
+- text: "WebRequest"
+  translation: ""
+
+- text: "CC_Preset"
+  translation: ""
+
+- text: "DialogueManager"
+  translation: ""
+
+- text: "CreateObject"
+  translation: ""
+
+- text: "HelpUrls"
+  translation: ""
+
+- text: "OffMeshLinks"
+  translation: ""
+
+- text: "BoolFlip"
+  translation: ""
+
+- text: "SetMass2d"
+  translation: ""
+
+- text: "GetFsmMaterial"
+  translation: ""
+
+- text: "NavmeshAdd"
+  translation: ""
+
+- text: "RenderObjects"
+  translation: ""
+
+- text: "SetFsmInt"
+  translation: ""
+
+- text: "UIntFloat"
+  translation: ""
+
+- text: "Break"
+  translation: ""
+
+- text: "GetListItem"
+  translation: ""
+
+- text: "IGizmoDrawer"
+  translation: ""
+
+- text: "GetMission"
+  translation: ""
+
+- text: "SetEventTarget"
+  translation: ""
+
+- text: "FABRIK2D"
+  translation: ""
+
+- text: "HoldInteraction"
+  translation: ""
+
+- text: "NavmeshCut"
+  translation: ""
+
+- text: "CutInCamera"
+  translation: ""
+
+- text: "M@v"
+  translation: "M@v"
+  skip_translation: true
+
+- text: "OaD4"
+  translation: "OaD4"
+  skip_translation: true
+
+- text: "SetName"
+  translation: ""
+
+- text: "PackageTools"
+  translation: ""
+
+- text: "OnAnimatorIK"
+  translation: ""
+
+- text: "ExposedProperty"
+  translation: ""
+
+- text: "GetRectFields"
+  translation: ""
+
+- text: "AppendElements"
+  translation: ""
+
+- text: "Models"
+  translation: ""
+
+- text: "Compatibility"
+  translation: ""
+
+- text: "OnScreenButton"
+  translation: ""
+
+- text: "OO9"
+  translation: "OO9"
+  skip_translation: true
+
+- text: "Vehicle"
+  translation: ""
+
+- text: "EditorHelpers"
+  translation: ""
+
+- text: "FlowGraphData"
+  translation: ""
+
+- text: "PMA_TakeItems"
+  translation: ""
+
+- text: "AudioProcessor"
+  translation: ""
+
+- text: "Transition"
+  translation: ""
+
+- text: "MissionAutosave"
+  translation: ""
+
+- text: "ANPooledObject"
+  translation: ""
+
+- text: "IJsonAdapter"
+  translation: ""
+
+- text: "Pickup"
+  translation: ""
+
+- text: "ANBehaviour"
+  translation: ""
+
+- text: "IUnitPort"
+  translation: ""
+
+- text: "GetVelocity"
+  translation: ""
+
+- text: "This"
+  translation: "This"
+  skip_translation: true
+
+- text: "AnyKeyControl"
+  translation: ""
+
+- text: "GUN"
+  translation: "GUN"
+  skip_translation: true
+
+- text: "Comparers"
+  translation: ""
+
+- text: "OnDeselect"
+  translation: ""
+
+- text: "Namespace"
+  translation: ""
+
+- text: "VehicleEnabler"
+  translation: ""
+
+- text: "SetStateGraph"
+  translation: ""
+
+- text: "NodeParser"
+  translation: ""
+
+- text: "NavMeshLink"
+  translation: ""
+
+- text: "EventHook"
+  translation: ""
+
+- text: "IntSwitch"
+  translation: ""
+
+- text: "LoopAndDelay"
+  translation: ""
+
+- text: "ShadowUtils"
+  translation: ""
+
+- text: "JsonObject"
+  translation: ""
+
+- text: "WebGLJoystick"
+  translation: ""
+
+- text: "LessOrEqual"
+  translation: ""
+
+- text: "ActionHelpers"
+  translation: ""
+
+- text: "DebugUpdater"
+  translation: ""
+
+- text: "GetACosine"
+  translation: ""
+
+- text: "SoftMaskToggler"
+  translation: ""
+
+- text: "StatHolder"
+  translation: ""
+
+- text: "UwI"
+  translation: "UwI"
+  skip_translation: true
+
+- text: "IntegerControl"
+  translation: ""
+
+- text: "CullingSettings"
+  translation: ""
+
+- text: "Vector2Subtract"
+  translation: ""
+
+- text: "Assert"
+  translation: ""
+
+- text: "GraphEditorBase"
+  translation: ""
+
+- text: "ColorSpaceUtils"
+  translation: ""
+
+- text: "IntOperator"
+  translation: ""
+
+- text: "PauseMenu"
+  translation: ""
+
+- text: "PlayerPosJson"
+  translation: ""
+
+- text: "TypeManager"
+  translation: ""
+
+- text: "Hammersley"
+  translation: ""
+
+- text: "RuntimeClip"
+  translation: ""
+
+- text: "SplitToning"
+  translation: ""
+
+- text: "LineFader"
+  translation: ""
+
+- text: "Rig"
+  translation: ""
+
+- text: "PathReturnQueue"
+  translation: ""
+
+- text: "RuntimeClipBase"
+  translation: ""
+
+- text: "WaitForItemUse"
+  translation: ""
+
+- text: "AnyState"
+  translation: ""
+
+- text: "Skin"
+  translation: "Skin"
+  skip_translation: true
+
+- text: "UiSetBlockColor"
+  translation: ""
+
+- text: "UiSetColorBlock"
+  translation: ""
+
+- text: "ItemsGenerator"
+  translation: ""
+
+- text: "RemoveListItem"
+  translation: ""
+
+- text: "ActionsTreeView"
+  translation: ""
+
+- text: "BaseMeshEffect"
+  translation: ""
+
+- text: "EdgeLookup"
+  translation: ""
+
+- text: "IntChanged"
+  translation: ""
+
+- text: "BakerDebugState"
+  translation: ""
+
+- text: "SetIntValue"
+  translation: ""
+
+- text: "WaterSimulation"
+  translation: ""
+
+- text: "Finger"
+  translation: ""
+
+- text: "DoubleControl"
+  translation: ""
+
+- text: "SceneProvider"
+  translation: ""
+
+- text: "GradientSlider"
+  translation: ""
+
+- text: "AhpUL"
+  translation: ""
+
+- text: "NNQuickAccessUI"
+  translation: ""
+
+- text: "GmQ"
+  translation: "GmQ"
+  skip_translation: true
+
+- text: ":ISD"
+  translation: ":ISD"
+  skip_translation: true
+
+- text: "TakeItems"
+  translation: ""
+
+- text: "Glitch_1"
+  translation: "Glitch_1"
+  skip_translation: true
+
+- text: "Smoothen%"
+  translation: ""
+
+- text: "VoxelMesh"
+  translation: ""
+
+- text: "SaveManager"
+  translation: ""
+
+- text: "SetFogDensity"
+  translation: ""
+
+- text: "IdentityManager"
+  translation: ""
+
+- text: "SkewedImage"
+  translation: ""
+
+- text: "FloatChanged"
+  translation: ""
+
+- text: "OnTriggerStay"
+  translation: ""
+
+- text: "NavmeshTile"
+  translation: ""
+
+- text: "IRigLayer"
+  translation: ""
+
+- text: "BatchedEvents"
+  translation: ""
+
+- text: "RateUtils"
+  translation: ""
+
+- text: "OnScreenSupport"
+  translation: ""
+
+- text: "PaintedMask"
+  translation: ""
+
+- text: "ChunksManager"
+  translation: ""
+
+- text: "AnimateFloatV2"
+  translation: ""
+
+- text: "PlusHandler"
+  translation: ""
+
+- text: "Glitch_2"
+  translation: "Glitch_2"
+  skip_translation: true
+
+- text: "Checkpoint"
+  translation: ""
+
+- text: "DirectionalKnob"
+  translation: ""
+
+- text: "TimedEnabler"
+  translation: ""
+
+- text: "Helper"
+  translation: ""
+
+- text: "LocalTransform"
+  translation: ""
+
+- text: "IEventMerger"
+  translation: ""
+
+- text: "EngineEmitter"
+  translation: ""
+
+- text: "VirtualMeshWork"
+  translation: ""
+
+- text: "GNq"
+  translation: "GNq"
+  skip_translation: true
+
+- text: "GetSpeed2d"
+  translation: ""
+
+- text: "ForceScrollZoom"
+  translation: ""
+
+- text: "StringSwitch"
+  translation: ""
+
+- text: "MemoryHelpers"
+  translation: ""
+
+- text: "TinyJson"
+  translation: ""
+
+- text: "Hazard"
+  translation: ""
+
+- text: "OnCollisionStay"
+  translation: ""
+
+- text: "SceneVariables"
+  translation: ""
+
+- text: "FpsCounter"
+  translation: ""
+
+- text: "MRq"
+  translation: "MRq"
+  skip_translation: true
+
+- text: "G_AudioText"
+  translation: ""
+
+- text: "S_a;R"
+  translation: "S_a;R"
+  skip_translation: true
+
+- text: "SetMember"
+  translation: ""
+
+- text: "ScalarMultiply"
+  translation: ""
+
+- text: "TryCatch"
+  translation: ""
+
+- text: "RuntimeElement"
+  translation: ""
+
+- text: "TextMeshSpawner"
+  translation: ""
+
+- text: "AfX"
+  translation: "AfX"
+  skip_translation: true
+
+- text: "Glitch17"
+  translation: ""
+
+- text: "CameraFadeIn"
+  translation: ""
+
+- text: "EventData"
+  translation: ""
+
+- text: "RaycastHit"
+  translation: ""
+
+- text: "Atlas"
+  translation: ""
+
+- text: "ResourceInfo"
+  translation: ""
+
+- text: "GetMaterial"
+  translation: ""
+
+- text: "DebugManager"
+  translation: ""
+
+- text: "SetFsmVector3"
+  translation: ""
+
+- text: "Vector2Distance"
+  translation: ""
+
+- text: "IPrewarmable"
+  translation: ""
+
+- text: "DebugGameObject"
+  translation: ""
+
+- text: "SetLayer"
+  translation: ""
+
+- text: "FunnelModifier"
+  translation: ""
+
+- text: "ShadowMaterial"
+  translation: ""
+
+- text: "MinMaxAttribute"
+  translation: ""
+
+- text: "InputEvent"
+  translation: ""
+
+- text: "ABPath"
+  translation: ""
+
+- text: "AtlasAssetBase"
+  translation: ""
+
+- text: "WWWObject"
+  translation: ""
+
+- text: "WarpTextExample"
+  translation: ""
+
+- text: "RigidTransform"
+  translation: ""
+
+- text: "Translation"
+  translation: ""
+
+- text: "GetAxisVector"
+  translation: ""
+
+- text: "TouchControl"
+  translation: ""
+
+- text: "Glitch15"
+  translation: ""
+
+- text: "YN!s"
+  translation: "YN!s"
+  skip_translation: true
+
+- text: "SetAmbientLight"
+  translation: ""
+
+- text: "Sse4_1"
+  translation: ""
+
+- text: "DNC_ColorMemory"
+  translation: ""
+
+- text: "Xy$|"
+  translation: "Xy$|"
+  skip_translation: true
+
+- text: "BarkCharacter"
+  translation: ""
+
+- text: "ListExtensions"
+  translation: ""
+
+- text: "DrawingData"
+  translation: ""
+
+- text: "NavMeshSurface"
+  translation: ""
+
+- text: "PanelRaycaster"
+  translation: ""
+
+- text: "StringAppend"
+  translation: ""
+
+- text: "Selectable"
+  translation: ""
+
+- text: "MathUtility"
+  translation: ""
+
+- text: "WindParams"
+  translation: ""
+
+- text: "Enum"
+  translation: ""
+
+- text: "EnumExt"
+  translation: ""
+
+- text: "VolumeStack"
+  translation: ""
+
+- text: "BezierShape"
+  translation: ""
+
+- text: "PMA_IsNude"
+  translation: ""
+
+- text: "BuildString"
+  translation: ""
+
+- text: "SetFsmVariable"
+  translation: ""
+
+- text: "Mesh-"
+  translation: "Mesh-"
+  skip_translation: true
+
+- text: "DeviceVibrate"
+  translation: ""
+
+- text: "Glitch6"
+  translation: ""
+
+- text: "SV\\lg"
+  translation: "SV\\\\lg"
+  skip_translation: true
+
+- text: "TMP_Dropdown"
+  translation: ""
+
+- text: "RemoteCamera"
+  translation: ""
+
+- text: "SetFsmTexture"
+  translation: ""
+
+- text: "UseContinueChar"
+  translation: ""
+
+- text: "MaskUtilities"
+  translation: ""
+
+- text: "CoroutineTween"
+  translation: ""
+
+- text: "Vector4Maximum"
+  translation: ""
+
+- text: "ReflectionData"
+  translation: ""
+
+- text: "SubTypeData"
+  translation: ""
+
+- text: "ManifestId_t"
+  translation: ""
+
+- text: "SetSpriteColor"
+  translation: ""
+
+- text: "HousingData"
+  translation: ""
+
+- text: "ScaleGUI"
+  translation: ""
+
+- text: "PathHandler"
+  translation: ""
+
+- text: "IEventMachine"
+  translation: ""
+
+- text: "BakerState"
+  translation: ""
+
+- text: "HideableUI"
+  translation: ""
+
+- text: "CC_OptionType"
+  translation: ""
+
+- text: "Cq$"
+  translation: "Cq$"
+  skip_translation: true
+
+- text: "LightAnchor"
+  translation: ""
+
+- text: "DebugEnum"
+  translation: ""
+
+- text: "KeyControl"
+  translation: ""
+
+- text: "PathUtilities"
+  translation: ""
+
+- text: "SignInOptions"
+  translation: ""
+
+- text: "FleePath"
+  translation: ""
+
+- text: "NNEquipUI"
+  translation: ""
+
+- text: "IPreviewable"
+  translation: ""
+
+- text: "CopyColorPass"
+  translation: ""
+
+- text: "AnyKey"
+  translation: ""
+
+- text: "SavedState"
+  translation: ""
+
+- text: "ISavedState"
+  translation: ""
+
+- text: "AttackSpineboy"
+  translation: ""
+
+- text: "IconUtility"
+  translation: ""
+
+- text: "TypeHelpers"
+  translation: ""
+
+- text: "SpriteFader"
+  translation: ""
+
+- text: "SkipMode"
+  translation: ""
+
+- text: "GetMember"
+  translation: ""
+
+- text: "GraphReference"
+  translation: ""
+
+- text: "BinaryWriter"
+  translation: ""
+
+- text: "GetLastEvent"
+  translation: ""
+
+- text: "MissionUI"
+  translation: ""
+
+- text: "IntCompare"
+  translation: ""
+
+- text: "SystemTypeIndex"
+  translation: ""
+
+- text: "IRigConstraint"
+  translation: ""
+
+- text: "Escalator"
+  translation: ""
+
+- text: "ISoftMask"
+  translation: ""
+
+- text: "PreBuildManager"
+  translation: ""
+
+- text: "WeakReferenceId"
+  translation: ""
+
+- text: "Reflector"
+  translation: ""
+
+- text: "VirtualKeyboard"
+  translation: ""
+
+- text: "ConCommand"
+  translation: ""
+
+- text: "FPSLimiter"
+  translation: ""
+
+- text: "CurrencyPickup"
+  translation: ""
+
+- text: "AppId_t"
+  translation: ""
+
+- text: "Static"
+  translation: ""
+
+- text: "ProBuilderMesh"
+  translation: ""
+
+- text: "ExBitFlag16"
+  translation: ""
+
+- text: "Logging"
+  translation: ""
+
+- text: "DiagnosticEvent"
+  translation: ""
+
+- text: "ANSelectable"
+  translation: ""
+
+- text: "Tess"
+  translation: "Tess"
+  skip_translation: true
+
+- text: "MinimapScroller"
+  translation: ""
+
+- text: "DiskCache"
+  translation: ""
+
+- text: "LayoutUtility"
+  translation: ""
+
+- text: "CreateList"
+  translation: ""
+
+- text: "AndroidSensors"
+  translation: ""
+
+- text: "ColorBlock"
+  translation: ""
+
+- text: "EditField"
+  translation: ""
+
+- text: "Options"
+  translation: ""
+
+- text: "OrHandler"
+  translation: ""
+
+- text: "GraphicsHelper"
+  translation: ""
+
+- text: "DialogueUI"
+  translation: ""
+
+- text: "LayerUtility"
+  translation: ""
+
+- text: "CustomTexV"
+  translation: ""
+
+- text: "GetScreenHeight"
+  translation: ""
+
+- text: "StartCoroutine"
+  translation: ""
+
+- text: "SharedStatic"
+  translation: ""
+
+- text: "GetButton"
+  translation: ""
+
+- text: "AILerp"
+  translation: ""
+
+- text: "MemberFilter"
+  translation: ""
+
+- text: "FloatCompare"
+  translation: ""
+
+- text: "RaggedySpineboy"
+  translation: ""
+
+- text: "TMP_SpriteAsset"
+  translation: ""
+
+- text: "ClimbEdge2D"
+  translation: ""
+
+- text: "InvertProcessor"
+  translation: ""
+
+- text: "G_RamManager"
+  translation: ""
+
+- text: "GetDataFromRoom"
+  translation: ""
+
+- text: "StickControl"
+  translation: ""
+
+- text: "TextureQuality"
+  translation: ""
+
+- text: "SetFsmRect"
+  translation: ""
+
+- text: "PostProcessPass"
+  translation: ""
+
+- text: "GetTan"
+  translation: ""
+
+- text: "ITransform"
+  translation: ""
+
+- text: "TransformHandle"
+  translation: ""
+
+- text: "IMeshModifier"
+  translation: ""
+
+- text: "DebugDrawShape"
+  translation: ""
+
+- text: "Vector2Average"
+  translation: ""
+
+- text: "EntityChangeSet"
+  translation: ""
+
+- text: "FloatAbs"
+  translation: ""
+
+- text: "Glitch19"
+  translation: ""
+
+- text: "InputActionMap"
+  translation: ""
+
+- text: "AddStatModifier"
+  translation: ""
+
+- text: "GraphGroup"
+  translation: ""
+
+- text: "QuickPreset"
+  translation: ""
+
+- text: "SetMouseCursor"
+  translation: ""
+
+- text: "RVOAgentBurst"
+  translation: ""
+
+- text: "SpineboyFreeze"
+  translation: ""
+
+- text: "S`x"
+  translation: "S`x"
+  skip_translation: true
+
+- text: "GetTaskProgress"
+  translation: ""
+
+- text: "SetMissionName"
+  translation: ""
+
+- text: "MoveObject"
+  translation: ""
+
+- text: "NCalcParser"
+  translation: ""
+
+- text: "TrainEnabler"
+  translation: ""
+
+- text: "HID"
+  translation: "HID"
+  skip_translation: true
+
+- text: "ImageViewer"
+  translation: ""
+
+- text: "CharacterStats"
+  translation: ""
+
+- text: "StatEvent"
+  translation: ""
+
+- text: "TimescaleSmooth"
+  translation: ""
+
+- text: "GetMouseButton"
+  translation: ""
+
+- text: "OperatorUtility"
+  translation: ""
+
+- text: "AstarChecksum"
+  translation: ""
+
+- text: "Checksum"
+  translation: ""
+
+- text: "Random"
+  translation: ""
+
+- text: "GetSubstring"
+  translation: ""
+
+- text: "ICurvesOwner"
+  translation: ""
+
+- text: "Marker"
+  translation: ""
+
+- text: "SetTextToBind"
+  translation: ""
+
+- text: "InvokeMember"
+  translation: ""
+
+- text: "OpenVR"
+  translation: ""
+
+- text: "OpenVRHMD"
+  translation: ""
+
+- text: "LeftBehaviour"
+  translation: ""
+
+- text: "GridLayoutGroup"
+  translation: ""
+
+- text: "IMovable"
+  translation: ""
+
+- text: "Popup"
+  translation: ""
+
+- text: "Vector4Absolute"
+  translation: ""
+
+- text: "CC_Preset_Body"
+  translation: ""
+
+- text: "ScalarDivide"
+  translation: ""
+
+- text: "GenericDivide"
+  translation: ""
+
+- text: "Raptor"
+  translation: ""
+
+- text: "Zkq"
+  translation: "Zkq"
+  skip_translation: true
+
+- text: "StateContainer"
+  translation: ""
+
+- text: "LU4"
+  translation: "LU4"
+  skip_translation: true
+
+- text: "RemoteContentId"
+  translation: ""
+
+- text: "Unit"
+  translation: ""
+
+- text: "SetStringValue"
+  translation: ""
+
+- text: "KeywordsUtility"
+  translation: ""
+
+- text: "TransformRecord"
+  translation: ""
+
+- text: "DiscreteTime"
+  translation: ""
+
+- text: "BJCwb"
+  translation: "BJCwb"
+  skip_translation: true
+
+- text: "G_AudioManager"
+  translation: ""
+
+- text: "SkeletonBounds"
+  translation: ""
+
+- text: "UnloadScene"
+  translation: ""
+
+- text: "ShadowRenderer"
+  translation: ""
+
+- text: "[EL"
+  translation: "[EL"
+  skip_translation: true
+
+- text: "MenuLayer"
+  translation: ""
+
+- text: "GetSceneName"
+  translation: ""
+
+- text: "NavmeshUpdates"
+  translation: ""
+
+- text: "GetSpeed"
+  translation: ""
+
+- text: "GetCosine"
+  translation: ""
+
+- text: "HDROutputUtils"
+  translation: ""
+
+- text: "PMA_AddStat"
+  translation: ""
+
+- text: "OnMouseUp"
+  translation: ""
+
+- text: "SyncAudioVolume"
+  translation: ""
+
+- text: "AxisEvent"
+  translation: ""
+
+- text: "ParentOnAwake"
+  translation: ""
+
+- text: "BoolOperator"
+  translation: ""
+
+- text: "TabPrompt"
+  translation: ""
+
+- text: "Geometry"
+  translation: ""
+
+- text: "ClothManager"
+  translation: ""
+
+- text: "CurveFloat"
+  translation: ""
+
+- text: "VFXLightBinder"
+  translation: ""
+
+- text: "IGraphData"
+  translation: ""
+
+- text: "TileMeshes"
+  translation: ""
+
+- text: "PictureHelper"
+  translation: ""
+
+- text: "GetSine"
+  translation: ""
+
+- text: "NewSaveField"
+  translation: ""
+
+- text: "SetTask"
+  translation: ""
+
+- text: "GetTimeInfo"
+  translation: ""
+
+- text: "UiToggleSetIsOn"
+  translation: ""
+
+- text: "DecalDrawSystem"
+  translation: ""
+
+- text: "FsmProcessor"
+  translation: ""
+
+- text: "Geom("
+  translation: "Geom("
+  skip_translation: true
+
+- text: "ICount"
+  translation: ""
+
+- text: "IChangeTracker"
+  translation: ""
+
+- text: "ValueAttribute"
+  translation: ""
+
+- text: "Ys/S]"
+  translation: "Ys/S]"
+  skip_translation: true
+
+- text: "GetChildCount"
+  translation: ""
+
+- text: "UsernameInfo"
+  translation: ""
+
+- text: "TextureScale"
+  translation: ""
+
+- text: "TextureBaking"
+  translation: ""
+
+- text: "BindModeObject"
+  translation: ""
+
+- text: "AspectTypes"
+  translation: ""
+
+- text: "IAspect"
+  translation: ""
+
+- text: "IntervalTree"
+  translation: ""
+
+- text: "IInterval"
+  translation: ""
+
+- text: "XString"
+  translation: ""
+
+- text: "TurnBasedAI"
+  translation: ""
+
+- text: "SetFsmVector2"
+  translation: ""
+
+- text: "GetButtonUp"
+  translation: ""
+
+- text: "PreloadingUI"
+  translation: ""
+
+- text: "PlayRandomSound"
+  translation: ""
+
+- text: "TranslationJson"
+  translation: ""
+
+- text: "NativeMethods"
+  translation: ""
+
+- text: "PointSet"
+  translation: ""
+
+- text: "DependencyTree"
+  translation: ""
+
+- text: "Toggle"
+  translation: ""
+
+- text: "Gallery"
+  translation: ""
+
+- text: "SaveSceneLoader"
+  translation: ""
+
+- text: "List"
+  translation: "List"
+  skip_translation: true
+
+- text: "ListExt"
+  translation: ""
+
+- text: "DAUI"
+  translation: "DAUI"
+  skip_translation: true
+
+- text: "Prism"
+  translation: "Prism"
+  skip_translation: true
+
+- text: "SetEventData"
+  translation: ""
+
+- text: "RVOAgent"
+  translation: ""
+
+- text: "PreferenceKeys"
+  translation: ""
+
+- text: "Vector3Control"
+  translation: ""
+
+- text: "ReflectedCloner"
+  translation: ""
+
+- text: "MouseLook2"
+  translation: ""
+
+- text: "SetItemDataBool"
+  translation: ""
+
+- text: "PMA_AddCurrency"
+  translation: ""
+
+- text: "ColorParserList"
+  translation: ""
+
+- text: "U\\K"
+  translation: "U\\K"
+  skip_translation: true
+
+- text: "SpawnOverTime"
+  translation: ""
+
+- text: "BaseEventData"
+  translation: ""
+
+- text: "GetDeviceRoll"
+  translation: ""
+
+- text: "WindowsMR"
+  translation: ""
+
+- text: "TouchGestures"
+  translation: ""
+
+- text: "SetSkybox"
+  translation: ""
+
+- text: "FsmStateTest"
+  translation: ""
+
+- text: "RandomizeSprite"
+  translation: ""
+
+- text: "GenericXRDevice"
+  translation: ""
+
+- text: "IBranchUnit"
+  translation: ""
+
+- text: "BoolAnyTrue"
+  translation: ""
+
+- text: "OnScreenControl"
+  translation: ""
+
+- text: "R/he"
+  translation: "R/he"
+  skip_translation: true
+
+- text: "BezierPoint"
+  translation: ""
+
+- text: "LogEntry"
+  translation: ""
+
+- text: "SetFsmColor"
+  translation: ""
+
+- text: "SequenceManager"
+  translation: ""
+
+- text: "ModernWater2D"
+  translation: ""
+
+- text: "IntAABB"
+  translation: ""
+
+- text: "IsPublicVersion"
+  translation: ""
+
+- text: "IsCharacterNude"
+  translation: ""
+
+- text: "ColorCompare"
+  translation: ""
+
+- text: "BlitUtility"
+  translation: ""
+
+- text: "Ray2DConverter"
+  translation: ""
+
+- text: "InvalidInput"
+  translation: ""
+
+- text: "BarGraphBar"
+  translation: ""
+
+- text: "NNSpineSkinList"
+  translation: ""
+
+- text: "XRPass"
+  translation: ""
+
+- text: "EaseVector3"
+  translation: ""
+
+- text: "ModuloHandler"
+  translation: ""
+
+- text: "ScalarMinimum"
+  translation: ""
+
+- text: "Vector2Invert"
+  translation: ""
+
+- text: "GetChildren"
+  translation: ""
+
+- text: "Assemblies"
+  translation: ""
+
+- text: "EffectsMenu"
+  translation: ""
+
+- text: "SubgraphUnit"
+  translation: ""
+
+- text: "QMy"
+  translation: "QMy"
+  skip_translation: true
+
+- text: "PopulateStat"
+  translation: ""
+
+- text: "IdProviderKeys"
+  translation: ""
+
+- text: "AstarMath"
+  translation: ""
+
+- text: "Glitch9"
+  translation: ""
+
+- text: "CustomEvent"
+  translation: ""
+
+- text: "SpriteBaker"
+  translation: ""
+
+- text: "ShredEquipment"
+  translation: ""
+
+- text: "OnScroll"
+  translation: ""
+
+- text: "LanguageManager"
+  translation: ""
+
+- text: "IStateDebugData"
+  translation: ""
+
+- text: "TMP_Sprite"
+  translation: ""
+
+- text: "EntityQueryImpl"
+  translation: ""
+
+- text: "PathAttachment"
+  translation: ""
+
+- text: "SetAudioLoop"
+  translation: ""
+
+- text: "DayNightEvent"
+  translation: ""
+
+- text: "ANTA_LoopAsset"
+  translation: ""
+
+- text: "NavmeshClipper"
+  translation: ""
+
+- text: "Vector4Average"
+  translation: ""
+
+- text: "MaskableGraphic"
+  translation: ""
+
+- text: "ScalarRoot"
+  translation: ""
+
+- text: "Tonemapping"
+  translation: ""
+
+- text: "SplineUtility"
+  translation: ""
+
+- text: "LinkResponse"
+  translation: ""
+
+- text: "SetTextToUnread"
+  translation: ""
+
+- text: "SetGUITexture"
+  translation: ""
+
+- text: "ScaleProcessor"
+  translation: ""
+
+- text: "PointNode"
+  translation: ""
+
+- text: "ContextMenu"
+  translation: ""
+
+- text: "Console"
+  translation: ""
+
+- text: "ColorUtility"
+  translation: ""
+
+- text: "DrawingSettings"
+  translation: ""
+
+- text: "ShaderConfig"
+  translation: "ShaderConfig"
+  skip_translation: true
+
+- text: "ShaderOptions"
+  translation: "ShaderOptions"
+  skip_translation: true
+
+- text: "TrailHandler"
+  translation: ""
+
+- text: "RenderManager"
+  translation: ""
+
+- text: "A$M"
+  translation: "A$M"
+  skip_translation: true
+
+- text: "StdGenerator"
+  translation: ""
+
+- text: "ICommonData"
+  translation: ""
+
+- text: "TwistCorrection"
+  translation: ""
+
+- text: "XRLayout"
+  translation: ""
+
+- text: "XRLayout\""
+  translation: ""
+
+- text: "MaterialOps"
+  translation: ""
+
+- text: "SceneSystem"
+  translation: ""
+
+- text: "IsSleeping2d"
+  translation: ""
+
+- text: "RebuildTextures"
+  translation: ""
+
+- text: "CheckSaveString"
+  translation: ""
+
+- text: "SelectOnInteger"
+  translation: ""
+
+- text: "MemberUnit"
+  translation: ""
+
+- text: "Tess-"
+  translation: "Tess-"
+  skip_translation: true
+
+- text: "IEnvironments"
+  translation: ""
+
+- text: "HtmlDebug"
+  translation: ""
+
+- text: "DoorTransition"
+  translation: ""
+
+- text: "ZgQ;O"
+  translation: ""
+
+- text: "AstarMemory"
+  translation: ""
+
+- text: "ConstantPath"
+  translation: ""
+
+- text: "IUpdateReceiver"
+  translation: ""
+
+- text: "PackageRegistry"
+  translation: ""
+
+- text: "NavmeshPrefab"
+  translation: ""
+
+- text: "MouseLook"
+  translation: ""
+
+- text: "ScalarAbsolute"
+  translation: ""
+
+- text: "FloatOperator"
+  translation: ""
+
+- text: "OutlineEffect"
+  translation: ""
+
+- text: "Vector3Average"
+  translation: ""
+
+- text: "GUITooltip"
+  translation: ""
+
+- text: "RuleTile"
+  translation: ""
+
+- text: "IInitializable"
+  translation: ""
+
+- text: "DrawingManager"
+  translation: ""
+
+- text: "SetColorValue"
+  translation: ""
+
+- text: "ANZip"
+  translation: ""
+
+- text: "MiscHelpers"
+  translation: ""
+
+- text: "EffectCache"
+  translation: ""
+
+- text: "JsonParser"
+  translation: ""
+
+- text: "OnBeginDrag"
+  translation: ""
+
+- text: "InternalUtility"
+  translation: ""
+
+- text: "Sse"
+  translation: ""
+
+- text: "SimpleScript"
+  translation: ""
+
+- text: "ClipperRegistry"
+  translation: ""
+
+- text: "IntVec2"
+  translation: ""
+
+- text: "MagicaSettings"
+  translation: ""
+
+- text: "Glitch20"
+  translation: ""
+
+- text: "JobRaycastAll"
+  translation: ""
+
+- text: "CoreDiagnostics"
+  translation: ""
+
+- text: "PointerFollower"
+  translation: ""
+
+- text: "JsonTypeStack"
+  translation: ""
+
+- text: "Effects"
+  translation: ""
+
+- text: "MinimapUI"
+  translation: ""
+
+- text: "RunFSMAction"
+  translation: ""
+
+- text: "GetTagCount"
+  translation: ""
+
+- text: "GetProperty"
+  translation: ""
+
+- text: "Notification"
+  translation: ""
+
+- text: "ScaleTime"
+  translation: ""
+
+- text: "AIBase"
+  translation: ""
+
+- text: "JobRepairPath"
+  translation: ""
+
+- text: "NEON_AArch64"
+  translation: ""
+
+- text: "GetOwner"
+  translation: ""
+
+- text: "UVEditing"
+  translation: ""
+
+- text: "FloatAdd"
+  translation: ""
+
+- text: "OnMouseExit"
+  translation: ""
+
+- text: "FloatSignTest"
+  translation: ""
+
+- text: "Vector3Json"
+  translation: ""
+
+- text: "GetRacingLap"
+  translation: ""
+
+- text: "PresetSave"
+  translation: ""
+
+- text: "DebugShapes"
+  translation: ""
+
+- text: "DeviceVolume"
+  translation: ""
+
+- text: "Buffer"
+  translation: ""
+
+- text: "IBuffer"
+  translation: ""
+
+- text: "SetTag"
+  translation: ""
+
+- text: "PoolContainer"
+  translation: ""
+
+- text: "SaveTable"
+  translation: ""
+
+- text: "MousePick"
+  translation: ""
+
+- text: "PointerEnforcer"
+  translation: ""
+
+- text: "AddStat"
+  translation: ""
+
+- text: "IMetrics"
+  translation: ""
+
+- text: "IMetrics&"
+  translation: ""
+
+- text: "EZAnim"
+  translation: ""
+
+- text: "MinMax01"
+  translation: ""
+
+- text: "DocCodeExamples"
+  translation: ""
+
+- text: "RectUV"
+  translation: ""
+
+- text: "GetComponent"
+  translation: ""
+
+- text: "DoubleMath"
+  translation: ""
+
+- text: "SdkVersion"
+  translation: ""
+
+- text: "Glitch16"
+  translation: ""
+
+- text: "BuildUtilities"
+  translation: ""
+
+- text: "GrassAnimation"
+  translation: ""
+
+- text: "LockpickDoor"
+  translation: ""
+
+- text: "G c"
+  translation: "G c"
+  skip_translation: true
+
+- text: "Attributes"
+  translation: ""
+
+- text: "MarchingSquares"
+  translation: ""
+
+- text: "PolygonPoint"
+  translation: ""
+
+- text: "VolumeDebugData"
+  translation: ""
+
+- text: "ProjectSettings"
+  translation: ""
+
+- text: "AnimatorWrapper"
+  translation: ""
+
+- text: "IUnitOutputPort"
+  translation: ""
+
+- text: "TeamWindData"
+  translation: ""
+
+- text: "JournalManager"
+  translation: ""
+
+- text: "JobCopyBuffers"
+  translation: ""
+
+- text: "DebugVector2"
+  translation: ""
+
+- text: "MaterialUtility"
+  translation: ""
+
+- text: "SetVector2XY"
+  translation: ""
+
+- text: "Archetype"
+  translation: ""
+
+- text: "EnvMapAnimator"
+  translation: ""
+
+- text: "AlwaysFace"
+  translation: ""
+
+- text: "EffectEventInfo"
+  translation: ""
+
+- text: "AlternativePath"
+  translation: ""
+
+- text: "CoreRegistry"
+  translation: ""
+
+- text: "TargetsInView"
+  translation: ""
+
+- text: "SetParent"
+  translation: ""
+
+- text: "PMA_GetCurrency"
+  translation: ""
+
+- text: "ShaderUtils"
+  translation: "ShaderUtils"
+  skip_translation: true
+
+- text: "ConsoleGesture"
+  translation: ""
+
+- text: "DNCTime"
+  translation: ""
+
+- text: "FloatRange"
+  translation: ""
+
+- text: "Graphic"
+  translation: ""
+
+- text: "IInputRuntime"
+  translation: ""
+
+- text: "VertexUtility"
+  translation: ""
+
+- text: "InputAnalytics"
+  translation: ""
+
+- text: "GraphNode"
+  translation: ""
+
+- text: "Touch Object 2d Event"
+  translation: ""
+
+- text: "AudioStop"
+  translation: ""
+
+- text: "DebugHandler"
+  translation: ""
+
+- text: "Attachment"
+  translation: ""
+
+- text: "NNEnergyLogic"
+  translation: ""
+
+- text: "ShaderData"
+  translation: "ShaderData"
+  skip_translation: true
+
+- text: "SlotData"
+  translation: ""
+
+- text: "SetIsKinematic"
+  translation: ""
+
+- text: "ControlInput"
+  translation: ""
+
+- text: "Benchmark03"
+  translation: ""
+
+- text: "HIDParser"
+  translation: ""
+
+- text: "AdvancedSmooth"
+  translation: ""
+
+- text: "FindChild"
+  translation: ""
+
+- text: "GetFsmVector2"
+  translation: ""
+
+- text: "IUnitDebugData"
+  translation: ""
+
+- text: "InvokerBase"
+  translation: ""
+
+- text: "OpenURL"
+  translation: ""
+
+- text: "DialogueSprite"
+  translation: ""
+
+- text: "BufferAllocator"
+  translation: ""
+
+- text: "GetASine"
+  translation: ""
+
+- text: "SceneSelection"
+  translation: ""
+
+- text: "AotList"
+  translation: ""
+
+- text: "GetFsmTexture"
+  translation: ""
+
+- text: "InputState"
+  translation: ""
+
+- text: "Log"
+  translation: ""
+
+- text: "PlayAnimation"
+  translation: ""
+
+- text: "HasComponent"
+  translation: ""
+
+- text: "DTSweepContext"
+  translation: ""
+
+- text: "Observable"
+  translation: ""
+
+- text: "EntityInChunk"
+  translation: ""
+
+- text: "XRSupport"
+  translation: ""
+
+- text: "CutInUI"
+  translation: ""
+
+- text: "G_RamGraph"
+  translation: ""
+
+- text: "BJGf"
+  translation: "BJGf"
+  skip_translation: true
+
+- text: "Migrations"
+  translation: ""
+
+- text: "CameraEvents"
+  translation: ""
+
+- text: "SiteId_t"
+  translation: ""
+
+- text: "SetMissionTask"
+  translation: ""
+
+- text: "TileBaker"
+  translation: ""
+
+- text: "Bmi2"
+  translation: "Bmi2"
+  skip_translation: true
+
+- text: "UISupport"
+  translation: ""
+
+- text: "CoreStatsHelper"
+  translation: ""
+
+- text: "SetGameObject"
+  translation: ""
+
+- text: "MenuManager"
+  translation: ""
+
+- text: "DivisionHandler"
+  translation: ""
+
+- text: "MeshTransform"
+  translation: ""
+
+- text: "HashCode"
+  translation: ""
+
+- text: "HashUtils"
+  translation: ""
+
+- text: "LeTai"
+  translation: ""
+
+- text: "Combobox"
+  translation: ""
+
+- text: "ComboBox"
+  translation: ""
+
+- text: "TMP_StyleSheet"
+  translation: ""
+
+- text: "Blitter"
+  translation: ""
+
+- text: "VoxelContour"
+  translation: ""
+
+- text: "VoxelContour-"
+  translation: ""
+
+- text: "IJobChunk"
+  translation: ""
+
+- text: "UnsafeView"
+  translation: ""
+
+- text: "Projection"
+  translation: ""
+
+- text: "DebugBool"
+  translation: ""
+
+- text: "Slot"
+  translation: "Slot"
+  skip_translation: true
+
+- text: "NNStatImageUI"
+  translation: ""
+
+- text: "IEnvironmentId"
+  translation: ""
+
+- text: "EntryButton"
+  translation: ""
+
+- text: "CloudProjectId"
+  translation: ""
+
+- text: "PinupUnlockUI"
+  translation: ""
+
+- text: "SaveKeyGroup"
+  translation: ""
+
+- text: "IGraphParent"
+  translation: ""
+
+- text: "FkQ"
+  translation: "FkQ"
+  skip_translation: true
+
+- text: "MoveForDuration"
+  translation: ""
+
+- text: "ClothBehaviour"
+  translation: ""
+
+- text: "PMA_Trigger"
+  translation: ""
+
+- text: "RightBehaviour"
+  translation: ""
+
+- text: "Int"
+  translation: ""
+
+- text: "IntExt"
+  translation: ""
+
+- text: "BlobAssetStore"
+  translation: ""
+
+- text: "XXHash"
+  translation: ""
+
+- text: "Glitch14"
+  translation: ""
+
+- text: "UnitCategory"
+  translation: ""
+
+- text: "Touchscreen"
+  translation: ""
+
+- text: "CreatePopup"
+  translation: ""
+
+- text: "LoadScene"
+  translation: ""
+
+- text: "NEON"
+  translation: "NEON"
+  skip_translation: true
+
+- text: "JobMoveAgent"
+  translation: ""
+
+- text: "Addressables"
+  translation: ""
+
+- text: "DrawSkyboxPass"
+  translation: ""
+
+- text: "VFXTypes"
+  translation: ""
+
+- text: "Achievement"
+  translation: ""
+
+- text: "MathExtensions"
+  translation: ""
+
+- text: "FollowerSeat"
+  translation: ""
+
+- text: "BurstLoader"
+  translation: ""
+
+- text: "LateUpdate"
+  translation: ""
+
+- text: "ChildReorderer"
+  translation: ""
+
+- text: "TextureHandle"
+  translation: ""
+
+- text: "CreateStruct"
+  translation: ""
+
+- text: "CheckTask"
+  translation: ""
+
+- text: "UtcTimeProvider"
+  translation: ""
+
+- text: "VmS"
+  translation: "VmS"
+  skip_translation: true
+
+- text: "Lw]"
+  translation: "Lw]"
+  skip_translation: true
+
+- text: "PMA_OpenMenu"
+  translation: ""
+
+- text: "SymbolsManager"
+  translation: ""
+
+- text: "Rotate"
+  translation: ""
+
+- text: "Ud#"
+  translation: "Ud#"
+  skip_translation: true
+
+- text: "DpadControl"
+  translation: ""
+
+- text: "TestConsole"
+  translation: ""
+
+- text: "AspectTypeInfo"
+  translation: ""
+
+- text: "WaterLayers"
+  translation: ""
+
+- text: "SetCameraFOV"
+  translation: ""
+
+- text: "AtTimeEvent"
+  translation: ""
+
+- text: "RaycastModifier"
+  translation: ""
+
+- text: "GetVectorLength"
+  translation: ""
+
+- text: "IIdentifiable"
+  translation: ""
+
+- text: "TilingJob"
+  translation: ""
+
+- text: "PMA_FadeScreen"
+  translation: ""
+
+- text: "GetAnimatorInt"
+  translation: ""
+
+- text: "Path"
+  translation: "Path"
+  skip_translation: true
+
+- text: "AxisEventData"
+  translation: ""
+
+- text: "SceneList"
+  translation: ""
+
+- text: "XRUtils"
+  translation: ""
+
+- text: "WakeUp"
+  translation: ""
+
+- text: "G_FpsMonitor"
+  translation: ""
+
+- text: "InputValue"
+  translation: ""
+
+- text: "FadeSpriteBySun"
+  translation: ""
+
+- text: "PopulateStats"
+  translation: ""
+
+- text: "BoneRenderer"
+  translation: ""
+
+- text: "SpriteUtility"
+  translation: ""
+
+- text: "Raycast"
+  translation: ""
+
+- text: "DeleteElements"
+  translation: ""
+
+- text: "InputMetrics"
+  translation: ""
+
+- text: "ReflectionSO"
+  translation: ""
+
+- text: "GetEventIntData"
+  translation: ""
+
+- text: "BoolNoneTrue"
+  translation: ""
+
+- text: "CGameID"
+  translation: ""
+
+- text: "GeneratePoints"
+  translation: ""
+
+- text: "MissionWidget"
+  translation: ""
+
+- text: "Vector4Minimum"
+  translation: ""
+
+- text: "CodePoint"
+  translation: ""
+
+- text: "OnTriggerStay2D"
+  translation: ""
+
+- text: "ToggleFlow"
+  translation: ""
+
+- text: "SignalTrack"
+  translation: ""
+
+- text: "PlayerNamesApi"
+  translation: ""
+
+- text: "EZTextSize"
+  translation: ""
+
+- text: "DropManipulator"
+  translation: ""
+
+- text: "BlurHQ"
+  translation: ""
+
+- text: "ANScrollZoom"
+  translation: ""
+
+- text: "IDamageable"
+  translation: ""
+
+- text: "ShowerGroup"
+  translation: ""
+
+- text: "U?y"
+  translation: "U?y"
+  skip_translation: true
+
+- text: "CreateItem"
+  translation: ""
+
+- text: "VoxelRegion"
+  translation: ""
+
+- text: "JobBuildRegions"
+  translation: ""
+
+- text: "ScreenPick2d"
+  translation: ""
+
+- text: "RVOObstacle"
+  translation: ""
+
+- text: "INesterUnit"
+  translation: ""
+
+- text: "IKUtility"
+  translation: ""
+
+- text: "Shims"
+  translation: "Shims"
+  skip_translation: true
+
+- text: "QuaternionExt"
+  translation: ""
+
+- text: "GetTouchCount"
+  translation: ""
+
+- text: "AnimatorPlay"
+  translation: ""
+
+- text: "FinalBlitPass"
+  translation: ""
+
+- text: "MaskPainter"
+  translation: ""
+
+- text: "Vector3Operator"
+  translation: ""
+
+- text: "RecastBuilder"
+  translation: ""
+
+- text: "AddTorque2d"
+  translation: ""
+
+- text: "TMP_LineInfo"
+  translation: ""
+
+- text: "Shape"
+  translation: ""
+
+- text: "GetKeyUp"
+  translation: ""
+
+- text: "ValueExpression"
+  translation: ""
+
+- text: "ShaderID"
+  translation: "ShaderID"
+  skip_translation: true
+
+- text: "ShaderId"
+  translation: "ShaderId"
+  skip_translation: true
+
+- text: "IAstarAI"
+  translation: ""
+
+- text: "ValueConnection"
+  translation: ""
+
+- text: "GraphCollision"
+  translation: ""
+
+- text: "SetAudioVolume"
+  translation: ""
+
+- text: "PMA_TakeItem"
+  translation: ""
+
+- text: "VFXPlaneBinder"
+  translation: ""
+
+- text: "GreaterOrEqual"
+  translation: ""
+
+- text: "SetListItem"
+  translation: ""
+
+- text: "Draggable"
+  translation: ""
+
+- text: "JobCreateTiles"
+  translation: ""
+
+- text: "Csr"
+  translation: "Csr"
+  skip_translation: true
+
+- text: "UnsafeQueue"
+  translation: ""
+
+- text: "Health"
+  translation: ""
+
+- text: "BoolTest"
+  translation: ""
+
+- text: "K_y"
+  translation: "K_y"
+  skip_translation: true
+
+- text: "PMA_SetParent"
+  translation: ""
+
+- text: "ShadowFactory"
+  translation: ""
+
+- text: "ErrorStatus"
+  translation: ""
+
+- text: "Bezier"
+  translation: ""
+
+- text: "ANSlider"
+  translation: ""
+
+- text: "Obstructor3DSO"
+  translation: ""
+
+- text: "Convert"
+  translation: ""
+
+- text: "DefaultWorld"
+  translation: ""
+
+- text: "Selectors"
+  translation: ""
+
+- text: "ICloner"
+  translation: ""
+
+- text: "IGraphNester"
+  translation: ""
+
+- text: "Persistence"
+  translation: ""
+
+- text: "IPersistence!"
+  translation: ""
+
+- text: "TCNN_checkbox"
+  translation: ""
+
+- text: "Less"
+  translation: "Less"
+  skip_translation: true
+
+- text: "ItemVendor"
+  translation: ""
+
+- text: "Bmi1"
+  translation: "Bmi1"
+  skip_translation: true
+
+- text: "Vector4Distance"
+  translation: ""
+
+- text: "EnableGUI"
+  translation: ""
+
+- text: "CombineMeshes"
+  translation: ""
+
+- text: "Requirement"
+  translation: ""
+
+- text: "WaterSettings"
+  translation: ""
+
+- text: "DelegateHelpers"
+  translation: ""
+
+- text: "PolyShape"
+  translation: ""
+
+- text: "Utils"
+  translation: ""
+
+- text: "W4l"
+  translation: "W4l"
+  skip_translation: true
+
+- text: "BundleDetails"
+  translation: ""
+
+- text: "BoundsToAABB"
+  translation: ""
+
+- text: "AABBExtensions"
+  translation: ""
+
+- text: "GUIBox"
+  translation: ""
+
+- text: "Vector2Multiply"
+  translation: ""
+
+- text: "Avx2"
+  translation: "Avx2"
+  skip_translation: true
+
+- text: "TransformPoint"
+  translation: ""
+
+- text: "VariableUnit"
+  translation: ""
+
+- text: "OnJointBreak"
+  translation: ""
+
+- text: "Unicode"
+  translation: ""
+
+- text: "ScreenShaker"
+  translation: ""
+
+- text: "SetAudioPitch"
+  translation: ""
+
+- text: "ThemeImage"
+  translation: ""
+
+- text: "ObstructorSO"
+  translation: ""
+
+- text: "VertexAttribute"
+  translation: ""
+
+- text: "Vector2Modulo"
+  translation: ""
+
+- text: "BmF0t"
+  translation: "BmF0t"
+  skip_translation: true
+
+- text: "PhysicsSceneRef"
+  translation: ""
+
+- text: "ValueOutput"
+  translation: ""
+
+- text: "WebGLSupport"
+  translation: ""
+
+- text: "JobBuildNodes"
+  translation: ""
+
+- text: "IExternalUserId"
+  translation: ""
+
+- text: "DropdownEvents"
+  translation: ""
+
+- text: "OFs"
+  translation: "OFs"
+  skip_translation: true
+
+- text: "MessageListener"
+  translation: ""
+
+- text: "MathUtils"
+  translation: ""
+
+- text: "MagicaCloth"
+  translation: ""
+
+- text: "SetSpineSkins"
+  translation: ""
+
+- text: "SinImageColor"
+  translation: ""
+
+- text: "GetEventInfo"
+  translation: ""
+
+- text: "LessThanHandler"
+  translation: ""
+
+- text: "LookInDirection"
+  translation: ""
+
+- text: "UTess"
+  translation: ""
+
+- text: "UEvent"
+  translation: ""
+
+- text: "OnPointerUp"
+  translation: ""
+
+- text: "Metrics"
+  translation: ""
+
+- text: "SetActiveScene"
+  translation: ""
+
+- text: "GallerySceneUI"
+  translation: ""
+
+- text: "GetVector3XYZ"
+  translation: ""
+
+- text: "SetProperty"
+  translation: ""
+
+- text: "ToggleValue"
+  translation: ""
+
+- text: "Packsize"
+  translation: ""
+
+- text: "OnTriggerExit"
+  translation: ""
+
+- text: "DefaultControls"
+  translation: ""
+
+- text: "Gzg"
+  translation: "Gzg"
+  skip_translation: true
+
+- text: "Pointer"
+  translation: ""
+
+- text: "DataPrivacy"
+  translation: ""
+
+- text: "EnableFSM"
+  translation: ""
+
+- text: "Decision"
+  translation: ""
+
+- text: "UISoftMaskUtils"
+  translation: ""
+
+- text: "GetTriggerInfo"
+  translation: ""
+
+- text: "RestartLevel"
+  translation: ""
+
+- text: "TabHighlighter"
+  translation: ""
+
+- text: "KeypadUI"
+  translation: ""
+
+- text: "TimerDelay"
+  translation: ""
+
+- text: "RandomizeScale"
+  translation: ""
+
+- text: "MeshToSDFBaker"
+  translation: ""
+
+- text: "UiOnDropEvent"
+  translation: ""
+
+- text: "Sleep"
+  translation: ""
+
+- text: "RemoteCameraUI"
+  translation: ""
+
+- text: "SkeletonBinary"
+  translation: ""
+
+- text: "ProbeBrickIndex"
+  translation: ""
+
+- text: "RestrainSprint"
+  translation: ""
+
+- text: "SendRandomEvent"
+  translation: ""
+
+- text: "ConsoleAlias"
+  translation: ""
+
+- text: "SitOnAwake"
+  translation: ""
+
+- text: "PopulateButton"
+  translation: ""
+
+- text: "Dialog"
+  translation: ""
+
+- text: "GetAnimatorBody"
+  translation: ""
+
+- text: "ExternalUserId"
+  translation: ""
+
+- text: "RuntimeCodebase"
+  translation: ""
+
+- text: "SpriteLibrary"
+  translation: ""
+
+- text: "Wiggle"
+  translation: ""
+
+- text: "MissionJson"
+  translation: ""
+
+- text: "MagicaWindZone"
+  translation: ""
+
+- text: "PropertyChecks"
+  translation: ""
+
+- text: "Guid"
+  translation: ""
+
+- text: "SelectionData"
+  translation: ""
+
+- text: "SortingTrigger"
+  translation: ""
+
+- text: "InstallationId"
+  translation: ""
+
+- text: "VersionChecker"
+  translation: ""
+
+- text: "UtilityJobs"
+  translation: ""
+
+- text: "Slice3D"
+  translation: ""
+
+- text: "GetChildNum"
+  translation: ""
+
+- text: "ColorRamp"
+  translation: ""
+
+- text: "RotateGUI"
+  translation: ""
+
+- text: "PMA_HasItems"
+  translation: ""
+
+- text: "IJobFilter"
+  translation: ""
+
+- text: "ColliderShadow"
+  translation: ""
+
+- text: "OnMouseDown"
+  translation: ""
+
+- text: "PartyFollowers"
+  translation: ""
+
+- text: "SetFogColor"
+  translation: ""
+
+- text: "GetTransform"
+  translation: ""
+
+- text: "IRuntimeBaker"
+  translation: ""
+
+- text: "PlayMusic"
+  translation: ""
+
+- text: "VertexHelper"
+  translation: ""
+
+- text: "InputSettings"
+  translation: ""
+
+- text: "HdV"
+  translation: "HdV"
+  skip_translation: true
+
+- text: "PressureHandler"
+  translation: ""
+
+- text: "SpriteInfo"
+  translation: ""
+
+- text: "SoftMaskUtils"
+  translation: ""
+
+- text: "SetTimescale"
+  translation: ""
+
+- text: "IJsonMigration"
+  translation: ""
+
+- text: "RandomBool"
+  translation: ""
+
+- text: "Obstructor"
+  translation: ""
+
+- text: "LinkOptions"
+  translation: ""
+
+- text: "Tessellator"
+  translation: ""
+
+- text: "SetSaveString"
+  translation: ""
+
+- text: "PMA_CheckStat"
+  translation: ""
+
+- text: "And"
+  translation: ""
+
+- text: "DyeItem"
+  translation: ""
+
+- text: "EqualityHandler"
+  translation: ""
+
+- text: "AssetPathHelper"
+  translation: ""
+
+- text: "MergeScenes"
+  translation: ""
+
+- text: "SpriteBakingTag"
+  translation: ""
+
+- text: "UnaryExpression"
+  translation: ""
+
+- text: "GetSaveKeyName"
+  translation: ""
+
+- text: "DeltaStateEvent"
+  translation: ""
+
+- text: "IVariableUnit"
+  translation: ""
+
+- text: "ConcurrentMask"
+  translation: ""
+
+- text: "ScalarSubtract"
+  translation: ""
+
+- text: "PMA_Fade2DLight"
+  translation: ""
+
+- text: "GetVelocity2d"
+  translation: ""
+
+- text: "LightMinMaxZJob"
+  translation: ""
+
+- text: "EaseRect"
+  translation: ""
+
+- text: "NavGraph"
+  translation: ""
+
+- text: "BlockReader"
+  translation: ""
+
+- text: "RWLock"
+  translation: ""
+
+- text: "OverworldAI"
+  translation: ""
+
+- text: "SetTextToSlider"
+  translation: ""
+
+- text: "InputProcessor"
+  translation: ""
+
+- text: "Glitch8"
+  translation: ""
+
+- text: "TileSize"
+  translation: ""
+
+- text: "MainMenuButton"
+  translation: ""
+
+- text: "ExclusiveOr"
+  translation: ""
+
+- text: "G_FloatString"
+  translation: ""
+
+- text: "GraphyManager"
+  translation: ""
+
+- text: "ANToggle"
+  translation: ""
+
+- text: "GetMainCamera"
+  translation: ""
+
+- text: "CoreUtils"
+  translation: ""
+
+- text: "GetFsmEnum"
+  translation: ""
+
+- text: "SpineGauge"
+  translation: ""
+
+- text: "XRView"
+  translation: ""
+
+- text: "CheckSaveBool"
+  translation: ""
+
+- text: "RenderingUtils"
+  translation: ""
+
+- text: "DecalChunk"
+  translation: ""
+
+- text: "QuaternionLerp"
+  translation: ""
+
+- text: "RestrainSave"
+  translation: ""
+
+- text: "LockIndicator"
+  translation: ""
+
+- text: "PopulateBind"
+  translation: ""
+
+- text: "NativeText"
+  translation: ""
+
+- text: "UiOnMoveEvent"
+  translation: ""
+
+- text: "SetGravity"
+  translation: ""
+
+- text: "CloseMenuLayer"
+  translation: ""
+
+- text: "Credit"
+  translation: ""
+
+- text: "NodeLink"
+  translation: ""
+
+- text: "SetLightRange"
+  translation: ""
+
+- text: "TapInteraction"
+  translation: ""
+
+- text: "ExtrudeElements"
+  translation: ""
+
+- text: "BlendAnimation"
+  translation: ""
+
+- text: "SwipeView"
+  translation: ""
+
+- text: "CardSwipedEvent"
+  translation: ""
+
+- text: "Cloning"
+  translation: ""
+
+- text: "InputEventPtr"
+  translation: ""
+
+- text: "LayoutGroup"
+  translation: ""
+
+- text: "PBc"
+  translation: "PBc"
+  skip_translation: true
+
+- text: "XRPassUniversal"
+  translation: ""
+
+- text: "GraphyDebugger"
+  translation: ""
+
+- text: "TqA"
+  translation: "TqA"
+  skip_translation: true
+
+- text: "EventHooks"
+  translation: ""
+
+- text: "OnKeyboardInput"
+  translation: ""
+
+- text: "ShadowSorter"
+  translation: ""
+
+- text: "CjR"
+  translation: "CjR"
+  skip_translation: true
+
+- text: "AEga"
+  translation: ""
+
+- text: "WaitUnit"
+  translation: ""
+
+- text: "AudioMute"
+  translation: ""
+
+- text: "ISelectUnit"
+  translation: ""
+
+- text: "XColor"
+  translation: ""
+
+- text: "LerpOld"
+  translation: ""
+
+- text: "MotionBlur"
+  translation: ""
+
+- text: "AgentIndex"
+  translation: ""
+
+- text: "MovementState"
+  translation: ""
+
+- text: "NYs"
+  translation: "NYs"
+  skip_translation: true
+
+- text: "UnsafeValueView"
+  translation: ""
+
+- text: "EntityBehaviour"
+  translation: ""
+
+- text: "SetLightType"
+  translation: ""
+
+- text: "GetFsmBool"
+  translation: ""
+
+- text: "IHasDefault"
+  translation: ""
+
+- text: "Arch"
+  translation: "Arch"
+  skip_translation: true
+
+- text: "PlayQueuedMusic"
+  translation: ""
+
+- text: "+DE"
+  translation: "+DE"
+  skip_translation: true
+
+- text: "ProbeVolume"
+  translation: ""
+
+- text: "B`j"
+  translation: "B`j"
+  skip_translation: true
+
+- text: "ANCursor"
+  translation: ""
+
+- text: "ChannelMixer"
+  translation: ""
+
+- text: "RichAI"
+  translation: ""
+
+- text: "Modifiers"
+  translation: ""
+
+- text: "IPathModifier"
+  translation: ""
+
+- text: "SpineAttributes"
+  translation: ""
+
+- text: "Once"
+  translation: ""
+
+- text: "StickyNote"
+  translation: ""
+
+- text: "ChapterPopup"
+  translation: ""
+
+- text: "InitMainMenu"
+  translation: ""
+
+- text: "IMask"
+  translation: ""
+
+- text: "IQosResults"
+  translation: ""
+
+- text: "UiOnDragEvent"
+  translation: ""
+
+- text: "PathPool"
+  translation: ""
+
+- text: "GUILayoutAction"
+  translation: ""
+
+- text: "ANCursorType"
+  translation: ""
+
+- text: "SetFsmBool"
+  translation: ""
+
+- text: "GUILayoutSpace"
+  translation: ""
+
+- text: "SpriteUtilities"
+  translation: ""
+
+- text: "TileLayout"
+  translation: ""
+
+- text: "RenderGraph"
+  translation: ""
+
+- text: "SelectPathFaces"
+  translation: ""
+
+- text: "CommonUsages"
+  translation: ""
+
+- text: "PMA_PlaySound"
+  translation: ""
+
+- text: "Ensure"
+  translation: ""
+
+- text: "OnMouseEnter"
+  translation: ""
+
+- text: "Glitch4"
+  translation: ""
+
+- text: "ListCloner"
+  translation: ""
+
+- text: "InputAction"
+  translation: ""
+
+- text: "IGraphElement"
+  translation: ""
+
+- text: "RacingResultsUI"
+  translation: ""
+
+- text: "ToyDebugUI"
+  translation: ""
+
+- text: "EZMove"
+  translation: ""
+
+- text: "OnTriggerExit2D"
+  translation: ""
+
+- text: "EventTrigger"
+  translation: ""
+
+- text: "Njb]"
+  translation: "Njb]"
+  skip_translation: true
+
+- text: "PS2DPoint"
+  translation: ""
+
+- text: "ForEach"
+  translation: ""
+
+- text: "MetricsFactory"
+  translation: ""
+
+- text: "HotDogCard"
+  translation: ""
+
+- text: "FunctionPointer"
+  translation: ""
+
+- text: "GroupTrack"
+  translation: ""
+
+- text: "YamlWriter"
+  translation: ""
+
+- text: "Vector3Modulo"
+  translation: ""
+
+- text: "ActionEvent"
+  translation: ""
+
+- text: "RunConCommand"
+  translation: ""
+
+- text: "AutosaveManager"
+  translation: ""
+
+- text: "LayerRenderer"
+  translation: ""
+
+- text: "InputField"
+  translation: ""
+
+- text: "PMA_AddTime"
+  translation: ""
+
+- text: "StateGraph"
+  translation: ""
+
+- text: "DrawObjectsPass"
+  translation: ""
+
+- text: "MissionsButton"
+  translation: ""
+
+- text: "SyncLightToSun"
+  translation: ""
+
+- text: "HHTMLBrowser"
+  translation: ""
+
+- text: "ContinueButton"
+  translation: ""
+
+- text: "AnimationLink"
+  translation: ""
+
+- text: "JournalButton"
+  translation: ""
+
+- text: "ScriptMachine"
+  translation: ""
+
+- text: "IVivox"
+  translation: ""
+
+- text: "ParserManager"
+  translation: ""
+
+- text: "MusicTransition"
+  translation: ""
+
+- text: "EnableFog"
+  translation: ""
+
+- text: "TrackExtensions"
+  translation: ""
+
+- text: "PinupFragment"
+  translation: ""
+
+- text: "CopyPasteHelper"
+  translation: ""
+
+- text: "GetItem"
+  translation: ""
+
+- text: "SkewTextExample"
+  translation: ""
+
+- text: "SpinLock"
+  translation: ""
+
+- text: "ShadowRendering"
+  translation: ""
+
+- text: "JobUtility"
+  translation: ""
+
+- text: "LookAt2d"
+  translation: ""
+
+- text: "DynamicBitfield"
+  translation: ""
+
+- text: "Recursion"
+  translation: ""
+
+- text: "OnExitState"
+  translation: ""
+
+- text: "Mouse"
+  translation: ""
+
+- text: "Minimap"
+  translation: ""
+
+- text: "ListViewBridge"
+  translation: ""
+
+- text: "ZqE"
+  translation: "ZqE"
+  skip_translation: true
+
+- text: "TrackedDevice"
+  translation: ""
+
+- text: "ObjectCompare"
+  translation: ""
+
+- text: "SetTextToBool"
+  translation: ""
+
+- text: "IDebugTools"
+  translation: ""
+
+- text: "IServiceDebug"
+  translation: ""
+
+- text: "SetFsmMaterial"
+  translation: ""
+
+- text: "InputControl"
+  translation: ""
+
+- text: "GridGraph"
+  translation: ""
+
+- text: "AddTorque"
+  translation: ""
+
+- text: "SetFloatValue"
+  translation: ""
+
+- text: "Debug"
+  translation: ""
+
+- text: "Unity"
+  translation: ""
+
+- text: "ButtonControl"
+  translation: ""
+
+- text: "EnableBehaviour"
+  translation: ""
+
+- text: "CopyDepthPass"
+  translation: ""
+
+- text: "DTSweepBasin"
+  translation: ""
+
+- text: "ScalarAverage"
+  translation: ""
+
+- text: "SmoothLookAt2d"
+  translation: ""
+
+- text: "GIContributors"
+  translation: ""
+
+- text: "Palette"
+  translation: ""
+
+- text: "LayerGridGraph"
+  translation: ""
+
+- text: "SignalAsset"
+  translation: ""
+
+- text: "ScalableBlur"
+  translation: ""
+
+- text: "Theme"
+  translation: ""
+
+- text: "Qh+"
+  translation: "Qh+"
+  skip_translation: true
+
+- text: "NN3dUIMovement"
+  translation: ""
+
+- text: "TimeData"
+  translation: ""
+
+- text: "ColorParser"
+  translation: ""
+
+- text: "FrameTimeSample"
+  translation: ""
+
+- text: "AudioPlay"
+  translation: ""
+
+- text: "Light2DManager"
+  translation: ""
+
+- text: "NCalcLexer"
+  translation: ""
+
+- text: "Expose"
+  translation: ""
+
+- text: "Diagnostics"
+  translation: ""
+
+- text: "ShaderInput"
+  translation: "ShaderInput"
+  skip_translation: true
+
+- text: "SkeletonGraphic"
+  translation: ""
+
+- text: "4O;P_1"
+  translation: "4O;P_1"
+  skip_translation: true
+
+- text: "Vector2Angle"
+  translation: ""
+
+- text: "LoopMusicDemo"
+  translation: ""
+
+- text: "BuddyAllocator"
+  translation: ""
+
+- text: "Tooltip"
+  translation: ""
+
+- text: "ScreenFade"
+  translation: ""
+
+- text: "OpenUrl"
+  translation: ""
+
+- text: "CoreMatrixUtils"
+  translation: ""
+
+- text: "ListView"
+  translation: ""
+
+- text: "IGettable"
+  translation: ""
+
+- text: "FabrikSolver2D"
+  translation: ""
+
+- text: "StateEvent"
+  translation: ""
+
+- text: "PopulateCredit"
+  translation: ""
+
+- text: "DisableAnimator"
+  translation: ""
+
+- text: "MergeElements"
+  translation: ""
+
+- text: "StartLockpick"
+  translation: ""
+
+- text: "ThemeGraphic"
+  translation: ""
+
+- text: "UiGetBlockColor"
+  translation: ""
+
+- text: "UiGetColorBlock"
+  translation: ""
+
+- text: "MousePick2d"
+  translation: ""
+
+- text: "Size"
+  translation: ""
+
+- text: "SemVer"
+  translation: ""
+
+- text: "OnMouseOver"
+  translation: ""
+
+- text: "EaseColor"
+  translation: ""
+
+- text: "PointFollower"
+  translation: ""
+
+- text: "PhysicsHelper"
+  translation: ""
+
+- text: "IChannel"
+  translation: ""
+
+- text: "RoomGenerator"
+  translation: ""
+
+- text: "GetMass2d"
+  translation: ""
+
+- text: "PMA_GiveItems"
+  translation: ""
+
+- text: "ANAnimator"
+  translation: ""
+
+- text: "M3q"
+  translation: "M3q"
+  skip_translation: true
+
+- text: "CoroutineHelper"
+  translation: ""
+
+- text: "UJ,"
+  translation: ""
+
+- text: "Benchmark04"
+  translation: ""
+
+- text: "Y:d"
+  translation: "Y:d"
+  skip_translation: true
+
+- text: "IUnitConnection"
+  translation: ""
+
+- text: "GetKeyDown"
+  translation: ""
+
+- text: "Throw"
+  translation: "Throw"
+  skip_translation: true
+
+- text: "JobConnectTiles"
+  translation: ""
+
+- text: "OnBecameVisible"
+  translation: ""
+
+- text: "DebugInt"
+  translation: ""
+
+- text: "WindowManager"
+  translation: ""
+
+- text: "SetAnimatorInt"
+  translation: ""
+
+- text: "InsetOnPress"
+  translation: ""
+
+- text: "JsonWriter"
+  translation: ""
+
+- text: "ColorPalette"
+  translation: ""
+
+- text: "TextEvent"
+  translation: ""
+
+- text: "FastEquality"
+  translation: ""
+
+- text: "Vector2Lerp"
+  translation: ""
+
+- text: "PopulateElement"
+  translation: ""
+
+- text: "UnityServices"
+  translation: ""
+
+- text: "ShadowContainer"
+  translation: ""
+
+- text: "SuperState"
+  translation: ""
+
+- text: "InputUpdateType"
+  translation: ""
+
+- text: "InputUpdate"
+  translation: ""
+
+- text: "IBinaryAdapter"
+  translation: ""
+
+- text: "IGraphDebugData"
+  translation: ""
+
+- text: "IMachine"
+  translation: ""
+
+- text: "SetGUIText"
+  translation: ""
+
+- text: "TabMenu"
+  translation: ""
+
+- text: "RewindAnimation"
+  translation: ""
+
+- text: "SetLightFlare"
+  translation: ""
+
+- text: "BlockManager"
+  translation: ""
+
+- text: "PMA_SetStat"
+  translation: ""
+
+- text: "SetHaloStrength"
+  translation: ""
+
+- text: "HttpRequest"
+  translation: ""
+
+- text: "FaceRebuildData"
+  translation: ""
+
+- text: "SetupEntry"
+  translation: ""
+
+- text: "RacingManager"
+  translation: ""
+
+- text: "ColorLookup"
+  translation: ""
+
+- text: "LFn"
+  translation: "LFn"
+  skip_translation: true
+
+- text: "Vector2Add"
+  translation: ""
+
+- text: "Develop"
+  translation: ""
+
+- text: "PointerModel"
+  translation: ""
+
+- text: "MouseEvents"
+  translation: ""
+
+- text: "R[s"
+  translation: "R[s"
+  skip_translation: true
+
+- text: "InputUser"
+  translation: ""
+
+- text: "SoS"
+  translation: "SoS"
+  skip_translation: true
+
+- text: "GenericModulo"
+  translation: ""
+
+- text: "AspectType"
+  translation: ""
+
+- text: "FlowGraph"
+  translation: ""
+
+- text: "ISceneProvider"
+  translation: ""
+
+- text: "Joystick"
+  translation: ""
+
+- text: "Flicker"
+  translation: ""
+
+- text: "Vector3Round"
+  translation: ""
+
+- text: "TransferItems"
+  translation: ""
+
+- text: "PopulateDye"
+  translation: ""
+
+- text: "HasDLC"
+  translation: ""
+
+- text: "TMP_MeshInfo"
+  translation: ""
+
+- text: "OnEndDrag"
+  translation: ""
+
+- text: "AudioManager"
+  translation: ""
+
+- text: "GetButtonDown"
+  translation: ""
+
+- text: "DyeLayer"
+  translation: ""
+
+- text: "TouchSimulation"
+  translation: ""
+
+- text: "DebugView"
+  translation: ""
+
+- text: "TeleType"
+  translation: ""
+
+- text: "ManagersParent"
+  translation: ""
+
+- text: "TimeManager"
+  translation: ""
+
+- text: "CheckMission"
+  translation: ""
+
+- text: "PopulateSlider"
+  translation: ""
+
+- text: "UpscalePass"
+  translation: ""
+
+- text: "IGraph"
+  translation: ""
+
+- text: "VirtualKey"
+  translation: ""
+
+- text: "ScalarModulo"
+  translation: ""
+
+- text: "PIDUtilities"
+  translation: ""
+
+- text: "SetAnimationInt"
+  translation: ""
+
+- text: "BulkHsvRecolor"
+  translation: ""
+
+- text: "Glitch12"
+  translation: ""
+
+- text: "DialogueChoice"
+  translation: ""
+
+- text: "Popcnt"
+  translation: "Popcnt"
+  skip_translation: true
+
+- text: "UIFoldout"
+  translation: ""
+
+- text: "GetVariable"
+  translation: ""
+
+- text: "FloatDivide"
+  translation: ""
+
+- text: "BezierUtility"
+  translation: ""
+
+- text: "DualMotorRumble"
+  translation: ""
+
+- text: "VFXSphereBinder"
+  translation: ""
+
+- text: "VertexShakeB"
+  translation: ""
+
+- text: "InputFields"
+  translation: ""
+
+- text: "BaseInputField"
+  translation: ""
+
+- text: "GalleryUI"
+  translation: ""
+
+- text: "SignalReceiver"
+  translation: ""
+
+- text: "PopulateOptions"
+  translation: ""
+
+- text: "GenerateHLSL"
+  translation: ""
+
+- text: "FloodPathTracer"
+  translation: ""
+
+- text: "NNRecUI"
+  translation: ""
+
+- text: "CI0"
+  translation: "CI0"
+  skip_translation: true
+
+- text: "SwitchOnInteger"
+  translation: ""
+
+- text: "SetTextureScale"
+  translation: ""
+
+- text: "Logger"
+  translation: ""
+
+- text: "RenderData"
+  translation: ""
+
+- text: "SendEventToFsm"
+  translation: ""
+
+- text: "MaterialChecks"
+  translation: ""
+
+- text: "ICloudProjectId"
+  translation: ""
+
+- text: "IApiAccessor"
+  translation: ""
+
+- text: "IApiAccessor$"
+  translation: ""
+
+- text: "LevelGridNode"
+  translation: ""
+
+- text: "Rotate_Cube"
+  translation: ""
+
+- text: "MemberUtility"
+  translation: ""
+
+- text: "Variables"
+  translation: ""
+
+- text: "SystemBase"
+  translation: ""
+
+- text: "DeleteAfter"
+  translation: ""
+
+- text: "WebGLGamepad"
+  translation: ""
+
+- text: "WeightUtility"
+  translation: ""
+
+- text: "SetSpawnTime"
+  translation: ""
+
+- text: "BaseLogAction"
+  translation: ""
+
+- text: "GridInformation"
+  translation: ""
+
+- text: "EffectManager"
+  translation: ""
+
+- text: "XComparable"
+  translation: ""
+
+- text: "GUILayoutButton"
+  translation: ""
+
+- text: "PMA_SetTime"
+  translation: ""
+
+- text: "Benchmark02"
+  translation: ""
+
+- text: "CombinedSkin"
+  translation: ""
+
+- text: "SetFsmString"
+  translation: ""
+
+- text: "FloatSubtract"
+  translation: ""
+
+- text: "Parallax"
+  translation: ""
+
+- text: "Utility"
+  translation: ""
+
+- text: "MatchObject"
+  translation: ""
+
+- text: "Vector3Absolute"
+  translation: ""
+
+- text: "Vector3Maximum"
+  translation: ""
+
+- text: "IUnitInputPort"
+  translation: ""
+
+- text: "GetDataFromTask"
+  translation: ""
+
+- text: "Seat"
+  translation: ""
+
+- text: "LineConnector"
+  translation: ""
+
+- text: "DefaultInputs"
+  translation: ""
+
+- text: "OnScreenStick"
+  translation: ""
+
+- text: "NativeSort"
+  translation: ""
+
+- text: "Perversion"
+  translation: ""
+
+- text: "HasTask"
+  translation: ""
+
+- text: "LinkGraph"
+  translation: ""
+
+- text: "CurveRect"
+  translation: ""
+
+- text: "ShakeScreen"
+  translation: ""
+
+- text: "y.w 3"
+  translation: "y.w 3"
+  skip_translation: true
+
+- text: "FragmentPickup"
+  translation: ""
+
+- text: "6! Eji"
+  translation: ""
+
+- text: "VehicleBoostSFX"
+  translation: ""
+
+- text: "SetSaveInt"
+  translation: ""
+
+- text: "IService"
+  translation: ""
+
+- text: "PI_CumButton"
+  translation: ""
+
+- text: "BaseJwt"
+  translation: ""
+
+- text: "AddForce2d"
+  translation: ""
+
+- text: "ExBitFlag8"
+  translation: ""
+
+- text: "IValid"
+  translation: ""
+
+- text: "XRMirrorView"
+  translation: ""
+
+- text: "XRMirrorView\""
+  translation: ""
+
+- text: "BinaryHeap"
+  translation: ""
+
+- text: "ProgressBarBase"
+  translation: ""
+
+- text: "SetRotation"
+  translation: ""
+
+- text: "RaycastAll"
+  translation: ""
+
+- text: "WindSettings"
+  translation: ""
+
+- text: "SaveVariables"
+  translation: ""
+
+- text: "BitField"
+  translation: ""
+
+- text: "Bitwise"
+  translation: ""
+
+- text: "OpenItemShop"
+  translation: ""
+
+- text: "OSXSupport"
+  translation: ""
+
+- text: "ProfilerUtility"
+  translation: ""
+
+- text: "SkeletonAsset"
+  translation: ""
+
+- text: "BJHelper"
+  translation: ""
+
+- text: "SetTheme"
+  translation: ""
+
+- text: "Constants"
+  translation: ""
+
+- text: "ANButtonGroup"
+  translation: ""
+
+- text: "ShadowUtility"
+  translation: ""
+
+- text: "SkeletonJson"
+  translation: ""
+
+- text: "Glitch11"
+  translation: ""
+
+- text: "BeatDetector"
+  translation: ""
+
+- text: "SpriteResolver"
+  translation: ""
+
+- text: "IRenderPass2D"
+  translation: ""
+
+- text: "GravityState"
+  translation: ""
+
+- text: "IEventGraph"
+  translation: ""
+
+- text: "XEventGraph"
+  translation: ""
+
+- text: "WaitUntilUnit"
+  translation: ""
+
+- text: "StringSplit"
+  translation: ""
+
+- text: "OpenMenu"
+  translation: ""
+
+- text: "AngleConstraint"
+  translation: ""
+
+- text: "RestrainTab"
+  translation: ""
+
+- text: "UnityObjectRef"
+  translation: ""
+
+- text: "Blobs"
+  translation: "Blobs"
+  skip_translation: true
+
+- text: "EntityAccess"
+  translation: ""
+
+- text: "TransformBaking"
+  translation: ""
+
+- text: "LocalRotator"
+  translation: ""
+
+- text: "Greater"
+  translation: ""
+
+- text: "MathUtilities"
+  translation: ""
+
+- text: "SavedVariables"
+  translation: ""
+
+- text: "InputStateBlock"
+  translation: ""
+
+- text: "GetRandomChild"
+  translation: ""
+
+- text: "Bool"
+  translation: ""
+
+- text: "BoolExt"
+  translation: ""
+
+- text: "CCDSolver2D"
+  translation: ""
+
+- text: "VectorMask"
+  translation: ""
+
+- text: "Vector2Mask"
+  translation: ""
+
+- text: "StateMachine"
+  translation: ""
+
+- text: "VertexGradient"
+  translation: ""
+
+- text: "Js/"
+  translation: "Js/"
+  skip_translation: true
+
+- text: "NNUICancelStack"
+  translation: ""
+
+- text: "RTHandle"
+  translation: ""
+
+- text: "HttpResponse"
+  translation: ""
+
+- text: "HttpResponse'"
+  translation: ""
+
+- text: "XRLayoutBuilder"
+  translation: ""
+
+- text: "RandomFloat"
+  translation: ""
+
+- text: "AotDictionary"
+  translation: ""
+
+- text: "Environments"
+  translation: ""
+
+- text: "Environments)"
+  translation: ""
+
+- text: "Sse2"
+  translation: "Sse2"
+  skip_translation: true
+
+- text: "BoolAllTrue"
+  translation: ""
+
+- text: "PathProcessor"
+  translation: ""
+
+- text: "WaitForFlow"
+  translation: ""
+
+- text: "BufferedRumble"
+  translation: ""
+
+- text: "Snap"
+  translation: "Snap"
+  skip_translation: true
+
+- text: "BoltUnityEvent"
+  translation: ""
+
+- text: "L=`tb)"
+  translation: "L=`tb)"
+  skip_translation: true
+
+- text: "InsertListItem"
+  translation: ""
+
+- text: "PopulateLabel"
+  translation: ""
+
+- text: "VNh"
+  translation: "VNh"
+  skip_translation: true
+
+- text: "RectManipulator"
+  translation: ""
+
+- text: "DAUI2"
+  translation: "DAUI2"
+  skip_translation: true
+
+- text: "Ncj"
+  translation: "Ncj"
+  skip_translation: true
+
+- text: "G_AudioGraph"
+  translation: ""
+
+- text: "ShaderIds"
+  translation: "ShaderIds"
+  skip_translation: true
+
+- text: "OnDestroy"
+  translation: ""
+
+- text: "PopulateSaves"
+  translation: ""
+
+- text: "HasScriptGraph"
+  translation: ""
+
+- text: "UnitRelation"
+  translation: ""
+
+- text: "Resources"
+  translation: ""
+
+- text: "Detail"
+  translation: ""
+
+- text: "GetStatValue"
+  translation: ""
+
+- text: "FieldsCloner"
+  translation: ""
+
+- text: "IKeyEvaluator"
+  translation: ""
+
+- text: "IDataProvider"
+  translation: ""
+
+- text: "AstarColor"
+  translation: ""
+
+- text: "ForceApparel"
+  translation: ""
+
+- text: "SystemState"
+  translation: ""
+
+- text: "CallMethod"
+  translation: ""
+
+- text: "CameraSwitcher"
+  translation: ""
+
+- text: "DebugFloat"
+  translation: ""
+
+- text: "SetVariable"
+  translation: ""
+
+- text: "GeometryBuilder"
+  translation: ""
+
+- text: "FileReader"
+  translation: ""
+
+- text: "MousePickEvent"
+  translation: ""
+
+- text: "Update"
+  translation: ""
+
+- text: "GroupOperation"
+  translation: ""
+
+- text: "InputRemoting"
+  translation: ""
+
+- text: "IMetricsFactory"
+  translation: ""
+
+- text: "SkeletonLoader"
+  translation: ""
+
+- text: "SwitchOnEnum"
+  translation: ""
+
+- text: "FaceInfo_Legacy"
+  translation: ""
+
+- text: "GetAnimatorRoot"
+  translation: ""
+
+- text: "GetMouseY"
+  translation: ""
+
+- text: "AIPath"
+  translation: ""
+
+- text: "ANLayeredImage"
+  translation: ""
+
+- text: "F|q"
+  translation: "F|q"
+  skip_translation: true
+
+- text: "GUILabel"
+  translation: ""
+
+- text: "Collectible"
+  translation: ""
+
+- text: "VolumeManager"
+  translation: ""
+
+- text: "PointerPIButton"
+  translation: ""
+
+- text: "StreamSplitter"
+  translation: ""
+
+- text: "Spineboy"
+  translation: ""
+
+- text: "PointGraph"
+  translation: ""
+
+- text: "EntityQuery"
+  translation: ""
+
+- text: "G_FpsText"
+  translation: ""
+
+- text: "RandomInt"
+  translation: ""
+
+- text: "User"
+  translation: ""
+
+- text: "TimeUtility"
+  translation: ""
+
+- text: "RTHandleUtils"
+  translation: ""
+
+- text: "ResultCode"
+  translation: ""
+
+- text: "BakedEntityData"
+  translation: ""
+
+- text: "Attraction"
+  translation: ""
+
+- text: "DownBehaviour"
+  translation: ""
+
+- text: "VertexShakeA"
+  translation: ""
+
+- text: "NextFrameEvent"
+  translation: ""
+
+- text: "AndHandler"
+  translation: ""
+
+- text: "OnCollisionExit"
+  translation: ""
+
+- text: "ShaderTypes"
+  translation: "ShaderTypes"
+  skip_translation: true
+
+- text: "SpineMesh"
+  translation: ""
+
+- text: "GetSceneIsDirty"
+  translation: ""
+
+- text: "RecastGraph"
+  translation: ""
+
+- text: "AIMoveSystem"
+  translation: ""
+
+- text: "IDiagnostics"
+  translation: ""
+
+- text: "IDiagnostics&"
+  translation: ""
+
+- text: "DeferredLights"
+  translation: ""
+
+- text: "NavmeshBase"
+  translation: ""
+
+- text: "ProfiledSegment"
+  translation: ""
+
+- text: "UnlinkRequest"
+  translation: ""
+
+- text: "ScreenFader"
+  translation: ""
+
+- text: "Null"
+  translation: "Null"
+  skip_translation: true
+
+- text: "AdditionHandler"
+  translation: ""
+
+- text: "SetResolution"
+  translation: ""
+
+- text: "Benchmark01"
+  translation: ""
+
+- text: "TriggerEvent"
+  translation: ""
+
+- text: "GraphTransform"
+  translation: ""
+
+- text: "StartDialogue"
+  translation: ""
+
+- text: "JTnS"
+  translation: "JTnS"
+  skip_translation: true
+
+- text: "ICachable"
+  translation: ""
+
+- text: "GetTag"
+  translation: ""
+
+- text: "LineCast2d"
+  translation: ""
+
+- text: "UnityThread"
+  translation: ""
+
+- text: "DecisionVar"
+  translation: ""
+
+- text: "Vector2Sum"
+  translation: ""
+
+- text: "SetScale"
+  translation: ""
+
+- text: "IAsyncOperation"
+  translation: ""
+
+- text: "DownloadStatus"
+  translation: ""
+
+- text: "SelectOnEnum"
+  translation: ""
+
+- text: "NullCoalesce"
+  translation: ""
+
+- text: "DNCLamp"
+  translation: ""
+
+- text: "FixedList"
+  translation: ""
+
+- text: "NNBlurBySpeed"
+  translation: ""
+
+- text: "GraphPointer"
+  translation: ""
+
+- text: "DrawStateLabel"
+  translation: ""
+
+- text: "Avx"
+  translation: ""
+
+- text: "LockAllDoors"
+  translation: ""
+
+- text: "CurveFsmAction"
+  translation: ""
+
+- text: "CreateScene"
+  translation: ""
+
+- text: "IUpdatable"
+  translation: ""
+
+- text: "Comparison"
+  translation: ""
+
+- text: "HasStateGraph"
+  translation: ""
+
+- text: "GetScreenWidth"
+  translation: ""
+
+- text: "GetPlayerEntity"
+  translation: ""
+
+- text: "GetScale"
+  translation: ""
+
+- text: "PsLayer"
+  translation: ""
+
+- text: "OperatorHandler"
+  translation: ""
+
+- text: "ThemeSelectable"
+  translation: ""
+
+- text: "Triangle"
+  translation: ""
+
+- text: "WorkCamera"
+  translation: ""
+
+- text: "CiS"
+  translation: "CiS"
+  skip_translation: true
+
+- text: "GraphUtilities"
+  translation: ""
+
+- text: "IntBounds"
+  translation: ""
+
+- text: "Solver2D"
+  translation: ""
+
+- text: "GetFsmState"
+  translation: ""
+
+- text: "LightUtility"
+  translation: ""
+
+- text: "FirstItem"
+  translation: ""
+
+- text: "CharCurrency"
+  translation: ""
+
+- text: "CurrencyEvent"
+  translation: ""
+
+- text: "GetFsmString"
+  translation: ""
+
+- text: "MixAndMatch"
+  translation: ""
+
+- text: "SearchState"
+  translation: ""
+
+- text: "ProfilerRuntime"
+  translation: ""
+
+- text: "OnJointBreak2D"
+  translation: ""
+
+- text: "OutlineTarget"
+  translation: ""
+
+- text: "ShaderUtilities"
+  translation: "ShaderUtilities"
+  skip_translation: true
+
+- text: "GetVertexCount"
+  translation: ""
+
+- text: "Equal"
+  translation: ""
+
+- text: "RenderUtils"
+  translation: ""
+
+- text: "LeafUtils"
+  translation: ""
+
+- text: "HAuthTicket"
+  translation: ""
+
+- text: "FourCC"
+  translation: ""
+
+- text: "StringJoin"
+  translation: ""
+
+- text: "StateEventHooks"
+  translation: ""
+
+- text: "PMA_HasMission"
+  translation: ""
+
+- text: "VehicleBoostVFX"
+  translation: ""
+
+- text: "IVolume"
+  translation: ""
+
+- text: "SampleCurve"
+  translation: ""
+
+- text: "Vector4Subtract"
+  translation: ""
+
+- text: "Glitch7"
+  translation: ""
+
+- text: "SequenceMap"
+  translation: ""
+
+- text: "GetMass"
+  translation: ""
+
+- text: "NavMeshGraph"
+  translation: ""
+
+- text: "IsModest"
+  translation: ""
+
+- text: "RigBuilder"
+  translation: ""
+
+- text: "LovenseForUnity"
+  translation: ""
+
+- text: "LovenseRemote"
+  translation: ""
+
+- text: "PlayMakerPrefs"
+  translation: "PlayMakerPrefs"
+  skip_translation: true
+
+- text: "PlayMakerOnGUI"
+  translation: "PlayMakerOnGUI"
+  skip_translation: true
+
+- text: "ShaderVariants"
+  translation: "ShaderVariants"
+  skip_translation: true
+
+- text: "SOFTMASKABLE"
+  translation: ""
+
+- text: "SOFTMASKABLE UNITY_UI_ALPHACLIP"
+  translation: ""
+
+- text: "SOFTMASKABLE UNDERLAY_ON"
+  translation: ""
+
+- text: "Glitch1"
+  translation: ""
+
+- text: "Neon Nights InputSystem_Actions"
+  translation: ""
+
+- text: "Hold"
+  translation: "Hold"
+  skip_translation: true
+
+- text: "Sprint"
+  translation: "Sprint"
+  skip_translation: true
+
+- text: "Pause"
+  translation: ""
+
+- text: "Zoom"
+  translation: ""
+
+- text: "Axis$"
+  translation: "Axis$"
+  skip_translation: true
+
+- text: "AxisDeadzone"
+  translation: ""
+
+- text: "StickDeadzone"
+  translation: ""
+
+- text: "Quicksave"
+  translation: ""
+
+- text: "Quickload"
+  translation: ""
+
+- text: "ChangeIdle"
+  translation: ""
+
+- text: "Keyboard&Mouse"
+  translation: ""
+
+- text: "New Universal Render Pipeline Asset"
+  translation: ""
+
+- text: "New Universal Render Pipeline Asset_Renderer"
+  translation: ""
+
+- text: "Multiply"
+  translation: ""
+
+- text: "Multiply with Mask"
+  translation: ""
+
+- text: "Additive with Mask"
+  translation: ""
+
+- text: "URP Spine Renderer Asset_Renderer"
+  translation: ""
+
+- text: "Glitch2"
+  translation: ""
+
