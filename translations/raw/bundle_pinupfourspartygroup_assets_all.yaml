@@ -8,7 +8,7 @@
   skip_translation: true
 
 - text: "L\"A"
-  translation: "L\\"
+  translation: "L\"A"
   skip_translation: true
 
 - text: "Aff*A"
