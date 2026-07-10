@@ -164,6 +164,38 @@ def test_special_chars():
         print("  PASS: special chars")
 
 
+def test_newline_roundtrip():
+    with tempfile.TemporaryDirectory() as tmp:
+        ext.DUMP_DIR = Path(tmp) / "dump_assets"
+        ext.DUMP_DIR.mkdir()
+        text = "line1\n\nline2"
+        chunk = {"asset": "r", "chunk": 0, "objects": [
+            {"path_id": 1, "type": "MonoBehaviour",
+             "dialogues": [
+                 {"speaker": "", "text": text},
+                 {"speaker": "", "text": "no newline here"},
+                 {"speaker": "", "text": "single\nline"},
+             ]},
+        ]}
+        (ext.DUMP_DIR / "r.chunk000.json").write_text(json.dumps(chunk))
+        by_pid = ext.extract_dialogues(ext.find_chunks())
+        entries = [e for lst in by_pid.values() for e in lst]
+        assert len(entries) == 3
+        out = Path(tmp) / "s.yaml"
+        ext.write_yaml(out, entries)
+        c = out.read_text("utf-8")
+        # Escaped \n in output, not literal newlines inside quoted values
+        assert '\\n' in c, f"Expected \\\\n escape in YAML, got:\n{c}"
+        # Verify roundtrip via read_yaml (uses yaml.safe_load or fallback)
+        reloaded = ext.read_yaml(out)
+        assert len(reloaded) == 3
+        assert reloaded[0]["text"] == text, \
+            f"Roundtrip failed: {reloaded[0]['text']!r} != {text!r}"
+        assert reloaded[1]["text"] == "no newline here"
+        assert reloaded[2]["text"] == "single\nline"
+        print("  PASS: newline roundtrip")
+
+
 def test_dedup():
     with tempfile.TemporaryDirectory() as tmp:
         ext.DUMP_DIR = Path(tmp) / "dump_assets"
@@ -678,7 +710,7 @@ def test_consolidate_speakers_not_in_settings():
 if __name__ == "__main__":
     tests = [test_extract_dialogues, test_extract_speakers, test_extract_global_strings,
              test_write_yaml, test_extract_bundle_dialogues_fields,
-             test_empty_dump, test_special_chars, test_dedup,
+             test_empty_dump, test_special_chars, test_newline_roundtrip, test_dedup,
              test_read_yaml, test_read_yaml_multi,
              test_merge, test_merge_speakers, test_merge_settings,
               test_merge_rich_translation_copy_through,

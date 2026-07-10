@@ -1,10 +1,10 @@
 # raw (bundle_sexscene-traingroping_assets_all)
 
 - text: "Additive Fakelight"
-  translation: ""
+  translation: "Аддитивный фейковый свет"
 
 - text: "Backlight"
-  translation: ""
+  translation: "Задняя подсветка"
 
 - text: "A&F5"
   translation: "A&F5"
@@ -71,7 +71,8 @@
   skip_translation: true
 
 - text: "I?OD]?z"
-  translation: ""
+  translation: "I?OD]?z"
+  skip_translation: true
 
 - text: "JGA"
   translation: "JGA"
@@ -118,50 +119,55 @@
   skip_translation: true
 
 - text: "Train Groping"
-  translation: ""
+  translation: "Щупание в поезде"
 
 - text: "Zoey Dynamic Mouse Positioning"
-  translation: ""
+  translation: "Динамическое позиционирование мыши Зои"
 
 - text: "SkeletonUtility"
-  translation: ""
+  translation: "SkeletonUtility"
+  skip_translation: true
 
 - text: "WMv"
   translation: "WMv"
   skip_translation: true
 
 - text: "man front left_IK"
-  translation: ""
+  translation: "man front left_IK"
+  skip_translation: true
 
 - text: "Lm0I"
   translation: "Lm0I"
   skip_translation: true
 
 - text: "man front right IK [Override]"
-  translation: ""
+  translation: "man front right IK [Override]"
+  skip_translation: true
 
 - text: "woman front left"
-  translation: ""
+  translation: "woman front left"
+  skip_translation: true
 
 - text: "Background Characters Dynamic Mouse Positioning"
-  translation: ""
+  translation: "Динамическое позиционирование мыши фоновых персонажей"
 
 - text: "Zoom Top to Idle"
-  translation: ""
+  translation: "Приближение сверху к ожиданию"
 
 - text: "F@I"
   translation: "F@I"
   skip_translation: true
 
 - text: "woman back right"
-  translation: ""
+  translation: "woman back right"
+  skip_translation: true
 
 - text: ":OP"
   translation: ":OP"
   skip_translation: true
 
 - text: "Fade_Circular"
-  translation: ""
+  translation: "Круговое затухание"
 
 - text: "B_cum"
   translation: "B_cum"
@@ -172,97 +178,120 @@
   skip_translation: true
 
 - text: "B_dick_cum"
-  translation: ""
+  translation: "B_dick_cum"
+  skip_translation: true
 
 - text: "B_hand_boob"
-  translation: ""
+  translation: "B_hand_boob"
+  skip_translation: true
 
 - text: "B_hand_pussy"
-  translation: ""
+  translation: "B_hand_pussy"
+  skip_translation: true
 
 - text: "B_hand_skirt"
-  translation: ""
+  translation: "B_hand_skirt"
+  skip_translation: true
 
 - text: "B_hand_stocking"
-  translation: ""
+  translation: "B_hand_stocking"
+  skip_translation: true
 
 - text: "B_pussyjuice"
-  translation: ""
+  translation: "B_pussyjuice"
+  skip_translation: true
 
 - text: "man back left b"
-  translation: ""
+  translation: "man back left b"
+  skip_translation: true
 
 - text: "man back right b"
-  translation: ""
+  translation: "man back right b"
+  skip_translation: true
 
 - text: "man front left"
-  translation: ""
+  translation: "man front left"
+  skip_translation: true
 
 - text: "man front right"
-  translation: ""
+  translation: "man front right"
+  skip_translation: true
 
 - text: "rings small"
-  translation: ""
+  translation: "rings small"
+  skip_translation: true
 
 - text: "woman back right b"
-  translation: ""
+  translation: "woman back right b"
+  skip_translation: true
 
 - text: "woman front left b_"
-  translation: ""
+  translation: "woman front left b_"
+  skip_translation: true
 
 - text: "DPJf?"
   translation: "DPJf?"
   skip_translation: true
 
 - text: "man front right2"
-  translation: ""
+  translation: "man front right2"
+  skip_translation: true
 
 - text: "man front right3"
-  translation: ""
+  translation: "man front right3"
+  skip_translation: true
 
 - text: "man front left2"
-  translation: ""
+  translation: "man front left2"
+  skip_translation: true
 
 - text: "man front left3"
-  translation: ""
+  translation: "man front left3"
+  skip_translation: true
 
 - text: "woiman back right_IK"
-  translation: ""
+  translation: "woiman back right_IK"
+  skip_translation: true
 
 - text: "woman back right2"
-  translation: ""
+  translation: "woman back right2"
+  skip_translation: true
 
 - text: "D%]E"
   translation: "D%]E"
   skip_translation: true
 
 - text: "woman front left_IK"
-  translation: ""
+  translation: "woman front left_IK"
+  skip_translation: true
 
 - text: "woman front left2"
-  translation: ""
+  translation: "woman front left2"
+  skip_translation: true
 
 - text: "D6a"
   translation: "D6a"
   skip_translation: true
 
 - text: "Zoom Bottom to Idle"
-  translation: ""
+  translation: "Приближение снизу к ожиданию"
 
 - text: "Middle Characters Dynamic Mouse Positioning"
-  translation: ""
+  translation: "Динамическое позиционирование мыши средних персонажей"
 
 - text: "Lady Middle Left [Override]"
-  translation: ""
+  translation: "Девушка средняя левая [Override]"
 
 - text: "Lady Middle Right [Override]"
-  translation: ""
+  translation: "Девушка средняя правая [Override]"
 
 - text: "man front left [Override]"
-  translation: ""
+  translation: "man front left [Override]"
+  skip_translation: true
 
 - text: "man front right [Override]"
-  translation: ""
+  translation: "man front right [Override]"
+  skip_translation: true
 
 - text: "WZz"
   translation: "WZz"
@@ -273,26 +302,27 @@
   skip_translation: true
 
 - text: "Zoom to Top"
-  translation: ""
+  translation: "Приближение к верху"
 
 - text: "@ td@0"
   translation: "@ td@0"
   skip_translation: true
 
 - text: "Front Men Dynamic Mouse Positioning"
-  translation: ""
+  translation: "Динамическое позиционирование мыши передних мужчин"
 
 - text: "Zoom Default Idle"
-  translation: ""
+  translation: "Ожидание (приближение по умолчанию)"
 
 - text: "Train Groping Post Processing Profile"
-  translation: ""
+  translation: "Профиль пост-обработки щупания в поезде"
 
 - text: "Zoom To Bottom"
-  translation: ""
+  translation: "Приближение к низу"
 
 - text: "3ET~"
-  translation: ""
+  translation: "3ET~"
+  skip_translation: true
 
 - text: "ET~"
   translation: "ET~"
@@ -327,23 +357,23 @@
   skip_translation: true
 
 - text: "Zoey Pleasure"
-  translation: ""
+  translation: "Удовольствие Зои"
 
 - text: "Groping Boob"
-  translation: ""
+  translation: "Щупание груди"
 
 - text: "Mouth Aroused"
-  translation: ""
+  translation: "Рот возбуждён"
 
 - text: "Wait for Cock"
-  translation: ""
+  translation: "Ждёт член"
 
 - text: "A[V"
   translation: "A[V"
   skip_translation: true
 
 - text: "Zoom Bottom"
-  translation: ""
+  translation: "Приближение снизу"
 
 - text: "ED0"
   translation: "ED0"
@@ -354,27 +384,30 @@
   skip_translation: true
 
 - text: "Zoom Bottom Idle"
-  translation: ""
+  translation: "Ожидание нижнего приближения"
 
 - text: "Zoom Top Idle"
-  translation: ""
+  translation: "Ожидание верхнего приближения"
 
 - text: "td@ td@"
-  translation: ""
+  translation: "td@ td@"
+  skip_translation: true
 
 - text: "Background People [Override]"
-  translation: ""
+  translation: "Фоновые люди [Override]"
 
 - text: "man front left IK [Override]"
-  translation: ""
+  translation: "man front left IK [Override]"
+  skip_translation: true
 
 - text: "Skeleton Root"
-  translation: ""
+  translation: "Skeleton Root"
+  skip_translation: true
 
 - text: "VKA"
   translation: "VKA"
   skip_translation: true
 
 - text: "Zoey [Override]"
-  translation: ""
+  translation: "Зои [Override]"
 

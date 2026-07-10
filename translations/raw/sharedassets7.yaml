@@ -1,7 +1,8 @@
 # raw (sharedassets7)
 
 - text: "Light Bridge Vertical"
-  translation: ""
+  translation: "Light Bridge Vertical"
+  skip_translation: true
 
 - text: "Train 3d Symbol - 2d Shader"
   translation: "Train 3d Symbol - 2d Shader"
@@ -12,94 +13,120 @@
   skip_translation: true
 
 - text: "SpriteShape Fade"
-  translation: ""
+  translation: "SpriteShape Fade"
+  skip_translation: true
 
 - text: "Arrow Green"
-  translation: ""
+  translation: "Arrow Green"
+  skip_translation: true
 
 - text: "Arrow White"
-  translation: ""
+  translation: "Arrow White"
+  skip_translation: true
 
 - text: "Train Green"
-  translation: ""
+  translation: "Train Green"
+  skip_translation: true
 
 - text: "Train White"
-  translation: ""
+  translation: "Train White"
+  skip_translation: true
 
 - text: "New Material"
-  translation: ""
+  translation: "New Material"
+  skip_translation: true
 
 - text: "Shader Graphs_New Shader Graph"
   translation: "Shader Graphs_New Shader Graph"
   skip_translation: true
 
 - text: "SingleFlower Material"
-  translation: ""
+  translation: "SingleFlower Material"
+  skip_translation: true
 
 - text: "M_Checkpoint"
-  translation: ""
+  translation: "M_Checkpoint"
+  skip_translation: true
 
 - text: "Shader Graphs_Slutbox Racing Blocker"
   translation: "Shader Graphs_Slutbox Racing Blocker"
   skip_translation: true
 
 - text: "Light Bridge Horizontal 1"
-  translation: ""
+  translation: "Light Bridge Horizontal 1"
+  skip_translation: true
 
 - text: "Light Bridge Horizontal"
-  translation: ""
+  translation: "Light Bridge Horizontal"
+  skip_translation: true
 
 - text: "Shader Graphs_Sprite Hologram Unlit 7"
   translation: "Shader Graphs_Sprite Hologram Unlit 7"
   skip_translation: true
 
 - text: "Unlit_TCFakeLight UI"
-  translation: ""
+  translation: "Unlit_TCFakeLight UI"
+  skip_translation: true
 
 - text: "Holographic Tree #1"
-  translation: ""
+  translation: "Holographic Tree #1"
+  skip_translation: true
 
 - text: "Holographic Tree #2"
-  translation: ""
+  translation: "Holographic Tree #2"
+  skip_translation: true
 
 - text: "Holographic Tree - Glow #1"
-  translation: ""
+  translation: "Holographic Tree - Glow #1"
+  skip_translation: true
 
 - text: "Holographic Tree - Glow #2"
-  translation: ""
+  translation: "Holographic Tree - Glow #2"
+  skip_translation: true
 
 - text: "3d Ad - Calliach 1"
-  translation: ""
+  translation: "3d Ad - Calliach 1"
+  skip_translation: true
 
 - text: "3d Ad - Calliach 2"
-  translation: ""
+  translation: "3d Ad - Calliach 2"
+  skip_translation: true
 
 - text: "3d Ad - Corrupt Technologies 1"
-  translation: ""
+  translation: "3d Ad - Corrupt Technologies 1"
+  skip_translation: true
 
 - text: "3d Ad - Corrupt Technologies 2"
-  translation: ""
+  translation: "3d Ad - Corrupt Technologies 2"
+  skip_translation: true
 
 - text: "3d Ad - Furline 1"
-  translation: ""
+  translation: "3d Ad - Furline 1"
+  skip_translation: true
 
 - text: "3d Ad - Glowing Hole 1"
-  translation: ""
+  translation: "3d Ad - Glowing Hole 1"
+  skip_translation: true
 
 - text: "3d Ad - Mana Factory"
-  translation: ""
+  translation: "3d Ad - Mana Factory"
+  skip_translation: true
 
 - text: "3d Ad - Neon Doll"
-  translation: ""
+  translation: "3d Ad - Neon Doll"
+  skip_translation: true
 
 - text: "3d Ad - Neur Affinity 1"
-  translation: ""
+  translation: "3d Ad - Neur Affinity 1"
+  skip_translation: true
 
 - text: "3d Ad - Neur Affinity 2"
-  translation: ""
+  translation: "3d Ad - Neur Affinity 2"
+  skip_translation: true
 
 - text: "3d Ad - Shatterline Systems 1"
-  translation: ""
+  translation: "3d Ad - Shatterline Systems 1"
+  skip_translation: true
 
 - text: "Shader Graphs_Vertical Shape Fade Shader 2"
   translation: "Shader Graphs_Vertical Shape Fade Shader 2"
@@ -118,29 +145,36 @@
   skip_translation: true
 
 - text: "ZenDots-Regular SDF 1"
-  translation: ""
+  translation: "ZenDots-Regular SDF 1"
+  skip_translation: true
 
 - text: "Shader Graphs_Ads - Foreground Shader_Copy"
   translation: "Shader Graphs_Ads - Foreground Shader_Copy"
   skip_translation: true
 
 - text: "NeonDoll Ad - FakeLightMaterial"
-  translation: ""
+  translation: "NeonDoll Ad - FakeLightMaterial"
+  skip_translation: true
 
 - text: "Penis Enhancement Ad - FakeLightMaterial_Copy"
-  translation: ""
+  translation: "Penis Enhancement Ad - FakeLightMaterial_Copy"
+  skip_translation: true
 
 - text: "Corrupt Technologies Ad - FakeLightMaterial Glitch"
-  translation: ""
+  translation: "Corrupt Technologies Ad - FakeLightMaterial Glitch"
+  skip_translation: true
 
 - text: "Corrupt Technologies Ad - FakeLightMaterial"
-  translation: ""
+  translation: "Corrupt Technologies Ad - FakeLightMaterial"
+  skip_translation: true
 
 - text: "Unlit_TCFakeLight UI - NTR 2"
-  translation: ""
+  translation: "Unlit_TCFakeLight UI - NTR 2"
+  skip_translation: true
 
 - text: "Thick Mat_Smoke"
-  translation: ""
+  translation: "Thick Mat_Smoke"
+  skip_translation: true
 
 - text: "Shader Graphs_OverhandCurtain"
   translation: "Shader Graphs_OverhandCurtain"
@@ -159,108 +193,140 @@
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]"
+  skip_translation: true
 
 - text: "Furline 1"
-  translation: ""
+  translation: "Furline 1"
+  skip_translation: true
 
 - text: "Corrupt Technologies 2"
-  translation: ""
+  translation: "Corrupt Technologies 2"
+  skip_translation: true
 
 - text: "Shatterline Systems 1"
-  translation: ""
+  translation: "Shatterline Systems 1"
+  skip_translation: true
 
 - text: "TCN_AD_Comm_1"
-  translation: ""
+  translation: "TCN_AD_Comm_1"
+  skip_translation: true
 
 - text: "Water 0397normal"
-  translation: ""
+  translation: "Water 0397normal"
+  skip_translation: true
 
 - text: "Ad - Mask - 3"
-  translation: ""
+  translation: "Ad - Mask - 3"
+  skip_translation: true
 
 - text: "Glowing Hole 1"
-  translation: ""
+  translation: "Glowing Hole 1"
+  skip_translation: true
 
 - text: "Background_Cars"
-  translation: ""
+  translation: "Background_Cars"
+  skip_translation: true
 
 - text: "city_asset_pack_8_bridge - Single Bridge Piece"
-  translation: ""
+  translation: "city_asset_pack_8_bridge - Single Bridge Piece"
+  skip_translation: true
 
 - text: "Corrupt Technologies 1"
-  translation: ""
+  translation: "Corrupt Technologies 1"
+  skip_translation: true
 
 - text: "Ad - Mask - 1"
-  translation: ""
+  translation: "Ad - Mask - 1"
+  skip_translation: true
 
 - text: "Neur Affinity 1"
-  translation: ""
+  translation: "Neur Affinity 1"
+  skip_translation: true
 
 - text: "cloud01 1"
-  translation: ""
+  translation: "cloud01 1"
+  skip_translation: true
 
 - text: "Paz"
-  translation: ""
+  translation: "Paz"
+  skip_translation: true
 
 - text: "Neon Doll"
-  translation: ""
+  translation: "Neon Doll"
+  skip_translation: true
 
 - text: "Calliach 2"
-  translation: ""
+  translation: "Calliach 2"
+  skip_translation: true
 
 - text: "Neur Affinity 2"
-  translation: ""
+  translation: "Neur Affinity 2"
+  skip_translation: true
 
 - text: "VI^"
   translation: "VI^"
   skip_translation: true
 
 - text: "Wind Strength"
-  translation: ""
+  translation: "Wind Strength"
+  skip_translation: true
 
 - text: "Edge Cutoff"
-  translation: ""
+  translation: "Edge Cutoff"
+  skip_translation: true
 
 - text: "Luminance"
-  translation: ""
+  translation: "Luminance"
+  skip_translation: true
 
 - text: "Position Offset Strength"
-  translation: ""
+  translation: "Position Offset Strength"
+  skip_translation: true
 
 - text: "Random Input Value"
-  translation: ""
+  translation: "Random Input Value"
+  skip_translation: true
 
 - text: "Line Brightness"
-  translation: ""
+  translation: "Line Brightness"
+  skip_translation: true
 
 - text: "ScrollTex"
-  translation: ""
+  translation: "ScrollTex"
+  skip_translation: true
 
 - text: "Color A"
-  translation: ""
+  translation: "Color A"
+  skip_translation: true
 
 - text: "Color B"
-  translation: ""
+  translation: "Color B"
+  skip_translation: true
 
 - text: "Color C"
-  translation: ""
+  translation: "Color C"
+  skip_translation: true
 
 - text: "TopGlow"
-  translation: ""
+  translation: "TopGlow"
+  skip_translation: true
 
 - text: "Fade Out"
-  translation: ""
+  translation: "Fade Out"
+  skip_translation: true
 
 - text: "Fadeout Strength"
-  translation: ""
+  translation: "Fadeout Strength"
+  skip_translation: true
 
 - text: "!=$A%U"
   translation: "!=$A%U"
   skip_translation: true
 
 - text: "FbOU"
-  translation: ""
+  translation: "FbOU"
+  skip_translation: true
 
 - text: "Ct`"
   translation: "Ct`"
@@ -291,82 +357,104 @@
   skip_translation: true
 
 - text: "Animtaion_APC"
-  translation: ""
+  translation: "Animtaion_APC"
+  skip_translation: true
 
 - text: "AddedTime_Idle"
-  translation: ""
+  translation: "AddedTime_Idle"
+  skip_translation: true
 
 - text: "BUUU?"
   translation: "BUUU?"
   skip_translation: true
 
 - text: "Idle Layer 2"
-  translation: ""
+  translation: "Idle Layer 2"
+  skip_translation: true
 
 - text: "`;UB"
   translation: "`;UB"
   skip_translation: true
 
 - text: "Residential Police Car"
-  translation: ""
+  translation: "Residential Police Car"
+  skip_translation: true
 
 - text: "GAG car"
-  translation: ""
+  translation: "GAG car"
+  skip_translation: true
 
 - text: "XA33"
   translation: "XA33"
   skip_translation: true
 
 - text: "DoorClosed 1"
-  translation: ""
+  translation: "DoorClosed 1"
+  skip_translation: true
 
 - text: "DoorClosing 1"
-  translation: ""
+  translation: "DoorClosing 1"
+  skip_translation: true
 
 - text: "DoorOpen 1"
-  translation: ""
+  translation: "DoorOpen 1"
+  skip_translation: true
 
 - text: "DoorOpening 1"
-  translation: ""
+  translation: "DoorOpening 1"
+  skip_translation: true
 
 - text: "Racing Result Active FadeIn"
-  translation: ""
+  translation: "Racing Result Active FadeIn"
+  skip_translation: true
 
 - text: "Racing Result Active FadeOut"
-  translation: ""
+  translation: "Racing Result Active FadeOut"
+  skip_translation: true
 
 - text: "Racing Result Active Hidden"
-  translation: ""
+  translation: "Racing Result Active Hidden"
+  skip_translation: true
 
 - text: "Racing Result Active Visible"
-  translation: ""
+  translation: "Racing Result Active Visible"
+  skip_translation: true
 
 - text: "Racing Result FadeIn"
-  translation: ""
+  translation: "Racing Result FadeIn"
+  skip_translation: true
 
 - text: "Racing Result FadeOut"
-  translation: ""
+  translation: "Racing Result FadeOut"
+  skip_translation: true
 
 - text: "Racing Result Hidden"
-  translation: ""
+  translation: "Racing Result Hidden"
+  skip_translation: true
 
 - text: "Racing Result Visible"
-  translation: ""
+  translation: "Racing Result Visible"
+  skip_translation: true
 
 - text: "Sparkler 04 - Racing Cone Hit"
-  translation: ""
+  translation: "Sparkler 04 - Racing Cone Hit"
+  skip_translation: true
 
 - text: "Neon Doll Animation - Additive 1"
-  translation: ""
+  translation: "Neon Doll Animation - Additive 1"
+  skip_translation: true
 
 - text: "AUUyA"
-  translation: ""
+  translation: "AUUyA"
+  skip_translation: true
 
 - text: "Neon Doll Animation"
-  translation: ""
+  translation: "Neon Doll Animation"
+  skip_translation: true
 
 - text: "8@UUU?"
-  translation: ""
+  translation: "8@UUU?"
+  skip_translation: true
 
 - text: "P=33s?"
   translation: "P=33s?"
@@ -397,13 +485,16 @@
   skip_translation: true
 
 - text: "Looping Flash VFX"
-  translation: ""
+  translation: "Looping Flash VFX"
+  skip_translation: true
 
 - text: "Looping VFX"
-  translation: ""
+  translation: "Looping VFX"
+  skip_translation: true
 
 - text: "Ad Loop"
-  translation: ""
+  translation: "Ad Loop"
+  skip_translation: true
 
 - text: "Cff6@"
   translation: "Cff6@"
@@ -418,7 +509,8 @@
   skip_translation: true
 
 - text: "5CUUU@"
-  translation: ""
+  translation: "5CUUU@"
+  skip_translation: true
 
 - text: "JCff"
   translation: "JCff"
@@ -437,7 +529,8 @@
   skip_translation: true
 
 - text: "YCff"
-  translation: ""
+  translation: "YCff"
+  skip_translation: true
 
 - text: "`ADD"
   translation: "`ADD"
@@ -452,10 +545,12 @@
   skip_translation: true
 
 - text: "HUD Loop"
-  translation: ""
+  translation: "HUD Loop"
+  skip_translation: true
 
 - text: "NTR2 - Idle"
-  translation: ""
+  translation: "NTR2 - Idle"
+  skip_translation: true
 
 - text: "QD1AE"
   translation: "QD1AE"
@@ -510,7 +605,8 @@
   skip_translation: true
 
 - text: "AOxE3"
-  translation: ""
+  translation: "AOxE3"
+  skip_translation: true
 
 - text: "\\ BHqC"
   translation: "\\\\ BHqC"
@@ -533,32 +629,40 @@
   skip_translation: true
 
 - text: "Spark Flame"
-  translation: ""
+  translation: "Spark Flame"
+  skip_translation: true
 
 - text: "Strike 7"
-  translation: ""
+  translation: "Strike 7"
+  skip_translation: true
 
 - text: "Boost End"
-  translation: ""
+  translation: "Boost End"
+  skip_translation: true
 
 - text: ")IG"
   translation: ")IG"
   skip_translation: true
 
 - text: "Boost Loop"
-  translation: ""
+  translation: "Boost Loop"
+  skip_translation: true
 
 - text: "Boost Off"
-  translation: ""
+  translation: "Boost Off"
+  skip_translation: true
 
 - text: "Boost Start"
-  translation: ""
+  translation: "Boost Start"
+  skip_translation: true
 
 - text: "Slutbox Boost Burst"
-  translation: ""
+  translation: "Slutbox Boost Burst"
+  skip_translation: true
 
 - text: "Speedlines 5 Animation"
-  translation: ""
+  translation: "Speedlines 5 Animation"
+  skip_translation: true
 
 - text: "[AB"
   translation: "[AB"
@@ -605,74 +709,92 @@
   skip_translation: true
 
 - text: "Police Car Soundx"
-  translation: ""
+  translation: "Police Car Soundx"
+  skip_translation: true
 
 - text: "APC_animation_3"
-  translation: ""
+  translation: "APC_animation_3"
+  skip_translation: true
 
 - text: "APC_animation 0"
-  translation: ""
+  translation: "APC_animation 0"
+  skip_translation: true
 
 - text: "APC_animation"
-  translation: ""
+  translation: "APC_animation"
+  skip_translation: true
 
 - text: "APC_animation_2"
-  translation: ""
+  translation: "APC_animation_2"
+  skip_translation: true
 
 - text: "Enforcer Carx"
-  translation: ""
+  translation: "Enforcer Carx"
+  skip_translation: true
 
 - text: "Train 1"
-  translation: ""
+  translation: "Train 1"
+  skip_translation: true
 
 - text: "\"ZI"
   translation: "\\"
   skip_translation: true
 
 - text: "ShowActive"
-  translation: ""
+  translation: "ShowActive"
+  skip_translation: true
 
 - text: "Racing Result HiddenB/M"
-  translation: ""
+  translation: "Racing Result HiddenB/M"
+  skip_translation: true
 
 - text: "Show"
   translation: "Show"
   skip_translation: true
 
 - text: "HideActive"
-  translation: ""
+  translation: "HideActive"
+  skip_translation: true
 
 - text: "Racing Result Active VisibleU;"
-  translation: ""
+  translation: "Racing Result Active VisibleU;"
+  skip_translation: true
 
 - text: "Additive 1"
-  translation: ""
+  translation: "Additive 1"
+  skip_translation: true
 
 - text: "Small Vehicle Bonk 2x"
-  translation: ""
+  translation: "Small Vehicle Bonk 2x"
+  skip_translation: true
 
 - text: "U?U"
   translation: "U?U"
   skip_translation: true
 
 - text: "Small Vehicle Bonk 1x"
-  translation: ""
+  translation: "Small Vehicle Bonk 1x"
+  skip_translation: true
 
 - text: "Boosting"
-  translation: ""
+  translation: "Boosting"
+  skip_translation: true
 
 - text: "DidBoost"
-  translation: ""
+  translation: "DidBoost"
+  skip_translation: true
 
 - text: "Slutbox Physics Material"
-  translation: ""
+  translation: "Slutbox Physics Material"
+  skip_translation: true
 
 - text: "CjC"
   translation: "CjC"
   skip_translation: true
 
 - text: "Residential Background Sprite Atlas"
-  translation: ""
+  translation: "Residential Background Sprite Atlas"
+  skip_translation: true
 
 - text: "L6=m9"
   translation: "L6=m9"
@@ -695,7 +817,8 @@
   skip_translation: true
 
 - text: "Atlas Residential Buildings"
-  translation: ""
+  translation: "Atlas Residential Buildings"
+  skip_translation: true
 
 - text: "Fh@SH"
   translation: "Fh@SH"
@@ -714,10 +837,12 @@
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_0"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_0"
+  skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_5"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_5"
+  skip_translation: true
 
 - text: "AS#"
   translation: "AS#"
@@ -756,14 +881,16 @@
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_6"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_6"
+  skip_translation: true
 
 - text: "HEo"
   translation: "HEo"
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_2"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_2"
+  skip_translation: true
 
 - text: "G?g"
   translation: "G?g"
@@ -782,7 +909,8 @@
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_16"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_16"
+  skip_translation: true
 
 - text: "C$x"
   translation: "C$x"
@@ -805,7 +933,8 @@
   skip_translation: true
 
 - text: "pi I-"
-  translation: ""
+  translation: "pi I-"
+  skip_translation: true
 
 - text: "H$E"
   translation: "H$E"
@@ -876,14 +1005,16 @@
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_12"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_12"
+  skip_translation: true
 
 - text: "B?)\\O"
   translation: "B?)\\O"
   skip_translation: true
 
 - text: "Gae"
-  translation: ""
+  translation: "Gae"
+  skip_translation: true
 
 - text: "Dxz"
   translation: "Dxz"
@@ -910,7 +1041,8 @@
   skip_translation: true
 
 - text: "QX?p=J?33S?"
-  translation: ""
+  translation: "QX?p=J?33S?"
+  skip_translation: true
 
 - text: "E?33S?"
   translation: "E?33S?"
@@ -925,10 +1057,12 @@
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_14"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_14"
+  skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_7"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_7"
+  skip_translation: true
 
 - text: "^UV@"
   translation: "^UV@"
@@ -943,7 +1077,8 @@
   skip_translation: true
 
 - text: "Y'?efz?"
-  translation: ""
+  translation: "Y'?efz?"
+  skip_translation: true
 
 - text: "JDgN"
   translation: "JDgN"
@@ -1006,14 +1141,16 @@
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_11"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_11"
+  skip_translation: true
 
 - text: "DICXD"
   translation: "DICXD"
   skip_translation: true
 
 - text: "Cny"
-  translation: ""
+  translation: "Cny"
+  skip_translation: true
 
 - text: "0DE"
   translation: "0DE"
@@ -1068,10 +1205,12 @@
   skip_translation: true
 
 - text: "BigCock"
-  translation: ""
+  translation: "BigCock"
+  skip_translation: true
 
 - text: "Penis Enhancement Ad - Sprite Atlas"
-  translation: ""
+  translation: "Penis Enhancement Ad - Sprite Atlas"
+  skip_translation: true
 
 - text: ",FA"
   translation: ",FA"
@@ -1114,7 +1253,8 @@
   skip_translation: true
 
 - text: "CmAaP"
-  translation: ""
+  translation: "CmAaP"
+  skip_translation: true
 
 - text: "AaP"
   translation: "AaP"
@@ -1141,14 +1281,16 @@
   skip_translation: true
 
 - text: "Afru"
-  translation: ""
+  translation: "Afru"
+  skip_translation: true
 
 - text: "AfD"
   translation: "AfD"
   skip_translation: true
 
 - text: "DcAf"
-  translation: ""
+  translation: "DcAf"
+  skip_translation: true
 
 - text: "KARD;"
   translation: "KARD;"
@@ -1167,14 +1309,16 @@
   skip_translation: true
 
 - text: "WpxA"
-  translation: ""
+  translation: "WpxA"
+  skip_translation: true
 
 - text: "AgI"
   translation: "AgI"
   skip_translation: true
 
 - text: "VoA*r'"
-  translation: ""
+  translation: "VoA*r'"
+  skip_translation: true
 
 - text: "VoA"
   translation: "VoA"
@@ -1209,23 +1353,28 @@
   skip_translation: true
 
 - text: "Ach"
-  translation: ""
+  translation: "Ach"
+  skip_translation: true
 
 - text: "AS:"
   translation: "AS:"
   skip_translation: true
 
 - text: "AchZ"
-  translation: ""
+  translation: "AchZ"
+  skip_translation: true
 
 - text: "OYyA2"
-  translation: ""
+  translation: "OYyA2"
+  skip_translation: true
 
 - text: "TeAZ"
-  translation: ""
+  translation: "TeAZ"
+  skip_translation: true
 
 - text: "AchZ?_"
-  translation: ""
+  translation: "AchZ?_"
+  skip_translation: true
 
 - text: "?F%E@"
   translation: "?F%E@"
@@ -1252,7 +1401,8 @@
   skip_translation: true
 
 - text: "Avw"
-  translation: ""
+  translation: "Avw"
+  skip_translation: true
 
 - text: "Zi["
   translation: "Zi["
@@ -1267,7 +1417,8 @@
   skip_translation: true
 
 - text: "Iy A"
-  translation: ""
+  translation: "Iy A"
+  skip_translation: true
 
 - text: "TLK?Ty"
   translation: "TLK?Ty"
@@ -1310,14 +1461,16 @@
   skip_translation: true
 
 - text: "B[2ATLK"
-  translation: ""
+  translation: "B[2ATLK"
+  skip_translation: true
 
 - text: "Pj1A"
   translation: "Pj1A"
   skip_translation: true
 
 - text: "B[2Aw[Z"
-  translation: ""
+  translation: "B[2Aw[Z"
+  skip_translation: true
 
 - text: "-AF"
   translation: "-AF"
@@ -1356,10 +1509,12 @@
   skip_translation: true
 
 - text: "Corrupt Technologies Ad - Background"
-  translation: ""
+  translation: "Corrupt Technologies Ad - Background"
+  skip_translation: true
 
 - text: "Corrupt Technologies Ad - Character Sprite Atlas"
-  translation: ""
+  translation: "Corrupt Technologies Ad - Character Sprite Atlas"
+  skip_translation: true
 
 - text: "2DEN"
   translation: "2DEN"
@@ -1370,7 +1525,8 @@
   skip_translation: true
 
 - text: "SmallCock"
-  translation: ""
+  translation: "SmallCock"
+  skip_translation: true
 
 - text: "XcA"
   translation: "XcA"
@@ -1417,14 +1573,16 @@
   skip_translation: true
 
 - text: "Wall texture"
-  translation: ""
+  translation: "Wall texture"
+  skip_translation: true
 
 - text: "I@23k"
   translation: "I@23k"
   skip_translation: true
 
 - text: "Anime Spark Flame"
-  translation: ""
+  translation: "Anime Spark Flame"
+  skip_translation: true
 
 - text: "Sx&"
   translation: "Sx&"
@@ -1435,7 +1593,8 @@
   skip_translation: true
 
 - text: "Mj1A B"
-  translation: ""
+  translation: "Mj1A B"
+  skip_translation: true
 
 - text: "GFrG"
   translation: "GFrG"
@@ -1493,7 +1652,8 @@
   skip_translation: true
 
 - text: "Aq7/A3"
-  translation: ""
+  translation: "Aq7/A3"
+  skip_translation: true
 
 - text: "AfN6A"
   translation: "AfN6A"
@@ -1524,7 +1684,8 @@
   skip_translation: true
 
 - text: "HA2@3"
-  translation: ""
+  translation: "HA2@3"
+  skip_translation: true
 
 - text: "HA2@R*+"
   translation: "HA2@R*+"
@@ -1631,7 +1792,8 @@
   skip_translation: true
 
 - text: "Ga?33s?"
-  translation: ""
+  translation: "Ga?33s?"
+  skip_translation: true
 
 - text: "TLK?b"
   translation: "TLK?b"
@@ -1658,7 +1820,8 @@
   skip_translation: true
 
 - text: "Iy Av"
-  translation: ""
+  translation: "Iy Av"
+  skip_translation: true
 
 - text: "@5L3A"
   translation: "@5L3A"
@@ -1733,7 +1896,8 @@
   skip_translation: true
 
 - text: "x Am"
-  translation: ""
+  translation: "x Am"
+  skip_translation: true
 
 - text: "I@fff?ff"
   translation: "I@fff?ff"
@@ -1748,7 +1912,8 @@
   skip_translation: true
 
 - text: "B?fff?ff&?"
-  translation: ""
+  translation: "B?fff?ff&?"
+  skip_translation: true
 
 - text: "?&#FA"
   translation: "?&#FA"
@@ -1767,13 +1932,16 @@
   skip_translation: true
 
 - text: "UsA8\"2A"
-  translation: ""
+  translation: "UsA8\"2A"
+  skip_translation: true
 
 - text: "IOqAI"
-  translation: ""
+  translation: "IOqAI"
+  skip_translation: true
 
 - text: "E8jA~"
-  translation: ""
+  translation: "E8jA~"
+  skip_translation: true
 
 - text: "B!cA"
   translation: "B!cA"
@@ -1804,7 +1972,8 @@
   skip_translation: true
 
 - text: "ZABgGA"
-  translation: ""
+  translation: "ZABgGA"
+  skip_translation: true
 
 - text: "ZAT"
   translation: "ZAT"
@@ -1839,17 +2008,20 @@
   skip_translation: true
 
 - text: "WAee"
-  translation: ""
+  translation: "WAee"
+  skip_translation: true
 
 - text: "TDE4"
   translation: "TDE4"
   skip_translation: true
 
 - text: "NeonDollAd - Characters"
-  translation: ""
+  translation: "NeonDollAd - Characters"
+  skip_translation: true
 
 - text: "Neon Doll Ad - Sprite Atlas 1"
-  translation: ""
+  translation: "Neon Doll Ad - Sprite Atlas 1"
+  skip_translation: true
 
 - text: "K(A]uX"
   translation: "K(A]uX"
@@ -1884,7 +2056,8 @@
   skip_translation: true
 
 - text: "H+q?pKm="
-  translation: ""
+  translation: "H+q?pKm="
+  skip_translation: true
 
 - text: "PHs?"
   translation: "PHs?"
@@ -2003,13 +2176,16 @@
   skip_translation: true
 
 - text: "I@23S@ff6@"
-  translation: ""
+  translation: "I@23S@ff6@"
+  skip_translation: true
 
 - text: "Corrupt Technologies - Logo - Text"
-  translation: ""
+  translation: "Corrupt Technologies - Logo - Text"
+  skip_translation: true
 
 - text: "Corrupt Technologies Ad - Logo Sprite Atlas"
-  translation: ""
+  translation: "Corrupt Technologies Ad - Logo Sprite Atlas"
+  skip_translation: true
 
 - text: "G@\\O"
   translation: "G@\\O"
@@ -2048,17 +2224,20 @@
   skip_translation: true
 
 - text: "I@23S@33#@ff"
-  translation: ""
+  translation: "I@23S@33#@ff"
+  skip_translation: true
 
 - text: "M4Be"
-  translation: ""
+  translation: "M4Be"
+  skip_translation: true
 
 - text: "MPBe"
   translation: "MPBe"
   skip_translation: true
 
 - text: "Lhi"
-  translation: ""
+  translation: "Lhi"
+  skip_translation: true
 
 - text: "KtF"
   translation: "KtF"
@@ -2085,14 +2264,16 @@
   skip_translation: true
 
 - text: "NeonDollAd - Text"
-  translation: ""
+  translation: "NeonDollAd - Text"
+  skip_translation: true
 
 - text: "Z@]?f"
   translation: "Z@]?f"
   skip_translation: true
 
 - text: "Corrupt Technologies Ad - Foreground"
-  translation: ""
+  translation: "Corrupt Technologies Ad - Foreground"
+  skip_translation: true
 
 - text: "0YA"
   translation: "0YA"
@@ -2107,14 +2288,16 @@
   skip_translation: true
 
 - text: "Qx?fff?"
-  translation: ""
+  translation: "Qx?fff?"
+  skip_translation: true
 
 - text: "Qx?)\\O?33"
   translation: "Qx?)\\\\O?33"
   skip_translation: true
 
 - text: "Corrupt Technologies - Logo - Icon"
-  translation: ""
+  translation: "Corrupt Technologies - Logo - Icon"
+  skip_translation: true
 
 - text: "P@R8u?"
   translation: "P@R8u?"
@@ -2129,17 +2312,20 @@
   skip_translation: true
 
 - text: "I@ff6@33#@23"
-  translation: ""
+  translation: "I@ff6@33#@23"
+  skip_translation: true
 
 - text: "FqA"
   translation: "FqA"
   skip_translation: true
 
 - text: "Y?fff?G"
-  translation: ""
+  translation: "Y?fff?G"
+  skip_translation: true
 
 - text: "NeonDollAd - VFX"
-  translation: ""
+  translation: "NeonDollAd - VFX"
+  skip_translation: true
 
 - text: "FA)"
   translation: "FA)"
@@ -2226,7 +2412,8 @@
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_9"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_9"
+  skip_translation: true
 
 - text: "0DU"
   translation: "0DU"
@@ -2241,7 +2428,8 @@
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_1"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_1"
+  skip_translation: true
 
 - text: "G!?ffF@"
   translation: "G!?ffF@"
@@ -2252,14 +2440,16 @@
   skip_translation: true
 
 - text: "0?OD"
-  translation: ""
+  translation: "0?OD"
+  skip_translation: true
 
 - text: "UtM"
   translation: "UtM"
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_15"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_15"
+  skip_translation: true
 
 - text: "Y?Yy"
   translation: "Y?Yy"
@@ -2278,7 +2468,8 @@
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_8"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_8"
+  skip_translation: true
 
 - text: "@U@L"
   translation: "@U@L"
@@ -2289,7 +2480,8 @@
   skip_translation: true
 
 - text: "AL,"
-  translation: ""
+  translation: "AL,"
+  skip_translation: true
 
 - text: "=0/AK"
   translation: "=0/AK"
@@ -2300,7 +2492,8 @@
   skip_translation: true
 
 - text: "Ajo"
-  translation: ""
+  translation: "Ajo"
+  skip_translation: true
 
 - text: "Aj_\\@"
   translation: "Aj_\\\\@"
@@ -2327,7 +2520,8 @@
   skip_translation: true
 
 - text: "K==`'Ak"
-  translation: ""
+  translation: "K==`'Ak"
+  skip_translation: true
 
 - text: "/AJ"
   translation: "/AJ"
@@ -2338,7 +2532,8 @@
   skip_translation: true
 
 - text: "Z@=X AiwX@=X A"
-  translation: ""
+  translation: "Z@=X AiwX@=X A"
+  skip_translation: true
 
 - text: "@=p5Ai7 @=p5A"
   translation: "@=p5Ai7 @=p5A"
@@ -2369,7 +2564,8 @@
   skip_translation: true
 
 - text: "Zzy"
-  translation: ""
+  translation: "Zzy"
+  skip_translation: true
 
 - text: "JbH="
   translation: "JbH="
@@ -2472,7 +2668,8 @@
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_4"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_4"
+  skip_translation: true
 
 - text: "Ga?333"
   translation: "Ga?333"
@@ -2487,17 +2684,20 @@
   skip_translation: true
 
 - text: "YAA@U;%"
-  translation: ""
+  translation: "YAA@U;%"
+  skip_translation: true
 
 - text: "YAA@"
   translation: "YAA@"
   skip_translation: true
 
 - text: "YAA@8M3"
-  translation: ""
+  translation: "YAA@8M3"
+  skip_translation: true
 
 - text: "YAA@U\"Z"
-  translation: ""
+  translation: "YAA@U\"Z"
+  skip_translation: true
 
 - text: "A|S"
   translation: "A|S"
@@ -2568,7 +2768,8 @@
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_18"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_18"
+  skip_translation: true
 
 - text: "UDl&"
   translation: "UDl&"
@@ -2595,10 +2796,12 @@
   skip_translation: true
 
 - text: "DAgKC"
-  translation: ""
+  translation: "DAgKC"
+  skip_translation: true
 
 - text: "BAgKC"
-  translation: ""
+  translation: "BAgKC"
+  skip_translation: true
 
 - text: "Q+n?"
   translation: "Q+n?"
@@ -2625,7 +2828,8 @@
   skip_translation: true
 
 - text: "B(bXDJJ"
-  translation: ""
+  translation: "B(bXDJJ"
+  skip_translation: true
 
 - text: "A:R"
   translation: "A:R"
@@ -2656,7 +2860,8 @@
   skip_translation: true
 
 - text: "j @Fg9"
-  translation: ""
+  translation: "j @Fg9"
+  skip_translation: true
 
 - text: "D?Aw"
   translation: "D?Aw"
@@ -2703,7 +2908,8 @@
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_10"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_10"
+  skip_translation: true
 
 - text: "Wc^"
   translation: "Wc^"
@@ -2714,7 +2920,8 @@
   skip_translation: true
 
 - text: "Aff&A"
-  translation: ""
+  translation: "Aff&A"
+  skip_translation: true
 
 - text: "Ap=:A"
   translation: "Ap=:A"
@@ -2757,10 +2964,12 @@
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_17"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_17"
+  skip_translation: true
 
 - text: "D0)lDJ"
-  translation: ""
+  translation: "D0)lDJ"
+  skip_translation: true
 
 - text: "A#@ju"
   translation: "A#@ju"
@@ -2779,14 +2988,16 @@
   skip_translation: true
 
 - text: "N@333?ffV@"
-  translation: ""
+  translation: "N@333?ffV@"
+  skip_translation: true
 
 - text: "Bxz%C"
   translation: "Bxz%C"
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_13"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_13"
+  skip_translation: true
 
 - text: "C9j"
   translation: "C9j"
@@ -2825,7 +3036,8 @@
   skip_translation: true
 
 - text: "Sparkler 04_#[512,288]_3"
-  translation: ""
+  translation: "Sparkler 04_#[512,288]_3"
+  skip_translation: true
 
 - text: "G?p=J"
   translation: "G?p=J"
@@ -2876,7 +3088,8 @@
   skip_translation: true
 
 - text: "Cyc"
-  translation: ""
+  translation: "Cyc"
+  skip_translation: true
 
 - text: "R@^z"
   translation: "R@^z"
@@ -2955,111 +3168,124 @@
   skip_translation: true
 
 - text: "Medium Vehicle Bonk 1"
-  translation: ""
+  translation: "Medium Vehicle Bonk 1"
+  skip_translation: true
 
 - text: "Car1 Move Left"
-  translation: ""
+  translation: "Car1 Move Left"
+  skip_translation: true
 
 - text: "Car1ShadowBlur"
-  translation: ""
+  translation: "Car1ShadowBlur"
+  skip_translation: true
 
 - text: "Car1ShadowBlur 2"
-  translation: ""
+  translation: "Car1ShadowBlur 2"
+  skip_translation: true
 
 - text: "AC?"
   translation: "AC?"
   skip_translation: true
 
 - text: "Wall texture)"
-  translation: ""
+  translation: "Wall texture)"
+  skip_translation: true
 
 - text: "Corrupt Technologies Ad - Foreground$"
-  translation: ""
+  translation: "Corrupt Technologies Ad - Foreground$"
+  skip_translation: true
 
 - text: "And I won"
-  translation: ""
+  translation: "И я победил"
 
 - text: "t leave anything behind"
-  translation: ""
+  translation: "не оставлю ничего позади"
 
 - text: "A lifeline lost and a tether"
-  translation: ""
+  translation: "Спасательный трос потерян и привязь"
 
 - text: "s frayed"
-  translation: ""
+  translation: "истрёпана"
 
 - text: "Empty hands reach through the cold"
   translation: "Пустые руки тянутся сквозь холод"
 
 - text: "UUUUUU?@"
-  translation: ""
+  translation: "UUUUUU?@"
+  skip_translation: true
 
 - text: "re out of reach, I'm on my own"
-  translation: ""
+  translation: "вне досягаемости, я сам по себе"
 
 - text: "UUUUUU+@"
-  translation: ""
+  translation: "UUUUUU+@"
+  skip_translation: true
 
 - text: "The tether snaps, the silence loud"
-  translation: ""
+  translation: "Привязь рвётся, тишина громка"
 
 - text: "I will scream my name into the crowd"
-  translation: ""
+  translation: "Я прокричу своё имя в толпу"
 
 - text: "So tonight I'll give you a sign"
-  translation: ""
+  translation: "Так что сегодня ночью я подам тебе знак"
 
 - text: "This city's a graveyard, alive but decayed"
-  translation: ""
+  translation: "Этот город — кладбище, живой, но разложившийся"
 
 - text: "Walking side by side, but still"
-  translation: ""
+  translation: "Идём бок о бок, но всё же"
 
 - text: "Fingers trace the track I can't rewind"
-  translation: ""
+  translation: "Пальцы ощупывают дорожку, которую не отмотать"
 
 - text: "We only have limited time"
-  translation: ""
+  translation: "У нас лишь ограниченное время"
 
 - text: "The sorrows you and I need to bear"
-  translation: ""
+  translation: "Скорби, что нам с тобой нести"
 
 - text: "Blinded by hopes, wishing to the sky"
-  translation: ""
+  translation: "Ослеплён надеждами, загадывая в небо"
 
 - text: "This story comes to the end"
-  translation: ""
+  translation: "Эта история подходит к концу"
 
 - text: "The silence grows where promises stayed"
-  translation: ""
+  translation: "Тишина растёт там, где остались обещания"
 
 - text: "But I hold on, though skies turn gray"
-  translation: ""
+  translation: "Но я держусь, хоть небеса седеют"
 
 - text: "A lifeline lost, the tether's frayed"
-  translation: ""
+  translation: "Спасательный трос потерян, привязь истрёпана"
 
 - text: "ve drifted far, I stand alone"
-  translation: ""
+  translation: "уплыли далеко, я стою один"
 
 - text: "Random HissingTimeline"
   translation: "Random HissingTimeline"
   skip_translation: true
 
 - text: "Corpo_Phone_1"
-  translation: ""
+  translation: "Corpo_Phone_1"
+  skip_translation: true
 
 - text: "Corpo_Phone_2"
-  translation: ""
+  translation: "Corpo_Phone_2"
+  skip_translation: true
 
 - text: "Guard_Event"
-  translation: ""
+  translation: "Guard_Event"
+  skip_translation: true
 
 - text: "PhoneGuy"
-  translation: ""
+  translation: "PhoneGuy"
+  skip_translation: true
 
 - text: "No Help"
-  translation: ""
+  translation: "No Help"
+  skip_translation: true
 
 - text: "Ground_2"
   translation: "Ground_2"
@@ -3074,10 +3300,11 @@
   skip_translation: true
 
 - text: "Ground_Roof"
-  translation: ""
+  translation: "Ground_Roof"
+  skip_translation: true
 
 - text: "E-Erm-!"
-  translation: ""
+  translation: "Э-Эм-!"
 
 - text: "Drunk_In_Love CutsceneTimeline"
   translation: "Drunk_In_Love CutsceneTimeline"
@@ -3088,16 +3315,17 @@
   skip_translation: true
 
 - text: "N-Neveeeer!"
-  translation: ""
+  translation: "Н-Ни-за-что!"
 
 - text: "Resitendial_SouthEastGuards_3_Alone - Get Involved"
-  translation: ""
+  translation: "Resitendial_SouthEastGuards_3_Alone - Get Involved"
+  skip_translation: true
 
 - text: "Terrorists?!"
-  translation: ""
+  translation: "Террористы?!"
 
 - text: "Resistance?"
-  translation: ""
+  translation: "Сопротивление?"
 
 - text: "Wha-"
   translation: "Wha-"
@@ -3108,49 +3336,61 @@
   skip_translation: true
 
 - text: "0.3 - Residential - Cartel Event - 1"
-  translation: ""
+  translation: "0.3 - Residential - Cartel Event - 1"
+  skip_translation: true
 
 - text: "0.3 - Residential - Cartel Event - 2 - Shorter"
-  translation: ""
+  translation: "0.3 - Residential - Cartel Event - 2 - Shorter"
+  skip_translation: true
 
 - text: "0.3 - Residential - Cartel Event - 3"
-  translation: ""
+  translation: "0.3 - Residential - Cartel Event - 3"
+  skip_translation: true
 
 - text: "0.3 - Residential - Cartel Event - 4"
-  translation: ""
+  translation: "0.3 - Residential - Cartel Event - 4"
+  skip_translation: true
 
 - text: "0.3 - Residential - Cartel Event - 5 - Walk back"
-  translation: ""
+  translation: "0.3 - Residential - Cartel Event - 5 - Walk back"
+  skip_translation: true
 
 - text: "0.3 - Residential - Worn Panties - 1"
-  translation: ""
+  translation: "0.3 - Residential - Worn Panties - 1"
+  skip_translation: true
 
 - text: "0.3 - Residential - Worn Panties - 2"
-  translation: ""
+  translation: "0.3 - Residential - Worn Panties - 2"
+  skip_translation: true
 
 - text: "Uhh-! Nice tentacles!"
-  translation: ""
+  translation: "А-ах! Классные щупальца!"
 
 - text: "AreYou"
-  translation: ""
+  translation: "AreYou"
+  skip_translation: true
 
 - text: "ButYou"
-  translation: ""
+  translation: "ButYou"
+  skip_translation: true
 
 - text: "Post Processing Profile"
-  translation: ""
+  translation: "Post Processing Profile"
+  skip_translation: true
 
 - text: "Tried to follow you, I'm losing hope"
-  translation: ""
+  translation: "Пытался следовать за тобой, я теряю надежду"
 
 - text: "WUUUUU"
-  translation: ""
+  translation: "WUUUUU"
+  skip_translation: true
 
 - text: "A shadow of myself beneath my skin"
-  translation: ""
+  translation: "Тень себя под моей кожей"
 
 - text: "Playable Set TMP Text Track"
-  translation: ""
+  translation: "Playable Set TMP Text Track"
+  skip_translation: true
 
 - text: "Qa@"
   translation: "Qa@"
@@ -3161,48 +3401,50 @@
   skip_translation: true
 
 - text: "Static hums in the back of my mind"
-  translation: ""
+  translation: "Статика гудит на задворках моего сознания"
 
 - text: "The night is too deep and the fight is too long"
-  translation: ""
+  translation: "Ночь слишком глубока и битва слишком долга"
 
 - text: "A blinding light, it fades away"
-  translation: ""
+  translation: "Ослепляющий свет, он угасает"
 
 - text: "Silence grows where promises stayed"
-  translation: ""
+  translation: "Тишина растёт там, где остались обещания"
 
 - text: "Can we be free?"
-  translation: ""
+  translation: "Можем ли мы быть свободны?"
 
 - text: "I trapped myself in a different hole"
-  translation: ""
+  translation: "Я сам запер себя в другой дыре"
 
 - text: "UUUUUU!@"
-  translation: ""
+  translation: "UUUUUU!@"
+  skip_translation: true
 
 - text: "UUUUU5A@"
-  translation: ""
+  translation: "UUUUU5A@"
+  skip_translation: true
 
 - text: "The darkness flows as we breathe the air"
-  translation: ""
+  translation: "Тьма струится, пока мы дышим воздухом"
 
 - text: "This night is too deep and the fight is too long"
-  translation: ""
+  translation: "Эта ночь слишком глубока и битва слишком долга"
 
 - text: "ff B"
   translation: "ff B"
   skip_translation: true
 
 - text: "A fleeting hope where I belong"
-  translation: ""
+  translation: "Мимолётная надежда, где моё место"
 
 - text: "So why did you leave me behind?"
-  translation: ""
+  translation: "Так почему ты оставил меня позади?"
 
 - text: "Drowned in the glow, lost and betrayed"
-  translation: ""
+  translation: "Утонув в сиянии, потерян и предан"
 
 - text: "Our hearts feel too far"
-  translation: ""
+  translation: "Наши сердца слишком далеки"
 

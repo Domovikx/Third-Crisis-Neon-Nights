@@ -1,10 +1,10 @@
 # raw (bundle_novagropingzoeyassetgroup_assets_all)
 
 - text: "Skin 2"
-  translation: ""
+  translation: "Кожа 2"
 
 - text: "Skin 5"
-  translation: ""
+  translation: "Кожа 5"
 
 - text: "PUm"
   translation: "PUm"
@@ -71,14 +71,16 @@
   skip_translation: true
 
 - text: "ul ?"
-  translation: ""
+  translation: "ul ?"
+  skip_translation: true
 
 - text: "V@i"
   translation: "V@i"
   skip_translation: true
 
 - text: "BE1?z"
-  translation: ""
+  translation: "BE1?z"
+  skip_translation: true
 
 - text: "Xt@23"
   translation: "Xt@23"
@@ -93,14 +95,14 @@
   skip_translation: true
 
 - text: "Camera Loop"
-  translation: ""
+  translation: "Камера: цикл"
 
 - text: "CnXX"
   translation: "CnXX"
   skip_translation: true
 
 - text: "Camera Intro"
-  translation: ""
+  translation: "Камера: вход"
 
 - text: "G%A"
   translation: "G%A"
@@ -111,77 +113,100 @@
   skip_translation: true
 
 - text: "Jy\""
-  translation: ""
+  translation: "Jy\""
+  skip_translation: true
 
 - text: "N_arm_back"
-  translation: ""
+  translation: "N_arm_back"
+  skip_translation: true
 
 - text: "N_bangs_back"
-  translation: ""
+  translation: "N_bangs_back"
+  skip_translation: true
 
 - text: "N_bangs_front"
-  translation: ""
+  translation: "N_bangs_front"
+  skip_translation: true
 
 - text: "N_blush"
-  translation: ""
+  translation: "N_blush"
+  skip_translation: true
 
 - text: "N_boobs"
-  translation: ""
+  translation: "N_boobs"
+  skip_translation: true
 
 - text: "N_bracelets"
-  translation: ""
+  translation: "N_bracelets"
+  skip_translation: true
 
 - text: "N_brows"
-  translation: ""
+  translation: "N_brows"
+  skip_translation: true
 
 - text: "N_collar_back"
-  translation: ""
+  translation: "N_collar_back"
+  skip_translation: true
 
 - text: "N_collar_front"
-  translation: ""
+  translation: "N_collar_front"
+  skip_translation: true
 
 - text: "N_eyeclip"
-  translation: ""
+  translation: "N_eyeclip"
+  skip_translation: true
 
 - text: "N_eyes_gloss"
-  translation: ""
+  translation: "N_eyes_gloss"
+  skip_translation: true
 
 - text: "N_eyes_lids"
-  translation: ""
+  translation: "N_eyes_lids"
+  skip_translation: true
 
 - text: "N_eyes_pupils"
-  translation: ""
+  translation: "N_eyes_pupils"
+  skip_translation: true
 
 - text: "N_eyes_whites"
-  translation: ""
+  translation: "N_eyes_whites"
+  skip_translation: true
 
 - text: "N_hand_back_1"
-  translation: ""
+  translation: "N_hand_back_1"
+  skip_translation: true
 
 - text: "N_hand_back_2"
-  translation: ""
+  translation: "N_hand_back_2"
+  skip_translation: true
 
 - text: "N_hand_back_3"
-  translation: ""
+  translation: "N_hand_back_3"
+  skip_translation: true
 
 - text: "N_hand_front"
-  translation: ""
+  translation: "N_hand_front"
+  skip_translation: true
 
 - text: "N_head"
   translation: "N_head"
   skip_translation: true
 
 - text: "N_holster_front"
-  translation: ""
+  translation: "N_holster_front"
+  skip_translation: true
 
 - text: "N_leg_lower"
-  translation: ""
+  translation: "N_leg_lower"
+  skip_translation: true
 
 - text: "N_leg_upper"
-  translation: ""
+  translation: "N_leg_upper"
+  skip_translation: true
 
 - text: "N_mouth"
-  translation: ""
+  translation: "N_mouth"
+  skip_translation: true
 
 - text: "N_neck"
   translation: "N_neck"
@@ -192,112 +217,140 @@
   skip_translation: true
 
 - text: "N_pants"
-  translation: ""
+  translation: "N_pants"
+  skip_translation: true
 
 - text: "N_ponytail"
-  translation: ""
+  translation: "N_ponytail"
+  skip_translation: true
 
 - text: "N_scar"
   translation: "N_scar"
   skip_translation: true
 
 - text: "N_strand_front"
-  translation: ""
+  translation: "N_strand_front"
+  skip_translation: true
 
 - text: "N_tie"
   translation: "N_tie"
   skip_translation: true
 
 - text: "N_torso"
-  translation: ""
+  translation: "N_torso"
+  skip_translation: true
 
 - text: "Z_boob_back"
-  translation: ""
+  translation: "Z_boob_back"
+  skip_translation: true
 
 - text: "Z_boob_front"
-  translation: ""
+  translation: "Z_boob_front"
+  skip_translation: true
 
 - text: "Z_brows"
-  translation: ""
+  translation: "Z_brows"
+  skip_translation: true
 
 - text: "Z_bunnyear_back"
-  translation: ""
+  translation: "Z_bunnyear_back"
+  skip_translation: true
 
 - text: "Z_eyeclip"
-  translation: ""
+  translation: "Z_eyeclip"
+  skip_translation: true
 
 - text: "Z_eyes_gloss"
-  translation: ""
+  translation: "Z_eyes_gloss"
+  skip_translation: true
 
 - text: "Z_eyes_lids"
-  translation: ""
+  translation: "Z_eyes_lids"
+  skip_translation: true
 
 - text: "Z_eyes_pupils"
-  translation: ""
+  translation: "Z_eyes_pupils"
+  skip_translation: true
 
 - text: "Z_eyes_whites"
-  translation: ""
+  translation: "Z_eyes_whites"
+  skip_translation: true
 
 - text: "Z_hand_back"
-  translation: ""
+  translation: "Z_hand_back"
+  skip_translation: true
 
 - text: "Z_hand_front"
-  translation: ""
+  translation: "Z_hand_front"
+  skip_translation: true
 
 - text: "Z_head"
   translation: "Z_head"
   skip_translation: true
 
 - text: "Z_leg_back"
-  translation: ""
+  translation: "Z_leg_back"
+  skip_translation: true
 
 - text: "Z_leg_front"
-  translation: ""
+  translation: "Z_leg_front"
+  skip_translation: true
 
 - text: "Z_nose"
   translation: "Z_nose"
   skip_translation: true
 
 - text: "Z_strand_back"
-  translation: ""
+  translation: "Z_strand_back"
+  skip_translation: true
 
 - text: "Z_strand_mini"
-  translation: ""
+  translation: "Z_strand_mini"
+  skip_translation: true
 
 - text: "Z_suit_pussy"
-  translation: ""
+  translation: "Z_suit_pussy"
+  skip_translation: true
 
 - text: "Z_suit_tail"
-  translation: ""
+  translation: "Z_suit_tail"
+  skip_translation: true
 
 - text: "Z_tummy"
-  translation: ""
+  translation: "Z_tummy"
+  skip_translation: true
 
 - text: "Z_chest"
-  translation: ""
+  translation: "Z_chest"
+  skip_translation: true
 
 - text: "Z_neck"
   translation: "Z_neck"
   skip_translation: true
 
 - text: "Z_torso5"
-  translation: ""
+  translation: "Z_torso5"
+  skip_translation: true
 
 - text: "C?g"
   translation: "C?g"
   skip_translation: true
 
 - text: "Z_hand_back2"
-  translation: ""
+  translation: "Z_hand_back2"
+  skip_translation: true
 
 - text: "Z_hand_back3"
-  translation: ""
+  translation: "Z_hand_back3"
+  skip_translation: true
 
 - text: "CEic"
-  translation: ""
+  translation: "CEic"
+  skip_translation: true
 
 - text: "Z_hand_front2"
-  translation: ""
+  translation: "Z_hand_front2"
+  skip_translation: true
 
 - text: "C+z"
   translation: "C+z"
@@ -312,38 +365,38 @@
   skip_translation: true
 
 - text: "Camera Introm"
-  translation: ""
+  translation: "Камера: вход"
 
 - text: "Flick Nipple"
-  translation: ""
+  translation: "Касание соска"
 
 - text: "Blinking"
-  translation: ""
+  translation: "Моргание"
 
 - text: "Apex Dry"
-  translation: ""
+  translation: "Сухое касание"
 
 - text: "Multiple Movements"
-  translation: ""
+  translation: "Множественные движения"
 
 - text: "Fabric Brush"
-  translation: ""
+  translation: "Шорох ткани"
 
 - text: "Quick Fabric Brush"
-  translation: ""
+  translation: "Быстрый шорох ткани"
 
 - text: "EZ]"
   translation: "EZ]"
   skip_translation: true
 
 - text: "Fabric Slide"
-  translation: ""
+  translation: "Скольжение ткани"
 
 - text: "Quick Fabric Slide"
-  translation: ""
+  translation: "Быстрое скольжение ткани"
 
 - text: "Skin Brush"
-  translation: ""
+  translation: "Шорох кожи"
 
 - text: "YCz"
   translation: "YCz"
@@ -354,42 +407,46 @@
   skip_translation: true
 
 - text: "Slow Skin Brush"
-  translation: ""
+  translation: "Медленный шорох кожи"
 
 - text: "MzP33s?ff"
-  translation: ""
+  translation: "MzP33s?ff"
+  skip_translation: true
 
 - text: "Skin 1"
-  translation: ""
+  translation: "Кожа 1"
 
 - text: "YsX"
   translation: "YsX"
   skip_translation: true
 
 - text: "Vur"
-  translation: ""
+  translation: "Vur"
+  skip_translation: true
 
 - text: "Uer33s?ff"
-  translation: ""
+  translation: "Uer33s?ff"
+  skip_translation: true
 
 - text: "Skin 3"
-  translation: ""
+  translation: "Кожа 3"
 
 - text: "Hga"
-  translation: ""
+  translation: "Hga"
+  skip_translation: true
 
 - text: "Skin 4"
-  translation: ""
+  translation: "Кожа 4"
 
 - text: "V'i"
   translation: "V'i"
   skip_translation: true
 
 - text: "Skin 6"
-  translation: ""
+  translation: "Кожа 6"
 
 - text: "Skin 7"
-  translation: ""
+  translation: "Кожа 7"
 
 - text: "`IC"
   translation: "`IC"
@@ -424,7 +481,8 @@
   skip_translation: true
 
 - text: "Sprite-Lit-CornerFade Instance 1"
-  translation: ""
+  translation: "Sprite-Lit-CornerFade Instance 1"
+  skip_translation: true
 
 - text: "N+m"
   translation: "N+m"
@@ -435,7 +493,7 @@
   skip_translation: true
 
 - text: "Nova Groping Zoey Prefab"
-  translation: ""
+  translation: "Нова лапает Зои (префаб)"
 
 - text: "CfY^"
   translation: "CfY^"
@@ -446,10 +504,11 @@
   skip_translation: true
 
 - text: "NOVA_AUTUMNIVY_DUB_102224"
-  translation: ""
+  translation: "NOVA_AUTUMNIVY_DUB_102224"
+  skip_translation: true
 
 - text: "Hand in front of mouth Breathing 3"
-  translation: ""
+  translation: "Рука у рта, дыхание 3"
 
 - text: "0OT"
   translation: "0OT"
@@ -460,8 +519,8 @@
   skip_translation: true
 
 - text: "Hand in front of mouth Breathing 1"
-  translation: ""
+  translation: "Рука у рта, дыхание 1"
 
 - text: "Hand in front of mouth Breathing 0"
-  translation: ""
+  translation: "Рука у рта, дыхание 0"
 

@@ -1,41 +1,47 @@
 # raw (level5)
 
 - text: "bokeh blur"
-  translation: ""
+  translation: "Размытие боке"
 
 - text: "TopWall_2"
-  translation: ""
+  translation: "TopWall_2"
+  skip_translation: true
 
 - text: "PlayerSeat"
-  translation: ""
+  translation: "PlayerSeat"
+  skip_translation: true
 
 - text: "SitDownPos"
-  translation: ""
+  translation: "SitDownPos"
+  skip_translation: true
 
 - text: "Nailsalon_Floor"
-  translation: ""
+  translation: "Nailsalon_Floor"
+  skip_translation: true
 
 - text: "Show Backroom Cutscene"
-  translation: ""
+  translation: "Show Backroom Cutscene"
+  skip_translation: true
 
 - text: "Nailsalon_Stage"
-  translation: ""
+  translation: "Nailsalon_Stage"
+  skip_translation: true
 
 - text: "Table Light"
-  translation: ""
+  translation: "Настольная лампа"
 
 - text: "Machinery Arms"
-  translation: ""
+  translation: "Рычаги механизма"
 
 - text: "Servers Interaction"
-  translation: ""
+  translation: "Взаимодействие с серверами"
 
 - text: "Shadow_4"
   translation: "Shadow_4"
   skip_translation: true
 
 - text: "Nails Area Light"
-  translation: ""
+  translation: "Свет зоны маникюра"
 
 - text: "Props_4"
   translation: "Props_4"
@@ -46,164 +52,195 @@
   skip_translation: true
 
 - text: "Old"
-  translation: ""
+  translation: "Old"
+  skip_translation: true
 
 - text: "Tint Light"
-  translation: ""
+  translation: "Цветной свет"
 
 - text: "Shadow_6"
   translation: "Shadow_6"
   skip_translation: true
 
 - text: "Vending Machine Light"
-  translation: ""
+  translation: "Свет торгового автомата"
 
 - text: "Drinks Light"
-  translation: ""
+  translation: "Свет напитков"
 
 - text: "Cypher_Intro"
-  translation: ""
+  translation: "Cypher_Intro"
+  skip_translation: true
 
 - text: "Particles"
-  translation: ""
+  translation: "Particles"
+  skip_translation: true
 
 - text: "StandUpPos"
-  translation: ""
+  translation: "StandUpPos"
+  skip_translation: true
 
 - text: "Wall cable"
-  translation: ""
+  translation: "Кабель на стене"
 
 - text: "Follower_Sarah"
-  translation: ""
+  translation: "Follower_Sarah"
+  skip_translation: true
 
 - text: "Transition To Residential"
-  translation: ""
+  translation: "Переход в жилую зону"
 
 - text: "Background Sound"
-  translation: ""
+  translation: "Фоновый звук"
 
 - text: "ApprouchTrigger"
-  translation: ""
+  translation: "ApprouchTrigger"
+  skip_translation: true
 
 - text: "TopWall_Corner"
-  translation: ""
+  translation: "TopWall_Corner"
+  skip_translation: true
 
 - text: "Shadow_2"
   translation: "Shadow_2"
   skip_translation: true
 
 - text: "SurfaceRenderer"
-  translation: ""
+  translation: "SurfaceRenderer"
+  skip_translation: true
 
 - text: "PervGain"
-  translation: ""
+  translation: "PervGain"
+  skip_translation: true
 
 - text: "Shadow_3"
   translation: "Shadow_3"
   skip_translation: true
 
 - text: "Enter and Exit Logic"
-  translation: ""
+  translation: "Логика входа и выхода"
 
 - text: "Reflection Light"
-  translation: ""
+  translation: "Свет отражения"
 
 - text: "Wall_Prop"
-  translation: ""
+  translation: "Wall_Prop"
+  skip_translation: true
 
 - text: "FloorPatch"
-  translation: ""
+  translation: "FloorPatch"
+  skip_translation: true
 
 - text: "Massage Stalls"
-  translation: ""
+  translation: "Массажные кабинки"
 
 - text: "MiddlePart"
-  translation: ""
+  translation: "MiddlePart"
+  skip_translation: true
 
 - text: "Intro_PostNails"
-  translation: ""
+  translation: "Intro_PostNails"
+  skip_translation: true
 
 - text: "Character2"
-  translation: ""
+  translation: "Character2"
+  skip_translation: true
 
 - text: "AlleyFuckers"
-  translation: ""
+  translation: "AlleyFuckers"
+  skip_translation: true
 
 - text: "Intro_NailSalon"
-  translation: ""
+  translation: "Intro_NailSalon"
+  skip_translation: true
 
 - text: "Clerk Area Lighting"
-  translation: ""
+  translation: "Освещение зоны клерка"
 
 - text: "TableTop"
-  translation: ""
+  translation: "TableTop"
+  skip_translation: true
 
 - text: "NN Exterior Puddle post processing"
-  translation: ""
+  translation: "Пост-обработка лужи снаружи NN"
 
 - text: "Hum"
-  translation: ""
+  translation: "Hum"
+  skip_translation: true
 
 - text: "Global Light 2D"
-  translation: ""
+  translation: "Глобальный свет 2D"
 
 - text: "PreTalk"
-  translation: ""
+  translation: "PreTalk"
+  skip_translation: true
 
 - text: "Robos"
-  translation: ""
+  translation: "Robos"
+  skip_translation: true
 
 - text: "Fake Lights"
-  translation: ""
+  translation: "Имитация света"
 
 - text: "BackroomTrigger"
-  translation: ""
+  translation: "BackroomTrigger"
+  skip_translation: true
 
 - text: "Clerk Table Light"
-  translation: ""
+  translation: "Лампа стола клерка"
 
 - text: "SarahLeaveParty"
-  translation: ""
+  translation: "SarahLeaveParty"
+  skip_translation: true
 
 - text: "IntroMusic"
-  translation: ""
+  translation: "IntroMusic"
+  skip_translation: true
 
 - text: "PerversionCheck"
-  translation: ""
+  translation: "PerversionCheck"
+  skip_translation: true
 
 - text: "BottomPart"
-  translation: ""
+  translation: "BottomPart"
+  skip_translation: true
 
 - text: "RightBottom"
-  translation: ""
+  translation: "RightBottom"
+  skip_translation: true
 
 - text: "TopWallCorner"
-  translation: ""
+  translation: "TopWallCorner"
+  skip_translation: true
 
 - text: "LightProps"
-  translation: ""
+  translation: "LightProps"
+  skip_translation: true
 
 - text: "BackGround"
-  translation: ""
+  translation: "BackGround"
+  skip_translation: true
 
 - text: "Props_2"
   translation: "Props_2"
   skip_translation: true
 
 - text: "Evil Room"
-  translation: ""
+  translation: "Комната зла"
 
 - text: "Record Equipment"
-  translation: ""
+  translation: "Записывающее оборудование"
 
 - text: "TopWall_Fix"
-  translation: ""
+  translation: "TopWall_Fix"
+  skip_translation: true
 
 - text: "Entrance_Fade"
-  translation: ""
+  translation: "Entrance_Fade"
+  skip_translation: true
 
 - text: "Main Room"
-  translation: ""
+  translation: "Главная комната"
 
 - text: "Shadow_5"
   translation: "Shadow_5"
@@ -214,309 +251,342 @@
   skip_translation: true
 
 - text: "Nail Salon Black Fade Cover"
-  translation: ""
+  translation: "Чёрная затемнённая накладка салона"
 
 - text: "FinishCutscene"
-  translation: ""
+  translation: "FinishCutscene"
+  skip_translation: true
 
 - text: "Bottom_Table"
-  translation: ""
+  translation: "Bottom_Table"
+  skip_translation: true
 
 - text: "Patches"
-  translation: ""
+  translation: "Patches"
+  skip_translation: true
 
 - text: "Glitter Idea"
-  translation: ""
+  translation: "Блестящая идея"
 
 - text: "Robo"
-  translation: ""
+  translation: "Robo"
+  skip_translation: true
 
 - text: "Global Area Light"
-  translation: ""
+  translation: "Глобальный зональный свет"
 
 - text: "Wall cable Shadow"
-  translation: ""
+  translation: "Тень кабеля на стене"
 
 - text: "Dirt"
   translation: "Dirt"
   skip_translation: true
 
 - text: "Secret Backroom Black Fade Cover"
-  translation: ""
+  translation: "Чёрная затемнённая накладка секретной подсобки"
 
 - text: "Lightstrips Animations"
-  translation: ""
+  translation: "Анимации световых лент"
 
 - text: "PostSex"
-  translation: ""
+  translation: "PostSex"
+  skip_translation: true
 
 - text: "Floor Markings"
-  translation: ""
+  translation: "Разметка пола"
 
 - text: "Intro_PostDrink"
-  translation: ""
+  translation: "Intro_PostDrink"
+  skip_translation: true
 
 - text: "Backrooms"
-  translation: ""
+  translation: "Backrooms"
+  skip_translation: true
 
 - text: "Plastic Curtain Highlight"
-  translation: ""
+  translation: "Подсветка пластиковой шторы"
 
 - text: "Shutter_Small"
-  translation: ""
+  translation: "Shutter_Small"
+  skip_translation: true
 
 - text: "Right Pillar"
-  translation: ""
+  translation: "Правая колонна"
 
 - text: "Left Black Square"
-  translation: ""
+  translation: "Левый чёрный квадрат"
 
 - text: "Clerk"
   translation: "Clerk"
   skip_translation: true
 
 - text: "Customer1"
-  translation: ""
+  translation: "Customer1"
+  skip_translation: true
 
 - text: "Character6"
-  translation: ""
+  translation: "Character6"
+  skip_translation: true
 
 - text: "Character5"
-  translation: ""
+  translation: "Character5"
+  skip_translation: true
 
 - text: "Massage Customer"
-  translation: ""
+  translation: "Клиент массажа"
 
 - text: "Character4"
-  translation: ""
+  translation: "Character4"
+  skip_translation: true
 
 - text: "Gal"
-  translation: ""
+  translation: "Gal"
+  skip_translation: true
 
 - text: "Character1"
-  translation: ""
+  translation: "Character1"
+  skip_translation: true
 
 - text: "Character3"
-  translation: ""
+  translation: "Character3"
+  skip_translation: true
 
 - text: "Massage Towel 4"
-  translation: ""
+  translation: "Массажное полотенце 4"
 
 - text: "StaffOnly_Sign"
-  translation: ""
+  translation: "StaffOnly_Sign"
+  skip_translation: true
 
 - text: "Plastic Curtain Curtain"
-  translation: ""
+  translation: "Пластиковая штора"
 
 - text: "Location Copy"
-  translation: ""
+  translation: "Копия локации"
 
 - text: "Plastic Curtain Regular"
-  translation: ""
+  translation: "Обычная пластиковая штора"
 
 - text: "Massage Towel 3 Shadow"
-  translation: ""
+  translation: "Тень полотенца 3"
 
 - text: "Plastic Curtain Holder"
-  translation: ""
+  translation: "Держатель пластиковой шторы"
 
 - text: "Split Screen"
-  translation: ""
+  translation: "Разделённый экран"
 
 - text: "Massage Stall Left"
-  translation: ""
+  translation: "Левая массажная кабинка"
 
 - text: "Massage Candle"
-  translation: ""
+  translation: "Массажная свеча"
 
 - text: "Massage Bed"
-  translation: ""
+  translation: "Массажный стол"
 
 - text: "Rod Center"
-  translation: ""
+  translation: "Центральный стержень"
 
 - text: "Plastic Curtain Rotated 3"
-  translation: ""
+  translation: "Повёрнутая пластиковая штора 3"
 
 - text: "Rod"
-  translation: ""
+  translation: "Rod"
+  skip_translation: true
 
 - text: "Massage Towel 2"
-  translation: ""
+  translation: "Массажное полотенце 2"
 
 - text: "Moveable Door Container"
-  translation: ""
+  translation: "Контейнер подвижной двери"
 
 - text: "Sigh"
   translation: "Sigh"
   skip_translation: true
 
 - text: "Bottom_Back"
-  translation: ""
+  translation: "Bottom_Back"
+  skip_translation: true
 
 - text: "Bottom_Front"
-  translation: ""
+  translation: "Bottom_Front"
+  skip_translation: true
 
 - text: "Canvas - Split Screen Camera"
-  translation: ""
+  translation: "Холст — камера разделённого экрана"
 
 - text: "Massage Candle Shadow"
-  translation: ""
+  translation: "Тень массажной свечи"
 
 - text: "Hand_FakeLight"
-  translation: ""
+  translation: "Hand_FakeLight"
+  skip_translation: true
 
 - text: "Confused"
-  translation: ""
+  translation: "Confused"
+  skip_translation: true
 
 - text: "Shadow Location Copy"
-  translation: ""
+  translation: "Копия тени локации"
 
 - text: "FakeLight_1"
-  translation: ""
+  translation: "FakeLight_1"
+  skip_translation: true
 
 - text: "Open Collision"
-  translation: ""
+  translation: "Открытая коллизия"
 
 - text: "TableTop_Back"
-  translation: ""
+  translation: "TableTop_Back"
+  skip_translation: true
 
 - text: "Right Back Wall"
-  translation: ""
+  translation: "Правая задняя стена"
 
 - text: "Plastic Curtain Rotated 4"
-  translation: ""
+  translation: "Повёрнутая пластиковая штора 4"
 
 - text: "Raw Image Camera Image"
-  translation: ""
+  translation: "Изображение камеры Raw Image"
 
 - text: "Back Wall Center"
-  translation: ""
+  translation: "Центр задней стены"
 
 - text: "Rod Shadow Left"
-  translation: ""
+  translation: "Тень стержня слева"
 
 - text: "Sparkler 02_No_Loop"
-  translation: ""
+  translation: "Sparkler 02_No_Loop"
+  skip_translation: true
 
 - text: "Massage Towel 2 Shadow"
-  translation: ""
+  translation: "Тень полотенца 2"
 
 - text: "Hanging Pieces"
-  translation: ""
+  translation: "Подвесные элементы"
 
 - text: "Massage Bed Shadow"
-  translation: ""
+  translation: "Тень массажного стола"
 
 - text: "Rod Shadow Right"
-  translation: ""
+  translation: "Тень стержня справа"
 
 - text: "Body"
-  translation: ""
+  translation: "Body"
+  skip_translation: true
 
 - text: "Massage Towel 1"
-  translation: ""
+  translation: "Массажное полотенце 1"
 
 - text: "NailSalon_Glass"
-  translation: ""
+  translation: "NailSalon_Glass"
+  skip_translation: true
 
 - text: "Left Back Wall"
-  translation: ""
+  translation: "Левая задняя стена"
 
 - text: "Catface"
-  translation: ""
+  translation: "Catface"
+  skip_translation: true
 
 - text: "Massage Towel 1 Shadow"
-  translation: ""
+  translation: "Тень полотенца 1"
 
 - text: "2d Pivot Parent"
-  translation: ""
+  translation: "Родитель 2D-поворота"
 
 - text: "Left Pillar"
-  translation: ""
+  translation: "Левая колонна"
 
 - text: "Rod Holder Right"
-  translation: ""
+  translation: "Правый держатель стержня"
 
 - text: "Rod Shadow Center"
-  translation: ""
+  translation: "Центральная тень стержня"
 
 - text: "2d Pivot"
-  translation: ""
+  translation: "2D-поворот"
 
 - text: "Arms"
   translation: "Arms"
   skip_translation: true
 
 - text: "Salon Robo"
-  translation: ""
+  translation: "Робот салона"
 
 - text: "Massage Towel 3"
-  translation: ""
+  translation: "Массажное полотенце 3"
 
 - text: "Rod Holder Left"
-  translation: ""
+  translation: "Левый держатель стержня"
 
 - text: "Bluescreen"
-  translation: ""
+  translation: "Bluescreen"
+  skip_translation: true
 
 - text: "Pad"
-  translation: ""
+  translation: "Pad"
+  skip_translation: true
 
 - text: "Cry"
-  translation: ""
+  translation: "Cry"
+  skip_translation: true
 
 - text: "Plastic Curtain Rotated 1"
-  translation: ""
+  translation: "Повёрнутая пластиковая штора 1"
 
 - text: "PinupPickup - Hello Gorgeous"
-  translation: ""
+  translation: "PinupPickup — Привет, красавчик"
 
 - text: "PinupPickup - Zoey and Sarah Photos"
-  translation: ""
+  translation: "PinupPickup — Фото Зои и Сары"
 
 - text: "Massage Towel 4 Shadow"
-  translation: ""
+  translation: "Тень полотенца 4"
 
 - text: "Right Black Square"
-  translation: ""
+  translation: "Правый чёрный квадрат"
 
 - text: "Plastic Curtain Rotated 2"
-  translation: ""
+  translation: "Повёрнутая пластиковая штора 2"
 
 - text: "Massage Stall Right"
-  translation: ""
+  translation: "Правая массажная кабинка"
 
 - text: "Collision"
-  translation: ""
+  translation: "Collision"
+  skip_translation: true
 
 - text: "Shadow_1"
   translation: "Shadow_1"
   skip_translation: true
 
 - text: "Nailsalon_Carpet_2 1"
-  translation: ""
+  translation: "Nailsalon_Carpet_2 1"
+  skip_translation: true
 
 - text: "Nailsalon_Bell"
-  translation: ""
+  translation: "Nailsalon_Bell"
+  skip_translation: true
 
 - text: "Moveable Door"
-  translation: ""
+  translation: "Подвижная дверь"
 
 - text: "NN Exterior Puddle"
-  translation: ""
+  translation: "Лужа снаружи NN"
 
 - text: "Massage Customer Spine GameObject"
-  translation: ""
+  translation: "Объект позвоночника клиента массажа"
 
 - text: "Max Spine GameObject"
-  translation: ""
+  translation: "Объект позвоночника Макса"
 
 - text: "Split Screen Camera"
-  translation: ""
+  translation: "Камера разделённого экрана"
 
 - text: "Split Screen Separator"
-  translation: ""
+  translation: "Разделитель разделённого экрана"
 
 - text: "L@,\\O"
   translation: "L@,\\O"
@@ -543,7 +613,8 @@
   skip_translation: true
 
 - text: "5AT?5AT?5AT?"
-  translation: ""
+  translation: "5AT?5AT?5AT?"
+  skip_translation: true
 
 - text: "J#A"
   translation: "J#A"
@@ -610,7 +681,8 @@
   skip_translation: true
 
 - text: "9EW?"
-  translation: ""
+  translation: "9EW?"
+  skip_translation: true
 
 - text: "Q4A"
   translation: "Q4A"
@@ -677,68 +749,73 @@
   skip_translation: true
 
 - text: "Wait for Task"
-  translation: ""
+  translation: "Ожидание задачи"
 
 - text: "PC Interacted"
-  translation: ""
+  translation: "ПК использован"
 
 - text: "$2CUU"
   translation: "$2CUU"
   skip_translation: true
 
 - text: "Check Tasks"
-  translation: ""
+  translation: "Проверить задачи"
 
 - text: "Dialogue Finished"
-  translation: ""
+  translation: "Диалог завершён"
 
 - text: "No Task"
-  translation: ""
+  translation: "Нет задачи"
 
 - text: "Wait for sit"
-  translation: ""
+  translation: "Ожидание посадки"
 
 - text: "Sat"
-  translation: ""
+  translation: "Sat"
+  skip_translation: true
 
 - text: "Strip pants and play dialogue"
-  translation: ""
+  translation: "Снять штаны и запустить диалог"
 
 - text: "Wait for unsit"
-  translation: ""
+  translation: "Ожидание вставания"
 
 - text: "UnSat"
-  translation: ""
+  translation: "UnSat"
+  skip_translation: true
 
 - text: "Redress and play dialogue"
-  translation: ""
+  translation: "Одеться и запустить диалог"
 
 - text: "CacheItem"
-  translation: ""
+  translation: "CacheItem"
+  skip_translation: true
 
 - text: "StoreItemAs"
-  translation: ""
+  translation: "StoreItemAs"
+  skip_translation: true
 
 - text: "Fade out and in"
-  translation: ""
+  translation: "Затемнение и появление"
 
 - text: "Progress task"
-  translation: ""
+  translation: "Продвинуть задачу"
 
 - text: "Progress"
-  translation: ""
+  translation: "Progress"
+  skip_translation: true
 
 - text: "Success dialogue"
-  translation: ""
+  translation: "Диалог успеха"
 
 - text: "Undress Man"
-  translation: ""
+  translation: "Раздеть мужчину"
 
 - text: "Redress Man"
-  translation: ""
+  translation: "Одеть мужчину"
 
 - text: "Leave state to re-dress"
-  translation: ""
+  translation: "Выйти из состояния для одевания"
 
 - text: "Eh@"
   translation: "Eh@"
@@ -749,65 +826,69 @@
   skip_translation: true
 
 - text: "Is task In Progress?"
-  translation: ""
+  translation: "Задача в процессе?"
 
 - text: "B@x"
   translation: "B@x"
   skip_translation: true
 
 - text: "Add Max to Party"
-  translation: ""
+  translation: "Добавить Макса в группу"
 
 - text: "Chair Interaction"
-  translation: ""
+  translation: "Взаимодействие со стулом"
 
 - text: "Chair Cutscene"
-  translation: ""
+  translation: "Катсцена со стулом"
 
 - text: "Update Tasks"
-  translation: ""
+  translation: "Обновить задачи"
 
 - text: "A?0Q"
   translation: "A?0Q"
   skip_translation: true
 
 - text: "Picture dialogue"
-  translation: ""
+  translation: "Диалог с фото"
 
 - text: "IsShaking"
-  translation: ""
+  translation: "IsShaking"
+  skip_translation: true
 
 - text: "StartBotShake"
-  translation: ""
+  translation: "StartBotShake"
+  skip_translation: true
 
 - text: "Qy?"
   translation: "Qy?"
   skip_translation: true
 
 - text: "Enable robos and wait for complete"
-  translation: ""
+  translation: "Включить роботов и ждать завершения"
 
 - text: "Fade in and out"
-  translation: ""
+  translation: "Появление и затемнение"
 
 - text: "Deactivate robos"
-  translation: ""
+  translation: "Деактивировать роботов"
 
 - text: "Set new task"
-  translation: ""
+  translation: "Назначить новую задачу"
 
 - text: "Play pre-dialogue"
-  translation: ""
+  translation: "Запустить пре-диалог"
 
 - text: "BE?"
   translation: "BE?"
   skip_translation: true
 
 - text: "Reflections"
-  translation: ""
+  translation: "Reflections"
+  skip_translation: true
 
 - text: "Obstructors"
-  translation: ""
+  translation: "Obstructors"
+  skip_translation: true
 
 - text: "P@Xyz"
   translation: "P@Xyz"
@@ -818,41 +899,45 @@
   skip_translation: true
 
 - text: "Wait for item"
-  translation: ""
+  translation: "Ожидание предмета"
 
 - text: "Remove choice"
-  translation: ""
+  translation: "Убрать выбор"
 
 - text: "Wait for try exit"
-  translation: ""
+  translation: "Ожидание попытки выхода"
 
 - text: "TryLeave"
-  translation: ""
+  translation: "TryLeave"
+  skip_translation: true
 
 - text: "ToOutsideN"
-  translation: ""
+  translation: "ToOutsideN"
+  skip_translation: true
 
 - text: "ToNailSalon"
-  translation: ""
+  translation: "ToNailSalon"
+  skip_translation: true
 
 - text: "Did Zoey enter from the front?"
-  translation: ""
+  translation: "Зои вошла спереди?"
 
 - text: "First Start Cutscene"
-  translation: ""
+  translation: "Катсцена первого запуска"
 
 - text: "Update Savekey"
-  translation: ""
+  translation: "Обновить ключ сохранения"
 
 - text: "BUUYC"
   translation: "BUUYC"
   skip_translation: true
 
 - text: "Start Sidequest"
-  translation: ""
+  translation: "Начать побочный квест"
 
 - text: "Nail Salon Keys/StaffOnlyDoorUnlocked"
-  translation: ""
+  translation: "Nail Salon Keys/StaffOnlyDoorUnlocked"
+  skip_translation: true
 
 - text: "K'A1"
   translation: "K'A1"
@@ -863,152 +948,163 @@
   skip_translation: true
 
 - text: "Play Dialogue 1"
-  translation: ""
+  translation: "Запустить диалог 1"
 
 - text: "Dialogue over"
-  translation: ""
+  translation: "Диалог окончен"
 
 - text: "R%CUU"
   translation: "R%CUU"
   skip_translation: true
 
 - text: "Top off?"
-  translation: ""
+  translation: "Снять верх?"
 
 - text: "Cypher_TopOff"
-  translation: ""
+  translation: "Cypher_TopOff"
+  skip_translation: true
 
 - text: "Wait for trigger leave"
-  translation: ""
+  translation: "Ожидание триггера выхода"
 
 - text: "IsEquipped"
-  translation: ""
+  translation: "IsEquipped"
+  skip_translation: true
 
 - text: "Add perversion"
-  translation: ""
+  translation: "Добавить извращение"
 
 - text: "Wait 1 Frame for Player to be positioned"
-  translation: ""
+  translation: "Ждать 1 кадр для позиционирования игрока"
 
 - text: "Entered Secret Backroom"
-  translation: ""
+  translation: "Вошёл в секретную подсобку"
 
 - text: "Salon_EvilRoom"
-  translation: ""
+  translation: "Salon_EvilRoom"
+  skip_translation: true
 
 - text: "FadeChildren"
-  translation: ""
+  translation: "FadeChildren"
+  skip_translation: true
 
 - text: "Exited Secret Backroom"
-  translation: ""
+  translation: "Вышел из секретной подсобки"
 
 - text: "Backroom Trigger"
-  translation: ""
+  translation: "Триггер подсобки"
 
 - text: "Jam Discover Trigger"
-  translation: ""
+  translation: "Триггер обнаружения Джема"
 
 - text: "Confrontation Cutscene"
-  translation: ""
+  translation: "Катсцена противостояния"
 
 - text: "FCUU1C"
-  translation: ""
+  translation: "FCUU1C"
+  skip_translation: true
 
 - text: "Do we have the task to enter the nail salon?"
-  translation: ""
+  translation: "У нас есть задание войти в салон?"
 
 - text: "Did we wait or race?"
-  translation: ""
+  translation: "Мы ждали или гоняли?"
 
 - text: "Activate the music"
-  translation: ""
+  translation: "Включить музыку"
 
 - text: "Start wait cutscene"
-  translation: ""
+  translation: "Запустить катсцену ожидания"
 
 - text: "Race"
-  translation: ""
+  translation: "Race"
+  skip_translation: true
 
 - text: "Start after race cutscene"
-  translation: ""
+  translation: "Запустить катсцену после гонки"
 
 - text: "Is Task Complete?"
-  translation: ""
+  translation: "Задача выполнена?"
 
 - text: "Add tell choice"
-  translation: ""
+  translation: "Добавить выбор «рассказать»"
 
 - text: "Start dialogue with Max"
-  translation: ""
+  translation: "Начать диалог с Максом"
 
 - text: "TellAboutJam"
-  translation: ""
+  translation: "TellAboutJam"
+  skip_translation: true
 
 - text: "Fade out & in"
-  translation: ""
+  translation: "Затемнение и появление"
 
 - text: "PC Interaction"
-  translation: ""
+  translation: "Взаимодействие с ПК"
 
 - text: "Cleanup Cutscene"
-  translation: ""
+  translation: "Катсцена уборки"
 
 - text: "Start dialogue with Max 2"
-  translation: ""
+  translation: "Начать диалог с Максом 2"
 
 - text: "A,C A"
   translation: "A,C A"
   skip_translation: true
 
 - text: "Did Zoey enter from the tunnel?"
-  translation: ""
+  translation: "Зои вошла из туннеля?"
 
 - text: "PUB"
   translation: "PUB"
   skip_translation: true
 
 - text: "Play Cutscene"
-  translation: ""
+  translation: "Запустить катсцену"
 
 - text: "Is the salon intro mission done?"
-  translation: ""
+  translation: "Вступительная миссия салона выполнена?"
 
 - text: "Did we talk to them yet?"
-  translation: ""
+  translation: "Мы уже говорили с ними?"
 
 - text: "Did we watch the alley sex?"
-  translation: ""
+  translation: "Мы смотрели секс в переулке?"
 
 - text: "Activate pretalk"
-  translation: ""
+  translation: "Активировать пре-разговор"
 
 - text: "Nail Salon Keys/DidSpeakWithHoloLady"
-  translation: ""
+  translation: "Nail Salon Keys/DidSpeakWithHoloLady"
+  skip_translation: true
 
 - text: "Activate post sex"
-  translation: ""
+  translation: "Активировать пост-секс"
 
 - text: "Nail Salon Keys/DidWatchAlleySex"
-  translation: ""
+  translation: "Nail Salon Keys/DidWatchAlleySex"
+  skip_translation: true
 
 - text: "Do we have the nails task?"
-  translation: ""
+  translation: "У нас есть задание с ногтями?"
 
 - text: "Deactivate default characters and wait for task"
-  translation: ""
+  translation: "Деактивировать обычных персонажей и ждать задачи"
 
 - text: "Activate default characters"
-  translation: ""
+  translation: "Активировать обычных персонажей"
 
 - text: "wK Ax"
-  translation: ""
+  translation: "wK Ax"
+  skip_translation: true
 
 - text: "A=c"
   translation: "A=c"
   skip_translation: true
 
 - text: "( l@'j,"
-  translation: ""
+  translation: "( l@'j,"
+  skip_translation: true
 
 - text: "):A]`HA"
   translation: "):A]`HA"
@@ -1019,122 +1115,138 @@
   skip_translation: true
 
 - text: "Timeline Trigger"
-  translation: "Timeline Trigger"
-  skip_translation: true
+  translation: "Триггер таймлайна"
 
 - text: "Strip characters"
-  translation: ""
+  translation: "Раздеть персонажей"
 
 - text: "CutsceneStrip"
-  translation: ""
+  translation: "CutsceneStrip"
+  skip_translation: true
 
 - text: "Identifier"
-  translation: ""
+  translation: "Identifier"
+  skip_translation: true
 
 - text: "OnTriggered"
-  translation: ""
+  translation: "OnTriggered"
+  skip_translation: true
 
 - text: "Stripn't characters"
-  translation: ""
+  translation: "Не раздевать персонажей"
 
 - text: "TargetCamera"
-  translation: ""
+  translation: "TargetCamera"
+  skip_translation: true
 
 - text: "MinSize"
-  translation: ""
+  translation: "MinSize"
+  skip_translation: true
 
 - text: "ShouldSnap"
-  translation: ""
+  translation: "ShouldSnap"
+  skip_translation: true
 
 - text: "FqCVU"
-  translation: ""
+  translation: "FqCVU"
+  skip_translation: true
 
 - text: "Check Task"
-  translation: ""
+  translation: "Проверить задачу"
 
 - text: "Peeked once check"
-  translation: ""
+  translation: "Проверка однократного подглядывания"
 
 - text: "Nail Salon Keys/PeekedThroughWindowOnce"
-  translation: ""
+  translation: "Nail Salon Keys/PeekedThroughWindowOnce"
+  skip_translation: true
 
 - text: "Move Position"
-  translation: ""
+  translation: "Сдвинуть позицию"
 
 - text: "Leave party"
-  translation: ""
+  translation: "Покинуть группу"
 
 - text: "Has watched recording?"
-  translation: ""
+  translation: "Просмотрел запись?"
 
 - text: "Nail Salon Keys/WatchedRecording"
-  translation: ""
+  translation: "Nail Salon Keys/WatchedRecording"
+  skip_translation: true
 
 - text: "RaC"
   translation: "RaC"
   skip_translation: true
 
 - text: "Do we have enough perversion?"
-  translation: ""
+  translation: "У нас достаточно извращения?"
 
 - text: "AmountToCheck"
-  translation: ""
+  translation: "AmountToCheck"
+  skip_translation: true
 
 - text: "HookToStat"
-  translation: ""
+  translation: "HookToStat"
+  skip_translation: true
 
 - text: "OnEquals"
-  translation: ""
+  translation: "OnEquals"
+  skip_translation: true
 
 - text: "OnGreaterThan"
-  translation: ""
+  translation: "OnGreaterThan"
+  skip_translation: true
 
 - text: "OnLessThan"
-  translation: ""
+  translation: "OnLessThan"
+  skip_translation: true
 
 - text: "Nail Salon Keys/TableLadyIsStanding"
-  translation: ""
+  translation: "Nail Salon Keys/TableLadyIsStanding"
+  skip_translation: true
 
 - text: "Is she standing up?"
-  translation: ""
+  translation: "Она встаёт?"
 
 - text: "Unsit"
-  translation: ""
+  translation: "Unsit"
+  skip_translation: true
 
 - text: "Stand up"
-  translation: ""
+  translation: "Встать"
 
 - text: "Wait for interact"
-  translation: ""
+  translation: "Ожидание взаимодействия"
 
 - text: "UnSit"
-  translation: ""
+  translation: "UnSit"
+  skip_translation: true
 
 - text: "Sit down"
-  translation: ""
+  translation: "Сесть"
 
 - text: "BCUU"
   translation: "BCUU"
   skip_translation: true
 
 - text: "Message choice"
-  translation: ""
+  translation: "Выбор сообщения"
 
 - text: "Watch recording dialogue"
-  translation: ""
+  translation: "Диалог просмотра записи"
 
 - text: "Post-Cutscene Dialogue"
-  translation: ""
+  translation: "Пост-катсценный диалог"
 
 - text: "PqB"
   translation: "PqB"
   skip_translation: true
 
 - text: "Show end of Content Message"
-  translation: ""
+  translation: "Показать сообщение о конце контента"
 
 - text: "Enable Max"
-  translation: ""
+  translation: "Активировать Макса"
 
 - text: "BUUCC"
   translation: "BUUCC"
@@ -1157,34 +1269,36 @@
   skip_translation: true
 
 - text: "Wait for task to take pic"
-  translation: ""
+  translation: "Ожидание задачи сделать фото"
 
 - text: "Are Max's boobs out?"
-  translation: ""
+  translation: "Сиськи Макса наружу?"
 
 - text: "Play prompt dialogue"
-  translation: ""
+  translation: "Запустить диалог-подсказку"
 
 - text: "Add distract choice"
-  translation: ""
+  translation: "Добавить выбор отвлечения"
 
 - text: "Distract for Jam Selected"
-  translation: ""
+  translation: "Отвлечение для Джема выбрано"
 
 - text: "Distract"
-  translation: ""
+  translation: "Distract"
+  skip_translation: true
 
 - text: "NMCUU/C"
-  translation: ""
+  translation: "NMCUU/C"
+  skip_translation: true
 
 - text: "Enable pickup"
-  translation: ""
+  translation: "Включить подбор"
 
 - text: "Open your inventory to drink the cocktail!"
-  translation: ""
+  translation: "Открой инвентарь, чтобы выпить коктейль!"
 
 - text: "Set mission tasks"
-  translation: ""
+  translation: "Назначить задачи миссии"
 
 - text: "IK?"
   translation: "IK?"
@@ -1195,87 +1309,96 @@
   skip_translation: true
 
 - text: "Watch PC Recording"
-  translation: ""
+  translation: "Смотреть запись ПК"
 
 - text: "Pre-Cutscene Dialogue"
-  translation: ""
+  translation: "Пре-катсценный диалог"
 
 - text: "Camera Feed Cutscene"
-  translation: ""
+  translation: "Катсцена с камеры"
 
 - text: "CUU-C"
   translation: "CUU-C"
   skip_translation: true
 
 - text: "Close Camera"
-  translation: ""
+  translation: "Закрыть камеру"
 
 - text: "Room 1"
-  translation: ""
+  translation: "Комната 1"
 
 - text: "IdleIndex"
-  translation: ""
+  translation: "IdleIndex"
+  skip_translation: true
 
 - text: "Play Random Bark"
-  translation: ""
+  translation: "Запустить случайный выкрик"
 
 - text: "GameObjects"
-  translation: ""
+  translation: "GameObjects"
+  skip_translation: true
 
 - text: "DisableOthers"
-  translation: ""
+  translation: "DisableOthers"
+  skip_translation: true
 
 - text: "Chose Random Bark"
-  translation: ""
+  translation: "Выбран случайный выкрик"
 
 - text: "Bark Done"
-  translation: ""
+  translation: "Выкрик завершён"
 
 - text: "Uwaaa!"
   translation: "Uwaaa!"
   skip_translation: true
 
 - text: "Brrrrtt!"
-  translation: ""
+  translation: "Brrrrtt!"
+  skip_translation: true
 
 - text: "Has been openned once? 2"
-  translation: ""
+  translation: "Был открыт однажды? 2"
 
 - text: "WCVU"
   translation: "WCVU"
   skip_translation: true
 
 - text: "Check task status"
-  translation: ""
+  translation: "Проверить статус задачи"
 
 - text: "Has been openned once?"
-  translation: ""
+  translation: "Был открыт однажды?"
 
 - text: "Out of order"
-  translation: ""
+  translation: "Не работает"
 
 - text: "&CUU"
   translation: "&CUU"
   skip_translation: true
 
 - text: "Cant enter here"
-  translation: ""
+  translation: "Нельзя войти сюда"
 
 - text: "LessThan"
-  translation: ""
+  translation: "LessThan"
+  skip_translation: true
 
 - text: "InteractedNum"
-  translation: ""
+  translation: "InteractedNum"
+  skip_translation: true
 
 - text: "How many times has Zoey interacted with this door?"
-  translation: ""
+  translation: "Сколько раз Зои взаимодействовала с этой дверью?"
 
 - text: "ToTunnels"
-  translation: ""
+  translation: "ToTunnels"
+  skip_translation: true
 
 - text: "FromSalon"
-  translation: ""
+  translation: "FromSalon"
+  skip_translation: true
 
 - text: "Water"
-  translation: ""
+  translation: "Water"
+  skip_translation: true
 

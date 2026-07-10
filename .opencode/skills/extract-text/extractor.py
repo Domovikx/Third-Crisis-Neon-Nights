@@ -561,8 +561,9 @@ def _format_entry(entry: dict) -> str:
         if not v:
             return '""'
         escaped = v.replace('\\', '\\\\').replace('"', '\\"')
-        # Strip control chars except newline/carriage return
-        escaped = "".join(c for c in escaped if c >= " " or c in "\n\r")
+        escaped = escaped.replace('\r\n', '\\n').replace('\r', '\\n').replace('\n', '\\n')
+        # Strip remaining control chars
+        escaped = "".join(c for c in escaped if c >= " ")
         return f'"{escaped}"'
 
     parts = [f"{k}: {_qv(entry[k])}" for k in keys]
@@ -595,7 +596,9 @@ _YAML_LINE_RX = re.compile(
 
 
 def _unescape(s: str) -> str:
-    return s.replace('\\"', '"').replace("\\'", "'").replace("\\\\", "\\")
+    s = s.replace('\\"', '"').replace("\\'", "'").replace("\\\\", "\\")
+    s = s.replace('\\n', '\n').replace('\\r', '\r').replace('\\t', '\t')
+    return s
 
 
 def _parse_yaml_fallback(content: str) -> list:

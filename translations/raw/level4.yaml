@@ -25,675 +25,872 @@
   skip_translation: true
 
 - text: "Pillow_Shadow"
-  translation: ""
+  translation: "Pillow_Shadow"
+  skip_translation: true
 
 - text: "Parallax Mask"
-  translation: ""
+  translation: "Parallax Mask"
+  skip_translation: true
 
 - text: "Aquarium"
-  translation: ""
+  translation: "Aquarium"
+  skip_translation: true
 
 - text: "Clothes_rack_1"
   translation: "Clothes_rack_1"
   skip_translation: true
 
 - text: "Flowers"
-  translation: ""
+  translation: "Flowers"
+  skip_translation: true
 
 - text: "Welcome_Mat"
-  translation: ""
+  translation: "Welcome_Mat"
+  skip_translation: true
 
 - text: "LightSwitch_2"
-  translation: ""
+  translation: "LightSwitch_2"
+  skip_translation: true
 
 - text: "Wallpaper_Angle"
-  translation: ""
+  translation: "Wallpaper_Angle"
+  skip_translation: true
 
 - text: "KitchenPlates"
-  translation: ""
+  translation: "KitchenPlates"
+  skip_translation: true
 
 - text: "Cabinet"
-  translation: ""
+  translation: "Cabinet"
+  skip_translation: true
 
 - text: "Pipe_angeled"
   translation: "Pipe_angeled"
   skip_translation: true
 
 - text: "Candle"
-  translation: ""
+  translation: "Candle"
+  skip_translation: true
 
 - text: "Pipe_2"
   translation: "Pipe_2"
   skip_translation: true
 
 - text: "TimeRemaining"
-  translation: ""
+  translation: "TimeRemaining"
+  skip_translation: true
 
 - text: "LightSwitch"
-  translation: ""
+  translation: "LightSwitch"
+  skip_translation: true
 
 - text: "ZoeyMoveBack"
-  translation: ""
+  translation: "ZoeyMoveBack"
+  skip_translation: true
 
 - text: "DoorWall"
-  translation: ""
+  translation: "DoorWall"
+  skip_translation: true
 
 - text: "VirtualAddict_1"
-  translation: ""
+  translation: "VirtualAddict_1"
+  skip_translation: true
 
 - text: "ToiletWindow"
-  translation: ""
+  translation: "ToiletWindow"
+  skip_translation: true
 
 - text: "N69_GlowingHole"
-  translation: ""
+  translation: "N69_GlowingHole"
+  skip_translation: true
 
 - text: "BelowDoor"
-  translation: ""
+  translation: "BelowDoor"
+  skip_translation: true
 
 - text: "Window"
-  translation: ""
+  translation: "Window"
+  skip_translation: true
 
 - text: "Aquarium_Glass"
-  translation: ""
+  translation: "Aquarium_Glass"
+  skip_translation: true
 
 - text: "MainWall_Angle"
-  translation: ""
+  translation: "MainWall_Angle"
+  skip_translation: true
 
 - text: "Flavour"
-  translation: ""
+  translation: "Flavour"
+  skip_translation: true
 
 - text: "Apartment"
-  translation: ""
+  translation: "Apartment"
+  skip_translation: true
 
 - text: "Wall_1"
   translation: "Wall_1"
   skip_translation: true
 
 - text: "Can_Shadow"
-  translation: ""
+  translation: "Can_Shadow"
+  skip_translation: true
 
 - text: "CleanSpots"
-  translation: ""
+  translation: "CleanSpots"
+  skip_translation: true
 
 - text: "Rain"
-  translation: ""
+  translation: "Rain"
+  skip_translation: true
 
 - text: "Chapter2"
-  translation: ""
+  translation: "Chapter2"
+  skip_translation: true
 
 - text: "Pipe_Small"
-  translation: ""
+  translation: "Pipe_Small"
+  skip_translation: true
 
 - text: "VirtualAddict_2"
-  translation: ""
+  translation: "VirtualAddict_2"
+  skip_translation: true
 
 - text: "Kitchen_Cable"
-  translation: ""
+  translation: "Kitchen_Cable"
+  skip_translation: true
 
 - text: "WallBathroom"
-  translation: ""
+  translation: "WallBathroom"
+  skip_translation: true
 
 - text: "Targets"
-  translation: ""
+  translation: "Targets"
+  skip_translation: true
 
 - text: "WindowLight"
-  translation: ""
+  translation: "WindowLight"
+  skip_translation: true
 
 - text: "Rain Audio"
-  translation: ""
+  translation: "Rain Audio"
+  skip_translation: true
 
 - text: "Bathtube"
-  translation: ""
+  translation: "Bathtube"
+  skip_translation: true
 
 - text: "FishPicture"
-  translation: ""
+  translation: "FishPicture"
+  skip_translation: true
 
 - text: "Pipe_End_Angle"
-  translation: ""
+  translation: "Pipe_End_Angle"
+  skip_translation: true
 
 - text: "Wallpaper_1"
   translation: "Wallpaper_1"
   skip_translation: true
 
 - text: "Nice Pillow"
-  translation: ""
+  translation: "Nice Pillow"
+  skip_translation: true
 
 - text: "Rent_Overdue_2"
-  translation: ""
+  translation: "Rent_Overdue_2"
+  skip_translation: true
 
 - text: "VRContainer"
-  translation: ""
+  translation: "VRContainer"
+  skip_translation: true
 
 - text: "Toilet_Flat"
-  translation: ""
+  translation: "Toilet_Flat"
+  skip_translation: true
 
 - text: "Light Switch_1"
-  translation: ""
+  translation: "Light Switch_1"
+  skip_translation: true
 
 - text: "MoaningSound"
-  translation: ""
+  translation: "MoaningSound"
+  skip_translation: true
 
 - text: "ExitPrevention"
-  translation: ""
+  translation: "ExitPrevention"
+  skip_translation: true
 
 - text: "Masturbation"
-  translation: ""
+  translation: "Masturbation"
+  skip_translation: true
 
 - text: "ElevatorWorker"
-  translation: ""
+  translation: "ElevatorWorker"
+  skip_translation: true
 
 - text: "Bathroom_Carpet"
-  translation: ""
+  translation: "Bathroom_Carpet"
+  skip_translation: true
 
 - text: "Cutscene playmaker logic"
-  translation: ""
+  translation: "Cutscene playmaker logic"
+  skip_translation: true
 
 - text: "FakeParallax"
-  translation: ""
+  translation: "FakeParallax"
+  skip_translation: true
 
 - text: "Magica Wind Zone"
-  translation: ""
+  translation: "Magica Wind Zone"
+  skip_translation: true
 
 - text: "Lamp_1"
   translation: "Lamp_1"
   skip_translation: true
 
 - text: "Jaime lives"
-  translation: ""
+  translation: "Jaime lives"
+  skip_translation: true
 
 - text: "LivingRoom"
-  translation: ""
+  translation: "LivingRoom"
+  skip_translation: true
 
 - text: "Setups"
-  translation: ""
+  translation: "Setups"
+  skip_translation: true
 
 - text: "SeatPos"
-  translation: ""
+  translation: "SeatPos"
+  skip_translation: true
 
 - text: "Flying Car"
-  translation: ""
+  translation: "Flying Car"
+  skip_translation: true
 
 - text: "SPAM_Cum"
-  translation: ""
+  translation: "SPAM_Cum"
+  skip_translation: true
 
 - text: "Lamp_FakeLight"
-  translation: ""
+  translation: "Lamp_FakeLight"
+  skip_translation: true
 
 - text: "Flats"
   translation: "Flats"
   skip_translation: true
 
 - text: "HeadsetSaveKey"
-  translation: ""
+  translation: "HeadsetSaveKey"
+  skip_translation: true
 
 - text: "Window_Small_3"
-  translation: ""
+  translation: "Window_Small_3"
+  skip_translation: true
 
 - text: "Cupboard1"
-  translation: ""
+  translation: "Cupboard1"
+  skip_translation: true
 
 - text: "Stove_FakeLight"
-  translation: ""
+  translation: "Stove_FakeLight"
+  skip_translation: true
 
 - text: "Shower VFX"
-  translation: ""
+  translation: "Shower VFX"
+  skip_translation: true
 
 - text: "SarahShowerPos"
-  translation: ""
+  translation: "SarahShowerPos"
+  skip_translation: true
 
 - text: "BalconyFuckers"
-  translation: ""
+  translation: "BalconyFuckers"
+  skip_translation: true
 
 - text: "Cupboard3"
-  translation: ""
+  translation: "Cupboard3"
+  skip_translation: true
 
 - text: "EnterShower"
-  translation: ""
+  translation: "EnterShower"
+  skip_translation: true
 
 - text: "Clothes"
-  translation: ""
+  translation: "Clothes"
+  skip_translation: true
 
 - text: "Kitty"
-  translation: ""
+  translation: "Kitty"
+  skip_translation: true
 
 - text: "Mop"
-  translation: ""
+  translation: "Mop"
+  skip_translation: true
 
 - text: "Cabinet_Shadow"
-  translation: ""
+  translation: "Cabinet_Shadow"
+  skip_translation: true
 
 - text: "Mission Trigger"
-  translation: ""
+  translation: "Mission Trigger"
+  skip_translation: true
 
 - text: "Cabinet_Small"
-  translation: ""
+  translation: "Cabinet_Small"
+  skip_translation: true
 
 - text: "Pipe_3"
   translation: "Pipe_3"
   skip_translation: true
 
 - text: "KitchenPlates1"
-  translation: ""
+  translation: "KitchenPlates1"
+  skip_translation: true
 
 - text: "Turn Off Music"
-  translation: ""
+  translation: "Turn Off Music"
+  skip_translation: true
 
 - text: "Clothes_rack"
   translation: "Clothes_rack"
   skip_translation: true
 
 - text: "NeonRise RoomTone"
-  translation: ""
+  translation: "NeonRise RoomTone"
+  skip_translation: true
 
 - text: "FakeSetup"
-  translation: ""
+  translation: "FakeSetup"
+  skip_translation: true
 
 - text: "WallProp"
-  translation: ""
+  translation: "WallProp"
+  skip_translation: true
 
 - text: "LeaveCutscene"
-  translation: ""
+  translation: "LeaveCutscene"
+  skip_translation: true
 
 - text: "WallPipe"
-  translation: ""
+  translation: "WallPipe"
+  skip_translation: true
 
 - text: "Washing_Machine"
-  translation: ""
+  translation: "Washing_Machine"
+  skip_translation: true
 
 - text: "Cupboard4"
-  translation: ""
+  translation: "Cupboard4"
+  skip_translation: true
 
 - text: "FlatLight"
-  translation: ""
+  translation: "FlatLight"
+  skip_translation: true
 
 - text: "OutsideSetup"
-  translation: ""
+  translation: "OutsideSetup"
+  skip_translation: true
 
 - text: "Pinups"
-  translation: ""
+  translation: "Pinups"
+  skip_translation: true
 
 - text: "AnduoItems"
-  translation: ""
+  translation: "AnduoItems"
+  skip_translation: true
 
 - text: "Pipe_4"
   translation: "Pipe_4"
   skip_translation: true
 
 - text: "Pipe_End_Right"
-  translation: ""
+  translation: "Pipe_End_Right"
+  skip_translation: true
 
 - text: "Supporter"
-  translation: ""
+  translation: "Supporter"
+  skip_translation: true
 
 - text: "Wall_7"
   translation: "Wall_7"
   skip_translation: true
 
 - text: "DoorLocker"
-  translation: ""
+  translation: "DoorLocker"
+  skip_translation: true
 
 - text: "CutsceneFSM"
-  translation: ""
+  translation: "CutsceneFSM"
+  skip_translation: true
 
 - text: "Fallback Flowers"
-  translation: ""
+  translation: "Fallback Flowers"
+  skip_translation: true
 
 - text: "HummingSound"
-  translation: ""
+  translation: "HummingSound"
+  skip_translation: true
 
 - text: "Lobby_Parallax"
-  translation: ""
+  translation: "Lobby_Parallax"
+  skip_translation: true
 
 - text: "Showerhead"
-  translation: ""
+  translation: "Showerhead"
+  skip_translation: true
 
 - text: "ZoeyGropePos"
-  translation: ""
+  translation: "ZoeyGropePos"
+  skip_translation: true
 
 - text: "She gon"
-  translation: ""
+  translation: "She gon"
+  skip_translation: true
 
 - text: "EnterCutscene"
-  translation: ""
+  translation: "EnterCutscene"
+  skip_translation: true
 
 - text: "Pipe_1"
   translation: "Pipe_1"
   skip_translation: true
 
 - text: "Ambience Flat"
-  translation: ""
+  translation: "Ambience Flat"
+  skip_translation: true
 
 - text: "ParallaxLight"
-  translation: ""
+  translation: "ParallaxLight"
+  skip_translation: true
 
 - text: "Mail"
-  translation: ""
+  translation: "Mail"
+  skip_translation: true
 
 - text: "GoAwayMeme"
-  translation: ""
+  translation: "GoAwayMeme"
+  skip_translation: true
 
 - text: "Pipe_end_Right"
-  translation: ""
+  translation: "Pipe_end_Right"
+  skip_translation: true
 
 - text: "RejectTarget"
-  translation: ""
+  translation: "RejectTarget"
+  skip_translation: true
 
 - text: "CutsceneCamera"
-  translation: ""
+  translation: "CutsceneCamera"
+  skip_translation: true
 
 - text: "ForegroundParts"
-  translation: ""
+  translation: "ForegroundParts"
+  skip_translation: true
 
 - text: "Rain behind Window VFX"
-  translation: ""
+  translation: "Rain behind Window VFX"
+  skip_translation: true
 
 - text: "extractor hood"
-  translation: ""
+  translation: "extractor hood"
+  skip_translation: true
 
 - text: "Cupboard2"
-  translation: ""
+  translation: "Cupboard2"
+  skip_translation: true
 
 - text: "Aquarium_lid"
   translation: "Aquarium_lid"
   skip_translation: true
 
 - text: "Blankie"
-  translation: ""
+  translation: "Blankie"
+  skip_translation: true
 
 - text: "FrontThingie"
-  translation: ""
+  translation: "FrontThingie"
+  skip_translation: true
 
 - text: "Peeking"
-  translation: ""
+  translation: "Peeking"
+  skip_translation: true
 
 - text: "Aquarium_Shadow"
-  translation: ""
+  translation: "Aquarium_Shadow"
+  skip_translation: true
 
 - text: "Rain On Window VFX"
-  translation: ""
+  translation: "Rain On Window VFX"
+  skip_translation: true
 
 - text: "Fish_Shadow"
-  translation: ""
+  translation: "Fish_Shadow"
+  skip_translation: true
 
 - text: "Switch to Danger Music"
-  translation: ""
+  translation: "Switch to Danger Music"
+  skip_translation: true
 
 - text: "BlockWay"
-  translation: ""
+  translation: "BlockWay"
+  skip_translation: true
 
 - text: "Cupboard_Small"
-  translation: ""
+  translation: "Cupboard_Small"
+  skip_translation: true
 
 - text: "WalkTarget"
-  translation: ""
+  translation: "WalkTarget"
+  skip_translation: true
 
 - text: "Hai Sarah Enabler"
-  translation: ""
+  translation: "Hai Sarah Enabler"
+  skip_translation: true
 
 - text: "Mailbox"
-  translation: ""
+  translation: "Mailbox"
+  skip_translation: true
 
 - text: "Palm_tree"
   translation: "Palm_tree"
   skip_translation: true
 
 - text: "Sarah Container"
-  translation: ""
+  translation: "Sarah Container"
+  skip_translation: true
 
 - text: "TopPartAngle"
-  translation: ""
+  translation: "TopPartAngle"
+  skip_translation: true
 
 - text: "SinkFlat"
-  translation: ""
+  translation: "SinkFlat"
+  skip_translation: true
 
 - text: "ToLobby"
-  translation: ""
+  translation: "ToLobby"
+  skip_translation: true
 
 - text: "Neighbour_Flat"
-  translation: ""
+  translation: "Neighbour_Flat"
+  skip_translation: true
 
 - text: "LoopingMusic"
-  translation: ""
+  translation: "LoopingMusic"
+  skip_translation: true
 
 - text: "Candle_Shadow"
-  translation: ""
+  translation: "Candle_Shadow"
+  skip_translation: true
 
 - text: "3d Flower Camera"
-  translation: ""
+  translation: "3d Flower Camera"
+  skip_translation: true
 
 - text: "Flower 4"
-  translation: ""
+  translation: "Flower 4"
+  skip_translation: true
 
 - text: "Small_Window_2"
-  translation: ""
+  translation: "Small_Window_2"
+  skip_translation: true
 
 - text: "Flower 3"
-  translation: ""
+  translation: "Flower 3"
+  skip_translation: true
 
 - text: "Flower Rendering"
-  translation: ""
+  translation: "Flower Rendering"
+  skip_translation: true
 
 - text: "Vent_Inner"
-  translation: ""
+  translation: "Vent_Inner"
+  skip_translation: true
 
 - text: "String_3_Shadow"
-  translation: ""
+  translation: "String_3_Shadow"
+  skip_translation: true
 
 - text: "Small_Window_3"
-  translation: ""
+  translation: "Small_Window_3"
+  skip_translation: true
 
 - text: "GoAwayGuy"
-  translation: ""
+  translation: "GoAwayGuy"
+  skip_translation: true
 
 - text: "Moving guy"
-  translation: ""
+  translation: "Moving guy"
+  skip_translation: true
 
 - text: "Neighbour"
-  translation: ""
+  translation: "Neighbour"
+  skip_translation: true
 
 - text: "Jaime after mission"
-  translation: ""
+  translation: "Jaime after mission"
+  skip_translation: true
 
 - text: "Worker"
-  translation: ""
+  translation: "Worker"
+  skip_translation: true
 
 - text: "Neighbour_VR"
-  translation: ""
+  translation: "Neighbour_VR"
+  skip_translation: true
 
 - text: "Jaime start mission"
-  translation: ""
+  translation: "Jaime start mission"
+  skip_translation: true
 
 - text: "AskingGirl"
-  translation: ""
+  translation: "AskingGirl"
+  skip_translation: true
 
 - text: "DarkSarah"
-  translation: ""
+  translation: "DarkSarah"
+  skip_translation: true
 
 - text: "SecretDocument"
-  translation: ""
+  translation: "SecretDocument"
+  skip_translation: true
 
 - text: "Purr Audio Source"
-  translation: ""
+  translation: "Purr Audio Source"
+  skip_translation: true
 
 - text: "Wall_2"
   translation: "Wall_2"
   skip_translation: true
 
 - text: "Magica Cloth"
-  translation: ""
+  translation: "Magica Cloth"
+  skip_translation: true
 
 - text: "Elevator_Ground"
-  translation: ""
+  translation: "Elevator_Ground"
+  skip_translation: true
 
 - text: "Pole_Asset"
-  translation: ""
+  translation: "Pole_Asset"
+  skip_translation: true
 
 - text: "BananaBasket"
-  translation: ""
+  translation: "BananaBasket"
+  skip_translation: true
 
 - text: "Plant 2"
-  translation: ""
+  translation: "Plant 2"
+  skip_translation: true
 
 - text: "Flower_Pot_2"
-  translation: ""
+  translation: "Flower_Pot_2"
+  skip_translation: true
 
 - text: "Cabel_2"
   translation: "Cabel_2"
   skip_translation: true
 
 - text: "Blanked"
-  translation: ""
+  translation: "Blanked"
+  skip_translation: true
 
 - text: "HoloPlant"
-  translation: ""
+  translation: "HoloPlant"
+  skip_translation: true
 
 - text: "Root"
-  translation: ""
+  translation: "Root"
+  skip_translation: true
 
 - text: "Shark"
   translation: "Shark"
   skip_translation: true
 
 - text: "PropsBed"
-  translation: ""
+  translation: "PropsBed"
+  skip_translation: true
 
 - text: "Zoey's Door"
-  translation: ""
+  translation: "Zoey's Door"
+  skip_translation: true
 
 - text: "Inner Sphere"
-  translation: ""
+  translation: "Inner Sphere"
+  skip_translation: true
 
 - text: "Laptop_1"
   translation: "Laptop_1"
   skip_translation: true
 
 - text: "Big_Tv"
-  translation: ""
+  translation: "Big_Tv"
+  skip_translation: true
 
 - text: "Side Frame"
-  translation: ""
+  translation: "Side Frame"
+  skip_translation: true
 
 - text: "Elevator"
-  translation: ""
+  translation: "Elevator"
+  skip_translation: true
 
 - text: "OuterWall_7"
-  translation: ""
+  translation: "OuterWall_7"
+  skip_translation: true
 
 - text: "Note_Pinboard"
-  translation: ""
+  translation: "Note_Pinboard"
+  skip_translation: true
 
 - text: "Laptop_Shadow"
-  translation: ""
+  translation: "Laptop_Shadow"
+  skip_translation: true
 
 - text: "String_1_Shadow"
-  translation: ""
+  translation: "String_1_Shadow"
+  skip_translation: true
 
 - text: "OuterWall_2"
-  translation: ""
+  translation: "OuterWall_2"
+  skip_translation: true
 
 - text: "Elevator_Consol"
-  translation: ""
+  translation: "Elevator_Consol"
+  skip_translation: true
 
 - text: "Laptop_1_Shadow"
-  translation: ""
+  translation: "Laptop_1_Shadow"
+  skip_translation: true
 
 - text: "Big_Tv_Shadow"
-  translation: ""
+  translation: "Big_Tv_Shadow"
+  skip_translation: true
 
 - text: "Secret_Room"
-  translation: ""
+  translation: "Secret_Room"
+  skip_translation: true
 
 - text: "CleaningSpot_4"
-  translation: ""
+  translation: "CleaningSpot_4"
+  skip_translation: true
 
 - text: "FakeLightStrip"
-  translation: ""
+  translation: "FakeLightStrip"
+  skip_translation: true
 
 - text: "Flower_Pot_6"
-  translation: ""
+  translation: "Flower_Pot_6"
+  skip_translation: true
 
 - text: "String_2_Shadow"
-  translation: ""
+  translation: "String_2_Shadow"
+  skip_translation: true
 
 - text: "BigRound_Carpet"
-  translation: ""
+  translation: "BigRound_Carpet"
+  skip_translation: true
 
 - text: "Drum"
   translation: "Drum"
   skip_translation: true
 
 - text: "Pill_Box"
-  translation: ""
+  translation: "Pill_Box"
+  skip_translation: true
 
 - text: "Spawn Point"
-  translation: ""
+  translation: "Spawn Point"
+  skip_translation: true
 
 - text: "Bed_Curtain"
-  translation: ""
+  translation: "Bed_Curtain"
+  skip_translation: true
 
 - text: "Laptop"
-  translation: ""
+  translation: "Laptop"
+  skip_translation: true
 
 - text: "Bird"
   translation: "Bird"
   skip_translation: true
 
 - text: "Tiles"
-  translation: ""
+  translation: "Tiles"
+  skip_translation: true
 
 - text: "Flower 2"
-  translation: ""
+  translation: "Flower 2"
+  skip_translation: true
 
 - text: "Flower_Pot_1"
-  translation: ""
+  translation: "Flower_Pot_1"
+  skip_translation: true
 
 - text: "Pin_1"
-  translation: ""
+  translation: "Pin_1"
+  skip_translation: true
 
 - text: "Door Symbol"
-  translation: ""
+  translation: "Door Symbol"
+  skip_translation: true
 
 - text: "Flower 1"
-  translation: ""
+  translation: "Flower 1"
+  skip_translation: true
 
 - text: "Carpet_Medium"
-  translation: ""
+  translation: "Carpet_Medium"
+  skip_translation: true
 
 - text: "Flower_Pot_4"
-  translation: ""
+  translation: "Flower_Pot_4"
+  skip_translation: true
 
 - text: "OuterWall_8"
-  translation: ""
+  translation: "OuterWall_8"
+  skip_translation: true
 
 - text: "3D_apartmentcomplex_flowers04 2"
-  translation: ""
+  translation: "3D_apartmentcomplex_flowers04 2"
+  skip_translation: true
 
 - text: "Camera_Shadow"
-  translation: ""
+  translation: "Camera_Shadow"
+  skip_translation: true
 
 - text: "Neighbour's Door"
-  translation: ""
+  translation: "Neighbour's Door"
+  skip_translation: true
 
 - text: "3d Apartment Flower"
-  translation: ""
+  translation: "3d Apartment Flower"
+  skip_translation: true
 
 - text: "Elevator_Footer"
-  translation: ""
+  translation: "Elevator_Footer"
+  skip_translation: true
 
 - text: "Tape"
-  translation: ""
+  translation: "Tape"
+  skip_translation: true
 
 - text: "HoloPlant_3"
-  translation: ""
+  translation: "HoloPlant_3"
+  skip_translation: true
 
 - text: "OuterWall_6"
-  translation: ""
+  translation: "OuterWall_6"
+  skip_translation: true
 
 - text: "CleaningSpot_5"
-  translation: ""
+  translation: "CleaningSpot_5"
+  skip_translation: true
 
 - text: "CleaningSpot"
-  translation: ""
+  translation: "CleaningSpot"
+  skip_translation: true
 
 - text: "Pillow_1"
   translation: "Pillow_1"
@@ -708,246 +905,320 @@
   skip_translation: true
 
 - text: "PinupPickup - Zoey as Bunny"
-  translation: ""
+  translation: "PinupPickup - Zoey as Bunny"
+  skip_translation: true
 
 - text: "PinupPickup - Hai Sarah"
-  translation: ""
+  translation: "PinupPickup - Hai Sarah"
+  skip_translation: true
 
 - text: "PinupPickup - Cheeky Zoey"
-  translation: ""
+  translation: "PinupPickup - Cheeky Zoey"
+  skip_translation: true
 
 - text: "PinupPickup - Sarah Pixel Portrait"
-  translation: ""
+  translation: "PinupPickup - Sarah Pixel Portrait"
+  skip_translation: true
 
 - text: "MainHallway"
-  translation: ""
+  translation: "MainHallway"
+  skip_translation: true
 
 - text: "OuterWall_5"
-  translation: ""
+  translation: "OuterWall_5"
+  skip_translation: true
 
 - text: "Pillow"
-  translation: ""
+  translation: "Pillow"
+  skip_translation: true
 
 - text: "Small_Window"
-  translation: ""
+  translation: "Small_Window"
+  skip_translation: true
 
 - text: "Elevator_Lamp"
-  translation: ""
+  translation: "Elevator_Lamp"
+  skip_translation: true
 
 - text: "Shutter_Big"
-  translation: ""
+  translation: "Shutter_Big"
+  skip_translation: true
 
 - text: "Plushi_Hippo"
-  translation: ""
+  translation: "Plushi_Hippo"
+  skip_translation: true
 
 - text: "Drum_Shadow"
-  translation: ""
+  translation: "Drum_Shadow"
+  skip_translation: true
 
 - text: "Flower_Pot_5"
-  translation: ""
+  translation: "Flower_Pot_5"
+  skip_translation: true
 
 - text: "Playmaker Spawn Logic"
-  translation: ""
+  translation: "Playmaker Spawn Logic"
+  skip_translation: true
 
 - text: "Window_Shine"
-  translation: ""
+  translation: "Window_Shine"
+  skip_translation: true
 
 - text: "CleaningSpot_3"
-  translation: ""
+  translation: "CleaningSpot_3"
+  skip_translation: true
 
 - text: "Elevator_Wall"
-  translation: ""
+  translation: "Elevator_Wall"
+  skip_translation: true
 
 - text: "Zoey_Flat"
-  translation: ""
+  translation: "Zoey_Flat"
+  skip_translation: true
 
 - text: "Flower_Pot_8"
-  translation: ""
+  translation: "Flower_Pot_8"
+  skip_translation: true
 
 - text: "Origami_Bird"
-  translation: ""
+  translation: "Origami_Bird"
+  skip_translation: true
 
 - text: "Cat"
-  translation: ""
+  translation: "Cat"
+  skip_translation: true
 
 - text: "Box_Flat"
-  translation: ""
+  translation: "Box_Flat"
+  skip_translation: true
 
 - text: "Balcony"
-  translation: ""
+  translation: "Balcony"
+  skip_translation: true
 
 - text: "Pill_Box_Shadow"
-  translation: ""
+  translation: "Pill_Box_Shadow"
+  skip_translation: true
 
 - text: "NewMail"
-  translation: ""
+  translation: "NewMail"
+  skip_translation: true
 
 - text: "OuterWall_1"
-  translation: ""
+  translation: "OuterWall_1"
+  skip_translation: true
 
 - text: "Flower Background"
-  translation: ""
+  translation: "Flower Background"
+  skip_translation: true
 
 - text: "Cooking_Pot"
-  translation: ""
+  translation: "Cooking_Pot"
+  skip_translation: true
 
 - text: "Note_Pinboard_2"
-  translation: ""
+  translation: "Note_Pinboard_2"
+  skip_translation: true
 
 - text: "Gun"
-  translation: ""
+  translation: "Gun"
+  skip_translation: true
 
 - text: "Parcel"
-  translation: ""
+  translation: "Parcel"
+  skip_translation: true
 
 - text: "Upper"
-  translation: ""
+  translation: "Upper"
+  skip_translation: true
 
 - text: "HoloPlant_1"
-  translation: ""
+  translation: "HoloPlant_1"
+  skip_translation: true
 
 - text: "Elevator Light"
-  translation: ""
+  translation: "Elevator Light"
+  skip_translation: true
 
 - text: "Pinboard"
-  translation: ""
+  translation: "Pinboard"
+  skip_translation: true
 
 - text: "Pillow_1_Shadow"
-  translation: ""
+  translation: "Pillow_1_Shadow"
+  skip_translation: true
 
 - text: "ZoeyBed"
-  translation: ""
+  translation: "ZoeyBed"
+  skip_translation: true
 
 - text: "String_1"
   translation: "String_1"
   skip_translation: true
 
 - text: "Bills Light"
-  translation: ""
+  translation: "Bills Light"
+  skip_translation: true
 
 - text: "Kitchen Door"
-  translation: ""
+  translation: "Kitchen Door"
+  skip_translation: true
 
 - text: "BigWindow"
-  translation: ""
+  translation: "BigWindow"
+  skip_translation: true
 
 - text: "CoffeeMachine"
-  translation: ""
+  translation: "CoffeeMachine"
+  skip_translation: true
 
 - text: "Blanked_Shadow"
-  translation: ""
+  translation: "Blanked_Shadow"
+  skip_translation: true
 
 - text: "Pin_4"
-  translation: ""
+  translation: "Pin_4"
+  skip_translation: true
 
 - text: "Pin_2"
-  translation: ""
+  translation: "Pin_2"
+  skip_translation: true
 
 - text: "String_2"
   translation: "String_2"
   skip_translation: true
 
 - text: "CleaningSpot_2"
-  translation: ""
+  translation: "CleaningSpot_2"
+  skip_translation: true
 
 - text: "Couch_Top"
-  translation: ""
+  translation: "Couch_Top"
+  skip_translation: true
 
 - text: "Plant 1"
-  translation: ""
+  translation: "Plant 1"
+  skip_translation: true
 
 - text: "Box_Flat_Shadow"
-  translation: ""
+  translation: "Box_Flat_Shadow"
+  skip_translation: true
 
 - text: "GroundFakeLight"
-  translation: ""
+  translation: "GroundFakeLight"
+  skip_translation: true
 
 - text: "ZoeyBed_Shadow"
-  translation: ""
+  translation: "ZoeyBed_Shadow"
+  skip_translation: true
 
 - text: "Stair Light"
-  translation: ""
+  translation: "Stair Light"
+  skip_translation: true
 
 - text: "Gun_Shadow"
-  translation: ""
+  translation: "Gun_Shadow"
+  skip_translation: true
 
 - text: "Flower_Pot_3"
-  translation: ""
+  translation: "Flower_Pot_3"
+  skip_translation: true
 
 - text: "Plushi_1"
   translation: "Plushi_1"
   skip_translation: true
 
 - text: "Plushi_1_Shadow"
-  translation: ""
+  translation: "Plushi_1_Shadow"
+  skip_translation: true
 
 - text: "Wallpaper_2"
   translation: "Wallpaper_2"
   skip_translation: true
 
 - text: "RealParallax"
-  translation: ""
+  translation: "RealParallax"
+  skip_translation: true
 
 - text: "WallSeperators"
-  translation: ""
+  translation: "WallSeperators"
+  skip_translation: true
 
 - text: "WallLights"
-  translation: ""
+  translation: "WallLights"
+  skip_translation: true
 
 - text: "Spawn Area"
-  translation: ""
+  translation: "Spawn Area"
+  skip_translation: true
 
 - text: "Couch_Middle"
-  translation: ""
+  translation: "Couch_Middle"
+  skip_translation: true
 
 - text: "Heart_Pillow"
-  translation: ""
+  translation: "Heart_Pillow"
+  skip_translation: true
 
 - text: "Pillow_Bear"
-  translation: ""
+  translation: "Pillow_Bear"
+  skip_translation: true
 
 - text: "Wall_Details"
-  translation: ""
+  translation: "Wall_Details"
+  skip_translation: true
 
 - text: "WallSword"
-  translation: ""
+  translation: "WallSword"
+  skip_translation: true
 
 - text: "Prop"
   translation: "Prop"
   skip_translation: true
 
 - text: "Catto"
-  translation: ""
+  translation: "Catto"
+  skip_translation: true
 
 - text: "Pin_3"
-  translation: ""
+  translation: "Pin_3"
+  skip_translation: true
 
 - text: "BigLong_Carpet"
-  translation: ""
+  translation: "BigLong_Carpet"
+  skip_translation: true
 
 - text: "OuterWall_4"
-  translation: ""
+  translation: "OuterWall_4"
+  skip_translation: true
 
 - text: "Flower Outer Container"
-  translation: ""
+  translation: "Flower Outer Container"
+  skip_translation: true
 
 - text: "Pillar"
-  translation: ""
+  translation: "Pillar"
+  skip_translation: true
 
 - text: "Apartment Side Door"
-  translation: ""
+  translation: "Apartment Side Door"
+  skip_translation: true
 
 - text: "BoxColliders"
-  translation: ""
+  translation: "BoxColliders"
+  skip_translation: true
 
 - text: "OuterWall_3"
-  translation: ""
+  translation: "OuterWall_3"
+  skip_translation: true
 
 - text: "Bottom Frame"
-  translation: ""
+  translation: "Bottom Frame"
+  skip_translation: true
 
 - text: "Shark_Shadow"
-  translation: ""
+  translation: "Shark_Shadow"
+  skip_translation: true
 
 - text: "?B`A"
   translation: "?B`A"
@@ -1030,7 +1301,8 @@
   skip_translation: true
 
 - text: "A5jTBH"
-  translation: ""
+  translation: "A5jTBH"
+  skip_translation: true
 
 - text: "?L73A\\"
   translation: "?L73A\\"
@@ -1053,14 +1325,16 @@
   skip_translation: true
 
 - text: "AL7!"
-  translation: ""
+  translation: "AL7!"
+  skip_translation: true
 
 - text: "AGr"
   translation: "AGr"
   skip_translation: true
 
 - text: "F5Plw?"
-  translation: ""
+  translation: "F5Plw?"
+  skip_translation: true
 
 - text: ".W?&I"
   translation: ".W?&I"
@@ -1071,14 +1345,16 @@
   skip_translation: true
 
 - text: "A0%CA"
-  translation: ""
+  translation: "A0%CA"
+  skip_translation: true
 
 - text: "A?u"
   translation: "A?u"
   skip_translation: true
 
 - text: "Oj\"="
-  translation: ""
+  translation: "Oj\"="
+  skip_translation: true
 
 - text: "_\\AR"
   translation: "_\\\\AR"
@@ -1117,752 +1393,988 @@
   skip_translation: true
 
 - text: "Fatality Imminent"
-  translation: ""
+  translation: "Fatality Imminent"
+  skip_translation: true
 
 - text: "Wait for events"
-  translation: ""
+  translation: "Wait for events"
+  skip_translation: true
 
 - text: "Add int and check"
-  translation: ""
+  translation: "Add int and check"
+  skip_translation: true
 
 - text: "Remove int"
-  translation: ""
+  translation: "Remove int"
+  skip_translation: true
 
 - text: "OnSparkle"
-  translation: ""
+  translation: "OnSparkle"
+  skip_translation: true
 
 - text: "Reset int"
-  translation: ""
+  translation: "Reset int"
+  skip_translation: true
 
 - text: "SparkleCount"
-  translation: ""
+  translation: "SparkleCount"
+  skip_translation: true
 
 - text: "SparklesNeeded"
-  translation: ""
+  translation: "SparklesNeeded"
+  skip_translation: true
 
 - text: "Is Sarah with us?"
-  translation: ""
+  translation: "Is Sarah with us?"
+  skip_translation: true
 
 - text: "Play solo dialogue"
-  translation: ""
+  translation: "Play solo dialogue"
+  skip_translation: true
 
 - text: "Do we have Sarah?"
-  translation: ""
+  translation: "Do we have Sarah?"
+  skip_translation: true
 
 - text: "TdC"
   translation: "TdC"
   skip_translation: true
 
 - text: "Start Dialogue Repeat"
-  translation: ""
+  translation: "Start Dialogue Repeat"
+  skip_translation: true
 
 - text: "Did we peek?"
-  translation: ""
+  translation: "Did we peek?"
+  skip_translation: true
 
 - text: "Wait for trigger enter"
-  translation: ""
+  translation: "Wait for trigger enter"
+  skip_translation: true
 
 - text: "Wait for trigger exit"
-  translation: ""
+  translation: "Wait for trigger exit"
+  skip_translation: true
 
 - text: "Masturbate"
-  translation: ""
+  translation: "Masturbate"
+  skip_translation: true
 
 - text: "Play masturbate dialogue"
-  translation: ""
+  translation: "Play masturbate dialogue"
+  skip_translation: true
 
 - text: "IgnoreOverwhelm"
-  translation: ""
+  translation: "IgnoreOverwhelm"
+  skip_translation: true
 
 - text: "OnMasturbate"
-  translation: ""
+  translation: "OnMasturbate"
+  skip_translation: true
 
 - text: "Wait for orgasm"
-  translation: ""
+  translation: "Wait for orgasm"
+  skip_translation: true
 
 - text: "Play orgasm dialogue"
-  translation: ""
+  translation: "Play orgasm dialogue"
+  skip_translation: true
 
 - text: "OnOrgasm"
-  translation: ""
+  translation: "OnOrgasm"
+  skip_translation: true
 
 - text: "Set save key"
-  translation: ""
+  translation: "Set save key"
+  skip_translation: true
 
 - text: "Give cozy clothes"
-  translation: ""
+  translation: "Give cozy clothes"
+  skip_translation: true
 
 - text: "Unlock door and wait for trigger"
-  translation: ""
+  translation: "Unlock door and wait for trigger"
+  skip_translation: true
 
 - text: "Complete mission"
-  translation: ""
+  translation: "Complete mission"
+  skip_translation: true
 
 - text: "Disable Turn Off Music"
-  translation: ""
+  translation: "Disable Turn Off Music"
+  skip_translation: true
 
 - text: "Back to regular Music"
-  translation: ""
+  translation: "Back to regular Music"
+  skip_translation: true
 
 - text: "Missed"
-  translation: ""
+  translation: "Missed"
+  skip_translation: true
 
 - text: "Reset to default Music"
-  translation: ""
+  translation: "Reset to default Music"
+  skip_translation: true
 
 - text: "Is light toggled?"
-  translation: ""
+  translation: "Is light toggled?"
+  skip_translation: true
 
 - text: "Swap"
   translation: "Swap"
   skip_translation: true
 
 - text: "Wait for savekey"
-  translation: ""
+  translation: "Wait for savekey"
+  skip_translation: true
 
 - text: "Send call"
-  translation: ""
+  translation: "Send call"
+  skip_translation: true
 
 - text: "Add choice to mailbox"
-  translation: ""
+  translation: "Add choice to mailbox"
+  skip_translation: true
 
 - text: "Start bark"
-  translation: ""
+  translation: "Start bark"
+  skip_translation: true
 
 - text: "bark 2"
-  translation: ""
+  translation: "bark 2"
+  skip_translation: true
 
 - text: "You have now heard the guards"
-  translation: ""
+  translation: "You have now heard the guards"
+  skip_translation: true
 
 - text: "What was it? Brain Burn?"
-  translation: ""
+  translation: "What was it? Brain Burn?"
+  skip_translation: true
 
 - text: "bark 3"
-  translation: ""
+  translation: "bark 3"
+  skip_translation: true
 
 - text: "bark 4"
-  translation: ""
+  translation: "bark 4"
+  skip_translation: true
 
 - text: "bark 5"
-  translation: ""
+  translation: "bark 5"
+  skip_translation: true
 
 - text: "Do we have the task to go to leave apartment?"
-  translation: ""
+  translation: "Do we have the task to go to leave apartment?"
+  skip_translation: true
 
 - text: "Activate interactables"
-  translation: ""
+  translation: "Activate interactables"
+  skip_translation: true
 
 - text: "CloseMailbox"
-  translation: ""
+  translation: "CloseMailbox"
+  skip_translation: true
 
 - text: "OpenMailbox"
-  translation: ""
+  translation: "OpenMailbox"
+  skip_translation: true
 
 - text: "TimeTrigger"
-  translation: ""
+  translation: "TimeTrigger"
+  skip_translation: true
 
 - text: "Did we complete the nail salon quest?"
-  translation: ""
+  translation: "Did we complete the nail salon quest?"
+  skip_translation: true
 
 - text: "OverdueRent"
-  translation: ""
+  translation: "OverdueRent"
+  skip_translation: true
 
 - text: "Chapter popup"
-  translation: ""
+  translation: "Chapter popup"
+  skip_translation: true
 
 - text: "VlC"
   translation: "VlC"
   skip_translation: true
 
 - text: "Do we have the task to shower?"
-  translation: ""
+  translation: "Do we have the task to shower?"
+  skip_translation: true
 
 - text: "Do anim"
-  translation: ""
+  translation: "Do anim"
+  skip_translation: true
 
 - text: "Is Sarah taking shower?"
-  translation: ""
+  translation: "Is Sarah taking shower?"
+  skip_translation: true
 
 - text: "ShowerOn"
-  translation: ""
+  translation: "ShowerOn"
+  skip_translation: true
 
 - text: "Shower on"
-  translation: ""
+  translation: "Shower on"
+  skip_translation: true
 
 - text: "Undress Sarah"
-  translation: ""
+  translation: "Undress Sarah"
+  skip_translation: true
 
 - text: "Shower Sarah"
-  translation: ""
+  translation: "Shower Sarah"
+  skip_translation: true
 
 - text: "Masturbate Sarah"
-  translation: ""
+  translation: "Masturbate Sarah"
+  skip_translation: true
 
 - text: "Flip bool"
-  translation: ""
+  translation: "Flip bool"
+  skip_translation: true
 
 - text: "Is the mission in progress?"
-  translation: ""
+  translation: "Is the mission in progress?"
+  skip_translation: true
 
 - text: "Activate character"
-  translation: ""
+  translation: "Activate character"
+  skip_translation: true
 
 - text: "Wait for task to leave"
-  translation: ""
+  translation: "Wait for task to leave"
+  skip_translation: true
 
 - text: "Sit character up"
-  translation: ""
+  translation: "Sit character up"
+  skip_translation: true
 
 - text: "Deactivate character"
-  translation: ""
+  translation: "Deactivate character"
+  skip_translation: true
 
 - text: "Activate masturbation on Sarah"
-  translation: ""
+  translation: "Activate masturbation on Sarah"
+  skip_translation: true
 
 - text: "Did we already walk in?"
-  translation: ""
+  translation: "Did we already walk in?"
+  skip_translation: true
 
 - text: "Activate peeking"
-  translation: ""
+  translation: "Activate peeking"
+  skip_translation: true
 
 - text: "Play walk in cutscene"
-  translation: ""
+  translation: "Play walk in cutscene"
+  skip_translation: true
 
 - text: "Set walk in save key"
-  translation: ""
+  translation: "Set walk in save key"
+  skip_translation: true
 
 - text: "XIB"
   translation: "XIB"
   skip_translation: true
 
 - text: "Play excuse dialogue"
-  translation: ""
+  translation: "Play excuse dialogue"
+  skip_translation: true
 
 - text: "Start mission + add jaime to party"
-  translation: ""
+  translation: "Start mission + add jaime to party"
+  skip_translation: true
 
 - text: "Is window toggled?"
-  translation: ""
+  translation: "Is window toggled?"
+  skip_translation: true
 
 - text: "Show real window"
-  translation: ""
+  translation: "Show real window"
+  skip_translation: true
 
 - text: "Show fake window"
-  translation: ""
+  translation: "Show fake window"
+  skip_translation: true
 
 - text: "VtC"
   translation: "VtC"
   skip_translation: true
 
 - text: "HAJ_Interaction"
-  translation: ""
+  translation: "HAJ_Interaction"
+  skip_translation: true
 
 - text: "Spam_CUM"
-  translation: ""
+  translation: "Spam_CUM"
+  skip_translation: true
 
 - text: "Did we masturbate?"
-  translation: ""
+  translation: "Did we masturbate?"
+  skip_translation: true
 
 - text: "Set savekey"
-  translation: ""
+  translation: "Set savekey"
+  skip_translation: true
 
 - text: "Unlock pinup"
-  translation: ""
+  translation: "Unlock pinup"
+  skip_translation: true
 
 - text: "Play post masturbate dialogue"
-  translation: ""
+  translation: "Play post masturbate dialogue"
+  skip_translation: true
 
 - text: "Reenable"
-  translation: ""
+  translation: "Reenable"
+  skip_translation: true
 
 - text: "GoAway"
-  translation: ""
+  translation: "GoAway"
+  skip_translation: true
 
 - text: "Set key and destroy"
-  translation: ""
+  translation: "Set key and destroy"
+  skip_translation: true
 
 - text: "Deactivate guy"
-  translation: ""
+  translation: "Deactivate guy"
+  skip_translation: true
 
 - text: "Fade again"
-  translation: ""
+  translation: "Fade again"
+  skip_translation: true
 
 - text: "Pick up headset"
-  translation: ""
+  translation: "Pick up headset"
+  skip_translation: true
 
 - text: "Headset poof"
-  translation: ""
+  translation: "Headset poof"
+  skip_translation: true
 
 - text: "Start mission"
-  translation: ""
+  translation: "Start mission"
+  skip_translation: true
 
 - text: "headset save key"
-  translation: ""
+  translation: "headset save key"
+  skip_translation: true
 
 - text: "Is Cal in progress?"
-  translation: ""
+  translation: "Is Cal in progress?"
+  skip_translation: true
 
 - text: "Miss Cal"
-  translation: ""
+  translation: "Miss Cal"
+  skip_translation: true
 
 - text: "Is Nova in progress?"
-  translation: ""
+  translation: "Is Nova in progress?"
+  skip_translation: true
 
 - text: "Miss Nova"
-  translation: ""
+  translation: "Miss Nova"
+  skip_translation: true
 
 - text: "Miss slut service"
-  translation: ""
+  translation: "Miss slut service"
+  skip_translation: true
 
 - text: "Activate interactable and wait"
-  translation: ""
+  translation: "Activate interactable and wait"
+  skip_translation: true
 
 - text: "Also Danger Music"
-  translation: ""
+  translation: "Also Danger Music"
+  skip_translation: true
 
 - text: "Check"
   translation: "Check"
   skip_translation: true
 
 - text: "Are we checking or looking for code?"
-  translation: ""
+  translation: "Are we checking or looking for code?"
+  skip_translation: true
 
 - text: "Play dialogue and show keypad"
-  translation: ""
+  translation: "Play dialogue and show keypad"
+  skip_translation: true
 
 - text: "Fail"
-  translation: ""
+  translation: "Fail"
+  skip_translation: true
 
 - text: "Fail dialogue"
-  translation: ""
+  translation: "Fail dialogue"
+  skip_translation: true
 
 - text: "Keypad_Combo"
-  translation: ""
+  translation: "Keypad_Combo"
+  skip_translation: true
 
 - text: "StopMusic"
-  translation: ""
+  translation: "StopMusic"
+  skip_translation: true
 
 - text: "Activate kitty"
-  translation: ""
+  translation: "Activate kitty"
+  skip_translation: true
 
 - text: "Give item"
-  translation: ""
+  translation: "Give item"
+  skip_translation: true
 
 - text: "Is Jamie alive?"
-  translation: ""
+  translation: "Is Jamie alive?"
+  skip_translation: true
 
 - text: "Alive"
-  translation: ""
+  translation: "Alive"
+  skip_translation: true
 
 - text: "Did we do enough of the main story?"
-  translation: ""
+  translation: "Did we do enough of the main story?"
+  skip_translation: true
 
 - text: "Dead"
-  translation: ""
+  translation: "Dead"
+  skip_translation: true
 
 - text: "Have we heard the guards?"
-  translation: ""
+  translation: "Have we heard the guards?"
+  skip_translation: true
 
 - text: "Activate mission Jaime"
-  translation: ""
+  translation: "Activate mission Jaime"
+  skip_translation: true
 
 - text: "Activate moving stuff"
-  translation: ""
+  translation: "Activate moving stuff"
+  skip_translation: true
 
 - text: "Do we have the second Jaime quest?"
-  translation: ""
+  translation: "Do we have the second Jaime quest?"
+  skip_translation: true
 
 - text: "Activate post-mission Jaime"
-  translation: ""
+  translation: "Activate post-mission Jaime"
+  skip_translation: true
 
 - text: "turn on no smoking sign"
-  translation: ""
+  translation: "turn on no smoking sign"
+  skip_translation: true
 
 - text: "heard 'em"
-  translation: ""
+  translation: "heard 'em"
+  skip_translation: true
 
 - text: "Did we already display them?"
-  translation: ""
+  translation: "Did we already display them?"
+  skip_translation: true
 
 - text: "Is the mission failed?"
-  translation: ""
+  translation: "Is the mission failed?"
+  skip_translation: true
 
 - text: "Have we seen the guards?"
-  translation: ""
+  translation: "Have we seen the guards?"
+  skip_translation: true
 
 - text: "Enable the characters"
-  translation: ""
+  translation: "Enable the characters"
+  skip_translation: true
 
 - text: "DidDisplay"
-  translation: ""
+  translation: "DidDisplay"
+  skip_translation: true
 
 - text: "we have not"
-  translation: ""
+  translation: "we have not"
+  skip_translation: true
 
 - text: "we have"
-  translation: ""
+  translation: "we have"
+  skip_translation: true
 
 - text: "Is in Party with Sarah?"
-  translation: ""
+  translation: "Is in Party with Sarah?"
+  skip_translation: true
 
 - text: "Force move to"
-  translation: ""
+  translation: "Force move to"
+  skip_translation: true
 
 - text: "Play animation"
-  translation: ""
+  translation: "Play animation"
+  skip_translation: true
 
 - text: "Restrict things"
-  translation: ""
+  translation: "Restrict things"
+  skip_translation: true
 
 - text: "Groping"
-  translation: ""
+  translation: "Groping"
+  skip_translation: true
 
 - text: "Add perversion 2"
-  translation: ""
+  translation: "Add perversion 2"
+  skip_translation: true
 
 - text: "ShowerOff"
-  translation: ""
+  translation: "ShowerOff"
+  skip_translation: true
 
 - text: "Activate and wait for interactable"
-  translation: ""
+  translation: "Activate and wait for interactable"
+  skip_translation: true
 
 - text: "Confirmation dialogue"
-  translation: ""
+  translation: "Confirmation dialogue"
+  skip_translation: true
 
 - text: "Lockpicking"
-  translation: ""
+  translation: "Lockpicking"
+  skip_translation: true
 
 - text: "Start cutscene"
-  translation: ""
+  translation: "Start cutscene"
+  skip_translation: true
 
 - text: "TurnOn"
-  translation: ""
+  translation: "TurnOn"
+  skip_translation: true
 
 - text: "Activated"
-  translation: ""
+  translation: "Activated"
+  skip_translation: true
 
 - text: "TurnOff"
-  translation: ""
+  translation: "TurnOff"
+  skip_translation: true
 
 - text: "Do hack"
-  translation: ""
+  translation: "Do hack"
+  skip_translation: true
 
 - text: "Play success"
-  translation: ""
+  translation: "Play success"
+  skip_translation: true
 
 - text: "Difficulty"
-  translation: ""
+  translation: "Difficulty"
+  skip_translation: true
 
 - text: "OnFail"
-  translation: ""
+  translation: "OnFail"
+  skip_translation: true
 
 - text: "Do ending cutscene"
-  translation: ""
+  translation: "Do ending cutscene"
+  skip_translation: true
 
 - text: "Is the salon quest complete?"
-  translation: ""
+  translation: "Is the salon quest complete?"
+  skip_translation: true
 
 - text: "Enable the character"
-  translation: ""
+  translation: "Enable the character"
+  skip_translation: true
 
 - text: "C0A"
   translation: "C0A"
   skip_translation: true
 
 - text: "Resync"
-  translation: ""
+  translation: "Resync"
+  skip_translation: true
 
 - text: "Do we have the mission done?"
-  translation: ""
+  translation: "Do we have the mission done?"
+  skip_translation: true
 
 - text: "Do we need the item?"
-  translation: ""
+  translation: "Do we need the item?"
+  skip_translation: true
 
 - text: "[Subject: Appreciation Bundle]"
   translation: "[Subject: Appreciation Bundle]"
   skip_translation: true
 
 - text: "Give items"
-  translation: ""
+  translation: "Give items"
+  skip_translation: true
 
 - text: "Sit"
-  translation: ""
+  translation: "Sit"
+  skip_translation: true
 
 - text: "Did we already do this cutscene?"
-  translation: ""
+  translation: "Did we already do this cutscene?"
+  skip_translation: true
 
 - text: "Data_Key"
-  translation: ""
+  translation: "Data_Key"
+  skip_translation: true
 
 - text: "Data_Value"
-  translation: ""
+  translation: "Data_Value"
+  skip_translation: true
 
 - text: "Fade screen 2"
-  translation: ""
+  translation: "Fade screen 2"
+  skip_translation: true
 
 - text: "CutsceneZoom"
-  translation: ""
+  translation: "CutsceneZoom"
+  skip_translation: true
 
 - text: "Dress her Working Cloth"
-  translation: ""
+  translation: "Dress her Working Cloth"
+  skip_translation: true
 
 - text: "Do we have the DLC?"
-  translation: ""
+  translation: "Do we have the DLC?"
+  skip_translation: true
 
 - text: "Do we need to give the items?"
-  translation: ""
+  translation: "Do we need to give the items?"
+  skip_translation: true
 
 - text: "IsInstalled"
-  translation: ""
+  translation: "IsInstalled"
+  skip_translation: true
 
 - text: "Add the choice"
-  translation: ""
+  translation: "Add the choice"
+  skip_translation: true
 
 - text: "Give the items"
-  translation: ""
+  translation: "Give the items"
+  skip_translation: true
 
 - text: "KeepUnchanged"
-  translation: ""
+  translation: "KeepUnchanged"
+  skip_translation: true
 
 - text: "StoreToSaveFile"
-  translation: ""
+  translation: "StoreToSaveFile"
+  skip_translation: true
 
 - text: "ResetOnLeave"
-  translation: ""
+  translation: "ResetOnLeave"
+  skip_translation: true
 
 - text: "Activate Gameobject"
-  translation: ""
+  translation: "Activate Gameobject"
+  skip_translation: true
 
 - text: "ExitFail"
-  translation: ""
+  translation: "ExitFail"
+  skip_translation: true
 
 - text: "Wait for exit fail"
-  translation: ""
+  translation: "Wait for exit fail"
+  skip_translation: true
 
 - text: "Did we place the parcel?"
-  translation: ""
+  translation: "Did we place the parcel?"
+  skip_translation: true
 
 - text: "Is the task in progress?"
-  translation: ""
+  translation: "Is the task in progress?"
+  skip_translation: true
 
 - text: "Place item"
-  translation: ""
+  translation: "Place item"
+  skip_translation: true
 
 - text: "Turn off Music"
-  translation: ""
+  translation: "Turn off Music"
+  skip_translation: true
 
 - text: "Wait for task to be in progress"
-  translation: ""
+  translation: "Wait for task to be in progress"
+  skip_translation: true
 
 - text: "Wait for task to complete"
-  translation: ""
+  translation: "Wait for task to complete"
+  skip_translation: true
 
 - text: "Did we do the nail salon?"
-  translation: ""
+  translation: "Did we do the nail salon?"
+  skip_translation: true
 
 - text: "Activate the interactable"
-  translation: ""
+  translation: "Activate the interactable"
+  skip_translation: true
 
 - text: "Confirmation"
-  translation: ""
+  translation: "Confirmation"
+  skip_translation: true
 
 - text: "Dress Zoey up"
-  translation: ""
+  translation: "Dress Zoey up"
+  skip_translation: true
 
 - text: "Dress Sarah up"
-  translation: ""
+  translation: "Dress Sarah up"
+  skip_translation: true
 
 - text: "Add Sarah"
-  translation: ""
+  translation: "Add Sarah"
+  skip_translation: true
 
 - text: "Choice to inspect or talk"
-  translation: ""
+  translation: "Choice to inspect or talk"
+  skip_translation: true
 
 - text: "Inspecting Jaime"
-  translation: ""
+  translation: "Inspecting Jaime"
+  skip_translation: true
 
 - text: "Leaving"
-  translation: ""
+  translation: "Leaving"
+  skip_translation: true
 
 - text: "Respond to Jaime"
-  translation: ""
+  translation: "Respond to Jaime"
+  skip_translation: true
 
 - text: "VA_1_Timer"
-  translation: ""
+  translation: "VA_1_Timer"
+  skip_translation: true
 
 - text: "Hide timer"
-  translation: ""
+  translation: "Hide timer"
+  skip_translation: true
 
 - text: "Play fail cutscene"
-  translation: ""
+  translation: "Play fail cutscene"
+  skip_translation: true
 
 - text: "Fail the mission"
-  translation: ""
+  translation: "Fail the mission"
+  skip_translation: true
 
 - text: "Wait 15s"
-  translation: ""
+  translation: "Wait 15s"
+  skip_translation: true
 
 - text: "Also turn of Music"
-  translation: ""
+  translation: "Also turn of Music"
+  skip_translation: true
 
 - text: "IsForced"
-  translation: ""
+  translation: "IsForced"
+  skip_translation: true
 
 - text: "Should we activate?"
-  translation: ""
+  translation: "Should we activate?"
+  skip_translation: true
 
 - text: "Play the dialogue"
-  translation: ""
+  translation: "Play the dialogue"
+  skip_translation: true
 
 - text: "Did we call Sarah?"
-  translation: ""
+  translation: "Did we call Sarah?"
+  skip_translation: true
 
 - text: "Set the tasks"
-  translation: ""
+  translation: "Set the tasks"
+  skip_translation: true
 
 - text: "Play the dialogue 2"
-  translation: ""
+  translation: "Play the dialogue 2"
+  skip_translation: true
 
 - text: "Play the dialogue 3"
-  translation: ""
+  translation: "Play the dialogue 3"
+  skip_translation: true
 
 - text: "Open phone 2"
-  translation: ""
+  translation: "Open phone 2"
+  skip_translation: true
 
 - text: "Wait for Interaction with Shower"
-  translation: ""
+  translation: "Wait for Interaction with Shower"
+  skip_translation: true
 
 - text: "Start shower cutscene"
-  translation: ""
+  translation: "Start shower cutscene"
+  skip_translation: true
 
 - text: "Play shower minigame"
-  translation: ""
+  translation: "Play shower minigame"
+  skip_translation: true
 
 - text: "Play smoking anim"
-  translation: ""
+  translation: "Play smoking anim"
+  skip_translation: true
 
 - text: "Go to level"
-  translation: ""
+  translation: "Go to level"
+  skip_translation: true
 
 - text: "WaitForSleep"
-  translation: ""
+  translation: "WaitForSleep"
+  skip_translation: true
 
 - text: "Slow fade"
-  translation: ""
+  translation: "Slow fade"
+  skip_translation: true
 
 - text: "Strip"
   translation: "Strip"
   skip_translation: true
 
 - text: "Play loop dialogue"
-  translation: ""
+  translation: "Play loop dialogue"
+  skip_translation: true
 
 - text: "Sarah dialogue"
-  translation: ""
+  translation: "Sarah dialogue"
+  skip_translation: true
 
 - text: "Do we have the bunnysuit?"
-  translation: ""
+  translation: "Do we have the bunnysuit?"
+  skip_translation: true
 
 - text: "Solo dialogue"
-  translation: ""
+  translation: "Solo dialogue"
+  skip_translation: true
 
 - text: "Bunnysuit reaction"
-  translation: ""
+  translation: "Bunnysuit reaction"
+  skip_translation: true
 
 - text: "Dialogue repeat"
-  translation: ""
+  translation: "Dialogue repeat"
+  skip_translation: true
 
 - text: "Set Key"
-  translation: ""
+  translation: "Set Key"
+  skip_translation: true
 
 - text: "XkB"
   translation: "XkB"
   skip_translation: true
 
 - text: "Set time"
-  translation: ""
+  translation: "Set time"
+  skip_translation: true
 
 - text: "Did we choose to peek?"
-  translation: ""
+  translation: "Did we choose to peek?"
+  skip_translation: true
 
 - text: "Do peek"
-  translation: ""
+  translation: "Do peek"
+  skip_translation: true
 
 - text: "Ask to peek"
-  translation: ""
+  translation: "Ask to peek"
+  skip_translation: true
 
 - text: "Set stats"
-  translation: ""
+  translation: "Set stats"
+  skip_translation: true
 
 - text: "Take a shower?"
-  translation: ""
+  translation: "Take a shower?"
+  skip_translation: true
 
 - text: "Start a shower"
-  translation: ""
+  translation: "Start a shower"
+  skip_translation: true
 
 - text: "Rounds"
-  translation: ""
+  translation: "Rounds"
+  skip_translation: true
 
 - text: "CanCancel"
-  translation: ""
+  translation: "CanCancel"
+  skip_translation: true
 
 - text: "Leave cutscene"
-  translation: ""
+  translation: "Leave cutscene"
+  skip_translation: true
 
 - text: "Redress"
-  translation: ""
+  translation: "Redress"
+  skip_translation: true
 
 - text: "Did Sarah Sleep?"
-  translation: ""
+  translation: "Did Sarah Sleep?"
+  skip_translation: true
 
 - text: "Is Unlockable"
-  translation: ""
+  translation: "Is Unlockable"
+  skip_translation: true
 
 - text: "Activate Pinup Pickup"
-  translation: ""
+  translation: "Activate Pinup Pickup"
+  skip_translation: true
 
 - text: "ToFlat"
-  translation: ""
+  translation: "ToFlat"
+  skip_translation: true
 
 - text: "Walk to target"
-  translation: ""
+  translation: "Walk to target"
+  skip_translation: true
 
 - text: "Play reject dialogue"
-  translation: ""
+  translation: "Play reject dialogue"
+  skip_translation: true
 
 - text: "not ready"
-  translation: ""
+  translation: "not ready"
+  skip_translation: true
 
 - text: "Is the nail salon mission done?"
-  translation: ""
+  translation: "Is the nail salon mission done?"
+  skip_translation: true
 
 - text: "Enable the interactable"
-  translation: ""
+  translation: "Enable the interactable"
+  skip_translation: true
 
 - text: "Do we need to do the intro?"
-  translation: ""
+  translation: "Do we need to do the intro?"
+  skip_translation: true
 
 - text: "Did we arrive from the intro?"
-  translation: ""
+  translation: "Did we arrive from the intro?"
+  skip_translation: true
 
 - text: "Do intro cutscene"
-  translation: ""
+  translation: "Do intro cutscene"
+  skip_translation: true
 
 - text: "Do we have banana?"
-  translation: ""
+  translation: "Do we have banana?"
+  skip_translation: true
 
 - text: "Lock Zoey and play anim for a bit"
-  translation: ""
+  translation: "Lock Zoey and play anim for a bit"
+  skip_translation: true
 
 - text: "PlayerHandler"
-  translation: ""
+  translation: "PlayerHandler"
+  skip_translation: true
 
 - text: "Hide this"
-  translation: ""
+  translation: "Hide this"
+  skip_translation: true
 
 - text: "Stop anim"
-  translation: ""
+  translation: "Stop anim"
+  skip_translation: true
 
 - text: "T@ o#?"
   translation: "T@ o#?"
@@ -1881,19 +2393,24 @@
   skip_translation: true
 
 - text: "Purr sound"
-  translation: ""
+  translation: "Purr sound"
+  skip_translation: true
 
 - text: "Solo"
-  translation: ""
+  translation: "Solo"
+  skip_translation: true
 
 - text: "Is Sarah here?"
-  translation: ""
+  translation: "Is Sarah here?"
+  skip_translation: true
 
 - text: "Fix a bug where jaimes bathroom door is locked"
-  translation: ""
+  translation: "Fix a bug where jaimes bathroom door is locked"
+  skip_translation: true
 
 - text: "this door was getting locked too lol"
-  translation: ""
+  translation: "this door was getting locked too lol"
+  skip_translation: true
 
 - text: "R\"@o"
   translation: "R\\"
@@ -1908,22 +2425,28 @@
   skip_translation: true
 
 - text: "ZoeyApartment"
-  translation: ""
+  translation: "ZoeyApartment"
+  skip_translation: true
 
 - text: "Play random sound"
-  translation: ""
+  translation: "Play random sound"
+  skip_translation: true
 
 - text: "Reactivate"
-  translation: ""
+  translation: "Reactivate"
+  skip_translation: true
 
 - text: "Wait a frame6"
-  translation: ""
+  translation: "Wait a frame6"
+  skip_translation: true
 
 - text: "Play music"
-  translation: ""
+  translation: "Play music"
+  skip_translation: true
 
 - text: "Is it toggled?"
-  translation: ""
+  translation: "Is it toggled?"
+  skip_translation: true
 
 - text: "U`D"
   translation: "U`D"

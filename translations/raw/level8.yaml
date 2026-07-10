@@ -5,175 +5,232 @@
   skip_translation: true
 
 - text: "CAr[S?"
-  translation: ""
+  translation: "CAr[S?"
+  skip_translation: true
 
 - text: "Fallback Flowers Reflection"
-  translation: ""
+  translation: "Fallback Flowers Reflection"
+  skip_translation: true
 
 - text: "Flower"
-  translation: ""
+  translation: "Flower"
+  skip_translation: true
 
 - text: "Stairwell"
-  translation: ""
+  translation: "Stairwell"
+  skip_translation: true
 
 - text: "Rat out cutscene"
-  translation: ""
+  translation: "Rat out cutscene"
+  skip_translation: true
 
 - text: "Fappy Lady Bark"
-  translation: ""
+  translation: "Fappy Lady Bark"
+  skip_translation: true
 
 - text: "Enforcers Tracks"
-  translation: ""
+  translation: "Enforcers Tracks"
+  skip_translation: true
 
 - text: "REFLECTION LOL"
-  translation: ""
+  translation: "REFLECTION LOL"
+  skip_translation: true
 
 - text: "Pre-Intro"
-  translation: ""
+  translation: "Pre-Intro"
+  skip_translation: true
 
 - text: "Enforcer Characters"
-  translation: ""
+  translation: "Enforcer Characters"
+  skip_translation: true
 
 - text: "UnderFloor"
-  translation: ""
+  translation: "UnderFloor"
+  skip_translation: true
 
 - text: "Diagonal"
-  translation: ""
+  translation: "Diagonal"
+  skip_translation: true
 
 - text: "Let Enforcer Grope Zoey"
-  translation: ""
+  translation: "Let Enforcer Grope Zoey"
+  skip_translation: true
 
 - text: "TopWallLeft"
-  translation: ""
+  translation: "TopWallLeft"
+  skip_translation: true
 
 - text: "TopLeftCorner"
-  translation: ""
+  translation: "TopLeftCorner"
+  skip_translation: true
 
 - text: "FrontDesk"
-  translation: ""
+  translation: "FrontDesk"
+  skip_translation: true
 
 - text: "TopGrassThing"
-  translation: ""
+  translation: "TopGrassThing"
+  skip_translation: true
 
 - text: "TopWallMiddle"
-  translation: ""
+  translation: "TopWallMiddle"
+  skip_translation: true
 
 - text: "Couple in Lobby Conversation"
-  translation: ""
+  translation: "Couple in Lobby Conversation"
+  skip_translation: true
 
 - text: "Flower Rendering Fallback"
-  translation: ""
+  translation: "Flower Rendering Fallback"
+  skip_translation: true
 
 - text: "Lobby"
-  translation: ""
+  translation: "Lobby"
+  skip_translation: true
 
 - text: "RightCorner"
-  translation: ""
+  translation: "RightCorner"
+  skip_translation: true
 
 - text: "CornerCouch"
-  translation: ""
+  translation: "CornerCouch"
+  skip_translation: true
 
 - text: "WallSlots"
-  translation: ""
+  translation: "WallSlots"
+  skip_translation: true
 
 - text: "BackHallway"
-  translation: ""
+  translation: "BackHallway"
+  skip_translation: true
 
 - text: "RightFloorThing"
-  translation: ""
+  translation: "RightFloorThing"
+  skip_translation: true
 
 - text: "CounterFloor"
-  translation: ""
+  translation: "CounterFloor"
+  skip_translation: true
 
 - text: "TopWallRight"
-  translation: ""
+  translation: "TopWallRight"
+  skip_translation: true
 
 - text: "MetalPanelThing"
-  translation: ""
+  translation: "MetalPanelThing"
+  skip_translation: true
 
 - text: "Couchs"
-  translation: ""
+  translation: "Couchs"
+  skip_translation: true
 
 - text: "LongCounter"
-  translation: ""
+  translation: "LongCounter"
+  skip_translation: true
 
 - text: "CornerPillar"
-  translation: ""
+  translation: "CornerPillar"
+  skip_translation: true
 
 - text: "BottomCorner"
-  translation: ""
+  translation: "BottomCorner"
+  skip_translation: true
 
 - text: "CornerLowCouch"
-  translation: ""
+  translation: "CornerLowCouch"
+  skip_translation: true
 
 - text: "Enforcer 2"
-  translation: ""
+  translation: "Enforcer 2"
+  skip_translation: true
 
 - text: "Male"
-  translation: ""
+  translation: "Male"
+  skip_translation: true
 
 - text: "Enforcer 3"
-  translation: ""
+  translation: "Enforcer 3"
+  skip_translation: true
 
 - text: "Enforcer 4"
-  translation: ""
+  translation: "Enforcer 4"
+  skip_translation: true
 
 - text: "Enforcer 5"
-  translation: ""
+  translation: "Enforcer 5"
+  skip_translation: true
 
 - text: "FappyLady"
-  translation: ""
+  translation: "FappyLady"
+  skip_translation: true
 
 - text: "Enforcer 1"
-  translation: ""
+  translation: "Enforcer 1"
+  skip_translation: true
 
 - text: "Female"
-  translation: ""
+  translation: "Female"
+  skip_translation: true
 
 - text: "HoloFlowers"
-  translation: ""
+  translation: "HoloFlowers"
+  skip_translation: true
 
 - text: "NeonRiseSign"
-  translation: ""
+  translation: "NeonRiseSign"
+  skip_translation: true
 
 - text: "MainLight"
-  translation: ""
+  translation: "MainLight"
+  skip_translation: true
 
 - text: "HoloBush"
-  translation: ""
+  translation: "HoloBush"
+  skip_translation: true
 
 - text: "HoloVase"
-  translation: ""
+  translation: "HoloVase"
+  skip_translation: true
 
 - text: "Door_Lobby"
-  translation: ""
+  translation: "Door_Lobby"
+  skip_translation: true
 
 - text: "LightTable"
-  translation: ""
+  translation: "LightTable"
+  skip_translation: true
 
 - text: "PinupPickup - Zoeys Lollipop"
-  translation: ""
+  translation: "PinupPickup - Zoeys Lollipop"
+  skip_translation: true
 
 - text: "PinupPickup - Enforcer Groping"
-  translation: ""
+  translation: "PinupPickup - Enforcer Groping"
+  skip_translation: true
 
 - text: "FishTankThing"
-  translation: ""
+  translation: "FishTankThing"
+  skip_translation: true
 
 - text: "TankGlowLight"
-  translation: ""
+  translation: "TankGlowLight"
+  skip_translation: true
 
 - text: "WallBoxThing"
-  translation: ""
+  translation: "WallBoxThing"
+  skip_translation: true
 
 - text: "Seat_FrontDesk"
-  translation: ""
+  translation: "Seat_FrontDesk"
+  skip_translation: true
 
 - text: "WallShelfThing"
-  translation: ""
+  translation: "WallShelfThing"
+  skip_translation: true
 
 - text: "Xis?c-"
-  translation: ""
+  translation: "Xis?c-"
+  skip_translation: true
 
 - text: "OY~?"
   translation: "OY~?"
@@ -236,7 +293,8 @@
   skip_translation: true
 
 - text: "Mis?n"
-  translation: ""
+  translation: "Mis?n"
+  skip_translation: true
 
 - text: "Cm;"
   translation: "Cm;"
@@ -287,7 +345,8 @@
   skip_translation: true
 
 - text: "Xhs?X'"
-  translation: ""
+  translation: "Xhs?X'"
+  skip_translation: true
 
 - text: "Y#z"
   translation: "Y#z"
@@ -394,70 +453,79 @@
   skip_translation: true
 
 - text: "Did rat out?)"
-  translation: ""
+  translation: "Did rat out?)"
+  skip_translation: true
 
 - text: "Is in Party with someone?"
-  translation: ""
+  translation: "Is in Party with someone?"
+  skip_translation: true
 
 - text: "Why not gas her out, sir?"
-  translation: ""
+  translation: "Почему не выкурить её газом, сэр?"
 
 - text: "Zv@"
   translation: "Zv@"
   skip_translation: true
 
 - text: "We are so fucked!"
-  translation: ""
+  translation: "Мы в полной жопе!"
 
 - text: "They found the fucking place!"
-  translation: ""
+  translation: "Они нашли это гребанное место!"
 
 - text: "Shh! Not so loud!"
-  translation: ""
+  translation: "Тсс! Не так громко!"
 
 - text: "We have to get the money from in there!"
-  translation: ""
+  translation: "Нам нужно забрать деньги оттуда!"
 
 - text: "NeonRise_Lobby_Keys/Did Listen to Couple"
-  translation: ""
+  translation: "NeonRise_Lobby_Keys/Did Listen to Couple"
+  skip_translation: true
 
 - text: "Did listen to couple?"
-  translation: ""
+  translation: "Did listen to couple?"
+  skip_translation: true
 
 - text: "On Interacted 1st time"
-  translation: ""
+  translation: "On Interacted 1st time"
+  skip_translation: true
 
 - text: "NeonRise_Lobby_Keys/Did Interact with Couple"
-  translation: ""
+  translation: "NeonRise_Lobby_Keys/Did Interact with Couple"
+  skip_translation: true
 
 - text: "took pic"
-  translation: ""
+  translation: "took pic"
+  skip_translation: true
 
 - text: "Have you done this before?"
-  translation: ""
+  translation: "Ты уже делала это раньше?"
 
 - text: "Exhibitionist"
-  translation: ""
+  translation: "Эксгибиционистка"
 
 - text: "Vv?:"
   translation: "Vv?:"
   skip_translation: true
 
 - text: "Ready for headset?"
-  translation: ""
+  translation: "Готова к гарнитуре?"
 
 - text: "Turn on headset"
-  translation: ""
+  translation: "Надеть гарнитуру"
 
 - text: "Bq?"
   translation: "Bq?"
   skip_translation: true
 
 - text: "This is called from Dialogue FSM"
-  translation: ""
+  translation: "This is called from Dialogue FSM"
+  skip_translation: true
 
 - text: "Female Guard Grope 1 - Take Off Jacket"
-  translation: ""
+  translation: "Female Guard Grope 1 - Take Off Jacket"
+  skip_translation: true
 
 - text: "@EG"
   translation: "@EG"
@@ -528,7 +596,8 @@
   skip_translation: true
 
 - text: "L/;`yY?p-r?"
-  translation: ""
+  translation: "L/;`yY?p-r?"
+  skip_translation: true
 
 - text: "Fy?"
   translation: "Fy?"

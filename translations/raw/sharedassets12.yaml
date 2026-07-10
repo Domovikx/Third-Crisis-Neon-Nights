@@ -1,7 +1,8 @@
 # raw (sharedassets12)
 
 - text: "AI_interface"
-  translation: ""
+  translation: "AI_interface"
+  skip_translation: true
 
 - text: "A$V0C"
   translation: "A$V0C"
@@ -28,44 +29,56 @@
   skip_translation: true
 
 - text: "AvlI"
-  translation: ""
+  translation: "AvlI"
+  skip_translation: true
 
 - text: "AvlP6"
-  translation: ""
+  translation: "AvlP6"
+  skip_translation: true
 
 - text: "Fbang1_1"
-  translation: ""
+  translation: "Fbang1_1"
+  skip_translation: true
 
 - text: "Fbang1_2"
-  translation: ""
+  translation: "Fbang1_2"
+  skip_translation: true
 
 - text: "RLlid"
-  translation: ""
+  translation: "RLlid"
+  skip_translation: true
 
 - text: "RULid"
-  translation: ""
+  translation: "RULid"
+  skip_translation: true
 
 - text: "KqH"
   translation: "KqH"
   skip_translation: true
 
 - text: "holo_denied_BGnoise copy"
-  translation: ""
+  translation: "holo_denied_BGnoise copy"
+  skip_translation: true
 
 - text: "holo_denied_BGnoise copy 3"
-  translation: ""
+  translation: "holo_denied_BGnoise copy 3"
+  skip_translation: true
 
 - text: "holo_denied_BGnoise copy 6"
-  translation: ""
+  translation: "holo_denied_BGnoise copy 6"
+  skip_translation: true
 
 - text: "holo_denied_BGnoise copy 8"
-  translation: ""
+  translation: "holo_denied_BGnoise copy 8"
+  skip_translation: true
 
 - text: "holo_denied_BGnoise copy 9"
-  translation: ""
+  translation: "holo_denied_BGnoise copy 9"
+  skip_translation: true
 
 - text: "holo_denied_BGnoise copy 11"
-  translation: ""
+  translation: "holo_denied_BGnoise copy 11"
+  skip_translation: true
 
 - text: "Lfan_blade"
   translation: "Lfan_blade"
@@ -128,13 +141,14 @@
   skip_translation: true
 
 - text: "gag ball"
-  translation: ""
+  translation: "Кляп-шар"
 
 - text: "gag ball strap"
-  translation: ""
+  translation: "Ремень кляпа"
 
 - text: "Rpupil"
-  translation: ""
+  translation: "Rpupil"
+  skip_translation: true
 
 - text: "Rfan_blade"
   translation: "Rfan_blade"
@@ -145,44 +159,47 @@
   skip_translation: true
 
 - text: "printer_core_progress_lights copy"
-  translation: ""
+  translation: "printer_core_progress_lights copy"
+  skip_translation: true
 
 - text: "VU5@"
-  translation: ""
+  translation: "VU5@"
+  skip_translation: true
 
 - text: "A%W"
   translation: "A%W"
   skip_translation: true
 
 - text: "DoorOpen_Snappy"
-  translation: ""
+  translation: "Дверь быстро открывается"
 
 - text: "Cat Tree 1 Sway LR"
-  translation: ""
+  translation: "Когтеточка 1 качание влево-вправо"
 
 - text: "Cat Tree 1 Sway UD"
-  translation: ""
+  translation: "Когтеточка 1 качание вверх-вниз"
 
 - text: "Cat Tree 2 Sway LR"
-  translation: ""
+  translation: "Когтеточка 2 качание влево-вправо"
 
 - text: "Cat Tree 2 Sway UD"
-  translation: ""
+  translation: "Когтеточка 2 качание вверх-вниз"
 
 - text: "Cat Tree 3 Sway LR"
-  translation: ""
+  translation: "Когтеточка 3 качание влево-вправо"
 
 - text: "Cat Tree 3 Sway UD"
-  translation: ""
+  translation: "Когтеточка 3 качание вверх-вниз"
 
 - text: "Key Hidden"
-  translation: ""
+  translation: "Ключ спрятан"
 
 - text: "Key Waiting to be taken"
-  translation: ""
+  translation: "Ключ ждёт, чтобы его взяли"
 
 - text: "PushOutKey"
-  translation: ""
+  translation: "PushOutKey"
+  skip_translation: true
 
 - text: "@OUU"
   translation: "@OUU"
@@ -193,39 +210,43 @@
   skip_translation: true
 
 - text: "1278-Theee... Cartel_"
-  translation: ""
+  translation: "1278-Тыыы... Картель_"
 
 - text: "1118-Oh! I'll check!"
-  translation: ""
+  translation: "1118-О! Я проверю!"
 
 - text: "83-Where'd you even get this thing from_"
-  translation: ""
+  translation: "83-Откуда ты вообще взял эту штуку_"
 
 - text: "Uc1B"
   translation: "Uc1B"
   skip_translation: true
 
 - text: "Nipplesucker Light"
-  translation: ""
+  translation: "Свет присоски для сосков"
 
 - text: "Door_Snappy"
-  translation: ""
+  translation: "Дверь с хлопком"
 
 - text: "2 LRb"
   translation: "2 LRb"
   skip_translation: true
 
 - text: "3 LR|ke"
-  translation: ""
+  translation: "3 LR|ke"
+  skip_translation: true
 
 - text: "3 UD;"
-  translation: ""
+  translation: "3 UD;"
+  skip_translation: true
 
 - text: "1 UD"
-  translation: ""
+  translation: "1 UD"
+  skip_translation: true
 
 - text: "2 UD1"
-  translation: ""
+  translation: "2 UD1"
+  skip_translation: true
 
 - text: "Fishx"
   translation: "Fishx"
@@ -240,7 +261,7 @@
   skip_translation: true
 
 - text: "Printing"
-  translation: ""
+  translation: "Печать"
 
 - text: "Ga=)\\O?"
   translation: "Ga=)\\\\O?"
@@ -267,7 +288,8 @@
   skip_translation: true
 
 - text: "Bo\""
-  translation: ""
+  translation: "Bo\""
+  skip_translation: true
 
 - text: "T?Ga"
   translation: "T?Ga"
@@ -286,26 +308,26 @@
   skip_translation: true
 
 - text: "Door_Apartment"
-  translation: ""
+  translation: "Дверь квартиры"
 
 - text: "Door_Wardrobe"
-  translation: ""
+  translation: "Дверь шкафа"
 
 - text: "V|A;"
   translation: "V|A;"
   skip_translation: true
 
 - text: "Apartment Bathroom Floor 1"
-  translation: ""
+  translation: "Пол ванной квартиры 1"
 
 - text: "Apartment Hall Floor"
-  translation: ""
+  translation: "Пол коридора квартиры"
 
 - text: "Apartment Kitchen Floor"
-  translation: ""
+  translation: "Пол кухни квартиры"
 
 - text: "Intruiged"
-  translation: ""
+  translation: "Заинтригован"
 
 - text: "Me?"
   translation: "Me?"
@@ -316,17 +338,19 @@
   skip_translation: true
 
 - text: "January_Presets"
-  translation: ""
+  translation: "Январь_Пресеты"
 
 - text: "Unknown"
-  translation: ""
+  translation: "Неизвестно"
 
 - text: "DontTell"
-  translation: ""
+  translation: "DontTell"
+  skip_translation: true
 
 - text: "Where'd you even get this thing from?"
-  translation: ""
+  translation: "Откуда ты вообще взял эту штуку?"
 
 - text: "TellHim"
-  translation: ""
+  translation: "TellHim"
+  skip_translation: true
 

@@ -1,13 +1,16 @@
 # raw (sharedassets5)
 
 - text: "ZenDots-Regular Atlas Material"
-  translation: ""
+  translation: "ZenDots-Regular Atlas Material"
+  skip_translation: true
 
 - text: "NN Fakelight Correct Alpha"
-  translation: ""
+  translation: "NN Fakelight Correct Alpha"
+  skip_translation: true
 
 - text: "Sprite Lit Alpha Boost"
-  translation: ""
+  translation: "Sprite Lit Alpha Boost"
+  skip_translation: true
 
 - text: "Shader Graphs_NN Glitter"
   translation: "Shader Graphs_NN Glitter"
@@ -22,32 +25,40 @@
   skip_translation: true
 
 - text: "MirrorMask"
-  translation: ""
+  translation: "MirrorMask"
+  skip_translation: true
 
 - text: "Moveable Door Screen"
-  translation: ""
+  translation: "Moveable Door Screen"
+  skip_translation: true
 
 - text: "Moveable Door Screen Transparent"
-  translation: ""
+  translation: "Moveable Door Screen Transparent"
+  skip_translation: true
 
 - text: "Nail Salon Wall Cut"
-  translation: ""
+  translation: "Nail Salon Wall Cut"
+  skip_translation: true
 
 - text: "SplitScreenMask"
-  translation: ""
+  translation: "SplitScreenMask"
+  skip_translation: true
 
 - text: "Sparkler 02_#[512,288]"
-  translation: ""
+  translation: "Sparkler 02_#[512,288]"
+  skip_translation: true
 
 - text: "ZenDots-Regular Atlas"
-  translation: ""
+  translation: "ZenDots-Regular Atlas"
+  skip_translation: true
 
 - text: "Z?e"
   translation: "Z?e"
   skip_translation: true
 
 - text: "I0?wS"
-  translation: ""
+  translation: "I0?wS"
+  skip_translation: true
 
 - text: "EFq?"
   translation: "EFq?"
@@ -94,23 +105,28 @@
   skip_translation: true
 
 - text: "wD; E"
-  translation: ""
+  translation: "wD; E"
+  skip_translation: true
 
 - text: "Ic?"
   translation: "Ic?"
   skip_translation: true
 
 - text: "Blink Speed"
-  translation: ""
+  translation: "Blink Speed"
+  skip_translation: true
 
 - text: "Glitter Offset"
-  translation: ""
+  translation: "Glitter Offset"
+  skip_translation: true
 
 - text: "MainTex2"
-  translation: ""
+  translation: "MainTex2"
+  skip_translation: true
 
 - text: "Alpha Boost"
-  translation: ""
+  translation: "Alpha Boost"
+  skip_translation: true
 
 - text: "Blaf"
   translation: "Blaf"
@@ -129,7 +145,8 @@
   skip_translation: true
 
 - text: "Uj\""
-  translation: ""
+  translation: "Uj\""
+  skip_translation: true
 
 - text: "UUQA"
   translation: "UUQA"
@@ -144,23 +161,28 @@
   skip_translation: true
 
 - text: "Lios Server - Blinking"
-  translation: ""
+  translation: "Lios Server - Blinking"
+  skip_translation: true
 
 - text: "ZnV"
   translation: "ZnV"
   skip_translation: true
 
 - text: "Moveable Door - Close Movement"
-  translation: ""
+  translation: "Moveable Door - Close Movement"
+  skip_translation: true
 
 - text: "Moveable Door - Closed Static"
-  translation: ""
+  translation: "Moveable Door - Closed Static"
+  skip_translation: true
 
 - text: "Moveable Door - Open Movement"
-  translation: ""
+  translation: "Moveable Door - Open Movement"
+  skip_translation: true
 
 - text: "Afe"
-  translation: ""
+  translation: "Afe"
+  skip_translation: true
 
 - text: "`AUU"
   translation: "`AUU"
@@ -215,19 +237,24 @@
   skip_translation: true
 
 - text: "Moveable Door - Open Static"
-  translation: ""
+  translation: "Moveable Door - Open Static"
+  skip_translation: true
 
 - text: "Left Pizzabox"
-  translation: ""
+  translation: "Left Pizzabox"
+  skip_translation: true
 
 - text: "Step on Pizzabox"
-  translation: ""
+  translation: "Step on Pizzabox"
+  skip_translation: true
 
 - text: "Swinging"
-  translation: ""
+  translation: "Swinging"
+  skip_translation: true
 
 - text: "UpDown"
-  translation: ""
+  translation: "UpDown"
+  skip_translation: true
 
 - text: "6G3A"
   translation: "6G3A"
@@ -282,13 +309,16 @@
   skip_translation: true
 
 - text: "RoboHelper_Idle"
-  translation: ""
+  translation: "RoboHelper_Idle"
+  skip_translation: true
 
 - text: "ACtQ"
-  translation: ""
+  translation: "ACtQ"
+  skip_translation: true
 
 - text: "Robo_Interacted"
-  translation: ""
+  translation: "Robo_Interacted"
+  skip_translation: true
 
 - text: "Ahf2"
   translation: "Ahf2"
@@ -339,10 +369,12 @@
   skip_translation: true
 
 - text: "Swingingr"
-  translation: ""
+  translation: "Swingingr"
+  skip_translation: true
 
 - text: "Step on Pizzabox1:"
-  translation: ""
+  translation: "Step on Pizzabox1:"
+  skip_translation: true
 
 - text: "Am#"
   translation: "Am#"
@@ -353,25 +385,32 @@
   skip_translation: true
 
 - text: "Facing Layer"
-  translation: ""
+  translation: "Facing Layer"
+  skip_translation: true
 
 - text: "Shake Additive"
-  translation: ""
+  translation: "Shake Additive"
+  skip_translation: true
 
 - text: "IsRight"
-  translation: ""
+  translation: "IsRight"
+  skip_translation: true
 
 - text: "Sparkler 02"
-  translation: ""
+  translation: "Sparkler 02"
+  skip_translation: true
 
 - text: "ZenDots-Regular"
-  translation: ""
+  translation: "ZenDots-Regular"
+  skip_translation: true
 
 - text: "0OS/2_"
-  translation: ""
+  translation: "0OS/2_"
+  skip_translation: true
 
 - text: "Othead"
-  translation: ""
+  translation: "Othead"
+  skip_translation: true
 
 - text: "- B N \\ h"
   translation: "- B N \\ h"
@@ -398,58 +437,72 @@
   skip_translation: true
 
 - text: "Wacute"
-  translation: ""
+  translation: "Wacute"
+  skip_translation: true
 
 - text: "Wcircumflex"
-  translation: ""
+  translation: "Wcircumflex"
+  skip_translation: true
 
 - text: "Wdieresis"
-  translation: ""
+  translation: "Wdieresis"
+  skip_translation: true
 
 - text: "Wgrave"
-  translation: ""
+  translation: "Wgrave"
+  skip_translation: true
 
 - text: "Ycircumflex"
-  translation: ""
+  translation: "Ycircumflex"
+  skip_translation: true
 
 - text: "Ygrave"
-  translation: ""
+  translation: "Ygrave"
+  skip_translation: true
 
 - text: "CTx"
   translation: "CTx"
   skip_translation: true
 
 - text: "CCad"
-  translation: ""
+  translation: "CCad"
+  skip_translation: true
 
 - text: "Lobby Atlas 4k"
-  translation: ""
+  translation: "Lobby Atlas 4k"
+  skip_translation: true
 
 - text: "Sparkler 02_#[512,288]_12"
-  translation: ""
+  translation: "Sparkler 02_#[512,288]_12"
+  skip_translation: true
 
 - text: "MTBj"
   translation: "MTBj"
   skip_translation: true
 
 - text: "Sparkler 02_#[512,288]_2"
-  translation: ""
+  translation: "Sparkler 02_#[512,288]_2"
+  skip_translation: true
 
 - text: "HDp"
   translation: "HDp"
   skip_translation: true
 
 - text: "Sparkler 02_#[512,288]_1"
-  translation: ""
+  translation: "Sparkler 02_#[512,288]_1"
+  skip_translation: true
 
 - text: "Sparkler 02_#[512,288]_9"
-  translation: ""
+  translation: "Sparkler 02_#[512,288]_9"
+  skip_translation: true
 
 - text: "Sparkler 02_#[512,288]_0"
-  translation: ""
+  translation: "Sparkler 02_#[512,288]_0"
+  skip_translation: true
 
 - text: "Sparkler 02_#[512,288]_5"
-  translation: ""
+  translation: "Sparkler 02_#[512,288]_5"
+  skip_translation: true
 
 - text: "D8A"
   translation: "D8A"
@@ -464,30 +517,36 @@
   skip_translation: true
 
 - text: "Sparkler 02_#[512,288]_8"
-  translation: ""
+  translation: "Sparkler 02_#[512,288]_8"
+  skip_translation: true
 
 - text: "M,Bd"
   translation: "M,Bd"
   skip_translation: true
 
 - text: "Sparkler 02_#[512,288]_4"
-  translation: ""
+  translation: "Sparkler 02_#[512,288]_4"
+  skip_translation: true
 
 - text: "Nail Salon Black Overlay"
-  translation: ""
+  translation: "Nail Salon Black Overlay"
+  skip_translation: true
 
 - text: "Nail Salon Black Overlay Atlas"
-  translation: ""
+  translation: "Nail Salon Black Overlay Atlas"
+  skip_translation: true
 
 - text: "Sparkler 02_#[512,288]_10"
-  translation: ""
+  translation: "Sparkler 02_#[512,288]_10"
+  skip_translation: true
 
 - text: "KBh"
   translation: "KBh"
   skip_translation: true
 
 - text: "Sparkler 02_#[512,288]_11"
-  translation: ""
+  translation: "Sparkler 02_#[512,288]_11"
+  skip_translation: true
 
 - text: "MHBt"
   translation: "MHBt"
@@ -498,14 +557,16 @@
   skip_translation: true
 
 - text: "OLx@j"
-  translation: ""
+  translation: "OLx@j"
+  skip_translation: true
 
 - text: "Ds+"
   translation: "Ds+"
   skip_translation: true
 
 - text: "Sparkler 02_#[512,288]_7"
-  translation: ""
+  translation: "Sparkler 02_#[512,288]_7"
+  skip_translation: true
 
 - text: "ZA?"
   translation: "ZA?"
@@ -524,7 +585,8 @@
   skip_translation: true
 
 - text: "'AG"
-  translation: ""
+  translation: "'AG"
+  skip_translation: true
 
 - text: "?A`)A="
   translation: "?A`)A="
@@ -547,10 +609,12 @@
   skip_translation: true
 
 - text: "Sparkler 02_#[512,288]_3"
-  translation: ""
+  translation: "Sparkler 02_#[512,288]_3"
+  skip_translation: true
 
 - text: "Sparkler 02_#[512,288]_6"
-  translation: ""
+  translation: "Sparkler 02_#[512,288]_6"
+  skip_translation: true
 
 - text: "(AX"
   translation: "(AX"
@@ -569,20 +633,24 @@
   skip_translation: true
 
 - text: "UUUUUU7@"
-  translation: ""
+  translation: "UUUUUU7@"
+  skip_translation: true
 
 - text: "Jam"
-  translation: ""
+  translation: "Jam"
+  skip_translation: true
 
 - text: "Toggle 2"
-  translation: ""
+  translation: "Toggle 2"
+  skip_translation: true
 
 - text: "MbP?"
   translation: "MbP?"
   skip_translation: true
 
 - text: "NailSalonRobotBarks - Elethia"
-  translation: ""
+  translation: "NailSalonRobotBarks - Elethia"
+  skip_translation: true
 
 - text: "Uwa!"
   translation: "Uwa!"
@@ -593,10 +661,11 @@
   skip_translation: true
 
 - text: "NailSalonRobotBarks - Galaty Neko"
-  translation: ""
+  translation: "NailSalonRobotBarks - Galaty Neko"
+  skip_translation: true
 
 - text: "Found me!"
-  translation: ""
+  translation: "Нашёл меня!"
 
 - text: "Boop!"
   translation: "Boop!"
@@ -611,44 +680,47 @@
   skip_translation: true
 
 - text: "Friend Located!"
-  translation: ""
+  translation: "Друг обнаружен!"
 
 - text: "Boop detected!"
-  translation: ""
+  translation: "Буп обнаружен!"
 
 - text: "NailSalonRobotBarks - Melody"
-  translation: ""
+  translation: "NailSalonRobotBarks - Melody"
+  skip_translation: true
 
 - text: "Friend located!"
-  translation: ""
+  translation: "Друг найден!"
 
 - text: "Hey, big boy!"
-  translation: ""
+  translation: "Эй, большой мальчик!"
 
 - text: "Looking for a good time?"
-  translation: ""
+  translation: "Ищешь развлечений?"
 
 - text: "NailSalonRobotBarks - SifAvelana"
-  translation: ""
+  translation: "NailSalonRobotBarks - SifAvelana"
+  skip_translation: true
 
 - text: "Uppies!"
-  translation: ""
+  translation: "На ручки!"
 
 - text: "NailSalonRobotBarks - XenoQueen"
-  translation: ""
+  translation: "NailSalonRobotBarks - XenoQueen"
+  skip_translation: true
 
 - text: "Beep boop!"
-  translation: ""
+  translation: "Бип-буп!"
 
 - text: "Blee bloop!"
-  translation: ""
+  translation: "Бли-блуп!"
 
 - text: "Brr!"
   translation: "Brr!"
   skip_translation: true
 
 - text: "Deewoo!"
-  translation: ""
+  translation: "Ди-ву!"
 
 - text: "Heeya!"
   translation: "Heeya!"
@@ -667,112 +739,143 @@
   skip_translation: true
 
 - text: "Cable 1"
-  translation: ""
+  translation: "Cable 1"
+  skip_translation: true
 
 - text: "Salon Robo Presets"
-  translation: ""
+  translation: "Salon Robo Presets"
+  skip_translation: true
 
 - text: "Oh-! Wow! That's- Wow!"
-  translation: ""
+  translation: "О-! Вау! Это- Вау!"
 
 - text: "Split Screen Camera Profile"
-  translation: ""
+  translation: "Split Screen Camera Profile"
+  skip_translation: true
 
 - text: "0.3 - NailSalon - Backroom - 1 - Initial Max Talk"
-  translation: ""
+  translation: "0.3 - NailSalon - Backroom - 1 - Initial Max Talk"
+  skip_translation: true
 
 - text: "0.3 - NailSalon - Backroom - 1 - Secret Door - 0"
-  translation: ""
+  translation: "0.3 - NailSalon - Backroom - 1 - Secret Door - 0"
+  skip_translation: true
 
 - text: "0.3 - NailSalon - Backroom - 1 - Secret Door - 1"
-  translation: ""
+  translation: "0.3 - NailSalon - Backroom - 1 - Secret Door - 1"
+  skip_translation: true
 
 - text: "Jam Preset"
-  translation: ""
+  translation: "Jam Preset"
+  skip_translation: true
 
 - text: "Jam Idle"
-  translation: ""
+  translation: "Jam Idle"
+  skip_translation: true
 
 - text: "Unfortunately?"
-  translation: ""
+  translation: "К сожалению?"
 
 - text: "0.3 - Nail Salon Porn - 1 - 1"
-  translation: ""
+  translation: "0.3 - Nail Salon Porn - 1 - 1"
+  skip_translation: true
 
 - text: "0.3 - Nail Salon Porn - 1 - 2 - 1"
-  translation: ""
+  translation: "0.3 - Nail Salon Porn - 1 - 2 - 1"
+  skip_translation: true
 
 - text: "0.3 - Nail Salon Porn - 1 - 2 - 2"
-  translation: ""
+  translation: "0.3 - Nail Salon Porn - 1 - 2 - 2"
+  skip_translation: true
 
 - text: "0.3 - Nail Salon Porn - 1 - 2 - 3"
-  translation: ""
+  translation: "0.3 - Nail Salon Porn - 1 - 2 - 3"
+  skip_translation: true
 
 - text: "0.3 - Nail Salon Porn - 1 - 2 - 4"
-  translation: ""
+  translation: "0.3 - Nail Salon Porn - 1 - 2 - 4"
+  skip_translation: true
 
 - text: "0.3 - Nail Salon Porn - 1 - 2 - 5"
-  translation: ""
+  translation: "0.3 - Nail Salon Porn - 1 - 2 - 5"
+  skip_translation: true
 
 - text: "0.3 - Nail Salon Porn - 1 - 2 - 6"
-  translation: ""
+  translation: "0.3 - Nail Salon Porn - 1 - 2 - 6"
+  skip_translation: true
 
 - text: "0.3 - Nail Salon Porn - 1 - 3"
-  translation: ""
+  translation: "0.3 - Nail Salon Porn - 1 - 3"
+  skip_translation: true
 
 - text: "0.3 - Nail Salon Porn - 1 - 4 - 1"
-  translation: ""
+  translation: "0.3 - Nail Salon Porn - 1 - 4 - 1"
+  skip_translation: true
 
 - text: "0.3 - Nail Salon Porn - 1 - 4 - 2"
-  translation: ""
+  translation: "0.3 - Nail Salon Porn - 1 - 4 - 2"
+  skip_translation: true
 
 - text: "0.3 - Nail Salon Porn - 1 - 4 - 3"
-  translation: ""
+  translation: "0.3 - Nail Salon Porn - 1 - 4 - 3"
+  skip_translation: true
 
 - text: "0.3 - Nail Salon Porn - 1 - 5 - 1"
-  translation: ""
+  translation: "0.3 - Nail Salon Porn - 1 - 5 - 1"
+  skip_translation: true
 
 - text: "0.3 - Nail Salon Porn - 1 - 5 - 2"
-  translation: ""
+  translation: "0.3 - Nail Salon Porn - 1 - 5 - 2"
+  skip_translation: true
 
 - text: "0.3 - Nail Salon Porn - 1 - 6"
-  translation: ""
+  translation: "0.3 - Nail Salon Porn - 1 - 6"
+  skip_translation: true
 
 - text: "0.3 - Nail Salon Porn - 1 - 8"
-  translation: ""
+  translation: "0.3 - Nail Salon Porn - 1 - 8"
+  skip_translation: true
 
 - text: "0.3 - Nail Salon Porn - 1 - 9"
-  translation: ""
+  translation: "0.3 - Nail Salon Porn - 1 - 9"
+  skip_translation: true
 
 - text: "Masturbating"
-  translation: ""
+  translation: "Masturbating"
+  skip_translation: true
 
 - text: "Show Backroom CutsceneTimeline"
   translation: "Show Backroom CutsceneTimeline"
   skip_translation: true
 
 - text: "Annoyed"
-  translation: ""
+  translation: "Annoyed"
+  skip_translation: true
 
 - text: "Y-Yeah!"
-  translation: ""
+  translation: "Д-Да!"
 
 - text: "NN Lightstrip Sprite Shape Profile"
-  translation: ""
+  translation: "NN Lightstrip Sprite Shape Profile"
+  skip_translation: true
 
 - text: "ZenDots-Regular SDF"
-  translation: ""
+  translation: "ZenDots-Regular SDF"
+  skip_translation: true
 
 - text: "Zen Dots"
-  translation: ""
+  translation: "Zen Dots"
+  skip_translation: true
 
 - text: "IB'"
   translation: "IB'"
   skip_translation: true
 
 - text: "Toggle 1"
-  translation: ""
+  translation: "Toggle 1"
+  skip_translation: true
 
 - text: "Computers"
-  translation: ""
+  translation: "Computers"
+  skip_translation: true
 

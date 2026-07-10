@@ -129,8 +129,7 @@
   skip_translation: true
 
 - text: "2 Box"
-  translation: "2 Box"
-  skip_translation: true
+  translation: "Ящик 2"
 
 - text: "DQcr"
   translation: "DQcr"
@@ -169,7 +168,7 @@
   skip_translation: true
 
 - text: "suitcase lock r"
-  translation: ""
+  translation: "Правый замок чемодана"
 
 - text: "AR&("
   translation: "AR&("
@@ -354,8 +353,7 @@
   skip_translation: true
 
 - text: "Suitcase Open"
-  translation: "Suitcase Open"
-  skip_translation: true
+  translation: "Чемодан открыт"
 
 - text: "AhQ"
   translation: "AhQ"
@@ -370,36 +368,29 @@
   skip_translation: true
 
 - text: "is suitcase open?"
-  translation: "is suitcase open?"
-  skip_translation: true
+  translation: "Чемодан открыт?"
 
 - text: "wait for click"
-  translation: "wait for click"
-  skip_translation: true
+  translation: "Ожидание клика"
 
 - text: "Move up Animation"
-  translation: "Move up Animation"
-  skip_translation: true
+  translation: "Анимация подъёма"
 
 - text: "BVU"
   translation: "BVU"
   skip_translation: true
 
 - text: "is open event"
-  translation: "is open event"
-  skip_translation: true
+  translation: "Событие открытия"
 
 - text: "is open"
-  translation: "is open"
-  skip_translation: true
+  translation: "Открыт"
 
 - text: "Wait 2 s"
-  translation: "Wait 2 s"
-  skip_translation: true
+  translation: "Подождать 2 с"
 
 - text: "Injector"
-  translation: "Injector"
-  skip_translation: true
+  translation: "Инжектор"
 
 - text: "Value"
   translation: "Value"
@@ -418,68 +409,56 @@
   skip_translation: true
 
 - text: "Wait for 2nd Click"
-  translation: "Wait for 2nd Click"
-  skip_translation: true
+  translation: "Ожидание второго клика"
 
 - text: "0CVU"
   translation: "0CVU"
   skip_translation: true
 
 - text: "Pop out Socket"
-  translation: "Pop out Socket"
-  skip_translation: true
+  translation: "Вытолкнуть штекер"
 
 - text: "@CUU"
   translation: "@CUU"
   skip_translation: true
 
 - text: "Wait 1s"
-  translation: "Wait 1s"
-  skip_translation: true
+  translation: "Подождать 1 с"
 
 - text: "AR5"
   translation: "AR5"
   skip_translation: true
 
 - text: "Injector Pop Out"
-  translation: "Injector Pop Out"
-  skip_translation: true
+  translation: "Выталкивание инжектора"
 
 - text: "ARhqkZ"
   translation: "ARhqkZ"
   skip_translation: true
 
 - text: "Right Lock Hitbox"
-  translation: "Right Lock Hitbox"
-  skip_translation: true
+  translation: "Хитбокс правого замка"
 
 - text: "left lock open?"
-  translation: "left lock open?"
-  skip_translation: true
+  translation: "Левый замок открыт?"
 
 - text: "right lock open?"
-  translation: "right lock open?"
-  skip_translation: true
+  translation: "Правый замок открыт?"
 
 - text: "right lock open event"
-  translation: "right lock open event"
-  skip_translation: true
+  translation: "Событие открытия правого замка"
 
 - text: "right lock open"
-  translation: "right lock open"
-  skip_translation: true
+  translation: "Правый замок открыт"
 
 - text: "left lock open event"
-  translation: "left lock open event"
-  skip_translation: true
+  translation: "Событие открытия левого замка"
 
 - text: "left lock open"
-  translation: "left lock open"
-  skip_translation: true
+  translation: "Левый замок открыт"
 
 - text: "Set Animation"
-  translation: "Set Animation"
-  skip_translation: true
+  translation: "Установить анимацию"
 
 - text: "H,jK3"
   translation: "H,jK3"
@@ -490,8 +469,7 @@
   skip_translation: true
 
 - text: "Activate Injector Highlight"
-  translation: "Activate Injector Highlight"
-  skip_translation: true
+  translation: "Активировать подсветку инжектора"
 
 - text: "OnCaseOpened"
   translation: "OnCaseOpened"
@@ -542,8 +520,7 @@
   skip_translation: true
 
 - text: "3 Box"
-  translation: "3 Box"
-  skip_translation: true
+  translation: "Ящик 3"
 
 - text: "ARO"
   translation: "ARO"
@@ -554,16 +531,14 @@
   skip_translation: true
 
 - text: "Handle Hitbox"
-  translation: "Handle Hitbox"
-  skip_translation: true
+  translation: "Хитбокс ручки"
 
 - text: "ARn"
   translation: "ARn"
   skip_translation: true
 
 - text: "breath Right Unlock"
-  translation: "breath Right Unlock"
-  skip_translation: true
+  translation: "Дыхание — правое открытие"
 
 - text: "Z8x"
   translation: "Z8x"
@@ -574,8 +549,7 @@
   skip_translation: true
 
 - text: "Is Unlocked?"
-  translation: "Is Unlocked?"
-  skip_translation: true
+  translation: "Разблокировано?"
 
 - text: "ARD"
   translation: "ARD"
@@ -1185,7 +1159,8 @@
   skip_translation: true
 
 - text: "IQ,"
-  translation: ""
+  translation: "IQ,"
+  skip_translation: true
 
 - text: "Texture"
   translation: "Texture"
@@ -1534,7 +1509,7 @@
   translation: "Круг 1"
 
 - text: "suitcase lock l"
-  translation: "Замок чемодана л"
+  translation: "Левый замок чемодана"
 
 - text: "Left Lock Hitbox"
   translation: "Хитбокс левого замка"

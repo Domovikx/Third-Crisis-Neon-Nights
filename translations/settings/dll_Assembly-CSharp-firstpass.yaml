@@ -1,450 +1,453 @@
 # settings (dll_Assembly-CSharp-firstpass)
 
 - text: "handlesOut must be the same size as Constants.STEAM_CONTROLLER_MAX_COUNT!"
-  translation: "handlesOut must be the same size as Constants.STEAM_CONTROLLER_MAX_COUNT!"
+  translation: "handlesOut должен быть того же размера, что и Constants.STEAM_CONTROLLER_MAX_COUNT!"
 
 - text: "originsOut must be the same size as Constants.STEAM_CONTROLLER_MAX_ORIGINS!"
-  translation: "originsOut must be the same size as Constants.STEAM_CONTROLLER_MAX_ORIGINS!"
+  translation: "originsOut должен быть того же размера, что и Constants.STEAM_CONTROLLER_MAX_ORIGINS!"
 
 - text: "pOutItemsArray must be the same size as punOutItemsArraySize!"
-  translation: "pOutItemsArray must be the same size as punOutItemsArraySize!"
+  translation: "pOutItemsArray должен быть того же размера, что и punOutItemsArraySize!"
 
 - text: "pItemDefIDs must be the same size as punItemDefIDsArraySize!"
-  translation: "pItemDefIDs must be the same size as punItemDefIDsArraySize!"
+  translation: "pItemDefIDs должен быть того же размера, что и punItemDefIDsArraySize!"
 
 - text: "pArrayItemDefs must be the same size as unArrayLength!"
-  translation: "pArrayItemDefs must be the same size as unArrayLength!"
+  translation: "pArrayItemDefs должен быть того же размера, что и unArrayLength!"
 
 - text: "pCurrentPrices must be the same size as unArrayLength!"
-  translation: "pCurrentPrices must be the same size as unArrayLength!"
+  translation: "pCurrentPrices должен быть того же размера, что и unArrayLength!"
 
 - text: "pBasePrices must be the same size as unArrayLength!"
-  translation: "pBasePrices must be the same size as unArrayLength!"
+  translation: "pBasePrices должен быть того же размера, что и unArrayLength!"
 
 - text: "handlesOut must be the same size as Constants.STEAM_INPUT_MAX_COUNT!"
-  translation: "handlesOut must be the same size as Constants.STEAM_INPUT_MAX_COUNT!"
+  translation: "handlesOut должен быть того же размера, что и Constants.STEAM_INPUT_MAX_COUNT!"
 
 - text: "handlesOut must be the same size as Constants.STEAM_INPUT_MAX_ACTIVE_LAYERS!"
-  translation: "handlesOut must be the same size as Constants.STEAM_INPUT_MAX_ACTIVE_LAYERS!"
+  translation: "handlesOut должен быть того же размера, что и Constants.STEAM_INPUT_MAX_ACTIVE_LAYERS!"
 
 - text: "originsOut must be the same size as Constants.STEAM_INPUT_MAX_ORIGINS!"
-  translation: "originsOut must be the same size as Constants.STEAM_INPUT_MAX_ORIGINS!"
+  translation: "originsOut должен быть того же размера, что и Constants.STEAM_INPUT_MAX_ORIGINS!"
 
 - text: "Callback function must not be null."
-  translation: "Callback function must not be null."
+  translation: "Функция обратного вызова не должна быть null."
 
 - text: "Callback number not found for struct"
   translation: "Номер колбэка не найден для структуры"
 
 - text: "Steamworks is not initialized."
-  translation: "Steamworks is not initialized."
+  translation: "Steamworks не инициализирован."
 
 - text: "Steamworks GameServer is not initialized."
-  translation: "Steamworks GameServer is not initialized."
+  translation: "Steamworks GameServer не инициализирован."
 
 - text: "Unknown rendering mode"
-  translation: "Unknown rendering mode"
+  translation: "Неизвестный режим рендеринга"
 
 - text: "Unknown dilate quality level"
-  translation: "Unknown dilate quality level"
+  translation: "Неизвестный уровень качества расширения"
 
 - text: "Unknown blur type"
-  translation: "Unknown blur type"
+  translation: "Неизвестный тип размытия"
 
 - text: "Trying to set cutout texture index less than zero"
-  translation: "Trying to set cutout texture index less than zero"
+  translation: "Попытка установить индекс текстуры вырезания меньше нуля"
 
 - text: "Unknown mode"
-  translation: "Unknown mode"
+  translation: "Неизвестный режим"
 
 - text: "The property"
-  translation: "The property"
+  translation: "Свойство"
 
 - text: "doesn't exist. Use string overload to create one."
-  translation: "doesn't exist. Use string overload to create one."
+  translation: "не существует. Используйте перегрузку строки для создания."
 
 - text: "You have more than 1 HtmlDebug GameObject, make sure to only use 1"
-  translation: "You have more than 1 HtmlDebug GameObject, make sure to only use 1"
+  translation: "У вас более 1 HtmlDebug GameObject, убедитесь, что используется только 1"
 
 - text: "Unity version"
-  translation: "Unity version"
+  translation: "Версия Unity"
 
 - text: "is out of range. List count is"
-  translation: "is out of range. List count is"
+  translation: "вне диапазона. Размер списка:"
 
 - text: "Invalid length!"
-  translation: "Invalid length!"
+  translation: "Неверная длина!"
 
 - text: "List is empty!"
-  translation: "List is empty!"
+  translation: "Список пуст!"
 
 - text: "is bigger than Count"
-  translation: "is bigger than Count"
+  translation: "больше чем Count"
 
 - text: "FastQueue is empty!"
-  translation: "FastQueue is empty!"
+  translation: "FastQueue пуст!"
 
 - text: "Item not found in FastQueue"
-  translation: "Item not found in FastQueue"
+  translation: "Элемент не найден в FastQueue"
 
 - text: "yyyy-MM-dd HH:mm:ss"
   translation: "yyyy-MM-dd HH:mm:ss"
+  skip_translation: true
 
 - text: "Not enough parameters"
-  translation: "Not enough parameters"
+  translation: "Недостаточно параметров"
 
 - text: "Cannot find '"
-  translation: "Cannot find '"
+  translation: "Не удаётся найти '"
 
 - text: "Cannot parse"
-  translation: "Cannot parse"
+  translation: "Не удаётся разобрать"
 
 - text: "Type '?' to list all commands"
-  translation: "Type '?' to list all commands"
+  translation: "Введите '?' для списка команд"
 
 - text: "Property has no getter or setter"
-  translation: "Property has no getter or setter"
+  translation: "Свойство не имеет геттера или сеттера"
 
 - text: "Duplicate command: `"
-  translation: "Duplicate command: `"
+  translation: "Повторяющаяся команда: `"
 
 - text: "Cannot register:"
-  translation: "Cannot register:"
+  translation: "Не удаётся зарегистрировать:"
 
 - text: ". Only primitive and string parameters are allowed at the moment."
-  translation: ". Only primitive and string parameters are allowed at the moment."
+  translation: ". В данный момент разрешены только примитивные и строковые параметры."
 
 - text: "There is no registered instance for command '"
-  translation: "There is no registered instance for command '"
+  translation: "Нет зарегистрированного экземпляра для команды '"
 
 - text: "Execute only on remote '"
-  translation: "Execute only on remote '"
+  translation: "Выполнить только на удалённом '"
 
 - text: "Execute on all '"
-  translation: "Execute on all '"
+  translation: "Выполнить на всех '"
 
 - text: "String closing \" is missing"
-  translation: "String closing \" is missing"
+  translation: "Отсутствует закрывающая кавычка \""
 
 - text: "Cannot find command '"
-  translation: "Cannot find command '"
+  translation: "Не удаётся найти команду '"
 
 - text: "Unity Log"
-  translation: "Unity Log"
+  translation: "Лог Unity"
 
 - text: "Html Log"
-  translation: "Html Log"
+  translation: "HTML-лог"
 
 - text: "Open Html Log in browser"
-  translation: "Open Html Log in browser"
+  translation: "Открыть HTML-лог в браузере"
 
 - text: "Logs Folder"
-  translation: "Logs Folder"
+  translation: "Папка логов"
 
 - text: "Open Logs Folder in File Exlorer"
-  translation: "Open Logs Folder in File Exlorer"
+  translation: "Открыть папку логов в проводнике"
 
 - text: "Centers the window in the top of the screen"
-  translation: "Centers the window in the top of the screen"
+  translation: "Центрирует окно в верхней части экрана"
 
 - text: "Clear all Logs"
-  translation: "Clear all Logs"
+  translation: "Очистить все логи"
 
 - text: "Scroll to last Log"
-  translation: "Scroll to last Log"
+  translation: "Прокрутить к последнему логу"
 
 - text: "Resize console window"
-  translation: "Resize console window"
+  translation: "Изменить размер окна консоли"
 
 - text: "Time Scale"
-  translation: "Time Scale"
+  translation: "Масштаб времени"
 
 - text: "Toggles Time-Scale to 0 and before"
-  translation: "Toggles Time-Scale to 0 and before"
+  translation: "Переключает масштаб времени на 0 и обратно"
 
 - text: "Reset Time-Scale to 1"
-  translation: "Reset Time-Scale to 1"
+  translation: "Сбросить масштаб времени на 1"
 
 - text: "Reset fov to 60"
-  translation: "Reset fov to 60"
+  translation: "Сбросить угол обзора на 60"
 
 - text: "Show Controls"
-  translation: "Show Controls"
+  translation: "Показать управление"
 
 - text: "Change tooltip, search and Camera settings"
-  translation: "Change tooltip, search and Camera settings"
+  translation: "Изменить настройки подсказок, поиска и камеры"
 
-- text: "Toggle navigation camera
-  When enabled use:"
-  translation: ""
+- text: "Toggle navigation camera\n\nWhen enabled use:"
+  translation: "Переключить навигационную камеру\n\nПри включении используйте:"
 
 - text: "Link Select"
-  translation: "Link Select"
+  translation: "Выбор связи"
 
 - text: "Link selected to Unity's hierarchy window"
-  translation: "Link selected to Unity's hierarchy window"
+  translation: "Связать выбранное с окном иерархии Unity"
 
 - text: "Child Count"
-  translation: "Child Count"
+  translation: "Количество детей"
 
 - text: "Shows the child count for each GameObject"
-  translation: "Shows the child count for each GameObject"
+  translation: "Показывает количество детей для каждого GameObject"
 
 - text: "Scene Mode"
-  translation: "Scene Mode"
+  translation: "Режим сцены"
 
 - text: "Assembly Mode"
-  translation: "Assembly Mode"
+  translation: "Режим сборки"
 
 - text: "Memory Mode"
-  translation: "Memory Mode"
+  translation: "Режим памяти"
 
 - text: "Take Snapshot"
-  translation: "Take Snapshot"
+  translation: "Сделать снимок"
 
 - text: "Take Memory Snapshot"
-  translation: "Take Memory Snapshot"
+  translation: "Сделать снимок памяти"
 
 - text: "Toggle sorting between alphabetic and child count"
-  translation: "Toggle sorting between alphabetic and child count"
+  translation: "Переключить сортировку между алфавитной и по количеству детей"
 
 - text: "Filter Compare"
-  translation: "Filter Compare"
+  translation: "Сравнение фильтров"
 
 - text: "Show HideFlags icons"
-  translation: "Show HideFlags icons"
+  translation: "Показать иконки HideFlags"
 
 - text: "Foldout one level"
-  translation: "Foldout one level"
+  translation: "Развернуть один уровень"
 
 - text: "Fold one level"
-  translation: "Fold one level"
+  translation: "Свернуть один уровень"
 
 - text: "Shift Click GameObject"
-  translation: "Shift Click GameObject"
+  translation: "Shift+Клик по GameObject"
 
 - text: "Toggle Active"
-  translation: "Toggle Active"
+  translation: "Переключить активность"
 
 - text: "Shift Click Inspector"
-  translation: "Shift Click Inspector"
+  translation: "Shift+Клик в инспекторе"
 
 - text: "Click Component in Inspector"
-  translation: "Click Component in Inspector"
+  translation: "Клик по компоненту в инспекторе"
 
 - text: "Search inside it"
-  translation: "Search inside it"
+  translation: "Искать внутри"
 
 - text: "Right Click Scene"
-  translation: "Right Click Scene"
+  translation: "Правый клик по сцене"
 
 - text: "Set Active Scene"
-  translation: "Set Active Scene"
+  translation: "Установить активную сцену"
 
 - text: "Control Click 'D'"
-  translation: "Control Click 'D'"
+  translation: "Ctrl+Клик 'D'"
 
 - text: "Duplicate GameObject"
-  translation: "Duplicate GameObject"
+  translation: "Дублировать GameObject"
 
 - text: "Delete GameObject"
-  translation: "Delete GameObject"
+  translation: "Удалить GameObject"
 
 - text: "Show Tooltips"
-  translation: "Show Tooltips"
+  translation: "Показать подсказки"
 
 - text: "Selection Sphere"
-  translation: "Selection Sphere"
+  translation: "Сфера выделения"
 
 - text: "The radius of the Selection Sphere"
-  translation: "The radius of the Selection Sphere"
+  translation: "Радиус сферы выделения"
 
 - text: "GUI Scale"
-  translation: "GUI Scale"
+  translation: "Масштаб GUI"
 
 - text: "GameObjects Per Frame"
-  translation: "GameObjects Per Frame"
+  translation: "GameObjects за кадр"
 
 - text: "Assembly Per Frame"
-  translation: "Assembly Per Frame"
+  translation: "Assembly за кадр"
 
 - text: "Inspector Per Frame"
-  translation: "Inspector Per Frame"
+  translation: "Inspector за кадр"
 
 - text: "Mouse Sensivity"
-  translation: "Mouse Sensivity"
+  translation: "Чувствительность мыши"
 
 - text: "Acceleration Multi"
-  translation: "Acceleration Multi"
+  translation: "Множитель ускорения"
 
 - text: "Deceleration Multi"
-  translation: "Deceleration Multi"
+  translation: "Множитель замедления"
 
 - text: "Speed Slow"
-  translation: "Speed Slow"
+  translation: "Медленная скорость"
 
 - text: "Speed Normal"
-  translation: "Speed Normal"
+  translation: "Нормальная скорость"
 
 - text: "Speed Fast"
-  translation: "Speed Fast"
+  translation: "Быстрая скорость"
 
 - text: "Mouse ScrollWheel Multi"
-  translation: "Mouse ScrollWheel Multi"
+  translation: "Множитель колёсика мыши"
 
 - text: "Mouse Strafe Multi"
-  translation: "Mouse Strafe Multi"
+  translation: "Множитель стрейфа мыши"
 
 - text: "Object is Destroyed"
-  translation: "Object is Destroyed"
+  translation: "Объект уничтожен"
 
 - text: "Deep Inspector"
-  translation: "Deep Inspector"
+  translation: "Глубокий инспектор"
 
 - text: "Search Level"
-  translation: "Search Level"
+  translation: "Уровень поиска"
 
 - text: "Click on a Component to search inside it"
-  translation: "Click on a Component to search inside it"
+  translation: "Нажмите на компонент для поиска внутри"
 
 - text: "Is Inherited"
-  translation: "Is Inherited"
+  translation: "Унаследован"
 
 - text: "Is Static"
-  translation: "Is Static"
+  translation: "Статический"
 
 - text: "Has a Getter"
-  translation: "Has a Getter"
+  translation: "Имеет геттер"
 
 - text: "Has a Setter"
-  translation: "Has a Setter"
+  translation: "Имеет сеттер"
 
 - text: "is Constant"
-  translation: "is Constant"
+  translation: "является константой"
 
 - text: "Multi dimensional arrays will be supported soon"
-  translation: "Multi dimensional arrays will be supported soon"
+  translation: "Многомерные массивы будут поддерживаться скоро"
 
 - text: "Add another Search Condition"
-  translation: "Add another Search Condition"
+  translation: "Добавить условие поиска"
 
 - text: "Remove this Search Condition"
-  translation: "Remove this Search Condition"
+  translation: "Удалить это условие поиска"
 
 - text: "Delete search text"
-  translation: "Delete search text"
+  translation: "Удалить текст поиска"
 
 - text: "Is Prefab"
-  translation: "Is Prefab"
+  translation: "Является Prefab"
 
 - text: "Is Public"
-  translation: "Is Public"
+  translation: "Публичный"
 
 - text: "Is Protected"
-  translation: "Is Protected"
+  translation: "Защищённый"
 
 - text: "Is Private"
-  translation: "Is Private"
+  translation: "Приватный"
 
 - text: "Can't execute because of wrong number of arguments"
-  translation: "Can't execute because of wrong number of arguments"
+  translation: "Не удаётся выполнить из-за неверного количества аргументов"
 
 - text: "Too many arguments"
-  translation: "Too many arguments"
+  translation: "Слишком много аргументов"
 
 - text: "Can't execute because"
-  translation: "Can't execute because"
+  translation: "Не удаётся выполнить, потому что"
 
 - text: "GAUSSIAN5X5"
   translation: "GAUSSIAN5X5"
+  skip_translation: true
 
 - text: "GAUSSIAN9X9"
   translation: "GAUSSIAN9X9"
+  skip_translation: true
 
 - text: "GAUSSIAN13X13"
   translation: "GAUSSIAN13X13"
+  skip_translation: true
 
 - text: "Show/Hide Command Logs"
-  translation: "Show/Hide Command Logs"
+  translation: "Показать/скрыть логи команд"
 
 - text: "Show/Hide Debug Logs"
-  translation: "Show/Hide Debug Logs"
+  translation: "Показать/скрыть отладочные логи"
 
 - text: "Show/Hide Debug Warnings"
-  translation: "Show/Hide Debug Warnings"
+  translation: "Показать/скрыть отладочные предупреждения"
 
 - text: "Show/Hide Debug Errors"
-  translation: "Show/Hide Debug Errors"
+  translation: "Показать/скрыть отладочные ошибки"
 
 - text: "Show/Hide Debug Exceptions"
-  translation: "Show/Hide Debug Exceptions"
+  translation: "Показать/скрыть отладочные исключения"
 
 - text: "Show/Hide Stack Trace"
-  translation: "Show/Hide Stack Trace"
+  translation: "Показать/скрыть стек вызовов"
 
-- text: "Show/Hide Unity Assemblies Shift click to multi select"
-  translation: ""
+- text: "Show/Hide Unity Assemblies\nShift click to multi select"
+  translation: "Показать/скрыть сборки Unity\nShift+клик для множественного выбора"
 
-- text: "Show/Hide System Assemblies Shift click to multi select"
-  translation: ""
+- text: "Show/Hide System Assemblies\nShift click to multi select"
+  translation: "Показать/скрыть системные сборки\nShift+клик для множественного выбора"
 
-- text: "Show/Hide Mono Assemblies Shift click to multi select"
-  translation: ""
+- text: "Show/Hide Mono Assemblies\nShift click to multi select"
+  translation: "Показать/скрыть Mono-сборки\nShift+клик для множественного выбора"
 
-- text: "Show/Hide All Other Assemblies Shift click to multi select"
-  translation: ""
+- text: "Show/Hide All Other Assemblies\nShift click to multi select"
+  translation: "Показать/скрыть все остальные сборки\nShift+клик для множественного выбора"
 
-- text: "Show/Hide Memory Objects that are MonoBehaviours Shift click to multi select"
-  translation: ""
+- text: "Show/Hide Memory Objects that are MonoBehaviours\nShift click to multi select"
+  translation: "Показать/скрыть объекты памяти типа MonoBehaviour\nShift+клик для множественного выбора"
 
-- text: "Show/Hide Memory Objects that are ScriptableObjects Shift click to multi select"
-  translation: ""
+- text: "Show/Hide Memory Objects that are ScriptableObjects\nShift click to multi select"
+  translation: "Показать/скрыть объекты памяти типа ScriptableObject\nShift+клик для множественного выбора"
 
-- text: "Show/Hide Memory Objects that are Components Shift click to multi select"
-  translation: ""
+- text: "Show/Hide Memory Objects that are Components\nShift click to multi select"
+  translation: "Показать/скрыть объекты памяти типа Component\nShift+клик для множественного выбора"
 
-- text: "Show/Hide other Memory Objects Shift click to multi select"
-  translation: ""
+- text: "Show/Hide other Memory Objects\nShift click to multi select"
+  translation: "Показать/скрыть прочие объекты памяти\nShift+клик для множественного выбора"
 
 - text: "Foldout all up/down"
-  translation: "Foldout all up/down"
+  translation: "Развернуть/свернуть всё"
 
 - text: "Show/Hide Fields"
-  translation: "Show/Hide Fields"
+  translation: "Показать/скрыть поля"
 
 - text: "Show/Hide Properties"
-  translation: "Show/Hide Properties"
+  translation: "Показать/скрыть свойства"
 
 - text: "Show/Hide Methods"
-  translation: "Show/Hide Methods"
+  translation: "Показать/скрыть методы"
 
 - text: "Show/Hide Inherited Members"
-  translation: "Show/Hide Inherited Members"
+  translation: "Показать/скрыть унаследованные члены"
 
 - text: "Show/Hide Declared Members"
-  translation: "Show/Hide Declared Members"
+  translation: "Показать/скрыть объявленные члены"
 
 - text: "Show/Hide Static Members"
-  translation: "Show/Hide Static Members"
+  translation: "Показать/скрыть статические члены"
 
 - text: "Show/Hide Instance Members"
-  translation: "Show/Hide Instance Members"
+  translation: "Показать/скрыть члены экземпляра"
 
 - text: "Show/Hide Public Members"
-  translation: "Show/Hide Public Members"
+  translation: "Показать/скрыть публичные члены"
 
 - text: "Show/Hide Protected Members"
-  translation: "Show/Hide Protected Members"
+  translation: "Показать/скрыть защищённые члены"
 
 - text: "Sow/Hide Private Members"
-  translation: "Sow/Hide Private Members"
+  translation: "Показать/скрыть приватные члены"
 
-- text: "Click to search inside Shift click to enable/disable"
-  translation: ""
+- text: "Click to search inside\nShift click to enable/disable"
+  translation: "Кликните для поиска внутри\nShift+клик для вкл/выкл"
 
 - text: "Toggle Search On/Off"
-  translation: "Toggle Search On/Off"
+  translation: "Вкл/выкл поиск"
 
 - text: "Toggle between searching for Names/Types"
-  translation: "Toggle between searching for Names/Types"
+  translation: "Переключить между поиском имён/типов"
 

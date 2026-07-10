@@ -102,7 +102,7 @@ python .opencode/skills/build-translator/build_proxy.py
 ## Команды
 
 - `python .opencode/skills/extract-text/extractor.py` — извлечение переводов
-- `python .opencode/skills/extract-text/extractor.test.py` — тесты (26)
+- `python .opencode/skills/extract-text/extractor.test.py` — тесты (27)
 - `python .opencode/skills/dump-assets/dump_assets.py` — дамп ассетов (+ .bundle)
 - `python .opencode/skills/dump-assets/dump_assets.test.py` — тесты дампера (23)
 - `python .opencode/skills/scan-translations/scan_translations.py` — сканирование непереведённого

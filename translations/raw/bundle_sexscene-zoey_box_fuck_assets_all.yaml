@@ -9,7 +9,8 @@
   skip_translation: true
 
 - text: "Hjy"
-  translation: ""
+  translation: "Hjy"
+  skip_translation: true
 
 - text: "Md~4"
   translation: "Md~4"
@@ -24,7 +25,8 @@
   skip_translation: true
 
 - text: "GbYUj"
-  translation: ""
+  translation: "GbYUj"
+  skip_translation: true
 
 - text: "ANp?"
   translation: "ANp?"
@@ -35,7 +37,7 @@
   skip_translation: true
 
 - text: "cable 01"
-  translation: ""
+  translation: "Кабель 01"
 
 - text: "EW]"
   translation: "EW]"
@@ -46,7 +48,7 @@
   skip_translation: true
 
 - text: "Insert"
-  translation: ""
+  translation: "Вставить"
 
 - text: "Kh]_"
   translation: "Kh]_"
@@ -61,18 +63,17 @@
   skip_translation: true
 
 - text: "Andro Thrust Fast"
-  translation: ""
+  translation: "Андро быстро толкается"
 
 - text: "Andro Withdraw Fast"
-  translation: ""
+  translation: "Андро быстро выходит"
 
 - text: "Uj:"
   translation: "Uj:"
   skip_translation: true
 
 - text: "SWEAT"
-  translation: "SWEAT"
-  skip_translation: true
+  translation: "Пот"
 
 - text: "Dww"
   translation: "Dww"
@@ -99,14 +100,16 @@
   skip_translation: true
 
 - text: "d( =rq7"
-  translation: ""
+  translation: "d( =rq7"
+  skip_translation: true
 
 - text: "A C"
   translation: "A C"
   skip_translation: true
 
 - text: "C)I =XD"
-  translation: ""
+  translation: "C)I =XD"
+  skip_translation: true
 
 - text: "B-n"
   translation: "B-n"
@@ -117,23 +120,27 @@
   skip_translation: true
 
 - text: "Cug"
-  translation: ""
+  translation: "Cug"
+  skip_translation: true
 
 - text: "MAsk"
-  translation: ""
+  translation: "MAsk"
+  skip_translation: true
 
 - text: "Rg7"
   translation: "Rg7"
   skip_translation: true
 
 - text: "A6Ov"
-  translation: ""
+  translation: "A6Ov"
+  skip_translation: true
 
 - text: "58. Post_Cum_Idle_Loop"
-  translation: ""
+  translation: "58. Цикл бездействия после кончания"
 
 - text: "Zoey_Box_Fuck"
-  translation: ""
+  translation: "Zoey_Box_Fuck"
+  skip_translation: true
 
 - text: "@AA"
   translation: "@AA"
@@ -144,16 +151,16 @@
   skip_translation: true
 
 - text: "Andro Thrusts 1"
-  translation: ""
+  translation: "Андро толчки 1"
 
 - text: "Andro Insert"
-  translation: ""
+  translation: "Андро вставляет"
 
 - text: "Andro Thrust Slow"
-  translation: ""
+  translation: "Андро толкается медленно"
 
 - text: "Andro Withdraw Slow"
-  translation: ""
+  translation: "Андро выходит медленно"
 
 - text: "Xvz"
   translation: "Xvz"
@@ -184,13 +191,13 @@
   skip_translation: true
 
 - text: "cable 03"
-  translation: ""
+  translation: "Кабель 03"
 
 - text: "cable 02"
-  translation: ""
+  translation: "Кабель 02"
 
 - text: "Continuous Sound"
-  translation: ""
+  translation: "Непрерывный звук"
 
 - text: "G?qk#?"
   translation: "G?qk#?"
@@ -293,7 +300,8 @@
   skip_translation: true
 
 - text: "GEtF"
-  translation: ""
+  translation: "GEtF"
+  skip_translation: true
 
 - text: "R?m"
   translation: "R?m"
@@ -304,10 +312,11 @@
   skip_translation: true
 
 - text: "cable 04"
-  translation: ""
+  translation: "Кабель 04"
 
 - text: "SyncAnimators"
-  translation: ""
+  translation: "SyncAnimators"
+  skip_translation: true
 
 - text: "K0I?W"
   translation: "K0I?W"

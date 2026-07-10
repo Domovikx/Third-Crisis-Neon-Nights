@@ -9,32 +9,33 @@
   skip_translation: true
 
 - text: "Drool"
-  translation: ""
+  translation: "Слюни"
 
 - text: "State"
-  translation: ""
+  translation: "Состояние"
 
 - text: "Cougar Eyes Open'"
-  translation: ""
+  translation: "Глаза Пумы открыты"
 
 - text: "BeforeYank"
-  translation: ""
+  translation: "Перед рывком"
 
 - text: "Zoey Eye State"
-  translation: ""
+  translation: "Состояние глаз Зои"
 
 - text: "Layer Cougar Eyes"
-  translation: ""
+  translation: "Слой глаз Пумы"
 
 - text: "Layer Zoey Eyes"
-  translation: ""
+  translation: "Слой глаз Зои"
 
 - text: "?I)8@D"
   translation: "?I)8@D"
   skip_translation: true
 
 - text: "Udp?_-"
-  translation: ""
+  translation: "Udp?_-"
+  skip_translation: true
 
 - text: "Y\\?s"
   translation: "Y\\?s"
@@ -125,194 +126,247 @@
   skip_translation: true
 
 - text: "C_arm_back"
-  translation: ""
+  translation: "C_arm_back"
+  skip_translation: true
 
 - text: "C_arm_front"
-  translation: ""
+  translation: "C_arm_front"
+  skip_translation: true
 
 - text: "C_boob_back"
-  translation: ""
+  translation: "C_boob_back"
+  skip_translation: true
 
 - text: "C_boob_front"
-  translation: ""
+  translation: "C_boob_front"
+  skip_translation: true
 
 - text: "C_bun_bottom"
-  translation: ""
+  translation: "C_bun_bottom"
+  skip_translation: true
 
 - text: "C_bun_top"
-  translation: ""
+  translation: "C_bun_top"
+  skip_translation: true
 
 - text: "C_earring"
-  translation: ""
+  translation: "C_earring"
+  skip_translation: true
 
 - text: "C_eyebrow"
-  translation: ""
+  translation: "C_eyebrow"
+  skip_translation: true
 
 - text: "C_eyeClip"
-  translation: ""
+  translation: "C_eyeClip"
+  skip_translation: true
 
 - text: "C_eye closed"
-  translation: ""
+  translation: "C_eye closed"
+  skip_translation: true
 
 - text: "C_eyeshadow"
-  translation: ""
+  translation: "C_eyeshadow"
+  skip_translation: true
 
 - text: "C_eye_lid"
-  translation: ""
+  translation: "C_eye_lid"
+  skip_translation: true
 
 - text: "C_eye_pupil"
-  translation: ""
+  translation: "C_eye_pupil"
+  skip_translation: true
 
 - text: "C_eye_spec"
-  translation: ""
+  translation: "C_eye_spec"
+  skip_translation: true
 
 - text: "C_eye_white"
-  translation: ""
+  translation: "C_eye_white"
+  skip_translation: true
 
 - text: "C_head_bottom"
-  translation: ""
+  translation: "C_head_bottom"
+  skip_translation: true
 
 - text: "C_head_top"
-  translation: ""
+  translation: "C_head_top"
+  skip_translation: true
 
 - text: "C_neck"
   translation: "C_neck"
   skip_translation: true
 
 - text: "C_necklace"
-  translation: ""
+  translation: "C_necklace"
+  skip_translation: true
 
 - text: "C_shirt_front"
-  translation: ""
+  translation: "C_shirt_front"
+  skip_translation: true
 
 - text: "C_tongue"
-  translation: ""
+  translation: "C_tongue"
+  skip_translation: true
 
 - text: "C_torso"
-  translation: ""
+  translation: "C_torso"
+  skip_translation: true
 
 - text: "C_torso_bones"
-  translation: ""
+  translation: "C_torso_bones"
+  skip_translation: true
 
 - text: "Z_arm"
   translation: "Z_arm"
   skip_translation: true
 
 - text: "Z_bangs"
-  translation: ""
+  translation: "Z_bangs"
+  skip_translation: true
 
 - text: "Z_eyebrow"
-  translation: ""
+  translation: "Z_eyebrow"
+  skip_translation: true
 
 - text: "Z_eyeClip"
-  translation: ""
+  translation: "Z_eyeClip"
+  skip_translation: true
 
 - text: "Z_eye_closed"
-  translation: ""
+  translation: "Z_eye_closed"
+  skip_translation: true
 
 - text: "Z_eye_lid_lewd"
-  translation: ""
+  translation: "Z_eye_lid_lewd"
+  skip_translation: true
 
 - text: "Z_head_bottom"
-  translation: ""
+  translation: "Z_head_bottom"
+  skip_translation: true
 
 - text: "Z_head_top"
-  translation: ""
+  translation: "Z_head_top"
+  skip_translation: true
 
 - text: "Z_ministrands"
-  translation: ""
+  translation: "Z_ministrands"
+  skip_translation: true
 
 - text: "Z_ponytail"
-  translation: ""
+  translation: "Z_ponytail"
+  skip_translation: true
 
 - text: "Z_saliva"
-  translation: ""
+  translation: "Z_saliva"
+  skip_translation: true
 
 - text: "Z_strand_front"
-  translation: ""
+  translation: "Z_strand_front"
+  skip_translation: true
 
 - text: "Z_sweat"
-  translation: ""
+  translation: "Z_sweat"
+  skip_translation: true
 
 - text: "Z_tongue"
-  translation: ""
+  translation: "Z_tongue"
+  skip_translation: true
 
 - text: "Z_torso"
-  translation: ""
+  translation: "Z_torso"
+  skip_translation: true
 
 - text: "Z_zipper"
-  translation: ""
+  translation: "Z_zipper"
+  skip_translation: true
 
 - text: "Z_SmoothShadowi"
-  translation: ""
+  translation: "Z_SmoothShadowi"
+  skip_translation: true
 
 - text: "Vj?"
   translation: "Vj?"
   skip_translation: true
 
 - text: "Z_ponytail2"
-  translation: ""
+  translation: "Z_ponytail2"
+  skip_translation: true
 
 - text: "Z_ponytail3"
-  translation: ""
+  translation: "Z_ponytail3"
+  skip_translation: true
 
 - text: "B!c"
   translation: "B!c"
   skip_translation: true
 
 - text: "Z_ponytail4"
-  translation: ""
+  translation: "Z_ponytail4"
+  skip_translation: true
 
 - text: "Z_ponytail5"
-  translation: ""
+  translation: "Z_ponytail5"
+  skip_translation: true
 
 - text: "Z_ponytail6"
-  translation: ""
+  translation: "Z_ponytail6"
+  skip_translation: true
 
 - text: "Z_ponytail7"
-  translation: ""
+  translation: "Z_ponytail7"
+  skip_translation: true
 
 - text: "Z_arm2"
   translation: "Z_arm2"
   skip_translation: true
 
 - text: "C_hand2"
-  translation: ""
+  translation: "C_hand2"
+  skip_translation: true
 
 - text: "CPj"
   translation: "CPj"
   skip_translation: true
 
 - text: "C_hand3"
-  translation: ""
+  translation: "C_hand3"
+  skip_translation: true
 
 - text: "C_hand4"
-  translation: ""
+  translation: "C_hand4"
+  skip_translation: true
 
 - text: "C_hand5"
-  translation: ""
+  translation: "C_hand5"
+  skip_translation: true
 
 - text: "C_hand6"
-  translation: ""
+  translation: "C_hand6"
+  skip_translation: true
 
 - text: "Z_zipper2"
-  translation: ""
+  translation: "Z_zipper2"
+  skip_translation: true
 
 - text: "Z_zipper3"
-  translation: ""
+  translation: "Z_zipper3"
+  skip_translation: true
 
 - text: "Z_face"
   translation: "Z_face"
   skip_translation: true
 
 - text: "Z_tongue2"
-  translation: ""
+  translation: "Z_tongue2"
+  skip_translation: true
 
 - text: "Z_tongue3"
-  translation: ""
+  translation: "Z_tongue3"
+  skip_translation: true
 
 - text: "Leona Outfit"
-  translation: ""
+  translation: "Наряд Леоны"
 
 - text: "Xb@"
   translation: "Xb@"
@@ -327,15 +381,17 @@
   skip_translation: true
 
 - text: "InitialYank"
-  translation: ""
+  translation: "Начальный рывок"
 
 - text: "Ahf"
-  translation: ""
+  translation: "Ahf"
+  skip_translation: true
 
 - text: "Leona_overworld"
   translation: "Leona_overworld"
   skip_translation: true
 
 - text: "Z_SmoothShadow"
-  translation: ""
+  translation: "Z_SmoothShadow"
+  skip_translation: true
 

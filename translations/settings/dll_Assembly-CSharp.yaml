@@ -486,7 +486,8 @@
   translation: "NNTabMenuItemHighlighter: Попытка подсветить нулевой элемент!"
 
 - text: "PlaySoundFromCategory: '"
-  translation: ""
+  translation: "PlaySoundFromCategory: '"
+  skip_translation: true
 
 - text: "is not a Sound Category."
   translation: "не является звуковой категорией."
@@ -859,9 +860,8 @@
 - text: "New Patreon Version!"
   translation: "Новая Patreon-версия!"
 
-- text: "is now available to play!
-  Click the button below to play the latest version."
-  translation: ""
+- text: "is now available to play!\n\nClick the button below to play the latest version."
+  translation: "уже доступна!\n\nНажмите кнопку ниже, чтобы играть в последнюю версию."
 
 - text: "Play latest version"
   translation: "Играть последнюю версию"
@@ -960,7 +960,7 @@
   translation: "Отсутствует MeshFilter!"
 
 - text: "Null GameObject"
-  translation: ""
+  translation: "Нулевой GameObject"
 
 - text: "Source and Destination scenes can not be the same"
   translation: "Исходная и целевая сцены не могут совпадать"
@@ -980,20 +980,20 @@
 - text: "Invalid Method Name or Parameters:"
   translation: "Неверное имя метода или параметры:"
 
-- text: "Parameter count does not match method. Method has"
-  translation: ""
+- text: "Parameter count does not match method.\nMethod has"
+  translation: "Количество параметров не соответствует методу.\nМетод имеет"
 
-- text: "parameters. You specified"
-  translation: ""
+- text: "parameters.\nYou specified"
+  translation: "параметров.\nВы указали"
 
-- text: "Parameters do not match method signature. Parameter"
-  translation: ""
+- text: "Parameters do not match method signature.\nParameter"
+  translation: "Параметры не соответствуют сигнатуре метода.\nПараметр"
 
-- text: "Method does not have return. Specify 'none' in Store Result."
-  translation: ""
+- text: "Method does not have return.\nSpecify 'none' in Store Result."
+  translation: "Метод не имеет возвращаемого значения.\nУкажите 'none' в Store Result."
 
-- text: "Store Result is of the wrong type. It should be of type:"
-  translation: ""
+- text: "Store Result is of the wrong type.\nIt should be of type:"
+  translation: "Store Result имеет неверный тип.\nДолжен быть типа:"
 
 - text: "Class is invalid:"
   translation: "Класс недействителен:"
@@ -1050,7 +1050,8 @@
   translation: "MissionContainer: Не должно быть более одной миссии с ID '"
 
 - text: "MissionEnabler: '"
-  translation: ""
+  translation: "MissionEnabler: '"
+  skip_translation: true
 
 - text: "Mission: '"
   translation: "Миссия: '"
@@ -1155,7 +1156,7 @@
   translation: "Нельзя перемотать диалог, так как установлен ExternalCanForward:"
 
 - text: "Cutscene: Null Director"
-  translation: ""
+  translation: "Cutscene: нулевой Director"
 
 - text: "Cutscene: Starting cutscene: '"
   translation: "Cutscene: Запуск катсцены: '"
@@ -1275,7 +1276,8 @@
   translation: "NNItemPopupUI: ItemPopulate не установлен."
 
 - text: "CharacterStats: '"
-  translation: ""
+  translation: "CharacterStats: '"
+  skip_translation: true
 
 - text: "You were not able to store all the fB collected! Upgrade your wallet at an ATM."
   translation: "Вы не смогли сохранить все собранные fB! Улучшите кошелёк в банкомате."
@@ -1551,13 +1553,14 @@
   translation: "ID по умолчанию"
 
 - text: "InteractableTypes: '"
-  translation: ""
+  translation: "InteractableTypes: '"
+  skip_translation: true
 
 - text: "Entity: More than one player entity is currently active!"
   translation: "Entity: Активно более одной сущности игрока!"
 
 - text: "Movement slowed to normal!"
-  translation: "Скорость движения恢复正常!"
+  translation: "Скорость движения восстановлена до нормальной!"
 
 - text: "TrailHandler: Could not find CharController component in parent! Removing..."
   translation: "TrailHandler: Не удалось найти компонент CharController в родителе! Удаляю..."
@@ -1587,7 +1590,8 @@
   translation: "Список команд"
 
 - text: "Console: ConCommand '"
-  translation: ""
+  translation: "Console: ConCommand '"
+  skip_translation: true
 
 - text: "Playmaker Blur"
   translation: "Размытие Playmaker"

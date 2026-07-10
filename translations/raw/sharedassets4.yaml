@@ -1,22 +1,28 @@
 # raw (sharedassets4)
 
 - text: "Sprite Hologram Fakelight"
-  translation: ""
+  translation: "Sprite Hologram Fakelight"
+  skip_translation: true
 
 - text: "Flower Material 1"
-  translation: ""
+  translation: "Flower Material 1"
+  skip_translation: true
 
 - text: "Flower Material 2"
-  translation: ""
+  translation: "Flower Material 2"
+  skip_translation: true
 
 - text: "Flower Material 3"
-  translation: ""
+  translation: "Flower Material 3"
+  skip_translation: true
 
 - text: "Flower Material 4"
-  translation: ""
+  translation: "Flower Material 4"
+  skip_translation: true
 
 - text: "Flower Material 5"
-  translation: ""
+  translation: "Flower Material 5"
+  skip_translation: true
 
 - text: "Shader Graphs_3d Flower 2d Shader Fallback"
   translation: "Shader Graphs_3d Flower 2d Shader Fallback"
@@ -27,7 +33,8 @@
   skip_translation: true
 
 - text: "Sparkle Particle Material"
-  translation: ""
+  translation: "Sparkle Particle Material"
+  skip_translation: true
 
 - text: "Shader Graphs_Hanging Plant Shadergraph"
   translation: "Shader Graphs_Hanging Plant Shadergraph"
@@ -66,19 +73,24 @@
   skip_translation: true
 
 - text: "Plant4_Mask"
-  translation: ""
+  translation: "Plant4_Mask"
+  skip_translation: true
 
 - text: "Plant 3"
-  translation: ""
+  translation: "Plant 3"
+  skip_translation: true
 
 - text: "DoorFlat Frame"
-  translation: ""
+  translation: "DoorFlat Frame"
+  skip_translation: true
 
 - text: "Plant 1 Mask"
-  translation: ""
+  translation: "Plant 1 Mask"
+  skip_translation: true
 
 - text: "BakedFlowers"
-  translation: ""
+  translation: "BakedFlowers"
+  skip_translation: true
 
 - text: "P,O"
   translation: "P,O"
@@ -89,7 +101,8 @@
   skip_translation: true
 
 - text: "Plant 3 Mask"
-  translation: ""
+  translation: "Plant 3 Mask"
+  skip_translation: true
 
 - text: "`UX"
   translation: "`UX"
@@ -168,7 +181,8 @@
   skip_translation: true
 
 - text: "oP ?"
-  translation: ""
+  translation: "oP ?"
+  skip_translation: true
 
 - text: "IE?"
   translation: "IE?"
@@ -191,7 +205,8 @@
   skip_translation: true
 
 - text: "Wym"
-  translation: ""
+  translation: "Wym"
+  skip_translation: true
 
 - text: "Ha6"
   translation: "Ha6"
@@ -202,43 +217,56 @@
   skip_translation: true
 
 - text: "NormalMap"
-  translation: ""
+  translation: "NormalMap"
+  skip_translation: true
 
 - text: "MaskMap"
-  translation: ""
+  translation: "MaskMap"
+  skip_translation: true
 
 - text: "DetailSwaySpeed"
-  translation: ""
+  translation: "DetailSwaySpeed"
+  skip_translation: true
 
 - text: "LeftRightSpeed"
-  translation: ""
+  translation: "LeftRightSpeed"
+  skip_translation: true
 
 - text: "Detail Size"
-  translation: ""
+  translation: "Detail Size"
+  skip_translation: true
 
 - text: "Transparency"
-  translation: ""
+  translation: "Transparency"
+  skip_translation: true
 
 - text: "Color Impact"
-  translation: ""
+  translation: "Color Impact"
+  skip_translation: true
 
 - text: "Hologram Line Speed"
-  translation: ""
+  translation: "Hologram Line Speed"
+  skip_translation: true
 
 - text: "Scanlines Texture"
-  translation: ""
+  translation: "Scanlines Texture"
+  skip_translation: true
 
 - text: "Outer Glow Distance"
-  translation: ""
+  translation: "Outer Glow Distance"
+  skip_translation: true
 
 - text: "Outer Glow Samples"
-  translation: ""
+  translation: "Outer Glow Samples"
+  skip_translation: true
 
 - text: "Outer Glow Strength"
-  translation: ""
+  translation: "Outer Glow Strength"
+  skip_translation: true
 
 - text: "Bottom Fade"
-  translation: ""
+  translation: "Bottom Fade"
+  skip_translation: true
 
 - text: "Srsf"
   translation: "Srsf"
@@ -289,14 +317,16 @@
   skip_translation: true
 
 - text: "Coz"
-  translation: ""
+  translation: "Coz"
+  skip_translation: true
 
 - text: "Bg:"
   translation: "Bg:"
   skip_translation: true
 
 - text: "MiBc"
-  translation: ""
+  translation: "MiBc"
+  skip_translation: true
 
 - text: "CmjQ"
   translation: "CmjQ"
@@ -351,7 +381,8 @@
   skip_translation: true
 
 - text: "EMjP"
-  translation: ""
+  translation: "EMjP"
+  skip_translation: true
 
 - text: "DE*P"
   translation: "DE*P"
@@ -410,32 +441,40 @@
   skip_translation: true
 
 - text: "3d Flower Idle"
-  translation: ""
+  translation: "3d Flower Idle"
+  skip_translation: true
 
 - text: "3d Flower Rotation"
-  translation: ""
+  translation: "3d Flower Rotation"
+  skip_translation: true
 
 - text: "DoorClosed_Side"
-  translation: ""
+  translation: "DoorClosed_Side"
+  skip_translation: true
 
 - text: "DoorOpen_Side"
-  translation: ""
+  translation: "DoorOpen_Side"
+  skip_translation: true
 
 - text: "DoorOpen_Single"
-  translation: ""
+  translation: "DoorOpen_Single"
+  skip_translation: true
 
 - text: "Cat Idle"
-  translation: ""
+  translation: "Cat Idle"
+  skip_translation: true
 
 - text: "+QN?O"
   translation: "+QN?O"
   skip_translation: true
 
 - text: "Mailbox_Close"
-  translation: ""
+  translation: "Mailbox_Close"
+  skip_translation: true
 
 - text: "Cji"
-  translation: ""
+  translation: "Cji"
+  skip_translation: true
 
 - text: "B|h"
   translation: "B|h"
@@ -446,23 +485,28 @@
   skip_translation: true
 
 - text: "Mailbox_Closed"
-  translation: ""
+  translation: "Mailbox_Closed"
+  skip_translation: true
 
 - text: "Mailbox_Open"
-  translation: ""
+  translation: "Mailbox_Open"
+  skip_translation: true
 
 - text: "Mailbox_Opened"
-  translation: ""
+  translation: "Mailbox_Opened"
+  skip_translation: true
 
 - text: "Ap+"
   translation: "Ap+"
   skip_translation: true
 
 - text: "RaceTimer_Idle"
-  translation: ""
+  translation: "RaceTimer_Idle"
+  skip_translation: true
 
 - text: "Rain on Window 3"
-  translation: ""
+  translation: "Rain on Window 3"
+  skip_translation: true
 
 - text: "@BUUU?"
   translation: "@BUUU?"
@@ -477,7 +521,8 @@
   skip_translation: true
 
 - text: "'CUU5@"
-  translation: ""
+  translation: "'CUU5@"
+  skip_translation: true
 
 - text: "AC\"\"R@"
   translation: "AC\"\"R@"
@@ -520,7 +565,8 @@
   skip_translation: true
 
 - text: "Real Medium Rain 1"
-  translation: ""
+  translation: "Real Medium Rain 1"
+  skip_translation: true
 
 - text: "HvW"
   translation: "HvW"
@@ -531,16 +577,20 @@
   skip_translation: true
 
 - text: "Flower RenderTexture"
-  translation: ""
+  translation: "Flower RenderTexture"
+  skip_translation: true
 
 - text: "3d Flower Animator"
-  translation: ""
+  translation: "3d Flower Animator"
+  skip_translation: true
 
 - text: "Rotation~@"
-  translation: ""
+  translation: "Rotation~@"
+  skip_translation: true
 
 - text: "Fp:^,"
-  translation: ""
+  translation: "Fp:^,"
+  skip_translation: true
 
 - text: "DZk"
   translation: "DZk"
@@ -551,10 +601,12 @@
   skip_translation: true
 
 - text: "BlockWayx"
-  translation: ""
+  translation: "BlockWayx"
+  skip_translation: true
 
 - text: "IsFlashing"
-  translation: ""
+  translation: "IsFlashing"
+  skip_translation: true
 
 - text: "Gy@R"
   translation: "Gy@R"
@@ -613,7 +665,8 @@
   skip_translation: true
 
 - text: "AciB"
-  translation: ""
+  translation: "AciB"
+  skip_translation: true
 
 - text: "TRO5"
   translation: "TRO5"
@@ -648,7 +701,8 @@
   skip_translation: true
 
 - text: "QTq,"
-  translation: ""
+  translation: "QTq,"
+  skip_translation: true
 
 - text: "SrC"
   translation: "SrC"
@@ -671,10 +725,12 @@
   skip_translation: true
 
 - text: "WzEU"
-  translation: ""
+  translation: "WzEU"
+  skip_translation: true
 
 - text: "Nu'"
-  translation: ""
+  translation: "Nu'"
+  skip_translation: true
 
 - text: "FLf("
   translation: "FLf("
@@ -685,7 +741,8 @@
   skip_translation: true
 
 - text: "WKdA"
-  translation: ""
+  translation: "WKdA"
+  skip_translation: true
 
 - text: "QVEE"
   translation: "QVEE"
@@ -744,7 +801,8 @@
   skip_translation: true
 
 - text: "TwRI"
-  translation: ""
+  translation: "TwRI"
+  skip_translation: true
 
 - text: "KVGn"
   translation: "KVGn"
@@ -763,14 +821,16 @@
   skip_translation: true
 
 - text: "Zoc"
-  translation: ""
+  translation: "Zoc"
+  skip_translation: true
 
 - text: "Lql"
   translation: "Lql"
   skip_translation: true
 
 - text: "Woj"
-  translation: ""
+  translation: "Woj"
+  skip_translation: true
 
 - text: "Bfff?"
   translation: "Bfff?"
@@ -781,46 +841,59 @@
   skip_translation: true
 
 - text: "Door_Side"
-  translation: ""
+  translation: "Door_Side"
+  skip_translation: true
 
 - text: "Door_Single"
-  translation: ""
+  translation: "Door_Single"
+  skip_translation: true
 
 - text: "Sparkle Particles"
-  translation: ""
+  translation: "Sparkle Particles"
+  skip_translation: true
 
 - text: "Undress Trigger"
-  translation: ""
+  translation: "Undress Trigger"
+  skip_translation: true
 
 - text: "Shower monologue"
-  translation: ""
+  translation: "Shower monologue"
+  skip_translation: true
 
 - text: "Sarah talk part 1"
-  translation: ""
+  translation: "Sarah talk part 1"
+  skip_translation: true
 
 - text: "VUuc"
-  translation: ""
+  translation: "VUuc"
+  skip_translation: true
 
 - text: "Sarah talk part 2"
-  translation: ""
+  translation: "Sarah talk part 2"
+  skip_translation: true
 
 - text: "Sarah talk part 3"
-  translation: ""
+  translation: "Sarah talk part 3"
+  skip_translation: true
 
 - text: "Shower Trigger"
-  translation: ""
+  translation: "Shower Trigger"
+  skip_translation: true
 
 - text: "HAJ_Reaction"
-  translation: ""
+  translation: "HAJ_Reaction"
+  skip_translation: true
 
 - text: "Window_Reaction"
-  translation: ""
+  translation: "Window_Reaction"
+  skip_translation: true
 
 - text: "GameObject Profile"
-  translation: ""
+  translation: "GameObject Profile"
+  skip_translation: true
 
 - text: "Mmmmhm~"
-  translation: ""
+  translation: "Ммммм~"
 
 - text: "RAAA-"
   translation: "RAAA-"
@@ -835,82 +908,92 @@
   skip_translation: true
 
 - text: "W-What?!"
-  translation: ""
+  translation: "Ч-что?!"
 
 - text: "t usually get visitors in the shower."
-  translation: ""
+  translation: "Ко мне обычно в душ не заходят."
 
 - text: "s rough. I"
-  translation: ""
+  translation: "Жёстко. Я..."
 
 - text: "m sorry, bestie."
-  translation: ""
+  translation: "Прости, подруга."
 
 - text: "s why you sounded so down earlier?"
-  translation: ""
+  translation: "Поэтому ты была такой подавленной?"
 
 - text: "t answer, so I thought"
-  translation: ""
+  translation: "Не ответила, вот я и подумала..."
 
 - text: "re trouble, Z."
-  translation: ""
+  translation: "Ты проблемная, Зи."
 
 - text: "t say it does."
-  translation: ""
+  translation: "Там не сказано, что да."
 
 - text: "Zoey shower monologue"
-  translation: ""
+  translation: "Zoey shower monologue"
+  skip_translation: true
 
 - text: "Flat Banana"
-  translation: ""
+  translation: "Flat Banana"
+  skip_translation: true
 
 - text: "Flat Bed"
-  translation: ""
+  translation: "Flat Bed"
+  skip_translation: true
 
 - text: "s just a flat, after all."
-  translation: ""
+  translation: "Всего лишь квартира, в конце концов."
 
 - text: "Flat Kitchen"
-  translation: ""
+  translation: "Flat Kitchen"
+  skip_translation: true
 
 - text: "m not feeling hungry right now."
-  translation: ""
+  translation: "Я сейчас не хочу есть."
 
 - text: "Flat Picture"
-  translation: ""
+  translation: "Flat Picture"
+  skip_translation: true
 
 - text: "Flat Window"
-  translation: ""
+  translation: "Flat Window"
+  skip_translation: true
 
 - text: "Peek through the door"
-  translation: ""
+  translation: "Подглядеть в дверь"
 
 - text: "Oh! S-Sorry, Sarah!"
-  translation: ""
+  translation: "Ой! П-прости, Сара!"
 
 - text: "Ah~ Sorry for what~?"
-  translation: ""
+  translation: "А~ За что~?"
 
 - text: "You saw those?"
-  translation: ""
+  translation: "Ты видела их?"
 
 - text: "YouSaw"
-  translation: ""
+  translation: "YouSaw"
+  skip_translation: true
 
 - text: "ImSorry"
-  translation: ""
+  translation: "ImSorry"
+  skip_translation: true
 
 - text: "YouSound"
-  translation: ""
+  translation: "YouSound"
+  skip_translation: true
 
 - text: "BeenSoLong"
-  translation: ""
+  translation: "BeenSoLong"
+  skip_translation: true
 
 - text: "Gotta pat 'em all!"
-  translation: ""
+  translation: "Надо всех погладить!"
 
 - text: "Yeah! Talk-"
-  translation: ""
+  translation: "Да! Погово-"
 
 - text: "- later..."
   translation: "- later..."
@@ -925,11 +1008,13 @@
   skip_translation: true
 
 - text: "VirtualAddict_2_0_Ready_Alive 1"
-  translation: ""
+  translation: "VirtualAddict_2_0_Ready_Alive 1"
+  skip_translation: true
 
 - text: "UUUUUU'@"
-  translation: ""
+  translation: "UUUUUU'@"
+  skip_translation: true
 
 - text: "10. Picking up Item"
-  translation: ""
+  translation: "10. Подбор предмета"
 

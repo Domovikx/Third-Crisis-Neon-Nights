@@ -213,7 +213,8 @@
   skip_translation: true
 
 - text: "Ped"
-  translation: "Пед"
+  translation: "Ped"
+  skip_translation: true
 
 - text: "O?z"
   translation: "O?z"
@@ -264,7 +265,7 @@
   skip_translation: true
 
 - text: "Hn?,"
-  translation: ""
+  translation: "Хм?,"
 
 - text: "0_-_Foreplay 0"
   translation: "0_-_Прелюдия 0"

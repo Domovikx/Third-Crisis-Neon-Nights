@@ -89,10 +89,12 @@
   skip_translation: true
 
 - text: "La\""
-  translation: ""
+  translation: "La\""
+  skip_translation: true
 
 - text: "Pma@@"
-  translation: ""
+  translation: "Pma@@"
+  skip_translation: true
 
 - text: "@BA?`"
   translation: "@BA?`"
@@ -147,7 +149,8 @@
   skip_translation: true
 
 - text: "J@c'9@jI"
-  translation: ""
+  translation: "J@c'9@jI"
+  skip_translation: true
 
 - text: ":Q]YA"
   translation: ":Q]YA"
@@ -178,750 +181,976 @@
   skip_translation: true
 
 - text: "Fleshlight examination"
-  translation: ""
+  translation: "Fleshlight examination"
+  skip_translation: true
 
 - text: "Window Shine"
-  translation: ""
+  translation: "Window Shine"
+  skip_translation: true
 
 - text: "Car Color"
-  translation: ""
+  translation: "Car Color"
+  skip_translation: true
 
 - text: "Blinds"
   translation: "Blinds"
   skip_translation: true
 
 - text: "Ground Outline Inner Corner"
-  translation: ""
+  translation: "Ground Outline Inner Corner"
+  skip_translation: true
 
 - text: "Shine_Red"
-  translation: ""
+  translation: "Shine_Red"
+  skip_translation: true
 
 - text: "NonChange"
-  translation: ""
+  translation: "NonChange"
+  skip_translation: true
 
 - text: "Andro Pimp Interaction"
-  translation: ""
+  translation: "Andro Pimp Interaction"
+  skip_translation: true
 
 - text: "Under Hang"
-  translation: ""
+  translation: "Under Hang"
+  skip_translation: true
 
 - text: "Rail 3"
-  translation: ""
+  translation: "Rail 3"
+  skip_translation: true
 
 - text: "Ground Outline"
-  translation: ""
+  translation: "Ground Outline"
+  skip_translation: true
 
 - text: "Fence"
-  translation: ""
+  translation: "Fence"
+  skip_translation: true
 
 - text: "Car Shadow"
-  translation: ""
+  translation: "Car Shadow"
+  skip_translation: true
 
 - text: "Window_Shadow"
-  translation: ""
+  translation: "Window_Shadow"
+  skip_translation: true
 
 - text: "Stair Steps"
-  translation: ""
+  translation: "Stair Steps"
+  skip_translation: true
 
 - text: "Stair Handrail Bottom"
-  translation: ""
+  translation: "Stair Handrail Bottom"
+  skip_translation: true
 
 - text: "Parallax Pivot"
-  translation: ""
+  translation: "Parallax Pivot"
+  skip_translation: true
 
 - text: "Bunny Jumping Manager"
-  translation: ""
+  translation: "Bunny Jumping Manager"
+  skip_translation: true
 
 - text: "Talk repeat"
-  translation: ""
+  translation: "Talk repeat"
+  skip_translation: true
 
 - text: "Edge Side"
-  translation: ""
+  translation: "Edge Side"
+  skip_translation: true
 
 - text: "Random Sound Location - 3"
-  translation: ""
+  translation: "Random Sound Location - 3"
+  skip_translation: true
 
 - text: "Building 2"
-  translation: ""
+  translation: "Building 2"
+  skip_translation: true
 
 - text: "LineGlow"
-  translation: ""
+  translation: "LineGlow"
+  skip_translation: true
 
 - text: "Edges"
-  translation: ""
+  translation: "Edges"
+  skip_translation: true
 
 - text: "Car in Air"
-  translation: ""
+  translation: "Car in Air"
+  skip_translation: true
 
 - text: "Outine"
-  translation: ""
+  translation: "Outine"
+  skip_translation: true
 
 - text: "VIP Car"
-  translation: ""
+  translation: "VIP Car"
+  skip_translation: true
 
 - text: "Under GlowingHole"
-  translation: ""
+  translation: "Under GlowingHole"
+  skip_translation: true
 
 - text: "Group 5"
-  translation: ""
+  translation: "Group 5"
+  skip_translation: true
 
 - text: "SignSet_4"
-  translation: ""
+  translation: "SignSet_4"
+  skip_translation: true
 
 - text: "Ground Outline Corner 4"
-  translation: ""
+  translation: "Ground Outline Corner 4"
+  skip_translation: true
 
 - text: "Rail End Top"
-  translation: ""
+  translation: "Rail End Top"
+  skip_translation: true
 
 - text: "Stair Shape"
-  translation: ""
+  translation: "Stair Shape"
+  skip_translation: true
 
 - text: "Wall Handrail Back"
-  translation: ""
+  translation: "Wall Handrail Back"
+  skip_translation: true
 
 - text: "Parking Area"
-  translation: ""
+  translation: "Parking Area"
+  skip_translation: true
 
 - text: "Doors/Transition Points"
-  translation: ""
+  translation: "Doors/Transition Points"
+  skip_translation: true
 
 - text: "Cloud 4"
-  translation: ""
+  translation: "Cloud 4"
+  skip_translation: true
 
 - text: "Ground Indicator"
-  translation: ""
+  translation: "Ground Indicator"
+  skip_translation: true
 
 - text: "Group 10"
-  translation: ""
+  translation: "Group 10"
+  skip_translation: true
 
 - text: "Angry Man barks"
-  translation: ""
+  translation: "Angry Man barks"
+  skip_translation: true
 
 - text: "CinematicCamera"
-  translation: ""
+  translation: "CinematicCamera"
+  skip_translation: true
 
 - text: "LoadingArea"
-  translation: ""
+  translation: "LoadingArea"
+  skip_translation: true
 
 - text: "Shine_Blue"
-  translation: ""
+  translation: "Shine_Blue"
+  skip_translation: true
 
 - text: "Vending Machines"
-  translation: ""
+  translation: "Vending Machines"
+  skip_translation: true
 
 - text: "Rail 2"
-  translation: ""
+  translation: "Rail 2"
+  skip_translation: true
 
 - text: "Rail 1"
-  translation: ""
+  translation: "Rail 1"
+  skip_translation: true
 
 - text: "Haze Cloud 4"
-  translation: ""
+  translation: "Haze Cloud 4"
+  skip_translation: true
 
 - text: "Power Box"
-  translation: ""
+  translation: "Power Box"
+  skip_translation: true
 
 - text: "Group1"
-  translation: ""
+  translation: "Group1"
+  skip_translation: true
 
 - text: "Flies_3"
   translation: "Flies_3"
   skip_translation: true
 
 - text: "Glowing_Letters"
-  translation: ""
+  translation: "Glowing_Letters"
+  skip_translation: true
 
 - text: "hotel_pack8_staffroom_assets_export_base_76 b"
-  translation: ""
+  translation: "hotel_pack8_staffroom_assets_export_base_76 b"
+  skip_translation: true
 
 - text: "Platforms"
-  translation: ""
+  translation: "Platforms"
+  skip_translation: true
 
 - text: "Stair Ground"
-  translation: ""
+  translation: "Stair Ground"
+  skip_translation: true
 
 - text: "Power Box Shadow"
-  translation: ""
+  translation: "Power Box Shadow"
+  skip_translation: true
 
 - text: "Steps"
   translation: "Steps"
   skip_translation: true
 
 - text: "Stair Handrail Top"
-  translation: ""
+  translation: "Stair Handrail Top"
+  skip_translation: true
 
 - text: "Group 1"
-  translation: ""
+  translation: "Group 1"
+  skip_translation: true
 
 - text: "BigSign"
-  translation: ""
+  translation: "BigSign"
+  skip_translation: true
 
 - text: "Drone_4"
   translation: "Drone_4"
   skip_translation: true
 
 - text: "Flies"
-  translation: ""
+  translation: "Flies"
+  skip_translation: true
 
 - text: "Building"
-  translation: ""
+  translation: "Building"
+  skip_translation: true
 
 - text: "Beginning fall out of window cutscene"
-  translation: ""
+  translation: "Beginning fall out of window cutscene"
+  skip_translation: true
 
 - text: "Ground Outline Big Door 1"
-  translation: ""
+  translation: "Ground Outline Big Door 1"
+  skip_translation: true
 
 - text: "Ground Outline Big Door 2"
-  translation: ""
+  translation: "Ground Outline Big Door 2"
+  skip_translation: true
 
 - text: "Random Sound Location - 0"
-  translation: ""
+  translation: "Random Sound Location - 0"
+  skip_translation: true
 
 - text: "Haze Cloud"
-  translation: ""
+  translation: "Haze Cloud"
+  skip_translation: true
 
 - text: "Roof"
-  translation: ""
+  translation: "Roof"
+  skip_translation: true
 
 - text: "Window_Small"
-  translation: ""
+  translation: "Window_Small"
+  skip_translation: true
 
 - text: "Break Guy"
-  translation: ""
+  translation: "Break Guy"
+  skip_translation: true
 
 - text: "Random Sound Location - 5"
-  translation: ""
+  translation: "Random Sound Location - 5"
+  skip_translation: true
 
 - text: "Haze Cloud 3"
-  translation: ""
+  translation: "Haze Cloud 3"
+  skip_translation: true
 
 - text: "Group6"
-  translation: ""
+  translation: "Group6"
+  skip_translation: true
 
 - text: "Flies_7"
   translation: "Flies_7"
   skip_translation: true
 
 - text: "Group 2"
-  translation: ""
+  translation: "Group 2"
+  skip_translation: true
 
 - text: "Group5"
-  translation: ""
+  translation: "Group5"
+  skip_translation: true
 
 - text: "Group 11/Dont turn off"
-  translation: ""
+  translation: "Group 11/Dont turn off"
+  skip_translation: true
 
 - text: "Edge Back"
-  translation: ""
+  translation: "Edge Back"
+  skip_translation: true
 
 - text: "Walls Edge"
-  translation: ""
+  translation: "Walls Edge"
+  skip_translation: true
 
 - text: "Parking Spot Indicator"
-  translation: ""
+  translation: "Parking Spot Indicator"
+  skip_translation: true
 
 - text: "Bark 1"
-  translation: ""
+  translation: "Bark 1"
+  skip_translation: true
 
 - text: "Alley Way"
-  translation: ""
+  translation: "Alley Way"
+  skip_translation: true
 
 - text: "Kittys"
-  translation: ""
+  translation: "Kittys"
+  skip_translation: true
 
 - text: "Wall 2"
-  translation: ""
+  translation: "Wall 2"
+  skip_translation: true
 
 - text: "Loading Area Sign FakeLight"
-  translation: ""
+  translation: "Loading Area Sign FakeLight"
+  skip_translation: true
 
 - text: "White Cloud"
-  translation: ""
+  translation: "White Cloud"
+  skip_translation: true
 
 - text: "VIP Parking"
-  translation: ""
+  translation: "VIP Parking"
+  skip_translation: true
 
 - text: "Bridges"
-  translation: ""
+  translation: "Bridges"
+  skip_translation: true
 
 - text: "Random Sound Location - 6"
-  translation: ""
+  translation: "Random Sound Location - 6"
+  skip_translation: true
 
 - text: "Corner Piece Outer"
-  translation: ""
+  translation: "Corner Piece Outer"
+  skip_translation: true
 
 - text: "Overlay"
-  translation: ""
+  translation: "Overlay"
+  skip_translation: true
 
 - text: "Placeholder"
-  translation: ""
+  translation: "Placeholder"
+  skip_translation: true
 
 - text: "OutroCutscene"
-  translation: ""
+  translation: "OutroCutscene"
+  skip_translation: true
 
 - text: "hotel_pack8_staffroom_assets_export_base_77 a"
-  translation: ""
+  translation: "hotel_pack8_staffroom_assets_export_base_77 a"
+  skip_translation: true
 
 - text: "Rail 5"
-  translation: ""
+  translation: "Rail 5"
+  skip_translation: true
 
 - text: "White Cloud 11"
-  translation: ""
+  translation: "White Cloud 11"
+  skip_translation: true
 
 - text: "Main Ground"
-  translation: ""
+  translation: "Main Ground"
+  skip_translation: true
 
 - text: "SignSet_1"
-  translation: ""
+  translation: "SignSet_1"
+  skip_translation: true
 
 - text: "Vent_1"
   translation: "Vent_1"
   skip_translation: true
 
 - text: "Platform Ground"
-  translation: ""
+  translation: "Platform Ground"
+  skip_translation: true
 
 - text: "Random Sound Location - 4"
-  translation: ""
+  translation: "Random Sound Location - 4"
+  skip_translation: true
 
 - text: "White Cloud 13"
-  translation: ""
+  translation: "White Cloud 13"
+  skip_translation: true
 
 - text: "hotel_pack8_staffroom_assets_export_base_76 d"
-  translation: ""
+  translation: "hotel_pack8_staffroom_assets_export_base_76 d"
+  skip_translation: true
 
 - text: "Ground Elements"
-  translation: ""
+  translation: "Ground Elements"
+  skip_translation: true
 
 - text: "Pocket Pussy Crowd Barks"
-  translation: ""
+  translation: "Pocket Pussy Crowd Barks"
+  skip_translation: true
 
 - text: "Upper Right"
-  translation: ""
+  translation: "Upper Right"
+  skip_translation: true
 
 - text: "Ground Outline Corner 8"
-  translation: ""
+  translation: "Ground Outline Corner 8"
+  skip_translation: true
 
 - text: "Loading Area Sign"
-  translation: ""
+  translation: "Loading Area Sign"
+  skip_translation: true
 
 - text: "Asshole can't park"
-  translation: ""
+  translation: "Asshole can't park"
+  skip_translation: true
 
 - text: "Sphere Collider"
-  translation: ""
+  translation: "Sphere Collider"
+  skip_translation: true
 
 - text: "Group 8"
-  translation: ""
+  translation: "Group 8"
+  skip_translation: true
 
 - text: "Angeled Railing Corner"
-  translation: ""
+  translation: "Angeled Railing Corner"
+  skip_translation: true
 
 - text: "Drone_2"
   translation: "Drone_2"
   skip_translation: true
 
 - text: "Bridge and Under"
-  translation: ""
+  translation: "Bridge and Under"
+  skip_translation: true
 
 - text: "Parking Area 1 Background"
-  translation: ""
+  translation: "Parking Area 1 Background"
+  skip_translation: true
 
 - text: "Drone_3"
   translation: "Drone_3"
   skip_translation: true
 
 - text: "Group2"
-  translation: ""
+  translation: "Group2"
+  skip_translation: true
 
 - text: "Car for animation"
-  translation: ""
+  translation: "Car for animation"
+  skip_translation: true
 
 - text: "Wall Front"
-  translation: ""
+  translation: "Wall Front"
+  skip_translation: true
 
 - text: "Rail End Bottom"
-  translation: ""
+  translation: "Rail End Bottom"
+  skip_translation: true
 
 - text: "Fleshlight examination repeat"
-  translation: ""
+  translation: "Fleshlight examination repeat"
+  skip_translation: true
 
 - text: "Platform"
-  translation: ""
+  translation: "Platform"
+  skip_translation: true
 
 - text: "White Cloud 7"
-  translation: ""
+  translation: "White Cloud 7"
+  skip_translation: true
 
 - text: "Wall Top"
-  translation: ""
+  translation: "Wall Top"
+  skip_translation: true
 
 - text: "Hole_Letters"
-  translation: ""
+  translation: "Hole_Letters"
+  skip_translation: true
 
 - text: "Rail 4"
-  translation: ""
+  translation: "Rail 4"
+  skip_translation: true
 
 - text: "Cars"
   translation: "Cars"
   skip_translation: true
 
 - text: "Ground Outline Corner 7"
-  translation: ""
+  translation: "Ground Outline Corner 7"
+  skip_translation: true
 
 - text: "Cloud 2"
-  translation: ""
+  translation: "Cloud 2"
+  skip_translation: true
 
 - text: "Distant Laughing"
-  translation: ""
+  translation: "Distant Laughing"
+  skip_translation: true
 
 - text: "Walla_2"
   translation: "Walla_2"
   skip_translation: true
 
 - text: "Car Lady"
-  translation: ""
+  translation: "Car Lady"
+  skip_translation: true
 
 - text: "Caster"
-  translation: ""
+  translation: "Caster"
+  skip_translation: true
 
 - text: "Updated Background"
-  translation: ""
+  translation: "Updated Background"
+  skip_translation: true
 
 - text: "GlowingHole Platform"
-  translation: ""
+  translation: "GlowingHole Platform"
+  skip_translation: true
 
 - text: "Background Pivot"
-  translation: ""
+  translation: "Background Pivot"
+  skip_translation: true
 
 - text: "Shadwocaster Roof"
-  translation: ""
+  translation: "Shadwocaster Roof"
+  skip_translation: true
 
 - text: "BunnyAd2"
-  translation: ""
+  translation: "BunnyAd2"
+  skip_translation: true
 
 - text: "hotel_pack8_staffroom_assets_export_base_76 g"
-  translation: ""
+  translation: "hotel_pack8_staffroom_assets_export_base_76 g"
+  skip_translation: true
 
 - text: "Angeled Railing 2"
-  translation: ""
+  translation: "Angeled Railing 2"
+  skip_translation: true
 
 - text: "Drones"
-  translation: ""
+  translation: "Drones"
+  skip_translation: true
 
 - text: "Andro Pimp 1"
-  translation: ""
+  translation: "Andro Pimp 1"
+  skip_translation: true
 
 - text: "White Cloud 10"
-  translation: ""
+  translation: "White Cloud 10"
+  skip_translation: true
 
 - text: "Landing Trash"
-  translation: ""
+  translation: "Landing Trash"
+  skip_translation: true
 
 - text: "Group 12"
-  translation: ""
+  translation: "Group 12"
+  skip_translation: true
 
 - text: "Group 3"
-  translation: ""
+  translation: "Group 3"
+  skip_translation: true
 
 - text: "Global Light"
-  translation: ""
+  translation: "Global Light"
+  skip_translation: true
 
 - text: "Window_Wide"
-  translation: ""
+  translation: "Window_Wide"
+  skip_translation: true
 
 - text: "Flying Cars"
-  translation: ""
+  translation: "Flying Cars"
+  skip_translation: true
 
 - text: "Change Kitty on ground"
-  translation: ""
+  translation: "Change Kitty on ground"
+  skip_translation: true
 
 - text: "After Car Girl Interaction Ground Indicator"
-  translation: ""
+  translation: "After Car Girl Interaction Ground Indicator"
+  skip_translation: true
 
 - text: "JumpingBunny"
-  translation: ""
+  translation: "JumpingBunny"
+  skip_translation: true
 
 - text: "wall_spriteshape 1"
-  translation: ""
+  translation: "wall_spriteshape 1"
+  skip_translation: true
 
 - text: "Parking Area Background"
-  translation: ""
+  translation: "Parking Area Background"
+  skip_translation: true
 
 - text: "Andro Pimp 2"
-  translation: ""
+  translation: "Andro Pimp 2"
+  skip_translation: true
 
 - text: "Ground Outline Corner 5"
-  translation: ""
+  translation: "Ground Outline Corner 5"
+  skip_translation: true
 
 - text: "Random Sound Location - 2"
-  translation: ""
+  translation: "Random Sound Location - 2"
+  skip_translation: true
 
 - text: "Stair"
-  translation: ""
+  translation: "Stair"
+  skip_translation: true
 
 - text: "Cloud 3"
-  translation: ""
+  translation: "Cloud 3"
+  skip_translation: true
 
 - text: "Walla_1"
   translation: "Walla_1"
   skip_translation: true
 
 - text: "Ground Outline Corner"
-  translation: ""
+  translation: "Ground Outline Corner"
+  skip_translation: true
 
 - text: "Ground Outline Corner 2"
-  translation: ""
+  translation: "Ground Outline Corner 2"
+  skip_translation: true
 
 - text: "Group 7"
-  translation: ""
+  translation: "Group 7"
+  skip_translation: true
 
 - text: "hotel_pack8_staffroom_assets_export_base_76 e"
-  translation: ""
+  translation: "hotel_pack8_staffroom_assets_export_base_76 e"
+  skip_translation: true
 
 - text: "Under Side Entrance"
-  translation: ""
+  translation: "Under Side Entrance"
+  skip_translation: true
 
 - text: "Chimny"
-  translation: ""
+  translation: "Chimny"
+  skip_translation: true
 
 - text: "White Cloud 12"
-  translation: ""
+  translation: "White Cloud 12"
+  skip_translation: true
 
 - text: "Flavour Dialogues and Converstations"
-  translation: ""
+  translation: "Flavour Dialogues and Converstations"
+  skip_translation: true
 
 - text: "GlowingHole Sign"
-  translation: ""
+  translation: "GlowingHole Sign"
+  skip_translation: true
 
 - text: "SignSet_3"
-  translation: ""
+  translation: "SignSet_3"
+  skip_translation: true
 
 - text: "2nd/3rd Floor"
-  translation: ""
+  translation: "2nd/3rd Floor"
+  skip_translation: true
 
 - text: "New"
-  translation: ""
+  translation: "New"
+  skip_translation: true
 
 - text: "Random Sound Location - 1"
-  translation: ""
+  translation: "Random Sound Location - 1"
+  skip_translation: true
 
 - text: "Broken Walkway"
-  translation: ""
+  translation: "Broken Walkway"
+  skip_translation: true
 
 - text: "Haze Cloud 9"
-  translation: ""
+  translation: "Haze Cloud 9"
+  skip_translation: true
 
 - text: "Decal"
-  translation: ""
+  translation: "Decal"
+  skip_translation: true
 
 - text: "Haze Cloud 6"
-  translation: ""
+  translation: "Haze Cloud 6"
+  skip_translation: true
 
 - text: "Drone_5"
   translation: "Drone_5"
   skip_translation: true
 
 - text: "Girls Bark"
-  translation: ""
+  translation: "Girls Bark"
+  skip_translation: true
 
 - text: "Group 4"
-  translation: ""
+  translation: "Group 4"
+  skip_translation: true
 
 - text: "White Cloud 2"
-  translation: ""
+  translation: "White Cloud 2"
+  skip_translation: true
 
 - text: "Group4"
-  translation: ""
+  translation: "Group4"
+  skip_translation: true
 
 - text: "GlowingHole break Bunny barks"
-  translation: ""
+  translation: "GlowingHole break Bunny barks"
+  skip_translation: true
 
 - text: "Building Background 2"
-  translation: ""
+  translation: "Building Background 2"
+  skip_translation: true
 
 - text: "Haze Cloud 8"
-  translation: ""
+  translation: "Haze Cloud 8"
+  skip_translation: true
 
 - text: "Set everything for after"
-  translation: ""
+  translation: "Set everything for after"
+  skip_translation: true
 
 - text: "Drone_6"
   translation: "Drone_6"
   skip_translation: true
 
 - text: "Angeled Railing Corner 2"
-  translation: ""
+  translation: "Angeled Railing Corner 2"
+  skip_translation: true
 
 - text: "Glass Breaking"
-  translation: ""
+  translation: "Glass Breaking"
+  skip_translation: true
 
 - text: "Building Background 1"
-  translation: ""
+  translation: "Building Background 1"
+  skip_translation: true
 
 - text: "White Cloud 8"
-  translation: ""
+  translation: "White Cloud 8"
+  skip_translation: true
 
 - text: "Glass Shards"
-  translation: ""
+  translation: "Glass Shards"
+  skip_translation: true
 
 - text: "Beanu"
-  translation: ""
+  translation: "Beanu"
+  skip_translation: true
 
 - text: "White Cloud 5"
-  translation: ""
+  translation: "White Cloud 5"
+  skip_translation: true
 
 - text: "GloryHoles"
-  translation: ""
+  translation: "GloryHoles"
+  skip_translation: true
 
 - text: "Group 6"
-  translation: ""
+  translation: "Group 6"
+  skip_translation: true
 
 - text: "Check trash swap"
-  translation: ""
+  translation: "Check trash swap"
+  skip_translation: true
 
 - text: "Angeled Wall"
-  translation: ""
+  translation: "Angeled Wall"
+  skip_translation: true
 
 - text: "ADS"
   translation: "ADS"
   skip_translation: true
 
 - text: "Cloud"
-  translation: ""
+  translation: "Cloud"
+  skip_translation: true
 
 - text: "Group 9"
-  translation: ""
+  translation: "Group 9"
+  skip_translation: true
 
 - text: "Corner Piece Horizontal"
-  translation: ""
+  translation: "Corner Piece Horizontal"
+  skip_translation: true
 
 - text: "Group 15"
-  translation: ""
+  translation: "Group 15"
+  skip_translation: true
 
 - text: "3D Ladys"
-  translation: ""
+  translation: "3D Ladys"
+  skip_translation: true
 
 - text: "Flies_4"
   translation: "Flies_4"
   skip_translation: true
 
 - text: "Parking Area Ground"
-  translation: ""
+  translation: "Parking Area Ground"
+  skip_translation: true
 
 - text: "Angeled Railing 4"
-  translation: ""
+  translation: "Angeled Railing 4"
+  skip_translation: true
 
 - text: "Under Walkway Upper"
-  translation: ""
+  translation: "Under Walkway Upper"
+  skip_translation: true
 
 - text: "Flies_2"
   translation: "Flies_2"
   skip_translation: true
 
 - text: "Railing Top 3"
-  translation: ""
+  translation: "Railing Top 3"
+  skip_translation: true
 
 - text: "Wall Decals"
-  translation: ""
+  translation: "Wall Decals"
+  skip_translation: true
 
 - text: "Angeled Railing"
-  translation: ""
+  translation: "Angeled Railing"
+  skip_translation: true
 
 - text: "GloryHoleGuy"
-  translation: ""
+  translation: "GloryHoleGuy"
+  skip_translation: true
 
 - text: "Ground Outline Inner Corner 3"
-  translation: ""
+  translation: "Ground Outline Inner Corner 3"
+  skip_translation: true
 
 - text: "Paralax"
-  translation: ""
+  translation: "Paralax"
+  skip_translation: true
 
 - text: "Shine_Middle"
-  translation: ""
+  translation: "Shine_Middle"
+  skip_translation: true
 
 - text: "White Cloud 4"
-  translation: ""
+  translation: "White Cloud 4"
+  skip_translation: true
 
 - text: "Moveable"
-  translation: ""
+  translation: "Moveable"
+  skip_translation: true
 
 - text: "Group 14"
-  translation: ""
+  translation: "Group 14"
+  skip_translation: true
 
 - text: "White Cloud 3"
-  translation: ""
+  translation: "White Cloud 3"
+  skip_translation: true
 
 - text: "Waiting in Line"
-  translation: ""
+  translation: "Waiting in Line"
+  skip_translation: true
 
 - text: "World Colliders"
-  translation: ""
+  translation: "World Colliders"
+  skip_translation: true
 
 - text: "Ground Outline Corner 3"
-  translation: ""
+  translation: "Ground Outline Corner 3"
+  skip_translation: true
 
 - text: "Under Walkway Upper 2"
-  translation: ""
+  translation: "Under Walkway Upper 2"
+  skip_translation: true
 
 - text: "Pipes/Vents"
-  translation: ""
+  translation: "Pipes/Vents"
+  skip_translation: true
 
 - text: "Edge Front"
-  translation: ""
+  translation: "Edge Front"
+  skip_translation: true
 
 - text: "Under Walkway 2"
-  translation: ""
+  translation: "Under Walkway 2"
+  skip_translation: true
 
 - text: "Ground Outline Inner Corner 2"
-  translation: ""
+  translation: "Ground Outline Inner Corner 2"
+  skip_translation: true
 
 - text: "Flies_5"
   translation: "Flies_5"
   skip_translation: true
 
 - text: "Cabel"
-  translation: ""
+  translation: "Cabel"
+  skip_translation: true
 
 - text: "Shine_Right"
-  translation: ""
+  translation: "Shine_Right"
+  skip_translation: true
 
 - text: "Ventilator"
-  translation: ""
+  translation: "Ventilator"
+  skip_translation: true
 
 - text: "LRLD_BG_color_001 1"
-  translation: ""
+  translation: "LRLD_BG_color_001 1"
+  skip_translation: true
 
 - text: "Sound Location Source"
-  translation: ""
+  translation: "Sound Location Source"
+  skip_translation: true
 
 - text: "Group"
-  translation: ""
+  translation: "Group"
+  skip_translation: true
 
 - text: "Random Sound Location - 8"
-  translation: ""
+  translation: "Random Sound Location - 8"
+  skip_translation: true
 
 - text: "White Cloud 9"
-  translation: ""
+  translation: "White Cloud 9"
+  skip_translation: true
 
 - text: "Big Building"
-  translation: ""
+  translation: "Big Building"
+  skip_translation: true
 
 - text: "Car to Remove"
-  translation: ""
+  translation: "Car to Remove"
+  skip_translation: true
 
 - text: "Group 8 after Intro swap"
-  translation: ""
+  translation: "Group 8 after Intro swap"
+  skip_translation: true
 
 - text: "Side Path Ground"
-  translation: ""
+  translation: "Side Path Ground"
+  skip_translation: true
 
 - text: "Railing Top 2"
-  translation: ""
+  translation: "Railing Top 2"
+  skip_translation: true
 
 - text: "Ventilator Shadow"
-  translation: ""
+  translation: "Ventilator Shadow"
+  skip_translation: true
 
 - text: "Drone_1"
   translation: "Drone_1"
@@ -932,336 +1161,440 @@
   skip_translation: true
 
 - text: "White Cloud 6"
-  translation: ""
+  translation: "White Cloud 6"
+  skip_translation: true
 
 - text: "Ground Outline Corner 6"
-  translation: ""
+  translation: "Ground Outline Corner 6"
+  skip_translation: true
 
 - text: "SpriteMask"
-  translation: ""
+  translation: "SpriteMask"
+  skip_translation: true
 
 - text: "Angeled Railing 5"
-  translation: ""
+  translation: "Angeled Railing 5"
+  skip_translation: true
 
 - text: "Haze Cloud 5"
-  translation: ""
+  translation: "Haze Cloud 5"
+  skip_translation: true
 
 - text: "Shadowcaster Upper Platform"
-  translation: ""
+  translation: "Shadowcaster Upper Platform"
+  skip_translation: true
 
 - text: "Cypher Roof"
-  translation: ""
+  translation: "Cypher Roof"
+  skip_translation: true
 
 - text: "Haze Cloud 2"
-  translation: ""
+  translation: "Haze Cloud 2"
+  skip_translation: true
 
 - text: "Lights and Signs"
-  translation: ""
+  translation: "Lights and Signs"
+  skip_translation: true
 
 - text: "Black Overlay canvas"
-  translation: ""
+  translation: "Black Overlay canvas"
+  skip_translation: true
 
 - text: "Haze Cloud 7"
-  translation: ""
+  translation: "Haze Cloud 7"
+  skip_translation: true
 
 - text: "SignSet_2"
-  translation: ""
+  translation: "SignSet_2"
+  skip_translation: true
 
 - text: "Upper and Staircase"
-  translation: ""
+  translation: "Upper and Staircase"
+  skip_translation: true
 
 - text: "Walls Lower"
-  translation: ""
+  translation: "Walls Lower"
+  skip_translation: true
 
 - text: "hotel_pack8_staffroom_assets_export_base_76 f"
-  translation: ""
+  translation: "hotel_pack8_staffroom_assets_export_base_76 f"
+  skip_translation: true
 
 - text: "Group 13"
-  translation: ""
+  translation: "Group 13"
+  skip_translation: true
 
 - text: "Railing Top 4"
-  translation: ""
+  translation: "Railing Top 4"
+  skip_translation: true
 
 - text: "GlowingHole Roof"
-  translation: ""
+  translation: "GlowingHole Roof"
+  skip_translation: true
 
 - text: "Group3"
-  translation: ""
+  translation: "Group3"
+  skip_translation: true
 
 - text: "Shine_Left"
-  translation: ""
+  translation: "Shine_Left"
+  skip_translation: true
 
 - text: "Talk 2"
-  translation: ""
+  translation: "Talk 2"
+  skip_translation: true
 
 - text: "Buildings"
-  translation: ""
+  translation: "Buildings"
+  skip_translation: true
 
 - text: "hotel_pack8_staffroom_assets_export_base_76 c"
-  translation: ""
+  translation: "hotel_pack8_staffroom_assets_export_base_76 c"
+  skip_translation: true
 
 - text: "Wall 3"
-  translation: ""
+  translation: "Wall 3"
+  skip_translation: true
 
 - text: "hotel_pack8_staffroom_assets_export_base_75 a"
-  translation: ""
+  translation: "hotel_pack8_staffroom_assets_export_base_75 a"
+  skip_translation: true
 
 - text: "Wall Ventilator"
-  translation: ""
+  translation: "Wall Ventilator"
+  skip_translation: true
 
 - text: "GloryHole Corner"
-  translation: ""
+  translation: "GloryHole Corner"
+  skip_translation: true
 
 - text: "Railing Top"
-  translation: ""
+  translation: "Railing Top"
+  skip_translation: true
 
 - text: "GlowingHole Logo for Animation"
-  translation: ""
+  translation: "GlowingHole Logo for Animation"
+  skip_translation: true
 
 - text: "Random Sound Location - 7"
-  translation: ""
+  translation: "Random Sound Location - 7"
+  skip_translation: true
 
 - text: "Cable_Corner"
-  translation: ""
+  translation: "Cable_Corner"
+  skip_translation: true
 
 - text: "Symbol"
-  translation: ""
+  translation: "Symbol"
+  skip_translation: true
 
 - text: "streetlights emissive bottom 2"
-  translation: ""
+  translation: "streetlights emissive bottom 2"
+  skip_translation: true
 
 - text: "Ticket Machine"
-  translation: ""
+  translation: "Ticket Machine"
+  skip_translation: true
 
 - text: "color back 1"
-  translation: ""
+  translation: "color back 1"
+  skip_translation: true
 
 - text: "Poor Guy"
-  translation: ""
+  translation: "Poor Guy"
+  skip_translation: true
 
 - text: "Cartel Girl"
-  translation: ""
+  translation: "Cartel Girl"
+  skip_translation: true
 
 - text: "Idle Men"
-  translation: ""
+  translation: "Idle Men"
+  skip_translation: true
 
 - text: "Bunny Boy"
-  translation: ""
+  translation: "Bunny Boy"
+  skip_translation: true
 
 - text: "Dealer"
-  translation: ""
+  translation: "Dealer"
+  skip_translation: true
 
 - text: "Andro"
-  translation: ""
+  translation: "Andro"
+  skip_translation: true
 
 - text: "Angry Man"
-  translation: ""
+  translation: "Angry Man"
+  skip_translation: true
 
 - text: "Car girl"
-  translation: ""
+  translation: "Car girl"
+  skip_translation: true
 
 - text: "Bunny Girl"
-  translation: ""
+  translation: "Bunny Girl"
+  skip_translation: true
 
 - text: "Shady Guy"
-  translation: ""
+  translation: "Shady Guy"
+  skip_translation: true
 
 - text: "GloryHole Fucker"
-  translation: ""
+  translation: "GloryHole Fucker"
+  skip_translation: true
 
 - text: "Waiting 1"
-  translation: ""
+  translation: "Waiting 1"
+  skip_translation: true
 
 - text: "Wall_Base_Right"
-  translation: ""
+  translation: "Wall_Base_Right"
+  skip_translation: true
 
 - text: "Cable2"
-  translation: ""
+  translation: "Cable2"
+  skip_translation: true
 
 - text: "Base Sprite Shadow"
-  translation: ""
+  translation: "Base Sprite Shadow"
+  skip_translation: true
 
 - text: "WallGround"
-  translation: ""
+  translation: "WallGround"
+  skip_translation: true
 
 - text: "Lower Wall Bend"
-  translation: ""
+  translation: "Lower Wall Bend"
+  skip_translation: true
 
 - text: "BehindDoor"
-  translation: ""
+  translation: "BehindDoor"
+  skip_translation: true
 
 - text: "Pillar_Bottom"
-  translation: ""
+  translation: "Pillar_Bottom"
+  skip_translation: true
 
 - text: "Upper Wall Straight"
-  translation: ""
+  translation: "Upper Wall Straight"
+  skip_translation: true
 
 - text: "Outside_Chimney"
-  translation: ""
+  translation: "Outside_Chimney"
+  skip_translation: true
 
 - text: "Cable_Corner_2"
-  translation: ""
+  translation: "Cable_Corner_2"
+  skip_translation: true
 
 - text: "CameraHolder3"
-  translation: ""
+  translation: "CameraHolder3"
+  skip_translation: true
 
 - text: "Arrow_whites"
   translation: "Arrow_whites"
   skip_translation: true
 
 - text: "Lower Wall Straight"
-  translation: ""
+  translation: "Lower Wall Straight"
+  skip_translation: true
 
 - text: "Decal_G_Dakkr"
-  translation: ""
+  translation: "Decal_G_Dakkr"
+  skip_translation: true
 
 - text: "Charging_2"
   translation: "Charging_2"
   skip_translation: true
 
 - text: "FakeLight1"
-  translation: ""
+  translation: "FakeLight1"
+  skip_translation: true
 
 - text: "Ticket Screen Hologram"
-  translation: ""
+  translation: "Ticket Screen Hologram"
+  skip_translation: true
 
 - text: "Choice - Ask for Demonstration"
-  translation: ""
+  translation: "Choice - Ask for Demonstration"
+  skip_translation: true
 
 - text: "Arrow Right 2"
-  translation: ""
+  translation: "Arrow Right 2"
+  skip_translation: true
 
 - text: "Base Sprite"
-  translation: ""
+  translation: "Base Sprite"
+  skip_translation: true
 
 - text: "Open_Hatch"
-  translation: ""
+  translation: "Open_Hatch"
+  skip_translation: true
 
 - text: "color platform bottom extended 2"
-  translation: ""
+  translation: "color platform bottom extended 2"
+  skip_translation: true
 
 - text: "color roof"
-  translation: ""
+  translation: "color roof"
+  skip_translation: true
 
 - text: "Water hit Ground Sound Location"
-  translation: ""
+  translation: "Water hit Ground Sound Location"
+  skip_translation: true
 
 - text: "LightFloor"
-  translation: ""
+  translation: "LightFloor"
+  skip_translation: true
 
 - text: "Decal_G_AntiGAG"
-  translation: ""
+  translation: "Decal_G_AntiGAG"
+  skip_translation: true
 
 - text: "FakeLight2"
-  translation: ""
+  translation: "FakeLight2"
+  skip_translation: true
 
 - text: "T-Seperator"
-  translation: ""
+  translation: "T-Seperator"
+  skip_translation: true
 
 - text: "Sorting Sprite"
-  translation: ""
+  translation: "Sorting Sprite"
+  skip_translation: true
 
 - text: "Barrier_Right"
-  translation: ""
+  translation: "Barrier_Right"
+  skip_translation: true
 
 - text: "GoSignRight"
-  translation: ""
+  translation: "GoSignRight"
+  skip_translation: true
 
 - text: "Decal_G_Cum"
-  translation: ""
+  translation: "Decal_G_Cum"
+  skip_translation: true
 
 - text: "Box4"
   translation: "Box4"
   skip_translation: true
 
 - text: "BridgeConnector Right"
-  translation: ""
+  translation: "BridgeConnector Right"
+  skip_translation: true
 
 - text: "Prop Parent"
-  translation: ""
+  translation: "Prop Parent"
+  skip_translation: true
 
 - text: "Plastic"
-  translation: ""
+  translation: "Plastic"
+  skip_translation: true
 
 - text: "streetlights bottom 1"
-  translation: ""
+  translation: "streetlights bottom 1"
+  skip_translation: true
 
 - text: "Fake Light"
-  translation: ""
+  translation: "Fake Light"
+  skip_translation: true
 
 - text: "streetlights emissive top"
-  translation: ""
+  translation: "streetlights emissive top"
+  skip_translation: true
 
 - text: "Car Shadows Spawner"
-  translation: ""
+  translation: "Car Shadows Spawner"
+  skip_translation: true
 
 - text: "Light4"
   translation: "Light4"
   skip_translation: true
 
 - text: "Red Light Piece Left"
-  translation: ""
+  translation: "Red Light Piece Left"
+  skip_translation: true
 
 - text: "Wall_Base_Left"
-  translation: ""
+  translation: "Wall_Base_Left"
+  skip_translation: true
 
 - text: "Go Sign Left Top"
-  translation: ""
+  translation: "Go Sign Left Top"
+  skip_translation: true
 
 - text: "TrafficBridge"
-  translation: ""
+  translation: "TrafficBridge"
+  skip_translation: true
 
 - text: "Shine_FakeLight"
-  translation: ""
+  translation: "Shine_FakeLight"
+  skip_translation: true
 
 - text: "color platform"
-  translation: ""
+  translation: "color platform"
+  skip_translation: true
 
 - text: "Pillar_Top"
-  translation: ""
+  translation: "Pillar_Top"
+  skip_translation: true
 
 - text: "Train Station Entrance Side"
-  translation: ""
+  translation: "Train Station Entrance Side"
+  skip_translation: true
 
 - text: "red lights"
-  translation: ""
+  translation: "red lights"
+  skip_translation: true
 
 - text: "Dumpster_Front"
-  translation: ""
+  translation: "Dumpster_Front"
+  skip_translation: true
 
 - text: "Music Ducker"
-  translation: ""
+  translation: "Music Ducker"
+  skip_translation: true
 
 - text: "Arrow_greens"
   translation: "Arrow_greens"
   skip_translation: true
 
 - text: "DoorFrame_Left"
-  translation: ""
+  translation: "DoorFrame_Left"
+  skip_translation: true
 
 - text: "Decal_G_Never"
-  translation: ""
+  translation: "Decal_G_Never"
+  skip_translation: true
 
 - text: "CameraHolder"
-  translation: ""
+  translation: "CameraHolder"
+  skip_translation: true
 
 - text: "PillarRight"
-  translation: ""
+  translation: "PillarRight"
+  skip_translation: true
 
 - text: "Decal_G_Eyeball"
-  translation: ""
+  translation: "Decal_G_Eyeball"
+  skip_translation: true
 
 - text: "Pole4"
-  translation: ""
+  translation: "Pole4"
+  skip_translation: true
 
 - text: "DoorRight"
-  translation: ""
+  translation: "DoorRight"
+  skip_translation: true
 
 - text: "Lid"
-  translation: ""
+  translation: "Lid"
+  skip_translation: true
 
 - text: "streetlights platform"
-  translation: ""
+  translation: "streetlights platform"
+  skip_translation: true
 
 - text: "Light2"
   translation: "Light2"
@@ -1272,223 +1605,288 @@
   skip_translation: true
 
 - text: "CollectedVisual"
-  translation: ""
+  translation: "CollectedVisual"
+  skip_translation: true
 
 - text: "color platform bottom extended"
-  translation: ""
+  translation: "color platform bottom extended"
+  skip_translation: true
 
 - text: "Cable3"
-  translation: ""
+  translation: "Cable3"
+  skip_translation: true
 
 - text: "SideGenerator"
-  translation: ""
+  translation: "SideGenerator"
+  skip_translation: true
 
 - text: "Curtian"
-  translation: ""
+  translation: "Curtian"
+  skip_translation: true
 
 - text: "Set Boobs Big"
-  translation: ""
+  translation: "Set Boobs Big"
+  skip_translation: true
 
 - text: "LightRight"
-  translation: ""
+  translation: "LightRight"
+  skip_translation: true
 
 - text: "Cable_8"
   translation: "Cable_8"
   skip_translation: true
 
 - text: "Outside_Pole"
-  translation: ""
+  translation: "Outside_Pole"
+  skip_translation: true
 
 - text: "Cable_6"
   translation: "Cable_6"
   skip_translation: true
 
 - text: "Outside_Outtake"
-  translation: ""
+  translation: "Outside_Outtake"
+  skip_translation: true
 
 - text: "CameraHolder2"
-  translation: ""
+  translation: "CameraHolder2"
+  skip_translation: true
 
 - text: "Set Boobs Huge"
-  translation: ""
+  translation: "Set Boobs Huge"
+  skip_translation: true
 
 - text: "Floor Light Reflection"
-  translation: ""
+  translation: "Floor Light Reflection"
+  skip_translation: true
 
 - text: "Decal_G_ESheep"
-  translation: ""
+  translation: "Decal_G_ESheep"
+  skip_translation: true
 
 - text: "Lady Augmenta Poster"
-  translation: ""
+  translation: "Lady Augmenta Poster"
+  skip_translation: true
 
 - text: "Fusebox"
-  translation: ""
+  translation: "Fusebox"
+  skip_translation: true
 
 - text: "Cable_Top_2"
-  translation: ""
+  translation: "Cable_Top_2"
+  skip_translation: true
 
 - text: "Upper Railing"
-  translation: ""
+  translation: "Upper Railing"
+  skip_translation: true
 
 - text: "Cable_Top_1"
-  translation: ""
+  translation: "Cable_Top_1"
+  skip_translation: true
 
 - text: "HoloBunny"
-  translation: ""
+  translation: "HoloBunny"
+  skip_translation: true
 
 - text: "DoorFrame_Top"
-  translation: ""
+  translation: "DoorFrame_Top"
+  skip_translation: true
 
 - text: "Train 3d Symbol Camera"
-  translation: ""
+  translation: "Train 3d Symbol Camera"
+  skip_translation: true
 
 - text: "streetlights emissive bottom 3"
-  translation: ""
+  translation: "streetlights emissive bottom 3"
+  skip_translation: true
 
 - text: "Arrow Right 1"
-  translation: ""
+  translation: "Arrow Right 1"
+  skip_translation: true
 
 - text: "Pos"
-  translation: ""
+  translation: "Pos"
+  skip_translation: true
 
 - text: "Set Sex"
-  translation: ""
+  translation: "Set Sex"
+  skip_translation: true
 
 - text: "StopSignTopLeft"
-  translation: ""
+  translation: "StopSignTopLeft"
+  skip_translation: true
 
 - text: "Upper Wall Bend 2"
-  translation: ""
+  translation: "Upper Wall Bend 2"
+  skip_translation: true
 
 - text: "StopSignRight"
-  translation: ""
+  translation: "StopSignRight"
+  skip_translation: true
 
 - text: "LRLD_BG_emissive_A_001 1"
-  translation: ""
+  translation: "LRLD_BG_emissive_A_001 1"
+  skip_translation: true
 
 - text: "SteelBeam_Trash"
-  translation: ""
+  translation: "SteelBeam_Trash"
+  skip_translation: true
 
 - text: "Decal_G_Angela"
-  translation: ""
+  translation: "Decal_G_Angela"
+  skip_translation: true
 
 - text: "GoSignRightHolo"
-  translation: ""
+  translation: "GoSignRightHolo"
+  skip_translation: true
 
 - text: "GoSignLeft_Holo"
-  translation: ""
+  translation: "GoSignLeft_Holo"
+  skip_translation: true
 
 - text: "Ticket Screen"
-  translation: ""
+  translation: "Ticket Screen"
+  skip_translation: true
 
 - text: "The"
-  translation: ""
+  translation: "The"
+  skip_translation: true
 
 - text: "TempLimit"
-  translation: ""
+  translation: "TempLimit"
+  skip_translation: true
 
 - text: "color cables bottom extended"
-  translation: ""
+  translation: "color cables bottom extended"
+  skip_translation: true
 
 - text: "UseWhileLocked"
-  translation: ""
+  translation: "UseWhileLocked"
+  skip_translation: true
 
 - text: "aerial lights platform"
-  translation: ""
+  translation: "aerial lights platform"
+  skip_translation: true
 
 - text: "Blocker"
-  translation: ""
+  translation: "Blocker"
+  skip_translation: true
 
 - text: "BridgeArrowUp2"
-  translation: ""
+  translation: "BridgeArrowUp2"
+  skip_translation: true
 
 - text: "Light1"
   translation: "Light1"
   skip_translation: true
 
 - text: "Shine_Charge"
-  translation: ""
+  translation: "Shine_Charge"
+  skip_translation: true
 
 - text: "Light3"
   translation: "Light3"
   skip_translation: true
 
 - text: "Choice - Leave"
-  translation: ""
+  translation: "Choice - Leave"
+  skip_translation: true
 
 - text: "Charge_Sign"
-  translation: ""
+  translation: "Charge_Sign"
+  skip_translation: true
 
 - text: "streetlights bottom 3"
-  translation: ""
+  translation: "streetlights bottom 3"
+  skip_translation: true
 
 - text: "color cables top"
-  translation: ""
+  translation: "color cables top"
+  skip_translation: true
 
 - text: "RoofBack"
-  translation: ""
+  translation: "RoofBack"
+  skip_translation: true
 
 - text: "Charging_3"
   translation: "Charging_3"
   skip_translation: true
 
 - text: "aerial lights"
-  translation: ""
+  translation: "aerial lights"
+  skip_translation: true
 
 - text: "PinkLight"
-  translation: ""
+  translation: "PinkLight"
+  skip_translation: true
 
 - text: "Decal_G_OBEY"
-  translation: ""
+  translation: "Decal_G_OBEY"
+  skip_translation: true
 
 - text: "Background Piece Right"
-  translation: ""
+  translation: "Background Piece Right"
+  skip_translation: true
 
 - text: "Calliach Music"
-  translation: ""
+  translation: "Calliach Music"
+  skip_translation: true
 
 - text: "streetlights bottom 2"
-  translation: ""
+  translation: "streetlights bottom 2"
+  skip_translation: true
 
 - text: "RoofFront"
-  translation: ""
+  translation: "RoofFront"
+  skip_translation: true
 
 - text: "RoofEntrance"
-  translation: ""
+  translation: "RoofEntrance"
+  skip_translation: true
 
 - text: "Booba Ladies for LRLD"
-  translation: ""
+  translation: "Booba Ladies for LRLD"
+  skip_translation: true
 
 - text: "Choice - Ask about its Origin"
-  translation: ""
+  translation: "Choice - Ask about its Origin"
+  skip_translation: true
 
 - text: "Upper Wall Bend 1"
-  translation: ""
+  translation: "Upper Wall Bend 1"
+  skip_translation: true
 
 - text: "Powergasm"
-  translation: ""
+  translation: "Powergasm"
+  skip_translation: true
 
 - text: "Trash_Prop_6"
-  translation: ""
+  translation: "Trash_Prop_6"
+  skip_translation: true
 
 - text: "streetlights roof"
-  translation: ""
+  translation: "streetlights roof"
+  skip_translation: true
 
 - text: "FakeLight_Shine"
-  translation: ""
+  translation: "FakeLight_Shine"
+  skip_translation: true
 
 - text: "Set to Furry Form"
-  translation: ""
+  translation: "Set to Furry Form"
+  skip_translation: true
 
 - text: "Trim"
   translation: "Trim"
   skip_translation: true
 
 - text: "streetlights emissive platform"
-  translation: ""
+  translation: "streetlights emissive platform"
+  skip_translation: true
 
 - text: "Interaction - Repeat"
-  translation: ""
+  translation: "Interaction - Repeat"
+  skip_translation: true
 
 - text: "Box3"
   translation: "Box3"
@@ -1499,262 +1897,340 @@
   skip_translation: true
 
 - text: "Upper Wall Light"
-  translation: ""
+  translation: "Upper Wall Light"
+  skip_translation: true
 
 - text: "Go Sign Left Bottom"
-  translation: ""
+  translation: "Go Sign Left Bottom"
+  skip_translation: true
 
 - text: "Bridge"
-  translation: ""
+  translation: "Bridge"
+  skip_translation: true
 
 - text: "Wall2_2ndFloor"
-  translation: ""
+  translation: "Wall2_2ndFloor"
+  skip_translation: true
 
 - text: "Choice - Ask about its feeling"
-  translation: ""
+  translation: "Choice - Ask about its feeling"
+  skip_translation: true
 
 - text: "LightsBridge"
-  translation: ""
+  translation: "LightsBridge"
+  skip_translation: true
 
 - text: "UpperPlatform"
-  translation: ""
+  translation: "UpperPlatform"
+  skip_translation: true
 
 - text: "SupportLeft"
-  translation: ""
+  translation: "SupportLeft"
+  skip_translation: true
 
 - text: "Ticket Sign Hologram"
-  translation: ""
+  translation: "Ticket Sign Hologram"
+  skip_translation: true
 
 - text: "Choice - Ask about Serial Number"
-  translation: ""
+  translation: "Choice - Ask about Serial Number"
+  skip_translation: true
 
 - text: "Follow"
-  translation: ""
+  translation: "Follow"
+  skip_translation: true
 
 - text: "Pole3"
-  translation: ""
+  translation: "Pole3"
+  skip_translation: true
 
 - text: "H2O_Sign"
-  translation: ""
+  translation: "H2O_Sign"
+  skip_translation: true
 
 - text: "Pole_Shadow"
-  translation: ""
+  translation: "Pole_Shadow"
+  skip_translation: true
 
 - text: "ColorSwap"
-  translation: ""
+  translation: "ColorSwap"
+  skip_translation: true
 
 - text: "DoorFrame_Right"
-  translation: ""
+  translation: "DoorFrame_Right"
+  skip_translation: true
 
 - text: "Decal_G_Happy"
-  translation: ""
+  translation: "Decal_G_Happy"
+  skip_translation: true
 
 - text: "Pole1"
-  translation: ""
+  translation: "Pole1"
+  skip_translation: true
 
 - text: "Barrier_Left"
-  translation: ""
+  translation: "Barrier_Left"
+  skip_translation: true
 
 - text: "Charging"
-  translation: ""
+  translation: "Charging"
+  skip_translation: true
 
 - text: "PillarLeft"
-  translation: ""
+  translation: "PillarLeft"
+  skip_translation: true
 
 - text: "BridgeConnector Left"
-  translation: ""
+  translation: "BridgeConnector Left"
+  skip_translation: true
 
 - text: "Background Piece Left"
-  translation: ""
+  translation: "Background Piece Left"
+  skip_translation: true
 
 - text: "CableConector"
-  translation: ""
+  translation: "CableConector"
+  skip_translation: true
 
 - text: "Box5"
   translation: "Box5"
   skip_translation: true
 
 - text: "Overlaid Upper Platform"
-  translation: ""
+  translation: "Overlaid Upper Platform"
+  skip_translation: true
 
 - text: "Go Sign Right Bottom"
-  translation: ""
+  translation: "Go Sign Right Bottom"
+  skip_translation: true
 
 - text: "PoleRoot"
-  translation: ""
+  translation: "PoleRoot"
+  skip_translation: true
 
 - text: "LRLD_BG_emissive_B_001 1"
-  translation: ""
+  translation: "LRLD_BG_emissive_B_001 1"
+  skip_translation: true
 
 - text: "FakeLight4"
-  translation: ""
+  translation: "FakeLight4"
+  skip_translation: true
 
 - text: "color back 2"
-  translation: ""
+  translation: "color back 2"
+  skip_translation: true
 
 - text: "Upper Wall"
-  translation: ""
+  translation: "Upper Wall"
+  skip_translation: true
 
 - text: "StopSignLeft"
-  translation: ""
+  translation: "StopSignLeft"
+  skip_translation: true
 
 - text: "color platform bottom extended 3"
-  translation: ""
+  translation: "color platform bottom extended 3"
+  skip_translation: true
 
 - text: "NIXCX Poster"
-  translation: ""
+  translation: "NIXCX Poster"
+  skip_translation: true
 
 - text: "Closed_Hatch"
-  translation: ""
+  translation: "Closed_Hatch"
+  skip_translation: true
 
 - text: "Cable_9"
   translation: "Cable_9"
   skip_translation: true
 
 - text: "SupportRight"
-  translation: ""
+  translation: "SupportRight"
+  skip_translation: true
 
 - text: "OnLight"
-  translation: ""
+  translation: "OnLight"
+  skip_translation: true
 
 - text: "Pocket Pussy Overworld"
-  translation: ""
+  translation: "Pocket Pussy Overworld"
+  skip_translation: true
 
 - text: "Access_Hatch"
-  translation: ""
+  translation: "Access_Hatch"
+  skip_translation: true
 
 - text: "redlight_ground_sparkles_ssp_color_001 1"
-  translation: ""
+  translation: "redlight_ground_sparkles_ssp_color_001 1"
+  skip_translation: true
 
 - text: "Cable_10"
   translation: "Cable_10"
   skip_translation: true
 
 - text: "Train 3d Symbol"
-  translation: ""
+  translation: "Train 3d Symbol"
+  skip_translation: true
 
 - text: "RoofSide"
-  translation: ""
+  translation: "RoofSide"
+  skip_translation: true
 
 - text: "PurrSound"
-  translation: ""
+  translation: "PurrSound"
+  skip_translation: true
 
 - text: "Lower Wall"
-  translation: ""
+  translation: "Lower Wall"
+  skip_translation: true
 
 - text: "Train Entrance Background"
-  translation: ""
+  translation: "Train Entrance Background"
+  skip_translation: true
 
 - text: "Screen"
-  translation: ""
+  translation: "Screen"
+  skip_translation: true
 
 - text: "streetlights emissive bottom 1"
-  translation: ""
+  translation: "streetlights emissive bottom 1"
+  skip_translation: true
 
 - text: "LowerPlatform"
-  translation: ""
+  translation: "LowerPlatform"
+  skip_translation: true
 
 - text: "DoorLeft"
-  translation: ""
+  translation: "DoorLeft"
+  skip_translation: true
 
 - text: "Decal_G_Help"
-  translation: ""
+  translation: "Decal_G_Help"
+  skip_translation: true
 
 - text: "GoSignLeft"
-  translation: ""
+  translation: "GoSignLeft"
+  skip_translation: true
 
 - text: "Train_whites"
   translation: "Train_whites"
   skip_translation: true
 
 - text: "aerial lights bottom 2"
-  translation: ""
+  translation: "aerial lights bottom 2"
+  skip_translation: true
 
 - text: "Arrow Left 1"
-  translation: ""
+  translation: "Arrow Left 1"
+  skip_translation: true
 
 - text: "Train_greens"
   translation: "Train_greens"
   skip_translation: true
 
 - text: "Pole2"
-  translation: ""
+  translation: "Pole2"
+  skip_translation: true
 
 - text: "FrontGenerator"
-  translation: ""
+  translation: "FrontGenerator"
+  skip_translation: true
 
 - text: "LRLD_BG_emissive_C_001 1"
-  translation: ""
+  translation: "LRLD_BG_emissive_C_001 1"
+  skip_translation: true
 
 - text: "Ticket Sign"
-  translation: ""
+  translation: "Ticket Sign"
+  skip_translation: true
 
 - text: "NTEHI Poster"
-  translation: ""
+  translation: "NTEHI Poster"
+  skip_translation: true
 
 - text: "Red Light Piece Right"
-  translation: ""
+  translation: "Red Light Piece Right"
+  skip_translation: true
 
 - text: "Pole"
-  translation: ""
+  translation: "Pole"
+  skip_translation: true
 
 - text: "Collected"
-  translation: ""
+  translation: "Collected"
+  skip_translation: true
 
 - text: "BridgeArrowUp1"
-  translation: ""
+  translation: "BridgeArrowUp1"
+  skip_translation: true
 
 - text: "FakeLight3"
-  translation: ""
+  translation: "FakeLight3"
+  skip_translation: true
 
 - text: "Lower Railing"
-  translation: ""
+  translation: "Lower Railing"
+  skip_translation: true
 
 - text: "Box2"
   translation: "Box2"
   skip_translation: true
 
 - text: "Rabbit"
-  translation: ""
+  translation: "Rabbit"
+  skip_translation: true
 
 - text: "LightLeft"
-  translation: ""
+  translation: "LightLeft"
+  skip_translation: true
 
 - text: "Arrow Left 2"
-  translation: ""
+  translation: "Arrow Left 2"
+  skip_translation: true
 
 - text: "Train Entrance Ground Light"
-  translation: ""
+  translation: "Train Entrance Ground Light"
+  skip_translation: true
 
 - text: "VisualContainer"
-  translation: ""
+  translation: "VisualContainer"
+  skip_translation: true
 
 - text: "aerial lights top"
-  translation: ""
+  translation: "aerial lights top"
+  skip_translation: true
 
 - text: "H2O_FakeLight"
-  translation: ""
+  translation: "H2O_FakeLight"
+  skip_translation: true
 
 - text: "aerial lights bottom"
-  translation: ""
+  translation: "aerial lights bottom"
+  skip_translation: true
 
 - text: "Decal_G_IDKBro"
-  translation: ""
+  translation: "Decal_G_IDKBro"
+  skip_translation: true
 
 - text: "Decal_G_RoboBee"
-  translation: ""
+  translation: "Decal_G_RoboBee"
+  skip_translation: true
 
 - text: "Interaction - First time"
-  translation: ""
+  translation: "Interaction - First time"
+  skip_translation: true
 
 - text: "Go Sign Right Top"
-  translation: ""
+  translation: "Go Sign Right Top"
+  skip_translation: true
 
 - text: "Tran Symbol Parent"
-  translation: ""
+  translation: "Tran Symbol Parent"
+  skip_translation: true
 
 - text: "Train Entrance Background Light"
-  translation: ""
+  translation: "Train Entrance Background Light"
+  skip_translation: true
 
 - text: "An~"
   translation: "An~"
@@ -1881,7 +2357,8 @@
   skip_translation: true
 
 - text: "AlAt6"
-  translation: ""
+  translation: "AlAt6"
+  skip_translation: true
 
 - text: "Xy?"
   translation: "Xy?"
@@ -1896,7 +2373,8 @@
   skip_translation: true
 
 - text: "GEAffb"
-  translation: ""
+  translation: "GEAffb"
+  skip_translation: true
 
 - text: "NbP@"
   translation: "NbP@"
@@ -1919,7 +2397,8 @@
   skip_translation: true
 
 - text: "'AP"
-  translation: ""
+  translation: "'AP"
+  skip_translation: true
 
 - text: "C3A"
   translation: "C3A"
@@ -1946,10 +2425,12 @@
   skip_translation: true
 
 - text: "YcAt6"
-  translation: ""
+  translation: "YcAt6"
+  skip_translation: true
 
 - text: "AxyMA"
-  translation: ""
+  translation: "AxyMA"
+  skip_translation: true
 
 - text: "G-Ac"
   translation: "G-Ac"
@@ -2024,7 +2505,8 @@
   skip_translation: true
 
 - text: "BTt`A"
-  translation: ""
+  translation: "BTt`A"
+  skip_translation: true
 
 - text: "AZd"
   translation: "AZd"
@@ -2043,7 +2525,8 @@
   skip_translation: true
 
 - text: "4^XA"
-  translation: ""
+  translation: "4^XA"
+  skip_translation: true
 
 - text: "K]At6"
   translation: "K]At6"
@@ -2094,14 +2577,16 @@
   skip_translation: true
 
 - text: "CeAt6"
-  translation: ""
+  translation: "CeAt6"
+  skip_translation: true
 
 - text: "?ZEW"
   translation: "?ZEW"
   skip_translation: true
 
 - text: "BtF=A"
-  translation: ""
+  translation: "BtF=A"
+  skip_translation: true
 
 - text: "Dy?"
   translation: "Dy?"
@@ -2136,17 +2621,20 @@
   skip_translation: true
 
 - text: "D3Aa5T"
-  translation: ""
+  translation: "D3Aa5T"
+  skip_translation: true
 
 - text: "AL7-"
-  translation: ""
+  translation: "AL7-"
+  skip_translation: true
 
 - text: "OD?c"
   translation: "OD?c"
   skip_translation: true
 
 - text: "Afo"
-  translation: ""
+  translation: "Afo"
+  skip_translation: true
 
 - text: "A0y"
   translation: "A0y"
@@ -2173,7 +2661,8 @@
   skip_translation: true
 
 - text: "DAxw"
-  translation: ""
+  translation: "DAxw"
+  skip_translation: true
 
 - text: "AB`%"
   translation: "AB`%"
@@ -2296,7 +2785,8 @@
   skip_translation: true
 
 - text: "UBq=,B633"
-  translation: ""
+  translation: "UBq=,B633"
+  skip_translation: true
 
 - text: "FA633"
   translation: "FA633"
@@ -2307,10 +2797,12 @@
   skip_translation: true
 
 - text: "AL7/"
-  translation: ""
+  translation: "AL7/"
+  skip_translation: true
 
 - text: "Ath"
-  translation: ""
+  translation: "Ath"
+  skip_translation: true
 
 - text: "B@u"
   translation: "B@u"
@@ -2361,14 +2853,16 @@
   skip_translation: true
 
 - text: "VlAX9"
-  translation: ""
+  translation: "VlAX9"
+  skip_translation: true
 
 - text: "ATM"
   translation: "ATM"
   skip_translation: true
 
 - text: "Al2|A"
-  translation: ""
+  translation: "Al2|A"
+  skip_translation: true
 
 - text: "KlB"
   translation: "KlB"
@@ -2387,7 +2881,8 @@
   skip_translation: true
 
 - text: "ZAn\""
-  translation: ""
+  translation: "ZAn\\"
+  skip_translation: true
 
 - text: "?BO"
   translation: "?BO"
@@ -2406,7 +2901,8 @@
   skip_translation: true
 
 - text: "FA?@TiA"
-  translation: ""
+  translation: "FA?@TiA"
+  skip_translation: true
 
 - text: "T@h"
   translation: "T@h"
@@ -2525,7 +3021,8 @@
   skip_translation: true
 
 - text: "Awt=?"
-  translation: ""
+  translation: "Awt=?"
+  skip_translation: true
 
 - text: "P`A"
   translation: "P`A"
@@ -2604,23 +3101,28 @@
   skip_translation: true
 
 - text: "Juno - Assistant Environment Artist"
-  translation: ""
+  translation: "Juno - Assistant Environment Artist"
+  skip_translation: true
 
 - text: "BlauKitten"
-  translation: ""
+  translation: "BlauKitten"
+  skip_translation: true
 
 - text: "Nerada"
-  translation: ""
+  translation: "Nerada"
+  skip_translation: true
 
 - text: "Rokean"
-  translation: ""
+  translation: "Rokean"
+  skip_translation: true
 
 - text: "Swurst"
   translation: "Swurst"
   skip_translation: true
 
 - text: "Turn on and off"
-  translation: ""
+  translation: "Turn on and off"
+  skip_translation: true
 
 - text: "A7K"
   translation: "A7K"
@@ -2631,10 +3133,12 @@
   skip_translation: true
 
 - text: "Alo"
-  translation: ""
+  translation: "Alo"
+  skip_translation: true
 
 - text: "Ady"
-  translation: ""
+  translation: "Ady"
+  skip_translation: true
 
 - text: "CA@~V"
   translation: "CA@~V"
@@ -2665,69 +3169,88 @@
   skip_translation: true
 
 - text: "Turn off characters"
-  translation: ""
+  translation: "Turn off characters"
+  skip_translation: true
 
 - text: "Lock Character and fade to black"
-  translation: ""
+  translation: "Lock Character and fade to black"
+  skip_translation: true
 
 - text: "Fade in"
-  translation: ""
+  translation: "Fade in"
+  skip_translation: true
 
 - text: "Redlight_Intro"
-  translation: ""
+  translation: "Redlight_Intro"
+  skip_translation: true
 
 - text: "TypeToRemove"
-  translation: ""
+  translation: "TypeToRemove"
+  skip_translation: true
 
 - text: "Hours"
-  translation: ""
+  translation: "Hours"
+  skip_translation: true
 
 - text: "Minutes"
-  translation: ""
+  translation: "Minutes"
+  skip_translation: true
 
 - text: "Seconds"
-  translation: ""
+  translation: "Seconds"
+  skip_translation: true
 
 - text: "AdvanceDay"
-  translation: ""
+  translation: "AdvanceDay"
+  skip_translation: true
 
 - text: "Call"
   translation: "Call"
   skip_translation: true
 
 - text: "lmao call again"
-  translation: ""
+  translation: "lmao call again"
+  skip_translation: true
 
 - text: "Play Sarah dialogue"
-  translation: ""
+  translation: "Play Sarah dialogue"
+  skip_translation: true
 
 - text: "Play last dialogue"
-  translation: ""
+  translation: "Play last dialogue"
+  skip_translation: true
 
 - text: "Remove restraint"
-  translation: ""
+  translation: "Remove restraint"
+  skip_translation: true
 
 - text: "FCff"
   translation: "FCff"
   skip_translation: true
 
 - text: "RemoveCheese"
-  translation: ""
+  translation: "RemoveCheese"
+  skip_translation: true
 
 - text: "Add effects"
-  translation: ""
+  translation: "Add effects"
+  skip_translation: true
 
 - text: "Remove cheese"
-  translation: ""
+  translation: "Remove cheese"
+  skip_translation: true
 
 - text: "AddEffects"
-  translation: ""
+  translation: "AddEffects"
+  skip_translation: true
 
 - text: "Activate Game Object"
-  translation: ""
+  translation: "Activate Game Object"
+  skip_translation: true
 
 - text: "R'CUU%C"
-  translation: ""
+  translation: "R'CUU%C"
+  skip_translation: true
 
 - text: "P7q@"
   translation: "P7q@"
@@ -2738,63 +3261,76 @@
   skip_translation: true
 
 - text: "stop break guy"
-  translation: ""
+  translation: "stop break guy"
+  skip_translation: true
 
 - text: "0UB"
   translation: "0UB"
   skip_translation: true
 
 - text: "In trigger"
-  translation: ""
+  translation: "In trigger"
+  skip_translation: true
 
 - text: "DWA"
   translation: "DWA"
   skip_translation: true
 
 - text: "Pick up"
-  translation: ""
+  translation: "Pick up"
+  skip_translation: true
 
 - text: "Add cheese to inventory"
-  translation: ""
+  translation: "Add cheese to inventory"
+  skip_translation: true
 
 - text: "Bark character 2"
-  translation: ""
+  translation: "Bark character 2"
+  skip_translation: true
 
 - text: "Add Bark"
-  translation: ""
+  translation: "Add Bark"
+  skip_translation: true
 
 - text: "remove bark"
-  translation: ""
+  translation: "remove bark"
+  skip_translation: true
 
 - text: "change look direction"
-  translation: ""
+  translation: "change look direction"
+  skip_translation: true
 
 - text: "CUU!C"
   translation: "CUU!C"
   skip_translation: true
 
 - text: "Get into car"
-  translation: ""
+  translation: "Get into car"
+  skip_translation: true
 
 - text: "BgC"
   translation: "BgC"
   skip_translation: true
 
 - text: "Remove phone"
-  translation: ""
+  translation: "Remove phone"
+  skip_translation: true
 
 - text: "Turn off character"
-  translation: ""
+  translation: "Turn off character"
+  skip_translation: true
 
 - text: "Unlock Zoey"
-  translation: ""
+  translation: "Unlock Zoey"
+  skip_translation: true
 
 - text: "JkC"
   translation: "JkC"
   skip_translation: true
 
 - text: "set idle"
-  translation: ""
+  translation: "set idle"
+  skip_translation: true
 
 - text: "7AX"
   translation: "7AX"
@@ -2809,54 +3345,66 @@
   skip_translation: true
 
 - text: "Wait for a random amount of time"
-  translation: ""
+  translation: "Wait for a random amount of time"
+  skip_translation: true
 
 - text: "XeB"
   translation: "XeB"
   skip_translation: true
 
 - text: "Change Kitty under Car"
-  translation: ""
+  translation: "Change Kitty under Car"
+  skip_translation: true
 
 - text: "Swap Kitty"
-  translation: ""
+  translation: "Swap Kitty"
+  skip_translation: true
 
 - text: "wait 2"
-  translation: ""
+  translation: "wait 2"
+  skip_translation: true
 
 - text: "Bark 3"
-  translation: ""
+  translation: "Bark 3"
+  skip_translation: true
 
 - text: "wait 3"
-  translation: ""
+  translation: "wait 3"
+  skip_translation: true
 
 - text: "Wow, that's scary! Did you open?"
-  translation: ""
+  translation: "Ух ты, это страшно! Ты открыл?"
 
 - text: "Bark 4"
-  translation: ""
+  translation: "Bark 4"
+  skip_translation: true
 
 - text: "wait 4"
-  translation: ""
+  translation: "wait 4"
+  skip_translation: true
 
 - text: "Since the incident, we lost a lot of customers"
-  translation: ""
+  translation: "После того случая мы потеряли много клиентов"
 
 - text: "Turn off car"
-  translation: ""
+  translation: "Turn off car"
+  skip_translation: true
 
 - text: "Check Mission state"
-  translation: ""
+  translation: "Check Mission state"
+  skip_translation: true
 
 - text: "Dont have"
-  translation: ""
+  translation: "Dont have"
+  skip_translation: true
 
 - text: "Hk1"
   translation: "Hk1"
   skip_translation: true
 
 - text: "Wait again"
-  translation: ""
+  translation: "Wait again"
+  skip_translation: true
 
 - text: "PaB"
   translation: "PaB"
@@ -2871,7 +3419,8 @@
   skip_translation: true
 
 - text: "Active Game Object"
-  translation: ""
+  translation: "Active Game Object"
+  skip_translation: true
 
 - text: "R?iM"
   translation: "R?iM"
@@ -2882,23 +3431,28 @@
   skip_translation: true
 
 - text: "A33nC"
-  translation: ""
+  translation: "A33nC"
+  skip_translation: true
 
 - text: "OnFinished"
-  translation: ""
+  translation: "OnFinished"
+  skip_translation: true
 
 - text: "Disable Animator Bool"
-  translation: ""
+  translation: "Disable Animator Bool"
+  skip_translation: true
 
 - text: "PCUU%C"
   translation: "PCUU%C"
   skip_translation: true
 
 - text: "Play Repeat Dialogue"
-  translation: ""
+  translation: "Play Repeat Dialogue"
+  skip_translation: true
 
 - text: "External Trigger"
-  translation: ""
+  translation: "External Trigger"
+  skip_translation: true
 
 - text: "*B2A"
   translation: "*B2A"
@@ -2909,167 +3463,213 @@
   skip_translation: true
 
 - text: "It can feel?"
-  translation: ""
+  translation: "Он может чувствовать?"
 
 - text: "Unlock choice to ask for Demonstration"
-  translation: ""
+  translation: "Unlock choice to ask for Demonstration"
+  skip_translation: true
 
 - text: "Restart Repeat Dialogue"
-  translation: ""
+  translation: "Restart Repeat Dialogue"
+  skip_translation: true
 
 - text: "CUU3C"
   translation: "CUU3C"
   skip_translation: true
 
 - text: "Wait for used when locked"
-  translation: ""
+  translation: "Wait for used when locked"
+  skip_translation: true
 
 - text: "LockUsed"
-  translation: ""
+  translation: "LockUsed"
+  skip_translation: true
 
 - text: "Walk to exit"
-  translation: ""
+  translation: "Walk to exit"
+  skip_translation: true
 
 - text: "What is that serial Number?"
-  translation: ""
+  translation: "Что это за серийный номер?"
 
 - text: "@CUU3C"
   translation: "@CUU3C"
   skip_translation: true
 
 - text: "WitchsCauldron"
-  translation: ""
+  translation: "WitchsCauldron"
+  skip_translation: true
 
 - text: "ToOutside"
-  translation: ""
+  translation: "ToOutside"
+  skip_translation: true
 
 - text: "Ask for a demonstration"
-  translation: ""
+  translation: "Ask for a demonstration"
+  skip_translation: true
 
 - text: "Pocket Pussy Vendor Demonstration"
-  translation: ""
+  translation: "Pocket Pussy Vendor Demonstration"
+  skip_translation: true
 
 - text: "Wait for collect"
-  translation: ""
+  translation: "Wait for collect"
+  skip_translation: true
 
 - text: "Collect"
-  translation: ""
+  translation: "Collect"
+  skip_translation: true
 
 - text: "DialogueToPlay"
-  translation: ""
+  translation: "DialogueToPlay"
+  skip_translation: true
 
 - text: "ShuffleList"
-  translation: ""
+  translation: "ShuffleList"
+  skip_translation: true
 
 - text: "Dialogues"
-  translation: ""
+  translation: "Dialogues"
+  skip_translation: true
 
 - text: "Check DayTime"
-  translation: ""
+  translation: "Check DayTime"
+  skip_translation: true
 
 - text: "Night"
   translation: "Night"
   skip_translation: true
 
 - text: "Turn on light"
-  translation: ""
+  translation: "Turn on light"
+  skip_translation: true
 
 - text: "Day"
-  translation: ""
+  translation: "Day"
+  skip_translation: true
 
 - text: "Turn off light"
-  translation: ""
+  translation: "Turn off light"
+  skip_translation: true
 
 - text: "OnNight"
-  translation: ""
+  translation: "OnNight"
+  skip_translation: true
 
 - text: "OnDay"
-  translation: ""
+  translation: "OnDay"
+  skip_translation: true
 
 - text: "OnDark"
-  translation: ""
+  translation: "OnDark"
+  skip_translation: true
 
 - text: "OnBright"
-  translation: ""
+  translation: "OnBright"
+  skip_translation: true
 
 - text: "Do we have the task?"
-  translation: ""
+  translation: "Do we have the task?"
+  skip_translation: true
 
 - text: "Are we collected?"
-  translation: ""
+  translation: "Are we collected?"
+  skip_translation: true
 
 - text: "Activate transition"
-  translation: ""
+  translation: "Activate transition"
+  skip_translation: true
 
 - text: "Volume Faded"
-  translation: ""
+  translation: "Volume Faded"
+  skip_translation: true
 
 - text: "Where did you get it from?"
-  translation: ""
+  translation: "Откуда ты это взял?"
 
 - text: "Yh?"
   translation: "Yh?"
   skip_translation: true
 
 - text: "Huge Boobs"
-  translation: ""
+  translation: "Huge Boobs"
+  skip_translation: true
 
 - text: "Did we get collected?"
-  translation: ""
+  translation: "Did we get collected?"
+  skip_translation: true
 
 - text: "TaskToWaitFor"
-  translation: ""
+  translation: "TaskToWaitFor"
+  skip_translation: true
 
 - text: "Play minigame"
-  translation: ""
+  translation: "Play minigame"
+  skip_translation: true
 
 - text: "Set State to Collected 2"
-  translation: ""
+  translation: "Set State to Collected 2"
+  skip_translation: true
 
 - text: "Set State to Collected"
-  translation: ""
+  translation: "Set State to Collected"
+  skip_translation: true
 
 - text: "V/CUU%C"
-  translation: ""
+  translation: "V/CUU%C"
+  skip_translation: true
 
 - text: "Activate Repeat Dialogue"
-  translation: ""
+  translation: "Activate Repeat Dialogue"
+  skip_translation: true
 
 - text: "Big Boobs"
-  translation: ""
+  translation: "Big Boobs"
+  skip_translation: true
 
 - text: "On use while locked"
-  translation: ""
+  translation: "On use while locked"
+  skip_translation: true
 
 - text: "Did we arrive from this transition?"
-  translation: ""
+  translation: "Did we arrive from this transition?"
+  skip_translation: true
 
 - text: "Are we unlocked?"
-  translation: ""
+  translation: "Are we unlocked?"
+  skip_translation: true
 
 - text: "Set unlocked visuals"
-  translation: ""
+  translation: "Set unlocked visuals"
+  skip_translation: true
 
 - text: "Set locked visuals"
-  translation: ""
+  translation: "Set locked visuals"
+  skip_translation: true
 
 - text: "Unlocked_Value"
-  translation: ""
+  translation: "Unlocked_Value"
+  skip_translation: true
 
 - text: "Wait for transition interact"
-  translation: ""
+  translation: "Wait for transition interact"
+  skip_translation: true
 
 - text: "Do we wanna lockpick?"
-  translation: ""
+  translation: "Do we wanna lockpick?"
+  skip_translation: true
 
 - text: "KeyChange"
-  translation: ""
+  translation: "KeyChange"
+  skip_translation: true
 
 - text: "Do lockpick"
-  translation: ""
+  translation: "Do lockpick"
+  skip_translation: true
 
 - text: "OnKeyChange"
-  translation: ""
+  translation: "OnKeyChange"
+  skip_translation: true
 
 - text: "?CI"
   translation: "?CI"
@@ -3092,17 +3692,20 @@
   skip_translation: true
 
 - text: "Wait for use while locked"
-  translation: ""
+  translation: "Wait for use while locked"
+  skip_translation: true
 
 - text: "BUU7C"
   translation: "BUU7C"
   skip_translation: true
 
 - text: "On Water Hit Ground"
-  translation: ""
+  translation: "On Water Hit Ground"
+  skip_translation: true
 
 - text: "Do we have the task to pet?"
-  translation: ""
+  translation: "Do we have the task to pet?"
+  skip_translation: true
 
 - text: "BUUIC"
   translation: "BUUIC"

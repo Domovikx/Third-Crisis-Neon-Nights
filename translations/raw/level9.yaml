@@ -1,363 +1,476 @@
 # raw (level9)
 
 - text: "Tunnel Railing Middle"
-  translation: ""
+  translation: "Tunnel Railing Middle"
+  skip_translation: true
 
 - text: "Corridor4_1 PipeRattle_Loop"
-  translation: ""
+  translation: "Corridor4_1 PipeRattle_Loop"
+  skip_translation: true
 
 - text: "Rightside Pipe"
-  translation: ""
+  translation: "Rightside Pipe"
+  skip_translation: true
 
 - text: "Upper Pipe"
-  translation: ""
+  translation: "Upper Pipe"
+  skip_translation: true
 
 - text: "Nail Salon Exit Light Flickering_Loop"
-  translation: ""
+  translation: "Nail Salon Exit Light Flickering_Loop"
+  skip_translation: true
 
 - text: "Small Pipes"
-  translation: ""
+  translation: "Small Pipes"
+  skip_translation: true
 
 - text: "Yellow_light_2"
   translation: "Yellow_light_2"
   skip_translation: true
 
 - text: "Foreground Pipes"
-  translation: ""
+  translation: "Foreground Pipes"
+  skip_translation: true
 
 - text: "Corridor 3 Travelator_Loop"
-  translation: ""
+  translation: "Corridor 3 Travelator_Loop"
+  skip_translation: true
 
 - text: "Corner Furniture"
-  translation: ""
+  translation: "Corner Furniture"
+  skip_translation: true
 
 - text: "Lower Pipes"
-  translation: ""
+  translation: "Lower Pipes"
+  skip_translation: true
 
 - text: "Ground Detail"
-  translation: ""
+  translation: "Ground Detail"
+  skip_translation: true
 
 - text: "Paper trash"
-  translation: ""
+  translation: "Paper trash"
+  skip_translation: true
 
 - text: "Corridor 5 Gas_Loop"
-  translation: ""
+  translation: "Corridor 5 Gas_Loop"
+  skip_translation: true
 
 - text: "Trash and decals"
-  translation: ""
+  translation: "Trash and decals"
+  skip_translation: true
 
 - text: "Lower Right T Pipe"
-  translation: ""
+  translation: "Lower Right T Pipe"
+  skip_translation: true
 
 - text: "Pipe Ground Markings"
-  translation: ""
+  translation: "Pipe Ground Markings"
+  skip_translation: true
 
 - text: "Lone Pipe"
-  translation: ""
+  translation: "Lone Pipe"
+  skip_translation: true
 
 - text: "Station trash"
-  translation: ""
+  translation: "Station trash"
+  skip_translation: true
 
 - text: "Transition to Nail Salon"
-  translation: ""
+  translation: "Transition to Nail Salon"
+  skip_translation: true
 
 - text: "Travelator Loops"
-  translation: ""
+  translation: "Travelator Loops"
+  skip_translation: true
 
 - text: "L Ceiling Pipe"
-  translation: ""
+  translation: "L Ceiling Pipe"
+  skip_translation: true
 
 - text: "Side Pipe"
-  translation: ""
+  translation: "Side Pipe"
+  skip_translation: true
 
 - text: "NeonLight Flickering Loops"
-  translation: ""
+  translation: "NeonLight Flickering Loops"
+  skip_translation: true
 
 - text: "Yellow_light_4"
   translation: "Yellow_light_4"
   skip_translation: true
 
 - text: "Red Box"
-  translation: ""
+  translation: "Red Box"
+  skip_translation: true
 
 - text: "HallwayGas"
-  translation: ""
+  translation: "HallwayGas"
+  skip_translation: true
 
 - text: "Railing Light"
-  translation: ""
+  translation: "Railing Light"
+  skip_translation: true
 
 - text: "Corridor 4_1 FliesBuzzing_Loop"
-  translation: ""
+  translation: "Corridor 4_1 FliesBuzzing_Loop"
+  skip_translation: true
 
 - text: "Nail Salon Exit FliesBuzzing_Loop"
-  translation: ""
+  translation: "Nail Salon Exit FliesBuzzing_Loop"
+  skip_translation: true
 
 - text: "Corridor Right Pipe"
-  translation: ""
+  translation: "Corridor Right Pipe"
+  skip_translation: true
 
 - text: "Straight Ceiling Pipe"
-  translation: ""
+  translation: "Straight Ceiling Pipe"
+  skip_translation: true
 
 - text: "Corridor 5 Travelator_Loop"
-  translation: ""
+  translation: "Corridor 5 Travelator_Loop"
+  skip_translation: true
 
 - text: "Flickering sign"
-  translation: ""
+  translation: "Flickering sign"
+  skip_translation: true
 
 - text: "Wall Detail"
-  translation: ""
+  translation: "Wall Detail"
+  skip_translation: true
 
 - text: "Corridor 1_1 FliesBuzzing_Loop"
-  translation: ""
+  translation: "Corridor 1_1 FliesBuzzing_Loop"
+  skip_translation: true
 
 - text: "Railing FakeLight"
-  translation: ""
+  translation: "Railing FakeLight"
+  skip_translation: true
 
 - text: "Exit Lobby FliesBuzzing_Loop"
-  translation: ""
+  translation: "Exit Lobby FliesBuzzing_Loop"
+  skip_translation: true
 
 - text: "Corridor 2 Gas_Loop"
-  translation: ""
+  translation: "Corridor 2 Gas_Loop"
+  skip_translation: true
 
 - text: "Pipes Rattling Loops"
-  translation: ""
+  translation: "Pipes Rattling Loops"
+  skip_translation: true
 
 - text: "Grafitti"
-  translation: ""
+  translation: "Grafitti"
+  skip_translation: true
 
 - text: "Water Bottle"
-  translation: ""
+  translation: "Water Bottle"
+  skip_translation: true
 
 - text: "Corridor 2 PipeRattle_Loop"
-  translation: ""
+  translation: "Corridor 2 PipeRattle_Loop"
+  skip_translation: true
 
 - text: "Corridor 1_1 Gas_Loop"
-  translation: ""
+  translation: "Corridor 1_1 Gas_Loop"
+  skip_translation: true
 
 - text: "Paper trash 2"
-  translation: ""
+  translation: "Paper trash 2"
+  skip_translation: true
 
 - text: "Twisty Ceiling Pipe"
-  translation: ""
+  translation: "Twisty Ceiling Pipe"
+  skip_translation: true
 
 - text: "Cubby Pipe"
-  translation: ""
+  translation: "Cubby Pipe"
+  skip_translation: true
 
 - text: "Elevator fake light"
-  translation: ""
+  translation: "Elevator fake light"
+  skip_translation: true
 
 - text: "Exit Lobby ElectronicHum_Loop"
-  translation: ""
+  translation: "Exit Lobby ElectronicHum_Loop"
+  skip_translation: true
 
 - text: "Rightside Pipe Markings"
-  translation: ""
+  translation: "Rightside Pipe Markings"
+  skip_translation: true
 
 - text: "Corridor 1_1 PipeRattle_Loop"
-  translation: ""
+  translation: "Corridor 1_1 PipeRattle_Loop"
+  skip_translation: true
 
 - text: "Yellow_light_3"
   translation: "Yellow_light_3"
   skip_translation: true
 
 - text: "Pipe Room Gas_Loop_1"
-  translation: ""
+  translation: "Pipe Room Gas_Loop_1"
+  skip_translation: true
 
 - text: "Elevator upper frame Nox"
-  translation: ""
+  translation: "Elevator upper frame Nox"
+  skip_translation: true
 
 - text: "Tunnel Railing End"
-  translation: ""
+  translation: "Tunnel Railing End"
+  skip_translation: true
 
 - text: "NS Floor"
-  translation: ""
+  translation: "NS Floor"
+  skip_translation: true
 
 - text: "small pipe"
-  translation: ""
+  translation: "small pipe"
+  skip_translation: true
 
 - text: "Fan"
-  translation: ""
+  translation: "Fan"
+  skip_translation: true
 
 - text: "Floor Decals"
-  translation: ""
+  translation: "Floor Decals"
+  skip_translation: true
 
 - text: "Nail Salon Exit PipeRattle_Loop"
-  translation: ""
+  translation: "Nail Salon Exit PipeRattle_Loop"
+  skip_translation: true
 
 - text: "Cubby"
-  translation: ""
+  translation: "Cubby"
+  skip_translation: true
 
 - text: "Green sign check"
-  translation: ""
+  translation: "Green sign check"
+  skip_translation: true
 
 - text: "MusicTest"
-  translation: ""
+  translation: "MusicTest"
+  skip_translation: true
 
 - text: "Nail Salon light"
-  translation: ""
+  translation: "Nail Salon light"
+  skip_translation: true
 
 - text: "Pipe Room Gas_Loop_2"
-  translation: ""
+  translation: "Pipe Room Gas_Loop_2"
+  skip_translation: true
 
 - text: "Vertical Corridor Pipes"
-  translation: ""
+  translation: "Vertical Corridor Pipes"
+  skip_translation: true
 
 - text: "Pipe Room PipeRattle_Loop"
-  translation: ""
+  translation: "Pipe Room PipeRattle_Loop"
+  skip_translation: true
 
 - text: "4 corner pillars"
-  translation: ""
+  translation: "4 corner pillars"
+  skip_translation: true
 
 - text: "Corners"
-  translation: ""
+  translation: "Corners"
+  skip_translation: true
 
 - text: "FliesBuzzing Loops"
-  translation: ""
+  translation: "FliesBuzzing Loops"
+  skip_translation: true
 
 - text: "CornerGas"
-  translation: ""
+  translation: "CornerGas"
+  skip_translation: true
 
 - text: "Exit Lobby PipeRattle_Loop"
-  translation: ""
+  translation: "Exit Lobby PipeRattle_Loop"
+  skip_translation: true
 
 - text: "Right Wall Upper"
-  translation: ""
+  translation: "Right Wall Upper"
+  skip_translation: true
 
 - text: "Left Wall Upper"
-  translation: ""
+  translation: "Left Wall Upper"
+  skip_translation: true
 
 - text: "Right wall"
-  translation: ""
+  translation: "Right wall"
+  skip_translation: true
 
 - text: "Right wall lower"
-  translation: ""
+  translation: "Right wall lower"
+  skip_translation: true
 
 - text: "Exit Lobby"
-  translation: ""
+  translation: "Exit Lobby"
+  skip_translation: true
 
 - text: "Rightside Pipes"
-  translation: ""
+  translation: "Rightside Pipes"
+  skip_translation: true
 
 - text: "Big Merging Pipe"
-  translation: ""
+  translation: "Big Merging Pipe"
+  skip_translation: true
 
 - text: "Tunnel Stairs Bot Visual"
-  translation: ""
+  translation: "Tunnel Stairs Bot Visual"
+  skip_translation: true
 
 - text: "Right wall corner"
-  translation: ""
+  translation: "Right wall corner"
+  skip_translation: true
 
 - text: "Right Wall"
-  translation: ""
+  translation: "Right Wall"
+  skip_translation: true
 
 - text: "Ambient Occlusion Shape Long"
-  translation: ""
+  translation: "Ambient Occlusion Shape Long"
+  skip_translation: true
 
 - text: "Middle L pipe"
-  translation: ""
+  translation: "Middle L pipe"
+  skip_translation: true
 
 - text: "Tunnel Stairs"
-  translation: ""
+  translation: "Tunnel Stairs"
+  skip_translation: true
 
 - text: "Conveyor Belt"
-  translation: ""
+  translation: "Conveyor Belt"
+  skip_translation: true
 
 - text: "Pipe 1"
-  translation: ""
+  translation: "Pipe 1"
+  skip_translation: true
 
 - text: "Tunnel Stairs Bot Shadow"
-  translation: ""
+  translation: "Tunnel Stairs Bot Shadow"
+  skip_translation: true
 
 - text: "Tunnel Stairs Top Visual"
-  translation: ""
+  translation: "Tunnel Stairs Top Visual"
+  skip_translation: true
 
 - text: "Right Side Pipes"
-  translation: ""
+  translation: "Right Side Pipes"
+  skip_translation: true
 
 - text: "Foreground Pipe Merge"
-  translation: ""
+  translation: "Foreground Pipe Merge"
+  skip_translation: true
 
 - text: "Foreground Pipe Merge 4"
-  translation: ""
+  translation: "Foreground Pipe Merge 4"
+  skip_translation: true
 
 - text: "Sink_Kitchen"
-  translation: ""
+  translation: "Sink_Kitchen"
+  skip_translation: true
 
 - text: "PinupPickup - Max & Cypher Bodywriting"
-  translation: ""
+  translation: "PinupPickup - Max & Cypher Bodywriting"
+  skip_translation: true
 
 - text: "Red sign"
-  translation: ""
+  translation: "Red sign"
+  skip_translation: true
 
 - text: "Green sign"
-  translation: ""
+  translation: "Green sign"
+  skip_translation: true
 
 - text: "Pipe T Upper"
-  translation: ""
+  translation: "Pipe T Upper"
+  skip_translation: true
 
 - text: "Can_4_Shadow"
-  translation: ""
+  translation: "Can_4_Shadow"
+  skip_translation: true
 
 - text: "Yellow_light_1"
   translation: "Yellow_light_1"
   skip_translation: true
 
 - text: "Pipe 2"
-  translation: ""
+  translation: "Pipe 2"
+  skip_translation: true
 
 - text: "Nailsalon_Window shadow"
-  translation: ""
+  translation: "Nailsalon_Window shadow"
+  skip_translation: true
 
 - text: "Nail Salon exit"
-  translation: ""
+  translation: "Nail Salon exit"
+  skip_translation: true
 
 - text: "LewdGas_Spray"
-  translation: ""
+  translation: "LewdGas_Spray"
+  skip_translation: true
 
 - text: "Can_4"
-  translation: ""
+  translation: "Can_4"
+  skip_translation: true
 
 - text: "Pipe 3"
-  translation: ""
+  translation: "Pipe 3"
+  skip_translation: true
 
 - text: "Tunnel Stairs Top Shadow"
-  translation: ""
+  translation: "Tunnel Stairs Top Shadow"
+  skip_translation: true
 
 - text: "Corridor Left Pipe"
-  translation: ""
+  translation: "Corridor Left Pipe"
+  skip_translation: true
 
 - text: "Pipe 4"
-  translation: ""
+  translation: "Pipe 4"
+  skip_translation: true
 
 - text: "Tunnel Piller Side Up"
-  translation: ""
+  translation: "Tunnel Piller Side Up"
+  skip_translation: true
 
 - text: "Pipes T Rightside"
-  translation: ""
+  translation: "Pipes T Rightside"
+  skip_translation: true
 
 - text: "Lower Middle Pipe"
-  translation: ""
+  translation: "Lower Middle Pipe"
+  skip_translation: true
 
 - text: "Electricity Warning Sign FakeLight"
-  translation: ""
+  translation: "Electricity Warning Sign FakeLight"
+  skip_translation: true
 
 - text: "Pipe Room"
-  translation: ""
+  translation: "Pipe Room"
+  skip_translation: true
 
 - text: "Tunnel Railing Bottom"
-  translation: ""
+  translation: "Tunnel Railing Bottom"
+  skip_translation: true
 
 - text: "Upper Middle Pipe"
-  translation: ""
+  translation: "Upper Middle Pipe"
+  skip_translation: true
 
 - text: "Trash_Prop_17"
-  translation: ""
+  translation: "Trash_Prop_17"
+  skip_translation: true
 
 - text: "JAS"
   translation: "JAS"
   skip_translation: true
 
 - text: "AshFB"
-  translation: ""
+  translation: "AshFB"
+  skip_translation: true
 
 - text: "MGA"
   translation: "MGA"
@@ -380,14 +493,16 @@
   skip_translation: true
 
 - text: "AwkGA"
-  translation: ""
+  translation: "AwkGA"
+  skip_translation: true
 
 - text: "XA/"
   translation: "XA/"
   skip_translation: true
 
 - text: "Q*3AA,u"
-  translation: ""
+  translation: "Q*3AA,u"
+  skip_translation: true
 
 - text: "?$$FA@R"
   translation: "?$$FA@R"
@@ -466,7 +581,7 @@
   skip_translation: true
 
 - text: "\"CXU"
-  translation: "\\"
+  translation: "\"CXU"
   skip_translation: true
 
 - text: "Bq=n"
@@ -490,7 +605,8 @@
   skip_translation: true
 
 - text: "HA4?"
-  translation: ""
+  translation: "HA4?"
+  skip_translation: true
 
 - text: "Wa?33"
   translation: "Wa?33"
@@ -521,7 +637,8 @@
   skip_translation: true
 
 - text: "FA,"
-  translation: ""
+  translation: "FA,"
+  skip_translation: true
 
 - text: "Fn5"
   translation: "Fn5"
@@ -572,100 +689,132 @@
   skip_translation: true
 
 - text: "End of Level"
-  translation: ""
+  translation: "End of Level"
+  skip_translation: true
 
 - text: "Task complete?"
-  translation: ""
+  translation: "Task complete?"
+  skip_translation: true
 
 - text: "Disable trigger"
-  translation: ""
+  translation: "Disable trigger"
+  skip_translation: true
 
 - text: "Play tapping game"
-  translation: ""
+  translation: "Play tapping game"
+  skip_translation: true
 
 - text: "Turn on green sign"
-  translation: ""
+  translation: "Turn on green sign"
+  skip_translation: true
 
 - text: "give horny"
-  translation: ""
+  translation: "give horny"
+  skip_translation: true
 
 - text: "Is door open?"
-  translation: ""
+  translation: "Is door open?"
+  skip_translation: true
 
 - text: "Wait for switch"
-  translation: ""
+  translation: "Wait for switch"
+  skip_translation: true
 
 - text: "Wait for masturbate"
-  translation: ""
+  translation: "Wait for masturbate"
+  skip_translation: true
 
 - text: "Block dialogue"
-  translation: ""
+  translation: "Block dialogue"
+  skip_translation: true
 
 - text: "Masturbate dialogue"
-  translation: ""
+  translation: "Masturbate dialogue"
+  skip_translation: true
 
 - text: "CheckCharges"
-  translation: ""
+  translation: "CheckCharges"
+  skip_translation: true
 
 - text: "Blocker hint"
-  translation: ""
+  translation: "Blocker hint"
+  skip_translation: true
 
 - text: "Masturbation hint"
-  translation: ""
+  translation: "Masturbation hint"
+  skip_translation: true
 
 - text: "BlockerCharges"
-  translation: ""
+  translation: "BlockerCharges"
+  skip_translation: true
 
 - text: "MastCharges"
-  translation: ""
+  translation: "MastCharges"
+  skip_translation: true
 
 - text: "Deactivate charging station"
-  translation: ""
+  translation: "Deactivate charging station"
+  skip_translation: true
 
 - text: "Activate charging station"
-  translation: ""
+  translation: "Activate charging station"
+  skip_translation: true
 
 - text: "Wait for complete 2"
-  translation: ""
+  translation: "Wait for complete 2"
+  skip_translation: true
 
 - text: "Activate charging station 2"
-  translation: ""
+  translation: "Activate charging station 2"
+  skip_translation: true
 
 - text: "Lock player and wait"
-  translation: ""
+  translation: "Lock player and wait"
+  skip_translation: true
 
 - text: "Set tasks and unlock player"
-  translation: ""
+  translation: "Set tasks and unlock player"
+  skip_translation: true
 
 - text: "ChargedBlocker"
-  translation: ""
+  translation: "ChargedBlocker"
+  skip_translation: true
 
 - text: "Did we rat on Jam?"
-  translation: ""
+  translation: "Did we rat on Jam?"
+  skip_translation: true
 
 - text: "Looking for or found Salon Backroom?w"
-  translation: ""
+  translation: "Looking for or found Salon Backroom?w"
+  skip_translation: true
 
 - text: "Wait again 2"
-  translation: ""
+  translation: "Wait again 2"
+  skip_translation: true
 
 - text: "Push camera target"
-  translation: ""
+  translation: "Push camera target"
+  skip_translation: true
 
 - text: "Do we have the task to enter hatch?"
-  translation: ""
+  translation: "Do we have the task to enter hatch?"
+  skip_translation: true
 
 - text: "Lock the player"
-  translation: ""
+  translation: "Lock the player"
+  skip_translation: true
 
 - text: "Wait for blocker"
-  translation: ""
+  translation: "Wait for blocker"
+  skip_translation: true
 
 - text: "BlockerTutorial"
-  translation: ""
+  translation: "BlockerTutorial"
+  skip_translation: true
 
 - text: "Play dialogue 3"
-  translation: ""
+  translation: "Play dialogue 3"
+  skip_translation: true
 
 - text: "Of@"
   translation: "Of@"
@@ -676,11 +825,12 @@
   skip_translation: true
 
 - text: "dOXA 9\\"
-  translation: "dOXA 9\\\\"
+  translation: "dOXA 9\\"
   skip_translation: true
 
 - text: "MA0["
-  translation: ""
+  translation: "MA0["
+  skip_translation: true
 
 - text: "c @Q~!"
   translation: "c @Q~!"

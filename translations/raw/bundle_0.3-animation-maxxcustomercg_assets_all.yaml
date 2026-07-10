@@ -514,7 +514,7 @@
   translation: "Звуки за дверью"
 
 - text: "Pinup Video Booster"
-  translation: "Усилитель видео пикапов"
+  translation: "Усилитель видео пинапов"
 
 - text: "Sex Scene VA"
   translation: "Озвучка секс-сцен"
@@ -799,7 +799,8 @@
   skip_translation: true
 
 - text: "!+5?IQVX`````````[YSKA7,"
-  translation: ""
+  translation: "!+5?IQVX`````````[YSKA7,"
+  skip_translation: true
 
 - text: ")4?IQVX`````````ZWRJ@5*"
   translation: ")4?IQVX`````````ZWRJ@5*"
@@ -993,7 +994,8 @@
   skip_translation: true
 
 - text: "IX,"
-  translation: ""
+  translation: "IX,"
+  skip_translation: true
 
 - text: "W?q=J"
   translation: "W?q=J"
@@ -2205,7 +2207,7 @@
   translation: "Ни то, ни другое"
 
 - text: "Ghh-!"
-  translation: "Гх-!"
+  translation: "Ух-!"
 
 - text: "Black Net Top Preview"
   translation: "Превью чёрного сетчатого топа"

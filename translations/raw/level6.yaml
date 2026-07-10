@@ -1,7 +1,7 @@
 # raw (level6)
 
 - text: "Ahx"
-  translation: ""
+  translation: "Ах"
 
 - text: "A*N"
   translation: "A*N"
@@ -12,103 +12,132 @@
   skip_translation: true
 
 - text: "Front_Side_Left"
-  translation: ""
+  translation: "Front_Side_Left"
+  skip_translation: true
 
 - text: "Front_Pillar Middle 2"
-  translation: ""
+  translation: "Front_Pillar Middle 2"
+  skip_translation: true
 
 - text: "Roof_Side_Inner"
-  translation: ""
+  translation: "Roof_Side_Inner"
+  skip_translation: true
 
 - text: "Front_Pillar"
-  translation: ""
+  translation: "Front_Pillar"
+  skip_translation: true
 
 - text: "Pillars_Left"
-  translation: ""
+  translation: "Pillars_Left"
+  skip_translation: true
 
 - text: "Side_Left"
-  translation: ""
+  translation: "Side_Left"
+  skip_translation: true
 
 - text: "Roof_Side"
-  translation: ""
+  translation: "Roof_Side"
+  skip_translation: true
 
 - text: "Front_Pillar Middle"
-  translation: ""
+  translation: "Front_Pillar Middle"
+  skip_translation: true
 
 - text: "Front_Left"
-  translation: ""
+  translation: "Front_Left"
+  skip_translation: true
 
 - text: "2nd Floor"
-  translation: ""
+  translation: "2nd Floor"
+  skip_translation: true
 
 - text: "Building4"
-  translation: ""
+  translation: "Building4"
+  skip_translation: true
 
 - text: "Side_Right"
-  translation: ""
+  translation: "Side_Right"
+  skip_translation: true
 
 - text: "Windows_2"
   translation: "Windows_2"
   skip_translation: true
 
 - text: "Roof_Top"
-  translation: ""
+  translation: "Roof_Top"
+  skip_translation: true
 
 - text: "Building3"
-  translation: ""
+  translation: "Building3"
+  skip_translation: true
 
 - text: "Pillar_Left"
-  translation: ""
+  translation: "Pillar_Left"
+  skip_translation: true
 
 - text: "Walls_Right"
-  translation: ""
+  translation: "Walls_Right"
+  skip_translation: true
 
 - text: "Walls_Left"
-  translation: ""
+  translation: "Walls_Left"
+  skip_translation: true
 
 - text: "Pillars_Right"
-  translation: ""
+  translation: "Pillars_Right"
+  skip_translation: true
 
 - text: "Alley"
-  translation: ""
+  translation: "Alley"
+  skip_translation: true
 
 - text: "Global_Light"
-  translation: ""
+  translation: "Global_Light"
+  skip_translation: true
 
 - text: "Wall_Front_Left"
-  translation: ""
+  translation: "Wall_Front_Left"
+  skip_translation: true
 
 - text: "Window_1"
   translation: "Window_1"
   skip_translation: true
 
 - text: "1st Floor"
-  translation: ""
+  translation: "1st Floor"
+  skip_translation: true
 
 - text: "Building Outline"
-  translation: ""
+  translation: "Building Outline"
+  skip_translation: true
 
 - text: "Side"
-  translation: ""
+  translation: "Side"
+  skip_translation: true
 
 - text: "Front_Right"
-  translation: ""
+  translation: "Front_Right"
+  skip_translation: true
 
 - text: "Light 2D N"
-  translation: ""
+  translation: "Light 2D N"
+  skip_translation: true
 
 - text: "Pillar_Right"
-  translation: ""
+  translation: "Pillar_Right"
+  skip_translation: true
 
 - text: "Front"
   translation: "Front"
   skip_translation: true
 
 - text: "GroundDetails"
-  translation: ""
+  translation: "GroundDetails"
+  skip_translation: true
 
 - text: "Glass_Bleaks"
-  translation: ""
+  translation: "Glass_Bleaks"
+  skip_translation: true
 
 - text: "Wall2"
   translation: "Wall2"
@@ -211,14 +240,16 @@
   skip_translation: true
 
 - text: "AmgLB"
-  translation: ""
+  translation: "AmgLB"
+  skip_translation: true
 
 - text: "Nbf"
   translation: "Nbf"
   skip_translation: true
 
 - text: "6HA("
-  translation: ""
+  translation: "6HA("
+  skip_translation: true
 
 - text: "? Zl@"
   translation: "? Zl@"
@@ -241,7 +272,8 @@
   skip_translation: true
 
 - text: "CyAmgLB"
-  translation: ""
+  translation: "CyAmgLB"
+  skip_translation: true
 
 - text: "Q,AT"
   translation: "Q,AT"
@@ -268,7 +300,8 @@
   skip_translation: true
 
 - text: "Bge"
-  translation: ""
+  translation: "Bge"
+  skip_translation: true
 
 - text: "|WA"
   translation: "|WA"
@@ -303,7 +336,8 @@
   skip_translation: true
 
 - text: "PAmgLB"
-  translation: ""
+  translation: "PAmgLB"
+  skip_translation: true
 
 - text: "?F%E?"
   translation: "?F%E?"
@@ -422,10 +456,12 @@
   skip_translation: true
 
 - text: "'RA"
-  translation: ""
+  translation: "'RA"
+  skip_translation: true
 
 - text: "ANtBA"
-  translation: ""
+  translation: "ANtBA"
+  skip_translation: true
 
 - text: "]BA"
   translation: "]BA"
@@ -448,8 +484,10 @@
   skip_translation: true
 
 - text: "Check Day/Night"
-  translation: ""
+  translation: "Check Day/Night"
+  skip_translation: true
 
 - text: "Turn on 2"
-  translation: ""
+  translation: "Turn on 2"
+  skip_translation: true
 

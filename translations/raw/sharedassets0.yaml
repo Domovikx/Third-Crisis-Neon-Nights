@@ -1,56 +1,72 @@
 # raw (sharedassets0)
 
 - text: "MASK_SOFT"
-  translation: ""
+  translation: "MASK_SOFT"
+  skip_translation: true
 
 - text: "Orbitron Superbold Black 3"
-  translation: ""
+  translation: "Orbitron Superbold Black 3"
+  skip_translation: true
 
 - text: "Orbitron-ExtraBold Atlas Material"
-  translation: ""
+  translation: "Orbitron-ExtraBold Atlas Material"
+  skip_translation: true
 
 - text: "UISprite"
-  translation: ""
+  translation: "UISprite"
+  skip_translation: true
 
 - text: "UIMask"
-  translation: ""
+  translation: "UIMask"
+  skip_translation: true
 
 - text: "Rectangle 11 copy 3"
-  translation: ""
+  translation: "Rectangle 11 copy 3"
+  skip_translation: true
 
 - text: "Category Button Background"
-  translation: ""
+  translation: "Category Button Background"
+  skip_translation: true
 
 - text: "DialoguePrompt"
-  translation: ""
+  translation: "DialoguePrompt"
+  skip_translation: true
 
 - text: "PressureButton"
-  translation: ""
+  translation: "PressureButton"
+  skip_translation: true
 
 - text: "Category Button Selected Foreground"
-  translation: ""
+  translation: "Category Button Selected Foreground"
+  skip_translation: true
 
 - text: "ScrollHandle"
-  translation: ""
+  translation: "ScrollHandle"
+  skip_translation: true
 
 - text: "Orbitron-ExtraBold Atlas"
-  translation: ""
+  translation: "Orbitron-ExtraBold Atlas"
+  skip_translation: true
 
 - text: "'19@EGGGGGGGGGGGGGGE@91'"
-  translation: ""
+  translation: "'19@EGGGGGGGGGGGGGGE@91'"
+  skip_translation: true
 
 - text: "NotoSerifSC-Regular Atlas"
-  translation: ""
+  translation: "NotoSerifSC-Regular Atlas"
+  skip_translation: true
 
 - text: "'/7=@BEC@;:71*!"
-  translation: ""
+  translation: "'/7=@BEC@;:71*!"
+  skip_translation: true
 
 - text: "$,39;BFHJIFD@95/'"
   translation: "$,39;BFHJIFD@95/'"
   skip_translation: true
 
 - text: "'/58:@EFHIIHGFA?;960)$"
-  translation: ""
+  translation: "'/58:@EFHIIHGFA?;960)$"
+  skip_translation: true
 
 - text: "%.4=CHILKGE@91'"
   translation: "%.4=CHILKGE@91'"
@@ -97,130 +113,160 @@
   skip_translation: true
 
 - text: "'19@EGQOLJHFBA=:95/-,)$"
-  translation: ""
+  translation: "'19@EGQOLJHFBA=:95/-,)$"
+  skip_translation: true
 
 - text: "%/8AHLNRRPNLHFB;73-&"
   translation: "%/8AHLNRRPNLHFB;73-&"
   skip_translation: true
 
 - text: "CanvasGroup Compatible"
-  translation: ""
+  translation: "CanvasGroup Compatible"
+  skip_translation: true
 
 - text: "Boobs"
-  translation: ""
+  translation: "Boobs"
+  skip_translation: true
 
 - text: "Boobs2"
-  translation: ""
+  translation: "Boobs2"
+  skip_translation: true
 
 - text: "Boob back"
-  translation: ""
+  translation: "Boob back"
+  skip_translation: true
 
 - text: "Hand"
   translation: "Hand"
   skip_translation: true
 
 - text: "Body2"
-  translation: ""
+  translation: "Body2"
+  skip_translation: true
 
 - text: "ZDm"
   translation: "ZDm"
   skip_translation: true
 
 - text: "Head IK"
-  translation: ""
+  translation: "Head IK"
+  skip_translation: true
 
 - text: "APC]"
   translation: "APC]"
   skip_translation: true
 
 - text: "Hair"
-  translation: ""
+  translation: "Hair"
+  skip_translation: true
 
 - text: "Hair2"
-  translation: ""
+  translation: "Hair2"
+  skip_translation: true
 
 - text: "Hair3"
-  translation: ""
+  translation: "Hair3"
+  skip_translation: true
 
 - text: "M@iCX"
   translation: "M@iCX"
   skip_translation: true
 
 - text: "Hair4"
-  translation: ""
+  translation: "Hair4"
+  skip_translation: true
 
 - text: "Hair5"
-  translation: ""
+  translation: "Hair5"
+  skip_translation: true
 
 - text: "BB)fC;"
   translation: "BB)fC;"
   skip_translation: true
 
 - text: "Hair6"
-  translation: ""
+  translation: "Hair6"
+  skip_translation: true
 
 - text: "Hair7"
-  translation: ""
+  translation: "Hair7"
+  skip_translation: true
 
 - text: "Hair 19"
-  translation: ""
+  translation: "Hair 19"
+  skip_translation: true
 
 - text: "CrxF"
   translation: "CrxF"
   skip_translation: true
 
 - text: "Hair8"
-  translation: ""
+  translation: "Hair8"
+  skip_translation: true
 
 - text: "Hair9"
-  translation: ""
+  translation: "Hair9"
+  skip_translation: true
 
 - text: "Hair10"
-  translation: ""
+  translation: "Hair10"
+  skip_translation: true
 
 - text: "Hair11"
-  translation: ""
+  translation: "Hair11"
+  skip_translation: true
 
 - text: "Hair12"
-  translation: ""
+  translation: "Hair12"
+  skip_translation: true
 
 - text: "Hair13"
-  translation: ""
+  translation: "Hair13"
+  skip_translation: true
 
 - text: "Hair14"
-  translation: ""
+  translation: "Hair14"
+  skip_translation: true
 
 - text: "Hair15"
-  translation: ""
+  translation: "Hair15"
+  skip_translation: true
 
 - text: "AaS"
   translation: "AaS"
   skip_translation: true
 
 - text: "Hair16"
-  translation: ""
+  translation: "Hair16"
+  skip_translation: true
 
 - text: "Boob Front"
-  translation: ""
+  translation: "Boob Front"
+  skip_translation: true
 
 - text: "Body3"
-  translation: ""
+  translation: "Body3"
+  skip_translation: true
 
 - text: "Body4"
-  translation: ""
+  translation: "Body4"
+  skip_translation: true
 
 - text: "Boobs3"
-  translation: ""
+  translation: "Boobs3"
+  skip_translation: true
 
 - text: "Pupils"
-  translation: ""
+  translation: "Pupils"
+  skip_translation: true
 
 - text: "Spec$?"
   translation: "Spec$?"
   skip_translation: true
 
 - text: "8$AJ"
-  translation: ""
+  translation: "8$AJ"
+  skip_translation: true
 
 - text: "ASzP?"
   translation: "ASzP?"
@@ -231,28 +277,36 @@
   skip_translation: true
 
 - text: "Camera Container Sway"
-  translation: ""
+  translation: "Camera Container Sway"
+  skip_translation: true
 
 - text: "Fadein"
-  translation: ""
+  translation: "Fadein"
+  skip_translation: true
 
 - text: "Fade in Main Menu"
-  translation: ""
+  translation: "Fade in Main Menu"
+  skip_translation: true
 
 - text: "New Game Clicked"
-  translation: ""
+  translation: "New Game Clicked"
+  skip_translation: true
 
 - text: "ApEn"
-  translation: ""
+  translation: "ApEn"
+  skip_translation: true
 
 - text: "RebindClick"
-  translation: ""
+  translation: "RebindClick"
+  skip_translation: true
 
 - text: "RebindHover"
-  translation: ""
+  translation: "RebindHover"
+  skip_translation: true
 
 - text: "RebindIdle"
-  translation: ""
+  translation: "RebindIdle"
+  skip_translation: true
 
 - text: "F\\I'F\\I'"
   translation: "F\\I'F\\I'"
@@ -263,16 +317,20 @@
   skip_translation: true
 
 - text: "Breathing"
-  translation: ""
+  translation: "Breathing"
+  skip_translation: true
 
 - text: "Canvas TCNN Main Menu"
-  translation: ""
+  translation: "Canvas TCNN Main Menu"
+  skip_translation: true
 
 - text: "Wishlist Button"
-  translation: ""
+  translation: "Wishlist Button"
+  skip_translation: true
 
 - text: "SkipTocontent - Button States"
-  translation: ""
+  translation: "SkipTocontent - Button States"
+  skip_translation: true
 
 - text: "XQk^"
   translation: "XQk^"
@@ -283,7 +341,8 @@
   skip_translation: true
 
 - text: "Rebind Bind Icon="
-  translation: ""
+  translation: "Rebind Bind Icon="
+  skip_translation: true
 
 - text: "BhS4"
   translation: "BhS4"
@@ -322,7 +381,8 @@
   skip_translation: true
 
 - text: "Ugk"
-  translation: ""
+  translation: "Ugk"
+  skip_translation: true
 
 - text: "G/4nC5"
   translation: "G/4nC5"
@@ -341,13 +401,16 @@
   skip_translation: true
 
 - text: "HkoxYl"
-  translation: ""
+  translation: "HkoxYl"
+  skip_translation: true
 
 - text: "ZqiaS"
-  translation: ""
+  translation: "ZqiaS"
+  skip_translation: true
 
 - text: "XXbbXX"
-  translation: ""
+  translation: "XXbbXX"
+  skip_translation: true
 
 - text: "CPv"
   translation: "CPv"
@@ -366,14 +429,16 @@
   skip_translation: true
 
 - text: "Orbitron-Medium"
-  translation: ""
+  translation: "Orbitron-Medium"
+  skip_translation: true
 
 - text: "OS/2a"
   translation: "OS/2a"
   skip_translation: true
 
 - text: "UITexture_Atlas"
-  translation: ""
+  translation: "UITexture_Atlas"
+  skip_translation: true
 
 - text: "1AM"
   translation: "1AM"
@@ -436,7 +501,8 @@
   skip_translation: true
 
 - text: "'AB"
-  translation: ""
+  translation: "'AB"
+  skip_translation: true
 
 - text: "LE4A"
   translation: "LE4A"
@@ -483,7 +549,8 @@
   skip_translation: true
 
 - text: "Aky"
-  translation: ""
+  translation: "Aky"
+  skip_translation: true
 
 - text: "Aw="
   translation: "Aw="
@@ -530,7 +597,8 @@
   skip_translation: true
 
 - text: "BA8?"
-  translation: ""
+  translation: "BA8?"
+  skip_translation: true
 
 - text: "?JI"
   translation: "?JI"
@@ -545,7 +613,8 @@
   skip_translation: true
 
 - text: "XOiA"
-  translation: ""
+  translation: "XOiA"
+  skip_translation: true
 
 - text: "Ap$"
   translation: "Ap$"
@@ -592,7 +661,8 @@
   skip_translation: true
 
 - text: "TArV"
-  translation: ""
+  translation: "TArV"
+  skip_translation: true
 
 - text: "TAa"
   translation: "TAa"
@@ -615,7 +685,8 @@
   skip_translation: true
 
 - text: "'4AES"
-  translation: ""
+  translation: "'4AES"
+  skip_translation: true
 
 - text: "X&&A"
   translation: "X&&A"
@@ -666,99 +737,128 @@
   skip_translation: true
 
 - text: "LoadCanvas"
-  translation: ""
+  translation: "LoadCanvas"
+  skip_translation: true
 
 - text: "NoSaves"
-  translation: ""
+  translation: "NoSaves"
+  skip_translation: true
 
 - text: "SkipToContent"
-  translation: ""
+  translation: "SkipToContent"
+  skip_translation: true
 
 - text: "Import"
-  translation: ""
+  translation: "Import"
+  skip_translation: true
 
 - text: "DisplayBinds"
-  translation: ""
+  translation: "DisplayBinds"
+  skip_translation: true
 
 - text: "OptionList"
-  translation: ""
+  translation: "OptionList"
+  skip_translation: true
 
 - text: "OptionsCanvas"
-  translation: ""
+  translation: "OptionsCanvas"
+  skip_translation: true
 
 - text: "Checkbox"
-  translation: ""
+  translation: "Checkbox"
+  skip_translation: true
 
 - text: "OptionButton"
-  translation: ""
+  translation: "OptionButton"
+  skip_translation: true
 
 - text: "Skip To Content Element NN Prefab"
-  translation: ""
+  translation: "Skip To Content Element NN Prefab"
+  skip_translation: true
 
 - text: "CreateNewBind"
-  translation: ""
+  translation: "CreateNewBind"
+  skip_translation: true
 
 - text: "Overlay Background"
-  translation: ""
+  translation: "Overlay Background"
+  skip_translation: true
 
 - text: "Bind Display - Back"
-  translation: ""
+  translation: "Bind Display - Back"
+  skip_translation: true
 
 - text: "Skip To Content NN Prefab"
-  translation: ""
+  translation: "Skip To Content NN Prefab"
+  skip_translation: true
 
 - text: "Invisible Button"
-  translation: ""
+  translation: "Invisible Button"
+  skip_translation: true
 
 - text: "Bind Display - Reset to Default"
-  translation: ""
+  translation: "Bind Display - Reset to Default"
+  skip_translation: true
 
 - text: "Skip to Content Group"
-  translation: ""
+  translation: "Skip to Content Group"
+  skip_translation: true
 
 - text: "Rebind Bind Icon"
-  translation: ""
+  translation: "Rebind Bind Icon"
+  skip_translation: true
 
 - text: "SavePrefab"
-  translation: ""
+  translation: "SavePrefab"
+  skip_translation: true
 
 - text: "Show Saves Folder"
-  translation: ""
+  translation: "Show Saves Folder"
+  skip_translation: true
 
 - text: "Icons Container"
-  translation: ""
+  translation: "Icons Container"
+  skip_translation: true
 
 - text: "Skip to Content"
-  translation: ""
+  translation: "Skip to Content"
+  skip_translation: true
 
 - text: "OptionLabel"
-  translation: ""
+  translation: "OptionLabel"
+  skip_translation: true
 
 - text: "AfF)D"
-  translation: ""
+  translation: "AfF)D"
+  skip_translation: true
 
 - text: "XCm"
   translation: "XCm"
   skip_translation: true
 
 - text: "Orbitron-ExtraBold SDF"
-  translation: ""
+  translation: "Orbitron-ExtraBold SDF"
+  skip_translation: true
 
 - text: "ExtraBold"
-  translation: ""
+  translation: "ExtraBold"
+  skip_translation: true
 
 - text: "@LA"
   translation: "@LA"
   skip_translation: true
 
 - text: "Orbitron-Medium Shadow SDF"
-  translation: ""
+  translation: "Orbitron-Medium Shadow SDF"
+  skip_translation: true
 
 - text: "Orbitron-Regular SDF"
-  translation: ""
+  translation: "Orbitron-Regular SDF"
+  skip_translation: true
 
 - text: "NotoSerifSC-Regular SDF"
-  translation: ""
+  translation: "NotoSerifSC-Regular SDF"
+  skip_translation: true
 
 - text: "BBf"
   translation: "BBf"
@@ -769,7 +869,8 @@
   skip_translation: true
 
 - text: "PeB'"
-  translation: ""
+  translation: "PeB'"
+  skip_translation: true
 
 - text: "PeB"
   translation: "PeB"
@@ -800,38 +901,43 @@
   skip_translation: true
 
 - text: "Sentinel Type - BigNoodleToo SDF"
-  translation: ""
+  translation: "Sentinel Type - BigNoodleToo SDF"
+  skip_translation: true
 
 - text: "Sentinel Type - BigNoodleTooOblique SDF_DropShadow"
-  translation: ""
+  translation: "Sentinel Type - BigNoodleTooOblique SDF_DropShadow"
+  skip_translation: true
 
 - text: "UI/Cancel"
-  translation: ""
+  translation: "UI/Cancel"
+  skip_translation: true
 
 - text: "ResetToDefault"
-  translation: ""
+  translation: "ResetToDefault"
+  skip_translation: true
 
 - text: "OPTION NAME:"
-  translation: ""
+  translation: "НАЗВАНИЕ ОПЦИИ:"
 
 - text: "Press a key to rebind!"
-  translation: ""
+  translation: "Нажмите клавишу для переназначения!"
 
 - text: "No Saves Available"
-  translation: ""
+  translation: "Нет сохранений"
 
 - text: "Reset to Default"
-  translation: ""
+  translation: "Сбросить настройки"
 
 - text: "PRESS ANY KEY TO BIND IT"
-  translation: ""
+  translation: "НАЖМИТЕ ЛЮБУЮ КЛАВИШУ"
 
 - text: "LABEL CONTENTS"
-  translation: ""
+  translation: "СОДЕРЖИМОЕ"
 
 - text: "Save Name"
-  translation: ""
+  translation: "Название"
 
 - text: "OpenFolder"
-  translation: ""
+  translation: "OpenFolder"
+  skip_translation: true
 

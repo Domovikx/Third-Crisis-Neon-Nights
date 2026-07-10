@@ -70,6 +70,7 @@ python .opencode/skills/build-translator/build_proxy.py
 TMP_FontAsset `Roboto-Condensed_DialogueUI` через `TryAddCharacters()`.
 
 **Механизм** (TranslatorPlugin.cs::TryInstallCyrillicFont):
+
 1. `RobotoCondensed-Regular.ttf` читается из `Managed/`
 2. Регистрация через GDI `AddFontMemResourceEx` (без админ-прав)
 3. Поиск `Roboto-Condensed_DialogueUI` через `Resources.FindObjectsOfTypeAll`
@@ -78,6 +79,7 @@ TMP_FontAsset `Roboto-Condensed_DialogueUI` через `TryAddCharacters()`.
 6. `TryAddCharacters(cyrillicUnicodes)` + `ReadFontAssetDefinition()`
 
 **Требования:**
+
 - TTF в `Managed/` (`RobotoCondensed-Regular.ttf`, 371 KB)
 - `NativeMethods.cs` содержит `AddFontMemResourceEx`
 - `AtlasPopulationMode.Dynamic` поддерживается шрифтом

@@ -81,1000 +81,1320 @@
   skip_translation: true
 
 - text: "Wall Footer Dark Corner connector 2"
-  translation: ""
+  translation: "Wall Footer Dark Corner connector 2"
+  skip_translation: true
 
 - text: "Dripping Bathroom Sink"
-  translation: ""
+  translation: "Dripping Bathroom Sink"
+  skip_translation: true
 
 - text: "Small Fridge Top"
-  translation: ""
+  translation: "Small Fridge Top"
+  skip_translation: true
 
 - text: "Apartment RoomTone"
-  translation: ""
+  translation: "Apartment RoomTone"
+  skip_translation: true
 
 - text: "Ground Pivot"
-  translation: ""
+  translation: "Ground Pivot"
+  skip_translation: true
 
 - text: "01_Give Mission Logic"
-  translation: ""
+  translation: "01_Give Mission Logic"
+  skip_translation: true
 
 - text: "Wall Footer Dark Angeled 2"
-  translation: ""
+  translation: "Wall Footer Dark Angeled 2"
+  skip_translation: true
 
 - text: "LightCone"
-  translation: ""
+  translation: "LightCone"
+  skip_translation: true
 
 - text: "Kitchen Right Corner"
-  translation: ""
+  translation: "Kitchen Right Corner"
+  skip_translation: true
 
 - text: "Wall Thingy"
-  translation: ""
+  translation: "Wall Thingy"
+  skip_translation: true
 
 - text: "Red Lamp"
-  translation: ""
+  translation: "Red Lamp"
+  skip_translation: true
 
 - text: "Wall Footer Dark Corner connector"
-  translation: ""
+  translation: "Wall Footer Dark Corner connector"
+  skip_translation: true
 
 - text: "Hacked Door"
-  translation: ""
+  translation: "Hacked Door"
+  skip_translation: true
 
 - text: "PizzaTower"
-  translation: ""
+  translation: "PizzaTower"
+  skip_translation: true
 
 - text: "Leona Bathroom Door Wall"
-  translation: ""
+  translation: "Leona Bathroom Door Wall"
+  skip_translation: true
 
 - text: "WhiteLamp"
-  translation: ""
+  translation: "WhiteLamp"
+  skip_translation: true
 
 - text: "Move out of Door"
-  translation: ""
+  translation: "Move out of Door"
+  skip_translation: true
 
 - text: "Calm"
   translation: "Calm"
   skip_translation: true
 
 - text: "Interactions"
-  translation: ""
+  translation: "Interactions"
+  skip_translation: true
 
 - text: "Small Fridge Visuals"
-  translation: ""
+  translation: "Small Fridge Visuals"
+  skip_translation: true
 
 - text: "LowerArm"
-  translation: ""
+  translation: "LowerArm"
+  skip_translation: true
 
 - text: "Audio Zones"
-  translation: ""
+  translation: "Audio Zones"
+  skip_translation: true
 
 - text: "Cat Door Light Element"
-  translation: ""
+  translation: "Cat Door Light Element"
+  skip_translation: true
 
 - text: "Keypad_Glow"
-  translation: ""
+  translation: "Keypad_Glow"
+  skip_translation: true
 
 - text: "ElecricityHum Loop 1"
-  translation: ""
+  translation: "ElecricityHum Loop 1"
+  skip_translation: true
 
 - text: "Door Left"
-  translation: ""
+  translation: "Door Left"
+  skip_translation: true
 
 - text: "FromOutside"
-  translation: ""
+  translation: "FromOutside"
+  skip_translation: true
 
 - text: "Camera_Glow"
-  translation: ""
+  translation: "Camera_Glow"
+  skip_translation: true
 
 - text: "Neck Chip Black Shadow"
-  translation: ""
+  translation: "Neck Chip Black Shadow"
+  skip_translation: true
 
 - text: "Printer_Glow"
-  translation: ""
+  translation: "Printer_Glow"
+  skip_translation: true
 
 - text: "Wall Footer Dark Corner Left"
-  translation: ""
+  translation: "Wall Footer Dark Corner Left"
+  skip_translation: true
 
 - text: "Cat Door FakeLight"
-  translation: ""
+  translation: "Cat Door FakeLight"
+  skip_translation: true
 
 - text: "Cable End"
-  translation: ""
+  translation: "Cable End"
+  skip_translation: true
 
 - text: "Lio Inspection Choice"
-  translation: ""
+  translation: "Lio Inspection Choice"
+  skip_translation: true
 
 - text: "Wall Footer Dark Angeled"
-  translation: ""
+  translation: "Wall Footer Dark Angeled"
+  skip_translation: true
 
 - text: "Printer Cable"
-  translation: ""
+  translation: "Printer Cable"
+  skip_translation: true
 
 - text: "Check Gag Light"
-  translation: ""
+  translation: "Check Gag Light"
+  skip_translation: true
 
 - text: "HoverCart_Glow"
-  translation: ""
+  translation: "HoverCart_Glow"
+  skip_translation: true
 
 - text: "Fuck Machine Box"
-  translation: ""
+  translation: "Fuck Machine Box"
+  skip_translation: true
 
 - text: "Dripping Kitchen Sink"
-  translation: ""
+  translation: "Dripping Kitchen Sink"
+  skip_translation: true
 
 - text: "Vent"
   translation: "Vent"
   skip_translation: true
 
 - text: "Shadowcaster 2"
-  translation: ""
+  translation: "Shadowcaster 2"
+  skip_translation: true
 
 - text: "Neck Chip Red"
-  translation: ""
+  translation: "Neck Chip Red"
+  skip_translation: true
 
 - text: "Leona Inside Position"
-  translation: ""
+  translation: "Leona Inside Position"
+  skip_translation: true
 
 - text: "Interactions Container"
-  translation: ""
+  translation: "Interactions Container"
+  skip_translation: true
 
 - text: "Wall Cable Bent Shadow"
-  translation: ""
+  translation: "Wall Cable Bent Shadow"
+  skip_translation: true
 
 - text: "Sphere collider"
-  translation: ""
+  translation: "Sphere collider"
+  skip_translation: true
 
 - text: "Small Fridge Shadow"
-  translation: ""
+  translation: "Small Fridge Shadow"
+  skip_translation: true
 
 - text: "Lio Music Zone"
-  translation: ""
+  translation: "Lio Music Zone"
+  skip_translation: true
 
 - text: "Wall Footer Light"
-  translation: ""
+  translation: "Wall Footer Light"
+  skip_translation: true
 
 - text: "Secret Door Keypad"
-  translation: ""
+  translation: "Secret Door Keypad"
+  skip_translation: true
 
 - text: "All 3 picked up Hint"
-  translation: ""
+  translation: "All 3 picked up Hint"
+  skip_translation: true
 
 - text: "Door Frame Right"
-  translation: ""
+  translation: "Door Frame Right"
+  skip_translation: true
 
 - text: "Fridge Background"
-  translation: ""
+  translation: "Fridge Background"
+  skip_translation: true
 
 - text: "Living Room"
-  translation: ""
+  translation: "Living Room"
+  skip_translation: true
 
 - text: "Fridge FakeLight"
-  translation: ""
+  translation: "Fridge FakeLight"
+  skip_translation: true
 
 - text: "Ask Leona for Band Logic"
-  translation: ""
+  translation: "Ask Leona for Band Logic"
+  skip_translation: true
 
 - text: "Cat Pictures Light 2"
-  translation: ""
+  translation: "Cat Pictures Light 2"
+  skip_translation: true
 
 - text: "Wait for Print Location"
-  translation: ""
+  translation: "Wait for Print Location"
+  skip_translation: true
 
 - text: "LeonasApartment"
-  translation: ""
+  translation: "LeonasApartment"
+  skip_translation: true
 
 - text: "Tension"
-  translation: ""
+  translation: "Tension"
+  skip_translation: true
 
 - text: "Fake Move down stairs position"
-  translation: ""
+  translation: "Fake Move down stairs position"
+  skip_translation: true
 
 - text: "Zoey at Door Position"
-  translation: ""
+  translation: "Zoey at Door Position"
+  skip_translation: true
 
 - text: "Lamps"
   translation: "Lamps"
   skip_translation: true
 
 - text: "In Flat"
-  translation: ""
+  translation: "In Flat"
+  skip_translation: true
 
 - text: "Sofa Location"
-  translation: ""
+  translation: "Sofa Location"
+  skip_translation: true
 
 - text: "LiosApartment"
-  translation: ""
+  translation: "LiosApartment"
+  skip_translation: true
 
 - text: "Before_Machine"
-  translation: ""
+  translation: "Before_Machine"
+  skip_translation: true
 
 - text: "Inside"
-  translation: ""
+  translation: "Inside"
+  skip_translation: true
 
 - text: "Overlays"
-  translation: ""
+  translation: "Overlays"
+  skip_translation: true
 
 - text: "Wall Footer Dark"
-  translation: ""
+  translation: "Wall Footer Dark"
+  skip_translation: true
 
 - text: "Printing Sequence"
-  translation: ""
+  translation: "Printing Sequence"
+  skip_translation: true
 
 - text: "Locations"
-  translation: ""
+  translation: "Locations"
+  skip_translation: true
 
 - text: "After_Machine"
-  translation: ""
+  translation: "After_Machine"
+  skip_translation: true
 
 - text: "Inside Trigger"
-  translation: ""
+  translation: "Inside Trigger"
+  skip_translation: true
 
 - text: "Laundry"
-  translation: ""
+  translation: "Laundry"
+  skip_translation: true
 
 - text: "Camera2"
-  translation: ""
+  translation: "Camera2"
+  skip_translation: true
 
 - text: "Neck Chip"
-  translation: ""
+  translation: "Neck Chip"
+  skip_translation: true
 
 - text: "Cat Pictures Light 1"
-  translation: ""
+  translation: "Cat Pictures Light 1"
+  skip_translation: true
 
 - text: "Leona Party Inspections"
-  translation: ""
+  translation: "Leona Party Inspections"
+  skip_translation: true
 
 - text: "Door Frame Top"
-  translation: ""
+  translation: "Door Frame Top"
+  skip_translation: true
 
 - text: "Dark"
   translation: "Dark"
   skip_translation: true
 
 - text: "Fridge Light"
-  translation: ""
+  translation: "Fridge Light"
+  skip_translation: true
 
 - text: "Audio Loop"
-  translation: ""
+  translation: "Audio Loop"
+  skip_translation: true
 
 - text: "Pillar In Apartment"
-  translation: ""
+  translation: "Pillar In Apartment"
+  skip_translation: true
 
 - text: "Music Logic"
-  translation: ""
+  translation: "Music Logic"
+  skip_translation: true
 
 - text: "Faces"
-  translation: ""
+  translation: "Faces"
+  skip_translation: true
 
 - text: "Machine Interaction"
-  translation: ""
+  translation: "Machine Interaction"
+  skip_translation: true
 
 - text: "Vent Above Shelves"
-  translation: ""
+  translation: "Vent Above Shelves"
+  skip_translation: true
 
 - text: "Cat Door"
-  translation: ""
+  translation: "Cat Door"
+  skip_translation: true
 
 - text: "Wall Cable Bent"
-  translation: ""
+  translation: "Wall Cable Bent"
+  skip_translation: true
 
 - text: "Pet Felicia"
-  translation: ""
+  translation: "Pet Felicia"
+  skip_translation: true
 
 - text: "Bedroom Corner"
-  translation: ""
+  translation: "Bedroom Corner"
+  skip_translation: true
 
 - text: "Lio Hallway Main Door Interaction"
-  translation: ""
+  translation: "Lio Hallway Main Door Interaction"
+  skip_translation: true
 
 - text: "Check Nipple Light"
-  translation: ""
+  translation: "Check Nipple Light"
+  skip_translation: true
 
 - text: "Tangled Cables Shadow"
-  translation: ""
+  translation: "Tangled Cables Shadow"
+  skip_translation: true
 
 - text: "LioOverlay"
-  translation: ""
+  translation: "LioOverlay"
+  skip_translation: true
 
 - text: "Flying Cat Tree"
-  translation: ""
+  translation: "Flying Cat Tree"
+  skip_translation: true
 
 - text: "ZoomTrigger"
-  translation: ""
+  translation: "ZoomTrigger"
+  skip_translation: true
 
 - text: "Respawn Key in Hand"
-  translation: ""
+  translation: "Respawn Key in Hand"
+  skip_translation: true
 
 - text: "03_Inside Flat Logic"
-  translation: ""
+  translation: "03_Inside Flat Logic"
+  skip_translation: true
 
 - text: "Cabels"
-  translation: ""
+  translation: "Cabels"
+  skip_translation: true
 
 - text: "Check Machine Light"
-  translation: ""
+  translation: "Check Machine Light"
+  skip_translation: true
 
 - text: "Felicia"
-  translation: ""
+  translation: "Felicia"
+  skip_translation: true
 
 - text: "Server Cable"
-  translation: ""
+  translation: "Server Cable"
+  skip_translation: true
 
 - text: "Flickering"
-  translation: ""
+  translation: "Flickering"
+  skip_translation: true
 
 - text: "Bed Room"
-  translation: ""
+  translation: "Bed Room"
+  skip_translation: true
 
 - text: "Lio Moaning"
-  translation: ""
+  translation: "Lio Moaning"
+  skip_translation: true
 
 - text: "Electric Wallbox Big Shadow"
-  translation: ""
+  translation: "Electric Wallbox Big Shadow"
+  skip_translation: true
 
 - text: "Spine Objects"
-  translation: ""
+  translation: "Spine Objects"
+  skip_translation: true
 
 - text: "CameraTarget"
-  translation: ""
+  translation: "CameraTarget"
+  skip_translation: true
 
 - text: "Kitchen Left Corner"
-  translation: ""
+  translation: "Kitchen Left Corner"
+  skip_translation: true
 
 - text: "BackroomOverlay"
-  translation: ""
+  translation: "BackroomOverlay"
+  skip_translation: true
 
 - text: "COCK Poster"
-  translation: ""
+  translation: "COCK Poster"
+  skip_translation: true
 
 - text: "Door Frame Left"
-  translation: ""
+  translation: "Door Frame Left"
+  skip_translation: true
 
 - text: "Wall Footer Dark Corner Right"
-  translation: ""
+  translation: "Wall Footer Dark Corner Right"
+  skip_translation: true
 
 - text: "Cat Tree"
-  translation: ""
+  translation: "Cat Tree"
+  skip_translation: true
 
 - text: "Apartment Floor WIP"
-  translation: ""
+  translation: "Apartment Floor WIP"
+  skip_translation: true
 
 - text: "Zoey Kissing Location"
-  translation: ""
+  translation: "Zoey Kissing Location"
+  skip_translation: true
 
 - text: "Small Screen"
-  translation: ""
+  translation: "Small Screen"
+  skip_translation: true
 
 - text: "1_AI"
-  translation: ""
+  translation: "1_AI"
+  skip_translation: true
 
 - text: "Dining Table"
-  translation: ""
+  translation: "Dining Table"
+  skip_translation: true
 
 - text: "Electric Wallbox Big"
-  translation: ""
+  translation: "Electric Wallbox Big"
+  skip_translation: true
 
 - text: "Pizza Tower 2"
-  translation: ""
+  translation: "Pizza Tower 2"
+  skip_translation: true
 
 - text: "Collider 2"
-  translation: ""
+  translation: "Collider 2"
+  skip_translation: true
 
 - text: "Kitchen Floor"
-  translation: ""
+  translation: "Kitchen Floor"
+  skip_translation: true
 
 - text: "Lio_Light"
-  translation: ""
+  translation: "Lio_Light"
+  skip_translation: true
 
 - text: "Chopping Board"
-  translation: ""
+  translation: "Chopping Board"
+  skip_translation: true
 
 - text: "HallOverlay"
-  translation: ""
+  translation: "HallOverlay"
+  skip_translation: true
 
 - text: "Small Screen Shadow"
-  translation: ""
+  translation: "Small Screen Shadow"
+  skip_translation: true
 
 - text: "Zoey Reject French Kiss Position"
-  translation: ""
+  translation: "Zoey Reject French Kiss Position"
+  skip_translation: true
 
 - text: "Camera Holder Shadow"
-  translation: ""
+  translation: "Camera Holder Shadow"
+  skip_translation: true
 
 - text: "Collider 1"
-  translation: ""
+  translation: "Collider 1"
+  skip_translation: true
 
 - text: "Small Fridge"
-  translation: ""
+  translation: "Small Fridge"
+  skip_translation: true
 
 - text: "Door Right"
-  translation: ""
+  translation: "Door Right"
+  skip_translation: true
 
 - text: "Tangled Cables"
-  translation: ""
+  translation: "Tangled Cables"
+  skip_translation: true
 
 - text: "Camera Holder"
-  translation: ""
+  translation: "Camera Holder"
+  skip_translation: true
 
 - text: "Lio Door"
-  translation: ""
+  translation: "Lio Door"
+  skip_translation: true
 
 - text: "Wall Ligh"
-  translation: ""
+  translation: "Wall Ligh"
+  skip_translation: true
 
 - text: "Bed"
-  translation: ""
+  translation: "Bed"
+  skip_translation: true
 
 - text: "Leona Music Zone"
-  translation: ""
+  translation: "Leona Music Zone"
+  skip_translation: true
 
 - text: "AI Screen"
-  translation: ""
+  translation: "AI Screen"
+  skip_translation: true
 
 - text: "Connecting Room"
-  translation: ""
+  translation: "Connecting Room"
+  skip_translation: true
 
 - text: "Wall Footer Light Corner"
-  translation: ""
+  translation: "Wall Footer Light Corner"
+  skip_translation: true
 
 - text: "Hallway Floor"
-  translation: ""
+  translation: "Hallway Floor"
+  skip_translation: true
 
 - text: "Take Key Location"
-  translation: ""
+  translation: "Take Key Location"
+  skip_translation: true
 
 - text: "Printer Audio"
-  translation: ""
+  translation: "Printer Audio"
+  skip_translation: true
 
 - text: "Cable End Shadow"
-  translation: ""
+  translation: "Cable End Shadow"
+  skip_translation: true
 
 - text: "Leona Bathroom Door"
-  translation: ""
+  translation: "Leona Bathroom Door"
+  skip_translation: true
 
 - text: "Leona at Door Position"
-  translation: ""
+  translation: "Leona at Door Position"
+  skip_translation: true
 
 - text: "Fridge"
-  translation: ""
+  translation: "Fridge"
+  skip_translation: true
 
 - text: "Piano"
-  translation: ""
+  translation: "Piano"
+  skip_translation: true
 
 - text: "ElecricityHum Loop 2"
-  translation: ""
+  translation: "ElecricityHum Loop 2"
+  skip_translation: true
 
 - text: "Leona Kissing Location"
-  translation: ""
+  translation: "Leona Kissing Location"
+  skip_translation: true
 
 - text: "BathroomOverlay"
-  translation: ""
+  translation: "BathroomOverlay"
+  skip_translation: true
 
 - text: "Hallway Music Zone"
-  translation: ""
+  translation: "Hallway Music Zone"
+  skip_translation: true
 
 - text: "Leona Interaction"
-  translation: ""
+  translation: "Leona Interaction"
+  skip_translation: true
 
 - text: "Cat Appliences"
-  translation: ""
+  translation: "Cat Appliences"
+  skip_translation: true
 
 - text: "Main"
-  translation: ""
+  translation: "Main"
+  skip_translation: true
 
 - text: "02_Apartment Door Interaction"
-  translation: ""
+  translation: "02_Apartment Door Interaction"
+  skip_translation: true
 
 - text: "Neck Chip Yellow"
-  translation: ""
+  translation: "Neck Chip Yellow"
+  skip_translation: true
 
 - text: "AI Glitching"
-  translation: ""
+  translation: "AI Glitching"
+  skip_translation: true
 
 - text: "Knock on Door - Audio Source"
-  translation: ""
+  translation: "Knock on Door - Audio Source"
+  skip_translation: true
 
 - text: "Camera3"
-  translation: ""
+  translation: "Camera3"
+  skip_translation: true
 
 - text: "Closed Shape Ambient Occlusion"
-  translation: ""
+  translation: "Closed Shape Ambient Occlusion"
+  skip_translation: true
 
 - text: "Spider Sticker"
-  translation: ""
+  translation: "Spider Sticker"
+  skip_translation: true
 
 - text: "Androkei Poster"
-  translation: ""
+  translation: "Androkei Poster"
+  skip_translation: true
 
 - text: "Fake Meat Shadow"
-  translation: ""
+  translation: "Fake Meat Shadow"
+  skip_translation: true
 
 - text: "Sink and Mirror"
-  translation: ""
+  translation: "Sink and Mirror"
+  skip_translation: true
 
 - text: "Book 1 Shadow"
-  translation: ""
+  translation: "Book 1 Shadow"
+  skip_translation: true
 
 - text: "Kitchen Horizontal 2"
-  translation: ""
+  translation: "Kitchen Horizontal 2"
+  skip_translation: true
 
 - text: "Cat Box Shadow"
-  translation: ""
+  translation: "Cat Box Shadow"
+  skip_translation: true
 
 - text: "Cupboard Right"
-  translation: ""
+  translation: "Cupboard Right"
+  skip_translation: true
 
 - text: "Cat Picture 6"
-  translation: ""
+  translation: "Cat Picture 6"
+  skip_translation: true
 
 - text: "Apartment Door"
-  translation: ""
+  translation: "Apartment Door"
+  skip_translation: true
 
 - text: "Cat Water Dispenser Shadow"
-  translation: ""
+  translation: "Cat Water Dispenser Shadow"
+  skip_translation: true
 
 - text: "AC Shadow"
-  translation: ""
+  translation: "AC Shadow"
+  skip_translation: true
 
 - text: "Bathroom Carpet"
-  translation: ""
+  translation: "Bathroom Carpet"
+  skip_translation: true
 
 - text: "Slipper"
-  translation: ""
+  translation: "Slipper"
+  skip_translation: true
 
 - text: "Pivot 2"
-  translation: ""
+  translation: "Pivot 2"
+  skip_translation: true
 
 - text: "Wall Lamp Small Shadow"
-  translation: ""
+  translation: "Wall Lamp Small Shadow"
+  skip_translation: true
 
 - text: "True"
-  translation: ""
+  translation: "True"
+  skip_translation: true
 
 - text: "Kitchen Decal"
-  translation: ""
+  translation: "Kitchen Decal"
+  skip_translation: true
 
 - text: "Lios Server - Light - 4"
-  translation: ""
+  translation: "Lios Server - Light - 4"
+  skip_translation: true
 
 - text: "Thingy"
-  translation: ""
+  translation: "Thingy"
+  skip_translation: true
 
 - text: "Wig"
-  translation: ""
+  translation: "Wig"
+  skip_translation: true
 
 - text: "Lios Bed Shadow"
-  translation: ""
+  translation: "Lios Bed Shadow"
+  skip_translation: true
 
 - text: "Cuttingboard"
-  translation: ""
+  translation: "Cuttingboard"
+  skip_translation: true
 
 - text: "Cat Food Station Shadow"
-  translation: ""
+  translation: "Cat Food Station Shadow"
+  skip_translation: true
 
 - text: "Lios Jacket Shadow"
-  translation: ""
+  translation: "Lios Jacket Shadow"
+  skip_translation: true
 
 - text: "Kitchen Stove"
-  translation: ""
+  translation: "Kitchen Stove"
+  skip_translation: true
 
 - text: "Light Red FakeLight"
-  translation: ""
+  translation: "Light Red FakeLight"
+  skip_translation: true
 
 - text: "LioGamingChair Visuals"
-  translation: ""
+  translation: "LioGamingChair Visuals"
+  skip_translation: true
 
 - text: "Ball Cat Toy Shadow"
-  translation: ""
+  translation: "Ball Cat Toy Shadow"
+  skip_translation: true
 
 - text: "Standing Picture"
-  translation: ""
+  translation: "Standing Picture"
+  skip_translation: true
 
 - text: "Door Side Right"
-  translation: ""
+  translation: "Door Side Right"
+  skip_translation: true
 
 - text: "Table Round Shadow"
-  translation: ""
+  translation: "Table Round Shadow"
+  skip_translation: true
 
 - text: "Kitchen End"
-  translation: ""
+  translation: "Kitchen End"
+  skip_translation: true
 
 - text: "FridgeLights"
-  translation: ""
+  translation: "FridgeLights"
+  skip_translation: true
 
 - text: "Lever1"
-  translation: ""
+  translation: "Lever1"
+  skip_translation: true
 
 - text: "Small Carpet"
-  translation: ""
+  translation: "Small Carpet"
+  skip_translation: true
 
 - text: "Wardrobe Shadow"
-  translation: ""
+  translation: "Wardrobe Shadow"
+  skip_translation: true
 
 - text: "WheelLight FakeLight"
-  translation: ""
+  translation: "WheelLight FakeLight"
+  skip_translation: true
 
 - text: "Cursed Condom Poster"
-  translation: ""
+  translation: "Cursed Condom Poster"
+  skip_translation: true
 
 - text: "LioGamingChair"
-  translation: ""
+  translation: "LioGamingChair"
+  skip_translation: true
 
 - text: "Lios Keyboard Visuals"
-  translation: ""
+  translation: "Lios Keyboard Visuals"
+  skip_translation: true
 
 - text: "Corwn Sticker"
-  translation: ""
+  translation: "Corwn Sticker"
+  skip_translation: true
 
 - text: "Shower Shadow"
-  translation: ""
+  translation: "Shower Shadow"
+  skip_translation: true
 
 - text: "Book 1"
-  translation: ""
+  translation: "Book 1"
+  skip_translation: true
 
 - text: "Plate Shadow"
-  translation: ""
+  translation: "Plate Shadow"
+  skip_translation: true
 
 - text: "Wall Vent"
-  translation: ""
+  translation: "Wall Vent"
+  skip_translation: true
 
 - text: "Lios Vest Shadow"
-  translation: ""
+  translation: "Lios Vest Shadow"
+  skip_translation: true
 
 - text: "Lios Computer Corner Table"
-  translation: ""
+  translation: "Lios Computer Corner Table"
+  skip_translation: true
 
 - text: "Lios Cursed Condom Shirt"
-  translation: ""
+  translation: "Lios Cursed Condom Shirt"
+  skip_translation: true
 
 - text: "Wig Stand"
-  translation: ""
+  translation: "Wig Stand"
+  skip_translation: true
 
 - text: "Lios Computer Corner"
-  translation: ""
+  translation: "Lios Computer Corner"
+  skip_translation: true
 
 - text: "Round Carpet"
-  translation: ""
+  translation: "Round Carpet"
+  skip_translation: true
 
 - text: "Lios Vest"
-  translation: ""
+  translation: "Lios Vest"
+  skip_translation: true
 
 - text: "Interface"
-  translation: ""
+  translation: "Interface"
+  skip_translation: true
 
 - text: "Cat Picture 4"
-  translation: ""
+  translation: "Cat Picture 4"
+  skip_translation: true
 
 - text: "Metal Wall Decal"
-  translation: ""
+  translation: "Metal Wall Decal"
+  skip_translation: true
 
 - text: "Door Interface"
-  translation: ""
+  translation: "Door Interface"
+  skip_translation: true
 
 - text: "Creme 1 Shadow"
-  translation: ""
+  translation: "Creme 1 Shadow"
+  skip_translation: true
 
 - text: "Laundery Shadow"
-  translation: ""
+  translation: "Laundery Shadow"
+  skip_translation: true
 
 - text: "Cat Picture 2"
-  translation: ""
+  translation: "Cat Picture 2"
+  skip_translation: true
 
 - text: "RoundLight Fakelight"
-  translation: ""
+  translation: "RoundLight Fakelight"
+  skip_translation: true
 
 - text: "Cupboard with Props"
-  translation: ""
+  translation: "Cupboard with Props"
+  skip_translation: true
 
 - text: "Cat Tree F1"
-  translation: ""
+  translation: "Cat Tree F1"
+  skip_translation: true
 
 - text: "Wall Lamp Small"
-  translation: ""
+  translation: "Wall Lamp Small"
+  skip_translation: true
 
 - text: "AC Build In"
-  translation: ""
+  translation: "AC Build In"
+  skip_translation: true
 
 - text: "BigScreen"
-  translation: ""
+  translation: "BigScreen"
+  skip_translation: true
 
 - text: "Apartment Outside Wall Angled Corner"
-  translation: ""
+  translation: "Apartment Outside Wall Angled Corner"
+  skip_translation: true
 
 - text: "Bowls Shadows"
-  translation: ""
+  translation: "Bowls Shadows"
+  skip_translation: true
 
 - text: "Kitchen Vertical"
-  translation: ""
+  translation: "Kitchen Vertical"
+  skip_translation: true
 
 - text: "Mouse Toy Shadow"
-  translation: ""
+  translation: "Mouse Toy Shadow"
+  skip_translation: true
 
 - text: "HoverCart"
-  translation: ""
+  translation: "HoverCart"
+  skip_translation: true
 
 - text: "Light Panel"
-  translation: ""
+  translation: "Light Panel"
+  skip_translation: true
 
 - text: "Shower Front"
-  translation: ""
+  translation: "Shower Front"
+  skip_translation: true
 
 - text: "Cat Food Small"
-  translation: ""
+  translation: "Cat Food Small"
+  skip_translation: true
 
 - text: "Apartment Toilet"
-  translation: ""
+  translation: "Apartment Toilet"
+  skip_translation: true
 
 - text: "Ventilator Wall Big Visuals"
-  translation: ""
+  translation: "Ventilator Wall Big Visuals"
+  skip_translation: true
 
 - text: "WheelLight Back"
-  translation: ""
+  translation: "WheelLight Back"
+  skip_translation: true
 
 - text: "Light Elements"
-  translation: ""
+  translation: "Light Elements"
+  skip_translation: true
 
 - text: "Cat Picture 5 Shadow"
-  translation: ""
+  translation: "Cat Picture 5 Shadow"
+  skip_translation: true
 
 - text: "Lio Machine Key"
-  translation: ""
+  translation: "Lio Machine Key"
+  skip_translation: true
 
 - text: "Luxus Bottle"
-  translation: ""
+  translation: "Luxus Bottle"
+  skip_translation: true
 
 - text: "Lios Server - Light - 1"
-  translation: ""
+  translation: "Lios Server - Light - 1"
+  skip_translation: true
 
 - text: "Stove Big 2"
-  translation: ""
+  translation: "Stove Big 2"
+  skip_translation: true
 
 - text: "Wall Decal Middle"
-  translation: ""
+  translation: "Wall Decal Middle"
+  skip_translation: true
 
 - text: "IDK"
   translation: "IDK"
   skip_translation: true
 
 - text: "Washing Powder Big"
-  translation: ""
+  translation: "Washing Powder Big"
+  skip_translation: true
 
 - text: "Standing Lamp"
-  translation: ""
+  translation: "Standing Lamp"
+  skip_translation: true
 
 - text: "Ball Cat Toy Ground Shadow"
-  translation: ""
+  translation: "Ball Cat Toy Ground Shadow"
+  skip_translation: true
 
 - text: "Ventilator Wall Cable"
-  translation: ""
+  translation: "Ventilator Wall Cable"
+  skip_translation: true
 
 - text: "Toilet Paper"
-  translation: ""
+  translation: "Toilet Paper"
+  skip_translation: true
 
 - text: "Fish Toy"
-  translation: ""
+  translation: "Fish Toy"
+  skip_translation: true
 
 - text: "Lios Pants 3"
-  translation: ""
+  translation: "Lios Pants 3"
+  skip_translation: true
 
 - text: "Red_4"
-  translation: ""
+  translation: "Red_4"
+  skip_translation: true
 
 - text: "Ball Cat Toy"
-  translation: ""
+  translation: "Ball Cat Toy"
+  skip_translation: true
 
 - text: "Fish"
   translation: "Fish"
   skip_translation: true
 
 - text: "Slipper 1 Shadow"
-  translation: ""
+  translation: "Slipper 1 Shadow"
+  skip_translation: true
 
 - text: "HoverCart Handle Visual"
-  translation: ""
+  translation: "HoverCart Handle Visual"
+  skip_translation: true
 
 - text: "Kitchen Corner Piece"
-  translation: ""
+  translation: "Kitchen Corner Piece"
+  skip_translation: true
 
 - text: "Stove Small"
-  translation: ""
+  translation: "Stove Small"
+  skip_translation: true
 
 - text: "Stove FakeLight"
-  translation: ""
+  translation: "Stove FakeLight"
+  skip_translation: true
 
 - text: "Band Mascot Shadow"
-  translation: ""
+  translation: "Band Mascot Shadow"
+  skip_translation: true
 
 - text: "Salt"
   translation: "Salt"
   skip_translation: true
 
 - text: "Wall Decal Line"
-  translation: ""
+  translation: "Wall Decal Line"
+  skip_translation: true
 
 - text: "Lios Cursed Condom Shirt Shadow"
-  translation: ""
+  translation: "Lios Cursed Condom Shirt Shadow"
+  skip_translation: true
 
 - text: "Keyboards Lights"
-  translation: ""
+  translation: "Keyboards Lights"
+  skip_translation: true
 
 - text: "Cat Stature"
-  translation: ""
+  translation: "Cat Stature"
+  skip_translation: true
 
 - text: "Computer Mouse Shadow"
-  translation: ""
+  translation: "Computer Mouse Shadow"
+  skip_translation: true
 
 - text: "Wall Decal Left"
-  translation: ""
+  translation: "Wall Decal Left"
+  skip_translation: true
 
 - text: "TV Shadow"
-  translation: ""
+  translation: "TV Shadow"
+  skip_translation: true
 
 - text: "Red_3"
-  translation: ""
+  translation: "Red_3"
+  skip_translation: true
 
 - text: "Red_3_FakeLight"
-  translation: ""
+  translation: "Red_3_FakeLight"
+  skip_translation: true
 
 - text: "Cat Picture 4 Shadow"
-  translation: ""
+  translation: "Cat Picture 4 Shadow"
+  skip_translation: true
 
 - text: "BigScreen Shadow"
-  translation: ""
+  translation: "BigScreen Shadow"
+  skip_translation: true
 
 - text: "Sugar Pot Shadow"
-  translation: ""
+  translation: "Sugar Pot Shadow"
+  skip_translation: true
 
 - text: "Cat Picture 6 Shadow"
-  translation: ""
+  translation: "Cat Picture 6 Shadow"
+  skip_translation: true
 
 - text: "Microwave Shadow"
-  translation: ""
+  translation: "Microwave Shadow"
+  skip_translation: true
 
 - text: "HighTech Computer Shadow"
-  translation: ""
+  translation: "HighTech Computer Shadow"
+  skip_translation: true
 
 - text: "Lios Pants"
-  translation: ""
+  translation: "Lios Pants"
+  skip_translation: true
 
 - text: "Cat Picture 3"
-  translation: ""
+  translation: "Cat Picture 3"
+  skip_translation: true
 
 - text: "Table Round"
-  translation: ""
+  translation: "Table Round"
+  skip_translation: true
 
 - text: "Standing Lamp Stand"
-  translation: ""
+  translation: "Standing Lamp Stand"
+  skip_translation: true
 
 - text: "Fallen Poster"
-  translation: ""
+  translation: "Fallen Poster"
+  skip_translation: true
 
 - text: "Wall Keypat Shadow"
-  translation: ""
+  translation: "Wall Keypat Shadow"
+  skip_translation: true
 
 - text: "Doormat"
-  translation: ""
+  translation: "Doormat"
+  skip_translation: true
 
 - text: "Shower Lid"
-  translation: ""
+  translation: "Shower Lid"
+  skip_translation: true
 
 - text: "Cat Picture 5"
-  translation: ""
+  translation: "Cat Picture 5"
+  skip_translation: true
 
 - text: "Lios Server - Light - 3"
-  translation: ""
+  translation: "Lios Server - Light - 3"
+  skip_translation: true
 
 - text: "Cat Box"
-  translation: ""
+  translation: "Cat Box"
+  skip_translation: true
 
 - text: "Green_3"
   translation: "Green_3"
   skip_translation: true
 
 - text: "Sugar Pot"
-  translation: ""
+  translation: "Sugar Pot"
+  skip_translation: true
 
 - text: "Keyboard Shadow"
-  translation: ""
+  translation: "Keyboard Shadow"
+  skip_translation: true
 
 - text: "Light Right"
-  translation: ""
+  translation: "Light Right"
+  skip_translation: true
 
 - text: "Cat Tree Base Shadow"
-  translation: ""
+  translation: "Cat Tree Base Shadow"
+  skip_translation: true
 
 - text: "Wig Stand Shadow"
-  translation: ""
+  translation: "Wig Stand Shadow"
+  skip_translation: true
 
 - text: "Ventilator Wall Big Shadow"
-  translation: ""
+  translation: "Ventilator Wall Big Shadow"
+  skip_translation: true
 
 - text: "Res Table Shadow"
-  translation: ""
+  translation: "Res Table Shadow"
+  skip_translation: true
 
 - text: "Light Left"
-  translation: ""
+  translation: "Light Left"
+  skip_translation: true
 
 - text: "Wall Slit"
-  translation: ""
+  translation: "Wall Slit"
+  skip_translation: true
 
 - text: "Keyboard Key FakeLights"
-  translation: ""
+  translation: "Keyboard Key FakeLights"
+  skip_translation: true
 
 - text: "Cup Shadow"
-  translation: ""
+  translation: "Cup Shadow"
+  skip_translation: true
 
 - text: "Cat Tree Base"
-  translation: ""
+  translation: "Cat Tree Base"
+  skip_translation: true
 
 - text: "Cat Tree F3"
-  translation: ""
+  translation: "Cat Tree F3"
+  skip_translation: true
 
 - text: "Metal Wall Decal Shadow"
-  translation: ""
+  translation: "Metal Wall Decal Shadow"
+  skip_translation: true
 
 - text: "Coffee Pot Shadow"
-  translation: ""
+  translation: "Coffee Pot Shadow"
+  skip_translation: true
 
 - text: "Cat Tree F2"
-  translation: ""
+  translation: "Cat Tree F2"
+  skip_translation: true
 
 - text: "Big Wall TV"
-  translation: ""
+  translation: "Big Wall TV"
+  skip_translation: true
 
 - text: "Lever3"
-  translation: ""
+  translation: "Lever3"
+  skip_translation: true
 
 - text: "Wall Lamp Big"
-  translation: ""
+  translation: "Wall Lamp Big"
+  skip_translation: true
 
 - text: "Living Room Couch"
-  translation: ""
+  translation: "Living Room Couch"
+  skip_translation: true
 
 - text: "Apartment Bathroom Wall"
-  translation: ""
+  translation: "Apartment Bathroom Wall"
+  skip_translation: true
 
 - text: "TV Interface"
-  translation: ""
+  translation: "TV Interface"
+  skip_translation: true
 
 - text: "Lever4"
-  translation: ""
+  translation: "Lever4"
+  skip_translation: true
 
 - text: "UpperLight"
-  translation: ""
+  translation: "UpperLight"
+  skip_translation: true
 
 - text: "False"
-  translation: ""
+  translation: "False"
+  skip_translation: true
 
 - text: "Wall Line Right"
-  translation: ""
+  translation: "Wall Line Right"
+  skip_translation: true
 
 - text: "Bowls"
   translation: "Bowls"
   skip_translation: true
 
 - text: "Small Prop Shadow"
-  translation: ""
+  translation: "Small Prop Shadow"
+  skip_translation: true
 
 - text: "HoverCart Shadow"
-  translation: ""
+  translation: "HoverCart Shadow"
+  skip_translation: true
 
 - text: "Cat Scratching Post Shadow"
-  translation: ""
+  translation: "Cat Scratching Post Shadow"
+  skip_translation: true
 
 - text: "Lios Armrest Shadow"
-  translation: ""
+  translation: "Lios Armrest Shadow"
+  skip_translation: true
 
 - text: "UpperLight FakeLight"
-  translation: ""
+  translation: "UpperLight FakeLight"
+  skip_translation: true
 
 - text: "Bed Shadow"
-  translation: ""
+  translation: "Bed Shadow"
+  skip_translation: true
 
 - text: "Band Mascot"
-  translation: ""
+  translation: "Band Mascot"
+  skip_translation: true
 
 - text: "Room Seperator"
-  translation: ""
+  translation: "Room Seperator"
+  skip_translation: true
 
 - text: "Chip1"
   translation: "Chip1"
@@ -1089,503 +1409,664 @@
   skip_translation: true
 
 - text: "Cat Picture 1"
-  translation: ""
+  translation: "Cat Picture 1"
+  skip_translation: true
 
 - text: "Lios Server - Light - 2"
-  translation: ""
+  translation: "Lios Server - Light - 2"
+  skip_translation: true
 
 - text: "Cups Shadow"
-  translation: ""
+  translation: "Cups Shadow"
+  skip_translation: true
 
 - text: "Lube Shadow"
-  translation: ""
+  translation: "Lube Shadow"
+  skip_translation: true
 
 - text: "Keyboards Display FakeLight"
-  translation: ""
+  translation: "Keyboards Display FakeLight"
+  skip_translation: true
 
 - text: "Salt Shadow"
-  translation: ""
+  translation: "Salt Shadow"
+  skip_translation: true
 
 - text: "Washing Powder Big Shadow"
-  translation: ""
+  translation: "Washing Powder Big Shadow"
+  skip_translation: true
 
 - text: "Red_1"
-  translation: ""
+  translation: "Red_1"
+  skip_translation: true
 
 - text: "Light Green FakeLight 2"
-  translation: ""
+  translation: "Light Green FakeLight 2"
+  skip_translation: true
 
 - text: "Door Interface Shadow"
-  translation: ""
+  translation: "Door Interface Shadow"
+  skip_translation: true
 
 - text: "Levers"
-  translation: ""
+  translation: "Levers"
+  skip_translation: true
 
 - text: "Kitchen Horizontal"
-  translation: ""
+  translation: "Kitchen Horizontal"
+  skip_translation: true
 
 - text: "Luxus Bottle Shadow"
-  translation: ""
+  translation: "Luxus Bottle Shadow"
+  skip_translation: true
 
 - text: "Spices"
-  translation: ""
+  translation: "Spices"
+  skip_translation: true
 
 - text: "Wardrobe with Props"
-  translation: ""
+  translation: "Wardrobe with Props"
+  skip_translation: true
 
 - text: "Lever2"
-  translation: ""
+  translation: "Lever2"
+  skip_translation: true
 
 - text: "Trash_Prop_2"
-  translation: ""
+  translation: "Trash_Prop_2"
+  skip_translation: true
 
 - text: "LightElement Cat Tree"
-  translation: ""
+  translation: "LightElement Cat Tree"
+  skip_translation: true
 
 - text: "Keyboards FakeLights"
-  translation: ""
+  translation: "Keyboards FakeLights"
+  skip_translation: true
 
 - text: "Washing Powder Small Shadow"
-  translation: ""
+  translation: "Washing Powder Small Shadow"
+  skip_translation: true
 
 - text: "Otamatone Shadow"
-  translation: ""
+  translation: "Otamatone Shadow"
+  skip_translation: true
 
 - text: "Cupboard Left"
-  translation: ""
+  translation: "Cupboard Left"
+  skip_translation: true
 
 - text: "Book 2 Shadow"
-  translation: ""
+  translation: "Book 2 Shadow"
+  skip_translation: true
 
 - text: "Book 2"
-  translation: ""
+  translation: "Book 2"
+  skip_translation: true
 
 - text: "Door Top"
-  translation: ""
+  translation: "Door Top"
+  skip_translation: true
 
 - text: "Fake Light Interface"
-  translation: ""
+  translation: "Fake Light Interface"
+  skip_translation: true
 
 - text: "Bed Visual"
-  translation: ""
+  translation: "Bed Visual"
+  skip_translation: true
 
 - text: "Lamp Light"
-  translation: ""
+  translation: "Lamp Light"
+  skip_translation: true
 
 - text: "Seat Shadow"
-  translation: ""
+  translation: "Seat Shadow"
+  skip_translation: true
 
 - text: "Lios Keyboard Shadow"
-  translation: ""
+  translation: "Lios Keyboard Shadow"
+  skip_translation: true
 
 - text: "Pillar Top"
-  translation: ""
+  translation: "Pillar Top"
+  skip_translation: true
 
 - text: "Cat Scratching Post"
-  translation: ""
+  translation: "Cat Scratching Post"
+  skip_translation: true
 
 - text: "CircuitBox_Left"
-  translation: ""
+  translation: "CircuitBox_Left"
+  skip_translation: true
 
 - text: "Green_2"
   translation: "Green_2"
   skip_translation: true
 
 - text: "Refrigerator Shadow"
-  translation: ""
+  translation: "Refrigerator Shadow"
+  skip_translation: true
 
 - text: "Table Horizontal"
-  translation: ""
+  translation: "Table Horizontal"
+  skip_translation: true
 
 - text: "Creme 3 Shadow"
-  translation: ""
+  translation: "Creme 3 Shadow"
+  skip_translation: true
 
 - text: "Cock Poster"
-  translation: ""
+  translation: "Cock Poster"
+  skip_translation: true
 
 - text: "Creme 2"
-  translation: ""
+  translation: "Creme 2"
+  skip_translation: true
 
 - text: "Fallen Poster Shadow"
-  translation: ""
+  translation: "Fallen Poster Shadow"
+  skip_translation: true
 
 - text: "Wall Decal Right"
-  translation: ""
+  translation: "Wall Decal Right"
+  skip_translation: true
 
 - text: "Mirror Shadow"
-  translation: ""
+  translation: "Mirror Shadow"
+  skip_translation: true
 
 - text: "Red_2_FakeLight"
-  translation: ""
+  translation: "Red_2_FakeLight"
+  skip_translation: true
 
 - text: "Fridge FakeLights"
-  translation: ""
+  translation: "Fridge FakeLights"
+  skip_translation: true
 
 - text: "Stove Small 2"
-  translation: ""
+  translation: "Stove Small 2"
+  skip_translation: true
 
 - text: "Wall Line Left"
-  translation: ""
+  translation: "Wall Line Left"
+  skip_translation: true
 
 - text: "Fake Meat"
-  translation: ""
+  translation: "Fake Meat"
+  skip_translation: true
 
 - text: "DoorLight"
-  translation: ""
+  translation: "DoorLight"
+  skip_translation: true
 
 - text: "Cup Filled"
-  translation: ""
+  translation: "Cup Filled"
+  skip_translation: true
 
 - text: "Table Vertikal"
-  translation: ""
+  translation: "Table Vertikal"
+  skip_translation: true
 
 - text: "Apartment Outside Wall Door"
-  translation: ""
+  translation: "Apartment Outside Wall Door"
+  skip_translation: true
 
 - text: "Creme 2 Shadow"
-  translation: ""
+  translation: "Creme 2 Shadow"
+  skip_translation: true
 
 - text: "Cat Picture 1 Shadow"
-  translation: ""
+  translation: "Cat Picture 1 Shadow"
+  skip_translation: true
 
 - text: "Lios Pants 2"
-  translation: ""
+  translation: "Lios Pants 2"
+  skip_translation: true
 
 - text: "Cupboard Middle 1"
-  translation: ""
+  translation: "Cupboard Middle 1"
+  skip_translation: true
 
 - text: "Cuttingboard Shadow"
-  translation: ""
+  translation: "Cuttingboard Shadow"
+  skip_translation: true
 
 - text: "Wall Vent 2"
-  translation: ""
+  translation: "Wall Vent 2"
+  skip_translation: true
 
 - text: "Lios Computer Corner Table Shadow"
-  translation: ""
+  translation: "Lios Computer Corner Table Shadow"
+  skip_translation: true
 
 - text: "Cat Food Big"
-  translation: ""
+  translation: "Cat Food Big"
+  skip_translation: true
 
 - text: "Keyboard Key Lights"
-  translation: ""
+  translation: "Keyboard Key Lights"
+  skip_translation: true
 
 - text: "Creme 3"
-  translation: ""
+  translation: "Creme 3"
+  skip_translation: true
 
 - text: "Laundery"
-  translation: ""
+  translation: "Laundery"
+  skip_translation: true
 
 - text: "Light Green FakeLight"
-  translation: ""
+  translation: "Light Green FakeLight"
+  skip_translation: true
 
 - text: "Wig Shadow"
-  translation: ""
+  translation: "Wig Shadow"
+  skip_translation: true
 
 - text: "Red_1_FakeLight"
-  translation: ""
+  translation: "Red_1_FakeLight"
+  skip_translation: true
 
 - text: "Fish Toy Shadow"
-  translation: ""
+  translation: "Fish Toy Shadow"
+  skip_translation: true
 
 - text: "Lios Keyboard"
-  translation: ""
+  translation: "Lios Keyboard"
+  skip_translation: true
 
 - text: "Lios Computer Corner Table Corner"
-  translation: ""
+  translation: "Lios Computer Corner Table Corner"
+  skip_translation: true
 
 - text: "Lios Pants Shadow"
-  translation: ""
+  translation: "Lios Pants Shadow"
+  skip_translation: true
 
 - text: "LockedAnimBool"
-  translation: ""
+  translation: "LockedAnimBool"
+  skip_translation: true
 
 - text: "Light Red FakeLight 2"
-  translation: ""
+  translation: "Light Red FakeLight 2"
+  skip_translation: true
 
 - text: "Big Carpet"
-  translation: ""
+  translation: "Big Carpet"
+  skip_translation: true
 
 - text: "Stove Light elements"
-  translation: ""
+  translation: "Stove Light elements"
+  skip_translation: true
 
 - text: "Cat Food Big Shadow"
-  translation: ""
+  translation: "Cat Food Big Shadow"
+  skip_translation: true
 
 - text: "Washing Machine Shadow"
-  translation: ""
+  translation: "Washing Machine Shadow"
+  skip_translation: true
 
 - text: "Light Panel FakeLight"
-  translation: ""
+  translation: "Light Panel FakeLight"
+  skip_translation: true
 
 - text: "Red_4_FakeLight"
-  translation: ""
+  translation: "Red_4_FakeLight"
+  skip_translation: true
 
 - text: "Cat Food Station"
-  translation: ""
+  translation: "Cat Food Station"
+  skip_translation: true
 
 - text: "Cat Tree F1 Shadow"
-  translation: ""
+  translation: "Cat Tree F1 Shadow"
+  skip_translation: true
 
 - text: "Ventilator Wall Big"
-  translation: ""
+  translation: "Ventilator Wall Big"
+  skip_translation: true
 
 - text: "Wall Decal Middle 2"
-  translation: ""
+  translation: "Wall Decal Middle 2"
+  skip_translation: true
 
 - text: "Shower Bottom"
-  translation: ""
+  translation: "Shower Bottom"
+  skip_translation: true
 
 - text: "Open Book 2 Shadow"
-  translation: ""
+  translation: "Open Book 2 Shadow"
+  skip_translation: true
 
 - text: "Kitchen Corner"
-  translation: ""
+  translation: "Kitchen Corner"
+  skip_translation: true
 
 - text: "Cat Picture 3 Shadow"
-  translation: ""
+  translation: "Cat Picture 3 Shadow"
+  skip_translation: true
 
 - text: "Apartment Inside Wall"
-  translation: ""
+  translation: "Apartment Inside Wall"
+  skip_translation: true
 
 - text: "Teapot"
-  translation: ""
+  translation: "Teapot"
+  skip_translation: true
 
 - text: "Cups"
   translation: "Cups"
   skip_translation: true
 
 - text: "Ocular Nerve Poster"
-  translation: ""
+  translation: "Ocular Nerve Poster"
+  skip_translation: true
 
 - text: "LioGamingChair Shadow"
-  translation: ""
+  translation: "LioGamingChair Shadow"
+  skip_translation: true
 
 - text: "Plate"
-  translation: ""
+  translation: "Plate"
+  skip_translation: true
 
 - text: "Door Side Left"
-  translation: ""
+  translation: "Door Side Left"
+  skip_translation: true
 
 - text: "Washing Machine"
-  translation: ""
+  translation: "Washing Machine"
+  skip_translation: true
 
 - text: "Beauty Product 1"
-  translation: ""
+  translation: "Beauty Product 1"
+  skip_translation: true
 
 - text: "Keyboards Display Light"
-  translation: ""
+  translation: "Keyboards Display Light"
+  skip_translation: true
 
 - text: "Lios Jacket"
-  translation: ""
+  translation: "Lios Jacket"
+  skip_translation: true
 
 - text: "Lios Pants 3 Shadow"
-  translation: ""
+  translation: "Lios Pants 3 Shadow"
+  skip_translation: true
 
 - text: "Cat Water Dispenser"
-  translation: ""
+  translation: "Cat Water Dispenser"
+  skip_translation: true
 
 - text: "Shower Back Tiles"
-  translation: ""
+  translation: "Shower Back Tiles"
+  skip_translation: true
 
 - text: "Coffee Pot"
-  translation: ""
+  translation: "Coffee Pot"
+  skip_translation: true
 
 - text: "Wall Decal 1"
-  translation: ""
+  translation: "Wall Decal 1"
+  skip_translation: true
 
 - text: "Kei Kei Poster"
-  translation: ""
+  translation: "Kei Kei Poster"
+  skip_translation: true
 
 - text: "Cursed Condom Sticker"
-  translation: ""
+  translation: "Cursed Condom Sticker"
+  skip_translation: true
 
 - text: "HoverCart Visual"
-  translation: ""
+  translation: "HoverCart Visual"
+  skip_translation: true
 
 - text: "Open Book 2"
-  translation: ""
+  translation: "Open Book 2"
+  skip_translation: true
 
 - text: "Wall Keypat"
-  translation: ""
+  translation: "Wall Keypat"
+  skip_translation: true
 
 - text: "Soap Shadow"
-  translation: ""
+  translation: "Soap Shadow"
+  skip_translation: true
 
 - text: "Lios Pants 2 Shadow"
-  translation: ""
+  translation: "Lios Pants 2 Shadow"
+  skip_translation: true
 
 - text: "Toilet Paper Shadow"
-  translation: ""
+  translation: "Toilet Paper Shadow"
+  skip_translation: true
 
 - text: "Cat Toilet"
-  translation: ""
+  translation: "Cat Toilet"
+  skip_translation: true
 
 - text: "Shower Hose"
-  translation: ""
+  translation: "Shower Hose"
+  skip_translation: true
 
 - text: "Teapot Shadow"
-  translation: ""
+  translation: "Teapot Shadow"
+  skip_translation: true
 
 - text: "Slipper 2 Shadow"
-  translation: ""
+  translation: "Slipper 2 Shadow"
+  skip_translation: true
 
 - text: "Cat Stature Shadow"
-  translation: ""
+  translation: "Cat Stature Shadow"
+  skip_translation: true
 
 - text: "Interface FakeLight"
-  translation: ""
+  translation: "Interface FakeLight"
+  skip_translation: true
 
 - text: "Table Room Seperator"
-  translation: ""
+  translation: "Table Room Seperator"
+  skip_translation: true
 
 - text: "Apartment Outside Wall"
-  translation: ""
+  translation: "Apartment Outside Wall"
+  skip_translation: true
 
 - text: "Green_4"
   translation: "Green_4"
   skip_translation: true
 
 - text: "Apartment Toilet Shadow"
-  translation: ""
+  translation: "Apartment Toilet Shadow"
+  skip_translation: true
 
 - text: "Room Seperator Vertical"
-  translation: ""
+  translation: "Room Seperator Vertical"
+  skip_translation: true
 
 - text: "HighTech Computer"
-  translation: ""
+  translation: "HighTech Computer"
+  skip_translation: true
 
 - text: "Cat Food Small Shadow"
-  translation: ""
+  translation: "Cat Food Small Shadow"
+  skip_translation: true
 
 - text: "Spices Shadow"
-  translation: ""
+  translation: "Spices Shadow"
+  skip_translation: true
 
 - text: "Res Table"
-  translation: ""
+  translation: "Res Table"
+  skip_translation: true
 
 - text: "Ventilator Wall Cable Shadow"
-  translation: ""
+  translation: "Ventilator Wall Cable Shadow"
+  skip_translation: true
 
 - text: "RoundLight"
-  translation: ""
+  translation: "RoundLight"
+  skip_translation: true
 
 - text: "Lios Bed"
-  translation: ""
+  translation: "Lios Bed"
+  skip_translation: true
 
 - text: "Slipper 2"
-  translation: ""
+  translation: "Slipper 2"
+  skip_translation: true
 
 - text: "Pillow Left"
-  translation: ""
+  translation: "Pillow Left"
+  skip_translation: true
 
 - text: "Green_1"
   translation: "Green_1"
   skip_translation: true
 
 - text: "Apartment Outside Wall Pillar"
-  translation: ""
+  translation: "Apartment Outside Wall Pillar"
+  skip_translation: true
 
 - text: "Wall Line"
-  translation: ""
+  translation: "Wall Line"
+  skip_translation: true
 
 - text: "Hanging cupboard"
-  translation: ""
+  translation: "Hanging cupboard"
+  skip_translation: true
 
 - text: "Table Room Seperator Shadow"
-  translation: ""
+  translation: "Table Room Seperator Shadow"
+  skip_translation: true
 
 - text: "LiosCap Shadow"
-  translation: ""
+  translation: "LiosCap Shadow"
+  skip_translation: true
 
 - text: "WheelLight Front"
-  translation: ""
+  translation: "WheelLight Front"
+  skip_translation: true
 
 - text: "Small Prop"
-  translation: ""
+  translation: "Small Prop"
+  skip_translation: true
 
 - text: "Cat Tree F2 Shadow"
-  translation: ""
+  translation: "Cat Tree F2 Shadow"
+  skip_translation: true
 
 - text: "Stove Big"
-  translation: ""
+  translation: "Stove Big"
+  skip_translation: true
 
 - text: "Cat Light Icon"
-  translation: ""
+  translation: "Cat Light Icon"
+  skip_translation: true
 
 - text: "Mouse Toy"
-  translation: ""
+  translation: "Mouse Toy"
+  skip_translation: true
 
 - text: "Chair Backrest"
-  translation: ""
+  translation: "Chair Backrest"
+  skip_translation: true
 
 - text: "Pillow Right"
-  translation: ""
+  translation: "Pillow Right"
+  skip_translation: true
 
 - text: "Faucet"
-  translation: ""
+  translation: "Faucet"
+  skip_translation: true
 
 - text: "Cup Filled Shadow"
-  translation: ""
+  translation: "Cup Filled Shadow"
+  skip_translation: true
 
 - text: "Res Bed"
-  translation: ""
+  translation: "Res Bed"
+  skip_translation: true
 
 - text: "Wall Lamp Big Shadow"
-  translation: ""
+  translation: "Wall Lamp Big Shadow"
+  skip_translation: true
 
 - text: "Wall Decal Middle 1"
-  translation: ""
+  translation: "Wall Decal Middle 1"
+  skip_translation: true
 
 - text: "Hanging cupboard  Shadow"
-  translation: ""
+  translation: "Hanging cupboard  Shadow"
+  skip_translation: true
 
 - text: "Red_2"
-  translation: ""
+  translation: "Red_2"
+  skip_translation: true
 
 - text: "Shower Front Corner"
-  translation: ""
+  translation: "Shower Front Corner"
+  skip_translation: true
 
 - text: "Ball Cat Toy Ground"
-  translation: ""
+  translation: "Ball Cat Toy Ground"
+  skip_translation: true
 
 - text: "Washing Powder Small"
-  translation: ""
+  translation: "Washing Powder Small"
+  skip_translation: true
 
 - text: "Cupboard Shadow"
-  translation: ""
+  translation: "Cupboard Shadow"
+  skip_translation: true
 
 - text: "Cupboard Middle 2"
-  translation: ""
+  translation: "Cupboard Middle 2"
+  skip_translation: true
 
 - text: "Slipper 1"
-  translation: ""
+  translation: "Slipper 1"
+  skip_translation: true
 
 - text: "Creme 1"
-  translation: ""
+  translation: "Creme 1"
+  skip_translation: true
 
 - text: "Table Vertikal Shadow"
-  translation: ""
+  translation: "Table Vertikal Shadow"
+  skip_translation: true
 
 - text: "Big Wall TV Shadow"
-  translation: ""
+  translation: "Big Wall TV Shadow"
+  skip_translation: true
 
 - text: "Otamatone"
-  translation: ""
+  translation: "Otamatone"
+  skip_translation: true
 
 - text: "Table Horizontal Shadow"
-  translation: ""
+  translation: "Table Horizontal Shadow"
+  skip_translation: true
 
 - text: "Beauty Product Shadow"
-  translation: ""
+  translation: "Beauty Product Shadow"
+  skip_translation: true
 
 - text: "Apartment Inside Wall Corner"
-  translation: ""
+  translation: "Apartment Inside Wall Corner"
+  skip_translation: true
 
 - text: "LiosCap"
-  translation: ""
+  translation: "LiosCap"
+  skip_translation: true
 
 - text: "Thingy Shadow"
-  translation: ""
+  translation: "Thingy Shadow"
+  skip_translation: true
 
 - text: "AVP"
   translation: "AVP"
@@ -1600,24 +2081,28 @@
   skip_translation: true
 
 - text: "A33kA"
-  translation: ""
+  translation: "A33kA"
+  skip_translation: true
 
 - text: "Vl?\"(Y?"
-  translation: ""
+  translation: "Vl?\"(Y?"
+  skip_translation: true
 
 - text: "Ac|"
   translation: "Ac|"
   skip_translation: true
 
 - text: "AffBA"
-  translation: ""
+  translation: "AffBA"
+  skip_translation: true
 
 - text: "NbP?"
   translation: "NbP?"
   skip_translation: true
 
 - text: "Ash"
-  translation: ""
+  translation: "Ash"
+  skip_translation: true
 
 - text: "A`X"
   translation: "A`X"
@@ -1632,14 +2117,16 @@
   skip_translation: true
 
 - text: "AlSLA"
-  translation: ""
+  translation: "AlSLA"
+  skip_translation: true
 
 - text: ")EC["
   translation: ")EC["
   skip_translation: true
 
 - text: "AZd]A"
-  translation: ""
+  translation: "AZd]A"
+  skip_translation: true
 
 - text: "MABc"
   translation: "MABc"
@@ -1650,10 +2137,12 @@
   skip_translation: true
 
 - text: "AshAA"
-  translation: ""
+  translation: "AshAA"
+  skip_translation: true
 
 - text: "AlSpA"
-  translation: ""
+  translation: "AlSpA"
+  skip_translation: true
 
 - text: "ID@"
   translation: "ID@"
@@ -1688,7 +2177,8 @@
   skip_translation: true
 
 - text: "YAF1^A"
-  translation: ""
+  translation: "YAF1^A"
+  skip_translation: true
 
 - text: "7HA"
   translation: "7HA"
@@ -1699,7 +2189,8 @@
   skip_translation: true
 
 - text: "AFMgA"
-  translation: ""
+  translation: "AFMgA"
+  skip_translation: true
 
 - text: "C)A"
   translation: "C)A"
@@ -1742,7 +2233,8 @@
   skip_translation: true
 
 - text: "3IN?3IN?"
-  translation: ""
+  translation: "3IN?3IN?"
+  skip_translation: true
 
 - text: "SS@y"
   translation: "SS@y"
@@ -1781,7 +2273,8 @@
   skip_translation: true
 
 - text: "2IN?3IN?"
-  translation: ""
+  translation: "2IN?3IN?"
+  skip_translation: true
 
 - text: "33IA"
   translation: "33IA"
@@ -1828,7 +2321,8 @@
   skip_translation: true
 
 - text: "Aps"
-  translation: ""
+  translation: "Aps"
+  skip_translation: true
 
 - text: "AYH"
   translation: "AYH"
@@ -1847,10 +2341,12 @@
   skip_translation: true
 
 - text: "Iio"
-  translation: ""
+  translation: "Iio"
+  skip_translation: true
 
 - text: "Yg'"
-  translation: ""
+  translation: "Yg'"
+  skip_translation: true
 
 - text: "Hp="
   translation: "Hp="
@@ -1869,379 +2365,492 @@
   skip_translation: true
 
 - text: "Set locked"
-  translation: ""
+  translation: "Set locked"
+  skip_translation: true
 
 - text: "Set unlocked"
-  translation: ""
+  translation: "Set unlocked"
+  skip_translation: true
 
 - text: "Has Mission?"
-  translation: ""
+  translation: "Has Mission?"
+  skip_translation: true
 
 - text: "Has Mission"
-  translation: ""
+  translation: "Has Mission"
+  skip_translation: true
 
 - text: "We good"
-  translation: ""
+  translation: "We good"
+  skip_translation: true
 
 - text: "Does not Have Mission"
-  translation: ""
+  translation: "Does not Have Mission"
+  skip_translation: true
 
 - text: "Show Phone"
-  translation: ""
+  translation: "Show Phone"
+  skip_translation: true
 
 - text: "Add Mission"
-  translation: ""
+  translation: "Add Mission"
+  skip_translation: true
 
 - text: "Activate Door"
-  translation: ""
+  translation: "Activate Door"
+  skip_translation: true
 
 - text: "2nd Dialogue"
-  translation: ""
+  translation: "2nd Dialogue"
+  skip_translation: true
 
 - text: "Hide Phone"
-  translation: ""
+  translation: "Hide Phone"
+  skip_translation: true
 
 - text: "Disable Music"
-  translation: ""
+  translation: "Disable Music"
+  skip_translation: true
 
 - text: "Wait for Trigger 2"
-  translation: ""
+  translation: "Wait for Trigger 2"
+  skip_translation: true
 
 - text: "Is Task to pick up Over?"
-  translation: ""
+  translation: "Is Task to pick up Over?"
+  skip_translation: true
 
 - text: "Destroy Self"
-  translation: ""
+  translation: "Destroy Self"
+  skip_translation: true
 
 - text: "Did already pick up?"
-  translation: ""
+  translation: "Did already pick up?"
+  skip_translation: true
 
 - text: "Disable interactables"
-  translation: ""
+  translation: "Disable interactables"
+  skip_translation: true
 
 - text: "Enable interactables"
-  translation: ""
+  translation: "Enable interactables"
+  skip_translation: true
 
 - text: "Wait for task 2"
-  translation: ""
+  translation: "Wait for task 2"
+  skip_translation: true
 
 - text: "Disable interactables 2"
-  translation: ""
+  translation: "Disable interactables 2"
+  skip_translation: true
 
 - text: "Hrb?"
   translation: "Hrb?"
   skip_translation: true
 
 - text: "Did we complete the mission?"
-  translation: ""
+  translation: "Did we complete the mission?"
+  skip_translation: true
 
 - text: "To level"
-  translation: ""
+  translation: "To level"
+  skip_translation: true
 
 - text: "CUUUC"
   translation: "CUUUC"
   skip_translation: true
 
 - text: "Move downstairs"
-  translation: ""
+  translation: "Move downstairs"
+  skip_translation: true
 
 - text: "Play cant leave yet dialogue"
-  translation: ""
+  translation: "Play cant leave yet dialogue"
+  skip_translation: true
 
 - text: "@CUUIC"
   translation: "@CUUIC"
   skip_translation: true
 
 - text: "Move finished"
-  translation: ""
+  translation: "Move finished"
+  skip_translation: true
 
 - text: "FromDistrict"
-  translation: ""
+  translation: "FromDistrict"
+  skip_translation: true
 
 - text: "ToHighTide"
-  translation: ""
+  translation: "ToHighTide"
+  skip_translation: true
 
 - text: "Task Check"
-  translation: ""
+  translation: "Task Check"
+  skip_translation: true
 
 - text: "Inspect"
-  translation: ""
+  translation: "Inspect"
+  skip_translation: true
 
 - text: "Inspection"
-  translation: ""
+  translation: "Inspection"
+  skip_translation: true
 
 - text: "Inspection Closed"
-  translation: ""
+  translation: "Inspection Closed"
+  skip_translation: true
 
 - text: "has headset"
-  translation: ""
+  translation: "has headset"
+  skip_translation: true
 
 - text: "Add Choice 2"
-  translation: ""
+  translation: "Add Choice 2"
+  skip_translation: true
 
 - text: "Start Inspection 2"
-  translation: ""
+  translation: "Start Inspection 2"
+  skip_translation: true
 
 - text: "give headset"
-  translation: ""
+  translation: "give headset"
+  skip_translation: true
 
 - text: "BrokenVR"
-  translation: ""
+  translation: "BrokenVR"
+  skip_translation: true
 
 - text: "Did Key?"
-  translation: ""
+  translation: "Did Key?"
+  skip_translation: true
 
 - text: "Did Key"
-  translation: ""
+  translation: "Did Key"
+  skip_translation: true
 
 - text: "Set Animator Bool"
-  translation: ""
+  translation: "Set Animator Bool"
+  skip_translation: true
 
 - text: "GagLio"
-  translation: ""
+  translation: "GagLio"
+  skip_translation: true
 
 - text: "Gag Light"
-  translation: ""
+  translation: "Gag Light"
+  skip_translation: true
 
 - text: "Did not Key"
-  translation: ""
+  translation: "Did not Key"
+  skip_translation: true
 
 - text: "Ready to enable Interactions?"
-  translation: ""
+  translation: "Ready to enable Interactions?"
+  skip_translation: true
 
 - text: "Activate Interactions"
-  translation: ""
+  translation: "Activate Interactions"
+  skip_translation: true
 
 - text: "Do we need to realign levers?"
-  translation: ""
+  translation: "Do we need to realign levers?"
+  skip_translation: true
 
 - text: "Disable lights"
-  translation: ""
+  translation: "Disable lights"
+  skip_translation: true
 
 - text: "Wait for complete"
-  translation: ""
+  translation: "Wait for complete"
+  skip_translation: true
 
 - text: "Turn lights back on"
-  translation: ""
+  translation: "Turn lights back on"
+  skip_translation: true
 
 - text: "Power Off"
-  translation: ""
+  translation: "Power Off"
+  skip_translation: true
 
 - text: "Is mission completely done?"
-  translation: ""
+  translation: "Is mission completely done?"
+  skip_translation: true
 
 - text: "Is mission in progress?"
-  translation: ""
+  translation: "Is mission in progress?"
+  skip_translation: true
 
 - text: "Play tension"
-  translation: ""
+  translation: "Play tension"
+  skip_translation: true
 
 - text: "Play calm"
-  translation: ""
+  translation: "Play calm"
+  skip_translation: true
 
 - text: "Wait for mission in progress"
-  translation: ""
+  translation: "Wait for mission in progress"
+  skip_translation: true
 
 - text: "Wait for mission complete"
-  translation: ""
+  translation: "Wait for mission complete"
+  skip_translation: true
 
 - text: "Have we never entered before?"
-  translation: ""
+  translation: "Have we never entered before?"
+  skip_translation: true
 
 - text: "Are we already trying to unlock?"
-  translation: ""
+  translation: "Are we already trying to unlock?"
+  skip_translation: true
 
 - text: "On Task to find Door initially?"
-  translation: ""
+  translation: "On Task to find Door initially?"
+  skip_translation: true
 
 - text: "Show initial Keypad"
-  translation: ""
+  translation: "Show initial Keypad"
+  skip_translation: true
 
 - text: "Setup tasks and play dialogue"
-  translation: ""
+  translation: "Setup tasks and play dialogue"
+  skip_translation: true
 
 - text: "Leona_Lio_Door"
-  translation: ""
+  translation: "Leona_Lio_Door"
+  skip_translation: true
 
 - text: "Favorite Band C=2 K=7"
-  translation: ""
+  translation: "Favorite Band C=2 K=7"
+  skip_translation: true
 
 - text: "Match"
   translation: "Match"
   skip_translation: true
 
 - text: "Initial Found Dialogue"
-  translation: ""
+  translation: "Initial Found Dialogue"
+  skip_translation: true
 
 - text: "No Match"
-  translation: ""
+  translation: "No Match"
+  skip_translation: true
 
 - text: "Looking for Band?"
-  translation: ""
+  translation: "Looking for Band?"
+  skip_translation: true
 
 - text: "ReSTART"
-  translation: ""
+  translation: "ReSTART"
+  skip_translation: true
 
 - text: "Unlock Doors"
-  translation: ""
+  translation: "Unlock Doors"
+  skip_translation: true
 
 - text: "Did wear Any Datachip?"
-  translation: ""
+  translation: "Did wear Any Datachip?"
+  skip_translation: true
 
 - text: "BUU1C"
   translation: "BUU1C"
   skip_translation: true
 
 - text: "Is on Task to wear Data Chips?"
-  translation: ""
+  translation: "Is on Task to wear Data Chips?"
+  skip_translation: true
 
 - text: "Wait for has items"
-  translation: ""
+  translation: "Wait for has items"
+  skip_translation: true
 
 - text: "Has Items"
-  translation: ""
+  translation: "Has Items"
+  skip_translation: true
 
 - text: "Did wear Any Datachip? 2"
-  translation: ""
+  translation: "Did wear Any Datachip? 2"
+  skip_translation: true
 
 - text: "Do Nothing 2"
-  translation: ""
+  translation: "Do Nothing 2"
+  skip_translation: true
 
 - text: "Wait for other dialogues"
-  translation: ""
+  translation: "Wait for other dialogues"
+  skip_translation: true
 
 - text: "Show Hint Dialogue"
-  translation: ""
+  translation: "Show Hint Dialogue"
+  skip_translation: true
 
 - text: "Gc?(gj@"
   translation: "Gc?(gj@"
   skip_translation: true
 
 - text: "Do we not have the task?"
-  translation: ""
+  translation: "Do we not have the task?"
+  skip_translation: true
 
 - text: "Undress Lio"
-  translation: ""
+  translation: "Undress Lio"
+  skip_translation: true
 
 - text: "Move Zoey Inside"
-  translation: ""
+  translation: "Move Zoey Inside"
+  skip_translation: true
 
 - text: "LioIntro"
-  translation: ""
+  translation: "LioIntro"
+  skip_translation: true
 
 - text: "ZoomOutOrIn"
-  translation: ""
+  translation: "ZoomOutOrIn"
+  skip_translation: true
 
 - text: "Moved"
-  translation: ""
+  translation: "Moved"
+  skip_translation: true
 
 - text: "Set zoom"
-  translation: ""
+  translation: "Set zoom"
+  skip_translation: true
 
 - text: "Wait for trigger 2"
-  translation: ""
+  translation: "Wait for trigger 2"
+  skip_translation: true
 
 - text: "Set zoom 2"
-  translation: ""
+  translation: "Set zoom 2"
+  skip_translation: true
 
 - text: "Do we need to get the code?"
-  translation: ""
+  translation: "Do we need to get the code?"
+  skip_translation: true
 
 - text: "Do we have the next task?"
-  translation: ""
+  translation: "Do we have the next task?"
+  skip_translation: true
 
 - text: "Play dialogue or w/e"
-  translation: ""
+  translation: "Play dialogue or w/e"
+  skip_translation: true
 
 - text: "Play dialogue or w/e 2"
-  translation: ""
+  translation: "Play dialogue or w/e 2"
+  skip_translation: true
 
 - text: "Set task"
-  translation: ""
+  translation: "Set task"
+  skip_translation: true
 
 - text: "Play tell him"
-  translation: ""
+  translation: "Play tell him"
+  skip_translation: true
 
 - text: "Are we pure?"
-  translation: ""
+  translation: "Are we pure?"
+  skip_translation: true
 
 - text: "Wait for Task in Progress"
-  translation: ""
+  translation: "Wait for Task in Progress"
+  skip_translation: true
 
 - text: "In Progress"
-  translation: ""
+  translation: "In Progress"
+  skip_translation: true
 
 - text: "Add Choice when task active"
-  translation: ""
+  translation: "Add Choice when task active"
+  skip_translation: true
 
 - text: "Ask for Band"
-  translation: ""
+  translation: "Ask for Band"
+  skip_translation: true
 
 - text: "AskBand"
-  translation: ""
+  translation: "AskBand"
+  skip_translation: true
 
 - text: "Wait 2s"
-  translation: ""
+  translation: "Wait 2s"
+  skip_translation: true
 
 - text: "Play dialogue 2"
-  translation: ""
+  translation: "Play dialogue 2"
+  skip_translation: true
 
 - text: "T?l"
   translation: "T?l"
   skip_translation: true
 
 - text: "Do Printing Sequence"
-  translation: ""
+  translation: "Do Printing Sequence"
+  skip_translation: true
 
 - text: "H@A"
   translation: "H@A"
   skip_translation: true
 
 - text: "Nothing"
-  translation: ""
+  translation: "Nothing"
+  skip_translation: true
 
 - text: "Move Zoey Aside and begin Animation"
-  translation: ""
+  translation: "Move Zoey Aside and begin Animation"
+  skip_translation: true
 
 - text: "Look to the right"
-  translation: ""
+  translation: "Look to the right"
+  skip_translation: true
 
 - text: "Do Print"
-  translation: ""
+  translation: "Do Print"
+  skip_translation: true
 
 - text: "Create Key"
-  translation: ""
+  translation: "Create Key"
+  skip_translation: true
 
 - text: "Wait for Animation"
-  translation: ""
+  translation: "Wait for Animation"
+  skip_translation: true
 
 - text: "Move Zoey to Machine"
-  translation: ""
+  translation: "Move Zoey to Machine"
+  skip_translation: true
 
 - text: "Key in Zoeys Hand"
-  translation: ""
+  translation: "Key in Zoeys Hand"
+  skip_translation: true
 
 - text: "CUU'C"
   translation: "CUU'C"
   skip_translation: true
 
 - text: "Take Animation"
-  translation: ""
+  translation: "Take Animation"
+  skip_translation: true
 
 - text: "Hacky"
-  translation: ""
+  translation: "Hacky"
+  skip_translation: true
 
 - text: "Play finish dialogue"
-  translation: ""
+  translation: "Play finish dialogue"
+  skip_translation: true
 
 - text: "Make sure objects are disabled"
-  translation: ""
+  translation: "Make sure objects are disabled"
+  skip_translation: true
 
 - text: "Wait for Sequence to be done"
-  translation: ""
+  translation: "Wait for Sequence to be done"
+  skip_translation: true
 
 - text: "Free Lio Sequence DOne"
-  translation: ""
+  translation: "Free Lio Sequence DOne"
+  skip_translation: true
 
 - text: "A?H"
   translation: "A?H"
@@ -2252,153 +2861,200 @@
   skip_translation: true
 
 - text: "Looking for Hint"
-  translation: ""
+  translation: "Looking for Hint"
+  skip_translation: true
 
 - text: "Looking for Hint Dialogue"
-  translation: ""
+  translation: "Looking for Hint Dialogue"
+  skip_translation: true
 
 - text: "Not looking for Hint"
-  translation: ""
+  translation: "Not looking for Hint"
+  skip_translation: true
 
 - text: "Generic Dialogue"
-  translation: ""
+  translation: "Generic Dialogue"
+  skip_translation: true
 
 - text: "Add Choices"
-  translation: ""
+  translation: "Add Choices"
+  skip_translation: true
 
 - text: "AskAboutLio"
-  translation: ""
+  translation: "AskAboutLio"
+  skip_translation: true
 
 - text: "Compliment her Flat"
-  translation: ""
+  translation: "Compliment her Flat"
+  skip_translation: true
 
 - text: "ComplimentFlat"
-  translation: ""
+  translation: "ComplimentFlat"
+  skip_translation: true
 
 - text: "Completed First Key"
-  translation: ""
+  translation: "Completed First Key"
+  skip_translation: true
 
 - text: "Havent completed first Key"
-  translation: ""
+  translation: "Havent completed first Key"
+  skip_translation: true
 
 - text: "Not on Task"
-  translation: ""
+  translation: "Not on Task"
+  skip_translation: true
 
 - text: "Hearts"
-  translation: ""
+  translation: "Hearts"
+  skip_translation: true
 
 - text: "ShowDuration"
-  translation: ""
+  translation: "ShowDuration"
+  skip_translation: true
 
 - text: "HeartsInstance"
-  translation: ""
+  translation: "HeartsInstance"
+  skip_translation: true
 
 - text: "Check for Task State"
-  translation: ""
+  translation: "Check for Task State"
+  skip_translation: true
 
 - text: "Is on Mission to find Leona Door"
-  translation: ""
+  translation: "Is on Mission to find Leona Door"
+  skip_translation: true
 
 - text: "Nipple Light"
-  translation: ""
+  translation: "Nipple Light"
+  skip_translation: true
 
 - text: "Has Key in Hand in Savefile?"
-  translation: ""
+  translation: "Has Key in Hand in Savefile?"
+  skip_translation: true
 
 - text: "BUUKC"
   translation: "BUUKC"
   skip_translation: true
 
 - text: "Set before machine"
-  translation: ""
+  translation: "Set before machine"
+  skip_translation: true
 
 - text: "Set after machine"
-  translation: ""
+  translation: "Set after machine"
+  skip_translation: true
 
 - text: "Waiting to step into Leonas Apartment?"
-  translation: ""
+  translation: "Waiting to step into Leonas Apartment?"
+  skip_translation: true
 
 - text: "Wait for Interaction with Leona"
-  translation: ""
+  translation: "Wait for Interaction with Leona"
+  skip_translation: true
 
 - text: "Interacted with Leona"
-  translation: ""
+  translation: "Interacted with Leona"
+  skip_translation: true
 
 - text: "Start Lowend Music"
-  translation: ""
+  translation: "Start Lowend Music"
+  skip_translation: true
 
 - text: "Leona Kissing Scene Intro"
-  translation: ""
+  translation: "Leona Kissing Scene Intro"
+  skip_translation: true
 
 - text: "Play Scene"
-  translation: ""
+  translation: "Play Scene"
+  skip_translation: true
 
 - text: "Move Zoey away from Leona"
-  translation: ""
+  translation: "Move Zoey away from Leona"
+  skip_translation: true
 
 - text: "Machine Light"
-  translation: ""
+  translation: "Machine Light"
+  skip_translation: true
 
 - text: "A gf@"
   translation: "A gf@"
   skip_translation: true
 
 - text: "Too far in mission to hear lio moaning?"
-  translation: ""
+  translation: "Too far in mission to hear lio moaning?"
+  skip_translation: true
 
 - text: "Wait for Door Unlocked"
-  translation: ""
+  translation: "Wait for Door Unlocked"
+  skip_translation: true
 
 - text: "Wait a frame"
-  translation: ""
+  translation: "Wait a frame"
+  skip_translation: true
 
 - text: "Setup Leona to sit next to Felicia"
-  translation: ""
+  translation: "Setup Leona to sit next to Felicia"
+  skip_translation: true
 
 - text: "FSM Sit next to Felicia"
-  translation: ""
+  translation: "FSM Sit next to Felicia"
+  skip_translation: true
 
 - text: "Do we need to examine him?"
-  translation: ""
+  translation: "Do we need to examine him?"
+  skip_translation: true
 
 - text: "Play examine dialogue"
-  translation: ""
+  translation: "Play examine dialogue"
+  skip_translation: true
 
 - text: "Do we need to put the first key in?"
-  translation: ""
+  translation: "Do we need to put the first key in?"
+  skip_translation: true
 
 - text: "AsMenu"
-  translation: ""
+  translation: "AsMenu"
+  skip_translation: true
 
 - text: "Set tasks 2"
-  translation: ""
+  translation: "Set tasks 2"
+  skip_translation: true
 
 - text: "Do we need to put the second key in?"
-  translation: ""
+  translation: "Do we need to put the second key in?"
+  skip_translation: true
 
 - text: "Play first key dialogue"
-  translation: ""
+  translation: "Play first key dialogue"
+  skip_translation: true
 
 - text: "Set horny"
-  translation: ""
+  translation: "Set horny"
+  skip_translation: true
 
 - text: "Do we have the angry task?"
-  translation: ""
+  translation: "Do we have the angry task?"
+  skip_translation: true
 
 - text: "Happy"
-  translation: ""
+  translation: "Happy"
+  skip_translation: true
 
 - text: "Set angry"
-  translation: ""
+  translation: "Set angry"
+  skip_translation: true
 
 - text: "Is the mission complete?"
-  translation: ""
+  translation: "Is the mission complete?"
+  skip_translation: true
 
 - text: "Final Task complete"
-  translation: ""
+  translation: "Final Task complete"
+  skip_translation: true
 
 - text: "Set happy"
-  translation: ""
+  translation: "Set happy"
+  skip_translation: true
 
 - text: "A=E"
   translation: "A=E"
@@ -2417,51 +3073,64 @@
   skip_translation: true
 
 - text: "RKwA"
-  translation: ""
+  translation: "RKwA"
+  skip_translation: true
 
 - text: "B\"jA"
-  translation: "B\\"
+  translation: "B\"jA"
   skip_translation: true
 
 - text: "Interacted with Chopping Board?"
-  translation: ""
+  translation: "Interacted with Chopping Board?"
+  skip_translation: true
 
 - text: "On Interacted 2"
-  translation: ""
+  translation: "On Interacted 2"
+  skip_translation: true
 
 - text: "Keypad"
-  translation: ""
+  translation: "Keypad"
+  skip_translation: true
 
 - text: "Destroy items"
-  translation: ""
+  translation: "Destroy items"
+  skip_translation: true
 
 - text: "Do we have the right item?"
-  translation: ""
+  translation: "Do we have the right item?"
+  skip_translation: true
 
 - text: "Equip the datachips!"
-  translation: ""
+  translation: "Equip the datachips!"
+  skip_translation: true
 
 - text: "TakeAllItems"
-  translation: ""
+  translation: "TakeAllItems"
+  skip_translation: true
 
 - text: "Avq"
-  translation: ""
+  translation: "Avq"
+  skip_translation: true
 
 - text: "A`c|"
   translation: "A`c|"
   skip_translation: true
 
 - text: "Did find door?"
-  translation: ""
+  translation: "Did find door?"
+  skip_translation: true
 
 - text: "Mission Completed"
-  translation: ""
+  translation: "Mission Completed"
+  skip_translation: true
 
 - text: "Play Regular Loop"
-  translation: ""
+  translation: "Play Regular Loop"
+  skip_translation: true
 
 - text: "Wait for Trigger 3"
-  translation: ""
+  translation: "Wait for Trigger 3"
+  skip_translation: true
 
 - text: "I&@C"
   translation: "I&@C"
@@ -2472,29 +3141,38 @@
   skip_translation: true
 
 - text: "Wait for Savefile to Move Zoey"
-  translation: ""
+  translation: "Wait for Savefile to Move Zoey"
+  skip_translation: true
 
 - text: "Has French Kiss Task?"
-  translation: ""
+  translation: "Has French Kiss Task?"
+  skip_translation: true
 
 - text: "Do I knock Dialogue"
-  translation: ""
+  translation: "Do I knock Dialogue"
+  skip_translation: true
 
 - text: "Knocking Sound"
-  translation: ""
+  translation: "Knocking Sound"
+  skip_translation: true
 
 - text: "Wait for Sound"
-  translation: ""
+  translation: "Wait for Sound"
+  skip_translation: true
 
 - text: "Move to wait location"
-  translation: ""
+  translation: "Move to wait location"
+  skip_translation: true
 
 - text: "Solved"
-  translation: ""
+  translation: "Solved"
+  skip_translation: true
 
 - text: "Re-enable interactables"
-  translation: ""
+  translation: "Re-enable interactables"
+  skip_translation: true
 
 - text: "Wait for puzzle solve"
-  translation: ""
+  translation: "Wait for puzzle solve"
+  skip_translation: true
 

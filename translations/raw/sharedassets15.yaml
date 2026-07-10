@@ -9,7 +9,8 @@
   skip_translation: true
 
 - text: "Wall Texture 2"
-  translation: ""
+  translation: "Wall Texture 2"
+  skip_translation: true
 
 - text: "P:c"
   translation: "P:c"
@@ -144,14 +145,16 @@
   skip_translation: true
 
 - text: "U8'?Sc9?"
-  translation: ""
+  translation: "U8'?Sc9?"
+  skip_translation: true
 
 - text: "WU|"
   translation: "WU|"
   skip_translation: true
 
 - text: "AgYu"
-  translation: ""
+  translation: "AgYu"
+  skip_translation: true
 
 - text: "AF3"
   translation: "AF3"
@@ -170,7 +173,8 @@
   skip_translation: true
 
 - text: "Uf4?"
-  translation: ""
+  translation: "Uf4?"
+  skip_translation: true
 
 - text: "A)r"
   translation: "A)r"
@@ -181,44 +185,56 @@
   skip_translation: true
 
 - text: "Tiling"
-  translation: ""
+  translation: "Tiling"
+  skip_translation: true
 
 - text: "Min"
-  translation: ""
+  translation: "Min"
+  skip_translation: true
 
 - text: "TilingVec2"
-  translation: ""
+  translation: "TilingVec2"
+  skip_translation: true
 
 - text: "Color Brightness"
-  translation: ""
+  translation: "Color Brightness"
+  skip_translation: true
 
 - text: "Rim Brightness"
-  translation: ""
+  translation: "Rim Brightness"
+  skip_translation: true
 
 - text: "Rim Thickness Inverse"
-  translation: ""
+  translation: "Rim Thickness Inverse"
+  skip_translation: true
 
 - text: "Minimum Opaque"
-  translation: ""
+  translation: "Minimum Opaque"
+  skip_translation: true
 
 - text: "BlendFactor"
-  translation: ""
+  translation: "BlendFactor"
+  skip_translation: true
 
 - text: "BAreola_huge"
-  translation: ""
+  translation: "BAreola_huge"
+  skip_translation: true
 
 - text: "BAreola_medium"
-  translation: ""
+  translation: "BAreola_medium"
+  skip_translation: true
 
 - text: "BAreola_small"
-  translation: ""
+  translation: "BAreola_small"
+  skip_translation: true
 
 - text: "Bboob_base_huge"
   translation: "Bboob_base_huge"
   skip_translation: true
 
 - text: "Bcable"
-  translation: ""
+  translation: "Bcable"
+  skip_translation: true
 
 - text: "Bhand_furry"
   translation: "Bhand_furry"
@@ -233,23 +249,28 @@
   skip_translation: true
 
 - text: "Buarm"
-  translation: ""
+  translation: "Buarm"
+  skip_translation: true
 
 - text: "Bwetness"
-  translation: ""
+  translation: "Bwetness"
+  skip_translation: true
 
 - text: "Copiar_port"
   translation: "Copiar_port"
   skip_translation: true
 
 - text: "FAreola_huge"
-  translation: ""
+  translation: "FAreola_huge"
+  skip_translation: true
 
 - text: "FAreola_medium"
-  translation: ""
+  translation: "FAreola_medium"
+  skip_translation: true
 
 - text: "FAreola_small"
-  translation: ""
+  translation: "FAreola_small"
+  skip_translation: true
 
 - text: "Fbang6"
   translation: "Fbang6"
@@ -260,7 +281,8 @@
   skip_translation: true
 
 - text: "Fcable"
-  translation: ""
+  translation: "Fcable"
+  skip_translation: true
 
 - text: "Fhand_furry"
   translation: "Fhand_furry"
@@ -279,90 +301,111 @@
   skip_translation: true
 
 - text: "FupArm"
-  translation: ""
+  translation: "FupArm"
+  skip_translation: true
 
 - text: "Furry_Bear"
-  translation: ""
+  translation: "Furry_Bear"
+  skip_translation: true
 
 - text: "Furry_Bhair"
-  translation: ""
+  translation: "Furry_Bhair"
+  skip_translation: true
 
 - text: "Furry_Fear"
-  translation: ""
+  translation: "Furry_Fear"
+  skip_translation: true
 
 - text: "Furry_Fhair1"
-  translation: ""
+  translation: "Furry_Fhair1"
+  skip_translation: true
 
 - text: "Furry_Fhair2"
-  translation: ""
+  translation: "Furry_Fhair2"
+  skip_translation: true
 
 - text: "Furry_headbase"
   translation: "Furry_headbase"
   skip_translation: true
 
 - text: "Furry_Lbrow"
-  translation: ""
+  translation: "Furry_Lbrow"
+  skip_translation: true
 
 - text: "Furry_L  eyeball"
-  translation: ""
+  translation: "Furry_L  eyeball"
+  skip_translation: true
 
 - text: "Furry_Leyelight"
-  translation: ""
+  translation: "Furry_Leyelight"
+  skip_translation: true
 
 - text: "Furry_LLlash"
-  translation: ""
+  translation: "Furry_LLlash"
+  skip_translation: true
 
 - text: "Furry_LLlid"
-  translation: ""
+  translation: "Furry_LLlid"
+  skip_translation: true
 
 - text: "Furry_Lpupil"
-  translation: ""
+  translation: "Furry_Lpupil"
+  skip_translation: true
 
 - text: "Boobs Huge"
-  translation: ""
+  translation: "Грудь: Большая"
 
 - text: "Boobs Medium"
-  translation: ""
+  translation: "Грудь: Средняя"
 
 - text: "Boobs Small"
-  translation: ""
+  translation: "Грудь: Маленькая"
 
 - text: "Skin Furry"
-  translation: ""
+  translation: "Кожа: Звериная"
 
 - text: "Skin Human"
-  translation: ""
+  translation: "Кожа: Человеческая"
 
 - text: "Ad Sign"
-  translation: ""
+  translation: "Ad Sign"
+  skip_translation: true
 
 - text: "J^?x"
   translation: "J^?x"
   skip_translation: true
 
 - text: "Cloud 3 Animation"
-  translation: ""
+  translation: "Cloud 3 Animation"
+  skip_translation: true
 
 - text: "Cloud 4 Animation"
-  translation: ""
+  translation: "Cloud 4 Animation"
+  skip_translation: true
 
 - text: "Cloud Animation 2"
-  translation: ""
+  translation: "Cloud Animation 2"
+  skip_translation: true
 
 - text: "Cloud animation"
-  translation: ""
+  translation: "Cloud animation"
+  skip_translation: true
 
 - text: "Manafactory ad"
-  translation: ""
+  translation: "Manafactory ad"
+  skip_translation: true
 
 - text: "AUU5@"
-  translation: ""
+  translation: "AUU5@"
+  skip_translation: true
 
 - text: "Car Idle"
-  translation: ""
+  translation: "Car Idle"
+  skip_translation: true
 
 - text: "Car start"
-  translation: ""
+  translation: "Car start"
+  skip_translation: true
 
 - text: "Tf:"
   translation: "Tf:"
@@ -381,13 +424,16 @@
   skip_translation: true
 
 - text: "Car turn off"
-  translation: ""
+  translation: "Car turn off"
+  skip_translation: true
 
 - text: "BunnyIdle"
-  translation: ""
+  translation: "BunnyIdle"
+  skip_translation: true
 
 - text: "BunnyJump"
-  translation: ""
+  translation: "BunnyJump"
+  skip_translation: true
 
 - text: "^N2A"
   translation: "^N2A"
@@ -422,19 +468,23 @@
   skip_translation: true
 
 - text: "redlightdistrict lady"
-  translation: ""
+  translation: "redlightdistrict lady"
+  skip_translation: true
 
 - text: "Boob Sizes"
-  translation: ""
+  translation: "Размер груди"
 
 - text: "Car start test"
-  translation: ""
+  translation: "Car start test"
+  skip_translation: true
 
 - text: "Moving"
-  translation: ""
+  translation: "Moving"
+  skip_translation: true
 
 - text: "Juno Tower LowerRedlight Background Sprite Atlas"
-  translation: ""
+  translation: "Juno Tower LowerRedlight Background Sprite Atlas"
+  skip_translation: true
 
 - text: "C^@8j"
   translation: "C^@8j"
@@ -537,14 +587,16 @@
   skip_translation: true
 
 - text: "HDk9BD"
-  translation: ""
+  translation: "HDk9BD"
+  skip_translation: true
 
 - text: "W@r"
   translation: "W@r"
   skip_translation: true
 
 - text: "Al [@"
-  translation: ""
+  translation: "Al [@"
+  skip_translation: true
 
 - text: "Am_-@"
   translation: "Am_-@"
@@ -563,7 +615,8 @@
   skip_translation: true
 
 - text: "N9D?ch4"
-  translation: ""
+  translation: "N9D?ch4"
+  skip_translation: true
 
 - text: "EKA"
   translation: "EKA"
@@ -710,7 +763,8 @@
   skip_translation: true
 
 - text: "LDb0AD"
-  translation: ""
+  translation: "LDb0AD"
+  skip_translation: true
 
 - text: "Yk@1"
   translation: "Yk@1"
@@ -769,7 +823,8 @@
   skip_translation: true
 
 - text: "D5wAC"
-  translation: ""
+  translation: "D5wAC"
+  skip_translation: true
 
 - text: "Zlr"
   translation: "Zlr"
@@ -1140,7 +1195,8 @@
   skip_translation: true
 
 - text: "Ga=ffF?"
-  translation: ""
+  translation: "Ga=ffF?"
+  skip_translation: true
 
 - text: "GA?fff"
   translation: "GA?fff"
@@ -1151,10 +1207,12 @@
   skip_translation: true
 
 - text: "Ar1@"
-  translation: ""
+  translation: "Ar1@"
+  skip_translation: true
 
 - text: "Msa"
-  translation: ""
+  translation: "Msa"
+  skip_translation: true
 
 - text: "?DO"
   translation: "?DO"
@@ -1265,7 +1323,8 @@
   skip_translation: true
 
 - text: "Dma_D"
-  translation: ""
+  translation: "Dma_D"
+  skip_translation: true
 
 - text: "Cw@"
   translation: "Cw@"
@@ -1336,7 +1395,8 @@
   skip_translation: true
 
 - text: "AwCA"
-  translation: ""
+  translation: "AwCA"
+  skip_translation: true
 
 - text: "A*t"
   translation: "A*t"
@@ -1355,7 +1415,8 @@
   skip_translation: true
 
 - text: "'JA"
-  translation: ""
+  translation: "'JA"
+  skip_translation: true
 
 - text: "B2VA"
   translation: "B2VA"
@@ -1370,10 +1431,12 @@
   skip_translation: true
 
 - text: "BdhA"
-  translation: ""
+  translation: "BdhA"
+  skip_translation: true
 
 - text: "BviA"
-  translation: ""
+  translation: "BviA"
+  skip_translation: true
 
 - text: "O@B"
   translation: "O@B"
@@ -1408,7 +1471,8 @@
   skip_translation: true
 
 - text: "Iom"
-  translation: ""
+  translation: "Iom"
+  skip_translation: true
 
 - text: "I'i"
   translation: "I'i"
@@ -1431,7 +1495,8 @@
   skip_translation: true
 
 - text: "Jom"
-  translation: ""
+  translation: "Jom"
+  skip_translation: true
 
 - text: "X?qy"
   translation: "X?qy"
@@ -1482,7 +1547,8 @@
   skip_translation: true
 
 - text: "Ay'"
-  translation: ""
+  translation: "Ay'"
+  skip_translation: true
 
 - text: "Px?"
   translation: "Px?"
@@ -1557,7 +1623,8 @@
   skip_translation: true
 
 - text: "OU@@ce@,"
-  translation: ""
+  translation: "OU@@ce@,"
+  skip_translation: true
 
 - text: "Go@EN"
   translation: "Go@EN"
@@ -1612,7 +1679,8 @@
   skip_translation: true
 
 - text: "DXqBC9"
-  translation: ""
+  translation: "DXqBC9"
+  skip_translation: true
 
 - text: "VZl"
   translation: "VZl"
@@ -1655,7 +1723,8 @@
   skip_translation: true
 
 - text: "Cdo"
-  translation: ""
+  translation: "Cdo"
+  skip_translation: true
 
 - text: "?%GO?"
   translation: "?%GO?"
@@ -1698,106 +1767,125 @@
   skip_translation: true
 
 - text: "Car1ShadowBlur 3"
-  translation: ""
+  translation: "Car1ShadowBlur 3"
+  skip_translation: true
 
 - text: "Ck9BD"
   translation: "Ck9BD"
   skip_translation: true
 
 - text: "0.4 - PocketPussyVendor - 1"
-  translation: ""
+  translation: "0.4 - PocketPussyVendor - 1"
+  skip_translation: true
 
 - text: "0.4 - PocketPussyVendor - 2 - Ask about it feeling"
-  translation: ""
+  translation: "0.4 - PocketPussyVendor - 2 - Ask about it feeling"
+  skip_translation: true
 
 - text: "What do you mean 'it can feel you'?"
-  translation: ""
+  translation: "Что значит «она тебя чувствует»?"
 
 - text: "0.4 - PocketPussyVendor - 2 - Ask about its origin"
-  translation: ""
+  translation: "0.4 - PocketPussyVendor - 2 - Ask about its origin"
+  skip_translation: true
 
 - text: "Where'd you even get this from?"
-  translation: ""
+  translation: "Откуда ты вообще это взял?"
 
 - text: "Why is the serial number nearly scratched out?"
-  translation: ""
+  translation: "Почему серийный номер почти затёрт?"
 
 - text: "0.4 - PocketPussyVendor - 2"
-  translation: ""
+  translation: "0.4 - PocketPussyVendor - 2"
+  skip_translation: true
 
 - text: "NN NeonZaps"
-  translation: ""
+  translation: "NN NeonZaps"
+  skip_translation: true
 
 - text: "Zaps1"
   translation: "Zaps1"
   skip_translation: true
 
 - text: "Beanu Talk 1"
-  translation: ""
+  translation: "Beanu Talk 1"
+  skip_translation: true
 
 - text: "Beanu Talk repeat"
-  translation: ""
+  translation: "Beanu Talk repeat"
+  skip_translation: true
 
 - text: "Car girl 1"
-  translation: ""
+  translation: "Car girl 1"
+  skip_translation: true
 
 - text: "GloryHole Guy 1"
-  translation: ""
+  translation: "GloryHole Guy 1"
+  skip_translation: true
 
 - text: "bout just"
-  translation: ""
+  translation: "просто"
 
 - text: "here without my pants. I swear I had"
-  translation: ""
+  translation: "здесь без штанов. Клянусь, они были"
 
 - text: "em earlier. Musta"
-  translation: ""
+  translation: "на мне. Должно быть,"
 
 - text: "musta lost"
-  translation: ""
+  translation: "должно быть, потерял"
 
 - text: "em while I was, y"
-  translation: ""
+  translation: "их пока я, ну"
 
 - text: "know... *hic* fuckin"
-  translation: ""
+  translation: "знаешь... *ик* трахал"
 
 - text: "one of those holes."
-  translation: ""
+  translation: "одну из этих дырок."
 
 - text: "GloryHole Guy 2"
-  translation: ""
+  translation: "GloryHole Guy 2"
+  skip_translation: true
 
 - text: "re back! Heyyy!"
-  translation: ""
+  translation: "Вернулся! Хэээй!"
 
 - text: "you think you could, uh"
-  translation: ""
+  translation: "не мог бы ты, эм"
 
 - text: "help a homie out... *hic*?"
-  translation: ""
+  translation: "выручить кореша... *ик*?"
 
 - text: "GloryHole Guy 3"
-  translation: ""
+  translation: "GloryHole Guy 3"
+  skip_translation: true
 
 - text: "GloryHole Inspection"
-  translation: ""
+  translation: "GloryHole Inspection"
+  skip_translation: true
 
 - text: "Examine Flashlight Repeat"
-  translation: ""
+  translation: "Examine Flashlight Repeat"
+  skip_translation: true
 
 - text: "Examine Flashlight"
-  translation: ""
+  translation: "Examine Flashlight"
+  skip_translation: true
 
 - text: "Ground test"
-  translation: ""
+  translation: "Ground test"
+  skip_translation: true
 
 - text: "Ground_2 With Outline"
-  translation: ""
+  translation: "Ground_2 With Outline"
+  skip_translation: true
 
 - text: "Ground_Roof with Outline"
-  translation: ""
+  translation: "Ground_Roof with Outline"
+  skip_translation: true
 
 - text: "Wall for Angeled"
-  translation: ""
+  translation: "Wall for Angeled"
+  skip_translation: true
 

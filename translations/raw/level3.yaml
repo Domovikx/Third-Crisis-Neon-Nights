@@ -21,43 +21,51 @@
   skip_translation: true
 
 - text: "Closet"
-  translation: ""
+  translation: "Шкаф"
 
 - text: "On_Ground"
-  translation: ""
+  translation: "On_Ground"
+  skip_translation: true
 
 - text: "Crack29"
-  translation: ""
+  translation: "Crack29"
+  skip_translation: true
 
 - text: "Crack23"
-  translation: ""
+  translation: "Crack23"
+  skip_translation: true
 
 - text: "Table_Left_4"
-  translation: ""
+  translation: "Table_Left_4"
+  skip_translation: true
 
 - text: "Dream_Flavour"
-  translation: ""
+  translation: "Dream_Flavour"
+  skip_translation: true
 
 - text: "On_CornerTable"
-  translation: ""
+  translation: "On_CornerTable"
+  skip_translation: true
 
 - text: "Room Peeking"
-  translation: ""
+  translation: "Подглядывание в номер"
 
 - text: "Crack10"
-  translation: ""
+  translation: "Crack10"
+  skip_translation: true
 
 - text: "Ground_Props"
-  translation: ""
+  translation: "Ground_Props"
+  skip_translation: true
 
 - text: "Hologram 1"
-  translation: ""
+  translation: "Голограмма 1"
 
 - text: "Hologram 2"
-  translation: ""
+  translation: "Голограмма 2"
 
 - text: "Lockpicking Interaction"
-  translation: ""
+  translation: "Взлом замка"
 
 - text: "Room_4"
   translation: "Room_4"
@@ -68,334 +76,393 @@
   skip_translation: true
 
 - text: "205 Bed"
-  translation: ""
+  translation: "Кровать 205"
 
 - text: "Zoey Tentacle Target"
-  translation: ""
+  translation: "Цель щупалец — Зои"
 
 - text: "DirtOnWall_2"
-  translation: ""
+  translation: "DirtOnWall_2"
+  skip_translation: true
 
 - text: "StartPos"
-  translation: ""
+  translation: "StartPos"
+  skip_translation: true
 
 - text: "Crack26"
-  translation: ""
+  translation: "Crack26"
+  skip_translation: true
 
 - text: "Toilet Interaction"
-  translation: ""
+  translation: "Взаимодействие с туалетом"
 
 - text: "NewPos"
-  translation: ""
+  translation: "NewPos"
+  skip_translation: true
 
 - text: "Drink Visuals"
-  translation: ""
+  translation: "Визуализация напитка"
 
 - text: "Tabel_Long_1"
-  translation: ""
+  translation: "Tabel_Long_1"
+  skip_translation: true
 
 - text: "Ambient Lighting"
-  translation: ""
+  translation: "Окружающее освещение"
 
 - text: "On_SideTable"
-  translation: ""
+  translation: "On_SideTable"
+  skip_translation: true
 
 - text: "Environment Ground_Floor"
-  translation: ""
+  translation: "Окружение Ground_Floor"
 
 - text: "Dialogue Reverb Override"
-  translation: ""
+  translation: "Переопределение реверберации диалога"
 
 - text: "Bin_Left"
-  translation: ""
+  translation: "Bin_Left"
+  skip_translation: true
 
 - text: "Tentacles"
-  translation: ""
+  translation: "Щупальца"
 
 - text: "Table_Left_1"
-  translation: ""
+  translation: "Table_Left_1"
+  skip_translation: true
 
 - text: "LuxusRoom_Floor"
-  translation: ""
+  translation: "LuxusRoom_Floor"
+  skip_translation: true
 
 - text: "Crack21"
-  translation: ""
+  translation: "Crack21"
+  skip_translation: true
 
 - text: "Rokean Flavor"
-  translation: ""
+  translation: "Вкус Рокеана"
 
 - text: "DirtOnWall_1"
-  translation: ""
+  translation: "DirtOnWall_1"
+  skip_translation: true
 
 - text: "OnGround"
-  translation: ""
+  translation: "OnGround"
+  skip_translation: true
 
 - text: "Sex Scene Preview"
-  translation: ""
+  translation: "Превью секс-сцены"
 
 - text: "Room_2"
   translation: "Room_2"
   skip_translation: true
 
 - text: "bandaid collider"
-  translation: ""
+  translation: "bandaid collider"
+  skip_translation: true
 
 - text: "RimLight 2"
-  translation: ""
+  translation: "RimLight 2"
+  skip_translation: true
 
 - text: "Flesh Floor"
-  translation: ""
+  translation: "Плотский пол"
 
 - text: "Crack6"
   translation: "Crack6"
   skip_translation: true
 
 - text: "Dream_Sequence"
-  translation: ""
+  translation: "Dream_Sequence"
+  skip_translation: true
 
 - text: "Crack27"
-  translation: ""
+  translation: "Crack27"
+  skip_translation: true
 
 - text: "Timeline"
   translation: "Timeline"
   skip_translation: true
 
 - text: "Upstairs Closet 1"
-  translation: ""
+  translation: "Верхний шкаф 1"
 
 - text: "Room 205 Black Overlay"
-  translation: ""
+  translation: "Комната 205 — чёрная накладка"
 
 - text: "BackgroundTiles"
-  translation: ""
+  translation: "BackgroundTiles"
+  skip_translation: true
 
 - text: "205 Hot tub"
-  translation: ""
+  translation: "205 Гидромассажная ванна"
 
 - text: "GlobalLight"
-  translation: ""
+  translation: "GlobalLight"
+  skip_translation: true
 
 - text: "RimLight"
-  translation: ""
+  translation: "RimLight"
+  skip_translation: true
 
 - text: "Public_WC"
-  translation: ""
+  translation: "Public_WC"
+  skip_translation: true
 
 - text: "On_Wardorbe"
-  translation: ""
+  translation: "On_Wardorbe"
+  skip_translation: true
 
 - text: "Crack5"
   translation: "Crack5"
   skip_translation: true
 
 - text: "Electronic Hum Loops"
-  translation: ""
+  translation: "Электронные петли гула"
 
 - text: "Crack11"
-  translation: ""
+  translation: "Crack11"
+  skip_translation: true
 
 - text: "BigTiles"
-  translation: ""
+  translation: "BigTiles"
+  skip_translation: true
 
 - text: "Black Overlay Trigger"
-  translation: ""
+  translation: "Триггер чёрной накладки"
 
 - text: "Set Zoey Expression"
-  translation: ""
+  translation: "Установить выражение Зои"
 
 - text: "Hologram 3"
-  translation: ""
+  translation: "Голограмма 3"
 
 - text: "Light 2D - hotel_test2_multiplymap"
-  translation: ""
+  translation: "Light 2D - hotel_test2_multiplymap"
+  skip_translation: true
 
 - text: "Entrance_Left"
-  translation: ""
+  translation: "Entrance_Left"
+  skip_translation: true
 
 - text: "Crack13"
-  translation: ""
+  translation: "Crack13"
+  skip_translation: true
 
 - text: "Bin_Right"
-  translation: ""
+  translation: "Bin_Right"
+  skip_translation: true
 
 - text: "Environment Second_Floor"
-  translation: ""
+  translation: "Окружение Second_Floor"
 
 - text: "Zoey Teleport Position for Tentacles"
-  translation: ""
+  translation: "Позиция телепорта Зои для щупалец"
 
 - text: "Crack25"
-  translation: ""
+  translation: "Crack25"
+  skip_translation: true
 
 - text: "Ambient Moans"
-  translation: ""
+  translation: "Фоновые стоны"
 
 - text: "Bar Fridge"
-  translation: ""
+  translation: "Холодильник бара"
 
 - text: "Zoey chibi worker"
-  translation: ""
+  translation: "Зои чиби-работница"
 
 - text: "Passage Highlight"
-  translation: ""
+  translation: "Подсветка прохода"
 
 - text: "SignHum_Loop_2"
-  translation: ""
+  translation: "SignHum_Loop_2"
+  skip_translation: true
 
 - text: "Crack19"
-  translation: ""
+  translation: "Crack19"
+  skip_translation: true
 
 - text: "Room_1"
   translation: "Room_1"
   skip_translation: true
 
 - text: "Crack15"
-  translation: ""
+  translation: "Crack15"
+  skip_translation: true
 
 - text: "AmbientGlitch"
-  translation: ""
+  translation: "AmbientGlitch"
+  skip_translation: true
 
 - text: "Licking Cutscene"
-  translation: ""
+  translation: "Кат-сцена лизания"
 
 - text: "NoPrefab"
-  translation: ""
+  translation: "NoPrefab"
+  skip_translation: true
 
 - text: "ReturnPos"
-  translation: ""
+  translation: "ReturnPos"
+  skip_translation: true
 
 - text: "Worker of the Month sign"
-  translation: ""
+  translation: "Таблица «Работник месяца»"
 
 - text: "Holoscreens"
-  translation: ""
+  translation: "Holoscreens"
+  skip_translation: true
 
 - text: "Wallprops"
-  translation: ""
+  translation: "Wallprops"
+  skip_translation: true
 
 - text: "BarTrigger"
-  translation: ""
+  translation: "BarTrigger"
+  skip_translation: true
 
 - text: "Crack16"
-  translation: ""
+  translation: "Crack16"
+  skip_translation: true
 
 - text: "Overworld Animation Trigger"
-  translation: ""
+  translation: "Триггер анимации мира"
 
 - text: "Room_3"
   translation: "Room_3"
   skip_translation: true
 
 - text: "Table_Left_2"
-  translation: ""
+  translation: "Table_Left_2"
+  skip_translation: true
 
 - text: "Fans"
   translation: "Fans"
   skip_translation: true
 
 - text: "Lapdance Interaction"
-  translation: ""
+  translation: "Лап-дэнс"
 
 - text: "Zoeys"
-  translation: ""
+  translation: "Зои (клоны)"
 
 - text: "Hologram 4"
-  translation: ""
+  translation: "Голограмма 4"
 
 - text: "LuxusRoom"
-  translation: ""
+  translation: "LuxusRoom"
+  skip_translation: true
 
 - text: "GroundLights"
-  translation: ""
+  translation: "GroundLights"
+  skip_translation: true
 
 - text: "StorageFan_Loop"
-  translation: ""
+  translation: "StorageFan_Loop"
+  skip_translation: true
 
 - text: "Tentacles Interaction"
-  translation: ""
+  translation: "Взаимодействие со щупальцами"
 
 - text: "Office Cameras"
-  translation: ""
+  translation: "Офисные камеры"
 
 - text: "Upstairs Closet 2"
-  translation: ""
+  translation: "Верхний шкаф 2"
 
 - text: "OnWall"
-  translation: ""
+  translation: "OnWall"
+  skip_translation: true
 
 - text: "Crack28"
-  translation: ""
+  translation: "Crack28"
+  skip_translation: true
 
 - text: "Bottle_"
-  translation: ""
+  translation: "Bottle_"
+  skip_translation: true
 
 - text: "Drink Alcohol"
-  translation: ""
+  translation: "Выпить алкоголь"
 
 - text: "DismountPos"
-  translation: ""
+  translation: "DismountPos"
+  skip_translation: true
 
 - text: "SatPos"
-  translation: ""
+  translation: "SatPos"
+  skip_translation: true
 
 - text: "On_Floor"
-  translation: ""
+  translation: "On_Floor"
+  skip_translation: true
 
 - text: "ExtraProps"
-  translation: ""
+  translation: "ExtraProps"
+  skip_translation: true
 
 - text: "Klaudia PC"
-  translation: ""
+  translation: "ПК Клавдии"
 
 - text: "Reception"
-  translation: ""
+  translation: "Ресепшен"
 
 - text: "Light 2D - hotel_test4_additivemap"
-  translation: ""
+  translation: "Light 2D - hotel_test4_additivemap"
+  skip_translation: true
 
 - text: "Room_Signs"
-  translation: ""
+  translation: "Room_Signs"
+  skip_translation: true
 
 - text: "Sign Glitches"
-  translation: ""
+  translation: "Глитчи вывески"
 
 - text: "Crack4"
   translation: "Crack4"
   skip_translation: true
 
 - text: "WallSeperator"
-  translation: ""
+  translation: "WallSeperator"
+  skip_translation: true
 
 - text: "Crack18"
-  translation: ""
+  translation: "Crack18"
+  skip_translation: true
 
 - text: "Bar Interaction"
-  translation: ""
+  translation: "Взаимодействие с баром"
 
 - text: "Crack14"
-  translation: ""
+  translation: "Crack14"
+  skip_translation: true
 
 - text: "Non_Prefabs"
-  translation: ""
+  translation: "Non_Prefabs"
+  skip_translation: true
 
 - text: "Crack22"
-  translation: ""
+  translation: "Crack22"
+  skip_translation: true
 
 - text: "Crack20"
-  translation: ""
+  translation: "Crack20"
+  skip_translation: true
 
 - text: "Crack9"
   translation: "Crack9"
   skip_translation: true
 
 - text: "BaseAmbientLoop"
-  translation: ""
+  translation: "BaseAmbientLoop"
+  skip_translation: true
 
 - text: "Room 205 Tentacle Stuff"
-  translation: ""
+  translation: "Комната 205 — щупальца"
 
 - text: "Bathroom_Floor"
-  translation: ""
+  translation: "Bathroom_Floor"
+  skip_translation: true
 
 - text: "Crack8"
   translation: "Crack8"
@@ -406,131 +473,153 @@
   skip_translation: true
 
 - text: "Entrance_Right"
-  translation: ""
+  translation: "Entrance_Right"
+  skip_translation: true
 
 - text: "Table_Left_3"
-  translation: ""
+  translation: "Table_Left_3"
+  skip_translation: true
 
 - text: "Crack7"
   translation: "Crack7"
   skip_translation: true
 
 - text: "Crack12"
-  translation: ""
+  translation: "Crack12"
+  skip_translation: true
 
 - text: "Dripping Showers"
-  translation: ""
+  translation: "Капающие души"
 
 - text: "UnityLights"
-  translation: ""
+  translation: "UnityLights"
+  skip_translation: true
 
 - text: "LenChi Chaos"
-  translation: ""
+  translation: "LenChi — Хаос"
 
 - text: "Bathroom2_Floor"
-  translation: ""
+  translation: "Bathroom2_Floor"
+  skip_translation: true
 
 - text: "Room_5"
   translation: "Room_5"
   skip_translation: true
 
 - text: "Bar Interactions"
-  translation: ""
+  translation: "Взаимодействия с баром"
 
 - text: "Black Overlay Image"
-  translation: ""
+  translation: "Изображение чёрной накладки"
 
 - text: "MultiplyMaps"
-  translation: ""
+  translation: "MultiplyMaps"
+  skip_translation: true
 
 - text: "Crack24"
-  translation: ""
+  translation: "Crack24"
+  skip_translation: true
 
 - text: "HidePlayerPos"
-  translation: ""
+  translation: "HidePlayerPos"
+  skip_translation: true
 
 - text: "Crack1"
   translation: "Crack1"
   skip_translation: true
 
 - text: "KitchenFan_Loop"
-  translation: ""
+  translation: "KitchenFan_Loop"
+  skip_translation: true
 
 - text: "Crack17"
-  translation: ""
+  translation: "Crack17"
+  skip_translation: true
 
 - text: "Table_Right_2"
-  translation: ""
+  translation: "Table_Right_2"
+  skip_translation: true
 
 - text: "Pole Interaction"
-  translation: ""
+  translation: "Взаимодействие с пилоном"
 
 - text: "SignHum_Loop_1"
-  translation: ""
+  translation: "SignHum_Loop_1"
+  skip_translation: true
 
 - text: "Flesh Feet Overlay"
-  translation: ""
+  translation: "Плотская накладка на ступни"
 
 - text: "Table_Right_1"
-  translation: ""
+  translation: "Table_Right_1"
+  skip_translation: true
 
 - text: "Thing1"
   translation: "Thing1"
   skip_translation: true
 
 - text: "Fat dude Lapdance Downstairs"
-  translation: ""
+  translation: "Танец толстяка внизу"
 
 - text: "Pole Dancer Zoey Downstairs"
-  translation: ""
+  translation: "Зои танцует у пилона внизу"
 
 - text: "Toilet Zoey Downstairs"
-  translation: ""
+  translation: "Зои в туалете внизу"
 
 - text: "ZoeyDancer"
-  translation: ""
+  translation: "ZoeyDancer"
+  skip_translation: true
 
 - text: "Lapdance Zoey Downstairs"
-  translation: ""
+  translation: "Лап-дэнс Зои внизу"
 
 - text: "Thing2"
   translation: "Thing2"
   skip_translation: true
 
 - text: "AlsoZoey"
-  translation: ""
+  translation: "AlsoZoey"
+  skip_translation: true
 
 - text: "SpilledCan_5"
-  translation: ""
+  translation: "SpilledCan_5"
+  skip_translation: true
 
 - text: "PinupPickup - Zoey Dream Poster"
-  translation: ""
+  translation: "PinupPickup - Zoey Dream Poster"
+  skip_translation: true
 
 - text: "Rig 1"
-  translation: ""
+  translation: "Rig 1"
+  skip_translation: true
 
 - text: "Toilet Zoey Spine GameObject"
-  translation: ""
+  translation: "Toilet Zoey Spine GameObject"
+  skip_translation: true
 
 - text: "Buttplug_2"
   translation: "Buttplug_2"
   skip_translation: true
 
 - text: "Flesh Tentacle"
-  translation: ""
+  translation: "Плотское щупальце"
 
 - text: "EhA5^"
-  translation: ""
+  translation: "EhA5^"
+  skip_translation: true
 
 - text: "GoB"
   translation: "GoB"
   skip_translation: true
 
 - text: "GuBff"
-  translation: ""
+  translation: "GuBff"
+  skip_translation: true
 
 - text: "RA337A"
-  translation: ""
+  translation: "RA337A"
+  skip_translation: true
 
 - text: "DA$"
   translation: "DA$"
@@ -593,7 +682,8 @@
   skip_translation: true
 
 - text: "SlB;_!B"
-  translation: ""
+  translation: "SlB;_!B"
+  skip_translation: true
 
 - text: "C^kqC1"
   translation: "C^kqC1"
@@ -620,7 +710,8 @@
   skip_translation: true
 
 - text: "4AT?4AT?5AT?"
-  translation: ""
+  translation: "4AT?4AT?5AT?"
+  skip_translation: true
 
 - text: "AA*"
   translation: "AA*"
@@ -631,7 +722,7 @@
   skip_translation: true
 
 - text: "RA)\\"
-  translation: "RA)\\\\"
+  translation: "RA)\\"
   skip_translation: true
 
 - text: "PgB@5"
@@ -683,7 +774,8 @@
   skip_translation: true
 
 - text: "Q0Ap="
-  translation: ""
+  translation: "Q0Ap="
+  skip_translation: true
 
 - text: "?8WYA:"
   translation: "?8WYA:"
@@ -710,7 +802,8 @@
   skip_translation: true
 
 - text: "B33kA"
-  translation: ""
+  translation: "B33kA"
+  skip_translation: true
 
 - text: "NA9"
   translation: "NA9"
@@ -773,7 +866,7 @@
   skip_translation: true
 
 - text: "OA^\\"
-  translation: "OA^\\\\"
+  translation: "OA^\\"
   skip_translation: true
 
 - text: "5TA"
@@ -857,7 +950,8 @@
   skip_translation: true
 
 - text: "'AN"
-  translation: ""
+  translation: "'AN"
+  skip_translation: true
 
 - text: "Gw@"
   translation: "Gw@"
@@ -876,7 +970,8 @@
   skip_translation: true
 
 - text: "NjeA"
-  translation: ""
+  translation: "NjeA"
+  skip_translation: true
 
 - text: "CA~"
   translation: "CA~"
@@ -899,7 +994,7 @@
   skip_translation: true
 
 - text: "SA\\"
-  translation: "SA\\\\"
+  translation: "SA\\"
   skip_translation: true
 
 - text: "FA7E"
@@ -907,44 +1002,47 @@
   skip_translation: true
 
 - text: "Check Motion Sickness Setting"
-  translation: ""
+  translation: "Проверка настройки укачивания"
 
 - text: "Activate animation"
-  translation: ""
+  translation: "Активировать анимацию"
 
 - text: "DildoAnim"
-  translation: ""
+  translation: "DildoAnim"
+  skip_translation: true
 
 - text: "Wait for movement"
-  translation: ""
+  translation: "Ждать движения"
 
 - text: "Fade screen again"
-  translation: ""
+  translation: "Затемнить экран снова"
 
 - text: "OnMovement"
-  translation: ""
+  translation: "OnMovement"
+  skip_translation: true
 
 - text: "Check Motion Sickness Setting 2"
-  translation: ""
+  translation: "Проверка настройки укачивания 2"
 
 - text: "Deactivate Gameobject"
-  translation: ""
+  translation: "Деактивировать объект"
 
 - text: "Licked Toilet before?"
-  translation: ""
+  translation: "Уже лизал унитаз?"
 
 - text: "Licked"
-  translation: ""
+  translation: "Лизал"
 
 - text: "Fade to Black"
-  translation: ""
+  translation: "Затемнение"
 
 - text: "Lick"
   translation: "Lick"
   skip_translation: true
 
 - text: "PickedUp"
-  translation: ""
+  translation: "PickedUp"
+  skip_translation: true
 
 - text: "ALs"
   translation: "ALs"
@@ -955,71 +1053,76 @@
   skip_translation: true
 
 - text: "Wait for interactable 2"
-  translation: ""
+  translation: "Ждать интерактива 2"
 
 - text: "Play completed dialogue"
-  translation: ""
+  translation: "Воспроизвести завершённый диалог"
 
 - text: "Add perv"
-  translation: ""
+  translation: "Добавить извращение"
 
 - text: "Deactivate this"
-  translation: ""
+  translation: "Деактивировать это"
 
 - text: "Did the lady move?"
-  translation: ""
+  translation: "Дама двинулась?"
 
 - text: "U@Har?"
   translation: "U@Har?"
   skip_translation: true
 
 - text: "Check Accessibility Initially"
-  translation: ""
+  translation: "Проверка доступности изначально"
 
 - text: "Set rotation"
-  translation: ""
+  translation: "Установить поворот"
 
 - text: "Check Accessibility Changed"
-  translation: ""
+  translation: "Проверка доступности изменена"
 
 - text: "BUUGC"
   translation: "BUUGC"
   skip_translation: true
 
 - text: "NoCamera"
-  translation: ""
+  translation: "NoCamera"
+  skip_translation: true
 
 - text: "Disable Rotation"
-  translation: ""
+  translation: "Отключить поворот"
 
 - text: "AllDisabled"
-  translation: ""
+  translation: "AllDisabled"
+  skip_translation: true
 
 - text: "OnOff"
-  translation: ""
+  translation: "OnOff"
+  skip_translation: true
 
 - text: "Ms@"
   translation: "Ms@"
   skip_translation: true
 
 - text: "PlaySoundFromCategory, Assembly-CSharp"
-  translation: ""
+  translation: "PlaySoundFromCategory, Assembly-CSharp"
+  skip_translation: true
 
 - text: "BtJr@"
   translation: "BtJr@"
   skip_translation: true
 
 - text: "Activate Interactable"
-  translation: ""
+  translation: "Активировать интерактив"
 
 - text: "Disable Interactable"
-  translation: ""
+  translation: "Деактивировать интерактив"
 
 - text: "GlowingHoleKeys/Did Camera Tutorial"
-  translation: ""
+  translation: "GlowingHoleKeys/Did Camera Tutorial"
+  skip_translation: true
 
 - text: "Set Expression"
-  translation: ""
+  translation: "Установить выражение"
 
 - text: "O?KEt?"
   translation: "O?KEt?"
@@ -1038,161 +1141,177 @@
   skip_translation: true
 
 - text: "Do we have the first task?"
-  translation: ""
+  translation: "У нас есть первое задание?"
 
 - text: "Play intro"
-  translation: ""
+  translation: "Воспроизвести интро"
 
 - text: "DreamIntro"
-  translation: ""
+  translation: "DreamIntro"
+  skip_translation: true
 
 - text: "Circling Vultures"
-  translation: ""
+  translation: "Кружащие стервятники"
 
 - text: "ChapterNumber"
-  translation: ""
+  translation: "ChapterNumber"
+  skip_translation: true
 
 - text: "Play intro 2"
-  translation: ""
+  translation: "Воспроизвести интро 2"
 
 - text: "PMA_AddHorny4"
-  translation: ""
+  translation: "PMA_AddHorny4"
+  skip_translation: true
 
 - text: "Wait for mission"
-  translation: ""
+  translation: "Ждать миссию"
 
 - text: "Did we do this already?"
-  translation: ""
+  translation: "Мы это уже делали?"
 
 - text: "SaveKey_Key"
-  translation: ""
+  translation: "SaveKey_Key"
+  skip_translation: true
 
 - text: "DidBarIntro"
-  translation: ""
+  translation: "DidBarIntro"
+  skip_translation: true
 
 - text: "SaveKey_Value"
-  translation: ""
+  translation: "SaveKey_Value"
+  skip_translation: true
 
 - text: "Check motion sickness"
-  translation: ""
+  translation: "Проверка укачивания"
 
 - text: "Set key"
-  translation: ""
+  translation: "Установить ключ"
 
 - text: "Deactivate characters"
-  translation: ""
+  translation: "Деактивировать персонажей"
 
 - text: "Add Overworld Animation"
-  translation: ""
+  translation: "Добавить анимацию мира"
 
 - text: "BUU;C"
   translation: "BUU;C"
   skip_translation: true
 
 - text: "Speed change Finished"
-  translation: ""
+  translation: "Изменение скорости завершено"
 
 - text: "Tentacle Slop"
-  translation: ""
+  translation: "Щупальцевое хлюпанье"
 
 - text: "Remove Overworld Animation"
-  translation: ""
+  translation: "Удалить анимацию мира"
 
 - text: "Is task in progress?"
-  translation: ""
+  translation: "Задание в процессе?"
 
 - text: "Enable Zoeys"
-  translation: ""
+  translation: "Включить Зои (клонов)"
 
 - text: "Wait for pickup"
-  translation: ""
+  translation: "Ждать подбора"
 
 - text: "SKANK_Lapdance"
-  translation: ""
+  translation: "SKANK_Lapdance"
+  skip_translation: true
 
 - text: "Highlight item and wait for use"
-  translation: ""
+  translation: "Подсветить предмет и ждать использования"
 
 - text: "Close tab menu"
-  translation: ""
+  translation: "Закрыть меню вкладок"
 
 - text: "Second dialogue"
-  translation: ""
+  translation: "Второй диалог"
 
 - text: "Deactivate drink sprite"
-  translation: ""
+  translation: "Деактивировать спрайт напитка"
 
 - text: "Get Drink"
-  translation: ""
+  translation: "Взять напиток"
 
 - text: "Do perversion"
-  translation: ""
+  translation: "Сделать извращение"
 
 - text: "Are we in-progress?"
-  translation: ""
+  translation: "Мы в процессе?"
 
 - text: "Did Nova grope Zoey?5"
-  translation: ""
+  translation: "Нова лапала Зои?5"
 
 - text: "Path Femboy off screen"
-  translation: ""
+  translation: "Увести фембоя с экрана"
 
 - text: "Do some lil anim blending"
-  translation: ""
+  translation: "Немного смешать анимации"
 
 - text: "ClearOnExit"
-  translation: ""
+  translation: "ClearOnExit"
+  skip_translation: true
 
 - text: "DonePeeking"
-  translation: ""
+  translation: "DonePeeking"
+  skip_translation: true
 
 - text: "Is the task in-progress?"
-  translation: ""
+  translation: "Задание в процессе?"
 
 - text: "Play next dialogue"
-  translation: ""
+  translation: "Воспроизвести следующий диалог"
 
 - text: "AlsoYes"
-  translation: ""
+  translation: "AlsoYes"
+  skip_translation: true
 
 - text: "Transition to apartment"
-  translation: ""
+  translation: "Переход в квартиру"
 
 - text: "Overwhelm"
-  translation: ""
+  translation: "Ошеломление"
 
 - text: "PMA_AddHorny0"
-  translation: ""
+  translation: "PMA_AddHorny0"
+  skip_translation: true
 
 - text: "Play 2nd dialogue"
-  translation: ""
+  translation: "Воспроизвести 2-й диалог"
 
 - text: "Free player"
-  translation: ""
+  translation: "Освободить игрока"
 
 - text: "Deactivate scene"
-  translation: ""
+  translation: "Деактивировать сцену"
 
 - text: "GlowingHoleOutsideBarSoundsInsideVolume - VADucked"
-  translation: ""
+  translation: "GlowingHoleOutsideBarSoundsInsideVolume - VADucked"
+  skip_translation: true
 
 - text: "SKANK_Poledance"
-  translation: ""
+  translation: "SKANK_Poledance"
+  skip_translation: true
 
 - text: "Wait for seat"
-  translation: ""
+  translation: "Ждать посадки"
 
 - text: "play dialogue"
-  translation: ""
+  translation: "воспроизвести диалог"
 
 - text: "MustBePlayer"
-  translation: ""
+  translation: "MustBePlayer"
+  skip_translation: true
 
 - text: "OnSat"
-  translation: ""
+  translation: "OnSat"
+  skip_translation: true
 
 - text: "OnUnSat"
-  translation: ""
+  translation: "OnUnSat"
+  skip_translation: true
 
 - text: "V@xGu"
   translation: "V@xGu"
@@ -1203,14 +1322,14 @@
   skip_translation: true
 
 - text: "Set initial State"
-  translation: ""
+  translation: "Установить начальное состояние"
 
 - text: "Set Random Selector"
-  translation: ""
+  translation: "Установить случайный селектор"
 
 - text: "Selector"
-  translation: ""
+  translation: "Селектор"
 
 - text: "Reset Trigger"
-  translation: ""
+  translation: "Сбросить триггер"
 

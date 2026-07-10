@@ -277,10 +277,10 @@
   translation: "Дверь закрыта"
 
 - text: "Locked Idle"
-  translation: "Заперто бездействие"
+  translation: "Ожидание: заперто"
 
 - text: "Unlocked Idle"
-  translation: "Отперто бездействие"
+  translation: "Ожидание: отперто"
 
 - text: "Recorded"
   translation: "Записано"
@@ -334,7 +334,7 @@
   skip_translation: true
 
 - text: "Locked Attempt Open"
-  translation: "Заперто попытка открыть"
+  translation: "Попытка открыть: заперто"
 
 - text: "DoorOpening"
   translation: "Дверь открывается"
@@ -370,7 +370,7 @@
   translation: "Сердце"
 
 - text: "Unlocked Attempt Open"
-  translation: "Отперто попытка открыть"
+  translation: "Попытка открыть: отперто"
 
 - text: "DoorOpen"
   translation: "Дверь открыта"
@@ -1013,7 +1013,7 @@
   translation: "Элемент UI 1"
 
 - text: "Button Hover"
-  translation: "Кнопка наведение"
+  translation: "Наведение на кнопку"
 
 - text: "OBEY baked"
   translation: "OBEY запечённый"
@@ -1037,7 +1037,7 @@
   translation: "пожалуйста добавьте эффект глитча!"
 
 - text: "Button Shadow"
-  translation: "Кнопка тень"
+  translation: "Тень кнопки"
 
 - text: "Kanoji"
   translation: "Канодзи"
@@ -2030,7 +2030,7 @@
   translation: "NPCVA_FNPC2-Возбуждена-Ого 0"
 
 - text: "17-_color=perversion_Not like.. This..__color_"
-  translation: "17-_color=perversion_Не так.. Это..__color_"
+  translation: "17-_color=perversion_Не так.. Как это..__color_"
 
 - text: "NPCVA_FNPC2-Angry-Mhm 0"
   translation: "NPCVA_FNPC2-Зла-М-м 0"
@@ -2545,7 +2545,8 @@
   skip_translation: true
 
 - text: "FE,"
-  translation: ""
+  translation: "FE,"
+  skip_translation: true
 
 - text: "E@p"
   translation: "E@p"
@@ -2604,7 +2605,8 @@
   skip_translation: true
 
 - text: "WnMEb,"
-  translation: ""
+  translation: "WnMEb,"
+  skip_translation: true
 
 - text: "Dn`/E"
   translation: "Dn`/E"
@@ -2615,7 +2617,8 @@
   skip_translation: true
 
 - text: "WnMEbebB"
-  translation: ""
+  translation: "WnMEbebB"
+  skip_translation: true
 
 - text: "PRE"
   translation: "PRE"
@@ -2626,14 +2629,16 @@
   skip_translation: true
 
 - text: "WnMEb2"
-  translation: ""
+  translation: "WnMEb2"
+  skip_translation: true
 
 - text: "P_E"
   translation: "P_E"
   skip_translation: true
 
 - text: "WnMEbL"
-  translation: ""
+  translation: "WnMEbL"
+  skip_translation: true
 
 - text: "EBv"
   translation: "EBv"
@@ -2648,21 +2653,24 @@
   skip_translation: true
 
 - text: "WnMEbO"
-  translation: ""
+  translation: "WnMEbO"
+  skip_translation: true
 
 - text: "E@G"
   translation: "E@G"
   skip_translation: true
 
 - text: "n RE"
-  translation: ""
+  translation: "n RE"
+  skip_translation: true
 
 - text: "PEE"
   translation: "PEE"
   skip_translation: true
 
 - text: "EnPEE"
-  translation: ""
+  translation: "EnPEE"
+  skip_translation: true
 
 - text: "(TE"
   translation: "(TE"
@@ -2673,7 +2681,8 @@
   skip_translation: true
 
 - text: "WnMEbe"
-  translation: ""
+  translation: "WnMEbe"
+  skip_translation: true
 
 - text: "YQE"
   translation: "YQE"
@@ -2684,20 +2693,24 @@
   skip_translation: true
 
 - text: "WnMEbP"
-  translation: ""
+  translation: "WnMEbP"
+  skip_translation: true
 
 - text: "WnMEbK"
-  translation: ""
+  translation: "WnMEbK"
+  skip_translation: true
 
 - text: "WnMEbE"
-  translation: ""
+  translation: "WnMEbE"
+  skip_translation: true
 
 - text: "0YE"
   translation: "0YE"
   skip_translation: true
 
 - text: "WnMEbw"
-  translation: ""
+  translation: "WnMEbw"
+  skip_translation: true
 
 - text: "WnMEb_"
   translation: "WnMEb_"
@@ -2712,14 +2725,16 @@
   skip_translation: true
 
 - text: "WnMEb5!"
-  translation: ""
+  translation: "WnMEb5!"
+  skip_translation: true
 
 - text: "ODB"
   translation: "ODB"
   skip_translation: true
 
 - text: "WnMEbg"
-  translation: ""
+  translation: "WnMEbg"
+  skip_translation: true
 
 - text: "@UE"
   translation: "@UE"
@@ -2730,13 +2745,16 @@
   skip_translation: true
 
 - text: "WnMEbV\"_"
-  translation: ""
+  translation: "WnMEbV\"_"
+  skip_translation: true
 
 - text: "WnMEb/Fw"
-  translation: ""
+  translation: "WnMEb/Fw"
+  skip_translation: true
 
 - text: "WnMEbk"
-  translation: ""
+  translation: "WnMEbk"
+  skip_translation: true
 
 - text: "EpB"
   translation: "EpB"
@@ -2755,33 +2773,40 @@
   skip_translation: true
 
 - text: "WnMEbm"
-  translation: ""
+  translation: "WnMEbm"
+  skip_translation: true
 
 - text: "WnMEbQr"
-  translation: ""
+  translation: "WnMEbQr"
+  skip_translation: true
 
 - text: "WnMEb9"
-  translation: ""
+  translation: "WnMEb9"
+  skip_translation: true
 
 - text: "WnMEbbO"
-  translation: ""
+  translation: "WnMEbbO"
+  skip_translation: true
 
 - text: "SEt"
   translation: "SEt"
   skip_translation: true
 
 - text: "WnMEbX2"
-  translation: ""
+  translation: "WnMEbX2"
+  skip_translation: true
 
 - text: "WnMEbX"
-  translation: ""
+  translation: "WnMEbX"
+  skip_translation: true
 
 - text: "UE8"
   translation: "UE8"
   skip_translation: true
 
 - text: "WnMEbrb"
-  translation: ""
+  translation: "WnMEbrb"
+  skip_translation: true
 
 - text: "WnMEb^"
   translation: "WnMEb^"
@@ -2800,17 +2825,20 @@
   skip_translation: true
 
 - text: "WnMEb3"
-  translation: ""
+  translation: "WnMEb3"
+  skip_translation: true
 
 - text: "WnMEb:v"
-  translation: ""
+  translation: "WnMEb:v"
+  skip_translation: true
 
 - text: "Q?ff"
   translation: "Q?ff"
   skip_translation: true
 
 - text: "Epb"
-  translation: ""
+  translation: "Epb"
+  skip_translation: true
 
 - text: "P\\E"
   translation: "P\\E"
@@ -2833,17 +2861,20 @@
   skip_translation: true
 
 - text: "WnMEb5"
-  translation: ""
+  translation: "WnMEb5"
+  skip_translation: true
 
 - text: "W?ff"
   translation: "W?ff"
   skip_translation: true
 
 - text: "WnMEbyw"
-  translation: ""
+  translation: "WnMEbyw"
+  skip_translation: true
 
 - text: "WnMEb-!"
-  translation: ""
+  translation: "WnMEb-!"
+  skip_translation: true
 
 - text: "Q(@ff"
   translation: "Q(@ff"
@@ -2866,14 +2897,16 @@
   skip_translation: true
 
 - text: "WnMEbF"
-  translation: ""
+  translation: "WnMEbF"
+  skip_translation: true
 
 - text: "X'E"
   translation: "X'E"
   skip_translation: true
 
 - text: "WnMEb,Sq"
-  translation: ""
+  translation: "WnMEb,Sq"
+  skip_translation: true
 
 - text: "WnMEb#"
   translation: "WnMEb#"
@@ -2884,30 +2917,36 @@
   skip_translation: true
 
 - text: "WnMEb/Tw"
-  translation: ""
+  translation: "WnMEb/Tw"
+  skip_translation: true
 
 - text: "@VE"
   translation: "@VE"
   skip_translation: true
 
 - text: "WnMEbuR?"
-  translation: ""
+  translation: "WnMEbuR?"
+  skip_translation: true
 
 - text: "P5E"
   translation: "P5E"
   skip_translation: true
 
 - text: "WnMEbv"
-  translation: ""
+  translation: "WnMEbv"
+  skip_translation: true
 
 - text: "WnMEbl"
-  translation: ""
+  translation: "WnMEbl"
+  skip_translation: true
 
 - text: "WnMEb'"
-  translation: ""
+  translation: "WnMEb'"
+  skip_translation: true
 
 - text: "WnMEbN"
-  translation: ""
+  translation: "WnMEbN"
+  skip_translation: true
 
 - text: "Ga?ff"
   translation: "Ga?ff"
@@ -2918,7 +2957,8 @@
   skip_translation: true
 
 - text: "WnMEbB"
-  translation: ""
+  translation: "WnMEbB"
+  skip_translation: true
 
 - text: "E@R"
   translation: "E@R"
@@ -2933,36 +2973,44 @@
   skip_translation: true
 
 - text: "WnMEb'B"
-  translation: ""
+  translation: "WnMEb'B"
+  skip_translation: true
 
 - text: "WnMEb:|"
-  translation: ""
+  translation: "WnMEb:|"
+  skip_translation: true
 
 - text: "WnMEb*Yz$"
-  translation: ""
+  translation: "WnMEb*Yz$"
+  skip_translation: true
 
 - text: "WnMEbs"
-  translation: ""
+  translation: "WnMEbs"
+  skip_translation: true
 
 - text: "WnMEb("
   translation: "WnMEb("
   skip_translation: true
 
 - text: "WnMEbb"
-  translation: ""
+  translation: "WnMEbb"
+  skip_translation: true
 
 - text: "WnMEb4"
-  translation: ""
+  translation: "WnMEb4"
+  skip_translation: true
 
 - text: "GA@33"
   translation: "GA@33"
   skip_translation: true
 
 - text: "WnMEb8"
-  translation: ""
+  translation: "WnMEb8"
+  skip_translation: true
 
 - text: "WnMEbq"
-  translation: ""
+  translation: "WnMEbq"
+  skip_translation: true
 
 - text: "PBE"
   translation: "PBE"
@@ -2973,47 +3021,56 @@
   skip_translation: true
 
 - text: "WnMEbR"
-  translation: ""
+  translation: "WnMEbR"
+  skip_translation: true
 
 - text: "`ZE"
   translation: "`ZE"
   skip_translation: true
 
 - text: "WnMEbY"
-  translation: ""
+  translation: "WnMEbY"
+  skip_translation: true
 
 - text: "D8aZE"
-  translation: ""
+  translation: "D8aZE"
+  skip_translation: true
 
 - text: "WnMEby\""
-  translation: ""
+  translation: "WnMEby\""
+  skip_translation: true
 
 - text: "WnMEbo"
-  translation: ""
+  translation: "WnMEbo"
+  skip_translation: true
 
 - text: "WnMEb%z"
   translation: "WnMEb%z"
   skip_translation: true
 
 - text: "WnMEbja"
-  translation: ""
+  translation: "WnMEbja"
+  skip_translation: true
 
 - text: "WnMEbz"
-  translation: ""
+  translation: "WnMEbz"
+  skip_translation: true
 
 - text: "AVD"
   translation: "AVD"
   skip_translation: true
 
 - text: "WnMEbS"
-  translation: ""
+  translation: "WnMEbS"
+  skip_translation: true
 
 - text: "@UD"
   translation: "@UD"
   skip_translation: true
 
 - text: "Q8=fff?"
-  translation: ""
+  translation: "Q8=fff?"
+  skip_translation: true
 
 - text: "E?p="
   translation: "E?p="
@@ -3028,16 +3085,20 @@
   skip_translation: true
 
 - text: "WnMEb|p"
-  translation: ""
+  translation: "WnMEb|p"
+  skip_translation: true
 
 - text: "WnMEbx"
-  translation: ""
+  translation: "WnMEbx"
+  skip_translation: true
 
 - text: "WnMEb]2VS"
-  translation: ""
+  translation: "WnMEb]2VS"
+  skip_translation: true
 
 - text: "WnMEb+x"
-  translation: ""
+  translation: "WnMEb+x"
+  skip_translation: true
 
 - text: "I\"W"
   translation: "I\\"
@@ -3052,10 +3113,12 @@
   skip_translation: true
 
 - text: "WnMEbGKO_"
-  translation: ""
+  translation: "WnMEbGKO_"
+  skip_translation: true
 
 - text: "WnMEbu"
-  translation: ""
+  translation: "WnMEbu"
+  skip_translation: true
 
 - text: "@CE"
   translation: "@CE"
@@ -3086,7 +3149,8 @@
   skip_translation: true
 
 - text: "WnMEbng"
-  translation: ""
+  translation: "WnMEbng"
+  skip_translation: true
 
 - text: "E?ff"
   translation: "E?ff"
@@ -3113,16 +3177,20 @@
   skip_translation: true
 
 - text: "WnMEbj"
-  translation: ""
+  translation: "WnMEbj"
+  skip_translation: true
 
 - text: "WnMEbJV"
-  translation: ""
+  translation: "WnMEbJV"
+  skip_translation: true
 
 - text: "WnMEbmD"
-  translation: ""
+  translation: "WnMEbmD"
+  skip_translation: true
 
 - text: "En EE"
-  translation: ""
+  translation: "En EE"
+  skip_translation: true
 
 - text: "0FE"
   translation: "0FE"
@@ -3169,7 +3237,8 @@
   skip_translation: true
 
 - text: "Ga=33s?"
-  translation: ""
+  translation: "Ga=33s?"
+  skip_translation: true
 
 - text: "Y?fff"
   translation: "Y?fff"
@@ -3196,7 +3265,8 @@
   skip_translation: true
 
 - text: "Bathroom Lighting Ground"
-  translation: ""
+  translation: "Bathroom Lighting Ground"
+  skip_translation: true
 
 - text: "PYj"
   translation: "PYj"
@@ -3223,7 +3293,8 @@
   skip_translation: true
 
 - text: "Nyu"
-  translation: ""
+  translation: "Nyu"
+  skip_translation: true
 
 - text: "Windows_grey_22"
   translation: "Windows_grey_22"
@@ -3266,7 +3337,8 @@
   skip_translation: true
 
 - text: "GDbE"
-  translation: ""
+  translation: "GDbE"
+  skip_translation: true
 
 - text: "Windows_grey_21"
   translation: "Windows_grey_21"
@@ -3393,7 +3465,8 @@
   skip_translation: true
 
 - text: "C?=CMnlD"
-  translation: ""
+  translation: "C?=CMnlD"
+  skip_translation: true
 
 - text: "Windows_grey_24"
   translation: "Windows_grey_24"
@@ -3532,7 +3605,8 @@
   skip_translation: true
 
 - text: "GlowingHole Logo Cropped"
-  translation: ""
+  translation: "GlowingHole Logo Cropped"
+  skip_translation: true
 
 - text: "HU@"
   translation: "HU@"
@@ -3583,7 +3657,8 @@
   skip_translation: true
 
 - text: "GlowingHole Logo Star3"
-  translation: ""
+  translation: "GlowingHole Logo Star3"
+  skip_translation: true
 
 - text: "U8`&x3"
   translation: "U8`&x3"
@@ -3598,7 +3673,8 @@
   skip_translation: true
 
 - text: "FakeLight"
-  translation: ""
+  translation: "FakeLight"
+  skip_translation: true
 
 - text: "TqA+"
   translation: "TqA+"
@@ -3613,10 +3689,12 @@
   skip_translation: true
 
 - text: "Unbenannt-4"
-  translation: ""
+  translation: "Unbenannt-4"
+  skip_translation: true
 
 - text: "7!AM"
-  translation: ""
+  translation: "7!AM"
+  skip_translation: true
 
 - text: "Rc=A^"
   translation: "Rc=A^"
@@ -3635,7 +3713,8 @@
   skip_translation: true
 
 - text: "Staffroom Lighting Sprite"
-  translation: ""
+  translation: "Staffroom Lighting Sprite"
+  skip_translation: true
 
 - text: "Wgp"
   translation: "Wgp"
@@ -3898,7 +3977,8 @@
   skip_translation: true
 
 - text: "X1E!HgB"
-  translation: ""
+  translation: "X1E!HgB"
+  skip_translation: true
 
 - text: "B'a"
   translation: "B'a"
@@ -3925,7 +4005,8 @@
   skip_translation: true
 
 - text: "E!HgB\"h"
-  translation: ""
+  translation: "E!HgB\"h"
+  skip_translation: true
 
 - text: "NEp"
   translation: "NEp"
@@ -3968,10 +4049,12 @@
   skip_translation: true
 
 - text: "HiE!HgB"
-  translation: ""
+  translation: "HiE!HgB"
+  skip_translation: true
 
 - text: "E!HgB0#/D"
-  translation: ""
+  translation: "E!HgB0#/D"
+  skip_translation: true
 
 - text: "L?o"
   translation: "L?o"
@@ -3994,7 +4077,8 @@
   skip_translation: true
 
 - text: "E!HgBaU"
-  translation: ""
+  translation: "E!HgBaU"
+  skip_translation: true
 
 - text: "D\\O"
   translation: "D\\O"
@@ -4005,13 +4089,16 @@
   skip_translation: true
 
 - text: "E!HgB[h"
-  translation: ""
+  translation: "E!HgB[h"
+  skip_translation: true
 
 - text: "Z'E'a%DQ'"
-  translation: ""
+  translation: "Z'E'a%DQ'"
+  skip_translation: true
 
 - text: "XQE!HgB"
-  translation: ""
+  translation: "XQE!HgB"
+  skip_translation: true
 
 - text: "Bqq"
   translation: "Bqq"
@@ -4030,21 +4117,24 @@
   skip_translation: true
 
 - text: "HSE!HgB"
-  translation: ""
+  translation: "HSE!HgB"
+  skip_translation: true
 
 - text: "BE!HgB"
   translation: "BE!HgB"
   skip_translation: true
 
 - text: "E!HgBjk"
-  translation: ""
+  translation: "E!HgBjk"
+  skip_translation: true
 
 - text: "E%r[D"
   translation: "E%r[D"
   skip_translation: true
 
 - text: "E!HgBcq"
-  translation: ""
+  translation: "E!HgBcq"
+  skip_translation: true
 
 - text: "GA?33"
   translation: "GA?33"
@@ -4159,7 +4249,8 @@
   skip_translation: true
 
 - text: "But!E"
-  translation: ""
+  translation: "But!E"
+  skip_translation: true
 
 - text: "8BE"
   translation: "8BE"
@@ -4294,16 +4385,20 @@
   skip_translation: true
 
 - text: "PU7?H"
-  translation: ""
+  translation: "PU7?H"
+  skip_translation: true
 
 - text: "PU7?("
-  translation: ""
+  translation: "PU7?("
+  skip_translation: true
 
 - text: "PU7?"
-  translation: ""
+  translation: "PU7?"
+  skip_translation: true
 
 - text: "PU7?d,"
-  translation: ""
+  translation: "PU7?d,"
+  skip_translation: true
 
 - text: "6DA"
   translation: "6DA"
@@ -4406,7 +4501,8 @@
   skip_translation: true
 
 - text: "KfEa"
-  translation: ""
+  translation: "KfEa"
+  skip_translation: true
 
 - text: "QBw"
   translation: "QBw"
@@ -4473,10 +4569,12 @@
   skip_translation: true
 
 - text: "e? il?"
-  translation: ""
+  translation: "e? il?"
+  skip_translation: true
 
 - text: "4? il?"
-  translation: ""
+  translation: "4? il?"
+  skip_translation: true
 
 - text: "By^hD"
   translation: "By^hD"
@@ -4635,7 +4733,8 @@
   skip_translation: true
 
 - text: "Br?7|J?"
-  translation: ""
+  translation: "Br?7|J?"
+  skip_translation: true
 
 - text: "Rg?59"
   translation: "Rg?59"
@@ -4694,61 +4793,80 @@
   skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_9"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_9"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_6"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_6"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_10"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_10"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_3"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_3"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_47"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_47"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_20"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_20"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_37"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_37"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_32"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_32"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_82"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_82"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_44"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_44"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_55"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_55"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_11"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_11"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_28"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_28"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_36"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_36"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_27"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_27"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_45"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_45"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_22"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_22"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_31"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_31"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_85"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_85"
+  skip_translation: true
 
 - text: "Qx?33"
   translation: "Qx?33"
@@ -4759,248 +4877,324 @@
   skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_43"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_43"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_60"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_60"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_91"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_91"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_49"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_49"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_89"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_89"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_88"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_88"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_35"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_35"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_84"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_84"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_80"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_80"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_24"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_24"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_67"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_67"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_0"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_0"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_58"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_58"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_69"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_69"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_25"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_25"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_40"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_40"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_42"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_42"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_56"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_56"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_19"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_19"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_93"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_93"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_12"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_12"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_23"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_23"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_57"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_57"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_86"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_86"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_21"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_21"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_51"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_51"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_54"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_54"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_16"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_16"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_33"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_33"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_81"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_81"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_72"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_72"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_62"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_62"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_1"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_1"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_77"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_77"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_53"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_53"
+  skip_translation: true
 
 - text: "Qx?p="
   translation: "Qx?p="
   skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_64"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_64"
+  skip_translation: true
 
 - text: "Qx?\\"
   translation: "Qx?\\\\"
   skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_92"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_92"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_26"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_26"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_46"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_46"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_30"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_30"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_71"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_71"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_14"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_14"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_74"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_74"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_78"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_78"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_52"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_52"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_4"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_4"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_73"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_73"
+  skip_translation: true
 
 - text: "Y?ff&?"
   translation: "Y?ff&?"
   skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_59"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_59"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_41"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_41"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_18"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_18"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_8"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_8"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_48"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_48"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_29"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_29"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_75"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_75"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_66"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_66"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_38"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_38"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_7"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_7"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_17"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_17"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_65"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_65"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_87"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_87"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_83"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_83"
+  skip_translation: true
 
 - text: "G!?fff?"
-  translation: ""
+  translation: "G!?fff?"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_2"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_2"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_63"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_63"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_76"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_76"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_5"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_5"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_34"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_34"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_61"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_61"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_15"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_15"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_79"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_79"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_50"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_50"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_70"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_70"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_90"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_90"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_39"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_39"
+  skip_translation: true
 
 - text: "city_asset_pack_2_doors_and_windows_full 1_13"
-  translation: ""
+  translation: "city_asset_pack_2_doors_and_windows_full 1_13"
+  skip_translation: true
 
 - text: "Qe7"
   translation: "Qe7"
   skip_translation: true
 
 - text: "Ga=fff?="
-  translation: ""
+  translation: "Ga=fff?="
+  skip_translation: true
 
 - text: "Q8=p=:@"
   translation: "Q8=p=:@"
@@ -5031,10 +5225,12 @@
   skip_translation: true
 
 - text: "jH _O"
-  translation: ""
+  translation: "jH _O"
+  skip_translation: true
 
 - text: "Unbenannt-1"
-  translation: ""
+  translation: "Unbenannt-1"
+  skip_translation: true
 
 - text: "YPPl"
   translation: "YPPl"
@@ -5049,10 +5245,12 @@
   skip_translation: true
 
 - text: "SingleFlower"
-  translation: ""
+  translation: "SingleFlower"
+  skip_translation: true
 
 - text: "Bathroom Tile"
-  translation: ""
+  translation: "Bathroom Tile"
+  skip_translation: true
 
 - text: "LBo"
   translation: "LBo"
@@ -5115,7 +5313,8 @@
   skip_translation: true
 
 - text: "EfDL7)D"
-  translation: ""
+  translation: "EfDL7)D"
+  skip_translation: true
 
 - text: "EfD"
   translation: "EfD"
@@ -5134,10 +5333,12 @@
   skip_translation: true
 
 - text: "Unbenannt-6"
-  translation: ""
+  translation: "Unbenannt-6"
+  skip_translation: true
 
 - text: "L?ffF?="
-  translation: ""
+  translation: "L?ffF?="
+  skip_translation: true
 
 - text: "GA?="
   translation: "GA?="
@@ -5152,7 +5353,8 @@
   skip_translation: true
 
 - text: "CpDffBBP"
-  translation: ""
+  translation: "CpDffBBP"
+  skip_translation: true
 
 - text: "DNz"
   translation: "DNz"
@@ -5183,10 +5385,12 @@
   skip_translation: true
 
 - text: "BXDffBB"
-  translation: ""
+  translation: "BXDffBB"
+  skip_translation: true
 
 - text: "DffBBJ"
-  translation: ""
+  translation: "DffBBJ"
+  skip_translation: true
 
 - text: "Aq=%B"
   translation: "Aq=%B"
@@ -5205,20 +5409,24 @@
   skip_translation: true
 
 - text: "SeDffBB"
-  translation: ""
+  translation: "SeDffBB"
+  skip_translation: true
 
 - text: "RAffBA"
-  translation: ""
+  translation: "RAffBA"
+  skip_translation: true
 
 - text: "DffBB)X"
-  translation: ""
+  translation: "DffBB)X"
+  skip_translation: true
 
 - text: "Sea3"
   translation: "Sea3"
   skip_translation: true
 
 - text: "DffBBDw"
-  translation: ""
+  translation: "DffBBDw"
+  skip_translation: true
 
 - text: "SE*"
   translation: "SE*"
@@ -5229,10 +5437,12 @@
   skip_translation: true
 
 - text: "DffBB5"
-  translation: ""
+  translation: "DffBB5"
+  skip_translation: true
 
 - text: "UiB94IC"
-  translation: ""
+  translation: "UiB94IC"
+  skip_translation: true
 
 - text: "Qe3"
   translation: "Qe3"
@@ -5247,7 +5457,8 @@
   skip_translation: true
 
 - text: "D7imD"
-  translation: ""
+  translation: "D7imD"
+  skip_translation: true
 
 - text: "S7d"
   translation: "S7d"
@@ -5258,7 +5469,8 @@
   skip_translation: true
 
 - text: "SAUmc"
-  translation: ""
+  translation: "SAUmc"
+  skip_translation: true
 
 - text: "IFB"
   translation: "IFB"
@@ -5281,14 +5493,16 @@
   skip_translation: true
 
 - text: "Staffroom Shadow Chair"
-  translation: ""
+  translation: "Staffroom Shadow Chair"
+  skip_translation: true
 
 - text: "L=q="
   translation: "L=q="
   skip_translation: true
 
 - text: "Ga=p=J?"
-  translation: ""
+  translation: "Ga=p=J?"
+  skip_translation: true
 
 - text: "Q$j"
   translation: "Q$j"
@@ -5299,7 +5513,8 @@
   skip_translation: true
 
 - text: "L?33S?ff"
-  translation: ""
+  translation: "L?33S?ff"
+  skip_translation: true
 
 - text: "MgV_"
   translation: "MgV_"
@@ -5318,7 +5533,8 @@
   skip_translation: true
 
 - text: "Unbenannt-5"
-  translation: ""
+  translation: "Unbenannt-5"
+  skip_translation: true
 
 - text: "|6HI"
   translation: "|6HI"
@@ -5357,10 +5573,12 @@
   skip_translation: true
 
 - text: "CyjHCg"
-  translation: ""
+  translation: "CyjHCg"
+  skip_translation: true
 
 - text: "CyjHC"
-  translation: ""
+  translation: "CyjHC"
+  skip_translation: true
 
 - text: "AL`"
   translation: "AL`"
@@ -5419,10 +5637,12 @@
   skip_translation: true
 
 - text: "Red Floorlight"
-  translation: ""
+  translation: "Red Floorlight"
+  skip_translation: true
 
 - text: "BNqo3"
-  translation: ""
+  translation: "BNqo3"
+  skip_translation: true
 
 - text: "C?p=j"
   translation: "C?p=j"
@@ -5469,7 +5689,8 @@
   skip_translation: true
 
 - text: "FJhkge"
-  translation: ""
+  translation: "FJhkge"
+  skip_translation: true
 
 - text: "Pk?"
   translation: "Pk?"
@@ -5484,7 +5705,8 @@
   skip_translation: true
 
 - text: "Ga=q=J?"
-  translation: ""
+  translation: "Ga=q=J?"
+  skip_translation: true
 
 - text: "BfF"
   translation: "BfF"
@@ -5527,7 +5749,8 @@
   skip_translation: true
 
 - text: "Ga=fff?"
-  translation: ""
+  translation: "Ga=fff?"
+  skip_translation: true
 
 - text: "G?p=*?"
   translation: "G?p=*?"
@@ -5538,7 +5761,8 @@
   skip_translation: true
 
 - text: "Bk,"
-  translation: ""
+  translation: "Bk,"
+  skip_translation: true
 
 - text: "Dwh"
   translation: "Dwh"
@@ -5589,7 +5813,8 @@
   skip_translation: true
 
 - text: "BLOdD"
-  translation: ""
+  translation: "BLOdD"
+  skip_translation: true
 
 - text: "M?E"
   translation: "M?E"
@@ -5608,7 +5833,8 @@
   skip_translation: true
 
 - text: "WlBU"
-  translation: ""
+  translation: "WlBU"
+  skip_translation: true
 
 - text: "GgD"
   translation: "GgD"
@@ -5651,17 +5877,20 @@
   skip_translation: true
 
 - text: "GlowingHole Logo Star2"
-  translation: ""
+  translation: "GlowingHole Logo Star2"
+  skip_translation: true
 
 - text: "Q?q="
   translation: "Q?q="
   skip_translation: true
 
 - text: "Bathroom Lighting Sprite"
-  translation: ""
+  translation: "Bathroom Lighting Sprite"
+  skip_translation: true
 
 - text: "GlowingHole Logo Star1"
-  translation: ""
+  translation: "GlowingHole Logo Star1"
+  skip_translation: true
 
 - text: "L=33s"
   translation: "L=33s"
@@ -5700,10 +5929,12 @@
   skip_translation: true
 
 - text: "KsaDqk"
-  translation: ""
+  translation: "KsaDqk"
+  skip_translation: true
 
 - text: "CHGyAj"
-  translation: ""
+  translation: "CHGyAj"
+  skip_translation: true
 
 - text: "A7F!B"
   translation: "A7F!B"
@@ -5734,7 +5965,8 @@
   skip_translation: true
 
 - text: "FQd?OF"
-  translation: ""
+  translation: "FQd?OF"
+  skip_translation: true
 
 - text: "FQd?$^"
   translation: "FQd?$^"
@@ -5857,7 +6089,8 @@
   skip_translation: true
 
 - text: "X`d1_;=LK"
-  translation: ""
+  translation: "X`d1_;=LK"
+  skip_translation: true
 
 - text: "X`d1_;=0V&"
   translation: "X`d1_;=0V&"
@@ -5880,21 +6113,24 @@
   skip_translation: true
 
 - text: "X`d1_;=QN"
-  translation: ""
+  translation: "X`d1_;=QN"
+  skip_translation: true
 
 - text: "X`d1_;=!"
   translation: "X`d1_;=!"
   skip_translation: true
 
 - text: "X`d1_;=,"
-  translation: ""
+  translation: "X`d1_;=,"
+  skip_translation: true
 
 - text: "X`d1_;=B"
   translation: "X`d1_;=B"
   skip_translation: true
 
 - text: "X`d1_;=TCv"
-  translation: ""
+  translation: "X`d1_;=TCv"
+  skip_translation: true
 
 - text: "X`d1_;=Z5"
   translation: "X`d1_;=Z5"
@@ -5945,7 +6181,8 @@
   skip_translation: true
 
 - text: "GEw?="
-  translation: ""
+  translation: "GEw?="
+  skip_translation: true
 
 - text: "X`d1_;=d"
   translation: "X`d1_;=d"
@@ -5956,7 +6193,8 @@
   skip_translation: true
 
 - text: "X`d1_;=jSc"
-  translation: ""
+  translation: "X`d1_;=jSc"
+  skip_translation: true
 
 - text: "X`d1_;=F*j"
   translation: "X`d1_;=F*j"
@@ -5995,7 +6233,8 @@
   skip_translation: true
 
 - text: "X`d1_;=UN"
-  translation: ""
+  translation: "X`d1_;=UN"
+  skip_translation: true
 
 - text: "P E"
   translation: "P E"
@@ -6022,10 +6261,12 @@
   skip_translation: true
 
 - text: "X`d1_;=AYmC"
-  translation: ""
+  translation: "X`d1_;=AYmC"
+  skip_translation: true
 
 - text: "X`d1_;=VE"
-  translation: ""
+  translation: "X`d1_;=VE"
+  skip_translation: true
 
 - text: "X`d1_;=\\"
   translation: "X`d1_;=\\"
@@ -6076,7 +6317,8 @@
   skip_translation: true
 
 - text: "Dju"
-  translation: ""
+  translation: "Dju"
+  skip_translation: true
 
 - text: "-VA:"
   translation: "-VA:"
@@ -6127,7 +6369,8 @@
   skip_translation: true
 
 - text: "B5!yD"
-  translation: ""
+  translation: "B5!yD"
+  skip_translation: true
 
 - text: "P#x?"
   translation: "P#x?"
@@ -6162,7 +6405,8 @@
   skip_translation: true
 
 - text: "ZhHa"
-  translation: ""
+  translation: "ZhHa"
+  skip_translation: true
 
 - text: "K8Df"
   translation: "K8Df"
@@ -6205,7 +6449,8 @@
   skip_translation: true
 
 - text: "Bhe#?"
-  translation: ""
+  translation: "Bhe#?"
+  skip_translation: true
 
 - text: "Zw("
   translation: "Zw("
@@ -6388,7 +6633,8 @@
   skip_translation: true
 
 - text: "CStation_broken"
-  translation: ""
+  translation: "CStation_broken"
+  skip_translation: true
 
 - text: "?II"
   translation: "?II"
@@ -6419,7 +6665,8 @@
   skip_translation: true
 
 - text: "GlowingHole Logo"
-  translation: ""
+  translation: "GlowingHole Logo"
+  skip_translation: true
 
 - text: "E ac"
   translation: "E ac"
@@ -6434,7 +6681,8 @@
   skip_translation: true
 
 - text: "Unbenannt-3"
-  translation: ""
+  translation: "Unbenannt-3"
+  skip_translation: true
 
 - text: "A@R"
   translation: "A@R"
@@ -6473,7 +6721,8 @@
   skip_translation: true
 
 - text: "luxroom_holo_big 1"
-  translation: ""
+  translation: "luxroom_holo_big 1"
+  skip_translation: true
 
 - text: "Ga?ff&"
   translation: "Ga?ff&"
@@ -6496,7 +6745,8 @@
   skip_translation: true
 
 - text: "233?TU"
-  translation: ""
+  translation: "233?TU"
+  skip_translation: true
 
 - text: "UU5"
   translation: "UU5"
@@ -6511,7 +6761,8 @@
   skip_translation: true
 
 - text: "2OL|"
-  translation: ""
+  translation: "2OL|"
+  skip_translation: true
 
 - text: "Ax|"
   translation: "Ax|"
@@ -6570,7 +6821,8 @@
   skip_translation: true
 
 - text: "UU5@"
-  translation: ""
+  translation: "UU5@"
+  skip_translation: true
 
 - text: "ICl"
   translation: "ICl"
@@ -6581,7 +6833,8 @@
   skip_translation: true
 
 - text: "Adg"
-  translation: ""
+  translation: "Adg"
+  skip_translation: true
 
 - text: "EbS"
   translation: "EbS"
@@ -6612,10 +6865,12 @@
   skip_translation: true
 
 - text: "UU5@DD"
-  translation: ""
+  translation: "UU5@DD"
+  skip_translation: true
 
 - text: "9@TUU"
-  translation: ""
+  translation: "9@TUU"
+  skip_translation: true
 
 - text: "TUu"
   translation: "TUu"
@@ -6654,14 +6909,16 @@
   skip_translation: true
 
 - text: "UU5@\"\""
-  translation: ""
+  translation: "UU5@\"\""
+  skip_translation: true
 
 - text: "T+A"
   translation: "T+A"
   skip_translation: true
 
 - text: "CDD?vww"
-  translation: ""
+  translation: "CDD?vww"
+  skip_translation: true
 
 - text: "U@H"
   translation: "U@H"
@@ -6672,7 +6929,8 @@
   skip_translation: true
 
 - text: "UU5@TUU?"
-  translation: ""
+  translation: "UU5@TUU?"
+  skip_translation: true
 
 - text: "Oe@"
   translation: "Oe@"
@@ -6707,7 +6965,8 @@
   skip_translation: true
 
 - text: "UU5@CDD?"
-  translation: ""
+  translation: "UU5@CDD?"
+  skip_translation: true
 
 - text: "CDD?vw"
   translation: "CDD?vw"
@@ -6742,14 +7001,16 @@
   skip_translation: true
 
 - text: "UU5@eff?"
-  translation: ""
+  translation: "UU5@eff?"
+  skip_translation: true
 
 - text: ";@UU"
   translation: ";@UU"
   skip_translation: true
 
 - text: "UU5@ff"
-  translation: ""
+  translation: "UU5@ff"
+  skip_translation: true
 
 - text: "L@fff?"
   translation: "L@fff?"
@@ -6768,7 +7029,8 @@
   skip_translation: true
 
 - text: "Mgu"
-  translation: ""
+  translation: "Mgu"
+  skip_translation: true
 
 - text: "ECV"
   translation: "ECV"
@@ -6795,7 +7057,8 @@
   skip_translation: true
 
 - text: "Jha"
-  translation: ""
+  translation: "Jha"
+  skip_translation: true
 
 - text: "CKs"
   translation: "CKs"
@@ -6806,10 +7069,12 @@
   skip_translation: true
 
 - text: "Cet"
-  translation: ""
+  translation: "Cet"
+  skip_translation: true
 
 - text: "9@TUU?"
-  translation: ""
+  translation: "9@TUU?"
+  skip_translation: true
 
 - text: "L@TU"
   translation: "L@TU"
@@ -6852,7 +7117,8 @@
   skip_translation: true
 
 - text: "AUco"
-  translation: ""
+  translation: "AUco"
+  skip_translation: true
 
 - text: "JeM"
   translation: "JeM"
@@ -6879,7 +7145,8 @@
   skip_translation: true
 
 - text: "233@TUU?"
-  translation: ""
+  translation: "233@TUU?"
+  skip_translation: true
 
 - text: "TUU?ef"
   translation: "TUU?ef"
@@ -6926,7 +7193,8 @@
   skip_translation: true
 
 - text: "Q8?fff?"
-  translation: ""
+  translation: "Q8?fff?"
+  skip_translation: true
 
 - text: "KCr"
   translation: "KCr"
@@ -6941,7 +7209,8 @@
   skip_translation: true
 
 - text: "9@UU"
-  translation: ""
+  translation: "9@UU"
+  skip_translation: true
 
 - text: "PCj"
   translation: "PCj"
@@ -6960,7 +7229,8 @@
   skip_translation: true
 
 - text: "Mix"
-  translation: ""
+  translation: "Mix"
+  skip_translation: true
 
 - text: "C&y"
   translation: "C&y"
@@ -7015,7 +7285,8 @@
   skip_translation: true
 
 - text: "Akw"
-  translation: ""
+  translation: "Akw"
+  skip_translation: true
 
 - text: "/CU"
   translation: "/CU"
@@ -7066,10 +7337,12 @@
   skip_translation: true
 
 - text: "TUU?CDD"
-  translation: ""
+  translation: "TUU?CDD"
+  skip_translation: true
 
 - text: "f (nk6"
-  translation: ""
+  translation: "f (nk6"
+  skip_translation: true
 
 - text: "PID"
   translation: "PID"
@@ -7080,7 +7353,8 @@
   skip_translation: true
 
 - text: "Avi"
-  translation: ""
+  translation: "Avi"
+  skip_translation: true
 
 - text: "Ga?q="
   translation: "Ga?q="
@@ -7115,7 +7389,8 @@
   skip_translation: true
 
 - text: "233?UU"
-  translation: ""
+  translation: "233?UU"
+  skip_translation: true
 
 - text: "*?UU"
   translation: "*?UU"
@@ -7130,7 +7405,8 @@
   skip_translation: true
 
 - text: "RPoN"
-  translation: ""
+  translation: "RPoN"
+  skip_translation: true
 
 - text: "N?ff"
   translation: "N?ff"
@@ -7153,84 +7429,104 @@
   skip_translation: true
 
 - text: "Cartel Suit Brown"
-  translation: ""
+  translation: "Cartel Suit Brown"
+  skip_translation: true
 
 - text: "Neck Chip - Glow"
-  translation: ""
+  translation: "Neck Chip - Glow"
+  skip_translation: true
 
 - text: "Grey Cartel Suit 2 Pants"
-  translation: ""
+  translation: "Grey Cartel Suit 2 Pants"
+  skip_translation: true
 
 - text: "Brown Cartel Pants"
-  translation: ""
+  translation: "Brown Cartel Pants"
+  skip_translation: true
 
 - text: "Condom Belt"
-  translation: ""
+  translation: "Condom Belt"
+  skip_translation: true
 
 - text: "Cartel Hat"
-  translation: ""
+  translation: "Cartel Hat"
+  skip_translation: true
 
 - text: "Grey Cartel Suit 2"
-  translation: ""
+  translation: "Grey Cartel Suit 2"
+  skip_translation: true
 
 - text: "Brown Cartel Suit"
-  translation: ""
+  translation: "Brown Cartel Suit"
+  skip_translation: true
 
 - text: "Blue Chipset"
-  translation: ""
+  translation: "Blue Chipset"
+  skip_translation: true
 
 - text: "Klaudia's Mask"
-  translation: ""
+  translation: "Klaudia's Mask"
+  skip_translation: true
 
 - text: "Klaudia Default"
-  translation: ""
+  translation: "Klaudia Default"
+  skip_translation: true
 
 - text: "Lio Default Bottom"
-  translation: ""
+  translation: "Lio Default Bottom"
+  skip_translation: true
 
 - text: "Klaudia thong"
-  translation: ""
+  translation: "Klaudia thong"
+  skip_translation: true
 
 - text: "PUUUUU"
-  translation: ""
+  translation: "PUUUUU"
+  skip_translation: true
 
 - text: "Playable Track"
-  translation: ""
+  translation: "Playable Track"
+  skip_translation: true
 
 - text: "VUUUUU"
-  translation: ""
+  translation: "VUUUUU"
+  skip_translation: true
 
 - text: "UUUUUU&@"
-  translation: ""
+  translation: "UUUUUU&@"
+  skip_translation: true
 
 - text: "XUUUUU"
-  translation: ""
+  translation: "XUUUUU"
+  skip_translation: true
 
 - text: "\"\"JO"
   translation: "\\"
   skip_translation: true
 
 - text: "Ruffle Hair"
-  translation: ""
+  translation: "Ruffle Hair"
+  skip_translation: true
 
 - text: "Become Sweaty"
-  translation: ""
+  translation: "Become Sweaty"
+  skip_translation: true
 
 - text: "`UUUUU"
   translation: "`UUUUU"
   skip_translation: true
 
 - text: "Game Over"
-  translation: ""
+  translation: "Проигрыш"
 
 - text: "Main Menu"
-  translation: ""
+  translation: "Главное меню"
 
 - text: "Continue"
   translation: "Продолжить"
 
 - text: "FakeMirror Preview RenderTexture"
-  translation: ""
+  translation: "Рендертекстура предпросмотра зеркала"
 
 - text: "Wbc"
   translation: "Wbc"
@@ -7341,7 +7637,8 @@
   skip_translation: true
 
 - text: "AMjQ"
-  translation: ""
+  translation: "AMjQ"
+  skip_translation: true
 
 - text: "AOz"
   translation: "AOz"
@@ -7372,7 +7669,8 @@
   skip_translation: true
 
 - text: "IIFrR"
-  translation: ""
+  translation: "IIFrR"
+  skip_translation: true
 
 - text: "Ld&"
   translation: "Ld&"
@@ -7387,7 +7685,8 @@
   skip_translation: true
 
 - text: "Bboob2"
-  translation: ""
+  translation: "Bboob2"
+  skip_translation: true
 
 - text: "Bboob_big"
   translation: "Bboob_big"
@@ -7398,40 +7697,52 @@
   skip_translation: true
 
 - text: "BHDreadlocks"
-  translation: ""
+  translation: "BHDreadlocks"
+  skip_translation: true
 
 - text: "BHlong"
-  translation: ""
+  translation: "BHlong"
+  skip_translation: true
 
 - text: "BHlong2"
-  translation: ""
+  translation: "BHlong2"
+  skip_translation: true
 
 - text: "skin_light/balls B"
-  translation: ""
+  translation: "skin_light/balls B"
+  skip_translation: true
 
 - text: "skin_tan/B balls"
-  translation: ""
+  translation: "skin_tan/B balls"
+  skip_translation: true
 
 - text: "skin_tan/S balls"
-  translation: ""
+  translation: "skin_tan/S balls"
+  skip_translation: true
 
 - text: "skin_light/balls S"
-  translation: ""
+  translation: "skin_light/balls S"
+  skip_translation: true
 
 - text: "Bknee2"
-  translation: ""
+  translation: "Bknee2"
+  skip_translation: true
 
 - text: "Goatee"
-  translation: ""
+  translation: "Goatee"
+  skip_translation: true
 
 - text: "Harley sunglasses"
-  translation: ""
+  translation: "Harley sunglasses"
+  skip_translation: true
 
 - text: "Mustache"
-  translation: ""
+  translation: "Mustache"
+  skip_translation: true
 
 - text: "RULash"
-  translation: ""
+  translation: "RULash"
+  skip_translation: true
 
 - text: "Rblank"
   translation: "Rblank"
@@ -7442,16 +7753,20 @@
   skip_translation: true
 
 - text: "Sideburns"
-  translation: ""
+  translation: "Sideburns"
+  skip_translation: true
 
 - text: "eyebrows  folds"
-  translation: ""
+  translation: "eyebrows  folds"
+  skip_translation: true
 
 - text: "eyes folds"
-  translation: ""
+  translation: "eyes folds"
+  skip_translation: true
 
 - text: "face folds"
-  translation: ""
+  translation: "face folds"
+  skip_translation: true
 
 - text: "Ua?="
   translation: "Ua?="
@@ -7466,83 +7781,108 @@
   skip_translation: true
 
 - text: "B nipple rings"
-  translation: ""
+  translation: "B nipple rings"
+  skip_translation: true
 
 - text: "chip slot"
-  translation: ""
+  translation: "chip slot"
+  skip_translation: true
 
 - text: "default_outfit/B  boot"
-  translation: ""
+  translation: "default_outfit/B  boot"
+  skip_translation: true
 
 - text: "default_outfit/Bboot rimlight"
-  translation: ""
+  translation: "default_outfit/Bboot rimlight"
+  skip_translation: true
 
 - text: "default_outfit/belly chain1"
-  translation: ""
+  translation: "default_outfit/belly chain1"
+  skip_translation: true
 
 - text: "default_outfit/belly chain2"
-  translation: ""
+  translation: "default_outfit/belly chain2"
+  skip_translation: true
 
 - text: "default_outfit/black nail"
-  translation: ""
+  translation: "default_outfit/black nail"
+  skip_translation: true
 
 - text: "default_outfit/BLPant rimlight"
-  translation: ""
+  translation: "default_outfit/BLPant rimlight"
+  skip_translation: true
 
 - text: "default_outfit/BSL rimlight"
-  translation: ""
+  translation: "default_outfit/BSL rimlight"
+  skip_translation: true
 
 - text: "default_outfit/chain on neck"
-  translation: ""
+  translation: "default_outfit/chain on neck"
+  skip_translation: true
 
 - text: "default_outfit/F  boot"
-  translation: ""
+  translation: "default_outfit/F  boot"
+  skip_translation: true
 
 - text: "default_outfit/Fboot rimlight"
-  translation: ""
+  translation: "default_outfit/Fboot rimlight"
+  skip_translation: true
 
 - text: "default_outfit/FLpant rimlight"
-  translation: ""
+  translation: "default_outfit/FLpant rimlight"
+  skip_translation: true
 
 - text: "default_outfit/FLsleeve light"
-  translation: ""
+  translation: "default_outfit/FLsleeve light"
+  skip_translation: true
 
 - text: "default_outfit/FSL rimlight"
-  translation: ""
+  translation: "default_outfit/FSL rimlight"
+  skip_translation: true
 
 - text: "default_outfit/FSS rimlight"
-  translation: ""
+  translation: "default_outfit/FSS rimlight"
+  skip_translation: true
 
 - text: "default_outfit/FSU rimlight"
-  translation: ""
+  translation: "default_outfit/FSU rimlight"
+  skip_translation: true
 
 - text: "default_outfit/id card"
-  translation: ""
+  translation: "default_outfit/id card"
+  skip_translation: true
 
 - text: "default_outfit/id   circle"
-  translation: ""
+  translation: "default_outfit/id   circle"
+  skip_translation: true
 
 - text: "default_outfit/id circle2"
-  translation: ""
+  translation: "default_outfit/id circle2"
+  skip_translation: true
 
 - text: "default_outfit/id pocket"
-  translation: ""
+  translation: "default_outfit/id pocket"
+  skip_translation: true
 
 - text: "FemboyB_Bhand"
-  translation: ""
+  translation: "FemboyB_Bhand"
+  skip_translation: true
 
 - text: "FemboyB_arm"
-  translation: ""
+  translation: "FemboyB_arm"
+  skip_translation: true
 
 - text: "FemboyL_arm"
-  translation: ""
+  translation: "FemboyL_arm"
+  skip_translation: true
 
 - text: "Lbrow_m"
   translation: "Lbrow_m"
   skip_translation: true
 
 - text: "RLlash"
-  translation: ""
+  translation: "RLlash"
+  skip_translation: true
 
 - text: "Rbrow_m"
   translation: "Rbrow_m"
@@ -7553,38 +7893,48 @@
   skip_translation: true
 
 - text: "Bearring"
-  translation: ""
+  translation: "Bearring"
+  skip_translation: true
 
 - text: "Bheel"
-  translation: ""
+  translation: "Bheel"
+  skip_translation: true
 
 - text: "Bheel strap"
-  translation: ""
+  translation: "Bheel strap"
+  skip_translation: true
 
 - text: "Bpelt"
   translation: "Bpelt"
   skip_translation: true
 
 - text: "expression/Angry_Side lid"
-  translation: ""
+  translation: "expression/Angry_Side lid"
+  skip_translation: true
 
 - text: "expression/Aroused_LSide lid"
-  translation: ""
+  translation: "expression/Aroused_LSide lid"
+  skip_translation: true
 
 - text: "expression/Aroused_mouth base"
-  translation: ""
+  translation: "expression/Aroused_mouth base"
+  skip_translation: true
 
 - text: "expression/Aroused_RSide lid"
-  translation: ""
+  translation: "expression/Aroused_RSide lid"
+  skip_translation: true
 
 - text: "expression/brow12_angry icon"
-  translation: ""
+  translation: "expression/brow12_angry icon"
+  skip_translation: true
 
 - text: "expression/brow12_horns icon"
-  translation: ""
+  translation: "expression/brow12_horns icon"
+  skip_translation: true
 
 - text: "expression/Happy_Side lid"
-  translation: ""
+  translation: "expression/Happy_Side lid"
+  skip_translation: true
 
 - text: "Mask_base"
   translation: "Mask_base"
@@ -7595,24 +7945,28 @@
   skip_translation: true
 
 - text: "F nipple rings"
-  translation: ""
+  translation: "F nipple rings"
+  skip_translation: true
 
 - text: "Lpupil"
-  translation: ""
+  translation: "Lpupil"
+  skip_translation: true
 
 - text: "P0iJ%@"
   translation: "P0iJ%@"
   skip_translation: true
 
 - text: "TUUUUA@"
-  translation: ""
+  translation: "TUUUUA@"
+  skip_translation: true
 
 - text: "`UU"
   translation: "`UU"
   skip_translation: true
 
 - text: "Spine Animation State Track"
-  translation: ""
+  translation: "Spine Animation State Track"
+  skip_translation: true
 
 - text: "VUUUU"
   translation: "VUUUU"
@@ -7623,17 +7977,20 @@
   skip_translation: true
 
 - text: "Animation Track"
-  translation: ""
+  translation: "Animation Track"
+  skip_translation: true
 
 - text: "Suitcase bad End 4 Handjob CutsceneTimeline"
   translation: "Suitcase bad End 4 Handjob CutsceneTimeline"
   skip_translation: true
 
 - text: "Look Direction Track"
-  translation: ""
+  translation: "Look Direction Track"
+  skip_translation: true
 
 - text: "Activation Track"
-  translation: ""
+  translation: "Activation Track"
+  skip_translation: true
 
 - text: "WUU"
   translation: "WUU"
@@ -7648,24 +8005,28 @@
   skip_translation: true
 
 - text: "UUUMUU0@"
-  translation: ""
+  translation: "UUUMUU0@"
+  skip_translation: true
 
 - text: "VUUUUU)@733333"
-  translation: ""
+  translation: "VUUUUU)@733333"
+  skip_translation: true
 
 - text: "Suitcase bad End 3 Sit on Lap CutsceneTimeline"
   translation: "Suitcase bad End 3 Sit on Lap CutsceneTimeline"
   skip_translation: true
 
 - text: "Eg @"
-  translation: ""
+  translation: "Eg @"
+  skip_translation: true
 
 - text: "Suitcase bad End 1 Intro CutsceneTimeline"
   translation: "Suitcase bad End 1 Intro CutsceneTimeline"
   skip_translation: true
 
 - text: "Handjob Down2"
-  translation: ""
+  translation: "Handjob Down2"
+  skip_translation: true
 
 - text: "EDDDDD1@"
   translation: "EDDDDD1@"
@@ -7676,512 +8037,633 @@
   skip_translation: true
 
 - text: "Neon Nights - Gameplay Post Process Profile"
-  translation: ""
+  translation: "Профиль пост-обработки геймплея"
 
 - text: "Erokin Wet"
-  translation: ""
+  translation: "Erokin Wet"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 2_line_0-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 2_line_0-FSM"
+  skip_translation: true
 
 - text: "On Line Displaying 2"
-  translation: ""
+  translation: "On Line Displaying 2"
+  skip_translation: true
 
 - text: "TargetChar"
-  translation: ""
+  translation: "TargetChar"
+  skip_translation: true
 
 - text: "Effect"
-  translation: ""
+  translation: "Effect"
+  skip_translation: true
 
 - text: "TargetLimb"
-  translation: ""
+  translation: "TargetLimb"
+  skip_translation: true
 
 - text: "Silent"
-  translation: ""
+  translation: "Silent"
+  skip_translation: true
 
 - text: "Hair_Male_3"
-  translation: ""
+  translation: "Hair_Male_3"
+  skip_translation: true
 
 - text: "Primary"
-  translation: ""
+  translation: "Primary"
+  skip_translation: true
 
 - text: "Back"
   translation: "Back"
   skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 1_line_0-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 1_line_0-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 24_line_4-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 24_line_4-FSM"
+  skip_translation: true
 
 - text: "On Line Displaying"
-  translation: ""
+  translation: "On Line Displaying"
+  skip_translation: true
 
 - text: "Amount"
-  translation: ""
+  translation: "Amount"
+  skip_translation: true
 
 - text: "Pull Off Condom"
-  translation: ""
+  translation: "Стянуть презерватив"
 
 - text: "Put on Condom"
-  translation: ""
+  translation: "Надеть презерватив"
 
 - text: "Take off CartelGuys Pants"
-  translation: ""
+  translation: "Снять штаны с картельщика"
 
 - text: "Undress boss and lady"
-  translation: ""
+  translation: "Раздеть босса и леди"
 
 - text: "BodyWriting"
-  translation: ""
+  translation: "BodyWriting"
+  skip_translation: true
 
 - text: "SexXP_10"
-  translation: ""
+  translation: "SexXP_10"
+  skip_translation: true
 
 - text: "SexXP_2"
-  translation: ""
+  translation: "SexXP_2"
+  skip_translation: true
 
 - text: "TakeOffCondom2"
-  translation: ""
+  translation: "TakeOffCondom2"
+  skip_translation: true
 
 - text: "SexXP_1"
-  translation: ""
+  translation: "SexXP_1"
+  skip_translation: true
 
 - text: "SexXP_5"
-  translation: ""
+  translation: "SexXP_5"
+  skip_translation: true
 
 - text: "SexXP_8"
-  translation: ""
+  translation: "SexXP_8"
+  skip_translation: true
 
 - text: "SexXP_3"
-  translation: ""
+  translation: "SexXP_3"
+  skip_translation: true
 
 - text: "SexXP_9"
-  translation: ""
+  translation: "SexXP_9"
+  skip_translation: true
 
 - text: "SexXP_7"
-  translation: ""
+  translation: "SexXP_7"
+  skip_translation: true
 
 - text: "SexXP_4"
-  translation: ""
+  translation: "SexXP_4"
+  skip_translation: true
 
 - text: "Undress Camera Guy"
-  translation: ""
+  translation: "Раздеть оператора"
 
 - text: "Undress Guy 3"
-  translation: ""
+  translation: "Раздеть парня 3"
 
 - text: "SexXP_6"
-  translation: ""
+  translation: "SexXP_6"
+  skip_translation: true
 
 - text: "Inject Glow"
-  translation: ""
+  translation: "Inject Glow"
+  skip_translation: true
 
 - text: "Take off Jacket"
-  translation: ""
+  translation: "Снять куртку"
 
 - text: "Start"
   translation: "Start"
   skip_translation: true
 
 - text: "EffectGiven"
-  translation: ""
+  translation: "EffectGiven"
+  skip_translation: true
 
 - text: "Owner"
-  translation: ""
+  translation: "Owner"
+  skip_translation: true
 
 - text: "Handler"
-  translation: ""
+  translation: "Handler"
+  skip_translation: true
 
 - text: "Bark"
   translation: "Bark"
   skip_translation: true
 
 - text: "StoreAs"
-  translation: ""
+  translation: "StoreAs"
+  skip_translation: true
 
 - text: "OnBarkDone"
-  translation: ""
+  translation: "OnBarkDone"
+  skip_translation: true
 
 - text: "Type"
-  translation: ""
+  translation: "Type"
+  skip_translation: true
 
 - text: "BarkObject"
-  translation: ""
+  translation: "BarkObject"
+  skip_translation: true
 
 - text: "EffectTaken"
-  translation: ""
+  translation: "EffectTaken"
+  skip_translation: true
 
 - text: "ToStop"
-  translation: ""
+  translation: "ToStop"
+  skip_translation: true
 
 - text: "Take off Outfit"
-  translation: ""
+  translation: "Снять наряд"
 
 - text: "Take off Panties"
-  translation: ""
+  translation: "Снять трусики"
 
 - text: "Take off Bra"
-  translation: ""
+  translation: "Снять лифчик"
 
 - text: "Perversion Interference Profile"
-  translation: ""
+  translation: "Профиль помех перверсии"
 
 - text: "Klaudia Heels FSM"
-  translation: ""
+  translation: "FSM туфель Клаудии"
 
 - text: "Klaudia Knee FSM"
-  translation: ""
+  translation: "FSM колена Клаудии"
 
 - text: "Klaudia Chips FSM"
-  translation: ""
+  translation: "FSM чипов Клаудии"
 
 - text: "Klaudia Arm FSM"
-  translation: ""
+  translation: "FSM руки Клаудии"
 
 - text: "Il?"
   translation: "Il?"
   skip_translation: true
 
 - text: "Klaudia Breasts FSM"
-  translation: ""
+  translation: "FSM груди Клаудии"
 
 - text: "Did stare before?"
-  translation: ""
+  translation: "Уже смотрела раньше?"
 
 - text: "Second time"
-  translation: ""
+  translation: "Второй раз"
 
 - text: "ToCallOnMatch"
-  translation: ""
+  translation: "ToCallOnMatch"
+  skip_translation: true
 
 - text: "EventsByInt"
-  translation: ""
+  translation: "EventsByInt"
+  skip_translation: true
 
 - text: "StringValue"
-  translation: ""
+  translation: "StringValue"
+  skip_translation: true
 
 - text: "BoolValue"
-  translation: ""
+  translation: "BoolValue"
+  skip_translation: true
 
 - text: "FloatValue"
-  translation: ""
+  translation: "FloatValue"
+  skip_translation: true
 
 - text: "IntValue"
-  translation: ""
+  translation: "IntValue"
+  skip_translation: true
 
 - text: "KeyName"
-  translation: ""
+  translation: "KeyName"
+  skip_translation: true
 
 - text: "HasBeenSet"
-  translation: ""
+  translation: "HasBeenSet"
+  skip_translation: true
 
 - text: "Stared at Klaudias Tits"
-  translation: ""
+  translation: "Посмотрел на грудь Клаудии"
 
 - text: "CharacterTarget"
-  translation: ""
+  translation: "Цель персонажа"
 
 - text: "StatID"
-  translation: ""
+  translation: "StatID"
+  skip_translation: true
 
 - text: "ToAdd"
-  translation: ""
+  translation: "ToAdd"
+  skip_translation: true
 
 - text: "SaveID"
-  translation: ""
+  translation: "SaveID"
+  skip_translation: true
 
 - text: "Klaudia Cigarette FSM"
-  translation: ""
+  translation: "FSM сигареты Клаудии"
 
 - text: "SuitcaseBadend - CartelHideout - 29_line_8-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 29_line_8-FSM"
+  skip_translation: true
 
 - text: "StatType"
-  translation: ""
+  translation: "StatType"
+  skip_translation: true
 
 - text: "Add"
-  translation: ""
+  translation: "Add"
+  skip_translation: true
 
 - text: "SetIfNotZoey"
-  translation: ""
+  translation: "SetIfNotZoey"
+  skip_translation: true
 
 - text: "Delay"
-  translation: ""
+  translation: "Delay"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 23_line_2-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 23_line_2-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 10_line_15-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 10_line_15-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 33_line_0-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 33_line_0-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 29_line_11-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 29_line_11-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 22_line_7-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 22_line_7-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 26_line_7-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 26_line_7-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 8_line_0-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 8_line_0-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 18_line_3-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 18_line_3-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 15_line_3-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 15_line_3-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 32_line_9-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 32_line_9-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 17_line_4-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 17_line_4-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 31_line_9-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 31_line_9-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 23_line_6-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 23_line_6-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 33_line_10-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 33_line_10-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 22_line_9-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 22_line_9-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 6_line_0-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 6_line_0-FSM"
+  skip_translation: true
 
 - text: "TargetAllLimbs"
-  translation: ""
+  translation: "TargetAllLimbs"
+  skip_translation: true
 
 - text: "ApplyToClothes"
-  translation: ""
+  translation: "ApplyToClothes"
+  skip_translation: true
 
 - text: "ToShow"
-  translation: ""
+  translation: "ToShow"
+  skip_translation: true
 
 - text: "Position"
-  translation: ""
+  translation: "Position"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 20_line_3-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 20_line_3-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 9_line_7-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 9_line_7-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 30_line_0-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 30_line_0-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 31_line_4-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 31_line_4-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 29_line_0-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 29_line_0-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 25_line_9-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 25_line_9-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 28_line_4-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 28_line_4-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 10_line_4-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 10_line_4-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 18_line_6-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 18_line_6-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 11_line_10-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 11_line_10-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 33_line_9-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 33_line_9-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 16_line_8-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 16_line_8-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 18_line_4-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 18_line_4-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 17_line_8-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 17_line_8-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 17_line_10-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 17_line_10-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 22_line_2-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 22_line_2-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 27_line_7-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 27_line_7-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 13_line_3-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 13_line_3-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 14_line_7-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 14_line_7-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 32_line_0-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 32_line_0-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 21_line_6-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 21_line_6-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 22_line_6-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 22_line_6-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 3_line_1-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 3_line_1-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 10_line_13-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 10_line_13-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 21_line_3-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 21_line_3-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 23_line_7-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 23_line_7-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 19_line_3-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 19_line_3-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 8_line_6-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 8_line_6-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 29_line_9-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 29_line_9-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 10_line_3-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 10_line_3-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 17_line_15-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 17_line_15-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 7_line_7-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 7_line_7-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 8_line_4-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 8_line_4-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 10_line_7-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 10_line_7-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 16_line_3-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 16_line_3-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 31_line_0-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 31_line_0-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 4_line_1-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 4_line_1-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 16_line_2-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 16_line_2-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 7_line_0-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 7_line_0-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 29_line_4-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 29_line_4-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 9_line_9-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 9_line_9-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 28_line_0-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 28_line_0-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 17_line_6-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 17_line_6-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 9_line_3-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 9_line_3-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 7_line_11-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 7_line_11-FSM"
+  skip_translation: true
 
 - text: "SuitcaseBadend - CartelHideout - 13_line_7-FSM"
-  translation: ""
+  translation: "SuitcaseBadend - CartelHideout - 13_line_7-FSM"
+  skip_translation: true
 
 - text: "Ass and Pussy - Wet"
-  translation: ""
+  translation: "Попа и киска — мокрые"
 
 - text: "BoobsNude - Nipple Go Errect"
-  translation: ""
+  translation: "Грудь обнажённая — соски встают"
 
 - text: "AssNude - 1 Hand Groping Male"
-  translation: ""
+  translation: "Попа обнажённая — рука мужчины лапает"
 
 - text: "PUSSY"
   translation: "PUSSY"
   skip_translation: true
 
 - text: "PERVERSION"
-  translation: ""
+  translation: "PERVERSION"
+  skip_translation: true
 
 - text: "GAME"
   translation: "GAME"
   skip_translation: true
 
 - text: "ToLevel"
-  translation: ""
+  translation: "ToLevel"
+  skip_translation: true
 
 - text: "OVER"
   translation: "OVER"
   skip_translation: true
 
 - text: "OpenMainMenu"
-  translation: ""
+  translation: "OpenMainMenu"
+  skip_translation: true
 
 - text: "ContinueGame"
-  translation: ""
+  translation: "ContinueGame"
+  skip_translation: true
 
 - text: "Sollte ich wiederstehen?"
-  translation: ""
+  translation: "Должен ли я сопротивляться?"
 
 - text: "Warme H"
-  translation: ""
+  translation: "Тёплые руки"
 
 - text: "nde greifen nach mir,"
-  translation: ""
+  translation: "хватают меня,"
 
 - text: "Verzweifeln eine W"
-  translation: ""
+  translation: "Отчаянно пытаюсь"
 
 - text: "rme in mir freizulassen,"
-  translation: ""
+  translation: "освободить внутри меня,"
 
 - text: "Werde ich die richtige Entscheidung treffen?"
-  translation: ""
+  translation: "Приму ли я правильное решение?"
 
 - text: "Eine Maske versteckt meine Tr"
-  translation: ""
+  translation: "Маска скрывает мои слёзы"
 
 - text: "Aber was passiert wenn ich sie abnehme?"
-  translation: ""
+  translation: "Но что будет, если я сниму её?"
 
 - text: "Ich f"
-  translation: ""
+  translation: "Я чувствую,"
 
 - text: "hle wie die Maske nachgibt,"
-  translation: ""
+  translation: "как маска уступает,"
 
 - text: "Sie enth"
-  translation: ""
+  translation: "Она обнажает"
 
 - text: "llen mich, es gibt keine R"
-  translation: ""
+  translation: "наполняет меня, нет пути назад"
 
 - text: "Ich folge dem Sto"
-  translation: ""
+  translation: "Я следую за толчком"
 
 - text: "unsichtbarer H"
-  translation: ""
+  translation: "невидимая рука"
 
 - text: "RETRY"
   translation: "RETRY"
@@ -8192,458 +8674,524 @@
   skip_translation: true
 
 - text: "Mirror interaction"
-  translation: ""
+  translation: "Взаимодействие с зеркалом"
 
 - text: "Groping Sound"
-  translation: ""
+  translation: "Звук лапанья"
 
 - text: "Groping Sound 1"
-  translation: ""
+  translation: "Звук лапанья 1"
 
 - text: "SFX for Cutscene"
-  translation: ""
+  translation: "SFX для катсцены"
 
 - text: "Condoms"
-  translation: ""
+  translation: "Презервативы"
 
 - text: "Sex Sound 1"
-  translation: ""
+  translation: "Звук секса 1"
 
 - text: "2 Suitcase bad End 2nd Cutscene"
-  translation: ""
+  translation: "2-я катсцена плохой концовки"
 
 - text: "Sex Sound 3"
-  translation: ""
+  translation: "Звук секса 3"
 
 - text: "Light 2D"
-  translation: ""
+  translation: "Light 2D"
+  skip_translation: true
 
 - text: "Room1"
-  translation: ""
+  translation: "Room1"
+  skip_translation: true
 
 - text: "Pussy Grinding Sounds 1"
-  translation: ""
+  translation: "Звук трения киски 1"
 
 - text: "Female Moaning 1"
-  translation: ""
+  translation: "Женский стон 1"
 
 - text: "Scary Rumble"
-  translation: ""
+  translation: "Страшный гул"
 
 - text: "Walla"
-  translation: ""
+  translation: "Walla"
+  skip_translation: true
 
 - text: "Sequences"
-  translation: ""
+  translation: "Sequences"
+  skip_translation: true
 
 - text: "Smoke"
-  translation: ""
+  translation: "Smoke"
+  skip_translation: true
 
 - text: "Rattling 1"
-  translation: ""
+  translation: "Дребезжание 1"
 
 - text: "Props"
   translation: "Props"
   skip_translation: true
 
 - text: "Suitcase Bad End"
-  translation: ""
+  translation: "Плохая концовка — Чемодан"
 
 - text: "Collectibles"
   translation: "Коллекционные предметы"
 
 - text: "Groping Sound 3"
-  translation: ""
+  translation: "Звук лапанья 3"
 
 - text: "3 Suitcase bad End Sit on Lap Cutscene"
-  translation: ""
+  translation: "3-я катсцена — сидение на коленях"
 
 - text: "Test"
   translation: "Test"
   skip_translation: true
 
 - text: "Characters"
-  translation: ""
+  translation: "Characters"
+  skip_translation: true
 
 - text: "Zoey Moaning 1"
-  translation: ""
+  translation: "Стон Зои 1"
 
 - text: "Move Back Location"
-  translation: ""
+  translation: "Локация отхода"
 
 - text: "Cube"
-  translation: ""
+  translation: "Cube"
+  skip_translation: true
 
 - text: "Zoey Moaning 2"
-  translation: ""
+  translation: "Стон Зои 2"
 
 - text: "Ensure Zoey is wearing default outfit"
-  translation: ""
+  translation: "Проверить стандартный наряд Зои"
 
 - text: "Sex Sound 2"
-  translation: ""
+  translation: "Звук секса 2"
 
 - text: "Walls"
   translation: "Walls"
   skip_translation: true
 
 - text: "Boom on Sit Down"
-  translation: ""
+  translation: "Бум при посадке"
 
 - text: "Moaning"
-  translation: ""
+  translation: "Стоны"
 
 - text: "Small Props"
-  translation: ""
+  translation: "Small Props"
+  skip_translation: true
 
 - text: "4 Suitcase bad End Handjob Cutscene"
-  translation: ""
+  translation: "4-я катсцена — дрочка"
 
 - text: "Ambient Occlusion"
-  translation: ""
+  translation: "Ambient Occlusion"
+  skip_translation: true
 
 - text: "Corner Sofa"
-  translation: ""
+  translation: "Corner Sofa"
+  skip_translation: true
 
 - text: "Environment"
-  translation: ""
+  translation: "Environment"
+  skip_translation: true
 
 - text: "Take off Outfit Logic"
-  translation: ""
+  translation: "Логика снятия наряда"
 
 - text: "Sit in Lap Interaction"
-  translation: ""
+  translation: "Взаимодействие — сесть на колени"
 
 - text: "Female Moaning 2"
-  translation: ""
+  translation: "Женский стон 2"
 
 - text: "Black Overlay Canvas"
-  translation: ""
+  translation: "Чёрный оверлей"
 
 - text: "Pathfinding Floor"
-  translation: ""
+  translation: "Пол для поиска пути"
 
 - text: "Condoms Interaction"
-  translation: ""
+  translation: "Взаимодействие с презервативами"
 
 - text: "Take off Jacket Logic"
-  translation: ""
+  translation: "Логика снятия куртки"
 
 - text: "Cutscene Camera Target"
-  translation: ""
+  translation: "Цель камеры катсцены"
 
 - text: "Lighting"
-  translation: ""
+  translation: "Lighting"
+  skip_translation: true
 
 - text: "Extra Logic"
-  translation: ""
+  translation: "Extra Logic"
+  skip_translation: true
 
 - text: "5 Suitcase bad End Thighjob Cutscene"
-  translation: ""
+  translation: "5-я катсцена — межбёдерный секс"
 
 - text: "Zoey Teleport Position"
-  translation: ""
+  translation: "Позиция телепорта Зои"
 
 - text: "Initial Logic"
-  translation: ""
+  translation: "Initial Logic"
+  skip_translation: true
 
 - text: "HornyLimiter"
-  translation: ""
+  translation: "Лимитер возбуждения"
 
 - text: "Groping Sound 2"
-  translation: ""
+  translation: "Звук лапанья 2"
 
 - text: "Stroking Sound 2"
-  translation: ""
+  translation: "Звук глажки 2"
 
 - text: "1 Suitcase bad End Intro Cutscene"
-  translation: ""
+  translation: "1-я катсцена — вступление"
 
 - text: "Condom on CartelGuy"
-  translation: ""
+  translation: "Презерватив на картельщике"
 
 - text: "GroupMaster"
-  translation: ""
+  translation: "GroupMaster"
+  skip_translation: true
 
 - text: "Stroking Sound 3"
-  translation: ""
+  translation: "Звук глажки 3"
 
 - text: "Walkable Area"
-  translation: ""
+  translation: "Проходимая зона"
 
 - text: "Vignette Canvas"
-  translation: ""
+  translation: "Виньетка"
 
 - text: "Stroking Sound 1"
-  translation: ""
+  translation: "Звук глажки 1"
 
 - text: "Handjob Interaction"
-  translation: ""
+  translation: "Взаимодействие — дрочка"
 
 - text: "Female Moaning 3"
-  translation: ""
+  translation: "Женский стон 3"
 
 - text: "Particle System"
-  translation: ""
+  translation: "Система частиц"
 
 - text: "CameraContainer"
-  translation: ""
+  translation: "Контейнер камеры"
 
 - text: "MousePlane"
-  translation: ""
+  translation: "MousePlane"
+  skip_translation: true
 
 - text: "TabOpener"
-  translation: ""
+  translation: "Открыватель вкладок"
 
 - text: "Main Camera"
-  translation: ""
+  translation: "Main Camera"
+  skip_translation: true
 
 - text: "Visual"
-  translation: ""
+  translation: "Visual"
+  skip_translation: true
 
 - text: "Unlocked Door Visual"
-  translation: ""
+  translation: "Визуал открытой двери"
 
 - text: "Sofa Cartel Member"
-  translation: ""
+  translation: "Sofa Cartel Member"
+  skip_translation: true
 
 - text: "Male Cartel Member With Camera"
-  translation: ""
+  translation: "Male Cartel Member With Camera"
+  skip_translation: true
 
 - text: "Female Cartel Member"
-  translation: ""
+  translation: "Female Cartel Member"
+  skip_translation: true
 
 - text: "Male Cartel Member"
-  translation: ""
+  translation: "Male Cartel Member"
+  skip_translation: true
 
 - text: "Red Floor Highlight"
-  translation: ""
+  translation: "Красная подсветка пола"
 
 - text: "Locked Door Visual"
-  translation: ""
+  translation: "Визуал запертой двери"
 
 - text: "Notifications"
-  translation: ""
+  translation: "Notifications"
+  skip_translation: true
 
 - text: "Money_6"
   translation: "Money_6"
   skip_translation: true
 
 - text: "Interaction Area"
-  translation: ""
+  translation: "Зона взаимодействия"
 
 - text: "AIPositions"
-  translation: ""
+  translation: "AIPositions"
+  skip_translation: true
 
 - text: "Top left of Zoey"
-  translation: ""
+  translation: "Top left of Zoey"
+  skip_translation: true
 
 - text: "Door_Right"
-  translation: ""
+  translation: "Door_Right"
+  skip_translation: true
 
 - text: "reflection : Spine GameObject"
-  translation: ""
+  translation: "reflection : Spine GameObject"
+  skip_translation: true
 
 - text: "Sprites"
-  translation: ""
+  translation: "Sprites"
+  skip_translation: true
 
 - text: "Colliders"
-  translation: ""
+  translation: "Colliders"
+  skip_translation: true
 
 - text: "Money_5 1"
-  translation: ""
+  translation: "Money_5 1"
+  skip_translation: true
 
 - text: "Top right of Zoey"
-  translation: ""
+  translation: "Top right of Zoey"
+  skip_translation: true
 
 - text: "Mirror Camera"
-  translation: ""
+  translation: "Камера зеркала"
 
 - text: "Outer Box"
-  translation: ""
+  translation: "Outer Box"
+  skip_translation: true
 
 - text: "Money_2_Shadow"
-  translation: ""
+  translation: "Money_2_Shadow"
+  skip_translation: true
 
 - text: "HornyBarUI"
-  translation: ""
+  translation: "Полка возбуждения"
 
 - text: "ShaderHelper"
   translation: "ShaderHelper"
   skip_translation: true
 
 - text: "Dildo_B"
-  translation: ""
+  translation: "Dildo_B"
+  skip_translation: true
 
 - text: "NotifPanel"
-  translation: ""
+  translation: "Панель уведомлений"
 
 - text: "Unlock Sound"
-  translation: ""
+  translation: "Звук разблокировки"
 
 - text: "Open Sound"
-  translation: ""
+  translation: "Звук открытия"
 
 - text: "Sofa_EndRight"
-  translation: ""
+  translation: "Sofa_EndRight"
+  skip_translation: true
 
 - text: "Money_7"
   translation: "Money_7"
   skip_translation: true
 
 - text: "Right Groping Position"
-  translation: ""
+  translation: "Позиция правой ласки"
 
 - text: "Bark Location"
-  translation: ""
+  translation: "Место реплики"
 
 - text: "Physical"
-  translation: ""
+  translation: "Physical"
+  skip_translation: true
 
 - text: "Automatic Door"
-  translation: ""
+  translation: "Автоматическая дверь"
 
 - text: "Scaler"
-  translation: ""
+  translation: "Scaler"
+  skip_translation: true
 
 - text: "DamageVignettes"
-  translation: ""
+  translation: "Виньетки урона"
 
 - text: "Mirror Background"
-  translation: ""
+  translation: "Фон зеркала"
 
 - text: "Bin_1"
-  translation: ""
+  translation: "Bin_1"
+  skip_translation: true
 
 - text: "Arrow"
-  translation: ""
+  translation: "Arrow"
+  skip_translation: true
 
 - text: "PinupPickup - Glowing Zoey - Doggy"
   translation: "PinupPickup - Светящаяся Зои - Собачкой"
 
 - text: "PinupPickup - Glowing Zoey - Anonymous Blowjob"
-  translation: ""
+  translation: "PinupPickup - Glowing Zoey - Anonymous Blowjob"
+  skip_translation: true
 
 - text: "PinupPickup - Glowing Zoey - Blowjob"
-  translation: ""
+  translation: "PinupPickup - Glowing Zoey - Blowjob"
+  skip_translation: true
 
 - text: "Money_6_Shadow"
-  translation: ""
+  translation: "Money_6_Shadow"
+  skip_translation: true
 
 - text: "Left Groping Position"
-  translation: ""
+  translation: "Позиция левой ласки"
 
 - text: "Dildo_B_Shadow"
-  translation: ""
+  translation: "Dildo_B_Shadow"
+  skip_translation: true
 
 - text: "Money_3"
   translation: "Money_3"
   skip_translation: true
 
 - text: "Money_5_Shadow"
-  translation: ""
+  translation: "Money_5_Shadow"
+  skip_translation: true
 
 - text: "Sofa_EndLeft"
-  translation: ""
+  translation: "Sofa_EndLeft"
+  skip_translation: true
 
 - text: "Shine"
-  translation: ""
+  translation: "Shine"
+  skip_translation: true
 
 - text: "Wall_End_Right"
-  translation: ""
+  translation: "Wall_End_Right"
+  skip_translation: true
 
 - text: "Sofa_Middle"
-  translation: ""
+  translation: "Sofa_Middle"
+  skip_translation: true
 
 - text: "Sofa"
-  translation: ""
+  translation: "Sofa"
+  skip_translation: true
 
 - text: "Sign"
   translation: "Sign"
   skip_translation: true
 
 - text: "Puddle Obstruction Sphere"
-  translation: ""
+  translation: "Сфера препятствия лужи"
 
 - text: "Door_Left"
-  translation: ""
+  translation: "Door_Left"
+  skip_translation: true
 
 - text: "Mirror"
-  translation: ""
+  translation: "Mirror"
+  skip_translation: true
 
 - text: "Money_7_Shadow"
-  translation: ""
+  translation: "Money_7_Shadow"
+  skip_translation: true
 
 - text: "Graffiti_2"
   translation: "Graffiti_2"
   skip_translation: true
 
 - text: "Footstep Source"
-  translation: ""
+  translation: "Источник шагов"
 
 - text: "NotificationUI"
-  translation: ""
+  translation: "Уведомления"
 
 - text: "Bin_1_Shadow"
-  translation: ""
+  translation: "Bin_1_Shadow"
+  skip_translation: true
 
 - text: "Fill"
   translation: "Fill"
   skip_translation: true
 
 - text: "Spine GameObject"
-  translation: ""
+  translation: "Spine GameObject"
+  skip_translation: true
 
 - text: "Close Sound"
-  translation: ""
+  translation: "Звук закрытия"
 
 - text: "Door_Footer"
-  translation: ""
+  translation: "Door_Footer"
+  skip_translation: true
 
 - text: "Wall_Middle"
-  translation: ""
+  translation: "Wall_Middle"
+  skip_translation: true
 
 - text: "Money_3_Shadow"
-  translation: ""
+  translation: "Money_3_Shadow"
+  skip_translation: true
 
 - text: "HornyBar"
-  translation: ""
+  translation: "HornyBar"
+  skip_translation: true
 
 - text: "FillMask"
-  translation: ""
+  translation: "FillMask"
+  skip_translation: true
 
 - text: "Heart Parent"
-  translation: ""
+  translation: "Heart Parent"
+  skip_translation: true
 
 - text: "Mirror Surface"
-  translation: ""
+  translation: "Поверхность зеркала"
 
 - text: "Wall_End_Left"
-  translation: ""
+  translation: "Wall_End_Left"
+  skip_translation: true
 
 - text: "Global Volume"
-  translation: ""
+  translation: "Global Volume"
+  skip_translation: true
 
 - text: "Lit Shine"
-  translation: ""
+  translation: "Lit Shine"
+  skip_translation: true
 
 - text: "AudioListener"
-  translation: ""
+  translation: "AudioListener"
+  skip_translation: true
 
 - text: "Green Floor Highlight"
-  translation: ""
+  translation: "Зелёная подсветка пола"
 
 - text: "Money_2 1"
-  translation: ""
+  translation: "Money_2 1"
+  skip_translation: true
 
 - text: "Perversion Fullscreen Effect"
-  translation: ""
+  translation: "Эффект перверсии на весь экран"
 
 - text: "Lock Sound"
-  translation: ""
+  translation: "Звук блокировки"
 
 - text: "obstructor : Sphere"
-  translation: ""
+  translation: "obstructor : Sphere"
+  skip_translation: true
 
 - text: "QvA"
   translation: "QvA"
@@ -8722,236 +9270,297 @@
   skip_translation: true
 
 - text: "Basic Ground"
-  translation: ""
+  translation: "Basic Ground"
+  skip_translation: true
 
 - text: "What State?"
-  translation: ""
+  translation: "What State?"
+  skip_translation: true
 
 - text: "First State"
-  translation: ""
+  translation: "Первое состояние"
 
 - text: "Second State"
-  translation: ""
+  translation: "Второе состояние"
 
 - text: "Third Stage"
-  translation: ""
+  translation: "Третий этап"
 
 - text: "CartelHideoutBadendKeys/Did third Stage"
-  translation: ""
+  translation: "CartelHideoutBadendKeys/Did third Stage"
+  skip_translation: true
 
 - text: "CartelHideoutBadendKeys/Waiting to get Condom"
-  translation: ""
+  translation: "CartelHideoutBadendKeys/Waiting to get Condom"
+  skip_translation: true
 
 - text: "CartelHideoutBadendKeys/Did get naked"
-  translation: ""
+  translation: "CartelHideoutBadendKeys/Did get naked"
+  skip_translation: true
 
 - text: "Down sound"
-  translation: ""
+  translation: "Звук вниз"
 
 - text: "Up Sound"
-  translation: ""
+  translation: "Звук вверх"
 
 - text: "Wait for Event"
-  translation: ""
+  translation: "Wait for Event"
+  skip_translation: true
 
 - text: "ToUndress"
-  translation: ""
+  translation: "ToUndress"
+  skip_translation: true
 
 - text: "OnlyApparel"
-  translation: ""
+  translation: "OnlyApparel"
+  skip_translation: true
 
 - text: "RedressOnExit"
-  translation: ""
+  translation: "RedressOnExit"
+  skip_translation: true
 
 - text: "CacheItems"
-  translation: ""
+  translation: "CacheItems"
+  skip_translation: true
 
 - text: "UnEquipOthers"
-  translation: ""
+  translation: "UnEquipOthers"
+  skip_translation: true
 
 - text: "Ident Done"
-  translation: ""
+  translation: "Ident Done"
+  skip_translation: true
 
 - text: "StartTime"
-  translation: ""
+  translation: "StartTime"
+  skip_translation: true
 
 - text: "UseFadeCurve"
-  translation: ""
+  translation: "UseFadeCurve"
+  skip_translation: true
 
 - text: "UseOldFadeCurve"
-  translation: ""
+  translation: "UseOldFadeCurve"
+  skip_translation: true
 
 - text: "FadeCurve"
-  translation: ""
+  translation: "FadeCurve"
+  skip_translation: true
 
 - text: "OldFadeCurve"
-  translation: ""
+  translation: "OldFadeCurve"
+  skip_translation: true
 
 - text: "PushToStack"
-  translation: ""
+  translation: "PushToStack"
+  skip_translation: true
 
 - text: "Loop"
-  translation: ""
+  translation: "Loop"
+  skip_translation: true
 
 - text: "Strip Outfit"
-  translation: ""
+  translation: "Раздеть"
 
 - text: "Strip Bra"
-  translation: ""
+  translation: "Снять лифчик"
 
 - text: "Equipment"
-  translation: ""
+  translation: "Equipment"
+  skip_translation: true
 
 - text: "Strip Panties"
-  translation: ""
+  translation: "Снять трусики"
 
 - text: "penis Up"
-  translation: ""
+  translation: "penis Up"
+  skip_translation: true
 
 - text: "SlotName"
-  translation: ""
+  translation: "SlotName"
+  skip_translation: true
 
 - text: "State 4"
-  translation: ""
+  translation: "State 4"
+  skip_translation: true
 
 - text: "State 5"
-  translation: ""
+  translation: "State 5"
+  skip_translation: true
 
 - text: "State 6"
-  translation: ""
+  translation: "State 6"
+  skip_translation: true
 
 - text: "FSM Sex XP"
-  translation: ""
+  translation: "FSM Sex XP"
+  skip_translation: true
 
 - text: "State 7"
-  translation: ""
+  translation: "State 7"
+  skip_translation: true
 
 - text: "Chibi Expression Animations"
-  translation: ""
+  translation: "Анимации выражений Chibi"
 
 - text: "Start Cutscene 1"
-  translation: ""
+  translation: "Запустить катсцену 1"
 
 - text: "FadeType"
-  translation: ""
+  translation: "FadeType"
+  skip_translation: true
 
 - text: "FadeTime"
-  translation: ""
+  translation: "FadeTime"
+  skip_translation: true
 
 - text: "FadeSprite"
-  translation: ""
+  translation: "FadeSprite"
+  skip_translation: true
 
 - text: "FadeColor"
-  translation: ""
+  translation: "FadeColor"
+  skip_translation: true
 
 - text: "LockPlayer"
-  translation: ""
+  translation: "LockPlayer"
+  skip_translation: true
 
 - text: "ResetOnExit"
-  translation: ""
+  translation: "ResetOnExit"
+  skip_translation: true
 
 - text: "OnFadedOut"
-  translation: ""
+  translation: "OnFadedOut"
+  skip_translation: true
 
 - text: "OnFadedIn"
-  translation: ""
+  translation: "OnFadedIn"
+  skip_translation: true
 
 - text: "Cutscene Finished"
-  translation: ""
+  translation: "Катсцена завершена"
 
 - text: "Start Cutscene 2"
-  translation: ""
+  translation: "Запустить катсцену 2"
 
 - text: "CutsceneToPlay"
-  translation: ""
+  translation: "CutsceneToPlay"
+  skip_translation: true
 
 - text: "OnCutsceneEnded"
-  translation: ""
+  translation: "OnCutsceneEnded"
+  skip_translation: true
 
 - text: "ToSet"
-  translation: ""
+  translation: "ToSet"
+  skip_translation: true
 
 - text: "Activate Lap Sitting"
-  translation: ""
+  translation: "Активировать сидение на коленях"
 
 - text: "Activate Condoms"
-  translation: ""
+  translation: "Активировать презервативы"
 
 - text: "Start Condom Dialogue"
-  translation: ""
+  translation: "Начать диалог о презервативе"
 
 - text: "Wait for Event 2"
-  translation: ""
+  translation: "Wait for Event 2"
+  skip_translation: true
 
 - text: "Pull off Condom"
-  translation: ""
+  translation: "Pull off Condom"
+  skip_translation: true
 
 - text: "Wait for Exiting"
-  translation: ""
+  translation: "Wait for Exiting"
+  skip_translation: true
 
 - text: "Exiting"
-  translation: ""
+  translation: "Exiting"
+  skip_translation: true
 
 - text: "StoreHandlerAs"
-  translation: ""
+  translation: "StoreHandlerAs"
+  skip_translation: true
 
 - text: "Walk back Inside"
-  translation: ""
+  translation: "Walk back Inside"
+  skip_translation: true
 
 - text: "Moved Back"
-  translation: ""
+  translation: "Moved Back"
+  skip_translation: true
 
 - text: "CharacterToMove"
-  translation: ""
+  translation: "CharacterToMove"
+  skip_translation: true
 
 - text: "TargetPosition"
-  translation: ""
+  translation: "TargetPosition"
+  skip_translation: true
 
 - text: "OnFinishedMove"
-  translation: ""
+  translation: "OnFinishedMove"
+  skip_translation: true
 
 - text: "Immediate"
-  translation: ""
+  translation: "Immediate"
+  skip_translation: true
 
 - text: "StopTurning"
-  translation: ""
+  translation: "StopTurning"
+  skip_translation: true
 
 - text: "Take off Pants"
-  translation: ""
+  translation: "Снять штаны"
 
 - text: "Depleted"
-  translation: ""
+  translation: "Depleted"
+  skip_translation: true
 
 - text: "Move"
-  translation: ""
+  translation: "Move"
+  skip_translation: true
 
 - text: "Wait for health depletion"
-  translation: ""
+  translation: "Ожидание истощения здоровья"
 
 - text: "Gameover"
-  translation: ""
+  translation: "Gameover"
+  skip_translation: true
 
 - text: "Default"
-  translation: ""
+  translation: "Default"
+  skip_translation: true
 
 - text: "Menu"
-  translation: ""
+  translation: "Menu"
+  skip_translation: true
 
 - text: "Parent"
-  translation: ""
+  translation: "Parent"
+  skip_translation: true
 
 - text: "Layer"
-  translation: ""
+  translation: "Layer"
+  skip_translation: true
 
 - text: "StoreMenuAs"
-  translation: ""
+  translation: "StoreMenuAs"
+  skip_translation: true
 
 - text: "ReplaceCurrent"
-  translation: ""
+  translation: "ReplaceCurrent"
+  skip_translation: true
 
 - text: "SetAnimatorBool, Assembly-CSharp"
-  translation: ""
+  translation: "SetAnimatorBool, Assembly-CSharp"
+  skip_translation: true
 
 - text: "SetBool"
-  translation: ""
+  translation: "SetBool"
+  skip_translation: true
 

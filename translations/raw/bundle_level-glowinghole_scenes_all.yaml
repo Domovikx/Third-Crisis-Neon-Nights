@@ -1,53 +1,67 @@
 # raw (bundle_level-glowinghole_scenes_all)
 
 - text: "UISoftMask"
-  translation: ""
+  translation: "UISoftMask"
+  skip_translation: true
 
 - text: "AMSUISoftMask"
-  translation: ""
+  translation: "AMSUISoftMask"
+  skip_translation: true
 
 - text: "NNHsvRenderer"
-  translation: ""
+  translation: "NNHsvRenderer"
+  skip_translation: true
 
 - text: "ItemPickup"
-  translation: ""
+  translation: "ItemPickup"
+  skip_translation: true
 
 - text: "NNHoverInteract"
-  translation: ""
+  translation: "NNHoverInteract"
+  skip_translation: true
 
 - text: "PictureReceiver"
-  translation: ""
+  translation: "PictureReceiver"
+  skip_translation: true
 
 - text: "Hideable"
   translation: ""
 
 - text: "EventSystem"
-  translation: ""
+  translation: "EventSystem"
+  skip_translation: true
 
 - text: "SpotterUI"
-  translation: ""
+  translation: "SpotterUI"
+  skip_translation: true
 
 - text: "EventByPlatform"
-  translation: ""
+  translation: "EventByPlatform"
+  skip_translation: true
 
 - text: "NodeLink2"
-  translation: ""
+  translation: "NodeLink2"
+  skip_translation: true
 
 - text: "LimbEffectZone"
-  translation: ""
+  translation: "LimbEffectZone"
+  skip_translation: true
 
 - text: "TaskTarget"
-  translation: ""
+  translation: "TaskTarget"
+  skip_translation: true
 
 - text: "NNAI"
   translation: "NNAI"
   skip_translation: true
 
 - text: "NudityZone"
-  translation: ""
+  translation: "NudityZone"
+  skip_translation: true
 
 - text: "DoorPeeking"
-  translation: ""
+  translation: "DoorPeeking"
+  skip_translation: true
 
 - text: "OTD"
   translation: "OTD"
@@ -58,53 +72,66 @@
   skip_translation: true
 
 - text: "ItemDoorEntity"
-  translation: ""
+  translation: "ItemDoorEntity"
+  skip_translation: true
 
 - text: "JournalPickup"
-  translation: ""
+  translation: "JournalPickup"
+  skip_translation: true
 
 - text: "Wa&"
   translation: "Wa&"
   skip_translation: true
 
 - text: "ShadowCaster2D"
-  translation: ""
+  translation: "ShadowCaster2D"
+  skip_translation: true
 
 - text: "TextMeshPro"
-  translation: ""
+  translation: "TextMeshPro"
+  skip_translation: true
 
 - text: "NewMission"
-  translation: ""
+  translation: "NewMission"
+  skip_translation: true
 
 - text: "Consumable"
   translation: ""
 
 - text: "NewTask"
-  translation: ""
+  translation: "NewTask"
+  skip_translation: true
 
 - text: "SpriteShape"
-  translation: ""
+  translation: "SpriteShape"
+  skip_translation: true
 
 - text: "JournalEntry"
-  translation: ""
+  translation: "JournalEntry"
+  skip_translation: true
 
 - text: "Item"
   translation: ""
 
 - text: "MarkerTrack"
-  translation: ""
+  translation: "MarkerTrack"
+  skip_translation: true
 
 - text: "CallFSMEvent"
-  translation: ""
+  translation: "CallFSMEvent"
+  skip_translation: true
 
 - text: "FadeScreen"
-  translation: ""
+  translation: "FadeScreen"
+  skip_translation: true
 
 - text: "CurrencyType"
-  translation: ""
+  translation: "CurrencyType"
+  skip_translation: true
 
 - text: "UNDERLAY_ON"
-  translation: ""
+  translation: "UNDERLAY_ON"
+  skip_translation: true
 
 - text: "Sentinel Type - BigNoodleToo SDF Material"
   translation: ""
@@ -124,13 +151,16 @@
   skip_translation: true
 
 - text: "Bark_Effect"
-  translation: ""
+  translation: "Bark_Effect"
+  skip_translation: true
 
 - text: "GRABPASS"
-  translation: ""
+  translation: "GRABPASS"
+  skip_translation: true
 
 - text: "Color_207CF4A"
-  translation: ""
+  translation: "Color_207CF4A"
+  skip_translation: true
 
 - text: "Shader Graphs_Vertical Shape Fade Shader 1"
   translation: "Shader Graphs_Vertical Shape Fade Shader 1"
@@ -168,10 +198,12 @@
   translation: ""
 
 - text: "DepthOnly"
-  translation: ""
+  translation: "DepthOnly"
+  skip_translation: true
 
 - text: "SHADOWCASTER"
-  translation: ""
+  translation: "SHADOWCASTER"
+  skip_translation: true
 
 - text: "LiberationSans SDF Material"
   translation: ""
@@ -220,7 +252,8 @@
   translation: ""
 
 - text: "Nova_Material"
-  translation: ""
+  translation: "Nova_Material"
+  skip_translation: true
 
 - text: "Electronic Highway Sign SDF Material"
   translation: ""
@@ -235,21 +268,23 @@
   translation: ""
 
 - text: "JfBEJf"
-  translation: ""
+  translation: "JfBEJf"
+  skip_translation: true
 
 - text: "C6bz"
   translation: "C6bz"
   skip_translation: true
 
 - text: "R[OBR[O"
-  translation: ""
+  translation: "R[OBR[O"
+  skip_translation: true
 
 - text: "FadeIn"
-  translation: ""
+  translation: "FadeIn"
+  skip_translation: true
 
 - text: "Cdc"
-  translation: "Cdc"
-  skip_translation: true
+  translation: ""
 
 - text: "YjE"
   translation: "YjE"
@@ -264,7 +299,8 @@
   skip_translation: true
 
 - text: "YjEP5"
-  translation: ""
+  translation: "YjEP5"
+  skip_translation: true
 
 - text: "XH?o"
   translation: "XH?o"
@@ -275,14 +311,16 @@
   skip_translation: true
 
 - text: "FadeOut"
-  translation: ""
+  translation: "FadeOut"
+  skip_translation: true
 
 - text: "M?Hd"
   translation: "M?Hd"
   skip_translation: true
 
 - text: "FBye"
-  translation: ""
+  translation: "FBye"
+  skip_translation: true
 
 - text: "OADD"
   translation: "OADD"
@@ -297,7 +335,8 @@
   skip_translation: true
 
 - text: "OAww"
-  translation: ""
+  translation: "OAww"
+  skip_translation: true
 
 - text: "BDD0A"
   translation: "BDD0A"
@@ -316,7 +355,8 @@
   skip_translation: true
 
 - text: "t/@8 TA"
-  translation: ""
+  translation: "t/@8 TA"
+  skip_translation: true
 
 - text: "D9k"
   translation: "D9k"
@@ -331,17 +371,20 @@
   skip_translation: true
 
 - text: "DDlA"
-  translation: ""
+  translation: "DDlA"
+  skip_translation: true
 
 - text: "Dqg="
   translation: "Dqg="
   skip_translation: true
 
 - text: "Wall_Fan"
-  translation: ""
+  translation: "Wall_Fan"
+  skip_translation: true
 
 - text: "Sign_Animation"
-  translation: ""
+  translation: "Sign_Animation"
+  skip_translation: true
 
 - text: "DD$A"
   translation: "DD$A"
@@ -379,24 +422,28 @@
   translation: ""
 
 - text: "OAP8dDD"
-  translation: ""
+  translation: "OAP8dDD"
+  skip_translation: true
 
 - text: "FdD"
   translation: "FdD"
   skip_translation: true
 
 - text: "TdDU"
-  translation: ""
+  translation: "TdDU"
+  skip_translation: true
 
 - text: "NnA"
   translation: "NnA"
   skip_translation: true
 
 - text: "KeDUU"
-  translation: ""
+  translation: "KeDUU"
+  skip_translation: true
 
 - text: "MAVxeD"
-  translation: ""
+  translation: "MAVxeD"
+  skip_translation: true
 
 - text: "*AL"
   translation: "*AL"
@@ -427,18 +474,19 @@
   skip_translation: true
 
 - text: "EwwnC"
-  translation: ""
+  translation: "EwwnC"
+  skip_translation: true
 
 - text: "Bfff"
-  translation: "Bfff"
-  skip_translation: true
+  translation: ""
 
 - text: "B?k"
   translation: "B?k"
   skip_translation: true
 
 - text: "UUqA"
-  translation: ""
+  translation: "UUqA"
+  skip_translation: true
 
 - text: "ADDJB"
   translation: "ADDJB"
@@ -449,7 +497,8 @@
   skip_translation: true
 
 - text: "Dickomat_Ads"
-  translation: ""
+  translation: "Dickomat_Ads"
+  skip_translation: true
 
 - text: "Hf7"
   translation: "Hf7"
@@ -464,7 +513,8 @@
   skip_translation: true
 
 - text: "DDpA"
-  translation: ""
+  translation: "DDpA"
+  skip_translation: true
 
 - text: "AB`"
   translation: "AB`"
@@ -592,7 +642,8 @@
   skip_translation: true
 
 - text: "ACww"
-  translation: ""
+  translation: "ACww"
+  skip_translation: true
 
 - text: "LjC33"
   translation: "LjC33"
@@ -663,7 +714,8 @@
   skip_translation: true
 
 - text: "DD33[A"
-  translation: ""
+  translation: "DD33[A"
+  skip_translation: true
 
 - text: "DDDD\\A"
   translation: "DDDD\\\\A"
@@ -674,13 +726,16 @@
   skip_translation: true
 
 - text: "UUaA"
-  translation: ""
+  translation: "UUaA"
+  skip_translation: true
 
 - text: "AfffA"
-  translation: ""
+  translation: "AfffA"
+  skip_translation: true
 
 - text: "B33gA"
-  translation: ""
+  translation: "B33gA"
+  skip_translation: true
 
 - text: "Q9t"
   translation: "Q9t"
@@ -694,10 +749,12 @@
   skip_translation: true
 
 - text: "CameraPan_Anim"
-  translation: ""
+  translation: "CameraPan_Anim"
+  skip_translation: true
 
 - text: "Spotted_Idle"
-  translation: ""
+  translation: "Spotted_Idle"
+  skip_translation: true
 
 - text: "Disappear"
   translation: ""
@@ -719,7 +776,8 @@
   translation: ""
 
 - text: "Rosie_Preset"
-  translation: ""
+  translation: "Rosie_Preset"
+  skip_translation: true
 
 - text: "Laugh"
   translation: ""
@@ -807,13 +865,15 @@
   translation: ""
 
 - text: "Suitcase_A"
-  translation: ""
+  translation: "Suitcase_A"
+  skip_translation: true
 
 - text: "Inspect - Horse dildo"
   translation: ""
 
 - text: "EnterRoom_101"
-  translation: ""
+  translation: "EnterRoom_101"
+  skip_translation: true
 
 - text: "Nova - 6 Talk to Nova"
   translation: ""
@@ -852,7 +912,8 @@
   translation: ""
 
 - text: "Holoposters_A"
-  translation: ""
+  translation: "Holoposters_A"
+  skip_translation: true
 
 - text: "Conversation 3 1 Did meet Rosie before"
   translation: ""
@@ -894,11 +955,11 @@
   translation: ""
 
 - text: "Mark"
-  translation: "Mark"
-  skip_translation: true
+  translation: ""
 
 - text: "AAAAAWOOOOOGAA!"
-  translation: ""
+  translation: "AAAAAWOOOOOGAA!"
+  skip_translation: true
 
 - text: "Nova - 3 - Retry"
   translation: ""
@@ -943,7 +1004,8 @@
   translation: ""
 
 - text: "Femboy14_Talk1"
-  translation: ""
+  translation: "Femboy14_Talk1"
+  skip_translation: true
 
 - text: "Poses/Awkward3"
   translation: ""
@@ -961,7 +1023,8 @@
   translation: ""
 
 - text: "Huh?!"
-  translation: ""
+  translation: "Huh?!"
+  skip_translation: true
 
 - text: "Upstairs flavor no bunny 4"
   translation: ""
@@ -991,17 +1054,19 @@
   translation: ""
 
 - text: "Grin"
-  translation: "Grin"
-  skip_translation: true
+  translation: ""
 
 - text: "Room202"
-  translation: ""
+  translation: "Room202"
+  skip_translation: true
 
 - text: "Room203"
-  translation: ""
+  translation: "Room203"
+  skip_translation: true
 
 - text: "Room204"
-  translation: ""
+  translation: "Room204"
+  skip_translation: true
 
 - text: "Klaudia Ask about Femboy repeat"
   translation: ""
@@ -1028,11 +1093,11 @@
   translation: ""
 
 - text: "Suitcase_B"
-  translation: ""
+  translation: "Suitcase_B"
+  skip_translation: true
 
 - text: "Mynx"
-  translation: "Mynx"
-  skip_translation: true
+  translation: ""
 
 - text: "Room205 - 4 - Tried to Leave Nude"
   translation: ""
@@ -1044,10 +1109,12 @@
   translation: ""
 
 - text: "Floor1"
-  translation: ""
+  translation: "Floor1"
+  skip_translation: true
 
 - text: "Floor2"
-  translation: ""
+  translation: "Floor2"
+  skip_translation: true
 
 - text: "Entrance"
   translation: ""
@@ -1083,7 +1150,8 @@
   translation: ""
 
 - text: "Sensitive?"
-  translation: ""
+  translation: "Sensitive?"
+  skip_translation: true
 
 - text: "Kitchen 2"
   translation: ""
@@ -1101,7 +1169,8 @@
   translation: ""
 
 - text: "Char_Sarah"
-  translation: ""
+  translation: "Char_Sarah"
+  skip_translation: true
 
 - text: "Inspect - Trash Pile"
   translation: ""
@@ -1143,7 +1212,8 @@
   translation: ""
 
 - text: "Bunny_blowjob_A"
-  translation: ""
+  translation: "Bunny_blowjob_A"
+  skip_translation: true
 
 - text: "Petplay NPC"
   translation: ""
@@ -1237,7 +1307,8 @@
   translation: ""
 
 - text: "Holoposters_B"
-  translation: ""
+  translation: "Holoposters_B"
+  skip_translation: true
 
 - text: "GlowingHole_Suitcase_Finale_1 - 1 Numbers Entered"
   translation: ""
@@ -1286,7 +1357,8 @@
   translation: ""
 
 - text: "Bunny_blowjob_B"
-  translation: ""
+  translation: "Bunny_blowjob_B"
+  skip_translation: true
 
 - text: "Room205 - 3 - SexScene3"
   translation: ""
@@ -1295,13 +1367,16 @@
   translation: ""
 
 - text: "Fhair3_Fbase"
-  translation: ""
+  translation: "Fhair3_Fbase"
+  skip_translation: true
 
 - text: "Fhair3_bang"
-  translation: ""
+  translation: "Fhair3_bang"
+  skip_translation: true
 
 - text: "Bhair3_tail"
-  translation: ""
+  translation: "Bhair3_tail"
+  skip_translation: true
 
 - text: "Lady"
   translation: ""
@@ -1415,7 +1490,8 @@
   translation: ""
 
 - text: "Dancing_bunny_B"
-  translation: ""
+  translation: "Dancing_bunny_B"
+  skip_translation: true
 
 - text: "Nova - Generic Hello"
   translation: ""
@@ -1430,7 +1506,8 @@
   translation: ""
 
 - text: "Dancing_bunny_A"
-  translation: ""
+  translation: "Dancing_bunny_A"
+  skip_translation: true
 
 - text: "Bar Flavor 2"
   translation: ""
@@ -1503,7 +1580,8 @@
   translation: ""
 
 - text: "Suuuure~!"
-  translation: ""
+  translation: "Suuuure~!"
+  skip_translation: true
 
 - text: "Room205 - 4 - Femboy and Guy leaving Room"
   translation: ""
@@ -1569,7 +1647,8 @@
   translation: ""
 
 - text: "BigNoodleToo"
-  translation: ""
+  translation: "BigNoodleToo"
+  skip_translation: true
 
 - text: "Sentinel Type - BigNoodleTooOblique SDF_NoOutline"
   translation: ""
@@ -1616,7 +1695,8 @@
   translation: ""
 
 - text: "BoldZ"
-  translation: ""
+  translation: "BoldZ"
+  skip_translation: true
 
 - text: "@IB"
   translation: "@IB"
@@ -1648,8 +1728,7 @@
   translation: ""
 
 - text: "Thong"
-  translation: "Thong"
-  skip_translation: true
+  translation: ""
 
 - text: "Booba"
   translation: ""
@@ -1676,8 +1755,7 @@
   translation: ""
 
 - text: "Thighs"
-  translation: "Thighs"
-  skip_translation: true
+  translation: ""
 
 - text: "Tipsy"
   translation: ""
@@ -1728,7 +1806,8 @@
   translation: ""
 
 - text: "VisionCone"
-  translation: ""
+  translation: "VisionCone"
+  skip_translation: true
 
 - text: "Sprite Shape Fill"
   translation: ""
@@ -1920,7 +1999,8 @@
   translation: ""
 
 - text: "SpriteShapeEdge"
-  translation: ""
+  translation: "SpriteShapeEdge"
+  skip_translation: true
 
 - text: "NC_Z2_Redlight_GlowingHole Locker Black Overlay"
   translation: ""
@@ -1929,10 +2009,12 @@
   translation: ""
 
 - text: "ChubbyMaleNPC_2"
-  translation: ""
+  translation: "ChubbyMaleNPC_2"
+  skip_translation: true
 
 - text: "BlankSquare"
-  translation: ""
+  translation: "BlankSquare"
+  skip_translation: true
 
 - text: "profile picture Klaudia"
   translation: ""
@@ -1958,17 +2040,20 @@
   skip_translation: true
 
 - text: "ChubbyMaleNPC"
-  translation: ""
+  translation: "ChubbyMaleNPC"
+  skip_translation: true
 
 - text: "ChubbyMaleNPC_4"
-  translation: ""
+  translation: "ChubbyMaleNPC_4"
+  skip_translation: true
 
 - text: "PeS"
   translation: "PeS"
   skip_translation: true
 
 - text: "ChubbyMaleNPC_6"
-  translation: ""
+  translation: "ChubbyMaleNPC_6"
+  skip_translation: true
 
 - text: "Bartender"
   translation: ""
@@ -1978,10 +2063,12 @@
   skip_translation: true
 
 - text: "ChubbyMaleNPC_5"
-  translation: ""
+  translation: "ChubbyMaleNPC_5"
+  skip_translation: true
 
 - text: "ChubbyMaleNPC_3"
-  translation: ""
+  translation: "ChubbyMaleNPC_3"
+  skip_translation: true
 
 - text: "0UV"
   translation: "0UV"
@@ -2078,7 +2165,8 @@
   translation: ""
 
 - text: "RenAzod"
-  translation: ""
+  translation: "RenAzod"
+  skip_translation: true
 
 - text: "In the shower in room 206"
   translation: ""
@@ -2099,7 +2187,8 @@
   translation: ""
 
 - text: "Pinup_Klaudia"
-  translation: ""
+  translation: "Pinup_Klaudia"
+  skip_translation: true
 
 - text: "Room 102, next to the bed"
   translation: ""
@@ -2123,7 +2212,8 @@
   translation: ""
 
 - text: "TrevoButEvil"
-  translation: ""
+  translation: "TrevoButEvil"
+  skip_translation: true
 
 - text: "An Alternative Zoey"
   translation: ""
@@ -2214,13 +2304,16 @@
   skip_translation: true
 
 - text: "SBSuS"
-  translation: ""
+  translation: "SBSuS"
+  skip_translation: true
 
 - text: "RnoR"
-  translation: ""
+  translation: "RnoR"
+  skip_translation: true
 
 - text: "EhhE"
-  translation: ""
+  translation: "EhhE"
+  skip_translation: true
 
 - text: "Bfb9"
   translation: "Bfb9"
@@ -2231,17 +2324,20 @@
   skip_translation: true
 
 - text: "RomN"
-  translation: ""
+  translation: "RomN"
+  skip_translation: true
 
 - text: "XnvO"
-  translation: ""
+  translation: "XnvO"
+  skip_translation: true
 
 - text: "Afb9"
   translation: "Afb9"
   skip_translation: true
 
 - text: "LiberationSans"
-  translation: ""
+  translation: "LiberationSans"
+  skip_translation: true
 
 - text: ".cvt J"
   translation: ".cvt J"
@@ -2266,11 +2362,11 @@
   skip_translation: true
 
 - text: "Fvh"
-  translation: "Fvh"
-  skip_translation: true
+  translation: ""
 
 - text: "E`D-,"
-  translation: ""
+  translation: "E`D-,"
+  skip_translation: true
 
 - text: "C#Ce"
   translation: "C#Ce"
@@ -2313,7 +2409,8 @@
   skip_translation: true
 
 - text: "9# 9//Y-,E#E`#E`#E`#vh"
-  translation: ""
+  translation: "9# 9//Y-,E#E`#E`#E`#vh"
+  skip_translation: true
 
 - text: "H+-, E"
   translation: "H+-, E"
@@ -2336,8 +2433,7 @@
   skip_translation: true
 
 - text: "Xdf"
-  translation: "Xdf"
-  skip_translation: true
+  translation: ""
 
 - text: "`f X"
   translation: "`f X"
@@ -2354,8 +2450,7 @@
   translation: ""
 
 - text: "Gprep"
-  translation: "Gprep"
-  skip_translation: true
+  translation: ""
 
 - text: "MACR"
   translation: "MACR"
@@ -2365,7 +2460,8 @@
   translation: ""
 
 - text: "ERIR00"
-  translation: ""
+  translation: "ERIR00"
+  skip_translation: true
 
 - text: ",  EiD"
   translation: ",  EiD"
@@ -2407,7 +2503,8 @@
   skip_translation: true
 
 - text: "RTS|TfU"
-  translation: ""
+  translation: "RTS|TfU"
+  skip_translation: true
 
 - text: "ZlZ"
   translation: "ZlZ"
@@ -2421,10 +2518,12 @@
   skip_translation: true
 
 - text: "VFX_WaterDrop"
-  translation: ""
+  translation: "VFX_WaterDrop"
+  skip_translation: true
 
 - text: "OnPlay"
-  translation: ""
+  translation: "OnPlay"
+  skip_translation: true
 
 - text: "Impact"
   translation: ""
@@ -2433,13 +2532,15 @@
   translation: ""
 
 - text: "ImpactColor"
-  translation: ""
+  translation: "ImpactColor"
+  skip_translation: true
 
 - text: "Lifetime:"
   translation: ""
 
 - text: "RainTintColor"
-  translation: ""
+  translation: "RainTintColor"
+  skip_translation: true
 
 - text: "Random Spawn Offset"
   translation: ""
@@ -2454,17 +2555,18 @@
   translation: ""
 
 - text: "OnStop"
-  translation: ""
+  translation: "OnStop"
+  skip_translation: true
 
 - text: "Spawn system"
   translation: ""
 
 - text: "Rate9"
-  translation: ""
+  translation: "Rate9"
+  skip_translation: true
 
 - text: "Drop"
-  translation: "Drop"
-  skip_translation: true
+  translation: ""
 
 - text: "Scale_x_a"
   translation: "Scale_x_a"
@@ -2532,7 +2634,8 @@
   skip_translation: true
 
 - text: "M8Be"
-  translation: ""
+  translation: "M8Be"
+  skip_translation: true
 
 - text: "City Parallax"
   translation: ""
@@ -2554,10 +2657,12 @@
   translation: ""
 
 - text: "SpilledCan_4x"
-  translation: ""
+  translation: "SpilledCan_4x"
+  skip_translation: true
 
 - text: "SpottedUI"
-  translation: ""
+  translation: "SpottedUI"
+  skip_translation: true
 
 - text: "Bartending Minigame Customer UI"
   translation: ""
@@ -2570,7 +2675,8 @@
   translation: ""
 
 - text: "IntroPerversion"
-  translation: ""
+  translation: "IntroPerversion"
+  skip_translation: true
 
 - text: "Container"
   translation: ""
@@ -2586,10 +2692,12 @@
   translation: ""
 
 - text: "RemoteCamerax"
-  translation: ""
+  translation: "RemoteCamerax"
+  skip_translation: true
 
 - text: "PickUp"
-  translation: ""
+  translation: "PickUp"
+  skip_translation: true
 
 - text: "U@b?HJ"
   translation: "U@b?HJ"
@@ -2612,14 +2720,16 @@
   translation: ""
 
 - text: "Animation_Sign"
-  translation: ""
+  translation: "Animation_Sign"
+  skip_translation: true
 
 - text: "Speaker_3"
   translation: "Speaker_3"
   skip_translation: true
 
 - text: "Animation_Props"
-  translation: ""
+  translation: "Animation_Props"
+  skip_translation: true
 
 - text: "cold-breath-side Loopingx"
   translation: ""
@@ -2657,7 +2767,8 @@
   skip_translation: true
 
 - text: "CSMain"
-  translation: ""
+  translation: "CSMain"
+  skip_translation: true
 
 - text: "ISGN"
   translation: "ISGN"
@@ -2730,7 +2841,8 @@
   translation: ""
 
 - text: "SuitCase"
-  translation: ""
+  translation: "SuitCase"
+  skip_translation: true
 
 - text: "Tablet"
   translation: ""
@@ -2742,7 +2854,8 @@
   translation: ""
 
 - text: "Transfer %"
-  translation: ""
+  translation: "Transfer %"
+  skip_translation: true
 
 - text: "Message Attached Text Content"
   translation: ""
@@ -2906,7 +3019,8 @@
   translation: ""
 
 - text: "Rosie_-41"
-  translation: ""
+  translation: "Rosie_-41"
+  skip_translation: true
 
 - text: "43-Unhhh Fghh"
   translation: ""
@@ -2932,7 +3046,8 @@
   translation: ""
 
 - text: "Rosie_-10"
-  translation: ""
+  translation: "Rosie_-10"
+  skip_translation: true
 
 - text: "VAZoey - 338 - What the fuck is Peitho 3"
   translation: ""
@@ -2944,7 +3059,8 @@
   translation: ""
 
 - text: "NPCVA_Mmm-2"
-  translation: ""
+  translation: "NPCVA_Mmm-2"
+  skip_translation: true
 
 - text: "28-Ahh Fuck 1"
   translation: ""
@@ -2995,7 +3111,8 @@
   translation: ""
 
 - text: "NPCVA_Huh-9"
-  translation: ""
+  translation: "NPCVA_Huh-9"
+  skip_translation: true
 
 - text: "VAZoey - 251 - Hh 2"
   translation: ""
@@ -3011,10 +3128,12 @@
   translation: ""
 
 - text: "NPCVA_Tsk-9"
-  translation: ""
+  translation: "NPCVA_Tsk-9"
+  skip_translation: true
 
 - text: "NPCVA_Hehehe-2"
-  translation: ""
+  translation: "NPCVA_Hehehe-2"
+  skip_translation: true
 
 - text: ")\\OA"
   translation: ")\\OA"
@@ -3030,7 +3149,8 @@
   translation: ""
 
 - text: "NPCVA_Hehehe-9"
-  translation: ""
+  translation: "NPCVA_Hehehe-9"
+  skip_translation: true
 
 - text: "VAZoey - 157 - Whats in it for me 1"
   translation: ""
@@ -3048,10 +3168,12 @@
   translation: ""
 
 - text: "Rosie_-12"
-  translation: ""
+  translation: "Rosie_-12"
+  skip_translation: true
 
 - text: "278-Ugh! Asshole!"
-  translation: ""
+  translation: "278-Ugh! Asshole!"
+  skip_translation: true
 
 - text: "42-Yess Please Cum inside me Yes 1"
   translation: ""
@@ -3060,7 +3182,8 @@
   translation: ""
 
 - text: "189-Here's your Strawberry Cream!"
-  translation: ""
+  translation: "189-Here's your Strawberry Cream!"
+  skip_translation: true
 
 - text: "VAZoey - 269 - Hes such a brute 2"
   translation: ""
@@ -3112,7 +3235,8 @@
   translation: ""
 
 - text: "Rosie_-20"
-  translation: ""
+  translation: "Rosie_-20"
+  skip_translation: true
 
 - text: "208-Those soap bottles look fancy"
   translation: ""
@@ -3192,13 +3316,16 @@
   translation: ""
 
 - text: "267-That's enough!"
-  translation: ""
+  translation: "267-That's enough!"
+  skip_translation: true
 
 - text: "02-Oh my! Aren't you a delicious little bunny_"
-  translation: ""
+  translation: "02-Oh my! Aren't you a delicious little bunny_"
+  skip_translation: true
 
 - text: "NPCVA_Hehehe-10"
-  translation: ""
+  translation: "NPCVA_Hehehe-10"
+  skip_translation: true
 
 - text: "VAZoey - 236 - At least Im upstairs now 1"
   translation: ""
@@ -3270,7 +3397,8 @@
   translation: ""
 
 - text: "Rosie_-46"
-  translation: ""
+  translation: "Rosie_-46"
+  skip_translation: true
 
 - text: "13-Piston_ Ghh It's so soft and warm"
   translation: ""
@@ -3309,22 +3437,26 @@
   translation: ""
 
 - text: "NPCVA_Mm-2"
-  translation: ""
+  translation: "NPCVA_Mm-2"
+  skip_translation: true
 
 - text: "017 This way Rooms just for us 0"
   translation: ""
 
 - text: "Rosie_-24"
-  translation: ""
+  translation: "Rosie_-24"
+  skip_translation: true
 
 - text: "000 Hope Klaudia doesnt find out 0"
   translation: ""
 
 - text: "Rosie_-07"
-  translation: ""
+  translation: "Rosie_-07"
+  skip_translation: true
 
 - text: "NPCVA_Mmm-10"
-  translation: ""
+  translation: "NPCVA_Mmm-10"
+  skip_translation: true
 
 - text: "VAZoey - 189 - Ah Hey I uh 1"
   translation: ""
@@ -3352,7 +3484,8 @@
   translation: ""
 
 - text: "Rosie_-34"
-  translation: ""
+  translation: "Rosie_-34"
+  skip_translation: true
 
 - text: "VAZoey - 170 - I dont know maybe write her a 1"
   translation: ""
@@ -3435,7 +3568,8 @@
   translation: ""
 
 - text: "NPCVA_Eh-14"
-  translation: ""
+  translation: "NPCVA_Eh-14"
+  skip_translation: true
 
 - text: "008 Im shorryy miss Really 1"
   translation: ""
@@ -3456,13 +3590,15 @@
   translation: ""
 
 - text: "67-_color=perversion_They-... do...___color_"
-  translation: ""
+  translation: "67-_color=perversion_They-... do...___color_"
+  skip_translation: true
 
 - text: "VAZoey - 204 - A bunnysuit 0"
   translation: ""
 
 - text: "275-Absolutely not!"
-  translation: ""
+  translation: "275-Absolutely not!"
+  skip_translation: true
 
 - text: "200-Lubrication system for improved arrival speed"
   translation: ""
@@ -3529,7 +3665,8 @@
   translation: ""
 
 - text: "64-...! I-... I- wont-...! Khh..."
-  translation: ""
+  translation: "64-...! I-... I- wont-...! Khh..."
+  skip_translation: true
 
 - text: "VAZoey - 304 - Wait I dont have enough money 0"
   translation: ""
@@ -3553,7 +3690,8 @@
   translation: ""
 
 - text: "21-Yay!! I'll walk you through every step, honey!"
-  translation: ""
+  translation: "21-Yay!! I'll walk you through every step, honey!"
+  skip_translation: true
 
 - text: "109-So many dirty dishes"
   translation: ""
@@ -3577,7 +3715,8 @@
   translation: ""
 
 - text: "Rosie_-32"
-  translation: ""
+  translation: "Rosie_-32"
+  skip_translation: true
 
 - text: "55-I told you how you can get upstairs 0"
   translation: ""
@@ -3604,10 +3743,12 @@
   translation: ""
 
 - text: "71-_color=perversion_U-um... I-...__color_"
-  translation: ""
+  translation: "71-_color=perversion_U-um... I-...__color_"
+  skip_translation: true
 
 - text: "NPCVA_153-Mmm"
-  translation: ""
+  translation: "NPCVA_153-Mmm"
+  skip_translation: true
 
 - text: "VAZoey - 346 - Ff So hot 0"
   translation: ""
@@ -3619,10 +3760,12 @@
   translation: ""
 
 - text: "NPCVA_Sigh-2"
-  translation: ""
+  translation: "NPCVA_Sigh-2"
+  skip_translation: true
 
 - text: "NPCVA_Right-10"
-  translation: ""
+  translation: "NPCVA_Right-10"
+  skip_translation: true
 
 - text: "99-I should move better leave before"
   translation: ""
@@ -3637,10 +3780,12 @@
   translation: ""
 
 - text: "124-Hey darling! Another shift_"
-  translation: ""
+  translation: "124-Hey darling! Another shift_"
+  skip_translation: true
 
 - text: "72-Me_ Are you serious_!"
-  translation: ""
+  translation: "72-Me_ Are you serious_!"
+  skip_translation: true
 
 - text: "VAZoey - 130 - Sensitive 1"
   translation: ""
@@ -3668,7 +3813,8 @@
   translation: ""
 
 - text: "48-Any time, darling!"
-  translation: ""
+  translation: "48-Any time, darling!"
+  skip_translation: true
 
 - text: "107-Wish I could afford one"
   translation: ""
@@ -3678,7 +3824,8 @@
   skip_translation: true
 
 - text: "296-Thanks, Rosie!"
-  translation: ""
+  translation: "296-Thanks, Rosie!"
+  skip_translation: true
 
 - text: "VAZoey - 120 - Why didnt I walk away 1"
   translation: ""
@@ -3727,22 +3874,26 @@
   translation: ""
 
 - text: "0OH?"
-  translation: ""
+  translation: "0OH?"
+  skip_translation: true
 
 - text: "Rosie_-30"
-  translation: ""
+  translation: "Rosie_-30"
+  skip_translation: true
 
 - text: "VAZoey - 199 - Wait was she in here with him 1"
   translation: ""
 
 - text: "294-Uhm, yeah!"
-  translation: ""
+  translation: "294-Uhm, yeah!"
+  skip_translation: true
 
 - text: "014 Not much of a talking hm No need to be shy 1"
   translation: ""
 
 - text: "Rosie_-37"
-  translation: ""
+  translation: "Rosie_-37"
+  skip_translation: true
 
 - text: "38-Filthy slut Im gonna fill you up 1"
   translation: ""
@@ -3767,7 +3918,8 @@
   translation: ""
 
 - text: "NPCVA_Eh-9"
-  translation: ""
+  translation: "NPCVA_Eh-9"
+  skip_translation: true
 
 - text: "002 Yush das me 1"
   translation: ""
@@ -3785,13 +3937,15 @@
   translation: ""
 
 - text: "524-_color=perversion_Mnnhhh... Ghhrmmm...__color_"
-  translation: ""
+  translation: "524-_color=perversion_Mnnhhh... Ghhrmmm...__color_"
+  skip_translation: true
 
 - text: "NPCVA_FNPC2-Sad-Mmm 2"
   translation: ""
 
 - text: "NPCVA_98-Eh"
-  translation: ""
+  translation: "NPCVA_98-Eh"
+  skip_translation: true
 
 - text: "151-Oh They're"
   translation: ""
@@ -3835,7 +3989,8 @@
   translation: ""
 
 - text: "NPCVA_Mhm-10"
-  translation: ""
+  translation: "NPCVA_Mhm-10"
+  skip_translation: true
 
 - text: "185-Alright I suppose now I just have to wait"
   translation: ""
@@ -3844,14 +3999,16 @@
   translation: ""
 
 - text: "Rosie_-26"
-  translation: ""
+  translation: "Rosie_-26"
+  skip_translation: true
 
 - text: "TAA"
   translation: "TAA"
   skip_translation: true
 
 - text: "NPCVA_Mmm-9"
-  translation: ""
+  translation: "NPCVA_Mmm-9"
+  skip_translation: true
 
 - text: "004 Yeees yeees Ill be thereee 1"
   translation: ""
@@ -3875,7 +4032,8 @@
   translation: ""
 
 - text: "284-Neon Lime, coming right up!"
-  translation: ""
+  translation: "284-Neon Lime, coming right up!"
+  skip_translation: true
 
 - text: "58-No upstairs is only for clients who booked 1"
   translation: ""
@@ -3893,7 +4051,8 @@
   translation: ""
 
 - text: "81-Wh- Are you fucking serious_!"
-  translation: ""
+  translation: "81-Wh- Are you fucking serious_!"
+  skip_translation: true
 
 - text: "183-You mean the Strawberry Cream_"
   translation: ""
@@ -3905,10 +4064,12 @@
   translation: ""
 
 - text: "28-Whoever is causing this mess will pay for it!"
-  translation: ""
+  translation: "28-Whoever is causing this mess will pay for it!"
+  skip_translation: true
 
 - text: "187-I guess we're done here then!"
-  translation: ""
+  translation: "187-I guess we're done here then!"
+  skip_translation: true
 
 - text: "VAZoey - 124 - My fantasies Right 1"
   translation: ""
@@ -3920,7 +4081,8 @@
   translation: ""
 
 - text: "354-Here you go, sir!"
-  translation: ""
+  translation: "354-Here you go, sir!"
+  skip_translation: true
 
 - text: "009 Get to it 1"
   translation: ""
@@ -3965,7 +4127,8 @@
   translation: ""
 
 - text: "Rosie_-17"
-  translation: ""
+  translation: "Rosie_-17"
+  skip_translation: true
 
 - text: "12-Anything for you 1"
   translation: ""
@@ -3989,7 +4152,8 @@
   translation: ""
 
 - text: "NPCVA_Hey-10"
-  translation: ""
+  translation: "NPCVA_Hey-10"
+  skip_translation: true
 
 - text: "79-A hologram Guess profit isnt to bad"
   translation: ""
@@ -4007,13 +4171,15 @@
   translation: ""
 
 - text: "NPCVA_Hi-9"
-  translation: ""
+  translation: "NPCVA_Hi-9"
+  skip_translation: true
 
 - text: "VAZoey - 295 - She really doesnt seem to mind 2"
   translation: ""
 
 - text: "Rosie_-22"
-  translation: ""
+  translation: "Rosie_-22"
+  skip_translation: true
 
 - text: "196-Khh Its really streching me"
   translation: ""
@@ -4025,13 +4191,16 @@
   translation: ""
 
 - text: "Rosie_-47"
-  translation: ""
+  translation: "Rosie_-47"
+  skip_translation: true
 
 - text: "83-Here you go, hun!"
-  translation: ""
+  translation: "83-Here you go, hun!"
+  skip_translation: true
 
 - text: "141-Huh_ Oh, right! I did, heh!"
-  translation: ""
+  translation: "141-Huh_ Oh, right! I did, heh!"
+  skip_translation: true
 
 - text: "VAZoey - 303 - Sorry I I changed my mind 1"
   translation: ""
@@ -4040,7 +4209,8 @@
   translation: ""
 
 - text: "NPCVA_134-Sigh"
-  translation: ""
+  translation: "NPCVA_134-Sigh"
+  skip_translation: true
 
 - text: "205-A jacuzzi really This place has a Jacuzzi"
   translation: ""
@@ -4064,7 +4234,8 @@
   translation: ""
 
 - text: "NPCVA_Huh-10"
-  translation: ""
+  translation: "NPCVA_Huh-10"
+  skip_translation: true
 
 - text: "16-Unhh Your cock is so meaty Mmhh 1"
   translation: ""
@@ -4073,7 +4244,8 @@
   translation: ""
 
 - text: "NPCVA_Mhm-9"
-  translation: ""
+  translation: "NPCVA_Mhm-9"
+  skip_translation: true
 
 - text: "VAZoey - 292 - A remote 1"
   translation: ""
@@ -4089,7 +4261,8 @@
   translation: ""
 
 - text: "Rosie_-06"
-  translation: ""
+  translation: "Rosie_-06"
+  skip_translation: true
 
 - text: "Intro_Cutscene_Dialogue_line_0 Yesss"
   translation: ""
@@ -4149,7 +4322,8 @@
   translation: ""
 
 - text: "NPCVA_Hi-10"
-  translation: ""
+  translation: "NPCVA_Hi-10"
+  skip_translation: true
 
 - text: "VAZoey - 260 - He wants it I wanna see more 1"
   translation: ""
@@ -4161,7 +4335,8 @@
   translation: ""
 
 - text: "Rosie_-35"
-  translation: ""
+  translation: "Rosie_-35"
+  skip_translation: true
 
 - text: "04-001 I wont tell her and if you do 1"
   translation: ""
@@ -4205,10 +4380,12 @@
   translation: ""
 
 - text: "Rosie_-14"
-  translation: ""
+  translation: "Rosie_-14"
+  skip_translation: true
 
 - text: "NPCVA_Yeah-9"
-  translation: ""
+  translation: "NPCVA_Yeah-9"
+  skip_translation: true
 
 - text: "128-Thinly sliced"
   translation: ""
@@ -4217,7 +4394,8 @@
   translation: ""
 
 - text: "Rosie_-39"
-  translation: ""
+  translation: "Rosie_-39"
+  skip_translation: true
 
 - text: "009 Cant I make it up to you 1"
   translation: ""
@@ -4229,7 +4407,8 @@
   translation: ""
 
 - text: "Rosie_-27"
-  translation: ""
+  translation: "Rosie_-27"
+  skip_translation: true
 
 - text: "29-Mooree I want moree Pleasee Fuck me harder 0"
   translation: ""
@@ -4274,7 +4453,8 @@
   translation: ""
 
 - text: "64-The drink!"
-  translation: ""
+  translation: "64-The drink!"
+  skip_translation: true
 
 - text: "slutbox turnon"
   translation: ""
@@ -4289,7 +4469,8 @@
   translation: ""
 
 - text: "Rosie_-15"
-  translation: ""
+  translation: "Rosie_-15"
+  skip_translation: true
 
 - text: "49-I wasn't done yet"
   translation: ""
@@ -4307,7 +4488,8 @@
   translation: ""
 
 - text: "86-D'aww look at you glow, ehehe! You're adorable!"
-  translation: ""
+  translation: "86-D'aww look at you glow, ehehe! You're adorable!"
+  skip_translation: true
 
 - text: "VAZoey - 270 - He has a vibrator inside his ass 0"
   translation: ""
@@ -4325,13 +4507,15 @@
   translation: ""
 
 - text: "100-Sure am! Excited for your first shift_"
-  translation: ""
+  translation: "100-Sure am! Excited for your first shift_"
+  skip_translation: true
 
 - text: "VAZoey - 075 - Oh Heh Erm thanks Its all good 0"
   translation: ""
 
 - text: "170-Kh-! What_"
-  translation: ""
+  translation: "170-Kh-! What_"
+  skip_translation: true
 
 - text: "Sarah-EQd-03-Wait Am I hearing music 0"
   translation: ""
@@ -4340,7 +4524,8 @@
   translation: ""
 
 - text: "110-Oh my god, aren't you an uncracked egg, ehehe!"
-  translation: ""
+  translation: "110-Oh my god, aren't you an uncracked egg, ehehe!"
+  skip_translation: true
 
 - text: "VAZoey - 181 - Picture of What 1"
   translation: ""
@@ -4352,7 +4537,8 @@
   translation: ""
 
 - text: "NPCVA_Mhm"
-  translation: ""
+  translation: "NPCVA_Mhm"
+  skip_translation: true
 
 - text: "20-Yes thats good Fuck your boypussy 1"
   translation: ""
@@ -4382,13 +4568,15 @@
   translation: ""
 
 - text: "NN__ZoeCough_5"
-  translation: ""
+  translation: "NN__ZoeCough_5"
+  skip_translation: true
 
 - text: "VAZoey - 161 - Yeah yeah Ill be right back 1"
   translation: ""
 
 - text: "NN__ZoeCough_6"
-  translation: ""
+  translation: "NN__ZoeCough_6"
+  skip_translation: true
 
 - text: "VAZoey - 159 - Riiight 1"
   translation: ""
@@ -4397,25 +4585,31 @@
   translation: ""
 
 - text: "NN__ZoeCough_7"
-  translation: ""
+  translation: "NN__ZoeCough_7"
+  skip_translation: true
 
 - text: "tcnn_intro_001 Mmmnh 0"
   translation: ""
 
 - text: "NN__ZoeCough_1"
-  translation: ""
+  translation: "NN__ZoeCough_1"
+  skip_translation: true
 
 - text: "NN__ZoeCough_8"
-  translation: ""
+  translation: "NN__ZoeCough_8"
+  skip_translation: true
 
 - text: "NN__ZoeCough_2"
-  translation: ""
+  translation: "NN__ZoeCough_2"
+  skip_translation: true
 
 - text: "NN__ZoeCough_3"
-  translation: ""
+  translation: "NN__ZoeCough_3"
+  skip_translation: true
 
 - text: "NN__ZoeCough_4"
-  translation: ""
+  translation: "NN__ZoeCough_4"
+  skip_translation: true
 
 - text: "Xr?"
   translation: "Xr?"
@@ -4449,19 +4643,22 @@
   translation: ""
 
 - text: "Rosie_-01"
-  translation: ""
+  translation: "Rosie_-01"
+  skip_translation: true
 
 - text: "VAZoey - 018 - I dont think shes wearing a bra 2"
   translation: ""
 
 - text: "11-Give me that!"
-  translation: ""
+  translation: "11-Give me that!"
+  skip_translation: true
 
 - text: "20-Who sent you here_"
   translation: ""
 
 - text: "20-Hmm~ No- But I like it!"
-  translation: ""
+  translation: "20-Hmm~ No- But I like it!"
+  skip_translation: true
 
 - text: "49-Ssureee 0"
   translation: ""
@@ -4482,7 +4679,8 @@
   translation: ""
 
 - text: "01-There, it's open!"
-  translation: ""
+  translation: "01-There, it's open!"
+  skip_translation: true
 
 - text: "VAZoey - 031 - Gah I I shouldnt stare like that 0"
   translation: ""
@@ -4503,7 +4701,8 @@
   translation: ""
 
 - text: "Rosie_-04"
-  translation: ""
+  translation: "Rosie_-04"
+  skip_translation: true
 
 - text: "T;1A"
   translation: "T;1A"
@@ -4528,7 +4727,8 @@
   translation: ""
 
 - text: "2AN@"
-  translation: ""
+  translation: "2AN@"
+  skip_translation: true
 
 - text: "104-Me too-"
   translation: ""
@@ -4537,7 +4737,8 @@
   translation: ""
 
 - text: "98-Did you get hurt_!"
-  translation: ""
+  translation: "98-Did you get hurt_!"
+  skip_translation: true
 
 - text: "SBvfe1_Denim Jacket Short Movement 025"
   translation: ""
@@ -4546,7 +4747,8 @@
   translation: ""
 
 - text: "109-They suit you!"
-  translation: ""
+  translation: "109-They suit you!"
+  skip_translation: true
 
 - text: "46-Why dont you join me 1"
   translation: ""
@@ -4612,7 +4814,8 @@
   skip_translation: true
 
 - text: "TUUUUU"
-  translation: ""
+  translation: "TUUUUU"
+  skip_translation: true
 
 - text: "Music Track"
   translation: ""
@@ -4621,13 +4824,15 @@
   translation: ""
 
 - text: "RevealTex"
-  translation: ""
+  translation: "RevealTex"
+  skip_translation: true
 
 - text: "Rotation"
   translation: ""
 
 - text: "WorldPosition"
-  translation: ""
+  translation: "WorldPosition"
+  skip_translation: true
 
 - text: "Intensity"
   translation: ""
@@ -4677,7 +4882,8 @@
   skip_translation: true
 
 - text: "ForwardLit"
-  translation: ""
+  translation: "ForwardLit"
+  skip_translation: true
 
 - text: "Power"
   translation: ""
@@ -4731,10 +4937,12 @@
   skip_translation: true
 
 - text: "QaEb"
-  translation: ""
+  translation: "QaEb"
+  skip_translation: true
 
 - text: "Q8=fff"
-  translation: ""
+  translation: "Q8=fff"
+  skip_translation: true
 
 - text: "Q8?ff&"
   translation: "Q8?ff&"
@@ -4811,10 +5019,12 @@
   skip_translation: true
 
 - text: "AadAE"
-  translation: ""
+  translation: "AadAE"
+  skip_translation: true
 
 - text: "AadA"
-  translation: ""
+  translation: "AadA"
+  skip_translation: true
 
 - text: "V,SA`"
   translation: "V,SA`"
@@ -4835,7 +5045,8 @@
   translation: ""
 
 - text: "GzAl"
-  translation: ""
+  translation: "GzAl"
+  skip_translation: true
 
 - text: "PAl"
   translation: "PAl"
@@ -4894,31 +5105,36 @@
   skip_translation: true
 
 - text: "KUaJ"
-  translation: ""
+  translation: "KUaJ"
+  skip_translation: true
 
 - text: "E:C"
   translation: "E:C"
   skip_translation: true
 
 - text: "KUac"
-  translation: ""
+  translation: "KUac"
+  skip_translation: true
 
 - text: "O\\D"
   translation: "O\\D"
   skip_translation: true
 
 - text: "UpADse\"C"
-  translation: ""
+  translation: "UpADse\"
+  skip_translation: true
 
 - text: "KUaF"
-  translation: ""
+  translation: "KUaF"
+  skip_translation: true
 
 - text: "KUa]"
   translation: "KUa]"
   skip_translation: true
 
 - text: "KUax"
-  translation: ""
+  translation: "KUax"
+  skip_translation: true
 
 - text: "KOLD"
   translation: "KOLD"
@@ -4928,10 +5144,12 @@
   translation: ""
 
 - text: "KUamx"
-  translation: ""
+  translation: "KUamx"
+  skip_translation: true
 
 - text: "KUaq"
-  translation: ""
+  translation: "KUaq"
+  skip_translation: true
 
 - text: "Dg-"
   translation: "Dg-"
@@ -4942,7 +5160,8 @@
   skip_translation: true
 
 - text: "KUar"
-  translation: ""
+  translation: "KUar"
+  skip_translation: true
 
 - text: "KUa#)"
   translation: ""
@@ -4951,7 +5170,8 @@
   translation: ""
 
 - text: "KUa$/"
-  translation: ""
+  translation: "KUa$/"
+  skip_translation: true
 
 - text: "Z3f"
   translation: "Z3f"
@@ -4966,15 +5186,15 @@
   skip_translation: true
 
 - text: "Cnk"
-  translation: "Cnk"
-  skip_translation: true
+  translation: ""
 
 - text: ";ZA"
   translation: ";ZA"
   skip_translation: true
 
 - text: "KUam"
-  translation: ""
+  translation: "KUam"
+  skip_translation: true
 
 - text: "DY`|A"
   translation: "DY`|A"
@@ -4993,14 +5213,16 @@
   skip_translation: true
 
 - text: "KUa=u1"
-  translation: ""
+  translation: "KUa=u1"
+  skip_translation: true
 
 - text: "DyP"
   translation: "DyP"
   skip_translation: true
 
 - text: "KUau"
-  translation: ""
+  translation: "KUau"
+  skip_translation: true
 
 - text: "Cf\"8B"
   translation: "Cf\\"
@@ -5027,10 +5249,12 @@
   skip_translation: true
 
 - text: "KUaE"
-  translation: ""
+  translation: "KUaE"
+  skip_translation: true
 
 - text: "KDQsSB"
-  translation: ""
+  translation: "KDQsSB"
+  skip_translation: true
 
 - text: "KUa+"
   translation: "KUa+"
@@ -5041,7 +5265,8 @@
   skip_translation: true
 
 - text: "KUaNC"
-  translation: ""
+  translation: "KUaNC"
+  skip_translation: true
 
 - text: "KUa="
   translation: "KUa="
@@ -5052,14 +5277,16 @@
   skip_translation: true
 
 - text: "KUaE~V"
-  translation: ""
+  translation: "KUaE~V"
+  skip_translation: true
 
 - text: "KUa["
   translation: "KUa["
   skip_translation: true
 
 - text: "KUa;G"
-  translation: ""
+  translation: "KUa;G"
+  skip_translation: true
 
 - text: "DfH"
   translation: "DfH"
@@ -5070,24 +5297,28 @@
   skip_translation: true
 
 - text: "KUa&P8-"
-  translation: ""
+  translation: "KUa&P8-"
+  skip_translation: true
 
 - text: "DI$"
   translation: "DI$"
   skip_translation: true
 
 - text: "BwBU"
-  translation: ""
+  translation: "BwBU"
+  skip_translation: true
 
 - text: "KUaa"
-  translation: ""
+  translation: "KUaa"
+  skip_translation: true
 
 - text: "~*BI$"
   translation: "~*BI$"
   skip_translation: true
 
 - text: "KUaC"
-  translation: ""
+  translation: "KUaC"
+  skip_translation: true
 
 - text: ".?`AG"
   translation: ".?`AG"
@@ -5105,14 +5336,16 @@
   translation: ""
 
 - text: "KUai"
-  translation: ""
+  translation: "KUai"
+  skip_translation: true
 
 - text: "#AD"
   translation: "#AD"
   skip_translation: true
 
 - text: "KUa?%"
-  translation: ""
+  translation: "KUa?%"
+  skip_translation: true
 
 - text: "Bg-"
   translation: "Bg-"
@@ -5137,7 +5370,8 @@
   skip_translation: true
 
 - text: "KUaH"
-  translation: ""
+  translation: "KUaH"
+  skip_translation: true
 
 - text: "IG#?"
   translation: "IG#?"
@@ -5152,7 +5386,8 @@
   skip_translation: true
 
 - text: "KUaI"
-  translation: ""
+  translation: "KUaI"
+  skip_translation: true
 
 - text: "KUa$"
   translation: "KUa$"
@@ -5163,10 +5398,12 @@
   skip_translation: true
 
 - text: "KUag"
-  translation: ""
+  translation: "KUag"
+  skip_translation: true
 
 - text: "KUauG"
-  translation: ""
+  translation: "KUauG"
+  skip_translation: true
 
 - text: "BI_?"
   translation: "BI_?"
@@ -5181,7 +5418,8 @@
   skip_translation: true
 
 - text: "KUab6pq"
-  translation: ""
+  translation: "KUab6pq"
+  skip_translation: true
 
 - text: "KUa)OOy"
   translation: ""
@@ -5271,7 +5509,8 @@
   skip_translation: true
 
 - text: "O~A,"
-  translation: ""
+  translation: "O~A,"
+  skip_translation: true
 
 - text: "H#A#"
   translation: "H#A#"
@@ -5318,10 +5557,12 @@
   skip_translation: true
 
 - text: "8IB3]BB"
-  translation: ""
+  translation: "8IB3]BB"
+  skip_translation: true
 
 - text: "BZ4eC"
-  translation: ""
+  translation: "BZ4eC"
+  skip_translation: true
 
 - text: "-EY"
   translation: "-EY"
@@ -5372,7 +5613,8 @@
   skip_translation: true
 
 - text: "ZgI?C"
-  translation: ""
+  translation: "ZgI?C"
+  skip_translation: true
 
 - text: "ZgI?"
   translation: "ZgI?"
@@ -5446,8 +5688,7 @@
   skip_translation: true
 
 - text: "Bjn"
-  translation: "Bjn"
-  skip_translation: true
+  translation: ""
 
 - text: "LuD"
   translation: "LuD"
@@ -5494,7 +5735,8 @@
   skip_translation: true
 
 - text: "NDfHkB"
-  translation: ""
+  translation: "NDfHkB"
+  skip_translation: true
 
 - text: "Byh"
   translation: ""
@@ -5508,7 +5750,8 @@
   skip_translation: true
 
 - text: "BhLAD"
-  translation: ""
+  translation: "BhLAD"
+  skip_translation: true
 
 - text: "F@w"
   translation: "F@w"
@@ -5567,7 +5810,8 @@
   skip_translation: true
 
 - text: "Af?~tg?"
-  translation: ""
+  translation: "Af?~tg?"
+  skip_translation: true
 
 - text: "Iy7E"
   translation: "Iy7E"
@@ -5590,7 +5834,8 @@
   skip_translation: true
 
 - text: "PeCH"
-  translation: ""
+  translation: "PeCH"
+  skip_translation: true
 
 - text: "Po=+"
   translation: "Po=+"
@@ -5665,8 +5910,7 @@
   skip_translation: true
 
 - text: "Dnk"
-  translation: "Dnk"
-  skip_translation: true
+  translation: ""
 
 - text: "U|B"
   translation: "U|B"
@@ -5709,11 +5953,11 @@
   skip_translation: true
 
 - text: "Box;E"
-  translation: ""
+  translation: "Box;E"
+  skip_translation: true
 
 - text: "Bfd"
-  translation: "Bfd"
-  skip_translation: true
+  translation: ""
 
 - text: "DQsSB"
   translation: "DQsSB"
@@ -5830,7 +6074,8 @@
   skip_translation: true
 
 - text: "Vge?J"
-  translation: ""
+  translation: "Vge?J"
+  skip_translation: true
 
 - text: "Zz="
   translation: "Zz="
@@ -6080,10 +6325,12 @@
   skip_translation: true
 
 - text: "EfHkCC"
-  translation: ""
+  translation: "EfHkCC"
+  skip_translation: true
 
 - text: "EfHkC"
-  translation: ""
+  translation: "EfHkC"
+  skip_translation: true
 
 - text: "A;B"
   translation: "A;B"
@@ -6132,7 +6379,8 @@
   skip_translation: true
 
 - text: "LeCA"
-  translation: ""
+  translation: "LeCA"
+  skip_translation: true
 
 - text: "B_UA"
   translation: "B_UA"
@@ -6147,7 +6395,8 @@
   skip_translation: true
 
 - text: "Al32@"
-  translation: ""
+  translation: "Al32@"
+  skip_translation: true
 
 - text: "!$AV"
   translation: "!$AV"
@@ -6202,7 +6451,8 @@
   skip_translation: true
 
 - text: "AO8a?"
-  translation: ""
+  translation: "AO8a?"
+  skip_translation: true
 
 - text: "F@l"
   translation: "F@l"
@@ -6261,7 +6511,8 @@
   skip_translation: true
 
 - text: "ErQA"
-  translation: ""
+  translation: "ErQA"
+  skip_translation: true
 
 - text: "~OA"
   translation: "~OA"
@@ -6364,7 +6615,8 @@
   skip_translation: true
 
 - text: "GeAH"
-  translation: ""
+  translation: "GeAH"
+  skip_translation: true
 
 - text: "(XA"
   translation: "(XA"
@@ -6383,14 +6635,16 @@
   skip_translation: true
 
 - text: "Cu\""
-  translation: ""
+  translation: "Cu\"
+  skip_translation: true
 
 - text: "`E;L"
   translation: "`E;L"
   skip_translation: true
 
 - text: "BaZxE"
-  translation: ""
+  translation: "BaZxE"
+  skip_translation: true
 
 - text: "BUs\\C"
   translation: "BUs\\\\C"
@@ -6413,7 +6667,8 @@
   skip_translation: true
 
 - text: "GEW\"+D;["
-  translation: ""
+  translation: "GEW\"
+  skip_translation: true
 
 - text: "GEW\"+D"
   translation: "GEW\"+D"
@@ -6480,7 +6735,8 @@
   skip_translation: true
 
 - text: "Af\""
-  translation: ""
+  translation: "Af\"
+  skip_translation: true
 
 - text: "Bf\"8C"
   translation: "Bf\\"
@@ -6499,7 +6755,8 @@
   skip_translation: true
 
 - text: "5UE*"
-  translation: ""
+  translation: "5UE*"
+  skip_translation: true
 
 - text: "R9a"
   translation: "R9a"
@@ -6530,7 +6787,8 @@
   skip_translation: true
 
 - text: "C?ff&@ffF?="
-  translation: ""
+  translation: "C?ff&@ffF?="
+  skip_translation: true
 
 - text: "K?ffV@"
   translation: "K?ffV@"
@@ -6593,7 +6851,8 @@
   skip_translation: true
 
 - text: "ABv`DB6]D"
-  translation: ""
+  translation: "ABv`DB6]D"
+  skip_translation: true
 
 - text: "Qx@="
   translation: "Qx@="
@@ -6643,7 +6902,8 @@
   translation: ""
 
 - text: "Apl_Sarah_Glove"
-  translation: ""
+  translation: "Apl_Sarah_Glove"
+  skip_translation: true
 
 - text: "Glove"
   translation: ""
@@ -6667,7 +6927,8 @@
   translation: ""
 
 - text: "Apl_NovaOutfit"
-  translation: ""
+  translation: "Apl_NovaOutfit"
+  skip_translation: true
 
 - text: "Novas Outfit"
   translation: ""
@@ -6679,8 +6940,7 @@
   translation: ""
 
 - text: "Tshirt"
-  translation: "Tshirt"
-  skip_translation: true
+  translation: ""
 
 - text: "Futereswear Skintightv2 Gloves"
   translation: ""
@@ -6698,7 +6958,8 @@
   translation: ""
 
 - text: "Apl_Sarah_Top"
-  translation: ""
+  translation: "Apl_Sarah_Top"
+  skip_translation: true
 
 - text: "High heels with black stockings"
   translation: ""
@@ -6743,7 +7004,8 @@
   translation: ""
 
 - text: "Apl_Sarah_Shoes"
-  translation: ""
+  translation: "Apl_Sarah_Shoes"
+  skip_translation: true
 
 - text: "Sneaker"
   translation: ""
@@ -6770,7 +7032,8 @@
   translation: ""
 
 - text: "Apl_Sarah_Pants"
-  translation: ""
+  translation: "Apl_Sarah_Pants"
+  skip_translation: true
 
 - text: "Hot pants"
   translation: ""
@@ -6798,8 +7061,7 @@
   skip_translation: true
 
 - text: "Dhb"
-  translation: "Dhb"
-  skip_translation: true
+  translation: ""
 
 - text: "0.3 - TalkToKlaudia - 2_1"
   translation: ""
@@ -6815,7 +7077,8 @@
   translation: ""
 
 - text: "UUUUUU,@"
-  translation: ""
+  translation: "UUUUUU,@"
+  skip_translation: true
 
 - text: "New Render Texture"
   translation: ""
@@ -6869,13 +7132,15 @@
   translation: ""
 
 - text: "FkneeScrew"
-  translation: ""
+  translation: "FkneeScrew"
+  skip_translation: true
 
 - text: "Fshoe"
   translation: ""
 
 - text: "Fshoe1"
-  translation: ""
+  translation: "Fshoe1"
+  skip_translation: true
 
 - text: "hair tail"
   translation: ""
@@ -6896,43 +7161,54 @@
   translation: ""
 
 - text: "BarmHair"
-  translation: ""
+  translation: "BarmHair"
+  skip_translation: true
 
 - text: "BfootHair"
-  translation: ""
+  translation: "BfootHair"
+  skip_translation: true
 
 - text: "BlegHair"
-  translation: ""
+  translation: "BlegHair"
+  skip_translation: true
 
 - text: "BUlegHair"
-  translation: ""
+  translation: "BUlegHair"
+  skip_translation: true
 
 - text: "ChestHair"
-  translation: ""
+  translation: "ChestHair"
+  skip_translation: true
 
 - text: "DickHair"
-  translation: ""
+  translation: "DickHair"
+  skip_translation: true
 
 - text: "FarmHair"
-  translation: ""
+  translation: "FarmHair"
+  skip_translation: true
 
 - text: "FfootHair"
-  translation: ""
+  translation: "FfootHair"
+  skip_translation: true
 
 - text: "Fhair"
   translation: ""
 
 - text: "FlegHair"
-  translation: ""
+  translation: "FlegHair"
+  skip_translation: true
 
 - text: "FUlegHair"
-  translation: ""
+  translation: "FUlegHair"
+  skip_translation: true
 
 - text: "chubbier/head base"
   translation: ""
 
 - text: "LLLid"
-  translation: ""
+  translation: "LLLid"
+  skip_translation: true
 
 - text: "panis hard"
   translation: ""
@@ -6953,13 +7229,16 @@
   skip_translation: true
 
 - text: "Bhair1"
-  translation: ""
+  translation: "Bhair1"
+  skip_translation: true
 
 - text: "Bhair2"
-  translation: ""
+  translation: "Bhair2"
+  skip_translation: true
 
 - text: "Bhair3"
-  translation: ""
+  translation: "Bhair3"
+  skip_translation: true
 
 - text: "bunny ears"
   translation: ""
@@ -6994,14 +7273,14 @@
   translation: ""
 
 - text: "Lblash"
-  translation: "Lblash"
-  skip_translation: true
+  translation: ""
 
 - text: "Lcrease"
   translation: ""
 
 - text: "LLLash"
-  translation: ""
+  translation: "LLLash"
+  skip_translation: true
 
 - text: "petplay sprite only.atlas"
   translation: ""
@@ -7041,7 +7320,8 @@
   skip_translation: true
 
 - text: "EpCf"
-  translation: ""
+  translation: "EpCf"
+  skip_translation: true
 
 - text: "DoB"
   translation: "DoB"
@@ -7054,10 +7334,12 @@
   translation: ""
 
 - text: "Bpigtail1"
-  translation: ""
+  translation: "Bpigtail1"
+  skip_translation: true
 
 - text: "Bpigtail2"
-  translation: ""
+  translation: "Bpigtail2"
+  skip_translation: true
 
 - text: "default_casual/Bshoe backside"
   translation: ""
@@ -7084,10 +7366,12 @@
   translation: ""
 
 - text: "Fpigtai2"
-  translation: ""
+  translation: "Fpigtai2"
+  skip_translation: true
 
 - text: "Intro_PPP"
-  translation: ""
+  translation: "Intro_PPP"
+  skip_translation: true
 
 - text: "Find Cal"
   translation: ""
@@ -7102,7 +7386,8 @@
   translation: ""
 
 - text: "SlutService_3"
-  translation: ""
+  translation: "SlutService_3"
+  skip_translation: true
 
 - text: "Scheduling Conflict"
   translation: ""
@@ -7151,14 +7436,16 @@
   skip_translation: true
 
 - text: "SUUUUU"
-  translation: ""
+  translation: "SUUUUU"
+  skip_translation: true
 
 - text: "Follow Her CutsceneTimeline"
   translation: "Follow Her CutsceneTimeline"
   skip_translation: true
 
 - text: "SlutService_2"
-  translation: ""
+  translation: "SlutService_2"
+  skip_translation: true
 
 - text: "Exciting Update"
   translation: ""
@@ -7167,13 +7454,15 @@
   translation: ""
 
 - text: "Subject: Exciting Update!"
-  translation: ""
+  translation: "Subject: Exciting Update!"
+  skip_translation: true
 
 - text: "Hi Klaudia,"
   translation: ""
 
 - text: "I hope you're doing fabulously!"
-  translation: ""
+  translation: "I hope you're doing fabulously!"
+  skip_translation: true
 
 - text: "Just wanted to give you a quick update"
   translation: ""
@@ -7188,7 +7477,8 @@
   translation: ""
 
 - text: "TryMovingUp"
-  translation: ""
+  translation: "TryMovingUp"
+  skip_translation: true
 
 - text: "Show Nova your rear"
   translation: ""
@@ -7236,7 +7526,8 @@
   translation: ""
 
 - text: "SlutService_4"
-  translation: ""
+  translation: "SlutService_4"
+  skip_translation: true
 
 - text: "Incident Update"
   translation: ""
@@ -7287,7 +7578,8 @@
   skip_translation: true
 
 - text: "MynxRequest"
-  translation: ""
+  translation: "MynxRequest"
+  skip_translation: true
 
 - text: "The Bunnies Will Play"
   translation: ""
@@ -7324,7 +7616,8 @@
   translation: ""
 
 - text: "SlutService_1"
-  translation: ""
+  translation: "SlutService_1"
+  skip_translation: true
 
 - text: "Happy Birthday"
   translation: ""
@@ -7367,7 +7660,8 @@
   skip_translation: true
 
 - text: "SuitcaseMission"
-  translation: ""
+  translation: "SuitcaseMission"
+  skip_translation: true
 
 - text: "Contract: Recover Stolen Goods"
   translation: ""
@@ -7383,27 +7677,28 @@
   skip_translation: true
 
 - text: "Down"
-  translation: "Down"
-  skip_translation: true
+  translation: ""
 
 - text: "PMA_AddHorny"
-  translation: ""
+  translation: "PMA_AddHorny"
+  skip_translation: true
 
 - text: "Target"
   translation: ""
 
 - text: "AmountToAdd"
-  translation: ""
+  translation: "AmountToAdd"
+  skip_translation: true
 
 - text: "Announce"
   translation: ""
 
 - text: "Hair_Female_4"
-  translation: ""
+  translation: "Hair_Female_4"
+  skip_translation: true
 
 - text: "Bangs"
-  translation: "Bangs"
-  skip_translation: true
+  translation: ""
 
 - text: "Nova - 7 Grope Downstairs_line_9-FSM"
   translation: ""
@@ -7418,7 +7713,8 @@
   translation: ""
 
 - text: "Hair_Female_8"
-  translation: ""
+  translation: "Hair_Female_8"
+  skip_translation: true
 
 - text: "messy_Dark Bshort strands1"
   translation: ""
@@ -7436,52 +7732,64 @@
   translation: ""
 
 - text: "InventoryGiven"
-  translation: ""
+  translation: "InventoryGiven"
+  skip_translation: true
 
 - text: "Style"
   translation: ""
 
 - text: "PreUsed"
-  translation: ""
+  translation: "PreUsed"
+  skip_translation: true
 
 - text: "CantUse"
-  translation: ""
+  translation: "CantUse"
+  skip_translation: true
 
 - text: "Play error"
   translation: ""
 
 - text: "CanUse"
-  translation: ""
+  translation: "CanUse"
+  skip_translation: true
 
 - text: "OnTrue"
-  translation: ""
+  translation: "OnTrue"
+  skip_translation: true
 
 - text: "OnFalse"
-  translation: ""
+  translation: "OnFalse"
+  skip_translation: true
 
 - text: "OnUsed"
-  translation: ""
+  translation: "OnUsed"
+  skip_translation: true
 
 - text: "UpdateTooltip"
-  translation: ""
+  translation: "UpdateTooltip"
+  skip_translation: true
 
 - text: "Done"
   translation: ""
 
 - text: "There's no more charges left!"
-  translation: ""
+  translation: "There's no more charges left!"
+  skip_translation: true
 
 - text: "OnComplete"
-  translation: ""
+  translation: "OnComplete"
+  skip_translation: true
 
 - text: "HasCharges"
-  translation: ""
+  translation: "HasCharges"
+  skip_translation: true
 
 - text: "Set color to green"
   translation: ""
 
 - text: "NoCharges"
-  translation: ""
+  translation: "NoCharges"
+  skip_translation: true
 
 - text: "Set color to red"
   translation: ""
@@ -7496,19 +7804,23 @@
   translation: ""
 
 - text: "ColorString"
-  translation: ""
+  translation: "ColorString"
+  skip_translation: true
 
 - text: "Nova - 11 Nova gropes Zoey in Breakroom_line_7-FSM"
   translation: ""
 
 - text: "Hair_Male_1"
-  translation: ""
+  translation: "Hair_Male_1"
+  skip_translation: true
 
 - text: "Hair_Female_9"
-  translation: ""
+  translation: "Hair_Female_9"
+  skip_translation: true
 
 - text: "Hair_Female_7"
-  translation: ""
+  translation: "Hair_Female_7"
+  skip_translation: true
 
 - text: "Braid"
   translation: ""
@@ -7520,91 +7832,108 @@
   translation: ""
 
 - text: "Hair_Female_1"
-  translation: ""
-
-- text: "Hair_Male_2"
-  translation: ""
-
-- text: "Bang"
-  translation: "Bang"
+  translation: "Hair_Female_1"
   skip_translation: true
 
-- text: "FadeVolume"
+- text: "Hair_Male_2"
+  translation: "Hair_Male_2"
+  skip_translation: true
+
+- text: "Bang"
   translation: ""
 
+- text: "FadeVolume"
+  translation: "FadeVolume"
+  skip_translation: true
+
 - text: "GoBJ"
-  translation: ""
+  translation: "GoBJ"
+  skip_translation: true
 
 - text: "Source"
   translation: ""
 
 - text: "ClipToPlay"
-  translation: ""
-
-- text: "Pitch"
-  translation: "Pitch"
+  translation: "ClipToPlay"
   skip_translation: true
 
-- text: "StartDelay"
+- text: "Pitch"
   translation: ""
+
+- text: "StartDelay"
+  translation: "StartDelay"
+  skip_translation: true
 
 - text: "SoundOrigin"
-  translation: ""
+  translation: "SoundOrigin"
+  skip_translation: true
 
 - text: "ShouldLoop"
-  translation: ""
+  translation: "ShouldLoop"
+  skip_translation: true
 
 - text: "Is3DSound"
-  translation: ""
+  translation: "Is3DSound"
+  skip_translation: true
 
 - text: "SilenceDistance"
-  translation: ""
+  translation: "SilenceDistance"
+  skip_translation: true
 
 - text: "RolloffMode"
-  translation: ""
+  translation: "RolloffMode"
+  skip_translation: true
 
 - text: "DopplerAmount"
-  translation: ""
+  translation: "DopplerAmount"
+  skip_translation: true
 
 - text: "Audio"
   translation: ""
 
 - text: "TargetVolume"
-  translation: ""
+  translation: "TargetVolume"
+  skip_translation: true
 
 - text: "FadeDuration"
-  translation: ""
+  translation: "FadeDuration"
+  skip_translation: true
 
 - text: "Faded"
   translation: ""
 
 - text: "EffectTick"
-  translation: ""
-
-- text: "Clips"
-  translation: "Clips"
+  translation: "EffectTick"
   skip_translation: true
 
-- text: "ToDestroy"
+- text: "Clips"
   translation: ""
+
+- text: "ToDestroy"
+  translation: "ToDestroy"
+  skip_translation: true
 
 - text: "Nova - 3 - Decline_line_2-FSM"
   translation: ""
 
 - text: "Hair_Female_3"
-  translation: ""
+  translation: "Hair_Female_3"
+  skip_translation: true
 
 - text: "Hair_Female_18"
-  translation: ""
+  translation: "Hair_Female_18"
+  skip_translation: true
 
 - text: "Ponytail"
   translation: ""
 
 - text: "Hair_Female_6"
-  translation: ""
+  translation: "Hair_Female_6"
+  skip_translation: true
 
 - text: "Hair_Female_2"
-  translation: ""
+  translation: "Hair_Female_2"
+  skip_translation: true
 
 - text: "Nova - 4 After Nova walks away_line_0-FSM"
   translation: ""
@@ -7625,7 +7954,8 @@
   translation: ""
 
 - text: "OnQueueEmpty"
-  translation: ""
+  translation: "OnQueueEmpty"
+  skip_translation: true
 
 - text: "Sex Slow"
   translation: ""
@@ -7637,11 +7967,11 @@
   translation: ""
 
 - text: "Hair_Female_5"
-  translation: ""
+  translation: "Hair_Female_5"
+  skip_translation: true
 
 - text: "Scalp"
-  translation: "Scalp"
-  skip_translation: true
+  translation: ""
 
 - text: "Novas Knife FSM"
   translation: ""
@@ -7680,7 +8010,8 @@
   translation: ""
 
 - text: "AssNude"
-  translation: ""
+  translation: "AssNude"
+  skip_translation: true
 
 - text: "Rosie Breasts FSM"
   translation: ""
@@ -7689,7 +8020,8 @@
   translation: ""
 
 - text: "Nova_Atlas"
-  translation: ""
+  translation: "Nova_Atlas"
+  skip_translation: true
 
 - text: "Novas Pistols FSM"
   translation: ""
@@ -7698,10 +8030,12 @@
   translation: ""
 
 - text: "Bartender_Atlas"
-  translation: ""
+  translation: "Bartender_Atlas"
+  skip_translation: true
 
 - text: "ForceOpenDoor"
-  translation: ""
+  translation: "ForceOpenDoor"
+  skip_translation: true
 
 - text: "Mask On"
   translation: ""
@@ -7746,7 +8080,8 @@
   skip_translation: true
 
 - text: "JA0;"
-  translation: ""
+  translation: "JA0;"
+  skip_translation: true
 
 - text: "\"IA"
   translation: "\\"
@@ -7816,7 +8151,8 @@
   skip_translation: true
 
 - text: "AtnfAB"
-  translation: ""
+  translation: "AtnfAB"
+  skip_translation: true
 
 - text: "A\"i`A"
   translation: "A\\"
@@ -7835,7 +8171,8 @@
   skip_translation: true
 
 - text: "IAjy"
-  translation: ""
+  translation: "IAjy"
+  skip_translation: true
 
 - text: "RA@"
   translation: "RA@"
@@ -7952,8 +8289,7 @@
   translation: ""
 
 - text: "Lights"
-  translation: "Lights"
-  skip_translation: true
+  translation: ""
 
 - text: "End"
   translation: ""
@@ -7977,7 +8313,8 @@
   translation: ""
 
 - text: "ShowerAudio"
-  translation: ""
+  translation: "ShowerAudio"
+  skip_translation: true
 
 - text: "Door to 101"
   translation: ""
@@ -7998,7 +8335,8 @@
   translation: ""
 
 - text: "VendingMachine"
-  translation: ""
+  translation: "VendingMachine"
+  skip_translation: true
 
 - text: "Interaction"
   translation: ""
@@ -8019,7 +8357,8 @@
   translation: ""
 
 - text: "Light_SideRight"
-  translation: ""
+  translation: "Light_SideRight"
+  skip_translation: true
 
 - text: "Crack 6"
   translation: ""
@@ -8049,10 +8388,12 @@
   translation: ""
 
 - text: "Light_SideLeft"
-  translation: ""
+  translation: "Light_SideLeft"
+  skip_translation: true
 
 - text: "TopWall"
-  translation: ""
+  translation: "TopWall"
+  skip_translation: true
 
 - text: "Crack 15"
   translation: ""
@@ -8073,7 +8414,8 @@
   translation: ""
 
 - text: "Price_Reaction"
-  translation: ""
+  translation: "Price_Reaction"
+  skip_translation: true
 
 - text: "Room 202 Peeking"
   translation: ""
@@ -8097,13 +8439,15 @@
   translation: ""
 
 - text: "NudityZones"
-  translation: ""
+  translation: "NudityZones"
+  skip_translation: true
 
 - text: "Shadowcaster"
   translation: ""
 
 - text: "BoxPosition"
-  translation: ""
+  translation: "BoxPosition"
+  skip_translation: true
 
 - text: "Carpet Premium 3"
   translation: ""
@@ -8115,7 +8459,8 @@
   translation: ""
 
 - text: "ShadowCaster"
-  translation: ""
+  translation: "ShadowCaster"
+  skip_translation: true
 
 - text: "Crack 5"
   translation: ""
@@ -8130,7 +8475,8 @@
   translation: ""
 
 - text: "WallBreak_2"
-  translation: ""
+  translation: "WallBreak_2"
+  skip_translation: true
 
 - text: "Order 1 - Gave correct Drink"
   translation: ""
@@ -8154,16 +8500,19 @@
   translation: ""
 
 - text: "PlayerMove"
-  translation: ""
+  translation: "PlayerMove"
+  skip_translation: true
 
 - text: "PlayerPos"
-  translation: ""
+  translation: "PlayerPos"
+  skip_translation: true
 
 - text: "Drain"
   translation: ""
 
 - text: "Black_Overlay"
-  translation: ""
+  translation: "Black_Overlay"
+  skip_translation: true
 
 - text: "Room Sign"
   translation: ""
@@ -8176,10 +8525,12 @@
   skip_translation: true
 
 - text: "SlutService"
-  translation: ""
+  translation: "SlutService"
+  skip_translation: true
 
 - text: "NN_Logo"
-  translation: ""
+  translation: "NN_Logo"
+  skip_translation: true
 
 - text: "Fade in Room when entering"
   translation: ""
@@ -8191,7 +8542,8 @@
   translation: ""
 
 - text: "CreditsCutscene"
-  translation: ""
+  translation: "CreditsCutscene"
+  skip_translation: true
 
 - text: "Paper"
   translation: ""
@@ -8203,7 +8555,8 @@
   translation: ""
 
 - text: "CondomLight"
-  translation: ""
+  translation: "CondomLight"
+  skip_translation: true
 
 - text: "1 - Check if cleaned in the past"
   translation: ""
@@ -8221,10 +8574,12 @@
   translation: ""
 
 - text: "MoveTo"
-  translation: ""
+  translation: "MoveTo"
+  skip_translation: true
 
 - text: "PILimiter"
-  translation: ""
+  translation: "PILimiter"
+  skip_translation: true
 
 - text: "Peeking Interaction 103"
   translation: ""
@@ -8236,13 +8591,16 @@
   translation: ""
 
 - text: "Sign_Number2"
-  translation: ""
+  translation: "Sign_Number2"
+  skip_translation: true
 
 - text: "MovePOS"
-  translation: ""
+  translation: "MovePOS"
+  skip_translation: true
 
 - text: "BlueStrip2"
-  translation: ""
+  translation: "BlueStrip2"
+  skip_translation: true
 
 - text: "Cum 2"
   translation: ""
@@ -8260,8 +8618,7 @@
   translation: ""
 
 - text: "Trash"
-  translation: "Trash"
-  skip_translation: true
+  translation: ""
 
 - text: "Door to 102"
   translation: ""
@@ -8276,7 +8633,8 @@
   translation: ""
 
 - text: "TV_Screen"
-  translation: ""
+  translation: "TV_Screen"
+  skip_translation: true
 
 - text: "Walk Down Target"
   translation: ""
@@ -8294,7 +8652,8 @@
   translation: ""
 
 - text: "SaveKeyCheck"
-  translation: ""
+  translation: "SaveKeyCheck"
+  skip_translation: true
 
 - text: "Fade"
   translation: ""
@@ -8354,8 +8713,7 @@
   translation: ""
 
 - text: "Light"
-  translation: "Light"
-  skip_translation: true
+  translation: ""
 
 - text: "Downstairs Walk Down"
   translation: ""
@@ -8379,16 +8737,19 @@
   translation: ""
 
 - text: "FunnyBackground"
-  translation: ""
+  translation: "FunnyBackground"
+  skip_translation: true
 
 - text: "LightWall"
-  translation: ""
+  translation: "LightWall"
+  skip_translation: true
 
 - text: "Towel 3"
   translation: ""
 
 - text: "StageLighting"
-  translation: ""
+  translation: "StageLighting"
+  skip_translation: true
 
 - text: "Hallway 102 Sign"
   translation: ""
@@ -8427,17 +8788,20 @@
   translation: ""
 
 - text: "Staff_Room"
-  translation: ""
+  translation: "Staff_Room"
+  skip_translation: true
 
 - text: "Chapter3"
-  translation: ""
+  translation: "Chapter3"
+  skip_translation: true
 
 - text: "Light_1"
   translation: "Light_1"
   skip_translation: true
 
 - text: "KeyBoard_Light1"
-  translation: ""
+  translation: "KeyBoard_Light1"
+  skip_translation: true
 
 - text: "Decals"
   translation: ""
@@ -8458,13 +8822,15 @@
   translation: ""
 
 - text: "Ground_Floor"
-  translation: ""
+  translation: "Ground_Floor"
+  skip_translation: true
 
 - text: "Crack 1"
   translation: ""
 
 - text: "FlavorDialogues"
-  translation: ""
+  translation: "FlavorDialogues"
+  skip_translation: true
 
 - text: "Door to Bathroom"
   translation: ""
@@ -8482,7 +8848,8 @@
   translation: ""
 
 - text: "Rim_Lights"
-  translation: ""
+  translation: "Rim_Lights"
+  skip_translation: true
 
 - text: "Cum 5"
   translation: ""
@@ -8509,7 +8876,8 @@
   translation: ""
 
 - text: "BlackOutlines"
-  translation: ""
+  translation: "BlackOutlines"
+  skip_translation: true
 
 - text: "Afterglow Corner Moaning"
   translation: ""
@@ -8530,7 +8898,8 @@
   translation: ""
 
 - text: "BlackOverlay"
-  translation: ""
+  translation: "BlackOverlay"
+  skip_translation: true
 
 - text: "Dirty"
   translation: ""
@@ -8569,8 +8938,7 @@
   translation: ""
 
 - text: "Grid"
-  translation: "Grid"
-  skip_translation: true
+  translation: ""
 
 - text: "Talking Walla in Downstairs Bar"
   translation: ""
@@ -8589,7 +8957,8 @@
   translation: ""
 
 - text: "SkipContainer"
-  translation: ""
+  translation: "SkipContainer"
+  skip_translation: true
 
 - text: "Room 105 Peeking"
   translation: ""
@@ -8610,13 +8979,16 @@
   translation: ""
 
 - text: "StairCase"
-  translation: ""
+  translation: "StairCase"
+  skip_translation: true
 
 - text: "Disable Lockpicking Kitchen Door & Cook Dialogue"
-  translation: ""
+  translation: "Disable Lockpicking Kitchen Door & Cook Dialogue"
+  skip_translation: true
 
 - text: "DisablePeeking"
-  translation: ""
+  translation: "DisablePeeking"
+  skip_translation: true
 
 - text: "Dirt 1"
   translation: ""
@@ -8631,7 +9003,8 @@
   translation: ""
 
 - text: "UpperRoom"
-  translation: ""
+  translation: "UpperRoom"
+  skip_translation: true
 
 - text: "Enviorment"
   translation: ""
@@ -8658,7 +9031,8 @@
   translation: ""
 
 - text: "KeyBoard_Light2"
-  translation: ""
+  translation: "KeyBoard_Light2"
+  skip_translation: true
 
 - text: "After picking up bunnysuit logic"
   translation: ""
@@ -8697,7 +9071,8 @@
   translation: ""
 
 - text: "BroomCloset"
-  translation: ""
+  translation: "BroomCloset"
+  skip_translation: true
 
 - text: "Right Position"
   translation: ""
@@ -8743,16 +9118,19 @@
   translation: ""
 
 - text: "ChoiceLogic"
-  translation: ""
+  translation: "ChoiceLogic"
+  skip_translation: true
 
 - text: "Sarah_Calls"
-  translation: ""
+  translation: "Sarah_Calls"
+  skip_translation: true
 
 - text: "Door to Storage Room"
   translation: ""
 
 - text: "BlueStrip1"
-  translation: ""
+  translation: "BlueStrip1"
+  skip_translation: true
 
 - text: "Trash pile"
   translation: ""
@@ -8785,19 +9163,22 @@
   translation: ""
 
 - text: "T_Shirt"
-  translation: ""
+  translation: "T_Shirt"
+  skip_translation: true
 
 - text: "Crack 12"
   translation: ""
 
 - text: "Wall_Arrow"
-  translation: ""
+  translation: "Wall_Arrow"
+  skip_translation: true
 
 - text: "Order 3 - Asking for Drink"
   translation: ""
 
 - text: "FuseBox_Plug"
-  translation: ""
+  translation: "FuseBox_Plug"
+  skip_translation: true
 
 - text: "Crack 19"
   translation: ""
@@ -8837,7 +9218,8 @@
   translation: ""
 
 - text: "Fake_Light"
-  translation: ""
+  translation: "Fake_Light"
+  skip_translation: true
 
 - text: "Room 101 Peeking"
   translation: ""
@@ -8867,7 +9249,8 @@
   translation: ""
 
 - text: "SmallFuseBox"
-  translation: ""
+  translation: "SmallFuseBox"
+  skip_translation: true
 
 - text: "Assets"
   translation: ""
@@ -8928,7 +9311,8 @@
   translation: ""
 
 - text: "FourgroundBeam"
-  translation: ""
+  translation: "FourgroundBeam"
+  skip_translation: true
 
 - text: "First Floor"
   translation: ""
@@ -8937,7 +9321,8 @@
   translation: ""
 
 - text: "Trigger2"
-  translation: ""
+  translation: "Trigger2"
+  skip_translation: true
 
 - text: "Audio Source"
   translation: ""
@@ -8979,13 +9364,15 @@
   translation: ""
 
 - text: "FoodOnTable"
-  translation: ""
+  translation: "FoodOnTable"
+  skip_translation: true
 
 - text: "6 - Do First Time Bartending"
   translation: ""
 
 - text: "Second_Floor"
-  translation: ""
+  translation: "Second_Floor"
+  skip_translation: true
 
 - text: "Watch Groping Interaction"
   translation: ""
@@ -9003,7 +9390,8 @@
   translation: ""
 
 - text: "RimLight_TV"
-  translation: ""
+  translation: "RimLight_TV"
+  skip_translation: true
 
 - text: "Table"
   translation: ""
@@ -9036,10 +9424,12 @@
   translation: ""
 
 - text: "ToDistrict"
-  translation: ""
+  translation: "ToDistrict"
+  skip_translation: true
 
 - text: "SLUTService"
-  translation: ""
+  translation: "SLUTService"
+  skip_translation: true
 
 - text: "Man walk upstairs Position"
   translation: ""
@@ -9079,7 +9469,8 @@
   translation: ""
 
 - text: "LoveLetters"
-  translation: ""
+  translation: "LoveLetters"
+  skip_translation: true
 
 - text: "Transitions"
   translation: ""
@@ -9088,8 +9479,7 @@
   translation: ""
 
 - text: "Crack"
-  translation: "Crack"
-  skip_translation: true
+  translation: ""
 
 - text: "Soap"
   translation: ""
@@ -9104,7 +9494,8 @@
   translation: ""
 
 - text: "TV_Shine"
-  translation: ""
+  translation: "TV_Shine"
+  skip_translation: true
 
 - text: "Screen Sex Walla"
   translation: ""
@@ -9125,11 +9516,11 @@
   translation: ""
 
 - text: "CornerTable"
-  translation: ""
+  translation: "CornerTable"
+  skip_translation: true
 
 - text: "Dress"
-  translation: "Dress"
-  skip_translation: true
+  translation: ""
 
 - text: "Customers"
   translation: ""
@@ -9174,10 +9565,12 @@
   translation: ""
 
 - text: "Move_Pos"
-  translation: ""
+  translation: "Move_Pos"
+  skip_translation: true
 
 - text: "SkipButton"
-  translation: ""
+  translation: "SkipButton"
+  skip_translation: true
 
 - text: "Room 101"
   translation: ""
@@ -9198,7 +9591,8 @@
   translation: ""
 
 - text: "Trigger_Kitchen"
-  translation: ""
+  translation: "Trigger_Kitchen"
+  skip_translation: true
 
 - text: "Dirt Wall 1"
   translation: ""
@@ -9207,7 +9601,8 @@
   translation: ""
 
 - text: "ExitPosition"
-  translation: ""
+  translation: "ExitPosition"
+  skip_translation: true
 
 - text: "Table Props"
   translation: ""
@@ -9231,8 +9626,7 @@
   translation: ""
 
 - text: "Cracks"
-  translation: "Cracks"
-  skip_translation: true
+  translation: ""
 
 - text: "Room 205"
   translation: ""
@@ -9241,7 +9635,8 @@
   translation: ""
 
 - text: "WallSeparator"
-  translation: ""
+  translation: "WallSeparator"
+  skip_translation: true
 
 - text: "Klaudia Default Location"
   translation: ""
@@ -9250,7 +9645,8 @@
   translation: ""
 
 - text: "FuseBox_Base"
-  translation: ""
+  translation: "FuseBox_Base"
+  skip_translation: true
 
 - text: "Dirt Wall 5"
   translation: ""
@@ -9259,11 +9655,11 @@
   translation: ""
 
 - text: "Clock_Light"
-  translation: ""
+  translation: "Clock_Light"
+  skip_translation: true
 
 - text: "Glint"
-  translation: "Glint"
-  skip_translation: true
+  translation: ""
 
 - text: "Face Cleaner"
   translation: ""
@@ -9353,7 +9749,8 @@
   translation: ""
 
 - text: "DemoCutoff"
-  translation: ""
+  translation: "DemoCutoff"
+  skip_translation: true
 
 - text: "Windows/For Jumping Out Intro"
   translation: ""
@@ -9365,10 +9762,12 @@
   translation: ""
 
 - text: "WallBreak"
-  translation: ""
+  translation: "WallBreak"
+  skip_translation: true
 
 - text: "Wall_Heart"
-  translation: ""
+  translation: "Wall_Heart"
+  skip_translation: true
 
 - text: "Order 5 - Asking for Drink"
   translation: ""
@@ -9386,7 +9785,8 @@
   translation: ""
 
 - text: "Trigger1"
-  translation: ""
+  translation: "Trigger1"
+  skip_translation: true
 
 - text: "Holo-poster"
   translation: ""
@@ -9395,7 +9795,8 @@
   translation: ""
 
 - text: "Chapter1"
-  translation: ""
+  translation: "Chapter1"
+  skip_translation: true
 
 - text: "Big tray - empty"
   translation: ""
@@ -9440,7 +9841,8 @@
   translation: ""
 
 - text: "KlaudiaTelePos"
-  translation: ""
+  translation: "KlaudiaTelePos"
+  skip_translation: true
 
 - text: "Room Interactions"
   translation: ""
@@ -9458,7 +9860,8 @@
   translation: ""
 
 - text: "Final_Suitcase"
-  translation: ""
+  translation: "Final_Suitcase"
+  skip_translation: true
 
 - text: "Hallway 104 Sign"
   translation: ""
@@ -9494,14 +9897,14 @@
   translation: ""
 
 - text: "BallMachine"
-  translation: ""
+  translation: "BallMachine"
+  skip_translation: true
 
 - text: "Sauce 2"
   translation: ""
 
 - text: "Links"
-  translation: "Links"
-  skip_translation: true
+  translation: ""
 
 - text: "Sink rag"
   translation: ""
@@ -9561,7 +9964,8 @@
   translation: ""
 
 - text: "Sign_Number5"
-  translation: ""
+  translation: "Sign_Number5"
+  skip_translation: true
 
 - text: "Event 1 - Intro - Logic"
   translation: ""
@@ -9588,14 +9992,15 @@
   translation: ""
 
 - text: "Masks"
-  translation: "Masks"
-  skip_translation: true
+  translation: ""
 
 - text: "Stairs_Right"
-  translation: ""
+  translation: "Stairs_Right"
+  skip_translation: true
 
 - text: "CameraLight"
-  translation: ""
+  translation: "CameraLight"
+  skip_translation: true
 
 - text: "Move Positions"
   translation: ""
@@ -9623,7 +10028,8 @@
   translation: ""
 
 - text: "Sign_Number4"
-  translation: ""
+  translation: "Sign_Number4"
+  skip_translation: true
 
 - text: "Egg bowl"
   translation: ""
@@ -9644,7 +10050,8 @@
   translation: ""
 
 - text: "Room_Seperators"
-  translation: ""
+  translation: "Room_Seperators"
+  skip_translation: true
 
 - text: "Give default Money"
   translation: ""
@@ -9653,7 +10060,8 @@
   translation: ""
 
 - text: "Vertical_Walls"
-  translation: ""
+  translation: "Vertical_Walls"
+  skip_translation: true
 
 - text: "Bunnies"
   translation: ""
@@ -9689,7 +10097,8 @@
   translation: ""
 
 - text: "MainStory"
-  translation: ""
+  translation: "MainStory"
+  skip_translation: true
 
 - text: "Light_7"
   translation: "Light_7"
@@ -9729,7 +10138,8 @@
   translation: ""
 
 - text: "CameraTutorial"
-  translation: ""
+  translation: "CameraTutorial"
+  skip_translation: true
 
 - text: "Cum 11"
   translation: ""
@@ -9759,7 +10169,8 @@
   translation: ""
 
 - text: "TryLeaveTrigger"
-  translation: ""
+  translation: "TryLeaveTrigger"
+  skip_translation: true
 
 - text: "Stairs_1"
   translation: "Stairs_1"
@@ -9769,14 +10180,14 @@
   translation: ""
 
 - text: "Smoke_Forground"
-  translation: ""
+  translation: "Smoke_Forground"
+  skip_translation: true
 
 - text: "Non-Interactable Customers"
   translation: ""
 
 - text: "Glass"
-  translation: "Glass"
-  skip_translation: true
+  translation: ""
 
 - text: "Non-Lewd sit on bed Cutscene"
   translation: ""
@@ -9804,8 +10215,7 @@
   translation: ""
 
 - text: "Crowd"
-  translation: "Crowd"
-  skip_translation: true
+  translation: ""
 
 - text: "Wall Seperator 4"
   translation: ""
@@ -9826,7 +10236,8 @@
   translation: ""
 
 - text: "BoxCollider"
-  translation: ""
+  translation: "BoxCollider"
+  skip_translation: true
 
 - text: "0 - Setup Quest"
   translation: ""
@@ -9835,7 +10246,8 @@
   translation: ""
 
 - text: "FuseBox_Box"
-  translation: ""
+  translation: "FuseBox_Box"
+  skip_translation: true
 
 - text: "Ground Crack"
   translation: ""
@@ -9865,8 +10277,7 @@
   translation: ""
 
 - text: "Milk"
-  translation: "Milk"
-  skip_translation: true
+  translation: ""
 
 - text: "Door to 204"
   translation: ""
@@ -9890,7 +10301,8 @@
   translation: ""
 
 - text: "Bar_Music"
-  translation: ""
+  translation: "Bar_Music"
+  skip_translation: true
 
 - text: "Seperators"
   translation: ""
@@ -9938,7 +10350,8 @@
   translation: ""
 
 - text: "FuseBoxObject"
-  translation: ""
+  translation: "FuseBoxObject"
+  skip_translation: true
 
 - text: "Music Fade over Distance"
   translation: ""
@@ -9956,7 +10369,8 @@
   translation: ""
 
 - text: "FSM_Checks"
-  translation: ""
+  translation: "FSM_Checks"
+  skip_translation: true
 
 - text: "Backroom"
   translation: ""
@@ -9992,34 +10406,42 @@
   translation: ""
 
 - text: "Enter_Room_101"
-  translation: ""
+  translation: "Enter_Room_101"
+  skip_translation: true
 
 - text: "Camera tutorial TaskTarget"
   translation: ""
 
 - text: "Food5"
-  translation: ""
+  translation: "Food5"
+  skip_translation: true
 
 - text: "Light_Elements"
-  translation: ""
+  translation: "Light_Elements"
+  skip_translation: true
 
 - text: "Camera_Tripod"
-  translation: ""
+  translation: "Camera_Tripod"
+  skip_translation: true
 
 - text: "Spine Hologram"
   translation: ""
 
 - text: "Trash_Bag_2"
-  translation: ""
+  translation: "Trash_Bag_2"
+  skip_translation: true
 
 - text: "Trash_Pile_8"
-  translation: ""
+  translation: "Trash_Pile_8"
+  skip_translation: true
 
 - text: "Trash_Prop_20"
-  translation: ""
+  translation: "Trash_Prop_20"
+  skip_translation: true
 
 - text: "Bottle_6_Shadow"
-  translation: ""
+  translation: "Bottle_6_Shadow"
+  skip_translation: true
 
 - text: "Hallway Floor Middle"
   translation: ""
@@ -10028,31 +10450,37 @@
   translation: ""
 
 - text: "SpilledCan_4"
-  translation: ""
+  translation: "SpilledCan_4"
+  skip_translation: true
 
 - text: "Ketchup"
   translation: ""
 
 - text: "Food7"
-  translation: ""
+  translation: "Food7"
+  skip_translation: true
 
 - text: "Curtain Parent"
   translation: ""
 
 - text: "Bottle_2_Shadow"
-  translation: ""
+  translation: "Bottle_2_Shadow"
+  skip_translation: true
 
 - text: "Trash_Pile_3"
-  translation: ""
+  translation: "Trash_Pile_3"
+  skip_translation: true
 
 - text: "Money_3 1"
   translation: ""
 
 - text: "Bed_Premium"
-  translation: ""
+  translation: "Bed_Premium"
+  skip_translation: true
 
 - text: "Flyer_Shadow"
-  translation: ""
+  translation: "Flyer_Shadow"
+  skip_translation: true
 
 - text: "Shirt Shadow"
   translation: ""
@@ -10062,7 +10490,8 @@
   skip_translation: true
 
 - text: "Trash_Prop_23"
-  translation: ""
+  translation: "Trash_Prop_23"
+  skip_translation: true
 
 - text: "Bathroom Stall Wall Shadow"
   translation: ""
@@ -10071,16 +10500,19 @@
   translation: ""
 
 - text: "Bar_Shadow"
-  translation: ""
+  translation: "Bar_Shadow"
+  skip_translation: true
 
 - text: "Bottle 8Shape Shadow"
   translation: ""
 
 - text: "Condom_1_Shadow"
-  translation: ""
+  translation: "Condom_1_Shadow"
+  skip_translation: true
 
 - text: "StageLight"
-  translation: ""
+  translation: "StageLight"
+  skip_translation: true
 
 - text: "Wall Floor Seperators"
   translation: ""
@@ -10092,7 +10524,8 @@
   translation: ""
 
 - text: "Side_Keyboard"
-  translation: ""
+  translation: "Side_Keyboard"
+  skip_translation: true
 
 - text: "2d Lighting"
   translation: ""
@@ -10116,7 +10549,8 @@
   translation: ""
 
 - text: "Sofa_Right"
-  translation: ""
+  translation: "Sofa_Right"
+  skip_translation: true
 
 - text: "Puddle_2"
   translation: "Puddle_2"
@@ -10171,28 +10605,35 @@
   translation: ""
 
 - text: "CartelGuy"
-  translation: ""
+  translation: "CartelGuy"
+  skip_translation: true
 
 - text: "Non-Interaction Customer 2"
   translation: ""
 
 - text: "Flyer_Ground_1"
-  translation: ""
+  translation: "Flyer_Ground_1"
+  skip_translation: true
 
 - text: "Panties_Ground"
-  translation: ""
+  translation: "Panties_Ground"
+  skip_translation: true
 
 - text: "SpilledCan_2"
-  translation: ""
+  translation: "SpilledCan_2"
+  skip_translation: true
 
 - text: "Glass_3_Shadow"
-  translation: ""
+  translation: "Glass_3_Shadow"
+  skip_translation: true
 
 - text: "Air_Con_2"
-  translation: ""
+  translation: "Air_Con_2"
+  skip_translation: true
 
 - text: "AirCon"
-  translation: ""
+  translation: "AirCon"
+  skip_translation: true
 
 - text: "Folding Chair Shadow"
   translation: ""
@@ -10209,14 +10650,16 @@
   translation: ""
 
 - text: "Sign_Number1"
-  translation: ""
+  translation: "Sign_Number1"
+  skip_translation: true
 
 - text: "Speaker_2"
   translation: "Speaker_2"
   skip_translation: true
 
 - text: "VRHeadset"
-  translation: ""
+  translation: "VRHeadset"
+  skip_translation: true
 
 - text: "Hearts Particle System"
   translation: ""
@@ -10228,7 +10671,8 @@
   translation: ""
 
 - text: "NoRefunds"
-  translation: ""
+  translation: "NoRefunds"
+  skip_translation: true
 
 - text: "Brush 3"
   translation: ""
@@ -10238,7 +10682,8 @@
   skip_translation: true
 
 - text: "Chair_Round_3_1"
-  translation: ""
+  translation: "Chair_Round_3_1"
+  skip_translation: true
 
 - text: "Ground Detail Right"
   translation: ""
@@ -10250,45 +10695,53 @@
   translation: ""
 
 - text: "Dumpster_Side"
-  translation: ""
+  translation: "Dumpster_Side"
+  skip_translation: true
 
 - text: "Food3"
-  translation: ""
+  translation: "Food3"
+  skip_translation: true
 
 - text: "Shower_Bar"
-  translation: ""
+  translation: "Shower_Bar"
+  skip_translation: true
 
 - text: "Bottle_12"
   translation: "Bottle_12"
   skip_translation: true
 
 - text: "WallCables"
-  translation: ""
+  translation: "WallCables"
+  skip_translation: true
 
 - text: "Trash_Prop_26"
-  translation: ""
+  translation: "Trash_Prop_26"
+  skip_translation: true
 
 - text: "Inner Locker Upper Space"
   translation: ""
 
 - text: "Sink"
-  translation: "Sink"
-  skip_translation: true
+  translation: ""
 
 - text: "Shower_Light"
-  translation: ""
+  translation: "Shower_Light"
+  skip_translation: true
 
 - text: "Stall Pole Left"
   translation: ""
 
 - text: "TopShadow"
-  translation: ""
+  translation: "TopShadow"
+  skip_translation: true
 
 - text: "WallVentilator"
-  translation: ""
+  translation: "WallVentilator"
+  skip_translation: true
 
 - text: "Food7_Shadow"
-  translation: ""
+  translation: "Food7_Shadow"
+  skip_translation: true
 
 - text: "Light Element"
   translation: ""
@@ -10298,19 +10751,23 @@
   skip_translation: true
 
 - text: "Food3_Shadow"
-  translation: ""
+  translation: "Food3_Shadow"
+  skip_translation: true
 
 - text: "Flyer_Wall_2"
-  translation: ""
+  translation: "Flyer_Wall_2"
+  skip_translation: true
 
 - text: "MiddlePipe"
-  translation: ""
+  translation: "MiddlePipe"
+  skip_translation: true
 
 - text: "Bathroom Wall Pole Wall"
   translation: ""
 
 - text: "Bottle_7_Shadow"
-  translation: ""
+  translation: "Bottle_7_Shadow"
+  skip_translation: true
 
 - text: "Flyer"
   translation: ""
@@ -10323,22 +10780,27 @@
   translation: ""
 
 - text: "Decal_G_Love"
-  translation: ""
+  translation: "Decal_G_Love"
+  skip_translation: true
 
 - text: "Food6"
-  translation: ""
+  translation: "Food6"
+  skip_translation: true
 
 - text: "Vertical Toilet Shadow"
   translation: ""
 
 - text: "Trash_Pile_7"
-  translation: ""
+  translation: "Trash_Pile_7"
+  skip_translation: true
 
 - text: "Food6_Shadow"
-  translation: ""
+  translation: "Food6_Shadow"
+  skip_translation: true
 
 - text: "EggVibrator_1"
-  translation: ""
+  translation: "EggVibrator_1"
+  skip_translation: true
 
 - text: "Cardboard_box_1"
   translation: "Cardboard_box_1"
@@ -10365,7 +10827,8 @@
   translation: ""
 
 - text: "Ground_Dirt_3"
-  translation: ""
+  translation: "Ground_Dirt_3"
+  skip_translation: true
 
 - text: "Augmenta Small Poster"
   translation: ""
@@ -10377,7 +10840,8 @@
   translation: ""
 
 - text: "Sign_Number0"
-  translation: ""
+  translation: "Sign_Number0"
+  skip_translation: true
 
 - text: "Stall Pole Left Shadow"
   translation: ""
@@ -10386,22 +10850,28 @@
   translation: ""
 
 - text: "Bottle_4_Shadow"
-  translation: ""
+  translation: "Bottle_4_Shadow"
+  skip_translation: true
 
 - text: "Motel_Bed"
-  translation: ""
+  translation: "Motel_Bed"
+  skip_translation: true
 
 - text: "Trash_Prop_10"
-  translation: ""
+  translation: "Trash_Prop_10"
+  skip_translation: true
 
 - text: "Coffe_Cup"
-  translation: ""
+  translation: "Coffe_Cup"
+  skip_translation: true
 
 - text: "Left_Bot_Light"
-  translation: ""
+  translation: "Left_Bot_Light"
+  skip_translation: true
 
 - text: "Tshirt_Over_Bed"
-  translation: ""
+  translation: "Tshirt_Over_Bed"
+  skip_translation: true
 
 - text: "Vertical Toilet"
   translation: ""
@@ -10421,16 +10891,19 @@
   skip_translation: true
 
 - text: "Mug_1"
-  translation: ""
+  translation: "Mug_1"
+  skip_translation: true
 
 - text: "BrokenBottle_3"
-  translation: ""
+  translation: "BrokenBottle_3"
+  skip_translation: true
 
 - text: "Make Up Picture 9"
   translation: ""
 
 - text: "Mouse_and_Pad"
-  translation: ""
+  translation: "Mouse_and_Pad"
+  skip_translation: true
 
 - text: "Speaker"
   translation: ""
@@ -10440,23 +10913,26 @@
   skip_translation: true
 
 - text: "Broken_Glass_3"
-  translation: ""
+  translation: "Broken_Glass_3"
+  skip_translation: true
 
 - text: "Can_3_Shadow"
-  translation: ""
+  translation: "Can_3_Shadow"
+  skip_translation: true
 
 - text: "Hallway Assets"
   translation: ""
 
 - text: "Glass_1_Shadow"
-  translation: ""
+  translation: "Glass_1_Shadow"
+  skip_translation: true
 
 - text: "Trash_Prop_15"
-  translation: ""
+  translation: "Trash_Prop_15"
+  skip_translation: true
 
 - text: "Bowl"
-  translation: "Bowl"
-  skip_translation: true
+  translation: ""
 
 - text: "Paper Note"
   translation: ""
@@ -10465,22 +10941,27 @@
   translation: ""
 
 - text: "Tbale_1_Shadow"
-  translation: ""
+  translation: "Tbale_1_Shadow"
+  skip_translation: true
 
 - text: "Vignette Parent"
   translation: ""
 
 - text: "Empty_Food"
-  translation: ""
+  translation: "Empty_Food"
+  skip_translation: true
 
 - text: "Bar_PoleStage"
-  translation: ""
+  translation: "Bar_PoleStage"
+  skip_translation: true
 
 - text: "Sign_Number3"
-  translation: ""
+  translation: "Sign_Number3"
+  skip_translation: true
 
 - text: "Bar_Drain"
-  translation: ""
+  translation: "Bar_Drain"
+  skip_translation: true
 
 - text: "Cardboard_box_6"
   translation: "Cardboard_box_6"
@@ -10490,16 +10971,19 @@
   translation: ""
 
 - text: "Kitchen_Env"
-  translation: ""
+  translation: "Kitchen_Env"
+  skip_translation: true
 
 - text: "Black Stick 2"
   translation: ""
 
 - text: "Dining_Sofa_Top"
-  translation: ""
+  translation: "Dining_Sofa_Top"
+  skip_translation: true
 
 - text: "Bar_Wall_2"
-  translation: ""
+  translation: "Bar_Wall_2"
+  skip_translation: true
 
 - text: "Perfum Bottle 2 Shadow"
   translation: ""
@@ -10511,7 +10995,8 @@
   translation: ""
 
 - text: "Ground_Dirt_1"
-  translation: ""
+  translation: "Ground_Dirt_1"
+  skip_translation: true
 
 - text: "Holo Ad Foreground"
   translation: ""
@@ -10523,14 +11008,16 @@
   translation: ""
 
 - text: "Food2_Shadow"
-  translation: ""
+  translation: "Food2_Shadow"
+  skip_translation: true
 
 - text: "Cardboard_box_2"
   translation: "Cardboard_box_2"
   skip_translation: true
 
 - text: "Screen_Cooling"
-  translation: ""
+  translation: "Screen_Cooling"
+  skip_translation: true
 
 - text: "Sponge"
   translation: ""
@@ -10549,7 +11036,8 @@
   skip_translation: true
 
 - text: "Food2"
-  translation: ""
+  translation: "Food2"
+  skip_translation: true
 
 - text: "Cable_2"
   translation: "Cable_2"
@@ -10572,16 +11060,20 @@
   translation: ""
 
 - text: "BrokenBottle_2"
-  translation: ""
+  translation: "BrokenBottle_2"
+  skip_translation: true
 
 - text: "Food4"
-  translation: ""
+  translation: "Food4"
+  skip_translation: true
 
 - text: "LightElements"
-  translation: ""
+  translation: "LightElements"
+  skip_translation: true
 
 - text: "Food4_Shadow"
-  translation: ""
+  translation: "Food4_Shadow"
+  skip_translation: true
 
 - text: "Trash bags"
   translation: ""
@@ -10590,34 +11082,40 @@
   translation: ""
 
 - text: "Storage_Kitchen"
-  translation: ""
+  translation: "Storage_Kitchen"
+  skip_translation: true
 
 - text: "BrokenBottle_1"
-  translation: ""
+  translation: "BrokenBottle_1"
+  skip_translation: true
 
 - text: "Door Pole Left"
   translation: ""
 
 - text: "Small_IDK_1"
-  translation: ""
+  translation: "Small_IDK_1"
+  skip_translation: true
 
 - text: "Coffee"
   translation: ""
 
 - text: "Trash_Bag_3"
-  translation: ""
+  translation: "Trash_Bag_3"
+  skip_translation: true
 
 - text: "Perfum Bottle 2"
   translation: ""
 
 - text: "SpilledCan_3"
-  translation: ""
+  translation: "SpilledCan_3"
+  skip_translation: true
 
 - text: "Pivot"
   translation: ""
 
 - text: "Trash_Prop_9"
-  translation: ""
+  translation: "Trash_Prop_9"
+  skip_translation: true
 
 - text: "Table Small"
   translation: ""
@@ -10626,19 +11124,23 @@
   translation: ""
 
 - text: "Glass_Long"
-  translation: ""
+  translation: "Glass_Long"
+  skip_translation: true
 
 - text: "AshetrayShadow"
-  translation: ""
+  translation: "AshetrayShadow"
+  skip_translation: true
 
 - text: "Sink Shadow"
   translation: ""
 
 - text: "Sofa_Left"
-  translation: ""
+  translation: "Sofa_Left"
+  skip_translation: true
 
 - text: "WaterPuddle_3"
-  translation: ""
+  translation: "WaterPuddle_3"
+  skip_translation: true
 
 - text: "Mirror Shine"
   translation: ""
@@ -10654,45 +11156,53 @@
   skip_translation: true
 
 - text: "TV1_Cable"
-  translation: ""
+  translation: "TV1_Cable"
+  skip_translation: true
 
 - text: "North Table clutter"
   translation: ""
 
 - text: "Can1_Damaged"
-  translation: ""
+  translation: "Can1_Damaged"
+  skip_translation: true
 
 - text: "Make Up Picture 11"
   translation: ""
 
 - text: "WaterBucket"
-  translation: ""
+  translation: "WaterBucket"
+  skip_translation: true
 
 - text: "Key_Board_1"
-  translation: ""
+  translation: "Key_Board_1"
+  skip_translation: true
 
 - text: "Chair_1_1"
   translation: "Chair_1_1"
   skip_translation: true
 
 - text: "FakeShine"
-  translation: ""
+  translation: "FakeShine"
+  skip_translation: true
 
 - text: "WaterPuddle_2"
-  translation: ""
+  translation: "WaterPuddle_2"
+  skip_translation: true
 
 - text: "Hand Mirror Shadow"
   translation: ""
 
 - text: "Wall_Clock"
-  translation: ""
+  translation: "Wall_Clock"
+  skip_translation: true
 
 - text: "Cardboard_box_4"
   translation: "Cardboard_box_4"
   skip_translation: true
 
 - text: "Can_5_Shadow"
-  translation: ""
+  translation: "Can_5_Shadow"
+  skip_translation: true
 
 - text: "Tray"
   translation: ""
@@ -10705,41 +11215,48 @@
   translation: ""
 
 - text: "Trash_Prop_22"
-  translation: ""
+  translation: "Trash_Prop_22"
+  skip_translation: true
 
 - text: "AirCon_Shadow"
-  translation: ""
+  translation: "AirCon_Shadow"
+  skip_translation: true
 
 - text: "Food1_Shadow"
-  translation: ""
+  translation: "Food1_Shadow"
+  skip_translation: true
 
 - text: "Ground Detail Left"
   translation: ""
 
 - text: "Pizzabox_Trash"
-  translation: ""
+  translation: "Pizzabox_Trash"
+  skip_translation: true
 
 - text: "Hand Mirror"
   translation: ""
 
 - text: "TV_Staffroom"
-  translation: ""
+  translation: "TV_Staffroom"
+  skip_translation: true
 
 - text: "Make up Bottle 6 Shadow"
   translation: ""
 
 - text: "Trash_Prop_18"
-  translation: ""
+  translation: "Trash_Prop_18"
+  skip_translation: true
 
 - text: "SpilledCan_1"
-  translation: ""
+  translation: "SpilledCan_1"
+  skip_translation: true
 
 - text: "Can_3"
-  translation: ""
+  translation: "Can_3"
+  skip_translation: true
 
 - text: "Brush"
-  translation: "Brush"
-  skip_translation: true
+  translation: ""
 
 - text: "Bottle_1"
   translation: "Bottle_1"
@@ -10749,22 +11266,27 @@
   translation: ""
 
 - text: "Mug_1_Shadow"
-  translation: ""
+  translation: "Mug_1_Shadow"
+  skip_translation: true
 
 - text: "Money_1_Shadow"
-  translation: ""
+  translation: "Money_1_Shadow"
+  skip_translation: true
 
 - text: "Money_4 1"
   translation: ""
 
 - text: "Toilet_Shadow"
-  translation: ""
+  translation: "Toilet_Shadow"
+  skip_translation: true
 
 - text: "Cable_Trash_1"
-  translation: ""
+  translation: "Cable_Trash_1"
+  skip_translation: true
 
 - text: "SofaCorner"
-  translation: ""
+  translation: "SofaCorner"
+  skip_translation: true
 
 - text: "Safety"
   translation: ""
@@ -10777,16 +11299,20 @@
   translation: ""
 
 - text: "GreenLight"
-  translation: ""
+  translation: "GreenLight"
+  skip_translation: true
 
 - text: "Bottle_1_Shadow"
-  translation: ""
+  translation: "Bottle_1_Shadow"
+  skip_translation: true
 
 - text: "EndPipe"
-  translation: ""
+  translation: "EndPipe"
+  skip_translation: true
 
 - text: "Camera_Feed"
-  translation: ""
+  translation: "Camera_Feed"
+  skip_translation: true
 
 - text: "Bathroom Bin"
   translation: ""
@@ -10795,7 +11321,8 @@
   translation: ""
 
 - text: "Trash_Prop_1"
-  translation: ""
+  translation: "Trash_Prop_1"
+  skip_translation: true
 
 - text: "Bottle_10"
   translation: "Bottle_10"
@@ -10808,7 +11335,8 @@
   translation: ""
 
 - text: "Trash_Prop_28"
-  translation: ""
+  translation: "Trash_Prop_28"
+  skip_translation: true
 
 - text: "Room_101"
   translation: "Room_101"
@@ -10818,37 +11346,46 @@
   translation: ""
 
 - text: "Dildo_G_Shadow"
-  translation: ""
+  translation: "Dildo_G_Shadow"
+  skip_translation: true
 
 - text: "Detergent"
   translation: ""
 
 - text: "Money_4_Shadow"
-  translation: ""
+  translation: "Money_4_Shadow"
+  skip_translation: true
 
 - text: "Knife_Shadow"
-  translation: ""
+  translation: "Knife_Shadow"
+  skip_translation: true
 
 - text: "Glass_2_Shadow"
-  translation: ""
+  translation: "Glass_2_Shadow"
+  skip_translation: true
 
 - text: "Microwave_Light"
-  translation: ""
+  translation: "Microwave_Light"
+  skip_translation: true
 
 - text: "Key_Board"
-  translation: ""
+  translation: "Key_Board"
+  skip_translation: true
 
 - text: "Speaker_Shadow"
-  translation: ""
+  translation: "Speaker_Shadow"
+  skip_translation: true
 
 - text: "Speaker_Cable_2"
-  translation: ""
+  translation: "Speaker_Cable_2"
+  skip_translation: true
 
 - text: "Gate"
   translation: ""
 
 - text: "Bottle_9_Shadow"
-  translation: ""
+  translation: "Bottle_9_Shadow"
+  skip_translation: true
 
 - text: "Money_1"
   translation: "Money_1"
@@ -10858,16 +11395,19 @@
   translation: ""
 
 - text: "EC_Device_1"
-  translation: ""
+  translation: "EC_Device_1"
+  skip_translation: true
 
 - text: "End_Pipe_2nd"
-  translation: ""
+  translation: "End_Pipe_2nd"
+  skip_translation: true
 
 - text: "Oven"
   translation: ""
 
 - text: "Trash_Pile_2"
-  translation: ""
+  translation: "Trash_Pile_2"
+  skip_translation: true
 
 - text: "Base"
   translation: ""
@@ -10877,16 +11417,19 @@
   skip_translation: true
 
 - text: "End_Pipe_2nd_3"
-  translation: ""
+  translation: "End_Pipe_2nd_3"
+  skip_translation: true
 
 - text: "Stage"
   translation: ""
 
 - text: "Spice_Container"
-  translation: ""
+  translation: "Spice_Container"
+  skip_translation: true
 
 - text: "Plate_Stack"
-  translation: ""
+  translation: "Plate_Stack"
+  skip_translation: true
 
 - text: "Money_5"
   translation: "Money_5"
@@ -10899,16 +11442,19 @@
   translation: ""
 
 - text: "Trash_Pile_4"
-  translation: ""
+  translation: "Trash_Pile_4"
+  skip_translation: true
 
 - text: "Vignette Mask"
   translation: ""
 
 - text: "FoodBox_Shadow"
-  translation: ""
+  translation: "FoodBox_Shadow"
+  skip_translation: true
 
 - text: "BlueStrip_2"
-  translation: ""
+  translation: "BlueStrip_2"
+  skip_translation: true
 
 - text: "Make up Bottle 3"
   translation: ""
@@ -10917,14 +11463,16 @@
   translation: ""
 
 - text: "Pipe_Start"
-  translation: ""
+  translation: "Pipe_Start"
+  skip_translation: true
 
 - text: "Barstool_2"
   translation: "Barstool_2"
   skip_translation: true
 
 - text: "Tshirt_Ground"
-  translation: ""
+  translation: "Tshirt_Ground"
+  skip_translation: true
 
 - text: "Staffroom Flooring"
   translation: ""
@@ -10937,11 +11485,11 @@
   skip_translation: true
 
 - text: "Shirt"
-  translation: "Shirt"
-  skip_translation: true
+  translation: ""
 
 - text: "Bar_Counter"
-  translation: ""
+  translation: "Bar_Counter"
+  skip_translation: true
 
 - text: "Microwave"
   translation: ""
@@ -10950,19 +11498,24 @@
   translation: ""
 
 - text: "Cable_Trash_3"
-  translation: ""
+  translation: "Cable_Trash_3"
+  skip_translation: true
 
 - text: "Trash_Bag_1"
-  translation: ""
+  translation: "Trash_Bag_1"
+  skip_translation: true
 
 - text: "LavaLamp"
-  translation: ""
+  translation: "LavaLamp"
+  skip_translation: true
 
 - text: "Computer3_Trash"
-  translation: ""
+  translation: "Computer3_Trash"
+  skip_translation: true
 
 - text: "EndPipe_3"
-  translation: ""
+  translation: "EndPipe_3"
+  skip_translation: true
 
 - text: "Make up Bottle 7 Shadow"
   translation: ""
@@ -10981,7 +11534,8 @@
   skip_translation: true
 
 - text: "BarGround_Tile"
-  translation: ""
+  translation: "BarGround_Tile"
+  skip_translation: true
 
 - text: "Bathroom Wall Pole Wall Overlay"
   translation: ""
@@ -11011,16 +11565,20 @@
   translation: ""
 
 - text: "Pipe_MiddlePart"
-  translation: ""
+  translation: "Pipe_MiddlePart"
+  skip_translation: true
 
 - text: "PocketPussy_1"
-  translation: ""
+  translation: "PocketPussy_1"
+  skip_translation: true
 
 - text: "Dildo_1_Shadow"
-  translation: ""
+  translation: "Dildo_1_Shadow"
+  skip_translation: true
 
 - text: "Cable_Trash_2"
-  translation: ""
+  translation: "Cable_Trash_2"
+  skip_translation: true
 
 - text: "Bathroom Assets"
   translation: ""
@@ -11037,7 +11595,8 @@
   skip_translation: true
 
 - text: "Shower_Mirror"
-  translation: ""
+  translation: "Shower_Mirror"
+  skip_translation: true
 
 - text: "Barstool"
   translation: ""
@@ -11049,7 +11608,8 @@
   translation: ""
 
 - text: "Computer_Light"
-  translation: ""
+  translation: "Computer_Light"
+  skip_translation: true
 
 - text: "Visuals"
   translation: ""
@@ -11058,31 +11618,36 @@
   translation: ""
 
 - text: "Trash_Pile_1"
-  translation: ""
+  translation: "Trash_Pile_1"
+  skip_translation: true
 
 - text: "LavaLamp_Shadow"
-  translation: ""
+  translation: "LavaLamp_Shadow"
+  skip_translation: true
 
 - text: "Chair_3_1"
   translation: "Chair_3_1"
   skip_translation: true
 
 - text: "FoodTray"
-  translation: ""
+  translation: "FoodTray"
+  skip_translation: true
 
 - text: "Bottle_5"
   translation: "Bottle_5"
   skip_translation: true
 
 - text: "Trash_Prop_24"
-  translation: ""
+  translation: "Trash_Prop_24"
+  skip_translation: true
 
 - text: "Room_102"
   translation: "Room_102"
   skip_translation: true
 
 - text: "Ketchup_Shadow"
-  translation: ""
+  translation: "Ketchup_Shadow"
+  skip_translation: true
 
 - text: "Plant on Pillar"
   translation: ""
@@ -11091,13 +11656,16 @@
   translation: ""
 
 - text: "Tag_GlowingHole"
-  translation: ""
+  translation: "Tag_GlowingHole"
+  skip_translation: true
 
 - text: "Bar_BlueLight_1"
-  translation: ""
+  translation: "Bar_BlueLight_1"
+  skip_translation: true
 
 - text: "Bottle_8_Shadow"
-  translation: ""
+  translation: "Bottle_8_Shadow"
+  skip_translation: true
 
 - text: "Room_103"
   translation: "Room_103"
@@ -11113,14 +11681,16 @@
   translation: ""
 
 - text: "Bottle_5_Shadow"
-  translation: ""
+  translation: "Bottle_5_Shadow"
+  skip_translation: true
 
 - text: "Glass_2"
   translation: "Glass_2"
   skip_translation: true
 
 - text: "Orders_Screen"
-  translation: ""
+  translation: "Orders_Screen"
+  skip_translation: true
 
 - text: "Wardrobe"
   translation: ""
@@ -11135,7 +11705,8 @@
   translation: ""
 
 - text: "Wardrobe_Shadow"
-  translation: ""
+  translation: "Wardrobe_Shadow"
+  skip_translation: true
 
 - text: "Tissue"
   translation: ""
@@ -11144,13 +11715,15 @@
   translation: ""
 
 - text: "Can2_Damaged"
-  translation: ""
+  translation: "Can2_Damaged"
+  skip_translation: true
 
 - text: "Lipstick 3 Shadow"
   translation: ""
 
 - text: "Can1_Shadow"
-  translation: ""
+  translation: "Can1_Shadow"
+  skip_translation: true
 
 - text: "Lipstick Shadow"
   translation: ""
@@ -11165,7 +11738,8 @@
   translation: ""
 
 - text: "Fotter_Left"
-  translation: ""
+  translation: "Fotter_Left"
+  skip_translation: true
 
 - text: "Big table clutter"
   translation: ""
@@ -11174,34 +11748,43 @@
   translation: ""
 
 - text: "AirDryer"
-  translation: ""
+  translation: "AirDryer"
+  skip_translation: true
 
 - text: "Trash_Prop_27"
-  translation: ""
+  translation: "Trash_Prop_27"
+  skip_translation: true
 
 - text: "NeonSign_Bunny"
-  translation: ""
+  translation: "NeonSign_Bunny"
+  skip_translation: true
 
 - text: "Decal_Crack"
-  translation: ""
+  translation: "Decal_Crack"
+  skip_translation: true
 
 - text: "Trash_Prop_5"
-  translation: ""
+  translation: "Trash_Prop_5"
+  skip_translation: true
 
 - text: "Dining_Table"
-  translation: ""
+  translation: "Dining_Table"
+  skip_translation: true
 
 - text: "Lipstick"
   translation: ""
 
 - text: "Trash_Prop_21"
-  translation: ""
+  translation: "Trash_Prop_21"
+  skip_translation: true
 
 - text: "ChoppingStick"
-  translation: ""
+  translation: "ChoppingStick"
+  skip_translation: true
 
 - text: "Chair_Round_1_1"
-  translation: ""
+  translation: "Chair_Round_1_1"
+  skip_translation: true
 
 - text: "Bench Shadow"
   translation: ""
@@ -11216,25 +11799,30 @@
   translation: ""
 
 - text: "Bar_Shine_Right"
-  translation: ""
+  translation: "Bar_Shine_Right"
+  skip_translation: true
 
 - text: "Text - Do you Dare"
   translation: ""
 
 - text: "Seperator_Top"
-  translation: ""
+  translation: "Seperator_Top"
+  skip_translation: true
 
 - text: "TopPart"
-  translation: ""
+  translation: "TopPart"
+  skip_translation: true
 
 - text: "BunnyChaser"
-  translation: ""
+  translation: "BunnyChaser"
+  skip_translation: true
 
 - text: "Light Element Green 3"
   translation: ""
 
 - text: "ChipsBag"
-  translation: ""
+  translation: "ChipsBag"
+  skip_translation: true
 
 - text: "Room_203"
   translation: "Room_203"
@@ -11256,22 +11844,27 @@
   translation: ""
 
 - text: "USB_Slot_1"
-  translation: ""
+  translation: "USB_Slot_1"
+  skip_translation: true
 
 - text: "Wall Props"
   translation: ""
 
 - text: "LightContainer"
-  translation: ""
+  translation: "LightContainer"
+  skip_translation: true
 
 - text: "WaterPuddle_5"
-  translation: ""
+  translation: "WaterPuddle_5"
+  skip_translation: true
 
 - text: "SlutService_Box"
-  translation: ""
+  translation: "SlutService_Box"
+  skip_translation: true
 
 - text: "ChipsBag_Shadow"
-  translation: ""
+  translation: "ChipsBag_Shadow"
+  skip_translation: true
 
 - text: "Stall Pole Right"
   translation: ""
@@ -11286,26 +11879,31 @@
   translation: ""
 
 - text: "DoorFor_Side"
-  translation: ""
+  translation: "DoorFor_Side"
+  skip_translation: true
 
 - text: "Glass_3"
   translation: "Glass_3"
   skip_translation: true
 
 - text: "AirDryer_Shadow"
-  translation: ""
+  translation: "AirDryer_Shadow"
+  skip_translation: true
 
 - text: "Cuffs_3_Shadow"
-  translation: ""
+  translation: "Cuffs_3_Shadow"
+  skip_translation: true
 
 - text: "Carpet_1_Shadow"
-  translation: ""
+  translation: "Carpet_1_Shadow"
+  skip_translation: true
 
 - text: "Light Element Green 2 FakeLight"
   translation: ""
 
 - text: "Trash_Prop_3"
-  translation: ""
+  translation: "Trash_Prop_3"
+  skip_translation: true
 
 - text: "Table_Staffroom 1"
   translation: ""
@@ -11315,8 +11913,7 @@
   skip_translation: true
 
 - text: "Glow"
-  translation: "Glow"
-  skip_translation: true
+  translation: ""
 
 - text: "Can2"
   translation: "Can2"
@@ -11329,28 +11926,34 @@
   translation: ""
 
 - text: "Remote_Controll"
-  translation: ""
+  translation: "Remote_Controll"
+  skip_translation: true
 
 - text: "Present Box"
   translation: ""
 
 - text: "ToiletPaper"
-  translation: ""
+  translation: "ToiletPaper"
+  skip_translation: true
 
 - text: "Sofa_Right_Top"
-  translation: ""
+  translation: "Sofa_Right_Top"
+  skip_translation: true
 
 - text: "Seperator"
   translation: ""
 
 - text: "Cup_Shadow"
-  translation: ""
+  translation: "Cup_Shadow"
+  skip_translation: true
 
 - text: "Wall_Extension"
-  translation: ""
+  translation: "Wall_Extension"
+  skip_translation: true
 
 - text: "ShowerWall_Left"
-  translation: ""
+  translation: "ShowerWall_Left"
+  skip_translation: true
 
 - text: "CollingUnit-5"
   translation: ""
@@ -11373,25 +11976,30 @@
   skip_translation: true
 
 - text: "Trash_Prop_8"
-  translation: ""
+  translation: "Trash_Prop_8"
+  skip_translation: true
 
 - text: "Text - To peek"
   translation: ""
 
 - text: "Decal_G_Anna"
-  translation: ""
+  translation: "Decal_G_Anna"
+  skip_translation: true
 
 - text: "Trash_Prop_29"
-  translation: ""
+  translation: "Trash_Prop_29"
+  skip_translation: true
 
 - text: "Company Logo"
   translation: ""
 
 - text: "AstroAD"
-  translation: ""
+  translation: "AstroAD"
+  skip_translation: true
 
 - text: "Bar_Wall_1"
-  translation: ""
+  translation: "Bar_Wall_1"
+  skip_translation: true
 
 - text: "PinupPickup - Sarah and Zoey in Latex"
   translation: ""
@@ -11448,10 +12056,12 @@
   translation: ""
 
 - text: "Torn_Wall"
-  translation: ""
+  translation: "Torn_Wall"
+  skip_translation: true
 
 - text: "Ground_Dirt_2"
-  translation: ""
+  translation: "Ground_Dirt_2"
+  skip_translation: true
 
 - text: "breath Looping"
   translation: ""
@@ -11460,52 +12070,63 @@
   translation: ""
 
 - text: "Trash_Pile_9"
-  translation: ""
+  translation: "Trash_Pile_9"
+  skip_translation: true
 
 - text: "Trash_Prop_11"
-  translation: ""
+  translation: "Trash_Prop_11"
+  skip_translation: true
 
 - text: "Last Hero"
   translation: ""
 
 - text: "PowerLight"
-  translation: ""
+  translation: "PowerLight"
+  skip_translation: true
 
 - text: "Sitting Bench 2 Seats"
   translation: ""
 
 - text: "Poster_LastHero"
-  translation: ""
+  translation: "Poster_LastHero"
+  skip_translation: true
 
 - text: "Decal_G_Lui"
-  translation: ""
+  translation: "Decal_G_Lui"
+  skip_translation: true
 
 - text: "Makeup Case 2"
   translation: ""
 
 - text: "Food1"
-  translation: ""
+  translation: "Food1"
+  skip_translation: true
 
 - text: "Make Up Picture 8"
   translation: ""
 
 - text: "FuseBox_Small"
-  translation: ""
+  translation: "FuseBox_Small"
+  skip_translation: true
 
 - text: "Broom_Shadow"
-  translation: ""
+  translation: "Broom_Shadow"
+  skip_translation: true
 
 - text: "Big Mirror Light"
   translation: ""
 
 - text: "Dildo_G"
-  translation: ""
+  translation: "Dildo_G"
+  skip_translation: true
 
 - text: "Jacuzzi_Water"
-  translation: ""
+  translation: "Jacuzzi_Water"
+  skip_translation: true
 
 - text: "Collider2"
-  translation: ""
+  translation: "Collider2"
+  skip_translation: true
 
 - text: "Perfum Bottle"
   translation: ""
@@ -11517,19 +12138,22 @@
   translation: ""
 
 - text: "Trash_Prop_16"
-  translation: ""
+  translation: "Trash_Prop_16"
+  skip_translation: true
 
 - text: "Little Box 5"
   translation: ""
 
 - text: "Trash_Pile_10"
-  translation: ""
+  translation: "Trash_Pile_10"
+  skip_translation: true
 
 - text: "Perfum Bottle Shadow"
   translation: ""
 
 - text: "DotDotDot"
-  translation: ""
+  translation: "DotDotDot"
+  skip_translation: true
 
 - text: "Menu_4"
   translation: "Menu_4"
@@ -11539,7 +12163,8 @@
   translation: ""
 
 - text: "Can2_Shadow"
-  translation: ""
+  translation: "Can2_Shadow"
+  skip_translation: true
 
 - text: "203 Keycard"
   translation: ""
@@ -11551,7 +12176,8 @@
   translation: ""
 
 - text: "OnTable"
-  translation: ""
+  translation: "OnTable"
+  skip_translation: true
 
 - text: "Room Floor"
   translation: ""
@@ -11567,10 +12193,12 @@
   translation: ""
 
 - text: "Cable_Trash_5"
-  translation: ""
+  translation: "Cable_Trash_5"
+  skip_translation: true
 
 - text: "CollingUnit"
-  translation: ""
+  translation: "CollingUnit"
+  skip_translation: true
 
 - text: "Cardboard_box_5"
   translation: "Cardboard_box_5"
@@ -11580,10 +12208,12 @@
   translation: ""
 
 - text: "Trash_Bag_4"
-  translation: ""
+  translation: "Trash_Bag_4"
+  skip_translation: true
 
 - text: "Light_Wall_Red"
-  translation: ""
+  translation: "Light_Wall_Red"
+  skip_translation: true
 
 - text: "Fakelight"
   translation: ""
@@ -11592,7 +12222,8 @@
   translation: ""
 
 - text: "Decal_G_CallMe"
-  translation: ""
+  translation: "Decal_G_CallMe"
+  skip_translation: true
 
 - text: "Bunny Witch"
   translation: ""
@@ -11607,13 +12238,16 @@
   translation: ""
 
 - text: "BlueStripes"
-  translation: ""
+  translation: "BlueStripes"
+  skip_translation: true
 
 - text: "FuseBox"
-  translation: ""
+  translation: "FuseBox"
+  skip_translation: true
 
 - text: "Knife_Pointy"
-  translation: ""
+  translation: "Knife_Pointy"
+  skip_translation: true
 
 - text: "Refrigerator"
   translation: ""
@@ -11622,22 +12256,27 @@
   translation: ""
 
 - text: "FuseBox_Small_2"
-  translation: ""
+  translation: "FuseBox_Small_2"
+  skip_translation: true
 
 - text: "Flyer_Wall_1"
-  translation: ""
+  translation: "Flyer_Wall_1"
+  skip_translation: true
 
 - text: "Speaker_Cable"
-  translation: ""
+  translation: "Speaker_Cable"
+  skip_translation: true
 
 - text: "Coffe Cup Shadow"
   translation: ""
 
 - text: "LewdGas"
-  translation: ""
+  translation: "LewdGas"
+  skip_translation: true
 
 - text: "Foreground_Prop"
-  translation: ""
+  translation: "Foreground_Prop"
+  skip_translation: true
 
 - text: "Make up Bottle 5 Shadow"
   translation: ""
@@ -11646,10 +12285,12 @@
   translation: ""
 
 - text: "MainCable"
-  translation: ""
+  translation: "MainCable"
+  skip_translation: true
 
 - text: "Bar_Wall_3"
-  translation: ""
+  translation: "Bar_Wall_3"
+  skip_translation: true
 
 - text: "plate pile base"
   translation: ""
@@ -11658,10 +12299,12 @@
   translation: ""
 
 - text: "Decal_G_CRHeart"
-  translation: ""
+  translation: "Decal_G_CRHeart"
+  skip_translation: true
 
 - text: "Chair_Round_3_2"
-  translation: ""
+  translation: "Chair_Round_3_2"
+  skip_translation: true
 
 - text: "Menu_2"
   translation: "Menu_2"
@@ -11675,7 +12318,8 @@
   translation: ""
 
 - text: "WaterPuddle_4"
-  translation: ""
+  translation: "WaterPuddle_4"
+  skip_translation: true
 
 - text: "Brush Holder"
   translation: ""
@@ -11687,23 +12331,27 @@
   translation: ""
 
 - text: "BlueStrip_3"
-  translation: ""
+  translation: "BlueStrip_3"
+  skip_translation: true
 
 - text: "Speaker_1"
   translation: "Speaker_1"
   skip_translation: true
 
 - text: "Chair_Round_1_2"
-  translation: ""
+  translation: "Chair_Round_1_2"
+  skip_translation: true
 
 - text: "Knife_Edged"
-  translation: ""
+  translation: "Knife_Edged"
+  skip_translation: true
 
 - text: "Tunnel PipeW Up Small"
   translation: ""
 
 - text: "Air_Con_2_Cable"
-  translation: ""
+  translation: "Air_Con_2_Cable"
+  skip_translation: true
 
 - text: "Sink 2"
   translation: ""
@@ -11727,10 +12375,12 @@
   translation: ""
 
 - text: "Cable_Long"
-  translation: ""
+  translation: "Cable_Long"
+  skip_translation: true
 
 - text: "Decal_G_Eye"
-  translation: ""
+  translation: "Decal_G_Eye"
+  skip_translation: true
 
 - text: "Bottle_7"
   translation: "Bottle_7"
@@ -11743,7 +12393,8 @@
   translation: ""
 
 - text: "ShadowDickomat"
-  translation: ""
+  translation: "ShadowDickomat"
+  skip_translation: true
 
 - text: "Boxes on top of cupboard"
   translation: ""
@@ -11753,35 +12404,40 @@
   skip_translation: true
 
 - text: "Trash_Prop_4"
-  translation: ""
+  translation: "Trash_Prop_4"
+  skip_translation: true
 
 - text: "Keyboard"
   translation: ""
 
 - text: "Bench"
-  translation: "Bench"
-  skip_translation: true
+  translation: ""
 
 - text: "Computer_Shadow"
-  translation: ""
+  translation: "Computer_Shadow"
+  skip_translation: true
 
 - text: "Cuffs_2_Shadow"
-  translation: ""
+  translation: "Cuffs_2_Shadow"
+  skip_translation: true
 
 - text: "Input_Code"
-  translation: ""
+  translation: "Input_Code"
+  skip_translation: true
 
 - text: "Bunny Room"
   translation: ""
 
 - text: "Bar_Wall_6"
-  translation: ""
+  translation: "Bar_Wall_6"
+  skip_translation: true
 
 - text: "Room Service Terminal"
   translation: ""
 
 - text: "Sink_Shadow"
-  translation: ""
+  translation: "Sink_Shadow"
+  skip_translation: true
 
 - text: "Canvas - Ad - NTR 1"
   translation: ""
@@ -11796,13 +12452,15 @@
   translation: ""
 
 - text: "Trash_Prop_30"
-  translation: ""
+  translation: "Trash_Prop_30"
+  skip_translation: true
 
 - text: "Light Element Blue"
   translation: ""
 
 - text: "Broken_Glass_2"
-  translation: ""
+  translation: "Broken_Glass_2"
+  skip_translation: true
 
 - text: "Make up Bottle"
   translation: ""
@@ -11814,10 +12472,12 @@
   translation: ""
 
 - text: "Left_Top_Light"
-  translation: ""
+  translation: "Left_Top_Light"
+  skip_translation: true
 
 - text: "Left_Bot_Right"
-  translation: ""
+  translation: "Left_Bot_Right"
+  skip_translation: true
 
 - text: "Make up Bottle 3 Shadow"
   translation: ""
@@ -11830,14 +12490,16 @@
   translation: ""
 
 - text: "Forground_Layer"
-  translation: ""
+  translation: "Forground_Layer"
+  skip_translation: true
 
 - text: "Cuffs_2"
   translation: "Cuffs_2"
   skip_translation: true
 
 - text: "Broken_Glass_1"
-  translation: ""
+  translation: "Broken_Glass_1"
+  skip_translation: true
 
 - text: "Clutter"
   translation: ""
@@ -11849,7 +12511,8 @@
   translation: ""
 
 - text: "AirCon_Cable"
-  translation: ""
+  translation: "AirCon_Cable"
+  skip_translation: true
 
 - text: "Wall Panel"
   translation: ""
@@ -11858,7 +12521,8 @@
   translation: ""
 
 - text: "Keyboard_Shadow"
-  translation: ""
+  translation: "Keyboard_Shadow"
+  skip_translation: true
 
 - text: "Bottle_3"
   translation: "Bottle_3"
@@ -11868,19 +12532,23 @@
   translation: ""
 
 - text: "ShowerHead"
-  translation: ""
+  translation: "ShowerHead"
+  skip_translation: true
 
 - text: "Makeup Case Shadow"
   translation: ""
 
 - text: "Cable_Trash_4"
-  translation: ""
+  translation: "Cable_Trash_4"
+  skip_translation: true
 
 - text: "Cable_Base"
-  translation: ""
+  translation: "Cable_Base"
+  skip_translation: true
 
 - text: "Decal_G_Slut"
-  translation: ""
+  translation: "Decal_G_Slut"
+  skip_translation: true
 
 - text: "Lipstick Box"
   translation: ""
@@ -11895,7 +12563,8 @@
   translation: ""
 
 - text: "AirVent_Big"
-  translation: ""
+  translation: "AirVent_Big"
+  skip_translation: true
 
 - text: "Bathroom Stall for Gameplay"
   translation: ""
@@ -11907,47 +12576,55 @@
   translation: ""
 
 - text: "Default_Layer"
-  translation: ""
+  translation: "Default_Layer"
+  skip_translation: true
 
 - text: "Eye Heart"
   translation: ""
 
 - text: "Cards"
-  translation: "Cards"
-  skip_translation: true
+  translation: ""
 
 - text: "Lipstick 3"
   translation: ""
 
 - text: "Chair_Round_2_2"
-  translation: ""
+  translation: "Chair_Round_2_2"
+  skip_translation: true
 
 - text: "Coffee_Machine"
-  translation: ""
+  translation: "Coffee_Machine"
+  skip_translation: true
 
 - text: "Kitchen_Side"
-  translation: ""
+  translation: "Kitchen_Side"
+  skip_translation: true
 
 - text: "Pizza_1_Shadow"
-  translation: ""
+  translation: "Pizza_1_Shadow"
+  skip_translation: true
 
 - text: "Mirror_Wall"
-  translation: ""
+  translation: "Mirror_Wall"
+  skip_translation: true
 
 - text: "Glass Shattered"
   translation: ""
 
 - text: "Bar_Shine_Left"
-  translation: ""
+  translation: "Bar_Shine_Left"
+  skip_translation: true
 
 - text: "Hallway Flooring"
   translation: ""
 
 - text: "Chair_Round_2_1"
-  translation: ""
+  translation: "Chair_Round_2_1"
+  skip_translation: true
 
 - text: "FakeGlow"
-  translation: ""
+  translation: "FakeGlow"
+  skip_translation: true
 
 - text: "Make up Bottle Shadow"
   translation: ""
@@ -11965,19 +12642,23 @@
   translation: ""
 
 - text: "CoffePlate"
-  translation: ""
+  translation: "CoffePlate"
+  skip_translation: true
 
 - text: "Light Element Red"
   translation: ""
 
 - text: "RightSide"
-  translation: ""
+  translation: "RightSide"
+  skip_translation: true
 
 - text: "FoodTray_Shadow"
-  translation: ""
+  translation: "FoodTray_Shadow"
+  skip_translation: true
 
 - text: "Fork_Shadow"
-  translation: ""
+  translation: "Fork_Shadow"
+  skip_translation: true
 
 - text: "Light Element Green"
   translation: ""
@@ -11999,14 +12680,14 @@
   skip_translation: true
 
 - text: "Bar_Wall_4"
-  translation: ""
+  translation: "Bar_Wall_4"
+  skip_translation: true
 
 - text: "Luxus Bed"
   translation: ""
 
 - text: "Fork"
-  translation: "Fork"
-  skip_translation: true
+  translation: ""
 
 - text: "Sun Poster"
   translation: ""
@@ -12021,7 +12702,8 @@
   translation: ""
 
 - text: "SmallPipes"
-  translation: ""
+  translation: "SmallPipes"
+  skip_translation: true
 
 - text: "Generic Item"
   translation: ""
@@ -12030,25 +12712,29 @@
   translation: ""
 
 - text: "EggVibrator_2"
-  translation: ""
+  translation: "EggVibrator_2"
+  skip_translation: true
 
 - text: "Make Up Picture 4"
   translation: ""
 
 - text: "NeonSign_Lips"
-  translation: ""
+  translation: "NeonSign_Lips"
+  skip_translation: true
 
 - text: "Main Outfit"
   translation: ""
 
 - text: "Bowl_Shadow"
-  translation: ""
+  translation: "Bowl_Shadow"
+  skip_translation: true
 
 - text: "Heart Perversion Gain"
   translation: ""
 
 - text: "ButtChain_2"
-  translation: ""
+  translation: "ButtChain_2"
+  skip_translation: true
 
 - text: "Want to Order Indicator"
   translation: ""
@@ -12060,51 +12746,61 @@
   translation: ""
 
 - text: "Bar_Shelf"
-  translation: ""
+  translation: "Bar_Shelf"
+  skip_translation: true
 
 - text: "Curtain"
   translation: ""
 
 - text: "Horse_Cock_1"
-  translation: ""
+  translation: "Horse_Cock_1"
+  skip_translation: true
 
 - text: "Shower_Premium"
-  translation: ""
+  translation: "Shower_Premium"
+  skip_translation: true
 
 - text: "BlueStrip_1"
-  translation: ""
+  translation: "BlueStrip_1"
+  skip_translation: true
 
 - text: "Main Transform"
   translation: ""
 
 - text: "Dildo_W"
-  translation: ""
+  translation: "Dildo_W"
+  skip_translation: true
 
 - text: "Carpet Premium 4"
   translation: ""
 
 - text: "Drain_Shadow"
-  translation: ""
+  translation: "Drain_Shadow"
+  skip_translation: true
 
 - text: "Sperator_Shadow"
-  translation: ""
+  translation: "Sperator_Shadow"
+  skip_translation: true
 
 - text: "LockedVisuals"
-  translation: ""
+  translation: "LockedVisuals"
+  skip_translation: true
 
 - text: "Cuffs_3"
   translation: "Cuffs_3"
   skip_translation: true
 
 - text: "CollingVent"
-  translation: ""
+  translation: "CollingVent"
+  skip_translation: true
 
 - text: "Room_105"
   translation: "Room_105"
   skip_translation: true
 
 - text: "Cable_Start"
-  translation: ""
+  translation: "Cable_Start"
+  skip_translation: true
 
 - text: "Bottle_13"
   translation: "Bottle_13"
@@ -12114,10 +12810,12 @@
   translation: ""
 
 - text: "Trash_Pile_5"
-  translation: ""
+  translation: "Trash_Pile_5"
+  skip_translation: true
 
 - text: "Sofa_Left_Top"
-  translation: ""
+  translation: "Sofa_Left_Top"
+  skip_translation: true
 
 - text: "Brush Shadow"
   translation: ""
@@ -12126,7 +12824,8 @@
   translation: ""
 
 - text: "Decal_G_Haze"
-  translation: ""
+  translation: "Decal_G_Haze"
+  skip_translation: true
 
 - text: "Make Up Picture 12"
   translation: ""
@@ -12142,16 +12841,20 @@
   translation: ""
 
 - text: "Bottle_3_Shadow"
-  translation: ""
+  translation: "Bottle_3_Shadow"
+  skip_translation: true
 
 - text: "LeftSide"
-  translation: ""
+  translation: "LeftSide"
+  skip_translation: true
 
 - text: "Door_Frame"
-  translation: ""
+  translation: "Door_Frame"
+  skip_translation: true
 
 - text: "EndPipe_2"
-  translation: ""
+  translation: "EndPipe_2"
+  skip_translation: true
 
 - text: "Make Up Picture 2"
   translation: ""
@@ -12161,19 +12864,23 @@
   skip_translation: true
 
 - text: "WaterPuddle"
-  translation: ""
+  translation: "WaterPuddle"
+  skip_translation: true
 
 - text: "Ground_Kitchen"
-  translation: ""
+  translation: "Ground_Kitchen"
+  skip_translation: true
 
 - text: "Cushions"
   translation: ""
 
 - text: "BlueStripCorner"
-  translation: ""
+  translation: "BlueStripCorner"
+  skip_translation: true
 
 - text: "Sperator_Bottom"
-  translation: ""
+  translation: "Sperator_Bottom"
+  skip_translation: true
 
 - text: "Luggage 7"
   translation: ""
@@ -12185,7 +12892,8 @@
   translation: ""
 
 - text: "GloryHole"
-  translation: ""
+  translation: "GloryHole"
+  skip_translation: true
 
 - text: "Room_104"
   translation: "Room_104"
@@ -12199,19 +12907,23 @@
   translation: ""
 
 - text: "EC_Device"
-  translation: ""
+  translation: "EC_Device"
+  skip_translation: true
 
 - text: "EmptySticker"
-  translation: ""
+  translation: "EmptySticker"
+  skip_translation: true
 
 - text: "Tower Poster"
   translation: ""
 
 - text: "Can_5"
-  translation: ""
+  translation: "Can_5"
+  skip_translation: true
 
 - text: "PipeBend_2"
-  translation: ""
+  translation: "PipeBend_2"
+  skip_translation: true
 
 - text: "Terminal Clutter"
   translation: ""
@@ -12226,25 +12938,30 @@
   translation: ""
 
 - text: "Decal_G_Bear"
-  translation: ""
+  translation: "Decal_G_Bear"
+  skip_translation: true
 
 - text: "Wall Table"
   translation: ""
 
 - text: "PipeBend_3"
-  translation: ""
+  translation: "PipeBend_3"
+  skip_translation: true
 
 - text: "End_Pipe_2nd_2"
-  translation: ""
+  translation: "End_Pipe_2nd_2"
+  skip_translation: true
 
 - text: "Toilet Carpet"
   translation: ""
 
 - text: "Cable_End"
-  translation: ""
+  translation: "Cable_End"
+  skip_translation: true
 
 - text: "Trash_Prop_14"
-  translation: ""
+  translation: "Trash_Prop_14"
+  skip_translation: true
 
 - text: "Carpet 4"
   translation: ""
@@ -12260,7 +12977,8 @@
   skip_translation: true
 
 - text: "Chair1_Shadow"
-  translation: ""
+  translation: "Chair1_Shadow"
+  skip_translation: true
 
 - text: "Shower Head"
   translation: ""
@@ -12269,13 +12987,16 @@
   translation: ""
 
 - text: "Bar_BlueLight_3"
-  translation: ""
+  translation: "Bar_BlueLight_3"
+  skip_translation: true
 
 - text: "Mixer_Shadow"
-  translation: ""
+  translation: "Mixer_Shadow"
+  skip_translation: true
 
 - text: "Trash_Prop_12"
-  translation: ""
+  translation: "Trash_Prop_12"
+  skip_translation: true
 
 - text: "Brush 2 Shadow"
   translation: ""
@@ -12284,13 +13005,16 @@
   translation: ""
 
 - text: "Decal_G_Dick"
-  translation: ""
+  translation: "Decal_G_Dick"
+  skip_translation: true
 
 - text: "MakeUp"
-  translation: ""
+  translation: "MakeUp"
+  skip_translation: true
 
 - text: "HotBabes"
-  translation: ""
+  translation: "HotBabes"
+  skip_translation: true
 
 - text: "Room Ground"
   translation: ""
@@ -12299,7 +13023,8 @@
   translation: ""
 
 - text: "Left_Top_Right"
-  translation: ""
+  translation: "Left_Top_Right"
+  skip_translation: true
 
 - text: "Hologal"
   translation: ""
@@ -12308,19 +13033,23 @@
   translation: ""
 
 - text: "Trash_Pile_6"
-  translation: ""
+  translation: "Trash_Pile_6"
+  skip_translation: true
 
 - text: "Rockband Poster"
   translation: ""
 
 - text: "Pipe_Short"
-  translation: ""
+  translation: "Pipe_Short"
+  skip_translation: true
 
 - text: "Table_Staffroom"
-  translation: ""
+  translation: "Table_Staffroom"
+  skip_translation: true
 
 - text: "SecondaryCable"
-  translation: ""
+  translation: "SecondaryCable"
+  skip_translation: true
 
 - text: "Brush 3 Shadow"
   translation: ""
@@ -12329,7 +13058,8 @@
   translation: ""
 
 - text: "Cable_Bend"
-  translation: ""
+  translation: "Cable_Bend"
+  skip_translation: true
 
 - text: "Cable_5"
   translation: "Cable_5"
@@ -12345,13 +13075,15 @@
   translation: ""
 
 - text: "FoodBox"
-  translation: ""
+  translation: "FoodBox"
+  skip_translation: true
 
 - text: "Tunnel PipeH Corner Left Bot"
   translation: ""
 
 - text: "Mustard_Shadow"
-  translation: ""
+  translation: "Mustard_Shadow"
+  skip_translation: true
 
 - text: "Black Stick 2 Shadow"
   translation: ""
@@ -12363,7 +13095,8 @@
   translation: ""
 
 - text: "Coffee_Shadow"
-  translation: ""
+  translation: "Coffee_Shadow"
+  skip_translation: true
 
 - text: "Block Zoey from Leaving Bathroom"
   translation: ""
@@ -12382,7 +13115,8 @@
   skip_translation: true
 
 - text: "Footer_Right"
-  translation: ""
+  translation: "Footer_Right"
+  skip_translation: true
 
 - text: "Folding Chair"
   translation: ""
@@ -12394,13 +13128,15 @@
   translation: ""
 
 - text: "BlueStrip_4"
-  translation: ""
+  translation: "BlueStrip_4"
+  skip_translation: true
 
 - text: "Lipstick 2 Shadow"
   translation: ""
 
 - text: "Bar_Wall_5"
-  translation: ""
+  translation: "Bar_Wall_5"
+  skip_translation: true
 
 - text: "Make up Bottle 6"
   translation: ""
@@ -12409,7 +13145,8 @@
   translation: ""
 
 - text: "Trash_Disc"
-  translation: ""
+  translation: "Trash_Disc"
+  skip_translation: true
 
 - text: "Black Stick Shadow"
   translation: ""
@@ -12424,19 +13161,22 @@
   translation: ""
 
 - text: "Dickomat_Kable"
-  translation: ""
+  translation: "Dickomat_Kable"
+  skip_translation: true
 
 - text: "Mirror Big Shadow"
   translation: ""
 
 - text: "PipeBend"
-  translation: ""
+  translation: "PipeBend"
+  skip_translation: true
 
 - text: "Blanket"
   translation: ""
 
 - text: "Pipe_Bend"
-  translation: ""
+  translation: "Pipe_Bend"
+  skip_translation: true
 
 - text: "Bar Counter"
   translation: ""
@@ -12490,7 +13230,8 @@
   skip_translation: true
 
 - text: "C5Af"
-  translation: ""
+  translation: "C5Af"
+  skip_translation: true
 
 - text: "RIy"
   translation: "RIy"
@@ -12525,7 +13266,8 @@
   skip_translation: true
 
 - text: "UUU?UUU?"
-  translation: ""
+  translation: "UUU?UUU?"
+  skip_translation: true
 
 - text: "Ogt"
   translation: ""
@@ -12551,7 +13293,8 @@
   skip_translation: true
 
 - text: "9EW?9EW?9EW?"
-  translation: ""
+  translation: "9EW?9EW?9EW?"
+  skip_translation: true
 
 - text: "HA\\"
   translation: "HA\\\\"
@@ -12646,7 +13389,8 @@
   skip_translation: true
 
 - text: "ORPD9\"*A"
-  translation: ""
+  translation: "ORPD9\"
+  skip_translation: true
 
 - text: "B`e"
   translation: "B`e"
@@ -12709,7 +13453,8 @@
   skip_translation: true
 
 - text: "2AT?2AT?5AT?"
-  translation: ""
+  translation: "2AT?2AT?5AT?"
+  skip_translation: true
 
 - text: "?9[IA"
   translation: "?9[IA"
@@ -12751,8 +13496,7 @@
   skip_translation: true
 
 - text: "Bph"
-  translation: "Bph"
-  skip_translation: true
+  translation: ""
 
 - text: "Pa?"
   translation: "Pa?"
@@ -12799,7 +13543,8 @@
   skip_translation: true
 
 - text: "5?OCY"
-  translation: ""
+  translation: "5?OCY"
+  skip_translation: true
 
 - text: "ZdC@"
   translation: "ZdC@"
@@ -12810,7 +13555,8 @@
   skip_translation: true
 
 - text: "AffF"
-  translation: ""
+  translation: "AffF"
+  skip_translation: true
 
 - text: "YA`Vf"
   translation: "YA`Vf"
@@ -12857,7 +13603,8 @@
   skip_translation: true
 
 - text: "KzBq=2"
-  translation: ""
+  translation: "KzBq=2"
+  skip_translation: true
 
 - text: "&PA"
   translation: "&PA"
@@ -12951,7 +13698,8 @@
   skip_translation: true
 
 - text: "Aff&B"
-  translation: ""
+  translation: "Aff&B"
+  skip_translation: true
 
 - text: "HdB"
   translation: "HdB"
@@ -13185,7 +13933,8 @@
   skip_translation: true
 
 - text: "ZbTA"
-  translation: ""
+  translation: "ZbTA"
+  skip_translation: true
 
 - text: "Nb?"
   translation: "Nb?"
@@ -13343,7 +14092,8 @@
   translation: ""
 
 - text: "' D=JpD"
-  translation: ""
+  translation: "' D=JpD"
+  skip_translation: true
 
 - text: "SDq]"
   translation: "SDq]"
@@ -13379,7 +14129,8 @@
   translation: ""
 
 - text: "LenChi - Lead Artist & Design"
-  translation: ""
+  translation: "LenChi - Lead Artist & Design"
+  skip_translation: true
 
 - text: "AineLovia - Overworld Character Artist"
   translation: ""
@@ -13397,7 +14148,8 @@
   translation: ""
 
 - text: "Zanzo - Design & UI Developer"
-  translation: ""
+  translation: "Zanzo - Design & UI Developer"
+  skip_translation: true
 
 - text: "lady_turkiz - Producer"
   translation: ""
@@ -13409,7 +14161,8 @@
   translation: ""
 
 - text: "Del - Audio Engineer & Designer"
-  translation: ""
+  translation: "Del - Audio Engineer & Designer"
+  skip_translation: true
 
 - text: "Vils - Lead Developer"
   translation: ""
@@ -13418,17 +14171,18 @@
   translation: ""
 
 - text: "JuggerDown"
-  translation: ""
+  translation: "JuggerDown"
+  skip_translation: true
 
 - text: "Merc"
-  translation: "Merc"
-  skip_translation: true
+  translation: ""
 
 - text: "Packing"
   translation: ""
 
 - text: "BeaOe"
-  translation: ""
+  translation: "BeaOe"
+  skip_translation: true
 
 - text: "ALT"
   translation: "ALT"
@@ -13438,7 +14192,8 @@
   translation: ""
 
 - text: "HiJenx - CAL & MALE NPC"
-  translation: ""
+  translation: "HiJenx - CAL & MALE NPC"
+  skip_translation: true
 
 - text: "Diana Lockhart - MYNX"
   translation: ""
@@ -13453,7 +14208,8 @@
   translation: ""
 
 - text: "Interstellar Incubus - JAY & MALE NPC"
-  translation: ""
+  translation: "Interstellar Incubus - JAY & MALE NPC"
+  skip_translation: true
 
 - text: "Alexia Renaldis - FEMALE NPC"
   translation: ""
@@ -13465,7 +14221,8 @@
   translation: ""
 
 - text: "Vaile Andersen - SARAH & KLAUDIA"
-  translation: ""
+  translation: "Vaile Andersen - SARAH & KLAUDIA"
+  skip_translation: true
 
 - text: "Sif Avellana - Nail Salon Robot #1"
   translation: ""
@@ -13529,61 +14286,79 @@
   translation: ""
 
 - text: "Inspy - @IspynArt"
-  translation: ""
+  translation: "Inspy - @IspynArt"
+  skip_translation: true
 
 - text: "Iceagi - @Iceagi_"
-  translation: ""
+  translation: "Iceagi - @Iceagi_"
+  skip_translation: true
 
 - text: "NITA - @nazunita"
-  translation: ""
+  translation: "NITA - @nazunita"
+  skip_translation: true
 
 - text: "Dawizurd - dawizurd"
   translation: ""
 
 - text: "Danja - @Typue_kartinki"
-  translation: ""
+  translation: "Danja - @Typue_kartinki"
+  skip_translation: true
 
 - text: "bum - @bumdraws"
-  translation: ""
+  translation: "bum - @bumdraws"
+  skip_translation: true
 
 - text: "Brothbowl - @brothbowl"
-  translation: ""
+  translation: "Brothbowl - @brothbowl"
+  skip_translation: true
 
 - text: "Sinnamon - @Sinnamonlatte1"
-  translation: ""
+  translation: "Sinnamon - @Sinnamonlatte1"
+  skip_translation: true
 
 - text: "ni_kanojo - @ni_kanojo"
-  translation: ""
+  translation: "ni_kanojo - @ni_kanojo"
+  skip_translation: true
 
 - text: "D-Rex - @d_rex_too"
-  translation: ""
+  translation: "D-Rex - @d_rex_too"
+  skip_translation: true
 
 - text: "Trevo - @TrevoButEvil"
-  translation: ""
+  translation: "Trevo - @TrevoButEvil"
+  skip_translation: true
 
 - text: "STOAN - @STOANGuy"
-  translation: ""
+  translation: "STOAN - @STOANGuy"
+  skip_translation: true
 
 - text: "yakiq - @therealyakiq"
-  translation: ""
+  translation: "yakiq - @therealyakiq"
+  skip_translation: true
 
 - text: "Kara Arts - @KaraArts_"
-  translation: ""
+  translation: "Kara Arts - @KaraArts_"
+  skip_translation: true
 
 - text: "piper - @piper_vates"
-  translation: ""
+  translation: "piper - @piper_vates"
+  skip_translation: true
 
 - text: "mrUmbra - @UmbraMr"
-  translation: ""
+  translation: "mrUmbra - @UmbraMr"
+  skip_translation: true
 
 - text: "LittleLing - @littleling_"
-  translation: ""
+  translation: "LittleLing - @littleling_"
+  skip_translation: true
 
 - text: "1500sumire - @1500sumire"
-  translation: ""
+  translation: "1500sumire - @1500sumire"
+  skip_translation: true
 
 - text: "Leone - @Leone145D"
-  translation: ""
+  translation: "Leone - @Leone145D"
+  skip_translation: true
 
 - text: "Kekoriko"
   translation: ""
@@ -13595,10 +14370,12 @@
   translation: ""
 
 - text: "m lost in the dark, oh how will I survive?"
-  translation: ""
+  translation: "m lost in the dark, oh how will I survive?"
+  skip_translation: true
 
 - text: "Who am I? Can"
-  translation: ""
+  translation: "Who am I? Can"
+  skip_translation: true
 
 - text: "t seem to find who I am"
   translation: ""
@@ -13607,7 +14384,8 @@
   translation: ""
 
 - text: "I made the decision, was it right?"
-  translation: ""
+  translation: "I made the decision, was it right?"
+  skip_translation: true
 
 - text: "I used to fight, now I'll hide"
   translation: ""
@@ -13652,13 +14430,15 @@
   translation: ""
 
 - text: "Will you reach out or leave me to fade?"
-  translation: ""
+  translation: "Will you reach out or leave me to fade?"
+  skip_translation: true
 
 - text: "There's no choice, I'll escape"
   translation: ""
 
 - text: "This hesitation, oh was it right?"
-  translation: ""
+  translation: "This hesitation, oh was it right?"
+  skip_translation: true
 
 - text: "Used to hide, now I'll fight"
   translation: ""
@@ -13670,7 +14450,8 @@
   translation: ""
 
 - text: "Can I just try again?"
-  translation: ""
+  translation: "Can I just try again?"
+  skip_translation: true
 
 - text: "ll live through this pain all alone"
   translation: ""
@@ -13724,47 +14505,59 @@
   skip_translation: true
 
 - text: "TargetDialogue"
-  translation: ""
+  translation: "TargetDialogue"
+  skip_translation: true
 
 - text: "LineID"
-  translation: ""
+  translation: "LineID"
+  skip_translation: true
 
 - text: "ChoiceID"
-  translation: ""
+  translation: "ChoiceID"
+  skip_translation: true
 
 - text: "ChoiceText"
-  translation: ""
+  translation: "ChoiceText"
+  skip_translation: true
 
 - text: "SortingPriority"
-  translation: ""
+  translation: "SortingPriority"
+  skip_translation: true
 
 - text: "PlayChoiceOnce"
-  translation: ""
+  translation: "PlayChoiceOnce"
+  skip_translation: true
 
 - text: "AttachedTask"
-  translation: ""
+  translation: "AttachedTask"
+  skip_translation: true
 
 - text: "DisplaySprite"
-  translation: ""
+  translation: "DisplaySprite"
+  skip_translation: true
 
 - text: "StatAmount"
-  translation: ""
+  translation: "StatAmount"
+  skip_translation: true
 
 - text: "IsCancelBind"
-  translation: ""
+  translation: "IsCancelBind"
+  skip_translation: true
 
 - text: "PCUU!C"
   translation: "PCUU!C"
   skip_translation: true
 
 - text: "OnChoice"
-  translation: ""
+  translation: "OnChoice"
+  skip_translation: true
 
 - text: "NN_WaitressingMinigame_Customer, Assembly-CSharp"
   translation: ""
 
 - text: "OnInteracted"
-  translation: ""
+  translation: "OnInteracted"
+  skip_translation: true
 
 - text: "@?QI"
   translation: "@?QI"
@@ -13774,7 +14567,8 @@
   translation: ""
 
 - text: "Did we beat the keypad?"
-  translation: ""
+  translation: "Did we beat the keypad?"
+  skip_translation: true
 
 - text: "Do keypad"
   translation: ""
@@ -13801,26 +14595,30 @@
   translation: ""
 
 - text: "Hint"
-  translation: "Hint"
-  skip_translation: true
+  translation: ""
 
 - text: "Title"
   translation: ""
 
 - text: "LoginName"
-  translation: ""
+  translation: "LoginName"
+  skip_translation: true
 
 - text: "ProfilePicture"
-  translation: ""
+  translation: "ProfilePicture"
+  skip_translation: true
 
 - text: "OnSuccess"
-  translation: ""
+  translation: "OnSuccess"
+  skip_translation: true
 
 - text: "OnFailure"
-  translation: ""
+  translation: "OnFailure"
+  skip_translation: true
 
 - text: "OnClosed"
-  translation: ""
+  translation: "OnClosed"
+  skip_translation: true
 
 - text: "Do dialogue"
   translation: ""
@@ -13829,14 +14627,15 @@
   translation: ""
 
 - text: "WaitForTask"
-  translation: ""
+  translation: "WaitForTask"
+  skip_translation: true
 
 - text: "OnStatusMatches"
-  translation: ""
+  translation: "OnStatusMatches"
+  skip_translation: true
 
 - text: "Task"
-  translation: "Task"
-  skip_translation: true
+  translation: ""
 
 - text: "Completion"
   translation: ""
@@ -13845,10 +14644,12 @@
   translation: ""
 
 - text: "PCUU1C"
-  translation: ""
+  translation: "PCUU1C"
+  skip_translation: true
 
 - text: "DISABLE"
-  translation: ""
+  translation: "DISABLE"
+  skip_translation: true
 
 - text: "Wait for Photo"
   translation: ""
@@ -13872,7 +14673,8 @@
   translation: ""
 
 - text: "StopPeeking"
-  translation: ""
+  translation: "StopPeeking"
+  skip_translation: true
 
 - text: "On Interacted"
   translation: ""
@@ -13882,13 +14684,16 @@
   skip_translation: true
 
 - text: "OnGaveAnyItem"
-  translation: ""
+  translation: "OnGaveAnyItem"
+  skip_translation: true
 
 - text: "CustomerProfile"
-  translation: ""
+  translation: "CustomerProfile"
+  skip_translation: true
 
 - text: "GivenItem"
-  translation: ""
+  translation: "GivenItem"
+  skip_translation: true
 
 - text: "Lock Door"
   translation: ""
@@ -13908,7 +14713,8 @@
   skip_translation: true
 
 - text: "AquireUIClosed"
-  translation: ""
+  translation: "AquireUIClosed"
+  skip_translation: true
 
 - text: "Turn off lights"
   translation: ""
@@ -13960,7 +14766,8 @@
   translation: ""
 
 - text: "Did clean in the past?"
-  translation: ""
+  translation: "Did clean in the past?"
+  skip_translation: true
 
 - text: "BVU]C"
   translation: "BVU]C"
@@ -13973,25 +14780,30 @@
   translation: ""
 
 - text: "Do we not have the task to use blocker?"
-  translation: ""
+  translation: "Do we not have the task to use blocker?"
+  skip_translation: true
 
 - text: "Restrict PI and wait for task"
   translation: ""
 
 - text: "OnMatch"
-  translation: ""
+  translation: "OnMatch"
+  skip_translation: true
 
 - text: "OnMisMatch"
-  translation: ""
+  translation: "OnMisMatch"
+  skip_translation: true
 
 - text: "Free PI"
   translation: ""
 
 - text: "RestraintID"
-  translation: ""
+  translation: "RestraintID"
+  skip_translation: true
 
 - text: "ShouldRestrict"
-  translation: ""
+  translation: "ShouldRestrict"
+  skip_translation: true
 
 - text: "Check State"
   translation: ""
@@ -14003,7 +14815,8 @@
   translation: ""
 
 - text: "OnHovered"
-  translation: ""
+  translation: "OnHovered"
+  skip_translation: true
 
 - text: "Wait 3s"
   translation: ""
@@ -14021,7 +14834,8 @@
   translation: ""
 
 - text: "AttachTo"
-  translation: ""
+  translation: "AttachTo"
+  skip_translation: true
 
 - text: "Inverted"
   translation: ""
@@ -14030,10 +14844,12 @@
   translation: ""
 
 - text: "IsHovering"
-  translation: ""
+  translation: "IsHovering"
+  skip_translation: true
 
 - text: "IsNotHovering"
-  translation: ""
+  translation: "IsNotHovering"
+  skip_translation: true
 
 - text: "Wait 3s 2"
   translation: ""
@@ -14042,16 +14858,19 @@
   translation: ""
 
 - text: "Are we recovering kit?"
-  translation: ""
+  translation: "Are we recovering kit?"
+  skip_translation: true
 
 - text: "Move to pos"
   translation: ""
 
 - text: "QCBw`y=8"
-  translation: ""
+  translation: "QCBw`y=8"
+  skip_translation: true
 
 - text: "Did we unlock the door?"
-  translation: ""
+  translation: "Did we unlock the door?"
+  skip_translation: true
 
 - text: "PCVU"
   translation: "PCVU"
@@ -14073,20 +14892,22 @@
   translation: ""
 
 - text: "Room102"
-  translation: ""
+  translation: "Room102"
+  skip_translation: true
 
 - text: "Is Bunnysuit Mission Active?"
-  translation: ""
+  translation: "Is Bunnysuit Mission Active?"
+  skip_translation: true
 
 - text: "GlowingHoleKeys/Opened Room 102"
   translation: ""
 
 - text: "Locks"
-  translation: "Locks"
-  skip_translation: true
+  translation: ""
 
 - text: "OnCancel"
-  translation: ""
+  translation: "OnCancel"
+  skip_translation: true
 
 - text: "Hv?"
   translation: "Hv?"
@@ -14102,10 +14923,12 @@
   translation: ""
 
 - text: "LeaveBox"
-  translation: ""
+  translation: "LeaveBox"
+  skip_translation: true
 
 - text: "Did find Suitcase?"
-  translation: ""
+  translation: "Did find Suitcase?"
+  skip_translation: true
 
 - text: "Show FoundSuitcase Scene"
   translation: ""
@@ -14117,10 +14940,12 @@
   translation: ""
 
 - text: "BlendType"
-  translation: ""
+  translation: "BlendType"
+  skip_translation: true
 
 - text: "ClearOnComplete"
-  translation: ""
+  translation: "ClearOnComplete"
+  skip_translation: true
 
 - text: "Alpha"
   translation: ""
@@ -14129,7 +14954,8 @@
   translation: ""
 
 - text: "Did unlock the door?"
-  translation: ""
+  translation: "Did unlock the door?"
+  skip_translation: true
 
 - text: "Open the Door"
   translation: ""
@@ -14138,7 +14964,8 @@
   translation: ""
 
 - text: "Did grab Outfit?"
-  translation: ""
+  translation: "Did grab Outfit?"
+  skip_translation: true
 
 - text: "Turn off Light"
   translation: ""
@@ -14147,7 +14974,8 @@
   translation: ""
 
 - text: "Do we have task to pick up?"
-  translation: ""
+  translation: "Do we have task to pick up?"
+  skip_translation: true
 
 - text: "Set Interaction type to Grab"
   translation: ""
@@ -14159,7 +14987,8 @@
   translation: ""
 
 - text: "Is allowed to enter?"
-  translation: ""
+  translation: "Is allowed to enter?"
+  skip_translation: true
 
 - text: "We always allow when moving down"
   translation: ""
@@ -14177,7 +15006,8 @@
   translation: ""
 
 - text: "PMA_Down"
-  translation: ""
+  translation: "PMA_Down"
+  skip_translation: true
 
 - text: "Direction"
   translation: ""
@@ -14186,13 +15016,16 @@
   translation: ""
 
 - text: "ToMove"
-  translation: ""
+  translation: "ToMove"
+  skip_translation: true
 
 - text: "ApplyScale"
-  translation: ""
+  translation: "ApplyScale"
+  skip_translation: true
 
 - text: "ApplyRotation"
-  translation: ""
+  translation: "ApplyRotation"
+  skip_translation: true
 
 - text: "Reached Final"
   translation: ""
@@ -14222,7 +15055,8 @@
   translation: ""
 
 - text: "RecoverGear"
-  translation: ""
+  translation: "RecoverGear"
+  skip_translation: true
 
 - text: "Disable Rosie Default FSM"
   translation: ""
@@ -14232,39 +15066,46 @@
   skip_translation: true
 
 - text: "Awkward2"
-  translation: ""
+  translation: "Awkward2"
+  skip_translation: true
 
 - text: "OverrideEyes"
-  translation: ""
+  translation: "OverrideEyes"
+  skip_translation: true
 
 - text: "OverrideMouth"
-  translation: ""
+  translation: "OverrideMouth"
+  skip_translation: true
 
 - text: "OverrideBrows"
-  translation: ""
+  translation: "OverrideBrows"
+  skip_translation: true
 
 - text: "OverridePose"
-  translation: ""
+  translation: "OverridePose"
+  skip_translation: true
 
 - text: "Priority"
   translation: ""
 
 - text: "ClearAll"
-  translation: ""
+  translation: "ClearAll"
+  skip_translation: true
 
 - text: "ClearThisID"
-  translation: ""
+  translation: "ClearThisID"
+  skip_translation: true
 
 - text: "Wr?"
   translation: "Wr?"
   skip_translation: true
 
 - text: "Is Escape in progress?"
-  translation: ""
+  translation: "Is Escape in progress?"
+  skip_translation: true
 
 - text: "Hack"
-  translation: "Hack"
-  skip_translation: true
+  translation: ""
 
 - text: "Hack success dialogue"
   translation: ""
@@ -14280,13 +15121,16 @@
   translation: ""
 
 - text: "SetRestrained"
-  translation: ""
+  translation: "SetRestrained"
+  skip_translation: true
 
 - text: "RemoveOnExit"
-  translation: ""
+  translation: "RemoveOnExit"
+  skip_translation: true
 
 - text: "UsePlayer"
-  translation: ""
+  translation: "UsePlayer"
+  skip_translation: true
 
 - text: "Dialogue 3"
   translation: ""
@@ -14301,7 +15145,8 @@
   translation: ""
 
 - text: "Wearing Bunnysuit?"
-  translation: ""
+  translation: "Wearing Bunnysuit?"
+  skip_translation: true
 
 - text: "Is wearing"
   translation: ""
@@ -14313,10 +15158,12 @@
   translation: ""
 
 - text: "OnIsBunny"
-  translation: ""
+  translation: "OnIsBunny"
+  skip_translation: true
 
 - text: "OnNotBunny"
-  translation: ""
+  translation: "OnNotBunny"
+  skip_translation: true
 
 - text: "Equipment changed"
   translation: ""
@@ -14331,10 +15178,12 @@
   translation: ""
 
 - text: "CustomerState"
-  translation: ""
+  translation: "CustomerState"
+  skip_translation: true
 
 - text: "Is slut service in progress?"
-  translation: ""
+  translation: "Is slut service in progress?"
+  skip_translation: true
 
 - text: "PMA_UP"
   translation: "PMA_UP"
@@ -14347,7 +15196,8 @@
   translation: ""
 
 - text: "Is leave in progress?"
-  translation: ""
+  translation: "Is leave in progress?"
+  skip_translation: true
 
 - text: "Get which room we're in"
   translation: ""
@@ -14359,16 +15209,19 @@
   translation: ""
 
 - text: "OnEntered"
-  translation: ""
+  translation: "OnEntered"
+  skip_translation: true
 
 - text: "OnExited"
-  translation: ""
+  translation: "OnExited"
+  skip_translation: true
 
 - text: "Destination"
   translation: ""
 
 - text: "SaveTo"
-  translation: ""
+  translation: "SaveTo"
+  skip_translation: true
 
 - text: "Wait for task"
   translation: ""
@@ -14393,13 +15246,16 @@
   translation: ""
 
 - text: "PCUUGC"
-  translation: ""
+  translation: "PCUUGC"
+  skip_translation: true
 
 - text: "ShowPopup"
-  translation: ""
+  translation: "ShowPopup"
+  skip_translation: true
 
 - text: "Thanks for playing!"
-  translation: ""
+  translation: "Thanks for playing!"
+  skip_translation: true
 
 - text: "Headline"
   translation: ""
@@ -14408,28 +15264,36 @@
   translation: ""
 
 - text: "YesLabel"
-  translation: ""
+  translation: "YesLabel"
+  skip_translation: true
 
 - text: "NoLabel"
-  translation: ""
+  translation: "NoLabel"
+  skip_translation: true
 
 - text: "UseYesIcon"
-  translation: ""
+  translation: "UseYesIcon"
+  skip_translation: true
 
 - text: "YesIconOverride"
-  translation: ""
+  translation: "YesIconOverride"
+  skip_translation: true
 
 - text: "UseNoIcon"
-  translation: ""
+  translation: "UseNoIcon"
+  skip_translation: true
 
 - text: "NoIconOverride"
-  translation: ""
+  translation: "NoIconOverride"
+  skip_translation: true
 
 - text: "OnYes"
-  translation: ""
+  translation: "OnYes"
+  skip_translation: true
 
 - text: "OnNo"
-  translation: ""
+  translation: "OnNo"
+  skip_translation: true
 
 - text: "Play Credits"
   translation: ""
@@ -14469,10 +15333,12 @@
   translation: ""
 
 - text: "GiveNewIfNull"
-  translation: ""
+  translation: "GiveNewIfNull"
+  skip_translation: true
 
 - text: "Did crowd move already?"
-  translation: ""
+  translation: "Did crowd move already?"
+  skip_translation: true
 
 - text: "U8D"
   translation: "U8D"
@@ -14491,7 +15357,8 @@
   translation: ""
 
 - text: "Did we pick up Bunnysuit?"
-  translation: ""
+  translation: "Did we pick up Bunnysuit?"
+  skip_translation: true
 
 - text: "Lock door again"
   translation: ""
@@ -14503,7 +15370,8 @@
   translation: ""
 
 - text: "FadeOutDuration"
-  translation: ""
+  translation: "FadeOutDuration"
+  skip_translation: true
 
 - text: "Reached"
   translation: ""
@@ -14515,26 +15383,30 @@
   translation: ""
 
 - text: "Should enable Mark?"
-  translation: ""
+  translation: "Should enable Mark?"
+  skip_translation: true
 
 - text: "Enable Mark"
   translation: ""
 
 - text: "GlowingHoleKeys/Did hit Mark Enabled Trigger?"
-  translation: ""
+  translation: "GlowingHoleKeys/Did hit Mark Enabled Trigger?"
+  skip_translation: true
 
 - text: "Remember that Mark is Active and enable him"
   translation: ""
 
 - text: "AquireUIOpened"
-  translation: ""
+  translation: "AquireUIOpened"
+  skip_translation: true
 
 - text: "C-OA"
   translation: "C-OA"
   skip_translation: true
 
 - text: "Did this already?"
-  translation: ""
+  translation: "Did this already?"
+  skip_translation: true
 
 - text: "Line 1"
   translation: ""
@@ -14555,7 +15427,8 @@
   translation: ""
 
 - text: "Did Phonecall?"
-  translation: ""
+  translation: "Did Phonecall?"
+  skip_translation: true
 
 - text: "Turn off trigger"
   translation: ""
@@ -14573,16 +15446,19 @@
   translation: ""
 
 - text: "PMA_Phonecall"
-  translation: ""
+  translation: "PMA_Phonecall"
+  skip_translation: true
 
 - text: "Caller"
   translation: ""
 
 - text: "OnDeclined"
-  translation: ""
+  translation: "OnDeclined"
+  skip_translation: true
 
 - text: "TimedOut"
-  translation: ""
+  translation: "TimedOut"
+  skip_translation: true
 
 - text: "Talked to Hologram"
   translation: ""
@@ -14601,16 +15477,19 @@
   translation: ""
 
 - text: "Did we complete chapter 1?"
-  translation: ""
+  translation: "Did we complete chapter 1?"
+  skip_translation: true
 
 - text: "Disable self"
   translation: ""
 
 - text: "MissionToCheck"
-  translation: ""
+  translation: "MissionToCheck"
+  skip_translation: true
 
 - text: "WaitForMatch"
-  translation: ""
+  translation: "WaitForMatch"
+  skip_translation: true
 
 - text: "Set enter box task"
   translation: ""
@@ -14640,7 +15519,8 @@
   skip_translation: true
 
 - text: "Did Intro?"
-  translation: ""
+  translation: "Did Intro?"
+  skip_translation: true
 
 - text: "Add Input Restraint"
   translation: ""
@@ -14667,7 +15547,8 @@
   translation: ""
 
 - text: "OnPressed"
-  translation: ""
+  translation: "OnPressed"
+  skip_translation: true
 
 - text: "Key"
   translation: ""
@@ -14688,7 +15569,8 @@
   translation: ""
 
 - text: "Is the suitcase mission finished?"
-  translation: ""
+  translation: "Is the suitcase mission finished?"
+  skip_translation: true
 
 - text: "Disable this"
   translation: ""
@@ -14700,32 +15582,39 @@
   translation: ""
 
 - text: "CameraName"
-  translation: ""
+  translation: "CameraName"
+  skip_translation: true
 
 - text: "CameraCategory"
-  translation: ""
+  translation: "CameraCategory"
+  skip_translation: true
 
 - text: "CameraZoom"
-  translation: ""
+  translation: "CameraZoom"
+  skip_translation: true
 
 - text: "CloseOnExit"
-  translation: ""
+  translation: "CloseOnExit"
+  skip_translation: true
 
 - text: "DisableFade"
-  translation: ""
+  translation: "DisableFade"
+  skip_translation: true
 
 - text: "OnClose"
-  translation: ""
+  translation: "OnClose"
+  skip_translation: true
 
 - text: "Did Camera Intro?"
-  translation: ""
+  translation: "Did Camera Intro?"
+  skip_translation: true
 
 - text: "Are we wearing Bunny Suit?"
-  translation: ""
+  translation: "Are we wearing Bunny Suit?"
+  skip_translation: true
 
 - text: "Brows"
-  translation: "Brows"
-  skip_translation: true
+  translation: ""
 
 - text: "Eyes"
   translation: ""
@@ -14734,7 +15623,8 @@
   translation: ""
 
 - text: "Did first dialogue?"
-  translation: ""
+  translation: "Did first dialogue?"
+  skip_translation: true
 
 - text: "RCVU"
   translation: "RCVU"
@@ -14753,10 +15643,12 @@
   translation: ""
 
 - text: "FromCharacter"
-  translation: ""
+  translation: "FromCharacter"
+  skip_translation: true
 
 - text: "ToCharacter"
-  translation: ""
+  translation: "ToCharacter"
+  skip_translation: true
 
 - text: "Reset"
   translation: ""
@@ -14805,14 +15697,16 @@
   translation: ""
 
 - text: "BUUkC"
-  translation: ""
+  translation: "BUUkC"
+  skip_translation: true
 
 - text: "Bw`y="
   translation: "Bw`y="
   skip_translation: true
 
 - text: "Did we pick up already?"
-  translation: ""
+  translation: "Did we pick up already?"
+  skip_translation: true
 
 - text: "Give Zoey the Item"
   translation: ""
@@ -14821,16 +15715,20 @@
   translation: ""
 
 - text: "AutoEquip"
-  translation: ""
+  translation: "AutoEquip"
+  skip_translation: true
 
 - text: "AnnounceItems"
-  translation: ""
+  translation: "AnnounceItems"
+  skip_translation: true
 
 - text: "ItemToGive"
-  translation: ""
+  translation: "ItemToGive"
+  skip_translation: true
 
 - text: "CreateNewItems"
-  translation: ""
+  translation: "CreateNewItems"
+  skip_translation: true
 
 - text: "Deactivate this GameObject"
   translation: ""
@@ -14840,10 +15738,12 @@
   skip_translation: true
 
 - text: "Are we on the Bunnysuit Mission?"
-  translation: ""
+  translation: "Are we on the Bunnysuit Mission?"
+  skip_translation: true
 
 - text: "OnHasMission"
-  translation: ""
+  translation: "OnHasMission"
+  skip_translation: true
 
 - text: ":D)A"
   translation: ":D)A"
@@ -14862,22 +15762,27 @@
   translation: ""
 
 - text: "OnOpen"
-  translation: ""
+  translation: "OnOpen"
+  skip_translation: true
 
 - text: "WaitForChange"
-  translation: ""
+  translation: "WaitForChange"
+  skip_translation: true
 
 - text: "Do we have the mission?"
-  translation: ""
+  translation: "Do we have the mission?"
+  skip_translation: true
 
 - text: "Wait for Mark"
   translation: ""
 
 - text: "We find Jasmine?"
-  translation: ""
+  translation: "We find Jasmine?"
+  skip_translation: true
 
 - text: "WaitForMission"
-  translation: ""
+  translation: "WaitForMission"
+  skip_translation: true
 
 - text: "Ask if they want the mission"
   translation: ""
@@ -14889,7 +15794,8 @@
   translation: ""
 
 - text: "We return to Mark?"
-  translation: ""
+  translation: "We return to Mark?"
+  skip_translation: true
 
 - text: "Lock player movement"
   translation: ""
@@ -14921,7 +15827,8 @@
   translation: ""
 
 - text: "Did talk to Cal already?"
-  translation: ""
+  translation: "Did talk to Cal already?"
+  skip_translation: true
 
 - text: "`CUU"
   translation: "`CUU"
@@ -14931,29 +15838,35 @@
   translation: ""
 
 - text: "NameToMatch"
-  translation: ""
+  translation: "NameToMatch"
+  skip_translation: true
 
 - text: "UseZoey"
-  translation: ""
+  translation: "UseZoey"
+  skip_translation: true
 
 - text: "Additive"
   translation: ""
 
 - text: "Did we complete the prologue?"
-  translation: ""
+  translation: "Did we complete the prologue?"
+  skip_translation: true
 
 - text: "ToGlowingHole"
-  translation: ""
+  translation: "ToGlowingHole"
+  skip_translation: true
 
 - text: "[10] Give in to Varen yet again..."
   translation: "[10] Give in to Varen yet again..."
   skip_translation: true
 
 - text: "Did intro?"
-  translation: ""
+  translation: "Did intro?"
+  skip_translation: true
 
 - text: "Is Upstairs?"
-  translation: ""
+  translation: "Is Upstairs?"
+  skip_translation: true
 
 - text: "DCUU"
   translation: "DCUU"
@@ -14976,7 +15889,8 @@
   translation: ""
 
 - text: "Is already upstairs at start?"
-  translation: ""
+  translation: "Is already upstairs at start?"
+  skip_translation: true
 
 - text: "Wait for game to initialize"
   translation: ""
@@ -14989,7 +15903,8 @@
   skip_translation: true
 
 - text: "Did talk before?"
-  translation: ""
+  translation: "Did talk before?"
+  skip_translation: true
 
 - text: "First time Talk"
   translation: ""
@@ -15006,13 +15921,15 @@
   skip_translation: true
 
 - text: "You like that?"
-  translation: ""
+  translation: "You like that?"
+  skip_translation: true
 
 - text: "Location"
   translation: ""
 
 - text: "AfterDuration"
-  translation: ""
+  translation: "AfterDuration"
+  skip_translation: true
 
 - text: "Give Vibrator Remote"
   translation: ""
@@ -15028,16 +15945,19 @@
   translation: ""
 
 - text: "Disable this?"
-  translation: ""
+  translation: "Disable this?"
+  skip_translation: true
 
 - text: "Did waiting?"
-  translation: ""
+  translation: "Did waiting?"
+  skip_translation: true
 
 - text: "Begin preloading the CG"
   translation: ""
 
 - text: "ToPreload"
-  translation: ""
+  translation: "ToPreload"
+  skip_translation: true
 
 - text: "Peeking Finished"
   translation: ""
@@ -15046,13 +15966,15 @@
   translation: ""
 
 - text: "Did Peek before?"
-  translation: ""
+  translation: "Did Peek before?"
+  skip_translation: true
 
 - text: "Peek again Dialogue"
   translation: ""
 
 - text: "Is past Intro?"
-  translation: ""
+  translation: "Is past Intro?"
+  skip_translation: true
 
 - text: "Disable Self"
   translation: ""
@@ -15062,10 +15984,12 @@
   skip_translation: true
 
 - text: "Intro_FromBar"
-  translation: ""
+  translation: "Intro_FromBar"
+  skip_translation: true
 
 - text: "Is Quest ready to go?"
-  translation: ""
+  translation: "Is Quest ready to go?"
+  skip_translation: true
 
 - text: "Wait until ready"
   translation: ""
@@ -15093,10 +16017,12 @@
   skip_translation: true
 
 - text: "TimeInSeconds"
-  translation: ""
+  translation: "TimeInSeconds"
+  skip_translation: true
 
 - text: "Is at right Task?"
-  translation: ""
+  translation: "Is at right Task?"
+  skip_translation: true
 
 - text: "Task is in Progress"
   translation: ""
@@ -15127,19 +16053,23 @@
   translation: ""
 
 - text: "Yes, you should!"
-  translation: ""
+  translation: "Yes, you should!"
+  skip_translation: true
 
 - text: "Wait for Mask On"
   translation: ""
 
 - text: "Do we have the task to leave?"
-  translation: ""
+  translation: "Do we have the task to leave?"
+  skip_translation: true
 
 - text: "Are we in progress?"
-  translation: ""
+  translation: "Are we in progress?"
+  skip_translation: true
 
 - text: "ZoeyPos"
-  translation: ""
+  translation: "ZoeyPos"
+  skip_translation: true
 
 - text: "TzC"
   translation: "TzC"
@@ -15158,10 +16088,12 @@
   translation: ""
 
 - text: "LookDirection"
-  translation: ""
+  translation: "LookDirection"
+  skip_translation: true
 
 - text: "WaitForFrame"
-  translation: ""
+  translation: "WaitForFrame"
+  skip_translation: true
 
 - text: "Set State to Falling Animation"
   translation: ""
@@ -15206,7 +16138,8 @@
   translation: ""
 
 - text: "Did we see Klaudia's cameras?"
-  translation: ""
+  translation: "Did we see Klaudia's cameras?"
+  skip_translation: true
 
 - text: "Activate modesty zone"
   translation: ""
@@ -15227,7 +16160,8 @@
   translation: ""
 
 - text: "Have we already done the cleaning?"
-  translation: ""
+  translation: "Have we already done the cleaning?"
+  skip_translation: true
 
 - text: "Setup room as clean"
   translation: ""
@@ -15239,8 +16173,7 @@
   translation: ""
 
 - text: "Patch"
-  translation: "Patch"
-  skip_translation: true
+  translation: ""
 
 - text: "Create popup"
   translation: ""
@@ -15249,16 +16182,19 @@
   translation: ""
 
 - text: "PMAOpenURL"
-  translation: ""
+  translation: "PMAOpenURL"
+  skip_translation: true
 
 - text: "Url"
   translation: ""
 
 - text: "IsPublic"
-  translation: ""
+  translation: "IsPublic"
+  skip_translation: true
 
 - text: "Did we first look?"
-  translation: ""
+  translation: "Did we first look?"
+  skip_translation: true
 
 - text: "Play first look"
   translation: ""
@@ -15267,10 +16203,12 @@
   translation: ""
 
 - text: "DidMove"
-  translation: ""
+  translation: "DidMove"
+  skip_translation: true
 
 - text: "TookPic"
-  translation: ""
+  translation: "TookPic"
+  skip_translation: true
 
 - text: "GlowingHoleKeys/Picture Key 3"
   translation: ""
@@ -15282,22 +16220,26 @@
   translation: ""
 
 - text: "SetActive"
-  translation: ""
+  translation: "SetActive"
+  skip_translation: true
 
 - text: "Is recover gear in progress?"
-  translation: ""
+  translation: "Is recover gear in progress?"
+  skip_translation: true
 
 - text: "Enable interactable"
   translation: ""
 
 - text: "ToRedress"
-  translation: ""
+  translation: "ToRedress"
+  skip_translation: true
 
 - text: "Re-enable hideable"
   translation: ""
 
 - text: "RatOut"
-  translation: ""
+  translation: "RatOut"
+  skip_translation: true
 
 - text: "@CUU5C"
   translation: "@CUU5C"
@@ -15315,22 +16257,26 @@
   translation: ""
 
 - text: "IsCancelBind0"
-  translation: ""
+  translation: "IsCancelBind0"
+  skip_translation: true
 
 - text: "GlowingHoleKeys/Did Conversation 2"
   translation: ""
 
 - text: "Woo! Just like that!"
-  translation: ""
+  translation: "Woo! Just like that!"
+  skip_translation: true
 
 - text: "God you're so hot!"
-  translation: ""
+  translation: "God you're so hot!"
+  skip_translation: true
 
 - text: "On Interacted with Rosie"
   translation: ""
 
 - text: "Did this interaction?"
-  translation: ""
+  translation: "Did this interaction?"
+  skip_translation: true
 
 - text: "Enable Cal"
   translation: ""
@@ -15367,22 +16313,28 @@
   translation: ""
 
 - text: "Choice1"
-  translation: ""
+  translation: "Choice1"
+  skip_translation: true
 
 - text: "OnChosen"
-  translation: ""
+  translation: "OnChosen"
+  skip_translation: true
 
 - text: "BoolSaveKey"
-  translation: ""
+  translation: "BoolSaveKey"
+  skip_translation: true
 
 - text: "Choice2"
-  translation: ""
+  translation: "Choice2"
+  skip_translation: true
 
 - text: "Choice3"
-  translation: ""
+  translation: "Choice3"
+  skip_translation: true
 
 - text: "Choice4"
-  translation: ""
+  translation: "Choice4"
+  skip_translation: true
 
 - text: "Show Cut In"
   translation: ""
@@ -15394,7 +16346,8 @@
   translation: ""
 
 - text: "PMA_ShowCutIn"
-  translation: ""
+  translation: "PMA_ShowCutIn"
+  skip_translation: true
 
 - text: "0GO"
   translation: "0GO"
@@ -15410,7 +16363,8 @@
   translation: ""
 
 - text: "Is Zoey in area?"
-  translation: ""
+  translation: "Is Zoey in area?"
+  skip_translation: true
 
 - text: "Prepare Talking Animation"
   translation: ""
@@ -15419,7 +16373,8 @@
   translation: ""
 
 - text: "Did first Dialogue?"
-  translation: ""
+  translation: "Did first Dialogue?"
+  skip_translation: true
 
 - text: "Play Final Dialogue"
   translation: ""
@@ -15431,7 +16386,8 @@
   translation: ""
 
 - text: "Did meet Rosie?"
-  translation: ""
+  translation: "Did meet Rosie?"
+  skip_translation: true
 
 - text: "Play has met Rosie Dialogue"
   translation: ""
@@ -15449,22 +16405,26 @@
   translation: ""
 
 - text: "Did already give default money?"
-  translation: ""
+  translation: "Did already give default money?"
+  skip_translation: true
 
 - text: "GlowingHoleKeys/Did receive initial Money"
   translation: ""
 
 - text: "OnWaitFinished"
-  translation: ""
+  translation: "OnWaitFinished"
+  skip_translation: true
 
 - text: "Did Nova grope Zoey?9"
-  translation: ""
+  translation: "Did Nova grope Zoey?9"
+  skip_translation: true
 
 - text: "Wait until player turns around"
   translation: ""
 
 - text: "Should player talk to Nova?"
-  translation: ""
+  translation: "Should player talk to Nova?"
+  skip_translation: true
 
 - text: "Play reminder Dialogue"
   translation: ""
@@ -15476,10 +16436,12 @@
   translation: ""
 
 - text: "WaitUntilTrue"
-  translation: ""
+  translation: "WaitUntilTrue"
+  skip_translation: true
 
 - text: "OnLookingAway"
-  translation: ""
+  translation: "OnLookingAway"
+  skip_translation: true
 
 - text: "Play another Dialogue"
   translation: ""
@@ -15495,7 +16457,8 @@
   translation: ""
 
 - text: "Do we need to enable the main story?"
-  translation: ""
+  translation: "Do we need to enable the main story?"
+  skip_translation: true
 
 - text: "Enable sequence"
   translation: ""
@@ -15510,7 +16473,8 @@
   translation: ""
 
 - text: "Do we still need to do the tutorial?"
-  translation: ""
+  translation: "Do we still need to do the tutorial?"
+  skip_translation: true
 
 - text: "Play cutscene"
   translation: ""
@@ -15531,10 +16495,12 @@
   translation: ""
 
 - text: "OnEquipped"
-  translation: ""
+  translation: "OnEquipped"
+  skip_translation: true
 
 - text: "TextColor"
-  translation: ""
+  translation: "TextColor"
+  skip_translation: true
 
 - text: "Clear Groping Animations"
   translation: ""
@@ -15543,7 +16509,8 @@
   translation: ""
 
 - text: "Did Lio drunk to Lure Klaudia away?"
-  translation: ""
+  translation: "Did Lio drunk to Lure Klaudia away?"
+  skip_translation: true
 
 - text: "Move Zoey back"
   translation: ""
@@ -15561,10 +16528,12 @@
   translation: ""
 
 - text: "OnLine"
-  translation: ""
+  translation: "OnLine"
+  skip_translation: true
 
 - text: "AfterLine"
-  translation: ""
+  translation: "AfterLine"
+  skip_translation: true
 
 - text: "BUU+C"
   translation: "BUU+C"
@@ -15600,11 +16569,11 @@
   translation: ""
 
 - text: "Talk"
-  translation: "Talk"
-  skip_translation: true
+  translation: ""
 
 - text: "Did cleaning already?"
-  translation: ""
+  translation: "Did cleaning already?"
+  skip_translation: true
 
 - text: "Play First time Dialogue"
   translation: ""
@@ -15620,7 +16589,8 @@
   translation: ""
 
 - text: "Did ask to help clean before?"
-  translation: ""
+  translation: "Did ask to help clean before?"
+  skip_translation: true
 
 - text: "Play Repeat Asking Dialogue"
   translation: ""
@@ -15629,10 +16599,12 @@
   translation: ""
 
 - text: "Help the femboy clean?"
-  translation: ""
+  translation: "Help the femboy clean?"
+  skip_translation: true
 
 - text: "GlowingHole_205"
-  translation: ""
+  translation: "GlowingHole_205"
+  skip_translation: true
 
 - text: "Check is on Mission"
   translation: ""
@@ -15672,7 +16644,8 @@
   translation: ""
 
 - text: "TeleportOnStuck"
-  translation: ""
+  translation: "TeleportOnStuck"
+  skip_translation: true
 
 - text: "Move Woman Back"
   translation: ""
@@ -15684,10 +16657,12 @@
   translation: ""
 
 - text: "Has Quest?"
-  translation: ""
+  translation: "Has Quest?"
+  skip_translation: true
 
 - text: "Did interaction once before?"
-  translation: ""
+  translation: "Did interaction once before?"
+  skip_translation: true
 
 - text: "GlowingHoleKeys/Peeked room 104 once"
   translation: ""
@@ -15702,13 +16677,16 @@
   translation: ""
 
 - text: "MainMusicVolume"
-  translation: ""
+  translation: "MainMusicVolume"
+  skip_translation: true
 
 - text: "Is Rosie at Table 8?"
-  translation: ""
+  translation: "Is Rosie at Table 8?"
+  skip_translation: true
 
 - text: "Did intro dialogue?"
-  translation: ""
+  translation: "Did intro dialogue?"
+  skip_translation: true
 
 - text: "Play Intro Dialogue"
   translation: ""
@@ -15729,7 +16707,8 @@
   translation: ""
 
 - text: "Did we already read?"
-  translation: ""
+  translation: "Did we already read?"
+  skip_translation: true
 
 - text: "GlowingHoleKeys/Read 101 Note"
   translation: ""
@@ -15742,13 +16721,15 @@
   skip_translation: true
 
 - text: "Did they already leave the room?"
-  translation: ""
+  translation: "Did they already leave the room?"
+  skip_translation: true
 
 - text: "Disable them"
   translation: ""
 
 - text: "Did femboy already walk out?"
-  translation: ""
+  translation: "Did femboy already walk out?"
+  skip_translation: true
 
 - text: "Teleport and sit down"
   translation: ""
@@ -15763,19 +16744,23 @@
   translation: ""
 
 - text: "Did Klaudia Dialogue for Picture?"
-  translation: ""
+  translation: "Did Klaudia Dialogue for Picture?"
+  skip_translation: true
 
 - text: "BUUgC"
-  translation: ""
+  translation: "BUUgC"
+  skip_translation: true
 
 - text: "took photo"
   translation: ""
 
 - text: "Did we already show Klaudia?"
-  translation: ""
+  translation: "Did we already show Klaudia?"
+  skip_translation: true
 
 - text: "WaitForPhoto"
-  translation: ""
+  translation: "WaitForPhoto"
+  skip_translation: true
 
 - text: "CUUSC"
   translation: "CUUSC"
@@ -15786,13 +16771,16 @@
   skip_translation: true
 
 - text: "RestraintName"
-  translation: ""
+  translation: "RestraintName"
+  skip_translation: true
 
 - text: "ForceClosed"
-  translation: ""
+  translation: "ForceClosed"
+  skip_translation: true
 
 - text: "RemoveRestraint"
-  translation: ""
+  translation: "RemoveRestraint"
+  skip_translation: true
 
 - text: "Klaudia Blocker In Hand"
   translation: ""
@@ -15801,10 +16789,12 @@
   translation: ""
 
 - text: "BoneName"
-  translation: ""
+  translation: "BoneName"
+  skip_translation: true
 
 - text: "RotationOffset"
-  translation: ""
+  translation: "RotationOffset"
+  skip_translation: true
 
 - text: "Instance"
   translation: ""
@@ -15813,7 +16803,8 @@
   translation: ""
 
 - text: "Is wearing Bunnysuit?"
-  translation: ""
+  translation: "Is wearing Bunnysuit?"
+  skip_translation: true
 
 - text: "No Suit Dialogue"
   translation: ""
@@ -15822,16 +16813,20 @@
   translation: ""
 
 - text: "SpecificLimb"
-  translation: ""
+  translation: "SpecificLimb"
+  skip_translation: true
 
 - text: "OnHasEffect"
-  translation: ""
+  translation: "OnHasEffect"
+  skip_translation: true
 
 - text: "OnNotEffect"
-  translation: ""
+  translation: "OnNotEffect"
+  skip_translation: true
 
 - text: "Did Cleaning?"
-  translation: ""
+  translation: "Did Cleaning?"
+  skip_translation: true
 
 - text: "Move zoey out"
   translation: ""
@@ -15863,7 +16858,8 @@
   skip_translation: true
 
 - text: "BBUleg"
-  translation: ""
+  translation: "BBUleg"
+  skip_translation: true
 
 - text: "W?Ldx?"
   translation: "W?Ldx?"
@@ -15921,7 +16917,8 @@
   translation: ""
 
 - text: "TailWag"
-  translation: ""
+  translation: "TailWag"
+  skip_translation: true
 
 - text: "Pathfinding finished"
   translation: ""
