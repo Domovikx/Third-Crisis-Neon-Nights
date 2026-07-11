@@ -6638,8 +6638,8 @@
   translation: "Cu\""
   skip_translation: true
 
-- text: "\u0060E;L"
-  translation: "\u0060E;L"
+- text: "`E;L"
+  translation: "`E;L"
   skip_translation: true
 
 - text: "BaZxE"
