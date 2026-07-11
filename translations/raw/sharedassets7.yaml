@@ -1645,7 +1645,8 @@
   skip_translation: true
 
 - text: "`AR"
-  translation: "translation"
+  translation: "`AR"
+  skip_translation: true
 
 - text: "]AR"
   translation: "]AR"

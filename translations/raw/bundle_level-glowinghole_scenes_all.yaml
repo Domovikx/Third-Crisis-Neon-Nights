@@ -5121,7 +5121,7 @@
   skip_translation: true
 
 - text: "UpADse\"C"
-  translation: "UpADse\"
+  translation: "UpADse\"C"
   skip_translation: true
 
 - text: "KUaF"
@@ -6635,11 +6635,11 @@
   skip_translation: true
 
 - text: "Cu\""
-  translation: "Cu\"
+  translation: "Cu\""
   skip_translation: true
 
-- text: "`E;L"
-  translation: "`E;L"
+- text: "\u0060E;L"
+  translation: "\u0060E;L"
   skip_translation: true
 
 - text: "BaZxE"
@@ -6647,7 +6647,7 @@
   skip_translation: true
 
 - text: "BUs\\C"
-  translation: "BUs\\\\C"
+  translation: "BUs\\C"
   skip_translation: true
 
 - text: "B/q+C"
@@ -6667,7 +6667,7 @@
   skip_translation: true
 
 - text: "GEW\"+D;["
-  translation: "GEW\"
+  translation: "GEW\"+D;["
   skip_translation: true
 
 - text: "GEW\"+D"
@@ -6735,7 +6735,7 @@
   skip_translation: true
 
 - text: "Af\""
-  translation: "Af\"
+  translation: "Af\""
   skip_translation: true
 
 - text: "Bf\"8C"
@@ -13389,7 +13389,7 @@
   skip_translation: true
 
 - text: "ORPD9\"*A"
-  translation: "ORPD9\"
+  translation: "ORPD9\"*A"
   skip_translation: true
 
 - text: "B`e"

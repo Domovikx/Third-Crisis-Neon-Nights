@@ -2537,10 +2537,10 @@
   rich_translation: "<color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\"><i>(Боже, моя попа вся липкая... Кх...)</i></font></color>"
 
 - text: "(There it is... the Glowing Hole... Am I really about to just return to the spot I had to bust out of? Agh, I don't have a damn choice.)"
-  translation: "(Вот оно... Светящееся Отверстие... Я правда собираюсь вернуться в место, откуда сбежала? Ах, у меня нет выбора.)"
+  translation: "(Вот оно... Светящаяся Дыра... Я правда собираюсь вернуться в место, откуда сбежала? Ах, у меня нет выбора.)"
   speaker: "Zoey"
   rich_text: "<i>(There it is... the Glowing Hole... Am I really about to just return to the spot I had to bust out of? Agh, I don't have a damn choice.)</i>"
-  rich_translation: "<i>(Вот оно... Светящееся Отверстие... Я правда собираюсь вернуться в место, откуда сбежала? Ах, у меня нет выбора.)</i>"
+  rich_translation: "<i>(Вот оно... Светящаяся Дыра... Я правда собираюсь вернуться в место, откуда сбежала? Ах, у меня нет выбора.)</i>"
 
 - text: "Sorry won't cut it! You owe us!"
   translation: "Извинениями не отделаешься! Ты нам должна!"
@@ -2641,10 +2641,10 @@
   rich_translation: "<color=#B867FF><font=\"Roboto-Condensed_DialogueUI\" material=\"Roboto-Condensed_DialogueUI_Perversion\"><i>(М-м... Что... происходит со мной-?)</i></font></color>"
 
 - text: "Klaudia told me you had a good long whif of sweet sweet glow, ehehe. Seems like you're quite responsive to it."
-  translation: "Клавдия сказала, ты хорошо вдохнула сладкого-сладкого глау, хе-хе. Похоже, ты довольно восприимчива к нему."
+  translation: "Клавдия сказала, ты хорошо вдохнула сладкого-сладкого глоу, хе-хе. Похоже, ты довольно восприимчива к нему."
   speaker: "Man"
   rich_text: "Klaudia told me you had a good long whif of sweet sweet <b>glow</b>, ehehe. Seems like you're quite responsive to it."
-  rich_translation: "Клавдия сказала, ты хорошо вдохнула сладкого-сладкого <b>глау</b>, хе-хе. Похоже, ты довольно восприимчива к нему."
+  rich_translation: "Клавдия сказала, ты хорошо вдохнула сладкого-сладкого <b>глоу</b>, хе-хе. Похоже, ты довольно восприимчива к нему."
 
 - text: "That's right, hun. Glow is all the rage these days. Upper city idiots pay premium for the sweet gas form."
   translation: "Верно, милая. Глоу сейчас на пике популярности. Идиоты из верхнего города платят премиум за сладкую газовую форму."

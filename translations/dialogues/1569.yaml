@@ -49,7 +49,7 @@
   speaker: "Zoey"
 
 - text: "Hmpf. Well then you better learn fast. Put on this bunnysuit and talk to Rosie. You will help her out at the bar."
-  translation: "Хмф. Тогда лучше учись быстро. Надевай этот костюм кролика и поговори с Рози. Будешь помогать ей в баре."
+  translation: "Хмф. Тогда лучше учись быстро. Надевай этот костюм зайки и поговори с Рози. Будешь помогать ей в баре."
   speaker: "Klaudia"
 
 - text: "(I-... I don't have time for this! At least she didn't call the enforcers on me though... I better do what she asks for now.)"
@@ -62,7 +62,7 @@
   speaker: "Zoey"
 
 - text: "You are not in a position to negotiate, Madison! You'll be done when we close. Now take off your clothes and get into this bunnysuit, before I change my mind and make some calls!"
-  translation: "Ты не в том положении, чтобы торговаться, Мэдисон! Освободишься, когда закроемся. А сейчас раздевайся и надевай этот костюм кролика, пока я не передумала и не позвонила!"
+  translation: "Ты не в том положении, чтобы торговаться, Мэдисон! Освободишься, когда закроемся. А сейчас раздевайся и надевай этот костюм зайки, пока я не передумала и не позвонила!"
   speaker: "Klaudia"
   rich_text: "You are <b>not</b> in a position to negotiate, Madison! You'll be done when we close. Now take off your clothes and get into this bunnysuit, before I change my mind and make some calls!"
   rich_translation: "Ты <b>не</b> в том положении, чтобы торговаться, Мэдисон! Освободишься, когда закроемся. А сейчас раздевайся и надевай этот костюм кролика, пока я не передумала и не позвонила!"

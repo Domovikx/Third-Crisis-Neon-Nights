@@ -1,9 +1,9 @@
 # Dialogues (path_id=1145)
 
 - text: "(I'm just... Making ends meet... I need money... right?)"
-  translation: "(Я просто... Сводя концы с концами... Мне нужны деньги... да?)"
+  translation: "(Я просто... Пытаюсь свести концы с концами... Мне нужны деньги... да?)"
   rich_text: "<color=#EB83FF><i>(I'm just... Making ends meet... I need money... right?)</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Я просто... Сводя концы с концами... Мне нужны деньги... да?)</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Я просто... Пытаюсь свести концы с концами... Мне нужны деньги... да?)</i></color>"
 
 - text: "Good choice. Come have a seat."
   translation: "Хороший выбор. Проходи, садись."
@@ -29,7 +29,7 @@
   rich_translation: "<color=#EB83FF>Н-на... Ч-ч... Что...?</color>"
 
 - text: "Most of the bunnies desperate enough to come and work here are looking for nothing but a quick buck."
-  translation: "Большинство зайок, отчаявшихся настолько, чтобы работать здесь, ищут только лёгкие деньги."
+  translation: "Большинство заек, отчаявшихся настолько, чтобы работать здесь, ищут только лёгкие деньги."
   speaker: "Varen"
 
 - text: "Trying so pityfully hard to appease the lowest of desires... So... Unimaginative... Their desperation ruining the composition."

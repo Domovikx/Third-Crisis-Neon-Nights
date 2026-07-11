@@ -3,5 +3,5 @@
 - text: "(I'm in!)"
   translation: "Я внутри!"
   rich_text: "<i>(I'm in!)</i>"
-  rich_translation: "<i>Я внутри!</i>"
+  rich_translation: "<i>(Я внутри!)</i>"
 
