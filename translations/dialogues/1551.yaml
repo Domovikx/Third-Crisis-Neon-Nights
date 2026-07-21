@@ -1,2 +1,5 @@
-- text: Enjoy your stay.
-  translation: Приятного пребывания.
+# Dialogues (path_id=1551)
+
+- text: "Enjoy your stay."
+  translation: "Приятного пребывания."
+

@@ -41,3 +41,4 @@ dump_assets/
 dump_assets*.pyc
 
 __pycache__/
+tasks

@@ -20,5 +20,5 @@
   translation: "(Ооокей, хватит думать о штуке твоего друга, Зои... )"
   speaker: "Zoey"
   rich_text: "<i>(Oookay, time to stop thinking about your friend's... <b>Thing</b>, Zoey... )</i>"
-  rich_translation: "<i>(Ооокей, хватит думать о штуке твоего друга, Зои... <b>Штука</b>... )</i>"
+  rich_translation: "<i>(Ооокей, хватит думать о <b>штуке</b> твоего друга, Зои... )</i>"
 

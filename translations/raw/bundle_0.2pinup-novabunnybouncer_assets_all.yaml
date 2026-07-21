@@ -1,0 +1,12 @@
+# raw (bundle_0.2pinup-novabunnybouncer_assets_all)
+
+- text: "Nova - Bunny Bouncer"
+  translation: "Нова - Зайка-вышибала"
+
+- text: "Nova - BunnyBouncer"
+  translation: "Нова - Зайка-вышибала"
+
+- text: "*AI"
+  translation: "*AI"
+  skip_translation: true
+

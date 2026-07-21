@@ -1,0 +1,1904 @@
+# raw (level11)
+
+- text: "Ua5;"
+  translation: "Ua5;"
+  skip_translation: true
+
+- text: "Wa5"
+  translation: "Wa5"
+  skip_translation: true
+
+- text: "GamePlay"
+  translation: "GamePlay"
+  skip_translation: true
+
+- text: "Pipe Bent 2"
+  translation: "Pipe Bent 2"
+  skip_translation: true
+
+- text: "Sorter Close"
+  translation: "Sorter Close"
+  skip_translation: true
+
+- text: "Tunnel Valve Visual Turned"
+  translation: "Tunnel Valve Visual Turned"
+  skip_translation: true
+
+- text: "CloudsFar"
+  translation: "CloudsFar"
+  skip_translation: true
+
+- text: "Floor Fluff"
+  translation: "Floor Fluff"
+  skip_translation: true
+
+- text: "Fire ParticleSystem 2"
+  translation: "Fire ParticleSystem 2"
+  skip_translation: true
+
+- text: "Exit Teleport Position"
+  translation: "Exit Teleport Position"
+  skip_translation: true
+
+- text: "Ground Decals"
+  translation: "Ground Decals"
+  skip_translation: true
+
+- text: "Stop"
+  translation: "Stop"
+  skip_translation: true
+
+- text: "Sorter Second Layer Super Far"
+  translation: "Sorter Second Layer Super Far"
+  skip_translation: true
+
+- text: "Valve"
+  translation: "Valve"
+  skip_translation: true
+
+- text: "Interacable"
+  translation: "Interacable"
+  skip_translation: true
+
+- text: "GearRoom 1 PipeRattle 2"
+  translation: "GearRoom 1 PipeRattle 2"
+  skip_translation: true
+
+- text: "Sprite Shape Shadows"
+  translation: "Sprite Shape Shadows"
+  skip_translation: true
+
+- text: "Pipe Fire"
+  translation: "Pipe Fire"
+  skip_translation: true
+
+- text: "Wall mounted Cables"
+  translation: "Wall mounted Cables"
+  skip_translation: true
+
+- text: "Fire Pipe"
+  translation: "Fire Pipe"
+  skip_translation: true
+
+- text: "GasLeak"
+  translation: "GasLeak"
+  skip_translation: true
+
+- text: "Gas Leak FinalHallway 1"
+  translation: "Gas Leak FinalHallway 1"
+  skip_translation: true
+
+- text: "Pipe Overhanging"
+  translation: "Pipe Overhanging"
+  skip_translation: true
+
+- text: "CloudsMedium"
+  translation: "CloudsMedium"
+  skip_translation: true
+
+- text: "Lewd Gas"
+  translation: "Lewd Gas"
+  skip_translation: true
+
+- text: "Partical Systems"
+  translation: "Partical Systems"
+  skip_translation: true
+
+- text: "CloudsClose"
+  translation: "CloudsClose"
+  skip_translation: true
+
+- text: "FliesBuzzing_1"
+  translation: "FliesBuzzing_1"
+  skip_translation: true
+
+- text: "Scaffolding Wind Loop"
+  translation: "Scaffolding Wind Loop"
+  skip_translation: true
+
+- text: "Pipe From Wall"
+  translation: "Pipe From Wall"
+  skip_translation: true
+
+- text: "Ground Paint"
+  translation: "Ground Paint"
+  skip_translation: true
+
+- text: "SecondHallway 1 PipeRattle 3"
+  translation: "SecondHallway 1 PipeRattle 3"
+  skip_translation: true
+
+- text: "Check ground valve"
+  translation: "Проверить наземный вентиль"
+
+- text: "GasHallway 1 PipeRattle 1"
+  translation: "GasHallway 1 PipeRattle 1"
+  skip_translation: true
+
+- text: "holograms_angled_test A"
+  translation: "holograms_angled_test A"
+  skip_translation: true
+
+- text: "GasHallway 1 PipeRattle 3"
+  translation: "GasHallway 1 PipeRattle 3"
+  skip_translation: true
+
+- text: "Pipes Wall Interactable"
+  translation: "Pipes Wall Interactable"
+  skip_translation: true
+
+- text: "Pipe Bent"
+  translation: "Pipe Bent"
+  skip_translation: true
+
+- text: "Shadows"
+  translation: "Shadows"
+  skip_translation: true
+
+- text: "Pipe Bent 3"
+  translation: "Pipe Bent 3"
+  skip_translation: true
+
+- text: "Pipe Corner"
+  translation: "Pipe Corner"
+  skip_translation: true
+
+- text: "GasRoom 1 PipeRattle 1"
+  translation: "GasRoom 1 PipeRattle 1"
+  skip_translation: true
+
+- text: "Camera POS"
+  translation: "Camera POS"
+  skip_translation: true
+
+- text: "Pipe Wall 2"
+  translation: "Pipe Wall 2"
+  skip_translation: true
+
+- text: "BarkTriggers"
+  translation: "BarkTriggers"
+  skip_translation: true
+
+- text: "Movement Slower"
+  translation: "Movement Slower"
+  skip_translation: true
+
+- text: "Open Sprite Shape"
+  translation: "Open Sprite Shape"
+  skip_translation: true
+
+- text: "0 - Trigger to notice door"
+  translation: "0 - Trigger to notice door"
+  skip_translation: true
+
+- text: "Gas Leaks"
+  translation: "Gas Leaks"
+  skip_translation: true
+
+- text: "green atmosphere"
+  translation: "green atmosphere"
+  skip_translation: true
+
+- text: "arrow white"
+  translation: "arrow white"
+  skip_translation: true
+
+- text: "Lewd Gas 1"
+  translation: "Lewd Gas 1"
+  skip_translation: true
+
+- text: "SecondHallway 1 PipeRattle 4"
+  translation: "SecondHallway 1 PipeRattle 4"
+  skip_translation: true
+
+- text: "Env Props"
+  translation: "Env Props"
+  skip_translation: true
+
+- text: "Lewd Gas 2"
+  translation: "Lewd Gas 2"
+  skip_translation: true
+
+- text: "Gas Leak GasRoom 1_4"
+  translation: "Gas Leak GasRoom 1_4"
+  skip_translation: true
+
+- text: "GroundDecals"
+  translation: "GroundDecals"
+  skip_translation: true
+
+- text: "Shortcut"
+  translation: "Shortcut"
+  skip_translation: true
+
+- text: "All Clouds"
+  translation: "All Clouds"
+  skip_translation: true
+
+- text: "POS"
+  translation: "POS"
+  skip_translation: true
+
+- text: "Floor Dirt"
+  translation: "Floor Dirt"
+  skip_translation: true
+
+- text: "Fluff and stuff"
+  translation: "Fluff and stuff"
+  skip_translation: true
+
+- text: "Sorter Medium"
+  translation: "Sorter Medium"
+  skip_translation: true
+
+- text: "Flickering Light"
+  translation: "Мерцающий свет"
+
+- text: "Put valve in"
+  translation: "Вставить вентиль"
+
+- text: "Pipes Over Default 2"
+  translation: "Pipes Over Default 2"
+  skip_translation: true
+
+- text: "Trigger to highlight door"
+  translation: "Trigger to highlight door"
+  skip_translation: true
+
+- text: "Tunnel Text"
+  translation: "Tunnel Text"
+  skip_translation: true
+
+- text: "holograms_angled_test B"
+  translation: "holograms_angled_test B"
+  skip_translation: true
+
+- text: "FakeLights"
+  translation: "FakeLights"
+  skip_translation: true
+
+- text: "GearRoom 1 PipeRattle 1"
+  translation: "GearRoom 1 PipeRattle 1"
+  skip_translation: true
+
+- text: "Gas Leak GasRoom 1_1"
+  translation: "Gas Leak GasRoom 1_1"
+  skip_translation: true
+
+- text: "Holograms"
+  translation: "Holograms"
+  skip_translation: true
+
+- text: "Sorter Super Far"
+  translation: "Sorter Super Far"
+  skip_translation: true
+
+- text: "Shadowcasters"
+  translation: "Shadowcasters"
+  skip_translation: true
+
+- text: "FlameSFX Room 1"
+  translation: "FlameSFX Room 1"
+  skip_translation: true
+
+- text: "ElectricStuff"
+  translation: "ElectricStuff"
+  skip_translation: true
+
+- text: "SecondHallway 1 PipeRattle 5"
+  translation: "SecondHallway 1 PipeRattle 5"
+  skip_translation: true
+
+- text: "holograms_angled_test corpa"
+  translation: "holograms_angled_test corpa"
+  skip_translation: true
+
+- text: "Guy run out cutscene"
+  translation: "Катсцена: парень убегает"
+
+- text: "FliesBuzzing_3"
+  translation: "FliesBuzzing_3"
+  skip_translation: true
+
+- text: "Weighted Debris_Inverted"
+  translation: "Weighted Debris_Inverted"
+  skip_translation: true
+
+- text: "GasHallway 1 PipeRattle 2"
+  translation: "GasHallway 1 PipeRattle 2"
+  skip_translation: true
+
+- text: "PipeLongBend"
+  translation: "PipeLongBend"
+  skip_translation: true
+
+- text: "Super Far Second Layer"
+  translation: "Super Far Second Layer"
+  skip_translation: true
+
+- text: "Pipes Middle"
+  translation: "Pipes Middle"
+  skip_translation: true
+
+- text: "Fire 2 check"
+  translation: "Fire 2 check"
+  skip_translation: true
+
+- text: "Not all the clouds"
+  translation: "Not all the clouds"
+  skip_translation: true
+
+- text: "holograms_angled_test NTR"
+  translation: "holograms_angled_test NTR"
+  skip_translation: true
+
+- text: "holograms_angled_test E"
+  translation: "holograms_angled_test E"
+  skip_translation: true
+
+- text: "Walk to Guy Location"
+  translation: "Walk to Guy Location"
+  skip_translation: true
+
+- text: "Sorter Far"
+  translation: "Sorter Far"
+  skip_translation: true
+
+- text: "City Abyss Drone"
+  translation: "City Abyss Drone"
+  skip_translation: true
+
+- text: "1 - Walk inside"
+  translation: "1 - Зайти внутрь"
+
+- text: "Lewd Gas 3"
+  translation: "Lewd Gas 3"
+  skip_translation: true
+
+- text: "GearRoom 1 PipeRattle 3"
+  translation: "GearRoom 1 PipeRattle 3"
+  skip_translation: true
+
+- text: "Gas Leak Hallway 1_1"
+  translation: "Gas Leak Hallway 1_1"
+  skip_translation: true
+
+- text: "Pillers"
+  translation: "Pillers"
+  skip_translation: true
+
+- text: "PipeLongBend2"
+  translation: "PipeLongBend2"
+  skip_translation: true
+
+- text: "SecondHallway 1 PipeRattle 2"
+  translation: "SecondHallway 1 PipeRattle 2"
+  skip_translation: true
+
+- text: "holograms_angled_test G"
+  translation: "holograms_angled_test G"
+  skip_translation: true
+
+- text: "Examine/Put in valve"
+  translation: "Осмотреть / Вставить вентиль"
+
+- text: "Scaffolding Wind"
+  translation: "Scaffolding Wind"
+  skip_translation: true
+
+- text: "FSM check states check"
+  translation: "FSM check states check"
+  skip_translation: true
+
+- text: "Entrance Teleport Position"
+  translation: "Entrance Teleport Position"
+  skip_translation: true
+
+- text: "Electric Hum"
+  translation: "Electric Hum"
+  skip_translation: true
+
+- text: "Paint"
+  translation: "Paint"
+  skip_translation: true
+
+- text: "Pipes Corner"
+  translation: "Pipes Corner"
+  skip_translation: true
+
+- text: "Examine"
+  translation: "Examine"
+  skip_translation: true
+
+- text: "Pipe Wall"
+  translation: "Pipe Wall"
+  skip_translation: true
+
+- text: "Pipes Over Default 3"
+  translation: "Pipes Over Default 3"
+  skip_translation: true
+
+- text: "light switch_Multi"
+  translation: "light switch_Multi"
+  skip_translation: true
+
+- text: "Pipe Straight 2"
+  translation: "Pipe Straight 2"
+  skip_translation: true
+
+- text: "Pipe Straight"
+  translation: "Pipe Straight"
+  skip_translation: true
+
+- text: "Pipe Multi"
+  translation: "Pipe Multi"
+  skip_translation: true
+
+- text: "SecondHallway 1 PipeRattle 1"
+  translation: "SecondHallway 1 PipeRattle 1"
+  skip_translation: true
+
+- text: "Pipe OverDefaultSide"
+  translation: "Pipe OverDefaultSide"
+  skip_translation: true
+
+- text: "Others"
+  translation: "Others"
+  skip_translation: true
+
+- text: "FSM check ups"
+  translation: "FSM check ups"
+  skip_translation: true
+
+- text: "holograms_angled_test H"
+  translation: "holograms_angled_test H"
+  skip_translation: true
+
+- text: "FliesBuzzing_2"
+  translation: "FliesBuzzing_2"
+  skip_translation: true
+
+- text: "Pipe Up"
+  translation: "Pipe Up"
+  skip_translation: true
+
+- text: "Weighted MetalMovement_Inverted"
+  translation: "Weighted MetalMovement_Inverted"
+  skip_translation: true
+
+- text: "Walk out Location"
+  translation: "Walk out Location"
+  skip_translation: true
+
+- text: "SecondHallway 1 PipeRattle 6"
+  translation: "SecondHallway 1 PipeRattle 6"
+  skip_translation: true
+
+- text: "0 - Interact with Door"
+  translation: "0 - Взаимодействие с дверью"
+
+- text: "S Collider"
+  translation: "S Collider"
+  skip_translation: true
+
+- text: "Check Hatch state"
+  translation: "Проверить состояние люка"
+
+- text: "FlameSFX Room 2"
+  translation: "FlameSFX Room 2"
+  skip_translation: true
+
+- text: "2 - Cleanup after event is done"
+  translation: "2 - Очистка после события"
+
+- text: "Gas Leak Hallway 1_2"
+  translation: "Gas Leak Hallway 1_2"
+  skip_translation: true
+
+- text: "holograms_angled_test D"
+  translation: "holograms_angled_test D"
+  skip_translation: true
+
+- text: "Ehh"
+  translation: "Э-эх"
+
+- text: "Gas Leak Hallway 1_3"
+  translation: "Gas Leak Hallway 1_3"
+  skip_translation: true
+
+- text: "building_tiles_pack1_light 1_27"
+  translation: "building_tiles_pack1_light 1_27"
+  skip_translation: true
+
+- text: "Flamethrowers"
+  translation: "Flamethrowers"
+  skip_translation: true
+
+- text: "Tunnel Pillers"
+  translation: "Tunnel Pillers"
+  skip_translation: true
+
+- text: "Electric Hum Loop"
+  translation: "Electric Hum Loop"
+  skip_translation: true
+
+- text: "Pipe Overhang Broken"
+  translation: "Pipe Overhang Broken"
+  skip_translation: true
+
+- text: "Pipe Broken"
+  translation: "Pipe Broken"
+  skip_translation: true
+
+- text: "Gas Leak GasRoom 1_2"
+  translation: "Gas Leak GasRoom 1_2"
+  skip_translation: true
+
+- text: "Fire ParticleSystem"
+  translation: "Fire ParticleSystem"
+  skip_translation: true
+
+- text: "holograms_angled_test F"
+  translation: "holograms_angled_test F"
+  skip_translation: true
+
+- text: "Gas Leak GasRoom 1_3"
+  translation: "Gas Leak GasRoom 1_3"
+  skip_translation: true
+
+- text: "Tunnel Outfit"
+  translation: "Tunnel Outfit"
+  skip_translation: true
+
+- text: "holograms_angled_test K"
+  translation: "holograms_angled_test K"
+  skip_translation: true
+
+- text: "Pipe OverDefaultSide 2"
+  translation: "Pipe OverDefaultSide 2"
+  skip_translation: true
+
+- text: "GasHallway 1 PipeRattle 4"
+  translation: "GasHallway 1 PipeRattle 4"
+  skip_translation: true
+
+- text: "Trains"
+  translation: "Trains"
+  skip_translation: true
+
+- text: "Code"
+  translation: "Code"
+  skip_translation: true
+
+- text: "Tree"
+  translation: "Tree"
+  skip_translation: true
+
+- text: "Tunnel Dude"
+  translation: "Tunnel Dude"
+  skip_translation: true
+
+- text: "Train Waggon3"
+  translation: "Train Waggon3"
+  skip_translation: true
+
+- text: "Train Waggon2"
+  translation: "Train Waggon2"
+  skip_translation: true
+
+- text: "TrainWooshSound"
+  translation: "TrainWooshSound"
+  skip_translation: true
+
+- text: "Train Waggon1"
+  translation: "Train Waggon1"
+  skip_translation: true
+
+- text: "Flamethrower"
+  translation: "Flamethrower"
+  skip_translation: true
+
+- text: "FlameShapes01"
+  translation: "FlameShapes01"
+  skip_translation: true
+
+- text: "Train"
+  translation: "Train"
+  skip_translation: true
+
+- text: "Tunnel PipeW Horizontal Break"
+  translation: "Tunnel PipeW Horizontal Break"
+  skip_translation: true
+
+- text: "Train WaggonEnd Left"
+  translation: "Train WaggonEnd Left"
+  skip_translation: true
+
+- text: "Decal_G__"
+  translation: "Decal_G__"
+  skip_translation: true
+
+- text: "Motel_Table_1"
+  translation: "Motel_Table_1"
+  skip_translation: true
+
+- text: "LadderUpper"
+  translation: "LadderUpper"
+  skip_translation: true
+
+- text: "Tunnel PipeW Horizontal Break 2"
+  translation: "Tunnel PipeW Horizontal Break 2"
+  skip_translation: true
+
+- text: "West Sound"
+  translation: "West Sound"
+  skip_translation: true
+
+- text: "Valve Light Bot"
+  translation: "Valve Light Bot"
+  skip_translation: true
+
+- text: "Light02"
+  translation: "Light02"
+  skip_translation: true
+
+- text: "Decal_G_Bingo"
+  translation: "Decal_G_Bingo"
+  skip_translation: true
+
+- text: "RealLight"
+  translation: "RealLight"
+  skip_translation: true
+
+- text: "Motel _Table_Corner"
+  translation: "Motel _Table_Corner"
+  skip_translation: true
+
+- text: "Tunnel PipeW Horizontal Leak"
+  translation: "Tunnel PipeW Horizontal Leak"
+  skip_translation: true
+
+- text: "SecureRam"
+  translation: "SecureRam"
+  skip_translation: true
+
+- text: "WaggonLight"
+  translation: "WaggonLight"
+  skip_translation: true
+
+- text: "InitialFlame"
+  translation: "InitialFlame"
+  skip_translation: true
+
+- text: "Imposter Light"
+  translation: "Imposter Light"
+  skip_translation: true
+
+- text: "BackgroundLight"
+  translation: "BackgroundLight"
+  skip_translation: true
+
+- text: "MaskTrigger"
+  translation: "MaskTrigger"
+  skip_translation: true
+
+- text: "Door_Wall"
+  translation: "Door_Wall"
+  skip_translation: true
+
+- text: "Flame02"
+  translation: "Flame02"
+  skip_translation: true
+
+- text: "Decal_G_John"
+  translation: "Decal_G_John"
+  skip_translation: true
+
+- text: "Tunnel_PillerSideTop Visual Shadow"
+  translation: "Tunnel_PillerSideTop Visual Shadow"
+  skip_translation: true
+
+- text: "Tunnel Valve"
+  translation: "Tunnel Valve"
+  skip_translation: true
+
+- text: "Light Red"
+  translation: "Light Red"
+  skip_translation: true
+
+- text: "Electric Wallbox Shadow"
+  translation: "Electric Wallbox Shadow"
+  skip_translation: true
+
+- text: "Tunnel Piller Front Down"
+  translation: "Tunnel Piller Front Down"
+  skip_translation: true
+
+- text: "Foreground Pipe Merge 3"
+  translation: "Foreground Pipe Merge 3"
+  skip_translation: true
+
+- text: "TrainVistaBG"
+  translation: "TrainVistaBG"
+  skip_translation: true
+
+- text: "Outside_Fence"
+  translation: "Outside_Fence"
+  skip_translation: true
+
+- text: "Tunnel PipeH Up 4"
+  translation: "Tunnel PipeH Up 4"
+  skip_translation: true
+
+- text: "Decal_G_Face"
+  translation: "Decal_G_Face"
+  skip_translation: true
+
+- text: "ForegroundLIght"
+  translation: "ForegroundLIght"
+  skip_translation: true
+
+- text: "Electric Wallbox Visuals"
+  translation: "Electric Wallbox Visuals"
+  skip_translation: true
+
+- text: "Door_Wall 1"
+  translation: "Door_Wall 1"
+  skip_translation: true
+
+- text: "Tunnel PipeDoubleH"
+  translation: "Tunnel PipeDoubleH"
+  skip_translation: true
+
+- text: "Tunnel Piller Side"
+  translation: "Tunnel Piller Side"
+  skip_translation: true
+
+- text: "Tunnel Piller Front Up"
+  translation: "Tunnel Piller Front Up"
+  skip_translation: true
+
+- text: "Tunnel PipeH Up 3"
+  translation: "Tunnel PipeH Up 3"
+  skip_translation: true
+
+- text: "Tunnel Piller Side Down"
+  translation: "Tunnel Piller Side Down"
+  skip_translation: true
+
+- text: "Tran Flyby Sound"
+  translation: "Tran Flyby Sound"
+  skip_translation: true
+
+- text: "Tunnel Lever Shadow"
+  translation: "Tunnel Lever Shadow"
+  skip_translation: true
+
+- text: "Tunnel Shaft Background"
+  translation: "Tunnel Shaft Background"
+  skip_translation: true
+
+- text: "Track"
+  translation: "Track"
+  skip_translation: true
+
+- text: "Tunnel Piller Side Tunnel_PillerSide Shadow"
+  translation: "Tunnel Piller Side Tunnel_PillerSide Shadow"
+  skip_translation: true
+
+- text: "Pizzabox_Trash StepOnTrigger"
+  translation: "Pizzabox_Trash StepOnTrigger"
+  skip_translation: true
+
+- text: "PinupPickup - Leona Dogwalker"
+  translation: "Пинап-пикап — Леона Догвокер"
+
+- text: "Tunnel Pipe Stand"
+  translation: "Tunnel Pipe Stand"
+  skip_translation: true
+
+- text: "Tunnel PipeDoubleH Right"
+  translation: "Tunnel PipeDoubleH Right"
+  skip_translation: true
+
+- text: "Electric Wallbox Small Shadow"
+  translation: "Electric Wallbox Small Shadow"
+  skip_translation: true
+
+- text: "FlameShapes02"
+  translation: "FlameShapes02"
+  skip_translation: true
+
+- text: "Flame01"
+  translation: "Flame01"
+  skip_translation: true
+
+- text: "Fire Warning Sign"
+  translation: "Fire Warning Sign"
+  skip_translation: true
+
+- text: "Decal_G_Owl"
+  translation: "Decal_G_Owl"
+  skip_translation: true
+
+- text: "Track_FakeLight"
+  translation: "Track_FakeLight"
+  skip_translation: true
+
+- text: "Decal_CrackBig"
+  translation: "Decal_CrackBig"
+  skip_translation: true
+
+- text: "Decal_G_HeartB"
+  translation: "Decal_G_HeartB"
+  skip_translation: true
+
+- text: "Cable Shadow"
+  translation: "Cable Shadow"
+  skip_translation: true
+
+- text: "Far"
+  translation: "Far"
+  skip_translation: true
+
+- text: "Tunnel Shaft Shadow"
+  translation: "Tunnel Shaft Shadow"
+  skip_translation: true
+
+- text: "Connector_T_Base RedLights"
+  translation: "Connector_T_Base RedLights"
+  skip_translation: true
+
+- text: "Train1"
+  translation: "Train1"
+  skip_translation: true
+
+- text: "Valve Light Right"
+  translation: "Valve Light Right"
+  skip_translation: true
+
+- text: "Tunnel Lever"
+  translation: "Tunnel Lever"
+  skip_translation: true
+
+- text: "Electric Wallbox Small Visuals"
+  translation: "Electric Wallbox Small Visuals"
+  skip_translation: true
+
+- text: "Decal_G_Jess"
+  translation: "Decal_G_Jess"
+  skip_translation: true
+
+- text: "Tunnel Shaft"
+  translation: "Tunnel Shaft"
+  skip_translation: true
+
+- text: "Tunnel PipeDoubleH Middle"
+  translation: "Tunnel PipeDoubleH Middle"
+  skip_translation: true
+
+- text: "Valve Light Left"
+  translation: "Valve Light Left"
+  skip_translation: true
+
+- text: "Pixies Audio Trigger"
+  translation: "Pixies Audio Trigger"
+  skip_translation: true
+
+- text: "Train WaggonEnd Right"
+  translation: "Train WaggonEnd Right"
+  skip_translation: true
+
+- text: "Particle System - Background Cars"
+  translation: "Particle System - Background Cars"
+  skip_translation: true
+
+- text: "Ladder"
+  translation: "Ladder"
+  skip_translation: true
+
+- text: "East Sound"
+  translation: "East Sound"
+  skip_translation: true
+
+- text: "Decal_G_Shit"
+  translation: "Decal_G_Shit"
+  skip_translation: true
+
+- text: "Background_CloseSmall _Tree"
+  translation: "Background_CloseSmall _Tree"
+  skip_translation: true
+
+- text: "Tunnel_PillerSideTop Visual"
+  translation: "Tunnel_PillerSideTop Visual"
+  skip_translation: true
+
+- text: "Electric Wallbox"
+  translation: "Electric Wallbox"
+  skip_translation: true
+
+- text: "Light01"
+  translation: "Light01"
+  skip_translation: true
+
+- text: "Cable"
+  translation: "Cable"
+  skip_translation: true
+
+- text: "Super Far"
+  translation: "Super Far"
+  skip_translation: true
+
+- text: "Lamp Shadow"
+  translation: "Lamp Shadow"
+  skip_translation: true
+
+- text: "FlameSmall"
+  translation: "FlameSmall"
+  skip_translation: true
+
+- text: "Lewd Gas Particle System"
+  translation: "Lewd Gas Particle System"
+  skip_translation: true
+
+- text: "Decal_G_Kissing"
+  translation: "Decal_G_Kissing"
+  skip_translation: true
+
+- text: "Train2"
+  translation: "Train2"
+  skip_translation: true
+
+- text: "Tunnel Piller Side Tunnel_PillerSide Visual"
+  translation: "Tunnel Piller Side Tunnel_PillerSide Visual"
+  skip_translation: true
+
+- text: "Tunnel Valve Visual"
+  translation: "Tunnel Valve Visual"
+  skip_translation: true
+
+- text: "Lamp"
+  translation: "Lamp"
+  skip_translation: true
+
+- text: "FakeLightSprite"
+  translation: "FakeLightSprite"
+  skip_translation: true
+
+- text: "Trash_Prop_7"
+  translation: "Trash_Prop_7"
+  skip_translation: true
+
+- text: "FlameShapes03"
+  translation: "FlameShapes03"
+  skip_translation: true
+
+- text: "Tunnel PipeDoubleH Left"
+  translation: "Tunnel PipeDoubleH Left"
+  skip_translation: true
+
+- text: "Valve Light Top"
+  translation: "Valve Light Top"
+  skip_translation: true
+
+- text: "Book 5"
+  translation: "Book 5"
+  skip_translation: true
+
+- text: "Trash_Prop_13"
+  translation: "Trash_Prop_13"
+  skip_translation: true
+
+- text: "Book 5 Shadow"
+  translation: "Book 5 Shadow"
+  skip_translation: true
+
+- text: "Ed@"
+  translation: "Ed@"
+  skip_translation: true
+
+- text: "KY%A"
+  translation: "KY%A"
+  skip_translation: true
+
+- text: "EA+"
+  translation: "EA+"
+  skip_translation: true
+
+- text: "Z@uOiAuOiAuOiA"
+  translation: "Z@uOiAuOiAuOiA"
+  skip_translation: true
+
+- text: "Ar=R"
+  translation: "Ar=R"
+  skip_translation: true
+
+- text: "B@fi"
+  translation: "B@fi"
+  skip_translation: true
+
+- text: "EV@"
+  translation: "EV@"
+  skip_translation: true
+
+- text: "Q A"
+  translation: "Q A"
+  skip_translation: true
+
+- text: "WoB~"
+  translation: "WoB~"
+  skip_translation: true
+
+- text: "GDAp"
+  translation: "GDAp"
+  skip_translation: true
+
+- text: "QpA"
+  translation: "QpA"
+  skip_translation: true
+
+- text: "X@w"
+  translation: "X@w"
+  skip_translation: true
+
+- text: "InA"
+  translation: "InA"
+  skip_translation: true
+
+- text: "'AR"
+  translation: "'AR"
+  skip_translation: true
+
+- text: "AU_\\"
+  translation: "AU_\\\\"
+  skip_translation: true
+
+- text: "AJb"
+  translation: "AJb"
+  skip_translation: true
+
+- text: "GaAffJA"
+  translation: "GaAffJA"
+  skip_translation: true
+
+- text: "Cn#?"
+  translation: "Cn#?"
+  skip_translation: true
+
+- text: "As=JA"
+  translation: "As=JA"
+  skip_translation: true
+
+- text: "COB"
+  translation: "COB"
+  skip_translation: true
+
+- text: "QAR"
+  translation: "QAR"
+  skip_translation: true
+
+- text: "F%U?j"
+  translation: "F%U?j"
+  skip_translation: true
+
+- text: "DAp"
+  translation: "DAp"
+  skip_translation: true
+
+- text: "D[A"
+  translation: "D[A"
+  skip_translation: true
+
+- text: "Uxi="
+  translation: "Uxi="
+  skip_translation: true
+
+- text: "X@dV"
+  translation: "X@dV"
+  skip_translation: true
+
+- text: "Adf"
+  translation: "Adf"
+  skip_translation: true
+
+- text: "EN@33"
+  translation: "EN@33"
+  skip_translation: true
+
+- text: "Affz"
+  translation: "Affz"
+  skip_translation: true
+
+- text: "G*Bff"
+  translation: "G*Bff"
+  skip_translation: true
+
+- text: "?VUU@VUU@VUU@"
+  translation: "?VUU@VUU@VUU@"
+  skip_translation: true
+
+- text: ";AH"
+  translation: ";AH"
+  skip_translation: true
+
+- text: "Bhf"
+  translation: "Bhf"
+  skip_translation: true
+
+- text: "(HA"
+  translation: "(HA"
+  skip_translation: true
+
+- text: "At=2A"
+  translation: "At=2A"
+  skip_translation: true
+
+- text: "Hk?"
+  translation: "Hk?"
+  skip_translation: true
+
+- text: "Alx"
+  translation: "Alx"
+  skip_translation: true
+
+- text: "Mb?"
+  translation: "Mb?"
+  skip_translation: true
+
+- text: "Zdc"
+  translation: "Zdc"
+  skip_translation: true
+
+- text: "X@pW"
+  translation: "X@pW"
+  skip_translation: true
+
+- text: "GQ@i"
+  translation: "GQ@i"
+  skip_translation: true
+
+- text: "XCn?`"
+  translation: "XCn?`"
+  skip_translation: true
+
+- text: "LoK"
+  translation: "LoK"
+  skip_translation: true
+
+- text: "MoK@MoK@"
+  translation: "MoK@MoK@"
+  skip_translation: true
+
+- text: "XAc"
+  translation: "XAc"
+  skip_translation: true
+
+- text: "AX!"
+  translation: "AX!"
+  skip_translation: true
+
+- text: "A33s"
+  translation: "A33s"
+  skip_translation: true
+
+- text: "B@Av"
+  translation: "B@Av"
+  skip_translation: true
+
+- text: "A/^iB"
+  translation: "A/^iB"
+  skip_translation: true
+
+- text: "Ks@c"
+  translation: "Ks@c"
+  skip_translation: true
+
+- text: "S?Ax"
+  translation: "S?Ax"
+  skip_translation: true
+
+- text: "AAq="
+  translation: "AAq="
+  skip_translation: true
+
+- text: "Ta?"
+  translation: "Ta?"
+  skip_translation: true
+
+- text: "Nb @"
+  translation: "Nb @"
+  skip_translation: true
+
+- text: "S!A"
+  translation: "S!A"
+  skip_translation: true
+
+- text: "A~3PB"
+  translation: "A~3PB"
+  skip_translation: true
+
+- text: "M(A"
+  translation: "M(A"
+  skip_translation: true
+
+- text: "LoK@MoK@MoK@"
+  translation: "LoK@MoK@MoK@"
+  skip_translation: true
+
+- text: "Cb?"
+  translation: "Cb?"
+  skip_translation: true
+
+- text: "Cc@"
+  translation: "Cc@"
+  skip_translation: true
+
+- text: "Ek?"
+  translation: "Ek?"
+  skip_translation: true
+
+- text: "P!A"
+  translation: "P!A"
+  skip_translation: true
+
+- text: "Y?GrI?"
+  translation: "Y?GrI?"
+  skip_translation: true
+
+- text: "R6?w"
+  translation: "R6?w"
+  skip_translation: true
+
+- text: "YfM"
+  translation: "YfM"
+  skip_translation: true
+
+- text: "RlB;"
+  translation: "RlB;"
+  skip_translation: true
+
+- text: "*AP"
+  translation: "*AP"
+  skip_translation: true
+
+- text: "A4bUB"
+  translation: "A4bUB"
+  skip_translation: true
+
+- text: "AklVB"
+  translation: "AklVB"
+  skip_translation: true
+
+- text: "H?p"
+  translation: "H?p"
+  skip_translation: true
+
+- text: "AaT"
+  translation: "AaT"
+  skip_translation: true
+
+- text: "NAff"
+  translation: "NAff"
+  skip_translation: true
+
+- text: "((AD"
+  translation: "((AD"
+  skip_translation: true
+
+- text: "UYB"
+  translation: "UYB"
+  skip_translation: true
+
+- text: ",EC"
+  translation: ",EC"
+  skip_translation: true
+
+- text: "B@A"
+  translation: "B@A"
+  skip_translation: true
+
+- text: "M`A"
+  translation: "M`A"
+  skip_translation: true
+
+- text: "O1C"
+  translation: "O1C"
+  skip_translation: true
+
+- text: "AZd]"
+  translation: "AZd]"
+  skip_translation: true
+
+- text: "RA?"
+  translation: "RA?"
+  skip_translation: true
+
+- text: "Y6?t"
+  translation: "Y6?t"
+  skip_translation: true
+
+- text: "7U@DF"
+  translation: "7U@DF"
+  skip_translation: true
+
+- text: "VAX"
+  translation: "VAX"
+  skip_translation: true
+
+- text: "OeA"
+  translation: "OeA"
+  skip_translation: true
+
+- text: "A\\S"
+  translation: "A\\S"
+  skip_translation: true
+
+- text: "E)bAE)bA"
+  translation: "E)bAE)bA"
+  skip_translation: true
+
+- text: "Sv?"
+  translation: "Sv?"
+  skip_translation: true
+
+- text: "Ru=P"
+  translation: "Ru=P"
+  skip_translation: true
+
+- text: "IkA"
+  translation: "IkA"
+  skip_translation: true
+
+- text: "PAb"
+  translation: "PAb"
+  skip_translation: true
+
+- text: "BjS:A"
+  translation: "BjS:A"
+  skip_translation: true
+
+- text: "AXm"
+  translation: "AXm"
+  skip_translation: true
+
+- text: "?WU"
+  translation: "?WU"
+  skip_translation: true
+
+- text: "&AB!"
+  translation: "&AB!"
+  skip_translation: true
+
+- text: "AC\""
+  translation: "AC\""
+  skip_translation: true
+
+- text: "Xt?"
+  translation: "Xt?"
+  skip_translation: true
+
+- text: "Cj?"
+  translation: "Cj?"
+  skip_translation: true
+
+- text: "Vv?u"
+  translation: "Vv?u"
+  skip_translation: true
+
+- text: "Vv?"
+  translation: "Vv?"
+  skip_translation: true
+
+- text: "I?J"
+  translation: "I?J"
+  skip_translation: true
+
+- text: "Tx?"
+  translation: "Tx?"
+  skip_translation: true
+
+- text: "Bq=J?"
+  translation: "Bq=J?"
+  skip_translation: true
+
+- text: "GIA)\\"
+  translation: "GIA)\\\\"
+  skip_translation: true
+
+- text: "Hm:?"
+  translation: "Hm:?"
+  skip_translation: true
+
+- text: "X=o"
+  translation: "X=o"
+  skip_translation: true
+
+- text: "HU?"
+  translation: "HU?"
+  skip_translation: true
+
+- text: "Oy?"
+  translation: "Oy?"
+  skip_translation: true
+
+- text: "@33CA"
+  translation: "@33CA"
+  skip_translation: true
+
+- text: "8KA"
+  translation: "8KA"
+  skip_translation: true
+
+- text: "R9+A"
+  translation: "R9+A"
+  skip_translation: true
+
+- text: "&AI"
+  translation: "&AI"
+  skip_translation: true
+
+- text: "NAZ"
+  translation: "NAZ"
+  skip_translation: true
+
+- text: "OPo@"
+  translation: "OPo@"
+  skip_translation: true
+
+- text: "@i 2A"
+  translation: "@i 2A"
+  skip_translation: true
+
+- text: "Lock Zoey"
+  translation: "Заблокировать Зои"
+
+- text: "Stop music"
+  translation: "Остановить музыку"
+
+- text: "Bl@"
+  translation: "Bl@"
+  skip_translation: true
+
+- text: "Check Save key"
+  translation: "Проверить ключ сохранения"
+
+- text: "Zustand 2"
+  translation: "Состояние 2"
+
+- text: "Tunnel Lever Keys/Valve in hand"
+  translation: "Ключи рычага туннеля / Вентиль в руке"
+
+- text: "Remove valve and put it in Zoeys hand"
+  translation: "Убрать вентиль и дать в руку Зои"
+
+- text: "PACVU"
+  translation: "PACVU"
+  skip_translation: true
+
+- text: "Valve in Zoeys Hand"
+  translation: "Вентиль в руке Зои"
+
+- text: "Valve in Hand"
+  translation: "Вентиль в руке"
+
+- text: "VvC"
+  translation: "VvC"
+  skip_translation: true
+
+- text: "Turn off valve"
+  translation: "Закрыть вентиль"
+
+- text: "Tunnel Lever Keys/Valve Fire 2 M31"
+  translation: "Tunnel Lever Keys/Valve Fire 2 M31"
+  skip_translation: true
+
+- text: "Yeah we did do dat"
+  translation: "Да, мы сделали это"
+
+- text: "Change color turn off fire 3"
+  translation: "Сменить цвет, потушить огонь 3"
+
+- text: "Zustand 1"
+  translation: "Состояние 1"
+
+- text: "Fade screen to black and Back"
+  translation: "Затемнить экран и обратно"
+
+- text: "Faded out"
+  translation: "Затемнение завершено"
+
+- text: "Wait for Enter"
+  translation: "Ожидать Enter"
+
+- text: "Slow Zoey Down"
+  translation: "Замедлить Зои"
+
+- text: "Slowing Finished"
+  translation: "Замедление завершено"
+
+- text: "Controller"
+  translation: "Controller"
+  skip_translation: true
+
+- text: "LerpDuration"
+  translation: "LerpDuration"
+  skip_translation: true
+
+- text: "OnLerpFinished"
+  translation: "OnLerpFinished"
+  skip_translation: true
+
+- text: "SetVisible"
+  translation: "SetVisible"
+  skip_translation: true
+
+- text: "Go out"
+  translation: "Выйти"
+
+- text: "Speed Zoey back up"
+  translation: "Ускорить Зои обратно"
+
+- text: "Speedup Finished"
+  translation: "Ускорение завершено"
+
+- text: "AAA"
+  translation: "AAA"
+  skip_translation: true
+
+- text: "Tunnel Lever Keys/Examine Writing Key"
+  translation: "Ключи рычага туннеля / Осмотреть ключ-запись"
+
+- text: "play cutscene"
+  translation: "Воспроизвести катсцену"
+
+- text: "cutscene ended"
+  translation: "Катсцена завершена"
+
+- text: "Setup State"
+  translation: "Настройка состояния"
+
+- text: "Repeat?"
+  translation: "Повторить?"
+
+- text: "Remove Valve in hand"
+  translation: "Убрать вентиль из руки"
+
+- text: "Activate Valve"
+  translation: "Активировать вентиль"
+
+- text: "ACUU"
+  translation: "ACUU"
+  skip_translation: true
+
+- text: "Turn off"
+  translation: "Выключить"
+
+- text: "Fire 2 turn off"
+  translation: "Потушить огонь 2"
+
+- text: "@S% A"
+  translation: "@S% A"
+  skip_translation: true
+
+- text: "Put Key into Zoeys Hand and Unlock"
+  translation: "Дать ключ Зои и разблокировать"
+
+- text: "Send Event"
+  translation: "Отправить событие"
+
+- text: "FSM Lio Printer"
+  translation: "FSM Lio Printer"
+  skip_translation: true
+
+- text: "Key Taken"
+  translation: "Ключ взят"
+
+- text: "Remove Valve on Ground"
+  translation: "Убрать вентиль с земли"
+
+- text: "Start music"
+  translation: "Запустить музыку"
+
+- text: "Tunnel Lever Keys/Opened Teleporter Hatch"
+  translation: "Ключи рычага туннеля / Люк телепорта открыт"
+
+- text: "Change color turn off fire"
+  translation: "Сменить цвет, потушить огонь"
+
+- text: "No thing"
+  translation: "No thing"
+  skip_translation: true
+
+- text: "BUU9C"
+  translation: "BUU9C"
+  skip_translation: true
+
+- text: "ToApartment"
+  translation: "ToApartment"
+  skip_translation: true
+
+- text: "FromTunnel"
+  translation: "FromTunnel"
+  skip_translation: true
+
+- text: "XUB"
+  translation: "XUB"
+  skip_translation: true
+
+- text: "Used"
+  translation: "Использовано"
+
+- text: "Transition to level"
+  translation: "Переход на уровень"
+
+- text: "Js?"
+  translation: "Js?"
+  skip_translation: true
+
+- text: "Walked Inside"
+  translation: "Зашёл внутрь"
+
+- text: "Play Pre-Sex Scene"
+  translation: "Воспроизвести предсексуальную сцену"
+
+- text: "Move Zoey in to the guy"
+  translation: "Подвинуть Зои к парню"
+
+- text: "Check save key"
+  translation: "Проверить ключ сохранения"
+
+- text: "Wf?"
+  translation: "Wf?"
+  skip_translation: true
+
+- text: "@ tt"
+  translation: "@ tt"
+  skip_translation: true
+
+- text: "nA cIA"
+  translation: "nA cIA"
+  skip_translation: true
+
+- text: "Axv2@"
+  translation: "Axv2@"
+  skip_translation: true
+
+- text: "ECBvY"
+  translation: "ECBvY"
+  skip_translation: true
+
+- text: "BIB"
+  translation: "BIB"
+  skip_translation: true
+
+- text: "SBrF"
+  translation: "SBrF"
+  skip_translation: true
+
+- text: "WBc"
+  translation: "WBc"
+  skip_translation: true
+
+- text: ")FA"
+  translation: ")FA"
+  skip_translation: true
+
+- text: "Ib@"
+  translation: "Ib@"
+  skip_translation: true
+
+- text: "Fade Gas 3"
+  translation: "Затуманить газ 3"
+
+- text: "Turn off gas"
+  translation: "Отключить газ"
+
+- text: "Is door locked?"
+  translation: "Дверь заперта?"
+
+- text: "VqC"
+  translation: "VqC"
+  skip_translation: true
+
+- text: "7BA"
+  translation: "7BA"
+  skip_translation: true
+
+- text: "Is outfit equipped?"
+  translation: "Экипировка надета?"
+
+- text: "Play ask to come in Dialogue"
+  translation: "Воспроизвести диалог с просьбой войти"
+
+- text: "Is outfit in Inventory?"
+  translation: "Экипировка в инвентаре?"
+
+- text: "ItemsToCheck"
+  translation: "ItemsToCheck"
+  skip_translation: true
+
+- text: "MustBeEquipped"
+  translation: "MustBeEquipped"
+  skip_translation: true
+
+- text: "WaitForItems"
+  translation: "WaitForItems"
+  skip_translation: true
+
+- text: "OnHasItems"
+  translation: "OnHasItems"
+  skip_translation: true
+
+- text: "Play ask to put outfit on Dialogue"
+  translation: "Воспроизвести диалог с просьбой надеть экипировку"
+
+- text: "Play ask to grab outfit Dialogue"
+  translation: "Воспроизвести диалог с просьбой взять экипировку"
+
+- text: "CUUiC"
+  translation: "CUUiC"
+  skip_translation: true
+
+- text: "CUU_C"
+  translation: "CUU_C"
+  skip_translation: true
+
+- text: "Tunnel Lever Keys/Open High Tide Hatch"
+  translation: "Ключи рычага туннеля / Открыть люк High Tide"
+
+- text: "Close Hatch"
+  translation: "Закрыть люк"
+
+- text: "Open Hatch"
+  translation: "Открыть люк"
+
+- text: "HCUU"
+  translation: "HCUU"
+  skip_translation: true
+
+- text: "Disable tunnel guy"
+  translation: "Отключить парня в туннеле"
+
+- text: "Set True"
+  translation: "Set True"
+  skip_translation: true
+
+- text: "Turn self off"
+  translation: "Выключиться"
+
+- text: "Tunnel Lever Keys/Valve Fire M31"
+  translation: "Tunnel Lever Keys/Valve Fire M31"
+  skip_translation: true
+
+- text: ":CUU9C"
+  translation: ":CUU9C"
+  skip_translation: true
+
+- text: "TcC"
+  translation: "TcC"
+  skip_translation: true
+
+- text: "; UU?"
+  translation: "; UU?"
+  skip_translation: true
+
+- text: "Did open?"
+  translation: "Открылось?"
+
+- text: "Open Visually"
+  translation: "Открыть визуально"
+
+- text: "play sound"
+  translation: "Воспроизвести звук"
+
+- text: "PlyObj"
+  translation: "PlyObj"
+  skip_translation: true
+
+- text: "Ply"
+  translation: "Ply"
+  skip_translation: true
+
+- text: "AU0"
+  translation: "AU0"
+  skip_translation: true
+
+- text: "Wait for Play"
+  translation: "Ожидать воспроизведения"
+
+- text: "East"
+  translation: "East"
+  skip_translation: true
+
+- text: "West"
+  translation: "West"
+  skip_translation: true
+
+- text: "Stepped on"
+  translation: "Stepped on"
+  skip_translation: true
+
+- text: "BoolToSet"
+  translation: "BoolToSet"
+  skip_translation: true
+
+- text: "AnimatorToSet"
+  translation: "AnimatorToSet"
+  skip_translation: true
+
+- text: "FromRes"
+  translation: "FromRes"
+  skip_translation: true
+
+- text: "ToM31"
+  translation: "ToM31"
+  skip_translation: true
+
+- text: "ATA"
+  translation: "ATA"
+  skip_translation: true
+
+- text: "CRH@b"
+  translation: "CRH@b"
+  skip_translation: true
+
+- text: "ERH@"
+  translation: "ERH@"
+  skip_translation: true
+
+- text: "PHe"
+  translation: "PHe"
+  skip_translation: true
+
+- text: "A(JP?"
+  translation: "A(JP?"
+  skip_translation: true
+
+- text: "Gvo"
+  translation: "Gvo"
+  skip_translation: true
+
+- text: "N`x"
+  translation: "N`x"
+  skip_translation: true
+
+- text: "IL0"
+  translation: "IL0"
+  skip_translation: true
+
+- text: "9DA"
+  translation: "9DA"
+  skip_translation: true
+
+- text: "y: W"
+  translation: "y: W"
+  skip_translation: true
+
+- text: "AMU"
+  translation: "AMU"
+  skip_translation: true
+
+- text: "AXA"
+  translation: "AXA"
+  skip_translation: true
+

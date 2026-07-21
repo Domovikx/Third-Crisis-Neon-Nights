@@ -1,11 +1,17 @@
-- text: Hey Max..
-  translation: Привет, Макс..
-- text: Unfortunately, yeah.
-  translation: К сожалению, да.
-  speaker: Zoey
-- text: Nail Salon Clerk
-  translation: Мастер маникюра
-  speaker: Surprised
-- text: Yeah. Let me explain...
-  translation: Да. Давай объясню...
-  speaker: Zoey
+# Dialogues (path_id=1212)
+
+- text: "Hey Max.."
+  translation: "Привет, Макс.."
+
+- text: "Unfortunately, yeah."
+  translation: "К сожалению, да."
+  speaker: "Zoey"
+
+- text: "Nail Salon Clerk"
+  translation: "Мастер маникюра"
+  speaker: "Surprised"
+
+- text: "Yeah. Let me explain..."
+  translation: "Да. Давай объясню..."
+  speaker: "Zoey"
+

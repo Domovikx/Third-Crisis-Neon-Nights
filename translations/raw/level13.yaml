@@ -1,0 +1,862 @@
+# raw (level13)
+
+- text: "Train Station Walla"
+  translation: "Train Station Walla"
+  skip_translation: true
+
+- text: "Bark repeat"
+  translation: "Bark repeat"
+  skip_translation: true
+
+- text: "Shove"
+  translation: "Shove"
+  skip_translation: true
+
+- text: "Inspection bark start"
+  translation: "Inspection bark start"
+  skip_translation: true
+
+- text: "Barks"
+  translation: "Barks"
+  skip_translation: true
+
+- text: "Lights_level"
+  translation: "Lights_level"
+  skip_translation: true
+
+- text: "Light_main"
+  translation: "Light_main"
+  skip_translation: true
+
+- text: "Addons_new"
+  translation: "Addons_new"
+  skip_translation: true
+
+- text: "CameraReaction"
+  translation: "CameraReaction"
+  skip_translation: true
+
+- text: "Addons_old"
+  translation: "Addons_old"
+  skip_translation: true
+
+- text: "Seated"
+  translation: "Seated"
+  skip_translation: true
+
+- text: "Dismount"
+  translation: "Dismount"
+  skip_translation: true
+
+- text: "Train Window Left"
+  translation: "Train Window Left"
+  skip_translation: true
+
+- text: "Train End Window Side Right"
+  translation: "Train End Window Side Right"
+  skip_translation: true
+
+- text: "Train Light Entrance"
+  translation: "Train Light Entrance"
+  skip_translation: true
+
+- text: "Train Door Window Left"
+  translation: "Train Door Window Left"
+  skip_translation: true
+
+- text: "Train Middle"
+  translation: "Train Middle"
+  skip_translation: true
+
+- text: "Train Door Left"
+  translation: "Train Door Left"
+  skip_translation: true
+
+- text: "Train Window Shine Right"
+  translation: "Train Window Shine Right"
+  skip_translation: true
+
+- text: "Train Wall Right"
+  translation: "Train Wall Right"
+  skip_translation: true
+
+- text: "Train Door Window Right"
+  translation: "Train Door Window Right"
+  skip_translation: true
+
+- text: "Benches"
+  translation: "Benches"
+  skip_translation: true
+
+- text: "Train Connector Top"
+  translation: "Train Connector Top"
+  skip_translation: true
+
+- text: "Train End Wall Right"
+  translation: "Train End Wall Right"
+  skip_translation: true
+
+- text: "Train Door Window Shine Left"
+  translation: "Train Door Window Shine Left"
+  skip_translation: true
+
+- text: "Train End Right"
+  translation: "Train End Right"
+  skip_translation: true
+
+- text: "Traiin Wall Left"
+  translation: "Traiin Wall Left"
+  skip_translation: true
+
+- text: "Smoking Guy"
+  translation: "Smoking Guy"
+  skip_translation: true
+
+- text: "Inspection Girl"
+  translation: "Inspection Girl"
+  skip_translation: true
+
+- text: "Train Door Window Shine Right"
+  translation: "Train Door Window Shine Right"
+  skip_translation: true
+
+- text: "Train End Cabin Main Window"
+  translation: "Train End Cabin Main Window"
+  skip_translation: true
+
+- text: "Trainwagon"
+  translation: "Trainwagon"
+  skip_translation: true
+
+- text: "Train End Cabin Small Window Shine"
+  translation: "Train End Cabin Small Window Shine"
+  skip_translation: true
+
+- text: "Train End Top Left"
+  translation: "Train End Top Left"
+  skip_translation: true
+
+- text: "Train Door Light Right"
+  translation: "Train Door Light Right"
+  skip_translation: true
+
+- text: "Train Light Big Front"
+  translation: "Train Light Big Front"
+  skip_translation: true
+
+- text: "Train Cabels"
+  translation: "Train Cabels"
+  skip_translation: true
+
+- text: "Train Background"
+  translation: "Train Background"
+  skip_translation: true
+
+- text: "Train End Window Shine Left"
+  translation: "Train End Window Shine Left"
+  skip_translation: true
+
+- text: "Light Glow"
+  translation: "Light Glow"
+  skip_translation: true
+
+- text: "SFX Arrival"
+  translation: "SFX Arrival"
+  skip_translation: true
+
+- text: "Train End Light Element 2"
+  translation: "Train End Light Element 2"
+  skip_translation: true
+
+- text: "Train Door Right"
+  translation: "Train Door Right"
+  skip_translation: true
+
+- text: "Train Window Shine Left"
+  translation: "Train Window Shine Left"
+  skip_translation: true
+
+- text: "Train Connector Light Left"
+  translation: "Train Connector Light Left"
+  skip_translation: true
+
+- text: "Train End Window Side Shine Right"
+  translation: "Train End Window Side Shine Right"
+  skip_translation: true
+
+- text: "Train End Door Light"
+  translation: "Train End Door Light"
+  skip_translation: true
+
+- text: "Train Door Light Left"
+  translation: "Train Door Light Left"
+  skip_translation: true
+
+- text: "Train Connector"
+  translation: "Train Connector"
+  skip_translation: true
+
+- text: "Train End Left"
+  translation: "Train End Left"
+  skip_translation: true
+
+- text: "Train Top"
+  translation: "Train Top"
+  skip_translation: true
+
+- text: "Train Connector Light Right"
+  translation: "Train Connector Light Right"
+  skip_translation: true
+
+- text: "Train End Door Window Right"
+  translation: "Train End Door Window Right"
+  skip_translation: true
+
+- text: "Train End Background"
+  translation: "Train End Background"
+  skip_translation: true
+
+- text: "Train End Cabin Small Window"
+  translation: "Train End Cabin Small Window"
+  skip_translation: true
+
+- text: "Train End Door Left"
+  translation: "Train End Door Left"
+  skip_translation: true
+
+- text: "Seats"
+  translation: "Seats"
+  skip_translation: true
+
+- text: "Train Window Right"
+  translation: "Train Window Right"
+  skip_translation: true
+
+- text: "Train Connector Bottom"
+  translation: "Train Connector Bottom"
+  skip_translation: true
+
+- text: "Train End Background 2"
+  translation: "Train End Background 2"
+  skip_translation: true
+
+- text: "TimeLabel"
+  translation: "TimeLabel"
+  skip_translation: true
+
+- text: "Destinations"
+  translation: "Destinations"
+  skip_translation: true
+
+- text: "StateLabel"
+  translation: "StateLabel"
+  skip_translation: true
+
+- text: "SideBench"
+  translation: "SideBench"
+  skip_translation: true
+
+- text: "Ad_CityNews"
+  translation: "Ad_CityNews"
+  skip_translation: true
+
+- text: "Plant on Pillar Blue"
+  translation: "Plant on Pillar Blue"
+  skip_translation: true
+
+- text: "Train End Side"
+  translation: "Train End Side"
+  skip_translation: true
+
+- text: "Train Light Big"
+  translation: "Train Light Big"
+  skip_translation: true
+
+- text: "Train End Door Window Shine Left"
+  translation: "Train End Door Window Shine Left"
+  skip_translation: true
+
+- text: "Plant on Pillar Blue-Green Variant"
+  translation: "Plant on Pillar Blue-Green Variant"
+  skip_translation: true
+
+- text: "text 2"
+  translation: "text 2"
+  skip_translation: true
+
+- text: "Train End Small Window Shine"
+  translation: "Train End Small Window Shine"
+  skip_translation: true
+
+- text: "Sitter"
+  translation: "Sitter"
+  skip_translation: true
+
+- text: "Train End Connection Light"
+  translation: "Train End Connection Light"
+  skip_translation: true
+
+- text: "Train Rumble"
+  translation: "Train Rumble"
+  skip_translation: true
+
+- text: "Train End Top Right"
+  translation: "Train End Top Right"
+  skip_translation: true
+
+- text: "Train End Front Window Shine"
+  translation: "Train End Front Window Shine"
+  skip_translation: true
+
+- text: "Train End Light Element 1"
+  translation: "Train End Light Element 1"
+  skip_translation: true
+
+- text: "Terminals"
+  translation: "Terminals"
+  skip_translation: true
+
+- text: "Solar Square Label"
+  translation: "Solar Square Label"
+  skip_translation: true
+
+- text: "BoardableTrain"
+  translation: "BoardableTrain"
+  skip_translation: true
+
+- text: "Chargers"
+  translation: "Chargers"
+  skip_translation: true
+
+- text: "FlashTimer"
+  translation: "FlashTimer"
+  skip_translation: true
+
+- text: "LossTransition"
+  translation: "LossTransition"
+  skip_translation: true
+
+- text: "Train End Front Window"
+  translation: "Train End Front Window"
+  skip_translation: true
+
+- text: "Train End Small Window"
+  translation: "Train End Small Window"
+  skip_translation: true
+
+- text: "Train End Door Window Shine Right"
+  translation: "Train End Door Window Shine Right"
+  skip_translation: true
+
+- text: "Train End Cabin Main Window Shine"
+  translation: "Train End Cabin Main Window Shine"
+  skip_translation: true
+
+- text: "Train End Middle"
+  translation: "Train End Middle"
+  skip_translation: true
+
+- text: "Train End Window Side Shine Left"
+  translation: "Train End Window Side Shine Left"
+  skip_translation: true
+
+- text: "Train End Door Window Left"
+  translation: "Train End Door Window Left"
+  skip_translation: true
+
+- text: "Train End Light Element"
+  translation: "Train End Light Element"
+  skip_translation: true
+
+- text: "Light_Assets"
+  translation: "Light_Assets"
+  skip_translation: true
+
+- text: "Trainwagon End Variant"
+  translation: "Trainwagon End Variant"
+  skip_translation: true
+
+- text: "Train End Window Left"
+  translation: "Train End Window Left"
+  skip_translation: true
+
+- text: "NCR_Logo"
+  translation: "NCR_Logo"
+  skip_translation: true
+
+- text: "Train End Window Side Left"
+  translation: "Train End Window Side Left"
+  skip_translation: true
+
+- text: "TerminalLogic"
+  translation: "TerminalLogic"
+  skip_translation: true
+
+- text: "Arrival Timeline"
+  translation: "Arrival Timeline"
+  skip_translation: true
+
+- text: "SFX Departure"
+  translation: "SFX Departure"
+  skip_translation: true
+
+- text: "BottomMiddle"
+  translation: "BottomMiddle"
+  skip_translation: true
+
+- text: "Train End Wall Left"
+  translation: "Train End Wall Left"
+  skip_translation: true
+
+- text: "Train End Window Shine Right"
+  translation: "Train End Window Shine Right"
+  skip_translation: true
+
+- text: "Train End Door Right"
+  translation: "Train End Door Right"
+  skip_translation: true
+
+- text: "AudioSource"
+  translation: "AudioSource"
+  skip_translation: true
+
+- text: "Hideables"
+  translation: "Hideables"
+  skip_translation: true
+
+- text: "BottomSides"
+  translation: "BottomSides"
+  skip_translation: true
+
+- text: "Train End Front"
+  translation: "Train End Front"
+  skip_translation: true
+
+- text: "Train End Window Right"
+  translation: "Train End Window Right"
+  skip_translation: true
+
+- text: "Departure Timeline"
+  translation: "Departure Timeline"
+  skip_translation: true
+
+- text: "Origin"
+  translation: "Origin"
+  skip_translation: true
+
+- text: "text 1"
+  translation: "text 1"
+  skip_translation: true
+
+- text: "LeftLight"
+  translation: "LeftLight"
+  skip_translation: true
+
+- text: "Plants"
+  translation: "Plants"
+  skip_translation: true
+
+- text: "?33SA"
+  translation: "?33SA"
+  skip_translation: true
+
+- text: "J@c"
+  translation: "J@c"
+  skip_translation: true
+
+- text: "?*\\[A*\\[A)\\[A"
+  translation: "?*\\[A*\\[A)\\[A"
+  skip_translation: true
+
+- text: "Bq=z"
+  translation: "Bq=z"
+  skip_translation: true
+
+- text: "A33w"
+  translation: "A33w"
+  skip_translation: true
+
+- text: "XAh"
+  translation: "XAh"
+  skip_translation: true
+
+- text: "C d|C"
+  translation: "C d|C"
+  skip_translation: true
+
+- text: "D%y@"
+  translation: "D%y@"
+  skip_translation: true
+
+- text: "AL7"
+  translation: "AL7"
+  skip_translation: true
+
+- text: "Pd[?"
+  translation: "Pd[?"
+  skip_translation: true
+
+- text: "ANb"
+  translation: "ANb"
+  skip_translation: true
+
+- text: "Aq=r"
+  translation: "Aq=r"
+  skip_translation: true
+
+- text: "RA23"
+  translation: "RA23"
+  skip_translation: true
+
+- text: "VA23"
+  translation: "VA23"
+  skip_translation: true
+
+- text: "QA="
+  translation: "QA="
+  skip_translation: true
+
+- text: "LA23"
+  translation: "LA23"
+  skip_translation: true
+
+- text: "7IA"
+  translation: "7IA"
+  skip_translation: true
+
+- text: "Arriving"
+  translation: "Arriving"
+  skip_translation: true
+
+- text: "Enforcer Bark"
+  translation: "Enforcer Bark"
+  skip_translation: true
+
+- text: "This is a nice plum ass!"
+  translation: "Это славная задница!"
+
+- text: "Girl Bark"
+  translation: "Girl Bark"
+  skip_translation: true
+
+- text: "Enforcer Bark 2"
+  translation: "Enforcer Bark 2"
+  skip_translation: true
+
+- text: "ECUU"
+  translation: "ECUU"
+  skip_translation: true
+
+- text: "Wait 3"
+  translation: "Wait 3"
+  skip_translation: true
+
+- text: "Stick your ass out more!"
+  translation: "Выше задницу!"
+
+- text: "Sw?"
+  translation: "Sw?"
+  skip_translation: true
+
+- text: "Cache old dir"
+  translation: "Cache old dir"
+  skip_translation: true
+
+- text: "Shove back"
+  translation: "Shove back"
+  skip_translation: true
+
+- text: "Citizen"
+  translation: "Citizen"
+  skip_translation: true
+
+- text: "Does bark exist?"
+  translation: "Does bark exist?"
+  skip_translation: true
+
+- text: "CitizenObj"
+  translation: "CitizenObj"
+  skip_translation: true
+
+- text: "ToLookAt"
+  translation: "ToLookAt"
+  skip_translation: true
+
+- text: "HorizontalOnly"
+  translation: "HorizontalOnly"
+  skip_translation: true
+
+- text: "WaitAFrame"
+  translation: "WaitAFrame"
+  skip_translation: true
+
+- text: "OriginPosition"
+  translation: "OriginPosition"
+  skip_translation: true
+
+- text: "BarkGO"
+  translation: "BarkGO"
+  skip_translation: true
+
+- text: "BarkObj"
+  translation: "BarkObj"
+  skip_translation: true
+
+- text: "But I didn't do anything wrong!?"
+  translation: "Но я ничего плохого не сделал!?"
+
+- text: "Enforcer Bark 3"
+  translation: "Enforcer Bark 3"
+  skip_translation: true
+
+- text: "ZIC"
+  translation: "ZIC"
+  skip_translation: true
+
+- text: "Wait 4"
+  translation: "Wait 4"
+  skip_translation: true
+
+- text: "Restrain player"
+  translation: "Restrain player"
+  skip_translation: true
+
+- text: "Wait a little"
+  translation: "Wait a little"
+  skip_translation: true
+
+- text: "Set target"
+  translation: "Set target"
+  skip_translation: true
+
+- text: "Wait a little 2"
+  translation: "Wait a little 2"
+  skip_translation: true
+
+- text: "Pop target"
+  translation: "Pop target"
+  skip_translation: true
+
+- text: "WELCOME TO"
+  translation: "ДОБРО ПОЖАЛОВАТЬ В"
+
+- text: "Y[A;pNA"
+  translation: "Y[A;pNA"
+  skip_translation: true
+
+- text: "X@v"
+  translation: "X@v"
+  skip_translation: true
+
+- text: "PO$?R"
+  translation: "PO$?R"
+  skip_translation: true
+
+- text: "THE RES"
+  translation: "ЖИЛОЙ Р-Н"
+
+- text: "Activate interactable"
+  translation: "Activate interactable"
+  skip_translation: true
+
+- text: "Wait for receiver"
+  translation: "Wait for receiver"
+  skip_translation: true
+
+- text: "Bark 2"
+  translation: "Bark 2"
+  skip_translation: true
+
+- text: "No pictures, citizen!"
+  translation: "Никаких снимков, гражданин!"
+
+- text: "Zz?"
+  translation: "Zz?"
+  skip_translation: true
+
+- text: "randomize pitch"
+  translation: "randomize pitch"
+  skip_translation: true
+
+- text: "HCVU"
+  translation: "HCVU"
+  skip_translation: true
+
+- text: "IsOpen"
+  translation: "IsOpen"
+  skip_translation: true
+
+- text: "IsWarning"
+  translation: "IsWarning"
+  skip_translation: true
+
+- text: "FromTrain"
+  translation: "FromTrain"
+  skip_translation: true
+
+- text: "WATCH YOUR STEP"
+  translation: "СЛЕДИТЕ ЗА ШАГОМ"
+
+- text: "RESIDENTIAL DISTRICT"
+  translation: "ЖИЛОЙ РАЙОН"
+
+- text: "Play jingle"
+  translation: "Play jingle"
+  skip_translation: true
+
+- text: "Play random announcement"
+  translation: "Play random announcement"
+  skip_translation: true
+
+- text: "CUUGC"
+  translation: "CUUGC"
+  skip_translation: true
+
+- text: "Announcements"
+  translation: "Announcements"
+  skip_translation: true
+
+- text: "Play jingle 2"
+  translation: "Play jingle 2"
+  skip_translation: true
+
+- text: "Play random announcement 2"
+  translation: "Play random announcement 2"
+  skip_translation: true
+
+- text: "Play jingle 3"
+  translation: "Play jingle 3"
+  skip_translation: true
+
+- text: "FromLunarLane"
+  translation: "FromLunarLane"
+  skip_translation: true
+
+- text: "LunarLane"
+  translation: "LunarLane"
+  skip_translation: true
+
+- text: "SkipRide"
+  translation: "SkipRide"
+  skip_translation: true
+
+- text: "Pause timer"
+  translation: "Pause timer"
+  skip_translation: true
+
+- text: "Can we skip?"
+  translation: "Can we skip?"
+  skip_translation: true
+
+- text: "Leave hideable"
+  translation: "Leave hideable"
+  skip_translation: true
+
+- text: "Resume timer"
+  translation: "Resume timer"
+  skip_translation: true
+
+- text: "IsOnTrain"
+  translation: "IsOnTrain"
+  skip_translation: true
+
+- text: "Solar Square"
+  translation: "Solar Square"
+  skip_translation: true
+
+- text: "Lunar Lane"
+  translation: "Lunar Lane"
+  skip_translation: true
+
+- text: "\\CA"
+  translation: "\\CA"
+  skip_translation: true
+
+- text: "Get data and wait a frame"
+  translation: "Get data and wait a frame"
+  skip_translation: true
+
+- text: "What state are we in?"
+  translation: "What state are we in?"
+  skip_translation: true
+
+- text: "Set waiting for arrival"
+  translation: "Set waiting for arrival"
+  skip_translation: true
+
+- text: "Set arriving"
+  translation: "Set arriving"
+  skip_translation: true
+
+- text: "Set waiting for depart"
+  translation: "Set waiting for depart"
+  skip_translation: true
+
+- text: "Set departing"
+  translation: "Set departing"
+  skip_translation: true
+
+- text: "Wait for timer"
+  translation: "Wait for timer"
+  skip_translation: true
+
+- text: "TimerComplete"
+  translation: "TimerComplete"
+  skip_translation: true
+
+- text: "Switch state"
+  translation: "Switch state"
+  skip_translation: true
+
+- text: "TimerDuration"
+  translation: "TimerDuration"
+  skip_translation: true
+
+- text: "TimeToWait"
+  translation: "TimeToWait"
+  skip_translation: true
+
+- text: "StartTimer"
+  translation: "StartTimer"
+  skip_translation: true
+
+- text: "Wrap check"
+  translation: "Wrap check"
+  skip_translation: true
+
+- text: "Should we randomize state?"
+  translation: "Should we randomize state?"
+  skip_translation: true
+
+- text: "`CUUKC"
+  translation: "`CUUKC"
+  skip_translation: true
+
+- text: "Randomize state"
+  translation: "Randomize state"
+  skip_translation: true
+
+- text: "Add choices"
+  translation: "Add choices"
+  skip_translation: true
+
+- text: "Redlight"
+  translation: "Redlight"
+  skip_translation: true
+
+- text: "Set to Redlight"
+  translation: "Set to Redlight"
+  skip_translation: true
+
+- text: "FromSolarSquare"
+  translation: "FromSolarSquare"
+  skip_translation: true
+
+- text: "SolarSquare"
+  translation: "SolarSquare"
+  skip_translation: true
+
+- text: "FromTrain_Loss"
+  translation: "FromTrain_Loss"
+  skip_translation: true
+

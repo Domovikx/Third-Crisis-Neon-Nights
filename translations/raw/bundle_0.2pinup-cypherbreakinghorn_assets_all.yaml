@@ -1,0 +1,13 @@
+# raw (bundle_0.2pinup-cypherbreakinghorn_assets_all)
+
+- text: "Cypher Breaking Horn"
+  translation: "Сайфер ломает рог"
+
+- text: "UUAB"
+  translation: "UUAB"
+  skip_translation: true
+
+- text: "DUUAB"
+  translation: "DUUAB"
+  skip_translation: true
+

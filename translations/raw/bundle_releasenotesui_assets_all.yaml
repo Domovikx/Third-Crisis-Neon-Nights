@@ -1,0 +1,251 @@
+# raw (bundle_releasenotesui_assets_all)
+
+- text: "Handle"
+  translation: "Ручка"
+
+- text: "Ri5"
+  translation: "Ri5"
+  skip_translation: true
+
+- text: "LayoutElement"
+  translation: "LayoutElement"
+  skip_translation: true
+
+- text: "Orbitron Superbold Black 2"
+  translation: "Orbitron Superbold Black 2"
+  skip_translation: true
+
+- text: "UIWestButton"
+  translation: "UIWestButton"
+  skip_translation: true
+
+- text: "Archive"
+  translation: "Архив"
+
+- text: "OTHER"
+  translation: "OTHER"
+  skip_translation: true
+
+- text: "May 2025"
+  translation: "Май 2025"
+
+- text: "Aws"
+  translation: "Aws"
+  skip_translation: true
+
+- text: "Main Area Background"
+  translation: "Фон основной области"
+
+- text: "Orbitron-SemiBold Atlas Material"
+  translation: "Orbitron-SemiBold Atlas Material"
+  skip_translation: true
+
+- text: "scroll bar"
+  translation: "полоса прокрутки"
+
+- text: "S5A"
+  translation: "S5A"
+  skip_translation: true
+
+- text: "Faded Rectangle"
+  translation: "Блёклый прямоугольник"
+
+- text: "Archive Buttons Container"
+  translation: "Контейнер кнопок архива"
+
+- text: "[MA"
+  translation: "[MA"
+  skip_translation: true
+
+- text: "B!p"
+  translation: "B!p"
+  skip_translation: true
+
+- text: ":KO"
+  translation: ":KO"
+  skip_translation: true
+
+- text: "X close button"
+  translation: "Кнопка закрытия"
+
+- text: "Sching Mask"
+  translation: "Маска Sching"
+
+- text: "Headline Background"
+  translation: "Фон заголовка"
+
+- text: "Scrollbar"
+  translation: "Полоса прокрутки"
+
+- text: "OTHER_"
+  translation: "OTHER_"
+  skip_translation: true
+
+- text: "Release Notes"
+  translation: "Список изменений"
+
+- text: "Mask Shape"
+  translation: "Форма маски"
+
+- text: "GE:"
+  translation: "GE:"
+  skip_translation: true
+
+- text: "Scroll View"
+  translation: "Прокрутка"
+
+- text: "archive button_"
+  translation: "archive button_"
+  skip_translation: true
+
+- text: "Viewport"
+  translation: "Область просмотра"
+
+- text: "Yo["
+  translation: "Yo["
+  skip_translation: true
+
+- text: "Vea"
+  translation: "Vea"
+  skip_translation: true
+
+- text: "Release Notes Text"
+  translation: "Текст списка изменений"
+
+- text: "Switch Release Notes Category Button"
+  translation: "Кнопка категории списка изменений"
+
+- text: "Cf&"
+  translation: "Cf&"
+  skip_translation: true
+
+- text: "Description Text"
+  translation: "Текст описания"
+
+- text: "MaskingShape"
+  translation: "MaskingShape"
+  skip_translation: true
+
+- text: "W?ffN"
+  translation: "W?ffN"
+  skip_translation: true
+
+- text: "H2Uc"
+  translation: "H2Uc"
+  skip_translation: true
+
+- text: "Vsc"
+  translation: "Vsc"
+  skip_translation: true
+
+- text: "MDa"
+  translation: "MDa"
+  skip_translation: true
+
+- text: "UI Scroll Mask"
+  translation: "Маска прокрутки UI"
+
+- text: "Headline Text Background"
+  translation: "Фон текста заголовка"
+
+- text: "OS/2`"
+  translation: "OS/2`"
+  skip_translation: true
+
+- text: "Sliding Area"
+  translation: "Область скольжения"
+
+- text: "Shine Animation"
+  translation: "Анимация свечения"
+
+- text: "DhV"
+  translation: "DhV"
+  skip_translation: true
+
+- text: "Orbitron-SemiBold SDF"
+  translation: "Orbitron-SemiBold SDF"
+  skip_translation: true
+
+- text: "SemiBoldZ"
+  translation: "SemiBoldZ"
+  skip_translation: true
+
+- text: "Release Date Text"
+  translation: "Текст даты релиза"
+
+- text: "Version Number Text"
+  translation: "Текст номера версии"
+
+- text: "S@q="
+  translation: "S@q="
+  skip_translation: true
+
+- text: "Orbitron Superbold Black 1"
+  translation: "Orbitron Superbold Black 1"
+  skip_translation: true
+
+- text: "Headline Text Foreground"
+  translation: "Передний план текста заголовка"
+
+- text: "Archive Button"
+  translation: "Кнопка архива"
+
+- text: "Frame Image"
+  translation: "Изображение рамки"
+
+- text: "Cq="
+  translation: "Cq="
+  skip_translation: true
+
+- text: "0.2 Release Notes Hero 1 - Suitcase Bad End"
+  translation: "0.2 Герой списка изменений 1 — Чемодан плохая концовка"
+
+- text: "Hero Image"
+  translation: "Изображение героя"
+
+- text: "Release Notes Hero"
+  translation: "Герой списка изменений"
+
+- text: "ScrollRect"
+  translation: "ScrollRect"
+  skip_translation: true
+
+- text: "ZWzo"
+  translation: "ZWzo"
+  skip_translation: true
+
+- text: "Full White"
+  translation: "Полностью белый"
+
+- text: "ReleaseNotesUI"
+  translation: "ReleaseNotesUI"
+  skip_translation: true
+
+- text: "EB/!0"
+  translation: "EB/!0"
+  skip_translation: true
+
+- text: "Orbitron-SemiBold Atlas"
+  translation: "Orbitron-SemiBold Atlas"
+  skip_translation: true
+
+- text: ")29?CDFFFFFFFFFEC?:2*"
+  translation: ")29?CDFFFFFFFFFEC?:2*"
+  skip_translation: true
+
+- text: "\",4;ADFFFFFFFFFFDC?92)"
+  translation: "\\"
+  skip_translation: true
+
+- text: "$.8@GLMNNNNNNNNNNLGA8/$"
+  translation: "$.8@GLMNNNNNNNNNNLGA8/$"
+  skip_translation: true
+
+- text: "&/8?DFOSSSSSSSSSSSPNJC:1'"
+  translation: "&/8?DFOSSSSSSSSSSSPNJC:1'"
+  skip_translation: true
+
+- text: "+6@JRXZ[[[[[[[[[ZXRJA6+"
+  translation: "+6@JRXZ[[[[[[[[[ZXRJA6+"
+  skip_translation: true
+

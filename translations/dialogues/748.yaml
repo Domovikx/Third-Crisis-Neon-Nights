@@ -1,4 +1,7 @@
-- text: (No no no... Where's the blocker...?!)
-  translation: (Нет-нет-нет... Где блокиратор...?!)
-  rich_text: <i>(No no no... Where's the blocker...?!)</i>
-  rich_translation: <i>(Нет-нет-нет... Где блокиратор...?!)</i>
+# Dialogues (path_id=748)
+
+- text: "(No no no... Where's the blocker...?!)"
+  translation: "(Нет-нет-нет... Где блокиратор...?!)"
+  rich_text: "<i>(No no no... Where's the blocker...?!)</i>"
+  rich_translation: "<i>(Нет-нет-нет... Где блокиратор...?!)</i>"
+

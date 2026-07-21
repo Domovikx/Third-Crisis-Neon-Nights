@@ -1,2 +1,5 @@
-- text: Don't watch
-  translation: Не смотреть
+# Dialogues (path_id=7241)
+
+- text: "Don't watch"
+  translation: "Не смотреть"
+

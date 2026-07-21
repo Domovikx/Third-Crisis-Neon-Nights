@@ -1,0 +1,9566 @@
+# raw (bundle_level-cartelhideout_scenes_all)
+
+- text: "Volume"
+  translation: "Громкость"
+
+- text: "PlayerInteract"
+  translation: "Взаимодействие игрока"
+
+- text: "SetAnimatorBool"
+  translation: "Установить параметр аниматора"
+
+- text: "Movement2D"
+  translation: "Движение 2D"
+
+- text: "HornyEffects"
+  translation: "Эффекты возбуждения"
+
+- text: "Reflector3D"
+  translation: "Отражатель 3D"
+
+- text: "Water2D"
+  translation: "Вода 2D"
+
+- text: "DoorEntity"
+  translation: "Дверь"
+
+- text: "DrunkEffects"
+  translation: "Эффекты опьянения"
+
+- text: "UIHider"
+  translation: "Скрытие UI"
+
+- text: "Interactable"
+  translation: "Интерактив"
+
+- text: "FootstepPlayer"
+  translation: "Шаги"
+
+- text: "StatLimiter"
+  translation: "Ограничитель статов"
+
+- text: "PlayMakerGUI"
+  translation: "PlayMakerGUI"
+  skip_translation: true
+
+- text: "GenericAnimator"
+  translation: "Аниматор"
+
+- text: "Gd%"
+  translation: "Gd%"
+  skip_translation: true
+
+- text: "AstarPath"
+  translation: "AstarPath"
+  skip_translation: true
+
+- text: "TabListener"
+  translation: "Слушатель вкладок"
+
+- text: "TimelineTrigger"
+  translation: "TimelineTrigger"
+  skip_translation: true
+
+- text: "XE+"
+  translation: "XE+"
+  skip_translation: true
+
+- text: "FollowUnit"
+  translation: "Следование за юнитом"
+
+- text: "J)f"
+  translation: "J)f"
+  skip_translation: true
+
+- text: "Obstructor3D"
+  translation: "Препятствие 3D"
+
+- text: "AIController"
+  translation: "ИИ контроллер"
+
+- text: "RVOController"
+  translation: "RVOController"
+  skip_translation: true
+
+- text: "FakeMirror"
+  translation: "Фейковое зеркало"
+
+- text: "Parallax_Mover"
+  translation: "Движение параллакса"
+
+- text: "E5t"
+  translation: "E5t"
+  skip_translation: true
+
+- text: "EaseFillToStat"
+  translation: "Заполнение стата"
+
+- text: "PauseInput"
+  translation: "Пауза ввода"
+
+- text: "Trigger"
+  translation: "Триггер"
+
+- text: "HealthHandler"
+  translation: "Обработчик здоровья"
+
+- text: "RVOSimulator7"
+  translation: "RVOSimulator7"
+  skip_translation: true
+
+- text: "RVOSimulator"
+  translation: "RVOSimulator"
+  skip_translation: true
+
+- text: "SoftMask"
+  translation: "SoftMask"
+  skip_translation: true
+
+- text: "SoftMasking"
+  translation: "SoftMasking"
+  skip_translation: true
+
+- text: "HLv"
+  translation: "HLv"
+  skip_translation: true
+
+- text: "OrderRenderer"
+  translation: "OrderRenderer"
+  skip_translation: true
+
+- text: "NTeR"
+  translation: "NTeR"
+  skip_translation: true
+
+- text: "SoftMaskable"
+  translation: "SoftMaskable"
+  skip_translation: true
+
+- text: "FollowerEntity"
+  translation: "Сущность-последователь"
+
+- text: "Pathfinding"
+  translation: "Поиск пути"
+
+- text: "GUIDGenerator"
+  translation: "GUIDGenerator"
+  skip_translation: true
+
+- text: "ActivationTrack"
+  translation: "ActivationTrack"
+  skip_translation: true
+
+- text: "AnimationTrack"
+  translation: "AnimationTrack"
+  skip_translation: true
+
+- text: "VolumeProfile"
+  translation: "VolumeProfile"
+  skip_translation: true
+
+- text: "TimelineAsset"
+  translation: "TimelineAsset"
+  skip_translation: true
+
+- text: "AudioTrack"
+  translation: "AudioTrack"
+  skip_translation: true
+
+- text: "AudioCache"
+  translation: "AudioCache"
+  skip_translation: true
+
+- text: "EquipmentList"
+  translation: "Список экипировки"
+
+- text: "Bloom"
+  translation: "Bloom"
+  skip_translation: true
+
+- text: "MenuRequester"
+  translation: "Запрос меню"
+
+- text: "CC_Spine_Hair"
+  translation: "Волосы позвоночника"
+
+- text: "GameOverMenu"
+  translation: "Меню проигрыша"
+
+- text: "DepthOfField"
+  translation: "DepthOfField"
+  skip_translation: true
+
+- text: "PlayableTrack"
+  translation: "PlayableTrack"
+  skip_translation: true
+
+- text: "PlayDialogue"
+  translation: "Воспроизвести диалог"
+
+- text: "KeyItem"
+  translation: "Ключевой предмет"
+
+- text: "InitCutscene"
+  translation: "Запустить кат-сцену"
+
+- text: "LensDistortion"
+  translation: "LensDistortion"
+  skip_translation: true
+
+- text: "R?g"
+  translation: "R?g"
+  skip_translation: true
+
+- text: "Hwn"
+  translation: "Hwn"
+  skip_translation: true
+
+- text: "UILocalization"
+  translation: "Локализация UI"
+
+- text: "PlaySound"
+  translation: "Воспроизвести звук"
+
+- text: "Sprites-Default"
+  translation: "Sprites-Default"
+  skip_translation: true
+
+- text: "Shader Graphs_Sprite Hologram Unlit"
+  translation: "Shader Graphs_Sprite Hologram Unlit"
+  skip_translation: true
+
+- text: "SideFadedShadow Long"
+  translation: "Тень сбоку длинная"
+
+- text: "Sprite-Lit-CornerFade Instance _LewdGas 1"
+  translation: "Sprite-Lit-CornerFade Instance _LewdGas 1"
+  skip_translation: true
+
+- text: "SideFadedShadow Short"
+  translation: "Тень сбоку короткая"
+
+- text: "FakeMirror Material"
+  translation: "Материал фейкового зеркала"
+
+- text: "MOTIONVECTORS"
+  translation: "MOTIONVECTORS"
+  skip_translation: true
+
+- text: "Om?"
+  translation: "Om?"
+  skip_translation: true
+
+- text: "Sprite"
+  translation: "Спрайт"
+
+- text: "ethnocentric rg it SDF 1"
+  translation: "ethnocentric rg it SDF 1"
+  skip_translation: true
+
+- text: "ethnocentric rg it SDF"
+  translation: "ethnocentric rg it SDF"
+  skip_translation: true
+
+- text: "ethnocentric rg it Atlas Material"
+  translation: "ethnocentric rg it Atlas Material"
+  skip_translation: true
+
+- text: "Shader Graphs_Sprite-Lit-CornerFade"
+  translation: "Shader Graphs_Sprite-Lit-CornerFade"
+  skip_translation: true
+
+- text: "Orbitron-Black Atlas Material"
+  translation: "Orbitron-Black Atlas Material"
+  skip_translation: true
+
+- text: "DoorClosed"
+  translation: "Дверь закрыта"
+
+- text: "Locked Idle"
+  translation: "Ожидание: заперто"
+
+- text: "Unlocked Idle"
+  translation: "Ожидание: отперто"
+
+- text: "Recorded"
+  translation: "Записано"
+
+- text: "Sc?J"
+  translation: "Sc?J"
+  skip_translation: true
+
+- text: "Sc?"
+  translation: "Sc?"
+  skip_translation: true
+
+- text: "SsA"
+  translation: "SsA"
+  skip_translation: true
+
+- text: "A33[B"
+  translation: "A33[B"
+  skip_translation: true
+
+- text: "ADD[B"
+  translation: "ADD[B"
+  skip_translation: true
+
+- text: "ADDxB"
+  translation: "ADDxB"
+  skip_translation: true
+
+- text: "?DD4A"
+  translation: "?DD4A"
+  skip_translation: true
+
+- text: "UUSB"
+  translation: "UUSB"
+  skip_translation: true
+
+- text: "TNE"
+  translation: "TNE"
+  skip_translation: true
+
+- text: "EtA"
+  translation: "EtA"
+  skip_translation: true
+
+- text: "GA?"
+  translation: "GA?"
+  skip_translation: true
+
+- text: "QIP"
+  translation: "QIP"
+  skip_translation: true
+
+- text: "Locked Attempt Open"
+  translation: "Попытка открыть: заперто"
+
+- text: "DoorOpening"
+  translation: "Дверь открывается"
+
+- text: "DoorClosing"
+  translation: "Дверь закрывается"
+
+- text: "]&XA"
+  translation: "]&XA"
+  skip_translation: true
+
+- text: "Ss@"
+  translation: "Ss@"
+  skip_translation: true
+
+- text: "C9Ec"
+  translation: "C9Ec"
+  skip_translation: true
+
+- text: "DDd@"
+  translation: "DDd@"
+  skip_translation: true
+
+- text: "UU-A"
+  translation: "UU-A"
+  skip_translation: true
+
+- text: "UUAA"
+  translation: "UUAA"
+  skip_translation: true
+
+- text: "Heart"
+  translation: "Сердце"
+
+- text: "Unlocked Attempt Open"
+  translation: "Попытка открыть: отперто"
+
+- text: "DoorOpen"
+  translation: "Дверь открыта"
+
+- text: "ZA33kA"
+  translation: "ZA33kA"
+  skip_translation: true
+
+- text: "Bff&?"
+  translation: "Bff&?"
+  skip_translation: true
+
+- text: "DBUUU?"
+  translation: "DBUUU?"
+  skip_translation: true
+
+- text: "PB\"\"b?"
+  translation: "PB\"\"b?"
+  skip_translation: true
+
+- text: "TBfff?"
+  translation: "TBfff?"
+  skip_translation: true
+
+- text: "Cff"
+  translation: "Cff"
+  skip_translation: true
+
+- text: "CUU%@"
+  translation: "CUU%@"
+  skip_translation: true
+
+- text: "Cff&@"
+  translation: "Cff&@"
+  skip_translation: true
+
+- text: "Cww'@"
+  translation: "Cww'@"
+  skip_translation: true
+
+- text: ")CUU5@"
+  translation: ")CUU5@"
+  skip_translation: true
+
+- text: "8CUUE@"
+  translation: "8CUUE@"
+  skip_translation: true
+
+- text: "EC33S@"
+  translation: "EC33S@"
+  skip_translation: true
+
+- text: "GCUUU@"
+  translation: "GCUUU@"
+  skip_translation: true
+
+- text: "HCffV@"
+  translation: "HCffV@"
+  skip_translation: true
+
+- text: "ICwwW@"
+  translation: "ICwwW@"
+  skip_translation: true
+
+- text: "SC\"\"b@"
+  translation: "SC\"\"b@"
+  skip_translation: true
+
+- text: "TC33c@"
+  translation: "TC33c@"
+  skip_translation: true
+
+- text: "UCDDd@"
+  translation: "UCDDd@"
+  skip_translation: true
+
+- text: "VCUUe@"
+  translation: "VCUUe@"
+  skip_translation: true
+
+- text: "WCfff@"
+  translation: "WCfff@"
+  skip_translation: true
+
+- text: "XCwwg@"
+  translation: "XCwwg@"
+  skip_translation: true
+
+- text: "LAff"
+  translation: "LAff"
+  skip_translation: true
+
+- text: "GameOverAnim"
+  translation: "Анимация проигрыша"
+
+- text: "SzBC"
+  translation: "SzBC"
+  skip_translation: true
+
+- text: "Chq"
+  translation: "Chq"
+  skip_translation: true
+
+- text: "R$E"
+  translation: "R$E"
+  skip_translation: true
+
+- text: "`l B)"
+  translation: "`l B)"
+  skip_translation: true
+
+- text: "SL5y"
+  translation: "SL5y"
+  skip_translation: true
+
+- text: "GameOver_Idle"
+  translation: "Проигрыш_бездействие"
+
+- text: "BnfW"
+  translation: "BnfW"
+  skip_translation: true
+
+- text: "Perversion Interference 1"
+  translation: "Помехи извращения 1"
+
+- text: "LjC"
+  translation: "LjC"
+  skip_translation: true
+
+- text: "BYU"
+  translation: "BYU"
+  skip_translation: true
+
+- text: "Cum Droop"
+  translation: "Свисание спермы"
+
+- text: "LvlUpMove"
+  translation: "Движение повышения уровня"
+
+- text: "Ly/"
+  translation: "Ly/"
+  skip_translation: true
+
+- text: "Fog"
+  translation: "Туман"
+
+- text: "CutIn - BoobsNude Nipples Go Errect - FadeIn"
+  translation: "Вставка - ГрудьОбнажена Соски Твердеют - Появление"
+
+- text: "CutIn - Basic - FadeIn"
+  translation: "Вставка - Базовая - Появление"
+
+- text: "P;E"
+  translation: "P;E"
+  skip_translation: true
+
+- text: "GiA"
+  translation: "GiA"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 24"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 24"
+
+- text: "Poses/Awkward2"
+  translation: "Позы/Неловко2"
+
+- text: "GlowingHole"
+  translation: "Светящаяся дырочка"
+
+- text: "LimbEffect_Bodywriting - WHORE"
+  translation: "Эффект конечностей_Надписи на теле - ШЛЮХА"
+
+- text: "Bodywriting - Tallymark"
+  translation: "Надписи на теле - Засечки"
+
+- text: "Torso"
+  translation: "Торс"
+
+- text: "LimbEffect_Bodywriting - Tallymark Front Thigh"
+  translation: "Эффект конечностей_Надписи на теле - Засечки переднее бедро"
+
+- text: "Bodywriting - Tallymark Front Thigh"
+  translation: "Надписи на теле - Засечки переднее бедро"
+
+- text: "RightLeg"
+  translation: "Правая нога"
+
+- text: "Other Dialogue Presets"
+  translation: "Другие пресеты диалогов"
+
+- text: "Narrator"
+  translation: "Рассказчик"
+
+- text: "LimbEffect_Swollen Pussy"
+  translation: "Эффект конечностей_Опухшая киска"
+
+- text: "Swollen Pussy"
+  translation: "Опухшая киска"
+
+- text: "Hickeys"
+  translation: "Засосы"
+
+- text: "LeftArm"
+  translation: "Левая рука"
+
+- text: "RightArm"
+  translation: "Правая рука"
+
+- text: "BoobBack"
+  translation: "Грудь сзади"
+
+- text: "BoobFront"
+  translation: "Грудь спереди"
+
+- text: "LeftLeg"
+  translation: "Левая нога"
+
+- text: "Suitcase Bad End - Final Sex Scene"
+  translation: "Чемодан Плохая Концовка - Финальная секс-сцена"
+
+- text: "She"
+  translation: "Она"
+
+- text: "LimbEffect_Swollen Nipples"
+  translation: "Эффект конечностей_Опухшие соски"
+
+- text: "Swollen Nipples"
+  translation: "Опухшие соски"
+
+- text: "Sweaty"
+  translation: "Потная"
+
+- text: "Head"
+  translation: "Голова"
+
+- text: "LimbEffect_Ruffled Hair"
+  translation: "Эффект конечностей_Взъерошенные волосы"
+
+- text: "Ruffled Hair"
+  translation: "Взъерошенные волосы"
+
+- text: "LimbEffect_Sticky Thighs"
+  translation: "Эффект конечностей_Липкие бёдра"
+
+- text: "Sticky Thighs"
+  translation: "Липкие бёдра"
+
+- text: "Male_Cartel_3"
+  translation: "Мужчина_Картель_3"
+
+- text: "Cartel Member"
+  translation: "Член картеля"
+
+- text: "Male_Cartel_3 Variant 2"
+  translation: "Мужчина_Картель_3 Вариант 2"
+
+- text: "LimbEffect_Bodywriting - Tallymark Back Thigh"
+  translation: "Эффект конечностей_Надписи на теле - Засечки заднее бедро"
+
+- text: "Bodywriting - Tallymark Back Thigh"
+  translation: "Надписи на теле - Засечки заднее бедро"
+
+- text: "Male_Cartel_3 Variant"
+  translation: "Мужчина_Картель_3 Вариант"
+
+- text: "Bitemarks"
+  translation: "Следы укусов"
+
+- text: "SuitcaseBadend - CartelHideout - 1"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 1"
+
+- text: "Huh?"
+  translation: "А?"
+
+- text: "Male_Cartel_4"
+  translation: "Мужчина_Картель_4"
+
+- text: "SuitcaseBadend - CartelHideout - 2"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 2"
+
+- text: "LimbEffect_Ruined Makeup"
+  translation: "Эффект конечностей_Испорченный макияж"
+
+- text: "Ruined Makeup"
+  translation: "Испорченный макияж"
+
+- text: "LimbEffect_Cum Leaking"
+  translation: "Эффект конечностей_Сперма вытекает"
+
+- text: "Cum Leaking"
+  translation: "Сперма вытекает"
+
+- text: "LimbEffect_Bodywriting - SLUT"
+  translation: "Эффект конечностей_Надписи на теле - ШЛЮХА"
+
+- text: "Bodywriting - SLUT"
+  translation: "Надписи на теле - ШЛЮХА"
+
+- text: "SuitcaseBadend - CartelHideout - Trying to Exit"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - Попытка выйти"
+
+- text: "Poses/Awkward"
+  translation: "Позы/Неловко"
+
+- text: "Char_Klaudia"
+  translation: "Перс_Клавдия"
+
+- text: "SuitcaseBadend - CartelHideout - 14"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 14"
+
+- text: "SuitcaseBadend - CartelHideout - 27"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 27"
+
+- text: "SuitcaseBadend - CartelHideout - 15"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 15"
+
+- text: "SuitcaseBadend - CartelHideout - 40 - Video 2"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 40 - Видео 2"
+
+- text: "SuitcaseBadend - CartelHideout - 10"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 10"
+
+- text: "SuitcaseBadend - CartelHideout - 42"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 42"
+
+- text: "SuitcaseBadend - CartelHideout - 20"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 20"
+
+- text: "SuitcaseBadend - CartelHideout - 17"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 17"
+
+- text: "SuitcaseBadend - CartelHideout - 31"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 31"
+
+- text: "SuitcaseBadend - CartelHideout - 40 - Video 1"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 40 - Видео 1"
+
+- text: "SuitcaseBadend - CartelHideout - 41"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 41"
+
+- text: "SuitcaseBadend - CartelHideout - 18"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 18"
+
+- text: "SuitcaseBadend - CartelHideout - 13"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 13"
+
+- text: "SuitcaseBadend - CartelHideout - 26"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 26"
+
+- text: "SuitcaseBadend - CartelHideout - 9"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 9"
+
+- text: "SuitcaseBadend - CartelHideout - 11"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 11"
+
+- text: "SuitcaseBadend - CartelHideout - 28"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 28"
+
+- text: "SuitcaseBadend - CartelHideout - 3"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 3"
+
+- text: "SuitcaseBadend - CartelHideout - 25"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 25"
+
+- text: "SuitcaseBadend - CartelHideout - 7"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 7"
+
+- text: "SuitcaseBadend - CartelHideout - 34"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 34"
+
+- text: "SuitcaseBadend - CartelHideout - 32"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 32"
+
+- text: "SuitcaseBadend - CartelHideout - 5"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 5"
+
+- text: "SuitcaseBadend - CartelHideout - 30"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 30"
+
+- text: "SuitcaseBadend - CartelHideout - 8"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 8"
+
+- text: "SuitcaseBadend - CartelHideout - 23"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 23"
+
+- text: "SuitcaseBadend - CartelHideout - 21"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 21"
+
+- text: "SuitcaseBadend - CartelHideout - 4"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 4"
+
+- text: "SuitcaseBadend - CartelHideout - 6"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 6"
+
+- text: "SuitcaseBadend - CartelHideout - 16"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 16"
+
+- text: "SuitcaseBadend - CartelHideout - 22"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 22"
+
+- text: "Louder!"
+  translation: "Громче!"
+
+- text: "SuitcaseBadend - CartelHideout - 29"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 29"
+
+- text: "SuitcaseBadend - CartelHideout - 33"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 33"
+
+- text: "SuitcaseBadend - CartelHideout - 19"
+  translation: "ЧемоданПлохаяКонцовка - УбежищеКартеля - 19"
+
+- text: "Klaudia Arm Dialogue"
+  translation: "Клавдия Диалог про руку"
+
+- text: "Klaudia Heels Dialogue"
+  translation: "Клавдия Диалог про каблуки"
+
+- text: "Klaudia Breasts Dialogue"
+  translation: "Клавдия Диалог про грудь"
+
+- text: "Klaudia Knee Dialogue"
+  translation: "Клавдия Диалог про колено"
+
+- text: "Klaudia Chips Dialogue"
+  translation: "Клавдия Диалог про чипсы"
+
+- text: "Klaudia Breasts Dialogue 2"
+  translation: "Клавдия Диалог про грудь 2"
+
+- text: "Klaudia Cigarette Dialogue"
+  translation: "Клавдия Диалог про сигарету"
+
+- text: "LimbEffect_Pussy Wetness 1"
+  translation: "Эффект конечностей_Влажность киски 1"
+
+- text: "Wet Pussy"
+  translation: "Мокрая киска"
+
+- text: "LimbEffect_Pussy Wetness 2"
+  translation: "Эффект конечностей_Влажность киски 2"
+
+- text: "Drenched Pussy"
+  translation: "Промокшая киска"
+
+- text: "Orbitron UI Black Outline NotifEntry"
+  translation: "Orbitron UI Black Outline NotifEntry"
+  skip_translation: true
+
+- text: "Italic"
+  translation: "Курсив"
+
+- text: "Orbitron-Black SDF"
+  translation: "Orbitron-Black SDF"
+  skip_translation: true
+
+- text: "Black"
+  translation: "Чёрный"
+
+- text: "Klaudia Heels Inspection"
+  translation: "Клавдия Осмотр каблуков"
+
+- text: "Heels"
+  translation: "Каблуки"
+
+- text: "Klaudia Arm Inspection"
+  translation: "Клавдия Осмотр руки"
+
+- text: "Arm"
+  translation: "Рука"
+
+- text: "Klaudia Cigarette Inspection"
+  translation: "Клавдия Осмотр сигареты"
+
+- text: "Cigarette"
+  translation: "Сигарета"
+
+- text: "Klaudia Chips Inspection"
+  translation: "Клавдия Осмотр чипсов"
+
+- text: "Chips"
+  translation: "Чипсы"
+
+- text: "Klaudia Breasts Inspection"
+  translation: "Клавдия Осмотр груди"
+
+- text: "Breasts"
+  translation: "Грудь"
+
+- text: "Character Keys/Did stare at Klaudias Boobs"
+  translation: "Ключи персонажа/Пялился на сиськи Клавдии"
+
+- text: "Klaudia Knee Inspection"
+  translation: "Клавдия Осмотр колена"
+
+- text: "Knee"
+  translation: "Колено"
+
+- text: "Masked"
+  translation: "В маске"
+
+- text: "White"
+  translation: "Белый"
+
+- text: "Vignette"
+  translation: "Vignette"
+  skip_translation: true
+
+- text: "Knob_NoOutline"
+  translation: "Ручка_Без контура"
+
+- text: "FakeMirror Cartel Hideout Background"
+  translation: "Фейковое зеркало Фон убежища картеля"
+
+- text: "Zoey Outfit Laying"
+  translation: "Зои Наряд лёжа"
+
+- text: "Zoey Coat Laying"
+  translation: "Зои Пальто лёжа"
+
+- text: "FakeMirror Grime NormalMap"
+  translation: "FakeMirror Grime NormalMap"
+  skip_translation: true
+
+- text: "&,16;?CEGGMJGGEB?;61-(#"
+  translation: "&,16;?CEGGMJGGEB?;61-(#"
+  skip_translation: true
+
+- text: "'-39?DHLOQQOOMJFB=71+&"
+  translation: "'-39?DHLOQQOOMJFB=71+&"
+  skip_translation: true
+
+- text: "&.4;BHNTY]_`^][WRLFA;4.'$"
+  translation: "&.4;BHNTY]_`^][WRLFA;4.'$"
+  skip_translation: true
+
+- text: "PortraitKlaudia"
+  translation: "ПортретКлавдия"
+
+- text: "ethnocentric rg it Atlas"
+  translation: "ethnocentric rg it Atlas"
+  skip_translation: true
+
+- text: "\"*27=CGIMOQRRQNKGFB;71(\""
+  translation: "\"*27=CGIMOQRRQNKGFB;71(\""
+  skip_translation: true
+
+- text: "#,/8?DFJNOQRRPNKGEA:60)"
+  translation: "#,/8?DFJNOQRRPNKGEA:60)"
+  skip_translation: true
+
+- text: "(19@EGGGGGGGGGGFD?80&"
+  translation: "(19@EGGGGGGGGGGFD?80&"
+  skip_translation: true
+
+- text: "Lio_overworld_2"
+  translation: "Lio_overworld_2"
+  skip_translation: true
+
+- text: "Lio_overworld_4"
+  translation: "Lio_overworld_4"
+  skip_translation: true
+
+- text: "Lio_overworld_3"
+  translation: "Lio_overworld_3"
+  skip_translation: true
+
+- text: "PEF"
+  translation: "PEF"
+  skip_translation: true
+
+- text: "PUK"
+  translation: "PUK"
+  skip_translation: true
+
+- text: "PEO"
+  translation: "PEO"
+  skip_translation: true
+
+- text: "PUT"
+  translation: "PUT"
+  skip_translation: true
+
+- text: "Pi]"
+  translation: "Pi]"
+  skip_translation: true
+
+- text: "P,x"
+  translation: "P,x"
+  skip_translation: true
+
+- text: "Lio_overworld"
+  translation: "Lio_overworld"
+  skip_translation: true
+
+- text: "WeatherBear 1"
+  translation: "ПогодаМедведь 1"
+
+- text: "Button Default"
+  translation: "Кнопка по умолчанию"
+
+- text: "UIElement1"
+  translation: "UIElement1"
+  skip_translation: true
+
+- text: "Orbitron-Black Atlas"
+  translation: "Orbitron-Black Atlas"
+  skip_translation: true
+
+- text: "GameOverText"
+  translation: "Текст проигрыша"
+
+- text: "WeatherBear 2"
+  translation: "ПогодаМедведь 2"
+
+- text: "WeatherBear 4"
+  translation: "ПогодаМедведь 4"
+
+- text: "WeatherBear 3"
+  translation: "ПогодаМедведь 3"
+
+- text: "UIElement2"
+  translation: "UIElement2"
+  skip_translation: true
+
+- text: "IE_MUN_CH RA 17G0-"
+  translation: "IE_MUN_CH RA 17G0-"
+  skip_translation: true
+
+- text: "Retry Sprite"
+  translation: "Спрайт повтора"
+
+- text: "bearweather 3"
+  translation: "медведьпогода 3"
+
+- text: "bearweather 1"
+  translation: "медведьпогода 1"
+
+- text: "UI element 1"
+  translation: "Элемент UI 1"
+
+- text: "Button Hover"
+  translation: "Наведение на кнопку"
+
+- text: "OBEY baked"
+  translation: "OBEY запечённый"
+
+- text: "UI element 2"
+  translation: "Элемент UI 2"
+
+- text: "Skip Sprite"
+  translation: "Спрайт пропуска"
+
+- text: "SUBMIT baked"
+  translation: "SUBMIT запечённый"
+
+- text: "FUFUFU baked"
+  translation: "FUFUFU запечённый"
+
+- text: "bearweather 2"
+  translation: "медведьпогода 2"
+
+- text: "please add glitch effect!"
+  translation: "пожалуйста добавьте эффект глитча!"
+
+- text: "Button Shadow"
+  translation: "Тень кнопки"
+
+- text: "Kanoji"
+  translation: "Канодзи"
+
+- text: "Ew?"
+  translation: "Фу?"
+
+- text: "MainMenu"
+  translation: "Главное меню"
+
+- text: "ethnocentric rg it"
+  translation: "ethnocentric rg it"
+  skip_translation: true
+
+- text: "GPOSS"
+  translation: "GPOSS"
+  skip_translation: true
+
+- text: "OS/2axX"
+  translation: "OS/2axX"
+  skip_translation: true
+
+- text: "Dix"
+  translation: "Дикс"
+
+- text: "MQQpnyx"
+  translation: "MQQpnyx"
+  skip_translation: true
+
+- text: "O9 %A"
+  translation: "O9 %A"
+  skip_translation: true
+
+- text: "O9 &A"
+  translation: "O9 &A"
+  skip_translation: true
+
+- text: "KxTYi"
+  translation: "KxTYi"
+  skip_translation: true
+
+- text: "SFM`E"
+  translation: "SFM`E"
+  skip_translation: true
+
+- text: "OOL"
+  translation: "OOL"
+  skip_translation: true
+
+- text: "K\\gch"
+  translation: "K\\gch"
+  skip_translation: true
+
+- text: "PT_vd"
+  translation: "PT_vd"
+  skip_translation: true
+
+- text: "SFMbEW"
+  translation: "SFMbEW"
+  skip_translation: true
+
+- text: "Wsd"
+  translation: "Wsd"
+  skip_translation: true
+
+- text: "ObFY1"
+  translation: "ObFY1"
+  skip_translation: true
+
+- text: "SFLaE"
+  translation: "SFLaE"
+  skip_translation: true
+
+- text: "RFLaE"
+  translation: "RFLaE"
+  skip_translation: true
+
+- text: "MQQonzx"
+  translation: "MQQonzx"
+  skip_translation: true
+
+- text: "S%Tx"
+  translation: "S%Tx"
+  skip_translation: true
+
+- text: "VesTG"
+  translation: "VesTG"
+  skip_translation: true
+
+- text: "J\\gdh"
+  translation: "J\\gdh"
+  skip_translation: true
+
+- text: "Sentinel Type - BigNoodleTooOblique"
+  translation: "Sentinel Type - BigNoodleTooOblique"
+  skip_translation: true
+
+- text: "OS/2"
+  translation: "OS/2"
+  skip_translation: true
+
+- text: "Zhead"
+  translation: "Zhead"
+  skip_translation: true
+
+- text: "Hmaxp"
+  translation: "Hmaxp"
+  skip_translation: true
+
+- text: "AcA"
+  translation: "AcA"
+  skip_translation: true
+
+- text: "B$BgB"
+  translation: "B$BgB"
+  skip_translation: true
+
+- text: "C6CtC"
+  translation: "C6CtC"
+  skip_translation: true
+
+- text: "EDE"
+  translation: "EDE"
+  skip_translation: true
+
+- text: "IWI"
+  translation: "IWI"
+  skip_translation: true
+
+- text: "KcK"
+  translation: "KcK"
+  skip_translation: true
+
+- text: "LNLwL"
+  translation: "LNLwL"
+  skip_translation: true
+
+- text: "PqP"
+  translation: "PqP"
+  skip_translation: true
+
+- text: "U/U"
+  translation: "U/U"
+  skip_translation: true
+
+- text: "X1XtX"
+  translation: "X1XtX"
+  skip_translation: true
+
+- text: "d dZd"
+  translation: "d dZd"
+  skip_translation: true
+
+- text: "G_tq"
+  translation: "G_tq"
+  skip_translation: true
+
+- text: "R|goQ"
+  translation: "R|goQ"
+  skip_translation: true
+
+- text: "Y^xB"
+  translation: "Y^xB"
+  skip_translation: true
+
+- text: "0DSIG"
+  translation: "0DSIG"
+  skip_translation: true
+
+- text: "HGPOS"
+  translation: "HGPOS"
+  skip_translation: true
+
+- text: "Y@head"
+  translation: "Y@head"
+  skip_translation: true
+
+- text: "- -6-X-r-"
+  translation: "- -6-X-r-"
+  skip_translation: true
+
+- text: "A4A"
+  translation: "A4A"
+  skip_translation: true
+
+- text: "CVCtC"
+  translation: "CVCtC"
+  skip_translation: true
+
+- text: "E(ENEpE"
+  translation: "E(ENEpE"
+  skip_translation: true
+
+- text: "F&FHFnF"
+  translation: "F&FHFnF"
+  skip_translation: true
+
+- text: "I@I^I"
+  translation: "I@I^I"
+  skip_translation: true
+
+- text: "K0K6KLKVKhK"
+  translation: "K0K6KLKVKhK"
+  skip_translation: true
+
+- text: "G=AAD??D"
+  translation: "G=AAD??D"
+  skip_translation: true
+
+- text: "KhhKMKjjK"
+  translation: "KhhKMKjjK"
+  skip_translation: true
+
+- text: "JjfNNLhhL"
+  translation: "JjfNNLhhL"
+  skip_translation: true
+
+- text: "SPo"
+  translation: "SPo"
+  skip_translation: true
+
+- text: "H2v"
+  translation: "H2v"
+  skip_translation: true
+
+- text: "Roboto-Light"
+  translation: "Roboto-Light"
+  skip_translation: true
+
+- text: "MdM"
+  translation: "MdM"
+  skip_translation: true
+
+- text: "Le\\"
+  translation: "Le\\"
+  skip_translation: true
+
+- text: "I*`F"
+  translation: "I*`F"
+  skip_translation: true
+
+- text: "Roboto-Medium"
+  translation: "Roboto-Medium"
+  skip_translation: true
+
+- text: "HGPOS/;"
+  translation: "HGPOS/;"
+  skip_translation: true
+
+- text: "\\GSUB"
+  translation: "\\GSUB"
+  skip_translation: true
+
+- text: "T v"
+  translation: "T v"
+  skip_translation: true
+
+- text: "A0A"
+  translation: "A0A"
+  skip_translation: true
+
+- text: "CnC"
+  translation: "CnC"
+  skip_translation: true
+
+- text: "E6EXE"
+  translation: "E6EXE"
+  skip_translation: true
+
+- text: "M\"M8MBMTMzM"
+  translation: "M\"M8MBMTMzM"
+  skip_translation: true
+
+- text: "Efp"
+  translation: "Efp"
+  skip_translation: true
+
+- text: "IDBGIBCH"
+  translation: "IDBGIBCH"
+  skip_translation: true
+
+- text: "KBFDICCH"
+  translation: "KBFDICCH"
+  skip_translation: true
+
+- text: "@YXAMAZZA"
+  translation: "@YXAMAZZA"
+  skip_translation: true
+
+- text: "N]u"
+  translation: "N]u"
+  skip_translation: true
+
+- text: "Dvhpjb"
+  translation: "Dvhpjb"
+  skip_translation: true
+
+- text: "Lvj_wuX"
+  translation: "Lvj_wuX"
+  skip_translation: true
+
+- text: "Roboto-Thin"
+  translation: "Roboto-Thin"
+  skip_translation: true
+
+- text: "Mg$e"
+  translation: "Mg$e"
+  skip_translation: true
+
+- text: "Sh?1"
+  translation: "Sh?1"
+  skip_translation: true
+
+- text: "/UU"
+  translation: "/UU"
+  skip_translation: true
+
+- text: "Dl\""
+  translation: "Dl\""
+  skip_translation: true
+
+- text: "FVe"
+  translation: "FVe"
+  skip_translation: true
+
+- text: "VUx-*"
+  translation: "VUx-*"
+  skip_translation: true
+
+- text: "EKPJ"
+  translation: "EKPJ"
+  skip_translation: true
+
+- text: "MUVN"
+  translation: "MUVN"
+  skip_translation: true
+
+- text: "XAT]"
+  translation: "XAT]"
+  skip_translation: true
+
+- text: "RzvIh"
+  translation: "RzvIh"
+  skip_translation: true
+
+- text: "GS?``hp0"
+  translation: "GS?``hp0"
+  skip_translation: true
+
+- text: "HAJM"
+  translation: "HAJM"
+  skip_translation: true
+
+- text: "OQLIZ[J"
+  translation: "OQLIZ[J"
+  skip_translation: true
+
+- text: "Nd[PVP8"
+  translation: "Nd[PVP8"
+  skip_translation: true
+
+- text: "Roboto-Black"
+  translation: "Roboto-Black"
+  skip_translation: true
+
+- text: "WORDIo"
+  translation: "WORDIo"
+  skip_translation: true
+
+- text: "Io^SK"
+  translation: "Io^SK"
+  skip_translation: true
+
+- text: "2CC2M2EE2"
+  translation: "2CC2M2EE2"
+  skip_translation: true
+
+- text: "IJd"
+  translation: "IJd"
+  skip_translation: true
+
+- text: "ZTLTOW"
+  translation: "ZTLTOW"
+  skip_translation: true
+
+- text: "X@A"
+  translation: "X@A"
+  skip_translation: true
+
+- text: "B[bdU@Y"
+  translation: "B[bdU@Y"
+  skip_translation: true
+
+- text: "IbL[uoe"
+  translation: "IbL[uoe"
+  skip_translation: true
+
+- text: "G^eKja"
+  translation: "G^eKja"
+  skip_translation: true
+
+- text: "KaP^JV]CS"
+  translation: "KaP^JV]CS"
+  skip_translation: true
+
+- text: "MXrrx"
+  translation: "MXrrx"
+  skip_translation: true
+
+- text: "Orbitron-Black"
+  translation: "Orbitron-Black"
+  skip_translation: true
+
+- text: "GPOS"
+  translation: "GPOS"
+  skip_translation: true
+
+- text: "OS/2b$"
+  translation: "OS/2b$"
+  skip_translation: true
+
+- text: "Roboto-Regular"
+  translation: "Roboto-Regular"
+  skip_translation: true
+
+- text: "QLIPQJKP"
+  translation: "QLIPQJKP"
+  skip_translation: true
+
+- text: "QLIPRIJQ"
+  translation: "QLIPRIJQ"
+  skip_translation: true
+
+- text: "JgfKMJiiJ"
+  translation: "JgfKMJiiJ"
+  skip_translation: true
+
+- text: "KggKNJhhJ"
+  translation: "KggKNJhhJ"
+  skip_translation: true
+
+- text: "D|2q"
+  translation: "D|2q"
+  skip_translation: true
+
+- text: "Dea"
+  translation: "Dea"
+  skip_translation: true
+
+- text: "SpriteAtlas - Residential - Environment"
+  translation: "СпрайтАтлас - Жилой - Окружение"
+
+- text: "Updated_table_8"
+  translation: "Updated_table_8"
+  skip_translation: true
+
+- text: "Updated_table_9"
+  translation: "Updated_table_9"
+  skip_translation: true
+
+- text: "Updated_table_0"
+  translation: "Updated_table_0"
+  skip_translation: true
+
+- text: "Updated_table_1"
+  translation: "Updated_table_1"
+  skip_translation: true
+
+- text: "Updated_table_2"
+  translation: "Updated_table_2"
+  skip_translation: true
+
+- text: "Updated_table_3"
+  translation: "Updated_table_3"
+  skip_translation: true
+
+- text: "Updated_table_4"
+  translation: "Updated_table_4"
+  skip_translation: true
+
+- text: "Updated_table_5"
+  translation: "Updated_table_5"
+  skip_translation: true
+
+- text: "Updated_table_6"
+  translation: "Updated_table_6"
+  skip_translation: true
+
+- text: "Updated_table_7"
+  translation: "Updated_table_7"
+  skip_translation: true
+
+- text: "Tag02"
+  translation: "Tag02"
+  skip_translation: true
+
+- text: "Bathroom Lighting Ground'"
+  translation: "Освещение ванной пол'"
+
+- text: "Suitcase Bad End - Static Game Over Art"
+  translation: "Чемодан Плохая Концовка - Статичный арт проигрыша"
+
+- text: "Locked State Visuals"
+  translation: "Визуалы запертого состояния"
+
+- text: "%EN"
+  translation: "%EN"
+  skip_translation: true
+
+- text: "SR:1Yi"
+  translation: "SR:1Yi"
+  skip_translation: true
+
+- text: "Attempting"
+  translation: "Пытаюсь"
+
+- text: "Locked"
+  translation: "Заперто"
+
+- text: "Door_WC"
+  translation: "Дверь_Туалет"
+
+- text: "Open"
+  translation: "Открыто"
+
+- text: "DoorOpenE"
+  translation: "ДверьОткрытаE"
+
+- text: "PinupPickup"
+  translation: "Подбор пинапа"
+
+- text: "Aerial Dust Burst 2"
+  translation: "Взрыв пыли в воздухе 2"
+
+- text: "Aerial Dust Burst 20x"
+  translation: "Взрыв пыли в воздухе 20x"
+
+- text: "GameOverx"
+  translation: "Проигрышx"
+
+- text: "Aerial Dust Burst 12x"
+  translation: "Взрыв пыли в воздухе 12x"
+
+- text: "GameOverCanvas"
+  translation: "Холст проигрыша"
+
+- text: "CharNotifEntry LVL UP"
+  translation: "Уведомление персонажа ПОВЫШЕНИЕ УРОВНЯ"
+
+- text: "CMh"
+  translation: "CMh"
+  skip_translation: true
+
+- text: "Horny Vignette"
+  translation: "Виньетка возбуждения"
+
+- text: "Bad End Button"
+  translation: "Кнопка плохой концовки"
+
+- text: "CutIn - BoobsNude Nipples Go Errect"
+  translation: "Вставка - ГрудьОбнажена Соски Твердеют"
+
+- text: "Cutin - Vibrate"
+  translation: "Вставка - Вибрация"
+
+- text: "Vibrate"
+  translation: "Вибрация"
+
+- text: "CutIn - FadeIn"
+  translation: "Вставка - Появление"
+
+- text: "CutIn - Basic"
+  translation: "Вставка - Базовая"
+
+- text: "CharNotifEntry Horny"
+  translation: "Уведомление персонажа Возбуждение"
+
+- text: "CharNotifEntry Generic"
+  translation: "Уведомление персонажа Общее"
+
+- text: "Fullscreen Perversion Effect"
+  translation: "Полноэкранный эффект извращения"
+
+- text: "GameOverUI - Suitcase Variant Variant"
+  translation: "UI проигрыша - Вариант Чемодана"
+
+- text: "CharNotifEntry Perversion"
+  translation: "Уведомление персонажа Извращение"
+
+- text: "HornyVignette"
+  translation: "Виньетка возбуждения"
+
+- text: "CharNotifEntry XP"
+  translation: "Уведомление персонажа ОП"
+
+- text: "Aerial Dust Burst 12"
+  translation: "Взрыв пыли в воздухе 12"
+
+- text: "Aerial Dust Burst 20"
+  translation: "Взрыв пыли в воздухе 20"
+
+- text: "AmountLabel"
+  translation: "Метка количества"
+
+- text: "TextContainer"
+  translation: "Контейнер текста"
+
+- text: "Buttons"
+  translation: "Кнопки"
+
+- text: "ButtonPanel"
+  translation: "Панель кнопок"
+
+- text: "Fog 1"
+  translation: "Туман 1"
+
+- text: "Fog 2"
+  translation: "Туман 2"
+
+- text: "Cum"
+  translation: "Сперма"
+
+- text: "Main Parent"
+  translation: "Главный родитель"
+
+- text: "Weather Bear 1"
+  translation: "Погода Медведь 1"
+
+- text: "Top Right Element"
+  translation: "Элемент сверху справа"
+
+- text: "Text Over"
+  translation: "Текст поверх"
+
+- text: "Weather Bear 3"
+  translation: "Погода Медведь 3"
+
+- text: "Weather Bear 2"
+  translation: "Погода Медведь 2"
+
+- text: "Weather Bear 4"
+  translation: "Погода Медведь 4"
+
+- text: "Static Background"
+  translation: "Статичный фон"
+
+- text: "Main Menu Button"
+  translation: "Кнопка главного меню"
+
+- text: "Game Over on Side"
+  translation: "Проигрыш сбоку"
+
+- text: "Text Game"
+  translation: "Текст игра"
+
+- text: "Bottom Left Element"
+  translation: "Элемент снизу слева"
+
+- text: "Retry Button"
+  translation: "Кнопка повтора"
+
+- text: "XP Label"
+  translation: "Метка ОП"
+
+- text: "BlackClone"
+  translation: "Чёрный клон"
+
+- text: "RedClone"
+  translation: "Красный клон"
+
+- text: "GameOver"
+  translation: "Проигрыш"
+
+- text: "LoadLatestSave"
+  translation: "Загрузить последнее сохранение"
+
+- text: "GameObject"
+  translation: "GameObject"
+  skip_translation: true
+
+- text: "UI Element2"
+  translation: "Элемент UI 2"
+
+- text: "Fullscreen Black"
+  translation: "Полноэкранный чёрный"
+
+- text: "weatherbear 3"
+  translation: "медведьпогода 3"
+
+- text: "weatherbear 2"
+  translation: "медведьпогода 2"
+
+- text: "IE_MunCH RA"
+  translation: "IE_MunCH RA"
+  skip_translation: true
+
+- text: "UI Element 1"
+  translation: "Элемент UI 1"
+
+- text: "OBEY"
+  translation: "OBEY"
+  skip_translation: true
+
+- text: "SUBMIT"
+  translation: "Подчиниться"
+
+- text: "weatherbear 1"
+  translation: "медведьпогода 1"
+
+- text: "Shadow"
+  translation: "Тень"
+
+- text: "Main Image"
+  translation: "Главное изображение"
+
+- text: "Hover Image"
+  translation: "Изображение наведения"
+
+- text: "Cut In Fullscreen Variant - Basic - MaleBulge"
+  translation: "Вставка полноэкранная вариант - Базовая - МужскаяВыпуклость"
+
+- text: "Cut In Fullscreen Variant - BoobsNipplesShow"
+  translation: "Вставка полноэкранная вариант - ГрудьСоскиПоказать"
+
+- text: "Cut In Animation Parent"
+  translation: "Родитель анимации вставки"
+
+- text: "Cut In Image"
+  translation: "Изображение вставки"
+
+- text: "BoobsNude"
+  translation: "ГрудьОбнажена"
+
+- text: "SqueezeEffect - Remain"
+  translation: "Эффект сжатия - Остаток"
+
+- text: "SqueezeEffect"
+  translation: "Эффект сжатия"
+
+- text: "BoobsNude - Errect Nipples Impact"
+  translation: "ГрудьОбнажена - Воздействие твердеющих сосков"
+
+- text: "BoobsNude - Errect Nipples"
+  translation: "ГрудьОбнажена - Твердеющие соски"
+
+- text: "NPCVA_NPC Sex 1 - 0 Start 0"
+  translation: "NPCVA_NPC Секс 1 - 0 Старт 0"
+
+- text: "29. Pick up a NSFW Pinup v2"
+  translation: "29. Подобрать пинап 18+ v2"
+
+- text: "OU&C"
+  translation: "OU&C"
+  skip_translation: true
+
+- text: "36. Unlock door with a key card v2"
+  translation: "36. Отпереть дверь ключ-картой v2"
+
+- text: "Use Lewd Blocker"
+  translation: "Использовать блокиратор похоти"
+
+- text: "NPCVA_NPC Sex 2 - 2 Medium 0"
+  translation: "NPCVA_NPC Секс 2 - 2 Средне 0"
+
+- text: "17. Door Close"
+  translation: "17. Дверь закрывается"
+
+- text: "Zoey Horny Breathing"
+  translation: "Зои возбуждённое дыхание"
+
+- text: "16. Openr Close"
+  translation: "16. Открыто закрыто"
+
+- text: "1 - analarms"
+  translation: "1 - анальная тревога"
+
+- text: "6 - fastsex"
+  translation: "6 - быстрый секс"
+
+- text: "NPCVA_NPC Sex 1 - 1 Slow 0"
+  translation: "NPCVA_NPC Секс 1 - 1 Медленно 0"
+
+- text: "Zoey Cum trimmed"
+  translation: "Зои кончила обрезано"
+
+- text: "Zoey Cum 1 trimmed"
+  translation: "Зои кончила 1 обрезано"
+
+- text: "NPCVA_FNPC2-Aroused-Mhm 0"
+  translation: "NPCVA_FNPC2-Возбуждена-М-м 0"
+
+- text: "Erokin_Wet_1S_8"
+  translation: "Erokin_Wet_1S_8"
+  skip_translation: true
+
+- text: "NPCVA_FNPC2-Aroused-Eh 1"
+  translation: "NPCVA_FNPC2-Возбуждена-Э 1"
+
+- text: "NPCVA_FNPC2-Aroused-Giggle 0"
+  translation: "NPCVA_FNPC2-Возбуждена-Хихиканье 0"
+
+- text: "223-_color=perversion_Gah-.. S-sorry..!__color_"
+  translation: "223-_color=perversion_Ай-.. П-прости..!__color_"
+
+- text: "NPCVA_FNPC2-Aroused-Giggle 1"
+  translation: "NPCVA_FNPC2-Возбуждена-Хихиканье 1"
+
+- text: "Erokin_Wet_1S_7"
+  translation: "Erokin_Wet_1S_7"
+  skip_translation: true
+
+- text: "151-_color=perversion_I-.. Hhh...__color_"
+  translation: "151-_color=perversion_Я-.. Х-х...__color_"
+
+- text: "171-_color=perversion_Hhh-.. I-..__color_"
+  translation: "171-_color=perversion_Х-х-.. Я-..__color_"
+
+- text: "Erokin_Wet_1S_3"
+  translation: "Erokin_Wet_1S_3"
+  skip_translation: true
+
+- text: "Erokin_Wet_1S_1"
+  translation: "Erokin_Wet_1S_1"
+  skip_translation: true
+
+- text: "Erokin_Wet_1S_2"
+  translation: "Erokin_Wet_1S_2"
+  skip_translation: true
+
+- text: "Erokin_Wet_1S_4"
+  translation: "Erokin_Wet_1S_4"
+  skip_translation: true
+
+- text: "Erokin_Wet_1S_5"
+  translation: "Erokin_Wet_1S_5"
+  skip_translation: true
+
+- text: "173-_color=perversion_I-.. N-no.. Hhh..__color_"
+  translation: "173-_color=perversion_Я-.. Н-нет.. Х-х..__color_"
+
+- text: "NPCVA_FNPC2-Aroused-Huh 1"
+  translation: "NPCVA_FNPC2-Возбуждена-Хм 1"
+
+- text: "Erokin_Wet_1S_9"
+  translation: "Erokin_Wet_1S_9"
+  skip_translation: true
+
+- text: "Erokin_Wet_1S_6"
+  translation: "Erokin_Wet_1S_6"
+  skip_translation: true
+
+- text: "Undressing v1"
+  translation: "Раздевание v1"
+
+- text: "Zoey Full Horny Breathing"
+  translation: "Зои полное возбуждённое дыхание"
+
+- text: "Sex Walla Blowjob 002"
+  translation: "Секс вала минет 002"
+
+- text: "Sex Walla 3"
+  translation: "Секс вала 3"
+
+- text: "145-_color=perversion_Faster-.. Yess..__color_"
+  translation: "145-_color=perversion_Быстрее-.. Да..__color_"
+
+- text: "NPCVA_FNPC2-Aroused-Tsk 0"
+  translation: "NPCVA_FNPC2-Возбуждена-Цок 0"
+
+- text: "NPCVA_FNPC2-Happy-Giggle 1"
+  translation: "NPCVA_FNPC2-Счастлива-Хихиканье 1"
+
+- text: "NPCVA_56-Mhm"
+  translation: "NPCVA_56-М-м"
+
+- text: "95-_color=perversion_Yh-.. Yes..__color_"
+  translation: "95-_color=perversion_Аг-.. Да..__color_"
+
+- text: "Foh@"
+  translation: "Foh@"
+  skip_translation: true
+
+- text: "225-_color=perversion_My debt.. R-right..__color_"
+  translation: "225-_color=perversion_Мой долг.. Д-да..__color_"
+
+- text: "14-_color=perversion_I-.. I'm sorry-__color_"
+  translation: "14-_color=perversion_Я-.. Прости-__color_"
+
+- text: "NPCVA_58-Mhm"
+  translation: "NPCVA_58-М-м"
+
+- text: "NPCVA_57-Mhm"
+  translation: "NPCVA_57-М-м"
+
+- text: "NPCVA_FNPC2-Aroused Mm 1"
+  translation: "NPCVA_FNPC2-Возбуждена М-м 1"
+
+- text: "NPCVA_FNPC2-Angry-Mmm 1"
+  translation: "NPCVA_FNPC2-Зла-М-м 1"
+
+- text: "76-_color=perversion_Slu-.. I-.. Khh-.. __color_"
+  translation: "76-_color=perversion_Шлю-.. Я-.. Кх-.. __color_"
+
+- text: "79-_color=perversion_I-.. I'm-.. A slut..!__color_"
+  translation: "79-_color=perversion_Я-.. Я-.. Шлюха..!__color_"
+
+- text: "NPCVA_144-Tsk"
+  translation: "NPCVA_144-Цок"
+
+- text: "187-_color=perversion_Hh-.. R-right..!__color_"
+  translation: "187-_color=perversion_Х-х.. Д-да..!__color_"
+
+- text: "NPCVA_FNPC2-Aroused-Tsk 1"
+  translation: "NPCVA_FNPC2-Возбуждена-Цок 1"
+
+- text: "NPCVA_FNPC2-Happy-Mmm 2"
+  translation: "NPCVA_FNPC2-Счастлива-М-м 2"
+
+- text: "NPCVA_124-Wow"
+  translation: "NPCVA_124-Ого"
+
+- text: "NPCVA_FNPC2-Aroused Mm 2"
+  translation: "NPCVA_FNPC2-Возбуждена М-м 2"
+
+- text: "156-_color=perversion_Yess.. Pleasee..!__color_"
+  translation: "156-_color=perversion_Да.. Пожалуйста..!__color_"
+
+- text: "NPCVA_FNPC2-Happy-Sigh 0"
+  translation: "NPCVA_FNPC2-Счастлива-Вздох 0"
+
+- text: "H:sA"
+  translation: "H:sA"
+  skip_translation: true
+
+- text: "NPCVA_154-Mmm"
+  translation: "NPCVA_154-М-м"
+
+- text: "105-_color=perversion_Mnh.. Yes.. Ma'am..__color_"
+  translation: "105-_color=perversion_М-н.. Да.. Госпожа..__color_"
+
+- text: "198-_color=perversion_Khh..! Wha-!__color_"
+  translation: "198-_color=perversion_Кх..! Ч-что-!__color_"
+
+- text: "25-_color=perversion_Hh- Y-yes.. Sir..__color_"
+  translation: "25-_color=perversion_Х-х- Д-да.. Господин..__color_"
+
+- text: "62-_color=perversion_Mnhh.. Yesss...__color_"
+  translation: "62-_color=perversion_М-нн.. Да-а...__color_"
+
+- text: "NPCVA_157-Mmm"
+  translation: "NPCVA_157-М-м"
+
+- text: "235-_color=perversion_Mnhhh... Hhhh...__color_"
+  translation: "235-_color=perversion_М-ннн... Х-х-х...__color_"
+
+- text: "125-_color=perversion_I-.. I'm sorry-.. I-__color_"
+  translation: "125-_color=perversion_Я-.. Прости-.. Я-__color_"
+
+- text: "NPCVA_FNPC2-Angry-Tsk 0"
+  translation: "NPCVA_FNPC2-Зла-Цок 0"
+
+- text: "NPCVA_FNPC2-Aroused-Sigh 2"
+  translation: "NPCVA_FNPC2-Возбуждена-Вздох 2"
+
+- text: "VAZoey - 114 - What am I doing 1"
+  translation: "VAЗои - 114 - Что я делаю 1"
+
+- text: "26-_color=perversion_Hh- Y-yes.. Sir..__color_"
+  translation: "26-_color=perversion_Х-х- Д-да.. Господин..__color_"
+
+- text: "NPCVA_97-Eh"
+  translation: "NPCVA_97-Э"
+
+- text: "247-_color=perversion_New.. Life..___color_"
+  translation: "247-_color=perversion_Новая.. Жизнь..___color_"
+
+- text: "239-_color=perversion_Mmhh.. Fhhh-..__color_"
+  translation: "239-_color=perversion_М-мх.. Ф-ф-..__color_"
+
+- text: "201-_color=perversion_Khhh-..! Mnghh..!__color_"
+  translation: "201-_color=perversion_Кхх-..! М-нн..!__color_"
+
+- text: "06-_color=perversion_M-.. Mhm..__color_"
+  translation: "06-_color=perversion_М-.. М-м..__color_"
+
+- text: "NPCVA_FNPC2-Aroused-Huh 2"
+  translation: "NPCVA_FNPC2-Возбуждена-Хм 2"
+
+- text: "NPCVA_FNPC2-Aroused-Wow 0"
+  translation: "NPCVA_FNPC2-Возбуждена-Ого 0"
+
+- text: "17-_color=perversion_Not like.. This..__color_"
+  translation: "17-_color=perversion_Не так.. Как это..__color_"
+
+- text: "NPCVA_FNPC2-Angry-Mhm 0"
+  translation: "NPCVA_FNPC2-Зла-М-м 0"
+
+- text: "NPCVA_FNPC2-Angry-Yeah 0"
+  translation: "NPCVA_FNPC2-Зла-Ага 0"
+
+- text: "NPCVA_FNPC2-Aroused-Yeah 0"
+  translation: "NPCVA_FNPC2-Возбуждена-Ага 0"
+
+- text: "233-_color=perversion_Uwaaa-..! H-__color_"
+  translation: "233-_color=perversion_Уааа-..! Х-__color_"
+
+- text: "92-_color=perversion_C-.. Condoms..___color_"
+  translation: "92-_color=perversion_П-.. Презервативы..___color_"
+
+- text: "NPCVA_FNPC2-Happy-Giggle 0"
+  translation: "NPCVA_FNPC2-Счастлива-Хихиканье 0"
+
+- text: "NPCVA_131-Sigh"
+  translation: "NPCVA_131-Вздох"
+
+- text: "NPCVA_FNPC2-Aroused-Sigh 1"
+  translation: "NPCVA_FNPC2-Возбуждена-Вздох 1"
+
+- text: "51-_color=perversion_Hh-.. Khh.. Nhh..__color_"
+  translation: "51-_color=perversion_Х-х.. Кх.. Н-н..__color_"
+
+- text: "44-_color=perversion_Mnhhh.. Hhhhahhh..__color_"
+  translation: "44-_color=perversion_М-ннн.. Х-хахх..__color_"
+
+- text: "NPCVA_FNPC2-Angry-Mmm 0"
+  translation: "NPCVA_FNPC2-Зла-М-м 0"
+
+- text: "NPCVA_83-No"
+  translation: "NPCVA_83-Нет"
+
+- text: "NPCVA_FNPC2-Angry-Eh 1"
+  translation: "NPCVA_FNPC2-Зла-Э 1"
+
+- text: "NPCVA_FNPC2-Aroused-Sigh 0"
+  translation: "NPCVA_FNPC2-Возбуждена-Вздох 0"
+
+- text: "07-_color=perversion_His.. Lap..___color_"
+  translation: "07-_color=perversion_Его.. Колени..___color_"
+
+- text: "NPCVA_50-Mhm"
+  translation: "NPCVA_50-М-м"
+
+- text: "NPCVA_FNPC2-Angry-Giggle 0"
+  translation: "NPCVA_FNPC2-Зла-Хихиканье 0"
+
+- text: "115-_color=perversion_Like.. That..___color_"
+  translation: "115-_color=perversion_Как.. Так..___color_"
+
+- text: "37-_color=perversion_Hh-.. Khh.. Nhh..__color_"
+  translation: "37-_color=perversion_Х-х.. Кх.. Н-н..__color_"
+
+- text: "NPCVA_FNPC2-Angry-Giggle 1"
+  translation: "NPCVA_FNPC2-Зла-Хихиканье 1"
+
+- text: "NPCVA_FNPC2-Angry-Eh 0"
+  translation: "NPCVA_FNPC2-Зла-Э 0"
+
+- text: "NPCVA_179-Mm"
+  translation: "NPCVA_179-М"
+
+- text: "218-_color=perversion_Mnh.. I-.. N-no..__color_"
+  translation: "218-_color=perversion_М-н.. Я-.. Н-нет..__color_"
+
+- text: "NPCVA_FNPC2-Angry-Sigh 0"
+  translation: "NPCVA_FNPC2-Зла-Вздох 0"
+
+- text: "Nb)@"
+  translation: "Nb)@"
+  skip_translation: true
+
+- text: "NPCVA_178-Mm"
+  translation: "NPCVA_178-М"
+
+- text: "NPCVA_FNPC2-Angry-Nuh uh 0"
+  translation: "NPCVA_FNPC2-Зла-Не-а 0"
+
+- text: "NPCVA_FNPC2-Aroused-Eh 0"
+  translation: "NPCVA_FNPC2-Возбуждена-Э 0"
+
+- text: "NPCVA_49-Mhm"
+  translation: "NPCVA_49-М-м"
+
+- text: "NPCVA_FNPC2-Aroused-Mmm 1"
+  translation: "NPCVA_FNPC2-Возбуждена-М-м 1"
+
+- text: "113-_color=perversion_Yes, ma'am...__color_"
+  translation: "113-_color=perversion_Да, госпожа...__color_"
+
+- text: "147-_color=perversion_Hh Hh Hh..!__color_"
+  translation: "147-_color=perversion_Х-х Х-х Х-х..!__color_"
+
+- text: "NPCVA_101-Huh"
+  translation: "NPCVA_101-Хм"
+
+- text: "NPCVA_FNPC2-Aroused-Mmm 0"
+  translation: "NPCVA_FNPC2-Возбуждена-М-м 0"
+
+- text: "65-_color=perversion_Please-.. Nghh.. I-__color_"
+  translation: "65-_color=perversion_Прошу-.. Н-н.. Я-__color_"
+
+- text: "NPCVA_FNPC2-Neutral-Sigh 1"
+  translation: "NPCVA_FNPC2-Нейтральна-Вздох 1"
+
+- text: "NPCVA_145-Tsk"
+  translation: "NPCVA_145-Цок"
+
+- text: "NPCVA_158-Right"
+  translation: "NPCVA_158-Верно"
+
+- text: "Impact 0"
+  translation: "Воздействие 0"
+
+- text: "NPCVA_FNPC2-Happy-Tsk 0"
+  translation: "NPCVA_FNPC2-Счастлива-Цок 0"
+
+- text: "NPCVA_156-Mmm"
+  translation: "NPCVA_156-М-м"
+
+- text: "185-_color=perversion_M-.. my Jacket_ But-__color_"
+  translation: "185-_color=perversion_М-.. моя Куртка_ Но-__color_"
+
+- text: "128-_color=perversion_Is that-.. Better..___color_"
+  translation: "128-_color=perversion_Так-.. Лучше..___color_"
+
+- text: "10-_color=perversion_R- right..__color_"
+  translation: "10-_color=perversion_Д- да..__color_"
+
+- text: "34-_color=perversion_Kh-.. Yes, ma'am..__color_"
+  translation: "34-_color=perversion_Кх-.. Да, госпожа..__color_"
+
+- text: "135-_color=perversion_Yes, sirr.. Fhhh..__color_"
+  translation: "135-_color=perversion_Да, господин.. Ф-ф..__color_"
+
+- text: "02-Looking for something specific 1"
+  translation: "02-Ищешь что-то конкретное 1"
+
+- text: "VAZoey - 009 - Kh I I need to focus 1"
+  translation: "VAЗои - 009 - Кх Мне нужно сосредоточиться 1"
+
+- text: "VAZoey - 004 - Kh Ssorry Maam I didnt mean to 1"
+  translation: "VAЗои - 004 - Кх П-простите Госпожа я не хотел 1"
+
+- text: "Cy@"
+  translation: "Cy@"
+  skip_translation: true
+
+- text: "VAZoey - 005 - R right 1"
+  translation: "VAЗои - 005 - Д да 1"
+
+- text: "03-Aww No need to be all flustered 0"
+  translation: "03-Оу Не нужно так смущаться 0"
+
+- text: "VAZoey - 012 - I wonder what its made of 2"
+  translation: "VAЗои - 012 - Интересно из чего это сделано 2"
+
+- text: "VAZoey - 002 - Just a little peek 0"
+  translation: "VAЗои - 002 - Просто маленький взгляд 0"
+
+- text: "VAZoey - 008 - Theyre hard 2"
+  translation: "VAЗои - 008 - Они твёрдые 2"
+
+- text: "06-Just dont get your hopes up 1"
+  translation: "06-Просто не надейся 1"
+
+- text: "Audio Track"
+  translation: "Audio Track"
+  skip_translation: true
+
+- text: "UUUUUU"
+  translation: "UUUUUU"
+  skip_translation: true
+
+- text: "UUUUU"
+  translation: "UUUUU"
+  skip_translation: true
+
+- text: "Mask alpha cutoff"
+  translation: "Mask alpha cutoff"
+  skip_translation: true
+
+- text: "Fade Amount"
+  translation: "Fade Amount"
+  skip_translation: true
+
+- text: "Alpha Strength"
+  translation: "Alpha Strength"
+  skip_translation: true
+
+- text: "Alpha Power"
+  translation: "Alpha Power"
+  skip_translation: true
+
+- text: "UVRemap"
+  translation: "UVRemap"
+  skip_translation: true
+
+- text: "UVFix"
+  translation: "UVFix"
+  skip_translation: true
+
+- text: "Reflection"
+  translation: "Reflection"
+  skip_translation: true
+
+- text: "Refraction Strength"
+  translation: "Refraction Strength"
+  skip_translation: true
+
+- text: "Grime Strength"
+  translation: "Grime Strength"
+  skip_translation: true
+
+- text: "Refraction Size"
+  translation: "Refraction Size"
+  skip_translation: true
+
+- text: "Seed"
+  translation: "Seed"
+  skip_translation: true
+
+- text: "Global Brightness Multiplier"
+  translation: "Global Brightness Multiplier"
+  skip_translation: true
+
+- text: "Shear Vertical"
+  translation: "Shear Vertical"
+  skip_translation: true
+
+- text: "Shear Horizontal"
+  translation: "Shear Horizontal"
+  skip_translation: true
+
+- text: "Alpha Multiplier"
+  translation: "Alpha Multiplier"
+  skip_translation: true
+
+- text: "Horizontal Shear"
+  translation: "Horizontal Shear"
+  skip_translation: true
+
+- text: "Vertical Shear"
+  translation: "Vertical Shear"
+  skip_translation: true
+
+- text: "Wait for Button Click"
+  translation: "Ждать нажатия кнопки"
+
+- text: "Button Clicked"
+  translation: "Кнопка нажата"
+
+- text: "State 2"
+  translation: "Состояние 2"
+
+- text: "Suitcase Opened"
+  translation: "Чемодан открыт"
+
+- text: "SaveFileName"
+  translation: "Имя файла сохранения"
+
+- text: "Ga?33"
+  translation: "Ga?33"
+  skip_translation: true
+
+- text: "BVUUB"
+  translation: "BVUUB"
+  skip_translation: true
+
+- text: "As2E"
+  translation: "As2E"
+  skip_translation: true
+
+- text: "A23q"
+  translation: "A23q"
+  skip_translation: true
+
+- text: "A23S"
+  translation: "A23S"
+  skip_translation: true
+
+- text: "A23S@3"
+  translation: "A23S@3"
+  skip_translation: true
+
+- text: "A23q@ff"
+  translation: "A23q@ff"
+  skip_translation: true
+
+- text: "A23S@"
+  translation: "A23S@"
+  skip_translation: true
+
+- text: "Wall_Door"
+  translation: "Стена_Дверь"
+
+- text: ".=JI"
+  translation: ".=JI"
+  skip_translation: true
+
+- text: "A33S"
+  translation: "A33S"
+  skip_translation: true
+
+- text: "Ap="
+  translation: "Ap="
+  skip_translation: true
+
+- text: "A)\\o"
+  translation: "A)\\o"
+  skip_translation: true
+
+- text: "A33S@"
+  translation: "A33S@"
+  skip_translation: true
+
+- text: "+BI"
+  translation: "+BI"
+  skip_translation: true
+
+- text: "H=,c"
+  translation: "H=,c"
+  skip_translation: true
+
+- text: "Z?E"
+  translation: "Z?E"
+  skip_translation: true
+
+- text: "UBo"
+  translation: "UBo"
+  skip_translation: true
+
+- text: "X]E"
+  translation: "X]E"
+  skip_translation: true
+
+- text: "Bi("
+  translation: "Bi("
+  skip_translation: true
+
+- text: "EYd"
+  translation: "EYd"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_68"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_68"
+  skip_translation: true
+
+- text: "X,z"
+  translation: "X,z"
+  skip_translation: true
+
+- text: "W,z"
+  translation: "W,z"
+  skip_translation: true
+
+- text: "Ga=p="
+  translation: "Ga=p="
+  skip_translation: true
+
+- text: "Q8?p="
+  translation: "Q8?p="
+  skip_translation: true
+
+- text: "Ga=R"
+  translation: "Ga=R"
+  skip_translation: true
+
+- text: "E?fff"
+  translation: "E?fff"
+  skip_translation: true
+
+- text: "V_-O"
+  translation: "V_-O"
+  skip_translation: true
+
+- text: "#AR"
+  translation: "#AR"
+  skip_translation: true
+
+- text: "@AD"
+  translation: "@AD"
+  skip_translation: true
+
+- text: "DffrB"
+  translation: "DffrB"
+  skip_translation: true
+
+- text: ")LI"
+  translation: ")LI"
+  skip_translation: true
+
+- text: "DPf"
+  translation: "DPf"
+  skip_translation: true
+
+- text: "Ga?ff&?"
+  translation: "Ga?ff&?"
+  skip_translation: true
+
+- text: "B?ff"
+  translation: "B?ff"
+  skip_translation: true
+
+- text: "L?p="
+  translation: "L?p="
+  skip_translation: true
+
+- text: "B,o"
+  translation: "B,o"
+  skip_translation: true
+
+- text: "A3J"
+  translation: "A3J"
+  skip_translation: true
+
+- text: "Ga=)\\"
+  translation: "Ga=)\\"
+  skip_translation: true
+
+- text: "Q8=p="
+  translation: "Q8=p="
+  skip_translation: true
+
+- text: "`AD"
+  translation: "`AD"
+  skip_translation: true
+
+- text: "Ga=\\"
+  translation: "Ga=\\"
+  skip_translation: true
+
+- text: "Qx?ff&?"
+  translation: "Qx?ff&?"
+  skip_translation: true
+
+- text: "BFE"
+  translation: "BFE"
+  skip_translation: true
+
+- text: "CBv"
+  translation: "CBv"
+  skip_translation: true
+
+- text: "B?p="
+  translation: "B?p="
+  skip_translation: true
+
+- text: "GA?R"
+  translation: "GA?R"
+  skip_translation: true
+
+- text: "WnMEb"
+  translation: "WnMEb"
+  skip_translation: true
+
+- text: "WnMEbi"
+  translation: "WnMEbi"
+  skip_translation: true
+
+- text: "HsE"
+  translation: "HsE"
+  skip_translation: true
+
+- text: "WnMEb\\"
+  translation: "WnMEb\\"
+  skip_translation: true
+
+- text: "Ep\""
+  translation: "Ep\""
+  skip_translation: true
+
+- text: "WnMEb \\"
+  translation: "WnMEb \\"
+  skip_translation: true
+
+- text: "Ga=="
+  translation: "Ga=="
+  skip_translation: true
+
+- text: "WnMEb+"
+  translation: "WnMEb+"
+  skip_translation: true
+
+- text: "WnMEb=W"
+  translation: "WnMEb=W"
+  skip_translation: true
+
+- text: "0VE"
+  translation: "0VE"
+  skip_translation: true
+
+- text: "8AVE"
+  translation: "8AVE"
+  skip_translation: true
+
+- text: "`WE"
+  translation: "`WE"
+  skip_translation: true
+
+- text: "WnMEb:"
+  translation: "WnMEb:"
+  skip_translation: true
+
+- text: "WnMEbQ"
+  translation: "WnMEbQ"
+  skip_translation: true
+
+- text: "FE,"
+  translation: "FE,"
+  skip_translation: true
+
+- text: "E@p"
+  translation: "E@p"
+  skip_translation: true
+
+- text: "0KE"
+  translation: "0KE"
+  skip_translation: true
+
+- text: "WnMEbr"
+  translation: "WnMEbr"
+  skip_translation: true
+
+- text: "81KE"
+  translation: "81KE"
+  skip_translation: true
+
+- text: "GA?ffF"
+  translation: "GA?ffF"
+  skip_translation: true
+
+- text: "WnMEb\""
+  translation: "WnMEb\""
+  skip_translation: true
+
+- text: "QX?ff"
+  translation: "QX?ff"
+  skip_translation: true
+
+- text: "WnMEb4'"
+  translation: "WnMEb4'"
+  skip_translation: true
+
+- text: "WnMEbG"
+  translation: "WnMEbG"
+  skip_translation: true
+
+- text: "D8afE"
+  translation: "D8afE"
+  skip_translation: true
+
+- text: "WnMEbn"
+  translation: "WnMEbn"
+  skip_translation: true
+
+- text: "JDn"
+  translation: "JDn"
+  skip_translation: true
+
+- text: "%CU"
+  translation: "%CU"
+  skip_translation: true
+
+- text: "WnMEbW+|"
+  translation: "WnMEbW+|"
+  skip_translation: true
+
+- text: "WnMEb,"
+  translation: "WnMEb,"
+  skip_translation: true
+
+- text: "Dn`/E"
+  translation: "Dn`/E"
+  skip_translation: true
+
+- text: "WnMEb|"
+  translation: "WnMEb|"
+  skip_translation: true
+
+- text: "WnMEbebB"
+  translation: "WnMEbebB"
+  skip_translation: true
+
+- text: "PRE"
+  translation: "PRE"
+  skip_translation: true
+
+- text: "p E"
+  translation: "p E"
+  skip_translation: true
+
+- text: "WnMEb2"
+  translation: "WnMEb2"
+  skip_translation: true
+
+- text: "P_E"
+  translation: "P_E"
+  skip_translation: true
+
+- text: "WnMEbL"
+  translation: "WnMEbL"
+  skip_translation: true
+
+- text: "EBv"
+  translation: "EBv"
+  skip_translation: true
+
+- text: "Ga=fff"
+  translation: "Ga=fff"
+  skip_translation: true
+
+- text: "K?ff&"
+  translation: "K?ff&"
+  skip_translation: true
+
+- text: "WnMEbO"
+  translation: "WnMEbO"
+  skip_translation: true
+
+- text: "E@G"
+  translation: "E@G"
+  skip_translation: true
+
+- text: "n RE"
+  translation: "n RE"
+  skip_translation: true
+
+- text: "PEE"
+  translation: "PEE"
+  skip_translation: true
+
+- text: "EnPEE"
+  translation: "EnPEE"
+  skip_translation: true
+
+- text: "(TE"
+  translation: "(TE"
+  skip_translation: true
+
+- text: "G!?)\\o?"
+  translation: "G!?)\\o?"
+  skip_translation: true
+
+- text: "WnMEbe"
+  translation: "WnMEbe"
+  skip_translation: true
+
+- text: "YQE"
+  translation: "YQE"
+  skip_translation: true
+
+- text: "Dpb"
+  translation: "Dpb"
+  skip_translation: true
+
+- text: "WnMEbP"
+  translation: "WnMEbP"
+  skip_translation: true
+
+- text: "WnMEbK"
+  translation: "WnMEbK"
+  skip_translation: true
+
+- text: "WnMEbE"
+  translation: "WnMEbE"
+  skip_translation: true
+
+- text: "0YE"
+  translation: "0YE"
+  skip_translation: true
+
+- text: "WnMEbw"
+  translation: "WnMEbw"
+  skip_translation: true
+
+- text: "WnMEb_"
+  translation: "WnMEb_"
+  skip_translation: true
+
+- text: "WnMEb?"
+  translation: "WnMEb?"
+  skip_translation: true
+
+- text: "Cp\""
+  translation: "Cp\\"
+  skip_translation: true
+
+- text: "WnMEb5!"
+  translation: "WnMEb5!"
+  skip_translation: true
+
+- text: "ODB"
+  translation: "ODB"
+  skip_translation: true
+
+- text: "WnMEbg"
+  translation: "WnMEbg"
+  skip_translation: true
+
+- text: "@UE"
+  translation: "@UE"
+  skip_translation: true
+
+- text: "U?p=*"
+  translation: "U?p=*"
+  skip_translation: true
+
+- text: "WnMEbV\"_"
+  translation: "WnMEbV\"_"
+  skip_translation: true
+
+- text: "WnMEb/Fw"
+  translation: "WnMEb/Fw"
+  skip_translation: true
+
+- text: "WnMEbk"
+  translation: "WnMEbk"
+  skip_translation: true
+
+- text: "EpB"
+  translation: "EpB"
+  skip_translation: true
+
+- text: "ACU"
+  translation: "ACU"
+  skip_translation: true
+
+- text: "WnMEb="
+  translation: "WnMEb="
+  skip_translation: true
+
+- text: "Ga=33"
+  translation: "Ga=33"
+  skip_translation: true
+
+- text: "WnMEbm"
+  translation: "WnMEbm"
+  skip_translation: true
+
+- text: "WnMEbQr"
+  translation: "WnMEbQr"
+  skip_translation: true
+
+- text: "WnMEb9"
+  translation: "WnMEb9"
+  skip_translation: true
+
+- text: "WnMEbbO"
+  translation: "WnMEbbO"
+  skip_translation: true
+
+- text: "SEt"
+  translation: "SEt"
+  skip_translation: true
+
+- text: "WnMEbX2"
+  translation: "WnMEbX2"
+  skip_translation: true
+
+- text: "WnMEbX"
+  translation: "WnMEbX"
+  skip_translation: true
+
+- text: "UE8"
+  translation: "UE8"
+  skip_translation: true
+
+- text: "WnMEbrb"
+  translation: "WnMEbrb"
+  skip_translation: true
+
+- text: "WnMEb^"
+  translation: "WnMEb^"
+  skip_translation: true
+
+- text: "`XE"
+  translation: "`XE"
+  skip_translation: true
+
+- text: "BlD"
+  translation: "BlD"
+  skip_translation: true
+
+- text: "HzE"
+  translation: "HzE"
+  skip_translation: true
+
+- text: "WnMEb3"
+  translation: "WnMEb3"
+  skip_translation: true
+
+- text: "WnMEb:v"
+  translation: "WnMEb:v"
+  skip_translation: true
+
+- text: "Q?ff"
+  translation: "Q?ff"
+  skip_translation: true
+
+- text: "Epb"
+  translation: "Epb"
+  skip_translation: true
+
+- text: "P\\E"
+  translation: "P\\E"
+  skip_translation: true
+
+- text: "Ga=G"
+  translation: "Ga=G"
+  skip_translation: true
+
+- text: "Z?p="
+  translation: "Z?p="
+  skip_translation: true
+
+- text: "U?p="
+  translation: "U?p="
+  skip_translation: true
+
+- text: "WnMEb0@O"
+  translation: "WnMEb0@O"
+  skip_translation: true
+
+- text: "WnMEb5"
+  translation: "WnMEb5"
+  skip_translation: true
+
+- text: "W?ff"
+  translation: "W?ff"
+  skip_translation: true
+
+- text: "WnMEbyw"
+  translation: "WnMEbyw"
+  skip_translation: true
+
+- text: "WnMEb-!"
+  translation: "WnMEb-!"
+  skip_translation: true
+
+- text: "Q(@ff"
+  translation: "Q(@ff"
+  skip_translation: true
+
+- text: "Qh@33;"
+  translation: "Qh@33;"
+  skip_translation: true
+
+- text: "GI@"
+  translation: "GI@"
+  skip_translation: true
+
+- text: "@OE"
+  translation: "@OE"
+  skip_translation: true
+
+- text: "XWE"
+  translation: "XWE"
+  skip_translation: true
+
+- text: "WnMEbF"
+  translation: "WnMEbF"
+  skip_translation: true
+
+- text: "X'E"
+  translation: "X'E"
+  skip_translation: true
+
+- text: "WnMEb,Sq"
+  translation: "WnMEb,Sq"
+  skip_translation: true
+
+- text: "WnMEb#"
+  translation: "WnMEb#"
+  skip_translation: true
+
+- text: "Z?ff"
+  translation: "Z?ff"
+  skip_translation: true
+
+- text: "WnMEb/Tw"
+  translation: "WnMEb/Tw"
+  skip_translation: true
+
+- text: "@VE"
+  translation: "@VE"
+  skip_translation: true
+
+- text: "WnMEbuR?"
+  translation: "WnMEbuR?"
+  skip_translation: true
+
+- text: "P5E"
+  translation: "P5E"
+  skip_translation: true
+
+- text: "WnMEbv"
+  translation: "WnMEbv"
+  skip_translation: true
+
+- text: "WnMEbl"
+  translation: "WnMEbl"
+  skip_translation: true
+
+- text: "WnMEb'"
+  translation: "WnMEb'"
+  skip_translation: true
+
+- text: "WnMEbN"
+  translation: "WnMEbN"
+  skip_translation: true
+
+- text: "Ga?ff"
+  translation: "Ga?ff"
+  skip_translation: true
+
+- text: "KEw:"
+  translation: "KEw:"
+  skip_translation: true
+
+- text: "WnMEbB"
+  translation: "WnMEbB"
+  skip_translation: true
+
+- text: "E@R"
+  translation: "E@R"
+  skip_translation: true
+
+- text: "HOE"
+  translation: "HOE"
+  skip_translation: true
+
+- text: "WnMEb&"
+  translation: "WnMEb&"
+  skip_translation: true
+
+- text: "WnMEb'B"
+  translation: "WnMEb'B"
+  skip_translation: true
+
+- text: "WnMEb:|"
+  translation: "WnMEb:|"
+  skip_translation: true
+
+- text: "WnMEb*Yz$"
+  translation: "WnMEb*Yz$"
+  skip_translation: true
+
+- text: "WnMEbs"
+  translation: "WnMEbs"
+  skip_translation: true
+
+- text: "WnMEb("
+  translation: "WnMEb("
+  skip_translation: true
+
+- text: "WnMEbb"
+  translation: "WnMEbb"
+  skip_translation: true
+
+- text: "WnMEb4"
+  translation: "WnMEb4"
+  skip_translation: true
+
+- text: "GA@33"
+  translation: "GA@33"
+  skip_translation: true
+
+- text: "WnMEb8"
+  translation: "WnMEb8"
+  skip_translation: true
+
+- text: "WnMEbq"
+  translation: "WnMEbq"
+  skip_translation: true
+
+- text: "PBE"
+  translation: "PBE"
+  skip_translation: true
+
+- text: "WnMEbv@"
+  translation: "WnMEbv@"
+  skip_translation: true
+
+- text: "WnMEbR"
+  translation: "WnMEbR"
+  skip_translation: true
+
+- text: "`ZE"
+  translation: "`ZE"
+  skip_translation: true
+
+- text: "WnMEbY"
+  translation: "WnMEbY"
+  skip_translation: true
+
+- text: "D8aZE"
+  translation: "D8aZE"
+  skip_translation: true
+
+- text: "WnMEby\""
+  translation: "WnMEby\""
+  skip_translation: true
+
+- text: "WnMEbo"
+  translation: "WnMEbo"
+  skip_translation: true
+
+- text: "WnMEb%z"
+  translation: "WnMEb%z"
+  skip_translation: true
+
+- text: "WnMEbja"
+  translation: "WnMEbja"
+  skip_translation: true
+
+- text: "WnMEbz"
+  translation: "WnMEbz"
+  skip_translation: true
+
+- text: "AVD"
+  translation: "AVD"
+  skip_translation: true
+
+- text: "WnMEbS"
+  translation: "WnMEbS"
+  skip_translation: true
+
+- text: "@UD"
+  translation: "@UD"
+  skip_translation: true
+
+- text: "Q8=fff?"
+  translation: "Q8=fff?"
+  skip_translation: true
+
+- text: "E?p="
+  translation: "E?p="
+  skip_translation: true
+
+- text: "Gq@p="
+  translation: "Gq@p="
+  skip_translation: true
+
+- text: "WnMEb0*"
+  translation: "WnMEb0*"
+  skip_translation: true
+
+- text: "WnMEb|p"
+  translation: "WnMEb|p"
+  skip_translation: true
+
+- text: "WnMEbx"
+  translation: "WnMEbx"
+  skip_translation: true
+
+- text: "WnMEb]2VS"
+  translation: "WnMEb]2VS"
+  skip_translation: true
+
+- text: "WnMEb+x"
+  translation: "WnMEb+x"
+  skip_translation: true
+
+- text: "I\"W"
+  translation: "I\\"
+  skip_translation: true
+
+- text: "E?R"
+  translation: "E?R"
+  skip_translation: true
+
+- text: "CpB"
+  translation: "CpB"
+  skip_translation: true
+
+- text: "WnMEbGKO_"
+  translation: "WnMEbGKO_"
+  skip_translation: true
+
+- text: "WnMEbu"
+  translation: "WnMEbu"
+  skip_translation: true
+
+- text: "@CE"
+  translation: "@CE"
+  skip_translation: true
+
+- text: "G!?p=J?ff&?)\\O?"
+  translation: "G!?p=J?ff&?)\\\\O?"
+  skip_translation: true
+
+- text: "Ga?R"
+  translation: "Ga?R"
+  skip_translation: true
+
+- text: "Q?)\\O?"
+  translation: "Q?)\\O?"
+  skip_translation: true
+
+- text: ")\\O?G"
+  translation: ")\\O?G"
+  skip_translation: true
+
+- text: "MEp"
+  translation: "MEp"
+  skip_translation: true
+
+- text: "XhE"
+  translation: "XhE"
+  skip_translation: true
+
+- text: "WnMEbng"
+  translation: "WnMEbng"
+  skip_translation: true
+
+- text: "E?ff"
+  translation: "E?ff"
+  skip_translation: true
+
+- text: "WnMEb^*"
+  translation: "WnMEb^*"
+  skip_translation: true
+
+- text: "B\\WQE"
+  translation: "B\\\\WQE"
+  skip_translation: true
+
+- text: "Wj?"
+  translation: "Wj?"
+  skip_translation: true
+
+- text: "V@p=J?"
+  translation: "V@p=J?"
+  skip_translation: true
+
+- text: "Db@"
+  translation: "Db@"
+  skip_translation: true
+
+- text: "WnMEbj"
+  translation: "WnMEbj"
+  skip_translation: true
+
+- text: "WnMEbJV"
+  translation: "WnMEbJV"
+  skip_translation: true
+
+- text: "WnMEbmD"
+  translation: "WnMEbmD"
+  skip_translation: true
+
+- text: "En EE"
+  translation: "En EE"
+  skip_translation: true
+
+- text: "0FE"
+  translation: "0FE"
+  skip_translation: true
+
+- text: "Ga=ff"
+  translation: "Ga=ff"
+  skip_translation: true
+
+- text: "WnMEb~"
+  translation: "WnMEb~"
+  skip_translation: true
+
+- text: "DpB"
+  translation: "DpB"
+  skip_translation: true
+
+- text: "WnMEbr&X"
+  translation: "WnMEbr&X"
+  skip_translation: true
+
+- text: "D8A[E"
+  translation: "D8A[E"
+  skip_translation: true
+
+- text: "XcE"
+  translation: "XcE"
+  skip_translation: true
+
+- text: "DBv"
+  translation: "DBv"
+  skip_translation: true
+
+- text: "Y?q=*@"
+  translation: "Y?q=*@"
+  skip_translation: true
+
+- text: "W?p="
+  translation: "W?p="
+  skip_translation: true
+
+- text: "@ID"
+  translation: "@ID"
+  skip_translation: true
+
+- text: "Ga=33s?"
+  translation: "Ga=33s?"
+  skip_translation: true
+
+- text: "Y?fff"
+  translation: "Y?fff"
+  skip_translation: true
+
+- text: "RZO_"
+  translation: "RZO_"
+  skip_translation: true
+
+- text: "@ED"
+  translation: "@ED"
+  skip_translation: true
+
+- text: "T)PVA"
+  translation: "T)PVA"
+  skip_translation: true
+
+- text: "Ga?="
+  translation: "Ga?="
+  skip_translation: true
+
+- text: "~ zC"
+  translation: "~ zC"
+  skip_translation: true
+
+- text: "Bathroom Lighting Ground"
+  translation: "Bathroom Lighting Ground"
+  skip_translation: true
+
+- text: "PYj"
+  translation: "PYj"
+  skip_translation: true
+
+- text: "GA?)\\"
+  translation: "GA?)\\\\"
+  skip_translation: true
+
+- text: "Mn8"
+  translation: "Mn8"
+  skip_translation: true
+
+- text: "Q8=ff&?"
+  translation: "Q8=ff&?"
+  skip_translation: true
+
+- text: "`ED"
+  translation: "`ED"
+  skip_translation: true
+
+- text: "Ga?)\\"
+  translation: "Ga?)\\\\"
+  skip_translation: true
+
+- text: "Nyu"
+  translation: "Nyu"
+  skip_translation: true
+
+- text: "Windows_grey_22"
+  translation: "Windows_grey_22"
+  skip_translation: true
+
+- text: "S?k"
+  translation: "S?k"
+  skip_translation: true
+
+- text: "Windows_grey_19"
+  translation: "Windows_grey_19"
+  skip_translation: true
+
+- text: "Windows_grey_18"
+  translation: "Windows_grey_18"
+  skip_translation: true
+
+- text: "Windows_grey_26"
+  translation: "Windows_grey_26"
+  skip_translation: true
+
+- text: "S?p"
+  translation: "S?p"
+  skip_translation: true
+
+- text: "Ve_?"
+  translation: "Ve_?"
+  skip_translation: true
+
+- text: "Windows_grey_27"
+  translation: "Windows_grey_27"
+  skip_translation: true
+
+- text: "Vu/?"
+  translation: "Vu/?"
+  skip_translation: true
+
+- text: "Windows_grey_3"
+  translation: "Windows_grey_3"
+  skip_translation: true
+
+- text: "GDbE"
+  translation: "GDbE"
+  skip_translation: true
+
+- text: "Windows_grey_21"
+  translation: "Windows_grey_21"
+  skip_translation: true
+
+- text: "Windows_grey_13"
+  translation: "Windows_grey_13"
+  skip_translation: true
+
+- text: "DsK"
+  translation: "DsK"
+  skip_translation: true
+
+- text: "Windows_grey_16"
+  translation: "Windows_grey_16"
+  skip_translation: true
+
+- text: "Windows_grey_11"
+  translation: "Windows_grey_11"
+  skip_translation: true
+
+- text: "Windows_grey_14"
+  translation: "Windows_grey_14"
+  skip_translation: true
+
+- text: "Windows_grey_9"
+  translation: "Windows_grey_9"
+  skip_translation: true
+
+- text: "Windows_grey_0"
+  translation: "Windows_grey_0"
+  skip_translation: true
+
+- text: "CbE"
+  translation: "CbE"
+  skip_translation: true
+
+- text: "DhI"
+  translation: "DhI"
+  skip_translation: true
+
+- text: "&?YU"
+  translation: "&?YU"
+  skip_translation: true
+
+- text: "Windows_grey_23"
+  translation: "Windows_grey_23"
+  skip_translation: true
+
+- text: "Windows_grey_1"
+  translation: "Windows_grey_1"
+  skip_translation: true
+
+- text: "DbE"
+  translation: "DbE"
+  skip_translation: true
+
+- text: "Windows_grey_10"
+  translation: "Windows_grey_10"
+  skip_translation: true
+
+- text: "Windows_grey_5"
+  translation: "Windows_grey_5"
+  skip_translation: true
+
+- text: "Windows_grey_20"
+  translation: "Windows_grey_20"
+  skip_translation: true
+
+- text: "Windows_grey_28"
+  translation: "Windows_grey_28"
+  skip_translation: true
+
+- text: "C(?f"
+  translation: "C(?f"
+  skip_translation: true
+
+- text: "Windows_grey_31"
+  translation: "Windows_grey_31"
+  skip_translation: true
+
+- text: "Windows_grey_7"
+  translation: "Windows_grey_7"
+  skip_translation: true
+
+- text: "Windows_grey_15"
+  translation: "Windows_grey_15"
+  skip_translation: true
+
+- text: "B/gDC"
+  translation: "B/gDC"
+  skip_translation: true
+
+- text: "Windows_grey_4"
+  translation: "Windows_grey_4"
+  skip_translation: true
+
+- text: "Windows_grey_25"
+  translation: "Windows_grey_25"
+  skip_translation: true
+
+- text: "Windows_grey_17"
+  translation: "Windows_grey_17"
+  skip_translation: true
+
+- text: "Windows_grey_12"
+  translation: "Windows_grey_12"
+  skip_translation: true
+
+- text: "Windows_grey_8"
+  translation: "Windows_grey_8"
+  skip_translation: true
+
+- text: "M_kM"
+  translation: "M_kM"
+  skip_translation: true
+
+- text: "Windows_grey_2"
+  translation: "Windows_grey_2"
+  skip_translation: true
+
+- text: "Windows_grey_6"
+  translation: "Windows_grey_6"
+  skip_translation: true
+
+- text: "C?=CMnlD"
+  translation: "C?=CMnlD"
+  skip_translation: true
+
+- text: "Windows_grey_24"
+  translation: "Windows_grey_24"
+  skip_translation: true
+
+- text: "Windows_grey_29"
+  translation: "Windows_grey_29"
+  skip_translation: true
+
+- text: "Windows_grey_30"
+  translation: "Windows_grey_30"
+  skip_translation: true
+
+- text: "J9#E"
+  translation: "J9#E"
+  skip_translation: true
+
+- text: "Ga@fff"
+  translation: "Ga@fff"
+  skip_translation: true
+
+- text: "L=ff"
+  translation: "L=ff"
+  skip_translation: true
+
+- text: "JIA"
+  translation: "JIA"
+  skip_translation: true
+
+- text: "J9j"
+  translation: "J9j"
+  skip_translation: true
+
+- text: "R7E"
+  translation: "R7E"
+  skip_translation: true
+
+- text: "Qx?R"
+  translation: "Qx?R"
+  skip_translation: true
+
+- text: "J9o"
+  translation: "J9o"
+  skip_translation: true
+
+- text: "Qx@fff?"
+  translation: "Qx@fff?"
+  skip_translation: true
+
+- text: "Qh@G"
+  translation: "Qh@G"
+  skip_translation: true
+
+- text: "B5c[C"
+  translation: "B5c[C"
+  skip_translation: true
+
+- text: "G!?fff"
+  translation: "G!?fff"
+  skip_translation: true
+
+- text: "J9c?"
+  translation: "J9c?"
+  skip_translation: true
+
+- text: "J9g"
+  translation: "J9g"
+  skip_translation: true
+
+- text: "G!@p=*"
+  translation: "G!@p=*"
+  skip_translation: true
+
+- text: "MAw"
+  translation: "MAw"
+  skip_translation: true
+
+- text: "L?ff"
+  translation: "L?ff"
+  skip_translation: true
+
+- text: "Qx?333"
+  translation: "Qx?333"
+  skip_translation: true
+
+- text: "[|=AE"
+  translation: "[|=AE"
+  skip_translation: true
+
+- text: "[|=A);Y"
+  translation: "[|=A);Y"
+  skip_translation: true
+
+- text: "[|=AA\""
+  translation: "[|=AA\\"
+  skip_translation: true
+
+- text: "[|=AWX:"
+  translation: "[|=AWX:"
+  skip_translation: true
+
+- text: "[|=AV"
+  translation: "[|=AV"
+  skip_translation: true
+
+- text: "[|=AI"
+  translation: "[|=AI"
+  skip_translation: true
+
+- text: "[|=AQ;"
+  translation: "[|=AQ;"
+  skip_translation: true
+
+- text: "[|=AE;M9"
+  translation: "[|=AE;M9"
+  skip_translation: true
+
+- text: "[|=AS"
+  translation: "[|=AS"
+  skip_translation: true
+
+- text: "[|=AX"
+  translation: "[|=AX"
+  skip_translation: true
+
+- text: "[|=ASW"
+  translation: "[|=ASW"
+  skip_translation: true
+
+- text: "E?G"
+  translation: "E?G"
+  skip_translation: true
+
+- text: "L=p="
+  translation: "L=p="
+  skip_translation: true
+
+- text: "GlowingHole Logo Cropped"
+  translation: "GlowingHole Logo Cropped"
+  skip_translation: true
+
+- text: "HU@"
+  translation: "HU@"
+  skip_translation: true
+
+- text: "Hn@"
+  translation: "Hn@"
+  skip_translation: true
+
+- text: "N\"A"
+  translation: "N\\"
+  skip_translation: true
+
+- text: "Xc@"
+  translation: "Xc@"
+  skip_translation: true
+
+- text: "J+A"
+  translation: "J+A"
+  skip_translation: true
+
+- text: "V)A"
+  translation: "V)A"
+  skip_translation: true
+
+- text: "HnA"
+  translation: "HnA"
+  skip_translation: true
+
+- text: "LeA"
+  translation: "LeA"
+  skip_translation: true
+
+- text: "TSA"
+  translation: "TSA"
+  skip_translation: true
+
+- text: "DwA"
+  translation: "DwA"
+  skip_translation: true
+
+- text: "D^A"
+  translation: "D^A"
+  skip_translation: true
+
+- text: "Z A"
+  translation: "Z A"
+  skip_translation: true
+
+- text: "GlowingHole Logo Star3"
+  translation: "GlowingHole Logo Star3"
+  skip_translation: true
+
+- text: "U8`&x3"
+  translation: "U8`&x3"
+  skip_translation: true
+
+- text: "S's@"
+  translation: "S's@"
+  skip_translation: true
+
+- text: "EkX"
+  translation: "EkX"
+  skip_translation: true
+
+- text: "FakeLight"
+  translation: "FakeLight"
+  skip_translation: true
+
+- text: "TqA+"
+  translation: "TqA+"
+  skip_translation: true
+
+- text: "H1f"
+  translation: "H1f"
+  skip_translation: true
+
+- text: "H?ff"
+  translation: "H?ff"
+  skip_translation: true
+
+- text: "Unbenannt-4"
+  translation: "Unbenannt-4"
+  skip_translation: true
+
+- text: "7!AM"
+  translation: "7!AM"
+  skip_translation: true
+
+- text: "Rc=A^"
+  translation: "Rc=A^"
+  skip_translation: true
+
+- text: "G!?p="
+  translation: "G!?p="
+  skip_translation: true
+
+- text: "A,F"
+  translation: "A,F"
+  skip_translation: true
+
+- text: "AP("
+  translation: "AP("
+  skip_translation: true
+
+- text: "Staffroom Lighting Sprite"
+  translation: "Staffroom Lighting Sprite"
+  skip_translation: true
+
+- text: "Wgp"
+  translation: "Wgp"
+  skip_translation: true
+
+- text: "SIr"
+  translation: "SIr"
+  skip_translation: true
+
+- text: "Qx?G"
+  translation: "Qx?G"
+  skip_translation: true
+
+- text: "L?p=j?"
+  translation: "L?p=j?"
+  skip_translation: true
+
+- text: ")\\O?R"
+  translation: ")\\O?R"
+  skip_translation: true
+
+- text: "Y?p="
+  translation: "Y?p="
+  skip_translation: true
+
+- text: "Windows_white_1"
+  translation: "Windows_white_1"
+  skip_translation: true
+
+- text: "Windows_white_3"
+  translation: "Windows_white_3"
+  skip_translation: true
+
+- text: "Windows_white_4"
+  translation: "Windows_white_4"
+  skip_translation: true
+
+- text: "Windows_white_0"
+  translation: "Windows_white_0"
+  skip_translation: true
+
+- text: "Windows_white_2"
+  translation: "Windows_white_2"
+  skip_translation: true
+
+- text: "Windows_white_6"
+  translation: "Windows_white_6"
+  skip_translation: true
+
+- text: "Windows_white_7"
+  translation: "Windows_white_7"
+  skip_translation: true
+
+- text: "Windows_white_9"
+  translation: "Windows_white_9"
+  skip_translation: true
+
+- text: "Windows_white_5"
+  translation: "Windows_white_5"
+  skip_translation: true
+
+- text: "Windows_white_8"
+  translation: "Windows_white_8"
+  skip_translation: true
+
+- text: "Gc:"
+  translation: "Gc:"
+  skip_translation: true
+
+- text: "L:I"
+  translation: "L:I"
+  skip_translation: true
+
+- text: "IUC"
+  translation: "IUC"
+  skip_translation: true
+
+- text: "`JE"
+  translation: "`JE"
+  skip_translation: true
+
+- text: "Q8?ff"
+  translation: "Q8?ff"
+  skip_translation: true
+
+- text: "P2E"
+  translation: "P2E"
+  skip_translation: true
+
+- text: "X#E"
+  translation: "X#E"
+  skip_translation: true
+
+- text: "Qx?)\\"
+  translation: "Qx?)\\\\"
+  skip_translation: true
+
+- text: "G?p="
+  translation: "G?p="
+  skip_translation: true
+
+- text: "@GE"
+  translation: "@GE"
+  skip_translation: true
+
+- text: "PJE"
+  translation: "PJE"
+  skip_translation: true
+
+- text: "P!E"
+  translation: "P!E"
+  skip_translation: true
+
+- text: "`LE"
+  translation: "`LE"
+  skip_translation: true
+
+- text: "=O]W"
+  translation: "=O]W"
+  skip_translation: true
+
+- text: "h E"
+  translation: "h E"
+  skip_translation: true
+
+- text: "GA?\\"
+  translation: "GA?\\\\"
+  skip_translation: true
+
+- text: "GA?p="
+  translation: "GA?p="
+  skip_translation: true
+
+- text: "P(E"
+  translation: "P(E"
+  skip_translation: true
+
+- text: "(ME"
+  translation: "(ME"
+  skip_translation: true
+
+- text: "`FE"
+  translation: "`FE"
+  skip_translation: true
+
+- text: "0IE"
+  translation: "0IE"
+  skip_translation: true
+
+- text: "BBv"
+  translation: "BBv"
+  skip_translation: true
+
+- text: "PAE"
+  translation: "PAE"
+  skip_translation: true
+
+- text: "@DE"
+  translation: "@DE"
+  skip_translation: true
+
+- text: "`CE"
+  translation: "`CE"
+  skip_translation: true
+
+- text: "Qg6"
+  translation: "Qg6"
+  skip_translation: true
+
+- text: "P&E"
+  translation: "P&E"
+  skip_translation: true
+
+- text: "P$E"
+  translation: "P$E"
+  skip_translation: true
+
+- text: "B?q="
+  translation: "B?q="
+  skip_translation: true
+
+- text: "P+E"
+  translation: "P+E"
+  skip_translation: true
+
+- text: "8GE"
+  translation: "8GE"
+  skip_translation: true
+
+- text: ":G Lb"
+  translation: ":G Lb"
+  skip_translation: true
+
+- text: "D!HgB"
+  translation: "D!HgB"
+  skip_translation: true
+
+- text: "EJ?R"
+  translation: "EJ?R"
+  skip_translation: true
+
+- text: "EJ?"
+  translation: "EJ?"
+  skip_translation: true
+
+- text: "-EA0"
+  translation: "-EA0"
+  skip_translation: true
+
+- text: "E!HgB"
+  translation: "E!HgB"
+  skip_translation: true
+
+- text: "DEh"
+  translation: "DEh"
+  skip_translation: true
+
+- text: "C!HgB"
+  translation: "C!HgB"
+  skip_translation: true
+
+- text: "A'a"
+  translation: "A'a"
+  skip_translation: true
+
+- text: "PC3c"
+  translation: "PC3c"
+  skip_translation: true
+
+- text: "`&E^H"
+  translation: "`&E^H"
+  skip_translation: true
+
+- text: "E`m)D"
+  translation: "E`m)D"
+  skip_translation: true
+
+- text: "E!HgBn"
+  translation: "E!HgBn"
+  skip_translation: true
+
+- text: "NE5d&D"
+  translation: "NE5d&D"
+  skip_translation: true
+
+- text: "PE!HgB"
+  translation: "PE!HgB"
+  skip_translation: true
+
+- text: "E!HgBh"
+  translation: "E!HgBh"
+  skip_translation: true
+
+- text: "W?t7"
+  translation: "W?t7"
+  skip_translation: true
+
+- text: "W?z"
+  translation: "W?z"
+  skip_translation: true
+
+- text: "X1E!HgB"
+  translation: "X1E!HgB"
+  skip_translation: true
+
+- text: "B'a"
+  translation: "B'a"
+  skip_translation: true
+
+- text: "g n"
+  translation: "g n"
+  skip_translation: true
+
+- text: "UE?/9D"
+  translation: "UE?/9D"
+  skip_translation: true
+
+- text: "XE!HgB"
+  translation: "XE!HgB"
+  skip_translation: true
+
+- text: "CCy"
+  translation: "CCy"
+  skip_translation: true
+
+- text: "BA0"
+  translation: "BA0"
+  skip_translation: true
+
+- text: "E!HgB\"h"
+  translation: "E!HgB\"h"
+  skip_translation: true
+
+- text: "NEp"
+  translation: "NEp"
+  skip_translation: true
+
+- text: "E!HgBe"
+  translation: "E!HgBe"
+  skip_translation: true
+
+- text: "@ME"
+  translation: "@ME"
+  skip_translation: true
+
+- text: "D!HgBS"
+  translation: "D!HgBS"
+  skip_translation: true
+
+- text: "LE!HgB"
+  translation: "LE!HgB"
+  skip_translation: true
+
+- text: "EQ'"
+  translation: "EQ'"
+  skip_translation: true
+
+- text: "D!HgBW"
+  translation: "D!HgBW"
+  skip_translation: true
+
+- text: "DeU?"
+  translation: "DeU?"
+  skip_translation: true
+
+- text: "]EAT9DU"
+  translation: "]EAT9DU"
+  skip_translation: true
+
+- text: "]EAT9D"
+  translation: "]EAT9D"
+  skip_translation: true
+
+- text: "HiE!HgB"
+  translation: "HiE!HgB"
+  skip_translation: true
+
+- text: "E!HgB0#/D"
+  translation: "E!HgB0#/D"
+  skip_translation: true
+
+- text: "L?o"
+  translation: "L?o"
+  skip_translation: true
+
+- text: "VFCh"
+  translation: "VFCh"
+  skip_translation: true
+
+- text: "H$OEqq"
+  translation: "H$OEqq"
+  skip_translation: true
+
+- text: "VE!HgB"
+  translation: "VE!HgB"
+  skip_translation: true
+
+- text: "46EX"
+  translation: "46EX"
+  skip_translation: true
+
+- text: "E!HgBaU"
+  translation: "E!HgBaU"
+  skip_translation: true
+
+- text: "D\\O"
+  translation: "D\\O"
+  skip_translation: true
+
+- text: "By)+C"
+  translation: "By)+C"
+  skip_translation: true
+
+- text: "E!HgB[h"
+  translation: "E!HgB[h"
+  skip_translation: true
+
+- text: "Z'E'a%DQ'"
+  translation: "Z'E'a%DQ'"
+  skip_translation: true
+
+- text: "XQE!HgB"
+  translation: "XQE!HgB"
+  skip_translation: true
+
+- text: "Bqq"
+  translation: "Bqq"
+  skip_translation: true
+
+- text: "E!HgB0"
+  translation: "E!HgB0"
+  skip_translation: true
+
+- text: "Bl'"
+  translation: "Bl'"
+  skip_translation: true
+
+- text: "%=KE"
+  translation: "%=KE"
+  skip_translation: true
+
+- text: "HSE!HgB"
+  translation: "HSE!HgB"
+  skip_translation: true
+
+- text: "BE!HgB"
+  translation: "BE!HgB"
+  skip_translation: true
+
+- text: "E!HgBjk"
+  translation: "E!HgBjk"
+  skip_translation: true
+
+- text: "E%r[D"
+  translation: "E%r[D"
+  skip_translation: true
+
+- text: "E!HgBcq"
+  translation: "E!HgBcq"
+  skip_translation: true
+
+- text: "GA?33"
+  translation: "GA?33"
+  skip_translation: true
+
+- text: "Q8=ff"
+  translation: "Q8=ff"
+  skip_translation: true
+
+- text: "G?)\\O?"
+  translation: "G?)\\O?"
+  skip_translation: true
+
+- text: "Ga?G"
+  translation: "Ga?G"
+  skip_translation: true
+
+- text: "L?p=*"
+  translation: "L?p=*"
+  skip_translation: true
+
+- text: "Bdp"
+  translation: "Bdp"
+  skip_translation: true
+
+- text: "@OD"
+  translation: "@OD"
+  skip_translation: true
+
+- text: "CPVO"
+  translation: "CPVO"
+  skip_translation: true
+
+- text: "A=kAj"
+  translation: "A=kAj"
+  skip_translation: true
+
+- text: "Frl"
+  translation: "Frl"
+  skip_translation: true
+
+- text: "A@F"
+  translation: "A@F"
+  skip_translation: true
+
+- text: "J=y"
+  translation: "J=y"
+  skip_translation: true
+
+- text: "EoJ?"
+  translation: "EoJ?"
+  skip_translation: true
+
+- text: "R2u"
+  translation: "R2u"
+  skip_translation: true
+
+- text: "F-?fS"
+  translation: "F-?fS"
+  skip_translation: true
+
+- text: "FE|?\\"
+  translation: "FE|?\\\\"
+  skip_translation: true
+
+- text: "UB^"
+  translation: "UB^"
+  skip_translation: true
+
+- text: "!=EN"
+  translation: "!=EN"
+  skip_translation: true
+
+- text: "As!"
+  translation: "As!"
+  skip_translation: true
+
+- text: ".]DI"
+  translation: ".]DI"
+  skip_translation: true
+
+- text: "M?v"
+  translation: "M?v"
+  skip_translation: true
+
+- text: "J?v"
+  translation: "J?v"
+  skip_translation: true
+
+- text: "CAF(E"
+  translation: "CAF(E"
+  skip_translation: true
+
+- text: "QU ?"
+  translation: "QU ?"
+  skip_translation: true
+
+- text: "?QU ?"
+  translation: "?QU ?"
+  skip_translation: true
+
+- text: "PU ?"
+  translation: "PU ?"
+  skip_translation: true
+
+- text: "?PU ?"
+  translation: "?PU ?"
+  skip_translation: true
+
+- text: "BhqfC"
+  translation: "BhqfC"
+  skip_translation: true
+
+- text: "But!E"
+  translation: "But!E"
+  skip_translation: true
+
+- text: "8BE"
+  translation: "8BE"
+  skip_translation: true
+
+- text: "IG@"
+  translation: "IG@"
+  skip_translation: true
+
+- text: "#?*AT"
+  translation: "#?*AT"
+  skip_translation: true
+
+- text: "E-reB`"
+  translation: "E-reB`"
+  skip_translation: true
+
+- text: "MR!?b"
+  translation: "MR!?b"
+  skip_translation: true
+
+- text: "K? e"
+  translation: "K? e"
+  skip_translation: true
+
+- text: "CJ9?k"
+  translation: "CJ9?k"
+  skip_translation: true
+
+- text: "*EN"
+  translation: "*EN"
+  skip_translation: true
+
+- text: "B?7m"
+  translation: "B?7m"
+  skip_translation: true
+
+- text: "Z6E"
+  translation: "Z6E"
+  skip_translation: true
+
+- text: "CGh!C"
+  translation: "CGh!C"
+  skip_translation: true
+
+- text: "@BE"
+  translation: "@BE"
+  skip_translation: true
+
+- text: "UD;"
+  translation: "UD;"
+  skip_translation: true
+
+- text: "=IR&"
+  translation: "=IR&"
+  skip_translation: true
+
+- text: "2DI"
+  translation: "2DI"
+  skip_translation: true
+
+- text: "LI]@"
+  translation: "LI]@"
+  skip_translation: true
+
+- text: "KI]@"
+  translation: "KI]@"
+  skip_translation: true
+
+- text: "M9mB"
+  translation: "M9mB"
+  skip_translation: true
+
+- text: "FlC"
+  translation: "FlC"
+  skip_translation: true
+
+- text: "0BE"
+  translation: "0BE"
+  skip_translation: true
+
+- text: "DvG"
+  translation: "DvG"
+  skip_translation: true
+
+- text: "~AC"
+  translation: "~AC"
+  skip_translation: true
+
+- text: "EDr"
+  translation: "EDr"
+  skip_translation: true
+
+- text: "B]t"
+  translation: "B]t"
+  skip_translation: true
+
+- text: "O?m"
+  translation: "O?m"
+  skip_translation: true
+
+- text: "Z?k?"
+  translation: "Z?k?"
+  skip_translation: true
+
+- text: "!?WE"
+  translation: "!?WE"
+  skip_translation: true
+
+- text: "Zk)?y"
+  translation: "Zk)?y"
+  skip_translation: true
+
+- text: "EIDn"
+  translation: "EIDn"
+  skip_translation: true
+
+- text: "EID"
+  translation: "EID"
+  skip_translation: true
+
+- text: "B^JID"
+  translation: "B^JID"
+  skip_translation: true
+
+- text: "HBE"
+  translation: "HBE"
+  skip_translation: true
+
+- text: "BdE"
+  translation: "BdE"
+  skip_translation: true
+
+- text: "PU7?H"
+  translation: "PU7?H"
+  skip_translation: true
+
+- text: "PU7?("
+  translation: "PU7?("
+  skip_translation: true
+
+- text: "PU7?"
+  translation: "PU7?"
+  skip_translation: true
+
+- text: "PU7?d,"
+  translation: "PU7?d,"
+  skip_translation: true
+
+- text: "6DA"
+  translation: "6DA"
+  skip_translation: true
+
+- text: "E-reB'"
+  translation: "E-reB'"
+  skip_translation: true
+
+- text: "FEj"
+  translation: "FEj"
+  skip_translation: true
+
+- text: "Cn?"
+  translation: "Cn?"
+  skip_translation: true
+
+- text: "N? q"
+  translation: "N? q"
+  skip_translation: true
+
+- text: "E=w"
+  translation: "E=w"
+  skip_translation: true
+
+- text: "SeE0"
+  translation: "SeE0"
+  skip_translation: true
+
+- text: "BMi"
+  translation: "BMi"
+  skip_translation: true
+
+- text: "NiD"
+  translation: "NiD"
+  skip_translation: true
+
+- text: "Yf@"
+  translation: "Yf@"
+  skip_translation: true
+
+- text: "Yf@lRV"
+  translation: "Yf@lRV"
+  skip_translation: true
+
+- text: "B,XaE"
+  translation: "B,XaE"
+  skip_translation: true
+
+- text: "L5e"
+  translation: "L5e"
+  skip_translation: true
+
+- text: "Br1"
+  translation: "Br1"
+  skip_translation: true
+
+- text: "X9E"
+  translation: "X9E"
+  skip_translation: true
+
+- text: "?OIE"
+  translation: "?OIE"
+  skip_translation: true
+
+- text: "QXh"
+  translation: "QXh"
+  skip_translation: true
+
+- text: "U?Rq"
+  translation: "U?Rq"
+  skip_translation: true
+
+- text: "X?Rq"
+  translation: "X?Rq"
+  skip_translation: true
+
+- text: "w E"
+  translation: "w E"
+  skip_translation: true
+
+- text: "Bs!+C"
+  translation: "Bs!+C"
+  skip_translation: true
+
+- text: "HeE"
+  translation: "HeE"
+  skip_translation: true
+
+- text: "Il=?"
+  translation: "Il=?"
+  skip_translation: true
+
+- text: "?KA"
+  translation: "?KA"
+  skip_translation: true
+
+- text: "G?6tB?"
+  translation: "G?6tB?"
+  skip_translation: true
+
+- text: "KfEa"
+  translation: "KfEa"
+  skip_translation: true
+
+- text: "QBw"
+  translation: "QBw"
+  skip_translation: true
+
+- text: "Z\"x"
+  translation: "Z\\"
+  skip_translation: true
+
+- text: "*)CE"
+  translation: "*)CE"
+  skip_translation: true
+
+- text: "E?f"
+  translation: "E?f"
+  skip_translation: true
+
+- text: "ZRU"
+  translation: "ZRU"
+  skip_translation: true
+
+- text: "YE("
+  translation: "YE("
+  skip_translation: true
+
+- text: "D&j?"
+  translation: "D&j?"
+  skip_translation: true
+
+- text: "%IE?"
+  translation: "%IE?"
+  skip_translation: true
+
+- text: "NCo"
+  translation: "NCo"
+  skip_translation: true
+
+- text: "TCe"
+  translation: "TCe"
+  skip_translation: true
+
+- text: "U?33s"
+  translation: "U?33s"
+  skip_translation: true
+
+- text: "G?fff"
+  translation: "G?fff"
+  skip_translation: true
+
+- text: "D2l"
+  translation: "D2l"
+  skip_translation: true
+
+- text: "T%@wK"
+  translation: "T%@wK"
+  skip_translation: true
+
+- text: "C6]hD"
+  translation: "C6]hD"
+  skip_translation: true
+
+- text: "; il?"
+  translation: "; il?"
+  skip_translation: true
+
+- text: "e? il?"
+  translation: "e? il?"
+  skip_translation: true
+
+- text: "4? il?"
+  translation: "4? il?"
+  skip_translation: true
+
+- text: "By^hD"
+  translation: "By^hD"
+  skip_translation: true
+
+- text: "Q?@r"
+  translation: "Q?@r"
+  skip_translation: true
+
+- text: "OW?"
+  translation: "OW?"
+  skip_translation: true
+
+- text: "H=d?"
+  translation: "H=d?"
+  skip_translation: true
+
+- text: "ICD"
+  translation: "ICD"
+  skip_translation: true
+
+- text: "B]ScA"
+  translation: "B]ScA"
+  skip_translation: true
+
+- text: "BGl"
+  translation: "BGl"
+  skip_translation: true
+
+- text: "O'Y?"
+  translation: "O'Y?"
+  skip_translation: true
+
+- text: "DA@"
+  translation: "DA@"
+  skip_translation: true
+
+- text: "Qz)@"
+  translation: "Qz)@"
+  skip_translation: true
+
+- text: "AxBc?"
+  translation: "AxBc?"
+  skip_translation: true
+
+- text: "Yo?p7"
+  translation: "Yo?p7"
+  skip_translation: true
+
+- text: "@HO"
+  translation: "@HO"
+  skip_translation: true
+
+- text: "DA@f"
+  translation: "DA@f"
+  skip_translation: true
+
+- text: "?FA-?"
+  translation: "?FA-?"
+  skip_translation: true
+
+- text: "GnW@"
+  translation: "GnW@"
+  skip_translation: true
+
+- text: "F@9u"
+  translation: "F@9u"
+  skip_translation: true
+
+- text: "F?7b"
+  translation: "F?7b"
+  skip_translation: true
+
+- text: "DsM"
+  translation: "DsM"
+  skip_translation: true
+
+- text: "Cw/"
+  translation: "Cw/"
+  skip_translation: true
+
+- text: ".NJ?U"
+  translation: ".NJ?U"
+  skip_translation: true
+
+- text: "Ao?vU"
+  translation: "Ao?vU"
+  skip_translation: true
+
+- text: "SkZ?"
+  translation: "SkZ?"
+  skip_translation: true
+
+- text: "N;r?"
+  translation: "N;r?"
+  skip_translation: true
+
+- text: "Yo?"
+  translation: "Yo?"
+  skip_translation: true
+
+- text: "@UM"
+  translation: "@UM"
+  skip_translation: true
+
+- text: "F?i"
+  translation: "F?i"
+  skip_translation: true
+
+- text: "IR?"
+  translation: "IR?"
+  skip_translation: true
+
+- text: "R?zE]@"
+  translation: "R?zE]@"
+  skip_translation: true
+
+- text: "23?QWU@"
+  translation: "23?QWU@"
+  skip_translation: true
+
+- text: "Ua?"
+  translation: "Ua?"
+  skip_translation: true
+
+- text: "U?(Q"
+  translation: "U?(Q"
+  skip_translation: true
+
+- text: "CJ?p"
+  translation: "CJ?p"
+  skip_translation: true
+
+- text: "CJ?k"
+  translation: "CJ?k"
+  skip_translation: true
+
+- text: "F?v"
+  translation: "F?v"
+  skip_translation: true
+
+- text: "F=f"
+  translation: "F=f"
+  skip_translation: true
+
+- text: "F?b"
+  translation: "F?b"
+  skip_translation: true
+
+- text: "Cz?UW"
+  translation: "Cz?UW"
+  skip_translation: true
+
+- text: "D?u"
+  translation: "D?u"
+  skip_translation: true
+
+- text: "Br?7|J?"
+  translation: "Br?7|J?"
+  skip_translation: true
+
+- text: "Rg?59"
+  translation: "Rg?59"
+  skip_translation: true
+
+- text: "Rg?2"
+  translation: "Rg?2"
+  skip_translation: true
+
+- text: "Lj3?"
+  translation: "Lj3?"
+  skip_translation: true
+
+- text: "Bd("
+  translation: "Bd("
+  skip_translation: true
+
+- text: "Rtn"
+  translation: "Rtn"
+  skip_translation: true
+
+- text: "Iv*"
+  translation: "Iv*"
+  skip_translation: true
+
+- text: "Ol|"
+  translation: "Ol|"
+  skip_translation: true
+
+- text: "N?fff"
+  translation: "N?fff"
+  skip_translation: true
+
+- text: "RIh"
+  translation: "RIh"
+  skip_translation: true
+
+- text: "W?q="
+  translation: "W?q="
+  skip_translation: true
+
+- text: "G?ff"
+  translation: "G?ff"
+  skip_translation: true
+
+- text: "Y?)\\O?\\"
+  translation: "Y?)\\O?\\"
+  skip_translation: true
+
+- text: "@IE"
+  translation: "@IE"
+  skip_translation: true
+
+- text: "P)E"
+  translation: "P)E"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_9"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_9"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_6"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_6"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_10"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_10"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_3"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_3"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_47"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_47"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_20"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_20"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_37"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_37"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_32"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_32"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_82"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_82"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_44"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_44"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_55"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_55"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_11"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_11"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_28"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_28"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_36"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_36"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_27"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_27"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_45"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_45"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_22"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_22"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_31"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_31"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_85"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_85"
+  skip_translation: true
+
+- text: "Qx?33"
+  translation: "Qx?33"
+  skip_translation: true
+
+- text: "Q?p="
+  translation: "Q?p="
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_43"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_43"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_60"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_60"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_91"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_91"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_49"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_49"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_89"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_89"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_88"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_88"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_35"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_35"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_84"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_84"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_80"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_80"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_24"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_24"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_67"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_67"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_0"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_0"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_58"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_58"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_69"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_69"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_25"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_25"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_40"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_40"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_42"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_42"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_56"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_56"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_19"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_19"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_93"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_93"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_12"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_12"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_23"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_23"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_57"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_57"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_86"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_86"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_21"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_21"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_51"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_51"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_54"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_54"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_16"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_16"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_33"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_33"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_81"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_81"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_72"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_72"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_62"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_62"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_1"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_1"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_77"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_77"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_53"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_53"
+  skip_translation: true
+
+- text: "Qx?p="
+  translation: "Qx?p="
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_64"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_64"
+  skip_translation: true
+
+- text: "Qx?\\"
+  translation: "Qx?\\\\"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_92"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_92"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_26"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_26"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_46"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_46"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_30"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_30"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_71"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_71"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_14"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_14"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_74"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_74"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_78"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_78"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_52"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_52"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_4"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_4"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_73"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_73"
+  skip_translation: true
+
+- text: "Y?ff&?"
+  translation: "Y?ff&?"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_59"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_59"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_41"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_41"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_18"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_18"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_8"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_8"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_48"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_48"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_29"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_29"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_75"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_75"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_66"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_66"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_38"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_38"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_7"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_7"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_17"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_17"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_65"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_65"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_87"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_87"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_83"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_83"
+  skip_translation: true
+
+- text: "G!?fff?"
+  translation: "G!?fff?"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_2"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_2"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_63"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_63"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_76"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_76"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_5"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_5"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_34"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_34"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_61"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_61"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_15"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_15"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_79"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_79"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_50"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_50"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_70"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_70"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_90"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_90"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_39"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_39"
+  skip_translation: true
+
+- text: "city_asset_pack_2_doors_and_windows_full 1_13"
+  translation: "city_asset_pack_2_doors_and_windows_full 1_13"
+  skip_translation: true
+
+- text: "Qe7"
+  translation: "Qe7"
+  skip_translation: true
+
+- text: "Ga=fff?="
+  translation: "Ga=fff?="
+  skip_translation: true
+
+- text: "Q8=p=:@"
+  translation: "Q8=p=:@"
+  skip_translation: true
+
+- text: "K@p="
+  translation: "K@p="
+  skip_translation: true
+
+- text: "GQ@p="
+  translation: "GQ@p="
+  skip_translation: true
+
+- text: "C@p="
+  translation: "C@p="
+  skip_translation: true
+
+- text: "I@p="
+  translation: "I@p="
+  skip_translation: true
+
+- text: "\"AN"
+  translation: "\\"
+  skip_translation: true
+
+- text: "N@ie"
+  translation: "N@ie"
+  skip_translation: true
+
+- text: "jH _O"
+  translation: "jH _O"
+  skip_translation: true
+
+- text: "Unbenannt-1"
+  translation: "Unbenannt-1"
+  skip_translation: true
+
+- text: "YPPl"
+  translation: "YPPl"
+  skip_translation: true
+
+- text: "D=cm"
+  translation: "D=cm"
+  skip_translation: true
+
+- text: "C p"
+  translation: "C p"
+  skip_translation: true
+
+- text: "SingleFlower"
+  translation: "SingleFlower"
+  skip_translation: true
+
+- text: "Bathroom Tile"
+  translation: "Bathroom Tile"
+  skip_translation: true
+
+- text: "LBo"
+  translation: "LBo"
+  skip_translation: true
+
+- text: "LBy"
+  translation: "LBy"
+  skip_translation: true
+
+- text: "/]AP"
+  translation: "/]AP"
+  skip_translation: true
+
+- text: "LBe;"
+  translation: "LBe;"
+  skip_translation: true
+
+- text: "DB`eA"
+  translation: "DB`eA"
+  skip_translation: true
+
+- text: "AB`eA"
+  translation: "AB`eA"
+  skip_translation: true
+
+- text: ",AP"
+  translation: ",AP"
+  skip_translation: true
+
+- text: "PDa"
+  translation: "PDa"
+  skip_translation: true
+
+- text: "BB`eB"
+  translation: "BB`eB"
+  skip_translation: true
+
+- text: "Gj?"
+  translation: "Gj?"
+  skip_translation: true
+
+- text: "QxC"
+  translation: "QxC"
+  skip_translation: true
+
+- text: "XiD"
+  translation: "XiD"
+  skip_translation: true
+
+- text: "UiD"
+  translation: "UiD"
+  skip_translation: true
+
+- text: "DY94A"
+  translation: "DY94A"
+  skip_translation: true
+
+- text: "LBq="
+  translation: "LBq="
+  skip_translation: true
+
+- text: "EfDL7)D"
+  translation: "EfDL7)D"
+  skip_translation: true
+
+- text: "EfD"
+  translation: "EfD"
+  skip_translation: true
+
+- text: "NfD"
+  translation: "NfD"
+  skip_translation: true
+
+- text: "B[d"
+  translation: "B[d"
+  skip_translation: true
+
+- text: "E6B"
+  translation: "E6B"
+  skip_translation: true
+
+- text: "Unbenannt-6"
+  translation: "Unbenannt-6"
+  skip_translation: true
+
+- text: "L?ffF?="
+  translation: "L?ffF?="
+  skip_translation: true
+
+- text: "GA?="
+  translation: "GA?="
+  skip_translation: true
+
+- text: "DffBB"
+  translation: "DffBB"
+  skip_translation: true
+
+- text: "R)xD"
+  translation: "R)xD"
+  skip_translation: true
+
+- text: "CpDffBBP"
+  translation: "CpDffBBP"
+  skip_translation: true
+
+- text: "DNz"
+  translation: "DNz"
+  skip_translation: true
+
+- text: "DrN"
+  translation: "DrN"
+  skip_translation: true
+
+- text: "3C7I"
+  translation: "3C7I"
+  skip_translation: true
+
+- text: "CHa"
+  translation: "CHa"
+  skip_translation: true
+
+- text: "Bsh"
+  translation: "Bsh"
+  skip_translation: true
+
+- text: "D-r"
+  translation: "D-r"
+  skip_translation: true
+
+- text: "GiB"
+  translation: "GiB"
+  skip_translation: true
+
+- text: "BXDffBB"
+  translation: "BXDffBB"
+  skip_translation: true
+
+- text: "DffBBJ"
+  translation: "DffBBJ"
+  skip_translation: true
+
+- text: "Aq=%B"
+  translation: "Aq=%B"
+  skip_translation: true
+
+- text: "-JA"
+  translation: "-JA"
+  skip_translation: true
+
+- text: "S:l"
+  translation: "S:l"
+  skip_translation: true
+
+- text: "U#A"
+  translation: "U#A"
+  skip_translation: true
+
+- text: "SeDffBB"
+  translation: "SeDffBB"
+  skip_translation: true
+
+- text: "RAffBA"
+  translation: "RAffBA"
+  skip_translation: true
+
+- text: "DffBB)X"
+  translation: "DffBB)X"
+  skip_translation: true
+
+- text: "Sea3"
+  translation: "Sea3"
+  skip_translation: true
+
+- text: "DffBBDw"
+  translation: "DffBBDw"
+  skip_translation: true
+
+- text: "SE*"
+  translation: "SE*"
+  skip_translation: true
+
+- text: "Dd;"
+  translation: "Dd;"
+  skip_translation: true
+
+- text: "DffBB5"
+  translation: "DffBB5"
+  skip_translation: true
+
+- text: "UiB94IC"
+  translation: "UiB94IC"
+  skip_translation: true
+
+- text: "Qe3"
+  translation: "Qe3"
+  skip_translation: true
+
+- text: "DX9kC"
+  translation: "DX9kC"
+  skip_translation: true
+
+- text: "Qn?"
+  translation: "Qn?"
+  skip_translation: true
+
+- text: "D7imD"
+  translation: "D7imD"
+  skip_translation: true
+
+- text: "S7d"
+  translation: "S7d"
+  skip_translation: true
+
+- text: "CfG%B"
+  translation: "CfG%B"
+  skip_translation: true
+
+- text: "SAUmc"
+  translation: "SAUmc"
+  skip_translation: true
+
+- text: "IFB"
+  translation: "IFB"
+  skip_translation: true
+
+- text: "CvGHC`%"
+  translation: "CvGHC`%"
+  skip_translation: true
+
+- text: "Ga?H"
+  translation: "Ga?H"
+  skip_translation: true
+
+- text: "Ek?)"
+  translation: "Ek?)"
+  skip_translation: true
+
+- text: "Ga=333"
+  translation: "Ga=333"
+  skip_translation: true
+
+- text: "Staffroom Shadow Chair"
+  translation: "Staffroom Shadow Chair"
+  skip_translation: true
+
+- text: "L=q="
+  translation: "L=q="
+  skip_translation: true
+
+- text: "Ga=p=J?"
+  translation: "Ga=p=J?"
+  skip_translation: true
+
+- text: "Q$j"
+  translation: "Q$j"
+  skip_translation: true
+
+- text: "B?ffF"
+  translation: "B?ffF"
+  skip_translation: true
+
+- text: "L?33S?ff"
+  translation: "L?33S?ff"
+  skip_translation: true
+
+- text: "MgV_"
+  translation: "MgV_"
+  skip_translation: true
+
+- text: "T~n"
+  translation: "T~n"
+  skip_translation: true
+
+- text: "C~EO"
+  translation: "C~EO"
+  skip_translation: true
+
+- text: "3OO"
+  translation: "3OO"
+  skip_translation: true
+
+- text: "Unbenannt-5"
+  translation: "Unbenannt-5"
+  skip_translation: true
+
+- text: "|6HI"
+  translation: "|6HI"
+  skip_translation: true
+
+- text: "7QA"
+  translation: "7QA"
+  skip_translation: true
+
+- text: "C?ff"
+  translation: "C?ff"
+  skip_translation: true
+
+- text: "C?p="
+  translation: "C?p="
+  skip_translation: true
+
+- text: "K?p="
+  translation: "K?p="
+  skip_translation: true
+
+- text: "E?33s?"
+  translation: "E?33s?"
+  skip_translation: true
+
+- text: "CVU,B"
+  translation: "CVU,B"
+  skip_translation: true
+
+- text: "L5f="
+  translation: "L5f="
+  skip_translation: true
+
+- text: "r =pN"
+  translation: "r =pN"
+  skip_translation: true
+
+- text: "CyjHCg"
+  translation: "CyjHCg"
+  skip_translation: true
+
+- text: "CyjHC"
+  translation: "CyjHC"
+  skip_translation: true
+
+- text: "AL`"
+  translation: "AL`"
+  skip_translation: true
+
+- text: "B#\"nB"
+  translation: "B#\\"
+  skip_translation: true
+
+- text: "AG*"
+  translation: "AG*"
+  skip_translation: true
+
+- text: "G?33s?"
+  translation: "G?33s?"
+  skip_translation: true
+
+- text: "Qx?fff?\\"
+  translation: "Qx?fff?\\\\"
+  skip_translation: true
+
+- text: "Y?33s?"
+  translation: "Y?33s?"
+  skip_translation: true
+
+- text: "G!?ff"
+  translation: "G!?ff"
+  skip_translation: true
+
+- text: "Xa8"
+  translation: "Xa8"
+  skip_translation: true
+
+- text: "StG"
+  translation: "StG"
+  skip_translation: true
+
+- text: "K?ffF?"
+  translation: "K?ffF?"
+  skip_translation: true
+
+- text: "NJk"
+  translation: "NJk"
+  skip_translation: true
+
+- text: "W?p=*"
+  translation: "W?p=*"
+  skip_translation: true
+
+- text: "A@ffF"
+  translation: "A@ffF"
+  skip_translation: true
+
+- text: "N?p=*"
+  translation: "N?p=*"
+  skip_translation: true
+
+- text: "Red Floorlight"
+  translation: "Red Floorlight"
+  skip_translation: true
+
+- text: "BNqo3"
+  translation: "BNqo3"
+  skip_translation: true
+
+- text: "C?p=j"
+  translation: "C?p=j"
+  skip_translation: true
+
+- text: "H?p=j"
+  translation: "H?p=j"
+  skip_translation: true
+
+- text: "U?33S"
+  translation: "U?33S"
+  skip_translation: true
+
+- text: "C@p=J?G"
+  translation: "C@p=J?G"
+  skip_translation: true
+
+- text: "B@)\\O?"
+  translation: "B@)\\O?"
+  skip_translation: true
+
+- text: "B@p=J"
+  translation: "B@p=J"
+  skip_translation: true
+
+- text: "C@p=J?"
+  translation: "C@p=J?"
+  skip_translation: true
+
+- text: "GA?p=B@"
+  translation: "GA?p=B@"
+  skip_translation: true
+
+- text: "Q @ff"
+  translation: "Q @ff"
+  skip_translation: true
+
+- text: "Q@@ffF"
+  translation: "Q@@ffF"
+  skip_translation: true
+
+- text: "K?fff"
+  translation: "K?fff"
+  skip_translation: true
+
+- text: "FJhkge"
+  translation: "FJhkge"
+  skip_translation: true
+
+- text: "Pk?"
+  translation: "Pk?"
+  skip_translation: true
+
+- text: "TDp"
+  translation: "TDp"
+  skip_translation: true
+
+- text: "L=)\\O?"
+  translation: "L=)\\O?"
+  skip_translation: true
+
+- text: "Ga=q=J?"
+  translation: "Ga=q=J?"
+  skip_translation: true
+
+- text: "BfF"
+  translation: "BfF"
+  skip_translation: true
+
+- text: "P#E"
+  translation: "P#E"
+  skip_translation: true
+
+- text: "U0D"
+  translation: "U0D"
+  skip_translation: true
+
+- text: "ZJlR"
+  translation: "ZJlR"
+  skip_translation: true
+
+- text: "SOx"
+  translation: "SOx"
+  skip_translation: true
+
+- text: "RVl"
+  translation: "RVl"
+  skip_translation: true
+
+- text: "N2t"
+  translation: "N2t"
+  skip_translation: true
+
+- text: "G1@fff"
+  translation: "G1@fff"
+  skip_translation: true
+
+- text: "GA?ff&?"
+  translation: "GA?ff&?"
+  skip_translation: true
+
+- text: "G!?q="
+  translation: "G!?q="
+  skip_translation: true
+
+- text: "Ga=fff?"
+  translation: "Ga=fff?"
+  skip_translation: true
+
+- text: "G?p=*?"
+  translation: "G?p=*?"
+  skip_translation: true
+
+- text: "R/z"
+  translation: "R/z"
+  skip_translation: true
+
+- text: "Bk,"
+  translation: "Bk,"
+  skip_translation: true
+
+- text: "Dwh"
+  translation: "Dwh"
+  skip_translation: true
+
+- text: "Bbm"
+  translation: "Bbm"
+  skip_translation: true
+
+- text: "AnU"
+  translation: "AnU"
+  skip_translation: true
+
+- text: "Ss4"
+  translation: "Ss4"
+  skip_translation: true
+
+- text: "OjD="
+  translation: "OjD="
+  skip_translation: true
+
+- text: "B\\O"
+  translation: "B\\O"
+  skip_translation: true
+
+- text: "OjD"
+  translation: "OjD"
+  skip_translation: true
+
+- text: "YDq"
+  translation: "YDq"
+  skip_translation: true
+
+- text: "BnU"
+  translation: "BnU"
+  skip_translation: true
+
+- text: "f D"
+  translation: "f D"
+  skip_translation: true
+
+- text: "~AQ"
+  translation: "~AQ"
+  skip_translation: true
+
+- text: "~ID"
+  translation: "~ID"
+  skip_translation: true
+
+- text: "BLOdD"
+  translation: "BLOdD"
+  skip_translation: true
+
+- text: "M?E"
+  translation: "M?E"
+  skip_translation: true
+
+- text: "B&elB"
+  translation: "B&elB"
+  skip_translation: true
+
+- text: "TCA"
+  translation: "TCA"
+  skip_translation: true
+
+- text: "Dm3"
+  translation: "Dm3"
+  skip_translation: true
+
+- text: "WlBU"
+  translation: "WlBU"
+  skip_translation: true
+
+- text: "GgD"
+  translation: "GgD"
+  skip_translation: true
+
+- text: "Hc*"
+  translation: "Hc*"
+  skip_translation: true
+
+- text: "GA?333@"
+  translation: "GA?333@"
+  skip_translation: true
+
+- text: "Jj?"
+  translation: "Jj?"
+  skip_translation: true
+
+- text: "I@R"
+  translation: "I@R"
+  skip_translation: true
+
+- text: "HzC"
+  translation: "HzC"
+  skip_translation: true
+
+- text: "J@p="
+  translation: "J@p="
+  skip_translation: true
+
+- text: "M+x"
+  translation: "M+x"
+  skip_translation: true
+
+- text: "M@Be"
+  translation: "M@Be"
+  skip_translation: true
+
+- text: "E~BP"
+  translation: "E~BP"
+  skip_translation: true
+
+- text: "GlowingHole Logo Star2"
+  translation: "GlowingHole Logo Star2"
+  skip_translation: true
+
+- text: "Q?q="
+  translation: "Q?q="
+  skip_translation: true
+
+- text: "Bathroom Lighting Sprite"
+  translation: "Bathroom Lighting Sprite"
+  skip_translation: true
+
+- text: "GlowingHole Logo Star1"
+  translation: "GlowingHole Logo Star1"
+  skip_translation: true
+
+- text: "L=33s"
+  translation: "L=33s"
+  skip_translation: true
+
+- text: "Y:9Hc"
+  translation: "Y:9Hc"
+  skip_translation: true
+
+- text: "Fm?"
+  translation: "Fm?"
+  skip_translation: true
+
+- text: "OX?"
+  translation: "OX?"
+  skip_translation: true
+
+- text: "Y:9Hw_"
+  translation: "Y:9Hw_"
+  skip_translation: true
+
+- text: "N0?3s"
+  translation: "N0?3s"
+  skip_translation: true
+
+- text: "BU#"
+  translation: "BU#"
+  skip_translation: true
+
+- text: "Y:9H5E"
+  translation: "Y:9H5E"
+  skip_translation: true
+
+- text: "A?G"
+  translation: "A?G"
+  skip_translation: true
+
+- text: "KsaDqk"
+  translation: "KsaDqk"
+  skip_translation: true
+
+- text: "CHGyAj"
+  translation: "CHGyAj"
+  skip_translation: true
+
+- text: "A7F!B"
+  translation: "A7F!B"
+  skip_translation: true
+
+- text: "E9P"
+  translation: "E9P"
+  skip_translation: true
+
+- text: ",-EYC"
+  translation: ",-EYC"
+  skip_translation: true
+
+- text: "D&o"
+  translation: "D&o"
+  skip_translation: true
+
+- text: "BuN"
+  translation: "BuN"
+  skip_translation: true
+
+- text: ";IA?"
+  translation: ";IA?"
+  skip_translation: true
+
+- text: "Bb5"
+  translation: "Bb5"
+  skip_translation: true
+
+- text: "FQd?OF"
+  translation: "FQd?OF"
+  skip_translation: true
+
+- text: "FQd?$^"
+  translation: "FQd?$^"
+  skip_translation: true
+
+- text: "ZXi"
+  translation: "ZXi"
+  skip_translation: true
+
+- text: "MgD"
+  translation: "MgD"
+  skip_translation: true
+
+- text: "ADPf"
+  translation: "ADPf"
+  skip_translation: true
+
+- text: "B8clB"
+  translation: "B8clB"
+  skip_translation: true
+
+- text: "Zt;"
+  translation: "Zt;"
+  skip_translation: true
+
+- text: ":BO"
+  translation: ":BO"
+  skip_translation: true
+
+- text: "CPf"
+  translation: "CPf"
+  skip_translation: true
+
+- text: "HsN"
+  translation: "HsN"
+  skip_translation: true
+
+- text: "HC@U"
+  translation: "HC@U"
+  skip_translation: true
+
+- text: "Lu!"
+  translation: "Lu!"
+  skip_translation: true
+
+- text: "E?q="
+  translation: "E?q="
+  skip_translation: true
+
+- text: "X`d1_;="
+  translation: "X`d1_;="
+  skip_translation: true
+
+- text: "X`d1_;=9"
+  translation: "X`d1_;=9"
+  skip_translation: true
+
+- text: "P7E"
+  translation: "P7E"
+  skip_translation: true
+
+- text: "O@q"
+  translation: "O@q"
+  skip_translation: true
+
+- text: ",KE"
+  translation: ",KE"
+  skip_translation: true
+
+- text: "I|@R"
+  translation: "I|@R"
+  skip_translation: true
+
+- text: "X`d1_;=^"
+  translation: "X`d1_;=^"
+  skip_translation: true
+
+- text: "X1E"
+  translation: "X1E"
+  skip_translation: true
+
+- text: "X`d1_;=Z"
+  translation: "X`d1_;=Z"
+  skip_translation: true
+
+- text: "X`d1_;=|"
+  translation: "X`d1_;=|"
+  skip_translation: true
+
+- text: "X`d1_;=h"
+  translation: "X`d1_;=h"
+  skip_translation: true
+
+- text: "X`d1_;=A"
+  translation: "X`d1_;=A"
+  skip_translation: true
+
+- text: "^UE"
+  translation: "^UE"
+  skip_translation: true
+
+- text: "?GM^?3SE?"
+  translation: "?GM^?3SE?"
+  skip_translation: true
+
+- text: "~I@3SE?"
+  translation: "~I@3SE?"
+  skip_translation: true
+
+- text: "J@3s"
+  translation: "J@3s"
+  skip_translation: true
+
+- text: "O?Bc"
+  translation: "O?Bc"
+  skip_translation: true
+
+- text: "J@\\op"
+  translation: "J@\\\\op"
+  skip_translation: true
+
+- text: "X`d1_;=LK"
+  translation: "X`d1_;=LK"
+  skip_translation: true
+
+- text: "X`d1_;=0V&"
+  translation: "X`d1_;=0V&"
+  skip_translation: true
+
+- text: "X`d1_;=z"
+  translation: "X`d1_;=z"
+  skip_translation: true
+
+- text: "X`d1_;=j"
+  translation: "X`d1_;=j"
+  skip_translation: true
+
+- text: "X`d1_;=2"
+  translation: "X`d1_;=2"
+  skip_translation: true
+
+- text: "X`d1_;=J"
+  translation: "X`d1_;=J"
+  skip_translation: true
+
+- text: "X`d1_;=QN"
+  translation: "X`d1_;=QN"
+  skip_translation: true
+
+- text: "X`d1_;=!"
+  translation: "X`d1_;=!"
+  skip_translation: true
+
+- text: "X`d1_;=,"
+  translation: "X`d1_;=,"
+  skip_translation: true
+
+- text: "X`d1_;=B"
+  translation: "X`d1_;=B"
+  skip_translation: true
+
+- text: "X`d1_;=TCv"
+  translation: "X`d1_;=TCv"
+  skip_translation: true
+
+- text: "X`d1_;=Z5"
+  translation: "X`d1_;=Z5"
+  skip_translation: true
+
+- text: "X`d1_;=\""
+  translation: "X`d1_;=\\"
+  skip_translation: true
+
+- text: "X`d1_;=#b"
+  translation: "X`d1_;=#b"
+  skip_translation: true
+
+- text: "X`d1_;=w"
+  translation: "X`d1_;=w"
+  skip_translation: true
+
+- text: "X`d1_;=W\\G"
+  translation: "X`d1_;=W\\G"
+  skip_translation: true
+
+- text: "X`d1_;=T"
+  translation: "X`d1_;=T"
+  skip_translation: true
+
+- text: "X`d1_;=_"
+  translation: "X`d1_;=_"
+  skip_translation: true
+
+- text: "X`d1_;=C"
+  translation: "X`d1_;=C"
+  skip_translation: true
+
+- text: "X`d1_;=n"
+  translation: "X`d1_;=n"
+  skip_translation: true
+
+- text: "0AE"
+  translation: "0AE"
+  skip_translation: true
+
+- text: "N?p="
+  translation: "N?p="
+  skip_translation: true
+
+- text: "`YE"
+  translation: "`YE"
+  skip_translation: true
+
+- text: "GEw?="
+  translation: "GEw?="
+  skip_translation: true
+
+- text: "X`d1_;=d"
+  translation: "X`d1_;=d"
+  skip_translation: true
+
+- text: "X`d1_;=N"
+  translation: "X`d1_;=N"
+  skip_translation: true
+
+- text: "X`d1_;=jSc"
+  translation: "X`d1_;=jSc"
+  skip_translation: true
+
+- text: "X`d1_;=F*j"
+  translation: "X`d1_;=F*j"
+  skip_translation: true
+
+- text: "X`d1_;=5"
+  translation: "X`d1_;=5"
+  skip_translation: true
+
+- text: "D&E"
+  translation: "D&E"
+  skip_translation: true
+
+- text: "X`d1_;=x"
+  translation: "X`d1_;=x"
+  skip_translation: true
+
+- text: "Bf~JE"
+  translation: "Bf~JE"
+  skip_translation: true
+
+- text: "X`d1_;=W0"
+  translation: "X`d1_;=W0"
+  skip_translation: true
+
+- text: "Zd&"
+  translation: "Zd&"
+  skip_translation: true
+
+- text: "X`d1_;=L"
+  translation: "X`d1_;=L"
+  skip_translation: true
+
+- text: "X`d1_;=X"
+  translation: "X`d1_;=X"
+  skip_translation: true
+
+- text: "X`d1_;=UN"
+  translation: "X`d1_;=UN"
+  skip_translation: true
+
+- text: "P E"
+  translation: "P E"
+  skip_translation: true
+
+- text: "X`d1_;=E"
+  translation: "X`d1_;=E"
+  skip_translation: true
+
+- text: "HME"
+  translation: "HME"
+  skip_translation: true
+
+- text: "X`d1_;=["
+  translation: "X`d1_;=["
+  skip_translation: true
+
+- text: "X`d1_;=("
+  translation: "X`d1_;=("
+  skip_translation: true
+
+- text: "X`d1_;=c"
+  translation: "X`d1_;=c"
+  skip_translation: true
+
+- text: "X`d1_;=AYmC"
+  translation: "X`d1_;=AYmC"
+  skip_translation: true
+
+- text: "X`d1_;=VE"
+  translation: "X`d1_;=VE"
+  skip_translation: true
+
+- text: "X`d1_;=\\"
+  translation: "X`d1_;=\\"
+  skip_translation: true
+
+- text: "X`d1_;=:;"
+  translation: "X`d1_;=:;"
+  skip_translation: true
+
+- text: "QP@ffF"
+  translation: "QP@ffF"
+  skip_translation: true
+
+- text: "X`d1_;=F"
+  translation: "X`d1_;=F"
+  skip_translation: true
+
+- text: "X`d1_;=p"
+  translation: "X`d1_;=p"
+  skip_translation: true
+
+- text: "X`d1_;=05)`"
+  translation: "X`d1_;=05)`"
+  skip_translation: true
+
+- text: "X`d1_;=1"
+  translation: "X`d1_;=1"
+  skip_translation: true
+
+- text: "X`d1_;=0"
+  translation: "X`d1_;=0"
+  skip_translation: true
+
+- text: "X`d1_;=v"
+  translation: "X`d1_;=v"
+  skip_translation: true
+
+- text: "X`d1_;=H"
+  translation: "X`d1_;=H"
+  skip_translation: true
+
+- text: "X`d1_;=t"
+  translation: "X`d1_;=t"
+  skip_translation: true
+
+- text: "@WE"
+  translation: "@WE"
+  skip_translation: true
+
+- text: "Dju"
+  translation: "Dju"
+  skip_translation: true
+
+- text: "-VA:"
+  translation: "-VA:"
+  skip_translation: true
+
+- text: "QDf"
+  translation: "QDf"
+  skip_translation: true
+
+- text: "Bk^8D"
+  translation: "Bk^8D"
+  skip_translation: true
+
+- text: "Zm?"
+  translation: "Zm?"
+  skip_translation: true
+
+- text: "BTU"
+  translation: "BTU"
+  skip_translation: true
+
+- text: "OD^"
+  translation: "OD^"
+  skip_translation: true
+
+- text: "DqL="
+  translation: "DqL="
+  skip_translation: true
+
+- text: "Ca-"
+  translation: "Ca-"
+  skip_translation: true
+
+- text: "Ba-"
+  translation: "Ba-"
+  skip_translation: true
+
+- text: "BAp"
+  translation: "BAp"
+  skip_translation: true
+
+- text: "BBb"
+  translation: "BBb"
+  skip_translation: true
+
+- text: "DkB"
+  translation: "DkB"
+  skip_translation: true
+
+- text: "B5!yD"
+  translation: "B5!yD"
+  skip_translation: true
+
+- text: "P#x?"
+  translation: "P#x?"
+  skip_translation: true
+
+- text: "C0r"
+  translation: "C0r"
+  skip_translation: true
+
+- text: "Cc]"
+  translation: "Cc]"
+  skip_translation: true
+
+- text: "Ct5XC"
+  translation: "Ct5XC"
+  skip_translation: true
+
+- text: "ByU"
+  translation: "ByU"
+  skip_translation: true
+
+- text: "Bt5XC"
+  translation: "Bt5XC"
+  skip_translation: true
+
+- text: "~I8C3"
+  translation: "~I8C3"
+  skip_translation: true
+
+- text: "IBN"
+  translation: "IBN"
+  skip_translation: true
+
+- text: "ZhHa"
+  translation: "ZhHa"
+  skip_translation: true
+
+- text: "K8Df"
+  translation: "K8Df"
+  skip_translation: true
+
+- text: "B~'lB"
+  translation: "B~'lB"
+  skip_translation: true
+
+- text: "TA?"
+  translation: "TA?"
+  skip_translation: true
+
+- text: "Q?ffF?"
+  translation: "Q?ffF?"
+  skip_translation: true
+
+- text: "0AI"
+  translation: "0AI"
+  skip_translation: true
+
+- text: "L=ff&?"
+  translation: "L=ff&?"
+  skip_translation: true
+
+- text: "Q8=q="
+  translation: "Q8=q="
+  skip_translation: true
+
+- text: "Q8?33s?"
+  translation: "Q8?33s?"
+  skip_translation: true
+
+- text: "YyF"
+  translation: "YyF"
+  skip_translation: true
+
+- text: "B p_A"
+  translation: "B p_A"
+  skip_translation: true
+
+- text: "Bhe#?"
+  translation: "Bhe#?"
+  skip_translation: true
+
+- text: "Zw("
+  translation: "Zw("
+  skip_translation: true
+
+- text: "RAc="
+  translation: "RAc="
+  skip_translation: true
+
+- text: "Yw("
+  translation: "Yw("
+  skip_translation: true
+
+- text: "Suitcase_chibi"
+  translation: "Suitcase_chibi"
+  skip_translation: true
+
+- text: "Wp+?"
+  translation: "Wp+?"
+  skip_translation: true
+
+- text: "AZ~H"
+  translation: "AZ~H"
+  skip_translation: true
+
+- text: "Pn@"
+  translation: "Pn@"
+  skip_translation: true
+
+- text: "KuG"
+  translation: "KuG"
+  skip_translation: true
+
+- text: "H:nM"
+  translation: "H:nM"
+  skip_translation: true
+
+- text: "G!?p=J@333?"
+  translation: "G!?p=J@333?"
+  skip_translation: true
+
+- text: "W@p="
+  translation: "W@p="
+  skip_translation: true
+
+- text: "Ga@\\"
+  translation: "Ga@\\\\"
+  skip_translation: true
+
+- text: "GA@G"
+  translation: "GA@G"
+  skip_translation: true
+
+- text: "G!@q="
+  translation: "G!@q="
+  skip_translation: true
+
+- text: "L=ffv@"
+  translation: "L=ffv@"
+  skip_translation: true
+
+- text: "Gq@="
+  translation: "Gq@="
+  skip_translation: true
+
+- text: "C@ff"
+  translation: "C@ff"
+  skip_translation: true
+
+- text: "QH@ff"
+  translation: "QH@ff"
+  skip_translation: true
+
+- text: "GI@33"
+  translation: "GI@33"
+  skip_translation: true
+
+- text: "N?q="
+  translation: "N?q="
+  skip_translation: true
+
+- text: "Q@q="
+  translation: "Q@q="
+  skip_translation: true
+
+- text: "B@ff"
+  translation: "B@ff"
+  skip_translation: true
+
+- text: "GA@\\"
+  translation: "GA@\\\\"
+  skip_translation: true
+
+- text: "L=fff?"
+  translation: "L=fff?"
+  skip_translation: true
+
+- text: "Q8?p=J"
+  translation: "Q8?p=J"
+  skip_translation: true
+
+- text: "Q?fff"
+  translation: "Q?fff"
+  skip_translation: true
+
+- text: "L=fff"
+  translation: "L=fff"
+  skip_translation: true
+
+- text: "P?33s?"
+  translation: "P?33s?"
+  skip_translation: true
+
+- text: ")\\O?H"
+  translation: ")\\O?H"
+  skip_translation: true
+
+- text: "H@ff"
+  translation: "H@ff"
+  skip_translation: true
+
+- text: "G@ff"
+  translation: "G@ff"
+  skip_translation: true
+
+- text: "GA@p="
+  translation: "GA@p="
+  skip_translation: true
+
+- text: "Gq@ff"
+  translation: "Gq@ff"
+  skip_translation: true
+
+- text: "Gq@)\\"
+  translation: "Gq@)\\\\"
+  skip_translation: true
+
+- text: "C)iB"
+  translation: "C)iB"
+  skip_translation: true
+
+- text: "(NE"
+  translation: "(NE"
+  skip_translation: true
+
+- text: "St@"
+  translation: "St@"
+  skip_translation: true
+
+- text: "GA@)~"
+  translation: "GA@)~"
+  skip_translation: true
+
+- text: "H%E"
+  translation: "H%E"
+  skip_translation: true
+
+- text: "X&E"
+  translation: "X&E"
+  skip_translation: true
+
+- text: "G?p=*"
+  translation: "G?p=*"
+  skip_translation: true
+
+- text: "0QE"
+  translation: "0QE"
+  skip_translation: true
+
+- text: "P1E"
+  translation: "P1E"
+  skip_translation: true
+
+- text: "@PE"
+  translation: "@PE"
+  skip_translation: true
+
+- text: "XOe"
+  translation: "XOe"
+  skip_translation: true
+
+- text: "CStation_broken"
+  translation: "CStation_broken"
+  skip_translation: true
+
+- text: "?II"
+  translation: "?II"
+  skip_translation: true
+
+- text: "QzD"
+  translation: "QzD"
+  skip_translation: true
+
+- text: "R|?w"
+  translation: "R|?w"
+  skip_translation: true
+
+- text: "O1@v"
+  translation: "O1@v"
+  skip_translation: true
+
+- text: "Y?iz"
+  translation: "Y?iz"
+  skip_translation: true
+
+- text: "R|?s$"
+  translation: "R|?s$"
+  skip_translation: true
+
+- text: "R|?!l"
+  translation: "R|?!l"
+  skip_translation: true
+
+- text: "GlowingHole Logo"
+  translation: "GlowingHole Logo"
+  skip_translation: true
+
+- text: "E ac"
+  translation: "E ac"
+  skip_translation: true
+
+- text: "X1A"
+  translation: "X1A"
+  skip_translation: true
+
+- text: "L3A"
+  translation: "L3A"
+  skip_translation: true
+
+- text: "Unbenannt-3"
+  translation: "Unbenannt-3"
+  skip_translation: true
+
+- text: "A@R"
+  translation: "A@R"
+  skip_translation: true
+
+- text: "KDk"
+  translation: "KDk"
+  skip_translation: true
+
+- text: "X@ff"
+  translation: "X@ff"
+  skip_translation: true
+
+- text: "WA-"
+  translation: "WA-"
+  skip_translation: true
+
+- text: "Gq@33"
+  translation: "Gq@33"
+  skip_translation: true
+
+- text: "GA@)\\"
+  translation: "GA@)\\\\"
+  skip_translation: true
+
+- text: "C7w"
+  translation: "C7w"
+  skip_translation: true
+
+- text: "LCr"
+  translation: "LCr"
+  skip_translation: true
+
+- text: "Q8?p=*"
+  translation: "Q8?p=*"
+  skip_translation: true
+
+- text: "luxroom_holo_big 1"
+  translation: "luxroom_holo_big 1"
+  skip_translation: true
+
+- text: "Ga?ff&"
+  translation: "Ga?ff&"
+  skip_translation: true
+
+- text: "CDd"
+  translation: "CDd"
+  skip_translation: true
+
+- text: "?TU"
+  translation: "?TU"
+  skip_translation: true
+
+- text: "A$c"
+  translation: "A$c"
+  skip_translation: true
+
+- text: "DD$@ff"
+  translation: "DD$@ff"
+  skip_translation: true
+
+- text: "233?TU"
+  translation: "233?TU"
+  skip_translation: true
+
+- text: "UU5"
+  translation: "UU5"
+  skip_translation: true
+
+- text: "MpB"
+  translation: "MpB"
+  skip_translation: true
+
+- text: "KCl"
+  translation: "KCl"
+  skip_translation: true
+
+- text: "2OL|"
+  translation: "2OL|"
+  skip_translation: true
+
+- text: "Ax|"
+  translation: "Ax|"
+  skip_translation: true
+
+- text: "MDBr"
+  translation: "MDBr"
+  skip_translation: true
+
+- text: "DCs"
+  translation: "DCs"
+  skip_translation: true
+
+- text: "HCk"
+  translation: "HCk"
+  skip_translation: true
+
+- text: "UCN"
+  translation: "UCN"
+  skip_translation: true
+
+- text: "CTo"
+  translation: "CTo"
+  skip_translation: true
+
+- text: "*@UU"
+  translation: "*@UU"
+  skip_translation: true
+
+- text: "TUU?"
+  translation: "TUU?"
+  skip_translation: true
+
+- text: "NCk"
+  translation: "NCk"
+  skip_translation: true
+
+- text: "G@q="
+  translation: "G@q="
+  skip_translation: true
+
+- text: "H@q="
+  translation: "H@q="
+  skip_translation: true
+
+- text: "FI^_s"
+  translation: "FI^_s"
+  skip_translation: true
+
+- text: "GA@R"
+  translation: "GA@R"
+  skip_translation: true
+
+- text: "YU7"
+  translation: "YU7"
+  skip_translation: true
+
+- text: "UU5@"
+  translation: "UU5@"
+  skip_translation: true
+
+- text: "ICl"
+  translation: "ICl"
+  skip_translation: true
+
+- text: "=TUU"
+  translation: "=TUU"
+  skip_translation: true
+
+- text: "Adg"
+  translation: "Adg"
+  skip_translation: true
+
+- text: "EbS"
+  translation: "EbS"
+  skip_translation: true
+
+- text: "GA@fff?"
+  translation: "GA@fff?"
+  skip_translation: true
+
+- text: "A'p"
+  translation: "A'p"
+  skip_translation: true
+
+- text: "N@ff"
+  translation: "N@ff"
+  skip_translation: true
+
+- text: "]UH"
+  translation: "]UH"
+  skip_translation: true
+
+- text: "CxL"
+  translation: "CxL"
+  skip_translation: true
+
+- text: "@TU"
+  translation: "@TU"
+  skip_translation: true
+
+- text: "UU5@DD"
+  translation: "UU5@DD"
+  skip_translation: true
+
+- text: "9@TUU"
+  translation: "9@TUU"
+  skip_translation: true
+
+- text: "TUu"
+  translation: "TUu"
+  skip_translation: true
+
+- text: "ICj"
+  translation: "ICj"
+  skip_translation: true
+
+- text: "A9?e"
+  translation: "A9?e"
+  skip_translation: true
+
+- text: "MlB6"
+  translation: "MlB6"
+  skip_translation: true
+
+- text: "MlB"
+  translation: "MlB"
+  skip_translation: true
+
+- text: "L?q="
+  translation: "L?q="
+  skip_translation: true
+
+- text: "=@TUU"
+  translation: "=@TUU"
+  skip_translation: true
+
+- text: "G?fff?"
+  translation: "G?fff?"
+  skip_translation: true
+
+- text: "OCr"
+  translation: "OCr"
+  skip_translation: true
+
+- text: "UU5@\"\""
+  translation: "UU5@\"\""
+  skip_translation: true
+
+- text: "T+A"
+  translation: "T+A"
+  skip_translation: true
+
+- text: "CDD?vww"
+  translation: "CDD?vww"
+  skip_translation: true
+
+- text: "U@H"
+  translation: "U@H"
+  skip_translation: true
+
+- text: "AN\\"
+  translation: "AN\\\\"
+  skip_translation: true
+
+- text: "UU5@TUU?"
+  translation: "UU5@TUU?"
+  skip_translation: true
+
+- text: "Oe@"
+  translation: "Oe@"
+  skip_translation: true
+
+- text: "!\"\"?TUU?"
+  translation: "!\\"
+  skip_translation: true
+
+- text: "?TUU?"
+  translation: "?TUU?"
+  skip_translation: true
+
+- text: "QCU"
+  translation: "QCU"
+  skip_translation: true
+
+- text: "G`oA"
+  translation: "G`oA"
+  skip_translation: true
+
+- text: "C@q="
+  translation: "C@q="
+  skip_translation: true
+
+- text: "DD$@eff?"
+  translation: "DD$@eff?"
+  skip_translation: true
+
+- text: "DCk"
+  translation: "DCk"
+  skip_translation: true
+
+- text: "UU5@CDD?"
+  translation: "UU5@CDD?"
+  skip_translation: true
+
+- text: "CDD?vw"
+  translation: "CDD?vw"
+  skip_translation: true
+
+- text: "(ESZ"
+  translation: "(ESZ"
+  skip_translation: true
+
+- text: "ICr"
+  translation: "ICr"
+  skip_translation: true
+
+- text: "CCm"
+  translation: "CCm"
+  skip_translation: true
+
+- text: "NmF4"
+  translation: "NmF4"
+  skip_translation: true
+
+- text: "W?fff?"
+  translation: "W?fff?"
+  skip_translation: true
+
+- text: "DCr"
+  translation: "DCr"
+  skip_translation: true
+
+- text: "G=a3E"
+  translation: "G=a3E"
+  skip_translation: true
+
+- text: "UU5@eff?"
+  translation: "UU5@eff?"
+  skip_translation: true
+
+- text: ";@UU"
+  translation: ";@UU"
+  skip_translation: true
+
+- text: "UU5@ff"
+  translation: "UU5@ff"
+  skip_translation: true
+
+- text: "L@fff?"
+  translation: "L@fff?"
+  skip_translation: true
+
+- text: "W@ff"
+  translation: "W@ff"
+  skip_translation: true
+
+- text: "C@fff?"
+  translation: "C@fff?"
+  skip_translation: true
+
+- text: "`E/M_"
+  translation: "`E/M_"
+  skip_translation: true
+
+- text: "Mgu"
+  translation: "Mgu"
+  skip_translation: true
+
+- text: "ECV"
+  translation: "ECV"
+  skip_translation: true
+
+- text: "=@UU"
+  translation: "=@UU"
+  skip_translation: true
+
+- text: "6CU"
+  translation: "6CU"
+  skip_translation: true
+
+- text: "@AG"
+  translation: "@AG"
+  skip_translation: true
+
+- text: "XmN"
+  translation: "XmN"
+  skip_translation: true
+
+- text: "233@TU"
+  translation: "233@TU"
+  skip_translation: true
+
+- text: "Jha"
+  translation: "Jha"
+  skip_translation: true
+
+- text: "CKs"
+  translation: "CKs"
+  skip_translation: true
+
+- text: "OC#"
+  translation: "OC#"
+  skip_translation: true
+
+- text: "Cet"
+  translation: "Cet"
+  skip_translation: true
+
+- text: "9@TUU?"
+  translation: "9@TUU?"
+  skip_translation: true
+
+- text: "L@TU"
+  translation: "L@TU"
+  skip_translation: true
+
+- text: "RgG"
+  translation: "RgG"
+  skip_translation: true
+
+- text: "HBv"
+  translation: "HBv"
+  skip_translation: true
+
+- text: "L@ww"
+  translation: "L@ww"
+  skip_translation: true
+
+- text: "?@UU"
+  translation: "?@UU"
+  skip_translation: true
+
+- text: "MhB"
+  translation: "MhB"
+  skip_translation: true
+
+- text: "(@TUU?"
+  translation: "(@TUU?"
+  skip_translation: true
+
+- text: "HCr"
+  translation: "HCr"
+  skip_translation: true
+
+- text: "MLBd"
+  translation: "MLBd"
+  skip_translation: true
+
+- text: "?TUU"
+  translation: "?TUU"
+  skip_translation: true
+
+- text: "AUco"
+  translation: "AUco"
+  skip_translation: true
+
+- text: "JeM"
+  translation: "JeM"
+  skip_translation: true
+
+- text: "Vgt4"
+  translation: "Vgt4"
+  skip_translation: true
+
+- text: "X)O"
+  translation: "X)O"
+  skip_translation: true
+
+- text: "m A"
+  translation: "m A"
+  skip_translation: true
+
+- text: "Q8@q="
+  translation: "Q8@q="
+  skip_translation: true
+
+- text: "!\"\"@TU"
+  translation: "!\\"
+  skip_translation: true
+
+- text: "233@TUU?"
+  translation: "233@TUU?"
+  skip_translation: true
+
+- text: "TUU?ef"
+  translation: "TUU?ef"
+  skip_translation: true
+
+- text: "N\"4Br"
+  translation: "N\\"
+  skip_translation: true
+
+- text: "BN\"4Br"
+  translation: "BN\\"
+  skip_translation: true
+
+- text: "!OP"
+  translation: "!OP"
+  skip_translation: true
+
+- text: "@TUU?"
+  translation: "@TUU?"
+  skip_translation: true
+
+- text: "MTB$c"
+  translation: "MTB$c"
+  skip_translation: true
+
+- text: "=@TU"
+  translation: "=@TU"
+  skip_translation: true
+
+- text: "^NU"
+  translation: "^NU"
+  skip_translation: true
+
+- text: "C/n"
+  translation: "C/n"
+  skip_translation: true
+
+- text: "1CU"
+  translation: "1CU"
+  skip_translation: true
+
+- text: "GA@q="
+  translation: "GA@q="
+  skip_translation: true
+
+- text: "Q8?fff?"
+  translation: "Q8?fff?"
+  skip_translation: true
+
+- text: "KCr"
+  translation: "KCr"
+  skip_translation: true
+
+- text: "ECU"
+  translation: "ECU"
+  skip_translation: true
+
+- text: "U~y?"
+  translation: "U~y?"
+  skip_translation: true
+
+- text: "9@UU"
+  translation: "9@UU"
+  skip_translation: true
+
+- text: "PCj"
+  translation: "PCj"
+  skip_translation: true
+
+- text: "Bss"
+  translation: "Bss"
+  skip_translation: true
+
+- text: "CN\"xBd"
+  translation: "CN\\"
+  skip_translation: true
+
+- text: "CN\"xB"
+  translation: "CN\\"
+  skip_translation: true
+
+- text: "Mix"
+  translation: "Mix"
+  skip_translation: true
+
+- text: "C&y"
+  translation: "C&y"
+  skip_translation: true
+
+- text: "De6Z"
+  translation: "De6Z"
+  skip_translation: true
+
+- text: "Ga@ff"
+  translation: "Ga@ff"
+  skip_translation: true
+
+- text: "GA@ff"
+  translation: "GA@ff"
+  skip_translation: true
+
+- text: "MxBv"
+  translation: "MxBv"
+  skip_translation: true
+
+- text: "MxB"
+  translation: "MxB"
+  skip_translation: true
+
+- text: "D@r"
+  translation: "D@r"
+  skip_translation: true
+
+- text: "KCj"
+  translation: "KCj"
+  skip_translation: true
+
+- text: "=UU"
+  translation: "=UU"
+  skip_translation: true
+
+- text: "FCU"
+  translation: "FCU"
+  skip_translation: true
+
+- text: "CCl"
+  translation: "CCl"
+  skip_translation: true
+
+- text: "!\"\"@UU"
+  translation: "!\\"
+  skip_translation: true
+
+- text: "FDs"
+  translation: "FDs"
+  skip_translation: true
+
+- text: "Akw"
+  translation: "Akw"
+  skip_translation: true
+
+- text: "/CU"
+  translation: "/CU"
+  skip_translation: true
+
+- text: "Om;D"
+  translation: "Om;D"
+  skip_translation: true
+
+- text: "Qx@R"
+  translation: "Qx@R"
+  skip_translation: true
+
+- text: "WQO"
+  translation: "WQO"
+  skip_translation: true
+
+- text: "B$c"
+  translation: "B$c"
+  skip_translation: true
+
+- text: "ACW+"
+  translation: "ACW+"
+  skip_translation: true
+
+- text: "G!@fff?"
+  translation: "G!@fff?"
+  skip_translation: true
+
+- text: "OPT"
+  translation: "OPT"
+  skip_translation: true
+
+- text: "A4o"
+  translation: "A4o"
+  skip_translation: true
+
+- text: "Q?ff&@"
+  translation: "Q?ff&@"
+  skip_translation: true
+
+- text: "OCN"
+  translation: "OCN"
+  skip_translation: true
+
+- text: "CCk"
+  translation: "CCk"
+  skip_translation: true
+
+- text: "TUU?CDD"
+  translation: "TUU?CDD"
+  skip_translation: true
+
+- text: "f (nk6"
+  translation: "f (nk6"
+  skip_translation: true
+
+- text: "PID"
+  translation: "PID"
+  skip_translation: true
+
+- text: "Ga@R"
+  translation: "Ga@R"
+  skip_translation: true
+
+- text: "Avi"
+  translation: "Avi"
+  skip_translation: true
+
+- text: "Ga?q="
+  translation: "Ga?q="
+  skip_translation: true
+
+- text: "YoB"
+  translation: "YoB"
+  skip_translation: true
+
+- text: "X0I"
+  translation: "X0I"
+  skip_translation: true
+
+- text: "M|Bd"
+  translation: "M|Bd"
+  skip_translation: true
+
+- text: "K@q="
+  translation: "K@q="
+  skip_translation: true
+
+- text: "A=h"
+  translation: "A=h"
+  skip_translation: true
+
+- text: "[I2J"
+  translation: "[I2J"
+  skip_translation: true
+
+- text: "C0E"
+  translation: "C0E"
+  skip_translation: true
+
+- text: "233?UU"
+  translation: "233?UU"
+  skip_translation: true
+
+- text: "*?UU"
+  translation: "*?UU"
+  skip_translation: true
+
+- text: "L?UU"
+  translation: "L?UU"
+  skip_translation: true
+
+- text: "ACM:"
+  translation: "ACM:"
+  skip_translation: true
+
+- text: "RPoN"
+  translation: "RPoN"
+  skip_translation: true
+
+- text: "N?ff"
+  translation: "N?ff"
+  skip_translation: true
+
+- text: "U?H"
+  translation: "U?H"
+  skip_translation: true
+
+- text: "S@q"
+  translation: "S@q"
+  skip_translation: true
+
+- text: "S@p="
+  translation: "S@p="
+  skip_translation: true
+
+- text: "A)\\G"
+  translation: "A)\\G"
+  skip_translation: true
+
+- text: "Cartel Suit Brown"
+  translation: "Cartel Suit Brown"
+  skip_translation: true
+
+- text: "Neck Chip - Glow"
+  translation: "Neck Chip - Glow"
+  skip_translation: true
+
+- text: "Grey Cartel Suit 2 Pants"
+  translation: "Grey Cartel Suit 2 Pants"
+  skip_translation: true
+
+- text: "Brown Cartel Pants"
+  translation: "Brown Cartel Pants"
+  skip_translation: true
+
+- text: "Condom Belt"
+  translation: "Condom Belt"
+  skip_translation: true
+
+- text: "Cartel Hat"
+  translation: "Cartel Hat"
+  skip_translation: true
+
+- text: "Grey Cartel Suit 2"
+  translation: "Grey Cartel Suit 2"
+  skip_translation: true
+
+- text: "Brown Cartel Suit"
+  translation: "Brown Cartel Suit"
+  skip_translation: true
+
+- text: "Blue Chipset"
+  translation: "Blue Chipset"
+  skip_translation: true
+
+- text: "Klaudia's Mask"
+  translation: "Klaudia's Mask"
+  skip_translation: true
+
+- text: "Klaudia Default"
+  translation: "Klaudia Default"
+  skip_translation: true
+
+- text: "Lio Default Bottom"
+  translation: "Lio Default Bottom"
+  skip_translation: true
+
+- text: "Klaudia thong"
+  translation: "Klaudia thong"
+  skip_translation: true
+
+- text: "PUUUUU"
+  translation: "PUUUUU"
+  skip_translation: true
+
+- text: "Playable Track"
+  translation: "Playable Track"
+  skip_translation: true
+
+- text: "VUUUUU"
+  translation: "VUUUUU"
+  skip_translation: true
+
+- text: "UUUUUU&@"
+  translation: "UUUUUU&@"
+  skip_translation: true
+
+- text: "XUUUUU"
+  translation: "XUUUUU"
+  skip_translation: true
+
+- text: "\"\"JO"
+  translation: "\\"
+  skip_translation: true
+
+- text: "Ruffle Hair"
+  translation: "Ruffle Hair"
+  skip_translation: true
+
+- text: "Become Sweaty"
+  translation: "Become Sweaty"
+  skip_translation: true
+
+- text: "`UUUUU"
+  translation: "`UUUUU"
+  skip_translation: true
+
+- text: "Game Over"
+  translation: "Проигрыш"
+
+- text: "Main Menu"
+  translation: "Главное меню"
+
+- text: "Continue"
+  translation: "Продолжить"
+
+- text: "FakeMirror Preview RenderTexture"
+  translation: "Рендертекстура предпросмотра зеркала"
+
+- text: "Wbc"
+  translation: "Wbc"
+  skip_translation: true
+
+- text: "CiU"
+  translation: "CiU"
+  skip_translation: true
+
+- text: "T:p"
+  translation: "T:p"
+  skip_translation: true
+
+- text: "V(U"
+  translation: "V(U"
+  skip_translation: true
+
+- text: "Li)"
+  translation: "Li)"
+  skip_translation: true
+
+- text: "Hb1"
+  translation: "Hb1"
+  skip_translation: true
+
+- text: "z i3"
+  translation: "z i3"
+  skip_translation: true
+
+- text: "La*"
+  translation: "La*"
+  skip_translation: true
+
+- text: "I(B"
+  translation: "I(B"
+  skip_translation: true
+
+- text: "I,b"
+  translation: "I,b"
+  skip_translation: true
+
+- text: "$#9)HI*R"
+  translation: "$#9)HI*R"
+  skip_translation: true
+
+- text: "I-jS"
+  translation: "I-jS"
+  skip_translation: true
+
+- text: "I/z"
+  translation: "I/z"
+  skip_translation: true
+
+- text: "Lc:3"
+  translation: "Lc:3"
+  skip_translation: true
+
+- text: "IBR"
+  translation: "IBR"
+  skip_translation: true
+
+- text: "ICZ"
+  translation: "ICZ"
+  skip_translation: true
+
+- text: "IDb"
+  translation: "IDb"
+  skip_translation: true
+
+- text: "$\"1IHJ2"
+  translation: "$\\"
+  skip_translation: true
+
+- text: "0E(J1"
+  translation: "0E(J1"
+  skip_translation: true
+
+- text: "Lb2S"
+  translation: "Lb2S"
+  skip_translation: true
+
+- text: "AHB"
+  translation: "AHB"
+  skip_translation: true
+
+- text: "ALb"
+  translation: "ALb"
+  skip_translation: true
+
+- text: "I@B"
+  translation: "I@B"
+  skip_translation: true
+
+- text: "IAJR"
+  translation: "IAJR"
+  skip_translation: true
+
+- text: "ANr"
+  translation: "ANr"
+  skip_translation: true
+
+- text: ")AIJQ"
+  translation: ")AIJQ"
+  skip_translation: true
+
+- text: "@E*Q"
+  translation: "@E*Q"
+  skip_translation: true
+
+- text: "AMjQ"
+  translation: "AMjQ"
+  skip_translation: true
+
+- text: "AOz"
+  translation: "AOz"
+  skip_translation: true
+
+- text: "Lf1"
+  translation: "Lf1"
+  skip_translation: true
+
+- text: "INq"
+  translation: "INq"
+  skip_translation: true
+
+- text: "Mnq"
+  translation: "Mnq"
+  skip_translation: true
+
+- text: "FpB"
+  translation: "FpB"
+  skip_translation: true
+
+- text: "Gx\""
+  translation: "Gx\\"
+  skip_translation: true
+
+- text: "Ftb"
+  translation: "Ftb"
+  skip_translation: true
+
+- text: "IIFrR"
+  translation: "IIFrR"
+  skip_translation: true
+
+- text: "Ld&"
+  translation: "Ld&"
+  skip_translation: true
+
+- text: "Fvr"
+  translation: "Fvr"
+  skip_translation: true
+
+- text: "E)FqJP"
+  translation: "E)FqJP"
+  skip_translation: true
+
+- text: "Bboob2"
+  translation: "Bboob2"
+  skip_translation: true
+
+- text: "Bboob_big"
+  translation: "Bboob_big"
+  skip_translation: true
+
+- text: "Bboob_huge"
+  translation: "Bboob_huge"
+  skip_translation: true
+
+- text: "BHDreadlocks"
+  translation: "BHDreadlocks"
+  skip_translation: true
+
+- text: "BHlong"
+  translation: "BHlong"
+  skip_translation: true
+
+- text: "BHlong2"
+  translation: "BHlong2"
+  skip_translation: true
+
+- text: "skin_light/balls B"
+  translation: "skin_light/balls B"
+  skip_translation: true
+
+- text: "skin_tan/B balls"
+  translation: "skin_tan/B balls"
+  skip_translation: true
+
+- text: "skin_tan/S balls"
+  translation: "skin_tan/S balls"
+  skip_translation: true
+
+- text: "skin_light/balls S"
+  translation: "skin_light/balls S"
+  skip_translation: true
+
+- text: "Bknee2"
+  translation: "Bknee2"
+  skip_translation: true
+
+- text: "Goatee"
+  translation: "Goatee"
+  skip_translation: true
+
+- text: "Harley sunglasses"
+  translation: "Harley sunglasses"
+  skip_translation: true
+
+- text: "Mustache"
+  translation: "Mustache"
+  skip_translation: true
+
+- text: "RULash"
+  translation: "RULash"
+  skip_translation: true
+
+- text: "Rblank"
+  translation: "Rblank"
+  skip_translation: true
+
+- text: "Rbrow"
+  translation: "Rbrow"
+  skip_translation: true
+
+- text: "Sideburns"
+  translation: "Sideburns"
+  skip_translation: true
+
+- text: "eyebrows  folds"
+  translation: "eyebrows  folds"
+  skip_translation: true
+
+- text: "eyes folds"
+  translation: "eyes folds"
+  skip_translation: true
+
+- text: "face folds"
+  translation: "face folds"
+  skip_translation: true
+
+- text: "Ua?="
+  translation: "Ua?="
+  skip_translation: true
+
+- text: "Bbang1"
+  translation: "Bbang1"
+  skip_translation: true
+
+- text: "Bbang2"
+  translation: "Bbang2"
+  skip_translation: true
+
+- text: "B nipple rings"
+  translation: "B nipple rings"
+  skip_translation: true
+
+- text: "chip slot"
+  translation: "chip slot"
+  skip_translation: true
+
+- text: "default_outfit/B  boot"
+  translation: "default_outfit/B  boot"
+  skip_translation: true
+
+- text: "default_outfit/Bboot rimlight"
+  translation: "default_outfit/Bboot rimlight"
+  skip_translation: true
+
+- text: "default_outfit/belly chain1"
+  translation: "default_outfit/belly chain1"
+  skip_translation: true
+
+- text: "default_outfit/belly chain2"
+  translation: "default_outfit/belly chain2"
+  skip_translation: true
+
+- text: "default_outfit/black nail"
+  translation: "default_outfit/black nail"
+  skip_translation: true
+
+- text: "default_outfit/BLPant rimlight"
+  translation: "default_outfit/BLPant rimlight"
+  skip_translation: true
+
+- text: "default_outfit/BSL rimlight"
+  translation: "default_outfit/BSL rimlight"
+  skip_translation: true
+
+- text: "default_outfit/chain on neck"
+  translation: "default_outfit/chain on neck"
+  skip_translation: true
+
+- text: "default_outfit/F  boot"
+  translation: "default_outfit/F  boot"
+  skip_translation: true
+
+- text: "default_outfit/Fboot rimlight"
+  translation: "default_outfit/Fboot rimlight"
+  skip_translation: true
+
+- text: "default_outfit/FLpant rimlight"
+  translation: "default_outfit/FLpant rimlight"
+  skip_translation: true
+
+- text: "default_outfit/FLsleeve light"
+  translation: "default_outfit/FLsleeve light"
+  skip_translation: true
+
+- text: "default_outfit/FSL rimlight"
+  translation: "default_outfit/FSL rimlight"
+  skip_translation: true
+
+- text: "default_outfit/FSS rimlight"
+  translation: "default_outfit/FSS rimlight"
+  skip_translation: true
+
+- text: "default_outfit/FSU rimlight"
+  translation: "default_outfit/FSU rimlight"
+  skip_translation: true
+
+- text: "default_outfit/id card"
+  translation: "default_outfit/id card"
+  skip_translation: true
+
+- text: "default_outfit/id   circle"
+  translation: "default_outfit/id   circle"
+  skip_translation: true
+
+- text: "default_outfit/id circle2"
+  translation: "default_outfit/id circle2"
+  skip_translation: true
+
+- text: "default_outfit/id pocket"
+  translation: "default_outfit/id pocket"
+  skip_translation: true
+
+- text: "FemboyB_Bhand"
+  translation: "FemboyB_Bhand"
+  skip_translation: true
+
+- text: "FemboyB_arm"
+  translation: "FemboyB_arm"
+  skip_translation: true
+
+- text: "FemboyL_arm"
+  translation: "FemboyL_arm"
+  skip_translation: true
+
+- text: "Lbrow_m"
+  translation: "Lbrow_m"
+  skip_translation: true
+
+- text: "RLlash"
+  translation: "RLlash"
+  skip_translation: true
+
+- text: "Rbrow_m"
+  translation: "Rbrow_m"
+  skip_translation: true
+
+- text: "OyB"
+  translation: "OyB"
+  skip_translation: true
+
+- text: "Bearring"
+  translation: "Bearring"
+  skip_translation: true
+
+- text: "Bheel"
+  translation: "Bheel"
+  skip_translation: true
+
+- text: "Bheel strap"
+  translation: "Bheel strap"
+  skip_translation: true
+
+- text: "Bpelt"
+  translation: "Bpelt"
+  skip_translation: true
+
+- text: "expression/Angry_Side lid"
+  translation: "expression/Angry_Side lid"
+  skip_translation: true
+
+- text: "expression/Aroused_LSide lid"
+  translation: "expression/Aroused_LSide lid"
+  skip_translation: true
+
+- text: "expression/Aroused_mouth base"
+  translation: "expression/Aroused_mouth base"
+  skip_translation: true
+
+- text: "expression/Aroused_RSide lid"
+  translation: "expression/Aroused_RSide lid"
+  skip_translation: true
+
+- text: "expression/brow12_angry icon"
+  translation: "expression/brow12_angry icon"
+  skip_translation: true
+
+- text: "expression/brow12_horns icon"
+  translation: "expression/brow12_horns icon"
+  skip_translation: true
+
+- text: "expression/Happy_Side lid"
+  translation: "expression/Happy_Side lid"
+  skip_translation: true
+
+- text: "Mask_base"
+  translation: "Mask_base"
+  skip_translation: true
+
+- text: "Klaudia_mask"
+  translation: "Klaudia_mask"
+  skip_translation: true
+
+- text: "F nipple rings"
+  translation: "F nipple rings"
+  skip_translation: true
+
+- text: "Lpupil"
+  translation: "Lpupil"
+  skip_translation: true
+
+- text: "P0iJ%@"
+  translation: "P0iJ%@"
+  skip_translation: true
+
+- text: "TUUUUA@"
+  translation: "TUUUUA@"
+  skip_translation: true
+
+- text: "`UU"
+  translation: "`UU"
+  skip_translation: true
+
+- text: "Spine Animation State Track"
+  translation: "Spine Animation State Track"
+  skip_translation: true
+
+- text: "VUUUU"
+  translation: "VUUUU"
+  skip_translation: true
+
+- text: "DDDDDd@@"
+  translation: "DDDDDd@@"
+  skip_translation: true
+
+- text: "Animation Track"
+  translation: "Animation Track"
+  skip_translation: true
+
+- text: "Suitcase bad End 4 Handjob CutsceneTimeline"
+  translation: "Suitcase bad End 4 Handjob CutsceneTimeline"
+  skip_translation: true
+
+- text: "Look Direction Track"
+  translation: "Look Direction Track"
+  skip_translation: true
+
+- text: "Activation Track"
+  translation: "Activation Track"
+  skip_translation: true
+
+- text: "WUU"
+  translation: "WUU"
+  skip_translation: true
+
+- text: "XUUUU"
+  translation: "XUUUU"
+  skip_translation: true
+
+- text: "Suitcase bad End 5 Final CutsceneTimeline 1"
+  translation: "Suitcase bad End 5 Final CutsceneTimeline 1"
+  skip_translation: true
+
+- text: "UUUMUU0@"
+  translation: "UUUMUU0@"
+  skip_translation: true
+
+- text: "VUUUUU)@733333"
+  translation: "VUUUUU)@733333"
+  skip_translation: true
+
+- text: "Suitcase bad End 3 Sit on Lap CutsceneTimeline"
+  translation: "Suitcase bad End 3 Sit on Lap CutsceneTimeline"
+  skip_translation: true
+
+- text: "Eg @"
+  translation: "Eg @"
+  skip_translation: true
+
+- text: "Suitcase bad End 1 Intro CutsceneTimeline"
+  translation: "Suitcase bad End 1 Intro CutsceneTimeline"
+  skip_translation: true
+
+- text: "Handjob Down2"
+  translation: "Handjob Down2"
+  skip_translation: true
+
+- text: "EDDDDD1@"
+  translation: "EDDDDD1@"
+  skip_translation: true
+
+- text: "Suitcase bad End 2 CutsceneTimeline"
+  translation: "Suitcase bad End 2 CutsceneTimeline"
+  skip_translation: true
+
+- text: "Neon Nights - Gameplay Post Process Profile"
+  translation: "Профиль пост-обработки геймплея"
+
+- text: "Erokin Wet"
+  translation: "Erokin Wet"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 2_line_0-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 2_line_0-FSM"
+  skip_translation: true
+
+- text: "On Line Displaying 2"
+  translation: "On Line Displaying 2"
+  skip_translation: true
+
+- text: "TargetChar"
+  translation: "TargetChar"
+  skip_translation: true
+
+- text: "Effect"
+  translation: "Effect"
+  skip_translation: true
+
+- text: "TargetLimb"
+  translation: "TargetLimb"
+  skip_translation: true
+
+- text: "Silent"
+  translation: "Silent"
+  skip_translation: true
+
+- text: "Hair_Male_3"
+  translation: "Hair_Male_3"
+  skip_translation: true
+
+- text: "Primary"
+  translation: "Primary"
+  skip_translation: true
+
+- text: "Back"
+  translation: "Back"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 1_line_0-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 1_line_0-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 24_line_4-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 24_line_4-FSM"
+  skip_translation: true
+
+- text: "On Line Displaying"
+  translation: "On Line Displaying"
+  skip_translation: true
+
+- text: "Amount"
+  translation: "Amount"
+  skip_translation: true
+
+- text: "Pull Off Condom"
+  translation: "Стянуть презерватив"
+
+- text: "Put on Condom"
+  translation: "Надеть презерватив"
+
+- text: "Take off CartelGuys Pants"
+  translation: "Снять штаны с картельщика"
+
+- text: "Undress boss and lady"
+  translation: "Раздеть босса и леди"
+
+- text: "BodyWriting"
+  translation: "BodyWriting"
+  skip_translation: true
+
+- text: "SexXP_10"
+  translation: "SexXP_10"
+  skip_translation: true
+
+- text: "SexXP_2"
+  translation: "SexXP_2"
+  skip_translation: true
+
+- text: "TakeOffCondom2"
+  translation: "TakeOffCondom2"
+  skip_translation: true
+
+- text: "SexXP_1"
+  translation: "SexXP_1"
+  skip_translation: true
+
+- text: "SexXP_5"
+  translation: "SexXP_5"
+  skip_translation: true
+
+- text: "SexXP_8"
+  translation: "SexXP_8"
+  skip_translation: true
+
+- text: "SexXP_3"
+  translation: "SexXP_3"
+  skip_translation: true
+
+- text: "SexXP_9"
+  translation: "SexXP_9"
+  skip_translation: true
+
+- text: "SexXP_7"
+  translation: "SexXP_7"
+  skip_translation: true
+
+- text: "SexXP_4"
+  translation: "SexXP_4"
+  skip_translation: true
+
+- text: "Undress Camera Guy"
+  translation: "Раздеть оператора"
+
+- text: "Undress Guy 3"
+  translation: "Раздеть парня 3"
+
+- text: "SexXP_6"
+  translation: "SexXP_6"
+  skip_translation: true
+
+- text: "Inject Glow"
+  translation: "Inject Glow"
+  skip_translation: true
+
+- text: "Take off Jacket"
+  translation: "Снять куртку"
+
+- text: "Start"
+  translation: "Start"
+  skip_translation: true
+
+- text: "EffectGiven"
+  translation: "EffectGiven"
+  skip_translation: true
+
+- text: "Owner"
+  translation: "Owner"
+  skip_translation: true
+
+- text: "Handler"
+  translation: "Handler"
+  skip_translation: true
+
+- text: "Bark"
+  translation: "Bark"
+  skip_translation: true
+
+- text: "StoreAs"
+  translation: "StoreAs"
+  skip_translation: true
+
+- text: "OnBarkDone"
+  translation: "OnBarkDone"
+  skip_translation: true
+
+- text: "Type"
+  translation: "Type"
+  skip_translation: true
+
+- text: "BarkObject"
+  translation: "BarkObject"
+  skip_translation: true
+
+- text: "EffectTaken"
+  translation: "EffectTaken"
+  skip_translation: true
+
+- text: "ToStop"
+  translation: "ToStop"
+  skip_translation: true
+
+- text: "Take off Outfit"
+  translation: "Снять наряд"
+
+- text: "Take off Panties"
+  translation: "Снять трусики"
+
+- text: "Take off Bra"
+  translation: "Снять лифчик"
+
+- text: "Perversion Interference Profile"
+  translation: "Профиль помех перверсии"
+
+- text: "Klaudia Heels FSM"
+  translation: "FSM туфель Клаудии"
+
+- text: "Klaudia Knee FSM"
+  translation: "FSM колена Клаудии"
+
+- text: "Klaudia Chips FSM"
+  translation: "FSM чипов Клаудии"
+
+- text: "Klaudia Arm FSM"
+  translation: "FSM руки Клаудии"
+
+- text: "Il?"
+  translation: "Il?"
+  skip_translation: true
+
+- text: "Klaudia Breasts FSM"
+  translation: "FSM груди Клаудии"
+
+- text: "Did stare before?"
+  translation: "Уже смотрела раньше?"
+
+- text: "Second time"
+  translation: "Второй раз"
+
+- text: "ToCallOnMatch"
+  translation: "ToCallOnMatch"
+  skip_translation: true
+
+- text: "EventsByInt"
+  translation: "EventsByInt"
+  skip_translation: true
+
+- text: "StringValue"
+  translation: "StringValue"
+  skip_translation: true
+
+- text: "BoolValue"
+  translation: "BoolValue"
+  skip_translation: true
+
+- text: "FloatValue"
+  translation: "FloatValue"
+  skip_translation: true
+
+- text: "IntValue"
+  translation: "IntValue"
+  skip_translation: true
+
+- text: "KeyName"
+  translation: "KeyName"
+  skip_translation: true
+
+- text: "HasBeenSet"
+  translation: "HasBeenSet"
+  skip_translation: true
+
+- text: "Stared at Klaudias Tits"
+  translation: "Посмотрел на грудь Клаудии"
+
+- text: "CharacterTarget"
+  translation: "Цель персонажа"
+
+- text: "StatID"
+  translation: "StatID"
+  skip_translation: true
+
+- text: "ToAdd"
+  translation: "ToAdd"
+  skip_translation: true
+
+- text: "SaveID"
+  translation: "SaveID"
+  skip_translation: true
+
+- text: "Klaudia Cigarette FSM"
+  translation: "FSM сигареты Клаудии"
+
+- text: "SuitcaseBadend - CartelHideout - 29_line_8-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 29_line_8-FSM"
+  skip_translation: true
+
+- text: "StatType"
+  translation: "StatType"
+  skip_translation: true
+
+- text: "Add"
+  translation: "Add"
+  skip_translation: true
+
+- text: "SetIfNotZoey"
+  translation: "SetIfNotZoey"
+  skip_translation: true
+
+- text: "Delay"
+  translation: "Delay"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 23_line_2-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 23_line_2-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 10_line_15-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 10_line_15-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 33_line_0-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 33_line_0-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 29_line_11-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 29_line_11-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 22_line_7-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 22_line_7-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 26_line_7-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 26_line_7-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 8_line_0-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 8_line_0-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 18_line_3-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 18_line_3-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 15_line_3-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 15_line_3-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 32_line_9-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 32_line_9-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 17_line_4-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 17_line_4-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 31_line_9-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 31_line_9-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 23_line_6-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 23_line_6-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 33_line_10-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 33_line_10-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 22_line_9-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 22_line_9-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 6_line_0-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 6_line_0-FSM"
+  skip_translation: true
+
+- text: "TargetAllLimbs"
+  translation: "TargetAllLimbs"
+  skip_translation: true
+
+- text: "ApplyToClothes"
+  translation: "ApplyToClothes"
+  skip_translation: true
+
+- text: "ToShow"
+  translation: "ToShow"
+  skip_translation: true
+
+- text: "Position"
+  translation: "Position"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 20_line_3-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 20_line_3-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 9_line_7-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 9_line_7-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 30_line_0-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 30_line_0-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 31_line_4-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 31_line_4-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 29_line_0-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 29_line_0-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 25_line_9-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 25_line_9-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 28_line_4-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 28_line_4-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 10_line_4-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 10_line_4-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 18_line_6-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 18_line_6-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 11_line_10-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 11_line_10-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 33_line_9-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 33_line_9-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 16_line_8-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 16_line_8-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 18_line_4-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 18_line_4-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 17_line_8-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 17_line_8-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 17_line_10-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 17_line_10-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 22_line_2-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 22_line_2-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 27_line_7-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 27_line_7-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 13_line_3-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 13_line_3-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 14_line_7-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 14_line_7-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 32_line_0-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 32_line_0-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 21_line_6-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 21_line_6-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 22_line_6-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 22_line_6-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 3_line_1-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 3_line_1-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 10_line_13-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 10_line_13-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 21_line_3-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 21_line_3-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 23_line_7-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 23_line_7-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 19_line_3-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 19_line_3-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 8_line_6-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 8_line_6-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 29_line_9-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 29_line_9-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 10_line_3-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 10_line_3-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 17_line_15-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 17_line_15-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 7_line_7-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 7_line_7-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 8_line_4-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 8_line_4-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 10_line_7-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 10_line_7-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 16_line_3-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 16_line_3-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 31_line_0-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 31_line_0-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 4_line_1-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 4_line_1-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 16_line_2-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 16_line_2-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 7_line_0-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 7_line_0-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 29_line_4-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 29_line_4-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 9_line_9-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 9_line_9-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 28_line_0-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 28_line_0-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 17_line_6-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 17_line_6-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 9_line_3-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 9_line_3-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 7_line_11-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 7_line_11-FSM"
+  skip_translation: true
+
+- text: "SuitcaseBadend - CartelHideout - 13_line_7-FSM"
+  translation: "SuitcaseBadend - CartelHideout - 13_line_7-FSM"
+  skip_translation: true
+
+- text: "Ass and Pussy - Wet"
+  translation: "Попа и киска — мокрые"
+
+- text: "BoobsNude - Nipple Go Errect"
+  translation: "Грудь обнажённая — соски встают"
+
+- text: "AssNude - 1 Hand Groping Male"
+  translation: "Попа обнажённая — рука мужчины лапает"
+
+- text: "PUSSY"
+  translation: "PUSSY"
+  skip_translation: true
+
+- text: "PERVERSION"
+  translation: "PERVERSION"
+  skip_translation: true
+
+- text: "GAME"
+  translation: "GAME"
+  skip_translation: true
+
+- text: "ToLevel"
+  translation: "ToLevel"
+  skip_translation: true
+
+- text: "OVER"
+  translation: "OVER"
+  skip_translation: true
+
+- text: "OpenMainMenu"
+  translation: "OpenMainMenu"
+  skip_translation: true
+
+- text: "ContinueGame"
+  translation: "ContinueGame"
+  skip_translation: true
+
+- text: "Sollte ich wiederstehen?"
+  translation: "Должен ли я сопротивляться?"
+
+- text: "Warme H"
+  translation: "Тёплые руки"
+
+- text: "nde greifen nach mir,"
+  translation: "хватают меня,"
+
+- text: "Verzweifeln eine W"
+  translation: "Отчаянно пытаюсь"
+
+- text: "rme in mir freizulassen,"
+  translation: "освободить внутри меня,"
+
+- text: "Werde ich die richtige Entscheidung treffen?"
+  translation: "Приму ли я правильное решение?"
+
+- text: "Eine Maske versteckt meine Tr"
+  translation: "Маска скрывает мои слёзы"
+
+- text: "Aber was passiert wenn ich sie abnehme?"
+  translation: "Но что будет, если я сниму её?"
+
+- text: "Ich f"
+  translation: "Я чувствую,"
+
+- text: "hle wie die Maske nachgibt,"
+  translation: "как маска уступает,"
+
+- text: "Sie enth"
+  translation: "Она обнажает"
+
+- text: "llen mich, es gibt keine R"
+  translation: "наполняет меня, нет пути назад"
+
+- text: "Ich folge dem Sto"
+  translation: "Я следую за толчком"
+
+- text: "unsichtbarer H"
+  translation: "невидимая рука"
+
+- text: "RETRY"
+  translation: "RETRY"
+  skip_translation: true
+
+- text: "VL UP!"
+  translation: "VL UP!"
+  skip_translation: true
+
+- text: "Mirror interaction"
+  translation: "Взаимодействие с зеркалом"
+
+- text: "Groping Sound"
+  translation: "Звук лапанья"
+
+- text: "Groping Sound 1"
+  translation: "Звук лапанья 1"
+
+- text: "SFX for Cutscene"
+  translation: "SFX для катсцены"
+
+- text: "Condoms"
+  translation: "Презервативы"
+
+- text: "Sex Sound 1"
+  translation: "Звук секса 1"
+
+- text: "2 Suitcase bad End 2nd Cutscene"
+  translation: "2-я катсцена плохой концовки"
+
+- text: "Sex Sound 3"
+  translation: "Звук секса 3"
+
+- text: "Light 2D"
+  translation: "Light 2D"
+  skip_translation: true
+
+- text: "Room1"
+  translation: "Room1"
+  skip_translation: true
+
+- text: "Pussy Grinding Sounds 1"
+  translation: "Звук трения киски 1"
+
+- text: "Female Moaning 1"
+  translation: "Женский стон 1"
+
+- text: "Scary Rumble"
+  translation: "Страшный гул"
+
+- text: "Walla"
+  translation: "Walla"
+  skip_translation: true
+
+- text: "Sequences"
+  translation: "Sequences"
+  skip_translation: true
+
+- text: "Smoke"
+  translation: "Smoke"
+  skip_translation: true
+
+- text: "Rattling 1"
+  translation: "Дребезжание 1"
+
+- text: "Props"
+  translation: "Props"
+  skip_translation: true
+
+- text: "Suitcase Bad End"
+  translation: "Плохая концовка — Чемодан"
+
+- text: "Collectibles"
+  translation: "Коллекционные предметы"
+
+- text: "Groping Sound 3"
+  translation: "Звук лапанья 3"
+
+- text: "3 Suitcase bad End Sit on Lap Cutscene"
+  translation: "3-я катсцена — сидение на коленях"
+
+- text: "Test"
+  translation: "Test"
+  skip_translation: true
+
+- text: "Characters"
+  translation: "Characters"
+  skip_translation: true
+
+- text: "Zoey Moaning 1"
+  translation: "Стон Зои 1"
+
+- text: "Move Back Location"
+  translation: "Локация отхода"
+
+- text: "Cube"
+  translation: "Cube"
+  skip_translation: true
+
+- text: "Zoey Moaning 2"
+  translation: "Стон Зои 2"
+
+- text: "Ensure Zoey is wearing default outfit"
+  translation: "Проверить стандартный наряд Зои"
+
+- text: "Sex Sound 2"
+  translation: "Звук секса 2"
+
+- text: "Walls"
+  translation: "Walls"
+  skip_translation: true
+
+- text: "Boom on Sit Down"
+  translation: "Бум при посадке"
+
+- text: "Moaning"
+  translation: "Стоны"
+
+- text: "Small Props"
+  translation: "Small Props"
+  skip_translation: true
+
+- text: "4 Suitcase bad End Handjob Cutscene"
+  translation: "4-я катсцена — дрочка"
+
+- text: "Ambient Occlusion"
+  translation: "Ambient Occlusion"
+  skip_translation: true
+
+- text: "Corner Sofa"
+  translation: "Corner Sofa"
+  skip_translation: true
+
+- text: "Environment"
+  translation: "Environment"
+  skip_translation: true
+
+- text: "Take off Outfit Logic"
+  translation: "Логика снятия наряда"
+
+- text: "Sit in Lap Interaction"
+  translation: "Взаимодействие — сесть на колени"
+
+- text: "Female Moaning 2"
+  translation: "Женский стон 2"
+
+- text: "Black Overlay Canvas"
+  translation: "Чёрный оверлей"
+
+- text: "Pathfinding Floor"
+  translation: "Пол для поиска пути"
+
+- text: "Condoms Interaction"
+  translation: "Взаимодействие с презервативами"
+
+- text: "Take off Jacket Logic"
+  translation: "Логика снятия куртки"
+
+- text: "Cutscene Camera Target"
+  translation: "Цель камеры катсцены"
+
+- text: "Lighting"
+  translation: "Lighting"
+  skip_translation: true
+
+- text: "Extra Logic"
+  translation: "Extra Logic"
+  skip_translation: true
+
+- text: "5 Suitcase bad End Thighjob Cutscene"
+  translation: "5-я катсцена — межбёдерный секс"
+
+- text: "Zoey Teleport Position"
+  translation: "Позиция телепорта Зои"
+
+- text: "Initial Logic"
+  translation: "Initial Logic"
+  skip_translation: true
+
+- text: "HornyLimiter"
+  translation: "Лимитер возбуждения"
+
+- text: "Groping Sound 2"
+  translation: "Звук лапанья 2"
+
+- text: "Stroking Sound 2"
+  translation: "Звук глажки 2"
+
+- text: "1 Suitcase bad End Intro Cutscene"
+  translation: "1-я катсцена — вступление"
+
+- text: "Condom on CartelGuy"
+  translation: "Презерватив на картельщике"
+
+- text: "GroupMaster"
+  translation: "GroupMaster"
+  skip_translation: true
+
+- text: "Stroking Sound 3"
+  translation: "Звук глажки 3"
+
+- text: "Walkable Area"
+  translation: "Проходимая зона"
+
+- text: "Vignette Canvas"
+  translation: "Виньетка"
+
+- text: "Stroking Sound 1"
+  translation: "Звук глажки 1"
+
+- text: "Handjob Interaction"
+  translation: "Взаимодействие — дрочка"
+
+- text: "Female Moaning 3"
+  translation: "Женский стон 3"
+
+- text: "Particle System"
+  translation: "Система частиц"
+
+- text: "CameraContainer"
+  translation: "Контейнер камеры"
+
+- text: "MousePlane"
+  translation: "MousePlane"
+  skip_translation: true
+
+- text: "TabOpener"
+  translation: "Открыватель вкладок"
+
+- text: "Main Camera"
+  translation: "Main Camera"
+  skip_translation: true
+
+- text: "Visual"
+  translation: "Visual"
+  skip_translation: true
+
+- text: "Unlocked Door Visual"
+  translation: "Визуал открытой двери"
+
+- text: "Sofa Cartel Member"
+  translation: "Sofa Cartel Member"
+  skip_translation: true
+
+- text: "Male Cartel Member With Camera"
+  translation: "Male Cartel Member With Camera"
+  skip_translation: true
+
+- text: "Female Cartel Member"
+  translation: "Female Cartel Member"
+  skip_translation: true
+
+- text: "Male Cartel Member"
+  translation: "Male Cartel Member"
+  skip_translation: true
+
+- text: "Red Floor Highlight"
+  translation: "Красная подсветка пола"
+
+- text: "Locked Door Visual"
+  translation: "Визуал запертой двери"
+
+- text: "Notifications"
+  translation: "Notifications"
+  skip_translation: true
+
+- text: "Money_6"
+  translation: "Money_6"
+  skip_translation: true
+
+- text: "Interaction Area"
+  translation: "Зона взаимодействия"
+
+- text: "AIPositions"
+  translation: "AIPositions"
+  skip_translation: true
+
+- text: "Top left of Zoey"
+  translation: "Top left of Zoey"
+  skip_translation: true
+
+- text: "Door_Right"
+  translation: "Door_Right"
+  skip_translation: true
+
+- text: "reflection : Spine GameObject"
+  translation: "reflection : Spine GameObject"
+  skip_translation: true
+
+- text: "Sprites"
+  translation: "Sprites"
+  skip_translation: true
+
+- text: "Colliders"
+  translation: "Colliders"
+  skip_translation: true
+
+- text: "Money_5 1"
+  translation: "Money_5 1"
+  skip_translation: true
+
+- text: "Top right of Zoey"
+  translation: "Top right of Zoey"
+  skip_translation: true
+
+- text: "Mirror Camera"
+  translation: "Камера зеркала"
+
+- text: "Outer Box"
+  translation: "Outer Box"
+  skip_translation: true
+
+- text: "Money_2_Shadow"
+  translation: "Money_2_Shadow"
+  skip_translation: true
+
+- text: "HornyBarUI"
+  translation: "Полка возбуждения"
+
+- text: "ShaderHelper"
+  translation: "ShaderHelper"
+  skip_translation: true
+
+- text: "Dildo_B"
+  translation: "Dildo_B"
+  skip_translation: true
+
+- text: "NotifPanel"
+  translation: "Панель уведомлений"
+
+- text: "Unlock Sound"
+  translation: "Звук разблокировки"
+
+- text: "Open Sound"
+  translation: "Звук открытия"
+
+- text: "Sofa_EndRight"
+  translation: "Sofa_EndRight"
+  skip_translation: true
+
+- text: "Money_7"
+  translation: "Money_7"
+  skip_translation: true
+
+- text: "Right Groping Position"
+  translation: "Позиция правой ласки"
+
+- text: "Bark Location"
+  translation: "Место реплики"
+
+- text: "Physical"
+  translation: "Physical"
+  skip_translation: true
+
+- text: "Automatic Door"
+  translation: "Автоматическая дверь"
+
+- text: "Scaler"
+  translation: "Scaler"
+  skip_translation: true
+
+- text: "DamageVignettes"
+  translation: "Виньетки урона"
+
+- text: "Mirror Background"
+  translation: "Фон зеркала"
+
+- text: "Bin_1"
+  translation: "Bin_1"
+  skip_translation: true
+
+- text: "Arrow"
+  translation: "Arrow"
+  skip_translation: true
+
+- text: "PinupPickup - Glowing Zoey - Doggy"
+  translation: "PinupPickup - Светящаяся Зои - Собачкой"
+
+- text: "PinupPickup - Glowing Zoey - Anonymous Blowjob"
+  translation: "PinupPickup - Glowing Zoey - Anonymous Blowjob"
+  skip_translation: true
+
+- text: "PinupPickup - Glowing Zoey - Blowjob"
+  translation: "PinupPickup - Glowing Zoey - Blowjob"
+  skip_translation: true
+
+- text: "Money_6_Shadow"
+  translation: "Money_6_Shadow"
+  skip_translation: true
+
+- text: "Left Groping Position"
+  translation: "Позиция левой ласки"
+
+- text: "Dildo_B_Shadow"
+  translation: "Dildo_B_Shadow"
+  skip_translation: true
+
+- text: "Money_3"
+  translation: "Money_3"
+  skip_translation: true
+
+- text: "Money_5_Shadow"
+  translation: "Money_5_Shadow"
+  skip_translation: true
+
+- text: "Sofa_EndLeft"
+  translation: "Sofa_EndLeft"
+  skip_translation: true
+
+- text: "Shine"
+  translation: "Shine"
+  skip_translation: true
+
+- text: "Wall_End_Right"
+  translation: "Wall_End_Right"
+  skip_translation: true
+
+- text: "Sofa_Middle"
+  translation: "Sofa_Middle"
+  skip_translation: true
+
+- text: "Sofa"
+  translation: "Sofa"
+  skip_translation: true
+
+- text: "Sign"
+  translation: "Sign"
+  skip_translation: true
+
+- text: "Puddle Obstruction Sphere"
+  translation: "Сфера препятствия лужи"
+
+- text: "Door_Left"
+  translation: "Door_Left"
+  skip_translation: true
+
+- text: "Mirror"
+  translation: "Mirror"
+  skip_translation: true
+
+- text: "Money_7_Shadow"
+  translation: "Money_7_Shadow"
+  skip_translation: true
+
+- text: "Graffiti_2"
+  translation: "Graffiti_2"
+  skip_translation: true
+
+- text: "Footstep Source"
+  translation: "Источник шагов"
+
+- text: "NotificationUI"
+  translation: "Уведомления"
+
+- text: "Bin_1_Shadow"
+  translation: "Bin_1_Shadow"
+  skip_translation: true
+
+- text: "Fill"
+  translation: "Fill"
+  skip_translation: true
+
+- text: "Spine GameObject"
+  translation: "Spine GameObject"
+  skip_translation: true
+
+- text: "Close Sound"
+  translation: "Звук закрытия"
+
+- text: "Door_Footer"
+  translation: "Door_Footer"
+  skip_translation: true
+
+- text: "Wall_Middle"
+  translation: "Wall_Middle"
+  skip_translation: true
+
+- text: "Money_3_Shadow"
+  translation: "Money_3_Shadow"
+  skip_translation: true
+
+- text: "HornyBar"
+  translation: "HornyBar"
+  skip_translation: true
+
+- text: "FillMask"
+  translation: "FillMask"
+  skip_translation: true
+
+- text: "Heart Parent"
+  translation: "Heart Parent"
+  skip_translation: true
+
+- text: "Mirror Surface"
+  translation: "Поверхность зеркала"
+
+- text: "Wall_End_Left"
+  translation: "Wall_End_Left"
+  skip_translation: true
+
+- text: "Global Volume"
+  translation: "Global Volume"
+  skip_translation: true
+
+- text: "Lit Shine"
+  translation: "Lit Shine"
+  skip_translation: true
+
+- text: "AudioListener"
+  translation: "AudioListener"
+  skip_translation: true
+
+- text: "Green Floor Highlight"
+  translation: "Зелёная подсветка пола"
+
+- text: "Money_2 1"
+  translation: "Money_2 1"
+  skip_translation: true
+
+- text: "Perversion Fullscreen Effect"
+  translation: "Эффект перверсии на весь экран"
+
+- text: "Lock Sound"
+  translation: "Звук блокировки"
+
+- text: "obstructor : Sphere"
+  translation: "obstructor : Sphere"
+  skip_translation: true
+
+- text: "QvA"
+  translation: "QvA"
+  skip_translation: true
+
+- text: "Ck?#"
+  translation: "Ck?#"
+  skip_translation: true
+
+- text: "?P)O@"
+  translation: "?P)O@"
+  skip_translation: true
+
+- text: "NaA"
+  translation: "NaA"
+  skip_translation: true
+
+- text: "Z5A"
+  translation: "Z5A"
+  skip_translation: true
+
+- text: "B`iA"
+  translation: "B`iA"
+  skip_translation: true
+
+- text: "Lo@"
+  translation: "Lo@"
+  skip_translation: true
+
+- text: "E`A"
+  translation: "E`A"
+  skip_translation: true
+
+- text: "M|A"
+  translation: "M|A"
+  skip_translation: true
+
+- text: "S#A"
+  translation: "S#A"
+  skip_translation: true
+
+- text: "G1A"
+  translation: "G1A"
+  skip_translation: true
+
+- text: "QTA"
+  translation: "QTA"
+  skip_translation: true
+
+- text: "Aw?w"
+  translation: "Aw?w"
+  skip_translation: true
+
+- text: "P?O"
+  translation: "P?O"
+  skip_translation: true
+
+- text: "?UP"
+  translation: "?UP"
+  skip_translation: true
+
+- text: "G=A"
+  translation: "G=A"
+  skip_translation: true
+
+- text: "J*?jhJ?"
+  translation: "J*?jhJ?"
+  skip_translation: true
+
+- text: "B0a"
+  translation: "B0a"
+  skip_translation: true
+
+- text: "I?fff?"
+  translation: "I?fff?"
+  skip_translation: true
+
+- text: "Basic Ground"
+  translation: "Basic Ground"
+  skip_translation: true
+
+- text: "What State?"
+  translation: "What State?"
+  skip_translation: true
+
+- text: "First State"
+  translation: "Первое состояние"
+
+- text: "Second State"
+  translation: "Второе состояние"
+
+- text: "Third Stage"
+  translation: "Третий этап"
+
+- text: "CartelHideoutBadendKeys/Did third Stage"
+  translation: "CartelHideoutBadendKeys/Did third Stage"
+  skip_translation: true
+
+- text: "CartelHideoutBadendKeys/Waiting to get Condom"
+  translation: "CartelHideoutBadendKeys/Waiting to get Condom"
+  skip_translation: true
+
+- text: "CartelHideoutBadendKeys/Did get naked"
+  translation: "CartelHideoutBadendKeys/Did get naked"
+  skip_translation: true
+
+- text: "Down sound"
+  translation: "Звук вниз"
+
+- text: "Up Sound"
+  translation: "Звук вверх"
+
+- text: "Wait for Event"
+  translation: "Wait for Event"
+  skip_translation: true
+
+- text: "ToUndress"
+  translation: "ToUndress"
+  skip_translation: true
+
+- text: "OnlyApparel"
+  translation: "OnlyApparel"
+  skip_translation: true
+
+- text: "RedressOnExit"
+  translation: "RedressOnExit"
+  skip_translation: true
+
+- text: "CacheItems"
+  translation: "CacheItems"
+  skip_translation: true
+
+- text: "UnEquipOthers"
+  translation: "UnEquipOthers"
+  skip_translation: true
+
+- text: "Ident Done"
+  translation: "Ident Done"
+  skip_translation: true
+
+- text: "StartTime"
+  translation: "StartTime"
+  skip_translation: true
+
+- text: "UseFadeCurve"
+  translation: "UseFadeCurve"
+  skip_translation: true
+
+- text: "UseOldFadeCurve"
+  translation: "UseOldFadeCurve"
+  skip_translation: true
+
+- text: "FadeCurve"
+  translation: "FadeCurve"
+  skip_translation: true
+
+- text: "OldFadeCurve"
+  translation: "OldFadeCurve"
+  skip_translation: true
+
+- text: "PushToStack"
+  translation: "PushToStack"
+  skip_translation: true
+
+- text: "Loop"
+  translation: "Loop"
+  skip_translation: true
+
+- text: "Strip Outfit"
+  translation: "Раздеть"
+
+- text: "Strip Bra"
+  translation: "Снять лифчик"
+
+- text: "Equipment"
+  translation: "Equipment"
+  skip_translation: true
+
+- text: "Strip Panties"
+  translation: "Снять трусики"
+
+- text: "penis Up"
+  translation: "penis Up"
+  skip_translation: true
+
+- text: "SlotName"
+  translation: "SlotName"
+  skip_translation: true
+
+- text: "State 4"
+  translation: "State 4"
+  skip_translation: true
+
+- text: "State 5"
+  translation: "State 5"
+  skip_translation: true
+
+- text: "State 6"
+  translation: "State 6"
+  skip_translation: true
+
+- text: "FSM Sex XP"
+  translation: "FSM Sex XP"
+  skip_translation: true
+
+- text: "State 7"
+  translation: "State 7"
+  skip_translation: true
+
+- text: "Chibi Expression Animations"
+  translation: "Анимации выражений Chibi"
+
+- text: "Start Cutscene 1"
+  translation: "Запустить катсцену 1"
+
+- text: "FadeType"
+  translation: "FadeType"
+  skip_translation: true
+
+- text: "FadeTime"
+  translation: "FadeTime"
+  skip_translation: true
+
+- text: "FadeSprite"
+  translation: "FadeSprite"
+  skip_translation: true
+
+- text: "FadeColor"
+  translation: "FadeColor"
+  skip_translation: true
+
+- text: "LockPlayer"
+  translation: "LockPlayer"
+  skip_translation: true
+
+- text: "ResetOnExit"
+  translation: "ResetOnExit"
+  skip_translation: true
+
+- text: "OnFadedOut"
+  translation: "OnFadedOut"
+  skip_translation: true
+
+- text: "OnFadedIn"
+  translation: "OnFadedIn"
+  skip_translation: true
+
+- text: "Cutscene Finished"
+  translation: "Катсцена завершена"
+
+- text: "Start Cutscene 2"
+  translation: "Запустить катсцену 2"
+
+- text: "CutsceneToPlay"
+  translation: "CutsceneToPlay"
+  skip_translation: true
+
+- text: "OnCutsceneEnded"
+  translation: "OnCutsceneEnded"
+  skip_translation: true
+
+- text: "ToSet"
+  translation: "ToSet"
+  skip_translation: true
+
+- text: "Activate Lap Sitting"
+  translation: "Активировать сидение на коленях"
+
+- text: "Activate Condoms"
+  translation: "Активировать презервативы"
+
+- text: "Start Condom Dialogue"
+  translation: "Начать диалог о презервативе"
+
+- text: "Wait for Event 2"
+  translation: "Wait for Event 2"
+  skip_translation: true
+
+- text: "Pull off Condom"
+  translation: "Pull off Condom"
+  skip_translation: true
+
+- text: "Wait for Exiting"
+  translation: "Wait for Exiting"
+  skip_translation: true
+
+- text: "Exiting"
+  translation: "Exiting"
+  skip_translation: true
+
+- text: "StoreHandlerAs"
+  translation: "StoreHandlerAs"
+  skip_translation: true
+
+- text: "Walk back Inside"
+  translation: "Walk back Inside"
+  skip_translation: true
+
+- text: "Moved Back"
+  translation: "Moved Back"
+  skip_translation: true
+
+- text: "CharacterToMove"
+  translation: "CharacterToMove"
+  skip_translation: true
+
+- text: "TargetPosition"
+  translation: "TargetPosition"
+  skip_translation: true
+
+- text: "OnFinishedMove"
+  translation: "OnFinishedMove"
+  skip_translation: true
+
+- text: "Immediate"
+  translation: "Immediate"
+  skip_translation: true
+
+- text: "StopTurning"
+  translation: "StopTurning"
+  skip_translation: true
+
+- text: "Take off Pants"
+  translation: "Снять штаны"
+
+- text: "Depleted"
+  translation: "Depleted"
+  skip_translation: true
+
+- text: "Move"
+  translation: "Move"
+  skip_translation: true
+
+- text: "Wait for health depletion"
+  translation: "Ожидание истощения здоровья"
+
+- text: "Gameover"
+  translation: "Gameover"
+  skip_translation: true
+
+- text: "Default"
+  translation: "Default"
+  skip_translation: true
+
+- text: "Menu"
+  translation: "Menu"
+  skip_translation: true
+
+- text: "Parent"
+  translation: "Parent"
+  skip_translation: true
+
+- text: "Layer"
+  translation: "Layer"
+  skip_translation: true
+
+- text: "StoreMenuAs"
+  translation: "StoreMenuAs"
+  skip_translation: true
+
+- text: "ReplaceCurrent"
+  translation: "ReplaceCurrent"
+  skip_translation: true
+
+- text: "SetAnimatorBool, Assembly-CSharp"
+  translation: "SetAnimatorBool, Assembly-CSharp"
+  skip_translation: true
+
+- text: "SetBool"
+  translation: "SetBool"
+  skip_translation: true
+

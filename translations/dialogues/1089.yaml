@@ -1,5 +1,8 @@
-- text: (Not sure what this is, but it smells great. )
-  translation: (Не знаю, что это, но пахнет отлично.)
-  speaker: Zoey
-  rich_text: <i>(Not sure what this is, but it smells great. )</i>
-  rich_translation: <i>(Не знаю, что это, но пахнет отлично.)</i>
+# Dialogues (path_id=1089)
+
+- text: "(Not sure what this is, but it smells great. )"
+  translation: "(Не знаю, что это, но пахнет отлично.)"
+  speaker: "Zoey"
+  rich_text: "<i>(Not sure what this is, but it smells great. )</i>"
+  rich_translation: "<i>(Не знаю, что это, но пахнет отлично.)</i>"
+

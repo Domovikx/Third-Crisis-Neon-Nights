@@ -1,5 +1,9 @@
-- text: S-sorry, maybe another time...!
-  translation: П-простите, может в другой раз...!
-  speaker: Zoey
-- text: Any time, darling!
-  translation: В любое время, дорогуша!
+# Dialogues (path_id=828)
+
+- text: "S-sorry, maybe another time...!"
+  translation: "П-простите, может в другой раз...!"
+  speaker: "Zoey"
+
+- text: "Any time, darling!"
+  translation: "В любое время, дорогуша!"
+

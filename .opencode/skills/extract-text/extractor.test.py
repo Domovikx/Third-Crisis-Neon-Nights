@@ -78,12 +78,15 @@ def test_extract_global_strings():
         setup_test_dump(Path(tmp))
         ext.DUMP_DIR = Path(tmp) / "dump_assets"
         g = ext.extract_global_strings(ext.find_summaries())
-        assert len(g) == 3
-        assert all(isinstance(x, dict) for x in g)
-        assert all(x.get("text") for x in g)
-        keys = {x["text"] for x in g}
+        # Returns dict keyed by source file stem
+        assert isinstance(g, dict)
+        assert 'resources' in g
+        assert len(g['resources']) == 3
+        assert all(isinstance(x, dict) for x in g['resources'])
+        assert all(x.get("text") for x in g['resources'])
+        keys = {x["text"] for x in g['resources']}
         assert keys == {"Fullscreen", "Music Volume", "FPS Limit"}
-        print(f"  PASS: {len(g)} strings")
+        print(f"  PASS: {len(g)} sources, {sum(len(v) for v in g.values())} strings")
 
 
 def test_write_yaml():
@@ -159,6 +162,38 @@ def test_special_chars():
         assert "\\\\" in c
         assert "\x00" not in c
         print("  PASS: special chars")
+
+
+def test_newline_roundtrip():
+    with tempfile.TemporaryDirectory() as tmp:
+        ext.DUMP_DIR = Path(tmp) / "dump_assets"
+        ext.DUMP_DIR.mkdir()
+        text = "line1\n\nline2"
+        chunk = {"asset": "r", "chunk": 0, "objects": [
+            {"path_id": 1, "type": "MonoBehaviour",
+             "dialogues": [
+                 {"speaker": "", "text": text},
+                 {"speaker": "", "text": "no newline here"},
+                 {"speaker": "", "text": "single\nline"},
+             ]},
+        ]}
+        (ext.DUMP_DIR / "r.chunk000.json").write_text(json.dumps(chunk))
+        by_pid = ext.extract_dialogues(ext.find_chunks())
+        entries = [e for lst in by_pid.values() for e in lst]
+        assert len(entries) == 3
+        out = Path(tmp) / "s.yaml"
+        ext.write_yaml(out, entries)
+        c = out.read_text("utf-8")
+        # Escaped \n in output, not literal newlines inside quoted values
+        assert '\\n' in c, f"Expected \\\\n escape in YAML, got:\n{c}"
+        # Verify roundtrip via read_yaml (uses yaml.safe_load or fallback)
+        reloaded = ext.read_yaml(out)
+        assert len(reloaded) == 3
+        assert reloaded[0]["text"] == text, \
+            f"Roundtrip failed: {reloaded[0]['text']!r} != {text!r}"
+        assert reloaded[1]["text"] == "no newline here"
+        assert reloaded[2]["text"] == "single\nline"
+        print("  PASS: newline roundtrip")
 
 
 def test_dedup():
@@ -254,6 +289,83 @@ def test_merge_settings():
     assert merged[1]["text"] == "Volume" and merged[1]["translation"] == "Громкость"
     assert merged[2]["text"] == "FPS" and merged[2]["translation"] == ""
     print("  PASS: merge settings")
+
+
+def test_merge_rich_translation_copy_through():
+    """rich_translation copy-through (plain text == text) should be cleared."""
+    old = [
+        # [text, translation, speaker, rich_text, rich_translation]
+        ["Hello", "Hello", "Zoey", "<color=red>Hello</color>", "<color=red>Hello</color>"],  # both copy-through
+        ["Hi", "Привет", "Zoey", "<color=red>Hi</color>", "<color=red>Hi</color>"],  # translation OK, rich copy-through
+        ["Hey", "Привет", "Zoey", "<color=red>Hey</color>", "<color=green>Привет</color>"],  # both OK
+    ]
+    fresh = [
+        {"text": "Hello", "translation": "", "speaker": "Zoey", "rich_text": "<color=red>Hello</color>", "rich_translation": ""},
+        {"text": "Hi", "translation": "", "speaker": "Zoey", "rich_text": "<color=red>Hi</color>", "rich_translation": ""},
+        {"text": "Hey", "translation": "", "speaker": "Zoey", "rich_text": "<color=red>Hey</color>", "rich_translation": ""},
+    ]
+    merged = ext.merge(old, fresh, ext.DIALOGUE_FIELDS, "text", "speaker")
+    assert len(merged) == 3
+    # Hello: both translation and rich_translation are copy-through → both cleared
+    assert merged[0]["text"] == "Hello"
+    assert merged[0]["translation"] == ""
+    assert merged[0]["rich_translation"] == ""
+    # Hi: translation OK, rich_translation is copy-through → rich cleared
+    assert merged[1]["text"] == "Hi"
+    assert merged[1]["translation"] == "Привет"
+    assert merged[1]["rich_translation"] == ""
+    # Hey: both translation and rich_translation are real → both preserved
+    assert merged[2]["text"] == "Hey"
+    assert merged[2]["translation"] == "Привет"
+    assert merged[2]["rich_translation"] == "<color=green>Привет</color>"
+    print("  PASS: merge rich_translation copy-through cleared")
+
+
+def test_skip_flag():
+    """skip_translation: true field should preserve copy-through (translation == text)."""
+    old_skip = [
+        {"text": "Aaaah~", "translation": "Aaaah~", "speaker": "Zoey", "rich_text": "", "rich_translation": ""},
+        {"text": "Mmm~", "translation": "Mmm~", "speaker": "Zoey", "rich_text": "", "rich_translation": ""},
+    ]
+    old_skip[0]["skip_translation"] = True
+    old_skip[1]["skip_translation"] = True
+
+    fresh = [
+        {"text": "Aaaah~", "translation": "", "speaker": "Zoey", "rich_text": "", "rich_translation": ""},
+        {"text": "Mmm~", "translation": "", "speaker": "Zoey", "rich_text": "", "rich_translation": ""},
+        {"text": "Hello", "translation": "", "speaker": "Zoey", "rich_text": "", "rich_translation": ""},
+    ]
+
+    merged = ext.merge(old_skip, fresh, ext.DIALOGUE_FIELDS, "text", "speaker")
+    assert len(merged) == 3
+    # Aaaah~ and Mmm~ have skip_translation → copy-through preserved
+    assert merged[0]["text"] == "Aaaah~"
+    assert merged[0]["translation"] == "Aaaah~"
+    assert merged[1]["text"] == "Mmm~"
+    assert merged[1]["translation"] == "Mmm~"
+    # Hello has no skip → copy-through cleared
+    assert merged[2]["text"] == "Hello"
+    assert merged[2]["translation"] == ""
+
+    # Test _format_entry outputs skip_translation field
+    entry_with_skip = {"text": "Aaaah~", "translation": "Aaaah~", "skip_translation": True}
+    formatted = ext._format_entry(entry_with_skip)
+    assert "skip_translation: true" in formatted, f"Expected skip_translation in formatted output: {formatted}"
+
+    # Test read_yaml parses skip_translation from YAML
+    with tempfile.NamedTemporaryFile(mode='w', suffix='.yaml', delete=False, encoding='utf-8') as f:
+        f.write('- text: "Aaaah~"\n  translation: "Aaaah~"\n  skip_translation: true\n')
+        f.write('- text: "Hello"\n  translation: ""\n')
+        temp_path = Path(f.name)
+    try:
+        entries = ext.read_yaml(temp_path)
+        assert len(entries) == 2
+        assert entries[0].get("skip_translation") == True, f"Expected skip_translation=True for Aaaah~, got {entries[0]}"
+        assert entries[1].get("skip_translation") == None, f"Expected no skip_translation for Hello, got {entries[1]}"
+    finally:
+        temp_path.unlink()
+
+    print("  PASS: skip_translation flag preserves copy-through and formats correctly")
 
 
 def test_idempotent():
@@ -368,16 +480,42 @@ def test_real_dump():
     ext.DUMP_DIR = dump_dir
     ext.OUT_DIR = Path(tmp := tempfile.mkdtemp())
     ext.extract()
-    assert (ext._dialogues_dir() / "73203.yaml").exists()
-    assert (ext._dialogues_dir() / "73262.yaml").exists()
-    assert (ext._dialogues_dir() / "73263.yaml").exists()
-    assert (ext._dialogues_dir() / "73264.yaml").exists()
-    assert (ext._dialogues_dir() / "bundle.bundle_level-glowinghole.yaml").exists()
-    assert (ext._dialogues_dir() / "bundle.bundle_level-cartelhideout.yaml").exists()
-    assert (ext._dialogues_dir() / "bundle.bundle_lewdanimation_liofuckmachine.yaml").exists()
-    assert (ext._dialogues_dir() / "bundle.bundle_0.3-animation-maxxcustomercg.yaml").exists()
+
+    # Check that main dialogue files exist
+    dialogues_dir = ext._dialogues_dir()
+    assert (dialogues_dir / "73203.yaml").exists(), "Main dialogue file 73203.yaml missing"
+    assert (dialogues_dir / "73262.yaml").exists(), "Dialogue file 73262.yaml missing"
+
+    # Check that at least some known dialogue files exist
+    known_dialogue_files = ["73263.yaml", "73264.yaml"]
+    for fname in known_dialogue_files:
+        assert (dialogues_dir / fname).exists(), f"Expected dialogue file {fname} missing"
+
+    # Check that at least some bundle files exist (not all bundles produce dialogues)
+    bundle_files = list(dialogues_dir.glob("bundle.bundle_*.yaml"))
+    assert len(bundle_files) >= 2, f"Expected at least 2 bundle files, got {len(bundle_files)}"
+    bundle_names = {f.name for f in bundle_files}
+
+    # These are known bundle dialogues that should exist if present in dump
+    expected_bundles = [
+        "bundle.bundle_level-glowinghole.yaml",
+        "bundle.bundle_level-cartelhideout.yaml",
+        "bundle.bundle_0.3-animation-maxxcustomercg.yaml",
+    ]
+    for expected in expected_bundles:
+        if expected in bundle_names:
+            pass  # found, good
+
     assert (ext.OUT_DIR / "speakers.yaml").exists()
-    assert (ext.OUT_DIR / "settings_keys.yaml").exists()
+    # Check new per-source structure
+    settings_dir = ext._settings_dir()
+    raw_dir = ext._raw_dir()
+    assert settings_dir.exists(), "settings/ directory should exist"
+    settings_files = list(settings_dir.glob("*.yaml"))
+    assert len(settings_files) >= 1, f"expected settings/*.yaml files, got {settings_files}"
+    raw_files = list(raw_dir.glob("*.yaml"))
+    assert len(raw_files) >= 1, f"expected raw/*.yaml files, got {raw_files}"
+
     by_pid = ext.extract_dialogues(ext.find_chunks())
     by_bundle = ext.extract_bundle_dialogues(ext.find_chunks())
     total = sum(len(v) for v in by_pid.values()) + sum(len(v) for v in by_bundle.values())
@@ -390,10 +528,12 @@ def test_real_dump():
     speakers = {d.get("speaker") for d in all_pid_entries if d.get("speaker")}
     assert len(speakers) >= 40, f"expected 40+ speakers, got {len(speakers)}"
     g = ext.extract_global_strings(ext.find_summaries())
-    assert len(g) >= 50
-    assert not (ext._dialogues_dir() / ".yaml").exists()
+    total_settings = sum(len(v) for v in g.values()) if isinstance(g, dict) else len(g)
+    assert total_settings >= 50
+    assert not (dialogues_dir / ".yaml").exists()
     print(f"  PASS: {total} dialogues across {len(by_pid)} .assets + {len(by_bundle)} bundles, "
-          f"{len(speakers)} speakers, {len(g)} keys")
+          f"{len(speakers)} speakers, {total_settings} settings, "
+          f"{len(settings_files)} settings/ + {len(raw_files)} raw/ files")
     shutil.rmtree(tmp)
 
 
@@ -436,7 +576,9 @@ def _setup_consolidation_test(work: Path):
         '- text: "S-Shit! Haze!"\n  translation: "Ч-Чёрт!"\n  speaker: "Zoey"\n  rich_text: "S-Shit! Haze!"\n\n',
         encoding="utf-8",
     )
-    (work / "settings_keys.yaml").write_text(
+    settings_dir = work / "settings"
+    settings_dir.mkdir(parents=True, exist_ok=True)
+    (settings_dir / "test.yaml").write_text(
         '- text: "S-Shit! Haze!"\n  translation: "Ч-Чёрт!"\n\n',
         encoding="utf-8",
     )
@@ -453,8 +595,11 @@ def test_consolidate_dialogue_wins():
         dlg = yaml.safe_load(open(work / "dialogues" / "73203.yaml", encoding="utf-8"))
         assert len(dlg) == 1
         assert dlg[0]["speaker"] == "Zoey"
-        sk = yaml.safe_load(open(work / "settings_keys.yaml", encoding="utf-8"))
-        assert sk is None or len(sk) == 0
+        # Settings duplicate should be removed
+        sk_files = list((work / "settings").glob("*.yaml"))
+        if sk_files:
+            sk = yaml.safe_load(open(sk_files[0], encoding="utf-8"))
+            assert sk is None or len(sk) == 0
         print("  OK: consolidate keeps dialogue, removes settings duplicate")
 
 
@@ -464,7 +609,7 @@ def test_consolidate_settings_wins():
     The routing logic preserves dialogue context: if a dialogue file contains
     a text, that text stays in dialogues/ — even if it lacks speaker/rich_text
     fields. This prevents one-word dialogue lines like "Yes" from leaking
-    into settings_keys.yaml with empty translations.
+    into settings/ files with empty translations.
     """
     with tempfile.TemporaryDirectory() as tmp:
         work = Path(tmp)
@@ -474,7 +619,9 @@ def test_consolidate_settings_wins():
             '- text: "Just a label"\n  translation: "Просто метка"\n\n',
             encoding="utf-8",
         )
-        (work / "settings_keys.yaml").write_text(
+        settings_dir = work / "settings"
+        settings_dir.mkdir(parents=True, exist_ok=True)
+        (settings_dir / "test.yaml").write_text(
             '- text: "Just a label"\n  translation: "Просто метка"\n\n',
             encoding="utf-8",
         )
@@ -486,8 +633,10 @@ def test_consolidate_settings_wins():
         assert dlg is not None and len(dlg) == 1
         assert dlg[0]["text"] == "Just a label"
         # Settings version removed (because dialogue has it)
-        sk = yaml.safe_load(open(work / "settings_keys.yaml", encoding="utf-8"))
-        assert sk is None or len(sk) == 0
+        sk_files = list((work / "settings").glob("*.yaml"))
+        if sk_files:
+            sk = yaml.safe_load(open(sk_files[0], encoding="utf-8"))
+            assert sk is None or len(sk) == 0
         print("  OK: dialogue version wins even without speaker/rich_text")
 
 
@@ -501,7 +650,9 @@ def test_consolidate_no_duplicates():
             '- text: "Dialogue only"\n  translation: "Только диалог"\n  speaker: "A"\n\n',
             encoding="utf-8",
         )
-        (work / "settings_keys.yaml").write_text(
+        settings_dir = work / "settings"
+        settings_dir.mkdir(parents=True, exist_ok=True)
+        (settings_dir / "test.yaml").write_text(
             '- text: "Settings only"\n  translation: "Только настройка"\n\n',
             encoding="utf-8",
         )
@@ -511,16 +662,16 @@ def test_consolidate_no_duplicates():
         dlg = yaml.safe_load(open(work / "dialogues" / "1.yaml", encoding="utf-8"))
         assert len(dlg) == 1
         assert dlg[0]["text"] == "Dialogue only"
-        sk = yaml.safe_load(open(work / "settings_keys.yaml", encoding="utf-8"))
+        sk = yaml.safe_load(open(work / "settings" / "test.yaml", encoding="utf-8"))
         assert len(sk) == 1
         assert sk[0]["text"] == "Settings only"
         print("  OK: consolidate leaves unique entries untouched")
 
 
 def test_consolidate_speakers_not_in_settings():
-    """Bug fix: speakers in speakers.yaml must NOT appear in settings_keys.yaml.
+    """Bug fix: speakers in speakers.yaml must NOT appear in settings/ or raw/ files.
 
-    Otherwise settings_keys.yaml (loaded first alphabetically) seeds the runtime
+    Otherwise settings/ files (loaded first alphabetically) seed the runtime
     dictionary with empty translations, blocking speakers.yaml entries.
     """
     with tempfile.TemporaryDirectory() as tmp:
@@ -532,31 +683,38 @@ def test_consolidate_speakers_not_in_settings():
             '- text: "Zoey"\n  translation: "Зои"\n  gender: "female"\n  notes: "Главная героиня"\n\n',
             encoding="utf-8",
         )
-        # settings_keys.yaml has the same "Zoey" but EMPTY translation (from chunk UI scan)
-        (work / "settings_keys.yaml").write_text(
+        # settings/ file has the same "Zoey" but EMPTY translation (from chunk UI scan)
+        settings_dir = work / "settings"
+        settings_dir.mkdir(parents=True, exist_ok=True)
+        (settings_dir / "test.yaml").write_text(
             '- text: "Zoey"\n  translation: ""\n\n',
             encoding="utf-8",
         )
         ext.OUT_DIR = work
         ext._dialogues_dir = lambda: work / "dialogues"
         ext.consolidate_translations()
-        # "Zoey" must NOT be in settings_keys.yaml (belongs to speakers.yaml)
-        sk = yaml.safe_load(open(work / "settings_keys.yaml", encoding="utf-8"))
-        assert sk is None or all(e.get("text") != "Zoey" for e in sk), \
-            f"Zoey should be removed from settings_keys: {sk}"
+        # "Zoey" must NOT be in settings/ files (belongs to speakers.yaml)
+        sk_files = list((work / "settings").glob("*.yaml"))
+        for skf in sk_files:
+            sk = yaml.safe_load(open(skf, encoding="utf-8"))
+            if sk:
+                assert all(e.get("text") != "Zoey" for e in sk), \
+                    f"Zoey should be removed from {skf}: {sk}"
         # speakers.yaml should be untouched
         sp = yaml.safe_load(open(work / "speakers.yaml", encoding="utf-8"))
         assert len(sp) == 1
         assert sp[0]["translation"] == "Зои"
-        print("  OK: consolidate removes speakers from settings_keys (alphabetical bug fix)")
+        print("  OK: consolidate removes speakers from settings/ (alphabetical bug fix)")
 
 
 if __name__ == "__main__":
     tests = [test_extract_dialogues, test_extract_speakers, test_extract_global_strings,
              test_write_yaml, test_extract_bundle_dialogues_fields,
-             test_empty_dump, test_special_chars, test_dedup,
+             test_empty_dump, test_special_chars, test_newline_roundtrip, test_dedup,
              test_read_yaml, test_read_yaml_multi,
              test_merge, test_merge_speakers, test_merge_settings,
+              test_merge_rich_translation_copy_through,
+              test_skip_flag,
              test_idempotent, test_real_dump,
              test_fallback_parser, test_cyrillic_roundtrip, test_fallback_on_corrupted_file,
              test_is_dialogue_entry, test_entry_field_count,

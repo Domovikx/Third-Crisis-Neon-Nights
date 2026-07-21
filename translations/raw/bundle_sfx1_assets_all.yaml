@@ -1,0 +1,9 @@
+# raw (bundle_sfx1_assets_all)
+
+- text: "phone keyboard"
+  translation: "Клавиатура телефона"
+
+- text: "^!YA"
+  translation: "^!YA"
+  skip_translation: true
+

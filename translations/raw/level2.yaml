@@ -1,0 +1,72 @@
+# raw (level2)
+
+- text: "BottomDoorLight"
+  translation: "BottomDoorLight"
+  skip_translation: true
+
+- text: "Doors"
+  translation: "Двери"
+
+- text: "Stools"
+  translation: "Табуреты"
+
+- text: "BarLightPink"
+  translation: "BarLightPink"
+  skip_translation: true
+
+- text: "Milestones"
+  translation: "Вехи"
+
+- text: "RightDoorRed"
+  translation: "RightDoorRed"
+  skip_translation: true
+
+- text: "Counter"
+  translation: "Стойка"
+
+- text: "Floors"
+  translation: "Полы"
+
+- text: "LeftDoorRed"
+  translation: "LeftDoorRed"
+  skip_translation: true
+
+- text: "Calliach"
+  translation: "Каллиа"
+
+- text: "BottomFade"
+  translation: "BottomFade"
+  skip_translation: true
+
+- text: "B`m@"
+  translation: "B`m@"
+  skip_translation: true
+
+- text: "SBA"
+  translation: "SBA"
+  skip_translation: true
+
+- text: "Add choice"
+  translation: "Добавить выбор"
+
+- text: "Choice"
+  translation: "Выбор"
+
+- text: "Milestone10"
+  translation: "Milestone10"
+  skip_translation: true
+
+- text: "Take item"
+  translation: "Взять предмет"
+
+- text: "Give reward"
+  translation: "Дать награду"
+
+- text: "GetAllInstances"
+  translation: "GetAllInstances"
+  skip_translation: true
+
+- text: "DestroyItems"
+  translation: "DestroyItems"
+  skip_translation: true
+

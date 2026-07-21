@@ -1,0 +1,667 @@
+# raw (sharedassets3)
+
+- text: "Invisible Shader"
+  translation: "Invisible Shader"
+  skip_translation: true
+
+- text: "Medium Tentacle 2D Lit"
+  translation: "Medium Tentacle 2D Lit"
+  skip_translation: true
+
+- text: "Medium Tentacle Outline"
+  translation: "Medium Tentacle Outline"
+  skip_translation: true
+
+- text: "Thick Tentacle 2D Lit"
+  translation: "Thick Tentacle 2D Lit"
+  skip_translation: true
+
+- text: "Thick Tentacle Outline"
+  translation: "Thick Tentacle Outline"
+  skip_translation: true
+
+- text: "Thin Tentacle 2D Lit"
+  translation: "Thin Tentacle 2D Lit"
+  skip_translation: true
+
+- text: "Thin Tentacle Outline"
+  translation: "Thin Tentacle Outline"
+  skip_translation: true
+
+- text: "DreamFlesh Feathered"
+  translation: "DreamFlesh Feathered"
+  skip_translation: true
+
+- text: "DreamFlesh"
+  translation: "DreamFlesh"
+  skip_translation: true
+
+- text: "Shader Graphs_DreamFleshDoubleFeathered"
+  translation: "Shader Graphs_DreamFleshDoubleFeathered"
+  skip_translation: true
+
+- text: "Shader Graphs_Sprite Hologram 3"
+  translation: "Shader Graphs_Sprite Hologram 3"
+  skip_translation: true
+
+- text: "Shader Graphs_Sprite Hologram Unlit 4"
+  translation: "Shader Graphs_Sprite Hologram Unlit 4"
+  skip_translation: true
+
+- text: "Pn4"
+  translation: "Pn4"
+  skip_translation: true
+
+- text: "low for baking_Tentacle_BaseMap"
+  translation: "low for baking_Tentacle_BaseMap"
+  skip_translation: true
+
+- text: "@PO"
+  translation: "@PO"
+  skip_translation: true
+
+- text: "GmV"
+  translation: "GmV"
+  skip_translation: true
+
+- text: "Fx_"
+  translation: "Fx_"
+  skip_translation: true
+
+- text: "\\7:MA"
+  translation: "\\7:MA"
+  skip_translation: true
+
+- text: "E!I"
+  translation: "E!I"
+  skip_translation: true
+
+- text: "]CU"
+  translation: "]CU"
+  skip_translation: true
+
+- text: "G;gM"
+  translation: "G;gM"
+  skip_translation: true
+
+- text: "S?ps"
+  translation: "S?ps"
+  skip_translation: true
+
+- text: "ZE=7"
+  translation: "ZE=7"
+  skip_translation: true
+
+- text: "B?KB&?g"
+  translation: "B?KB&?g"
+  skip_translation: true
+
+- text: "Cgs?z"
+  translation: "Cgs?z"
+  skip_translation: true
+
+- text: "~?IE"
+  translation: "~?IE"
+  skip_translation: true
+
+- text: "Us="
+  translation: "Us="
+  skip_translation: true
+
+- text: "Fk="
+  translation: "Fk="
+  skip_translation: true
+
+- text: "=CA"
+  translation: "=CA"
+  skip_translation: true
+
+- text: "P?k"
+  translation: "P?k"
+  skip_translation: true
+
+- text: "P?p["
+  translation: "P?p["
+  skip_translation: true
+
+- text: "C=Gb#="
+  translation: "C=Gb#="
+  skip_translation: true
+
+- text: "IHU="
+  translation: "IHU="
+  skip_translation: true
+
+- text: "E)k"
+  translation: "E)k"
+  skip_translation: true
+
+- text: "Tb="
+  translation: "Tb="
+  skip_translation: true
+
+- text: "T0U=gd"
+  translation: "T0U=gd"
+  skip_translation: true
+
+- text: "R?_d"
+  translation: "R?_d"
+  skip_translation: true
+
+- text: "Thickness"
+  translation: "Thickness"
+  skip_translation: true
+
+- text: "Speed 2"
+  translation: "Speed 2"
+  skip_translation: true
+
+- text: "Shinyness"
+  translation: "Shinyness"
+  skip_translation: true
+
+- text: "Light Direction"
+  translation: "Light Direction"
+  skip_translation: true
+
+- text: "Horizontal Blend"
+  translation: "Horizontal Blend"
+  skip_translation: true
+
+- text: "End Color"
+  translation: "End Color"
+  skip_translation: true
+
+- text: "Tip Color"
+  translation: "Tip Color"
+  skip_translation: true
+
+- text: "@UU]A"
+  translation: "@UU]A"
+  skip_translation: true
+
+- text: "Ga2"
+  translation: "Ga2"
+  skip_translation: true
+
+- text: "Oo="
+  translation: "Oo="
+  skip_translation: true
+
+- text: "Zd]"
+  translation: "Zd]"
+  skip_translation: true
+
+- text: "C:n"
+  translation: "C:n"
+  skip_translation: true
+
+- text: "W4gff3"
+  translation: "W4gff3"
+  skip_translation: true
+
+- text: "Qx34"
+  translation: "Qx34"
+  skip_translation: true
+
+- text: "X4gf"
+  translation: "X4gf"
+  skip_translation: true
+
+- text: "F7gf"
+  translation: "F7gf"
+  skip_translation: true
+
+- text: "R5u"
+  translation: "R5u"
+  skip_translation: true
+
+- text: "Ye6"
+  translation: "Ye6"
+  skip_translation: true
+
+- text: "X3gfN"
+  translation: "X3gfN"
+  skip_translation: true
+
+- text: "`*TU"
+  translation: "`*TU"
+  skip_translation: true
+
+- text: "W2dfZ5Gv"
+  translation: "W2dfZ5Gv"
+  skip_translation: true
+
+- text: "(+WU"
+  translation: "(+WU"
+  skip_translation: true
+
+- text: "Mm/"
+  translation: "Mm/"
+  skip_translation: true
+
+- text: "W3gff2"
+  translation: "W3gff2"
+  skip_translation: true
+
+- text: "I2ff"
+  translation: "I2ff"
+  skip_translation: true
+
+- text: "Lp6"
+  translation: "Lp6"
+  skip_translation: true
+
+- text: "O8gfi"
+  translation: "O8gfi"
+  skip_translation: true
+
+- text: "Ga3"
+  translation: "Ga3"
+  skip_translation: true
+
+- text: "I~l7"
+  translation: "I~l7"
+  skip_translation: true
+
+- text: "Yfl"
+  translation: "Yfl"
+  skip_translation: true
+
+- text: "L5p="
+  translation: "L5p="
+  skip_translation: true
+
+- text: "Yff5"
+  translation: "Yff5"
+  skip_translation: true
+
+- text: "Xf~"
+  translation: "Xf~"
+  skip_translation: true
+
+- text: "WFl"
+  translation: "WFl"
+  skip_translation: true
+
+- text: "Qf3"
+  translation: "Qf3"
+  skip_translation: true
+
+- text: "P6f"
+  translation: "P6f"
+  skip_translation: true
+
+- text: "Qy3"
+  translation: "Qy3"
+  skip_translation: true
+
+- text: "B0O"
+  translation: "B0O"
+  skip_translation: true
+
+- text: "Lp5)\\U"
+  translation: "Lp5)\\U"
+  skip_translation: true
+
+- text: "WFl5"
+  translation: "WFl5"
+  skip_translation: true
+
+- text: "D,kf"
+  translation: "D,kf"
+  skip_translation: true
+
+- text: "EI8"
+  translation: "EI8"
+  skip_translation: true
+
+- text: "Nm+"
+  translation: "Nm+"
+  skip_translation: true
+
+- text: "Ga2-"
+  translation: "Ga2-"
+  skip_translation: true
+
+- text: "Qx4"
+  translation: "Qx4"
+  skip_translation: true
+
+- text: "P4ff"
+  translation: "P4ff"
+  skip_translation: true
+
+- text: "Ga14"
+  translation: "Ga14"
+  skip_translation: true
+
+- text: ";RE"
+  translation: ";RE"
+  skip_translation: true
+
+- text: "O^g=8"
+  translation: "O^g=8"
+  skip_translation: true
+
+- text: "Ill:D"
+  translation: "Ill:D"
+  skip_translation: true
+
+- text: "U~?F"
+  translation: "U~?F"
+  skip_translation: true
+
+- text: "Xdr"
+  translation: "Xdr"
+  skip_translation: true
+
+- text: "Mm;"
+  translation: "Mm;"
+  skip_translation: true
+
+- text: "WU56"
+  translation: "WU56"
+  skip_translation: true
+
+- text: "7WU"
+  translation: "7WU"
+  skip_translation: true
+
+- text: "Ga3\""
+  translation: "Ga3\""
+  skip_translation: true
+
+- text: "4! 6fF"
+  translation: "4! 6fF"
+  skip_translation: true
+
+- text: "Ga1"
+  translation: "Ga1"
+  skip_translation: true
+
+- text: "W2gf*"
+  translation: "W2gf*"
+  skip_translation: true
+
+- text: "Tentacle Animator Controller]"
+  translation: "Tentacle Animator Controller]"
+  skip_translation: true
+
+- text: "root|Animation 0"
+  translation: "root|Animation 0"
+  skip_translation: true
+
+- text: "root|Animation 2"
+  translation: "root|Animation 2"
+  skip_translation: true
+
+- text: "root|Animation 1"
+  translation: "root|Animation 1"
+  skip_translation: true
+
+- text: "Exterior"
+  translation: "Экстерьер"
+
+- text: "OM?"
+  translation: "OM?"
+  skip_translation: true
+
+- text: "Bf&"
+  translation: "Bf&"
+  skip_translation: true
+
+- text: "R`e"
+  translation: "R`e"
+  skip_translation: true
+
+- text: "Ga?)"
+  translation: "Ga?)"
+  skip_translation: true
+
+- text: "W9t?"
+  translation: "W9t?"
+  skip_translation: true
+
+- text: "Layer 83"
+  translation: "Layer 83"
+  skip_translation: true
+
+- text: "]MUB"
+  translation: "]MUB"
+  skip_translation: true
+
+- text: "AVn"
+  translation: "AVn"
+  skip_translation: true
+
+- text: "D]MUB"
+  translation: "D]MUB"
+  skip_translation: true
+
+- text: "L?y"
+  translation: "L?y"
+  skip_translation: true
+
+- text: "Rectangle 3 copy 3"
+  translation: "Rectangle 3 copy 3"
+  skip_translation: true
+
+- text: "Myv"
+  translation: "Myv"
+  skip_translation: true
+
+- text: "Layer-83light"
+  translation: "Layer-83light"
+  skip_translation: true
+
+- text: "JbF"
+  translation: "JbF"
+  skip_translation: true
+
+- text: "Q@X?w"
+  translation: "Q@X?w"
+  skip_translation: true
+
+- text: "?:EN?"
+  translation: "?:EN?"
+  skip_translation: true
+
+- text: "Rectangle 3 copy 2"
+  translation: "Rectangle 3 copy 2"
+  skip_translation: true
+
+- text: "[OG"
+  translation: "[OG"
+  skip_translation: true
+
+- text: "X|E?"
+  translation: "X|E?"
+  skip_translation: true
+
+- text: "@OQ"
+  translation: "@OQ"
+  skip_translation: true
+
+- text: "Li5@k5"
+  translation: "Li5@k5"
+  skip_translation: true
+
+- text: "B@wi"
+  translation: "B@wi"
+  skip_translation: true
+
+- text: "Li5@"
+  translation: "Li5@"
+  skip_translation: true
+
+- text: "Y|E@a"
+  translation: "Y|E@a"
+  skip_translation: true
+
+- text: "Y|E@$"
+  translation: "Y|E@$"
+  skip_translation: true
+
+- text: "Li5@f"
+  translation: "Li5@f"
+  skip_translation: true
+
+- text: "Li5@j"
+  translation: "Li5@j"
+  skip_translation: true
+
+- text: "Y|E@T"
+  translation: "Y|E@T"
+  skip_translation: true
+
+- text: "Y|E@5"
+  translation: "Y|E@5"
+  skip_translation: true
+
+- text: "Y|E@"
+  translation: "Y|E@"
+  skip_translation: true
+
+- text: "F@e"
+  translation: "F@e"
+  skip_translation: true
+
+- text: "Y|E@L'y"
+  translation: "Y|E@L'y"
+  skip_translation: true
+
+- text: "O@f"
+  translation: "O@f"
+  skip_translation: true
+
+- text: ":@OQ"
+  translation: ":@OQ"
+  skip_translation: true
+
+- text: "U@OQ"
+  translation: "U@OQ"
+  skip_translation: true
+
+- text: "@!'Z@OQ"
+  translation: "@!'Z@OQ"
+  skip_translation: true
+
+- text: "@Y|E@"
+  translation: "@Y|E@"
+  skip_translation: true
+
+- text: "Cr@1C"
+  translation: "Cr@1C"
+  skip_translation: true
+
+- text: "Rectangle 3 copy"
+  translation: "Rectangle 3 copy"
+  skip_translation: true
+
+- text: "P@g"
+  translation: "P@g"
+  skip_translation: true
+
+- text: "AlA"
+  translation: "AlA"
+  skip_translation: true
+
+- text: "N@U1@@"
+  translation: "N@U1@@"
+  skip_translation: true
+
+- text: "Bpl"
+  translation: "Bpl"
+  skip_translation: true
+
+- text: "A\\Jh?|"
+  translation: "A\\Jh?|"
+  skip_translation: true
+
+- text: "Zs?f"
+  translation: "Zs?f"
+  skip_translation: true
+
+- text: "G@Sg"
+  translation: "G@Sg"
+  skip_translation: true
+
+- text: "M'@\\Jh"
+  translation: "M'@\\Jh"
+  skip_translation: true
+
+- text: "1@ID"
+  translation: "1@ID"
+  skip_translation: true
+
+- text: "K?q"
+  translation: "K?q"
+  skip_translation: true
+
+- text: "Bf&]D"
+  translation: "Bf&]D"
+  skip_translation: true
+
+- text: "IO!"
+  translation: "IO!"
+  skip_translation: true
+
+- text: "B33lC"
+  translation: "B33lC"
+  skip_translation: true
+
+- text: "Bff\"C"
+  translation: "Bff\"C"
+  skip_translation: true
+
+- text: "Exterior:"
+  translation: "Экстерьер:"
+
+- text: "B@3s@"
+  translation: "B@3s@"
+  skip_translation: true
+
+- text: "B3c"
+  translation: "B3c"
+  skip_translation: true
+
+- text: "B4s"
+  translation: "B4s"
+  skip_translation: true
+
+- text: "C43kD"
+  translation: "C43kD"
+  skip_translation: true
+
+- text: "B`f~"
+  translation: "B`f~"
+  skip_translation: true
+
+- text: "Bfv"
+  translation: "Bfv"
+  skip_translation: true
+
+- text: "C]MUB"
+  translation: "C]MUB"
+  skip_translation: true
+
+- text: "Evil Zoey Dialogue Presets"
+  translation: "Evil Zoey Dialogue Presets"
+  skip_translation: true
+
+- text: "Zoey NPC Dialogue Presets"
+  translation: "Zoey NPC Dialogue Presets"
+  skip_translation: true
+
+- text: "Experimental Brain Treatment:"
+  translation: "Экспериментальное лечение мозга:"
+
+- text: "horny tongue out"
+  translation: "horny tongue out"
+  skip_translation: true
+
+- text: "Ash\"B"
+  translation: "Ash\"B"
+  skip_translation: true
+

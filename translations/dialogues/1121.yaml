@@ -1,4 +1,7 @@
-- text: (The locker- it's open...? )
-  translation: (Шкафчик... он открыт...?)
-  rich_text: <i>(The locker- it's open...? )</i>
-  rich_translation: <i>(Шкафчик... он открыт...?)</i>
+# Dialogues (path_id=1121)
+
+- text: "(The locker- it's open...? )"
+  translation: "(Шкафчик... он открыт...?)"
+  rich_text: "<i>(The locker- it's open...? )</i>"
+  rich_translation: "<i>(Шкафчик... он открыт...?)</i>"
+

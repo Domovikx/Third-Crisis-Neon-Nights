@@ -1,0 +1,9 @@
+# raw (bundle_0.2pinup-calliachscard_assets_all)
+
+- text: "Calliachs Card"
+  translation: "Карта Каллиаха"
+
+- text: "Dff"
+  translation: "Dff"
+  skip_translation: true
+

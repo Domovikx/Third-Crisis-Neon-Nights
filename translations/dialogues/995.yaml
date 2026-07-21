@@ -1,5 +1,9 @@
-- text: Deep breath
-  translation: Глубокий вдох
-- text: Sheesh. Whatever. I'll fuck another bunny's ass tonight then.
-  translation: Блин. Да похер. Сегодня вечером я вытрахаю задницу другой зайке.
-  speaker: Trov
+# Dialogues (path_id=995)
+
+- text: "Deep breath"
+  translation: "Глубокий вдох"
+
+- text: "Sheesh. Whatever. I'll fuck another bunny's ass tonight then."
+  translation: "Блин. Да похер. Сегодня вечером я вытрахаю задницу другой зайке."
+  speaker: "Trov"
+

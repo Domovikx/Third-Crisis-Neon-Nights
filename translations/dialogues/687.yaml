@@ -1,5 +1,9 @@
-- text: S-sorry, I think there's a misunderstanding, it's just a passphrase, right?
-  translation: П-простите, кажется, тут недопонимание, это же просто пароль, верно?
-- text: What a shame.
-  translation: Какая жалость.
-  speaker: Leona
+# Dialogues (path_id=687)
+
+- text: "S-sorry, I think there's a misunderstanding, it's just a passphrase, right?"
+  translation: "П-простите, кажется, тут недопонимание, это же просто пароль, верно?"
+
+- text: "What a shame."
+  translation: "Какая жалость."
+  speaker: "Leona"
+

@@ -1,2 +1,5 @@
-- text: Choose your destination...
-  translation: Выбери пункт назначения...
+# Dialogues (path_id=73169)
+
+- text: "Choose your destination..."
+  translation: "Выбери пункт назначения..."
+

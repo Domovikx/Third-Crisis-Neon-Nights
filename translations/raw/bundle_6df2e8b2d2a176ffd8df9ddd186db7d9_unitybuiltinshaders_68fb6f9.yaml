@@ -1,0 +1,40 @@
+# raw (bundle_6df2e8b2d2a176ffd8df9ddd186db7d9_unitybuiltinshaders_68fb6f9)
+
+- text: "Soft Particles Near Fade"
+  translation: "Мягкое затухание частиц вблизи"
+
+- text: "Soft Particles Far Fade"
+  translation: "Мягкое затухание частиц вдали"
+
+- text: "Camera Near Fade"
+  translation: "Затухание камеры вблизи"
+
+- text: "Camera Far Fade"
+  translation: "Затухание камеры вдали"
+
+- text: "Main Color"
+  translation: "Основной цвет"
+
+- text: "Spec Color"
+  translation: "Цвет блика"
+
+- text: "Emissive Color"
+  translation: "Цвет свечения"
+
+- text: "Shininess"
+  translation: "Блеск"
+
+- text: "Zbn"
+  translation: "Zbn"
+  skip_translation: true
+
+- text: "UnityLighting"
+  translation: "UnityLighting"
+  skip_translation: true
+
+- text: "Particle Texture"
+  translation: "Текстура частиц"
+
+- text: "Soft Particles Factor"
+  translation: "Коэффициент мягких частиц"
+

@@ -1,4 +1,8 @@
-- text: Here you go, enjoy!
-  translation: Держи, наслаждайся!
-- text: Thank you, Rosie!
-  translation: Спасибо, Рози!
+# Dialogues (path_id=895)
+
+- text: "Here you go, enjoy!"
+  translation: "Держи, наслаждайся!"
+
+- text: "Thank you, Rosie!"
+  translation: "Спасибо, Рози!"
+

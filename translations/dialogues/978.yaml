@@ -1,5 +1,9 @@
-- text: Not now, new girl!
-  translation: Не сейчас, новенькая!
-  speaker: Bunnygirl
-- text: t you see I
-  translation: ты не видишь, я
+# Dialogues (path_id=978)
+
+- text: "Not now, new girl!"
+  translation: "Не сейчас, новенькая!"
+  speaker: "Bunnygirl"
+
+- text: "t you see I"
+  translation: "ты не видишь, я"
+

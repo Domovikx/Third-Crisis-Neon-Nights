@@ -159,6 +159,7 @@
   translation: "???"
   gender: "???"
   notes: "Неизвестный персонаж (картель, комната 205, объект)"
+  skip_translation: true
 
 - text: "Jay"
   translation: "Джей"
@@ -339,6 +340,7 @@
   translation: "BUUWC"
   gender: "neutral"
   notes: "Технический акроним/код — оставить как есть"
+  skip_translation: true
 
 - text: "ToCallOnUse"
   translation: "ВЫЗОВ"
@@ -349,6 +351,7 @@
   translation: "CVU"
   gender: "neutral"
   notes: "Технический акроним/код — оставить как есть"
+  skip_translation: true
 
 - text: "OrderSlutService"
   translation: "ЗАКАЗ"
@@ -364,6 +367,7 @@
   translation: "CUUAC"
   gender: "neutral"
   notes: "Технический акроним/код — оставить как есть"
+  skip_translation: true
 
 - text: "Cancelled"
   translation: "Отменено"
@@ -379,6 +383,7 @@
   translation: "CUU"
   gender: "neutral"
   notes: "Технический акроним/код — оставить как есть"
+  skip_translation: true
 
 - text: "Mission"
   translation: "Миссия"
@@ -394,6 +399,7 @@
   translation: "CUUyC"
   gender: "neutral"
   notes: "Технический акроним/код — оставить как есть"
+  skip_translation: true
 
 - text: "OnAccepted"
   translation: "ПРИНЯТО"

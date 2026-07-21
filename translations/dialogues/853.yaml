@@ -1,4 +1,7 @@
-- text: U-uhm... Ten...?
-  translation: Э-эм... Десять...?
-  rich_text: <color=#EB83FF>U-uhm... Ten...?</color>
-  rich_translation: <color=#EB83FF>Э-эм... Десять...?</color>
+# Dialogues (path_id=853)
+
+- text: "U-uhm... Ten...?"
+  translation: "Э-эм... Десять...?"
+  rich_text: "<color=#EB83FF>U-uhm... Ten...?</color>"
+  rich_translation: "<color=#EB83FF>Э-эм... Десять...?</color>"
+

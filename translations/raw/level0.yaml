@@ -1,0 +1,176 @@
+# raw (level0)
+
+- text: "Create Main Menu Script"
+  translation: "Создать скрипт главного меню"
+
+- text: "Camera Container"
+  translation: "Контейнер камер"
+
+- text: "Version UI"
+  translation: "Версия"
+
+- text: "Preload Addressables"
+  translation: "Предзагрузка Addressables"
+
+- text: "RestrictSaves"
+  translation: "RestrictSaves"
+  skip_translation: true
+
+- text: "Phone"
+  translation: "Телефон"
+
+- text: "White Background"
+  translation: "Белый фон"
+
+- text: "Highlighted Graphic"
+  translation: "Выделенная графика"
+
+- text: "Main Graphic"
+  translation: "Основная графика"
+
+- text: "Options Button"
+  translation: "Кнопка настроек"
+
+- text: "New Game Animation Container"
+  translation: "Контейнер анимации новой игры"
+
+- text: "Bind Display for Selectable"
+  translation: "Привязать отображение для Selectable"
+
+- text: "Start Game Button"
+  translation: "Новая игра"
+
+- text: "Continue Button"
+  translation: "Продолжить"
+
+- text: "Exit Button"
+  translation: "Выйти"
+
+- text: "Head IK Target"
+  translation: "Цель IK головы"
+
+- text: "Subtitle"
+  translation: "Субтитры"
+
+- text: "Review Button"
+  translation: "Кнопка отзыва"
+
+- text: "Social Button Twitter"
+  translation: "Twitter"
+
+- text: "HighlightArrow"
+  translation: "HighlightArrow"
+  skip_translation: true
+
+- text: "Release Notes Button"
+  translation: "Список изменений"
+
+- text: "ButtonContainer"
+  translation: "ButtonContainer"
+  skip_translation: true
+
+- text: "Buy Button"
+  translation: "Купить"
+
+- text: "Load Button"
+  translation: "Загрузить"
+
+- text: "Social Button Discord"
+  translation: "Discord"
+
+- text: "?WA&?"
+  translation: "?WA&?"
+  skip_translation: true
+
+- text: "HBff"
+  translation: "HBff"
+  skip_translation: true
+
+- text: "BgD"
+  translation: "BgD"
+  skip_translation: true
+
+- text: "SDx"
+  translation: "SDx"
+  skip_translation: true
+
+- text: "v 0.4.0-a17"
+  translation: "v 0.4.0-a17"
+  skip_translation: true
+
+- text: "PURCHASE"
+  translation: "КУПИТЬ"
+
+- text: "WIshlist"
+  translation: "В список желаемого"
+
+- text: "WISHLIST"
+  translation: "В СПИСОК ЖЕЛАЕМОГО"
+
+- text: "Load Game"
+  translation: "Загрузить игру"
+
+- text: "Review"
+  translation: "Оставить отзыв"
+
+- text: "Open Menu"
+  translation: "Открыть меню"
+
+- text: "Fire"
+  translation: "Огонь"
+
+- text: "Wait for clicked"
+  translation: "Ожидание клика"
+
+- text: "Open Release Notes"
+  translation: "Открыть список изменений"
+
+- text: "Quit"
+  translation: "Выйти"
+
+- text: "Open Twitter"
+  translation: "Открыть Twitter"
+
+- text: "Are there any Save Games?"
+  translation: "Есть сохранения?"
+
+- text: "Disable Continue button"
+  translation: "Отключить кнопку продолжения"
+
+- text: "YesThereAre"
+  translation: "YesThereAre"
+  skip_translation: true
+
+- text: "NoThereAreNot"
+  translation: "NoThereAreNot"
+  skip_translation: true
+
+- text: "Setup new Save and start Animation"
+  translation: "Настроить новое сохранение и запустить анимацию"
+
+- text: "Start new Game"
+  translation: "Новая игра"
+
+- text: "Change Level"
+  translation: "Сменить уровень"
+
+- text: "LevelName"
+  translation: "LevelName"
+  skip_translation: true
+
+- text: "Forced"
+  translation: "Принудительно"
+
+- text: "IgnoreLock"
+  translation: "IgnoreLock"
+  skip_translation: true
+
+- text: "Eye Wiggle"
+  translation: "Движение глаз"
+
+- text: "Spec Wiggle"
+  translation: "Движение бликов"
+
+- text: "Open discord"
+  translation: "Открыть Discord"
+

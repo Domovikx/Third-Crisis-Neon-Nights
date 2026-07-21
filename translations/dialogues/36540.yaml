@@ -1,4 +1,8 @@
-- text: Press button.
-  translation: Нажать кнопку.
-- text: Do nothing
-  translation: Ничего не делать
+# Dialogues (path_id=36540)
+
+- text: "Press button."
+  translation: "Нажать кнопку."
+
+- text: "Do nothing"
+  translation: "Ничего не делать"
+

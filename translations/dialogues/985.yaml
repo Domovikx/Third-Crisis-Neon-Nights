@@ -1,8 +1,12 @@
-- text: What do you want... Sir...?
-  translation: Чего желаете... Сэр...?
-  speaker: Zoey
-- text: (He better tip me again... )
-  translation: (Лучше бы он снова дал чаевые...)
-  speaker: Zoey
-  rich_text: <i>(He better tip me again... )</i>
-  rich_translation: <i>(Лучше бы он снова дал чаевые...)</i>
+# Dialogues (path_id=985)
+
+- text: "What do you want... Sir...?"
+  translation: "Чего желаете... Сэр...?"
+  speaker: "Zoey"
+
+- text: "(He better tip me again... )"
+  translation: "(Лучше бы он снова дал чаевые...)"
+  speaker: "Zoey"
+  rich_text: "<i>(He better tip me again... )</i>"
+  rich_translation: "<i>(Лучше бы он снова дал чаевые...)</i>"
+

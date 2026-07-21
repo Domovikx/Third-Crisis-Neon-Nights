@@ -1,14 +1,14 @@
 # Dialogues (path_id=888)
 
 - text: "(He's all about manners, right...? So-... I'm sure he can... behave if I accept another tip... )"
-  translation: "(Он же такой воспитанный, да...?(... Так что-... Уверена, он может... вести себя прилично, если я приму ещё чаевые... )"
+  translation: "(Он же такой воспитанный, да...? (... Так что-... Уверена, он может... вести себя прилично, если я приму ещё чаевые... )"
   rich_text: "<color=#EB83FF><i>(He's all about manners, right...? So-... I'm sure he can... behave if I accept another tip... )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Он же такой воспитанный, да...?(... Так что-... Уверена, он может... вести себя прилично, если я приму ещё чаевые... )</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Он же такой воспитанный, да...? (... Так что-... Уверена, он может... вести себя прилично, если я приму ещё чаевые... )</i></color>"
 
 - text: "(Taking tips from customers without like... Getting them off-... It's encouraged, right...? Its just... )"
-  translation: "(Брать чаевые с клиентов и не-... ну знаешь... не доводить их-... Это же поощряется, да...?(... Просто-... )"
+  translation: "(Брать чаевые с клиентов и не-... ну знаешь... не доводить их-... Это же поощряется, да...? (... Просто-... )"
   rich_text: "<color=#EB83FF><i>(Taking tips from customers without like... Getting them off-... It's encouraged, right...? Its just... )</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Брать чаевые с клиентов и не-... ну знаешь... не доводить их-... Это же поощряется, да...?(... Просто-... )</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Брать чаевые с клиентов и не-... ну знаешь... не доводить их-... Это же поощряется, да...? (... Просто-... )</i></color>"
 
 - text: "(Showing a bit more skin... )"
   translation: "(Показываю чуть больше кожи... )"
@@ -49,9 +49,9 @@
   speaker: "Varen"
 
 - text: "(Hot...? Is he really that... into me...?)"
-  translation: "(Горячая...?(... Он правда настолько-... увлечён мной...?)"
+  translation: "(Горячая...? (... Он правда настолько-... увлечён мной...?)"
   rich_text: "<color=#EB83FF><i>(Hot...? Is he really that... into me...?)</i></color>"
-  rich_translation: "<color=#EB83FF><i>(Горячая...?(... Он правда настолько-... увлечён мной...?)</i></color>"
+  rich_translation: "<color=#EB83FF><i>(Горячая...? (... Он правда настолько-... увлечён мной...?)</i></color>"
 
 - text: "(No-... no, no, no... this-... It's just cold, my nipples-... )"
   translation: "(Нет-... нет, нет, нет... это-... Просто холодно, мои соски-... )"

@@ -1,0 +1,30 @@
+# raw (bundle_0.2pinup-enforcerbot_assets_all)
+
+- text: "Enforcer Bot - 2"
+  translation: "Бот правосудия - 2"
+
+- text: "Enforcer Bot"
+  translation: "Бот правосудия"
+
+- text: "Enforcer Bot - 3"
+  translation: "Бот правосудия - 3"
+
+- text: "Enforcer Bot - 1"
+  translation: "Бот правосудия - 1"
+
+- text: "sactx-0-2048x2048-DXT5|BC3-Enforcer Bot-c8caadf6"
+  translation: "sactx-0-2048x2048-DXT5|BC3-Enforcer Bot-c8caadf6"
+  skip_translation: true
+
+- text: "sactx-2-2048x2048-DXT5|BC3-Enforcer Bot-c8caadf6"
+  translation: "sactx-2-2048x2048-DXT5|BC3-Enforcer Bot-c8caadf6"
+  skip_translation: true
+
+- text: "VoD"
+  translation: "VoD"
+  skip_translation: true
+
+- text: "sactx-1-2048x2048-DXT5|BC3-Enforcer Bot-c8caadf6"
+  translation: "sactx-1-2048x2048-DXT5|BC3-Enforcer Bot-c8caadf6"
+  skip_translation: true
+

@@ -39,6 +39,7 @@
   translation: "(... ! )"
   rich_text: "<color=#EB83FF><i>(... ! )</i></color>"
   rich_translation: "<color=#EB83FF><i>(... ! )</i></color>"
+  skip_translation: true
 
 - text: "But-.. Klaudia said not to do that outside of the rooms-.. Hhh Nghh-..!"
   translation: "Но-.. Клавдия сказала не делать этого вне комнат-.. Х-х-х М-м-м-..!"

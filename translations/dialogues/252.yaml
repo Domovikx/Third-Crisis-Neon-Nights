@@ -1,2 +1,5 @@
-- text: Hmm looks like the valve is missing.
-  translation: Хм, похоже, вентиль отсутствует.
+# Dialogues (path_id=252)
+
+- text: "Hmm looks like the valve is missing."
+  translation: "Хм, похоже, вентиль отсутствует."
+

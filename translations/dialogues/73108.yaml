@@ -1,7 +1,12 @@
-- text: O-Oh! Sorry!
-  translation: О-Ой! Прости!
-  speaker: Man
-- text: Hey! Hands off!
-  translation: Эй! Руки убрал!
-- text: Whatever, dude.
-  translation: Пофиг, чувак.
+# Dialogues (path_id=73108)
+
+- text: "O-Oh! Sorry!"
+  translation: "О-Ой! Прости!"
+  speaker: "Man"
+
+- text: "Hey! Hands off!"
+  translation: "Эй! Руки убрал!"
+
+- text: "Whatever, dude."
+  translation: "Пофиг, чувак."
+

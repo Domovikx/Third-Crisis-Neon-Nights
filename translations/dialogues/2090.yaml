@@ -6,9 +6,9 @@
   rich_translation: "<b>ПРОСРОЧКА АРЕНДЫ:</b>"
 
 - text: "If you can't pay, then you can't live in that place. I don't care if you're buddy buddy with the mayor's daughter. Obviously you aren't buddy enough to mooch off her anymore. Get me my damn fuckbucks."
-  translation: "Не можешь платить — не сможешь там жить. Плевать, что ты дружок дочки мэра. Видимо, не настолько дружок, чтобы и дальше на ней ездить. Гони мои грёбаные секс-баксы."
+  translation: "Не можешь платить — не сможешь там жить. Плевать, что ты подружка дочки мэра. Видимо, не настолько подружка, чтобы и дальше на ней ездить. Гони мои грёбаные факбаксы."
   rich_text: "If you can't pay, then you can't live in that place. I don't care if you're buddy buddy with the mayor's daughter. Obviously you aren't buddy enough to mooch off her anymore. <b>Get me my damn fuckbucks.</b>"
-  rich_translation: "Не можешь платить — не сможешь там жить. Плевать, что ты дружок дочки мэра. Видимо, не настолько дружок, чтобы и дальше на ней ездить. <b>Гони мои грёбаные секс-баксы.</b>"
+  rich_translation: "Не можешь платить — не сможешь там жить. Плевать, что ты подружка дочки мэра. Видимо, не настолько подружка, чтобы и дальше на ней ездить. <b>Гони мои грёбаные факбаксы.</b>"
 
 - text: "(Fucking asshole. What does she know about Sarah and I?)"
   translation: "(Грёбаный мудак. Что она знает о Саре и мне?)"
@@ -16,9 +16,9 @@
   rich_translation: "<i>(Грёбаный мудак. Что <b>она</b> знает о Саре и мне?)</i>"
 
 - text: "(Ugh... I really need that pay from tonight's gig... but could I live with myself if I handed over something as important as this blocker?)"
-  translation: "(Угх... Мне очень нужна оплата с сегодняшней халтуры... но смогу ли я жить с собой, если отдам такую важную вещь, как этот блокировщик?)"
+  translation: "(Угх... Мне очень нужна оплата с сегодняшней халтуры... но смогу ли я жить с собой, если отдам такую важную вещь, как этот блокиратор?)"
   rich_text: "<i>(Ugh... I really need that pay from tonight's gig... but could I live with myself if I handed over something as important as this blocker?)</i>"
-  rich_translation: "<i>(Угх... Мне очень нужна оплата с сегодняшней халтуры... но смогу ли я жить с собой, если отдам такую важную вещь, как этот блокировщик?)</i>"
+  rich_translation: "<i>(Угх... Мне очень нужна оплата с сегодняшней халтуры... но смогу ли я жить с собой, если отдам такую важную вещь, как этот блокиратор?)</i>"
 
 - text: "(I sure wouldn't be able to live with myself in a ditch somewhere... I need that money bad.)"
   translation: "(Точно не смогу жить с собой в какой-нибудь канаве... Мне отчаянно нужны эти деньги.)"

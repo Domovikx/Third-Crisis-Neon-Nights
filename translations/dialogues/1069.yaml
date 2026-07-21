@@ -1,4 +1,7 @@
-- text: (I need to look for room 205 up here. )
-  translation: (Нужно найти комнату 205 наверху.)
-  rich_text: <i>(I need to look for room 205 up here. )</i>
-  rich_translation: <i>(Нужно найти комнату 205 наверху.)</i>
+# Dialogues (path_id=1069)
+
+- text: "(I need to look for room 205 up here. )"
+  translation: "(Нужно найти комнату 205 наверху.)"
+  rich_text: "<i>(I need to look for room 205 up here. )</i>"
+  rich_translation: "<i>(Нужно найти комнату 205 наверху.)</i>"
+

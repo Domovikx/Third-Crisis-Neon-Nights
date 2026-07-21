@@ -1,2 +1,5 @@
-- text: Ah-! Must've tripped a motion sensor! Need to find a way to get the door back open again.
-  translation: А-! Должно быть, я задела датчик движения! Нужно найти способ снова открыть дверь.
+# Dialogues (path_id=73180)
+
+- text: "Ah-! Must've tripped a motion sensor! Need to find a way to get the door back open again."
+  translation: "А-! Должно быть, я задела датчик движения! Нужно найти способ снова открыть дверь."
+

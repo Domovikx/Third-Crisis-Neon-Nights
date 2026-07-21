@@ -1,2 +1,5 @@
-- text: Ask for directions.
-  translation: Спросить дорогу.
+# Dialogues (path_id=66752)
+
+- text: "Ask for directions."
+  translation: "Спросить дорогу."
+

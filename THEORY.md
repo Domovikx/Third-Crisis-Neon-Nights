@@ -5,7 +5,7 @@
 
 ---
 
-Разделы 1–4, 7.1–7.3, 7.4.1–7.4.3, 7.4.5–7.4.6, 11 описывают техническое устройство Unity serialized формата и архитектуру рантайм-переводчика — они актуальны. Разделы 5–6, 7.4.4, 8, 10, 12 обновлены под текущий пайплайн (`dump_assets.py` + `extractor.py`).
+Разделы 1–4, 7.1–7.3, 7.4.1–7.4.3, 7.4.5–7.4.6, 11 описывают техническое устройство — актуальны. Разделы 5–6, 7.4.4, 8, 10, 12 обновлены под текущий пайплайн (1050 файлов диалогов, 27223 settings_keys, 85 спикеров).
 
 ## 1. Общая архитектура игры
 
@@ -235,10 +235,10 @@ GameObject
 Пайплайн двухступенчатый:
 
 1. **`dump_assets.py`** — читает все `.assets` файлы игры через UnityPy, дампит структурированные JSON в `dump_assets/` (Object Table + Type Tree + typed fields, а также raw-скан для диалогов)
-2. **`extractor.py`** — читает JSON-дампы, собирает 3 типа YAML-файлов в `translations/`:
-   - `dialogues.{path_id}.yaml` — `["text", "translation", "speaker"]` (1793 записи, 4 источника)
-   - `speakers.yaml` — `["name", "translation", "gender"]` (23 спикера)
-   - `settings_keys.yaml` — `["key", "translation"]` (55 UI-строк)
+2. **`extractor.py`** — читает JSON-дампы, собирает YAML-файлы в `translations/`:
+   - `dialogues/*.yaml` — объектный YAML (5639 диалогов, 1050 файлов)
+   - `speakers.yaml` — объектный YAML (85 спикеров)
+   - `settings_keys.yaml` — объектный YAML (27223 записи: UI, CG, FSM, шейдеры)
 
 Никакого прямого парсинга бинарников — всё через UnityPy-дампы.
 
@@ -462,11 +462,11 @@ And now hold still I'm not done yet.
 
 ### 6.5. Оценка покрытия (текущая)
 
-| Метод                           | Всего | Формат |
-| ------------------------------- | ----- | ------ |
-| extractor.py (диалоги)          | 1 793 | YAML   |
-| extractor.py (UI settings_keys) | 55    | YAML   |
-| extractor.py (speakers)         | 23    | YAML   |
+| Метод                        | Всего               | Формат |
+| ---------------------------- | ------------------- | ------ |
+| extractor.py (диалоги)       | 5 639 (1050 файлов) | YAML   |
+| extractor.py (settings_keys) | 27 223              | YAML   |
+| extractor.py (speakers)      | 85                  | YAML   |
 
 **100% точность, 0% шума** — данные из структурированных Unity-объектов (DialogueHistory),
 без сырого ASCII-поиска. Дедупликация в пределах каждого path_id.
@@ -811,11 +811,11 @@ Execution order 10000 гарантирует, что `NeonLateUpdate` сраба
 копируются в `Managed/`. Словарь регистронезависимый
 (`StringComparer.OrdinalIgnoreCase`), т.к. игра передаёт `set_text` с разным регистром.
 
-Текущие переводы:
+Текущие переводы (на момент написания):
 
-- **диалоги:** 1793 записи в 4 файлах (формат `["eng","rus","speaker"]`)
-- **UI:** 55 строк (формат `["key","translation"]`)
-- **персонажи:** 23 имени (формат `["name","translation","gender"]`)
+- **диалоги:** 5639 записей в 1050 файлах (формат `{text, translation, speaker, rich_text, rich_translation}`)
+- **settings_keys:** 27223 записей (формат `{text, translation}` — UI, CG, FSM, шейдеры)
+- **персонажи:** 85 имён (формат `{text, translation, gender, notes}`)
 
 Наша DLL (финальная сборка):
 
@@ -827,12 +827,9 @@ NeonTranslatorRuntime.dll (22.5 KB)
 └── NativeMethods.cs            ← P/Invoke kernel32 (лог) + MethodPatcher (отключён)
 
 translations/
-  dialogues.73203.yaml          ← 1503 диалога
-  dialogues.73262.yaml          ← 93 диалога
-  dialogues.73263.yaml          ← 97 диалогов
-  dialogues.73264.yaml          ← 100 диалогов
-  speakers.yaml                 ← 23 персонажа
-  settings_keys.yaml            ← 55 UI строк
+  dialogues/*.yaml              ← 1050 файлов диалогов (5639 строк)
+  speakers.yaml                 ← 85 персонажей
+  settings_keys.yaml            ← 27223 записи (UI/CG/FSM/шейдеры)
 
 dwmapi.dll (13.5 KB, нативный прокси)
 └── 32 forward + 2 интерсепта + BootstrapTranslator
@@ -846,12 +843,9 @@ dwmapi.dll (13.5 KB, нативный прокси)
 
 ```
 translations/                      ← версионируется в git
-  dialogues.73203.yaml             ← диалоги (1503, [text, translation, speaker])
-  dialogues.73262.yaml             ← диалоги (93)
-  dialogues.73263.yaml             ← диалоги (97)
-  dialogues.73264.yaml             ← диалоги (100)
-  speakers.yaml                    ← персонажи (23, [name, translation, gender])
-  settings_keys.yaml               ← UI строки (55, [key, translation])
+  dialogues/*.yaml                 ← 1050 файлов диалогов
+  speakers.yaml                    ← 85 персонажей
+  settings_keys.yaml               ← 27223 записи
 
 Third Crisis Neon Nights_Data/Managed/
   *.yaml                           ← все yaml копируются сюда для рантайма
@@ -860,22 +854,30 @@ Third Crisis Neon Nights_Data/Managed/
 ### 8.2. Формат YAML (перевод)
 
 ```yaml
-# Dialogues (path_id=73203): [text, translation, speaker]
-- ["Yesss...!~", "Да-а-а...!~", "Zoey"]
-- ["Fhaaa..!!", "Ахха..!!", "Zoey"]
+# Dialogues: text, translation, speaker, rich_text, rich_translation
+- text: "Yesss...!~"
+  translation: "Да-а-а...!~"
+  speaker: "Zoey"
+  rich_text: '<color=#B867FF><font="Roboto-Condensed_DialogueUI" material="Roboto-Condensed_DialogueUI_Perversion">Yesss...!~</font></color>'
+  rich_translation: '<color=#B867FF><font="Roboto-Condensed_DialogueUI" material="Roboto-Condensed_DialogueUI_Perversion">Да-а-а...!~</font></color>'
 
-# Settings keys: [key, translation]
-- ["Fullscreen", "Полный экран"]
+# Settings keys: text, translation
+- text: "Fullscreen"
+  translation: "Полный экран"
 
-# Speakers: [name, translation, gender]
-- ["Zoey", "Зои", "female"]
+# Speakers: text, translation, gender, notes
+- text: "Zoey"
+  translation: "Зои"
+  gender: "female"
 ```
 
-| Поле          | Формат диалогов                                  |
-| ------------- | ------------------------------------------------ |
-| `text`        | Оригинал (английский)                            |
-| `translation` | Перевод (русский), пустая строка = не переведено |
-| `speaker`     | Имя персонажа (опционально)                      |
+| Поле               | Формат диалогов                                  |
+| ------------------ | ------------------------------------------------ |
+| `text`             | Оригинал (английский)                            |
+| `translation`      | Перевод (русский), пустая строка = не переведено |
+| `speaker`          | Имя персонажа (опционально)                      |
+| `rich_text`        | Оригинал с Unity-тегами (опционально)            |
+| `rich_translation` | Перевод с Unity-тегами (опционально)             |
 
 ### 8.3. Пайплайн (текущий)
 
@@ -885,9 +887,9 @@ Third Crisis Neon Nights_Data/Managed/
 
 Шаг 2: Извлечение текста
   extractor.py
-    → translations/dialogues.{path_id}.yaml  (из dialogues-полей MonoBehaviour)
-    → translations/speakers.yaml             (уникальные спикеры)
-    → translations/settings_keys.yaml        (из settings_keys display)
+    → translations/dialogues/*.yaml          (из dialogues-полей MonoBehaviour + .bundle)
+    → translations/speakers.yaml             (85 уникальных спикеров)
+    → translations/settings_keys.yaml        (27223 записи: display + bundle)
 
 Шаг 3: Перевод
   Редактирование yaml вручную или через translate-expert агента
@@ -940,13 +942,13 @@ Third Crisis Neon Nights_Data/Managed/
 
 1. **JS `parser.mjs`** — сырой ASCII-поиск по data секции, ~40-60% текста с шумом
 2. **Python `parser.py`** — прямой парсинг структурированных Unity-объектов (DialogueHistory, TMP_Text), 1544 диалога без шума
-3. **Python `dump_assets.py` + `extractor.py`** (текущий) — дамп ассетов через UnityPy, извлечение в YAML, 1793 диалога, 55 UI, 23 спикера
+3. **Python `dump_assets.py` + `extractor.py`** (текущий) — дамп ассетов через UnityPy, извлечение в YAML, 5639 диалогов (1050 файлов), 27223 записи settings_keys, 85 спикеров
 
 Ключевые достижения:
 
 - **UnityPy-дамп** всех .assets файлов → JSON (140 файлов, 100k+ объектов)
-- **1793 структурированных диалога** из DialogueHistory — 100% точность, 0% шума
-- **55 UI-строк** из settings_keys — реальный display-текст из бинарника
+- **5639 структурированных диалогов** из DialogueHistory (1050 файлов) — 100% точность, 0% шума
+- **27223 записи** в settings_keys — UI, CG, FSM, шейдеры, диалоговые реплики, гибериш
 - **Scan-and-Replace** — метод перевода без ограничения длины (секция 7.4)
 - **Native proxy dwmapi.dll** — бутстрап NeonTranslatorRuntime через Mono API
 - **NeonLateUpdate + [DefaultExecutionOrder(10000)]** — замена Timer+SyncCtx (0ms задержка)
@@ -964,12 +966,9 @@ extractor.py
          │
          ▼
 translations/
-  dialogues.73203.yaml    ← ["text","translation","speaker"]  (1503)
-  dialogues.73262.yaml    ← (93)
-  dialogues.73263.yaml    ← (97)
-  dialogues.73264.yaml    ← (100)
-  speakers.yaml           ← ["name","translation","gender"]   (23)
-  settings_keys.yaml      ← ["key","translation"]            (55)
+  dialogues/*.yaml        ← 1050 файлов (5639 диалогов)
+  speakers.yaml           ← 85 персонажей
+  settings_keys.yaml      ← 27223 записи
          │
          ▼ (копирование *.yaml → Managed/)
          │
@@ -1070,4 +1069,4 @@ var field = type.GetField("m_text", flags);
 ---
 
 _Документ создан в рамках анализа локализации Third Crisis Neon Nights (Anduo Games, Unity 2022.3.62f3)._
-_Последнее обновление: 2026-06-05 (актуализирован под пайплайн dump_assets.py + extractor.py → YAML)._
+_Последнее обновление: 2026-06-23 (актуализирован под 1050 файлов диалогов, 27223 settings_keys, 85 спикеров)._

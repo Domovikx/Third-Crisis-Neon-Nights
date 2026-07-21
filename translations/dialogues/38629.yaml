@@ -1,2 +1,5 @@
-- text: Ask for Work
-  translation: Попросить работу
+# Dialogues (path_id=38629)
+
+- text: "Ask for Work"
+  translation: "Попросить работу"
+

@@ -1,6 +1,11 @@
-- text: We-Well~? T-Take a pic of 'em, baby!
-  translation: Ну-Ну~? С-Сфоткай их, детка!
-- text: You're so impossible...
-  translation: Ты такой несносный...
-- text: Eheh! If you insist!
-  translation: Хех! Если ты настаиваешь!
+# Dialogues (path_id=2499)
+
+- text: "We-Well~? T-Take a pic of 'em, baby!"
+  translation: "Ну-Ну~? С-Сфоткай их, детка!"
+
+- text: "You're so impossible..."
+  translation: "Ты такой несносный..."
+
+- text: "Eheh! If you insist!"
+  translation: "Хех! Если ты настаиваешь!"
+

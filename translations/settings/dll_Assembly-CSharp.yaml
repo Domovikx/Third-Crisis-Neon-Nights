@@ -1,0 +1,1712 @@
+# settings (dll_Assembly-CSharp)
+
+- text: "Show Advanced Performance Stats"
+  translation: "Продвинутая статистика"
+
+- text: "Video Tab"
+  translation: "Видео"
+
+- text: "Game Tab"
+  translation: "Игра"
+
+- text: "Grass Detail"
+  translation: "Детализация травы"
+
+- text: "Enable Skip Mode"
+  translation: "Пропуск"
+
+- text: "Dialogue Autoplay"
+  translation: "Автовоспроизведение диалогов"
+
+- text: "Off"
+  translation: "Выкл"
+
+- text: "Auto"
+  translation: "Авто"
+
+- text: "Toggle Player Sprite"
+  translation: "Спрайт персонажа"
+
+- text: "Controls Tab"
+  translation: "Управление"
+
+- text: "Show Hints"
+  translation: "Подсказки"
+
+- text: "Fullscreen"
+  translation: "Полный экран"
+
+- text: "Resolution"
+  translation: "Разрешение"
+
+- text: "Enable V Sync"
+  translation: "Вертикальная синхронизация"
+
+- text: "F P S Limit"
+  translation: "Лимит FPS"
+
+- text: "Show F P S"
+  translation: "Показывать FPS"
+
+- text: "Language"
+  translation: "Язык"
+
+- text: "Sound Tab"
+  translation: "Звук"
+
+- text: "Lovense Enabled"
+  translation: "Lovense: Вкл"
+
+- text: "Toys Tab"
+  translation: "Игрушки"
+
+- text: "Lovense I P"
+  translation: "Lovense: IP"
+
+- text: "Lovense Port"
+  translation: "Lovense: Порт"
+
+- text: "Lovense Use H T T P"
+  translation: "Lovense: HTTP"
+
+- text: "Lovense Setup"
+  translation: "Lovense: Настройка"
+
+- text: "Lovense Buy"
+  translation: "Купить Lovense"
+
+- text: "Lovense Status"
+  translation: "Lovense: Статус"
+
+- text: "Lovense Dialogue Line"
+  translation: "Lovense: Диалог"
+
+- text: "Lovense User Interface"
+  translation: "Lovense: Интерфейс"
+
+- text: "Native Setup"
+  translation: "Нативная настройка"
+
+- text: "Lovense Search"
+  translation: "Lovense: Поиск"
+
+- text: "Enable Multiple Autosaves"
+  translation: "Множественные автосохранения"
+
+- text: "sav"
+  translation: "sav"
+  skip_translation: true
+
+- text: "Controllers"
+  translation: "Контроллеры"
+
+- text: "Always Sprint"
+  translation: "Всегда бежать"
+
+- text: "Movement Speed"
+  translation: "Скорость движения"
+
+- text: "Enable Console"
+  translation: "Включить консоль"
+
+- text: "Music Volume"
+  translation: "Громкость музыки"
+
+- text: "Effects Volume"
+  translation: "Громкость эффектов"
+
+- text: "Music Manager"
+  translation: "Music Manager"
+  skip_translation: true
+
+- text: "ClearQueueSources currentlyplaying:"
+  translation: "ClearQueueSources currentlyplaying:"
+  skip_translation: true
+
+- text: "Missing AudioClip in MusicBeatTransitionList:"
+  translation: "Missing AudioClip in MusicBeatTransitionList:"
+  skip_translation: true
+
+- text: "SoundList was empty when trying to play a random sound."
+  translation: "SoundList was empty when trying to play a random sound."
+  skip_translation: true
+
+- text: "Vertex color unlit"
+  translation: "Vertex color unlit"
+  skip_translation: true
+
+- text: "Dropdown List"
+  translation: "Dropdown List"
+  skip_translation: true
+
+- text: "PlayMakerVariablesHashtable: The hashtable does not contain the key"
+  translation: "PlayMakerVariablesHashtable: The hashtable does not contain the key"
+  skip_translation: true
+
+- text: "ANLayeredImage: Tried to add a sprite that doesn't exist!"
+  translation: "ANLayeredImage: Tried to add a sprite that doesn't exist!"
+  skip_translation: true
+
+- text: "The passed ID"
+  translation: "The passed ID"
+  skip_translation: true
+
+- text: "GetPlayerSkeleton: There is no player! Is the scene unloading? | '"
+  translation: "GetPlayerSkeleton: There is no player! Is the scene unloading? | '"
+  skip_translation: true
+
+- text: "Dick Spit"
+  translation: "Dick Spit"
+  skip_translation: true
+
+- text: "You beat"
+  translation: "You beat"
+  skip_translation: true
+
+- text: "Playmaker PMA"
+  translation: "Playmaker PMA"
+  skip_translation: true
+
+- text: "Did Build"
+  translation: "Did Build"
+  skip_translation: true
+
+- text: "Final Fallback caught fadein"
+  translation: "Final Fallback caught fadein"
+  skip_translation: true
+
+- text: "Fallback caught fadein"
+  translation: "Fallback caught fadein"
+  skip_translation: true
+
+- text: "No TextMeshProUGUI on"
+  translation: "No TextMeshProUGUI on"
+  skip_translation: true
+
+- text: "Mouse X"
+  translation: "Mouse X"
+  skip_translation: true
+
+- text: "Mouse Y"
+  translation: "Mouse Y"
+  skip_translation: true
+
+- text: "Preloading Content"
+  translation: "Preloading Content"
+  skip_translation: true
+
+- text: "Beat detected!"
+  translation: "Beat detected!"
+  skip_translation: true
+
+- text: "Neck Chip Ads Minigame"
+  translation: "Neck Chip Ads Minigame"
+  skip_translation: true
+
+- text: "Going from"
+  translation: "Going from"
+  skip_translation: true
+
+- text: "Wet 4 Short"
+  translation: "Wet 4 Short"
+  skip_translation: true
+
+- text: "Sex Speed"
+  translation: "Скорость секса"
+
+- text: "Motion Sickness"
+  translation: "Укачивание"
+
+- text: "No Camera Rotation"
+  translation: "Без вращения камеры"
+
+- text: "All Effects Disabled"
+  translation: "Все эффекты откл."
+
+- text: "Just entered"
+  translation: "Just entered"
+  skip_translation: true
+
+- text: "- multiple entries of that Name in HornyQuestList"
+  translation: "- multiple entries of that Name in HornyQuestList"
+  skip_translation: true
+
+- text: "Horny Quest Ended."
+  translation: "Horny Quest Ended."
+  skip_translation: true
+
+- text: "No valid HorneyQuests Script on Zoey"
+  translation: "No valid HorneyQuests Script on Zoey"
+  skip_translation: true
+
+- text: "- no HornyQuest of that ID exists in HornyQuestList"
+  translation: "- no HornyQuest of that ID exists in HornyQuestList"
+  skip_translation: true
+
+- text: "WARNING: PMA_WaitForHornyQuest is deprecated"
+  translation: "WARNING: PMA_WaitForHornyQuest is deprecated"
+  skip_translation: true
+
+- text: "Door Peeking UI and Post Processing"
+  translation: "Door Peeking UI and Post Processing"
+  skip_translation: true
+
+- text: "We always want this on lol"
+  translation: "We always want this on lol"
+  skip_translation: true
+
+- text: "NO HORNYACHIEVEMENT SET"
+  translation: "NO HORNYACHIEVEMENT SET"
+  skip_translation: true
+
+- text: "HornyAchievement completed!"
+  translation: "HornyAchievement completed!"
+  skip_translation: true
+
+- text: "SetPathfindingDestination called but FollowerEntity Pathfinding is not ready."
+  translation: "SetPathfindingDestination called but FollowerEntity Pathfinding is not ready."
+  skip_translation: true
+
+- text: "Great googily moogily!"
+  translation: "Great googily moogily!"
+  skip_translation: true
+
+- text: "Better luck next time..."
+  translation: "Повезёт в следующий раз..."
+
+- text: "They're masturbating!"
+  translation: "Они мастурбируют!"
+
+- text: "Money shot!"
+  translation: "Струя!"
+
+- text: "Hold that pose!"
+  translation: "Замри!"
+
+- text: "You must be new around here~"
+  translation: "Ты, видимо, новенькая~"
+
+- text: "Hey there bunny babe~"
+  translation: "Привет, зайка~"
+
+- text: "Look how sexy you are~"
+  translation: "Какая же ты секси~"
+
+- text: "Hop on over here~"
+  translation: "Прыгай сюда~"
+
+- text: "How much for a good time, lil bunny~?"
+  translation: "Почём хорошее время, зайка~?"
+
+- text: "Come here, babe. Lemme get a feel."
+  translation: "Иди сюда, детка. Дай пощупать."
+
+- text: "Oh you look so squeezable. Come here."
+  translation: "О, ты такая мягонькая. Иди сюда."
+
+- text: "Come here, darling."
+  translation: "Иди сюда, дорогая."
+
+- text: "Bounce on over here, baby."
+  translation: "Подпрыгни-ка сюда, детка."
+
+- text: "Come over here, babe."
+  translation: "Подойди сюда, детка."
+
+- text: "NN Energy UI Canvas"
+  translation: "NN Energy UI Canvas"
+  skip_translation: true
+
+- text: "Added Gameplay Cutscene Restraint"
+  translation: "Added Gameplay Cutscene Restraint"
+  skip_translation: true
+
+- text: "Removed Gameplay Cutscene Restraint"
+  translation: "Removed Gameplay Cutscene Restraint"
+  skip_translation: true
+
+- text: "Give me a Unique ID"
+  translation: "Give me a Unique ID"
+  skip_translation: true
+
+- text: "CG Animation Only"
+  translation: "CG Animation Only"
+  skip_translation: true
+
+- text: "OverworldAnimation: Could not find animation '"
+  translation: "OverworldAnimation: Could not find animation '"
+  skip_translation: true
+
+- text: "' in animMap!"
+  translation: "' in animMap!"
+  skip_translation: true
+
+- text: "OverworldAnimationTranslator: Animation '"
+  translation: "OverworldAnimationTranslator: Animation '"
+  skip_translation: true
+
+- text: "OverworldAnimationTranslator: Tried to play a null animation!"
+  translation: "OverworldAnimationTranslator: Tried to play a null animation!"
+  skip_translation: true
+
+- text: "An agent finished traversing an off-mesh link"
+  translation: "An agent finished traversing an off-mesh link"
+  skip_translation: true
+
+- text: "An agent aborted traversing an off-mesh link"
+  translation: "An agent aborted traversing an off-mesh link"
+  skip_translation: true
+
+- text: "No requirement"
+  translation: "Нет требований"
+
+- text: "Level 2"
+  translation: "Уровень 2"
+
+- text: "Level 3"
+  translation: "Уровень 3"
+
+- text: "Level 4"
+  translation: "Уровень 4"
+
+- text: "Level 5"
+  translation: "Уровень 5"
+
+- text: "Level 6"
+  translation: "Уровень 6"
+
+- text: "Level 7"
+  translation: "Уровень 7"
+
+- text: "Level 8"
+  translation: "Уровень 8"
+
+- text: "Level 9"
+  translation: "Уровень 9"
+
+- text: "Pathfinding FollowerEntity was null on FSM:"
+  translation: "Pathfinding FollowerEntity was null on FSM:"
+  skip_translation: true
+
+- text: "Bill in Bunnysuit"
+  translation: "Bill in Bunnysuit"
+  skip_translation: true
+
+- text: "PMA_FadeVolume is missing AudioSource Reference:"
+  translation: "PMA_FadeVolume is missing AudioSource Reference:"
+  skip_translation: true
+
+- text: "FSM AttachPrefabToOverworldCharacter"
+  translation: "FSM AttachPrefabToOverworldCharacter"
+  skip_translation: true
+
+- text: "PMA_ClearPathfindingTarget: FollowerEntity is disabled!"
+  translation: "PMA_ClearPathfindingTarget: FollowerEntity is disabled!"
+  skip_translation: true
+
+- text: "Waiting for"
+  translation: "Waiting for"
+  skip_translation: true
+
+- text: "Drunk Effect Post Processing"
+  translation: "Drunk Effect Post Processing"
+  skip_translation: true
+
+- text: "A measurement of how horny you currently are."
+  translation: "Показатель того, насколько вы сейчас возбуждены."
+
+- text: "Voice Acting"
+  translation: "Озвучка"
+
+- text: "Enter text"
+  translation: "Введите текст"
+
+- text: "RestoreAlphaFeature: No shader assigned."
+  translation: "RestoreAlphaFeature: No shader assigned."
+  skip_translation: true
+
+- text: "Draw Debug"
+  translation: "Draw Debug"
+  skip_translation: true
+
+- text: "Perform OverrideGeometry"
+  translation: "Perform OverrideGeometry"
+  skip_translation: true
+
+- text: "Could not find empty button slot for item"
+  translation: "Could not find empty button slot for item"
+  skip_translation: true
+
+- text: "You have seen all available scenes here. We are working on more."
+  translation: "Вы уже посмотрели все доступные сцены. Мы работаем над новыми."
+
+- text: "Waitressing Minigame"
+  translation: "Waitressing Minigame"
+  skip_translation: true
+
+- text: "Spawning Bunny with Character:"
+  translation: "Spawning Bunny with Character:"
+  skip_translation: true
+
+- text: "Waitressing Minigame Highlight"
+  translation: "Waitressing Minigame Highlight"
+  skip_translation: true
+
+- text: "now playing: Shift #"
+  translation: "сейчас играет: Смена #"
+
+- text: "Play Intro"
+  translation: "Play Intro"
+  skip_translation: true
+
+- text: "Cut In Canvas UI"
+  translation: "Cut In Canvas UI"
+  skip_translation: true
+
+- text: "Pinup Unlock UI"
+  translation: "Pinup Unlock UI"
+  skip_translation: true
+
+- text: "No Uses Left"
+  translation: "Не осталось использований"
+
+- text: "Not in Tutorial"
+  translation: "Not in Tutorial"
+  skip_translation: true
+
+- text: "Canvas Stairs Fade Up"
+  translation: "Canvas Stairs Fade Up"
+  skip_translation: true
+
+- text: "Canvas Stairs Fade Down"
+  translation: "Canvas Stairs Fade Down"
+  skip_translation: true
+
+- text: "NNTabMenuItemHighlighter: Tried to highlight a null item!"
+  translation: "NNTabMenuItemHighlighter: Попытка подсветить нулевой элемент!"
+
+- text: "PlaySoundFromCategory: '"
+  translation: "PlaySoundFromCategory: '"
+  skip_translation: true
+
+- text: "is not a Sound Category."
+  translation: "не является звуковой категорией."
+
+- text: "$ Visible"
+  translation: "$ Видимость"
+
+- text: "TintColor: Off"
+  translation: "TintColor: Выкл"
+
+- text: "Onscreen Keyboard"
+  translation: "Экранная клавиатура"
+
+- text: "Add Glitch1 effect to your Volume component to make Manipulation Example work"
+  translation: "Add Glitch1 effect to your Volume component to make Manipulation Example work"
+  skip_translation: true
+
+- text: "Tried to Initialize the SteamAPI twice in one session!"
+  translation: "Попытка инициализировать SteamAPI дважды за одну сессию!"
+
+- text: "Open File"
+  translation: "Открыть файл"
+
+- text: "Open File Async"
+  translation: "Открыть файл (асинхр.)"
+
+- text: "Open File Multiple"
+  translation: "Открыть несколько файлов"
+
+- text: "Open File Extension"
+  translation: "Расширение файла"
+
+- text: "Open File Directory"
+  translation: "Директория файла"
+
+- text: "Open File Filter"
+  translation: "Фильтр файлов"
+
+- text: "Image Files"
+  translation: "Изображения"
+
+- text: "Sound Files"
+  translation: "Аудиофайлы"
+
+- text: "All Files"
+  translation: "Все файлы"
+
+- text: "Open Folder"
+  translation: "Открыть папку"
+
+- text: "Select Folder"
+  translation: "Выбрать папку"
+
+- text: "Open Folder Async"
+  translation: "Открыть папку (асинхр.)"
+
+- text: "Open Folder Directory"
+  translation: "Директория папки"
+
+- text: "Save File"
+  translation: "Сохранить файл"
+
+- text: "Save File Async"
+  translation: "Сохранить файл (асинхр.)"
+
+- text: "Save File Default Name"
+  translation: "Имя файла по умолч."
+
+- text: "Save File Default Name Ext"
+  translation: "Расширение файла по умолч."
+
+- text: "Save File Directory"
+  translation: "Директория сохранения"
+
+- text: "Save File Filter"
+  translation: "Фильтр сохранения"
+
+- text: "Example text created by StandaloneFileBrowser"
+  translation: "Example text created by StandaloneFileBrowser"
+  skip_translation: true
+
+- text: "Currently in Transition"
+  translation: "Currently in Transition"
+  skip_translation: true
+
+- text: "No existing Entries!"
+  translation: "Нет существующих записей!"
+
+- text: "Tried to set non-ExistingData Type"
+  translation: "Tried to set non-ExistingData Type"
+  skip_translation: true
+
+- text: "SELECT INVOKE"
+  translation: "ВЫБРАТЬ"
+
+- text: "No Dropdowndata"
+  translation: "No Dropdowndata"
+  skip_translation: true
+
+- text: "Rub Pussy"
+  translation: "Тереть киску"
+
+- text: "Use Blocker"
+  translation: "Использовать блокатор"
+
+- text: "masturbationStyle_Blocker not set"
+  translation: "masturbationStyle_Blocker not set"
+  skip_translation: true
+
+- text: "masturbationStyle_RubPussy not set"
+  translation: "masturbationStyle_RubPussy not set"
+  skip_translation: true
+
+- text: "HALLO ----"
+  translation: "HALLO ----"
+  skip_translation: true
+
+- text: "Trying to validate..."
+  translation: "Пытаюсь проверить..."
+
+- text: "Text -"
+  translation: "Text -"
+  skip_translation: true
+
+- text: "pts - Lorem ipsum dolor sit..."
+  translation: "pts - Lorem ipsum dolor sit..."
+  skip_translation: true
+
+- text: "Camera Target"
+  translation: "Camera Target"
+  skip_translation: true
+
+- text: "Mouse ScrollWheel"
+  translation: "Колёсико мыши"
+
+- text: "Link Index:"
+  translation: "Link Index:"
+  skip_translation: true
+
+- text: "Link ID: \""
+  translation: "Link ID: \""
+  skip_translation: true
+
+- text: "\"   Link Text: \""
+  translation: "\"   Link Text: \""
+  skip_translation: true
+
+- text: "The short description of"
+  translation: "The short description of"
+  skip_translation: true
+
+- text: "Lines are parallel"
+  translation: "Lines are parallel"
+  skip_translation: true
+
+- text: "Color Burn"
+  translation: "Затемнение цвета"
+
+- text: "Linear Burn"
+  translation: "Линейное затемнение"
+
+- text: "Darker Color"
+  translation: "Темнее"
+
+- text: "Color Dodge"
+  translation: "Осветление цвета"
+
+- text: "Linear Dodge"
+  translation: "Линейное осветление"
+
+- text: "Lighter Color"
+  translation: "Светлее"
+
+- text: "Soft Light"
+  translation: "Мягкий свет"
+
+- text: "Hard Light"
+  translation: "Жёсткий свет"
+
+- text: "Vivid Light"
+  translation: "Яркий свет"
+
+- text: "Linear Light"
+  translation: "Линейный свет"
+
+- text: "Pin Light"
+  translation: "Точечный свет"
+
+- text: "Hard Mix"
+  translation: "Жёсткая смесь"
+
+- text: "Pass Through"
+  translation: "Пропуск"
+
+- text: "obstructor System Platformer Instance couldn't be found in the scene"
+  translation: "obstructor System Platformer Instance couldn't be found in the scene"
+  skip_translation: true
+
+- text: "Parallax.cs : sprite is not set"
+  translation: "Parallax.cs : sprite is not set"
+  skip_translation: true
+
+- text: "Pointer updated!"
+  translation: "Pointer updated!"
+  skip_translation: true
+
+- text: "Recreating Keyboard Layout!"
+  translation: "Recreating Keyboard Layout!"
+  skip_translation: true
+
+- text: "Click was submitted by:"
+  translation: "Click was submitted by:"
+  skip_translation: true
+
+- text: "Pressed InputField"
+  translation: "Pressed InputField"
+  skip_translation: true
+
+- text: "Touchscreen was pressed!"
+  translation: "Touchscreen was pressed!"
+  skip_translation: true
+
+- text: "Submit Event"
+  translation: "Submit Event"
+  skip_translation: true
+
+- text: "Submit Event 2"
+  translation: "Submit Event 2"
+  skip_translation: true
+
+- text: "Move to the clicked location. Change to the suitable weight."
+  translation: "Move to the clicked location. Change to the suitable weight."
+  skip_translation: true
+
+- text: "Loop Enable"
+  translation: "Включить цикл"
+
+- text: "Loop Disable"
+  translation: "Выключить цикл"
+
+- text: "Girls' Night Out"
+  translation: "Девичник"
+
+- text: "A measure of someone's attractiveness."
+  translation: "Мера привлекательности персонажа."
+
+- text: "IsBunny: Character is null!"
+  translation: "IsBunny: Character is null!"
+  skip_translation: true
+
+- text: "Andro Parts"
+  translation: "Андро-части"
+
+- text: "Limb Effects"
+  translation: "Эффекты конечностей"
+
+- text: "Facial Hair"
+  translation: "Растительность на лице"
+
+- text: "Eye Left"
+  translation: "Левый глаз"
+
+- text: "Eye Right"
+  translation: "Правый глаз"
+
+- text: "Dick Size"
+  translation: "Размер члена"
+
+- text: "Base Skin"
+  translation: "Базовая кожа"
+
+- text: "Masturbation Cum"
+  translation: "Masturbation Cum"
+  skip_translation: true
+
+- text: "Do reset FSM"
+  translation: "Do reset FSM"
+  skip_translation: true
+
+- text: "Experience Zoey has gained using her tits"
+  translation: "Опыт Зои, полученный с помощью груди"
+
+- text: "Experience Zoey has gained using her ass"
+  translation: "Опыт Зои, полученный с помощью попы"
+
+- text: "Experience Zoey has gained using her vagina"
+  translation: "Опыт Зои, полученный с помощью вагины"
+
+- text: "Experience Zoey has gained using her mouth"
+  translation: "Опыт Зои, полученный с помощью рта"
+
+- text: "Amount of times Zoey has been groped."
+  translation: "Сколько раз Зои лапали."
+
+- text: "Vaginal Sex"
+  translation: "Вагинальный секс"
+
+- text: "Amount of times Zoey has had vaginal sex."
+  translation: "Сколько раз у Зои был вагинальный секс."
+
+- text: "Anal Sex"
+  translation: "Анальный секс"
+
+- text: "Amount of times Zoey has had anal sex."
+  translation: "Сколько раз у Зои был анальный секс."
+
+- text: "Amount of times Zoey has orgasmed."
+  translation: "Сколько раз Зои кончала."
+
+- text: "Amount of times Zoey has squirted."
+  translation: "Сколько раз Зои брызгала."
+
+- text: "ML Cum"
+  translation: "Мл спермы"
+
+- text: "How many ML of cum Zoey has caused."
+  translation: "Сколько мл спермы Зои вызвала."
+
+- text: "ML Anal Cum"
+  translation: "Мл анальной спермы"
+
+- text: "How many ML of cum Zoey has had in her ass."
+  translation: "Сколько мл спермы было в попе Зои."
+
+- text: "Facial cumshots"
+  translation: "Сперма на лице"
+
+- text: "Amount of cumshots Zoey has taken to her face."
+  translation: "Сколько раз Зои получала сперму на лицо."
+
+- text: "How often Zoey willingly watched lewdness."
+  translation: "Как часто Зои добровольно смотрела пошлость."
+
+- text: "How often Zoey showed a lot of her body publicly."
+  translation: "Как часто Зои показывала много тела на публике."
+
+- text: "Pussy Masturbation"
+  translation: "Мастурбация киски"
+
+- text: "How often Zoey fingered her Pussy."
+  translation: "Как часто Зои трогала свою киску."
+
+- text: "Anal Masturbation"
+  translation: "Анальная мастурбация"
+
+- text: "How often Zoey fingered her Ass."
+  translation: "Как часто Зои трогала свою попку."
+
+- text: "Orgasms Denied"
+  translation: "Отказано в оргазме"
+
+- text: "How often Zoey was denied an orgasm."
+  translation: "Как часто Зои отказывали в оргазме."
+
+- text: "How submissive is Zoey."
+  translation: "Насколько Зои покорна."
+
+- text: "How dominant is Zoey."
+  translation: "Насколько Зои доминантна."
+
+- text: "Experience Zoey has gained by using her hands."
+  translation: "Опыт Зои, полученный с помощью рук."
+
+- text: "How perverted and corrupted you are."
+  translation: "Насколько вы развращены и испорчены."
+
+- text: "Sex Addict"
+  translation: "Сексоголик"
+
+- text: "New Patreon Version!"
+  translation: "Новая Patreon-версия!"
+
+- text: "is now available to play!\n\nClick the button below to play the latest version."
+  translation: "уже доступна!\n\nНажмите кнопку ниже, чтобы играть в последнюю версию."
+
+- text: "Play latest version"
+  translation: "Играть последнюю версию"
+
+- text: "UNKNOWN NAME"
+  translation: "НЕИЗВЕСТНОЕ ИМЯ"
+
+- text: "Could not find FSM:"
+  translation: "Не удалось найти FSM:"
+
+- text: "Ray Distance should be greater than zero!"
+  translation: "Дистанция луча должна быть больше нуля!"
+
+- text: "Invalid State!"
+  translation: "Неверное состояние!"
+
+- text: "Fsm will not respond to Event:"
+  translation: "FSM не ответит на событие:"
+
+- text: "GameObject requires a RigidBody2D or Collider2D component!"
+  translation: "GameObject требует компонент RigidBody2D или Collider2D!"
+
+- text: "Could not add PlayMakerLegacyNetworking proxy!"
+  translation: "Не удалось добавить прокси PlayMakerLegacyNetworking!"
+
+- text: "Missing animation:"
+  translation: "Отсутствует анимация:"
+
+- text: "Missing Animation component on GameObject:"
+  translation: "Отсутствует компонент Animation на GameObject:"
+
+- text: "Missing animName!"
+  translation: "Отсутствует animName!"
+
+- text: "Getting Body Position should only be done in OnAnimatorIK"
+  translation: "Получение позиции тела должно быть только в OnAnimatorIK"
+
+- text: "Size out of range:"
+  translation: "Размер вне диапазона:"
+
+- text: "Could not find variable:"
+  translation: "Не удалось найти переменную:"
+
+- text: "Incompatible variable type:"
+  translation: "Несовместимый тип переменной:"
+
+- text: "Missing Audio Clip!"
+  translation: "Отсутствует аудиоклип!"
+
+- text: "Missing camera!"
+  translation: "Отсутствует камера!"
+
+- text: "No MainCamera defined!"
+  translation: "MainCamera не определена!"
+
+- text: "Define at least 2 colors to make a gradient."
+  translation: "Определите минимум 2 цвета для градиента."
+
+- text: "Missing component:"
+  translation: "Отсутствует компонент:"
+
+- text: "Can't add component:"
+  translation: "Не удаётся добавить компонент:"
+
+- text: "No such component:"
+  translation: "Нет такого компонента:"
+
+- text: "Specify Name, Tag, or both."
+  translation: "Укажите имя, тег или оба."
+
+- text: "Specify Child Name, Tag, or both."
+  translation: "Укажите имя ребёнка, тег или оба."
+
+- text: "Couldn't get type:"
+  translation: "Не удалось получить тип:"
+
+- text: "Images array doesn't match NumButtons."
+  translation: "Массив изображений не соответствует NumButtons."
+
+- text: "Texts array doesn't match NumButtons."
+  translation: "Массив текстов не соответствует NumButtons."
+
+- text: "Tooltips array doesn't match NumButtons."
+  translation: "Массив подсказок не соответствует NumButtons."
+
+- text: "LOAD COMPLETE"
+  translation: "ЗАГРУЗКА ЗАВЕРШЕНА"
+
+- text: "Action sends no events!"
+  translation: "Действие не отправляет события!"
+
+- text: "Missing Material!"
+  translation: "Отсутствует материал!"
+
+- text: "Missing MeshFilter!"
+  translation: "Отсутствует MeshFilter!"
+
+- text: "Null GameObject"
+  translation: "Нулевой GameObject"
+
+- text: "Source and Destination scenes can not be the same"
+  translation: "Исходная и целевая сцены не могут совпадать"
+
+- text: "GameObject must be a root"
+  translation: "GameObject должен быть корневым"
+
+- text: "At least one event setup is required"
+  translation: "Требуется как минимум одна настройка события"
+
+- text: "Can't add script:"
+  translation: "Не удаётся добавить скрипт:"
+
+- text: "Behaviour is invalid!"
+  translation: "Поведение недействительно!"
+
+- text: "Invalid Method Name or Parameters:"
+  translation: "Неверное имя метода или параметры:"
+
+- text: "Parameter count does not match method.\nMethod has"
+  translation: "Количество параметров не соответствует методу.\nМетод имеет"
+
+- text: "parameters.\nYou specified"
+  translation: "параметров.\nВы указали"
+
+- text: "Parameters do not match method signature.\nParameter"
+  translation: "Параметры не соответствуют сигнатуре метода.\nПараметр"
+
+- text: "Method does not have return.\nSpecify 'none' in Store Result."
+  translation: "Метод не имеет возвращаемого значения.\nУкажите 'none' в Store Result."
+
+- text: "Store Result is of the wrong type.\nIt should be of type:"
+  translation: "Store Result имеет неверный тип.\nДолжен быть типа:"
+
+- text: "Class is invalid:"
+  translation: "Класс недействителен:"
+
+- text: "Behaviour missing"
+  translation: "Поведение отсутствует"
+
+- text: "Missing FsmComponent!"
+  translation: "Отсутствует FsmComponent!"
+
+- text: "Missing Variable:"
+  translation: "Отсутствует переменная:"
+
+- text: "Goto Previous State:"
+  translation: "Перейти к предыдущему состоянию:"
+
+- text: "GameObject doesn't have FsmComponent:"
+  translation: "GameObject не имеет FsmComponent:"
+
+- text: "Missing GameObject"
+  translation: "Отсутствует GameObject"
+
+- text: "Missing UI.Button on"
+  translation: "Отсутствует UI.Button на"
+
+- text: "Missing UI.Toggle on"
+  translation: "Отсутствует UI.Toggle на"
+
+- text: "Unity Web Request is Null!"
+  translation: "Unity Web Request равен Null!"
+
+- text: "Set time to:"
+  translation: "Установить время:"
+
+- text: "No UnityEngine.UI.Text on"
+  translation: "Нет UnityEngine.UI.Text на"
+
+- text: "Mission: The base mission for '"
+  translation: "Миссия: базовая миссия для '"
+
+- text: "Mission Name"
+  translation: "Название миссии"
+
+- text: "Task Name"
+  translation: "Название задачи"
+
+- text: "Mission: The base task for '"
+  translation: "Миссия: базовая задача для '"
+
+- text: "MissionContainer: There should NOT be more than one task with ID '"
+  translation: "MissionContainer: Не должно быть более одной задачи с ID '"
+
+- text: "MissionContainer: There should NOT be more than one mission with ID '"
+  translation: "MissionContainer: Не должно быть более одной миссии с ID '"
+
+- text: "MissionEnabler: '"
+  translation: "MissionEnabler: '"
+  skip_translation: true
+
+- text: "Mission: '"
+  translation: "Миссия: '"
+
+- text: "NewMission: Tried to start a new mission with null!"
+  translation: "NewMission: Попытка запустить новую миссию с null!"
+
+- text: "NewTask: Unable to start task: '"
+  translation: "NewTask: Не удалось запустить задачу: '"
+
+- text: "Task: '"
+  translation: "Задача: '"
+
+- text: "SerializableMission: No base mission was found for"
+  translation: "SerializableMission: Базовая миссия не найдена для"
+
+- text: "! Was the mission ScriptableObject removed or the ID changed?"
+  translation: "! Был ли ScriptableObject миссии удалён или изменён ID?"
+
+- text: "SerializableTask: No base task was found for"
+  translation: "SerializableTask: Базовая задача не найдена для"
+
+- text: "! Was the task ScriptableObject removed or the ID changed?"
+  translation: "! Был ли ScriptableObject задачи удалён или изменён ID?"
+
+- text: "TaskProgressor: No target task assigned! Disabling self."
+  translation: "TaskProgressor: Целевая задача не назначена! Отключаю себя."
+
+- text: "TaskProgressor: Task '"
+  translation: "TaskProgressor: Задача '"
+
+- text: "TappingMinigame ERROR: TRIED TO SET INVALID BOLT STATUS"
+  translation: "TappingMinigame ОШИБКА: ПОПЫТКА УСТАНОВИТЬ НЕВЕРНЫЙ СТАТУС БОЛТА"
+
+- text: "Vehicle: Unable to exit! No vacant exit points."
+  translation: "Транспорт: Невозможно выйти! Нет свободных точек выхода."
+
+- text: "LockpickDoor: Attached door requires a LockedSaveKey for this to function."
+  translation: "LockpickDoor: Прикреплённая дверь требует LockedSaveKey для работы."
+
+- text: "LockpickingManager: LockIndicator is null! Wtf? '"
+  translation: "LockpickingManager: LockIndicator равен null! Какого? '"
+
+- text: "LockpickingManager: Lock instance is null! Wtf? '"
+  translation: "LockpickingManager: Экземпляр замка равен null! Какого? '"
+
+- text: "LockpickingManager: LockIndicatorPrefab is null! Wtf? '"
+  translation: "LockpickingManager: LockIndicatorPrefab равен null! Какого? '"
+
+- text: "Current Journal Entries"
+  translation: "Текущие записи журнала"
+
+- text: "Stopbark - ToStop is null!"
+  translation: "Stopbark - ToStop равен null!"
+
+- text: "DialogueManager: Skipping..."
+  translation: "DialogueManager: Пропуск..."
+
+- text: "DialogueManager: Ending dialogue: '"
+  translation: "DialogueManager: Завершение диалога: '"
+
+- text: "DialogueManager: Dialogue ended."
+  translation: "DialogueManager: Диалог завершён."
+
+- text: "Dialogue: Tried to start dialogue with null!"
+  translation: "Dialogue: Попытка запустить диалог с null!"
+
+- text: "DialogueManager: Starting dialogue: '"
+  translation: "DialogueManager: Запуск диалога: '"
+
+- text: "DialogueManager: Playing line: '"
+  translation: "DialogueManager: Воспроизведение строки: '"
+
+- text: "Dialogue: Tried to Forward when current is null!"
+  translation: "Dialogue: Попытка перемотки, когда текущая строка равна null!"
+
+- text: "A scene in the gallery entry"
+  translation: "Сцена в записи галереи"
+
+- text: "Pinup Unlocked!"
+  translation: "Пикап разблокирован!"
+
+- text: "GalleryImage AddressableImage was set to None for"
+  translation: "GalleryImage AddressableImage установлен в None для"
+
+- text: "Press to Show Hint"
+  translation: "Нажмите для подсказки"
+
+- text: "Press to show hint"
+  translation: "Нажмите для подсказки"
+
+- text: "SDT CUM CATCHER"
+  translation: "ЛОВУШКА СПЕРМЫ SDT"
+
+- text: "DialogueUI: Tried to populate backgrounds with a null DialogueLine!"
+  translation: "DialogueUI: Попытка заполнить фоны с null DialogueLine!"
+
+- text: "Caught Exeption while closing dialogue. Fix this in future!"
+  translation: "Перехвачено исключение при закрытии диалога. Исправить в будущем!"
+
+- text: "Can't forward Dialogue because ExternalCanForward is set:"
+  translation: "Нельзя перемотать диалог, так как установлен ExternalCanForward:"
+
+- text: "Cutscene: Null Director"
+  translation: "Cutscene: нулевой Director"
+
+- text: "Cutscene: Starting cutscene: '"
+  translation: "Cutscene: Запуск катсцены: '"
+
+- text: "Cutscene: Ending cutscene: '"
+  translation: "Cutscene: Завершение катсцены: '"
+
+- text: "Collectible: No type specified in"
+  translation: "Collectible: Тип не указан в"
+
+- text: "Collectible: No id specified in"
+  translation: "Collectible: ID не указан в"
+
+- text: "You've found a"
+  translation: "Вы нашли"
+
+- text: "Reward unlocked!"
+  translation: "Награда разблокирована!"
+
+- text: "CollectibleManager: Could not find collectible type '"
+  translation: "CollectibleManager: Не удалось найти тип коллекционного предмета '"
+
+- text: "SerializedVisualLayerInfo: VisualLayerInfo is null!"
+  translation: "SerializedVisualLayerInfo: VisualLayerInfo равен null!"
+
+- text: "Repair all worn equipment in party."
+  translation: "Починить всю надетую экипировку в группе."
+
+- text: "Repair all equipment in party inventory."
+  translation: "Починить всю экипировку в инвентаре группы."
+
+- text: "Unnamed Inventory"
+  translation: "Безымянный инвентарь"
+
+- text: "Tried to enable ItemReplacementVisual with name:"
+  translation: "Попытка включить ItemReplacementVisual с именем:"
+
+- text: "not found on Skeleton."
+  translation: "не найдено на Skeleton."
+
+- text: "I'm too weak to use this!"
+  translation: "Я слишком слаба, чтобы это использовать!"
+
+- text: "I can't wear that until I'm wearing"
+  translation: "Я не могу это надеть, пока не надену"
+
+- text: "I need"
+  translation: "Мне нужно"
+
+- text: "I'm not taking my clothes off here!"
+  translation: "Я не буду раздеваться здесь!"
+
+- text: "Eject memory card"
+  translation: "Извлечь карту памяти"
+
+- text: "Insert memory card"
+  translation: "Вставить карту памяти"
+
+- text: "View Photos"
+  translation: "Просмотр фото"
+
+- text: "You don't have any memory cards to insert!"
+  translation: "У вас нет карт памяти для вставки!"
+
+- text: "Choose a memory card to insert..."
+  translation: "Выберите карту памяти для вставки..."
+
+- text: "Take Picture"
+  translation: "Сделать снимок"
+
+- text: "MEMORY CARD: MAXIMUM COUNT EXCEEDED!"
+  translation: "КАРТА ПАМЯТИ: ПРЕВЫШЕНО МАКСИМАЛЬНОЕ КОЛИЧЕСТВО!"
+
+- text: "Nudity Detected"
+  translation: "Обнаружена нагота"
+
+- text: "Item: '"
+  translation: "Предмет: '"
+
+- text: "This item isn't usable in the free version!"
+  translation: "Этот предмет нельзя использовать в бесплатной версии!"
+
+- text: "I can't use"
+  translation: "Я не могу использовать"
+
+- text: "Now is not the time to use that!"
+  translation: "Сейчас не время это использовать!"
+
+- text: "IsEquipmentEquipped: Character is null!"
+  translation: "IsEquipmentEquipped: Персонаж равен null!"
+
+- text: "IsEquipmentEquipped: Equipment is null!"
+  translation: "IsEquipmentEquipped: Экипировка равна null!"
+
+- text: "| GetDataFromItem: Item doesn't exist! Returning empty DynamicTable."
+  translation: "| GetDataFromItem: Предмет не существует! Возвращаю пустой DynamicTable."
+
+- text: "Pulled Flaps"
+  translation: "Оттянутые половые губы"
+
+- text: "View item shop."
+  translation: "Посмотреть магазин предметов."
+
+- text: "Are you sure you want to purchase '"
+  translation: "Вы уверены, что хотите купить '"
+
+- text: "I can't purchase any more of that!"
+  translation: "Я не могу купить больше этого!"
+
+- text: "I don't have everything needed for that!"
+  translation: "У меня нет всего необходимого для этого!"
+
+- text: "I can't remove"
+  translation: "Я не могу снять"
+
+- text: "NNItemPopupUI: ItemPopulate is not Set."
+  translation: "NNItemPopupUI: ItemPopulate не установлен."
+
+- text: "CharacterStats: '"
+  translation: "CharacterStats: '"
+  skip_translation: true
+
+- text: "You were not able to store all the fB collected! Upgrade your wallet at an ATM."
+  translation: "Вы не смогли сохранить все собранные fB! Улучшите кошелёк в банкомате."
+
+- text: "Do Reset"
+  translation: "Сбросить"
+
+- text: "Blocker Recharged!"
+  translation: "Блокировщик перезаряжен!"
+
+- text: "Stat '"
+  translation: "Стат '"
+
+- text: "Character '"
+  translation: "Персонаж '"
+
+- text: "Player character could not be found!"
+  translation: "Персонаж игрока не найден!"
+
+- text: "Specify the amount you want to add."
+  translation: "Укажите сумму, которую хотите добавить."
+
+- text: "Missing skin \""
+  translation: "Отсутствует скин \""
+
+- text: "ERROR: Tried adding Null skin"
+  translation: "ОШИБКА: Попытка добавить Null скин"
+
+- text: "HasLimbEffect: Character is null!"
+  translation: "HasLimbEffect: Персонаж равен null!"
+
+- text: "HasLimbEffect: Effect is null!"
+  translation: "HasLimbEffect: Эффект равен null!"
+
+- text: "PartyFollowerDialogues: Follower does not exist in"
+  translation: "PartyFollowerDialogues: Спутник не существует в"
+
+- text: "PartyFollowerDialogues: Dialogue does not exist in"
+  translation: "PartyFollowerDialogues: Диалог не существует в"
+
+- text: "PartyFollowers.GetFollower: No follower found for"
+  translation: "PartyFollowers.GetFollower: Спутник не найден для"
+
+- text: "CharacterTarget object is not of type Character."
+  translation: "Объект CharacterTarget не является типом Character."
+
+- text: "NO OWNER"
+  translation: "НЕТ ВЛАДЕЛЬЦА"
+
+- text: "Could not find Pose Animation:"
+  translation: "Не удалось найти анимацию позы:"
+
+- text: "A measurement of how healthy you currently are."
+  translation: "Показатель вашего текущего здоровья."
+
+- text: "HealthHandler: Stat not found!"
+  translation: "HealthHandler: Стат не найден!"
+
+- text: "You are now hidden! Move to exit."
+  translation: "Вы спрятались! Двигайтесь к выходу."
+
+- text: "Did ever pick up any Journal"
+  translation: "Когда-либо подбирал журнал"
+
+- text: "CheckDoorLocked: Door is null!"
+  translation: "CheckDoorLocked: Дверь равна null!"
+
+- text: "Character or Effect missing."
+  translation: "Персонаж или эффект отсутствует."
+
+- text: "is null. Resetting to Player."
+  translation: "равен null. Сбрасываю на игрока."
+
+- text: "OnTaskSet fired in PMA_CheckTaskStatus, but _Task or _MissionToCheck is null."
+  translation: "OnTaskSet сработал в PMA_CheckTaskStatus, но _Task или _MissionToCheck равен null."
+
+- text: "InputManager: Bind '"
+  translation: "InputManager: Привязка '"
+
+- text: "InputManager: Axis '"
+  translation: "InputManager: Ось '"
+
+- text: "Options: '"
+  translation: "Опции: '"
+
+- text: "EZFade OnDestroy failed with"
+  translation: "EZFade OnDestroy не удался с"
+
+- text: "New Game"
+  translation: "Новая игра"
+
+- text: "Resolution Scaling"
+  translation: "Масштабирование разрешения"
+
+- text: "Environment Effects"
+  translation: "Эффекты окружения"
+
+- text: "Realtime Reflections"
+  translation: "Отражения в реальном времени"
+
+- text: "Post Processing"
+  translation: "Пост-обработка"
+
+- text: "Press any key to bind, escape to cancel, backspace to clear."
+  translation: "Нажмите любую клавишу для привязки, escape для отмены, backspace для очистки."
+
+- text: "Popup: Popup component not found on popup prefab!"
+  translation: "Popup: Компонент Popup не найден на префабе popup!"
+
+- text: "Other UI"
+  translation: "Другой UI"
+
+- text: "Player Input Restrained"
+  translation: "Ввод игрока заблокирован"
+
+- text: "Gameplay Cutscene"
+  translation: "Игровая катсцена"
+
+- text: "Are you sure you want to delete your save?"
+  translation: "Вы уверены, что хотите удалить сохранение?"
+
+- text: "You cannot overwrite a save called '"
+  translation: "Вы не можете перезаписать сохранение с именем '"
+
+- text: "'! Create a new save!"
+  translation: "'! Создайте новое сохранение!"
+
+- text: "You cannot create a save called '"
+  translation: "Вы не можете создать сохранение с именем '"
+
+- text: "'! Use another name!"
+  translation: "'! Используйте другое имя!"
+
+- text: "You need to enter the name of the save you want to create!"
+  translation: "Введите имя сохраняемой игры!"
+
+- text: "2: Ensure your phone is on the same wifi as the device playing Third Crisis."
+  translation: "2: Убедитесь, что ваш телефон в той же сети Wi-Fi, что и устройство с Third Crisis."
+
+- text: "3: In the app, go to 'Discover' and enable 'Game Mode'."
+  translation: "3: В приложении перейдите в 'Discover' и включите 'Game Mode'."
+
+- text: "5: Enter the 'Local IP' from the app into the game's 'Local IP' setting."
+  translation: "5: Введите 'Local IP' из приложения в настройку 'Local IP' игры."
+
+- text: "6: Enter the 'SSL Port' from the app into the game's 'Port' setting."
+  translation: "6: Введите 'SSL Port' из приложения в настройку 'Port' игры."
+
+- text: "7: Enable the 'Enabled' setting in the game."
+  translation: "7: Включите настройку 'Enabled' в игре."
+
+- text: "LOVENSE: LovenseRemote SDK was not initialized yet. Trying again next frame."
+  translation: "LOVENSE: SDK LovenseRemote ещё не инициализирован. Повторная попытка на следующем кадре."
+
+- text: "Getting Toys from Lovense API."
+  translation: "Получение игрушек из Lovense API."
+
+- text: "LOVENSE: HTTP server not started or disabled."
+  translation: "LOVENSE: HTTP-сервер не запущен или отключён."
+
+- text: "LOVENSE: Invalid Command."
+  translation: "LOVENSE: Неверная команда."
+
+- text: "LOVENSE: Toy Not Found."
+  translation: "LOVENSE: Игрушка не найдена."
+
+- text: "LOVENSE: Toy Doesn't Support This Command."
+  translation: "LOVENSE: Игрушка не поддерживает эту команду."
+
+- text: "LOVENSE: Invalid Parameter."
+  translation: "LOVENSE: Неверный параметр."
+
+- text: "LOVENSE: Server Error. Restart Lovense Connect."
+  translation: "LOVENSE: Ошибка сервера. Перезапустите Lovense Connect."
+
+- text: "Received Toys:"
+  translation: "Получены игрушки:"
+
+- text: "CONNECTED, NO TOYS FOUND"
+  translation: "ПОДКЛЮЧЕНО, ИГРУШЕК НЕ НАЙДЕНО"
+
+- text: "LOVENSE: Connected to app, but no toys found."
+  translation: "LOVENSE: Подключено к приложению, но игрушки не найдены."
+
+- text: "APP NOT FOUND"
+  translation: "ПРИЛОЖЕНИЕ НЕ НАЙДЕНО"
+
+- text: "2: Enable the 'Enabled' setting in the game."
+  translation: "2: Включите настройку 'Enabled' в игре."
+
+- text: "Lovense Toy Search"
+  translation: "Поиск игрушек Lovense"
+
+- text: "::TOYS FOUND::"
+  translation: "::ИГРУШКИ НАЙДЕНЫ::"
+
+- text: "LOVENSE TOY FOUND:"
+  translation: "ИГРУШКА LOVENSE НАЙДЕНА:"
+
+- text: "::SEARCH ENDED::"
+  translation: "::ПОИСК ЗАВЕРШЁН::"
+
+- text: "DLC: Steam shows that the DLC is installed!"
+  translation: "DLC: Steam показывает, что DLC установлен!"
+
+- text: "DLC: This is a patron build! DLC is installed."
+  translation: "DLC: Это патреон-сборка! DLC установлен."
+
+- text: "DLC: DLC is not installed!"
+  translation: "DLC: DLC не установлен!"
+
+- text: "Can only show folder on windows."
+  translation: "Можно показать папку только в Windows."
+
+- text: "SaveManager: Clearing save..."
+  translation: "SaveManager: Очистка сохранения..."
+
+- text: "SaveManager: Saving game:"
+  translation: "SaveManager: Сохранение игры:"
+
+- text: "Overwrite Save"
+  translation: "Перезаписать сохранение"
+
+- text: "After Prologue"
+  translation: "После пролога"
+
+- text: "0.6 Content"
+  translation: "Контент 0.6"
+
+- text: "0.8 Content"
+  translation: "Контент 0.8"
+
+- text: "0.9 Content"
+  translation: "Контент 0.9"
+
+- text: "0.13 Content"
+  translation: "Контент 0.13"
+
+- text: "Peitho Ending"
+  translation: "Концовка Пейто"
+
+- text: "Carcen Joined Resistance"
+  translation: "Карсен присоединился к Сопротивлению"
+
+- text: "CreateEffect: No effect string or object was supplied!"
+  translation: "CreateEffect: Не предоставлена строка или объект эффекта!"
+
+- text: "ANAnimator: Tried to get layer that doesn't exist '"
+  translation: "ANAnimator: Попытка получить несуществующий слой '"
+
+- text: "Could not find key"
+  translation: "Не удалось найти ключ"
+
+- text: "in Bool values"
+  translation: "в Bool значениях"
+
+- text: "in Float values"
+  translation: "в Float значениях"
+
+- text: "Unnamed Layer"
+  translation: "Безымянный слой"
+
+- text: "Unnamed State"
+  translation: "Безымянное состояние"
+
+- text: "CharController: Adding Input Restraint:"
+  translation: "CharController: Добавление ограничения ввода:"
+
+- text: "CharController: Removing Input Restraint:"
+  translation: "CharController: Удаление ограничения ввода:"
+
+- text: "Default ID"
+  translation: "ID по умолчанию"
+
+- text: "InteractableTypes: '"
+  translation: "InteractableTypes: '"
+  skip_translation: true
+
+- text: "Entity: More than one player entity is currently active!"
+  translation: "Entity: Активно более одной сущности игрока!"
+
+- text: "Movement slowed to normal!"
+  translation: "Скорость движения восстановлена до нормальной!"
+
+- text: "TrailHandler: Could not find CharController component in parent! Removing..."
+  translation: "TrailHandler: Не удалось найти компонент CharController в родителе! Удаляю..."
+
+- text: "Limiting FPS to"
+  translation: "Ограничение FPS до"
+
+- text: "WARNING: Setting FPS higher than normal may break player movement!"
+  translation: "ВНИМАНИЕ: Установка FPS выше нормы может сломать движение игрока!"
+
+- text: "WARNING: Setting FPS lower than normal may make the game unplayable!"
+  translation: "ВНИМАНИЕ: Установка FPS ниже нормы может сделать игру неиграбельной!"
+
+- text: "DynamicKey: Tried to add unknown type '"
+  translation: "DynamicKey: Попытка добавить неизвестный тип '"
+
+- text: "Console initialized!"
+  translation: "Консоль инициализирована!"
+
+- text: "Type 'help' for list of commands!"
+  translation: "Введите 'help' для списка команд!"
+
+- text: "Click me!"
+  translation: "Нажми на меня!"
+
+- text: "List of commands"
+  translation: "Список команд"
+
+- text: "Console: ConCommand '"
+  translation: "Console: ConCommand '"
+  skip_translation: true
+
+- text: "Playmaker Blur"
+  translation: "Размытие Playmaker"
+
+- text: "Master Volume"
+  translation: "Громкость"
+
+- text: "Internal Monologue"
+  translation: "Внутренний монолог"
+
+- text: "Lowpassed VA"
+  translation: "Приглушённая озвучка"
+
+- text: "Sex Sounds"
+  translation: "Звуки секса"
+
+- text: "GlowingHole BarMusic Volume"
+  translation: "Громкость музыки GlowingHole"
+
+- text: "Sounds VA Duck"
+  translation: "Приглушение звуков озвучкой"
+
+- text: "Unable to enter from this side."
+  translation: "Нельзя войти с этой стороны."
+
+- text: "Unlocked by"
+  translation: "Разблокировано"
+
+- text: "LevelTransition: Level does not exist at build index '"
+  translation: "LevelTransition: Уровень не существует по индексу сборки '"
+
+- text: "Base Layer"
+  translation: "Базовый слой"
+
+- text: "Starting room layout generation!"
+  translation: "Запуск генерации планировки комнат!"
+
+- text: "Need more rooms... Generating a new one."
+  translation: "Нужно больше комнат... Генерирую новую."
+
+- text: "filteredList has count:"
+  translation: "filteredList имеет количество:"
+
+- text: "Attempting to generate room from filteredList with count:"
+  translation: "Попытка сгенерировать комнату из filteredList с количеством:"
+
+- text: "Generation took longer than max allowed time! Stopping generation..."
+  translation: "Генерация заняла больше максимально допустимого времени! Остановка генерации..."
+
+- text: "Attaching exit room!"
+  translation: "Прикрепление выходной комнаты!"
+
+- text: "Layout completed in"
+  translation: "Планировка завершена за"
+
+- text: "Renderer ordering completed in"
+  translation: "Упорядочивание рендереров завершено за"
+
+- text: "Generation Complete! Completed in"
+  translation: "Генерация завершена! Завершено за"
+
+- text: "Checking room for filtering:"
+  translation: "Проверка комнаты для фильтрации:"
+
+- text: "Forced use! Only using this room..."
+  translation: "Принудительное использование! Использую только эту комнату..."
+
+- text: "This room was used last! Skipping..."
+  translation: "Эта комната использовалась последней! Пропускаю..."
+
+- text: "This room is either an entry or an exit! Skipping..."
+  translation: "Эта комната — вход или выход! Пропускаю..."
+
+- text: "This room is not allowed to generate! Skipping..."
+  translation: "Этой комнате запрещено генерироваться! Пропускаю..."
+
+- text: "FilteredList is 0!"
+  translation: "FilteredList равен 0!"
+
+- text: "Generated room:"
+  translation: "Сгенерирована комната:"
+
+- text: "SIBLING PORT ALREADY ATTACHED TO"
+  translation: "СОСЕДНИЙ ПОРТ УЖЕ ПРИСОЕДИНЁН К"
+
+- text: "RoomGenerator: Could not find room ID: '"
+  translation: "RoomGenerator: Не удалось найти ID комнаты: '"
+
+- text: "' in the roomset! This is not good!"
+  translation: "' в наборе комнат! Это плохо!"
+
+- text: "No Charcontroller set in PMA_CharLookInDirection in state:"
+  translation: "Charcontroller не установлен в PMA_CharLookInDirection в состоянии:"
+
+- text: "PMA_LevelTransitionEnded: TransitionToLevel is null. +"
+  translation: "PMA_LevelTransitionEnded: TransitionToLevel равен null. +"
+
+- text: "Could not find Trigger in PlayMaker State:"
+  translation: "Не удалось найти Trigger в состоянии PlayMaker:"
+
+- text: "FsmTemplateHolder: Tried to instantiate template that doesn't exist!"
+  translation: "FsmTemplateHolder: Попытка создать экземпляр несуществующего шаблона!"
+
+- text: "GetComponentInChildrenFromComponent: Could not find type '"
+  translation: "GetComponentInChildrenFromComponent: Не удалось найти тип '"
+
+- text: "Missing ToMove or TargetPosition in"
+  translation: "Отсутствует ToMove или TargetPosition в"
+
+- text: "Completely Dead PMA_SetPosition"
+  translation: "Полностью мёртвый PMA_SetPosition"
+
+- text: "Skip going back to the motel to sleep?"
+  translation: "Пропустить возвращение в мотель для сна?"
+
+- text: "Skip sleeping"
+  translation: "Пропустить сон"
+

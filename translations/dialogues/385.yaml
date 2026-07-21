@@ -1,4 +1,8 @@
-- text: '...Something''s wrong but I can''t prove it.'
-  translation: '...Что-то не так, но я не могу это доказать.'
-- text: Welcome to the Witch's Cauldron~ What can I get ya~?
-  translation: Добро пожаловать в Ведьмин Котёл~ Что желаешь~?
+# Dialogues (path_id=385)
+
+- text: "...Something's wrong but I can't prove it."
+  translation: "...Что-то не так, но я не могу это доказать."
+
+- text: "Welcome to the Witch's Cauldron~ What can I get ya~?"
+  translation: "Добро пожаловать в Ведьмин Котёл~ Что желаешь~?"
+

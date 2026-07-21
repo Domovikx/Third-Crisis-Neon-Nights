@@ -1,2 +1,5 @@
-- text: Have you seen Rosie, the bartender?
-  translation: Ты не видела Рози, барменшу?
+# Dialogues (path_id=829)
+
+- text: "Have you seen Rosie, the bartender?"
+  translation: "Ты не видела Рози, барменшу?"
+

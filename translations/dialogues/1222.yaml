@@ -1,6 +1,10 @@
-- text: No! Boring! It would ruin my name for all time if I were to send anyone a letter containing such bland wording!
-  translation: Нет! Скучно! Это испортит моё имя навеки, если я пошлю кому-то письмо с такой пресной формулировкой!
-- text: (All the private massages in here are secretly recorded... )
-  translation: (Все приватные массажи здесь тайно записываются...)
-  rich_text: <i>(All the private massages in here are secretly recorded... )</i>
-  rich_translation: <i>(Все приватные массажи здесь тайно записываются...)</i>
+# Dialogues (path_id=1222)
+
+- text: "No! Boring! It would ruin my name for all time if I were to send anyone a letter containing such bland wording!"
+  translation: "Нет! Скучно! Это испортит моё имя навеки, если я пошлю кому-то письмо с такой пресной формулировкой!"
+
+- text: "(All the private massages in here are secretly recorded... )"
+  translation: "(Все приватные массажи здесь тайно записываются...)"
+  rich_text: "<i>(All the private massages in here are secretly recorded... )</i>"
+  rich_translation: "<i>(Все приватные массажи здесь тайно записываются...)</i>"
+
